@@ -1,7 +1,4 @@
-exx_wall
-exx_trim
-exx_panel
-exx_light
-exx_floor
-exx_base
 exosystem
+exx
+trak5x
+trak4x
