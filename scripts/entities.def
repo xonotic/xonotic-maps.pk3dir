@@ -1775,14 +1775,6 @@ Must target a target_position that indicates the view to be shown (and whose ang
 target: must point to a target_position
 */
 
-/*QUAKED trigger_gravity (.5 .5 .5) ?
-An area in which gravity differs from the rest of the map. Only works if the gravity mutator is inactive (sv_gravity is set to default)
-This acts as a modifier from the normal gravity. eg: 0.5 is half of the normal gravity, 2 is twice the normal gravity.
--------- KEYS --------
-gravity: the gravity in this area
-noise: sound file to play when an entity enters this, leave empty to disable
-*/
-
 /*QUAKED trigger_gravity (.5 .5 1) ? STICKY START_OFF
 An area where gravity differs from the rest of the map.
 This acts as a modifier over the normal gravity (sv_gravity). eg: 0.5 is half the normal gravity, 2 is twice the normal gravity.
