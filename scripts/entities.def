@@ -1779,7 +1779,7 @@ target: must point to a target_position
 An area where gravity differs from the rest of the map.
 This acts as a modifier over the normal gravity (sv_gravity). eg: 0.5 is half the normal gravity, 2 is twice the normal gravity.
 -------- KEYS --------
-gravity: gravity offset in this area
+gravity: gravity offset in this area, defaults to 0 if not set
 noise: sound to play when an entity enters the gravity zone, leave empty to disable
 targetname: you can use this to target the grazity zone with a trigger, which will toggle it when activated
 -------- SPAWNFLAGS --------
