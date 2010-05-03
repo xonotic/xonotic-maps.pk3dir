@@ -1431,7 +1431,7 @@ Example is a Mario-style question mark block which could throw a new weapon_nex 
 -------- KEYS --------
 targetname: used to trigger this
 message: entity field list
-target: when set, target_spawn edits entities, instead of creating new ones
+target: when set, target_spawn edits entities, instead of creating new ones; the special value *activator causes the activator to be edited
 count: make sure no more than count entities have been created by this (refuse to spawn new ones if exceeded)
 killtarget: reference entity (can be used as $killtarget)
 target2: reference entity (can be used as $target2)
