@@ -1783,12 +1783,14 @@ gravity: the gravity in this area
 noise: sound file to play when an entity enters this, leave empty to disable
 */
 
-/*QUAKED trigger_gravity (.5 .5 1) ? STICKY
+/*QUAKED trigger_gravity (.5 .5 1) ? STICKY START_OFF
 An area where gravity differs from the rest of the map.
 This acts as a modifier over the normal gravity (sv_gravity). eg: 0.5 is half the normal gravity, 2 is twice the normal gravity.
 -------- KEYS --------
 gravity: gravity offset in this area
 noise: sound to play when an entity enters the gravity zone, leave empty to disable
+targetname: you can use this to target the grazity zone with a trigger, which will toggle it when activated
 -------- SPAWNFLAGS --------
 STICKY: entities keep their gravity after leaving the gravity zone
+START_OFF: when targeted, the gravity zone starts off and is enabled upon triggering
 */
