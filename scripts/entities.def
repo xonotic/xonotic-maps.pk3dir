@@ -1431,7 +1431,7 @@ Example is a Mario-style question mark block which could throw a new weapon_nex 
 -------- KEYS --------
 targetname: used to trigger this
 message: entity field list
-target: when set, target_spawn edits entities, instead of creating new ones
+target: when set, target_spawn edits entities, instead of creating new ones; the special value *activator causes the activator to be edited
 count: make sure no more than count entities have been created by this (refuse to spawn new ones if exceeded)
 killtarget: reference entity (can be used as $killtarget)
 target2: reference entity (can be used as $target2)
@@ -1789,3 +1789,42 @@ Must target a target_position that indicates the view to be shown (and whose ang
 target: must point to a target_position
 */
 
+/*QUAKED target_music (1 0 0) (-8 -8 -8) (8 8 8)
+Background music target (when this is used, the cdtrack line in mapinfo must not be used, and there MUST be a default target_music).
+When triggered, the background music is switched to the given track.
+When targetname is not set, this is the default track of the map.
+-------- KEYS --------
+targetname: The name other entities can use to target this entity (when not set, this one is the default)
+noise: the music to play (as full sound file name)
+volume: the volume (default: 1)
+fade_time: fade-in time
+fade_rate: fade-out time
+lifetime: when set, the music created by this target is switched back to the default one when this time expires
+-------- SPAWNFLAGS --------
+START_OFF: the trigger is off initially
+*/
+
+/*QUAKED trigger_music (1 0 0) ?
+Background music trigger (when this is used, the cdtrack line in mapinfo must not be used, and there MUST be a default target_music).
+When triggered, its effect is turned off until triggered again.
+-------- KEYS --------
+targetname: The name other entities can use to target this entity
+noise: the music to play (as full sound file name)
+volume: the volume (default: 1)
+fade_time: fade-in time
+fade_rate: fade-out time
+-------- SPAWNFLAGS --------
+START_OFF: the trigger is off initially
+*/
+
+/*QUAKED trigger_gravity (.5 .5 1) ? STICKY START_OFF
+An area where gravity differs from the rest of the map.
+This acts as a modifier over the normal gravity (sv_gravity). eg: 0.5 is half the normal gravity, 2 is twice the normal gravity.
+-------- KEYS --------
+gravity: gravity offset in this area, defaults to 0 if not set
+noise: sound to play when an entity enters the gravity zone, leave empty to disable
+targetname: you can use this to target the grazity zone with a trigger, which will toggle it when activated
+-------- SPAWNFLAGS --------
+STICKY: entities keep their gravity after leaving the gravity zone
+START_OFF: when targeted, the gravity zone starts off and is enabled upon triggering
+*/
