@@ -376,7 +376,7 @@ textures/exx/floor-grate01
 
 	{
 		map textures/exx/floor/floor_grate01.tga
-		blendFunc blend
+            alphaFunc GT0
 	}
 	{
 		map $lightmap
@@ -401,7 +401,7 @@ textures/exx/floor-grate02
 
 	{
 		map textures/exx/floor/floor_grate02.tga
-		blendFunc blend
+            alphaFunc GT0
 	}
 	{
 		map $lightmap
@@ -426,7 +426,7 @@ textures/exx/floor-grate03
 
 	{
 		map textures/exx/floor/floor_grate03.tga
-		blendFunc blend
+            alphaFunc GT0
 	}
 	{
 		map $lightmap
@@ -451,7 +451,7 @@ textures/exx/floor-grate04
 
 	{
 		map textures/exx/floor/floor_grate04.tga
-		blendFunc blend
+            alphaFunc GT0
 	}
 	{
 		map $lightmap
@@ -1306,6 +1306,30 @@ textures/exx/trim-vert01
 		blendfunc filter
 	}
 }
+textures/exx/trim-horz01
+{
+	qer_editorimage textures/exx/trim/trim_horz01.tga
+	
+	surfaceparm metalsteps
+	q3map_bounceScale  1.5
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
+
+
+	{
+		map textures/exx/trim/trim_horz01.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+
 textures/exx/wall-bigrib02
 {
 	qer_editorimage textures/exx/wall/wall_bigrib02.tga
