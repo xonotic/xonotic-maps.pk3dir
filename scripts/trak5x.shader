@@ -783,7 +783,7 @@ textures/trak5x/light-light1a
 	
 	q3map_bounceScale 1.25
 
-	surfacelight 1500
+	q3map_surfacelight 1500
 
 	{
 		map textures/trak5x/light/light_light1a.tga
@@ -803,7 +803,7 @@ textures/trak5x/light-light2a
 	
 	q3map_bounceScale 1.25
 
-	surfacelight 1500
+	q3map_surfacelight 1500
 
 	{
 		map textures/trak5x/light/light_light2a.tga
@@ -823,7 +823,7 @@ textures/trak5x/light-light3a
 	
 	q3map_bounceScale 1.25
 
-	surfacelight 1500
+	q3map_surfacelight 1500
 
 	{
 		map textures/trak5x/light/light_light3a.tga
