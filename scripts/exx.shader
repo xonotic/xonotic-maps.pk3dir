@@ -2,7 +2,10 @@ textures/exx/base-crete01
 {
 	qer_editorimage textures/exx/base/base_crete01.tga
 	
-	q3map_bounceScale 0.5
+	q3map_bounceScale  0.5
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -21,7 +24,10 @@ textures/exx/base-crete01blue
 {
 	qer_editorimage textures/exx/base/base_crete01blue.tga
 	
-	q3map_bounceScale 0.5
+	q3map_bounceScale  0.5
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -40,7 +46,10 @@ textures/exx/base-crete01red
 {
 	qer_editorimage textures/exx/base/base_crete01red.tga
 	
-	q3map_bounceScale 0.5
+	q3map_bounceScale  0.5
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -59,7 +68,10 @@ textures/exx/base-crete02
 {
 	qer_editorimage textures/exx/base/base_crete02.tga
 	
-	q3map_bounceScale 0.5
+	q3map_bounceScale  0.5
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -78,7 +90,10 @@ textures/exx/base-crete03
 {
 	qer_editorimage textures/exx/base/base_crete03.tga
 	
-	q3map_bounceScale 0.5
+	q3map_bounceScale  0.5
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -97,7 +112,11 @@ textures/exx/base-metal01
 {
 	qer_editorimage textures/exx/base/base_metal01.tga
 	
+	surfaceparm metalsteps
 	q3map_bounceScale  2
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -116,7 +135,11 @@ textures/exx/base-metal02
 {
 	qer_editorimage textures/exx/base/base_metal02.tga
 	
+	surfaceparm metalsteps
 	q3map_bounceScale  2
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -135,7 +158,11 @@ textures/exx/base-metal03
 {
 	qer_editorimage textures/exx/base/base_metal03.tga
 	
+	surfaceparm metalsteps
 	q3map_bounceScale  2
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -154,7 +181,11 @@ textures/exx/base-metal04
 {
 	qer_editorimage textures/exx/base/base_metal04.tga
 	
+	surfaceparm metalsteps
 	q3map_bounceScale  2
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -173,7 +204,11 @@ textures/exx/base-metal05rust
 {
 	qer_editorimage textures/exx/base/base_metal05rust.tga
 	
+	surfaceparm metalsteps
 	q3map_bounceScale  2
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -192,7 +227,11 @@ textures/exx/base-metal06rust
 {
 	qer_editorimage textures/exx/base/base_metal06rust.tga
 	
+	surfaceparm metalsteps
 	q3map_bounceScale  2
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -211,7 +250,11 @@ textures/exx/base-metal07rust
 {
 	qer_editorimage textures/exx/base/base_metal07rust.tga
 	
+	surfaceparm metalsteps
 	q3map_bounceScale  2
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -230,7 +273,12 @@ textures/exx/floor-clang01
 {
 	qer_editorimage textures/exx/floor/floor_clang01.tga
 	
-	q3map_bounceScale 1.25
+	q3map_bounceScale  0.75
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
+	surfaceparm metalsteps
+
 
 
 	{
@@ -249,8 +297,12 @@ textures/exx/floor-clang01b
 {
 	qer_editorimage textures/exx/floor/floor_clang01b.tga
 	
-	q3map_bounceScale 0.5
-
+	q3map_bounceScale  0.75
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
+	surfaceparm metalsteps
+	
 
 	{
 		map textures/exx/floor/floor_clang01b.tga
@@ -268,7 +320,10 @@ textures/exx/floor-crete01
 {
 	qer_editorimage textures/exx/floor/floor_crete01.tga
 	
-	q3map_bounceScale 0.5
+	q3map_bounceScale  0.5
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -287,7 +342,10 @@ textures/exx/floor-crete01b
 {
 	qer_editorimage textures/exx/floor/floor_crete01b.tga
 	
-	q3map_bounceScale 0.5
+	q3map_bounceScale  0.5
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -306,7 +364,14 @@ textures/exx/floor-grate01
 {
 	qer_editorimage textures/exx/floor/floor_grate01.tga
 	surfaceparm trans
-	q3map_bounceScale 1.25
+	surfaceparm metalsteps
+	q3map_bounceScale  0.75
+	surfaceparm alphashadow
+	surfaceparm nomarks
+	Cull None
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -324,7 +389,14 @@ textures/exx/floor-grate02
 {
 	qer_editorimage textures/exx/floor/floor_grate02.tga
 	surfaceparm trans
-	q3map_bounceScale 1.25
+	surfaceparm metalsteps
+	q3map_bounceScale  0.75
+	surfaceparm alphashadow
+	surfaceparm nomarks
+	Cull None
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -342,7 +414,14 @@ textures/exx/floor-grate03
 {
 	qer_editorimage textures/exx/floor/floor_grate03.tga
 	surfaceparm trans
-	q3map_bounceScale 1.25
+	surfaceparm metalsteps
+	q3map_bounceScale  0.75
+	surfaceparm alphashadow
+	surfaceparm nomarks
+	Cull None
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -360,7 +439,14 @@ textures/exx/floor-grate04
 {
 	qer_editorimage textures/exx/floor/floor_grate04.tga
 	surfaceparm trans
-	q3map_bounceScale 1.25
+	surfaceparm metalsteps
+	q3map_bounceScale  0.75
+	surfaceparm alphashadow
+	surfaceparm nomarks
+	Cull None
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -378,7 +464,11 @@ textures/exx/floor-metal02
 {
 	qer_editorimage textures/exx/floor/floor_metal02.tga
 	
+	surfaceparm metalsteps
 	q3map_bounceScale  2
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -396,8 +486,11 @@ textures/exx/floor-metal02
 textures/exx/floor-panel01
 {
 	qer_editorimage textures/exx/floor/floor_panel01.tga
-	
-	q3map_bounceScale 1.25
+	surfaceparm metalsteps
+	q3map_bounceScale  0.75
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -415,8 +508,12 @@ textures/exx/floor-panel01
 textures/exx/floor-rnd01
 {
 	qer_editorimage textures/exx/floor/floor_rnd01.tga
+	surfaceparm metalsteps
 	
-	q3map_bounceScale 1.25
+	q3map_bounceScale  0.75
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -434,8 +531,12 @@ textures/exx/floor-rnd01
 textures/exx/floor-rnd02
 {
 	qer_editorimage textures/exx/floor/floor_rnd02.tga
+	surfaceparm metalsteps
 	
-	q3map_bounceScale 1.25
+	q3map_bounceScale  0.75
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -453,8 +554,12 @@ textures/exx/floor-rnd02
 textures/exx/floor-simple05
 {
 	qer_editorimage textures/exx/floor/floor_simple05.tga
+	surfaceparm metalsteps
 	
-	q3map_bounceScale 1.25
+	q3map_bounceScale  0.75
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -473,7 +578,10 @@ textures/exx/floor-simplines
 {
 	qer_editorimage textures/exx/floor/floor_simplines.tga
 	
-	q3map_bounceScale 1.25
+	q3map_bounceScale  0.75
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -491,8 +599,12 @@ textures/exx/floor-simplines
 textures/exx/floor-tile03
 {
 	qer_editorimage textures/exx/floor/floor_tile03.tga
+	surfaceparm metalsteps
 	
-	q3map_bounceScale 1.25
+	q3map_bounceScale  0.75
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -510,8 +622,12 @@ textures/exx/floor-tile03
 textures/exx/floor-tread01
 {
 	qer_editorimage textures/exx/floor/floor_tread01.tga
+	surfaceparm metalsteps
 	
-	q3map_bounceScale 1.25
+	q3map_bounceScale  0.75
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -530,7 +646,10 @@ textures/exx/floor-wrn01
 {
 	qer_editorimage textures/exx/floor/floor_wrn01.tga
 	
-	q3map_bounceScale 1.25
+	q3map_bounceScale  0.75
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -545,11 +664,15 @@ textures/exx/floor-wrn01
 		blendfunc filter
 	}
 }
+
 textures/exx/light-panel01
 {
 	qer_editorimage textures/exx/light/light_panel01.tga
 	
-	q3map_bounceScale 1.25
+	q3map_bounceScale  0.75
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -568,7 +691,10 @@ textures/exx/light-u201
 {
 	qer_editorimage textures/exx/light/light_u201.tga
 	
-	q3map_bounceScale 1.25
+	q3map_bounceScale  0.75
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -587,7 +713,11 @@ textures/exx/panel-metal01
 {
 	qer_editorimage textures/exx/panel/panel_metal01.tga
 	
+	surfaceparm metalsteps
 	q3map_bounceScale  2
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -606,7 +736,11 @@ textures/exx/panel-metal01c
 {
 	qer_editorimage textures/exx/panel/panel_metal01c.tga
 	
+	surfaceparm metalsteps
 	q3map_bounceScale  2
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -625,7 +759,11 @@ textures/exx/panel-metal02
 {
 	qer_editorimage textures/exx/panel/panel_metal02.tga
 	
+	surfaceparm metalsteps
 	q3map_bounceScale  2
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -644,7 +782,11 @@ textures/exx/panel-metal03
 {
 	qer_editorimage textures/exx/panel/panel_metal03.tga
 	
+	surfaceparm metalsteps
 	q3map_bounceScale  2
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -663,7 +805,11 @@ textures/exx/panel-metal04
 {
 	qer_editorimage textures/exx/panel/panel_metal04.tga
 	
+	surfaceparm metalsteps
 	q3map_bounceScale  2
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -682,7 +828,11 @@ textures/exx/panel-metal05
 {
 	qer_editorimage textures/exx/panel/panel_metal05.tga
 	
+	surfaceparm metalsteps
 	q3map_bounceScale  2
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -701,7 +851,11 @@ textures/exx/panel-metalbig04
 {
 	qer_editorimage textures/exx/panel/panel_metalbig04.tga
 	
+	surfaceparm metalsteps
 	q3map_bounceScale  2
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -720,7 +874,11 @@ textures/exx/panel-metalbig04b
 {
 	qer_editorimage textures/exx/panel/panel_metalbig04b.tga
 	
+	surfaceparm metalsteps
 	q3map_bounceScale  2
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -738,8 +896,12 @@ textures/exx/panel-metalbig04b
 textures/exx/panel-q201
 {
 	qer_editorimage textures/exx/panel/panel_q201.tga
+	surfaceparm metalsteps
 	
-	q3map_bounceScale 1.25
+	q3map_bounceScale  0.75
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -758,7 +920,11 @@ textures/exx/panel-q201b
 {
 	qer_editorimage textures/exx/panel/panel_q201b.tga
 	
-	q3map_bounceScale 1.25
+	surfaceparm metalsteps
+	q3map_bounceScale  0.75
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -777,7 +943,11 @@ textures/exx/panel-q201c
 {
 	qer_editorimage textures/exx/panel/panel_q201c.tga
 	
-	q3map_bounceScale 1.25
+	surfaceparm metalsteps
+	q3map_bounceScale  0.75
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -796,7 +966,11 @@ textures/exx/panel-q201d
 {
 	qer_editorimage textures/exx/panel/panel_q201d.tga
 	
-	q3map_bounceScale 1.25
+	surfaceparm metalsteps
+	q3map_bounceScale  0.75
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -815,7 +989,11 @@ textures/exx/panel-q201e
 {
 	qer_editorimage textures/exx/panel/panel_q201e.tga
 	
-	q3map_bounceScale 1.25
+	surfaceparm metalsteps
+	q3map_bounceScale  0.75
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -834,7 +1012,11 @@ textures/exx/panel-rs01
 {
 	qer_editorimage textures/exx/panel/panel_rs01.tga
 	
-	q3map_bounceScale 1.25
+	surfaceparm metalsteps
+	q3map_bounceScale  0.75
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -853,7 +1035,11 @@ textures/exx/trim-01
 {
 	qer_editorimage textures/exx/trim/trim_01.tga
 	
-	q3map_bounceScale 1.25
+	surfaceparm metalsteps
+	q3map_bounceScale  1.5
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -872,14 +1058,17 @@ textures/exx/trim-baseboard
 {
 	qer_editorimage textures/exx/trim/trim_baseboard.tga
 	
-	q3map_bounceScale 1.25
+	surfaceparm metalsteps
+	q3map_bounceScale  1.5
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
-		map textures/exx/trim/trim_baseboard.tga
-		
-
+		map textures/exx/trim/trim_baseboard.tga		
 	}
+
 	{
 		map $lightmap
 		rgbGen identity
@@ -891,7 +1080,11 @@ textures/exx/trim-baseboard02
 {
 	qer_editorimage textures/exx/trim/trim_baseboard02.tga
 	
-	q3map_bounceScale 1.25
+	surfaceparm metalsteps
+	q3map_bounceScale  1.5
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -910,7 +1103,11 @@ textures/exx/trim-baseboard03
 {
 	qer_editorimage textures/exx/trim/trim_baseboard03.tga
 	
-	q3map_bounceScale 1.25
+	surfaceparm metalsteps
+	q3map_bounceScale  1.5
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -929,7 +1126,11 @@ textures/exx/trim-metalsupp01
 {
 	qer_editorimage textures/exx/trim/trim_metalsupp01.tga
 	
+	surfaceparm metalsteps
 	q3map_bounceScale  2
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -948,7 +1149,11 @@ textures/exx/trim-psimple04
 {
 	qer_editorimage textures/exx/trim/trim_psimple04.tga
 	
-	q3map_bounceScale 1.25
+	surfaceparm metalsteps
+	q3map_bounceScale  1.5
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -967,7 +1172,11 @@ textures/exx/trim-psimple05
 {
 	qer_editorimage textures/exx/trim/trim_psimple05.tga
 	
-	q3map_bounceScale 1.25
+	surfaceparm metalsteps
+	q3map_bounceScale  1.5
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -986,7 +1195,11 @@ textures/exx/trim-simple01
 {
 	qer_editorimage textures/exx/trim/trim_simple01.tga
 	
-	q3map_bounceScale 1.25
+	surfaceparm metalsteps
+	q3map_bounceScale  1.75
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -1005,7 +1218,11 @@ textures/exx/trim-simple03
 {
 	qer_editorimage textures/exx/trim/trim_simple03.tga
 	
-	q3map_bounceScale 1.25
+	surfaceparm metalsteps
+	q3map_bounceScale  0.75
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -1024,7 +1241,11 @@ textures/exx/trim-steptop01
 {
 	qer_editorimage textures/exx/trim/trim_steptop01.tga
 	
-	q3map_bounceScale 1.25
+	surfaceparm metalsteps
+	q3map_bounceScale  0.75
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -1043,7 +1264,11 @@ textures/exx/trim-support03
 {
 	qer_editorimage textures/exx/trim/trim_support03.tga
 	
-	q3map_bounceScale 1.25
+	surfaceparm metalsteps
+	q3map_bounceScale  1.5
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -1062,7 +1287,11 @@ textures/exx/trim-vert01
 {
 	qer_editorimage textures/exx/trim/trim_vert01.tga
 	
-	q3map_bounceScale 1.25
+	surfaceparm metalsteps
+	q3map_bounceScale  1.5
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -1077,30 +1306,15 @@ textures/exx/trim-vert01
 		blendfunc filter
 	}
 }
-textures/exx/trim-vert_01norm
-{
-	qer_editorimage textures/exx/trim/trim_vert_01norm.tga
-	
-	q3map_bounceScale 0.5
-
-
-	{
-		map textures/exx/trim/trim_vert_01norm.tga
-		
-
-	}
-	{
-		map $lightmap
-		rgbGen identity
-		tcGen lightmap
-		blendfunc filter
-	}
-}
 textures/exx/wall-bigrib02
 {
 	qer_editorimage textures/exx/wall/wall_bigrib02.tga
 	
-	q3map_bounceScale 1.25
+	surfaceparm metalsteps
+	q3map_bounceScale  1.75
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -1119,7 +1333,11 @@ textures/exx/wall-bplate06
 {
 	qer_editorimage textures/exx/wall/wall_bplate06.tga
 	
-	q3map_bounceScale 1.25
+	surfaceparm metalsteps
+	q3map_bounceScale  1.75
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -1138,7 +1356,10 @@ textures/exx/wall-crete01
 {
 	qer_editorimage textures/exx/wall/wall_crete01.tga
 	
-	q3map_bounceScale 0.5
+	q3map_bounceScale  0.5
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -1157,7 +1378,10 @@ textures/exx/wall-crete02
 {
 	qer_editorimage textures/exx/wall/wall_crete02.tga
 	
-	q3map_bounceScale 0.5
+	q3map_bounceScale  0.5
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -1176,7 +1400,10 @@ textures/exx/wall-crete03
 {
 	qer_editorimage textures/exx/wall/wall_crete03.tga
 	
-	q3map_bounceScale 0.5
+	q3map_bounceScale  0.5
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -1195,7 +1422,10 @@ textures/exx/wall-crete03b
 {
 	qer_editorimage textures/exx/wall/wall_crete03b.tga
 	
-	q3map_bounceScale 0.5
+	q3map_bounceScale  0.5
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -1213,8 +1443,12 @@ textures/exx/wall-crete03b
 textures/exx/wall-des01
 {
 	qer_editorimage textures/exx/wall/wall_des01.tga
-	
-	q3map_bounceScale 1.25
+
+	surfaceparm metalsteps	
+	q3map_bounceScale  1.75
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -1233,7 +1467,11 @@ textures/exx/wall-metal01
 {
 	qer_editorimage textures/exx/wall/wall_metal01.tga
 	
+	surfaceparm metalsteps
 	q3map_bounceScale  2
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -1252,7 +1490,11 @@ textures/exx/wall-metal01b
 {
 	qer_editorimage textures/exx/wall/wall_metal01b.tga
 	
+	surfaceparm metalsteps
 	q3map_bounceScale  2
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -1271,7 +1513,11 @@ textures/exx/wall-metal02
 {
 	qer_editorimage textures/exx/wall/wall_metal02.tga
 	
+	surfaceparm metalsteps
 	q3map_bounceScale  2
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -1290,7 +1536,11 @@ textures/exx/wall-metalb01
 {
 	qer_editorimage textures/exx/wall/wall_metalb01.tga
 	
+	surfaceparm metalsteps
 	q3map_bounceScale  2
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -1309,7 +1559,11 @@ textures/exx/wall-metalrib01
 {
 	qer_editorimage textures/exx/wall/wall_metalrib01.tga
 	
+	surfaceparm metalsteps
 	q3map_bounceScale  2
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -1328,7 +1582,11 @@ textures/exx/wall-panel05
 {
 	qer_editorimage textures/exx/wall/wall_panel05.tga
 	
-	q3map_bounceScale 1.25
+	surfaceparm metalsteps
+	q3map_bounceScale  1.75
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -1347,7 +1605,11 @@ textures/exx/wall-panels08
 {
 	qer_editorimage textures/exx/wall/wall_panels08.tga
 	
-	q3map_bounceScale 1.25
+	surfaceparm metalsteps
+	q3map_bounceScale  1.75
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -1366,7 +1628,11 @@ textures/exx/wall-panels08b
 {
 	qer_editorimage textures/exx/wall/wall_panels08b.tga
 	
-	q3map_bounceScale 1.25
+	surfaceparm metalsteps
+	q3map_bounceScale  1.75
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -1385,7 +1651,11 @@ textures/exx/wall-pipe
 {
 	qer_editorimage textures/exx/wall/wall_pipe.tga
 	
-	q3map_bounceScale 1.25
+	surfaceparm metalsteps
+	q3map_bounceScale  1.25
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
@@ -1404,7 +1674,11 @@ textures/exx/wall-u207
 {
 	qer_editorimage textures/exx/wall/wall_u207.tga
 	
-	q3map_bounceScale 1.25
+	surfaceparm metalsteps
+	q3map_bounceScale  1.75
+	dpoffsetmapping - 2
+	dpglossintensitymod  4
+	dpglossexponentmod  2
 
 
 	{
