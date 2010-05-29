@@ -817,6 +817,66 @@ textures/trak5x/light-light2a
 		blendfunc filter
 	}
 }
+textures/trak5x/light-light2a-blue
+{
+	qer_editorimage textures/trak5x/light/light_light2a-blue.tga
+	
+	q3map_bounceScale 1.25
+
+	q3map_surfacelight 1500
+
+	{
+		map textures/trak5x/light/light_light2a-blue.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/trak5x/light-light2a-purple
+{
+	qer_editorimage textures/trak5x/light/light_light2a-purple.tga
+	
+	q3map_bounceScale 1.25
+
+	q3map_surfacelight 1500
+
+	{
+		map textures/trak5x/light/light_light2a-purple.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/trak5x/light-light2a-red
+{
+	qer_editorimage textures/trak5x/light/light_light2a-red.tga
+	
+	q3map_bounceScale 1.25
+
+	q3map_surfacelight 1500
+
+	{
+		map textures/trak5x/light/light_light2a-red.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
 textures/trak5x/light-light3a
 {
 	qer_editorimage textures/trak5x/light/light_light3a.tga
