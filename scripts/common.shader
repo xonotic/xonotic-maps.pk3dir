@@ -65,6 +65,17 @@ textures/common/hint // should NOT use surfaceparm hint.. strange but true
 	surfaceparm hint	// ydnar: yes it should.
 }
 
+textures/common/hintskip
+{
+	qer_nocarve
+	qer_trans 0.30
+	surfaceparm nodraw
+	surfaceparm nonsolid
+	surfaceparm skip
+	surfaceparm structural
+	surfaceparm trans
+}
+
 textures/common/invisible // solid, transparent polygons, casts shadows
 {
 	surfaceparm nolightmap
