@@ -24,3 +24,15 @@ textures/warpzone/warpzone-blueedge
 		blendfunc add
 	}
 }
+
+textures/warpzone/warpzone-rededge
+{
+	surfaceparm nonsolid
+	surfaceparm nomarks
+	q3map_surfacelight 2500
+	cull none
+	{
+		map textures/warpzone/warpzone-rededge.tga
+		blendfunc add
+	}
+}
