@@ -1,9 +1,9 @@
 textures/xonotic_jumppad01/jumpglow_orange
 {
-	qer_editorimage models/mapobjects/xonotic_jumppad01/jumpglow_o.tga
+	qer_editorimage models/xonotic_jumppad01/jumpglow_o.tga
 	cull none
  {
-	map models/mapobjects/xonotic_jumppad01/jumpglow_o.tga
+	map models/xonotic_jumppad01/jumpglow_o.tga
 	blendfunc add
 	tcmod page 3 1 0.02
  }
@@ -11,10 +11,10 @@ textures/xonotic_jumppad01/jumpglow_orange
 
 textures/xonotic_jumppad01/jumpglow_red
 {
-	qer_editorimage models/mapobjects/xonotic_jumppad01/jumpglow_r.tga
+	qer_editorimage models/xonotic_jumppad01/jumpglow_r.tga
 	cull none
  {
-	map models/mapobjects/xonotic_jumppad01/jumpglow_r.tga
+	map models/xonotic_jumppad01/jumpglow_r.tga
 	blendfunc add
 	tcmod page 3 1 0.02
  }
@@ -24,7 +24,7 @@ textures/xonotic_jumppad01/jumpglow_green
 {
 	cull none
  {
-	map models/mapobjects/xonotic_jumppad01/jumpglow_g.tga
+	map models/xonotic_jumppad01/jumpglow_g.tga
 	blendfunc add
 	tcmod page 3 1 0.02
  }
@@ -34,7 +34,7 @@ textures/xonotic_jumppad01/jumpglow_blue
 {
 	cull none
  {
-	map models/mapobjects/xonotic_jumppad01/jumpglow_b.tga
+	map models/xonotic_jumppad01/jumpglow_b.tga
 	blendfunc add
 	tcmod page 3 1 0.02
  }
@@ -42,7 +42,7 @@ textures/xonotic_jumppad01/jumpglow_blue
 
 textures/xonotic_jumppad01/energy_red_anim
 {
-	qer_editorimage models/mapobjects/xonotic_jumppad01/energy_red.tga
+	qer_editorimage models/xonotic_jumppad01/energy_red.tga
 	nopicmip
 	surfaceparm nolightmap
 //	surfaceparm nonsolid
@@ -56,7 +56,7 @@ textures/xonotic_jumppad01/energy_red_anim
 //	alphaFunc GE128
 	
 	{
-		map models/mapobjects/xonotic_jumppad01/energy_red.tga
+		map models/xonotic_jumppad01/energy_red.tga
 		tcGen environment
 //                tcmod scale .6 .6
 		blendfunc GL_ONE GL_ONE
@@ -67,7 +67,7 @@ textures/xonotic_jumppad01/energy_red_anim
 
 textures/xonotic_jumppad01/energy_blue_anim
 {
-	qer_editorimage models/mapobjects/xonotic_jumppad01/energy_blue.tga
+	qer_editorimage models/xonotic_jumppad01/energy_blue.tga
 	nopicmip
 	surfaceparm nolightmap
 //	surfaceparm nonsolid
@@ -81,7 +81,7 @@ textures/xonotic_jumppad01/energy_blue_anim
 //	alphaFunc GE128
 	
 	{
-		map models/mapobjects/xonotic_jumppad01/energy_blue.tga
+		map models/xonotic_jumppad01/energy_blue.tga
 		tcGen environment
 //                tcmod scale .6 .6
 		blendfunc GL_ONE GL_ONE
