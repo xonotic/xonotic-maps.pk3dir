@@ -86,7 +86,7 @@ textures/fx/jumppadfx1-a
 	cull none
 	qer_trans 0.6
 	{
-		map textures/fx/juppad/jumppadfx1_a.tga
+		map textures/fx/jumppad/jumppadfx1_a.tga
 		blendfunc add
 		tcMod scroll 0 2
 	}
@@ -102,7 +102,7 @@ textures/fx/jumppadfx1-b
 	cull none
 	qer_trans 0.6
 	{
-		map textures/fx/juppad/jumppadfx1_b.tga
+		map textures/fx/jumppad/jumppadfx1_b.tga
 		blendfunc add
 		tcMod scroll 0 2
 	}
@@ -118,7 +118,7 @@ textures/fx/jumppadfx1-c
 	cull none
 	qer_trans 0.6
 	{
-		map textures/fx/juppad/jumppadfx1_c.tga
+		map textures/fx/jumppad/jumppadfx1_c.tga
 		blendfunc add
 		tcMod scroll 0 2
 	}
@@ -134,7 +134,7 @@ textures/fx/jumppadfx1-d
 	cull none
 	qer_trans 0.6
 	{
-		map textures/fx/juppad/jumppadfx1_d.tga
+		map textures/fx/jumppad/jumppadfx1_d.tga
 		blendfunc add
 		tcMod scroll 0 2
 	}
