@@ -338,6 +338,50 @@ textures/exx/floor-crete01
 		blendfunc filter
 	}
 }
+textures/exx/floor-crete01-phoenix
+{
+	qer_editorimage textures/exx/floor/floor_crete01_phoenix.tga
+	
+	q3map_bounceScale  0.5
+	dpoffsetmapping - 2
+	dpglossintensitymod  3
+	dpglossexponentmod  4
+
+
+	{
+		map textures/exx/floor/floor_crete01_pnoenix.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/exx/floor-crete01-phoenixb
+{
+	qer_editorimage textures/exx/floor/floor_crete01_phoenixb.tga
+	
+	q3map_bounceScale  0.5
+	dpoffsetmapping - 2
+	dpglossintensitymod  3
+	dpglossexponentmod  4
+
+
+	{
+		map textures/exx/floor/floor_crete01_pnoenixb.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
 textures/exx/floor-crete01b
 {
 	qer_editorimage textures/exx/floor/floor_crete01b.tga
