@@ -349,7 +349,7 @@ textures/exx/floor-crete01-phoenix
 
 
 	{
-		map textures/exx/floor/floor_crete01_pnoenix.tga
+		map textures/exx/floor/floor_crete01_phoenix.tga
 		
 
 	}
@@ -371,7 +371,7 @@ textures/exx/floor-crete01-phoenixb
 
 
 	{
-		map textures/exx/floor/floor_crete01_pnoenixb.tga
+		map textures/exx/floor/floor_crete01_phoenixb.tga
 		
 
 	}
