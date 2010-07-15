@@ -1,12 +1,36 @@
 #!/bin/sh
 
+LF="
+"
+
+normalize()
+{
+	echo "$1" | sed 's/\.\(tga\|jpg\|png\)$//'
+}
+
+textures_used=
+# $1 = shader
+# $2 = texture
+# $3 = self | map | animmap | editorimage
 use_texture()
 {
-	echo "$1 uses texture $2"
+	# does texture exist?
+	if [ "$3" != "self" ]; then
+		if \
+			[ -f "../$2.tga" ] || \
+			[ -f "../$2.jpg" ] || \
+			[ -f "../$2.png" ]; then
+			:
+		else
+			echo "(EE) shader $1 uses non-existing texture $2"
+		fi
+	fi
+	textures_used="$textures_used$LF$2"
+
+	# TODO verify shader -> texture name
 }
 
 parsing_shader=
-
 parse_shaderstage()
 {
 	while read L A1 A2 Aother; do
@@ -16,13 +40,13 @@ parse_shaderstage()
 					'$lightmap')
 						;;
 					*)
-						use_texture "$parsing_shader" "$A1"
+						use_texture "$parsing_shader" "`normalize "$A1"`" map
 						;;
 				esac
 				;;
 			animmap)
 				for X in $A2 $Aother; do
-					use_texture "$parsing_shader" "$X"
+					use_texture "$parsing_shader" "`normalize "$X"`" animmap
 				done
 				;;
 			'}')
@@ -36,10 +60,11 @@ parse_shaderstage()
 
 parse_shader()
 {
+	use_texture "$parsing_shader" "$parsing_shader" self
 	while read L A1; do
 		case "$L" in
 			qer_editorimage\ *)
-				use_texture "$parsing_shader" "$A1"
+				use_texture "$parsing_shader" "$A1" editorimage
 				;;
 			'{')
 				parse_shaderstage
@@ -58,7 +83,10 @@ parse_shaderfile()
 	while read L; do
 		case "$L" in
 			textures/*)
-				parsing_shader="$L"
+				parsing_shader="`normalize "$L"`"
+				if [ x"$L" != x"$parsing_shader" ]; then
+					echo "(WW) normalized shader name $L to $parsing_shader"
+				fi
 				;;
 			'{')
 				parse_shader
@@ -81,10 +109,9 @@ for X in *.shader; do
 done
 rm -f "$t"
 
-( cd ../textures; find */ -type f -not -name '*_norm.*' -not -name '*_glow.*' -not -name '*_gloss.*' -print ) | while IFS= read -r TEX; do
-	TEX=${TEX%.*}
-	# does it have a shader?
-	if ! grep -Ei '^[[:space:]]*((animmap|map|qer_editorimage)[[:space:]]+)?"?textures/'"$TEX"'(\.tga)?"?[[:space:]]*(//.*)?$' *.shader >/dev/null; then
-		echo "No shader defined using $TEX, please add one"
-	fi
+textures_avail=`( cd ..; find textures/ -type f -not -name '*_norm.*' -not -name '*_glow.*' -not -name '*_gloss.*' ) | while IFS= read -r T; do normalize "$T"; done | sort -u`
+textures_used=`echo "${textures_used#$LF}" | sort -u`
+
+echo "$textures_used$LF$textures_used$LF$textures_avail" | sort | uniq -u | while IFS= read -r L; do
+	echo "(EE) texture $L is not referenced by any shader"
 done
