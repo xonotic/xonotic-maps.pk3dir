@@ -15,12 +15,14 @@ textures_used=
 use_texture()
 {
 	# does texture exist?
-	if [ "$3" != "self" ]; then
-		if \
-			[ -f "../$2.tga" ] || \
-			[ -f "../$2.jpg" ] || \
-			[ -f "../$2.png" ]; then
-			:
+	if \
+		[ -f "../$2.tga" ] || \
+		[ -f "../$2.jpg" ] || \
+		[ -f "../$2.png" ]; then
+		:
+	else
+		if [ "$3" = "self" ]; then
+			return
 		else
 			echo "(EE) shader $1 uses non-existing texture $2"
 		fi
