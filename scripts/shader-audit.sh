@@ -30,6 +30,56 @@ use_texture()
 	textures_used="$textures_used$LF$2"
 
 	# TODO verify shader -> texture name
+	case "$1" in
+		textures/*x/*-*)
+			pre=${1%%x/*}x
+			suf=${1#*x/}
+			# rule: in suffix part, change each - to /
+			suf="`echo "$suf" | sed 's,-,/,g'`"
+			case "$2" in
+				"$pre"/*/*)
+					;;
+				*)
+					echo "(EE) texture $2 of shader $1 is out of place, recommended file name is $pre/$suf"
+					;;
+			esac
+			;;
+		textures/*x/*)
+			pre=${1%%x/*}x
+			suf=${1#*x/}
+			case "$2" in
+				"$pre"/*/*)
+					;;
+				*)
+					echo "(EE) texture $2 of shader $1 is out of place, recommended file name is $pre/base/$suf"
+					;;
+			esac
+			;;
+		textures/common/*)
+			case "$2" in
+				"$1")
+					;;
+				textures/common/*/*)
+					;;
+				*)
+					echo "(EE) texture $2 of shader $1 is out of place, recommended file name is $1 or textures/common/*/*"
+					;;
+			esac
+			;;
+		textures/decals/*)
+			case "$2" in
+				"$1")
+					# I _suppose_ this is fine, as tZork committed this pack
+					;;
+				*)
+					echo "(EE) texture $2 of shader $1 is out of place, recommended file name is $1 or textures/common/*/*"
+					;;
+			esac
+			;;
+		*)
+			echo "(EE) no shader name pattern for $1"
+			;;
+	esac
 }
 
 parsing_shader=
