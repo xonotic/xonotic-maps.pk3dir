@@ -165,5 +165,11 @@ textures_avail=`( cd ..; find textures/ -type f -not -name '*_norm.*' -not -name
 textures_used=`echo "${textures_used#$LF}" | sort -u`
 
 echo "$textures_used$LF$textures_used$LF$textures_avail" | sort | uniq -u | while IFS= read -r L; do
-	echo "(EE) texture $L is not referenced by any shader"
+	case "$L" in
+		textures/radiant/*)
+			;;
+		*)
+			echo "(EE) texture $L is not referenced by any shader"
+			;;
+	esac
 done
