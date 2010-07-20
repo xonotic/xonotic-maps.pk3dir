@@ -216,7 +216,7 @@ textures/common/warpzone
 	surfaceparm trans
 	surfaceparm nomarks
 	{
-		map textures/common/mirror1.tga // fully transparent
+		map textures/common/warpzone/trans.tga // fully transparent
 		blendfunc blend
 	}
 	dp_camera
@@ -226,7 +226,7 @@ textures/common/warpzone
 textures/common/camera
 {
 	{
-		map textures/common/mirror1.tga // fully transparent
+		map textures/common/warpzone/trans.tga // fully transparent
 		blendfunc blend
 	}
 	dp_camera
