@@ -65,6 +65,17 @@ textures/common/hint // should NOT use surfaceparm hint.. strange but true
 	surfaceparm hint	// ydnar: yes it should.
 }
 
+textures/common/hintskip
+{
+	qer_nocarve
+	qer_trans 0.30
+	surfaceparm nodraw
+	surfaceparm nonsolid
+	surfaceparm skip
+	surfaceparm structural
+	surfaceparm trans
+}
+
 textures/common/invisible // solid, transparent polygons, casts shadows
 {
 	surfaceparm nolightmap
@@ -205,7 +216,7 @@ textures/common/warpzone
 	surfaceparm trans
 	surfaceparm nomarks
 	{
-		map textures/common/mirror1.tga // fully transparent
+		map textures/common/warpzone/trans.tga // fully transparent
 		blendfunc blend
 	}
 	dp_camera
@@ -215,7 +226,7 @@ textures/common/warpzone
 textures/common/camera
 {
 	{
-		map textures/common/mirror1.tga // fully transparent
+		map textures/common/warpzone/trans.tga // fully transparent
 		blendfunc blend
 	}
 	dp_camera
