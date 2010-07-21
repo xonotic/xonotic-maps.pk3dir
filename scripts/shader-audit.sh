@@ -55,6 +55,17 @@ use_texture()
 					;;
 			esac
 			;;
+		textures/map_*/*)
+			pre=${1%%/map_*}
+			suf=${1#*/map_}
+			case "$2" in
+				"$pre"/map/*)
+					;;
+				*)
+					echo "(EE) texture $2 of shader $1 is out of place, recommended file name is $pre/map_$suf"
+					;;
+			esac
+			;;
 		textures/common/*)
 			case "$2" in
 				"$1")
@@ -167,6 +178,8 @@ textures_used=`echo "${textures_used#$LF}" | sort -u`
 echo "$textures_used$LF$textures_used$LF$textures_avail" | sort | uniq -u | while IFS= read -r L; do
 	case "$L" in
 		textures/radiant/*)
+			;;
+		textures/map_*/*)
 			;;
 		*)
 			echo "(EE) texture $L is not referenced by any shader"
