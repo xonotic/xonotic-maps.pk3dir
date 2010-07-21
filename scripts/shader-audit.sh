@@ -59,7 +59,7 @@ use_texture()
 			pre=${1%%/map_*}
 			suf=${1#*/map_}
 			case "$2" in
-				"$pre"/map/*)
+				"$pre"/map_*)
 					;;
 				*)
 					echo "(EE) texture $2 of shader $1 is out of place, recommended file name is $pre/map_$suf"
