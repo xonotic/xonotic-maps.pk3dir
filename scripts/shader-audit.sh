@@ -8,6 +8,9 @@ normalize()
 	echo "$1" | sed 's/\.\(tga\|jpg\|png\)$//'
 }
 
+allowed_prefixes=
+forbidden_prefixes=
+
 textures_used=
 # $1 = shader
 # $2 = texture
@@ -28,6 +31,29 @@ use_texture()
 		fi
 	fi
 	textures_used="$textures_used$LF$2"
+
+	if [ -n "$allowed_prefixes" ]; then
+		ok=false
+		for p in $allowed_prefixes; do
+			case "$1:" in
+				"$p"*)
+					ok=true
+					;;
+			esac
+		done
+	else
+		ok=true
+	fi
+	for p in $forbidden_prefixes; do
+		case "$1:" in
+			"$p"*)
+				ok=false
+				;;
+		esac
+	done
+	if ! $ok; then
+		echo "(EE) shader $1 is not allowed in this shader file (allowed: $allowed_prefixes, forbidden: $forbidden_prefixes)"
+	fi
 
 	# TODO verify shader -> texture name
 	case "$1" in
@@ -58,11 +84,12 @@ use_texture()
 		textures/map_*/*)
 			pre=${1%%/map_*}
 			suf=${1#*/map_}
+			map=${suf%%[_/]*}
 			case "$2" in
-				"$pre"/map_*)
+				"$pre"/map_$map[/_]*)
 					;;
 				*)
-					echo "(EE) texture $2 of shader $1 is out of place, recommended file name is $pre/map_$suf"
+					echo "(EE) texture $2 of shader $1 is out of place, recommended file name is $pre/map_$map/*"
 					;;
 			esac
 			;;
@@ -83,7 +110,21 @@ use_texture()
 					# I _suppose_ this is fine, as tZork committed this pack
 					;;
 				*)
-					echo "(EE) texture $2 of shader $1 is out of place, recommended file name is $1 or textures/common/*/*"
+					echo "(EE) texture $2 of shader $1 is out of place, recommended file name is $1"
+					;;
+			esac
+			;;
+		textures/skies/*)
+			sky=${1#textures/skies/}
+			case "$2" in
+				"$1")
+					# typical place for preview image
+					;;
+				env/"${1#textures/skies/}")
+					# typical place for skybox
+					;;
+				*)
+					echo "(EE) texture $2 of shader $1 is out of place, recommended file name is $1"
 					;;
 			esac
 			;;
@@ -143,6 +184,20 @@ parse_shader()
 
 parse_shaderfile()
 {
+	case "$1" in
+		map_*)
+			allowed_prefixes="textures/map_`echo "$1" | cut -d _ -f 2`_ textures/map_`echo "$1" | cut -d - -f 2`/"
+			forbidden_prefixes=
+			;;
+		skies_*)
+			allowed_prefixes="textures/skies/`echo "$1" | cut -d _ -f 2`: textures/skies/`echo "$1" | cut -d _ -f 2`_"
+			forbidden_prefixes=
+			;;
+		*)
+			allowed_prefixes=
+			forbidden_prefixes="textures/skies/ textures/map_"
+			;;
+	esac
 	while read L; do
 		case "$L" in
 			textures/*)
@@ -168,7 +223,7 @@ strip_comments()
 t=`mktemp`
 for X in *.shader; do
 	strip_comments < "$X" > "$t"
-	parse_shaderfile < "$t"
+	parse_shaderfile "${X%.shader}" < "$t"
 done
 rm -f "$t"
 
