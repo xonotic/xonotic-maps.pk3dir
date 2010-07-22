@@ -2,7 +2,7 @@
 
 textures/skies/calm_sea
 {
-	qer_editorimage textures/calm_sea/calm_sea.jpg
+	qer_editorimage textures/skies/calm_sea.jpg
 	surfaceparm sky
 	surfaceparm noimpact
 	surfaceparm nolightmap
