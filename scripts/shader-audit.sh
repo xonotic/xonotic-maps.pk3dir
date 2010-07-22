@@ -137,11 +137,12 @@ use_texture()
 			;;
 		textures/skies/*)
 			sky=${1#textures/skies/}
+			sky=${sky%%_*}
 			case "$2" in
 				"$1")
 					# typical place for preview image
 					;;
-				env/"${1#textures/skies/}")
+				env/$sky[/_]*)
 					# typical place for skybox
 					;;
 				*)
