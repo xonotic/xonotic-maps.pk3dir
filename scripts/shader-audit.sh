@@ -14,7 +14,7 @@ forbidden_prefixes=
 textures_used=
 # $1 = shader
 # $2 = texture
-# $3 = self | map | animmap | editorimage
+# $3 = shader | map | animmap | editorimage | sky
 use_texture()
 {
 	# does texture exist?
@@ -24,7 +24,7 @@ use_texture()
 		[ -f "../$2.png" ]; then
 		:
 	else
-		if [ "$3" = "self" ]; then
+		if [ "$3" = "shader" ]; then
 			return
 		else
 			echo "(EE) shader $1 uses non-existing texture $2"
@@ -55,7 +55,28 @@ use_texture()
 		echo "(EE) shader $1 is not allowed in this shader file (allowed: $allowed_prefixes, forbidden: $forbidden_prefixes)"
 	fi
 
-	# TODO verify shader -> texture name
+	case "$3" in
+		sky)
+			case "$2" in
+				env/*)
+					;;
+				*)
+					echo "(EE) texture $2 of shader $1 is out of place, $3 textures must be in env/"
+					;;
+			esac
+			;;
+		*)
+			case "$2" in
+				env/*)
+					echo "(EE) texture $2 of shader $1 is out of place, $3 textures must not be in env/"
+					;;
+				*)
+					;;
+			esac
+			;;
+	esac
+
+	# verify shader -> texture name
 	case "$1" in
 		textures/*x/*-*)
 			pre=${1%%x/*}x
@@ -173,11 +194,14 @@ parse_shaderstage()
 
 parse_shader()
 {
-	use_texture "$parsing_shader" "$parsing_shader" self
+	use_texture "$parsing_shader" "$parsing_shader" shader
 	while read L A1; do
 		case "$L" in
 			qer_editorimage\ *)
 				use_texture "$parsing_shader" "$A1" editorimage
+				;;
+			skyparms\ *)
+				use_texture "$parsing_shader" "$A1" sky
 				;;
 			'{')
 				parse_shaderstage
