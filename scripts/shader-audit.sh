@@ -128,6 +128,15 @@ use_texture()
 					;;
 			esac
 			;;
+		models/*)
+			case "$2" in
+				models/*)
+					;;
+				*)
+					echo "(EE) texture $2 of shader $1 is out of place, recommended file name is $1 or models/*"
+					;;
+			esac
+			;;
 		*)
 			echo "(EE) no shader name pattern for $1"
 			;;
@@ -200,7 +209,7 @@ parse_shaderfile()
 	esac
 	while read L; do
 		case "$L" in
-			textures/*)
+			*/*)
 				parsing_shader="`normalize "$L"`"
 				if [ x"$L" != x"$parsing_shader" ]; then
 					echo "(WW) normalized shader name $L to $parsing_shader"
