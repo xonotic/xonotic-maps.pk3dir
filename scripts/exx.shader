@@ -822,6 +822,35 @@ textures/exx/light-u201
 		blendfunc filter
 	}
 }
+textures/exx/panel-grate01
+{
+	qer_editorimage textures/exx/panel/panel_grate01.tga
+	
+	surfaceparm metalsteps
+	q3map_bounceScale  2
+	dpoffsetmapping - 2
+	dpglossintensitymod  3
+	dpglossexponentmod  4
+
+	surfaceparm nomarks
+	surfaceparm trans
+	surfaceparm alphashadow
+
+	cull none
+	nopicmip
+	nomipmaps
+	{
+		map textures/exx/panel/panel_grate01.tga
+		alphaFunc GT0
+		rgbgen vertex
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
 textures/exx/panel-metal01
 {
 	qer_editorimage textures/exx/panel/panel_metal01.tga
