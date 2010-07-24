@@ -709,6 +709,75 @@ textures/exx/floor-wrn01
 	}
 }
 
+textures/exx/floor-wrn01-blue
+{
+	qer_editorimage textures/exx/floor/floor_wrn01-blue.tga
+	
+	q3map_bounceScale  0.75
+	dpoffsetmapping - 2
+	dpglossintensitymod  3
+	dpglossexponentmod  4
+
+
+	{
+		map textures/exx/floor/floor_wrn01-blue.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+
+textures/exx/floor-wrn01-red
+{
+	qer_editorimage textures/exx/floor/floor_wrn01-red.tga
+	
+	q3map_bounceScale  0.75
+	dpoffsetmapping - 2
+	dpglossintensitymod  3
+	dpglossexponentmod  4
+
+
+	{
+		map textures/exx/floor/floor_wrn01-red.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+
+textures/exx/floor-wrn01-purple
+{
+	qer_editorimage textures/exx/floor/floor_wrn01-purple.tga
+	
+	q3map_bounceScale  0.75
+	dpoffsetmapping - 2
+	dpglossintensitymod  3
+	dpglossexponentmod  4
+
+
+	{
+		map textures/exx/floor/floor_wrn01-purple.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+
 textures/exx/light-panel01
 {
 	qer_editorimage textures/exx/light/light_panel01.tga
