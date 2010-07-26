@@ -125,7 +125,7 @@ use_texture()
 					;;
 			esac
 			;;
-		textures/decals/*)
+		textures/decals/*|textures/liquids/water/*|textures/liquids/slime/*|textures/liquids/lava/*|textures/warpzone/*)
 			case "$2" in
 				"$1")
 					# I _suppose_ this is fine, as tZork committed this pack
