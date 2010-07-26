@@ -126,8 +126,9 @@ use_texture()
 			esac
 			;;
 		textures/decals/*|textures/liquids/water/*|textures/liquids/slime/*|textures/liquids/lava/*|textures/warpzone/*)
+			prefix=${1%%_*}
 			case "$2" in
-				"$1")
+				"$prefix"_*|"$prefix")
 					# I _suppose_ this is fine, as tZork committed this pack
 					;;
 				*)
@@ -261,7 +262,7 @@ for X in *.shader; do
 done
 rm -f "$t"
 
-textures_avail=`( cd ..; find textures/ -type f -not -name '*_norm.*' -not -name '*_glow.*' -not -name '*_gloss.*' ) | while IFS= read -r T; do normalize "$T"; done | sort -u`
+textures_avail=`( cd ..; find textures/ -type f -not -name '*_norm.*' -not -name '*_glow.*' -not -name '*_gloss.*' -not -name '*.xcf' ) | while IFS= read -r T; do normalize "$T"; done | sort -u`
 textures_used=`echo "${textures_used#$LF}" | sort -u`
 
 echo "$textures_used$LF$textures_used$LF$textures_avail" | sort | uniq -u | while IFS= read -r L; do
