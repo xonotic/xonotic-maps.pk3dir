@@ -56,6 +56,7 @@ use_texture()
 	fi
 
 	case "$3" in
+		## RULE: skyboxes must lie in env/
 		sky)
 			case "$2" in
 				env/*)
@@ -65,6 +66,7 @@ use_texture()
 					;;
 			esac
 			;;
+		## RULE: non-skyboxes must not lie in env/
 		*)
 			case "$2" in
 				env/*)
@@ -78,10 +80,10 @@ use_texture()
 
 	# verify shader -> texture name
 	case "$1" in
+		## RULE: textures/FOOx/BAR-BAZ must use textures/FOO/*/*, recommended textures/FOO/BAR/BAZ
 		textures/*x/*-*)
 			pre=${1%%x/*}x
 			suf=${1#*x/}
-			# rule: in suffix part, change each - to /
 			suf="`echo "$suf" | sed 's,-,/,g'`"
 			case "$2" in
 				"$pre"/*/*)
@@ -91,6 +93,7 @@ use_texture()
 					;;
 			esac
 			;;
+		## RULE: textures/FOOx/BAR must use textures/FOO/*/*, recommended textures/FOO/base/BAR
 		textures/*x/*)
 			pre=${1%%x/*}x
 			suf=${1#*x/}
@@ -102,6 +105,7 @@ use_texture()
 					;;
 			esac
 			;;
+		## RULE: textures/map_FOO[_/]* must use textures/map_FOO[_/]*
 		textures/map_*/*)
 			pre=${1%%/map_*}
 			suf=${1#*/map_}
@@ -114,6 +118,7 @@ use_texture()
 					;;
 			esac
 			;;
+		## RULE: textures/common/FOO must use textures/common/FOO or textures/common/*/*
 		textures/common/*)
 			case "$2" in
 				"$1")
@@ -125,10 +130,11 @@ use_texture()
 					;;
 			esac
 			;;
+		## RULE: textures/FOO/* must use textures/FOO/*, for FOO in decals, liquids_water, liquids_slime, liquids_lava, warpzone
 		textures/decals/*|textures/liquids_water/*|textures/liquids_slime/*|textures/liquids_lava/*|textures/warpzone/*)
-			prefix=${1%%_*}
+			pre=${1%/*}
 			case "$2" in
-				"$prefix"_*|"$prefix")
+				"$pre"/*)
 					# I _suppose_ this is fine, as tZork committed this pack
 					;;
 				*)
@@ -136,6 +142,7 @@ use_texture()
 					;;
 			esac
 			;;
+		## RULE: textures/skies/FOO or textures/skies/FOO_BAR must use textures/skies/FOO respective textures/skies/FOO_BAR as preview image, and env/FOO[_/]* as skybox
 		textures/skies/*)
 			sky=${1#textures/skies/}
 			sky=${sky%%_*}
@@ -151,6 +158,7 @@ use_texture()
 					;;
 			esac
 			;;
+		## RULE: models/* must use models/*
 		models/*)
 			case "$2" in
 				models/*)
@@ -220,17 +228,25 @@ parse_shader()
 parse_shaderfile()
 {
 	case "$1" in
+		## RULE: map_FOO.shader may define tetxures/map_FOO_* and textures/map_FOO/*
 		map_*)
 			allowed_prefixes="textures/map_`echo "$1" | cut -d _ -f 2`_ textures/map_`echo "$1" | cut -d - -f 2`/"
 			forbidden_prefixes=
 			;;
+		## RULE: skies_FOO.shader may define tetxures/skies/FOO and textures/skies/FOO_*
 		skies_*)
 			allowed_prefixes="textures/skies/`echo "$1" | cut -d _ -f 2`: textures/skies/`echo "$1" | cut -d _ -f 2`_"
 			forbidden_prefixes=
 			;;
+		## RULE: model_*.shader may define models/*
+		model_*)
+			allowed_prefixes="models/"
+			forbidden_prefixes=
+			;;
+		## RULE: any other FOO.shader may define textures/FOO/*
 		*)
-			allowed_prefixes=
-			forbidden_prefixes="textures/skies/ textures/map_"
+			allowed_prefixes="textures/$1/"
+			forbidden_prefixes="textures/skies/ textures/map_ models/"
 			;;
 	esac
 	while read L; do
