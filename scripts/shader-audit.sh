@@ -125,7 +125,7 @@ use_texture()
 					;;
 			esac
 			;;
-		textures/decals/*|textures/liquids/water/*|textures/liquids/slime/*|textures/liquids/lava/*|textures/warpzone/*)
+		textures/decals/*|textures/liquids_water/*|textures/liquids_slime/*|textures/liquids_lava/*|textures/warpzone/*)
 			prefix=${1%%_*}
 			case "$2" in
 				"$prefix"_*|"$prefix")
