@@ -80,7 +80,7 @@ use_texture()
 
 	# verify shader -> texture name
 	case "$1" in
-		## RULE: textures/FOOx/BAR-BAZ must use textures/FOO/*/*, recommended textures/FOO/BAR/BAZ
+		## RULE: textures/FOOx/BAR-BAZ must use textures/FOOx/*/*, recommended textures/FOOx/BAR/BAZ
 		textures/*x/*-*)
 			pre=${1%%x/*}x
 			suf=${1#*x/}
@@ -93,7 +93,7 @@ use_texture()
 					;;
 			esac
 			;;
-		## RULE: textures/FOOx/BAR must use textures/FOO/*/*, recommended textures/FOO/base/BAR
+		## RULE: textures/FOOx/BAR must use textures/FOOx/*/*, recommended textures/FOOx/base/BAR
 		textures/*x/*)
 			pre=${1%%x/*}x
 			suf=${1#*x/}
