@@ -113,8 +113,12 @@ use_texture()
 			case "$2" in
 				"$pre"/map_$map[/_]*)
 					;;
-				*)
+				textures/map_*)
+					# protect one map's textures from the evil of other maps :P
 					echo "(EE) texture $2 of shader $1 is out of place, recommended file name is $pre/map_$map/*"
+					;;
+				*)
+					# using outside stuff is permitted
 					;;
 			esac
 			;;
