@@ -10,6 +10,7 @@ textures/trak5x/base-base1a
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -29,6 +30,7 @@ textures/trak5x/base-base1b
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -48,6 +50,7 @@ textures/trak5x/base-base1c
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -67,6 +70,7 @@ textures/trak5x/base-holes1a
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -86,6 +90,7 @@ textures/trak5x/base-holes1b
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -105,6 +110,7 @@ textures/trak5x/base-pipe1a
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -124,6 +130,7 @@ textures/trak5x/base-pipe1b
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -143,6 +150,7 @@ textures/trak5x/base-pipe1c
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -162,6 +170,7 @@ textures/trak5x/base-pipe1d
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -181,6 +190,7 @@ textures/trak5x/base-pits1a
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -200,6 +210,7 @@ textures/trak5x/base-ribs1a
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -219,6 +230,7 @@ textures/trak5x/floor-floor2a
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -238,6 +250,7 @@ textures/trak5x/floor-floor2b
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -257,6 +270,7 @@ textures/trak5x/floor-floor2c
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -276,6 +290,7 @@ textures/trak5x/floor-floor2d
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -295,6 +310,7 @@ textures/trak5x/floor-floor2e
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -314,6 +330,7 @@ textures/trak5x/floor-floor2f
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -333,6 +350,7 @@ textures/trak5x/floor-tile1a
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -352,6 +370,7 @@ textures/trak5x/floor-tile1b
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -371,6 +390,7 @@ textures/trak5x/floor-tile1c
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -390,6 +410,7 @@ textures/trak5x/floor-tile1d
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -409,6 +430,7 @@ textures/trak5x/floor-tile1e
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -428,6 +450,7 @@ textures/trak5x/floor-tile2a
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -447,6 +470,7 @@ textures/trak5x/floor-tile2b
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -466,6 +490,7 @@ textures/trak5x/floor-tile2c
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -485,6 +510,7 @@ textures/trak5x/floor-tile2d
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -504,6 +530,7 @@ textures/trak5x/floor-tile3a
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -523,6 +550,7 @@ textures/trak5x/floor-tile3b
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -542,6 +570,7 @@ textures/trak5x/floor-tile3c
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -561,6 +590,7 @@ textures/trak5x/floor-tile3d
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -580,6 +610,7 @@ textures/trak5x/floor-tile3e
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -599,6 +630,7 @@ textures/trak5x/floor-tile4a
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -618,6 +650,7 @@ textures/trak5x/floor-tile4b
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -637,6 +670,7 @@ textures/trak5x/floor-tile4c
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -656,6 +690,7 @@ textures/trak5x/floor-tile4d
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -675,6 +710,7 @@ textures/trak5x/floor-tile4e
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -694,6 +730,7 @@ textures/trak5x/floor-tile5a
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -713,6 +750,7 @@ textures/trak5x/floor-tile5b
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -732,6 +770,7 @@ textures/trak5x/floor-tile5c
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -751,6 +790,7 @@ textures/trak5x/floor-tile5d
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -770,6 +810,7 @@ textures/trak5x/floor-tile5e
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -789,6 +830,7 @@ textures/trak5x/light-light1a
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -809,6 +851,7 @@ textures/trak5x/light-light1b
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -829,6 +872,7 @@ textures/trak5x/light-light1c
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -848,6 +892,7 @@ textures/trak5x/light-light2a
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -867,6 +912,7 @@ textures/trak5x/light-light2b
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -886,6 +932,7 @@ textures/trak5x/light-light2c
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -905,6 +952,7 @@ textures/trak5x/light-light2d
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -924,6 +972,7 @@ textures/trak5x/light-light3a
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -942,6 +991,7 @@ textures/trak5x/misc-glass
 		map textures/trak5x/misc/misc_glass.tga
 		blendFunc blend
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -980,6 +1030,7 @@ textures/trak5x/misc-thingy1a
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -999,6 +1050,7 @@ textures/trak5x/panel-ceil1a
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1018,6 +1070,7 @@ textures/trak5x/panel-comp1a
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1037,6 +1090,7 @@ textures/trak5x/panel-comp1b
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1056,6 +1110,7 @@ textures/trak5x/panel-comp1c
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1075,6 +1130,7 @@ textures/trak5x/panel-comp1d
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1094,6 +1150,7 @@ textures/trak5x/panel-comp1e
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1113,6 +1170,7 @@ textures/trak5x/panel-crate1a
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1132,6 +1190,7 @@ textures/trak5x/panel-crate1b
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1151,6 +1210,7 @@ textures/trak5x/panel-crate1c
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1170,6 +1230,7 @@ textures/trak5x/panel-crate1d
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1189,6 +1250,7 @@ textures/trak5x/panel-crate1e
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1207,6 +1269,7 @@ textures/trak5x/panel-grate1a
 		map textures/trak5x/panel/panel_grate1a.tga
 		blendFunc blend
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1225,6 +1288,7 @@ textures/trak5x/panel-grate2a
 		map textures/trak5x/panel/panel_grate2a.tga
 		blendFunc blend
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1244,6 +1308,7 @@ textures/trak5x/panel-graypanel1
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1263,6 +1328,7 @@ textures/trak5x/panel-graypanel2
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1282,6 +1348,7 @@ textures/trak5x/panel-graypanel3
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1301,6 +1368,7 @@ textures/trak5x/panel-panel1a
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1320,6 +1388,7 @@ textures/trak5x/panel-panel2a
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1339,6 +1408,7 @@ textures/trak5x/panel-trisec1c
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1358,6 +1428,7 @@ textures/trak5x/panel-trisec1d
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1377,6 +1448,7 @@ textures/trak5x/panel-vertpanel1a
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1396,6 +1468,7 @@ textures/trak5x/panel-vertpanel1b
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1415,6 +1488,7 @@ textures/trak5x/panel-vertpanel1c
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1434,6 +1508,7 @@ textures/trak5x/panel-vertpanel1d
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1453,6 +1528,7 @@ textures/trak5x/panel-vertpanel1e
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1472,6 +1548,7 @@ textures/trak5x/panel-vertpanel2a
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1491,6 +1568,7 @@ textures/trak5x/panel-vertpanel2b
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1510,6 +1588,7 @@ textures/trak5x/panel-vertpanel2c
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1529,6 +1608,7 @@ textures/trak5x/panel-vertpanel2d
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1548,6 +1628,7 @@ textures/trak5x/panel-vertpanel2e
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1567,6 +1648,7 @@ textures/trak5x/trim-basictrim1a
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1586,6 +1668,7 @@ textures/trak5x/trim-basictrim1b
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1605,6 +1688,7 @@ textures/trak5x/trim-stair1a
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1624,6 +1708,7 @@ textures/trak5x/trim-trim1a
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1643,6 +1728,7 @@ textures/trak5x/trim-trim1b
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1662,6 +1748,7 @@ textures/trak5x/trim-trim2a
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1681,6 +1768,7 @@ textures/trak5x/trim-trim2b
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1700,6 +1788,7 @@ textures/trak5x/trim-trim3a
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1719,6 +1808,7 @@ textures/trak5x/trim-trim3b
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1738,6 +1828,7 @@ textures/trak5x/trim-trim3c
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1757,6 +1848,7 @@ textures/trak5x/trim-trim3d
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1776,6 +1868,7 @@ textures/trak5x/trim-trim3e
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1795,6 +1888,7 @@ textures/trak5x/trim-trim4a
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1814,6 +1908,7 @@ textures/trak5x/trim-trim4b
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1833,6 +1928,7 @@ textures/trak5x/trim-trim4c
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1852,6 +1948,7 @@ textures/trak5x/trim-trim4d
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1871,6 +1968,7 @@ textures/trak5x/trim-trim4e
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1890,6 +1988,7 @@ textures/trak5x/trim-trim5a
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1909,6 +2008,7 @@ textures/trak5x/trim-trim5b
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1928,6 +2028,7 @@ textures/trak5x/trim-trim5c
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1947,6 +2048,7 @@ textures/trak5x/trim-trim5d
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1966,6 +2068,7 @@ textures/trak5x/trim-trim5e
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1985,6 +2088,7 @@ textures/trak5x/trim-trim6a
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -2004,6 +2108,7 @@ textures/trak5x/trim-trim6b
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -2023,6 +2128,7 @@ textures/trak5x/trim-trim6c
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -2042,6 +2148,7 @@ textures/trak5x/trim-trim6d
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -2061,6 +2168,7 @@ textures/trak5x/trim-trim6e
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -2080,6 +2188,7 @@ textures/trak5x/trim-trim7a
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -2099,6 +2208,7 @@ textures/trak5x/trim-trim7b
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -2118,6 +2228,7 @@ textures/trak5x/trim-trim7c
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -2137,6 +2248,7 @@ textures/trak5x/trim-trim7d
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -2156,6 +2268,7 @@ textures/trak5x/trim-trim7e
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -2175,6 +2288,7 @@ textures/trak5x/trim-trim8a
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -2194,6 +2308,7 @@ textures/trak5x/trim-trim8b
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -2213,6 +2328,7 @@ textures/trak5x/trim-trim8c
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -2232,6 +2348,7 @@ textures/trak5x/trim-trim8d
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -2251,6 +2368,7 @@ textures/trak5x/trim-trim8e
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -2270,6 +2388,7 @@ textures/trak5x/trim-trim9a
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -2289,6 +2408,7 @@ textures/trak5x/trim-trim9b
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -2308,6 +2428,7 @@ textures/trak5x/trim-trim9c
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -2327,6 +2448,7 @@ textures/trak5x/trim-trim9d
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -2346,6 +2468,7 @@ textures/trak5x/trim-trim9e
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -2365,6 +2488,7 @@ textures/trak5x/trim-trisec1a
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -2384,6 +2508,7 @@ textures/trak5x/trim-trisec1b
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
