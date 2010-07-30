@@ -181,6 +181,7 @@ textures/trak4x/base-painted2
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -200,6 +201,7 @@ textures/trak4x/base-paint_blue
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -219,6 +221,7 @@ textures/trak4x/base-paint_dblue
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -238,6 +241,7 @@ textures/trak4x/base-paint_green
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -257,6 +261,7 @@ textures/trak4x/base-paint_pink
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -276,6 +281,7 @@ textures/trak4x/base-paint_purp
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -295,6 +301,7 @@ textures/trak4x/base-paint_red
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -314,6 +321,7 @@ textures/trak4x/base-paint_yellow
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -390,6 +398,7 @@ textures/trak4x/base-rust1c
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -409,6 +418,7 @@ textures/trak4x/base-rust2
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -428,6 +438,7 @@ textures/trak4x/base-rust2b
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -719,6 +730,7 @@ textures/trak4x/floor-tile1
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -738,6 +750,7 @@ textures/trak4x/floor-tile2a
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -757,6 +770,7 @@ textures/trak4x/floor-tile2b
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -776,6 +790,7 @@ textures/trak4x/floor-tile3a
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -795,6 +810,7 @@ textures/trak4x/floor-tile3b
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -814,6 +830,7 @@ textures/trak4x/floor-tile3c
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -832,6 +849,7 @@ textures/trak4x/trim-grate1
 		map textures/trak4x/trim/trim_grate1.tga
 		blendFunc blend
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -850,6 +868,7 @@ textures/trak4x/trim-grate2a
 		map textures/trak4x/trim/trim_grate2a.tga
 		blendFunc blend
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity

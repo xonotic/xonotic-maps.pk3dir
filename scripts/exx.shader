@@ -124,6 +124,7 @@ textures/exx/base-metal01
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -147,6 +148,7 @@ textures/exx/base-metal02
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -170,6 +172,7 @@ textures/exx/base-metal03
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -193,6 +196,7 @@ textures/exx/base-metal04
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -216,6 +220,7 @@ textures/exx/base-metal05rust
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -239,6 +244,7 @@ textures/exx/base-metal06rust
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -262,6 +268,7 @@ textures/exx/base-metal07rust
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -286,6 +293,7 @@ textures/exx/floor-clang01
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -309,6 +317,7 @@ textures/exx/floor-clang01b
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -422,6 +431,7 @@ textures/exx/floor-grate01
 		map textures/exx/floor/floor_grate01.tga
             alphaFunc GT0
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -447,6 +457,7 @@ textures/exx/floor-grate02
 		map textures/exx/floor/floor_grate02.tga
             alphaFunc GT0
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -472,6 +483,7 @@ textures/exx/floor-grate03
 		map textures/exx/floor/floor_grate03.tga
             alphaFunc GT0
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -497,6 +509,7 @@ textures/exx/floor-grate04
 		map textures/exx/floor/floor_grate04.tga
             alphaFunc GT0
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -520,6 +533,7 @@ textures/exx/floor-metal02
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -542,6 +556,7 @@ textures/exx/floor-panel01
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -565,6 +580,7 @@ textures/exx/floor-rnd01
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -588,6 +604,7 @@ textures/exx/floor-rnd02
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -611,6 +628,7 @@ textures/exx/floor-simple05
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -633,6 +651,7 @@ textures/exx/floor-simplines
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -656,6 +675,7 @@ textures/exx/floor-tile03
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -679,6 +699,7 @@ textures/exx/floor-tread01
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -701,6 +722,7 @@ textures/exx/floor-wrn01
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -725,6 +747,7 @@ textures/exx/light-panel01
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -748,6 +771,7 @@ textures/exx/light-u201
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -771,6 +795,7 @@ textures/exx/panel-metal01
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -794,6 +819,7 @@ textures/exx/panel-metal01c
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -817,6 +843,7 @@ textures/exx/panel-metal02
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -840,6 +867,7 @@ textures/exx/panel-metal03
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -863,6 +891,7 @@ textures/exx/panel-metal04
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -886,6 +915,7 @@ textures/exx/panel-metal05
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -909,6 +939,7 @@ textures/exx/panel-metalbig04
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -932,6 +963,7 @@ textures/exx/panel-metalbig04b
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -955,6 +987,7 @@ textures/exx/panel-q201
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -978,6 +1011,7 @@ textures/exx/panel-q201b
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1001,6 +1035,7 @@ textures/exx/panel-q201c
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1024,6 +1059,7 @@ textures/exx/panel-q201d
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1047,6 +1083,7 @@ textures/exx/panel-q201e
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1070,6 +1107,7 @@ textures/exx/panel-rs01
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1093,6 +1131,7 @@ textures/exx/trim-01
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1114,7 +1153,7 @@ textures/exx/trim-baseboard
 	{
 		map textures/exx/trim/trim_baseboard.tga		
 	}
-
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1138,6 +1177,7 @@ textures/exx/trim-baseboard02
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1161,6 +1201,7 @@ textures/exx/trim-baseboard03
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1184,6 +1225,7 @@ textures/exx/trim-metalsupp01
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1207,6 +1249,7 @@ textures/exx/trim-psimple04
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1230,6 +1273,7 @@ textures/exx/trim-psimple05
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1253,6 +1297,7 @@ textures/exx/trim-simple01
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1276,6 +1321,7 @@ textures/exx/trim-simple03
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1299,6 +1345,7 @@ textures/exx/trim-steptop01
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1322,6 +1369,7 @@ textures/exx/trim-support03
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1345,6 +1393,7 @@ textures/exx/trim-vert01
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1368,6 +1417,7 @@ textures/exx/trim-horz01
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1392,6 +1442,7 @@ textures/exx/wall-bigrib02
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1415,6 +1466,7 @@ textures/exx/wall-bplate06
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1526,6 +1578,7 @@ textures/exx/wall-des01
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1549,6 +1602,7 @@ textures/exx/wall-metal01
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1572,6 +1626,7 @@ textures/exx/wall-metal01b
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1595,6 +1650,7 @@ textures/exx/wall-metal02
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1618,6 +1674,7 @@ textures/exx/wall-metalb01
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1641,6 +1698,7 @@ textures/exx/wall-metalrib01
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1664,6 +1722,7 @@ textures/exx/wall-panel05
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1687,6 +1746,7 @@ textures/exx/wall-panels08
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1710,6 +1770,7 @@ textures/exx/wall-panels08b
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1733,6 +1794,7 @@ textures/exx/wall-pipe
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
@@ -1756,6 +1818,7 @@ textures/exx/wall-u207
 		
 
 	}
+	dpreflectcube env/cubemaps/grey
 	{
 		map $lightmap
 		rgbGen identity
