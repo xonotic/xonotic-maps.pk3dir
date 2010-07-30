@@ -740,7 +740,7 @@ textures/exx/light-panel01
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-	q3map_surfacelight 1500
+	q3map_surfacelight 3500
 
 	{
 		map textures/exx/light/light_panel01.tga
@@ -764,7 +764,7 @@ textures/exx/light-u201
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-	q3map_surfacelight 1500
+	q3map_surfacelight 3500
 
 	{
 		map textures/exx/light/light_u201.tga
