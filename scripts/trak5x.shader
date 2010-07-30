@@ -783,7 +783,7 @@ textures/trak5x/light-light1a
 	
 	q3map_bounceScale 1.25
 
-	q3map_surfacelight 1500
+	q3map_surfacelight 3500
 
 	{
 		map textures/trak5x/light/light_light1a.tga
@@ -803,7 +803,7 @@ textures/trak5x/light-light1b
 	
 	q3map_bounceScale 1.25
 
-	q3map_surfacelight 1500
+	q3map_surfacelight 3500
 
 	{
 		map textures/trak5x/light/light_light1b.tga
@@ -823,7 +823,7 @@ textures/trak5x/light-light1c
 	
 	q3map_bounceScale 1.25
 
-	q3map_surfacelight 1500
+	q3map_surfacelight 3500
 
 	{
 		map textures/trak5x/light/light_light1c.tga
@@ -843,7 +843,7 @@ textures/trak5x/light-light2a
 	
 	q3map_bounceScale 1.25
 
-	q3map_surfacelight 1500
+	q3map_surfacelight 3500
 
 	{
 		map textures/trak5x/light/light_light2a.tga
@@ -863,7 +863,7 @@ textures/trak5x/light-light2b
 	
 	q3map_bounceScale 1.25
 
-	q3map_surfacelight 1500
+	q3map_surfacelight 3500
 
 	{
 		map textures/trak5x/light/light_light2b.tga
@@ -883,7 +883,7 @@ textures/trak5x/light-light2c
 	
 	q3map_bounceScale 1.25
 
-	q3map_surfacelight 1500
+	q3map_surfacelight 3500
 
 	{
 		map textures/trak5x/light/light_light2c.tga
@@ -903,7 +903,7 @@ textures/trak5x/light-light2d
 	
 	q3map_bounceScale 1.25
 
-	q3map_surfacelight 1500
+	q3map_surfacelight 3500
 
 	{
 		map textures/trak5x/light/light_light2d.tga
@@ -923,7 +923,7 @@ textures/trak5x/light-light3a
 	
 	q3map_bounceScale 1.25
 
-	q3map_surfacelight 1500
+	q3map_surfacelight 3500
 
 	{
 		map textures/trak5x/light/light_light3a.tga
