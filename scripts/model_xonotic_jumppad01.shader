@@ -1,4 +1,4 @@
-textures/xonotic_jumppad01/jumpglow_orange
+models/xonotic_jumppad01/jumpglow_orange
 {
 	qer_editorimage models/xonotic_jumppad01/jumpglow_o.tga
 	cull none
@@ -9,7 +9,7 @@ textures/xonotic_jumppad01/jumpglow_orange
  }
 }
 
-textures/xonotic_jumppad01/jumpglow_red
+models/xonotic_jumppad01/jumpglow_red
 {
 	qer_editorimage models/xonotic_jumppad01/jumpglow_r.tga
 	cull none
@@ -20,7 +20,7 @@ textures/xonotic_jumppad01/jumpglow_red
  }
 }
 
-textures/xonotic_jumppad01/jumpglow_green
+models/xonotic_jumppad01/jumpglow_green
 {
 	cull none
  {
@@ -30,7 +30,7 @@ textures/xonotic_jumppad01/jumpglow_green
  }
 }
 
-textures/xonotic_jumppad01/jumpglow_blue
+models/xonotic_jumppad01/jumpglow_blue
 {
 	cull none
  {
@@ -40,7 +40,7 @@ textures/xonotic_jumppad01/jumpglow_blue
  }
 }
 
-textures/xonotic_jumppad01/energy_red_anim
+models/xonotic_jumppad01/energy_red_anim
 {
 	qer_editorimage models/xonotic_jumppad01/energy_red.tga
 	nopicmip
@@ -65,7 +65,7 @@ textures/xonotic_jumppad01/energy_red_anim
 	}
 }
 
-textures/xonotic_jumppad01/energy_blue_anim
+models/xonotic_jumppad01/energy_blue_anim
 {
 	qer_editorimage models/xonotic_jumppad01/energy_blue.tga
 	nopicmip
