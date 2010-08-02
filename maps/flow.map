@@ -3368,8 +3368,8 @@
 // entity 6
 {
 "classname" "misc_gamemodel"
-"origin" "-928.000000 64.000000 -256.000000"
-"model" "xonotic-maps.pk3dir/models/xonotic_jumppad01/xonotic_launchpad01.md3"
+"origin" "448.000000 640.000000 -256.000000"
+"model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "angle" "-90.000000"
 "_castshadows" "1"
 "_receiveshadows" "1"
@@ -3422,4 +3422,16 @@
 ( -2400 512 -128 ) ( -2400 512 32 ) ( -2208 512 -128 ) common/trigger 0 0 0 0.25 0.25 0 0 0
 ( -2400 512 -128 ) ( -2400 544 -128 ) ( -2400 512 32 ) common/trigger 0 0 0 0.25 0.25 0 0 0
 }
+}
+// entity 12
+{
+"classname" "misc_gamemodel"
+"origin" "-928.000000 64.000000 -256.000000"
+"model" "models/xonotic_jumppad01/xonotic_launchpad01.md3"
+"angle" "-90.000000"
+"_castshadows" "1"
+"_receiveshadows" "1"
+"spawnflags" "2"
+"frame" "10"
+"skin" "0"
 }
