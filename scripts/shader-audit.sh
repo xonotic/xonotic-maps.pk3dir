@@ -209,13 +209,18 @@ parse_shaderstage()
 parse_shader()
 {
 	use_texture "$parsing_shader" "$parsing_shader" shader
-	while read L A1; do
+	while read L A1 AREST; do
 		case "$L" in
-			qer_editorimage\ *)
-				use_texture "$parsing_shader" "$A1" editorimage
+			qer_editorimage)
+				use_texture "$parsing_shader" "`normalize "$A1"`" editorimage
 				;;
-			skyparms\ *)
-				use_texture "$parsing_shader" "$A1" sky
+			skyparms)
+				use_texture "$parsing_shader" "${A1}_lf" sky
+				use_texture "$parsing_shader" "${A1}_rt" sky
+				use_texture "$parsing_shader" "${A1}_up" sky
+				use_texture "$parsing_shader" "${A1}_dn" sky
+				use_texture "$parsing_shader" "${A1}_ft" sky
+				use_texture "$parsing_shader" "${A1}_bk" sky
 				;;
 			'{')
 				parse_shaderstage
