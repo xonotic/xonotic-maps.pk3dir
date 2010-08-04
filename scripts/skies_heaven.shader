@@ -1,6 +1,6 @@
 textures/skies/heaven
 {
-	qer_editorimage env/heaven/heaven_preview.tga
+	qer_editorimage textures/skies/heaven.tga
 	
 	surfaceparm noimpact
 	surfaceparm nolightmap
