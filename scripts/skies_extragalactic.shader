@@ -1,6 +1,6 @@
 textures/skies/extragalactic_asteroids
 {
-	qer_editorimage env/extragalactic/asteroids_bk.tga
+	qer_editorimage textures/skies/extragalactic_asteroids.tga
 	surfaceparm sky
 	surfaceparm nolightmap
 	surfaceparm nodlight
@@ -13,7 +13,7 @@ textures/skies/extragalactic_asteroids
 
 textures/skies/extragalactic_nebulae
 {
-	qer_editorimage env/extragalactic/nebulae_bk.tga
+	qer_editorimage textures/skies/extragalactic_nebulae.tga
 	surfaceparm sky
 	surfaceparm nolightmap
 	surfaceparm nodlight
@@ -27,7 +27,7 @@ textures/skies/extragalactic_nebulae
 
 textures/skies/extragalactic_planets
 {
-	qer_editorimage env/extragalactic/planets_bk.tga
+	qer_editorimage textures/skies/extragalactic_planets.tga
 	surfaceparm sky
 	surfaceparm nolightmap
 	surfaceparm nodlight
