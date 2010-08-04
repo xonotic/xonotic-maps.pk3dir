@@ -2,7 +2,7 @@
 
 textures/skies/polluted_earth
 {
-	qer_editorimage textures/polluted_earth/polluted_earth.jpg
+	qer_editorimage textures/skies/polluted_earth.jpg
 	surfaceparm sky
 	surfaceparm noimpact
 	surfaceparm nolightmap
