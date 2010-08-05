@@ -1,5 +1,11 @@
 #!/bin/sh
 
+case "$0" in
+	*/*)
+		cd "${0%/*}"
+		;;
+esac
+
 LF="
 "
 
@@ -280,12 +286,9 @@ strip_comments()
 	sed 's,//.*,,g; s,\r, ,g; s,\t, ,g; s,  *, ,g; s, $,,; s,^ ,,; /^$/ d'
 }
 
-t=`mktemp`
 for X in *.shader; do
-	strip_comments < "$X" > "$t"
-	parse_shaderfile "${X%.shader}" < "$t"
+	strip_comments < "$X" | parse_shaderfile "${X%.shader}"
 done
-rm -f "$t"
 
 textures_avail=`( cd ..; find textures/ -type f -not -name '*_norm.*' -not -name '*_glow.*' -not -name '*_gloss.*' -not -name '*.xcf' ) | while IFS= read -r T; do normalize "$T"; done | sort -u`
 textures_used=`echo "${textures_used#$LF}" | sort -u`
