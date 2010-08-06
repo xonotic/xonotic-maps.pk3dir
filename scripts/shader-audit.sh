@@ -1,5 +1,11 @@
 #!/bin/sh
 
+case "$0" in
+	*/*)
+		cd "${0%/*}"
+		;;
+esac
+
 LF="
 "
 
@@ -181,7 +187,7 @@ use_texture()
 parsing_shader=
 parse_shaderstage()
 {
-	while read L A1 A2 Aother; do
+	while read L A1 Aother; do
 		case "$L" in
 			map)
 				case "$A1" in
@@ -193,7 +199,7 @@ parse_shaderstage()
 				esac
 				;;
 			animmap)
-				for X in $A2 $Aother; do
+				for X in $Aother; do
 					use_texture "$parsing_shader" "`normalize "$X"`" animmap
 				done
 				;;
@@ -209,7 +215,7 @@ parse_shaderstage()
 parse_shader()
 {
 	use_texture "$parsing_shader" "$parsing_shader" shader
-	while read L A1 AREST; do
+	while read L A1 Aother; do
 		case "$L" in
 			qer_editorimage)
 				use_texture "$parsing_shader" "`normalize "$A1"`" editorimage
@@ -280,14 +286,14 @@ strip_comments()
 	sed 's,//.*,,g; s,\r, ,g; s,\t, ,g; s,  *, ,g; s, $,,; s,^ ,,; /^$/ d'
 }
 
-t=`mktemp`
+t=`mktemp || echo ".temp"`
 for X in *.shader; do
 	strip_comments < "$X" > "$t"
 	parse_shaderfile "${X%.shader}" < "$t"
 done
 rm -f "$t"
 
-textures_avail=`( cd ..; find textures/ -type f -not -name '*_norm.*' -not -name '*_glow.*' -not -name '*_gloss.*' -not -name '*.xcf' ) | while IFS= read -r T; do normalize "$T"; done | sort -u`
+textures_avail=`( cd ..; find textures/ -type f -not -name '*_norm.*' -not -name '*_glow.*' -not -name '*_gloss.*' -not -name '*_reflect.*' -not -name '*.xcf' ) | while IFS= read -r T; do normalize "$T"; done | sort -u`
 textures_used=`echo "${textures_used#$LF}" | sort -u`
 
 echo "$textures_used$LF$textures_used$LF$textures_avail" | sort | uniq -u | while IFS= read -r L; do
