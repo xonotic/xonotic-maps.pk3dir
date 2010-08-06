@@ -114,19 +114,34 @@ textures/liquids_slime/slime1
 	dp_water 0.1 0.8  3 3  1 1 0.5  1 1 0.5  0.75
 }
 
-textures/liquids_lava/protolava
+textures/stormkeep/lava0
 {
-	qer_editorimage textures/liquids_lava/protolava.jpg
-	qer_trans 0.5
-	surfaceparm trans
-	surfaceparm nonsolid
+	qer_editorimage textures/stormkeep/lava0.tga
 	surfaceparm lava
+	surfaceparm noimpact
+	surfaceparm trans
+	cull disable
 	deformVertexes wave 150.0 sin 2 5 0.25 0.1
 	Q3map_TessSize 128
-	cull none
+	q3map_surfacelight 1000
 	{
-		map textures/liquids_lava/protolava.jpg
-		blendFunc add
-		rgbGen identity
+		map textures/stormkeep/lava0.tga
+		blendfunc add
 	}
 }
+
+textures/stormkeep/lava0_flow
+{
+	qer_editorimage textures/stormkeep/lava0.tga
+	surfaceparm lava
+	surfaceparm noimpact
+	surfaceparm trans
+	cull disable
+	q3map_surfacelight 1000
+	{
+		map textures/stormkeep/lava0.tga
+		blendfunc add
+		tcMod scroll 0 -0.25
+	}
+}
+
