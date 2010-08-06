@@ -14883,3 +14883,165 @@ exx/wall-metalrib01
 "modelscale" "0.65"
 "targetname" "misc_model4"
 }
+// entity 256
+{
+"classname" "info_location"
+"origin" "0.000000 0.000000 -448.000000"
+"netname" "^1Main Room ^7- ^3Lower Level"
+}
+// entity 257
+{
+"classname" "info_location"
+"origin" "-1408.000000 -416.000000 -384.000000"
+"netname" "^1Docking Area ^7- ^3Lower Level"
+}
+// entity 258
+{
+"classname" "info_location"
+"origin" "-896.000000 0.000000 -128.000000"
+"netname" "^1Docking Area ^7- ^3Upper Level"
+}
+// entity 259
+{
+"classname" "info_location"
+"origin" "-1088.000000 896.000000 -128.000000"
+"netname" "^1Docking Area ^7- ^3Upper Level"
+}
+// entity 260
+{
+"classname" "info_location"
+"origin" "-1088.000000 -896.000000 -128.000000"
+"netname" "^1Docking Area ^7- ^3Upper Level"
+}
+// entity 261
+{
+"classname" "info_location"
+"origin" "-128.000000 -1024.000000 160.000000"
+"netname" "^1Control Room"
+}
+// entity 262
+{
+"classname" "info_location"
+"origin" "-128.000000 0.000000 -64.000000"
+"netname" "^1Main Room ^7- ^3Upper Level"
+}
+// entity 263
+{
+"classname" "info_location"
+"origin" "0.000000 256.000000 -448.000000"
+"netname" "^1Main Room ^7- ^3Lower Level"
+}
+// entity 264
+{
+"classname" "info_location"
+"origin" "640.000000 0.000000 -384.000000"
+"netname" "^1Main Room ^7- ^3Lower Level"
+}
+// entity 265
+{
+"classname" "info_location"
+"origin" "160.000000 -448.000000 -192.000000"
+"netname" "^1Main Room ^7- ^3Lower Level"
+}
+// entity 266
+{
+"classname" "info_location"
+"origin" "0.000000 -1024.000000 -384.000000"
+"netname" "^1Transportation Ramps"
+}
+// entity 267
+{
+"classname" "info_location"
+"origin" "-256.000000 -512.000000 -384.000000"
+"netname" "^1Transportation Ramps"
+}
+// entity 268
+{
+"classname" "info_location"
+"origin" "-256.000000 -1024.000000 -384.000000"
+"netname" "^1Transportation Ramps"
+}
+// entity 269
+{
+"classname" "info_location"
+"origin" "-768.000000 -1024.000000 -384.000000"
+"netname" "^1Transportation Ramps"
+}
+// entity 270
+{
+"classname" "info_location"
+"origin" "-1344.000000 0.000000 -384.000000"
+"netname" "^1Docking Area ^7- ^3Lower Level"
+}
+// entity 271
+{
+"classname" "info_location"
+"origin" "-1408.000000 416.000000 -384.000000"
+"netname" "^1Docking Area ^7- ^3Lower Level"
+}
+// entity 272
+{
+"classname" "info_location"
+"origin" "0.000000 -256.000000 -384.000000"
+"netname" "^1Main Room ^7- ^3Lower Level"
+}
+// entity 273
+{
+"classname" "info_location"
+"origin" "320.000000 0.000000 64.000000"
+"netname" "^1Main Room ^7- ^3Upper Level"
+}
+// entity 274
+{
+"classname" "info_location"
+"origin" "320.000000 1024.000000 64.000000"
+"netname" "^1Storage Room"
+}
+// entity 275
+{
+"classname" "info_location"
+"origin" "-128.000000 1024.000000 64.000000"
+"netname" "^1Storage Room"
+}
+// entity 276
+{
+"classname" "info_location"
+"origin" "768.000000 960.000000 224.000000"
+"netname" "^1AC Duct"
+}
+// entity 277
+{
+"classname" "info_location"
+"origin" "1456.000000 944.000000 176.000000"
+"netname" "^1AC Duct"
+}
+// entity 278
+{
+"classname" "info_location"
+"origin" "1472.000000 320.000000 160.000000"
+"netname" "^1AC Duct"
+}
+// entity 279
+{
+"classname" "info_location"
+"origin" "1536.000000 0.000000 64.000000"
+"netname" "^1Inspection Room"
+}
+// entity 280
+{
+"classname" "info_location"
+"origin" "1536.000000 -1024.000000 160.000000"
+"netname" "^1Control Room"
+}
+// entity 281
+{
+"classname" "info_location"
+"origin" "960.000000 -1024.000000 160.000000"
+"netname" "^1Control Room"
+}
+// entity 282
+{
+"classname" "info_location"
+"origin" "320.000000 -1024.000000 160.000000"
+"netname" "^1Control Room"
+}
