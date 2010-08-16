@@ -12868,7 +12868,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "-256.000000 -384.000031 96.000000"
-"model" "xonotic-maps.pk3dir/models/lights/xonlight03.md3"
+"model" "models/lights/xonlight03.md3"
 "angle" "0.000009"
 "spawnflags" "2"
 }
@@ -12876,7 +12876,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "-256.000000 384.000000 96.000000"
-"model" "xonotic-maps.pk3dir/models/lights/xonlight03.md3"
+"model" "models/lights/xonlight03.md3"
 "angle" "-179.999985"
 "spawnflags" "2"
 }
@@ -12884,7 +12884,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "-448.000000 -192.000000 96.000000"
-"model" "xonotic-maps.pk3dir/models/lights/xonlight03.md3"
+"model" "models/lights/xonlight03.md3"
 "angle" "-90.000000"
 "spawnflags" "2"
 }
@@ -12913,7 +12913,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "512.000000 384.000000 96.000000"
-"model" "xonotic-maps.pk3dir/models/lights/xonlight03.md3"
+"model" "models/lights/xonlight03.md3"
 "angle" "-179.999985"
 "spawnflags" "2"
 }
@@ -12928,7 +12928,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "320.000000 0.000000 256.000000"
-"model" "xonotic-maps.pk3dir/models/lights/xonlight02.md3"
+"model" "models/lights/xonlight02.md3"
 "angle" "90.000008"
 "spawnflags" "2"
 }
@@ -12950,7 +12950,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "755.313660 -435.313904 -319.999878"
-"model" "xonotic-maps.pk3dir/models/lights/xonlight01.md3"
+"model" "models/lights/xonlight01.md3"
 "angles" "90.000000 0.000000 44.999985"
 "spawnflags" "2"
 }
@@ -12958,7 +12958,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "704.000000 192.000000 96.000000"
-"model" "xonotic-maps.pk3dir/models/lights/xonlight03.md3"
+"model" "models/lights/xonlight03.md3"
 "angle" "90.000015"
 "spawnflags" "2"
 }
@@ -12966,7 +12966,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "128.000000 -384.000031 96.000000"
-"model" "xonotic-maps.pk3dir/models/lights/xonlight03.md3"
+"model" "models/lights/xonlight03.md3"
 "angle" "0.000009"
 "spawnflags" "2"
 }
@@ -12974,7 +12974,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "128.000000 384.000000 96.000000"
-"model" "xonotic-maps.pk3dir/models/lights/xonlight03.md3"
+"model" "models/lights/xonlight03.md3"
 "angle" "-179.999985"
 "spawnflags" "2"
 }
@@ -12989,7 +12989,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "-448.000000 191.999985 96.000000"
-"model" "xonotic-maps.pk3dir/models/lights/xonlight03.md3"
+"model" "models/lights/xonlight03.md3"
 "angle" "-90.000000"
 "spawnflags" "2"
 }
@@ -13011,7 +13011,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "1536.000000 -0.000173 192.000015"
-"model" "xonotic-maps.pk3dir/models/lights/xonlight02.md3"
+"model" "models/lights/xonlight02.md3"
 "angle" "-45.000000"
 "spawnflags" "2"
 }
@@ -13026,7 +13026,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "1703.999634 216.000793 32.000000"
-"model" "xonotic-maps.pk3dir/models/it/pc.md3"
+"model" "models/it/pc.md3"
 "angle" "-22.500006"
 "spawnflags" "2"
 }
@@ -13034,7 +13034,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "1757.547852 196.329041 32.000000"
-"model" "xonotic-maps.pk3dir/models/it/lcd.md3"
+"model" "models/it/lcd.md3"
 "angle" "-67.499969"
 "spawnflags" "2"
 }
@@ -13042,7 +13042,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "1730.452271 179.669754 32.000000"
-"model" "xonotic-maps.pk3dir/models/it/keyboard.md3"
+"model" "models/it/keyboard.md3"
 "angle" "-67.499969"
 "spawnflags" "2"
 }
@@ -13050,7 +13050,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "1747.999756 219.999710 160.000031"
-"model" "xonotic-maps.pk3dir/models/lights/xonlight07.md3"
+"model" "models/lights/xonlight07.md3"
 "angle" "134.999985"
 "spawnflags" "2"
 }
@@ -13065,7 +13065,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "63.941071 649.941101 -479.999847"
-"model" "xonotic-maps.pk3dir/models/map/forklift.md3"
+"model" "models/map/forklift.md3"
 "angle" "90.000000"
 "spawnflags" "2"
 }
@@ -13168,7 +13168,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "928.000000 -815.999939 112.000000"
-"model" "xonotic-maps.pk3dir/models/it/keyboard.md3"
+"model" "models/it/keyboard.md3"
 "angle" "0.000009"
 "spawnflags" "2"
 }
@@ -13176,7 +13176,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "928.000000 -791.999939 112.000000"
-"model" "xonotic-maps.pk3dir/models/it/lcd.md3"
+"model" "models/it/lcd.md3"
 "angle" "0.000009"
 "spawnflags" "2"
 }
@@ -13184,7 +13184,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "1391.999634 -1199.999268 100.000099"
-"model" "xonotic-maps.pk3dir/models/it/chair.md3"
+"model" "models/it/chair.md3"
 "angles" "-90.000000 0.000000 -135.000015"
 "modelscale" "0.750000"
 "spawnflags" "2"
@@ -13193,7 +13193,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "1176.000366 -847.999756 100.000107"
-"model" "xonotic-maps.pk3dir/models/it/chair.md3"
+"model" "models/it/chair.md3"
 "angles" "-90.000000 0.000000 134.999985"
 "modelscale" "0.750000"
 "spawnflags" "2"
@@ -13202,7 +13202,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "1279.999756 -1023.999817 256.000000"
-"model" "xonotic-maps.pk3dir/models/lights/xonlight01.md3"
+"model" "models/lights/xonlight01.md3"
 "angle" "-90.000000"
 "spawnflags" "2"
 }
@@ -13231,7 +13231,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "831.999756 -1023.999817 256.000000"
-"model" "xonotic-maps.pk3dir/models/lights/xonlight01.md3"
+"model" "models/lights/xonlight01.md3"
 "angle" "-90.000000"
 "spawnflags" "2"
 }
@@ -13239,7 +13239,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "1535.999878 -1023.999817 256.000000"
-"model" "xonotic-maps.pk3dir/models/lights/xonlight01.md3"
+"model" "models/lights/xonlight01.md3"
 "angle" "-45.000000"
 "spawnflags" "2"
 }
@@ -13247,7 +13247,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "320.000153 -1024.000000 256.000000"
-"model" "xonotic-maps.pk3dir/models/lights/xonlight01.md3"
+"model" "models/lights/xonlight01.md3"
 "angle" "-135.000015"
 "spawnflags" "2"
 }
@@ -13255,7 +13255,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "-192.000183 -1023.999878 256.000000"
-"model" "xonotic-maps.pk3dir/models/lights/xonlight01.md3"
+"model" "models/lights/xonlight01.md3"
 "angle" "-90.000000"
 "spawnflags" "2"
 }
@@ -13263,7 +13263,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "1023.999756 -1023.999817 256.000000"
-"model" "xonotic-maps.pk3dir/models/lights/xonlight01.md3"
+"model" "models/lights/xonlight01.md3"
 "angle" "-90.000000"
 "spawnflags" "2"
 }
@@ -13306,7 +13306,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "480.000183 -1176.000122 99.999901"
-"model" "xonotic-maps.pk3dir/models/it/chair.md3"
+"model" "models/it/chair.md3"
 "angles" "90.000000 0.000000 157.500000"
 "modelscale" "0.750000"
 "spawnflags" "2"
@@ -13315,7 +13315,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "520.000000 -1248.000000 112.000000"
-"model" "xonotic-maps.pk3dir/models/it/pc.md3"
+"model" "models/it/pc.md3"
 "angle" "-180.000000"
 "spawnflags" "2"
 }
@@ -13323,7 +13323,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "456.000000 -1232.000000 112.000000"
-"model" "xonotic-maps.pk3dir/models/it/keyboard.md3"
+"model" "models/it/keyboard.md3"
 "angle" "-180.000000"
 "spawnflags" "2"
 }
@@ -13331,7 +13331,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "456.000000 -1256.000000 112.000000"
-"model" "xonotic-maps.pk3dir/models/it/lcd.md3"
+"model" "models/it/lcd.md3"
 "angle" "-180.000000"
 "spawnflags" "2"
 }
@@ -13353,7 +13353,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "1184.000000 -800.000000 112.000000"
-"model" "xonotic-maps.pk3dir/models/it/pc.md3"
+"model" "models/it/pc.md3"
 "angle" "0.000009"
 "spawnflags" "2"
 }
@@ -13361,7 +13361,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "1248.000000 -815.999939 112.000000"
-"model" "xonotic-maps.pk3dir/models/it/keyboard.md3"
+"model" "models/it/keyboard.md3"
 "angle" "0.000009"
 "spawnflags" "2"
 }
@@ -13369,7 +13369,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "1248.000000 -791.999939 112.000000"
-"model" "xonotic-maps.pk3dir/models/it/lcd.md3"
+"model" "models/it/lcd.md3"
 "angle" "0.000009"
 "spawnflags" "2"
 }
@@ -13384,7 +13384,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "656.000000 -847.999939 100.000267"
-"model" "xonotic-maps.pk3dir/models/it/chair.md3"
+"model" "models/it/chair.md3"
 "angles" "0.000010 134.999985 -90.000000"
 "modelscale" "0.750000"
 "spawnflags" "2"
@@ -13393,7 +13393,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "1416.000000 -1248.000000 112.000000"
-"model" "xonotic-maps.pk3dir/models/it/pc.md3"
+"model" "models/it/pc.md3"
 "angle" "-180.000000"
 "spawnflags" "2"
 }
@@ -13401,7 +13401,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "1352.000000 -1232.000000 112.000000"
-"model" "xonotic-maps.pk3dir/models/it/keyboard.md3"
+"model" "models/it/keyboard.md3"
 "angle" "-180.000000"
 "spawnflags" "2"
 }
@@ -13409,7 +13409,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "1352.000000 -1256.000000 112.000000"
-"model" "xonotic-maps.pk3dir/models/it/lcd.md3"
+"model" "models/it/lcd.md3"
 "angle" "-180.000000"
 "spawnflags" "2"
 }
@@ -13424,7 +13424,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "544.000000 -800.000000 112.000000"
-"model" "xonotic-maps.pk3dir/models/it/pc.md3"
+"model" "models/it/pc.md3"
 "angle" "0.000009"
 "spawnflags" "2"
 }
@@ -13432,7 +13432,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "608.000000 -815.999939 112.000000"
-"model" "xonotic-maps.pk3dir/models/it/keyboard.md3"
+"model" "models/it/keyboard.md3"
 "angle" "0.000009"
 "spawnflags" "2"
 }
@@ -13440,7 +13440,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "608.000000 -791.999939 112.000000"
-"model" "xonotic-maps.pk3dir/models/it/lcd.md3"
+"model" "models/it/lcd.md3"
 "angle" "0.000009"
 "spawnflags" "2"
 }
@@ -13455,7 +13455,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "936.000122 -855.999939 80.000015"
-"model" "xonotic-maps.pk3dir/models/it/chair.md3"
+"model" "models/it/chair.md3"
 "angle" "-45.000008"
 "modelscale" "0.750000"
 "spawnflags" "2"
@@ -13464,7 +13464,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "864.000000 -800.000000 112.000000"
-"model" "xonotic-maps.pk3dir/models/it/pc.md3"
+"model" "models/it/pc.md3"
 "angle" "0.000009"
 "spawnflags" "2"
 }
@@ -13521,7 +13521,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "1735.999390 120.000259 0.000008"
-"model" "xonotic-maps.pk3dir/models/it/chair.md3"
+"model" "models/it/chair.md3"
 "angle" "-135.000046"
 "modelscale" "0.750000"
 "spawnflags" "2"
@@ -13593,7 +13593,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "608.000000 -288.000031 256.000000"
-"model" "xonotic-maps.pk3dir/models/lights/xonlight01.md3"
+"model" "models/lights/xonlight01.md3"
 "angle" "45.000015"
 "spawnflags" "2"
 }
@@ -13923,7 +13923,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "320.000000 0.000000 -64.000000"
-"model" "xonotic-maps.pk3dir/models/lights/xonlight02.md3"
+"model" "models/lights/xonlight02.md3"
 "angle" "90.000008"
 "spawnflags" "2"
 }
@@ -13938,7 +13938,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "-70.058891 190.058929 -511.999847"
-"model" "xonotic-maps.pk3dir/models/map/forklift.md3"
+"model" "models/map/forklift.md3"
 "angle" "-45.000008"
 "spawnflags" "2"
 }
@@ -13946,7 +13946,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "575.999817 -1023.999878 256.000000"
-"model" "xonotic-maps.pk3dir/models/lights/xonlight01.md3"
+"model" "models/lights/xonlight01.md3"
 "angle" "-90.000000"
 "spawnflags" "2"
 }
@@ -13981,7 +13981,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "-1056.000000 1216.000000 64.000000"
-"model" "xonotic-maps.pk3dir/models/lights/xonlight03.md3"
+"model" "models/lights/xonlight03.md3"
 "angle" "-179.999985"
 "spawnflags" "2"
 }
@@ -14003,7 +14003,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "-1088.000000 448.000244 -384.000244"
-"model" "xonotic-maps.pk3dir/models/lights/xonlight01.md3"
+"model" "models/lights/xonlight01.md3"
 "angles" "-90.000000 0.000000 179.999985"
 "spawnflags" "2"
 }
@@ -14025,7 +14025,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "-1088.000000 -447.999756 -384.000244"
-"model" "xonotic-maps.pk3dir/models/lights/xonlight01.md3"
+"model" "models/lights/xonlight01.md3"
 "angles" "-90.000000 0.000000 179.999985"
 "spawnflags" "2"
 }
@@ -14040,7 +14040,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "-1088.000000 -255.999756 -384.000244"
-"model" "xonotic-maps.pk3dir/models/lights/xonlight01.md3"
+"model" "models/lights/xonlight01.md3"
 "angles" "-90.000000 0.000000 179.999985"
 "spawnflags" "2"
 }
@@ -14055,7 +14055,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "-1088.000000 256.000244 -384.000244"
-"model" "xonotic-maps.pk3dir/models/lights/xonlight01.md3"
+"model" "models/lights/xonlight01.md3"
 "angles" "-90.000000 0.000000 179.999985"
 "spawnflags" "2"
 }
@@ -14259,7 +14259,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "-639.999573 -640.000854 64.000000"
-"model" "xonotic-maps.pk3dir/models/lights/xonlight03.md3"
+"model" "models/lights/xonlight03.md3"
 "angle" "63"
 "spawnflags" "2"
 }
@@ -14275,7 +14275,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "-1056.000000 -1216.000000 64.000000"
-"model" "xonotic-maps.pk3dir/models/lights/xonlight03.md3"
+"model" "models/lights/xonlight03.md3"
 "angle" "0.000003"
 "spawnflags" "2"
 }
@@ -14290,7 +14290,7 @@ exx/wall-metalrib01
 {
 "classname" "misc_model"
 "origin" "-639.999878 639.999817 64.000000"
-"model" "xonotic-maps.pk3dir/models/lights/xonlight03.md3"
+"model" "models/lights/xonlight03.md3"
 "angle" "117.000008"
 "spawnflags" "2"
 }
