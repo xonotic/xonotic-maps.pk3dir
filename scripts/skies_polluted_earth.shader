@@ -15,5 +15,6 @@ textures/skies/polluted_earth
         nomipmaps
 
 	q3map_sunExt 1 0.9 0.9 250 320 30
+	q3map_skylight 100 4
 	skyparms env/polluted_earth/polluted_earth - -
 }

@@ -9,6 +9,7 @@ textures/skies/extragalactic_asteroids
 
 	skyparms env/extragalactic/asteroids - - //farbox cloudheight nearbox
 	q3map_sunExt 1 0.75 0.5 320 27 42 0 16 //rgb intensity degrees elevation deviance samples
+	q3map_skylight 50 4
 }
 
 textures/skies/extragalactic_nebulae
@@ -23,6 +24,7 @@ textures/skies/extragalactic_nebulae
 	skyparms env/extragalactic/nebulae - - //farbox cloudheight nearbox
     q3map_skyLight 50 4 //amount iterations
 	q3map_sunExt 1 0.9 0.8 300 66 36 3 16 //rgb intensity degrees elevation deviance samples
+	q3map_skylight 50 4
 }
 
 textures/skies/extragalactic_planets
@@ -36,4 +38,5 @@ textures/skies/extragalactic_planets
 
 	skyparms env/extragalactic/planets - - //farbox cloudheight nearbox
 	q3map_sunExt 1 0.9 0.8 320 124 42 0 16 //rgb intensity degrees elevation deviance samples
+	q3map_skylight 50 4
 }
