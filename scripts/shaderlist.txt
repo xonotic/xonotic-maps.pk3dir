@@ -7,3 +7,4 @@ facility114x
 trak4x
 trak5x
 terrain01x
+techpanelx
