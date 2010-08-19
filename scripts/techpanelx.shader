@@ -74,15 +74,15 @@ textures/techpanelx/panel-techcrate
 		blendfunc filter
 	}
 }
-textures/techpanelx/panel-tech1
+textures/techpanelx/panel-tech1b
 {
-	qer_editorimage textures/techpanelx/panel/panel_tech1.png
+	qer_editorimage textures/techpanelx/panel/panel_tech1b.png
 	
 	q3map_bounceScale 0.5
 
 
 	{
-		map textures/techpanelx/panel/panel_tech1.png
+		map textures/techpanelx/panel/panel_tech1b.png
 		
 
 	}
@@ -93,15 +93,34 @@ textures/techpanelx/panel-tech1
 		blendfunc filter
 	}
 }
-textures/techpanelx/panel-tech2
+textures/techpanelx/panel-tech1r
 {
-	qer_editorimage textures/techpanelx/panel/panel_tech2.png
+	qer_editorimage textures/techpanelx/panel/panel_tech1r.png
 	
 	q3map_bounceScale 0.5
 
 
 	{
-		map textures/techpanelx/panel/panel_tech2.png
+		map textures/techpanelx/panel/panel_tech1r.png
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/techpanelx/panel-tech2r
+{
+	qer_editorimage textures/techpanelx/panel/panel_tech2r.png
+	
+	q3map_bounceScale 0.5
+
+
+	{
+		map textures/techpanelx/panel/panel_tech2r.png
 		
 
 	}
@@ -150,15 +169,15 @@ textures/techpanelx/panel-tech4
 		blendfunc filter
 	}
 }
-textures/techpanelx/trim-section1
+textures/techpanelx/trim-section1b
 {
-	qer_editorimage textures/techpanelx/trim/trim_section1.png
+	qer_editorimage textures/techpanelx/trim/trim_section1b.png
 	
 	q3map_bounceScale 0.5
 
 
 	{
-		map textures/techpanelx/trim/trim_section1.png
+		map textures/techpanelx/trim/trim_section1b.png
 		
 
 	}
@@ -169,15 +188,34 @@ textures/techpanelx/trim-section1
 		blendfunc filter
 	}
 }
-textures/techpanelx/wall-section2
+textures/techpanelx/trim-section1r
 {
-	qer_editorimage textures/techpanelx/wall/wall_section2.png
+	qer_editorimage textures/techpanelx/trim/trim_section1r.png
 	
 	q3map_bounceScale 0.5
 
 
 	{
-		map textures/techpanelx/wall/wall_section2.png
+		map textures/techpanelx/trim/trim_section1r.png
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/techpanelx/wall-section2r
+{
+	qer_editorimage textures/techpanelx/wall/wall_section2r.png
+	
+	q3map_bounceScale 0.5
+
+
+	{
+		map textures/techpanelx/wall/wall_section2r.png
 		
 
 	}
