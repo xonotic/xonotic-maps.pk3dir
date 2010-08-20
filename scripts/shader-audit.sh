@@ -293,7 +293,7 @@ for X in *.shader; do
 done
 rm -f "$t"
 
-textures_avail=`( cd ..; find textures/ -type f -not -name '*_norm.*' -not -name '*_glow.*' -not -name '*_gloss.*' -not -name '*_reflect.*' -not -name '*_bump.*' -not -name '*.xcf' ) | while IFS= read -r T; do normalize "$T"; done | sort -u`
+textures_avail=`( cd ..; find textures/ -type f -not -name '*_norm.*' -not -name '*_glow.*' -not -name '*_gloss.*' -not -name '*_reflect.*' -not -name '*.xcf' ) | while IFS= read -r T; do normalize "$T"; done | sort -u`
 textures_used=`echo "${textures_used#$LF}" | sort -u`
 
 echo "$textures_used$LF$textures_used$LF$textures_avail" | sort | uniq -u | while IFS= read -r L; do
