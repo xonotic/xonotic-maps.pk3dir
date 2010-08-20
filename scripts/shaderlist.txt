@@ -3,6 +3,7 @@ decals
 exosystem
 extragalactic
 exx
+ex2x
 facility114x
 trak4x
 trak5x
