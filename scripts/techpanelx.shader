@@ -125,6 +125,48 @@ textures/techpanelx/panel-tech1r
 		blendfunc filter
 	}
 }
+textures/techpanelx/panel-tech1g
+{
+	qer_editorimage textures/techpanelx/panel/panel_tech1g.png
+	
+	q3map_bounceScale 0.5
+	dpoffsetmapping - 2
+	dpglossintensitymod  3
+	dpglossexponentmod  4
+
+	{
+		map textures/techpanelx/panel/panel_tech1g.png
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/techpanelx/panel-tech1y
+{
+	qer_editorimage textures/techpanelx/panel/panel_tech1y.png
+	
+	q3map_bounceScale 0.5
+	dpoffsetmapping - 2
+	dpglossintensitymod  3
+	dpglossexponentmod  4
+
+	{
+		map textures/techpanelx/panel/panel_tech1y.png
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
 textures/techpanelx/panel-tech2r
 {
 	qer_editorimage textures/techpanelx/panel/panel_tech2r.png
@@ -157,6 +199,48 @@ textures/techpanelx/panel-tech2b
 
 	{
 		map textures/techpanelx/panel/panel_tech2b.png
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/techpanelx/panel-tech2g
+{
+	qer_editorimage textures/techpanelx/panel/panel_tech2g.png
+	
+	q3map_bounceScale 0.5
+	dpoffsetmapping - 2
+	dpglossintensitymod  3
+	dpglossexponentmod  4
+
+	{
+		map textures/techpanelx/panel/panel_tech2g.png
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/techpanelx/panel-tech2y
+{
+	qer_editorimage textures/techpanelx/panel/panel_tech2y.png
+	
+	q3map_bounceScale 0.5
+	dpoffsetmapping - 2
+	dpglossintensitymod  3
+	dpglossexponentmod  4
+
+	{
+		map textures/techpanelx/panel/panel_tech2y.png
 		
 
 	}
@@ -241,6 +325,48 @@ textures/techpanelx/trim-section1r
 
 	{
 		map textures/techpanelx/trim/trim_section1r.png
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/techpanelx/trim-section1g
+{
+	qer_editorimage textures/techpanelx/trim/trim_section1g.png
+	
+	q3map_bounceScale 0.5
+	dpoffsetmapping - 2
+	dpglossintensitymod  3
+	dpglossexponentmod  4
+
+	{
+		map textures/techpanelx/trim/trim_section1g.png
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/techpanelx/trim-section1y
+{
+	qer_editorimage textures/techpanelx/trim/trim_section1y.png
+	
+	q3map_bounceScale 0.5
+	dpoffsetmapping - 2
+	dpglossintensitymod  3
+	dpglossexponentmod  4
+
+	{
+		map textures/techpanelx/trim/trim_section1y.png
 		
 
 	}
