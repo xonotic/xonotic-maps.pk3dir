@@ -22,9 +22,13 @@ zbqry="zbqryf/qbzvangvba/qbz_hapynvzrq.zq3"
 /*QUAKED dom_team (.3 .3 1) (-16 -16 -16) (16 16 16) 
 Domination team.
 In order to get Domination working well in your map, you need to place dom_team and dom_controlpoint entities.  You *must* have at least 3 dom_team entities - 2 minimum teams and one blank one (empty netname and no team).  You can have up to 4 teams (5 dom_team entities).
+
+dom_team entites declare the teams (and the models the team uses) that are available in the domination game. Their position does not matter.
+
+model should be set to models/domination/dom_<team>.md3, where <team> is either "red", "blue", "yellow", or "pink".
 -------- KEYS --------
 netname: name of team (Red Team).  Set to "" or don't define for the required blank team.
-cnt: color of the team.  See the "Helpful Extras" section for info.
+cnt: color of the team.  See the "Helpful Extras" section in Docs/mapping.txt for info.
 model: When this team captures control points, the points turn to this model.  If this is the neutral team, points start out as this model.
 noise: Sound to be played on the control point when it's captured.  Only players nearby will hear it.
 noise1: Sound to be played to all players when the control point is captured.  Also good for an announcer voice ("Red Team has captured a control point")
