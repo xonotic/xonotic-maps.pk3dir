@@ -39350,41 +39350,41 @@ evil8_base/e8base_blue
 "classname" "info_location"
 "origin" "32 32 -16"
 "count" "0"
-"netname" "Middle Quad"
+"netname" "^3Middle Quad^3"
 }
 // entity 438
 {
 "classname" "info_location"
 "origin" "32 4256 424"
-"message" "blue flag"
+"netname" "^4Blue Flag^3"
 "count" "4"
 }
 // entity 439
 {
 "classname" "info_location"
 "count" "4"
-"message" "blue base"
+"netname" "^4Blue Base^3"
 "origin" "-544 4000 424"
 }
 // entity 440
 {
 "classname" "info_location"
 "origin" "608 4000 424"
-"message" "blue base"
+"netname" "^4Blue Base^3"
 "count" "4"
 }
 // entity 441
 {
 "classname" "info_location"
 "count" "4"
-"message" "blue base"
+"netname" "^4Blue Base^3"
 "origin" "32 3744 424"
 }
 // entity 442
 {
 "classname" "info_location"
 "origin" "32 2784 424"
-"message" "blue base"
+"netname" "^4Blue Base^3"
 "count" "4"
 }
 // entity 443
@@ -39392,111 +39392,111 @@ evil8_base/e8base_blue
 "classname" "info_location"
 "count" "4"
 "origin" "-448 3328 96"
-"netname" "^4Blue Base^3"
+"netname" "^4Blue Base^3^3"
 }
 // entity 444
 {
 "classname" "info_location"
 "origin" "512 3328 96"
 "count" "4"
-"netname" "^4Blue Base^3"
+"netname" "^4Blue Base^3^3"
 }
 // entity 445
 {
 "classname" "info_location"
 "count" "4"
-"message" "blue below"
+"netname" "^4Blue Below^3"
 "origin" "576 2080 96"
 }
 // entity 446
 {
 "classname" "info_location"
 "origin" "-512 2080 96"
-"message" "blue below"
+"netname" "^4Blue Below^3"
 "count" "4"
 }
 // entity 447
 {
 "classname" "info_location"
 "count" "4"
-"message" "blue below"
+"netname" "^4Blue Below^3"
 "origin" "32 2080 96"
 }
 // entity 448
 {
 "classname" "info_location"
 "count" "4"
-"message" "blue below"
+"netname" "^4Blue Below^3"
 "origin" "-1344 2080 96"
 }
 // entity 449
 {
 "classname" "info_location"
 "origin" "1408 2080 96"
-"message" "blue below"
+"netname" "^4Blue Below^3"
 "count" "4"
 }
 // entity 450
 {
 "classname" "info_location"
 "origin" "32 2080 416"
-"message" "blue top"
+"netname" "^4Blue Top^3"
 "count" "4"
 }
 // entity 451
 {
 "classname" "info_location"
 "count" "4"
-"message" "blue top"
+"netname" "^4Blue Top^3"
 "origin" "-448 2112 416"
 }
 // entity 452
 {
 "classname" "info_location"
 "origin" "512 2112 416"
-"message" "blue top"
+"netname" "^4Blue Top^3"
 "count" "4"
 }
 // entity 453
 {
 "classname" "info_location"
 "count" "4"
-"message" "blue top"
+"netname" "^4Blue Top^3"
 "origin" "320 1632 416"
 }
 // entity 454
 {
 "classname" "info_location"
 "origin" "-256 1632 416"
-"message" "blue top"
+"netname" "^4Blue Top^3"
 "count" "4"
 }
 // entity 455
 {
 "classname" "info_location"
 "count" "4"
-"message" "blue top"
+"netname" "^4Blue Top^3"
 "origin" "32 1248 416"
 }
 // entity 456
 {
 "classname" "info_location"
 "origin" "-1344 1664 320"
-"message" "blue right entrance"
+"netname" "^4Blue Right Entrance^3"
 "count" "4"
 }
 // entity 457
 {
 "classname" "info_location"
 "count" "4"
-"message" "blue right entrance"
+"netname" "^4Blue Right Entrance^3"
 "origin" "-1344 1024 224"
 }
 // entity 458
 {
 "classname" "info_location"
 "origin" "-992 672 160"
-"message" "blue right entrance"
+"netname" "^4Blue Right Entrance^3"
 "count" "4"
 }
 // entity 459
@@ -39517,21 +39517,21 @@ evil8_base/e8base_blue
 {
 "classname" "info_location"
 "count" "4"
-"message" "blue left entrance"
+"netname" "^4Blue Left Entrance^3"
 "origin" "1408 1120 384"
 }
 // entity 462
 {
 "classname" "info_location"
 "origin" "1408 1632 352"
-"message" "blue left entrance"
+"netname" "^4Blue Left Entrance^3"
 "count" "4"
 }
 // entity 463
 {
 "classname" "info_location"
 "origin" "-736 32 480"
-"message" "red left entrance"
+"netname" "^1Red Left Entrance^3"
 "count" "1"
 }
 // entity 464
@@ -39539,12 +39539,12 @@ evil8_base/e8base_blue
 "classname" "info_location"
 "origin" "-288 32 480"
 "count" "0"
-"message" "middle brigde"
+"netname" "^3Middle Bridge^3"
 }
 // entity 465
 {
 "classname" "info_location"
-"message" "middle brigde"
+"netname" "^3Middle Bridge^3"
 "count" "0"
 "origin" "352 32 480"
 }
@@ -39553,12 +39553,12 @@ evil8_base/e8base_blue
 "classname" "info_location"
 "origin" "384 704 160"
 "count" "0"
-"message" "middle blue jumppad"
+"netname" "^4Middle Blue jumppad^3"
 }
 // entity 467
 {
 "classname" "info_location"
-"message" "middle blue rl"
+"netname" "^4Middle Blue rl^3"
 "count" "0"
 "origin" "32 544 160"
 }
@@ -39567,48 +39567,48 @@ evil8_base/e8base_blue
 "classname" "info_location"
 "origin" "-640 672 160"
 "count" "0"
-"message" "middle blue rl"
+"netname" "^4Middle Blue rl^3"
 }
 // entity 469
 {
 "classname" "info_location"
 "origin" "32 992 416"
-"message" "middle"
+"netname" "^3Middle^3"
 "count" "0"
 }
 // entity 470
 {
 "classname" "info_location"
 "count" "0"
-"message" "middle"
+"netname" "^3Middle^3"
 "origin" "504 960 352"
 }
 // entity 471
 {
 "classname" "info_location"
 "origin" "736 672 352"
-"message" "middle"
+"netname" "^3Middle^3"
 "count" "0"
 }
 // entity 472
 {
 "classname" "info_location"
 "count" "0"
-"message" "middle"
+"netname" "^3Middle^3"
 "origin" "576 352 160"
 }
 // entity 473
 {
 "classname" "info_location"
 "origin" "552 32 136"
-"message" "middle"
+"netname" "^3Middle^3"
 "count" "0"
 }
 // entity 474
 {
 "classname" "info_location"
 "count" "0"
-"message" "middle"
+"netname" "^3Middle^3"
 "origin" "-488 32 136"
 }
 // entity 475
@@ -39616,12 +39616,12 @@ evil8_base/e8base_blue
 "classname" "info_location"
 "origin" "0 912 768"
 "count" "0"
-"message" "railbitches red"
+"netname" "^1Red Sniper Nest^3"
 }
 // entity 476
 {
 "classname" "info_location"
-"message" "middle ra"
+"netname" "^3Middle ra^3"
 "count" "0"
 "origin" "32 32 448"
 }
