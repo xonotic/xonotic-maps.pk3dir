@@ -36,6 +36,25 @@ textures/facility114invx/ceiling-ceiling00inv
 		blendfunc filter
 	}
 }
+textures/facility114invx/ceiling-ceiling00invr
+{
+	qer_editorimage textures/facility114invx/ceiling/ceiling00invr.tga
+	
+	q3map_bounceScale 1.25
+
+
+	{
+		map textures/facility114invx/ceiling/ceiling00invr.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
 textures/facility114invx/ceiling-ceiling01inv
 {
 	qer_editorimage textures/facility114invx/ceiling/ceiling01inv.tga
@@ -45,6 +64,25 @@ textures/facility114invx/ceiling-ceiling01inv
 
 	{
 		map textures/facility114invx/ceiling/ceiling01inv.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/facility114invx/ceiling-ceiling01invr
+{
+	qer_editorimage textures/facility114invx/ceiling/ceiling01invr.tga
+	
+	q3map_bounceScale 1.25
+
+
+	{
+		map textures/facility114invx/ceiling/ceiling01invr.tga
 		
 
 	}
@@ -207,6 +245,25 @@ textures/facility114invx/trim-trim01inv
 		blendfunc filter
 	}
 }
+textures/facility114invx/trim-trim01invr
+{
+	qer_editorimage textures/facility114invx/trim/trim01invr.tga
+	
+	q3map_bounceScale 1.25
+
+
+	{
+		map textures/facility114invx/trim/trim01invr.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
 textures/facility114invx/trim-trim02inv
 {
 	qer_editorimage textures/facility114invx/trim/trim02inv.tga
@@ -245,6 +302,25 @@ textures/facility114invx/wall-corridor00inv
 		blendfunc filter
 	}
 }
+textures/facility114invx/wall-corridor00invr
+{
+	qer_editorimage textures/facility114invx/wall/corridor00invr.tga
+	
+	q3map_bounceScale 1.25
+
+
+	{
+		map textures/facility114invx/wall/corridor00invr.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
 textures/facility114invx/wall-corridor01inv
 {
 	qer_editorimage textures/facility114invx/wall/corridor01inv.tga
@@ -264,6 +340,44 @@ textures/facility114invx/wall-corridor01inv
 		blendfunc filter
 	}
 }
+textures/facility114invx/wall-corridor01invr
+{
+	qer_editorimage textures/facility114invx/wall/corridor01invr.tga
+	
+	q3map_bounceScale 1.25
+
+
+	{
+		map textures/facility114invx/wall/corridor01invr.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/facility114invx/wall-corridor01invr
+{
+	qer_editorimage textures/facility114invx/wall/corridor01invr.tga
+	
+	q3map_bounceScale 1.25
+
+
+	{
+		map textures/facility114invx/wall/corridor01invr.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
 textures/facility114invx/wall-corridor02inv
 {
 	qer_editorimage textures/facility114invx/wall/corridor02inv.tga
@@ -273,6 +387,25 @@ textures/facility114invx/wall-corridor02inv
 
 	{
 		map textures/facility114invx/wall/corridor02inv.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/facility114invx/wall-corridor02invr
+{
+	qer_editorimage textures/facility114invx/wall/corridor02invr.tga
+	
+	q3map_bounceScale 1.25
+
+
+	{
+		map textures/facility114invx/wall/corridor02invr.tga
 		
 
 	}
