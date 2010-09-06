@@ -1268,7 +1268,7 @@ race_place: if target points to the trigger_race_checkpoint with cnt 0 (finish l
 restriction: when 1, only bots can spawn here; when 2, only humans can spawn here (be careful with these, or the game will crash because someone cannot spawn)
 */
 
-/*QUAKED func_pointparticles (.5 .5 .5) ? START_ON IMPULSE
+/*QUAKED func_pointparticles (.5 .5 .5) ? START_ON IMPULSE VISCULLING
 A brush that emits particles.
 -------- KEYS --------
 mdl: particle effect name from effectinfo.txt
@@ -1289,6 +1289,7 @@ bgmscriptrelease: release time of the effect strength (0 to 3.9)
 -------- SPAWNFLAGS --------
 START_ON: when targeted, the particle emitter will start switched on
 IMPULSE: only send the full amount of impulse particles when the entity is triggered
+VISCULLING: only emit particles if the emitter brush is in the current PVS
 -------- NOTES --------
 Use trigger_monoflop if you want the particles to turn off for a while, then turn back on.
 A BGM script is a .bgs file named like the map, in the maps directory. Its format is lines of the form
