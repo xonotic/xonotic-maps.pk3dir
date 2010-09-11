@@ -13128,7 +13128,7 @@ exx/wall-metalrib01
 "light" "512"
 "_color" "1 0.927962 0.703319"
 "_samples" "8"
-"_deviance" "4"
+"_deviance" "1"
 }
 // entity 46
 {
@@ -13176,7 +13176,7 @@ exx/wall-metalrib01
 "origin" "232.000000 -608.000000 72.000000"
 "light" "512"
 "_color" "1 0.927962 0.703319"
-"_deviance" "4"
+"_deviance" "1"
 "_samples" "8"
 }
 // entity 52
@@ -13379,7 +13379,7 @@ exx/wall-metalrib01
 "origin" "232.000000 608.000000 72.000000"
 "light" "512"
 "_color" "1 0.927962 0.703319"
-"_deviance" "4"
+"_deviance" "1"
 "_samples" "8"
 }
 // entity 78
@@ -13388,7 +13388,7 @@ exx/wall-metalrib01
 "origin" "408.000000 608.000000 72.000000"
 "light" "512"
 "_color" "1 0.927962 0.703319"
-"_deviance" "4"
+"_deviance" "1"
 "_samples" "8"
 }
 // entity 79
