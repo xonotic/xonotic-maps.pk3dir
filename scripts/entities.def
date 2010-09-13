@@ -359,7 +359,7 @@ cnt: weight of this item for random selection using "team". Set to a lower value
 -------- SPAWNFLAGS --------
 FLOATING: the item will float in air, instead of aligning to the floor by falling
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model="models/items/g_a25.md3"
+modeldisabled="models/items/g_a25.md3"
 */
 
 /*QUAKED item_armor_big (.4 .8 .4) (-30 -30 0) (30 30 32) FLOATING
@@ -373,7 +373,7 @@ cnt: weight of this item for random selection using "team". Set to a lower value
 -------- SPAWNFLAGS --------
 FLOATING: the item will float in air, instead of aligning to the floor by falling
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model="models/items/g_a50.md3"
+modeldisabled="models/items/g_a50.md3"
 */
 
 /*QUAKED item_armor_medium (.4 .8 .4) (-30 -30 0) (30 30 32) FLOATING
@@ -387,7 +387,7 @@ cnt: weight of this item for random selection using "team". Set to a lower value
 -------- SPAWNFLAGS --------
 FLOATING: the item will float in air, instead of aligning to the floor by falling
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model="models/items/g_armormedium.md3"
+modeldisabled="models/items/g_armormedium.md3"
 */
 
 /*QUAKED item_armor_small (.4 .8 .4) (-30 -30 0) (30 30 32) FLOATING
@@ -401,7 +401,7 @@ cnt: weight of this item for random selection using "team". Set to a lower value
 -------- SPAWNFLAGS --------
 FLOATING: the item will float in air, instead of aligning to the floor by falling
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model="models/items/g_a1.md3"
+modeldisabled="models/items/g_a1.md3"
 */
 
 /*QUAKED item_bullets (.3 .3 1) (-30 -30 0) (30 30 32) FLOATING
@@ -414,7 +414,7 @@ cnt: weight of this item for random selection using "team". Set to a lower value
 -------- SPAWNFLAGS --------
 FLOATING: the item will float in air, instead of aligning to the floor by falling
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model="models/items/a_bullets.md3"
+modeldisabled="models/items/a_bullets.md3"
 */
 
 /*QUAKED item_cells (.3 .3 1) (-30 -30 0) (30 30 32) FLOATING
@@ -427,7 +427,7 @@ cnt: weight of this item for random selection using "team". Set to a lower value
 -------- SPAWNFLAGS --------
 FLOATING: the item will float in air, instead of aligning to the floor by falling
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model="models/items/a_cells.md3"
+modeldisabled="models/items/a_cells.md3"
 */
 
 /*QUAKED item_flag_team1 (1 0 0) (-32 -32 0) (32 32 74) 
@@ -467,7 +467,7 @@ cnt: weight of this item for random selection using "team". Set to a lower value
 -------- SPAWNFLAGS --------
 FLOATING: the item will float in air, instead of aligning to the floor by falling
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model="models/items/g_h50.md3"
+modeldisabled="models/items/g_h50.md3"
 */
 
 /*QUAKED item_health_medium (.9 .3 .3) (-30 -30 0) (30 30 48) FLOATING
@@ -481,7 +481,7 @@ cnt: weight of this item for random selection using "team". Set to a lower value
 -------- SPAWNFLAGS --------
 FLOATING: the item will float in air, instead of aligning to the floor by falling
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model="models/items/g_h25.md3"
+modeldisabled="models/items/g_h25.md3"
 */
 
 /*QUAKED item_health_mega (.9 .3 .3) (-30 -30 0) (30 30 48) FLOATING
@@ -496,7 +496,7 @@ cnt: weight of this item for random selection using "team". Set to a lower value
 -------- SPAWNFLAGS --------
 FLOATING: the item will float in air, instead of aligning to the floor by falling
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model="models/items/g_h100.md3"
+modeldisabled="models/items/g_h100.md3"
 */
 
 /*QUAKED item_health_small (.9 .3 .3) (-30 -30 0) (30 30 48) FLOATING
@@ -510,7 +510,7 @@ cnt: weight of this item for random selection using "team". Set to a lower value
 -------- SPAWNFLAGS --------
 FLOATING: the item will float in air, instead of aligning to the floor by falling
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model="models/items/g_h1.md3"
+modeldisabled="models/items/g_h1.md3"
 */
 
 /*QUAKED item_invincible (.3 .3 1) (-30 -30 0) (30 30 48) FLOATING
@@ -523,7 +523,7 @@ cnt: weight of this item for random selection using "team". Set to a lower value
 -------- SPAWNFLAGS --------
 FLOATING: the item will float in air, instead of aligning to the floor by falling
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model="models/items/g_invincible.md3"
+modeldisabled="models/items/g_invincible.md3"
 */
 
 /*QUAKED item_minst_cells (.3 .3 1) (-30 -30 0) (30 30 32) FLOATING
@@ -537,7 +537,7 @@ cnt: weight of this item for random selection using "team". Set to a lower value
 -------- SPAWNFLAGS --------
 FLOATING: the item will float in air, instead of aligning to the floor by falling
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model="models/items/a_cells.md3"
+modeldisabled="models/items/a_cells.md3"
 */
 
 /*QUAKED item_rockets (.3 .3 1) (-30 -30 0) (30 30 32) FLOATING
@@ -550,7 +550,7 @@ cnt: weight of this item for random selection using "team". Set to a lower value
 -------- SPAWNFLAGS --------
 FLOATING: the item will float in air, instead of aligning to the floor by falling
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model="models/items/a_rockets.md3"
+modeldisabled="models/items/a_rockets.md3"
 */
 
 /*QUAKED item_shells (.3 .3 1) (-30 -30 0) (30 30 32) FLOATING
@@ -563,7 +563,7 @@ cnt: weight of this item for random selection using "team". Set to a lower value
 -------- SPAWNFLAGS --------
 FLOATING: the item will float in air, instead of aligning to the floor by falling
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model="models/items/a_shells.md3"
+modeldisabled="models/items/a_shells.md3"
 */
 
 /*QUAKED item_strength (.3 .3 1) (-30 -30 0) (30 30 48) FLOATING
@@ -576,7 +576,7 @@ cnt: weight of this item for random selection using "team". Set to a lower value
 -------- SPAWNFLAGS --------
 FLOATING: the item will float in air, instead of aligning to the floor by falling
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model="models/items/g_strength.md3"
+modeldisabled="models/items/g_strength.md3"
 */
 
 /*QUAKED light (.65 .65 1) (-8 -8 -8) (8 8 8) LINEAR NOANGLE - - NOGRIDLIGHT
@@ -1097,7 +1097,7 @@ cnt: weight of this item for random selection using "team". Set to a lower value
 -------- SPAWNFLAGS --------
 FLOATING: the item will float in air, instead of aligning to the floor by falling
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model="models/weapons/g_crylink.md3"
+modeldisabled="models/weapons/g_crylink.md3"
 */
 
 /*QUAKED weapon_electro (1 0 .5) (-30 -30 0) (30 30 32) FLOATING
@@ -1110,7 +1110,7 @@ cnt: weight of this item for random selection using "team". Set to a lower value
 -------- SPAWNFLAGS --------
 FLOATING: the item will float in air, instead of aligning to the floor by falling
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model="models/weapons/g_electro.md3"
+modeldisabled="models/weapons/g_electro.md3"
 */
 
 /*QUAKED weapon_grenadelauncher (1 0 .5) (-30 -30 0) (30 30 32) FLOATING
@@ -1123,7 +1123,7 @@ cnt: weight of this item for random selection using "team". Set to a lower value
 -------- SPAWNFLAGS --------
 FLOATING: the item will float in air, instead of aligning to the floor by falling
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model="models/weapons/g_gl.md3"
+modeldisabled="models/weapons/g_gl.md3"
 */
 
 /*QUAKED weapon_hagar (1 0 .5) (-30 -30 0) (30 30 32) FLOATING
@@ -1136,7 +1136,7 @@ cnt: weight of this item for random selection using "team". Set to a lower value
 -------- SPAWNFLAGS --------
 FLOATING: the item will float in air, instead of aligning to the floor by falling
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model="models/weapons/g_hagar.md3"
+modeldisabled="models/weapons/g_hagar.md3"
 */
 
 /*QUAKED weapon_laser (1 0 .5) (-30 -30 0) (30 30 32) FLOATING
@@ -1150,7 +1150,7 @@ cnt: weight of this item for random selection using "team". Set to a lower value
 -------- SPAWNFLAGS --------
 FLOATING: the item will float in air, instead of aligning to the floor by falling
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model="models/weapons/g_laser.md3"
+modeldisabled="models/weapons/g_laser.md3"
 */
 
 /*QUAKED weapon_nex (1 0 .5) (-30 -30 0) (30 30 32) FLOATING
@@ -1164,7 +1164,7 @@ cnt: weight of this item for random selection using "team". Set to a lower value
 -------- SPAWNFLAGS --------
 FLOATING: the item will float in air, instead of aligning to the floor by falling
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model="models/weapons/g_nex.md3"
+modeldisabled="models/weapons/g_nex.md3"
 */
 
 /*QUAKED weapon_rocketlauncher (1 0 .5) (-30 -30 0) (30 30 32) FLOATING
@@ -1178,7 +1178,7 @@ cnt: weight of this item for random selection using "team". Set to a lower value
 -------- SPAWNFLAGS --------
 FLOATING: the item will float in air, instead of aligning to the floor by falling
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model="models/weapons/g_rl.md3"
+modeldisabled="models/weapons/g_rl.md3"
 */
 
 /*QUAKED weapon_shotgun (1 0 .5) (-30 -30 0) (30 30 32) FLOATING
@@ -1193,7 +1193,7 @@ cnt: weight of this item for random selection using "team". Set to a lower value
 -------- SPAWNFLAGS --------
 FLOATING: the item will float in air, instead of aligning to the floor by falling
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model="models/weapons/g_shotgun.md3"
+modeldisabled="models/weapons/g_shotgun.md3"
 */
 
 /*QUAKED weapon_uzi (1 0 .5) (-30 -30 0) (30 30 32) FLOATING
@@ -1206,7 +1206,7 @@ cnt: weight of this item for random selection using "team". Set to a lower value
 -------- SPAWNFLAGS --------
 FLOATING: the item will float in air, instead of aligning to the floor by falling
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model="models/weapons/g_uzi.md3"
+modeldisabled="models/weapons/g_uzi.md3"
 */
 
 /*QUAKED worldspawn (0 0 0) ? 
@@ -1368,7 +1368,7 @@ cnt: weight of this item for random selection using "team". Set to a lower value
 -------- SPAWNFLAGS --------
 FLOATING: the item will float in air, instead of aligning to the floor by falling
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model="models/weapons/g_minstanex.md3"
+modeldisabled="models/weapons/g_minstanex.md3"
 */
 
 /*QUAKED weapon_porto (1 0 .5) (-30 -30 0) (30 30 32) FLOATING
@@ -1381,7 +1381,7 @@ cnt: weight of this item for random selection using "team". Set to a lower value
 -------- SPAWNFLAGS --------
 FLOATING: the item will float in air, instead of aligning to the floor by falling
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model="models/weapons/g_porto.md3"
+modeldisabled="models/weapons/g_porto.md3"
 */
 
 /*QUAKED target_items (0 0 1) (-8 -8 -8) (8 8 8) AND OR ANDNOT
@@ -1505,7 +1505,7 @@ cnt: weight of this item for random selection using "team". Set to a lower value
 -------- SPAWNFLAGS --------
 FLOATING: the item will float in air, instead of aligning to the floor by falling
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model="models/weapons/g_hlac.md3"
+modeldisabled="models/weapons/g_hlac.md3"
 */
 
 /*QUAKED weapon_seeker (1 0 .5) (-30 -30 0) (30 30 32) FLOATING
@@ -1519,7 +1519,7 @@ cnt: weight of this item for random selection using "team". Set to a lower value
 -------- SPAWNFLAGS --------
 FLOATING: the item will float in air, instead of aligning to the floor by falling
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model="models/weapons/g_seeker.md3"
+modeldisabled="models/weapons/g_seeker.md3"
 */
 
 /*QUAKED weapon_hook (1 0 .5) (-30 -30 0) (30 30 32) FLOATING
@@ -1532,7 +1532,7 @@ cnt: weight of this item for random selection using "team". Set to a lower value
 -------- SPAWNFLAGS --------
 FLOATING: the item will float in air, instead of aligning to the floor by falling
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model="models/weapons/g_hookgun.md3"
+modeldisabled="models/weapons/g_hookgun.md3"
 */
 
 /*QUAKED trigger_heal (.5 .5 .5) ?
@@ -1553,7 +1553,7 @@ cnt: weight of this item for random selection using "team". Set to a lower value
 -------- SPAWNFLAGS --------
 FLOATING: the item will float in air, instead of aligning to the floor by falling
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model="models/weapons/g_campingrifle.md3"
+modeldisabled="models/weapons/g_campingrifle.md3"
 */
 
 /*QUAKED func_fourier (0 .5 .8) ?
@@ -1699,7 +1699,7 @@ cnt: weight of this item for random selection using "team". Set to a lower value
 -------- SPAWNFLAGS --------
 FLOATING: the item will float in air, instead of aligning to the floor by falling
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model="models/items/g_fuel.md3"
+modeldisabled="models/items/g_fuel.md3"
 */
 
 /*QUAKED item_fuel_regen (1 .3 1) (-30 -30 0) (30 30 48) FLOATING
@@ -1711,7 +1711,7 @@ cnt: weight of this item for random selection using "team". Set to a lower value
 -------- SPAWNFLAGS --------
 FLOATING: the item will float in air, instead of aligning to the floor by falling
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model="models/items/g_fuelregen.md3"
+modeldisabled="models/items/g_fuelregen.md3"
 */
 
 /*QUAKED item_jetpack (.3 .3 1) (-30 -30 0) (30 30 48) FLOATING
@@ -1724,7 +1724,7 @@ cnt: weight of this item for random selection using "team". Set to a lower value
 -------- SPAWNFLAGS --------
 FLOATING: the item will float in air, instead of aligning to the floor by falling
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model="models/items/g_jetpack.md3"
+modeldisabled="models/items/g_jetpack.md3"
 */
 
 /*QUAKED trigger_magicear (0 0 1) (-8 -8 -8) (8 8 8) IGNORE_SAY IGNORE_TEAMSAY IGNORE_TELL IGNORE_INVALIDTELL REPLACE_WHOLE_MESSAGE REPLACE_OUTSIDE CONTINUE NODECOLORIZE
@@ -1758,7 +1758,7 @@ cnt: weight of this item for random selection using "team". Set to a lower value
 -------- SPAWNFLAGS --------
 FLOATING: the item will float in air, instead of aligning to the floor by falling
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model="models/weapons/g_fireball.md3"
+modeldisabled="models/weapons/g_fireball.md3"
 */
 
 /*QUAKED trigger_warpzone (1 .5 1) ?
