@@ -157,7 +157,7 @@ use_texture()
 			sky=${1#textures/skies/}
 			sky=${sky%%_*}
 			case "$2" in
-				"$1")
+				textures/skies/$sky|textures/skies/$sky[_]*)
 					# typical place for preview image
 					;;
 				env/$sky[/_]*)
