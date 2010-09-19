@@ -849,6 +849,9 @@ Teleport destination location point for trigger_teleport entities. Do not let it
 -------- KEYS --------
 targetname: make the trigger_teleporter point to this.
 target: target to activate when a teleporter targeting this is used
+target2: target to activate when a teleporter targeting this is used
+target3: target to activate when a teleporter targeting this is used
+target4: target to activate when a teleporter targeting this is used
 angle: direction in which player will look when teleported, OR use
 angles: pitch and yaw when coming out of the teleporter (also specifies the direction the player will aim when coming out)
 cnt: weight for random selection, in case a teleporter points at multiple misc_teleporter_dest
@@ -1081,6 +1084,9 @@ Touching this will teleport players to the location of the targeted misc_telepor
 Note that in Xonotic, teleporters preserve momentum of the player using them.
 -------- KEYS --------
 target: this must point to a misc_teleporter_dest entity. If it points to more than one, a destination is randomly selected on teleport.
+target2: target to activate when the teleporter is used
+target3: target to activate when the teleporter is used
+target4: target to activate when the teleporter is used
 team: team that owns this teleporter (5 = red, 14 = blue, etc) (when set, only this team can teleport)
 targetname: when targeted by a func_button, pressing the button will reassign the teleporter to the team of the activator.
 -------- SPAWNFLAGS --------
@@ -1769,6 +1775,9 @@ Should target a target_position, or be targeted by a misc_warpzone_position.
 Should be thick enough to fit a player entity (i.e. 32 units), preferably even thicker.
 -------- KEYS --------
 target: must point to another trigger_warpzone, or...
+target2: is triggered when a player ENTERS the warpzone (and warps away)
+target3: is triggered when a player LEAVES the warpzone (from the other warp zone to this one)
+target4: is triggered in both cases
 targetname: must be pointed to by another trigger_warpzone. Should be pointed to by a misc_warpzone_position entity, or...
 killtarget: should point to a target_position entity, or
 */
