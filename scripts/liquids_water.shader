@@ -16,7 +16,7 @@ textures/liquids_water/water0
 		tcmod scale 1.2 0.7
 		blendfunc blend
 	}
-	dp_water 0.1 0.8  3 3  1 1 1  1 1 1  0.125
+	dp_water 0.1 0.25  3 3  1 1 1  1 1 1  0.125
 }
 
 textures/liquids_water/water0_cubemap
@@ -59,7 +59,7 @@ textures/liquids_water/water1
 		tcmod scale 1.2 0.7
 		blendfunc blend
 	}
-	dp_water 0.1 0.8  3 3  1 1 1  1 1 1  0.125
+	dp_water 0.1 0.25  3 3  1 1 1  1 1 1  0.125
 }
 
 textures/liquids_water/water2
@@ -78,7 +78,7 @@ textures/liquids_water/water2
 		tcmod scale 1.2 0.7
 		blendfunc blend
 	}
-	dp_water 0.1 0.8  3 3  1 1 1  1 1 1  0.125
+	dp_water 0.1 0.25  3 3  1 1 1  1 1 1  0.125
 }
 
 textures/liquids_water/ruiner_water
