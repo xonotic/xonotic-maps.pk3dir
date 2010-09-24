@@ -8,6 +8,7 @@ type rune 200 20 0
 type lms 9 20 0
 type arena 10 20 0
 type rc 20 5 7 15 0
+type kh 1000 20 3 0
 // optional: fog density red green blue alpha mindist maxdist
 // optional: settemp_for_type (all|gametypename) cvarname value
 // optional: clientsettemp_for_type (all|gametypename) cvarname value
