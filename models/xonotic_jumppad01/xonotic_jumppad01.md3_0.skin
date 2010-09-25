@@ -1,5 +1,5 @@
-flame,textures/xonotic_jumppad01/jumpglow_red
-energy,textures/xonotic_jumppad01/energy_red_anim
+flame,models/xonotic_jumppad01/jumpglow_red
+energy,models/xonotic_jumppad01/energy_red_anim
 1,textures/trak5x/panel-grate1a
 2,textures/trak5x/wall-wall1a
 3,textures/trak5x/base-pipe1a

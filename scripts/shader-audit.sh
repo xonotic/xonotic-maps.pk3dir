@@ -1,5 +1,11 @@
 #!/bin/sh
 
+case "$0" in
+	*/*)
+		cd "${0%/*}"
+		;;
+esac
+
 LF="
 "
 
@@ -151,7 +157,7 @@ use_texture()
 			sky=${1#textures/skies/}
 			sky=${sky%%_*}
 			case "$2" in
-				"$1")
+				textures/skies/$sky|textures/skies/$sky[_]*)
 					# typical place for preview image
 					;;
 				env/$sky[/_]*)
@@ -181,7 +187,7 @@ use_texture()
 parsing_shader=
 parse_shaderstage()
 {
-	while read L A1 A2 Aother; do
+	while read L A1 Aother; do
 		case "$L" in
 			map)
 				case "$A1" in
@@ -193,7 +199,7 @@ parse_shaderstage()
 				esac
 				;;
 			animmap)
-				for X in $A2 $Aother; do
+				for X in $Aother; do
 					use_texture "$parsing_shader" "`normalize "$X"`" animmap
 				done
 				;;
@@ -209,13 +215,18 @@ parse_shaderstage()
 parse_shader()
 {
 	use_texture "$parsing_shader" "$parsing_shader" shader
-	while read L A1; do
+	while read L A1 Aother; do
 		case "$L" in
-			qer_editorimage\ *)
-				use_texture "$parsing_shader" "$A1" editorimage
+			qer_editorimage)
+				use_texture "$parsing_shader" "`normalize "$A1"`" editorimage
 				;;
-			skyparms\ *)
-				use_texture "$parsing_shader" "$A1" sky
+			skyparms)
+				use_texture "$parsing_shader" "${A1}_lf" sky
+				use_texture "$parsing_shader" "${A1}_rt" sky
+				use_texture "$parsing_shader" "${A1}_up" sky
+				use_texture "$parsing_shader" "${A1}_dn" sky
+				use_texture "$parsing_shader" "${A1}_ft" sky
+				use_texture "$parsing_shader" "${A1}_bk" sky
 				;;
 			'{')
 				parse_shaderstage
@@ -234,7 +245,7 @@ parse_shaderfile()
 	case "$1" in
 		## RULE: map_FOO.shader may define tetxures/map_FOO_* and textures/map_FOO/*
 		map_*)
-			allowed_prefixes="textures/map_`echo "$1" | cut -d _ -f 2`_ textures/map_`echo "$1" | cut -d - -f 2`/"
+			allowed_prefixes="textures/map_`echo "$1" | cut -d _ -f 2`_ textures/map_`echo "$1" | cut -d _ -f 2`/"
 			forbidden_prefixes=
 			;;
 		## RULE: skies_FOO.shader may define tetxures/skies/FOO and textures/skies/FOO_*
@@ -275,24 +286,37 @@ strip_comments()
 	sed 's,//.*,,g; s,\r, ,g; s,\t, ,g; s,  *, ,g; s, $,,; s,^ ,,; /^$/ d'
 }
 
-t=`mktemp`
-for X in *.shader; do
-	strip_comments < "$X" > "$t"
-	parse_shaderfile "${X%.shader}" < "$t"
-done
-rm -f "$t"
+{
+	t=`mktemp || echo ".temp"`
+	for X in *.shader; do
+		strip_comments < "$X" > "$t"
+		parse_shaderfile "${X%.shader}" < "$t"
+	done
+	rm -f "$t"
 
-textures_avail=`( cd ..; find textures/ -type f -not -name '*_norm.*' -not -name '*_glow.*' -not -name '*_gloss.*' -not -name '*.xcf' ) | while IFS= read -r T; do normalize "$T"; done | sort -u`
-textures_used=`echo "${textures_used#$LF}" | sort -u`
+	textures_avail=`( cd ..; find textures/ -type f -not -name '*_norm.*' -not -name '*_glow.*' -not -name '*_gloss.*' -not -name '*_reflect.*' -not -name '*.xcf' ) | while IFS= read -r T; do normalize "$T"; done | sort -u`
+	textures_used=`echo "${textures_used#$LF}" | sort -u`
 
-echo "$textures_used$LF$textures_used$LF$textures_avail" | sort | uniq -u | while IFS= read -r L; do
-	case "$L" in
-		textures/radiant/*)
-			;;
-		textures/map_*/*)
-			;;
-		*)
-			echo "(EE) texture $L is not referenced by any shader"
-			;;
-	esac
-done
+	echo "$textures_used$LF$textures_used$LF$textures_avail" | sort | uniq -u | while IFS= read -r L; do
+		case "$L" in
+			textures/radiant/*)
+				;;
+			textures/map_*/*)
+				;;
+			*)
+				echo "(EE) texture $L is not referenced by any shader"
+				;;
+		esac
+	done
+} | {
+	return=true
+	while IFS= read -r STATUS TEXT; do
+		case "$STATUS" in
+			'(EE)')
+				return=false
+				;;
+		esac
+		echo "$STATUS $TEXT"
+	done
+	$return
+}

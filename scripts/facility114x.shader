@@ -131,6 +131,44 @@ textures/facility114x/ceiling-ceiling00
 		blendfunc filter
 	}
 }
+textures/facility114x/ceiling-ceiling00b
+{
+	qer_editorimage textures/facility114x/ceiling/ceiling00b.tga
+	
+	q3map_bounceScale 1.25
+
+
+	{
+		map textures/facility114x/ceiling/ceiling00b.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/facility114x/ceiling-ceiling00r
+{
+	qer_editorimage textures/facility114x/ceiling/ceiling00r.tga
+	
+	q3map_bounceScale 1.25
+
+
+	{
+		map textures/facility114x/ceiling/ceiling00r.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
 textures/facility114x/ceiling-ceiling01
 {
 	qer_editorimage textures/facility114x/ceiling/ceiling01.tga
@@ -140,6 +178,44 @@ textures/facility114x/ceiling-ceiling01
 
 	{
 		map textures/facility114x/ceiling/ceiling01.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/facility114x/ceiling-ceiling01b
+{
+	qer_editorimage textures/facility114x/ceiling/ceiling01b.tga
+	
+	q3map_bounceScale 1.25
+
+
+	{
+		map textures/facility114x/ceiling/ceiling01b.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/facility114x/ceiling-ceiling01r
+{
+	qer_editorimage textures/facility114x/ceiling/ceiling01r.tga
+	
+	q3map_bounceScale 1.25
+
+
+	{
+		map textures/facility114x/ceiling/ceiling01r.tga
 		
 
 	}
@@ -245,6 +321,44 @@ textures/facility114x/misc-lift00
 		blendfunc filter
 	}
 }
+textures/facility114x/misc-lift00b
+{
+	qer_editorimage textures/facility114x/misc/lift00b.tga
+	
+	q3map_bounceScale 1.25
+
+
+	{
+		map textures/facility114x/misc/lift00b.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/facility114x/misc-lift00r
+{
+	qer_editorimage textures/facility114x/misc/lift00r.tga
+	
+	q3map_bounceScale 1.25
+
+
+	{
+		map textures/facility114x/misc/lift00r.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
 textures/facility114x/misc-lift01
 {
 	qer_editorimage textures/facility114x/misc/lift01.tga
@@ -264,6 +378,44 @@ textures/facility114x/misc-lift01
 		blendfunc filter
 	}
 }
+textures/facility114x/misc-lift01b
+{
+	qer_editorimage textures/facility114x/misc/lift01b.tga
+	
+	q3map_bounceScale 1.25
+
+
+	{
+		map textures/facility114x/misc/lift01b.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/facility114x/misc-lift01r
+{
+	qer_editorimage textures/facility114x/misc/lift01r.tga
+	
+	q3map_bounceScale 1.25
+
+
+	{
+		map textures/facility114x/misc/lift01r.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
 textures/facility114x/misc-lift02
 {
 	qer_editorimage textures/facility114x/misc/lift02.tga
@@ -273,6 +425,44 @@ textures/facility114x/misc-lift02
 
 	{
 		map textures/facility114x/misc/lift02.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/facility114x/misc-lift02b
+{
+	qer_editorimage textures/facility114x/misc/lift02b.tga
+	
+	q3map_bounceScale 1.25
+
+
+	{
+		map textures/facility114x/misc/lift02b.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/facility114x/misc-lift02r
+{
+	qer_editorimage textures/facility114x/misc/lift02r.tga
+	
+	q3map_bounceScale 1.25
+
+
+	{
+		map textures/facility114x/misc/lift02r.tga
 		
 
 	}
@@ -340,6 +530,44 @@ textures/facility114x/trim-trim01
 		blendfunc filter
 	}
 }
+textures/facility114x/trim-trim01b
+{
+	qer_editorimage textures/facility114x/trim/trim01b.tga
+	
+	q3map_bounceScale 1.25
+
+
+	{
+		map textures/facility114x/trim/trim01b.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/facility114x/trim-trim01r
+{
+	qer_editorimage textures/facility114x/trim/trim01r.tga
+	
+	q3map_bounceScale 1.25
+
+
+	{
+		map textures/facility114x/trim/trim01r.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
 textures/facility114x/trim-trim02
 {
 	qer_editorimage textures/facility114x/trim/trim02.tga
@@ -378,6 +606,44 @@ textures/facility114x/wall-corridor00
 		blendfunc filter
 	}
 }
+textures/facility114x/wall-corridor00b
+{
+	qer_editorimage textures/facility114x/wall/corridor00b.tga
+	
+	q3map_bounceScale 1.25
+
+
+	{
+		map textures/facility114x/wall/corridor00b.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/facility114x/wall-corridor00r
+{
+	qer_editorimage textures/facility114x/wall/corridor00r.tga
+	
+	q3map_bounceScale 1.25
+
+
+	{
+		map textures/facility114x/wall/corridor00r.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
 textures/facility114x/wall-corridor01
 {
 	qer_editorimage textures/facility114x/wall/corridor01.tga
@@ -387,6 +653,44 @@ textures/facility114x/wall-corridor01
 
 	{
 		map textures/facility114x/wall/corridor01.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/facility114x/wall-corridor01b
+{
+	qer_editorimage textures/facility114x/wall/corridor01b.tga
+	
+	q3map_bounceScale 1.25
+
+
+	{
+		map textures/facility114x/wall/corridor01b.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/facility114x/wall-corridor01r
+{
+	qer_editorimage textures/facility114x/wall/corridor01r.tga
+	
+	q3map_bounceScale 1.25
+
+
+	{
+		map textures/facility114x/wall/corridor01r.tga
 		
 
 	}
