@@ -718,6 +718,28 @@ textures/exx/light-panel01
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
+	{
+		map textures/exx/light/light_panel01.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/exx/light-panel01-surfacelight
+{
+	qer_editorimage textures/exx/light/light_panel01.tga
+	
+	q3map_bounceScale  0.75
+	dpoffsetmapping - 2
+	dpglossintensitymod  3
+	dpglossexponentmod  4
+
+	q3map_surfacelight 2500
 
 	{
 		map textures/exx/light/light_panel01.tga
@@ -740,6 +762,28 @@ textures/exx/light-u201
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
+	{
+		map textures/exx/light/light_u201.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/exx/light-u201-surfacelight
+{
+	qer_editorimage textures/exx/light/light_u201.tga
+	
+	q3map_bounceScale  0.75
+	dpoffsetmapping - 2
+	dpglossintensitymod  3
+	dpglossexponentmod  4
+
+	q3map_surfacelight 2500
 
 	{
 		map textures/exx/light/light_u201.tga
@@ -766,6 +810,29 @@ textures/exx/panel-metal01
 
 	{
 		map textures/exx/panel/panel_metal01.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/exx/panel-metal01b
+{
+	qer_editorimage textures/exx/panel/panel_metal01b.tga
+	
+	surfaceparm metalsteps
+	q3map_bounceScale  2
+	dpoffsetmapping - 2
+	dpglossintensitymod  3
+	dpglossexponentmod  4
+
+
+	{
+		map textures/exx/panel/panel_metal01b.tga
 		
 
 	}
