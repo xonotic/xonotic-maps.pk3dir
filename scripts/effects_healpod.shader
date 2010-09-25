@@ -1,8 +1,8 @@
 //Healpod1 green
 //For best effect apply to a rotating cylinder
-textures/fx/healpod1-d
+textures/effects_healpod/healpod1_d
 {
-	qer_editorimage textures/fx/forcefields/healpod1_d.tga
+	qer_editorimage textures/effects_healpod/healpod1_d.tga
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	surfaceparm nonsolid
@@ -10,7 +10,7 @@ textures/fx/healpod1-d
 	cull none
 	qer_trans 0.6
 	{
-		map textures/fx/forcefields/healpod1_d.tga
+		map textures/effects_healpod/healpod1_d.tga
 		blendfunc add
 		tcMod scroll 0 2
 	}

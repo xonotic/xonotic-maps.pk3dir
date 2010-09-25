@@ -1,7 +1,7 @@
 //Jumppad1 blue
-textures/fx/jumppadfx1-a
+textures/effects_jumppad/jumppadfx1_a
 {
-	qer_editorimage textures/fx/jumppad/jumppadfx1_a.tga
+	qer_editorimage textures/effects_jumppad/jumppadfx1_a.tga
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	surfaceparm nonsolid
@@ -9,15 +9,15 @@ textures/fx/jumppadfx1-a
 	cull none
 	qer_trans 0.6
 	{
-		map textures/fx/jumppad/jumppadfx1_a.tga
+		map textures/effects_jumppad/jumppadfx1_a.tga
 		blendfunc add
 		tcMod scroll 0 2
 	}
 }
 //Jumppad1 red
-textures/fx/jumppadfx1-b
+textures/effects_jumppad/jumppadfx1_b
 {
-	qer_editorimage textures/fx/jumppad/jumppadfx1_b.tga
+	qer_editorimage textures/effects_jumppad/jumppadfx1_b.tga
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	surfaceparm nonsolid
@@ -25,15 +25,15 @@ textures/fx/jumppadfx1-b
 	cull none
 	qer_trans 0.6
 	{
-		map textures/fx/jumppad/jumppadfx1_b.tga
+		map textures/effects_jumppad/jumppadfx1_b.tga
 		blendfunc add
 		tcMod scroll 0 2
 	}
 }
 //Jumppad1 yellow
-textures/fx/jumppadfx1-c
+textures/effects_jumppad/jumppadfx1_c
 {
-	qer_editorimage textures/fx/jumppad/jumppadfx1_c.tga
+	qer_editorimage textures/effects_jumppad/jumppadfx1_c.tga
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	surfaceparm nonsolid
@@ -41,15 +41,15 @@ textures/fx/jumppadfx1-c
 	cull none
 	qer_trans 0.6
 	{
-		map textures/fx/jumppad/jumppadfx1_c.tga
+		map textures/effects_jumppad/jumppadfx1_c.tga
 		blendfunc add
 		tcMod scroll 0 2
 	}
 }
 //Jumppad1 green
-textures/fx/jumppadfx1-d
+textures/effects_jumppad/jumppadfx1_d
 {
-	qer_editorimage textures/fx/jumppad/jumppadfx1_d.tga
+	qer_editorimage textures/effects_jumppad/jumppadfx1_d.tga
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	surfaceparm nonsolid
@@ -57,7 +57,7 @@ textures/fx/jumppadfx1-d
 	cull none
 	qer_trans 0.6
 	{
-		map textures/fx/jumppad/jumppadfx1_d.tga
+		map textures/effects_jumppad/jumppadfx1_d.tga
 		blendfunc add
 		tcMod scroll 0 2
 	}
