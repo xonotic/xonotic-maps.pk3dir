@@ -22897,7 +22897,7 @@ exx/trim/trim_01
 {
 "classname" "misc_model"
 "origin" "1216.000000 177.000000 32.000000"
-"model" "models/warpzone/warpzone-blueedge.md3"
+"model" "models/effects_warpzone/blueedge.md3"
 "modelscale" "4.000000"
 "angle" "-90.000000"
 }
@@ -22905,7 +22905,7 @@ exx/trim/trim_01
 {
 "classname" "misc_model"
 "origin" "-561.000000 224.000000 80.000000"
-"model" "models/warpzone/warpzone-blueedge.md3"
+"model" "models/effects_warpzone/blueedge.md3"
 "modelscale" "4.000000"
 }
 // entity 265
