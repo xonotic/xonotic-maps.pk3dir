@@ -157,7 +157,7 @@ use_texture()
 			sky=${1#textures/skies/}
 			sky=${sky%%_*}
 			case "$2" in
-				"$1")
+				textures/skies/$sky|textures/skies/$sky[_]*)
 					# typical place for preview image
 					;;
 				env/$sky[/_]*)
@@ -245,7 +245,7 @@ parse_shaderfile()
 	case "$1" in
 		## RULE: map_FOO.shader may define tetxures/map_FOO_* and textures/map_FOO/*
 		map_*)
-			allowed_prefixes="textures/map_`echo "$1" | cut -d _ -f 2`_ textures/map_`echo "$1" | cut -d - -f 2`/"
+			allowed_prefixes="textures/map_`echo "$1" | cut -d _ -f 2`_ textures/map_`echo "$1" | cut -d _ -f 2`/"
 			forbidden_prefixes=
 			;;
 		## RULE: skies_FOO.shader may define tetxures/skies/FOO and textures/skies/FOO_*
