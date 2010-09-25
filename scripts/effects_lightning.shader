@@ -46,7 +46,7 @@ textures/effects_lightning/lightning1_c
 		blendfunc add
 	}
 }
-h/Lightning1-d
+//Lightning1-d
 textures/effects_lightning/lightning1_d
 {
 	qer_editorimage textures/effects_lightning/lightning1/8.tga
