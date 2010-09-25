@@ -1,7 +1,7 @@
 //Lightning1-a
-textures/effects_lightning/lightning1_1
+textures/effects_lightning/lightning1_a
 {
-	qer_editorimage textures/effects_lightning/lightning1_1.tga
+	qer_editorimage textures/effects_lightning/lightning1/1.tga
 	surfaceparm nolightmap
 	surfaceparm nodlight
 	surfaceparm trans
@@ -10,14 +10,14 @@ textures/effects_lightning/lightning1_1
 	cull none
 	deformVertexes autosprite2
 	{
-		animMap 15 textures/effects_lightning/lightning1_1.tga textures/effects_lightning/lightning1_2.tga textures/effects_lightning/lightning1_3.tga textures/effects_lightning/lightning1_4.tga textures/effects_lightning/lightning1_5.tga textures/effects_lightning/lightning1_6.tga textures/effects_lightning/lightning1_7.tga textures/effects_lightning/lightning1_8.tga textures/effects_lightning/lightning1_9.tga textures/effects_lightning/lightning1_10.tga textures/effects_lightning/lightning1_11.tga
+		animMap 15 textures/effects_lightning/lightning1/1.tga textures/effects_lightning/lightning1/2.tga textures/effects_lightning/lightning1/3.tga textures/effects_lightning/lightning1/4.tga textures/effects_lightning/lightning1/5.tga textures/effects_lightning/lightning1/6.tga textures/effects_lightning/lightning1/7.tga textures/effects_lightning/lightning1/8.tga textures/effects_lightning/lightning1/9.tga textures/effects_lightning/lightning1/10.tga textures/effects_lightning/lightning1/11.tga
 		blendfunc add
 	}
 }
 //Lightning1-b
-textures/effects_lightning/lightning1_4
+textures/effects_lightning/lightning1_b
 {
-	qer_editorimage textures/effects_lightning/lightning1_4.tga
+	qer_editorimage textures/effects_lightning/lightning1/4.tga
 	surfaceparm nolightmap
 	surfaceparm nodlight
 	surfaceparm trans
@@ -26,14 +26,14 @@ textures/effects_lightning/lightning1_4
 	cull none
 	deformVertexes autosprite2
 	{
-		animMap 15 textures/effects_lightning/lightning1_4.tga textures/effects_lightning/lightning1_5.tga textures/effects_lightning/lightning1_6.tga textures/effects_lightning/lightning1_7.tga textures/effects_lightning/lightning1_8.tga textures/effects_lightning/lightning1_9.tga textures/effects_lightning/lightning1_10.tga textures/effects_lightning/lightning1_11.tga textures/effects_lightning/lightning1_1.tga textures/effects_lightning/lightning1_2.tga textures/effects_lightning/lightning1_3.tga
+		animMap 15 textures/effects_lightning/lightning1/4.tga textures/effects_lightning/lightning1/5.tga textures/effects_lightning/lightning1/6.tga textures/effects_lightning/lightning1/7.tga textures/effects_lightning/lightning1/8.tga textures/effects_lightning/lightning1/9.tga textures/effects_lightning/lightning1/10.tga textures/effects_lightning/lightning1/11.tga textures/effects_lightning/lightning1/1.tga textures/effects_lightning/lightning1/2.tga textures/effects_lightning/lightning1/3.tga
 		blendfunc add
 	}
 }
 //Lightning1-c
-textures/effects_lightning/lightning1_6
+textures/effects_lightning/lightning1_c
 {
-	qer_editorimage textures/effects_lightning/lightning1_6.tga
+	qer_editorimage textures/effects_lightning/lightning1/6.tga
 	surfaceparm nolightmap
 	surfaceparm nodlight
 	surfaceparm trans
@@ -42,14 +42,14 @@ textures/effects_lightning/lightning1_6
 	cull none
 	deformVertexes autosprite2
 	{
-		animMap 15 textures/effects_lightning/lightning1_6.tga textures/effects_lightning/lightning1_7.tga textures/effects_lightning/lightning1_8.tga textures/effects_lightning/lightning1_9.tga textures/effects_lightning/lightning1_10.tga textures/effects_lightning/lightning1_11.tga textures/effects_lightning/lightning1_1.tga textures/effects_lightning/lightning1_2.tga textures/effects_lightning/lightning1_3.tga textures/effects_lightning/lightning1_4.tga textures/effects_lightning/lightning1_5.tga
+		animMap 15 textures/effects_lightning/lightning1/6.tga textures/effects_lightning/lightning1/7.tga textures/effects_lightning/lightning1/8.tga textures/effects_lightning/lightning1/9.tga textures/effects_lightning/lightning1/10.tga textures/effects_lightning/lightning1/11.tga textures/effects_lightning/lightning1/1.tga textures/effects_lightning/lightning1/2.tga textures/effects_lightning/lightning1/3.tga textures/effects_lightning/lightning1/4.tga textures/effects_lightning/lightning1/5.tga
 		blendfunc add
 	}
 }
 h/Lightning1-d
-textures/effects_lightning/lightning1_8
+textures/effects_lightning/lightning1_d
 {
-	qer_editorimage textures/effects_lightning/lightning1_8.tga
+	qer_editorimage textures/effects_lightning/lightning1/8.tga
 	surfaceparm nolightmap
 	surfaceparm nodlight
 	surfaceparm trans
@@ -58,7 +58,7 @@ textures/effects_lightning/lightning1_8
 	cull none
 	deformVertexes autosprite2
 	{
-		animMap 15 textures/effects_lightning/lightning1_8.tga textures/effects_lightning/lightning1_9.tga textures/effects_lightning/lightning1_10.tga textures/effects_lightning/lightning1_11.tga textures/effects_lightning/lightning1_1.tga textures/effects_lightning/lightning1_2.tga textures/effects_lightning/lightning1_3.tga textures/effects_lightning/lightning1_4.tga textures/effects_lightning/lightning1_5.tga textures/effects_lightning/lightning1_6.tga textures/effects_lightning/lightning1_7.tga
+		animMap 15 textures/effects_lightning/lightning1/8.tga textures/effects_lightning/lightning1/9.tga textures/effects_lightning/lightning1/10.tga textures/effects_lightning/lightning1/11.tga textures/effects_lightning/lightning1/1.tga textures/effects_lightning/lightning1/2.tga textures/effects_lightning/lightning1/3.tga textures/effects_lightning/lightning1/4.tga textures/effects_lightning/lightning1/5.tga textures/effects_lightning/lightning1/6.tga textures/effects_lightning/lightning1/7.tga
 		blendfunc add
 	}
 }
