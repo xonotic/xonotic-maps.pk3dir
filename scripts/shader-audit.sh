@@ -149,7 +149,7 @@ use_texture()
 			esac
 			;;
 		## RULE: textures/FOO/* must use textures/FOO/*, for FOO in decals, liquids_water, liquids_slime, liquids_lava, warpzone
-		textures/decals/*|textures/liquids_water/*|textures/liquids_slime/*|textures/liquids_lava/*|textures/warpzone/*|textures/effects_*)
+		textures/decals/*|textures/liquids_*/*|textures/warpzone/*|textures/effects_*/*)
 			pre=`echo "$1" | cut -d / -f 1-2`
 			case "$2" in
 				"$pre"/*)
