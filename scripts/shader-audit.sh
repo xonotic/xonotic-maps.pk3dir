@@ -286,24 +286,36 @@ strip_comments()
 	sed 's,//.*,,g; s,\r, ,g; s,\t, ,g; s,  *, ,g; s, $,,; s,^ ,,; /^$/ d'
 }
 
-t=`mktemp || echo ".temp"`
-for X in *.shader; do
-	strip_comments < "$X" > "$t"
-	parse_shaderfile "${X%.shader}" < "$t"
-done
-rm -f "$t"
+{
+	t=`mktemp || echo ".temp"`
+	for X in *.shader; do
+		strip_comments < "$X" > "$t"
+		parse_shaderfile "${X%.shader}" < "$t"
+	done
+	rm -f "$t"
 
-textures_avail=`( cd ..; find textures/ -type f -not -name '*_norm.*' -not -name '*_glow.*' -not -name '*_gloss.*' -not -name '*_reflect.*' -not -name '*.xcf' ) | while IFS= read -r T; do normalize "$T"; done | sort -u`
-textures_used=`echo "${textures_used#$LF}" | sort -u`
+	textures_avail=`( cd ..; find textures/ -type f -not -name '*_norm.*' -not -name '*_glow.*' -not -name '*_gloss.*' -not -name '*_reflect.*' -not -name '*.xcf' ) | while IFS= read -r T; do normalize "$T"; done | sort -u`
+	textures_used=`echo "${textures_used#$LF}" | sort -u`
 
-echo "$textures_used$LF$textures_used$LF$textures_avail" | sort | uniq -u | while IFS= read -r L; do
-	case "$L" in
-		textures/radiant/*)
-			;;
-		textures/map_*/*)
-			;;
-		*)
-			echo "(EE) texture $L is not referenced by any shader"
-			;;
-	esac
-done
+	echo "$textures_used$LF$textures_used$LF$textures_avail" | sort | uniq -u | while IFS= read -r L; do
+		case "$L" in
+			textures/radiant/*)
+				;;
+			textures/map_*/*)
+				;;
+			*)
+				echo "(EE) texture $L is not referenced by any shader"
+				;;
+		esac
+	done
+} | {
+	return=true
+	while IFS= read -r STATUS TEXT; do
+		case "$STATUS" in
+			'(EE)')
+				return=false
+				;;
+		esac
+	done
+	$return
+}
