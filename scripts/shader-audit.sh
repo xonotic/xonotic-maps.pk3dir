@@ -316,6 +316,7 @@ strip_comments()
 				return=false
 				;;
 		esac
+		echo "$STATUS $TEXT"
 	done
 	$return
 }
