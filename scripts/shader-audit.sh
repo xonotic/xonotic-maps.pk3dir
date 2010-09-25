@@ -196,7 +196,7 @@ parsing_shader=
 parse_shaderstage()
 {
 	while read L A1 Aother; do
-		case "$L" in
+		case "`echo "$L" | tr A-Z a-z`" in
 			map)
 				case "$A1" in
 					'$lightmap')
@@ -224,7 +224,7 @@ parse_shader()
 {
 	use_texture "$parsing_shader" "$parsing_shader" shader
 	while read L A1 Aother; do
-		case "$L" in
+		case "`echo "$L" | tr A-Z a-z`" in
 			qer_editorimage)
 				use_texture "$parsing_shader" "`normalize "$A1"`" editorimage
 				;;
