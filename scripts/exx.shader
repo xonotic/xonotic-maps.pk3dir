@@ -820,6 +820,29 @@ textures/exx/panel-metal01
 		blendfunc filter
 	}
 }
+textures/exx/panel-metal01b
+{
+	qer_editorimage textures/exx/panel/panel_metal01b.tga
+	
+	surfaceparm metalsteps
+	q3map_bounceScale  2
+	dpoffsetmapping - 2
+	dpglossintensitymod  3
+	dpglossexponentmod  4
+
+
+	{
+		map textures/exx/panel/panel_metal01b.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
 textures/exx/panel-metal01c
 {
 	qer_editorimage textures/exx/panel/panel_metal01c.tga

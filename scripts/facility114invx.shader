@@ -359,25 +359,6 @@ textures/facility114invx/wall-corridor01invr
 		blendfunc filter
 	}
 }
-textures/facility114invx/wall-corridor01invr
-{
-	qer_editorimage textures/facility114invx/wall/corridor01invr.tga
-	
-	q3map_bounceScale 1.25
-
-
-	{
-		map textures/facility114invx/wall/corridor01invr.tga
-		
-
-	}
-	{
-		map $lightmap
-		rgbGen identity
-		tcGen lightmap
-		blendfunc filter
-	}
-}
 textures/facility114invx/wall-corridor02inv
 {
 	qer_editorimage textures/facility114invx/wall/corridor02inv.tga

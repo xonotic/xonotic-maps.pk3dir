@@ -16,7 +16,31 @@ textures/liquids_water/water0
 		tcmod scale 1.2 0.7
 		blendfunc blend
 	}
-	dp_water 0.1 0.8  3 3  1 1 1  1 1 1  0.125
+	dp_water 0.1 0.25  3 3  1 1 1  1 1 1  0.125
+}
+
+textures/liquids_water/water0_cubemap
+{
+	qer_trans 20
+	surfaceparm nomarks
+	surfaceparm trans
+	surfaceparm water
+	surfaceparm nolightmap
+	cull none
+	q3map_globaltexture
+	tessSize 256
+	qer_editorimage textures/liquids_water/water0_reflect.tga
+	{
+		map textures/liquids_water/water0.tga
+		tcMod turb 0 0.4 0 0.08
+		blendfunc add
+	}
+	dpreflectcube cubemaps/default/sky
+	{
+		map $lightmap
+		blendfunc add
+		tcGen lightmap
+	}
 }
 
 textures/liquids_water/water1
@@ -35,7 +59,7 @@ textures/liquids_water/water1
 		tcmod scale 1.2 0.7
 		blendfunc blend
 	}
-	dp_water 0.1 0.8  3 3  1 1 1  1 1 1  0.125
+	dp_water 0.1 0.25  3 3  1 1 1  1 1 1  0.125
 }
 
 textures/liquids_water/water2
@@ -54,7 +78,7 @@ textures/liquids_water/water2
 		tcmod scale 1.2 0.7
 		blendfunc blend
 	}
-	dp_water 0.1 0.8  3 3  1 1 1  1 1 1  0.125
+	dp_water 0.1 0.25  3 3  1 1 1  1 1 1  0.125
 }
 
 textures/liquids_water/ruiner_water
