@@ -4,8 +4,8 @@ textures/exx/base-crete01
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
-	dpglossexponentmod  4
+	dpglossintensitymod  1
+	dpglossexponentmod  1
 
 
 	{
@@ -26,8 +26,8 @@ textures/exx/base-crete01blue
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
-	dpglossexponentmod  4
+	dpglossintensitymod  1
+	dpglossexponentmod  1
 
 
 	{
@@ -48,8 +48,8 @@ textures/exx/base-crete01red
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
-	dpglossexponentmod  4
+	dpglossintensitymod  1
+	dpglossexponentmod  1
 
 
 	{
@@ -70,8 +70,8 @@ textures/exx/base-crete02
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
-	dpglossexponentmod  4
+	dpglossintensitymod  1
+	dpglossexponentmod  1
 
 
 	{
@@ -92,8 +92,8 @@ textures/exx/base-crete03
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
-	dpglossexponentmod  4
+	dpglossintensitymod  1
+	dpglossexponentmod  1
 
 
 	{
@@ -322,8 +322,8 @@ textures/exx/floor-crete01
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
-	dpglossexponentmod  4
+	dpglossintensitymod  1
+	dpglossexponentmod  1
 
 
 	{
@@ -344,8 +344,8 @@ textures/exx/floor-crete01-phoenix
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
-	dpglossexponentmod  4
+	dpglossintensitymod  1
+	dpglossexponentmod  1
 
 
 	{
@@ -366,8 +366,8 @@ textures/exx/floor-crete01-phoenixb
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
-	dpglossexponentmod  4
+	dpglossintensitymod  1
+	dpglossexponentmod  1
 
 
 	{
@@ -388,8 +388,8 @@ textures/exx/floor-crete01b
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
-	dpglossexponentmod  4
+	dpglossintensitymod  1
+	dpglossexponentmod  1
 
 
 	{
@@ -787,6 +787,28 @@ textures/exx/light-panel01
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
+	{
+		map textures/exx/light/light_panel01.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/exx/light-panel01-surfacelight
+{
+	qer_editorimage textures/exx/light/light_panel01.tga
+	
+	q3map_bounceScale  0.75
+	dpoffsetmapping - 2
+	dpglossintensitymod  3
+	dpglossexponentmod  4
+
+	q3map_surfacelight 2500
 
 	{
 		map textures/exx/light/light_panel01.tga
@@ -809,6 +831,28 @@ textures/exx/light-u201
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
+	{
+		map textures/exx/light/light_u201.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/exx/light-u201-surfacelight
+{
+	qer_editorimage textures/exx/light/light_u201.tga
+	
+	q3map_bounceScale  0.75
+	dpoffsetmapping - 2
+	dpglossintensitymod  3
+	dpglossexponentmod  4
+
+	q3map_surfacelight 2500
 
 	{
 		map textures/exx/light/light_u201.tga
@@ -864,6 +908,29 @@ textures/exx/panel-metal01
 
 	{
 		map textures/exx/panel/panel_metal01.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/exx/panel-metal01b
+{
+	qer_editorimage textures/exx/panel/panel_metal01b.tga
+	
+	surfaceparm metalsteps
+	q3map_bounceScale  2
+	dpoffsetmapping - 2
+	dpglossintensitymod  3
+	dpglossexponentmod  4
+
+
+	{
+		map textures/exx/panel/panel_metal01b.tga
 		
 
 	}
@@ -1524,8 +1591,8 @@ textures/exx/wall-crete01
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
-	dpglossexponentmod  4
+	dpglossintensitymod  1
+	dpglossexponentmod  1
 
 
 	{
@@ -1546,8 +1613,8 @@ textures/exx/wall-crete02
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
-	dpglossexponentmod  4
+	dpglossintensitymod  1
+	dpglossexponentmod  1
 
 
 	{
@@ -1568,8 +1635,8 @@ textures/exx/wall-crete03
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
-	dpglossexponentmod  4
+	dpglossintensitymod  1
+	dpglossexponentmod  1
 
 
 	{
@@ -1590,8 +1657,8 @@ textures/exx/wall-crete03b
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
-	dpglossexponentmod  4
+	dpglossintensitymod  1
+	dpglossexponentmod  1
 
 
 	{

@@ -118,7 +118,6 @@ textures/common/nodrop
 
 textures/common/noimpact
 {
-	qer_editorimage textures/common/nolightmap.tga
 	qer_nocarve
 	qer_trans 0.5
 	surfaceparm nodraw
@@ -165,7 +164,6 @@ textures/common/terrain
 textures/common/terrain2
 {
 	q3map_terrain
-	qer_editorimage textures/common/terrain.tga
 	surfaceparm dust
 	surfaceparm nodraw
 	surfaceparm nomarks
