@@ -1,7 +1,7 @@
 textures/proceduralx/wall-fruitconcrete_red
 {
 	qer_editorimage textures/proceduralx/wall/fruitconcrete_red
-	dpoffsetmapping - 2
+	dpoffsetmapping - 0.5
 	q3map_bouncescale 1.25
 
 
@@ -22,7 +22,7 @@ textures/proceduralx/wall-fruitconcrete_red
 textures/proceduralx/wall-fruitconcrete_purple
 {
 	qer_editorimage textures/proceduralx/wall/fruitconcrete_purple
-	dpoffsetmapping - 2
+	dpoffsetmapping - 0.5
 	q3map_bouncescale 1.25
 
 
@@ -43,7 +43,7 @@ textures/proceduralx/wall-fruitconcrete_purple
 textures/proceduralx/wall-fruitconcrete
 {
 	qer_editorimage textures/proceduralx/wall/fruitconcrete
-	dpoffsetmapping - 2
+	dpoffsetmapping - 0.5
 	q3map_bouncescale 1.25
 
 
@@ -64,7 +64,7 @@ textures/proceduralx/wall-fruitconcrete
 textures/proceduralx/wall-fruitconcrete_blue
 {
 	qer_editorimage textures/proceduralx/wall/fruitconcrete_blue
-	dpoffsetmapping - 2
+	dpoffsetmapping - 0.5
 	q3map_bouncescale 1.25
 
 
