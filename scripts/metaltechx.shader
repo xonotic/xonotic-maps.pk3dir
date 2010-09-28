@@ -120,32 +120,6 @@ textures/metaltechx/wall-alu_cap
 }
 
 
-textures/metaltechx/wall-grate
-{
-	qer_editorimage textures/metaltechx/wall/grate
-	dpoffsetmapping - 2
-	dpglossintensitymod  3
-	dpglossexponentmod  4
-	surfaceparm metalsteps
-	surfaceparm trans
-	q3map_bouncescale 1.75
-
-
-	{
-		map textures/metaltechx/wall/grate
-				blendfunc blend
-		
-	}
-
-	{
-		map $lightmap
-		rgbGen identity
-		tcGen lightmap
-		blendfunc filter
-	}
-}
-
-
 textures/metaltechx/wall-alu_base
 {
 	qer_editorimage textures/metaltechx/wall/alu_base
@@ -192,29 +166,4 @@ textures/metaltechx/wall-alu02
 		blendfunc filter
 	}
 }
-
-
-textures/metaltechx/wall-wires
-{
-	qer_editorimage textures/metaltechx/wall/wires
-	dpoffsetmapping - 2
-	dpglossintensitymod  3
-	dpglossexponentmod  4
-	surfaceparm metalsteps
-	q3map_bouncescale 1.50
-
-
-	{
-		map textures/metaltechx/wall/wires
-				
-	}
-
-	{
-		map $lightmap
-		rgbGen identity
-		tcGen lightmap
-		blendfunc filter
-	}
-}
-
 
