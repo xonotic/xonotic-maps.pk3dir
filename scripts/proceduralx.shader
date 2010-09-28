@@ -2,8 +2,6 @@ textures/proceduralx/wall-fruitconcrete_red
 {
 	qer_editorimage textures/proceduralx/wall/fruitconcrete_red
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
-	dpglossexponentmod  4
 	q3map_bouncescale 1.25
 
 
@@ -25,8 +23,6 @@ textures/proceduralx/wall-fruitconcrete_purple
 {
 	qer_editorimage textures/proceduralx/wall/fruitconcrete_purple
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
-	dpglossexponentmod  4
 	q3map_bouncescale 1.25
 
 
@@ -48,8 +44,6 @@ textures/proceduralx/wall-fruitconcrete
 {
 	qer_editorimage textures/proceduralx/wall/fruitconcrete
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
-	dpglossexponentmod  4
 	q3map_bouncescale 1.25
 
 
@@ -71,8 +65,6 @@ textures/proceduralx/wall-fruitconcrete_blue
 {
 	qer_editorimage textures/proceduralx/wall/fruitconcrete_blue
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
-	dpglossexponentmod  4
 	q3map_bouncescale 1.25
 
 
@@ -93,9 +85,7 @@ textures/proceduralx/wall-fruitconcrete_blue
 textures/proceduralx/floor-floor02
 {
 	qer_editorimage textures/proceduralx/floor/floor02
-	dpoffsetmapping - 2
-	dpglossintensitymod  3
-	dpglossexponentmod  4
+	dpoffsetmapping - 1
 	q3map_bouncescale 1.25
 
 
@@ -116,9 +106,7 @@ textures/proceduralx/floor-floor02
 textures/proceduralx/floor-floor01
 {
 	qer_editorimage textures/proceduralx/floor/floor01
-	dpoffsetmapping - 2
-	dpglossintensitymod  3
-	dpglossexponentmod  4
+	dpoffsetmapping - 1
 	q3map_bouncescale 1.25
 
 
@@ -139,9 +127,7 @@ textures/proceduralx/floor-floor01
 textures/proceduralx/floor-floor04
 {
 	qer_editorimage textures/proceduralx/floor/floor04
-	dpoffsetmapping - 2
-	dpglossintensitymod  3
-	dpglossexponentmod  4
+	dpoffsetmapping - 1
 	q3map_bouncescale 1.25
 
 
@@ -162,9 +148,7 @@ textures/proceduralx/floor-floor04
 textures/proceduralx/floor-floor03
 {
 	qer_editorimage textures/proceduralx/floor/floor03
-	dpoffsetmapping - 2
-	dpglossintensitymod  3
-	dpglossexponentmod  4
+	dpoffsetmapping - 1
 	q3map_bouncescale 1.25
 
 
