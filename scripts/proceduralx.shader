@@ -87,6 +87,7 @@ textures/proceduralx/floor-floor02
 	qer_editorimage textures/proceduralx/floor/floor02
 	dpoffsetmapping - 1
 	q3map_bouncescale 1.25
+	dpreflectcube cubemaps/default/sky
 
 
 	{
@@ -108,6 +109,7 @@ textures/proceduralx/floor-floor01
 	qer_editorimage textures/proceduralx/floor/floor01
 	dpoffsetmapping - 1
 	q3map_bouncescale 1.25
+	dpreflectcube cubemaps/default/sky
 
 
 	{
@@ -129,6 +131,7 @@ textures/proceduralx/floor-floor04
 	qer_editorimage textures/proceduralx/floor/floor04
 	dpoffsetmapping - 1
 	q3map_bouncescale 1.25
+	dpreflectcube cubemaps/default/sky
 
 
 	{
@@ -150,6 +153,7 @@ textures/proceduralx/floor-floor03
 	qer_editorimage textures/proceduralx/floor/floor03
 	dpoffsetmapping - 1
 	q3map_bouncescale 1.25
+	dpreflectcube cubemaps/default/sky
 
 
 	{
