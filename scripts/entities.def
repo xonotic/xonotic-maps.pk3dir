@@ -1848,3 +1848,57 @@ targetname: you can use this to target the grazity zone with a trigger, which wi
 STICKY: entities keep their gravity after leaving the gravity zone
 START_OFF: when targeted, the gravity zone starts off and is enabled upon triggering
 */
+
+/*QUAKED relay_activate (0 1 0) (-8 -8 -8) (8 8 8) 
+Activates all .target's
+List of currently supported target ents:
+trigger_hurt
+trigger_heal
+trigger_impulse
+trigger_push
+trigger_teleport
+func_rotating
+func_bobbing
+func_button
+func_fourier
+func_vectormamamam
+-------- KEYS --------
+target: trigger all entities with this targetname when triggered
+targetname: name that identifies this entity so it can be triggered
+*/
+
+/*QUAKED relay_deactivate (1 0 0) (-8 -8 -8) (8 8 8) 
+Deactivates all .target's
+List of currently supported target ents:
+trigger_hurt
+trigger_heal
+trigger_impulse
+trigger_push
+trigger_teleport
+func_rotating
+func_bobbing
+func_button
+func_fourier
+func_vectormamamam
+-------- KEYS --------
+target: trigger all entities with this targetname when triggered
+targetname: name that identifies this entity so it can be triggered
+*/
+
+/*QUAKED relay_activatetoggle (0 1 1) (-8 -8 -8) (8 8 8) 
+Toggles all .target's de/active
+List of currently supported target ents:
+trigger_hurt
+trigger_heal
+trigger_impulse
+trigger_push
+trigger_teleport
+func_rotating
+func_bobbing
+func_button
+func_fourier
+func_vectormamamam
+-------- KEYS --------
+target: trigger all entities with this targetname when triggered
+targetname: name that identifies this entity so it can be triggered
+*/
