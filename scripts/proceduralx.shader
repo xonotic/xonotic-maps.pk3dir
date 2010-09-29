@@ -166,3 +166,25 @@ textures/proceduralx/floor-floor03
 }
 
 
+textures/proceduralx/floor-floor05
+{
+	qer_editorimage textures/proceduralx/floor/floor05
+	dpoffsetmapping - 1
+	q3map_bouncescale 1.25
+	dpreflectcube cubemaps/default/sky
+
+
+	{
+		map textures/proceduralx/floor/floor05
+				
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+
+
