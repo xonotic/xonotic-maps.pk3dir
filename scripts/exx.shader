@@ -709,6 +709,75 @@ textures/exx/floor-wrn01
 	}
 }
 
+textures/exx/floor-wrn01-blue
+{
+	qer_editorimage textures/exx/floor/floor_wrn01-blue.tga
+	
+	q3map_bounceScale  0.75
+	dpoffsetmapping - 2
+	dpglossintensitymod  3
+	dpglossexponentmod  4
+
+
+	{
+		map textures/exx/floor/floor_wrn01-blue.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+
+textures/exx/floor-wrn01-red
+{
+	qer_editorimage textures/exx/floor/floor_wrn01-red.tga
+	
+	q3map_bounceScale  0.75
+	dpoffsetmapping - 2
+	dpglossintensitymod  3
+	dpglossexponentmod  4
+
+
+	{
+		map textures/exx/floor/floor_wrn01-red.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+
+textures/exx/floor-wrn01-purple
+{
+	qer_editorimage textures/exx/floor/floor_wrn01-purple.tga
+	
+	q3map_bounceScale  0.75
+	dpoffsetmapping - 2
+	dpglossintensitymod  3
+	dpglossexponentmod  4
+
+
+	{
+		map textures/exx/floor/floor_wrn01-purple.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+
 textures/exx/light-panel01
 {
 	qer_editorimage textures/exx/light/light_panel01.tga
@@ -789,6 +858,35 @@ textures/exx/light-u201-surfacelight
 		map textures/exx/light/light_u201.tga
 		
 
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/exx/panel-grate01
+{
+	qer_editorimage textures/exx/panel/panel_grate01.tga
+	
+	surfaceparm metalsteps
+	q3map_bounceScale  2
+	dpoffsetmapping - 2
+	dpglossintensitymod  3
+	dpglossexponentmod  4
+
+	surfaceparm nomarks
+	surfaceparm trans
+	surfaceparm alphashadow
+
+	cull none
+	nopicmip
+	nomipmaps
+	{
+		map textures/exx/panel/panel_grate01.tga
+		alphaFunc GT0
+		rgbgen vertex
 	}
 	{
 		map $lightmap
