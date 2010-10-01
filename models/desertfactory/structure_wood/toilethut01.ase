@@ -37,7 +37,7 @@
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\desertfactory_shaders\writing03.tga"
+			*BITMAP	"..\models\desertfactory\textures\shaders\writing03.tga"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}
@@ -52,7 +52,7 @@
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\desertfactory_wood\wood02.tga"
+			*BITMAP	"..\models\desertfactory\textures\wood\wood02.tga"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}
@@ -67,7 +67,7 @@
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\desertfactory_wood\wood01.tga"
+			*BITMAP	"..\models\desertfactory\textures\wood\wood01.tga"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}
@@ -82,7 +82,7 @@
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\desertfactory_metal\metal01.tga"
+			*BITMAP	"..\models\desertfactory\textures\metal\metal01.tga"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}
@@ -97,7 +97,7 @@
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\desertfactory_shaders\light02.tga"
+			*BITMAP	"..\models\desertfactory\textures\shaders\light02.tga"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}
@@ -112,7 +112,7 @@
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\desertfactory_stone\sand01.tga"
+			*BITMAP	"..\models\desertfactory\textures\stone\sand01.tga"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}
@@ -127,7 +127,7 @@
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\desertfactory_shaders\writing05.tga"
+			*BITMAP	"..\models\desertfactory\textures\shaders\writing05.tga"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}
@@ -142,7 +142,7 @@
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\desertfactory_shaders\writing02.tga"
+			*BITMAP	"..\models\desertfactory\textures\shaders\writing02.tga"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}
@@ -157,7 +157,7 @@
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\desertfactory_shaders\writing01.tga"
+			*BITMAP	"..\models\desertfactory\textures\shaders\writing01.tga"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}
@@ -172,7 +172,7 @@
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\desertfactory_shaders\writing04.tga"
+			*BITMAP	"..\models\desertfactory\textures\shaders\writing04.tga"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}
@@ -187,7 +187,7 @@
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\desertfactory_metal\roof01.tga"
+			*BITMAP	"..\models\desertfactory\textures\metal\roof01.tga"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}
@@ -202,7 +202,7 @@
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\desertfactory_shaders\writing03.tga"
+			*BITMAP	"..\models\desertfactory\textures\shaders\writing03.tga"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}
@@ -217,7 +217,7 @@
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\desertfactory_wood\wood02.tga"
+			*BITMAP	"..\models\desertfactory\textures\wood\wood02.tga"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}
@@ -232,7 +232,7 @@
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\desertfactory_stone\sand01.tga"
+			*BITMAP	"..\models\desertfactory\textures\stone\sand01.tga"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}
@@ -247,7 +247,7 @@
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\desertfactory_shaders\light02.tga"
+			*BITMAP	"..\models\desertfactory\textures\shaders\light02.tga"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}
@@ -262,7 +262,7 @@
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\desertfactory_shaders\writing05.tga"
+			*BITMAP	"..\models\desertfactory\textures\shaders\writing05.tga"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}
@@ -277,7 +277,7 @@
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\desertfactory_shaders\writing02.tga"
+			*BITMAP	"..\models\desertfactory\textures\shaders\writing02.tga"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}
@@ -292,7 +292,7 @@
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\desertfactory_shaders\writing01.tga"
+			*BITMAP	"..\models\desertfactory\textures\shaders\writing01.tga"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}
@@ -307,7 +307,7 @@
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\desertfactory_shaders\writing04.tga"
+			*BITMAP	"..\models\desertfactory\textures\shaders\writing04.tga"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}
@@ -322,7 +322,7 @@
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\desertfactory_metal\roof01.tga"
+			*BITMAP	"..\models\desertfactory\textures\metal\roof01.tga"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}
@@ -337,7 +337,7 @@
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\desertfactory_wood\wood01.tga"
+			*BITMAP	"..\models\desertfactory\textures\wood\wood01.tga"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}
@@ -352,7 +352,7 @@
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\desertfactory_metal\metal01.tga"
+			*BITMAP	"..\models\desertfactory\textures\metal\metal01.tga"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}

@@ -37,7 +37,7 @@
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\desertfactory_shaders\grass02.tga"
+			*BITMAP	"..\models\desertfactory\textures\shaders\grass02.tga"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}
@@ -52,7 +52,7 @@
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\desertfactory_shaders\grass02.tga"
+			*BITMAP	"..\models\desertfactory\textures\shaders\grass02.tga"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}

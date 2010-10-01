@@ -37,7 +37,7 @@
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\desertfactory_wood\wood02.tga"
+			*BITMAP	"..\models\desertfactory\textures\wood\wood02.tga"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}
@@ -52,7 +52,7 @@
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\desertfactory_metal\roof01.tga"
+			*BITMAP	"..\models\desertfactory\textures\metal\roof01.tga"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}
@@ -67,7 +67,7 @@
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\desertfactory_metal\roof01.tga"
+			*BITMAP	"..\models\desertfactory\textures\metal\roof01.tga"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}
@@ -82,7 +82,7 @@
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\desertfactory_wood\wood02.tga"
+			*BITMAP	"..\models\desertfactory\textures\wood\wood02.tga"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}

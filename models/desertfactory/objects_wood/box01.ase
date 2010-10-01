@@ -22,7 +22,7 @@
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\desertfactory_wood\box01.tga"
+			*BITMAP	"..\models\desertfactory\textures\wood\box01.tga"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}

@@ -37,7 +37,7 @@
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\desertfactory_stone\bricks02_single04.tga"
+			*BITMAP	"..\models\desertfactory\textures\stone\bricks02_single04.tga"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}
@@ -52,7 +52,7 @@
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\desertfactory_stone\bricks02_single01.tga"
+			*BITMAP	"..\models\desertfactory\textures\stone\bricks02_single01.tga"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}
@@ -67,7 +67,7 @@
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\desertfactory_stone\bricks02_single02.tga"
+			*BITMAP	"..\models\desertfactory\textures\stone\bricks02_single02.tga"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}
@@ -82,7 +82,7 @@
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\desertfactory_stone\bricks02_single03.tga"
+			*BITMAP	"..\models\desertfactory\textures\stone\bricks02_single03.tga"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}
@@ -97,7 +97,7 @@
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\desertfactory_stone\bricks02_single02.tga"
+			*BITMAP	"..\models\desertfactory\textures\stone\bricks02_single02.tga"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}
@@ -112,7 +112,7 @@
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\desertfactory_stone\bricks02_single01.tga"
+			*BITMAP	"..\models\desertfactory\textures\stone\bricks02_single01.tga"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}
@@ -127,7 +127,7 @@
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\desertfactory_stone\bricks02_single04.tga"
+			*BITMAP	"..\models\desertfactory\textures\stone\bricks02_single04.tga"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}
@@ -142,7 +142,7 @@
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\desertfactory_stone\bricks02_single03.tga"
+			*BITMAP	"..\models\desertfactory\textures\stone\bricks02_single03.tga"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}

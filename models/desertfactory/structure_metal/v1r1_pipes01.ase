@@ -37,7 +37,7 @@
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\desertfactory_metal\metal05.tga"
+			*BITMAP	"..\models\desertfactory\textures\metal\metal05.tga"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}
@@ -52,7 +52,7 @@
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\desertfactory_metal\metal02.tga"
+			*BITMAP	"..\models\desertfactory\textures\metal\metal02.tga"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}
@@ -67,7 +67,7 @@
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\desertfactory_metal\metal05.tga"
+			*BITMAP	"..\models\desertfactory\textures\metal\metal05.tga"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}
@@ -82,7 +82,7 @@
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\desertfactory_metal\metal02.tga"
+			*BITMAP	"..\models\desertfactory\textures\metal\metal02.tga"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}
