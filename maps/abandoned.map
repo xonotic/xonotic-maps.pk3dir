@@ -4805,13 +4805,13 @@ exx/base-metal03
 {
 "classname" "misc_model"
 "origin" "-800.000000 288.000000 -504.000000"
-"model" "xonotic-maps.pk3dir/models/xonotic_jumppad01/xonotic_jumppad01.md3"
+"model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 }
 // entity 2
 {
 "classname" "misc_model"
 "origin" "-8.000000 -40.000000 176.000000"
-"model" "xonotic-maps.pk3dir/models/xonotic_jumppad01/xonotic_jumppad01.md3"
+"model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 }
 // entity 3
 {
@@ -4836,28 +4836,28 @@ exx/base-metal03
 {
 "classname" "misc_model"
 "origin" "-128.000000 -512.000000 160.000000"
-"model" "xonotic-maps.pk3dir/models/lights/xonlight01.md3"
+"model" "models/lights/xonlight01.md3"
 "angles" "0.000000 0.000000 -90.000000"
 }
 // entity 6
 {
 "classname" "misc_model"
 "origin" "16.000000 -0.000002 104.000000"
-"model" "xonotic-maps.pk3dir/models/lights/xonlight01.md3"
+"model" "models/lights/xonlight01.md3"
 "angles" "0.000000 0.000000 89.999992"
 }
 // entity 7
 {
 "classname" "misc_model"
 "origin" "-288.000000 -0.000002 432.000000"
-"model" "xonotic-maps.pk3dir/models/lights/xonlight01.md3"
+"model" "models/lights/xonlight01.md3"
 "angles" "90.000000 0.000000 90.000000"
 }
 // entity 8
 {
 "classname" "misc_model"
 "origin" "-288.000000 -63.999996 432.000000"
-"model" "xonotic-maps.pk3dir/models/lights/xonlight01.md3"
+"model" "models/lights/xonlight01.md3"
 "angles" "90.000000 0.000000 -90.000000"
 }
 // entity 9
@@ -5182,7 +5182,7 @@ exx/base-metal03
 {
 "classname" "misc_model"
 "origin" "-472.000000 -872.000000 -504.000000"
-"model" "xonotic-maps.pk3dir/models/xonotic_jumppad01/xonotic_jumppad01.md3"
+"model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 }
 // entity 63
 {
@@ -5210,7 +5210,7 @@ exx/base-metal03
 {
 "classname" "misc_model"
 "origin" "-320.000061 -479.999939 -296.000000"
-"model" "xonotic-maps.pk3dir/models/lights/xonlight01.md3"
+"model" "models/lights/xonlight01.md3"
 "angles" "-90.000000 0.000000 -179.999985"
 }
 // entity 66
@@ -5223,7 +5223,7 @@ exx/base-metal03
 {
 "classname" "misc_model"
 "origin" "-127.999924 -512.000000 -287.999969"
-"model" "xonotic-maps.pk3dir/models/lights/xonlight01.md3"
+"model" "models/lights/xonlight01.md3"
 "angles" "0.000003 0.000003 -90.000000"
 }
 // entity 68
@@ -5265,7 +5265,7 @@ exx/base-metal03
 {
 "classname" "misc_model"
 "origin" "-288.000000 -448.000000 63.999992"
-"model" "xonotic-maps.pk3dir/models/lights/xonlight01.md3"
+"model" "models/lights/xonlight01.md3"
 "angles" "-90.000000 0.000000 90.000000"
 }
 // entity 74
@@ -5278,7 +5278,7 @@ exx/base-metal03
 {
 "classname" "misc_model"
 "origin" "-160.000000 -448.000000 -240.000000"
-"model" "xonotic-maps.pk3dir/models/lights/xonlight01.md3"
+"model" "models/lights/xonlight01.md3"
 "angles" "0.000010 0.000003 90.000000"
 }
 // entity 76
@@ -5291,7 +5291,7 @@ exx/base-metal03
 {
 "classname" "misc_model"
 "origin" "-32.000000 -72.000000 0.000000"
-"model" "xonotic-maps.pk3dir/models/lights/xonlight01.md3"
+"model" "models/lights/xonlight01.md3"
 "angles" "90.000000 0.000000 -90.000000"
 }
 // entity 78
@@ -5322,7 +5322,7 @@ exx/base-metal03
 {
 "classname" "misc_model"
 "origin" "-704.000000 -512.000000 160.000000"
-"model" "xonotic-maps.pk3dir/models/lights/xonlight01.md3"
+"model" "models/lights/xonlight01.md3"
 "angles" "0.000000 0.000000 -90.000000"
 }
 // entity 83
