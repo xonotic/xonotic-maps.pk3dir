@@ -2,7 +2,7 @@
 // entity 0
 {
 "classname" "worldspawn"
-"_floodlight" "0.7 1 0.7 128 384"
+"_floodlight" "0.7 1 0.7 128 224"
 // brush 0
 {
 ( 2048 2048 256 ) ( 2048 -2048 256 ) ( -2048 2048 256 ) proceduralx/wall-fruitconcrete 0 0 0 0.25 0.25 0 0 0
