@@ -82,16 +82,16 @@ textures/proceduralx/wall-fruitconcrete_blue
 }
 
 
-textures/proceduralx/floor-floor02
+textures/proceduralx/pattern-tiles02
 {
-	qer_editorimage textures/proceduralx/floor/floor02
+	qer_editorimage textures/proceduralx/pattern/tiles02
 	dpoffsetmapping - 1
 	q3map_bouncescale 1.25
 	dpreflectcube cubemaps/default/sky
 
 
 	{
-		map textures/proceduralx/floor/floor02
+		map textures/proceduralx/pattern/tiles02
 				
 	}
 
@@ -104,16 +104,16 @@ textures/proceduralx/floor-floor02
 }
 
 
-textures/proceduralx/floor-floor01
+textures/proceduralx/pattern-tiles01
 {
-	qer_editorimage textures/proceduralx/floor/floor01
+	qer_editorimage textures/proceduralx/pattern/tiles01
 	dpoffsetmapping - 1
 	q3map_bouncescale 1.25
 	dpreflectcube cubemaps/default/sky
 
 
 	{
-		map textures/proceduralx/floor/floor01
+		map textures/proceduralx/pattern/tiles01
 				
 	}
 
@@ -126,16 +126,16 @@ textures/proceduralx/floor-floor01
 }
 
 
-textures/proceduralx/floor-floor04
+textures/proceduralx/pattern-tiles04
 {
-	qer_editorimage textures/proceduralx/floor/floor04
+	qer_editorimage textures/proceduralx/pattern/tiles04
 	dpoffsetmapping - 1
 	q3map_bouncescale 1.25
 	dpreflectcube cubemaps/default/sky
 
 
 	{
-		map textures/proceduralx/floor/floor04
+		map textures/proceduralx/pattern/tiles04
 				
 	}
 
@@ -148,16 +148,16 @@ textures/proceduralx/floor-floor04
 }
 
 
-textures/proceduralx/floor-floor03
+textures/proceduralx/pattern-tiles03
 {
-	qer_editorimage textures/proceduralx/floor/floor03
+	qer_editorimage textures/proceduralx/pattern/tiles03
 	dpoffsetmapping - 1
 	q3map_bouncescale 1.25
 	dpreflectcube cubemaps/default/sky
 
 
 	{
-		map textures/proceduralx/floor/floor03
+		map textures/proceduralx/pattern/tiles03
 				
 	}
 
@@ -170,16 +170,16 @@ textures/proceduralx/floor-floor03
 }
 
 
-textures/proceduralx/floor-floor05
+textures/proceduralx/pattern-tiles05
 {
-	qer_editorimage textures/proceduralx/floor/floor05
+	qer_editorimage textures/proceduralx/pattern/tiles05
 	dpoffsetmapping - 1
 	q3map_bouncescale 1.25
 	dpreflectcube cubemaps/default/sky
 
 
 	{
-		map textures/proceduralx/floor/floor05
+		map textures/proceduralx/pattern/tiles05
 				
 	}
 
