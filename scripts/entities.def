@@ -1902,3 +1902,12 @@ func_vectormamamam
 target: trigger all entities with this targetname when triggered
 targetname: name that identifies this entity so it can be triggered
 */
+
+/*QUAKED target_changelevel (.5 .5 0) (-8 -8 -8) (8 8 8)
+Loads another map when triggered. Useful for single player maps.
+When no chmap key is set, the entity just ends the match when triggered. The player / team with the highest score at that moment wins.
+-------- KEYS --------
+targetname: The name other entities can use to target this entity
+chmap: Map file to switch to, leave empty to make this entity just end the match
+gametype: Switch to this gametype. If empty, the same gametype stays
+*/
