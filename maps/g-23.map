@@ -12889,21 +12889,21 @@ exx/wall-metalrib01
 {
 "classname" "light"
 "origin" "-256.000000 336.000000 96.000000"
-"light" "640"
+"light" "384"
 "_color" "1 0.927962 0.703319"
 }
 // entity 6
 {
 "classname" "light"
 "origin" "512.000000 336.000000 96.000000"
-"light" "640"
+"light" "384"
 "_color" "1 0.927962 0.703319"
 }
 // entity 7
 {
 "classname" "light"
 "origin" "-256.000000 -336.000000 96.000000"
-"light" "640"
+"light" "384"
 "_color" "1 0.927962 0.703319"
 }
 // entity 8
@@ -12918,7 +12918,7 @@ exx/wall-metalrib01
 {
 "classname" "light"
 "origin" "-400.000000 -192.000000 96.000000"
-"light" "640"
+"light" "384"
 "_color" "1 0.927962 0.703319"
 }
 // entity 10
@@ -12941,7 +12941,7 @@ exx/wall-metalrib01
 {
 "classname" "light"
 "origin" "728.000000 -408.000000 -312.000000"
-"light" "512"
+"light" "384"
 "_color" "1 0.927962 0.703319"
 }
 // entity 13
@@ -12980,7 +12980,7 @@ exx/wall-metalrib01
 {
 "classname" "light"
 "origin" "128.000000 -336.000000 96.000000"
-"light" "640"
+"light" "384"
 "_color" "1 0.927962 0.703319"
 }
 // entity 18
@@ -12995,14 +12995,14 @@ exx/wall-metalrib01
 {
 "classname" "light"
 "origin" "-400.000000 192.000000 96.000000"
-"light" "640"
+"light" "384"
 "_color" "1 0.927962 0.703319"
 }
 // entity 20
 {
 "classname" "light"
 "origin" "656.000000 192.000000 96.000000"
-"light" "640"
+"light" "384"
 "_color" "1 0.927962 0.703319"
 }
 // entity 21
@@ -13057,7 +13057,7 @@ exx/wall-metalrib01
 {
 "classname" "light"
 "origin" "128.000000 336.000000 96.000000"
-"light" "640"
+"light" "384"
 "_color" "1 0.927962 0.703319"
 }
 // entity 28
@@ -13398,7 +13398,7 @@ exx/wall-metalrib01
 {
 "classname" "light"
 "origin" "608.000000 -288.000000 216.000015"
-"light" "784"
+"light" "512"
 "_color" "1 0.927962 0.703319"
 }
 // entity 60
@@ -13781,7 +13781,7 @@ exx/wall-metalrib01
 {
 "classname" "light"
 "origin" "-1056.000000 1176.000000 64.000000"
-"light" "1280"
+"light" "1000"
 "_color" "1 0.927962 0.703319"
 }
 // entity 121
@@ -14017,7 +14017,7 @@ exx/wall-metalrib01
 {
 "classname" "light"
 "origin" "-680.000000 -616.000000 64.000000"
-"light" "1280"
+"light" "1000"
 "_color" "1 0.927962 0.703319"
 "angle" "63"
 }
@@ -14033,7 +14033,7 @@ exx/wall-metalrib01
 {
 "classname" "light"
 "origin" "-1056.000000 -1176.000000 64.000000"
-"light" "1280"
+"light" "1000"
 "_color" "1 0.927962 0.703319"
 }
 // entity 136
@@ -14055,7 +14055,7 @@ exx/wall-metalrib01
 {
 "classname" "light"
 "origin" "-680.000000 616.000000 64.000000"
-"light" "1280"
+"light" "1000"
 "_color" "1 0.927962 0.703319"
 }
 // entity 139
@@ -16062,4 +16062,32 @@ exx/wall-metalrib01
 "origin" "-192.000000 -1024.000000 208.000000"
 "_color" "1 0.927962 0.703319"
 "light" "100"
+}
+// entity 361
+{
+"classname" "light"
+"origin" "-1120.000000 -448.000000 -384.000000"
+"light" "160"
+"_color" "1 0.927962 0.703319"
+}
+// entity 362
+{
+"classname" "light"
+"origin" "-1120.000000 -256.000000 -384.000000"
+"light" "160"
+"_color" "1 0.927962 0.703319"
+}
+// entity 363
+{
+"classname" "light"
+"origin" "-1120.000000 256.000000 -384.000000"
+"light" "160"
+"_color" "1 0.927962 0.703319"
+}
+// entity 364
+{
+"classname" "light"
+"origin" "-1120.000000 448.000000 -384.000000"
+"light" "160"
+"_color" "1 0.927962 0.703319"
 }
