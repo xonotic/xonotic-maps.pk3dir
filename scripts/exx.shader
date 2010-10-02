@@ -4,8 +4,8 @@ textures/exx/base-crete01
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
-	dpglossexponentmod  4
+	dpglossintensitymod  1
+	dpglossexponentmod  1
 
 
 	{
@@ -26,8 +26,8 @@ textures/exx/base-crete01blue
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
-	dpglossexponentmod  4
+	dpglossintensitymod  1
+	dpglossexponentmod  1
 
 
 	{
@@ -48,8 +48,8 @@ textures/exx/base-crete01red
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
-	dpglossexponentmod  4
+	dpglossintensitymod  1
+	dpglossexponentmod  1
 
 
 	{
@@ -70,8 +70,8 @@ textures/exx/base-crete02
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
-	dpglossexponentmod  4
+	dpglossintensitymod  1
+	dpglossexponentmod  1
 
 
 	{
@@ -92,8 +92,8 @@ textures/exx/base-crete03
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
-	dpglossexponentmod  4
+	dpglossintensitymod  1
+	dpglossexponentmod  1
 
 
 	{
@@ -322,8 +322,8 @@ textures/exx/floor-crete01
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
-	dpglossexponentmod  4
+	dpglossintensitymod  1
+	dpglossexponentmod  1
 
 
 	{
@@ -344,8 +344,8 @@ textures/exx/floor-crete01-phoenix
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
-	dpglossexponentmod  4
+	dpglossintensitymod  1
+	dpglossexponentmod  1
 
 
 	{
@@ -366,8 +366,8 @@ textures/exx/floor-crete01-phoenixb
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
-	dpglossexponentmod  4
+	dpglossintensitymod  1
+	dpglossexponentmod  1
 
 
 	{
@@ -388,8 +388,8 @@ textures/exx/floor-crete01b
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
-	dpglossexponentmod  4
+	dpglossintensitymod  1
+	dpglossexponentmod  1
 
 
 	{
@@ -1591,8 +1591,8 @@ textures/exx/wall-crete01
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
-	dpglossexponentmod  4
+	dpglossintensitymod  1
+	dpglossexponentmod  1
 
 
 	{
@@ -1613,8 +1613,8 @@ textures/exx/wall-crete02
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
-	dpglossexponentmod  4
+	dpglossintensitymod  1
+	dpglossexponentmod  1
 
 
 	{
@@ -1635,8 +1635,8 @@ textures/exx/wall-crete03
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
-	dpglossexponentmod  4
+	dpglossintensitymod  1
+	dpglossexponentmod  1
 
 
 	{
@@ -1657,8 +1657,8 @@ textures/exx/wall-crete03b
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
-	dpglossexponentmod  4
+	dpglossintensitymod  1
+	dpglossexponentmod  1
 
 
 	{
