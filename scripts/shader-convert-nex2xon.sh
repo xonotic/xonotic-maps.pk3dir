@@ -5,6 +5,7 @@ map()
 	from=$2
 	to=$3
 	sed="$sed""s,\<${from#textures/}\>,${to#textures/},;"
+	sed="$sed""s,\<${rawfile#textures/}\>,${to#textures/},;" # fix messup
 }
 map textures/exx/base/base_crete01 textures/eX/eX_cretebase_01 textures/exx/base-crete01
 map textures/exx/base/base_crete02 textures/eX/eX_cretebase_02 textures/exx/base-crete02
@@ -310,4 +311,4 @@ map textures/trak5x/wall/wall_wall5e textures/trak5/wall5e textures/trak5x/wall-
 map textures/trak5x/wall/wall_wall6a textures/trak5/wall6a textures/trak5x/wall-wall6a
 map textures/trak5x/wall/wall_wall7a textures/trak5/wall7a textures/trak5x/wall-wall7a
 
-sed -i "$sed" "$1"
+sed -i -e "$sed" "$1"
