@@ -1,10 +1,10 @@
-f=$1
+sed=""
 map()
 {
-	to=$1
+	rawfile=$1
 	from=$2
-	# rawfile=$3
-	sed -i "s,\<${from#textures/}\>,${to#textures/}," "$f"
+	to=$3
+	sed="$sed""s,\<${from#textures/}\>,${to#textures/},;"
 }
 map textures/exx/base/base_crete01 textures/eX/eX_cretebase_01 textures/exx/base-crete01
 map textures/exx/base/base_crete02 textures/eX/eX_cretebase_02 textures/exx/base-crete02
@@ -309,3 +309,5 @@ map textures/trak5x/wall/wall_wall5d textures/trak5/wall5d textures/trak5x/wall-
 map textures/trak5x/wall/wall_wall5e textures/trak5/wall5e textures/trak5x/wall-wall5e
 map textures/trak5x/wall/wall_wall6a textures/trak5/wall6a textures/trak5x/wall-wall6a
 map textures/trak5x/wall/wall_wall7a textures/trak5/wall7a textures/trak5x/wall-wall7a
+
+sed -i "$sed" "$1"
