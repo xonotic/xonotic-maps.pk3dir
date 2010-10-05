@@ -169,6 +169,25 @@ textures/trak5x/base-pipe1d
 		blendfunc filter
 	}
 }
+textures/trak5x/base-pipe1e
+{
+	qer_editorimage textures/trak5x/base/base_pipe1e.tga
+	
+	q3map_bounceScale 1.25
+
+
+	{
+		map textures/trak5x/base/base_pipe1e.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
 textures/trak5x/base-pits1a
 {
 	qer_editorimage textures/trak5x/base/base_pits1a.tga

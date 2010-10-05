@@ -1,10 +1,11 @@
 f=$1
 map()
 {
-	to=$1
+	rawfile=$1
 	from=$2
-	# rawfile=$3
+	to=$3
 	sed -i "s,\<${from#textures/}\>,${to#textures/}," "$f"
+	sed -i "s,\<${rawfile#textures/}\>,${to#textures/}," "$f"
 }
 map textures/exx/base/base_crete01 textures/eX/eX_cretebase_01 textures/exx/base-crete01
 map textures/exx/base/base_crete02 textures/eX/eX_cretebase_02 textures/exx/base-crete02
