@@ -1,0 +1,93 @@
+// pipe smoke emiter
+// used nowhere in code
+effect pipe_smoke
+count 2
+type smoke
+tex 0 8
+color 0x999999 0x555555
+size 5 10
+sizeincrease 35
+alpha 32 64 48
+gravity -0.015
+originjitter 0 0 0
+velocityjitter 0 0 5
+velocitymultiplier 15
+airfriction -1
+rotate 0 360 -180 180
+
+// electric sparks
+// decal
+effect electric_sparks
+countabsolute 1
+type decal
+tex 47 47
+size 24 24
+alpha 256 256 0
+originjitter 14 14 14
+lightradius 400
+lightradiusfade 650
+lightcolor 4 6 8
+rotate -180 180 0 0
+// rotating something
+effect electric_sparks
+count 5
+type smoke
+tex 46 46
+color 0x1680A0 0x1680A0
+size 25 28
+sizeincrease 20
+alpha 35 35 30
+rotate 180 -180 500 -500
+// shockwave
+effect electric_sparks
+countabsolute 1
+type static
+tex 33 33
+color 0x1680A0 0x1680A0
+size 16 16
+alpha 50 50 400
+sizeincrease 900
+// shockwave2
+effect electric_sparks
+countabsolute 1
+type static
+tex 65 65
+color 0x1680A0 0x1680A0
+size 5 5
+alpha 50 50 100
+sizeincrease 500
+// flare effect
+effect electric_sparks
+countabsolute 1
+type static
+tex 37 37
+color 0x80C0FF 0x80C0FF
+size 8 8
+alpha 256 256 256
+// small sparks which glow brightly but live briefly
+effect electric_sparks
+count 64
+type spark
+tex 41 41
+color 0xD9FDFF 0xD9FDFF
+size 4 4
+alpha 0 128 512
+bounce 2
+stretchfactor 3
+velocityjitter 600 600 600
+velocitymultiplier 0.5
+airfriction 9
+// small sparks that live longer
+effect electric_sparks
+count 16
+type spark
+tex 41 41
+color 0xD9FDFF 0xD9FDFF
+size 2 2
+alpha 255 255 112
+bounce 1.6
+stretchfactor 0.7
+velocityjitter 300 300 600
+velocitymultiplier 2.5
+airfriction 2
+gravity 1
