@@ -1,0 +1,11 @@
+// text source of the ambient voice in Lab 610. Needs to be converted to an audio file with a text to speech program.
+
+Welcome to Lab 610. The largest research facility that covers areas like teleportation, heavy weapons, fighting vehicles, and many more.
+
+Here at Lab 610, our employees work long and hard to expand research in many important military domains. One of these domains is teleportation. For many years, teleportation has been a method of navigation that has affected our lives. We use it when we go shopping, or when we're visiting a friend. But teleportation also plays an important role in the military, where it is used to reach key objectives without having to travel on foot, move heavy machinery, or escape from dangerous situations.
+
+We put a lot of work in the domain of teleportation, improving the speed and safety of teleporter devices. The warpzone, a device still in testing, is the new generation of teleporters. Warpzones can create wormholes, that people can travel and even see through. It's like traveling for many kilometers by just stepping through a door. The warpzone device currently works over small distances only, but our researchers are close to improving the coverage of this device.
+
+Another important domain we put focus on are weapons. Two of the most popular energy and plasma weapons created at Lab 610 are the Crylink and the Electro. We've also improved the Nex gun over the years, turning it into one of the most powerful and deadly sniper rifles. Static turrets such as the Phaser were also created at Lab 610. The Spiderbot, a fighting vehicle, is another one of the creations Lab 610 is proud of. Our weapons are also used in the fighting tournaments, entertaining both players and spectators with loud and superior fire power.
+
+The safety of visitors and employees is one of our main concerns at Lab 610. We advice everyone to wear proper equipment, stay away from heavy machinery and hazardous materials, and only handle weapons in designated areas. If you have any questions or need to announce an emergency, please contact one of the local guards immediately. Thank you for visiting Lab 610. We hope you have a good time exploring our facility. Have a good day!

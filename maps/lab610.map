@@ -32970,3 +32970,17 @@ exx/trim-baseboard03
 "angles" "25.000000 -135.000000 0.000000"
 "targetname" "camera2"
 }
+// entity 324
+{
+"classname" "target_speaker"
+"origin" "-948.000000 -4676.000000 728.000000"
+"noise" "sound/lab610/speaker_voice.wav"
+"atten" "0.5"
+}
+// entity 325
+{
+"classname" "target_speaker"
+"origin" "-1272.000000 0.000000 168.000000"
+"noise" "sound/lab610/speaker_voice.wav"
+"atten" "1"
+}
