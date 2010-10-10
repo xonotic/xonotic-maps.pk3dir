@@ -17,3 +17,14 @@ textures/lab610/env1
 		tcgen lightmap
 	}*/
 }
+
+textures/lab610/camera_fullbright
+{
+	qer_editorimage textures/common/camera.tga
+	surfaceparm nolightmap
+	{
+		map textures/common/warpzone/trans.tga // fully transparent
+		blendfunc blend
+	}
+	dp_camera
+}
