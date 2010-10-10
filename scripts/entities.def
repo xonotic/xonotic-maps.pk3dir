@@ -1784,11 +1784,13 @@ warpzone_fadestart: start distance of fading out the warpzone
 warpzone_fadeend: end distance of fading out the warpzone (if viewer is further, warpzone is not rendered at all)
 */
 
-/*QUAKED trigger_warpzone_reconnect (1 .5 1) (-8 -8 -8) (8 8 8)
-Reconnects (randomly) all warpzones with matching target when triggered
+/*QUAKED trigger_warpzone_reconnect (1 .5 1) (-8 -8 -8) (8 8 8) IGNORE_VISIBLE
+Reconnects (randomly) all warpzones/cameras with matching target when triggered
 -------- KEYS --------
 target: must point to multiple trigger_warpzones, or be not set (then all warpzones may get changed)
 targetname: name that identifies this entity so it can be triggered
+-------- SPAWNFLAGS --------
+IGNORE_VISIBLE: do not rearrange a warpzone if a player can currently see it
 */
 
 /*QUAKED misc_warpzone_position (1 .5 .25) (-8 -8 -8) (8 8 8) 
