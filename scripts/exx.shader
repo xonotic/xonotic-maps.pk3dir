@@ -836,7 +836,7 @@ textures/exx/light-panel01-surfacelight
 	dpglossexponentmod  4
 
 	q3map_surfacelight 2500
-	q3map_lightSubdivide 32
+	q3map_lightSubdivide 64
 
 	{
 		map textures/exx/light/light_panel01.tga
@@ -881,7 +881,7 @@ textures/exx/light-u201-surfacelight
 	dpglossexponentmod  4
 
 	q3map_surfacelight 2500
-	q3map_lightSubdivide 32
+	q3map_lightSubdivide 64
 
 	{
 		map textures/exx/light/light_u201.tga
