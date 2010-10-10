@@ -1,4 +1,4 @@
-// text source of the ambient voice in Lab 610. Needs to be converted to an audio file with a text to speech program.
+// text source of the ambient speaker voice. Needs to be converted to an audio file with a text to speech program.
 
 Welcome to Lab 610. The largest research facility that covers areas like teleportation, heavy weapons, fighting vehicles, and many more.
 
