@@ -32309,96 +32309,112 @@ trak5x/base-pipe1a
 "classname" "light"
 "origin" "-1376.000000 -2176.000000 224.000000"
 "light" "200"
+"_color" "0.75 1 1"
 }
 // entity 223
 {
 "classname" "light"
 "origin" "-1376.000000 -3968.000000 224.000000"
 "light" "200"
+"_color" "0.75 1 1"
 }
 // entity 224
 {
 "classname" "light"
 "origin" "-1376.000000 -3712.000000 224.000000"
 "light" "200"
+"_color" "0.75 1 1"
 }
 // entity 225
 {
 "classname" "light"
 "origin" "-1376.000000 -3456.000000 224.000000"
 "light" "200"
+"_color" "0.75 1 1"
 }
 // entity 226
 {
 "classname" "light"
 "origin" "-1376.000000 -3200.000000 224.000000"
 "light" "200"
+"_color" "0.75 1 1"
 }
 // entity 227
 {
 "classname" "light"
 "origin" "-1376.000000 -2944.000000 224.000000"
 "light" "200"
+"_color" "0.75 1 1"
 }
 // entity 228
 {
 "classname" "light"
 "origin" "-1376.000000 -2688.000000 224.000000"
 "light" "200"
+"_color" "0.75 1 1"
 }
 // entity 229
 {
 "classname" "light"
 "origin" "-1376.000000 -2432.000000 224.000000"
 "light" "200"
+"_color" "0.75 1 1"
 }
 // entity 230
 {
 "classname" "light"
 "origin" "1376.000000 -2176.000000 224.000000"
 "light" "200"
+"_color" "0.75 1 1"
 }
 // entity 231
 {
 "classname" "light"
 "origin" "1376.000000 -3968.000000 224.000000"
 "light" "200"
+"_color" "0.75 1 1"
 }
 // entity 232
 {
 "classname" "light"
 "origin" "1376.000000 -3712.000000 224.000000"
 "light" "200"
+"_color" "0.75 1 1"
 }
 // entity 233
 {
 "classname" "light"
 "origin" "1376.000000 -3456.000000 224.000000"
 "light" "200"
+"_color" "0.75 1 1"
 }
 // entity 234
 {
 "classname" "light"
 "origin" "1376.000000 -3200.000000 224.000000"
 "light" "200"
+"_color" "0.75 1 1"
 }
 // entity 235
 {
 "classname" "light"
 "origin" "1376.000000 -2944.000000 224.000000"
 "light" "200"
+"_color" "0.75 1 1"
 }
 // entity 236
 {
 "classname" "light"
 "origin" "1376.000000 -2688.000000 224.000000"
 "light" "200"
+"_color" "0.75 1 1"
 }
 // entity 237
 {
 "classname" "light"
 "origin" "1376.000000 -2432.000000 224.000000"
 "light" "200"
+"_color" "0.75 1 1"
 }
 // entity 238
 {
