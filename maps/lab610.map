@@ -33499,8 +33499,8 @@ exx/trim-baseboard03
 // entity 310
 {
 "classname" "light"
-"origin" "-884.000000 -4612.000000 896.000000"
-"light" "800"
+"origin" "-916.000000 -4644.000000 896.000000"
+"light" "1600"
 }
 // entity 311
 {
@@ -33591,8 +33591,8 @@ exx/trim-baseboard03
 // entity 315
 {
 "classname" "light"
-"origin" "884.000000 -4612.000000 896.000000"
-"light" "800"
+"origin" "916.000000 -4644.000000 896.000000"
+"light" "1600"
 }
 // entity 316
 {
