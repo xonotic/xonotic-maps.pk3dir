@@ -29452,8 +29452,8 @@ exx/panel-metal05
 {
 "classname" "trigger_warpzone"
 "targetname" "warp1-2"
-"warpzone_fadeend" "3500"
-"warpzone_fadestart" "3000"
+"warpzone_fadeend" "1250"
+"warpzone_fadestart" "1000"
 // brush 0
 {
 ( -864 -1440 168 ) ( -768 -1408 168 ) ( -768 -1440 168 ) common/trigger 0 0 0 0.5 0.5 0 0 0
@@ -29468,8 +29468,8 @@ exx/panel-metal05
 {
 "classname" "trigger_warpzone"
 "targetname" "warp2-2"
-"warpzone_fadeend" "3500"
-"warpzone_fadestart" "3000"
+"warpzone_fadeend" "1250"
+"warpzone_fadestart" "1000"
 // brush 0
 {
 ( 768 -1440 168 ) ( 864 -1408 168 ) ( 864 -1440 168 ) common/trigger 0 0 0 0.5 0.5 0 0 0
