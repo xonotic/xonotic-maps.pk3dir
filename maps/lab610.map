@@ -33166,3 +33166,45 @@ exx/trim-baseboard03
 "classname" "item_armor_big"
 "origin" "0.000000 -2624.000000 16.000000"
 }
+// entity 361
+{
+"classname" "info_player_deathmatch"
+"origin" "480.000000 -1824.000000 48.000000"
+"angle" "-90.000000"
+}
+// entity 362
+{
+"classname" "info_player_deathmatch"
+"origin" "-1440.000000 -3744.000000 48.000000"
+"angle" "0.000000"
+}
+// entity 363
+{
+"classname" "info_player_deathmatch"
+"origin" "0.000000 -1824.000000 -80.000000"
+"angle" "-90.000000"
+}
+// entity 364
+{
+"classname" "info_player_deathmatch"
+"origin" "1376.000000 -2112.000000 48.000000"
+"angle" "-135.000000"
+}
+// entity 365
+{
+"classname" "info_player_deathmatch"
+"origin" "1440.000000 -3744.000000 48.000000"
+"angle" "180.000000"
+}
+// entity 366
+{
+"classname" "info_player_deathmatch"
+"origin" "-1376.000000 -2112.000000 48.000000"
+"angle" "-45.000000"
+}
+// entity 367
+{
+"classname" "info_player_deathmatch"
+"origin" "-480.000000 -1824.000000 48.000000"
+"angle" "270"
+}
