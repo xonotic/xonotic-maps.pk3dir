@@ -32984,3 +32984,185 @@ exx/trim-baseboard03
 "noise" "sound/lab610/speaker_voice.wav"
 "atten" "1"
 }
+// entity 326
+{
+"classname" "weapon_hagar"
+"origin" "-816.000000 -1872.000000 16.000000"
+}
+// entity 327
+{
+"classname" "item_rockets"
+"origin" "-816.000000 -1968.000000 16.000000"
+"angle" "90.000000"
+}
+// entity 328
+{
+"classname" "weapon_hagar"
+"origin" "816.000000 -1872.000000 16.000000"
+}
+// entity 329
+{
+"classname" "item_rockets"
+"origin" "816.000000 -1968.000000 16.000000"
+"angle" "90.000000"
+}
+// entity 330
+{
+"classname" "weapon_grenadelauncher"
+"origin" "0.000000 -1888.000000 -112.000000"
+}
+// entity 331
+{
+"classname" "item_rockets"
+"origin" "-128.000000 -1888.000000 -112.000000"
+}
+// entity 332
+{
+"classname" "item_rockets"
+"origin" "128.000000 -1888.000000 -112.000000"
+"angle" "180.000000"
+}
+// entity 333
+{
+"classname" "item_armor_small"
+"origin" "0.000000 -2088.000000 -64.000000"
+}
+// entity 334
+{
+"classname" "item_health_small"
+"origin" "0.000000 -2040.000000 -96.000000"
+}
+// entity 335
+{
+"classname" "item_armor_small"
+"origin" "0.000000 -2184.000000 0.000000"
+}
+// entity 336
+{
+"classname" "item_health_small"
+"origin" "0.000000 -2136.000000 -32.000000"
+}
+// entity 337
+{
+"classname" "item_health_medium"
+"origin" "512.000000 -1824.000000 16.000000"
+}
+// entity 338
+{
+"classname" "item_health_medium"
+"origin" "448.000000 -1824.000000 16.000000"
+}
+// entity 339
+{
+"classname" "item_health_medium"
+"origin" "-512.000000 -1824.000000 16.000000"
+}
+// entity 340
+{
+"classname" "item_health_medium"
+"origin" "-448.000000 -1824.000000 16.000000"
+}
+// entity 341
+{
+"classname" "item_armor_medium"
+"origin" "-1376.000000 -2112.000000 16.000000"
+}
+// entity 342
+{
+"classname" "weapon_nex"
+"origin" "-1376.000000 -3088.000000 16.000000"
+}
+// entity 343
+{
+"classname" "item_cells"
+"origin" "-1376.000000 -3200.000000 16.000000"
+"angle" "180.000000"
+}
+// entity 344
+{
+"classname" "item_cells"
+"origin" "-1376.000000 -2976.000000 16.000000"
+}
+// entity 345
+{
+"classname" "item_armor_medium"
+"origin" "1376.000000 -2112.000000 16.000000"
+}
+// entity 346
+{
+"classname" "weapon_nex"
+"origin" "1376.000000 -3088.000000 16.000000"
+}
+// entity 347
+{
+"classname" "item_cells"
+"origin" "1376.000000 -3200.000000 16.000000"
+"angle" "180.000000"
+}
+// entity 348
+{
+"classname" "item_cells"
+"origin" "1376.000000 -2976.000000 16.000000"
+}
+// entity 349
+{
+"classname" "item_health_large"
+"origin" "-1120.000000 -3744.000000 16.000000"
+}
+// entity 350
+{
+"classname" "item_health_large"
+"origin" "1120.000000 -3744.000000 16.000000"
+}
+// entity 351
+{
+"classname" "item_armor_small"
+"origin" "0.000000 -2560.000000 16.000000"
+}
+// entity 352
+{
+"classname" "item_armor_small"
+"origin" "0.000000 -2688.000000 16.000000"
+}
+// entity 353
+{
+"classname" "item_health_small"
+"origin" "1056.000000 -3744.000000 16.000000"
+}
+// entity 354
+{
+"classname" "item_health_small"
+"origin" "1184.000000 -3744.000000 16.000000"
+}
+// entity 355
+{
+"classname" "item_health_small"
+"origin" "-1056.000000 -3744.000000 16.000000"
+}
+// entity 356
+{
+"classname" "item_health_small"
+"origin" "-1184.000000 -3744.000000 16.000000"
+}
+// entity 357
+{
+"classname" "weapon_rocketlauncher"
+"origin" "0.000000 -3744.000000 32.000000"
+}
+// entity 358
+{
+"classname" "item_bullets"
+"origin" "96.000206 -3839.999756 32.000000"
+"angle" "135.000000"
+}
+// entity 359
+{
+"classname" "item_shells"
+"origin" "-96.000107 -3648.000000 32.000000"
+"angle" "-45.000000"
+}
+// entity 360
+{
+"classname" "item_armor_big"
+"origin" "0.000000 -2624.000000 16.000000"
+}
