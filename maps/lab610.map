@@ -33407,15 +33407,15 @@ exx/trim-vert01
 }
 // brush 2353
 {
-( -1280 -3264 768 ) ( -1216 -2944 832 ) ( -1216 -3264 832 ) common/caulk 0 0 0 0.5 0.5 0 0 0
-( -1216 -2944 0 ) ( -1216 -2944 832 ) ( -1280 -2944 0 ) exx/trim-01 0 0 0 0.5 0.5 0 0 0
-( -1216 -3264 0 ) ( -1216 -3264 832 ) ( -1216 -2944 832 ) ex2x/wall-green1 16 240 0 1.2000000477 1.2000000477 0 0 0
-( -1280 -3232 768 ) ( -1216 -3232 832 ) ( -1280 -3232 0 ) exx/trim-01 0 0 0 0.5 0.5 0 0 0
-( -1280 -3264 0 ) ( -1280 -3072 0 ) ( -1280 -3264 512 ) ex2x/floor-metal1 227.5399932861 64 0 0.28125 0.25 0 0 0
-( -1280 -64 -544 ) ( -1216 64 -288 ) ( -1280 64 -544 ) ex2x/wall-green1 16 240 0 1.2000000477 1.2000000477 0 0 0
-( -1248 -2944 -64 ) ( -1216 -2976 -64 ) ( -1248 -2944 64 ) ex2x/wall-green1 16 240 0 1.2000000477 1.2000000477 0 0 0
-( -1216 -3200 -64 ) ( -1248 -3232 -64 ) ( -1216 -3200 64 ) ex2x/wall-green1 16 240 0 1.2000000477 1.2000000477 0 0 0
-( 64 -3232 -480 ) ( -64 -3136 -480 ) ( -64 -3232 -480 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( -1280 -3296 768 ) ( -1216 -2976 832 ) ( -1216 -3296 832 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( -1216 -2976 0 ) ( -1216 -2976 832 ) ( -1280 -2976 0 ) exx/trim-01 0 0 0 0.5 0.5 0 0 0
+( -1216 -3296 0 ) ( -1216 -3296 832 ) ( -1216 -2976 832 ) ex2x/wall-green1 16 240 0 1.2000000477 1.2000000477 0 0 0
+( -1280 -3264 768 ) ( -1216 -3264 832 ) ( -1280 -3264 0 ) exx/trim-01 0 0 0 0.5 0.5 0 0 0
+( -1280 -3296 0 ) ( -1280 -3104 0 ) ( -1280 -3296 512 ) ex2x/floor-metal1 341.3299865723 64 0 0.28125 0.25 0 0 0
+( -1280 -96 -544 ) ( -1216 32 -288 ) ( -1280 32 -544 ) ex2x/wall-green1 16 240 0 1.2000000477 1.2000000477 0 0 0
+( -1248 -2976 -64 ) ( -1216 -3008 -64 ) ( -1248 -2976 64 ) ex2x/wall-green1 16 240 0 1.2000000477 1.2000000477 0 0 0
+( -1216 -3232 -64 ) ( -1248 -3264 -64 ) ( -1216 -3232 64 ) ex2x/wall-green1 16 240 0 1.2000000477 1.2000000477 0 0 0
+( 64 -3264 -480 ) ( -64 -3168 -480 ) ( -64 -3264 -480 ) common/caulk 0 0 0 0.5 0.5 0 0 0
 }
 // brush 2354
 {
@@ -43669,4 +43669,414 @@ exx/trim-baseboard03
 "classname" "light"
 "origin" "208.000000 -6144.000000 688.000000"
 "light" "400"
+}
+// entity 486
+{
+"classname" "target_speaker"
+"origin" "-1272.000000 -3936.000000 128.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 487
+{
+"classname" "target_speaker"
+"origin" "-1272.000000 -3424.000000 128.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 488
+{
+"classname" "target_speaker"
+"origin" "-1272.000000 -2784.000000 128.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 489
+{
+"classname" "target_speaker"
+"origin" "-1272.000000 -2272.000000 128.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 490
+{
+"classname" "target_speaker"
+"origin" "-1272.000000 -2528.000000 128.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 491
+{
+"classname" "target_speaker"
+"origin" "-1272.000000 -3680.000000 128.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 492
+{
+"classname" "target_speaker"
+"origin" "1272.000000 -3936.000000 128.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 493
+{
+"classname" "target_speaker"
+"origin" "1272.000000 -3424.000000 128.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 494
+{
+"classname" "target_speaker"
+"origin" "1272.000000 -2784.000000 128.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 495
+{
+"classname" "target_speaker"
+"origin" "1272.000000 -2272.000000 128.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 496
+{
+"classname" "target_speaker"
+"origin" "1272.000000 -2528.000000 128.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 497
+{
+"classname" "target_speaker"
+"origin" "1272.000000 -3680.000000 128.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 498
+{
+"classname" "target_speaker"
+"origin" "248.000000 -1888.000000 0.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 499
+{
+"classname" "target_speaker"
+"origin" "-816.000000 -2056.000000 128.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 500
+{
+"classname" "target_speaker"
+"origin" "816.000000 -2056.000000 128.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 501
+{
+"classname" "target_speaker"
+"origin" "512.000000 -2368.000000 128.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 502
+{
+"classname" "target_speaker"
+"origin" "-512.000000 -2368.000000 128.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 503
+{
+"classname" "target_speaker"
+"origin" "0.000000 -2272.000000 128.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 504
+{
+"classname" "target_speaker"
+"origin" "-384.000000 -5488.000000 128.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 505
+{
+"classname" "target_speaker"
+"origin" "0.000000 -3984.000000 128.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 506
+{
+"classname" "target_speaker"
+"origin" "0.000000 -3136.000000 128.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 507
+{
+"classname" "target_speaker"
+"origin" "0.000000 -3504.000000 128.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 508
+{
+"classname" "target_speaker"
+"origin" "976.000000 -3744.000000 128.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 509
+{
+"classname" "target_speaker"
+"origin" "-976.000000 -3744.000000 128.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 510
+{
+"classname" "target_speaker"
+"origin" "-240.000000 -3744.000000 128.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 511
+{
+"classname" "target_speaker"
+"origin" "-608.000000 -3744.000000 128.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 512
+{
+"classname" "target_speaker"
+"origin" "608.000000 -3744.000000 128.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 513
+{
+"classname" "target_speaker"
+"origin" "240.000000 -3744.000000 128.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 514
+{
+"classname" "target_speaker"
+"origin" "0.000000 -2768.000000 128.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 515
+{
+"classname" "target_speaker"
+"origin" "0.000000 -4352.000000 128.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 516
+{
+"classname" "target_speaker"
+"origin" "0.000000 -5088.000000 128.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 517
+{
+"classname" "target_speaker"
+"origin" "0.000000 -4720.000000 128.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 518
+{
+"classname" "target_speaker"
+"origin" "312.000000 -6144.000000 736.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 519
+{
+"classname" "target_speaker"
+"origin" "0.000000 -6904.000000 -128.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 520
+{
+"classname" "target_speaker"
+"origin" "384.000000 -5488.000000 128.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 521
+{
+"classname" "target_speaker"
+"origin" "-384.000000 -6904.000000 -128.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 522
+{
+"classname" "target_speaker"
+"origin" "0.000000 -6784.000000 192.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 523
+{
+"classname" "target_speaker"
+"origin" "504.000000 -6144.000000 192.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 524
+{
+"classname" "target_speaker"
+"origin" "504.000000 -5760.000000 192.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 525
+{
+"classname" "target_speaker"
+"origin" "504.000000 -6528.000000 192.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 526
+{
+"classname" "target_speaker"
+"origin" "384.000000 -6904.000000 -128.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 527
+{
+"classname" "target_speaker"
+"origin" "-504.000000 -6144.000000 192.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 528
+{
+"classname" "target_speaker"
+"origin" "-504.000000 -5760.000000 192.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 529
+{
+"classname" "target_speaker"
+"origin" "-504.000000 -6528.000000 192.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 530
+{
+"classname" "target_speaker"
+"origin" "-632.000000 -6272.000000 -128.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 531
+{
+"classname" "target_speaker"
+"origin" "-632.000000 -5888.000000 -128.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 532
+{
+"classname" "target_speaker"
+"origin" "-632.000000 -6656.000000 -128.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 533
+{
+"classname" "target_speaker"
+"origin" "632.000000 -6272.000000 -128.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 534
+{
+"classname" "target_speaker"
+"origin" "632.000000 -5888.000000 -128.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 535
+{
+"classname" "target_speaker"
+"origin" "632.000000 -6656.000000 -128.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 536
+{
+"classname" "target_speaker"
+"origin" "0.000000 -6456.000000 -120.000000"
+"noise" "sound/ambient/machine1.wav"
+}
+// entity 537
+{
+"classname" "target_speaker"
+"origin" "0.000000 -6456.000000 736.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 538
+{
+"classname" "target_speaker"
+"origin" "0.000000 -5832.000000 736.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 539
+{
+"classname" "target_speaker"
+"origin" "-312.000000 -6144.000000 736.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 540
+{
+"classname" "target_speaker"
+"origin" "0.000000 -5488.000000 128.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 541
+{
+"classname" "target_speaker"
+"origin" "1376.000000 -4056.000000 88.000000"
+"noise" "sound/ambient/machine4.wav"
+}
+// entity 542
+{
+"classname" "target_speaker"
+"origin" "-1376.000000 -4056.000000 88.000000"
+"noise" "sound/ambient/machine4.wav"
+}
+// entity 543
+{
+"classname" "target_speaker"
+"origin" "0.000000 -5488.000000 -128.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
+}
+// entity 544
+{
+"classname" "target_speaker"
+"origin" "-248.000000 -1888.000000 0.000000"
+"noise" "sound/ambient/demonwind01.wav"
+"volume" "0.5"
 }
