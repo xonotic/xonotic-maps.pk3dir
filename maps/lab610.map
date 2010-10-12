@@ -37450,6 +37450,10 @@ lab610/warp3
 "targetname" "rotating_bridge"
 "sounds" "1"
 "speed" "90"
+"dmg" "1000"
+"message" "was crushed by the rotating bridge"
+"message2" "was pushed into the rotating bridge by"
+"wait" "3"
 // brush 0
 {
 patchDef2
