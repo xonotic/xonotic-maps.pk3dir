@@ -17,3 +17,81 @@ textures/lab610/env1
 		tcgen lightmap
 	}*/
 }
+
+textures/lab610/warp1
+{
+	qer_editorimage textures/lab610/warp1.tga
+	surfaceparm nolightmap
+	surfaceparm nonsolid
+	surfaceparm noimpact
+	surfaceparm nomarks
+	{
+		map textures/lab610/warp1.tga
+		blendfunc blend
+	}
+}
+
+textures/lab610/warp2
+{
+	qer_editorimage textures/lab610/warp2.tga
+	surfaceparm nolightmap
+	surfaceparm nonsolid
+	surfaceparm noimpact
+	surfaceparm nomarks
+	{
+		map textures/lab610/warp2.tga
+		blendfunc blend
+	}
+}
+
+textures/lab610/warp3
+{
+	qer_editorimage textures/lab610/warp3.tga
+	surfaceparm nolightmap
+	surfaceparm nonsolid
+	surfaceparm noimpact
+	surfaceparm nomarks
+	{
+		map textures/lab610/warp3.tga
+		blendfunc blend
+	}
+}
+
+textures/lab610/warp4
+{
+	qer_editorimage textures/lab610/warp4.tga
+	surfaceparm nolightmap
+	surfaceparm nonsolid
+	surfaceparm noimpact
+	surfaceparm nomarks
+	{
+		map textures/lab610/warp4.tga
+		blendfunc blend
+	}
+}
+
+textures/lab610/warp5
+{
+	qer_editorimage textures/lab610/warp5.tga
+	surfaceparm nolightmap
+	surfaceparm nonsolid
+	surfaceparm noimpact
+	surfaceparm nomarks
+	{
+		map textures/lab610/warp5.tga
+		blendfunc blend
+	}
+}
+
+textures/lab610/warp6
+{
+	qer_editorimage textures/lab610/warp6.tga
+	surfaceparm nolightmap
+	surfaceparm nonsolid
+	surfaceparm noimpact
+	surfaceparm nomarks
+	{
+		map textures/lab610/warp6.tga
+		blendfunc blend
+	}
+}
