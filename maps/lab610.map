@@ -37545,7 +37545,7 @@ lab610/warp3
 "dmg" "1000"
 "message" "was crushed by the rotating bridge"
 "message2" "was pushed into the rotating bridge by"
-"wait" "3"
+"wait" "1"
 // brush 0
 {
 patchDef2
@@ -39008,7 +39008,7 @@ trak5x/base-pipe1a
 ( 128 -2496 64 ) ( -128 -2496 64 ) ( 128 -2496 0 ) common/trigger 0 0 0 0.5 0.5 0 0 0
 ( 128 -2560 64 ) ( 128 -2560 0 ) ( 128 -2752 64 ) common/trigger 0 0 0 0.5 0.5 0 0 0
 ( -128 -2752 16 ) ( 128 -2752 16 ) ( -128 -2560 16 ) common/trigger 0 0 0 0.5 0.5 0 0 0
-( -128 -3456 0 ) ( -128 -3456 64 ) ( 128 -3456 0 ) common/trigger 0 0 0 0.5 0.5 0 0 0
+( -128 -3616 0 ) ( -128 -3616 64 ) ( 128 -3616 0 ) common/trigger 0 0 0 0.5 0.5 0 0 0
 ( -128 -2752 0 ) ( -128 -2560 0 ) ( -128 -2752 64 ) common/trigger 0 0 0 0.5 0.5 0 0 0
 }
 }
@@ -39022,7 +39022,7 @@ trak5x/base-pipe1a
 ( 128 -4992 0 ) ( -128 -4992 64 ) ( 128 -4992 64 ) common/trigger 0 0 0 0.5 0.5 0 0 0
 ( 128 -4736 64 ) ( 128 -4928 0 ) ( 128 -4928 64 ) common/trigger 0 0 0 0.5 0.5 0 0 0
 ( -128 -4928 16 ) ( 128 -4736 16 ) ( -128 -4736 16 ) common/trigger 0 0 0 0.5 0.5 0 0 0
-( 128 -4032 0 ) ( -128 -4032 64 ) ( -128 -4032 0 ) common/trigger 0 0 0 0.5 0.5 0 0 0
+( 128 -3872 0 ) ( -128 -3872 64 ) ( -128 -3872 0 ) common/trigger 0 0 0 0.5 0.5 0 0 0
 ( -128 -4736 64 ) ( -128 -4928 0 ) ( -128 -4736 0 ) common/trigger 0 0 0 0.5 0.5 0 0 0
 }
 }
@@ -44457,7 +44457,7 @@ exx/base-metal01
 "classname" "func_door"
 "angle" "-1"
 "lip" "16"
-"wait" "3"
+"wait" "1"
 "speed" "90"
 "spawnflags" "1"
 "sounds" "1"
@@ -44715,7 +44715,7 @@ exx/base-metal01
 "classname" "func_door"
 "angle" "-1"
 "lip" "16"
-"wait" "3"
+"wait" "1"
 "speed" "90"
 "spawnflags" "1"
 "sounds" "1"
@@ -44973,7 +44973,7 @@ exx/base-metal01
 "classname" "func_door"
 "angle" "-1"
 "lip" "16"
-"wait" "3"
+"wait" "1"
 "speed" "90"
 "sounds" "1"
 "targetname" "rotating_bridge"
@@ -45230,7 +45230,7 @@ exx/base-metal01
 "classname" "func_door"
 "angle" "-1"
 "lip" "16"
-"wait" "3"
+"wait" "1"
 "speed" "90"
 "sounds" "1"
 "targetname" "rotating_bridge"
@@ -45487,7 +45487,7 @@ exx/base-metal01
 "classname" "func_door"
 "angle" "-1"
 "lip" "16"
-"wait" "3"
+"wait" "1"
 "speed" "90"
 "sounds" "1"
 "targetname" "rotating_bridge"
@@ -45744,7 +45744,7 @@ exx/base-metal01
 "classname" "func_door"
 "angle" "-1"
 "lip" "16"
-"wait" "3"
+"wait" "1"
 "speed" "90"
 "sounds" "1"
 "targetname" "rotating_bridge"
@@ -46001,7 +46001,7 @@ exx/base-metal01
 "classname" "func_door"
 "angle" "-1"
 "lip" "16"
-"wait" "3"
+"wait" "1"
 "speed" "90"
 "spawnflags" "1"
 "sounds" "1"
@@ -46259,7 +46259,7 @@ exx/base-metal01
 "classname" "func_door"
 "angle" "-1"
 "lip" "16"
-"wait" "3"
+"wait" "1"
 "speed" "90"
 "spawnflags" "1"
 "sounds" "1"
