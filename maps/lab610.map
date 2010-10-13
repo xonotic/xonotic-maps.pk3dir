@@ -46741,3 +46741,71 @@ exx/base-metal01
 "classname" "item_health_medium"
 "origin" "-160.000000 -6128.000000 640.000000"
 }
+// entity 598
+{
+"classname" "dom_team"
+"model" "models/domination/dom_unclaimed.md3"
+"origin" "0.000000 -2336.000000 416.000000"
+}
+// entity 599
+{
+"classname" "dom_team"
+"netname" "^4Blue Team^3"
+"cnt" "13"
+"noise" "domination/claim.wav"
+"noise1" "domination/claim.wav"
+"message" "Blue team has captured a control point"
+"model" "models/domination/dom_blue.md3"
+"origin" "0.000000 -2336.000000 384.000000"
+}
+// entity 600
+{
+"classname" "dom_team"
+"netname" "^1Red Team^3"
+"cnt" "4"
+"noise" "domination/claim.wav"
+"noise1" "domination/claim.wav"
+"message" "Red team has captured a control point"
+"model" "models/domination/dom_red.md3"
+"origin" "0.000000 -2336.000000 352.000000"
+}
+// entity 601
+{
+"classname" "dom_team"
+"netname" "^6Pink Team^3"
+"cnt" "9"
+"noise" "domination/claim.wav"
+"noise1" "domination/claim.wav"
+"message" "Pink team has captured a control point"
+"model" "models/domination/dom_pink.md3"
+"origin" "0.000000 -2336.000000 288.000000"
+}
+// entity 602
+{
+"classname" "dom_team"
+"netname" "^6Yellow Team^3"
+"cnt" "12"
+"noise" "domination/claim.wav"
+"noise1" "domination/claim.wav"
+"message" "Yellow team has captured a control point"
+"model" "models/domination/dom_yellow.md3"
+"origin" "0.000000 -2336.000000 320.000000"
+}
+// entity 603
+{
+"classname" "dom_controlpoint"
+"origin" "0.000000 -2336.000000 32.000000"
+"message" "has captured the Bridge"
+}
+// entity 604
+{
+"classname" "dom_controlpoint"
+"origin" "0.000000 0.000000 40.000000"
+"message" "has captured the Glass Room"
+}
+// entity 605
+{
+"classname" "dom_controlpoint"
+"origin" "0.000000 -6144.000000 -240.000000"
+"message" "has captured the Elevator"
+}
