@@ -36428,22 +36428,22 @@ map_lab-610/warp3
 // entity 41
 {
 "classname" "item_armor_small"
-"origin" "0.000000 -80.000000 32.000000"
+"origin" "80.000000 0.000000 32.000000"
 }
 // entity 42
 {
 "classname" "item_armor_small"
-"origin" "0.000000 80.000000 32.000000"
+"origin" "-80.000000 0.000000 32.000000"
 }
 // entity 43
 {
 "classname" "item_health_small"
-"origin" "80.000000 0.000000 24.000000"
+"origin" "0.000000 80.000000 24.000000"
 }
 // entity 44
 {
 "classname" "item_health_small"
-"origin" "-80.000000 0.000000 24.000000"
+"origin" "0.000000 -80.000000 24.000000"
 }
 // entity 45
 {
