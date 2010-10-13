@@ -46800,10 +46800,22 @@ exx/base-metal01
 // entity 604
 {
 "classname" "dom_controlpoint"
-"origin" "0.000000 0.000000 40.000000"
-"message" "has captured the Glass Room"
+"origin" "0.000000 544.000000 40.000000"
+"message" "has captured the Glass Room right side"
 }
 // entity 605
+{
+"classname" "dom_controlpoint"
+"origin" "0.000000 -6144.000000 656.000000"
+"message" "has captured the Roof"
+}
+// entity 606
+{
+"classname" "dom_controlpoint"
+"origin" "0.000000 -544.000000 40.000000"
+"message" "has captured the Glass Room left side"
+}
+// entity 607
 {
 "classname" "dom_controlpoint"
 "origin" "0.000000 -6144.000000 -240.000000"
