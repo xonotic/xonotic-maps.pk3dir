@@ -1,11 +1,11 @@
-textures/lab610/env1
+textures/map_lab-610/env1
 {
-	qer_editorimage textures/lab610/env1.tga
+	qer_editorimage textures/map_lab-610/env1.tga
 	surfaceparm trans
 	cull disable
 	qer_trans 0.5
 	{
-		map textures/lab610/env1.tga
+		map textures/map_lab-610/env1.tga
 		blendfunc GL_ONE GL_ONE
 		//rgbGen vertex
 		tcgen environment
@@ -18,80 +18,80 @@ textures/lab610/env1
 	}*/
 }
 
-textures/lab610/warp1
+textures/map_lab-610/warp1
 {
-	qer_editorimage textures/lab610/warp1.tga
+	qer_editorimage textures/map_lab-610/warp1.tga
 	surfaceparm nolightmap
 	surfaceparm nonsolid
 	surfaceparm noimpact
 	surfaceparm nomarks
 	{
-		map textures/lab610/warp1.tga
+		map textures/map_lab-610/warp1.tga
 		blendfunc blend
 	}
 }
 
-textures/lab610/warp2
+textures/map_lab-610/warp2
 {
-	qer_editorimage textures/lab610/warp2.tga
+	qer_editorimage textures/map_lab-610/warp2.tga
 	surfaceparm nolightmap
 	surfaceparm nonsolid
 	surfaceparm noimpact
 	surfaceparm nomarks
 	{
-		map textures/lab610/warp2.tga
+		map textures/map_lab-610/warp2.tga
 		blendfunc blend
 	}
 }
 
-textures/lab610/warp3
+textures/map_lab-610/warp3
 {
-	qer_editorimage textures/lab610/warp3.tga
+	qer_editorimage textures/map_lab-610/warp3.tga
 	surfaceparm nolightmap
 	surfaceparm nonsolid
 	surfaceparm noimpact
 	surfaceparm nomarks
 	{
-		map textures/lab610/warp3.tga
+		map textures/map_lab-610/warp3.tga
 		blendfunc blend
 	}
 }
 
-textures/lab610/warp4
+textures/map_lab-610/warp4
 {
-	qer_editorimage textures/lab610/warp4.tga
+	qer_editorimage textures/map_lab-610/warp4.tga
 	surfaceparm nolightmap
 	surfaceparm nonsolid
 	surfaceparm noimpact
 	surfaceparm nomarks
 	{
-		map textures/lab610/warp4.tga
+		map textures/map_lab-610/warp4.tga
 		blendfunc blend
 	}
 }
 
-textures/lab610/warp5
+textures/map_lab-610/warp5
 {
-	qer_editorimage textures/lab610/warp5.tga
+	qer_editorimage textures/map_lab-610/warp5.tga
 	surfaceparm nolightmap
 	surfaceparm nonsolid
 	surfaceparm noimpact
 	surfaceparm nomarks
 	{
-		map textures/lab610/warp5.tga
+		map textures/map_lab-610/warp5.tga
 		blendfunc blend
 	}
 }
 
-textures/lab610/warp6
+textures/map_lab-610/warp6
 {
-	qer_editorimage textures/lab610/warp6.tga
+	qer_editorimage textures/map_lab-610/warp6.tga
 	surfaceparm nolightmap
 	surfaceparm nonsolid
 	surfaceparm noimpact
 	surfaceparm nomarks
 	{
-		map textures/lab610/warp6.tga
+		map textures/map_lab-610/warp6.tga
 		blendfunc blend
 	}
 }
