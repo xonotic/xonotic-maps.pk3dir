@@ -46795,29 +46795,34 @@ exx/base-metal01
 {
 "classname" "dom_controlpoint"
 "origin" "0.000000 -2336.000000 32.000000"
-"message" "has captured the Bridge"
+"message" " has captured the Bridge"
+"frags" "1"
 }
 // entity 604
 {
 "classname" "dom_controlpoint"
 "origin" "0.000000 544.000000 40.000000"
-"message" "has captured the Glass Room right side"
+"message" " has captured the Glass Room right side"
+"frags" "1"
 }
 // entity 605
 {
 "classname" "dom_controlpoint"
-"origin" "0.000000 -6144.000000 656.000000"
-"message" "has captured the Roof"
+"origin" "0.000000 -6128.000000 656.000000"
+"message" " has captured the Roof"
+"frags" "1"
 }
 // entity 606
 {
 "classname" "dom_controlpoint"
 "origin" "0.000000 -544.000000 40.000000"
-"message" "has captured the Glass Room left side"
+"message" " has captured the Glass Room left side"
+"frags" "1"
 }
 // entity 607
 {
 "classname" "dom_controlpoint"
 "origin" "0.000000 -6144.000000 -240.000000"
-"message" "has captured the Elevator"
+"message" " has captured the Elevator"
+"frags" "1"
 }
