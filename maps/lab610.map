@@ -37146,8 +37146,8 @@ lab610/warp3
 {
 "classname" "trigger_warpzone"
 "target" "warp2-2"
-"warpzone_fadeend" "3500"
-"warpzone_fadestart" "3000"
+"warpzone_fadeend" "2000"
+"warpzone_fadestart" "1750"
 // brush 0
 {
 ( 1952 48 168 ) ( 1984 -48 168 ) ( 1952 -48 168 ) common/trigger 0 0 0 0.5 0.5 0 0 0
@@ -37163,8 +37163,8 @@ lab610/warp3
 "classname" "trigger_warpzone"
 "target" "warp1-1"
 "targetname" "warp2-1"
-"warpzone_fadeend" "3500"
-"warpzone_fadestart" "3000"
+"warpzone_fadeend" "2000"
+"warpzone_fadestart" "1750"
 // brush 0
 {
 ( 1984 48 168 ) ( 2016 -48 168 ) ( 1984 -48 168 ) common/trigger 0 0 0 0.5 0.5 0 0 0
@@ -37179,8 +37179,8 @@ lab610/warp3
 {
 "classname" "trigger_warpzone"
 "target" "warp1-2"
-"warpzone_fadeend" "3500"
-"warpzone_fadestart" "3000"
+"warpzone_fadeend" "2000"
+"warpzone_fadestart" "1750"
 // brush 0
 {
 ( -1984 48 168 ) ( -1952 -48 168 ) ( -1984 -48 168 ) common/trigger 0 0 0 0.5 0.5 0 0 0
@@ -37196,8 +37196,8 @@ lab610/warp3
 "classname" "trigger_warpzone"
 "target" "warp2-1"
 "targetname" "warp1-1"
-"warpzone_fadeend" "3500"
-"warpzone_fadestart" "3000"
+"warpzone_fadeend" "2000"
+"warpzone_fadestart" "1750"
 // brush 0
 {
 ( -2016 48 168 ) ( -1984 -48 168 ) ( -2016 -48 168 ) common/trigger 0 0 0 0.5 0.5 0 0 0
