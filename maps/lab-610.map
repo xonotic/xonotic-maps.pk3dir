@@ -46826,3 +46826,23 @@ exx/base-metal01
 "message" " has captured the Elevator"
 "frags" "1"
 }
+// entity 608
+{
+"classname" "item_health_medium"
+"origin" "-1296.000000 224.000000 -16.000000"
+}
+// entity 609
+{
+"classname" "item_health_medium"
+"origin" "-1296.000000 -224.000000 -16.000000"
+}
+// entity 610
+{
+"classname" "item_health_medium"
+"origin" "1296.000000 224.000000 -16.000000"
+}
+// entity 611
+{
+"classname" "item_health_medium"
+"origin" "1296.000000 -224.000000 -16.000000"
+}
