@@ -1,4 +1,4 @@
-Abandoned beta 3
+Abandoned
 map created by kuniu the frogg for Xonotic
 www.xonotic.org
 licence: GPL 2.0
