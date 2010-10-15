@@ -1,6 +1,7 @@
 title Glow Plant
 description A nuclear power plant with a LOT of blue glowy stuff...
 author tZork, Cuinnton
+cdtrack 4
 has weapons
 type dm 30 20 0
 type tdm 50 20 2 0
