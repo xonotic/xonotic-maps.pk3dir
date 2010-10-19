@@ -13470,7 +13470,7 @@ exx/wall-metalrib01
 {
 "classname" "target_speaker"
 "origin" "2240.000000 -960.000000 160.000000"
-"noise" "sounds/ambient/ac_duct_wind.ogg"
+"noise" "sounds/wind/ac_duct_wind.ogg"
 "angle" "-179.999985"
 "atten" "1.5"
 "volume" "1"
@@ -13479,7 +13479,7 @@ exx/wall-metalrib01
 {
 "classname" "target_speaker"
 "origin" "128.000000 -1024.000000 -224.000000"
-"noise" "sounds/ambient/ac_duct_wind.ogg"
+"noise" "sounds/wind/ac_duct_wind.ogg"
 "angle" "-179.999985"
 "atten" "3"
 "volume" "0.5"
@@ -13749,7 +13749,7 @@ exx/wall-metalrib01
 {
 "classname" "target_speaker"
 "origin" "1472.000000 960.000000 176.000000"
-"noise" "sounds/ambient/ac_duct_wind.ogg"
+"noise" "sounds/wind/ac_duct_wind.ogg"
 "angle" "-179.999985"
 "atten" "1.25"
 "volume" "1"
@@ -14082,7 +14082,7 @@ exx/wall-metalrib01
 {
 "classname" "target_speaker"
 "origin" "-1152.000000 0.000000 -368.000000"
-"noise" "sounds/ambient/ac_duct_wind.ogg"
+"noise" "sounds/wind/ac_duct_wind.ogg"
 "angle" "-179.999985"
 "atten" "3"
 "volume" "0.5"
@@ -14091,7 +14091,7 @@ exx/wall-metalrib01
 {
 "classname" "target_speaker"
 "origin" "-896.000000 1024.000000 -112.000000"
-"noise" "sounds/ambient/ac_duct_wind.ogg"
+"noise" "sounds/wind/ac_duct_wind.ogg"
 "angle" "-179.999985"
 "atten" "3"
 "volume" "0.5"
@@ -14100,7 +14100,7 @@ exx/wall-metalrib01
 {
 "classname" "target_speaker"
 "origin" "-896.000000 -1024.000000 -272.000000"
-"noise" "sounds/ambient/ac_duct_wind.ogg"
+"noise" "sounds/wind/ac_duct_wind.ogg"
 "angle" "-179.999985"
 "atten" "3"
 "volume" "0.5"
