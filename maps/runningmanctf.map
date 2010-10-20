@@ -29835,7 +29835,7 @@ effects_jumppad/jumppadfx1_a
 }
 // entity 21
 {
-"classname" "weapon_railgun"
+"classname" "weapon_nex"
 "origin" "-1840.000000 1856.000000 -416.000000"
 }
 // entity 22
@@ -32240,7 +32240,7 @@ effects_jumppad/jumppadfx1_a
 }
 // entity 224
 {
-"classname" "weapon_railgun"
+"classname" "weapon_nex"
 "origin" "192.000000 -176.000000 -416.000000"
 "angle" "-90.000000"
 }
