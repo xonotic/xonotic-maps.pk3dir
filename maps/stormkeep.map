@@ -10201,39 +10201,39 @@ exx/base-metal01
 }
 // brush 1126
 {
-( 2304 -2048 1280 ) ( -1344 -2112 1280 ) ( -1344 -2048 1280 ) skies/calm_sea 0 0 0 0.5 0.5 0 0 0
-( -1344 -2112 1280 ) ( -1344 -2048 -1024 ) ( -1344 -2048 1280 ) skies/calm_sea 0 0 0 0.5 0.5 0 0 0
-( 2304 -2048 -1024 ) ( -1344 -2048 1280 ) ( -1344 -2048 -1024 ) skies/calm_sea 0 0 0 0.5 0.5 0 0 0
-( 2304 -2112 -1024 ) ( -1344 -2048 -1024 ) ( -1344 -2112 -1024 ) skies/calm_sea 0 0 0 0.5 0.5 0 0 0
-( 2304 -2048 1280 ) ( 2304 -2112 -1024 ) ( 2304 -2112 1280 ) skies/calm_sea 0 0 0 0.5 0.5 0 0 0
-( 2304 -2112 1280 ) ( -1344 -2112 -1024 ) ( -1344 -2112 1280 ) skies/calm_sea 0 0 0 0.5 0.5 0 0 0
+( 2304 -2048 1280 ) ( -1344 -2112 1280 ) ( -1344 -2048 1280 ) skies/extragalactic_asteroids 0 0 0 0.5 0.5 0 0 0
+( -1344 -2112 1280 ) ( -1344 -2048 -1024 ) ( -1344 -2048 1280 ) skies/extragalactic_asteroids 0 0 0 0.5 0.5 0 0 0
+( 2304 -2048 -1024 ) ( -1344 -2048 1280 ) ( -1344 -2048 -1024 ) skies/extragalactic_asteroids 0 0 0 0.5 0.5 0 0 0
+( 2304 -2112 -1024 ) ( -1344 -2048 -1024 ) ( -1344 -2112 -1024 ) skies/extragalactic_asteroids 0 0 0 0.5 0.5 0 0 0
+( 2304 -2048 1280 ) ( 2304 -2112 -1024 ) ( 2304 -2112 1280 ) skies/extragalactic_asteroids 0 0 0 0.5 0.5 0 0 0
+( 2304 -2112 1280 ) ( -1344 -2112 -1024 ) ( -1344 -2112 1280 ) skies/extragalactic_asteroids 0 0 0 0.5 0.5 0 0 0
 }
 // brush 1127
 {
-( 2304 1152 1280 ) ( 2368 -2048 1280 ) ( 2304 -2048 1280 ) skies/calm_sea 0 0 0 0.5 0.5 0 0 0
-( 2368 -2048 1280 ) ( 2304 -2048 -1024 ) ( 2304 -2048 1280 ) skies/calm_sea 0 0 0 0.5 0.5 0 0 0
-( 2304 1152 -1024 ) ( 2304 -2048 1280 ) ( 2304 -2048 -1024 ) skies/calm_sea 0 0 0 0.5 0.5 0 0 0
-( 2368 1152 -1024 ) ( 2304 -2048 -1024 ) ( 2368 -2048 -1024 ) skies/calm_sea 0 0 0 0.5 0.5 0 0 0
-( 2304 1152 1280 ) ( 2368 1152 320 ) ( 2368 1152 1280 ) skies/calm_sea 0 0 0 0.5 0.5 0 0 0
-( 2368 1152 1280 ) ( 2368 -2048 -1024 ) ( 2368 -2048 1280 ) skies/calm_sea 0 0 0 0.5 0.5 0 0 0
+( 2304 1152 1280 ) ( 2368 -2048 1280 ) ( 2304 -2048 1280 ) skies/extragalactic_asteroids 0 0 0 0.5 0.5 0 0 0
+( 2368 -2048 1280 ) ( 2304 -2048 -1024 ) ( 2304 -2048 1280 ) skies/extragalactic_asteroids 0 0 0 0.5 0.5 0 0 0
+( 2304 1152 -1024 ) ( 2304 -2048 1280 ) ( 2304 -2048 -1024 ) skies/extragalactic_asteroids 0 0 0 0.5 0.5 0 0 0
+( 2368 1152 -1024 ) ( 2304 -2048 -1024 ) ( 2368 -2048 -1024 ) skies/extragalactic_asteroids 0 0 0 0.5 0.5 0 0 0
+( 2304 1152 1280 ) ( 2368 1152 320 ) ( 2368 1152 1280 ) skies/extragalactic_asteroids 0 0 0 0.5 0.5 0 0 0
+( 2368 1152 1280 ) ( 2368 -2048 -1024 ) ( 2368 -2048 1280 ) skies/extragalactic_asteroids 0 0 0 0.5 0.5 0 0 0
 }
 // brush 1128
 {
-( -1344 -2048 1280 ) ( -1408 -2048 1280 ) ( -1408 1152 1280 ) skies/calm_sea 0 0 0 0.5 0.5 0 0 0
-( -1344 1152 -1024 ) ( -1408 1152 1280 ) ( -1408 1152 -1024 ) skies/calm_sea 0 0 0 0.5 0.5 0 0 0
-( -1344 -2048 -1024 ) ( -1344 1152 1280 ) ( -1344 1152 -1024 ) skies/calm_sea 0 0 0 0.5 0.5 0 0 0
-( -1344 -2048 -1024 ) ( -1408 1152 -1024 ) ( -1408 -2048 -1024 ) skies/calm_sea 0 0 0 0.5 0.5 0 0 0
-( -1344 -2048 1280 ) ( -1408 -2048 -1024 ) ( -1408 -2048 1280 ) skies/calm_sea 0 0 0 0.5 0.5 0 0 0
-( -1408 -2048 1280 ) ( -1408 1152 -1024 ) ( -1408 1152 1280 ) skies/calm_sea 0 0 0 0.5 0.5 0 0 0
+( -1344 -2048 1280 ) ( -1408 -2048 1280 ) ( -1408 1152 1280 ) skies/extragalactic_asteroids 0 0 0 0.5 0.5 0 0 0
+( -1344 1152 -1024 ) ( -1408 1152 1280 ) ( -1408 1152 -1024 ) skies/extragalactic_asteroids 0 0 0 0.5 0.5 0 0 0
+( -1344 -2048 -1024 ) ( -1344 1152 1280 ) ( -1344 1152 -1024 ) skies/extragalactic_asteroids 0 0 0 0.5 0.5 0 0 0
+( -1344 -2048 -1024 ) ( -1408 1152 -1024 ) ( -1408 -2048 -1024 ) skies/extragalactic_asteroids 0 0 0 0.5 0.5 0 0 0
+( -1344 -2048 1280 ) ( -1408 -2048 -1024 ) ( -1408 -2048 1280 ) skies/extragalactic_asteroids 0 0 0 0.5 0.5 0 0 0
+( -1408 -2048 1280 ) ( -1408 1152 -1024 ) ( -1408 1152 1280 ) skies/extragalactic_asteroids 0 0 0 0.5 0.5 0 0 0
 }
 // brush 1129
 {
-( 2304 1216 1280 ) ( -1344 1152 1280 ) ( -1344 1216 1280 ) skies/calm_sea 0 0 0 0.5 0.5 0 0 0
-( 2304 1216 1280 ) ( 2304 1152 320 ) ( 2304 1152 1280 ) skies/calm_sea 0 0 0 0.5 0.5 0 0 0
-( 2304 1152 1280 ) ( -1344 1152 320 ) ( -1344 1152 1280 ) skies/calm_sea 0 0 0 0.5 0.5 0 0 0
-( 2304 1152 320 ) ( -1344 1216 320 ) ( -1344 1152 320 ) skies/calm_sea 0 0 0 0.5 0.5 0 0 0
-( -1344 1216 1280 ) ( -1344 1152 1280 ) ( -1344 1152 320 ) skies/calm_sea 0 0 0 0.5 0.5 0 0 0
-( 2304 1216 320 ) ( -1344 1216 1280 ) ( -1344 1216 320 ) skies/calm_sea 0 0 0 0.5 0.5 0 0 0
+( 2304 1216 1280 ) ( -1344 1152 1280 ) ( -1344 1216 1280 ) skies/extragalactic_asteroids 0 0 0 0.5 0.5 0 0 0
+( 2304 1216 1280 ) ( 2304 1152 320 ) ( 2304 1152 1280 ) skies/extragalactic_asteroids 0 0 0 0.5 0.5 0 0 0
+( 2304 1152 1280 ) ( -1344 1152 320 ) ( -1344 1152 1280 ) skies/extragalactic_asteroids 0 0 0 0.5 0.5 0 0 0
+( 2304 1152 320 ) ( -1344 1216 320 ) ( -1344 1152 320 ) skies/extragalactic_asteroids 0 0 0 0.5 0.5 0 0 0
+( -1344 1216 1280 ) ( -1344 1152 1280 ) ( -1344 1152 320 ) skies/extragalactic_asteroids 0 0 0 0.5 0.5 0 0 0
+( 2304 1216 320 ) ( -1344 1216 1280 ) ( -1344 1216 320 ) skies/extragalactic_asteroids 0 0 0 0.5 0.5 0 0 0
 }
 // brush 1130
 {
@@ -10246,12 +10246,12 @@ exx/base-metal01
 }
 // brush 1131
 {
-( 2304 -2048 1344 ) ( -1344 -2048 1344 ) ( -1344 1152 1344 ) skies/calm_sea 0 0 0 0.5 0.5 0 0 0
-( 2304 1152 1280 ) ( -1344 1152 1344 ) ( -1344 1152 1280 ) skies/calm_sea 0 0 0 0.5 0.5 0 0 0
-( 2304 1152 1344 ) ( 2304 -2048 1280 ) ( 2304 -2048 1344 ) skies/calm_sea 0 0 0 0.5 0.5 0 0 0
-( 2304 -2048 1280 ) ( -1344 1152 1280 ) ( -1344 -2048 1280 ) skies/calm_sea 0 0 0 0.5 0.5 0 0 0
-( 2304 -2048 1344 ) ( -1344 -2048 1280 ) ( -1344 -2048 1344 ) skies/calm_sea 0 0 0 0.5 0.5 0 0 0
-( -1344 -2048 1344 ) ( -1344 1152 1280 ) ( -1344 1152 1344 ) skies/calm_sea 0 0 0 0.5 0.5 0 0 0
+( 2304 -2048 1344 ) ( -1344 -2048 1344 ) ( -1344 1152 1344 ) skies/extragalactic_asteroids 0 0 0 0.5 0.5 0 0 0
+( 2304 1152 1280 ) ( -1344 1152 1344 ) ( -1344 1152 1280 ) skies/extragalactic_asteroids 0 0 0 0.5 0.5 0 0 0
+( 2304 1152 1344 ) ( 2304 -2048 1280 ) ( 2304 -2048 1344 ) skies/extragalactic_asteroids 0 0 0 0.5 0.5 0 0 0
+( 2304 -2048 1280 ) ( -1344 1152 1280 ) ( -1344 -2048 1280 ) skies/extragalactic_asteroids 0 0 0 0.5 0.5 0 0 0
+( 2304 -2048 1344 ) ( -1344 -2048 1280 ) ( -1344 -2048 1344 ) skies/extragalactic_asteroids 0 0 0 0.5 0.5 0 0 0
+( -1344 -2048 1344 ) ( -1344 1152 1280 ) ( -1344 1152 1344 ) skies/extragalactic_asteroids 0 0 0 0.5 0.5 0 0 0
 }
 // brush 1132
 {
@@ -12696,21 +12696,21 @@ exx/floor-metal02
 }
 // brush 1379
 {
-( 2304 1088 -384 ) ( 2304 1024 -384 ) ( 1920 1088 -384 ) skies/calm_sea 0 0 0 0.25 0.25 0 0 0
-( 2304 1216 1280 ) ( 1920 1216 1280 ) ( 2304 1216 -1024 ) skies/calm_sea 0 0 0 0.25 0.25 0 0 0
-( 2304 1216 1280 ) ( 2304 1216 -1024 ) ( 2304 1152 1280 ) skies/calm_sea 0 0 0 0.25 0.25 0 0 0
-( 1920 1152 -1024 ) ( 2304 1152 -1024 ) ( 1920 1216 -1024 ) skies/calm_sea 0 0 0 0.25 0.25 0 0 0
-( 1920 1152 -1024 ) ( 1920 1152 1280 ) ( 2304 1152 -1024 ) skies/calm_sea 0 0 0 0.25 0.25 0 0 0
-( 1536 1216 -1024 ) ( 1536 1280 -1024 ) ( 1536 1216 1280 ) skies/calm_sea 0 0 0 0.25 0.25 0 0 0
+( 2304 1088 -384 ) ( 2304 1024 -384 ) ( 1920 1088 -384 ) skies/extragalactic_asteroids 0 0 0 0.25 0.25 0 0 0
+( 2304 1216 1280 ) ( 1920 1216 1280 ) ( 2304 1216 -1024 ) skies/extragalactic_asteroids 0 0 0 0.25 0.25 0 0 0
+( 2304 1216 1280 ) ( 2304 1216 -1024 ) ( 2304 1152 1280 ) skies/extragalactic_asteroids 0 0 0 0.25 0.25 0 0 0
+( 1920 1152 -1024 ) ( 2304 1152 -1024 ) ( 1920 1216 -1024 ) skies/extragalactic_asteroids 0 0 0 0.25 0.25 0 0 0
+( 1920 1152 -1024 ) ( 1920 1152 1280 ) ( 2304 1152 -1024 ) skies/extragalactic_asteroids 0 0 0 0.25 0.25 0 0 0
+( 1536 1216 -1024 ) ( 1536 1280 -1024 ) ( 1536 1216 1280 ) skies/extragalactic_asteroids 0 0 0 0.25 0.25 0 0 0
 }
 // brush 1380
 {
-( 2304 -2048 -1024 ) ( -1344 -2048 -1024 ) ( -1344 1152 -1024 ) skies/calm_sea 0 0 0 0.25 0.25 0 0 0
-( 2304 1152 -1088 ) ( -1344 1152 -1024 ) ( -1344 1152 -1088 ) skies/calm_sea 0 0 0 0.25 0.25 0 0 0
-( 2304 1152 -1024 ) ( 2304 -2048 -1088 ) ( 2304 -2048 -1024 ) skies/calm_sea 0 0 0 0.25 0.25 0 0 0
-( 2304 -2048 -1088 ) ( -1344 1152 -1088 ) ( -1344 -2048 -1088 ) skies/calm_sea 0 0 0 0.25 0.25 0 0 0
-( 2304 -2048 -1024 ) ( -1344 -2048 -1088 ) ( -1344 -2048 -1024 ) skies/calm_sea 0 0 0 0.25 0.25 0 0 0
-( -1344 -2048 -1024 ) ( -1344 1152 -1088 ) ( -1344 1152 -1024 ) skies/calm_sea 0 0 0 0.25 0.25 0 0 0
+( 2304 -2048 -1024 ) ( -1344 -2048 -1024 ) ( -1344 1152 -1024 ) skies/extragalactic_asteroids 0 0 0 0.25 0.25 0 0 0
+( 2304 1152 -1088 ) ( -1344 1152 -1024 ) ( -1344 1152 -1088 ) skies/extragalactic_asteroids 0 0 0 0.25 0.25 0 0 0
+( 2304 1152 -1024 ) ( 2304 -2048 -1088 ) ( 2304 -2048 -1024 ) skies/extragalactic_asteroids 0 0 0 0.25 0.25 0 0 0
+( 2304 -2048 -1088 ) ( -1344 1152 -1088 ) ( -1344 -2048 -1088 ) skies/extragalactic_asteroids 0 0 0 0.25 0.25 0 0 0
+( 2304 -2048 -1024 ) ( -1344 -2048 -1088 ) ( -1344 -2048 -1024 ) skies/extragalactic_asteroids 0 0 0 0.25 0.25 0 0 0
+( -1344 -2048 -1024 ) ( -1344 1152 -1088 ) ( -1344 1152 -1024 ) skies/extragalactic_asteroids 0 0 0 0.25 0.25 0 0 0
 }
 // brush 1381
 {
@@ -22795,28 +22795,28 @@ exx/trim-01
 {
 "classname" "target_speaker"
 "origin" "-1136.000000 432.000000 336.000000"
-"noise" "sound/desertfactory/windoutside_loop.wav"
+"noise" "sounds/supernatural/space-loop.wav"
 "atten" "1.5"
 }
 // entity 252
 {
 "classname" "target_speaker"
 "origin" "32.000000 336.000000 336.000000"
-"noise" "sound/desertfactory/windoutside_loop.wav"
+"noise" "sounds/supernatural/space-loop.wav"
 "atten" "1.5"
 }
 // entity 253
 {
 "classname" "target_speaker"
 "origin" "1200.000000 640.000000 336.000000"
-"noise" "sound/desertfactory/windoutside_loop.wav"
+"noise" "sounds/supernatural/space-loop.wav"
 "atten" "1.5"
 }
 // entity 254
 {
 "classname" "target_speaker"
 "origin" "1184.000000 640.000000 -16.000000"
-"noise" "sound/desertfactory/machinevat_loop.wav"
+"noise" "sounds/machines/Slime_Bubbling.wav"
 "volume" "0.5"
 "atten" "2"
 }
@@ -22824,14 +22824,14 @@ exx/trim-01
 {
 "classname" "target_speaker"
 "origin" "-416.000000 -672.000000 -16.000000"
-"noise" "sound/desertfactory/machinevat_loop.wav"
+"noise" "sounds/machines/Slime_Bubbling.wav"
 "atten" "3"
 }
 // entity 256
 {
 "classname" "target_speaker"
 "origin" "1712.000000 -224.000000 -208.000000"
-"noise" "sound/desertfactory/machinevat_loop.wav"
+"noise" "sounds/machines/Slime_Bubbling.wav"
 "volume" "0.5"
 "atten" "2"
 }
@@ -22839,7 +22839,7 @@ exx/trim-01
 {
 "classname" "target_speaker"
 "origin" "-1040.000000 400.000000 -64.000000"
-"noise" "sound/desertfactory/machinevat_loop.wav"
+"noise" "sounds/machines/Slime_Bubbling.wav"
 "volume" "0.5"
 "atten" "2"
 }
@@ -22847,7 +22847,7 @@ exx/trim-01
 {
 "classname" "target_speaker"
 "origin" "-624.000000 32.000000 -64.000000"
-"noise" "sound/desertfactory/machinevat_loop.wav"
+"noise" "sounds/machines/Slime_Bubbling.wav"
 "volume" "0.5"
 "atten" "2"
 }
@@ -22855,7 +22855,7 @@ exx/trim-01
 {
 "classname" "target_speaker"
 "origin" "1344.000000 -288.000000 -208.000000"
-"noise" "sound/desertfactory/machinevat_loop.wav"
+"noise" "sounds/machines/Slime_Bubbling.wav"
 "volume" "0.5"
 "atten" "2"
 }
@@ -23617,4 +23617,10 @@ exx/trim-01
 ( -560 -800 -32 ) ( -520 -800 -32 ) ( -520 -800 -160 ) common/clip 0 0 0 0.25 0.25 0 0 0
 ( -560 -800 -32 ) ( -560 -784 -160 ) ( -560 -784 -32 ) common/clip 224 0 0 0.25 0.25 0 0 0
 }
+}
+// entity 319
+{
+"classname" "target_speaker"
+"origin" "1600.000000 -1920.000000 192.000000"
+"noise" "sounds/supernatural/space-loop.wav"
 }
