@@ -34550,3 +34550,50 @@ effects_healpod/healpod1_d
 }
 }
 }
+// entity 399
+{
+"classname" "target_speaker"
+"origin" "-2320.000000 -656.000000 192.000000"
+"noise" "sounds/wind/WindDesert-Loop.wav"
+}
+// entity 400
+{
+"classname" "target_speaker"
+"origin" "-1872.000000 1184.000000 -192.000000"
+"noise" "sounds/machines/Electrical_Machine.wav"
+"volume" "0.4"
+"angle" "-90.000000"
+}
+// entity 401
+{
+"classname" "target_speaker"
+"origin" "-1680.000000 2032.000000 832.000000"
+"noise" "sounds/wind/WindDesert-Loop.wav"
+"angle" "-90.000000"
+}
+// entity 402
+{
+"classname" "target_speaker"
+"origin" "-2864.000000 1920.000000 -48.000000"
+"noise" "sounds/machines/Flourescent-Loop(Stereo).wav"
+"angle" "-90.000000"
+}
+// entity 403
+{
+"classname" "target_speaker"
+"origin" "256.000000 -1200.000000 -48.000000"
+"noise" "sounds/machines/Flourescent-Loop(Stereo).wav"
+}
+// entity 404
+{
+"classname" "target_speaker"
+"origin" "368.000000 -16.000000 832.000000"
+"noise" "sounds/wind/WindDesert-Loop.wav"
+}
+// entity 405
+{
+"classname" "target_speaker"
+"origin" "-480.000000 -208.000000 -192.000000"
+"noise" "sounds/machines/Electrical_Machine.wav"
+"volume" "0.4"
+}
