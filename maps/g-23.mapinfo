@@ -1,7 +1,8 @@
 title Docking Station G-23
-description You and your expert team of soldiers have docked Docking Station G-23 with the mission of retrieving a package and letting no one stand in your way.
+description You and your expert team of soldiers have docked Docking Station G-23 for retrieving a package and letting no one stand in your way.
 author Moo
 has weapons
 type dm 30 20
 type lms 9 20
 type arena 10 20
+cdtrack 6

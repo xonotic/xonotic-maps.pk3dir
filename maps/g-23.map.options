@@ -1,5 +1,5 @@
--bsp +
--light + -bounce 8 -dirtscale 2 -super 2
+-bsp + -samplesize 4
+-light + -bounce 8 -dirtscale 2 -randomsamples -samples 64
 -vis +
 -minimap +
-Version: 1
+Version: 2
