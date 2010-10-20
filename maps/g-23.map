@@ -13486,7 +13486,7 @@ exx/wall-metalrib01
 }
 // entity 69
 {
-"classname" "weapon_campingrifle"
+"classname" "weapon_nex"
 "origin" "1472.000000 960.000000 128.000000"
 }
 // entity 70
