@@ -11726,7 +11726,7 @@ exx/wall-metalrib01
 {
 "classname" "func_plat"
 "speed" "300"
-"sound1" "sounds/machines/Elevator_Up.wav"
+"sound1" "sound/machines/Elevator_Up.wav"
 {
 ( 576 -192 0 ) ( 576 -256 0 ) ( 512 -192 0 ) common/caulk 0 0 0 0.25 0.25 134217728 0 0
 ( 576 -192 -32 ) ( 512 -192 -32 ) ( 576 -192 -64 ) exx/wall-bigrib02 0 0 0 0.25 0.25 134217728 0 0
@@ -12089,7 +12089,7 @@ exx/wall-metalrib01
 {
 "classname" "target_speaker"
 "origin" "2240.000000 -960.000000 160.000000"
-"noise" "sounds/wind/ac_duct_wind.ogg"
+"noise" "sound/wind/ac_duct_wind.ogg"
 "angle" "-179.999985"
 "atten" "1.5"
 "volume" "1"
@@ -12097,7 +12097,7 @@ exx/wall-metalrib01
 {
 "classname" "target_speaker"
 "origin" "128.000000 -1024.000000 -224.000000"
-"noise" "sounds/wind/ac_duct_wind.ogg"
+"noise" "sound/wind/ac_duct_wind.ogg"
 "angle" "-179.999985"
 "atten" "3"
 "volume" "0.5"
@@ -12319,7 +12319,7 @@ exx/wall-metalrib01
 {
 "classname" "target_speaker"
 "origin" "1472.000000 960.000000 176.000000"
-"noise" "sounds/wind/ac_duct_wind.wav"
+"noise" "sound/wind/ac_duct_wind.wav"
 "angle" "-179.999985"
 "atten" "1.25"
 "volume" "1"
@@ -12610,7 +12610,7 @@ exx/wall-metalrib01
 {
 "classname" "target_speaker"
 "origin" "-1152.000000 0.000000 -368.000000"
-"noise" "sounds/wind/ac_duct_wind.ogg"
+"noise" "sound/wind/ac_duct_wind.ogg"
 "angle" "-179.999985"
 "atten" "3"
 "volume" "0.5"
@@ -12618,7 +12618,7 @@ exx/wall-metalrib01
 {
 "classname" "target_speaker"
 "origin" "-896.000000 1024.000000 -112.000000"
-"noise" "sounds/wind/ac_duct_wind.ogg"
+"noise" "sound/wind/ac_duct_wind.ogg"
 "angle" "-179.999985"
 "atten" "3"
 "volume" "0.5"
@@ -12626,7 +12626,7 @@ exx/wall-metalrib01
 {
 "classname" "target_speaker"
 "origin" "-896.000000 -1024.000000 -272.000000"
-"noise" "sounds/wind/ac_duct_wind.ogg"
+"noise" "sound/wind/ac_duct_wind.ogg"
 "angle" "-179.999985"
 "atten" "3"
 "volume" "0.5"
@@ -14432,40 +14432,40 @@ exx/wall-metalrib01
 {
 "classname" "target_speaker"
 "origin" "664.000000 344.000000 -352.000000"
-"noise" "sounds/machines/Big_machine.wav"
+"noise" "sound/machines/Big_machine.wav"
 }
 {
 "classname" "target_speaker"
 "origin" "-1648.000000 0.000000 -544.000000"
-"noise" "sounds/supernatural/space-loop.wav"
+"noise" "sound/supernatural/space-loop.wav"
 }
 {
 "classname" "target_speaker"
 "origin" "1536.000000 -1024.000000 240.000000"
-"noise" "sounds/machines/Lights(Mono).wav"
+"noise" "sound/machines/Lights(Mono).wav"
 "volume" "0.6"
 }
 {
 "classname" "target_speaker"
 "origin" "832.000000 -1024.000000 240.000000"
-"noise" "sounds/machines/Lights(Mono).wav"
+"noise" "sound/machines/Lights(Mono).wav"
 "volume" "0.6"
 }
 {
 "classname" "target_speaker"
 "origin" "320.000000 0.000000 240.000000"
-"noise" "sounds/machines/Lights(Mono).wav"
+"noise" "sound/machines/Lights(Mono).wav"
 "volume" "0.6"
 }
 {
 "classname" "target_speaker"
 "origin" "320.000000 -1024.000000 240.000000"
-"noise" "sounds/machines/Lights(Mono).wav"
+"noise" "sound/machines/Lights(Mono).wav"
 "volume" "0.6"
 }
 {
 "classname" "target_speaker"
 "origin" "524.000000 -1256.000000 136.000000"
-"noise" "sounds/machines/Electric-Arcs2.wav"
+"noise" "sound/machines/Electric-Arcs2.wav"
 "volume" "0.3"
 }

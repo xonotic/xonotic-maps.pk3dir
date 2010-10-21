@@ -38159,21 +38159,18 @@ exx/floor-panel01
 "classname" "item_armor_medium"
 "origin" "192.000000 -384.000000 528.000000"
 }
-// entity 689
 {
 "classname" "target_speaker"
 "origin" "-1760.000000 128.000000 928.000000"
-"noise" "sounds/wind/Howling-Wind.wav"
+"noise" "sound/wind/Howling-Wind.wav"
 }
-// entity 690
 {
 "classname" "target_speaker"
 "origin" "640.000000 1248.000000 336.000000"
-"noise" "sounds/machines/radiostatic_loop.wav"
+"noise" "sound/machines/radiostatic_loop.wav"
 }
-// entity 691
 {
 "classname" "target_speaker"
 "origin" "240.000000 -576.000000 192.000000"
-"noise" "sounds/machines/Big_machine.wav"
+"noise" "sound/machines/Big_machine.wav"
 }

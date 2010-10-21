@@ -20206,59 +20206,59 @@ exx/trim-01
 {
 "classname" "target_speaker"
 "origin" "-1136.000000 432.000000 336.000000"
-"noise" "sounds/supernatural/space-loop.wav"
+"noise" "sound/supernatural/space-loop.wav"
 "atten" "1.5"
 }
 {
 "classname" "target_speaker"
 "origin" "32.000000 336.000000 336.000000"
-"noise" "sounds/supernatural/space-loop.wav"
+"noise" "sound/supernatural/space-loop.wav"
 "atten" "1.5"
 }
 {
 "classname" "target_speaker"
 "origin" "1200.000000 640.000000 336.000000"
-"noise" "sounds/supernatural/space-loop.wav"
+"noise" "sound/supernatural/space-loop.wav"
 "atten" "1.5"
 }
 {
 "classname" "target_speaker"
 "origin" "1184.000000 640.000000 -16.000000"
-"noise" "sounds/machines/Slime_Bubbling.wav"
+"noise" "sound/machines/Slime_Bubbling.wav"
 "volume" "0.5"
 "atten" "2"
 }
 {
 "classname" "target_speaker"
 "origin" "-416.000000 -672.000000 -16.000000"
-"noise" "sounds/machines/Slime_Bubbling.wav"
+"noise" "sound/machines/Slime_Bubbling.wav"
 "atten" "3"
 }
 {
 "classname" "target_speaker"
 "origin" "1712.000000 -224.000000 -208.000000"
-"noise" "sounds/machines/Slime_Bubbling.wav"
+"noise" "sound/machines/Slime_Bubbling.wav"
 "volume" "0.5"
 "atten" "2"
 }
 {
 "classname" "target_speaker"
 "origin" "-1040.000000 400.000000 -64.000000"
-"noise" "sounds/machines/Slime_Bubbling.wav"
+"noise" "sound/machines/Slime_Bubbling.wav"
 "volume" "0.5"
 "atten" "2"
 }
 {
 "classname" "target_speaker"
 "origin" "-624.000000 32.000000 -64.000000"
-"noise" "sounds/machines/Slime_Bubbling.wav"
+"noise" "sound/machines/Slime_Bubbling.wav"
 "volume" "0.5"
 "atten" "2"
 }
 {
 "classname" "target_speaker"
 "origin" "1344.000000 -288.000000 -208.000000"
-"noise" "sounds/machines/Slime_Bubbling.wav"
+"noise" "sound/machines/Slime_Bubbling.wav"
 "volume" "0.5"
 "atten" "2"
 }
@@ -20923,9 +20923,8 @@ exx/trim-01
 ( -560 -800 -32 ) ( -560 -784 -160 ) ( -560 -784 -32 ) common/clip 224 0 0 0.25 0.25 0 0 0
 }
 }
-// entity 319
 {
 "classname" "target_speaker"
 "origin" "1600.000000 -1920.000000 192.000000"
-"noise" "sounds/supernatural/space-loop.wav"
+"noise" "sound/supernatural/space-loop.wav"
 }
