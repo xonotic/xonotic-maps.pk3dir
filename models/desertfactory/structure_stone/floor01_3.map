@@ -1,11 +1,8 @@
-
-// entity 0
 {
 "classname" "worldspawn"
 "message" "Created for the Desert Factory map project"
 "author" "sev"
 "license" "GNU GPL version 2 or any later version"
-// brush 0
 {
 ( 8 800 16 ) ( 8 -800 16 ) ( 0 800 16 ) common/origin 0 0 0 0.25 0.25 0 0 0
 ( -120 8 16 ) ( -128 8 16 ) ( -120 8 0 ) common/origin 0 0 0 0.25 0.25 0 0 0
@@ -14,7 +11,6 @@
 ( 0 -8 0 ) ( 0 -8 16 ) ( 8 -8 0 ) common/origin 0 0 0 0.25 0.25 0 0 0
 ( -8 -1512 0 ) ( -8 88 0 ) ( -8 -1512 16 ) common/origin 0 0 0 0.25 0.25 0 0 0
 }
-// brush 1
 {
 patchDef2
 {
@@ -31,7 +27,6 @@ desertfactory_stone/concrete_warning
 )
 }
 }
-// brush 2
 {
 patchDef2
 {
@@ -48,7 +43,6 @@ desertfactory_stone/concrete_warning
 )
 }
 }
-// brush 3
 {
 patchDef2
 {
@@ -65,7 +59,6 @@ desertfactory_stone/concrete_warning
 )
 }
 }
-// brush 4
 {
 patchDef2
 {
@@ -82,7 +75,6 @@ desertfactory_stone/concrete02
 )
 }
 }
-// brush 5
 {
 patchDef2
 {
@@ -99,7 +91,6 @@ desertfactory_stone/concrete_warning
 )
 }
 }
-// brush 6
 {
 patchDef2
 {
@@ -116,7 +107,6 @@ desertfactory_stone/concrete02
 )
 }
 }
-// brush 7
 {
 patchDef2
 {
@@ -133,7 +123,6 @@ desertfactory_stone/concrete_warning
 )
 }
 }
-// brush 8
 {
 patchDef2
 {
@@ -150,7 +139,6 @@ desertfactory_stone/concrete_warning
 )
 }
 }
-// brush 9
 {
 patchDef2
 {
@@ -167,7 +155,6 @@ desertfactory_stone/concrete02
 )
 }
 }
-// brush 10
 {
 patchDef2
 {
@@ -180,7 +167,6 @@ desertfactory_shaders/grates01
 )
 }
 }
-// brush 11
 {
 patchDef2
 {
