@@ -20201,7 +20201,7 @@ exx/trim-01
 {
 "classname" "target_speaker"
 "origin" "480.000000 -576.000000 336.000000"
-"noise" "sound/desertfactory/windoutside_loop.wav"
+"noise" "sound/wind/windoutside_loop.wav"
 }
 {
 "classname" "target_speaker"
