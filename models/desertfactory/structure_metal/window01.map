@@ -1,11 +1,8 @@
-
-// entity 0
 {
 "classname" "worldspawn"
 "message" "Created for the Desert Factory map project"
 "author" "sev"
 "license" "GNU GPL version 2 or any later version"
-// brush 0
 {
 ( 24 8 16 ) ( 24 -8 16 ) ( 8 8 16 ) common/origin 0 0 0 0.25 0.25 0 0 0
 ( 8 8 384 ) ( -8 8 384 ) ( 8 8 0 ) common/origin 0 0 0 0.25 0.25 0 0 0
@@ -14,7 +11,6 @@
 ( -8 -8 0 ) ( -8 -8 384 ) ( 8 -8 0 ) common/origin 0 0 0 0.25 0.25 0 0 0
 ( -8 -8 0 ) ( -8 8 0 ) ( -8 -8 384 ) common/origin 0 0 0 0.25 0.25 0 0 0
 }
-// brush 1
 {
 patchDef2
 {
@@ -29,7 +25,6 @@ desertfactory_stone/concrete03
 )
 }
 }
-// brush 2
 {
 patchDef2
 {
@@ -42,7 +37,6 @@ desertfactory_shaders/glass01
 )
 }
 }
-// brush 3
 {
 patchDef2
 {
@@ -61,7 +55,6 @@ desertfactory_metal/metal02
 )
 }
 }
-// brush 4
 {
 patchDef2
 {
@@ -74,7 +67,6 @@ desertfactory_metal/metal02
 )
 }
 }
-// brush 5
 {
 patchDef2
 {
@@ -87,7 +79,6 @@ desertfactory_metal/metal02
 )
 }
 }
-// brush 6
 {
 patchDef2
 {
@@ -100,7 +91,6 @@ desertfactory_metal/metal02
 )
 }
 }
-// brush 7
 {
 patchDef2
 {
@@ -113,7 +103,6 @@ desertfactory_metal/metal02
 )
 }
 }
-// brush 8
 {
 patchDef2
 {
@@ -126,7 +115,6 @@ desertfactory_metal/metal02
 )
 }
 }
-// brush 9
 {
 patchDef2
 {
@@ -139,7 +127,6 @@ desertfactory_metal/metal02
 )
 }
 }
-// brush 10
 {
 patchDef2
 {
@@ -152,7 +139,6 @@ desertfactory_metal/metal02
 )
 }
 }
-// brush 11
 {
 patchDef2
 {
@@ -165,7 +151,6 @@ desertfactory_metal/metal02
 )
 }
 }
-// brush 12
 {
 patchDef2
 {
@@ -178,7 +163,6 @@ desertfactory_metal/metal02
 )
 }
 }
-// brush 13
 {
 patchDef2
 {
@@ -191,7 +175,6 @@ desertfactory_metal/metal02
 )
 }
 }
-// brush 14
 {
 patchDef2
 {
