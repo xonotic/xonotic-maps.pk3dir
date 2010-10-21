@@ -1,11 +1,8 @@
-
-// entity 0
 {
 "classname" "worldspawn"
 "message" "Created for the Desert Factory map project"
 "author" "sev"
 "license" "GNU GPL version 2 or any later version"
-// brush 0
 {
 patchDef2
 {
@@ -24,7 +21,6 @@ desertfactory_metal/metal05
 )
 }
 }
-// brush 1
 {
 patchDef2
 {
@@ -43,7 +39,6 @@ desertfactory_metal/metal05
 )
 }
 }
-// brush 2
 {
 ( 8 -8 16 ) ( -8 -8 16 ) ( 8 8 16 ) common/origin 0 0 0 0.25 0.25 0 0 0
 ( 8 -8 64 ) ( 8 8 64 ) ( 8 -8 0 ) common/origin 0 0 0 0.25 0.25 0 0 0
@@ -52,7 +47,6 @@ desertfactory_metal/metal05
 ( -8 8 0 ) ( -8 8 64 ) ( -8 -8 0 ) common/origin 0 0 0 0.25 0.25 0 0 0
 ( -8 8 0 ) ( 8 8 0 ) ( -8 8 64 ) common/origin 0 0 0 0.25 0.25 0 0 0
 }
-// brush 3
 {
 patchDef2
 {

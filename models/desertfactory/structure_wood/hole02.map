@@ -1,11 +1,8 @@
-
-// entity 0
 {
 "classname" "worldspawn"
 "message" "Created for the Desert Factory map project"
 "author" "sev"
 "license" "GNU GPL version 2 or any later version"
-// brush 0
 {
 patchDef2
 {
@@ -18,7 +15,6 @@ desertfactory_wood/filling01
 )
 }
 }
-// brush 1
 {
 patchDef2
 {
@@ -31,7 +27,6 @@ desertfactory_wood/wood01
 )
 }
 }
-// brush 2
 {
 patchDef2
 {
@@ -44,7 +39,6 @@ desertfactory_wood/wood01
 )
 }
 }
-// brush 3
 {
 patchDef2
 {
@@ -57,7 +51,6 @@ desertfactory_wood/wood01
 )
 }
 }
-// brush 4
 {
 patchDef2
 {
@@ -70,7 +63,6 @@ desertfactory_wood/wood01
 )
 }
 }
-// brush 5
 {
 patchDef2
 {
@@ -83,7 +75,6 @@ desertfactory_wood/wood01
 )
 }
 }
-// brush 6
 {
 patchDef2
 {
@@ -100,7 +91,6 @@ desertfactory_wood/wood01
 )
 }
 }
-// brush 7
 {
 patchDef2
 {
@@ -117,7 +107,6 @@ desertfactory_wood/wood01
 )
 }
 }
-// brush 8
 {
 patchDef2
 {
@@ -134,7 +123,6 @@ desertfactory_wood/wood01
 )
 }
 }
-// brush 9
 {
 patchDef2
 {
@@ -151,7 +139,6 @@ desertfactory_wood/wood01
 )
 }
 }
-// brush 10
 {
 patchDef2
 {
@@ -164,7 +151,6 @@ desertfactory_wood/wood01
 )
 }
 }
-// brush 11
 {
 patchDef2
 {
@@ -177,7 +163,6 @@ desertfactory_wood/wood01
 )
 }
 }
-// brush 12
 {
 patchDef2
 {
@@ -190,7 +175,6 @@ desertfactory_wood/wood01
 )
 }
 }
-// brush 13
 {
 patchDef2
 {
@@ -203,7 +187,6 @@ desertfactory_wood/wood01
 )
 }
 }
-// brush 14
 {
 patchDef2
 {
@@ -216,7 +199,6 @@ desertfactory_wood/wood01
 )
 }
 }
-// brush 15
 {
 ( 6 -4 16 ) ( 6 -8 16 ) ( 2 -4 16 ) common/origin 0 0 0 0.25 0.25 0 0 0
 ( 2 8 192 ) ( -2 8 192 ) ( 2 8 0 ) common/origin 0 0 0 0.25 0.25 0 0 0

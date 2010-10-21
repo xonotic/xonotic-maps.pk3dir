@@ -1,11 +1,8 @@
-
-// entity 0
 {
 "classname" "worldspawn"
 "message" "Created for the Desert Factory map project"
 "author" "sev"
 "license" "GNU GPL version 2 or any later version"
-// brush 0
 {
 patchDef2
 {
@@ -24,7 +21,6 @@ desertfactory_metal/metal02
 )
 }
 }
-// brush 1
 {
 patchDef2
 {
@@ -43,7 +39,6 @@ desertfactory_metal/metal02
 )
 }
 }
-// brush 2
 {
 patchDef2
 {
@@ -62,7 +57,6 @@ desertfactory_metal/metal01
 )
 }
 }
-// brush 3
 {
 patchDef2
 {
@@ -75,7 +69,6 @@ desertfactory_signs/explosion_dirty
 )
 }
 }
-// brush 4
 {
 patchDef2
 {
@@ -88,7 +81,6 @@ desertfactory_signs/warning_dirty
 )
 }
 }
-// brush 5
 {
 patchDef2
 {
@@ -107,7 +99,6 @@ desertfactory_metal/metal05
 )
 }
 }
-// brush 6
 {
 patchDef2
 {
@@ -124,7 +115,6 @@ desertfactory_metal/metal05
 )
 }
 }
-// brush 7
 {
 patchDef2
 {
@@ -141,7 +131,6 @@ desertfactory_metal/metal05
 )
 }
 }
-// brush 8
 {
 patchDef2
 {
@@ -154,7 +143,6 @@ desertfactory_metal/metal05
 )
 }
 }
-// brush 9
 {
 patchDef2
 {
@@ -171,7 +159,6 @@ desertfactory_metal/metal05
 )
 }
 }
-// brush 10
 {
 patchDef2
 {
@@ -184,7 +171,6 @@ desertfactory_metal/metal05
 )
 }
 }
-// brush 11
 {
 patchDef2
 {
@@ -201,7 +187,6 @@ desertfactory_metal/metal05
 )
 }
 }
-// brush 12
 {
 patchDef2
 {
@@ -220,7 +205,6 @@ desertfactory_metal/metal05
 )
 }
 }
-// brush 13
 {
 patchDef2
 {
@@ -239,7 +223,6 @@ desertfactory_metal/metal05
 )
 }
 }
-// brush 14
 {
 patchDef2
 {
@@ -258,7 +241,6 @@ desertfactory_metal/metal02
 )
 }
 }
-// brush 15
 {
 patchDef2
 {
@@ -277,7 +259,6 @@ desertfactory_metal/metal05
 )
 }
 }
-// brush 16
 {
 patchDef2
 {
@@ -296,7 +277,6 @@ desertfactory_metal/metal02
 )
 }
 }
-// brush 17
 {
 patchDef2
 {
@@ -315,7 +295,6 @@ desertfactory_metal/metal02
 )
 }
 }
-// brush 18
 {
 patchDef2
 {
@@ -334,7 +313,6 @@ desertfactory_metal/metal02
 )
 }
 }
-// brush 19
 {
 patchDef2
 {
@@ -353,7 +331,6 @@ desertfactory_metal/metal02
 )
 }
 }
-// brush 20
 {
 patchDef2
 {
@@ -372,7 +349,6 @@ desertfactory_metal/metal02
 )
 }
 }
-// brush 21
 {
 patchDef2
 {
@@ -391,7 +367,6 @@ desertfactory_metal/metal02
 )
 }
 }
-// brush 22
 {
 ( 160 160 688 ) ( 160 160 0 ) ( 160 128 688 ) desertfactory_metal/metal02 0 0 0 2 2 0 0 0
 ( 128 128 0 ) ( 160 128 0 ) ( 128 160 0 ) common/caulk 0 0 0 2 2 0 0 0
@@ -400,7 +375,6 @@ desertfactory_metal/metal02
 ( 128 128 -64 ) ( 144 144 -64 ) ( 128 128 64 ) common/caulk 0 0 0 2 2 0 0 0
 ( 136 -160 -64 ) ( 128 -160 -64 ) ( 136 -160 64 ) desertfactory_metal/metal02 0 0 0 2 2 0 0 0
 }
-// brush 23
 {
 ( 160 160 16 ) ( 160 128 16 ) ( -160 160 16 ) desertfactory_metal/metal02 0 0 0 2 2 0 0 0
 ( 160 160 16 ) ( -160 160 16 ) ( 160 160 0 ) desertfactory_metal/metal02 0 0 0 2 2 0 0 0
@@ -409,7 +383,6 @@ desertfactory_metal/metal02
 ( 160 160 -64 ) ( 144 144 -64 ) ( 160 160 64 ) common/caulk 0 0 0 2 2 0 0 0
 ( -128 128 -64 ) ( -144 144 -64 ) ( -128 128 64 ) common/caulk 0 0 0 2 2 0 0 0
 }
-// brush 24
 {
 ( -128 160 16 ) ( -128 -160 16 ) ( -160 160 16 ) desertfactory_metal/metal02 0 0 0 2 2 0 0 0
 ( -128 160 16 ) ( -128 160 0 ) ( -128 -160 16 ) desertfactory_metal/metal02 0 0 0 2 2 0 0 0
@@ -418,7 +391,6 @@ desertfactory_metal/metal02
 ( -160 160 -64 ) ( -144 144 -64 ) ( -160 160 64 ) common/caulk 0 0 0 2 2 0 0 0
 ( -128 -160 -64 ) ( -136 -160 -64 ) ( -128 -160 64 ) desertfactory_metal/metal02 0 0 0 2 2 0 0 0
 }
-// brush 25
 {
 ( 158 -156 704 ) ( 128 -156 704 ) ( 158 -126 704 ) desertfactory_metal/metal02 0 0 0 2 2 0 0 0
 ( 128 -126 16 ) ( 128 -156 16 ) ( 158 -126 16 ) common/caulk 0 0 0 2 2 0 0 0
@@ -427,7 +399,6 @@ desertfactory_metal/metal02
 ( 134 -154 -64 ) ( 130 -150 -64 ) ( 134 -154 64 ) desertfactory_metal/metal02 0 0 0 2 2 0 0 0
 ( 130 -150 -64 ) ( 154 -126 -64 ) ( 130 -150 64 ) desertfactory_metal/metal02 0 0 0 2 2 0 0 0
 }
-// brush 26
 {
 ( 164 -160 704 ) ( 140 -160 704 ) ( 164 -140 704 ) desertfactory_metal/metal02 0 0 0 2 2 0 0 0
 ( 140 -140 16 ) ( 140 -160 16 ) ( 164 -140 16 ) common/caulk 0 0 0 2 2 0 0 0
@@ -436,7 +407,6 @@ desertfactory_metal/metal02
 ( 156 -160 -64 ) ( 152 -156 -64 ) ( 156 -160 64 ) desertfactory_metal/metal02 0 0 0 2 2 0 0 0
 ( 142 -146 -64 ) ( 144 -144 -64 ) ( 142 -146 64 ) common/caulk 0 0 0 2 2 0 0 0
 }
-// brush 27
 {
 ( 176 -144 636 ) ( -152 -144 636 ) ( 176 128 636 ) desertfactory_metal/metal02 0 0 0 2 2 0 0 0
 ( -152 128 612 ) ( -152 -144 612 ) ( 176 128 612 ) desertfactory_metal/metal02 0 0 0 2 2 0 0 0
@@ -445,7 +415,6 @@ desertfactory_metal/metal02
 ( -136 128 288 ) ( -144 136 288 ) ( -136 128 416 ) desertfactory_metal/metal02 0 0 0 2 2 0 0 0
 ( 144 -136 288 ) ( 136 -144 288 ) ( 144 -136 416 ) common/caulk 0 0 0 2 2 0 0 0
 }
-// brush 28
 {
 ( 144 176 636 ) ( 144 -152 636 ) ( -128 176 636 ) desertfactory_metal/metal02 0 0 0 2 2 0 0 0
 ( -128 -152 612 ) ( 144 -152 612 ) ( -128 176 612 ) desertfactory_metal/metal02 0 0 0 2 2 0 0 0
@@ -454,7 +423,6 @@ desertfactory_metal/metal02
 ( -128 -136 288 ) ( -136 -144 288 ) ( -128 -136 416 ) desertfactory_metal/metal02 0 0 0 2 2 0 0 0
 ( 136 144 288 ) ( 144 136 288 ) ( 136 144 416 ) common/caulk 0 0 0 2 2 0 0 0
 }
-// brush 29
 {
 ( 176 -144 284 ) ( -152 -144 284 ) ( 176 128 284 ) desertfactory_metal/metal02 0 0 0 2 2 0 0 0
 ( -152 128 260 ) ( -152 -144 260 ) ( 176 128 260 ) desertfactory_metal/metal02 0 0 0 2 2 0 0 0
@@ -463,7 +431,6 @@ desertfactory_metal/metal02
 ( -136 128 -64 ) ( -144 136 -64 ) ( -136 128 64 ) desertfactory_metal/metal02 0 0 0 2 2 0 0 0
 ( 144 -136 -64 ) ( 136 -144 -64 ) ( 144 -136 64 ) common/caulk 0 0 0 2 2 0 0 0
 }
-// brush 30
 {
 ( 144 176 284 ) ( 144 -152 284 ) ( -128 176 284 ) desertfactory_metal/metal02 0 0 0 2 2 0 0 0
 ( -128 -152 260 ) ( 144 -152 260 ) ( -128 176 260 ) desertfactory_metal/metal02 0 0 0 2 2 0 0 0
@@ -472,7 +439,6 @@ desertfactory_metal/metal02
 ( -128 -136 -64 ) ( -136 -144 -64 ) ( -128 -136 64 ) desertfactory_metal/metal02 0 0 0 2 2 0 0 0
 ( 136 144 -64 ) ( 144 136 -64 ) ( 136 144 64 ) common/caulk 0 0 0 2 2 0 0 0
 }
-// brush 31
 {
 ( 138 -142 122 ) ( 142 -138 126 ) ( 142 -138 122 ) common/caulk 0 0 0 2 2 0 0 0
 ( 30 -34 72 ) ( 142 -138 126 ) ( 138 -142 126 ) desertfactory_metal/metal02 0 0 0 2 2 0 0 0
@@ -481,7 +447,6 @@ desertfactory_metal/metal02
 ( 34 -30 68 ) ( 142 -138 122 ) ( 142 -138 126 ) desertfactory_metal/metal02 0 0 0 2 2 0 0 0
 ( 30 -34 -62 ) ( 32 -32 -62 ) ( 30 -34 66 ) common/caulk 0 0 0 2 2 0 0 0
 }
-// brush 32
 {
 ( -156 -158 704 ) ( -156 -128 704 ) ( -126 -158 704 ) desertfactory_metal/metal02 0 0 0 2 2 0 0 0
 ( -126 -128 16 ) ( -156 -128 16 ) ( -126 -158 16 ) common/caulk 0 0 0 2 2 0 0 0
@@ -490,7 +455,6 @@ desertfactory_metal/metal02
 ( -154 -134 -64 ) ( -150 -130 -64 ) ( -154 -134 64 ) desertfactory_metal/metal02 0 0 0 2 2 0 0 0
 ( -150 -130 -64 ) ( -126 -154 -64 ) ( -150 -130 64 ) desertfactory_metal/metal02 0 0 0 2 2 0 0 0
 }
-// brush 33
 {
 ( -142 -138 122 ) ( -138 -142 126 ) ( -138 -142 122 ) common/caulk 0 0 0 2 2 0 0 0
 ( -34 -30 72 ) ( -138 -142 126 ) ( -142 -138 126 ) desertfactory_metal/metal02 0 0 0 2 2 0 0 0
@@ -499,7 +463,6 @@ desertfactory_metal/metal02
 ( -30 -34 68 ) ( -138 -142 122 ) ( -138 -142 126 ) desertfactory_metal/metal02 0 0 0 2 2 0 0 0
 ( -34 -30 -62 ) ( -32 -32 -62 ) ( -34 -30 66 ) common/caulk 0 0 0 2 2 0 0 0
 }
-// brush 34
 {
 ( -160 -164 704 ) ( -160 -140 704 ) ( -140 -164 704 ) desertfactory_metal/metal02 0 0 0 2 2 0 0 0
 ( -140 -140 16 ) ( -160 -140 16 ) ( -140 -164 16 ) common/caulk 0 0 0 2 2 0 0 0
@@ -508,7 +471,6 @@ desertfactory_metal/metal02
 ( -160 -156 -64 ) ( -156 -152 -64 ) ( -160 -156 64 ) desertfactory_metal/metal02 0 0 0 2 2 0 0 0
 ( -146 -142 -64 ) ( -144 -144 -64 ) ( -146 -142 64 ) common/caulk 0 0 0 2 2 0 0 0
 }
-// brush 35
 {
 ( -158 156 704 ) ( -128 156 704 ) ( -158 126 704 ) desertfactory_metal/metal02 0 0 0 2 2 0 0 0
 ( -128 126 16 ) ( -128 156 16 ) ( -158 126 16 ) common/caulk 0 0 0 2 2 0 0 0
@@ -517,7 +479,6 @@ desertfactory_metal/metal02
 ( -134 154 -64 ) ( -130 150 -64 ) ( -134 154 64 ) desertfactory_metal/metal02 0 0 0 2 2 0 0 0
 ( -130 150 -64 ) ( -154 126 -64 ) ( -130 150 64 ) desertfactory_metal/metal02 0 0 0 2 2 0 0 0
 }
-// brush 36
 {
 ( -138 142 122 ) ( -142 138 126 ) ( -142 138 122 ) common/caulk 0 0 0 2 2 0 0 0
 ( -30 34 72 ) ( -142 138 126 ) ( -138 142 126 ) desertfactory_metal/metal02 0 0 0 2 2 0 0 0
@@ -526,7 +487,6 @@ desertfactory_metal/metal02
 ( -34 30 68 ) ( -142 138 122 ) ( -142 138 126 ) desertfactory_metal/metal02 0 0 0 2 2 0 0 0
 ( -30 34 -62 ) ( -32 32 -62 ) ( -30 34 66 ) common/caulk 0 0 0 2 2 0 0 0
 }
-// brush 37
 {
 ( -164 160 704 ) ( -140 160 704 ) ( -164 140 704 ) desertfactory_metal/metal02 0 0 0 2 2 0 0 0
 ( -140 140 16 ) ( -140 160 16 ) ( -164 140 16 ) common/caulk 0 0 0 2 2 0 0 0
@@ -535,7 +495,6 @@ desertfactory_metal/metal02
 ( -156 160 -64 ) ( -152 156 -64 ) ( -156 160 64 ) desertfactory_metal/metal02 0 0 0 2 2 0 0 0
 ( -142 146 -64 ) ( -144 144 -64 ) ( -142 146 64 ) common/caulk 0 0 0 2 2 0 0 0
 }
-// brush 38
 {
 ( 156 158 704 ) ( 156 128 704 ) ( 126 158 704 ) desertfactory_metal/metal02 0 0 0 2 2 0 0 0
 ( 126 128 16 ) ( 156 128 16 ) ( 126 158 16 ) common/caulk 0 0 0 2 2 0 0 0
@@ -544,7 +503,6 @@ desertfactory_metal/metal02
 ( 154 134 -64 ) ( 150 130 -64 ) ( 154 134 64 ) desertfactory_metal/metal02 0 0 0 2 2 0 0 0
 ( 150 130 -64 ) ( 126 154 -64 ) ( 150 130 64 ) desertfactory_metal/metal02 0 0 0 2 2 0 0 0
 }
-// brush 39
 {
 ( 142 138 122 ) ( 138 142 126 ) ( 138 142 122 ) common/caulk 0 0 0 2 2 0 0 0
 ( 34 30 72 ) ( 138 142 126 ) ( 142 138 126 ) desertfactory_metal/metal02 0 0 0 2 2 0 0 0
@@ -553,7 +511,6 @@ desertfactory_metal/metal02
 ( 30 34 68 ) ( 138 142 122 ) ( 138 142 126 ) desertfactory_metal/metal02 0 0 0 2 2 0 0 0
 ( 34 30 -62 ) ( 32 32 -62 ) ( 34 30 66 ) common/caulk 0 0 0 2 2 0 0 0
 }
-// brush 40
 {
 ( 160 164 704 ) ( 160 140 704 ) ( 140 164 704 ) desertfactory_metal/metal02 0 0 0 2 2 0 0 0
 ( 140 140 16 ) ( 160 140 16 ) ( 140 164 16 ) common/caulk 0 0 0 2 2 0 0 0
@@ -562,7 +519,6 @@ desertfactory_metal/metal02
 ( 160 156 -64 ) ( 156 152 -64 ) ( 160 156 64 ) desertfactory_metal/metal02 0 0 0 2 2 0 0 0
 ( 146 142 -64 ) ( 144 144 -64 ) ( 146 142 64 ) common/caulk 0 0 0 2 2 0 0 0
 }
-// brush 41
 {
 patchDef2
 {
@@ -581,7 +537,6 @@ desertfactory_metal/metal05
 )
 }
 }
-// brush 42
 {
 patchDef2
 {
@@ -600,7 +555,6 @@ desertfactory_metal/metal01
 )
 }
 }
-// brush 43
 {
 patchDef2
 {
@@ -619,7 +573,6 @@ desertfactory_metal/metal01
 )
 }
 }
-// brush 44
 {
 patchDef2
 {
@@ -638,7 +591,6 @@ desertfactory_misc/dial01
 )
 }
 }
-// brush 45
 {
 patchDef2
 {
