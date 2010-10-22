@@ -5,4 +5,6 @@ has weapons
 type dm 30 20
 type lms 9 20
 type arena 10 20
+type rune 200 20 0
+type kh 1000 20 3 0
 cdtrack 6
