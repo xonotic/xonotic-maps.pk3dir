@@ -5,6 +5,7 @@ cdtrack 4
 has weapons
 type dm 30 20 0
 type tdm 50 20 2 0
+type dom 200 20 0
 type rune 200 20 0
 type lms 9 20 0
 type arena 10 20 0

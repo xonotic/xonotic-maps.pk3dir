@@ -38174,3 +38174,18 @@ exx/floor-panel01
 "origin" "240.000000 -576.000000 192.000000"
 "noise" "sound/machines/Big_machine.wav"
 }
+{
+"classname" "dom_controlpoint"
+"origin" "-1408.000000 -32.000000 48.000000"
+"message" " has captured the outside control point"
+}
+{
+"classname" "dom_controlpoint"
+"origin" "544.000000 0.000000 528.000000"
+"message" " has captured the top control point"
+}
+{
+"classname" "dom_controlpoint"
+"origin" "160.000000 960.000000 320.000000"
+"message" " has captured the side control point"
+}
