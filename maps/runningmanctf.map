@@ -30694,7 +30694,7 @@ effects_jumppad/jumppadfx1_a
 "angle" "-90.000000"
 }
 {
-"classname" "func_rotating"
+"classname" "func_group"
 {
 patchDef2
 {
