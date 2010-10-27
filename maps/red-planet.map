@@ -50540,7 +50540,7 @@ exx/trim-vert01
 {
 "classname" "light"
 "origin" "-4536.000000 80.000000 168.000000"
-"light" "100"
+"light" "200"
 }
 // entity 551
 {
