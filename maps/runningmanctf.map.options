@@ -1,2 +1,5 @@
--bsp + -light + -vis + -minimap +
-Version: 2
+-bsp + -samplesize 6
+-vis +
+-light + -bounce 8 -dirtscale 2 -bouncescale 1.15 -exposure 200
+-minimap +
+Version: 1
