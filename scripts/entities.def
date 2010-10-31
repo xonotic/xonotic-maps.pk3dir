@@ -87,6 +87,19 @@ X_AXIS: entity will bob along the X axis.
 Y_AXIS: entity will bob along the Y axis.
 */
 
+/*QUAKED func_pendulum (0 .5 .8) ?
+Solid entity that swings back and forth in an angular motion. Entity swings on the north-south direction by default (can be changed by using a different yaw angle).
+-------- KEYS --------
+speed: angle amount of the swinging
+freq: frequency (cycles per second) of the swinging (if unspecified, a physically "somewhat correct" value is calculated that matches Quake 3)
+phase: sets the start offset of the oscillation cycle. Values must be 0 < phase < 1. Any integer phase value is the same as no offset (default 0).
+noise: path/name of .wav or .ogg file to play. Use looping sounds only (e.g. sound/world/drone6.wav - See Notes).
+dmg: damage a player who gets crushed by it receives
+dmgtime: interval to apply dmg to a player who is s in the way
+message: death message when a player gets crushed
+message2: death message when someone gets pushed into this (default: "was thrown into a world of hurt by"). The # character is replaced by the attacker name if present (and it instead does not get appended to the end)
+*/
+
 /*QUAKED func_button (0 .5 .8) ? - - - - - - - - NOSPLASH
 When a button is touched by a player, it moves in the direction set by the "angle" key, triggers all its targets, stays pressed by an amount of time set by the "wait" key, then returns to it's original position where it can be operated again.
 -------- KEYS --------
