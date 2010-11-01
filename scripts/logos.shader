@@ -118,9 +118,9 @@ textures/logos/phoenix01_green_glow
 	}
 }
 
-textures/logos/phoenix01_yelow
+textures/logos/phoenix01_yellow
 {
-	qer_editorimage textures/logos/logo01_yelow.tga
+	qer_editorimage textures/logos/logo01_yellow.tga
 
 	surfaceparm trans
 	surfaceparm nonsolid
@@ -132,15 +132,15 @@ textures/logos/phoenix01_yelow
 	cull none
 
 	{
-		map textures/logos/logo01_yelow.tga
+		map textures/logos/logo01_yellow.tga
 		blendFunc filter
 		rgbgen identity
 	}
 }
 
-textures/logos/phoenix01_yelow_glow
+textures/logos/phoenix01_yellow_glow
 {
-	qer_editorimage textures/logos/logo01_yelowg.tga
+	qer_editorimage textures/logos/logo01_yellowg.tga
 
 	surfaceparm trans
 	surfaceparm nonsolid
@@ -152,7 +152,7 @@ textures/logos/phoenix01_yelow_glow
 	cull none
 
 	{
-		map textures/logos/logo01_yelowg.tga
+		map textures/logos/logo01_yellowg.tga
 		blendFunc filter
 		rgbgen identity
 	}
