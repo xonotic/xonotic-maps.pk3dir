@@ -14,6 +14,7 @@ textures/logos/phoenix01_blue
 	{
 		map textures/logos/logo01_blue.tga
 		blendFunc filter
+		alphaFunc GT0
 		rgbgen identity
 	}
 }
@@ -34,6 +35,7 @@ textures/logos/phoenix01_blue_glow
 	{
 		map textures/logos/logo01_blueg.tga
 		blendFunc filter
+		alphaFunc GT0
 		rgbgen identity
 	}
 }
@@ -54,6 +56,7 @@ textures/logos/phoenix01_red
 	{
 		map textures/logos/logo01_red.tga
 		blendFunc filter
+		alphaFunc GT0
 		rgbgen identity
 	}
 }
@@ -74,6 +77,7 @@ textures/logos/phoenix01_red_glow
 	{
 		map textures/logos/logo01_redg.tga
 		blendFunc filter
+		alphaFunc GT0
 		rgbgen identity
 	}
 }
@@ -94,6 +98,7 @@ textures/logos/phoenix01_green
 	{
 		map textures/logos/logo01_green.tga
 		blendFunc filter
+		alphaFunc GT0
 		rgbgen identity
 	}
 }
@@ -114,6 +119,7 @@ textures/logos/phoenix01_green_glow
 	{
 		map textures/logos/logo01_greeng.tga
 		blendFunc filter
+		alphaFunc GT0
 		rgbgen identity
 	}
 }
@@ -134,6 +140,7 @@ textures/logos/phoenix01_yellow
 	{
 		map textures/logos/logo01_yellow.tga
 		blendFunc filter
+		alphaFunc GT0
 		rgbgen identity
 	}
 }
@@ -154,6 +161,7 @@ textures/logos/phoenix01_yellow_glow
 	{
 		map textures/logos/logo01_yellowg.tga
 		blendFunc filter
+		alphaFunc GT0
 		rgbgen identity
 	}
 }
