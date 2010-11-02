@@ -87,6 +87,19 @@ X_AXIS: entity will bob along the X axis.
 Y_AXIS: entity will bob along the Y axis.
 */
 
+/*QUAKED func_pendulum (0 .5 .8) ?
+Solid entity that swings back and forth in an angular motion. Entity swings on the north-south direction by default (can be changed by using a different yaw angle).
+-------- KEYS --------
+speed: angle amount of the swinging
+freq: frequency (cycles per second) of the swinging (if unspecified, a physically "somewhat correct" value is calculated that matches Quake 3)
+phase: sets the start offset of the oscillation cycle. Values must be 0 < phase < 1. Any integer phase value is the same as no offset (default 0).
+noise: path/name of .wav or .ogg file to play. Use looping sounds only (e.g. sound/world/drone6.wav - See Notes).
+dmg: damage a player who gets crushed by it receives
+dmgtime: interval to apply dmg to a player who is s in the way
+message: death message when a player gets crushed
+message2: death message when someone gets pushed into this (default: "was thrown into a world of hurt by"). The # character is replaced by the attacker name if present (and it instead does not get appended to the end)
+*/
+
 /*QUAKED func_button (0 .5 .8) ? - - - - - - - - NOSPLASH
 When a button is touched by a player, it moves in the direction set by the "angle" key, triggers all its targets, stays pressed by an amount of time set by the "wait" key, then returns to it's original position where it can be operated again.
 -------- KEYS --------
@@ -622,7 +635,7 @@ LINEAR: Use a linear falloff. Default is inverse distance squared (more realisti
 NOANGLE: Ignore angle attenuation.
 */
 
-/*QUAKED misc_laser (.5 .5 .5) (-8 -8 -8) (8 8 8) START_ON FINITE
+/*QUAKED misc_laser (.5 .5 .5) (-8 -8 -8) (8 8 8) START_ON FINITE NOTRACE INVERT_TEAM
 Laser beam emitter. Note that for the laser to be deadly, it has to start OUTSIDE the player's collision box. To ensure this, you may want to put this entity inside the walls (or directly on their surface), or cover it with a playerclip brush.
 -------- KEYS --------
 target: target_position the laser targets (may be another entity, preferably target_position, possibly controlled by misc_follow)
@@ -633,9 +646,12 @@ targetname: name to target this (then its state is toggled)
 alpha: when set, makes a dark laser of the given strength; may be combined with colormod
 scale: scales the beam thickness (default 1)
 modelscale: scales the dynamic light radius at the endpoint (default 1, -1 to turn off)
+team: team that gets hurt (5 = red, 14 = blue, etc) (when set, only this team can get hurt)
 -------- SPAWNFLAGS --------
 START_ON: when targeted, the laser will start switched on
 FINITE: the laser does not extend over its target like light would do, but stops there (takes more bandwidth)
+NOTRACE: the laser passes through solid (faster rendering on clientside); non-FINITE lasers then never display their impact effect "mdl"!
+INVERT_TEAM: the team that owns this will NOT get hurt
 -------- NOTES --------
 Use trigger_monoflop if you want the laser to turn off for a while, then turn back on.
 When the laser's target has itself target set, its targets are triggered when someone enters or leaves the laser.
@@ -978,13 +994,16 @@ message: print this message to the player who activated the trigger
 killtarget: remove all entities with this targetname when triggered
 */
 
-/*QUAKED trigger_hurt (.5 .5 .5) ? 
+/*QUAKED trigger_hurt (.5 .5 .5) ? - - INVERT_TEAM
 Any object touching this will be hurt.
 Has the useful effect of automatically returning flags, keys and runes when they touch it.
 -------- KEYS --------
 dmg: amount of damage to deal (default: 1000)
 message: kill message when someone gets killed by this (default: "was in the wrong place")
 message2: kill message when someone gets pushed into this (default: "was thrown into a world of hurt by"). The # character is replaced by the attacker name if present (and it instead does not get appended to the end)
+team: team that gets hurt (5 = red, 14 = blue, etc) (when set, only this team can get hurt)
+-------- SPAWNFLAGS --------
+INVERT_TEAM: the team that owns this will NOT jump when touching this
 */
 
 /*QUAKED trigger_impulse (.5 .5 .5) ? 
@@ -1784,11 +1803,13 @@ warpzone_fadestart: start distance of fading out the warpzone
 warpzone_fadeend: end distance of fading out the warpzone (if viewer is further, warpzone is not rendered at all)
 */
 
-/*QUAKED trigger_warpzone_reconnect (1 .5 1) (-8 -8 -8) (8 8 8)
-Reconnects (randomly) all warpzones with matching target when triggered
+/*QUAKED trigger_warpzone_reconnect (1 .5 1) (-8 -8 -8) (8 8 8) IGNORE_VISIBLE
+Reconnects (randomly) all warpzones/cameras with matching target when triggered
 -------- KEYS --------
 target: must point to multiple trigger_warpzones, or be not set (then all warpzones may get changed)
 targetname: name that identifies this entity so it can be triggered
+-------- SPAWNFLAGS --------
+IGNORE_VISIBLE: do not rearrange a warpzone if a player can currently see it
 */
 
 /*QUAKED misc_warpzone_position (1 .5 .25) (-8 -8 -8) (8 8 8) 
@@ -1901,4 +1922,13 @@ func_vectormamamam
 -------- KEYS --------
 target: trigger all entities with this targetname when triggered
 targetname: name that identifies this entity so it can be triggered
+*/
+
+/*QUAKED target_changelevel (.5 .5 0) (-8 -8 -8) (8 8 8)
+Loads another map when triggered. Useful for single player maps.
+When no chmap key is set, the entity just ends the match when triggered. The player / team with the highest score at that moment wins.
+-------- KEYS --------
+targetname: The name other entities can use to target this entity
+chmap: Map file to switch to, leave empty to make this entity just end the match
+gametype: Switch to this gametype. If empty, the same gametype stays
 */
