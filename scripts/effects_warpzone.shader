@@ -36,3 +36,13 @@ textures/effects_warpzone/rededge
 		blendfunc add
 	}
 }
+
+textures/effects_warpzone/warpzone_backdrop
+{
+	surfaceparm nomarks
+	nolightmap
+	{
+		tcMod turb 0 0.4 0 0.08
+		map textures/effects_warpzone/warpzone_backdrop
+	}
+}
