@@ -5,9 +5,9 @@ count 2
 type smoke
 tex 0 8
 color 0xff8866 0x331100
-size 30 60
+size 60 120
 sizeincrease 0
-alpha 64 96 32
+alpha 32 64 32
 gravity -0.007
 originjitter 0 0 0
 velocityjitter 0 0 0
