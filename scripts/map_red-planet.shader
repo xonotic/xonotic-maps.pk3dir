@@ -57,16 +57,3 @@ textures/map_red-planet/env3
 		tcgen lightmap
 	}*/
 }
-
-textures/map_red-planet/gradient_light
-{
-	qer_editorimage textures/map_red-planet/gradient_light.tga
-	surfaceparm noimpact
-	surfaceparm nonsolid
-	surfaceparm trans
-	cull none
-	{
-		clampmap textures/map_red-planet/gradient_light.tga
-		blendfunc blend
-	}
-}
