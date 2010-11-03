@@ -62,3 +62,16 @@ textures/effects_lightning/lightning1_d
 		blendfunc add
 	}
 }
+//Gradient white
+textures/effects_lightning/gradient/gradient_white
+{
+	qer_editorimage textures/effects_lightning/gradient/gradient_white.tga
+	surfaceparm noimpact
+	surfaceparm nonsolid
+	surfaceparm trans
+	cull none
+	{
+		clampmap textures/effects_lightning/gradient/gradient_white.tga
+		blendfunc blend
+	}
+}
