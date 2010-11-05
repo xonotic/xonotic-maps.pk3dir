@@ -34,7 +34,7 @@ textures/logos/logo01_blue_glowy
 
 	{
 		map textures/logos/logo01/logo01_blueg.tga
-		blendFunc filter
+		blendFunc add
 		alphaFunc GT0
 		rgbgen identity
 	}
@@ -76,7 +76,7 @@ textures/logos/logo01_red_glowy
 
 	{
 		map textures/logos/logo01/logo01_redg.tga
-		blendFunc filter
+		blendFunc add
 		alphaFunc GT0
 		rgbgen identity
 	}
@@ -118,7 +118,7 @@ textures/logos/logo01_green_glowy
 
 	{
 		map textures/logos/logo01/logo01_greeng.tga
-		blendFunc filter
+		blendFunc add
 		alphaFunc GT0
 		rgbgen identity
 	}
@@ -160,7 +160,7 @@ textures/logos/logo01_yellow_glowy
 
 	{
 		map textures/logos/logo01/logo01_yellowg.tga
-		blendFunc filter
+		blendFunc add
 		alphaFunc GT0
 		rgbgen identity
 	}
@@ -202,7 +202,7 @@ textures/logos/logo02_red_glowy
 
 	{
 		map textures/logos/logo02/logo02_redg.tga
-		blendFunc filter
+		blendFunc add
 		alphaFunc GT0
 		rgbgen identity
 	}
