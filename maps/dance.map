@@ -22135,21 +22135,12 @@ effects_jumppad/jumppadfx1_a
 }
 {
 "classname" "misc_model"
-"origin" "1052.000000 747.999939 92.000000"
+"origin" "-1083.999878 -672.000000 106.999786"
 "model" "models/containers/barrel01.md3"
 "spawnflags" "2"
 "_receiveshadows" "1"
 "_castshadows" "1"
-"angle" "-45.828182"
-}
-{
-"classname" "misc_model"
-"origin" "1084.000000 704.000000 107.000023"
-"model" "models/containers/barrel01.md3"
-"spawnflags" "2"
-"_receiveshadows" "1"
-"_castshadows" "1"
-"angles" "18.369183 11.335669 90.000000"
+"angles" "61.630806 -169.335648 -90.000000"
 }
 {
 "classname" "misc_model"
@@ -22159,15 +22150,6 @@ effects_jumppad/jumppadfx1_a
 "_receiveshadows" "1"
 "_castshadows" "1"
 "angle" "63.469696"
-}
-{
-"classname" "misc_model"
-"origin" "1111.999878 723.999939 91.999992"
-"model" "models/containers/barrel01.md3"
-"spawnflags" "2"
-"_receiveshadows" "1"
-"_castshadows" "1"
-"angle" "18.369181"
 }
 {
 "classname" "misc_model"
@@ -23753,15 +23735,6 @@ effects_jumppad/jumppadfx1_a
 }
 {
 "classname" "misc_model"
-"origin" "-1567.845703 1709.588135 -1642.999634"
-"model" "models/containers/barrel01.md3"
-"spawnflags" "2"
-"_receiveshadows" "1"
-"_castshadows" "1"
-"angles" "-18.369184 -168.664337 -90.000000"
-}
-{
-"classname" "misc_model"
 "origin" "-1450.999512 -699.000000 91.999985"
 "model" "models/containers/barrel01.md3"
 "spawnflags" "2"
@@ -23871,4 +23844,31 @@ effects_jumppad/jumppadfx1_a
 "classname" "weapon_hlac"
 "origin" "-832.000000 2560.000000 144.000000"
 "angle" "0.000003"
+}
+{
+"classname" "misc_model"
+"origin" "1052.000000 747.999939 92.000000"
+"model" "models/containers/barrel01.md3"
+"spawnflags" "2"
+"_receiveshadows" "1"
+"_castshadows" "1"
+"angle" "-45.828182"
+}
+{
+"classname" "misc_model"
+"origin" "1111.999878 723.999939 91.999992"
+"model" "models/containers/barrel01.md3"
+"spawnflags" "2"
+"_receiveshadows" "1"
+"_castshadows" "1"
+"angle" "18.369181"
+}
+{
+"classname" "misc_model"
+"origin" "1084.000000 704.000000 107.000023"
+"model" "models/containers/barrel01.md3"
+"spawnflags" "2"
+"_receiveshadows" "1"
+"_castshadows" "1"
+"angles" "18.369183 11.335669 90.000000"
 }
