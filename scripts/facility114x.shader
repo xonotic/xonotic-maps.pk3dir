@@ -36,6 +36,25 @@ textures/facility114x/base-baseblue
 		blendfunc filter
 	}
 }
+textures/facility114x/base-basepurple
+{
+	qer_editorimage textures/facility114x/base/basepurple.tga
+	
+	q3map_bounceScale 1.25
+
+
+	{
+		map textures/facility114x/base/basepurple.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
 textures/facility114x/base-basegray
 {
 	qer_editorimage textures/facility114x/base/basegray.tga
