@@ -7,6 +7,17 @@ angles: Individual control of PITCH, YAW, and ROLL (default 0 0 0).
 _scale: scaling factor (default 64), good values are between 50 and 300, depending on the map.
 */
 
+/*QUAKED _decal (1.0 0.77 0.88) ?
+Compiler-only entity that projects a surface (which must be a patch mesh) in a direction (which is given by the vector from the center of this entity to the "target" entity)
+-------- KEYS --------
+target: the entity to be targeted by the projection
+-------- NOTES --------
+This entity MUST contain one or more patch meshes.
+The shaders of these patches SHOULD have the "polygonoffset" shader keyword (or you will get insane z-fighting).
+The targeted entity is preferably an info_null.
+The projection is a linear projection, and originates from the center of this entity (the start of the arrow line in Radiant) to the origin of the targeted entity (the end of the arrow line in Radiant).
+*/
+
 /*QUAKED dom_controlpoint (.3 .3 1) (-16 -16 -16) (16 16 16) 
 Domination  control point
 In order to get Domination working well in your map, you need to place dom_team and dom_controlpoint entities.  You *must* have at least 3 dom_team entities - 2 minimum teams and one blank one (empty netname and no team).  You can have up to 4 teams (5 dom_team entities).
