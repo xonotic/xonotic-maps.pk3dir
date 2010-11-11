@@ -27191,41 +27191,49 @@ trak5x/light-light3a-surfacelight
 "classname" "info_player_team1"
 "angle" "270"
 "origin" "-1144.000000 2816.000000 48.000000"
+"gametypefilter" "-dm,arena"
 }
 {
 "classname" "info_player_team1"
 "angle" "270"
 "origin" "-1832.000000 2880.000000 -96.000000"
+"gametypefilter" "-dm,arena"
 }
 {
 "classname" "info_player_team1"
 "angle" "270"
 "origin" "-2400.000000 2096.000000 -224.000000"
+"gametypefilter" "-dm,arena"
 }
 {
 "classname" "info_player_team1"
 "angle" "360"
 "origin" "-2416.000000 1352.000000 -224.000000"
+"gametypefilter" "-dm,arena"
 }
 {
 "classname" "info_player_team1"
 "angle" "315"
 "origin" "-2368.000000 2016.000000 40.000000"
+"gametypefilter" "-dm,arena"
 }
 {
 "classname" "info_player_team1"
 "angle" "180"
 "origin" "-1112.000000 2032.000000 40.000000"
+"gametypefilter" "-dm,arena"
 }
 {
 "classname" "info_player_team1"
 "angle" "-45.000008"
 "origin" "-2104.000000 2472.000000 216.000000"
+"gametypefilter" "-dm,arena"
 }
 {
 "classname" "info_player_team1"
 "angle" "270"
 "origin" "-1328.000000 2632.000000 -344.000000"
+"gametypefilter" "-dm,arena"
 }
 {
 "classname" "target_position"
@@ -28721,22 +28729,26 @@ trak5x/light-light3a-surfacelight
 "origin" "-864.000000 800.000000 -296.000000"
 "targetname" "middlelowcpspawns"
 "angle" "180.000000"
+"gametypefilter" "-dm,arena"
 }
 {
 "classname" "info_player_deathmatch"
 "origin" "-608.000000 1312.000000 -232.000000"
 "targetname" "middlelowcpspawns"
 "angle" "180.000000"
+"gametypefilter" "-dm,arena"
 }
 {
 "classname" "info_player_deathmatch"
 "origin" "-1936.000000 -272.000000 80.000000"
 "targetname" "middlehighcpspawns"
+"gametypefilter" "-dm,arena"
 }
 {
 "classname" "info_player_deathmatch"
 "origin" "-2336.000000 -416.000000 136.000000"
 "targetname" "middlehighcpspawns"
+"gametypefilter" "-dm,arena"
 }
 {
 "classname" "misc_model"
@@ -30514,12 +30526,14 @@ trak5x/light-light3a-surfacelight
 "origin" "-352.000000 1056.000000 -232.000000"
 "targetname" "middlelowcpspawns"
 "angle" "90.000000"
+"gametypefilter" "-dm,arena"
 }
 {
 "classname" "info_player_deathmatch"
 "origin" "-2080.000000 -672.000000 136.000000"
 "targetname" "middlehighcpspawns"
 "angle" "-90.000000"
+"gametypefilter" "-dm,arena"
 }
 {
 "classname" "misc_model"
