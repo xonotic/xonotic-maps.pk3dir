@@ -1,0 +1,12 @@
+title Running Man
+description Medium-sized, fast enclosed map supporting multiple gamemodes.
+author Paul Evers, FruitieX
+cdtrack 5
+has weapons
+gametype dm
+gametype lms
+gametype rune
+gametype ctf
+gametype ca
+gametype kh
+gametype ons
