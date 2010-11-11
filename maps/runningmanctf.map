@@ -30892,7 +30892,7 @@ effects_healpod/healpod1_d
 "classname" "trigger_warpzone"
 "targetname" "trigger_warpzone1"
 "warpzone_fadestart" "600"
-"warpzone_fadeend" "800"
+"warpzone_fadeend" "900"
 {
 ( -928 -704 320 ) ( -928 -768 320 ) ( -1056 -704 320 ) common/trigger 0 0 0 0.25 0.25 0 0 0
 ( -928 -704 320 ) ( -1056 -704 320 ) ( -928 -704 176 ) effects_warpzone/wavy 0 0 0 0.25 0.25 0 0 0
@@ -30905,7 +30905,7 @@ effects_healpod/healpod1_d
 {
 "classname" "trigger_warpzone"
 "target" "trigger_warpzone1"
-"warpzone_fadeend" "800"
+"warpzone_fadeend" "900"
 "warpzone_fadestart" "600"
 {
 ( -96 -1088 -32 ) ( -160 -1088 -32 ) ( -96 -960 -32 ) common/trigger 0 0 0 0.25 0.25 0 0 0
@@ -30920,7 +30920,7 @@ effects_healpod/healpod1_d
 "classname" "trigger_warpzone"
 "targetname" "trigger_warpzone2"
 "warpzone_fadestart" "600"
-"warpzone_fadeend" "800"
+"warpzone_fadeend" "900"
 {
 ( -2368 608 320 ) ( -2432 736 320 ) ( -2368 736 320 ) common/trigger 0 0 0 0.25 0.25 0 0 0
 ( -2368 736 176 ) ( -2368 608 320 ) ( -2368 736 320 ) effects_warpzone/wavy 0 0 0 0.25 0.25 0 0 0
@@ -30933,7 +30933,7 @@ effects_healpod/healpod1_d
 {
 "classname" "trigger_warpzone"
 "target" "trigger_warpzone2"
-"warpzone_fadeend" "800"
+"warpzone_fadeend" "900"
 "warpzone_fadestart" "600"
 {
 ( -2624 1568 -32 ) ( -2752 1504 -32 ) ( -2752 1568 -32 ) common/trigger 0 0 0 0.25 0.25 0 0 0
