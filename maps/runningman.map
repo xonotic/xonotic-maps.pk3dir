@@ -27157,6 +27157,7 @@ trak5x/light-light3a-surfacelight
 {
 "classname" "item_strength"
 "origin" "-960.000000 704.000000 -320.000000"
+"gametypefilter" "-dm,arena"
 }
 {
 "classname" "target_position"
@@ -30610,7 +30611,7 @@ trak5x/light-light3a-surfacelight
 }
 {
 "classname" "info_player_team2"
-"angle" "-135.000015"
+"angle" "134.999985"
 "origin" "808.000000 -440.000000 216.000000"
 }
 {
