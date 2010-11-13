@@ -1,9 +1,7 @@
 textures/terrain01x/blends-mars-rock01-ground01
 {
 	qer_editorimage textures/terrain01x/blends/mars-rock01-ground01.tga
-
-	dpmeshcollisions
-
+	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 2
 
@@ -292,26 +290,6 @@ textures/terrain01x/ground-ice01
 		rgbGen identity
 		tcGen lightmap
 		blendfunc filter
-	}
-}
-textures/terrain01x/ground-ice02
-{
-	qer_editorimage textures/terrain01x/ground/ice01.tga
-	
-	q3map_bounceScale  0.75
-	dpoffsetmapping - 2
-	dpglossintensitymod  2
-	dpglossexponentmod  2
-	surfaceparm nolightmap
-	 surfaceparm trans	
-
-	q3map_nonplanar
-	q3map_shadeangle 15
-
-	{
-		map textures/terrain01x/ground/ice01.tga
-		blendfunc filter		
-		rgbGen identity
 	}
 }
 textures/terrain01x/ground-mars01
