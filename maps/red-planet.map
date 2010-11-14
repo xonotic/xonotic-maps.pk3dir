@@ -46676,10 +46676,6 @@ exx/trim-vert01
 "origin" "640.000000 -224.000000 48.000000"
 }
 {
-"classname" "weapon_hagar"
-"origin" "-2660.000000 1176.000000 120.000000"
-}
-{
 "classname" "misc_gamemodel"
 "origin" "-2888.000000 -1040.000000 396.000000"
 "model" "models/fans/bigfan01.md3"
@@ -47106,4 +47102,8 @@ exx/trim-vert01
 {
 "classname" "weapon_grenadelauncher"
 "origin" "-3584.000000 0.000000 80.000000"
+}
+{
+"classname" "weapon_seeker"
+"origin" "-2660.000000 1176.000000 120.000000"
 }
