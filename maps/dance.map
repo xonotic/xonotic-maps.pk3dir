@@ -20772,10 +20772,6 @@ effects_jumppad/jumppadfx1_a
 "angle" "180.000000"
 }
 {
-"classname" "weapon_nex"
-"origin" "0.000000 0.000000 -176.000000"
-}
-{
 "classname" "item_flag_team1"
 "origin" "1440.000000 -2080.000000 -288.000000"
 }
@@ -23871,4 +23867,8 @@ effects_jumppad/jumppadfx1_a
 "_receiveshadows" "1"
 "_castshadows" "1"
 "angles" "18.369183 11.335669 90.000000"
+}
+{
+"classname" "weapon_campingrifle"
+"origin" "0.000000 0.000000 -176.000000"
 }
