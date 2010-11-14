@@ -46600,10 +46600,6 @@ exx/trim-vert01
 "angle" "7.999371"
 }
 {
-"classname" "item_bullets"
-"origin" "-2408.000000 -360.000000 472.000000"
-}
-{
 "classname" "item_shells"
 "origin" "-2456.000000 -360.000000 472.000000"
 "angle" "90.000000"
@@ -46650,14 +46646,6 @@ exx/trim-vert01
 "origin" "1680.000000 -760.000000 256.000000"
 "light" "150"
 "_color" "1 0.75 0.75"
-}
-{
-"classname" "weapon_nex"
-"origin" "-2800.000000 448.000000 416.000000"
-}
-{
-"classname" "item_cells"
-"origin" "-2800.000000 -448.000000 416.000000"
 }
 {
 "classname" "item_health_small"
@@ -47106,4 +47094,16 @@ exx/trim-vert01
 {
 "classname" "weapon_seeker"
 "origin" "-2660.000000 1176.000000 120.000000"
+}
+{
+"classname" "weapon_campingrifle"
+"origin" "-2800.000000 448.000000 416.000000"
+}
+{
+"classname" "item_bullets"
+"origin" "-2800.000000 -448.000000 416.000000"
+}
+{
+"classname" "item_cells"
+"origin" "-2408.000000 -360.000000 472.000000"
 }
