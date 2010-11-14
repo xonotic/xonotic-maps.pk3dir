@@ -33388,7 +33388,7 @@ exx/base-metal05rust
 }
 {
 "origin" "-784 0 512"
-"classname" "weapon_campingrifle"
+"classname" "weapon_nex"
 }
 {
 "light" "30"
