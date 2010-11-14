@@ -12510,10 +12510,6 @@ exx/wall-metalrib01
 "origin" "256.000000 0.000000 0.000000"
 }
 {
-"classname" "item_cells"
-"origin" "192.000000 0.000000 0.000000"
-}
-{
 "classname" "weapon_grenadelauncher"
 "origin" "-256.000000 -1024.000000 -448.000000"
 }
@@ -13089,18 +13085,6 @@ exx/wall-metalrib01
 "classname" "item_health_small"
 "origin" "-640.000000 -1024.000000 -448.000000"
 "angle" "-90.000000"
-}
-{
-"classname" "weapon_uzi"
-"origin" "-864.000000 -768.000000 -256.000000"
-}
-{
-"classname" "item_bullets"
-"origin" "-864.000000 -704.000000 -256.000000"
-}
-{
-"classname" "item_bullets"
-"origin" "-864.000000 -640.000000 -256.000000"
 }
 {
 "classname" "info_player_deathmatch"
@@ -14858,4 +14842,12 @@ exx/wall-metalrib01
 "origin" "1008.000000 -1176.000000 168.000000"
 "light" "32"
 "_color" "1 0.151965 0"
+}
+{
+"classname" "weapon_hlac"
+"origin" "-864.000000 -704.000000 -256.000000"
+}
+{
+"classname" "item_cells"
+"origin" "-864.000000 -640.000000 -256.000000"
 }
