@@ -1,0 +1,10 @@
+title Docking Station G-23
+description You and your expert team of soldiers have docked Docking Station G-23 for retrieving a package and letting no one stand in your way.
+author Moo
+has weapons
+gametype dm
+gametype lms
+gametype arena
+gametype rune
+gametype kh
+cdtrack 6

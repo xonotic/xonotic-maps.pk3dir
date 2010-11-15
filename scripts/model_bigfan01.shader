@@ -1,4 +1,4 @@
-models/mapobjects/fans/fanlight.tga
+models/mapobjects/fans/fanlight
 {
  {
 	map models/fans/fanlight.tga
@@ -7,7 +7,7 @@ models/mapobjects/fans/fanlight.tga
  }
 }
 
-models/mapobjects/fans/fanshadow.tga
+models/mapobjects/fans/fanshadow
 {
  {
 	map models/fans/fanshadow.tga
