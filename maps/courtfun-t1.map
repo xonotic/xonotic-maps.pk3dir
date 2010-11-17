@@ -1,6 +1,6 @@
 {
 "classname" "worldspawn"
-"author" "SavageX"
+"author" "SavageX & Calinou"
 "message" "Courtfun"
 "license" "GPL"
 "_floodlight" "240 240 255 1024 128"
@@ -14351,10 +14351,6 @@ trak5x/base-pipe1b
 "targetname" "info_null24"
 }
 {
-"classname" "weapon_crylink"
-"origin" "1024.000000 -1168.000000 352.000000"
-}
-{
 "classname" "item_cells"
 "origin" "928.000000 -1184.000000 352.000000"
 }
@@ -15238,10 +15234,6 @@ trak5x/base-pipe1b
 "targetname" "info_null50"
 }
 {
-"classname" "item_strength"
-"origin" "512.000000 -3528.000000 288.000000"
-}
-{
 "classname" "func_camera"
 "target" "target_position1"
 {
@@ -15313,14 +15305,6 @@ trak5x/base-pipe1b
 "classname" "info_null"
 "origin" "768.000000 -3528.000000 440.000000"
 "targetname" "info_null59"
-}
-{
-"classname" "item_health_medium"
-"origin" "400.000000 -3608.000000 288.000000"
-}
-{
-"classname" "item_health_medium"
-"origin" "624.000000 -3608.000000 288.000000"
 }
 {
 "classname" "light"
@@ -17452,4 +17436,110 @@ trak5x/base-pipe1b
 "origin" "98.883034 1746.411987 64.000000"
 "model" "models/containers/crate01.md3"
 "angle" "-36.258213"
+}
+{
+"classname" "item_invincible"
+"origin" "512.000000 -3520.000000 256.000000"
+}
+{
+"classname" "item_health_large"
+"origin" "512.000000 -3648.000000 256.000000"
+}
+{
+"classname" "weapon_hlac"
+"origin" "1024.000000 -1184.000000 320.000000"
+}
+{
+"classname" "item_armor_small"
+"origin" "864.000000 -2624.000000 192.000000"
+}
+{
+"classname" "item_armor_small"
+"origin" "864.000000 -2752.000000 192.000000"
+}
+{
+"classname" "item_armor_small"
+"origin" "864.000000 -2720.000000 192.000000"
+}
+{
+"classname" "item_armor_small"
+"origin" "864.000000 -2688.000000 192.000000"
+}
+{
+"classname" "item_armor_small"
+"origin" "864.000000 -2656.000000 192.000000"
+}
+{
+"classname" "item_armor_small"
+"origin" "160.000000 -2688.000000 192.000000"
+}
+{
+"classname" "item_armor_small"
+"origin" "160.000000 -2624.000000 192.000000"
+}
+{
+"classname" "item_armor_small"
+"origin" "160.000000 -2720.000000 192.000000"
+}
+{
+"classname" "item_armor_small"
+"origin" "160.000000 -2752.000000 192.000000"
+}
+{
+"classname" "item_armor_small"
+"origin" "160.000000 -2656.000000 192.000000"
+}
+{
+"classname" "item_health_small"
+"origin" "544.000000 -1824.000000 192.000000"
+}
+{
+"classname" "item_health_small"
+"origin" "480.000000 -1824.000000 192.000000"
+}
+{
+"classname" "item_jetpack"
+"origin" "704.000000 -608.000000 320.000000"
+}
+{
+"classname" "item_fuel"
+"origin" "1344.000000 -192.000000 320.000000"
+}
+{
+"classname" "item_fuel"
+"origin" "64.000000 -192.000000 352.000000"
+}
+{
+"classname" "item_armor_small"
+"origin" "-1968.000000 640.000000 160.000000"
+}
+{
+"classname" "item_armor_small"
+"origin" "-1952.000000 608.000000 160.000000"
+}
+{
+"classname" "item_armor_small"
+"origin" "-1984.000000 608.000000 160.000000"
+}
+{
+"classname" "item_shells"
+"origin" "-2464.000000 1120.000000 320.000000"
+}
+{
+"classname" "weapon_campingrifle"
+"origin" "-1280.000000 2464.000000 64.000000"
+}
+{
+"classname" "weapon_porto"
+"origin" "-1696.000000 1984.000000 320.000000"
+}
+{
+"classname" "item_armor_big"
+"origin" "-704.000000 1152.000000 352.000000"
+}
+{
+"classname" "turret_plasma"
+"origin" "512.000000 1600.000000 64.000000"
+"angle" "180.000000"
+"team" "5"
 }
