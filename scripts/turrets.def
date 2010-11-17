@@ -7,14 +7,12 @@ turret_scale_refire: 2 = double refire (SLOWER!), 0.5 = half (FASTER!)
 turret_scale_ammo: 2 = double ammo carry & regen, 0.5 = half ammo carry & regen
 turret_scale_aim: 2 = aim twice as fast, 0,5 = aim at half speed
 turret_scale_health: 2 = double health, 0.5 = half
-master_name: This turret controls what all turrets with master_nameof set to this aim at
-master_nameof: Dont select own targets, use the target of the turret with this master_name
 target: Defend the position of this entity
 team: 5=red, 14=blue
 -------- SPAWNFLAGS --------
 PILLAR: Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model="models/turrets/radiant/mg.md3"
+model="../xonotic-data.pk3dir/models/turrets/radiant/mg.md3"
 */
 
 /*QUAKED turret_plasma (1 0 0) (-32 -32 0) (32 32 50) - PILLAR
@@ -25,8 +23,6 @@ turret_scale_refire: 2 = double refire (SLOWER!), 0.5 = half (FASTER!)
 turret_scale_ammo: 2 = double ammo carry & regen, 0.5 = half ammo carry & regen
 turret_scale_aim: 2 = aim twice as fast, 0,5 = aim at half speed
 turret_scale_health: 2 = double health, 0.5 = half
-master_name: This turret controls what all turrets with master_nameof set to this aim at
-master_nameof: Dont select own targets, use the target of the turret with this master_name
 target: Defend the position of this entity
 team: 5=red, 14=blue
 -------- SPAWNFLAGS --------
@@ -34,7 +30,7 @@ PILLAR: Adds a supporting pillar under this turret, for turrets on terrain/uneve
 ---------NOTES----------
 Basic energy cannon
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model="models/turrets/radiant/plasma.md3"
+model="../xonotic-data.pk3dir/models/turrets/radiant/plasma.md3"
 */
 
 /*QUAKED turret_plasma_dual (1 0 0) (-32 -32 0) (32 32 50) - PILLAR
@@ -46,14 +42,12 @@ turret_scale_refire: 2 = double refire (SLOWER!), 0.5 = half (FASTER!)
 turret_scale_ammo: 2 = double ammo carry & regen, 0.5 = half ammo carry & regen
 turret_scale_aim: 2 = aim twice as fast, 0,5 = aim at half speed
 turret_scale_health: 2 = double health, 0.5 = half
-master_name: This turret controls what all turrets with master_nameof set to this aim at
-master_nameof: Dont select own targets, use the target of the turret with this master_name
 target: Defend the position of this entity
 team: 5=red, 14=blue
 -------- SPAWNFLAGS --------
 PILLAR: Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model="models/turrets/radiant/plasma2.md3"
+model="../xonotic-data.pk3dir/models/turrets/radiant/plasma2.md3"
 */
 
 /*QUAKED turret_flac (1 0 0) (-32 -32 0) (32 32 50) - PILLAR
@@ -65,14 +59,12 @@ turret_scale_refire: 2 = double refire (SLOWER!), 0.5 = half (FASTER!)
 turret_scale_ammo: 2 = double ammo carry & regen, 0.5 = half ammo carry & regen
 turret_scale_aim: 2 = aim twice as fast, 0,5 = aim at half speed
 turret_scale_health: 2 = double health, 0.5 = half
-master_name: This turret controls what all turrets with master_nameof set to this aim at
-master_nameof: Dont select own targets, use the target of the turret with this master_name
 target: Defend the position of this entity
 team: 5=red, 14=blue
 -------- SPAWNFLAGS --------
 PILLAR: Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model="models/turrets/radiant/flac.md3"
+model="../xonotic-data.pk3dir/models/turrets/radiant/flac.md3"
 */
 
 /*QUAKED turret_mlrs (1 0 0) (-32 -32 0) (32 32 50)
@@ -84,14 +76,12 @@ turret_scale_refire: 2 = double refire (SLOWER!), 0.5 = half (FASTER!)
 turret_scale_ammo: 2 = double ammo carry & regen, 0.5 = half ammo carry & regen
 turret_scale_aim: 2 = aim twice as fast, 0,5 = aim at half speed
 turret_scale_health: 2 = double health, 0.5 = half
-master_name: This turret controls what all turrets with master_nameof set to this aim at
-master_nameof: Dont select own targets, use the target of the turret with this master_name
 target: Defend the position of this entity
 team: 5=red, 14=blue
 -------- SPAWNFLAGS --------
 PILLAR: Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model="models/turrets/radiant/mlrs.md3"
+model="../xonotic-data.pk3dir/models/turrets/radiant/mlrs.md3"
 */
 
 /*QUAKED turret_hellion (1 0 0) (-32 -32 0) (32 32 50)
@@ -103,14 +93,12 @@ turret_scale_refire: 2 = double refire (SLOWER!), 0.5 = half (FASTER!)
 turret_scale_ammo: 2 = double ammo carry & regen, 0.5 = half ammo carry & regen
 turret_scale_aim: 2 = aim twice as fast, 0,5 = aim at half speed
 turret_scale_health: 2 = double health, 0.5 = half
-master_name: This turret controls what all turrets with master_nameof set to this aim at
-master_nameof: Dont select own targets, use the target of the turret with this master_name
 target: Defend the position of this entity
 team: 5=red, 14=blue
 -------- SPAWNFLAGS --------
 PILLAR: Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model="models/turrets/radiant/hellion.md3"
+model="../xonotic-data.pk3dir/models/turrets/radiant/hellion.md3"
 */
 
 
@@ -123,14 +111,12 @@ turret_scale_refire: 2 = double refire (SLOWER!), 0.5 = half (FASTER!)
 turret_scale_ammo: 2 = double ammo carry & regen, 0.5 = half ammo carry & regen
 turret_scale_aim: 2 = aim twice as fast, 0,5 = aim at half speed
 turret_scale_health: 2 = double health, 0.5 = half
-master_name: This turret controls what all turrets with master_nameof set to this aim at
-master_nameof: Dont select own targets, use the target of the turret with this master_name
 target: Defend the position of this entity
 team: 5=red, 14=blue
 -------- SPAWNFLAGS --------
 PILLAR: Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model="models/turrets/radiant/hk.md3"
+model="../xonotic-data.pk3dir/models/turrets/radiant/hk.md3"
 */
 
 /*QUAKED turret_tesla (1 0 0) (-32 -32 0) (32 32 50)
@@ -142,14 +128,12 @@ turret_scale_refire: 2 = double refire (SLOWER!), 0.5 = half (FASTER!)
 turret_scale_ammo: 2 = double ammo carry & regen, 0.5 = half ammo carry & regen
 turret_scale_aim: 2 = aim twice as fast, 0,5 = aim at half speed
 turret_scale_health: 2 = double health, 0.5 = half
-master_name: This turret controls what all turrets with master_nameof set to this aim at
-master_nameof: Dont select own targets, use the target of the turret with this master_name
 target: Defend the position of this entity
 team: 5=red, 14=blue
 -------- SPAWNFLAGS --------
 PILLAR: Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model="models/turrets/radiant/tesla.md3"
+model="../xonotic-data.pk3dir/models/turrets/radiant/tesla.md3"
 */
 
 /*QUAKED turret_phaser (1 0 0) (-32 -32 0) (32 32 50)
@@ -161,14 +145,12 @@ turret_scale_refire: 2 = double refire (SLOWER!), 0.5 = half (FASTER!)
 turret_scale_ammo: 2 = double ammo carry & regen, 0.5 = half ammo carry & regen
 turret_scale_aim: 2 = aim twice as fast, 0,5 = aim at half speed
 turret_scale_health: 2 = double health, 0.5 = half
-master_name: This turret controls what all turrets with master_nameof set to this aim at
-master_nameof: Dont select own targets, use the target of the turret with this master_name
 target: Defend the position of this entity
 team: 5=red, 14=blue
 -------- SPAWNFLAGS --------
 PILLAR: Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model="models/turrets/radiant/phaser.md3"
+model="../xonotic-data.pk3dir/models/turrets/radiant/phaser.md3"
 */
 
 
@@ -186,7 +168,7 @@ PILLAR: Adds a supporting pillar under this turret, for turrets on terrain/uneve
 ---------NOTES----------
 Supplies neerby energy based turrets with more power so they can fire more often.
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model="models/turrets/radiant/reactor.md3"
+model="../xonotic-data.pk3dir/models/turrets/radiant/reactor.md3"
 */
 
 /*QUAKED turret_targettrigger (.5 .5 .5) ?
@@ -207,10 +189,10 @@ team : 5=red, 14=blue
 -----------SPAWNFLAGS-----------
 ---------NOTES----------
 
-A nasty mechanical ceature that will engage longrange target with missiles, midrange with its miniguna and meele things up close and personal.
+A nasty mechanical critter that will engage longrange target with missiles, midrange with its minigun and meele things up close and personal.
 
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model="models/turrets/radiant/walker.md3"
+model="../xonotic-data.pk3dir/models/turrets/radiant/walker.md3"
 */
 
 
@@ -227,10 +209,10 @@ team : 5=red, 14=blue
 -----------SPAWNFLAGS-----------
 ---------NOTES----------
 
-Small, agile and move capable turret.
+Small, agile and moveing turret.
 
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model="models/turrets/radiant/ewheel.md3"
+model="../xonotic-data.pk3dir/models/turrets/radiant/ewheel.md3"
 */
 
 
