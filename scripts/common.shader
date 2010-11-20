@@ -223,6 +223,8 @@ textures/common/warpzone
 
 textures/common/camera
 {
+	surfaceparm nolightmap
+	surfaceparm trans
 	{
 		map textures/common/warpzone/trans.tga // fully transparent
 		blendfunc blend
