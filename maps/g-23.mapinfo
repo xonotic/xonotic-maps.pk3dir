@@ -6,4 +6,5 @@ gametype dm
 gametype lms
 gametype arena
 gametype rune
+gametype keepaway
 cdtrack 2
