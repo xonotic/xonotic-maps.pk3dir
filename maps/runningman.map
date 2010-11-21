@@ -35190,7 +35190,7 @@ effects_healpod/healpod1_d
 "_castshadows" "1"
 "_receiveshadows" "1"
 "angle" "0.000003"
-"skin" "1"
+"skin" "0"
 }
 {
 "classname" "target_speaker"
