@@ -34825,37 +34825,37 @@ effects_healpod/healpod1_d
 }
 {
 "classname" "light"
-"_color" "0.2 0.2 1"
+"_color" "1 0.2 0.2"
 "light" "400"
 "origin" "-1840.000000 1544.000000 -360.000000"
 }
 {
 "classname" "light"
-"_color" "0.2 0.2 1"
+"_color" "1 0.2 0.2"
 "light" "400"
 "origin" "-1704.000000 1680.000000 -360.000000"
 }
 {
 "classname" "light"
-"_color" "0.2 0.2 1"
+"_color" "1 0.2 0.2"
 "light" "400"
 "origin" "-1704.000000 1872.000000 -360.000000"
 }
 {
 "classname" "light"
-"_color" "0.2 0.2 1"
+"_color" "1 0.2 0.2"
 "light" "400"
 "origin" "-1976.000000 1856.000000 -360.000000"
 }
 {
 "classname" "light"
-"_color" "0.2 0.2 1"
+"_color" "1 0.2 0.2"
 "light" "400"
 "origin" "-1976.000000 2048.000000 -360.000000"
 }
 {
 "classname" "light"
-"_color" "0.2 0.2 1"
+"_color" "1 0.2 0.2"
 "light" "400"
 "origin" "-1840.000000 2216.000000 -360.000000"
 }
@@ -34913,7 +34913,7 @@ effects_healpod/healpod1_d
 }
 {
 "classname" "light"
-"_color" "0.2 0.2 1"
+"_color" "1 0.2 0.2"
 "light" "400"
 "origin" "-1688.000000 2216.000000 -360.000000"
 }
@@ -37296,7 +37296,7 @@ effects_healpod/healpod1_d
 "classname" "light"
 "origin" "-2240.000000 1664.000000 -368.000000"
 "light" "400"
-"_color" "0.5 0.5 1"
+"_color" "1 0.5 0.5"
 }
 {
 "classname" "misc_gamemodel"
