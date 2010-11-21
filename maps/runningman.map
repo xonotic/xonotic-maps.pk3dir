@@ -35302,7 +35302,7 @@ effects_healpod/healpod1_d
 {
 "classname" "misc_model"
 "origin" "-2352.000244 672.000366 248.000000"
-"model" "models/effects_warpzone/blueedge.md3"
+"model" "models/effects_warpzone/rededge.md3"
 "modelscale" "5.000000"
 "angle" "-179.999985"
 }
@@ -37393,4 +37393,11 @@ effects_healpod/healpod1_d
 "classname" "info_player_team1"
 "angle" "-90.000000"
 "origin" "-1144.000000 2816.000000 48.000000"
+}
+{
+"classname" "misc_model"
+"origin" "-2687.999512 1584.000366 -108.000000"
+"model" "models/effects_warpzone/rededge.md3"
+"modelscale" "5.000000"
+"angle" "90.000008"
 }
