@@ -20620,6 +20620,7 @@ exx/trim-psimple04
 "classname" "func_assault_destructible"
 "targetname" "destructible_relais"
 "target" "destructible_relais_decrease"
+"health" "200"
 {
 ( -576 -2944 128 ) ( -576 -3008 128 ) ( -704 -2944 128 ) trak5x/panel-graypanel1 256 0 0 0.125 0.125 0 0 0
 ( -576 -2944 32 ) ( -704 -2944 32 ) ( -576 -2944 0 ) trak5x/panel-comp1b 0 0 0 0.25 0.25 0 0 0
@@ -20645,6 +20646,7 @@ exx/trim-psimple04
 "classname" "func_assault_destructible"
 "targetname" "destructible_relais"
 "target" "destructible_relais_decrease1"
+"health" "200"
 {
 ( -704 -1664 128 ) ( -704 -1600 128 ) ( -576 -1664 128 ) trak5x/panel-graypanel1 256 0 180 0.125 0.125 0 0 0
 ( -704 -1664 32 ) ( -576 -1664 32 ) ( -704 -1664 0 ) trak5x/panel-comp1b 0 0 0 -0.25 0.25 0 0 0
@@ -20665,6 +20667,7 @@ exx/trim-psimple04
 "classname" "func_assault_destructible"
 "targetname" "destructible_relais"
 "target" "destructible_relais_decrease2"
+"health" "200"
 {
 ( -576 1664 128 ) ( -576 1600 128 ) ( -704 1664 128 ) trak5x/panel-graypanel1 256 0 0 0.125 0.125 0 0 0
 ( -576 1664 32 ) ( -704 1664 32 ) ( -576 1664 0 ) trak5x/panel-comp1b 0 0 0 0.25 0.25 0 0 0
@@ -20685,6 +20688,7 @@ exx/trim-psimple04
 "classname" "func_assault_destructible"
 "targetname" "destructible_relais"
 "target" "destructible_relais_decrease3"
+"health" "200"
 {
 ( -704 2944 128 ) ( -704 3008 128 ) ( -576 2944 128 ) trak5x/panel-graypanel1 256 0 180 0.125 0.125 0 0 0
 ( -704 2944 32 ) ( -576 2944 32 ) ( -704 2944 0 ) trak5x/panel-comp1b 0 0 0 -0.25 0.25 0 0 0
