@@ -37136,41 +37136,49 @@ trak5x/base-pipe1b
 "classname" "info_player_team1"
 "angle" "-90.000000"
 "origin" "-1832.000000 2880.000000 -96.000000"
+"gametypefilter" "-dm,arena"
 }
 {
 "classname" "info_player_team1"
 "angle" "-90.000000"
 "origin" "-2400.000000 2096.000000 -224.000000"
+"gametypefilter" "-dm,arena"
 }
 {
 "classname" "info_player_team1"
 "angle" "0.000016"
 "origin" "-2432.000000 1352.000000 -224.000000"
+"gametypefilter" "-dm,arena"
 }
 {
 "classname" "info_player_team1"
 "angle" "-90.000000"
 "origin" "-2368.000000 2016.000000 40.000000"
+"gametypefilter" "-dm,arena"
 }
 {
 "classname" "info_player_team1"
 "angle" "-180.000000"
 "origin" "-1112.000000 2048.000000 40.000000"
+"gametypefilter" "-dm,arena"
 }
 {
 "classname" "info_player_team1"
 "angle" "44.999985"
 "origin" "-2104.000000 2472.000000 216.000000"
+"gametypefilter" "-dm,arena"
 }
 {
 "classname" "info_player_team1"
 "angle" "-180.000000"
 "origin" "-1328.000000 2384.000000 -344.000000"
+"gametypefilter" "-dm,arena"
 }
 {
 "classname" "info_player_team1"
 "angle" "-90.000000"
 "origin" "-1144.000000 2816.000000 48.000000"
+"gametypefilter" "-dm,arena"
 }
 {
 "classname" "misc_model"
