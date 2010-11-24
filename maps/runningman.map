@@ -32880,7 +32880,7 @@ trak5x/base-pipe1b
 "classname" "item_armor_large"
 "origin" "368.000000 192.000000 -416.000000"
 "angle" "-90.000000"
-"gametypefilter" "+dm,arena"
+"gametypefilter" "-dm,arena"
 }
 {
 "classname" "item_health_mega"
@@ -36670,7 +36670,7 @@ trak5x/base-pipe1b
 "classname" "item_armor_large"
 "origin" "-1472.000000 2032.000000 -416.000000"
 "angle" "0.000003"
-"gametypefilter" "+dm,arena"
+"gametypefilter" "-dm,arena"
 }
 {
 "classname" "item_health_mega"
