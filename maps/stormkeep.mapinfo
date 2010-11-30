@@ -12,6 +12,7 @@ gametype rc
 gametype kh
 gametype ca
 gametype freezetag
+gametype keepaway
 cdtrack 5
 // optional: fog density red green blue alpha mindist maxdist
 // optional: settemp_for_type (all|gametypename) cvarname value
