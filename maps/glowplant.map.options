@@ -1,5 +1,5 @@
--bsp + -samplesize 4 -minsamplesize 2
--light + -bounce 8 -dirtscale 2
+-bsp + -samplesize 6 -minsamplesize 2 -np 20
+-light + -bounce 6 -dirtscale 1.5 -randomsamples -samples 128
 -vis +
 -minimap +
 Version: 9

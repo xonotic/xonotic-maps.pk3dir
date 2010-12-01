@@ -6,5 +6,6 @@ gametype dm
 gametype lms
 gametype arena
 gametype rune
-gametype kh
-cdtrack 6
+gametype freezetag
+gametype keepaway
+cdtrack 2
