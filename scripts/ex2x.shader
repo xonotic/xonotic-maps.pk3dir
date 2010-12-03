@@ -373,7 +373,29 @@ textures/ex2x/floor-plate2
 		blendfunc filter
 	}
 }
-extures/ex2x/light-1
+textures/ex2x/floor-r1
+{
+	qer_editorimage textures/ex2x/floor/floor_r1.tga
+	
+	q3map_bounceScale  0.5
+	dpoffsetmapping - 0.5
+	dpglossintensitymod  3
+	dpglossexponentmod  4
+
+
+	{
+		map textures/ex2x/floor/floor_r1.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/ex2x/light-1
 {
 	qer_editorimage textures/ex2x/light/light_1.tga
 	
