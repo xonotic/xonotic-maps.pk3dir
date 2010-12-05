@@ -184,8 +184,7 @@ turret_scale_refire: 2 = doubble refire (SLOWER!), 0.5 = half (FASTER!)
 turret_scale_ammo:   2 = doubble ammo carry & regen, 0.5 = half ammo carry & regen
 turret_scale_aim:    2 = aim twice as fast, 0,5 = aim at half speed
 turret_scale_health: 2 = double health, 0.5 = half
-
-team : 5=red, 14=blue
+team: 5=red, 14=blue
 -----------SPAWNFLAGS-----------
 ---------NOTES----------
 
@@ -204,8 +203,7 @@ turret_scale_refire: 2 = doubble refire (SLOWER!), 0.5 = half (FASTER!)
 turret_scale_ammo:   2 = doubble ammo carry & regen, 0.5 = half ammo carry & regen
 turret_scale_aim:    2 = aim twice as fast, 0,5 = aim at half speed
 turret_scale_health: 2 = double health, 0.5 = half
-
-team : 5=red, 14=blue
+team: 5=red, 14=blue
 -----------SPAWNFLAGS-----------
 ---------NOTES----------
 
