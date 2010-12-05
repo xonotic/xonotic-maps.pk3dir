@@ -976,11 +976,17 @@ Aiming target for entities like light and trigger_push.
 Sound generating entity that plays sound files.
 If targeted, it plays the sound file every time when triggered.
 If not targeted, it loops the sound file as an ambient noise.
+The sound name may also be of the form *soundname, and in that case the respective player sound is played
 -------- KEYS --------
 <sound key="noise" name="noise">path/name of .wav/.ogg file to play</sound>
 <targetname key="targetname" name="targetname">the activating button or trigger points to this.</targetname>
 <real key="atten" name="atten">distance attenuation of the sound (a value from 0.1 to 3.9), default is 0.5 if targeted, 3 otherwise; set to -1 for no attenuation (global sound)</real>
 <real key="volume" name="volume">volume of the sound</real>
+-------- SPAWNFLAGS --------
+<flag key="LOOPED_ON" name="LOOPED_ON" bit="0">the sound is looped and initially plays (the sound file MUST have the LOOP_START vorbis comment then!). It can be toggled by a trigger.</flag>
+<flag key="LOOPED_OFF" name="LOOPED_OFF" bit="1">the sound is looped and initially does not play (the sound file MUST have the LOOP_START vorbis comment then!). It can be toggled by a trigger.</flag>
+<flag key="GLOBAL" name="GLOBAL" bit="2">the sound plays with no attenuation (same as setting atten to -1)</flag>
+<flag key="ACTIVATOR" name="ACTIVATOR" bit="3">the sound is played to the activator only when triggered (cannot be combined with LOOPED_ON and LOOPED_OFF)</flag>
 </point>
 
 <group name="trigger_counter" color=".5 .5 .5">
