@@ -67,7 +67,7 @@ PILLAR: Adds a supporting pillar under this turret, for turrets on terrain/uneve
 model="../xonotic-data.pk3dir/models/turrets/radiant/flac.md3"
 */
 
-/*QUAKED turret_mlrs (1 0 0) (-32 -32 0) (32 32 50)
+/*QUAKED turret_mlrs (1 0 0) (-32 -32 0) (32 32 50) - PILLAR
 6 unguided rockers fired in a rapid burst.
 -------- KEYS --------
 turret_scale_damage: 2 = double damage, 0.5 = half
@@ -84,7 +84,7 @@ PILLAR: Adds a supporting pillar under this turret, for turrets on terrain/uneve
 model="../xonotic-data.pk3dir/models/turrets/radiant/mlrs.md3"
 */
 
-/*QUAKED turret_hellion (1 0 0) (-32 -32 0) (32 32 50)
+/*QUAKED turret_hellion (1 0 0) (-32 -32 0) (32 32 50) - PILLAR
 2 guided moderate damage accelerating rockets 
 -------- KEYS --------
 turret_scale_damage: 2 = double damage, 0.5 = half
@@ -102,7 +102,7 @@ model="../xonotic-data.pk3dir/models/turrets/radiant/hellion.md3"
 */
 
 
-/*QUAKED turret_hk (1 0 0) (-32 -32 0) (32 32 50)
+/*QUAKED turret_hk (1 0 0) (-32 -32 0) (32 32 50) - PILLAR
 Single powerful rocket with the ability to evade obstacles to find its target. Varied speed.
 -------- KEYS --------
 turret_scale_damage: 2 = double damage, 0.5 = half
@@ -119,7 +119,7 @@ PILLAR: Adds a supporting pillar under this turret, for turrets on terrain/uneve
 model="../xonotic-data.pk3dir/models/turrets/radiant/hk.md3"
 */
 
-/*QUAKED turret_tesla (1 0 0) (-32 -32 0) (32 32 50)
+/*QUAKED turret_tesla (1 0 0) (-32 -32 0) (32 32 50) - PILLAR
 Fires a lightning bolt that will jump to up to 10 targets if they are close enough to each other. Missiles included.
 -------- KEYS --------
 turret_scale_damage: 2 = double damage, 0.5 = half
@@ -136,7 +136,7 @@ PILLAR: Adds a supporting pillar under this turret, for turrets on terrain/uneve
 model="../xonotic-data.pk3dir/models/turrets/radiant/tesla.md3"
 */
 
-/*QUAKED turret_phaser (1 0 0) (-32 -32 0) (32 32 50)
+/*QUAKED turret_phaser (1 0 0) (-32 -32 0) (32 32 50) - PILLAR
 Constant beam weapon that will considerably slow its target down while dealing low but constant damage.
 -------- KEYS --------
 turret_scale_damage: 2 = double damage, 0.5 = half
@@ -154,7 +154,7 @@ model="../xonotic-data.pk3dir/models/turrets/radiant/phaser.md3"
 */
 
 
-/*QUAKED turret_fusionreactor (1 0 0) (-32 -32 0) (32 32 50)
+/*QUAKED turret_fusionreactor (1 0 0) (-32 -32 0) (32 32 50) - PILLAR
 -------- KEYS --------
 turret_scale_damage: 2 = double damage, 0.5 = half
 turret_scale_range: 2 = double range, 0.5 = half

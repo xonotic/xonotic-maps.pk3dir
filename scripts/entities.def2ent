@@ -29,7 +29,7 @@ while(<$fh>)
 }
 
 # specialization
-$types{angle} = "angle";
+$types{angle} = "direction";
 $types{angles} = "angles";
 $types{_color} = "color";
 $types{colormod} = "color";
