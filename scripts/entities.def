@@ -970,15 +970,21 @@ targetname: the entity that requires an aiming direction points to this.
 target: target to activate when a jumppad targeting this is used
 */
 
-/*QUAKED target_speaker (0 .7 .7) (-8 -8 -8) (8 8 8) 
+/*QUAKED target_speaker (0 .7 .7) (-8 -8 -8) (8 8 8) LOOPED_ON LOOPED_OFF GLOBAL ACTIVATOR
 Sound generating entity that plays sound files.
 If targeted, it plays the sound file every time when triggered.
 If not targeted, it loops the sound file as an ambient noise.
+The sound name may also be of the form *soundname, and in that case the respective player sound is played
 -------- KEYS --------
 noise: path/name of .wav/.ogg file to play
 targetname: the activating button or trigger points to this.
 atten: distance attenuation of the sound (a value from 0.1 to 3.9), default is 0.5 if targeted, 3 otherwise; set to -1 for no attenuation (global sound)
 volume: volume of the sound
+-------- SPAWNFLAGS --------
+LOOPED_ON: the sound is looped and initially plays (the sound file MUST have the LOOP_START vorbis comment then!). It can be toggled by a trigger.
+LOOPED_OFF: the sound is looped and initially does not play (the sound file MUST have the LOOP_START vorbis comment then!). It can be toggled by a trigger.
+GLOBAL: the sound plays with no attenuation (same as setting atten to -1)
+ACTIVATOR: the sound is played to the activator only when triggered (cannot be combined with LOOPED_ON and LOOPED_OFF)
 */
 
 /*QUAKED trigger_counter (.5 .5 .5) ? NOMESSAGE
