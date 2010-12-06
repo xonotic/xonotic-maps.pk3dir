@@ -1053,9 +1053,11 @@ Variable sized repeatable trigger.  Must be targeted at one or more entities.  I
 <real key="delay" name="delay">delay the triggering by the given time</real>
 <string key="message" name="message">print this message to the player who activated the trigger</string>
 <target key="killtarget" name="killtarget">remove all entities with this targetname when triggered</target>
+<real key="team" name="team">team that owns this trigger (5 = red, 14 = blue, etc) (when set, only this team can trigger)</real>
 -------- SPAWNFLAGS --------
 <flag key="NOTOUCH" name="NOTOUCH" bit="0">the trigger can only be triggered by other entities, not by touching or firing (you should probably use trigger_relay or trigger_delay instead)</flag>
 <flag key="ALLENTS" name="ALLENTS" bit="1">the trigger responds to all entities, not just players (useful for targetting trigger_items)</flag>
+<flag key="INVERT_TEAM" name="INVERT_TEAM" bit="2">the team that owns the trigger will NOT trigger when touching this</flag>
 <flag key="NOSPLASH" name="NOSPLASH" bit="8">if set, splash damage cannot activate the door, only direct damage can (requires health to be set)</flag>
 </group>
 
