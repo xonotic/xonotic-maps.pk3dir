@@ -10,7 +10,7 @@ Fast firing moderate damage bullet (hitscan) turret.
 <real key="turret_scale_aim" name="turret_scale_aim">2 = aim twice as fast, 0,5 = aim at half speed</real>
 <real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
 <target key="target" name="target">Defend the position of this entity</target>
-<real key="team" name="team">5=red, 14=blue</real>
+<integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
@@ -26,7 +26,7 @@ model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/mg.md3&quot;
 <real key="turret_scale_aim" name="turret_scale_aim">2 = aim twice as fast, 0,5 = aim at half speed</real>
 <real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
 <target key="target" name="target">Defend the position of this entity</target>
-<real key="team" name="team">5=red, 14=blue</real>
+<integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
 ---------NOTES----------
@@ -45,7 +45,7 @@ basic energy cannon * 2
 <real key="turret_scale_aim" name="turret_scale_aim">2 = aim twice as fast, 0,5 = aim at half speed</real>
 <real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
 <target key="target" name="target">Defend the position of this entity</target>
-<real key="team" name="team">5=red, 14=blue</real>
+<integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
@@ -62,7 +62,7 @@ Only kills missiles, rockets, grenadelauncher &amp; electro secondaries to be pr
 <real key="turret_scale_aim" name="turret_scale_aim">2 = aim twice as fast, 0,5 = aim at half speed</real>
 <real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
 <target key="target" name="target">Defend the position of this entity</target>
-<real key="team" name="team">5=red, 14=blue</real>
+<integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
@@ -79,7 +79,7 @@ model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/flac.md3&quot;
 <real key="turret_scale_aim" name="turret_scale_aim">2 = aim twice as fast, 0,5 = aim at half speed</real>
 <real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
 <target key="target" name="target">Defend the position of this entity</target>
-<real key="team" name="team">5=red, 14=blue</real>
+<integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
@@ -96,7 +96,7 @@ model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/mlrs.md3&quot;
 <real key="turret_scale_aim" name="turret_scale_aim">2 = aim twice as fast, 0,5 = aim at half speed</real>
 <real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
 <target key="target" name="target">Defend the position of this entity</target>
-<real key="team" name="team">5=red, 14=blue</real>
+<integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
@@ -114,7 +114,7 @@ Single powerful rocket with the ability to evade obstacles to find its target. V
 <real key="turret_scale_aim" name="turret_scale_aim">2 = aim twice as fast, 0,5 = aim at half speed</real>
 <real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
 <target key="target" name="target">Defend the position of this entity</target>
-<real key="team" name="team">5=red, 14=blue</real>
+<integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
@@ -131,7 +131,7 @@ Fires a lightning bolt that will jump to up to 10 targets if they are close enou
 <real key="turret_scale_aim" name="turret_scale_aim">2 = aim twice as fast, 0,5 = aim at half speed</real>
 <real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
 <target key="target" name="target">Defend the position of this entity</target>
-<real key="team" name="team">5=red, 14=blue</real>
+<integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
@@ -148,7 +148,7 @@ Constant beam weapon that will considerably slow its target down while dealing l
 <real key="turret_scale_aim" name="turret_scale_aim">2 = aim twice as fast, 0,5 = aim at half speed</real>
 <real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
 <target key="target" name="target">Defend the position of this entity</target>
-<real key="team" name="team">5=red, 14=blue</real>
+<integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
@@ -164,7 +164,7 @@ model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/phaser.md3&quot;
 <real key="turret_scale_ammo" name="turret_scale_ammo">2 = double ammo carry &amp; regen, 0.5 = half ammo carry &amp; regen</real>
 <real key="turret_scale_aim" name="turret_scale_aim">2 = aim twice as fast, 0,5 = aim at half speed</real>
 <real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
-<real key="team" name="team">5=red, 14=blue</real>
+<integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
 ---------NOTES----------
@@ -186,7 +186,7 @@ Used to feed turrets capable of it with remote target info. currently only turre
 <real key="turret_scale_ammo" name="turret_scale_ammo">2 = doubble ammo carry &amp; regen, 0.5 = half ammo carry &amp; regen</real>
 <real key="turret_scale_aim" name="turret_scale_aim">2 = aim twice as fast, 0,5 = aim at half speed</real>
 <real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
-<real key="team" name="team">5=red, 14=blue</real>
+<integer key="team" name="team">5=red, 14=blue</integer>
 -----------SPAWNFLAGS-----------
 ---------NOTES----------
 
@@ -205,7 +205,7 @@ model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/walker.md3&quot;
 <real key="turret_scale_ammo" name="turret_scale_ammo">2 = doubble ammo carry &amp; regen, 0.5 = half ammo carry &amp; regen</real>
 <real key="turret_scale_aim" name="turret_scale_aim">2 = aim twice as fast, 0,5 = aim at half speed</real>
 <real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
-<real key="team" name="team">5=red, 14=blue</real>
+<integer key="team" name="team">5=red, 14=blue</integer>
 -----------SPAWNFLAGS-----------
 ---------NOTES----------
 

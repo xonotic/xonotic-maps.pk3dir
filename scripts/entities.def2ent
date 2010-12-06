@@ -45,6 +45,7 @@ $types{target3} = "target";
 $types{target4} = "target";
 $types{targetname} = "targetname";
 $types{target} = "target";
+$types{team} = "integer";
 
 # missing definition in QC, q3map2 only
 $types{_ambient} = "real";

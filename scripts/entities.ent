@@ -380,7 +380,7 @@ Large Armor (default 100 armor points)
 <real key="respawntime" name="respawntime">time till it respawns (default: 30)</real>
 <real key="armorvalue" name="armorvalue">amount of armor it gives (default: 100 (g_pickup_armorlarge))</real>
 <real key="max_armorvalue" name="max_armorvalue">max of armor it increases to (default: 999 (g_pickup_armorlarge_max))</real>
-<real key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</real>
+<integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
@@ -394,7 +394,7 @@ Big Armor (default 50 armor points)
 <real key="respawntime" name="respawntime">time till it respawns (default: 20)</real>
 <real key="armorvalue" name="armorvalue">amount of armor it gives (default: 50 (g_pickup_armorlarge))</real>
 <real key="max_armorvalue" name="max_armorvalue">max of armor it increases to (default: 999 (g_pickup_armorlarge_max))</real>
-<real key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</real>
+<integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
@@ -408,7 +408,7 @@ Medium Armor (default 25 armor points)
 <real key="respawntime" name="respawntime">time till it respawns (default: 20)</real>
 <real key="armorvalue" name="armorvalue">amount of armor it gives (default: 25 (g_pickup_armormedium))</real>
 <real key="max_armorvalue" name="max_armorvalue">max of armor it increases to (default: 999 (g_pickup_armormedium_max))</real>
-<real key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</real>
+<integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
@@ -422,7 +422,7 @@ Small Armor (default 5 armor points)
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
 <real key="armorvalue" name="armorvalue">amount of armor it gives (default: 5 (g_pickup_armorsmall))</real>
 <real key="max_armorvalue" name="max_armorvalue">max of armor it increases to (default: 999 (g_pickup_armorsmall_max))</real>
-<real key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</real>
+<integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
@@ -435,7 +435,7 @@ Machine Gun ammo
 -------- KEYS --------
 <real key="ammo_nails" name="ammo_nails">bullets gained by this item (if unset, g_pickup_nails is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
-<real key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</real>
+<integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
@@ -448,7 +448,7 @@ Nex, Electro and Crylink ammo
 -------- KEYS --------
 <real key="ammo_cells" name="ammo_cells">cells gained by this item (if unset, g_pickup_cells is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
-<real key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</real>
+<integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
@@ -488,7 +488,7 @@ Large Health (default 50 health points)
 <real key="respawntime" name="respawntime">time till it respawns (default: 20)</real>
 <real key="health" name="health">amount of health it gives (default: 50 (g_pickup_healthlarge))</real>
 <real key="max_health" name="max_health">max of health it increases to (default: 999 (g_pickup_healthlarge_max))</real>
-<real key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</real>
+<integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
@@ -502,7 +502,7 @@ Medium Health (default 25 health points)
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
 <real key="health" name="health">amount of health it gives (default: 25 (g_pickup_healthmedium))</real>
 <real key="max_health" name="max_health">max of health it increases to (default: 999 (g_pickup_healthmedium_max))</real>
-<real key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</real>
+<integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
@@ -517,7 +517,7 @@ In Minstagib, this randomly turns into either an invisibility, an extra lives or
 <real key="respawntime" name="respawntime">time till it respawns (default: 30)</real>
 <real key="health" name="health">amount of health it gives (default: 100 (g_pickup_healthmega))</real>
 <real key="max_health" name="max_health">max of health it increases to (default: 999 (g_pickup_healthmega_max))</real>
-<real key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</real>
+<integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
@@ -531,7 +531,7 @@ Small Health (default 5 health points)
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
 <real key="health" name="health">amount of health it gives (default: 5 (g_pickup_healthsmall))</real>
 <real key="max_health" name="max_health">max of health it increases to (default: 5 (g_pickup_healthsmall_max))</real>
-<real key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</real>
+<integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
@@ -544,7 +544,7 @@ Strong Shield
 In Minstagib, this randomly turns into either an invisibility, an extra lives or a speed power-up with a default respawn time of 120.
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 120)</real>
-<real key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</real>
+<integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
@@ -558,7 +558,7 @@ Always contains 5 (g_minstagib_ammo_drop) shots.
 It only appears when playing Minstagib and prevents auto-replacement of weapon_nex &amp; weapon_rocketlauncher when used.
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 45)</real>
-<real key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</real>
+<integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
@@ -571,7 +571,7 @@ Rocket Launcher, Hagar and Mortar ammo
 -------- KEYS --------
 <real key="ammo_rockets" name="ammo_rockets">rockets gained by this item (if unset, g_pickup_rockets is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
-<real key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</real>
+<integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
@@ -584,7 +584,7 @@ Shotgun ammo
 -------- KEYS --------
 <real key="ammo_shells" name="ammo_shells">shells gained by this item (if unset, g_pickup_shells is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
-<real key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</real>
+<integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
@@ -597,7 +597,7 @@ Strength aka Quad damage
 In Minstagib, this randomly turns into either an invisibility, an extra lives or a speed power-up with a default respawn time of 120.
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 120)</real>
-<real key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</real>
+<integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
@@ -659,7 +659,7 @@ Laser beam emitter. Note that for the laser to be deadly, it has to start OUTSID
 <real key="alpha" name="alpha">when set, makes a dark laser of the given strength; may be combined with colormod</real>
 <real key="scale" name="scale">scales the beam thickness (default 1)</real>
 <real key="modelscale" name="modelscale">scales the dynamic light radius at the endpoint (default 1, -1 to turn off)</real>
-<real key="team" name="team">team that gets hurt (5 = red, 14 = blue, etc) (when set, only this team can get hurt)</real>
+<integer key="team" name="team">team that gets hurt (5 = red, 14 = blue, etc) (when set, only this team can get hurt)</integer>
 -------- SPAWNFLAGS --------
 <flag key="START_ON" name="START_ON" bit="0">when targeted, the laser will start switched on</flag>
 <flag key="FINITE" name="FINITE" bit="1">the laser does not extend over its target like light would do, but stops there (takes more bandwidth)</flag>
@@ -901,7 +901,7 @@ Base generator.
 
 onslaught_link entities can target this.
 -------- KEYS --------
-<real key="team" name="team">team that owns this generator (5 = red, 14 = blue, etc), MUST BE SET.</real>
+<integer key="team" name="team">team that owns this generator (5 = red, 14 = blue, etc), MUST BE SET.</integer>
 <targetname key="targetname" name="targetname">name that onslaught_link entities will use to target this.</targetname>
 </point>
 
@@ -1020,7 +1020,7 @@ Has the useful effect of automatically returning flags, keys and runes when they
 <real key="dmg" name="dmg">amount of damage to deal (default: 1000)</real>
 <string key="message" name="message">kill message when someone gets killed by this (default: &quot;was in the wrong place&quot;)</string>
 <string key="message2" name="message2">kill message when someone gets pushed into this (default: &quot;was thrown into a world of hurt by&quot;). The # character is replaced by the attacker name if present (and it instead does not get appended to the end)</string>
-<real key="team" name="team">team that gets hurt (5 = red, 14 = blue, etc) (when set, only this team can get hurt)</real>
+<integer key="team" name="team">team that gets hurt (5 = red, 14 = blue, etc) (when set, only this team can get hurt)</integer>
 -------- SPAWNFLAGS --------
 <flag key="INVERT_TEAM" name="INVERT_TEAM" bit="2">the team that owns this will NOT jump when touching this</flag>
 </group>
@@ -1053,7 +1053,7 @@ Variable sized repeatable trigger.  Must be targeted at one or more entities.  I
 <real key="delay" name="delay">delay the triggering by the given time</real>
 <string key="message" name="message">print this message to the player who activated the trigger</string>
 <target key="killtarget" name="killtarget">remove all entities with this targetname when triggered</target>
-<real key="team" name="team">team that owns this trigger (5 = red, 14 = blue, etc) (when set, only this team can trigger)</real>
+<integer key="team" name="team">team that owns this trigger (5 = red, 14 = blue, etc) (when set, only this team can trigger)</integer>
 -------- SPAWNFLAGS --------
 <flag key="NOTOUCH" name="NOTOUCH" bit="0">the trigger can only be triggered by other entities, not by touching or firing (you should probably use trigger_relay or trigger_delay instead)</flag>
 <flag key="ALLENTS" name="ALLENTS" bit="1">the trigger responds to all entities, not just players (useful for targetting trigger_items)</flag>
@@ -1090,7 +1090,7 @@ Quake &quot;movedir/speed&quot; way: player will get velocity movedir * speed * 
 <real3 key="movedir" name="movedir">when target is not set, direction vector to push to</real3>
 <real key="speed" name="speed">speed of jump pad (default: 1000)</real>
 <sound key="noise" name="noise">sound to play when jump pad is used; default is misc/jumppad.wav; you can set it to &quot;&quot; to make the pad silent</sound>
-<real key="team" name="team">team that owns this jump pad (5 = red, 14 = blue, etc) (when set, only this team can teleport)</real>
+<integer key="team" name="team">team that owns this jump pad (5 = red, 14 = blue, etc) (when set, only this team can teleport)</integer>
 <targetname key="targetname" name="targetname">when targeted by a func_button, pressing the button will reassign the teleporter to the team of the activator.</targetname>
 -------- SPAWNFLAGS --------
 <flag key="INVERT_TEAM" name="INVERT_TEAM" bit="2">the team that owns the teleporter will NOT jump when touching this</flag>
@@ -1127,7 +1127,7 @@ Note that in Xonotic, teleporters preserve momentum of the player using them.
 <target key="target2" name="target2">target to activate when the teleporter is used</target>
 <target key="target3" name="target3">target to activate when the teleporter is used</target>
 <target key="target4" name="target4">target to activate when the teleporter is used</target>
-<real key="team" name="team">team that owns this teleporter (5 = red, 14 = blue, etc) (when set, only this team can teleport)</real>
+<integer key="team" name="team">team that owns this teleporter (5 = red, 14 = blue, etc) (when set, only this team can teleport)</integer>
 <targetname key="targetname" name="targetname">when targeted by a func_button, pressing the button will reassign the teleporter to the team of the activator.</targetname>
 -------- SPAWNFLAGS --------
 <flag key="INVERT_TEAM" name="INVERT_TEAM" bit="2">the team that owns the teleporter will NOT teleport when touching this</flag>
@@ -1138,7 +1138,7 @@ the Crylink
 -------- KEYS --------
 <real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, g_pickup_cells is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
-<real key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</real>
+<integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
@@ -1151,7 +1151,7 @@ the Electro
 -------- KEYS --------
 <real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, g_pickup_cells is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
-<real key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</real>
+<integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
@@ -1164,7 +1164,7 @@ the Mortar
 -------- KEYS --------
 <real key="ammo_rockets" name="ammo_rockets">initial rockets of the weapon (if unset, g_pickup_rockets is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
-<real key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</real>
+<integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
@@ -1177,7 +1177,7 @@ the Hagar
 -------- KEYS --------
 <real key="ammo_rockets" name="ammo_rockets">initial rockets of the weapon (if unset, g_pickup_rockets is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
-<real key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</real>
+<integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
@@ -1191,7 +1191,7 @@ the Laser. Note that unless you use
 in your mapinfo file, everyone will already spawn with one, making this pickup useless.
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
-<real key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</real>
+<integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
@@ -1205,7 +1205,7 @@ In Minstagib, this turns into an item_minst_cells if no explicit item_minst_cell
 -------- KEYS --------
 <real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, g_pickup_cells is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15 * g_balance_nex_respawntime_modifier)</real>
-<real key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</real>
+<integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
@@ -1219,7 +1219,7 @@ In Minstagib, this turns into an item_minst_cells if no explicit item_minst_cell
 -------- KEYS --------
 <real key="ammo_rockets" name="ammo_rockets">initial rockets of the weapon (if unset, g_pickup_rockets is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
-<real key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</real>
+<integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
@@ -1234,7 +1234,7 @@ in your mapinfo file, everyone will already spawn with one, making this pickup u
 -------- KEYS --------
 <real key="ammo_shells" name="ammo_shells">initial shells of the weapon (if unset, g_pickup_shells is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
-<real key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</real>
+<integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
@@ -1247,7 +1247,7 @@ the Machine Gun
 -------- KEYS --------
 <real key="ammo_nails" name="ammo_nails">initial bullets of the weapon (if unset, g_pickup_nails is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
-<real key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</real>
+<integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
@@ -1409,7 +1409,7 @@ the MinstaGib Nex. Always kills with one shot.
 -------- KEYS --------
 <real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, g_pickup_cells is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
-<real key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</real>
+<integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
@@ -1422,7 +1422,7 @@ the Port-O-Launch. Only can be shot once.
 Portals cannot be made on noimpact surfaces, and the portal missile will bounce on slick surfaces.
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 120)</real>
-<real key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</real>
+<integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
@@ -1546,7 +1546,7 @@ the Heavy Laser Assault Cannon.
 -------- KEYS --------
 <real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, g_pickup_cells is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 30)</real>
-<real key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</real>
+<integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
@@ -1560,7 +1560,7 @@ the T.A.G. Seeker.
 -------- KEYS --------
 <real key="ammo_rockets" name="ammo_rockets">initial rockets of the weapon (if unset, g_pickup_rockets is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 30)</real>
-<real key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</real>
+<integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
@@ -1573,7 +1573,7 @@ the on-hand Grappling Hook.
 -------- KEYS --------
 <real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, g_pickup_cells is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 30)</real>
-<real key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</real>
+<integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
@@ -1594,7 +1594,7 @@ the Camping Rifle.
 -------- KEYS --------
 <real key="ammo_nails" name="ammo_nails">initial bullets of the weapon (if unset, g_pickup_nails is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 30)</real>
-<real key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</real>
+<integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
@@ -1654,7 +1654,7 @@ Works similar to trigger_relay, but only relays trigger events if the team of th
 <real key="delay" name="delay">delay the triggering by the given time</real>
 <string key="message" name="message">print this message to the player who activated the trigger</string>
 <target key="killtarget" name="killtarget">remove all entities with this targetname when triggered</target>
-<real key="team" name="team">5 for red, 14 for blue, 13 for yellow, 10 for pink team</real>
+<integer key="team" name="team">5 for red, 14 for blue, 13 for yellow, 10 for pink team</integer>
 -------- SPAWNFLAGS --------
 <flag key="NOTEAM_TOO" name="NOTEAM_TOO" bit="0">also relay events if the activator has no team set</flag>
 <flag key="INVERT" name="INVERT" bit="1">only relay the event if this entity has the matching team</flag>
@@ -1740,7 +1740,7 @@ Jetpack fuel
 -------- KEYS --------
 <real key="ammo_fuel" name="ammo_fuel">fuel units gained by this item (if unset, g_pickup_fuel is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
-<real key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</real>
+<integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
@@ -1752,7 +1752,7 @@ modeldisabled=&quot;models/items/g_fuel.md3&quot;
 Fuel regenerator
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 120)</real>
-<real key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</real>
+<integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
@@ -1765,7 +1765,7 @@ Jetpack
 -------- KEYS --------
 <real key="ammo_fuel" name="ammo_fuel">fuel units gained by this item (if unset, g_pickup_fuel_jetpack is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 120)</real>
-<real key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</real>
+<integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
@@ -1799,7 +1799,7 @@ the Fireball
 -------- KEYS --------
 <real key="ammo_rockets" name="ammo_rockets">initial rockets of the weapon (if unset, g_pickup_rockets is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
-<real key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</real>
+<integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
