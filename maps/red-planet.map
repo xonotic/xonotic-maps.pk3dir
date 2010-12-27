@@ -47112,7 +47112,7 @@ exx/trim-vert01
 "origin" "-2660.000000 1176.000000 120.000000"
 }
 {
-"classname" "weapon_campingrifle"
+"classname" "weapon_sniperrifle"
 "origin" "-2800.000000 448.000000 416.000000"
 }
 {
