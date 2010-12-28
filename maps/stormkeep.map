@@ -28634,6 +28634,8 @@ exx/base-metal03
 {
 "classname" "func_wall"
 "gametypefilter" "-rc"
+"_castshadows" "1"
+"_receiveshadows" "1"
 {
 ( -128 -128 -160 ) ( -160 -128 -160 ) ( -160 -88 -160 ) common/caulk 0 0 0 0.25 0.25 134217728 0 0
 ( -136 -96 -176 ) ( -160 -96 -176 ) ( -136 -96 -192 ) common/caulk 0 0 0 0.25 0.25 134217728 0 0
@@ -28804,6 +28806,8 @@ exx/trim-psimple04
 {
 "classname" "func_wall"
 "gametypefilter" "+rc"
+"_castshadows" "0"
+"_receiveshadows" "1"
 {
 ( -288 -368 -192 ) ( -288 -536 -192 ) ( -312 -368 -192 ) exx/floor-metal02 0 480 0 0.25 0.25 134217728 0 0
 ( -312 776 -192 ) ( -312 776 -224 ) ( -288 744 -224 ) exx/base-metal03 0 0 0 0.25 0.25 134217728 0 0
@@ -28912,6 +28916,8 @@ exx/trim-psimple04
 {
 "classname" "func_wall"
 "gametypefilter" "+rc"
+"_castshadows" "0"
+"_receiveshadows" "1"
 {
 ( 384 768 96 ) ( 384 640 96 ) ( 352 768 96 ) common/caulk -0 0 0 0.25 0.25 0 0 0
 ( 384 768 96 ) ( 352 768 96 ) ( 384 768 -32 ) exx/base-metal03 0 0 0 0.25 0.25 0 0 0
@@ -29052,6 +29058,8 @@ exx/trim-psimple04
 {
 "classname" "func_wall"
 "gametypefilter" "-rc"
+"_castshadows" "1"
+"_receiveshadows" "1"
 {
 ( 384 768 96 ) ( 384 640 96 ) ( 192 768 96 ) common/caulk 0 0 0 0.25 0.25 0 0 0
 ( 384 768 96 ) ( 192 768 96 ) ( 384 768 -32 ) common/caulk 0 0 0 0.25 0.25 0 0 0
@@ -29155,6 +29163,8 @@ exx/trim-psimple04
 {
 "classname" "func_wall"
 "gametypefilter" "-rc"
+"_castshadows" "1"
+"_receiveshadows" "1"
 {
 ( -160 -320 96 ) ( -160 -360 96 ) ( -288 -320 96 ) common/caulk 0 0 0 0.25 0.25 0 0 0
 ( -160 -320 96 ) ( -288 -320 96 ) ( -160 -320 0 ) map_stormkeep/largebrick1a 0 0 0 0.25 0.25 0 0 0
@@ -29191,6 +29201,8 @@ exx/trim-psimple04
 {
 "classname" "func_wall"
 "gametypefilter" "+rc"
+"_castshadows" "0"
+"_receiveshadows" "1"
 {
 ( 128 -880 96 ) ( 96 -880 96 ) ( 128 -864 96 ) common/caulk 192 0 -90 0.25 0.25 134217728 0 0
 ( 128 -880 96 ) ( 128 -864 96 ) ( 128 -880 0 ) exx/trim-01 0 0 180 0.25 0.25 134217728 0 0
