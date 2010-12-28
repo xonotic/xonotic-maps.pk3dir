@@ -12,3 +12,4 @@ gametype kh
 gametype ons
 gametype dom
 gametype arena
+clientsettemp_for_type all r_water 1
