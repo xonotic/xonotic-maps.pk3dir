@@ -17,6 +17,7 @@ map_glowplant
 map_red-planet
 map_space-elevator
 map_techassault
+map_stormkeep
 model_bigfan01
 model_desertfactory
 model_tree

@@ -11,3 +11,5 @@ gametype arena
 gametype ca
 gametype dom
 gametype kh
+gametype freezetag
+gametype keepaway
