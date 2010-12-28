@@ -27069,21 +27069,21 @@ exx/base-metal03
 {
 "classname" "misc_model"
 "origin" "1856.000000 -1088.500000 96.000000"
-"model" "xonotic-maps.pk3dir/models/lights/xonlight03.md3"
+"model" "models/lights/xonlight03.md3"
 "spawnflags" "2"
 "angle" "-179.999985"
 }
 {
 "classname" "misc_model"
 "origin" "-448.000183 -1216.000000 96.000000"
-"model" "xonotic-maps.pk3dir/models/lights/xonlight03.md3"
+"model" "models/lights/xonlight03.md3"
 "spawnflags" "2"
 "angle" "179.999985"
 }
 {
 "classname" "misc_model"
 "origin" "-511.999969 -1152.000000 96.000000"
-"model" "xonotic-maps.pk3dir/models/lights/xonlight03.md3"
+"model" "models/lights/xonlight03.md3"
 "spawnflags" "2"
 "angle" "89.999992"
 }
@@ -28575,14 +28575,14 @@ exx/base-metal03
 {
 "classname" "misc_model"
 "origin" "1024.000000 -1216.000000 96.000000"
-"model" "xonotic-maps.pk3dir/models/lights/xonlight03.md3"
+"model" "models/lights/xonlight03.md3"
 "spawnflags" "2"
 "angle" "179.999985"
 }
 {
 "classname" "misc_model"
 "origin" "1088.000000 -1152.000000 96.000000"
-"model" "xonotic-maps.pk3dir/models/lights/xonlight03.md3"
+"model" "models/lights/xonlight03.md3"
 "spawnflags" "2"
 "angle" "-90.000000"
 }
