@@ -37,7 +37,7 @@ textures/skies/extragalactic_planets
 	surfaceparm nomarks
 
 	skyparms env/extragalactic/planets - - //farbox cloudheight nearbox
-	q3map_sunExt 1 0.9 0.8 320 124 42 0 16 //rgb intensity degrees elevation deviance samples
+	q3map_sunExt 1 0.6 0.1 320 124 42 0 16 //rgb intensity degrees elevation deviance samples
 	q3map_skylight 50 4
 }
 
@@ -51,7 +51,7 @@ textures/skies/extragalactic_planets_intensity_256
 	surfaceparm nomarks
 
 	skyparms env/extragalactic/planets - - //farbox cloudheight nearbox
-	q3map_sunExt 1 0.9 0.8 256 124 42 0 16 //rgb intensity degrees elevation deviance samples
+	q3map_sunExt 1 0.6 0.1 256 124 42 0 16 //rgb intensity degrees elevation deviance samples
 	q3map_skylight 50 4
 }
 
@@ -65,6 +65,6 @@ textures/skies/extragalactic_planets_intensity_196
 	surfaceparm nomarks
 
 	skyparms env/extragalactic/planets - - //farbox cloudheight nearbox
-	q3map_sunExt 1 0.9 0.8 196 124 42 0 16 //rgb intensity degrees elevation deviance samples
+	q3map_sunExt 1 0.6 0.1 196 124 42 0 16 //rgb intensity degrees elevation deviance samples
 	q3map_skylight 50 4
 }
