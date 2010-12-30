@@ -12,4 +12,6 @@ gametype kh
 gametype ons
 gametype dom
 gametype arena
+gametype freezetag
+gametype keepaway
 clientsettemp_for_type all r_water 1
