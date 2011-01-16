@@ -429,6 +429,30 @@ textures/exx/floor-grate01
 		blendfunc filter
 	}
 }
+textures/exx/floor-grate01-cull
+{
+	qer_editorimage textures/exx/floor/floor_grate01.tga
+	surfaceparm trans
+	surfaceparm metalsteps
+	q3map_bounceScale  0.75
+	surfaceparm alphashadow
+	surfaceparm nomarks
+	dpoffsetmapping - 2
+	dpglossintensitymod  3
+	dpglossexponentmod  4
+
+
+	{
+		map textures/exx/floor/floor_grate01.tga
+            alphaFunc GT0
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
 textures/exx/floor-grate02
 {
 	qer_editorimage textures/exx/floor/floor_grate02.tga
@@ -454,6 +478,30 @@ textures/exx/floor-grate02
 		blendfunc filter
 	}
 }
+textures/exx/floor-grate02-cull
+{
+	qer_editorimage textures/exx/floor/floor_grate02.tga
+	surfaceparm trans
+	surfaceparm metalsteps
+	q3map_bounceScale  0.75
+	surfaceparm alphashadow
+	surfaceparm nomarks
+	dpoffsetmapping - 2
+	dpglossintensitymod  3
+	dpglossexponentmod  4
+
+
+	{
+		map textures/exx/floor/floor_grate02.tga
+            alphaFunc GT0
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
 textures/exx/floor-grate03
 {
 	qer_editorimage textures/exx/floor/floor_grate03.tga
@@ -463,6 +511,30 @@ textures/exx/floor-grate03
 	surfaceparm alphashadow
 	surfaceparm nomarks
 	Cull None
+	dpoffsetmapping - 2
+	dpglossintensitymod  3
+	dpglossexponentmod  4
+
+
+	{
+		map textures/exx/floor/floor_grate03.tga
+            alphaFunc GT0
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/exx/floor-grate03-cull
+{
+	qer_editorimage textures/exx/floor/floor_grate03.tga
+	surfaceparm trans
+	surfaceparm metalsteps
+	q3map_bounceScale  0.75
+	surfaceparm alphashadow
+	surfaceparm nomarks
 	dpoffsetmapping - 2
 	dpglossintensitymod  3
 	dpglossexponentmod  4
@@ -910,6 +982,34 @@ textures/exx/panel-grate01
 	surfaceparm alphashadow
 
 	cull none
+	nopicmip
+	nomipmaps
+	{
+		map textures/exx/panel/panel_grate01.tga
+		alphaFunc GT0
+		rgbgen vertex
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/exx/panel-grate01-cull
+{
+	qer_editorimage textures/exx/panel/panel_grate01.tga
+	
+	surfaceparm metalsteps
+	q3map_bounceScale  2
+	dpoffsetmapping - 2
+	dpglossintensitymod  3
+	dpglossexponentmod  4
+
+	surfaceparm nomarks
+	surfaceparm trans
+	surfaceparm alphashadow
+
 	nopicmip
 	nomipmaps
 	{
