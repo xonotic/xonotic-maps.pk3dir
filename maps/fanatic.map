@@ -10396,3 +10396,67 @@ trak5x/base-pipe1a
 "origin" "-2464.000000 -1440.000000 536.000000"
 "angle" "90.000000"
 }
+{
+"classname" "light"
+"origin" "-448.000000 448.000000 472.000000"
+"light" "1500"
+"target" "target_position1"
+}
+{
+"classname" "target_position"
+"origin" "-448.000000 448.000000 256.000000"
+"targetname" "target_position1"
+}
+{
+"classname" "target_position"
+"origin" "-448.000000 -448.000000 256.000000"
+"targetname" "target_position3"
+}
+{
+"classname" "light"
+"origin" "-448.000000 -448.000000 472.000000"
+"light" "1500"
+"target" "target_position3"
+}
+{
+"classname" "target_position"
+"origin" "448.000000 -448.000000 256.000000"
+"targetname" "target_position4"
+}
+{
+"classname" "light"
+"origin" "448.000000 -448.000000 472.000000"
+"light" "1500"
+"target" "target_position4"
+}
+{
+"classname" "target_position"
+"origin" "448.000000 448.000000 256.000000"
+"targetname" "target_position5"
+}
+{
+"classname" "light"
+"origin" "448.000000 448.000000 472.000000"
+"light" "1500"
+"target" "target_position5"
+}
+{
+"classname" "light"
+"origin" "-448.000000 448.000000 192.000000"
+"light" "1000"
+}
+{
+"classname" "light"
+"origin" "-448.000000 -448.000000 192.000000"
+"light" "1000"
+}
+{
+"classname" "light"
+"origin" "448.000000 -448.000000 192.000000"
+"light" "1000"
+}
+{
+"classname" "light"
+"origin" "448.000000 448.000000 192.000000"
+"light" "1000"
+}
