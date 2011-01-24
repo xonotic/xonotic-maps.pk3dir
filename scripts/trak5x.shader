@@ -2568,6 +2568,26 @@ textures/trak5x/trim-trisec1b
 		blendfunc filter
 	}
 }
+textures/trak5x/wall-wall1
+{
+	qer_editorimage textures/trak5x/wall/wall_wall1.tga
+	
+	q3map_bounceScale 1.25
+
+
+	{
+		map textures/trak5x/wall/wall_wall1.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+
 textures/trak5x/wall-wall1a
 {
 	qer_editorimage textures/trak5x/wall/wall_wall1a.tga
@@ -2653,6 +2673,25 @@ textures/trak5x/wall-wall1e
 
 	{
 		map textures/trak5x/wall/wall_wall1e.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/trak5x/wall-wall2
+{
+	qer_editorimage textures/trak5x/wall/wall_wall2.tga
+	
+	q3map_bounceScale 1.25
+
+
+	{
+		map textures/trak5x/wall/wall_wall2.tga
 		
 
 	}
