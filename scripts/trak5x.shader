@@ -226,6 +226,44 @@ textures/trak5x/base-ribs1a
 		blendfunc filter
 	}
 }
+textures/trak5x/base-thread1
+{
+	qer_editorimage textures/trak5x/base/base_thread1.tga
+	
+	q3map_bounceScale 1.25
+
+
+	{
+		map textures/trak5x/base/base_thread1.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/trak5x/floor-floor1a
+{
+	qer_editorimage textures/trak5x/floor/floor_floor1a.tga
+	
+	q3map_bounceScale 1.25
+
+
+	{
+		map textures/trak5x/floor/floor_floor1a.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
 textures/trak5x/floor-floor2a
 {
 	qer_editorimage textures/trak5x/floor/floor_floor2a.tga
@@ -330,6 +368,44 @@ textures/trak5x/floor-floor2f
 
 	{
 		map textures/trak5x/floor/floor_floor2f.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/trak5x/floor-hex1
+{
+	qer_editorimage textures/trak5x/floor/floor_hex1.tga
+	
+	q3map_bounceScale 1.25
+
+
+	{
+		map textures/trak5x/floor/floor_hex1.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/trak5x/floor-tile1
+{
+	qer_editorimage textures/trak5x/floor/floor_tile1.tga
+	
+	q3map_bounceScale 1.25
+
+
+	{
+		map textures/trak5x/floor/floor_tile1.tga
 		
 
 	}
@@ -1108,6 +1184,64 @@ textures/trak5x/light-light3a-surfacelight
 		blendfunc filter
 	}
 }
+textures/trak5x/light-light3b
+{
+	qer_editorimage textures/trak5x/light/light_light3b.tga
+	
+	q3map_bounceScale 1.25
+
+	{
+		map textures/trak5x/light/light_light3b.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/trak5x/light-light3b-surfacelight
+{
+	qer_editorimage textures/trak5x/light/light_light3b.tga
+	
+	q3map_bounceScale 1.25
+
+	q3map_surfacelight 2500
+	q3map_lightSubdivide 32
+
+	{
+		map textures/trak5x/light/light_light3b.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/trak5x/misc-button1
+{
+	qer_editorimage textures/trak5x/misc/misc_button1.tga
+	
+	q3map_bounceScale 1.25
+
+
+	{
+		map textures/trak5x/misc/misc_button1.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
 textures/trak5x/misc-glass
 {
 	qer_editorimage textures/trak5x/misc/misc_glass.tga
@@ -1154,6 +1288,25 @@ textures/trak5x/misc-thingy1a
 
 	{
 		map textures/trak5x/misc/misc_thingy1a.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/trak5x/panel-block1
+{
+	qer_editorimage textures/trak5x/panel/panel_block1.tga
+	
+	q3map_bounceScale 1.25
+
+
+	{
+		map textures/trak5x/panel/panel_block1.tga
 		
 
 	}
@@ -1466,6 +1619,25 @@ textures/trak5x/panel-graypanel3
 		blendfunc filter
 	}
 }
+textures/trak5x/panel-panel1
+{
+	qer_editorimage textures/trak5x/panel/panel_panel1.tga
+	
+	q3map_bounceScale 1.25
+
+
+	{
+		map textures/trak5x/panel/panel_panel1.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
 textures/trak5x/panel-panel1a
 {
 	qer_editorimage textures/trak5x/panel/panel_panel1a.tga
@@ -1494,6 +1666,25 @@ textures/trak5x/panel-panel2a
 
 	{
 		map textures/trak5x/panel/panel_panel2a.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/trak5x/panel-thinpanel1
+{
+	qer_editorimage textures/trak5x/panel/panel_thinpanel1.tga
+	
+	q3map_bounceScale 1.25
+
+
+	{
+		map textures/trak5x/panel/panel_thinpanel1.tga
 		
 
 	}
@@ -1827,6 +2018,64 @@ textures/trak5x/trim-trim1b
 		blendfunc filter
 	}
 }
+textures/trak5x/trim-trim1ca
+{
+	qer_editorimage textures/trak5x/trim/trim_trim1ca.tga
+	
+	q3map_bounceScale 1.25
+
+
+	{
+		map textures/trak5x/trim/trim_trim1ca.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/trak5x/trim-trim1cb
+{
+	qer_editorimage textures/trak5x/trim/trim_trim1cb.tga
+	
+	q3map_bounceScale 1.25
+
+
+	{
+		map textures/trak5x/trim/trim_trim1cb.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/trak5x/trim-trim2
+{
+	qer_editorimage textures/trak5x/trim/trim_trim2.tga
+	
+	q3map_bounceScale 1.25
+
+
+	{
+		map textures/trak5x/trim/trim_trim2.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+
 textures/trak5x/trim-trim2a
 {
 	qer_editorimage textures/trak5x/trim/trim_trim2a.tga
@@ -2558,6 +2807,25 @@ textures/trak5x/trim-trisec1b
 
 	{
 		map textures/trak5x/trim/trim_trisec1b.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/trak5x/trim-vert1
+{
+	qer_editorimage textures/trak5x/trim/trim_vert1.tga
+	
+	q3map_bounceScale 1.25
+
+
+	{
+		map textures/trak5x/trim/trim_vert1.tga
 		
 
 	}
