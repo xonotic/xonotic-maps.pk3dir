@@ -34,3 +34,5 @@ techpanelx
 terrain01x
 trak4x
 trak5x
+trak6x
+trak7x
