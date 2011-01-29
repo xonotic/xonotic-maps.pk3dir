@@ -1021,6 +1021,7 @@ Has the useful effect of automatically returning flags, keys and runes when they
 <string key="message" name="message">kill message when someone gets killed by this (default: &quot;was in the wrong place&quot;)</string>
 <string key="message2" name="message2">kill message when someone gets pushed into this (default: &quot;was thrown into a world of hurt by&quot;). The # character is replaced by the attacker name if present (and it instead does not get appended to the end)</string>
 <integer key="team" name="team">team that gets hurt (5 = red, 14 = blue, etc) (when set, only this team can get hurt)</integer>
+<targetname key="targetname" name="targetname">if triggered using this target name, the activator will be the one who gets the frag awarded for hurting someone using this trigger (hint: The Frag Pipe)</targetname>
 -------- SPAWNFLAGS --------
 <flag key="INVERT_TEAM" name="INVERT_TEAM" bit="2">the team that owns this will NOT jump when touching this</flag>
 </group>

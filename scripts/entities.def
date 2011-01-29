@@ -1019,6 +1019,7 @@ dmg: amount of damage to deal (default: 1000)
 message: kill message when someone gets killed by this (default: "was in the wrong place")
 message2: kill message when someone gets pushed into this (default: "was thrown into a world of hurt by"). The # character is replaced by the attacker name if present (and it instead does not get appended to the end)
 team: team that gets hurt (5 = red, 14 = blue, etc) (when set, only this team can get hurt)
+targetname: if triggered using this target name, the activator will be the one who gets the frag awarded for hurting someone using this trigger (hint: The Frag Pipe)
 -------- SPAWNFLAGS --------
 INVERT_TEAM: the team that owns this will NOT jump when touching this
 */
