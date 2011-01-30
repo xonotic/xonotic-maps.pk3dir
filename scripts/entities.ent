@@ -1021,6 +1021,7 @@ Has the useful effect of automatically returning flags, keys and runes when they
 <string key="message" name="message">kill message when someone gets killed by this (default: &quot;was in the wrong place&quot;)</string>
 <string key="message2" name="message2">kill message when someone gets pushed into this (default: &quot;was thrown into a world of hurt by&quot;). The # character is replaced by the attacker name if present (and it instead does not get appended to the end)</string>
 <integer key="team" name="team">team that gets hurt (5 = red, 14 = blue, etc) (when set, only this team can get hurt)</integer>
+<targetname key="targetname" name="targetname">if triggered using this target name, the activator will be the one who gets the frag awarded for hurting someone using this trigger (hint: The Frag Pipe)</targetname>
 -------- SPAWNFLAGS --------
 <flag key="INVERT_TEAM" name="INVERT_TEAM" bit="2">the team that owns this will NOT jump when touching this</flag>
 </group>
@@ -1554,6 +1555,19 @@ the Heavy Laser Assault Cannon.
 modeldisabled=&quot;models/weapons/g_hlac.md3&quot;
 </point>
 
+<point name="weapon_minelayer" color="1 0 .5" box="-30 -30 0 30 30 32">
+the Mine Layer.
+-------- KEYS --------
+<real key="ammo_rockets" name="ammo_rockets">initial rockets of the weapon (if unset, g_pickup_rockets is used)</real>
+<real key="respawntime" name="respawntime">time till it respawns (default: 30)</real>
+<integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
+<real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
+-------- SPAWNFLAGS --------
+<flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+modeldisabled=&quot;models/weapons/g_minelayer.md3&quot;
+</point>
+
 <point name="weapon_seeker" color="1 0 .5" box="-30 -30 0 30 30 32">
 Placing this entity on a map kills your dog, voids the warranty on your car, and makes your map an unenjoyable noobs' paradise.
 the T.A.G. Seeker.
@@ -1589,8 +1603,8 @@ Any object touching this will be healed.
 <sound key="noise" name="noise">sound file to play (use misc/null.wav to make it silent), default = item_health_medium sound</sound>
 </group>
 
-<point name="weapon_campingrifle" color="1 0 .5" box="-30 -30 0 30 30 32">
-the Camping Rifle.
+<point name="weapon_sniperrifle" color="1 0 .5" box="-30 -30 0 30 30 32">
+the Sniper Rifle.
 -------- KEYS --------
 <real key="ammo_nails" name="ammo_nails">initial bullets of the weapon (if unset, g_pickup_nails is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 30)</real>
