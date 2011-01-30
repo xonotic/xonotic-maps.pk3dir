@@ -1,6 +1,6 @@
-textures/liquids_lava/lava0_blue
+textures/map_afterslime/lava0_blue
 {
-	qer_editorimage textures/liquids_lava/lava0_blue.tga
+	qer_editorimage textures/map_afterslime/lava0_blue.tga
 	surfaceparm lava
 	surfaceparm noimpact
 	surfaceparm trans
@@ -10,14 +10,14 @@ textures/liquids_lava/lava0_blue
 	q3map_surfacelight 1000
 	q3map_lightSubdivide 64
 	{
-		map textures/liquids_lava/lava0_blue.tga
+		map textures/map_afterslime/lava0_blue.tga
 		blendfunc add
 	}
 }
 
-textures/liquids_lava/lava0_blue_flow
+textures/map_afterslime/lava0_blue_flow
 {
-	qer_editorimage textures/liquids_lava/lava0_blue.tga
+	qer_editorimage textures/map_afterslime/lava0_blue.tga
 	surfaceparm lava
 	surfaceparm noimpact
 	surfaceparm trans
@@ -25,7 +25,7 @@ textures/liquids_lava/lava0_blue_flow
 	q3map_surfacelight 1000
 	q3map_lightSubdivide 64
 	{
-		map textures/liquids_lava/lava0_blue.tga
+		map textures/map_afterslime/lava0_blue.tga
 		blendfunc add
 		tcMod scroll 0 -0.25
 	}
