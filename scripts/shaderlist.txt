@@ -13,6 +13,7 @@ facility114x
 liquids_lava
 liquids_slime
 liquids_water
+map_afterslime
 map_glowplant
 map_red-planet
 map_space-elevator
