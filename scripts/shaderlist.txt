@@ -30,6 +30,7 @@ skies_exosystem
 skies_extragalactic
 skies_heaven
 skies_polluted_earth
+stein1x
 techpanelx
 terrain01x
 trak4x
