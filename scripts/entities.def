@@ -922,6 +922,9 @@ Path corner entity that func_train will follow.
 All path_corner entities of a train have to connect in a circular manner, while the func_train shall point to one of the path_corners (ideally the one at the train's starting point)
 -------- KEYS --------
 target: point to next path_corner in the path.
+target2: triggered when a func_train starts moving towards this target
+target3: triggered when a func_train starts moving towards this target
+target4: triggered when a func_train starts moving towards this target
 targetname: the train following the path or the previous path_corner in the path points to this.
 speed: speed of func_train while moving to this path corner. If unset, the value from the func_train will be used.
 wait: number of seconds func_train will pause on this path corner before moving to next path corner (default: 0.1; to not wait, set this to -1
