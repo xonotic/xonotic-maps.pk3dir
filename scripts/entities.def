@@ -120,6 +120,7 @@ target2: all entities with a matching targetname will be triggered.
 target3: all entities with a matching targetname will be triggered.
 target4: all entities with a matching targetname will be triggered.
 speed: speed of button's displacement (default 40).
+platmovetype: movement type (1 = linear, 2 = cosine [default])
 wait: number of seconds button stays pressed (default 1, -1 = return immediately).
 lip: lip remaining at end of move (default 4 units).
 health: (default 0) if set to any non-zero value, the button must take damage (any amount) to activate.
@@ -137,6 +138,7 @@ angle: determines the opening direction
 targetname: if set, no touch field will be spawned and a remote button or trigger field activates the door.
 health: if set, door must be shot open
 speed: movement speed (100 default)
+platmovetype: movement type (1 = linear, 2 = cosine [default])
 wait: wait before returning (3 default, -1 = never return)
 lip: lip remaining at end of move (8 default)
 dmg: damage to inflict when blocked (when triggered and someone is in the way)
@@ -180,6 +182,7 @@ NOSPLASH: if set, splash damage cannot activate the door, only direct damage can
 /*QUAKED func_door_secret (0 .5 .8) ? OPEN_ONCE 1ST_LEFT 1ST_DOWN NO_SHOOT ALWAYS_SHOOT
 Basic secret door. Slides back, then to the side. Angle determines direction. Opens when targeted or when shot; does not create its own trigger field like func_door does.
 -------- KEYS --------
+platmovetype: movement type (1 = linear, 2 = cosine [default])
 wait: # of seconds before coming back
 key1: first entity key with one-line description
 key2: second entity key with one-line description
@@ -222,6 +225,7 @@ grab a trigger brush and put it in front of the part that you want the player to
 Rising platform the player can ride to reach higher places. Plats must always be drawn in the raised position, so they will operate and be lighted correctly but they spawn in the lowered position. The plat will stay in the raised position until the player steps off.
 -------- KEYS --------
 speed: determines how fast the plat moves (default 150).
+platmovetype: movement type (1 = linear, 2 = cosine [default])
 lip: lip remaining at end of move (default 16). Has no effect if "height" is set.
 height: if set, this will determine the total amount of vertical travel of the plat.
 dmg: damage to inflict on player when he blocks operation of plat. Plat will reverse direction when blocked.
@@ -282,6 +286,7 @@ Trains are not trigger-able or toggle-able.
 Trains cannot be block-stopped just by getting in their way, the player must be wedged between the train and another obstacle to block it.
 -------- KEYS --------
 speed: default/initial speed of train (default 100 or overridden by speed value of targeted path_corner)
+platmovetype: movement type (1 = linear, 2 = cosine [default])
 target: targetname of first path_corner to move to at the default speed; ideally, this path_corner shall be exactly where the train starts
 noise: path/name of .wav or .ogg file to play while moving. Use looping sounds only (e.g. sound/world/drone6.wav - See Notes).
 dmg: damage a player who gets crushed by it receives
@@ -917,6 +922,9 @@ Path corner entity that func_train will follow.
 All path_corner entities of a train have to connect in a circular manner, while the func_train shall point to one of the path_corners (ideally the one at the train's starting point)
 -------- KEYS --------
 target: point to next path_corner in the path.
+target2: triggered when a func_train stops at this target
+target3: triggered when a func_train stops at this target
+target4: triggered when a func_train stops at this target
 targetname: the train following the path or the previous path_corner in the path points to this.
 speed: speed of func_train while moving to this path corner. If unset, the value from the func_train will be used.
 wait: number of seconds func_train will pause on this path corner before moving to next path corner (default: 0.1; to not wait, set this to -1
