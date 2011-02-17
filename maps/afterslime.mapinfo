@@ -1,0 +1,12 @@
+title Afterslime
+description Medium sized indoor deathmatch map.
+author kuniu the frogg
+has weapons
+type dm 30 20
+type tdm 50 20 2
+type lms 9 20
+type ca 200 20
+type arena 10 20
+type rune 200 20
+type freezetag 200 20 2
+type kh 200 20 2
