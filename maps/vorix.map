@@ -4,7 +4,7 @@
 "_ambient" "4"
 "_color" "0.8 0.8 0.9"
 "author" "It's Me"
-"_description" "Take the flag and find your way back!"
+"_description" "This is Vorix!"
 {
 ( 1536 -3848 0 ) ( 1536 -776 0 ) ( 1536 -3848 -64 ) common/caulk 0 0 0 0.25 0.25 0 0 0
 ( 1768 -3904 0 ) ( 1768 -3904 -64 ) ( 1256 -3904 0 ) common/caulk 0 0 0 0.25 0.25 0 0 0
