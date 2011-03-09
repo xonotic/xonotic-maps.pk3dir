@@ -16070,12 +16070,12 @@ exx/panel-q201
 {
 "classname" "target_speaker"
 "origin" "0.000000 -288.000000 184.000000"
-"noise" "sound/map-leave_em_behind/pumps.ogg"
+"noise" "sound/map_leave_em_behind/pumps.ogg"
 }
 {
 "classname" "target_speaker"
 "origin" "0.000000 416.000000 320.000000"
-"noise" "sound/map-leave_em_behind/lighthum.ogg"
+"noise" "sound/map_leave_em_behind/lighthum.ogg"
 }
 {
 "classname" "target_speaker"
@@ -16560,35 +16560,35 @@ exx/panel-q201
 {
 "classname" "target_speaker"
 "origin" "0.000000 288.000000 184.000000"
-"noise" "sound/map-leave_em_behind/pumps.ogg"
+"noise" "sound/map_leave_em_behind/pumps.ogg"
 }
 {
 "classname" "target_speaker"
 "origin" "-1184.000000 -704.000000 64.000000"
-"noise" "sound/map-leave_em_behind/lighthum.ogg"
+"noise" "sound/map_leave_em_behind/lighthum.ogg"
 }
 {
 "classname" "target_speaker"
 "origin" "-1184.000000 1344.000000 416.000000"
-"noise" "sound/map-leave_em_behind/lighthum.ogg"
+"noise" "sound/map_leave_em_behind/lighthum.ogg"
 }
 {
 "classname" "target_speaker"
 "origin" "160.000000 1184.000000 416.000000"
-"noise" "sound/map-leave_em_behind/lighthum.ogg"
+"noise" "sound/map_leave_em_behind/lighthum.ogg"
 }
 {
 "classname" "target_speaker"
 "origin" "1344.000000 -1184.000000 416.000000"
-"noise" "sound/map-leave_em_behind/lighthum.ogg"
+"noise" "sound/map_leave_em_behind/lighthum.ogg"
 }
 {
 "classname" "target_speaker"
 "origin" "0.000000 -1344.000000 416.000000"
-"noise" "sound/map-leave_em_behind/lighthum.ogg"
+"noise" "sound/map_leave_em_behind/lighthum.ogg"
 }
 {
 "classname" "target_speaker"
 "origin" "0.000000 -608.000000 320.000000"
-"noise" "sound/map-leave_em_behind/lighthum.ogg"
+"noise" "sound/map_leave_em_behind/lighthum.ogg"
 }
