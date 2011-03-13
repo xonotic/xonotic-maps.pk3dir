@@ -1,7 +1,7 @@
 // pipe smoke emiter
-// colors fit to layout/light of tarx
+// my changes: colors of smoke fit to layout/light of tarx
 
-effect tarx_pipe_smoke
+effect map_tarx_pipe_smoke
 count 15
 type alphastatic
 tex 0 8
