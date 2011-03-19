@@ -17,6 +17,8 @@ map_courtfun
 map_glowplant
 map_red-planet
 map_space-elevator
+map_techassault
+map_stormkeep
 model_bigfan01
 model_desertfactory
 model_tree
@@ -30,7 +32,10 @@ skies_exosystem
 skies_extragalactic
 skies_heaven
 skies_polluted_earth
+stein1x
 techpanelx
 terrain01x
 trak4x
 trak5x
+trak6x
+trak7x
