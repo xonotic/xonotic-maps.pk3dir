@@ -1,0 +1,11 @@
+title Downer Remake (Final)
+description TODO: this.
+author Cortez
+has weapons
+gametype dm
+gametype lms
+gametype arena
+gametype rune
+gametype freezetag
+gametype keepaway
+cdtrack 3
