@@ -1,5 +1,5 @@
--bsp +
--light + -bounce 8 -dirtscale 2
+-bsp + -samplesize 6
 -vis +
+-light + -bounce 8 -dirtscale 2 -bouncescale 1.15 -exposure 150 -areascale 1.25 -pointscale 1.4
 -minimap +
-Version: 6
+Version: 3
