@@ -23606,7 +23606,7 @@ exx/trim-simple03
 "origin" "160.000000 -144.000000 -192.000000"
 "spawnflags" "2"
 "targetname" "blue_speakers_loop"
-"noise" "sound/map-newtonian-nightmare/nn-electrified_looped.ogg"
+"noise" "sound/map_newtonian-nightmare/nn-electrified_looped.ogg"
 "atten" "3"
 "volume" "0.25"
 }
@@ -23615,7 +23615,7 @@ exx/trim-simple03
 "origin" "-160.000000 144.000000 -192.000000"
 "spawnflags" "2"
 "targetname" "red_speakers_loop"
-"noise" "sound/map-newtonian-nightmare/nn-electrified_looped.ogg"
+"noise" "sound/map_newtonian-nightmare/nn-electrified_looped.ogg"
 "atten" "3"
 "volume" "0.25"
 }
@@ -23624,7 +23624,7 @@ exx/trim-simple03
 "origin" "784.000000 -144.000000 192.000000"
 "spawnflags" "2"
 "targetname" "blue_speakers_loop"
-"noise" "sound/map-newtonian-nightmare/nn-electrified_looped.ogg"
+"noise" "sound/map_newtonian-nightmare/nn-electrified_looped.ogg"
 "atten" "3"
 }
 {
@@ -23632,13 +23632,13 @@ exx/trim-simple03
 "origin" "-784.000000 144.000000 192.000000"
 "spawnflags" "2"
 "targetname" "red_speakers_loop"
-"noise" "sound/map-newtonian-nightmare/nn-electrified_looped.ogg"
+"noise" "sound/map_newtonian-nightmare/nn-electrified_looped.ogg"
 "atten" "3"
 }
 {
 "classname" "target_speaker"
 "origin" "0.000000 0.000000 2208.000000"
-"noise" "sound/map-newtonian-nightmare/nn-Electric-Arcs1_looped.ogg"
+"noise" "sound/map_newtonian-nightmare/nn-Electric-Arcs1_looped.ogg"
 "spawnflags" "1"
 "atten" "3"
 "volume" "0.25"
@@ -23647,7 +23647,7 @@ exx/trim-simple03
 {
 "classname" "target_speaker"
 "origin" "0.000000 -1536.000000 736.000000"
-"noise" "sound/map-newtonian-nightmare/nn-Electric-Arcs1_looped.ogg"
+"noise" "sound/map_newtonian-nightmare/nn-Electric-Arcs1_looped.ogg"
 "spawnflags" "1"
 "atten" "3"
 "volume" "0.25"
@@ -23655,7 +23655,7 @@ exx/trim-simple03
 {
 "classname" "target_speaker"
 "origin" "0.000000 1536.000000 736.000000"
-"noise" "sound/map-newtonian-nightmare/nn-Electric-Arcs1_looped.ogg"
+"noise" "sound/map_newtonian-nightmare/nn-Electric-Arcs1_looped.ogg"
 "spawnflags" "1"
 "atten" "3"
 "volume" "0.25"
@@ -23663,7 +23663,7 @@ exx/trim-simple03
 {
 "classname" "target_speaker"
 "origin" "4384.000000 0.000000 1632.000000"
-"noise" "sound/map-newtonian-nightmare/nn-Electric-Arcs1_looped.ogg"
+"noise" "sound/map_newtonian-nightmare/nn-Electric-Arcs1_looped.ogg"
 "spawnflags" "1"
 "atten" "3"
 "volume" "0.25"
@@ -23671,7 +23671,7 @@ exx/trim-simple03
 {
 "classname" "target_speaker"
 "origin" "-4384.000000 0.000000 1632.000000"
-"noise" "sound/map-newtonian-nightmare/nn-Electric-Arcs1_looped.ogg"
+"noise" "sound/map_newtonian-nightmare/nn-Electric-Arcs1_looped.ogg"
 "spawnflags" "1"
 "atten" "3"
 "volume" "0.25"
@@ -23699,7 +23699,7 @@ exx/trim-simple03
 {
 "classname" "target_speaker"
 "origin" "4256.000000 416.000000 264.000000"
-"noise" "sound/map-newtonian-nightmare/nn-robotic_laser.ogg"
+"noise" "sound/map_newtonian-nightmare/nn-robotic_laser.ogg"
 "targetname" "target_speaker3"
 }
 {
@@ -23720,40 +23720,40 @@ exx/trim-simple03
 "classname" "target_speaker"
 "origin" "-4256.000000 -416.000000 264.000000"
 "targetname" "target_speaker4"
-"noise" "sound/map-newtonian-nightmare/nn-robotic_laser.ogg"
+"noise" "sound/map_newtonian-nightmare/nn-robotic_laser.ogg"
 "atten" "0.1"
 }
 {
 "classname" "target_speaker"
 "origin" "-736.000000 416.000000 64.000000"
-"noise" "sound/map-newtonian-nightmare/nn-robotic_launchpad.ogg"
+"noise" "sound/map_newtonian-nightmare/nn-robotic_launchpad.ogg"
 "atten" "0.1"
 "targetname" "red_speakers"
 }
 {
 "classname" "target_speaker"
 "origin" "736.000000 -416.000000 64.000000"
-"noise" "sound/map-newtonian-nightmare/nn-robotic_launchpad.ogg"
+"noise" "sound/map_newtonian-nightmare/nn-robotic_launchpad.ogg"
 "atten" "0.1"
 "targetname" "blue_speakers"
 }
 {
 "classname" "target_speaker"
 "origin" "3792.000000 0.000000 264.000000"
-"noise" "sound/map-newtonian-nightmare/nn-robotic_laser.ogg"
+"noise" "sound/map_newtonian-nightmare/nn-robotic_laser.ogg"
 "targetname" "target_speaker3"
 }
 {
 "classname" "target_speaker"
 "origin" "0.000000 -384.000000 64.000000"
-"noise" "sound/map-newtonian-nightmare/nn-robotic_launchpad.ogg"
+"noise" "sound/map_newtonian-nightmare/nn-robotic_launchpad.ogg"
 "atten" "0.1"
 "targetname" "blue_speakers"
 }
 {
 "classname" "target_speaker"
 "origin" "0.000000 384.000000 64.000000"
-"noise" "sound/map-newtonian-nightmare/nn-robotic_launchpad.ogg"
+"noise" "sound/map_newtonian-nightmare/nn-robotic_launchpad.ogg"
 "atten" "0.1"
 "targetname" "red_speakers"
 }
@@ -23761,7 +23761,7 @@ exx/trim-simple03
 "classname" "target_speaker"
 "origin" "-3792.000000 0.000000 264.000000"
 "targetname" "target_speaker4"
-"noise" "sound/map-newtonian-nightmare/nn-robotic_laser.ogg"
+"noise" "sound/map_newtonian-nightmare/nn-robotic_laser.ogg"
 "atten" "0.1"
 }
 {
