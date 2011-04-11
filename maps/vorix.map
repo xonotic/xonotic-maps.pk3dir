@@ -51004,56 +51004,56 @@ trak5x/base-pipe1b
 "origin" "1408.000000 -2688.000000 256.000000"
 "angle" "-179.999985"
 "noise" "sound/machines/Mech-Combo.wav"
-"atten" "3.9"
-"volume" "0.24"
+"atten" "3.88"
+"volume" "0.48"
 }
 {
 "classname" "target_speaker"
 "origin" "1408.000000 -3072.000000 256.000000"
 "angle" "-179.999985"
 "noise" "sound/machines/Mech-Combo.wav"
-"atten" "3.9"
-"volume" "0.24"
+"atten" "3.88"
+"volume" "0.48"
 }
 {
 "classname" "target_speaker"
 "origin" "64.000000 -2960.000000 64.000000"
 "angle" "-179.999985"
 "noise" "sound/machines/Mech-Combo.wav"
-"atten" "3.9"
-"volume" "0.24"
+"atten" "3.88"
+"volume" "0.48"
 }
 {
 "classname" "target_speaker"
 "origin" "-448.000000 -2960.000000 64.000000"
 "angle" "-179.999985"
 "noise" "sound/machines/Mech-Combo.wav"
-"atten" "3.9"
-"volume" "0.24"
+"atten" "3.88"
+"volume" "0.48"
 }
 {
 "classname" "target_speaker"
 "origin" "576.000000 -2960.000000 64.000000"
 "angle" "-179.999985"
 "noise" "sound/machines/Mech-Combo.wav"
-"atten" "3.9"
-"volume" "0.24"
+"atten" "3.88"
+"volume" "0.48"
 }
 {
 "classname" "target_speaker"
 "origin" "128.000000 -1504.000000 256.000000"
 "angle" "-179.999985"
 "noise" "sound/machines/Mech-Combo.wav"
-"atten" "3.9"
-"volume" "0.24"
+"atten" "3.88"
+"volume" "0.48"
 }
 {
 "classname" "target_speaker"
 "origin" "1024.000000 -1408.000000 72.000000"
 "angle" "0.000009"
 "noise" "sound/machines/Mech-Combo.wav"
-"atten" "3.9"
-"volume" "0.24"
+"atten" "3.88"
+"volume" "0.48"
 }
 {
 "classname" "target_speaker"
@@ -51067,88 +51067,88 @@ trak5x/base-pipe1b
 "origin" "-1600.000000 -4544.000000 192.000000"
 "angle" "90.000015"
 "noise" "sound/machines/Mech-Combo.wav"
-"atten" "3.9"
-"volume" "0.24"
+"atten" "3.88"
+"volume" "0.48"
 }
 {
 "classname" "target_speaker"
 "origin" "-1216.000000 -4544.000000 192.000000"
 "angle" "-90.000000"
 "noise" "sound/machines/Mech-Combo.wav"
-"atten" "3.9"
-"volume" "0.24"
+"atten" "3.88"
+"volume" "0.48"
 }
 {
 "classname" "target_speaker"
 "origin" "-1536.000000 -2688.000000 256.000000"
 "angle" "0.000009"
 "noise" "sound/machines/Mech-Combo.wav"
-"atten" "3.9"
-"volume" "0.24"
+"atten" "3.88"
+"volume" "0.48"
 }
 {
 "classname" "target_speaker"
 "origin" "-2048.000000 -1984.000000 256.000000"
 "angle" "0.000003"
 "noise" "sound/machines/Mech-Combo.wav"
-"atten" "3.9"
-"volume" "0.24"
+"atten" "3.88"
+"volume" "0.48"
 }
 {
 "classname" "target_speaker"
 "origin" "-1536.000000 -2048.000000 256.000000"
 "angle" "0.000009"
 "noise" "sound/machines/Mech-Combo.wav"
-"atten" "3.9"
-"volume" "0.24"
+"atten" "3.88"
+"volume" "0.48"
 }
 {
 "classname" "target_speaker"
 "origin" "-1120.000000 -1024.000000 256.000000"
 "angle" "-90.000000"
 "noise" "sound/machines/Mech-Combo.wav"
-"atten" "3.9"
-"volume" "0.24"
+"atten" "3.88"
+"volume" "0.48"
 }
 {
 "classname" "target_speaker"
 "origin" "384.000000 -1776.000000 256.000000"
 "angle" "-90.000000"
 "noise" "sound/machines/Mech-Combo.wav"
-"atten" "3.9"
-"volume" "0.24"
+"atten" "3.88"
+"volume" "0.48"
 }
 {
 "classname" "target_speaker"
 "origin" "640.000000 -1776.000000 256.000000"
 "angle" "-90.000000"
 "noise" "sound/machines/Mech-Combo.wav"
-"atten" "3.9"
-"volume" "0.24"
+"atten" "3.88"
+"volume" "0.48"
 }
 {
 "classname" "target_speaker"
 "origin" "-1408.000000 -2688.000000 256.000000"
 "angle" "0.000009"
 "noise" "sound/machines/Mech-Combo.wav"
-"atten" "3.9"
-"volume" "0.24"
+"atten" "3.88"
+"volume" "0.48"
 }
 {
 "classname" "target_speaker"
 "origin" "-832.000000 -672.000000 256.000000"
 "angle" "0.000009"
 "noise" "sound/machines/Mech-Combo.wav"
-"atten" "3.9"
-"volume" "0.24"
+"atten" "3.88"
+"volume" "0.48"
 }
 {
 "classname" "target_speaker"
 "origin" "576.000000 -1280.000000 256.000000"
 "angle" "-179.999985"
 "noise" "sound/machines/Mech-Combo.wav"
-"atten" "3.9"
-"volume" "0.24"
+"atten" "3.88"
+"volume" "0.48"
 }
 {
 "classname" "weapon_uzi"
@@ -53230,32 +53230,32 @@ trak5x/base-pipe1b
 "origin" "-1408.000000 2688.000000 256.000000"
 "angle" "0.000016"
 "noise" "sound/machines/Mech-Combo.wav"
-"atten" "3.9"
-"volume" "0.24"
+"atten" "3.88"
+"volume" "0.48"
 }
 {
 "classname" "target_speaker"
 "origin" "-1408.000000 3072.000000 256.000000"
 "angle" "0.000016"
 "noise" "sound/machines/Mech-Combo.wav"
-"atten" "3.9"
-"volume" "0.24"
+"atten" "3.88"
+"volume" "0.48"
 }
 {
 "classname" "target_speaker"
 "origin" "-64.000000 2960.000000 64.000000"
 "angle" "0.000016"
 "noise" "sound/machines/Mech-Combo.wav"
-"atten" "3.9"
-"volume" "0.24"
+"atten" "3.88"
+"volume" "0.48"
 }
 {
 "classname" "target_speaker"
 "origin" "448.000000 2960.000000 64.000000"
 "angle" "0.000016"
 "noise" "sound/machines/Mech-Combo.wav"
-"atten" "3.9"
-"volume" "0.24"
+"atten" "3.88"
+"volume" "0.48"
 }
 {
 "classname" "target_speaker"
@@ -53270,16 +53270,16 @@ trak5x/base-pipe1b
 "origin" "-128.000000 1504.000000 256.000000"
 "angle" "0.000016"
 "noise" "sound/machines/Mech-Combo.wav"
-"atten" "3.9"
-"volume" "0.24"
+"atten" "3.88"
+"volume" "0.48"
 }
 {
 "classname" "target_speaker"
 "origin" "-1024.000000 1408.000000 72.000000"
 "angle" "-179.999985"
 "noise" "sound/machines/Mech-Combo.wav"
-"atten" "3.9"
-"volume" "0.24"
+"atten" "3.88"
+"volume" "0.48"
 }
 {
 "classname" "target_speaker"
@@ -53294,88 +53294,88 @@ trak5x/base-pipe1b
 "origin" "1600.000000 4544.000000 192.000000"
 "angle" "-90.000000"
 "noise" "sound/machines/Mech-Combo.wav"
-"atten" "3.9"
-"volume" "0.24"
+"atten" "3.88"
+"volume" "0.48"
 }
 {
 "classname" "target_speaker"
 "origin" "1216.000000 4544.000000 192.000000"
 "angle" "90.000000"
 "noise" "sound/machines/Mech-Combo.wav"
-"atten" "3.9"
-"volume" "0.24"
+"atten" "3.88"
+"volume" "0.48"
 }
 {
 "classname" "target_speaker"
 "origin" "1536.000000 2688.000000 256.000000"
 "angle" "-179.999985"
 "noise" "sound/machines/Mech-Combo.wav"
-"atten" "3.9"
-"volume" "0.24"
+"atten" "3.88"
+"volume" "0.48"
 }
 {
 "classname" "target_speaker"
 "origin" "2048.000000 1984.000000 256.000000"
 "angle" "-179.999985"
 "noise" "sound/machines/Mech-Combo.wav"
-"atten" "3.9"
-"volume" "0.24"
+"atten" "3.88"
+"volume" "0.48"
 }
 {
 "classname" "target_speaker"
 "origin" "1536.000000 2048.000000 256.000000"
 "angle" "-179.999985"
 "noise" "sound/machines/Mech-Combo.wav"
-"atten" "3.9"
-"volume" "0.24"
+"atten" "3.88"
+"volume" "0.48"
 }
 {
 "classname" "target_speaker"
 "origin" "1120.000000 1024.000000 256.000000"
 "angle" "90.000000"
 "noise" "sound/machines/Mech-Combo.wav"
-"atten" "3.9"
-"volume" "0.24"
+"atten" "3.88"
+"volume" "0.48"
 }
 {
 "classname" "target_speaker"
 "origin" "-384.000000 1776.000000 256.000000"
 "angle" "90.000000"
 "noise" "sound/machines/Mech-Combo.wav"
-"atten" "3.9"
-"volume" "0.24"
+"atten" "3.88"
+"volume" "0.48"
 }
 {
 "classname" "target_speaker"
 "origin" "-640.000000 1776.000000 256.000000"
 "angle" "90.000000"
 "noise" "sound/machines/Mech-Combo.wav"
-"atten" "3.9"
-"volume" "0.24"
+"atten" "3.88"
+"volume" "0.48"
 }
 {
 "classname" "target_speaker"
 "origin" "1408.000000 2688.000000 256.000000"
 "angle" "-179.999985"
 "noise" "sound/machines/Mech-Combo.wav"
-"atten" "3.9"
-"volume" "0.24"
+"atten" "3.88"
+"volume" "0.48"
 }
 {
 "classname" "target_speaker"
 "origin" "832.000000 672.000000 256.000000"
 "angle" "-179.999985"
 "noise" "sound/machines/Mech-Combo.wav"
-"atten" "3.9"
-"volume" "0.24"
+"atten" "3.88"
+"volume" "0.48"
 }
 {
 "classname" "target_speaker"
 "origin" "-576.000000 1280.000000 256.000000"
 "angle" "0.000016"
 "noise" "sound/machines/Mech-Combo.wav"
-"atten" "3.9"
-"volume" "0.24"
+"atten" "3.88"
+"volume" "0.48"
 }
 {
 "classname" "weapon_uzi"
