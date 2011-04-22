@@ -924,6 +924,9 @@ Path corner entity that func_train will follow.
 All path_corner entities of a train have to connect in a circular manner, while the func_train shall point to one of the path_corners (ideally the one at the train's starting point)
 -------- KEYS --------
 <target key="target" name="target">point to next path_corner in the path.</target>
+<target key="target2" name="target2">triggered when a func_train stops at this target</target>
+<target key="target3" name="target3">triggered when a func_train stops at this target</target>
+<target key="target4" name="target4">triggered when a func_train stops at this target</target>
 <targetname key="targetname" name="targetname">the train following the path or the previous path_corner in the path points to this.</targetname>
 <real key="speed" name="speed">speed of func_train while moving to this path corner. If unset, the value from the func_train will be used.</real>
 <real key="wait" name="wait">number of seconds func_train will pause on this path corner before moving to next path corner (default: 0.1; to not wait, set this to -1</real>
@@ -1499,6 +1502,42 @@ Example is a Mario-style question mark block which could throw a new weapon_nex 
 -------- SPAWNFLAGS --------
 <flag key="ONLOAD" name="ONLOAD" bit="1">create a first entity on map load</flag>
 </point>
+
+<group name="misc_breakablemodel" color="1 0 0">
+This is a model which can be damaged.
+Once all health is consumed it'll disappear and trigger the targeted entity/entities.
+When triggered, it resets to full health, and unbreaks.
+-------- KEYS --------
+<model key="model" name="model">file name of model to include</model>
+<real key="health" name="health">The damage this trigger can take</real>
+<target key="target" name="target">The entity/entities to be triggered once this entity gets invisible</target>
+<targetname key="targetname" name="targetname">The name other entities can use to target this entity</targetname>
+<string key="mdl" name="mdl">particle effect name to show when destroyed</string>
+<real key="count" name="count">particle effect multiplier</real>
+<string key="mdl_dead" name="mdl_dead">optional replacement model to show when destroyed</string>
+<string key="debris" name="debris">names of debris models to show when destroyed, separated by spaces</string>
+<sound key="noise" name="noise">sound to play when destroyed</sound>
+<real key="dmg" name="dmg">damage to deal to the environment when destroyed</real>
+<real key="dmg_edge" name="dmg_edge">edge damage to deal to the environment when destroyed</real>
+<real key="dmg_radius" name="dmg_radius">damage radius</real>
+<real key="dmg_force" name="dmg_force">damage force</real>
+<string key="message" name="message">death message when a player gets hit by the explosion</string>
+<string key="message2" name="message2">death message when someone gets pushed into this (default: &quot;was pushed into an explosion by&quot;). The # character is replaced by the attacker name if present (and it instead does not get appended to the end)</string>
+<real key="debrismovetype" name="debrismovetype">way in which the debris moves: one of 1 = ANGLENOCLIP, 2 = ANGLECLIP, 3 = WALK, 4 = STEP, 5 = FLY, 6 = TOSS, 7 = PUSH, 8 = NOCLIP, 9 = FLYMISSILE, 10 = BOUNCE, 11 = BOUNCEMISSILE</real>
+<real key="debrissolid" name="debrissolid">solidity of the debris: one of 0 = NOT, 1 = TRIGGER, 2 = BBOX, 3 = SLIDEBOX, 4 = BSP, 5 = CORPSE</real>
+<real3 key="debrisvelocity" name="debrisvelocity">initial velocity vector of the debris (static part)</real3>
+<real3 key="debrisvelocityjitter" name="debrisvelocityjitter">initial velocity vector of the debris (random part)</real3>
+<real3 key="debrisavelocityjitter" name="debrisavelocityjitter">initial angular velocity vector of the debris (random part)</real3>
+<real key="debristime" name="debristime">time till the debris fades (average)</real>
+<real key="debristimejitter" name="debristimejitter">time till the debris fades (random part)</real>
+<real key="debrisfadetime" name="debrisfadetime">how long debris takes to fade</real>
+<real key="debrisdamageforcescale" name="debrisdamageforcescale">how much debris is affected by damage force (e.g. explosions)</real>
+<real key="debrisskin" name="debrisskin">skin number of debris</real>
+-------- SPAWNFLAGS --------
+<flag key="DISABLED" name="DISABLED" bit="0">do not allow damaging this until it is first activated</flag>
+<flag key="INDICATE" name="INDICATE" bit="1">indicate amount of damage already taken by coloring</flag>
+<flag key="NOSPLASH" name="NOSPLASH" bit="8">if set, splash damage cannot activate the door, only direct damage can (requires health to be set)</flag>
+</group>
 
 <group name="func_breakable" color="1 0 0">
 This is a brush model which can be damaged.
