@@ -1,4 +1,4 @@
-models/crate/crate02
+models/containers/crate02
 {
 	dpreflectcube cubemaps/default/sky
  	{
