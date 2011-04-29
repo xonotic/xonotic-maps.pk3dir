@@ -193,23 +193,6 @@ textures/map_xoylent/panels_horizontal
 	}
 }
 
-textures/map_xoylent/panels_rust
-{
-	qer_editorimage textures/map_xoylent/panels_rust.tga
-	dpoffsetmapping - 2
-	dpglossintensitymod 3
-	dpglossexponentmod 4
-	{
-		map textures/map_xoylent/panels_rust.tga
-	}
-	{
-		map $lightmap
-		rgbGen identity
-		tcGen lightmap
-		blendfunc filter
-	}
-}
-
 textures/map_xoylent/panels_trim
 {
 	qer_editorimage textures/map_xoylent/panels_trim.tga
