@@ -18,10 +18,12 @@ map_red-planet
 map_space-elevator
 map_techassault
 map_stormkeep
+map_xoylent
 model_bigfan01
 model_desertfactory
 model_tree
 model_xonotic_jumppad01
+model_xoylent
 narmorx
 proceduralx
 skies_calm_sea
