@@ -1,0 +1,13 @@
+title Xoylent
+description A remake of soylent.
+author sev, Strahlemann
+has weapons
+gametype dm
+gametype lms
+gametype arena
+gametype tdm
+gametype ca
+gametype freezetag
+gametype rune
+gametype keepaway
+cdtrack 7
