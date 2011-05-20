@@ -120,6 +120,7 @@ target2: all entities with a matching targetname will be triggered.
 target3: all entities with a matching targetname will be triggered.
 target4: all entities with a matching targetname will be triggered.
 speed: speed of button's displacement (default 40).
+platmovetype: movement type (1 = linear, 2 = cosine [default])
 wait: number of seconds button stays pressed (default 1, -1 = return immediately).
 lip: lip remaining at end of move (default 4 units).
 health: (default 0) if set to any non-zero value, the button must take damage (any amount) to activate.
@@ -137,6 +138,7 @@ angle: determines the opening direction
 targetname: if set, no touch field will be spawned and a remote button or trigger field activates the door.
 health: if set, door must be shot open
 speed: movement speed (100 default)
+platmovetype: movement type (1 = linear, 2 = cosine [default])
 wait: wait before returning (3 default, -1 = never return)
 lip: lip remaining at end of move (8 default)
 dmg: damage to inflict when blocked (when triggered and someone is in the way)
@@ -180,6 +182,7 @@ NOSPLASH: if set, splash damage cannot activate the door, only direct damage can
 /*QUAKED func_door_secret (0 .5 .8) ? OPEN_ONCE 1ST_LEFT 1ST_DOWN NO_SHOOT ALWAYS_SHOOT
 Basic secret door. Slides back, then to the side. Angle determines direction. Opens when targeted or when shot; does not create its own trigger field like func_door does.
 -------- KEYS --------
+platmovetype: movement type (1 = linear, 2 = cosine [default])
 wait: # of seconds before coming back
 key1: first entity key with one-line description
 key2: second entity key with one-line description
@@ -222,6 +225,7 @@ grab a trigger brush and put it in front of the part that you want the player to
 Rising platform the player can ride to reach higher places. Plats must always be drawn in the raised position, so they will operate and be lighted correctly but they spawn in the lowered position. The plat will stay in the raised position until the player steps off.
 -------- KEYS --------
 speed: determines how fast the plat moves (default 150).
+platmovetype: movement type (1 = linear, 2 = cosine [default])
 lip: lip remaining at end of move (default 16). Has no effect if "height" is set.
 height: if set, this will determine the total amount of vertical travel of the plat.
 dmg: damage to inflict on player when he blocks operation of plat. Plat will reverse direction when blocked.
@@ -282,6 +286,7 @@ Trains are not trigger-able or toggle-able.
 Trains cannot be block-stopped just by getting in their way, the player must be wedged between the train and another obstacle to block it.
 -------- KEYS --------
 speed: default/initial speed of train (default 100 or overridden by speed value of targeted path_corner)
+platmovetype: movement type (1 = linear, 2 = cosine [default])
 target: targetname of first path_corner to move to at the default speed; ideally, this path_corner shall be exactly where the train starts
 noise: path/name of .wav or .ogg file to play while moving. Use looping sounds only (e.g. sound/world/drone6.wav - See Notes).
 dmg: damage a player who gets crushed by it receives
@@ -376,6 +381,7 @@ restriction: when 1, only bots can spawn here; when 2, only humans can spawn her
 Large Armor (default 100 armor points)
 -------- KEYS --------
 respawntime: time till it respawns (default: 30)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 armorvalue: amount of armor it gives (default: 100 (g_pickup_armorlarge))
 max_armorvalue: max of armor it increases to (default: 999 (g_pickup_armorlarge_max))
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
@@ -390,6 +396,7 @@ modeldisabled="models/items/g_a25.md3"
 Big Armor (default 50 armor points)
 -------- KEYS --------
 respawntime: time till it respawns (default: 20)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 armorvalue: amount of armor it gives (default: 50 (g_pickup_armorlarge))
 max_armorvalue: max of armor it increases to (default: 999 (g_pickup_armorlarge_max))
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
@@ -404,6 +411,7 @@ modeldisabled="models/items/g_a50.md3"
 Medium Armor (default 25 armor points)
 -------- KEYS --------
 respawntime: time till it respawns (default: 20)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 armorvalue: amount of armor it gives (default: 25 (g_pickup_armormedium))
 max_armorvalue: max of armor it increases to (default: 999 (g_pickup_armormedium_max))
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
@@ -418,6 +426,7 @@ modeldisabled="models/items/g_armormedium.md3"
 Small Armor (default 5 armor points)
 -------- KEYS --------
 respawntime: time till it respawns (default: 15)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 armorvalue: amount of armor it gives (default: 5 (g_pickup_armorsmall))
 max_armorvalue: max of armor it increases to (default: 999 (g_pickup_armorsmall_max))
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
@@ -433,6 +442,7 @@ Machine Gun ammo
 -------- KEYS --------
 ammo_nails: bullets gained by this item (if unset, g_pickup_nails is used)
 respawntime: time till it respawns (default: 15)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -446,6 +456,7 @@ Nex, Electro and Crylink ammo
 -------- KEYS --------
 ammo_cells: cells gained by this item (if unset, g_pickup_cells is used)
 respawntime: time till it respawns (default: 15)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -484,6 +495,7 @@ zbqry="zbqryf/pgs/enqvnag/synt_oyhr_enqvnag.zq3"
 Large Health (default 50 health points)
 -------- KEYS --------
 respawntime: time till it respawns (default: 20)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 health: amount of health it gives (default: 50 (g_pickup_healthlarge))
 max_health: max of health it increases to (default: 999 (g_pickup_healthlarge_max))
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
@@ -498,6 +510,7 @@ modeldisabled="models/items/g_h50.md3"
 Medium Health (default 25 health points)
 -------- KEYS --------
 respawntime: time till it respawns (default: 15)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 health: amount of health it gives (default: 25 (g_pickup_healthmedium))
 max_health: max of health it increases to (default: 999 (g_pickup_healthmedium_max))
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
@@ -513,6 +526,7 @@ Mega Health (default 100 health points)
 In Minstagib, this randomly turns into either an invisibility, an extra lives or a speed power-up with a default respawn time of 120.
 -------- KEYS --------
 respawntime: time till it respawns (default: 30)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 health: amount of health it gives (default: 100 (g_pickup_healthmega))
 max_health: max of health it increases to (default: 999 (g_pickup_healthmega_max))
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
@@ -527,6 +541,7 @@ modeldisabled="models/items/g_h100.md3"
 Small Health (default 5 health points)
 -------- KEYS --------
 respawntime: time till it respawns (default: 15)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 health: amount of health it gives (default: 5 (g_pickup_healthsmall))
 max_health: max of health it increases to (default: 5 (g_pickup_healthsmall_max))
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
@@ -542,6 +557,7 @@ Strong Shield
 In Minstagib, this randomly turns into either an invisibility, an extra lives or a speed power-up with a default respawn time of 120.
 -------- KEYS --------
 respawntime: time till it respawns (default: 120)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -556,6 +572,7 @@ Always contains 5 (g_minstagib_ammo_drop) shots.
 It only appears when playing Minstagib and prevents auto-replacement of weapon_nex & weapon_rocketlauncher when used.
 -------- KEYS --------
 respawntime: time till it respawns (default: 45)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -569,6 +586,7 @@ Rocket Launcher, Hagar and Mortar ammo
 -------- KEYS --------
 ammo_rockets: rockets gained by this item (if unset, g_pickup_rockets is used)
 respawntime: time till it respawns (default: 15)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -582,6 +600,7 @@ Shotgun ammo
 -------- KEYS --------
 ammo_shells: shells gained by this item (if unset, g_pickup_shells is used)
 respawntime: time till it respawns (default: 15)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -595,6 +614,7 @@ Strength aka Quad damage
 In Minstagib, this randomly turns into either an invisibility, an extra lives or a speed power-up with a default respawn time of 120.
 -------- KEYS --------
 respawntime: time till it respawns (default: 120)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -917,6 +937,9 @@ Path corner entity that func_train will follow.
 All path_corner entities of a train have to connect in a circular manner, while the func_train shall point to one of the path_corners (ideally the one at the train's starting point)
 -------- KEYS --------
 target: point to next path_corner in the path.
+target2: triggered when a func_train stops at this target
+target3: triggered when a func_train stops at this target
+target4: triggered when a func_train stops at this target
 targetname: the train following the path or the previous path_corner in the path points to this.
 speed: speed of func_train while moving to this path corner. If unset, the value from the func_train will be used.
 wait: number of seconds func_train will pause on this path corner before moving to next path corner (default: 0.1; to not wait, set this to -1
@@ -1019,6 +1042,7 @@ dmg: amount of damage to deal (default: 1000)
 message: kill message when someone gets killed by this (default: "was in the wrong place")
 message2: kill message when someone gets pushed into this (default: "was thrown into a world of hurt by"). The # character is replaced by the attacker name if present (and it instead does not get appended to the end)
 team: team that gets hurt (5 = red, 14 = blue, etc) (when set, only this team can get hurt)
+targetname: if triggered using this target name, the activator will be the one who gets the frag awarded for hurting someone using this trigger (hint: The Frag Pipe)
 -------- SPAWNFLAGS --------
 INVERT_TEAM: the team that owns this will NOT jump when touching this
 */
@@ -1136,6 +1160,7 @@ the Crylink
 -------- KEYS --------
 ammo_cells: initial cells of the weapon (if unset, g_pickup_cells is used)
 respawntime: time till it respawns (default: 15)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -1149,6 +1174,7 @@ the Electro
 -------- KEYS --------
 ammo_cells: initial cells of the weapon (if unset, g_pickup_cells is used)
 respawntime: time till it respawns (default: 15)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -1162,6 +1188,7 @@ the Mortar
 -------- KEYS --------
 ammo_rockets: initial rockets of the weapon (if unset, g_pickup_rockets is used)
 respawntime: time till it respawns (default: 15)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -1175,6 +1202,7 @@ the Hagar
 -------- KEYS --------
 ammo_rockets: initial rockets of the weapon (if unset, g_pickup_rockets is used)
 respawntime: time till it respawns (default: 15)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -1189,6 +1217,7 @@ the Laser. Note that unless you use
 in your mapinfo file, everyone will already spawn with one, making this pickup useless.
 -------- KEYS --------
 respawntime: time till it respawns (default: 15)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -1203,6 +1232,7 @@ In Minstagib, this turns into an item_minst_cells if no explicit item_minst_cell
 -------- KEYS --------
 ammo_cells: initial cells of the weapon (if unset, g_pickup_cells is used)
 respawntime: time till it respawns (default: 15 * g_balance_nex_respawntime_modifier)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -1217,6 +1247,7 @@ In Minstagib, this turns into an item_minst_cells if no explicit item_minst_cell
 -------- KEYS --------
 ammo_rockets: initial rockets of the weapon (if unset, g_pickup_rockets is used)
 respawntime: time till it respawns (default: 15)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -1232,6 +1263,7 @@ in your mapinfo file, everyone will already spawn with one, making this pickup u
 -------- KEYS --------
 ammo_shells: initial shells of the weapon (if unset, g_pickup_shells is used)
 respawntime: time till it respawns (default: 15)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -1245,6 +1277,7 @@ the Machine Gun
 -------- KEYS --------
 ammo_nails: initial bullets of the weapon (if unset, g_pickup_nails is used)
 respawntime: time till it respawns (default: 15)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -1407,6 +1440,7 @@ the MinstaGib Nex. Always kills with one shot.
 -------- KEYS --------
 ammo_cells: initial cells of the weapon (if unset, g_pickup_cells is used)
 respawntime: time till it respawns (default: 15)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -1420,6 +1454,7 @@ the Port-O-Launch. Only can be shot once.
 Portals cannot be made on noimpact surfaces, and the portal missile will bounce on slick surfaces.
 -------- KEYS --------
 respawntime: time till it respawns (default: 120)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -1492,6 +1527,44 @@ target4: reference entity (can be used as $target4)
 ONLOAD: create a first entity on map load
 */
 
+/*QUAKED misc_breakablemodel (1 0 0) ? DISABLED INDICATE - - - - - - NOSPLASH
+This is a model which can be damaged.
+Once all health is consumed it'll disappear and trigger the targeted entity/entities.
+When triggered, it resets to full health, and unbreaks.
+-------- KEYS --------
+model: file name of model to include
+health: The damage this trigger can take
+target: The entity/entities to be triggered once this entity gets invisible
+targetname: The name other entities can use to target this entity
+mdl: particle effect name to show when destroyed
+count: particle effect multiplier
+mdl_dead: optional replacement model to show when destroyed
+debris: names of debris models to show when destroyed, separated by spaces
+noise: sound to play when destroyed
+dmg: damage to deal to the environment when destroyed
+dmg_edge: edge damage to deal to the environment when destroyed
+dmg_radius: damage radius
+dmg_force: damage force
+message: death message when a player gets hit by the explosion
+message2: death message when someone gets pushed into this (default: "was pushed into an explosion by"). The # character is replaced by the attacker name if present (and it instead does not get appended to the end)
+debrismovetype: way in which the debris moves: one of 1 = ANGLENOCLIP, 2 = ANGLECLIP, 3 = WALK, 4 = STEP, 5 = FLY, 6 = TOSS, 7 = PUSH, 8 = NOCLIP, 9 = FLYMISSILE, 10 = BOUNCE, 11 = BOUNCEMISSILE
+debrissolid: solidity of the debris: one of 0 = NOT, 1 = TRIGGER, 2 = BBOX, 3 = SLIDEBOX, 4 = BSP, 5 = CORPSE
+debrisvelocity: initial velocity vector of the debris (static part)
+debrisvelocityjitter: initial velocity vector of the debris (random part)
+debrisavelocityjitter: initial angular velocity vector of the debris (random part)
+debristime: time till the debris fades (average)
+debristimejitter: time till the debris fades (random part)
+debrisfadetime: how long debris takes to fade
+debrisdamageforcescale: how much debris is affected by damage force (e.g. explosions)
+debrisskin: skin number of debris
+respawntime: time till it respawns (default: no auto respawn)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
+-------- SPAWNFLAGS --------
+DISABLED: do not allow damaging this until it is first activated
+INDICATE: indicate amount of damage already taken by coloring
+NOSPLASH: if set, splash damage cannot activate the door, only direct damage can (requires health to be set)
+*/
+
 /*QUAKED func_breakable (1 0 0) ? DISABLED INDICATE - - - - - - NOSPLASH
 This is a brush model which can be damaged.
 Once all health is consumed it'll disappear and trigger the targeted entity/entities.
@@ -1521,6 +1594,8 @@ debristimejitter: time till the debris fades (random part)
 debrisfadetime: how long debris takes to fade
 debrisdamageforcescale: how much debris is affected by damage force (e.g. explosions)
 debrisskin: skin number of debris
+respawntime: time till it respawns (default: no auto respawn)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 -------- SPAWNFLAGS --------
 DISABLED: do not allow damaging this until it is first activated
 INDICATE: indicate amount of damage already taken by coloring
@@ -1544,6 +1619,7 @@ the Heavy Laser Assault Cannon.
 -------- KEYS --------
 ammo_cells: initial cells of the weapon (if unset, g_pickup_cells is used)
 respawntime: time till it respawns (default: 30)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -1557,6 +1633,7 @@ the Mine Layer.
 -------- KEYS --------
 ammo_rockets: initial rockets of the weapon (if unset, g_pickup_rockets is used)
 respawntime: time till it respawns (default: 30)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -1571,6 +1648,7 @@ the T.A.G. Seeker.
 -------- KEYS --------
 ammo_rockets: initial rockets of the weapon (if unset, g_pickup_rockets is used)
 respawntime: time till it respawns (default: 30)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -1584,6 +1662,7 @@ the on-hand Grappling Hook.
 -------- KEYS --------
 ammo_cells: initial cells of the weapon (if unset, g_pickup_cells is used)
 respawntime: time till it respawns (default: 30)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -1605,6 +1684,7 @@ the Sniper Rifle.
 -------- KEYS --------
 ammo_nails: initial bullets of the weapon (if unset, g_pickup_nails is used)
 respawntime: time till it respawns (default: 30)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -1751,6 +1831,7 @@ Jetpack fuel
 -------- KEYS --------
 ammo_fuel: fuel units gained by this item (if unset, g_pickup_fuel is used)
 respawntime: time till it respawns (default: 15)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -1763,6 +1844,7 @@ modeldisabled="models/items/g_fuel.md3"
 Fuel regenerator
 -------- KEYS --------
 respawntime: time till it respawns (default: 120)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -1776,6 +1858,7 @@ Jetpack
 -------- KEYS --------
 ammo_fuel: fuel units gained by this item (if unset, g_pickup_fuel_jetpack is used)
 respawntime: time till it respawns (default: 120)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -1810,6 +1893,7 @@ the Fireball
 -------- KEYS --------
 ammo_rockets: initial rockets of the weapon (if unset, g_pickup_rockets is used)
 respawntime: time till it respawns (default: 15)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
