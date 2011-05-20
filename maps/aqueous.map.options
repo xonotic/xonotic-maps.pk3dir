@@ -1,5 +1,5 @@
 -bsp +
--light + -bounce 9 -dirtscale 2
+-light + -bounce 7 -dirty -dirtscale 3
 -vis +
 -minimap +
 Version: 6

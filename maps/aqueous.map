@@ -287,7 +287,7 @@
 ( -832 64 0 ) ( -800 64 0 ) ( -832 -64 0 ) exx/floor-rnd02 0 0 -90 0.25 0.25 0 0 0
 }
 {
-( 704 1024 -32 ) ( 704 -1504 -32 ) ( -1472 1024 -32 ) liquids_water/water2 0 0 -90 0.25 0.25 0 0 0
+( 704 1024 -32 ) ( 704 -1504 -32 ) ( -1472 1024 -32 ) liquids_water/water0 0 0 -90 0.25 0.25 0 0 0
 ( 704 1024 128 ) ( -1472 1024 128 ) ( 704 1024 -64 ) trak4x/base-concrete3 0 0 0 0.25 0.25 0 0 0
 ( 704 1024 128 ) ( 704 1024 -64 ) ( 704 -1504 128 ) trak4x/base-concrete3 0 0 0 0.25 0.25 0 0 0
 ( -1472 -1504 -80 ) ( 704 -1504 -80 ) ( -1472 1024 -80 ) trak4x/base-concrete3 0 0 0 0.25 0.25 0 0 0
@@ -25042,10 +25042,10 @@ trak5x/base-base1b
 {
 ( -1256 64 192 ) ( -1248 64 192 ) ( -1256 -64 192 ) exx/panel-rs01 0 0 0 0.25 0.25 0 0 0
 ( -128 736 -64 ) ( -128 704 -64 ) ( -128 736 64 ) exx/base-metal03 0 0 0 0.25 0.25 0 0 0
-( -832 576 -64 ) ( -832 608 -64 ) ( -832 576 64 ) trak4x/wall-brick1 0 0 0 0.25 0.25 0 0 0
-( -144 768 64 ) ( -192 768 -64 ) ( -144 768 -64 ) exx/trim-baseboard02 72 24 0 0.25 0.25 0 0 0
 ( -516 576 64 ) ( -504 576 -64 ) ( -516 576 -64 ) exx/wall-bigrib02 0 0 0 0.25 0.25 0 0 0
 ( 64 752 168 ) ( -64 760 168 ) ( -64 752 168 ) exx/trim-baseboard02 0 0 0 0.25 0.25 0 0 0
+( -488 640 -64 ) ( -472 640 -64 ) ( -488 640 64 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( -576 600 -64 ) ( -576 616 -64 ) ( -576 600 64 ) exx/base-metal01 0 0 0 0.25 0.25 0 0 0
 }
 {
 patchDef2
@@ -25436,10 +25436,43 @@ ex2x/base-yellowpaint
 )
 }
 }
+{
+( 32 792 32 ) ( 32 776 32 ) ( -64 792 32 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( 48 864 32 ) ( -48 864 32 ) ( 48 864 -80 ) common/clip 448 0 0 0.25 0.25 0 0 0
+( 128 792 32 ) ( 128 792 -80 ) ( 128 776 32 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( -64 776 -80 ) ( 32 776 -80 ) ( -64 792 -80 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( -64 776 -80 ) ( -64 776 32 ) ( 32 776 -80 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( -64 776 -80 ) ( -64 792 -80 ) ( -64 776 32 ) common/clip 0 0 0 0.25 0.25 0 0 0
+}
+{
+( -1256 64 192 ) ( -1248 64 192 ) ( -1256 -64 192 ) exx/panel-rs01 0 0 0 0.25 0.25 0 0 0
+( -128 736 -64 ) ( -128 704 -64 ) ( -128 736 64 ) exx/base-metal03 0 0 0 0.25 0.25 0 0 0
+( -832 576 -64 ) ( -832 608 -64 ) ( -832 576 64 ) trak4x/wall-brick1 0 0 0 0.25 0.25 0 0 0
+( -144 768 64 ) ( -192 768 -64 ) ( -144 768 -64 ) exx/trim-baseboard02 72 24 0 0.25 0.25 0 0 0
+( 64 752 168 ) ( -64 760 168 ) ( -64 752 168 ) exx/trim-baseboard02 0 0 0 0.25 0.25 0 0 0
+( -488 640 64 ) ( -472 640 -64 ) ( -488 640 -64 ) common/clip 0 0 0 0.25 0.25 0 0 0
+}
+{
+( -1256 64 192 ) ( -1248 64 192 ) ( -1256 -64 192 ) exx/panel-rs01 0 0 0 0.25 0.25 0 0 0
+( -832 576 -64 ) ( -832 608 -64 ) ( -832 576 64 ) trak4x/wall-brick1 0 0 0 0.25 0.25 0 0 0
+( -516 576 64 ) ( -504 576 -64 ) ( -516 576 -64 ) exx/wall-bigrib02 0 0 0 0.25 0.25 0 0 0
+( 64 752 168 ) ( -64 760 168 ) ( -64 752 168 ) exx/trim-baseboard02 0 0 0 0.25 0.25 0 0 0
+( -488 640 -64 ) ( -472 640 -64 ) ( -488 640 64 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( -640 584 64 ) ( -640 592 -64 ) ( -640 584 -64 ) exx/base-metal01 0 0 0 0.25 0.25 0 0 0
+}
+{
+( -516 576 64 ) ( -504 576 -64 ) ( -516 576 -64 ) exx/wall-bigrib02 0 0 0 0.25 0.25 0 0 0
+( 64 752 168 ) ( -64 760 168 ) ( -64 752 168 ) exx/trim-baseboard02 0 0 0 0.25 0.25 0 0 0
+( -488 640 -64 ) ( -472 640 -64 ) ( -488 640 64 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( -640 584 -64 ) ( -640 592 -64 ) ( -640 584 64 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( -576 600 64 ) ( -576 616 -64 ) ( -576 600 -64 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( -64 576 184 ) ( -64 640 192 ) ( 64 576 184 ) exx/panel-rs01 0 0 0 0.25 0.25 0 0 0
+}
 }
 {
 "classname" "info_player_deathmatch"
-"origin" "-416.000000 352.000000 24.000000"
+"origin" "216.000000 -1008.000000 24.000000"
+"angle" "90.000008"
 }
 {
 "classname" "misc_model"
@@ -25467,7 +25500,7 @@ ex2x/base-yellowpaint
 }
 {
 "classname" "info_player_deathmatch"
-"origin" "32.000000 -96.000000 24.000000"
+"origin" "32.000000 -224.000000 24.000000"
 }
 {
 "classname" "light"
@@ -26603,4 +26636,172 @@ facility114x/base-basered
 "model" "models/lights/xonlight02.md3"
 "angles" "0.000010 -90.000000 90.000008"
 "modelscale" "0.450000"
+}
+{
+"classname" "item_armor_small"
+"origin" "480.000000 -288.000000 0.000000"
+}
+{
+"classname" "item_armor_small"
+"origin" "480.000000 -32.000000 0.000000"
+}
+{
+"classname" "item_armor_small"
+"origin" "480.000000 -96.000000 0.000000"
+}
+{
+"classname" "item_armor_small"
+"origin" "480.000000 -160.000000 0.000000"
+}
+{
+"classname" "item_armor_small"
+"origin" "480.000000 -224.000000 0.000000"
+}
+{
+"classname" "item_health_small"
+"origin" "-416.000000 -1280.000000 0.000000"
+}
+{
+"classname" "item_health_small"
+"origin" "-672.000000 -1280.000000 0.000000"
+}
+{
+"classname" "item_health_small"
+"origin" "-608.000000 -1280.000000 0.000000"
+}
+{
+"classname" "item_health_small"
+"origin" "-544.000000 -1280.000000 0.000000"
+}
+{
+"classname" "item_health_small"
+"origin" "-480.000000 -1280.000000 0.000000"
+}
+{
+"classname" "item_health_medium"
+"origin" "-1184.000000 712.000000 0.000000"
+}
+{
+"classname" "item_cells"
+"origin" "-1184.000000 648.000000 0.000000"
+}
+{
+"classname" "item_rockets"
+"origin" "-1184.000000 776.000000 0.000000"
+}
+{
+"classname" "item_cells"
+"origin" "608.000000 -1312.000000 0.000000"
+}
+{
+"classname" "item_cells"
+"origin" "608.000000 -1248.000000 0.000000"
+}
+{
+"classname" "item_bullets"
+"origin" "512.000000 -1408.000000 0.000000"
+}
+{
+"classname" "item_bullets"
+"origin" "448.000000 -1408.000000 0.000000"
+}
+{
+"classname" "item_armor_medium"
+"origin" "-960.000000 -512.000000 144.000000"
+}
+{
+"classname" "item_rockets"
+"origin" "-960.000000 -440.000000 144.000000"
+}
+{
+"classname" "item_shells"
+"origin" "-888.000000 -512.000000 144.000000"
+}
+{
+"classname" "weapon_hagar"
+"origin" "288.000000 64.000000 192.000000"
+}
+{
+"classname" "item_rockets"
+"origin" "288.000000 0.000000 192.000000"
+}
+{
+"classname" "item_rockets"
+"origin" "288.000000 128.000000 192.000000"
+}
+{
+"classname" "item_health_small"
+"origin" "-992.000000 864.000000 192.000000"
+}
+{
+"classname" "item_armor_small"
+"origin" "-992.000000 800.000000 192.000000"
+}
+{
+"classname" "item_armor_small"
+"origin" "-928.000000 864.000000 192.000000"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-792.000000 888.000000 24.000000"
+"angle" "-89.999992"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "32.000000 704.000000 24.000000"
+"angle" "-90.000000"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-216.000000 -40.000000 216.000000"
+"angle" "90.000000"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-416.000000 616.000000 216.000000"
+"angle" "89.999992"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-416.000000 352.000000 24.000000"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-864.000000 -1280.000000 24.000000"
+"angle" "90.000000"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-1312.000000 -544.000000 24.000000"
+"angle" "0.000003"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-1064.000000 -64.000000 24.000000"
+"angle" "-180.000000"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "256.000000 656.000000 216.000000"
+"angle" "-90.000000"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-648.000000 64.000000 216.000000"
+"angle" "-180.000000"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-864.000000 -224.000000 168.000000"
+"angle" "-179.999985"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-128.000000 -896.000000 168.000000"
+"angle" "90.000008"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "560.000000 -600.000000 24.000000"
+"angle" "-180.000000"
 }
