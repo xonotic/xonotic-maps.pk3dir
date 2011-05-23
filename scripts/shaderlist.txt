@@ -15,6 +15,7 @@ liquids_lava
 liquids_slime
 liquids_water
 logos
+map_afterslime
 map_glowplant
 map_leave_em_behind
 map_newtonian-nightmare
