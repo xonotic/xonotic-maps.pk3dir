@@ -1645,7 +1645,7 @@ max_health: max health this trigger will give (default 200)
 noise: sound file to play (use misc/null.wav to make it silent), default = item_health_medium sound
 */
 
-/*QUAKED weapon_sniperrifle (1 0 .5) (-30 -30 0) (30 30 32) FLOATING
+/*QUAKED weapon_rifle (1 0 .5) (-30 -30 0) (30 30 32) FLOATING
 the Sniper Rifle.
 -------- KEYS --------
 ammo_nails: initial bullets of the weapon (if unset, g_pickup_nails is used)
