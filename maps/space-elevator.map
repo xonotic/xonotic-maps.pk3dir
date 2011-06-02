@@ -33147,7 +33147,7 @@ effects_jumppad/jumppadfx1_a
 "origin" "-208.000000 -688.000000 -64.000000"
 }
 {
-"classname" "weapon_sniperrifle"
+"classname" "weapon_rifle"
 "origin" "0.000000 0.000000 704.000000"
 "height" "64"
 }

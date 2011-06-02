@@ -1681,7 +1681,7 @@ Any object touching this will be healed.
 <sound key="noise" name="noise">sound file to play (use misc/null.wav to make it silent), default = item_health_medium sound</sound>
 </group>
 
-<point name="weapon_sniperrifle" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_rifle" color="1 0 .5" box="-30 -30 0 30 30 32">
 the Sniper Rifle.
 -------- KEYS --------
 <real key="ammo_nails" name="ammo_nails">initial bullets of the weapon (if unset, g_pickup_nails is used)</real>
