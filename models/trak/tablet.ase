@@ -12,7 +12,7 @@
 *MATERIAL_LIST {
 	*MATERIAL_COUNT 1
 	*MATERIAL 0 {
-		*MATERIAL_NAME "models/mapobjects/trak/tablet"
+		*MATERIAL_NAME "models/trak/tablet"
 		*MATERIAL_CLASS "Standard"
 		*MATERIAL_AMBIENT 0.588235	0.588235	0.588235
 		*MATERIAL_DIFFUSE 0.588235	0.588235	0.588235
@@ -31,7 +31,7 @@
 			*MAP_CLASS "Bitmap"
 			*MAP_SUBNO 1
 			*MAP_AMOUNT 1.000000
-			*BITMAP "D:\games\Xreal\trunk\xreal\base\models\mapobjects\trak\tablet.tga"
+			*BITMAP "models/trak/tablet.tga"
 			*MAP_TYPE Screen
 			*UVW_U_OFFSET 0.000000
 			*UVW_V_OFFSET 0.000000
@@ -51,7 +51,7 @@
 			*MAP_CLASS "Bitmap"
 			*MAP_SUBNO 2
 			*MAP_AMOUNT 1.000000
-			*BITMAP "D:\games\Xreal\trunk\xreal\base\models\mapobjects\trak\tablet_s.tga"
+			*BITMAP "models/trak/tablet_norm.tga"
 			*MAP_TYPE Screen
 			*UVW_U_OFFSET 0.000000
 			*UVW_V_OFFSET 0.000000
