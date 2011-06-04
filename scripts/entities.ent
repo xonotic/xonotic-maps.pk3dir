@@ -383,6 +383,7 @@ Pink team's player spawning location, but there is no game mode to use this yet.
 Large Armor (default 100 armor points)
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 30)</real>
+<real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <real key="armorvalue" name="armorvalue">amount of armor it gives (default: 100 (g_pickup_armorlarge))</real>
 <real key="max_armorvalue" name="max_armorvalue">max of armor it increases to (default: 999 (g_pickup_armorlarge_max))</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
@@ -397,6 +398,7 @@ modeldisabled=&quot;models/items/g_a25.md3&quot;
 Big Armor (default 50 armor points)
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 20)</real>
+<real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <real key="armorvalue" name="armorvalue">amount of armor it gives (default: 50 (g_pickup_armorlarge))</real>
 <real key="max_armorvalue" name="max_armorvalue">max of armor it increases to (default: 999 (g_pickup_armorlarge_max))</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
@@ -411,6 +413,7 @@ modeldisabled=&quot;models/items/g_a50.md3&quot;
 Medium Armor (default 25 armor points)
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 20)</real>
+<real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <real key="armorvalue" name="armorvalue">amount of armor it gives (default: 25 (g_pickup_armormedium))</real>
 <real key="max_armorvalue" name="max_armorvalue">max of armor it increases to (default: 999 (g_pickup_armormedium_max))</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
@@ -425,6 +428,7 @@ modeldisabled=&quot;models/items/g_armormedium.md3&quot;
 Small Armor (default 5 armor points)
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
+<real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <real key="armorvalue" name="armorvalue">amount of armor it gives (default: 5 (g_pickup_armorsmall))</real>
 <real key="max_armorvalue" name="max_armorvalue">max of armor it increases to (default: 999 (g_pickup_armorsmall_max))</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
@@ -440,6 +444,7 @@ Machine Gun ammo
 -------- KEYS --------
 <real key="ammo_nails" name="ammo_nails">bullets gained by this item (if unset, g_pickup_nails is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
+<real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
@@ -453,6 +458,7 @@ Nex, Electro and Crylink ammo
 -------- KEYS --------
 <real key="ammo_cells" name="ammo_cells">cells gained by this item (if unset, g_pickup_cells is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
+<real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
@@ -491,6 +497,7 @@ zbqry=&quot;zbqryf/pgs/enqvnag/synt_oyhr_enqvnag.zq3&quot;
 Large Health (default 50 health points)
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 20)</real>
+<real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <real key="health" name="health">amount of health it gives (default: 50 (g_pickup_healthlarge))</real>
 <real key="max_health" name="max_health">max of health it increases to (default: 999 (g_pickup_healthlarge_max))</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
@@ -505,6 +512,7 @@ modeldisabled=&quot;models/items/g_h50.md3&quot;
 Medium Health (default 25 health points)
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
+<real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <real key="health" name="health">amount of health it gives (default: 25 (g_pickup_healthmedium))</real>
 <real key="max_health" name="max_health">max of health it increases to (default: 999 (g_pickup_healthmedium_max))</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
@@ -520,6 +528,7 @@ Mega Health (default 100 health points)
 In Minstagib, this randomly turns into either an invisibility, an extra lives or a speed power-up with a default respawn time of 120.
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 30)</real>
+<real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <real key="health" name="health">amount of health it gives (default: 100 (g_pickup_healthmega))</real>
 <real key="max_health" name="max_health">max of health it increases to (default: 999 (g_pickup_healthmega_max))</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
@@ -534,6 +543,7 @@ modeldisabled=&quot;models/items/g_h100.md3&quot;
 Small Health (default 5 health points)
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
+<real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <real key="health" name="health">amount of health it gives (default: 5 (g_pickup_healthsmall))</real>
 <real key="max_health" name="max_health">max of health it increases to (default: 5 (g_pickup_healthsmall_max))</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
@@ -549,6 +559,7 @@ Strong Shield
 In Minstagib, this randomly turns into either an invisibility, an extra lives or a speed power-up with a default respawn time of 120.
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 120)</real>
+<real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
@@ -563,6 +574,7 @@ Always contains 5 (g_minstagib_ammo_drop) shots.
 It only appears when playing Minstagib and prevents auto-replacement of weapon_nex &amp; weapon_rocketlauncher when used.
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 45)</real>
+<real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
@@ -576,6 +588,7 @@ Rocket Launcher, Hagar and Mortar ammo
 -------- KEYS --------
 <real key="ammo_rockets" name="ammo_rockets">rockets gained by this item (if unset, g_pickup_rockets is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
+<real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
@@ -589,6 +602,7 @@ Shotgun ammo
 -------- KEYS --------
 <real key="ammo_shells" name="ammo_shells">shells gained by this item (if unset, g_pickup_shells is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
+<real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
@@ -602,6 +616,7 @@ Strength aka Quad damage
 In Minstagib, this randomly turns into either an invisibility, an extra lives or a speed power-up with a default respawn time of 120.
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 120)</real>
+<real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
@@ -924,6 +939,9 @@ Path corner entity that func_train will follow.
 All path_corner entities of a train have to connect in a circular manner, while the func_train shall point to one of the path_corners (ideally the one at the train's starting point)
 -------- KEYS --------
 <target key="target" name="target">point to next path_corner in the path.</target>
+<target key="target2" name="target2">triggered when a func_train stops at this target</target>
+<target key="target3" name="target3">triggered when a func_train stops at this target</target>
+<target key="target4" name="target4">triggered when a func_train stops at this target</target>
 <targetname key="targetname" name="targetname">the train following the path or the previous path_corner in the path points to this.</targetname>
 <real key="speed" name="speed">speed of func_train while moving to this path corner. If unset, the value from the func_train will be used.</real>
 <real key="wait" name="wait">number of seconds func_train will pause on this path corner before moving to next path corner (default: 0.1; to not wait, set this to -1</real>
@@ -1144,6 +1162,7 @@ the Crylink
 -------- KEYS --------
 <real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, g_pickup_cells is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
+<real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
@@ -1157,6 +1176,7 @@ the Electro
 -------- KEYS --------
 <real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, g_pickup_cells is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
+<real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
@@ -1170,6 +1190,7 @@ the Mortar
 -------- KEYS --------
 <real key="ammo_rockets" name="ammo_rockets">initial rockets of the weapon (if unset, g_pickup_rockets is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
+<real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
@@ -1183,6 +1204,7 @@ the Hagar
 -------- KEYS --------
 <real key="ammo_rockets" name="ammo_rockets">initial rockets of the weapon (if unset, g_pickup_rockets is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
+<real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
@@ -1197,6 +1219,7 @@ the Laser. Note that unless you use
 in your mapinfo file, everyone will already spawn with one, making this pickup useless.
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
+<real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
@@ -1211,6 +1234,7 @@ In Minstagib, this turns into an item_minst_cells if no explicit item_minst_cell
 -------- KEYS --------
 <real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, g_pickup_cells is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15 * g_balance_nex_respawntime_modifier)</real>
+<real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
@@ -1225,6 +1249,7 @@ In Minstagib, this turns into an item_minst_cells if no explicit item_minst_cell
 -------- KEYS --------
 <real key="ammo_rockets" name="ammo_rockets">initial rockets of the weapon (if unset, g_pickup_rockets is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
+<real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
@@ -1240,6 +1265,7 @@ in your mapinfo file, everyone will already spawn with one, making this pickup u
 -------- KEYS --------
 <real key="ammo_shells" name="ammo_shells">initial shells of the weapon (if unset, g_pickup_shells is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
+<real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
@@ -1253,6 +1279,7 @@ the Machine Gun
 -------- KEYS --------
 <real key="ammo_nails" name="ammo_nails">initial bullets of the weapon (if unset, g_pickup_nails is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
+<real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
@@ -1415,6 +1442,7 @@ the MinstaGib Nex. Always kills with one shot.
 -------- KEYS --------
 <real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, g_pickup_cells is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
+<real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
@@ -1428,6 +1456,7 @@ the Port-O-Launch. Only can be shot once.
 Portals cannot be made on noimpact surfaces, and the portal missile will bounce on slick surfaces.
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 120)</real>
+<real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
@@ -1500,6 +1529,44 @@ Example is a Mario-style question mark block which could throw a new weapon_nex 
 <flag key="ONLOAD" name="ONLOAD" bit="1">create a first entity on map load</flag>
 </point>
 
+<group name="misc_breakablemodel" color="1 0 0">
+This is a model which can be damaged.
+Once all health is consumed it'll disappear and trigger the targeted entity/entities.
+When triggered, it resets to full health, and unbreaks.
+-------- KEYS --------
+<model key="model" name="model">file name of model to include</model>
+<real key="health" name="health">The damage this trigger can take</real>
+<target key="target" name="target">The entity/entities to be triggered once this entity gets invisible</target>
+<targetname key="targetname" name="targetname">The name other entities can use to target this entity</targetname>
+<string key="mdl" name="mdl">particle effect name to show when destroyed</string>
+<real key="count" name="count">particle effect multiplier</real>
+<string key="mdl_dead" name="mdl_dead">optional replacement model to show when destroyed</string>
+<string key="debris" name="debris">names of debris models to show when destroyed, separated by spaces</string>
+<sound key="noise" name="noise">sound to play when destroyed</sound>
+<real key="dmg" name="dmg">damage to deal to the environment when destroyed</real>
+<real key="dmg_edge" name="dmg_edge">edge damage to deal to the environment when destroyed</real>
+<real key="dmg_radius" name="dmg_radius">damage radius</real>
+<real key="dmg_force" name="dmg_force">damage force</real>
+<string key="message" name="message">death message when a player gets hit by the explosion</string>
+<string key="message2" name="message2">death message when someone gets pushed into this (default: &quot;was pushed into an explosion by&quot;). The # character is replaced by the attacker name if present (and it instead does not get appended to the end)</string>
+<real key="debrismovetype" name="debrismovetype">way in which the debris moves: one of 1 = ANGLENOCLIP, 2 = ANGLECLIP, 3 = WALK, 4 = STEP, 5 = FLY, 6 = TOSS, 7 = PUSH, 8 = NOCLIP, 9 = FLYMISSILE, 10 = BOUNCE, 11 = BOUNCEMISSILE</real>
+<real key="debrissolid" name="debrissolid">solidity of the debris: one of 0 = NOT, 1 = TRIGGER, 2 = BBOX, 3 = SLIDEBOX, 4 = BSP, 5 = CORPSE</real>
+<real3 key="debrisvelocity" name="debrisvelocity">initial velocity vector of the debris (static part)</real3>
+<real3 key="debrisvelocityjitter" name="debrisvelocityjitter">initial velocity vector of the debris (random part)</real3>
+<real3 key="debrisavelocityjitter" name="debrisavelocityjitter">initial angular velocity vector of the debris (random part)</real3>
+<real key="debristime" name="debristime">time till the debris fades (average)</real>
+<real key="debristimejitter" name="debristimejitter">time till the debris fades (random part)</real>
+<real key="debrisfadetime" name="debrisfadetime">how long debris takes to fade</real>
+<real key="debrisdamageforcescale" name="debrisdamageforcescale">how much debris is affected by damage force (e.g. explosions)</real>
+<real key="debrisskin" name="debrisskin">skin number of debris</real>
+<real key="respawntime" name="respawntime">time till it respawns (default: no auto respawn)</real>
+<real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
+-------- SPAWNFLAGS --------
+<flag key="DISABLED" name="DISABLED" bit="0">do not allow damaging this until it is first activated</flag>
+<flag key="INDICATE" name="INDICATE" bit="1">indicate amount of damage already taken by coloring</flag>
+<flag key="NOSPLASH" name="NOSPLASH" bit="8">if set, splash damage cannot activate the door, only direct damage can (requires health to be set)</flag>
+</group>
+
 <group name="func_breakable" color="1 0 0">
 This is a brush model which can be damaged.
 Once all health is consumed it'll disappear and trigger the targeted entity/entities.
@@ -1529,6 +1596,8 @@ When triggered, it resets to full health, and unbreaks.
 <real key="debrisfadetime" name="debrisfadetime">how long debris takes to fade</real>
 <real key="debrisdamageforcescale" name="debrisdamageforcescale">how much debris is affected by damage force (e.g. explosions)</real>
 <real key="debrisskin" name="debrisskin">skin number of debris</real>
+<real key="respawntime" name="respawntime">time till it respawns (default: no auto respawn)</real>
+<real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 -------- SPAWNFLAGS --------
 <flag key="DISABLED" name="DISABLED" bit="0">do not allow damaging this until it is first activated</flag>
 <flag key="INDICATE" name="INDICATE" bit="1">indicate amount of damage already taken by coloring</flag>
@@ -1552,6 +1621,7 @@ the Heavy Laser Assault Cannon.
 -------- KEYS --------
 <real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, g_pickup_cells is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 30)</real>
+<real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
@@ -1565,6 +1635,7 @@ the Mine Layer.
 -------- KEYS --------
 <real key="ammo_rockets" name="ammo_rockets">initial rockets of the weapon (if unset, g_pickup_rockets is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 30)</real>
+<real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
@@ -1579,6 +1650,7 @@ the T.A.G. Seeker.
 -------- KEYS --------
 <real key="ammo_rockets" name="ammo_rockets">initial rockets of the weapon (if unset, g_pickup_rockets is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 30)</real>
+<real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
@@ -1592,6 +1664,7 @@ the on-hand Grappling Hook.
 -------- KEYS --------
 <real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, g_pickup_cells is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 30)</real>
+<real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
@@ -1608,11 +1681,12 @@ Any object touching this will be healed.
 <sound key="noise" name="noise">sound file to play (use misc/null.wav to make it silent), default = item_health_medium sound</sound>
 </group>
 
-<point name="weapon_sniperrifle" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_rifle" color="1 0 .5" box="-30 -30 0 30 30 32">
 the Sniper Rifle.
 -------- KEYS --------
 <real key="ammo_nails" name="ammo_nails">initial bullets of the weapon (if unset, g_pickup_nails is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 30)</real>
+<real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
@@ -1759,6 +1833,7 @@ Jetpack fuel
 -------- KEYS --------
 <real key="ammo_fuel" name="ammo_fuel">fuel units gained by this item (if unset, g_pickup_fuel is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
+<real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
@@ -1771,6 +1846,7 @@ modeldisabled=&quot;models/items/g_fuel.md3&quot;
 Fuel regenerator
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 120)</real>
+<real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
@@ -1784,6 +1860,7 @@ Jetpack
 -------- KEYS --------
 <real key="ammo_fuel" name="ammo_fuel">fuel units gained by this item (if unset, g_pickup_fuel_jetpack is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 120)</real>
+<real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
@@ -1818,6 +1895,7 @@ the Fireball
 -------- KEYS --------
 <real key="ammo_rockets" name="ammo_rockets">initial rockets of the weapon (if unset, g_pickup_rockets is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
+<real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
