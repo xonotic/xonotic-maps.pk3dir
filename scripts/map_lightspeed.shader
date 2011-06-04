@@ -30,7 +30,7 @@ textures/map_lightspeed/lightspeedscrn_t
 	qer_trans 0.6
 	
 	{
-		animMap 15 textures/map_lightspeed/screens/lightspeedscrn1.tga textures/map_lightspeed/screens/lightspeedscrn2.tga textures/map_lightspeed/screens/lightspeedscrn3.tga textures/map_lightspeed/screens/lightspeedscrn4.tga textures/map_lightspeed/screens/lightspeedscrn5.tga textures/map_lightspeed/screens/lightspeedscrn4.tga textures/map_lightspeed/screens/lightspeedscrn3.tga textures/map_lightspeed/screens/lightspeedscrn2.tga
+		animMap 18 textures/map_lightspeed/screens/lightspeedscrn1.tga textures/map_lightspeed/screens/lightspeedscrn2.tga textures/map_lightspeed/screens/lightspeedscrn3.tga textures/map_lightspeed/screens/lightspeedscrn4.tga textures/map_lightspeed/screens/lightspeedscrn5.tga textures/map_lightspeed/screens/lightspeedscrn4.tga textures/map_lightspeed/screens/lightspeedscrn3.tga textures/map_lightspeed/screens/lightspeedscrn2.tga
 		blendfunc add
 	}
 }
