@@ -58,42 +58,6 @@ textures/map_space-elevator/sign-train-blue
 	}
 }
 
-textures/map_space-elevator/beam-blue
-{
-	surfaceparm nonsolid
-	surfaceparm nomarks
-	cull none
-	q3map_surfacelight 3000
-	{
-		map textures/map_space-elevator/beam-blue.tga
-		blendfunc add
-	}
-}
-
-textures/map_space-elevator/beam-purple
-{
-	surfaceparm nonsolid
-	surfaceparm nomarks
-	cull none
-	q3map_surfacelight 3000
-	{
-		map textures/map_space-elevator/beam-purple.tga
-		blendfunc add
-	}
-}
-
-textures/map_space-elevator/beam-red
-{
-	surfaceparm nonsolid
-	surfaceparm nomarks
-	cull none
-	q3map_surfacelight 3000
-	{
-		map textures/map_space-elevator/beam-red.tga
-		blendfunc add
-	}
-}
-
 textures/map_space-elevator/panels
 {
 	qer_editorimage textures/map_space-elevator/panels.tga
