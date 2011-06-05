@@ -694,7 +694,8 @@ When the laser's target has itself target set, its targets are triggered when so
 Generic placeholder for inserting MD3 models in game. Requires compilation of map geometry to be added to level. If the map is compiled with Q3Map2, then ASE, 3DS, OBJ and other model formats are supported.
 -------- Q3MAP2 KEYS --------
 <model key="model" name="model">file name of model to include</model>
-<real key="_frame" name="_frame">frame of model to include</real>
+<integer key="_frame" name="_frame">frame of model to include</integer>
+<integer key="_skin" name="_skin">skin of model to include</integer>
 <array key="_remap" name="_remap">string of the form from;to specifying which texture name of the model to replace by which shader; * is allowed. Any key starting with this prefix will work, so if you need more remappings, create _remap2, etc.</array>
 <direction key="angle" name="angle">view direction of the model</direction>
 <angles key="angles" name="angles">view direction of the model in PITCH YAW ROLL</angles>
