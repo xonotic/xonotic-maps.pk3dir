@@ -44940,7 +44940,7 @@ exx/wall-bplate06
 }
 {
 "classname" "func_door"
-"lip" "504"
+"lip" "512"
 "targetname" "elevator-a1"
 "angle" "-1"
 "sounds" "1"
@@ -45041,7 +45041,7 @@ ex2x/trim-warn1
 }
 {
 "classname" "func_door"
-"lip" "504"
+"lip" "512"
 "targetname" "elevator-a2"
 "angle" "-2"
 "sounds" "1"
@@ -45279,8 +45279,8 @@ ex2x/trim-warn1
 }
 {
 "classname" "func_door"
-"lip" "504"
-"targetname" "elevator-b2"
+"lip" "512"
+"targetname" "elevator-b1"
 "angle" "-1"
 "sounds" "1"
 "speed" "300"
@@ -45380,7 +45380,7 @@ ex2x/trim-warn1
 }
 {
 "classname" "func_door"
-"lip" "504"
+"lip" "512"
 "targetname" "elevator-b2"
 "angle" "-2"
 "sounds" "1"
