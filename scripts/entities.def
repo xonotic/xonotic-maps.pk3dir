@@ -693,6 +693,7 @@ Generic placeholder for inserting MD3 models in game. Requires compilation of ma
 -------- Q3MAP2 KEYS --------
 model: file name of model to include
 _frame: frame of model to include
+_skin: skin of model to include
 _remap: string of the form from;to specifying which texture name of the model to replace by which shader; * is allowed. Any key starting with this prefix will work, so if you need more remappings, create _remap2, etc.
 angle: view direction of the model
 angles: view direction of the model in PITCH YAW ROLL
