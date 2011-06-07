@@ -17541,6 +17541,7 @@ trak5x/base-pipe1d
 {
 "classname" "item_armor_large"
 "origin" "3520.000000 0.000000 -528.000000"
+"gametypefilter" "noteamspawns"
 }
 {
 "classname" "item_armor_small"
@@ -17828,6 +17829,7 @@ trak5x/base-pipe1d
 {
 "classname" "item_armor_large"
 "origin" "-3520.000000 0.000000 496.000000"
+"gametypefilter" "noteamspawns"
 }
 {
 "classname" "item_armor_small"
@@ -62593,4 +62595,13 @@ trak5x/base-pipe1b
 "origin" "-480.000000 -1824.000000 64.000000"
 "angle" "-90.000000"
 "gametypefilter" "teamspawns"
+}
+{
+"classname" "item_flag_team2"
+"origin" "-3520.000000 0.000000 496.000000"
+}
+{
+"classname" "item_flag_team1"
+"origin" "3520.000000 0.000000 -528.000000"
+"angle" "180.000000"
 }
