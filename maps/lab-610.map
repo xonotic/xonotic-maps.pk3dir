@@ -62616,6 +62616,8 @@ trak5x/base-pipe1b
 "gametypefilter" "teamspawns"
 "modelscale" "0.5"
 "targetname" "laser-beam-1"
+"message" "was cut to pieces by an enemy team laser"
+"message2" "was pushed into an enemy team laser by"
 }
 {
 "classname" "target_position"
@@ -62658,6 +62660,8 @@ trak5x/base-pipe1b
 "gametypefilter" "teamspawns"
 "modelscale" "0.5"
 "targetname" "laser-beam-1"
+"message" "was cut to pieces by an enemy team laser"
+"message2" "was pushed into an enemy team laser by"
 }
 {
 "classname" "target_position"
@@ -62675,6 +62679,8 @@ trak5x/base-pipe1b
 "gametypefilter" "teamspawns"
 "modelscale" "0.5"
 "targetname" "laser-beam-1"
+"message" "was cut to pieces by an enemy team laser"
+"message2" "was pushed into an enemy team laser by"
 }
 {
 "classname" "target_position"
@@ -62692,6 +62698,8 @@ trak5x/base-pipe1b
 "gametypefilter" "teamspawns"
 "modelscale" "0.5"
 "targetname" "laser-beam-1"
+"message" "was cut to pieces by an enemy team laser"
+"message2" "was pushed into an enemy team laser by"
 }
 {
 "classname" "target_position"
@@ -62767,6 +62775,8 @@ trak5x/base-pipe1b
 "gametypefilter" "teamspawns"
 "modelscale" "0.5"
 "targetname" "laser-beam-2"
+"message" "was cut to pieces by an enemy team laser"
+"message2" "was pushed into an enemy team laser by"
 }
 {
 "classname" "target_position"
@@ -62809,6 +62819,8 @@ trak5x/base-pipe1b
 "gametypefilter" "teamspawns"
 "modelscale" "0.5"
 "targetname" "laser-beam-2"
+"message" "was cut to pieces by an enemy team laser"
+"message2" "was pushed into an enemy team laser by"
 }
 {
 "classname" "target_position"
@@ -62826,6 +62838,8 @@ trak5x/base-pipe1b
 "gametypefilter" "teamspawns"
 "modelscale" "0.5"
 "targetname" "laser-beam-2"
+"message" "was cut to pieces by an enemy team laser"
+"message2" "was pushed into an enemy team laser by"
 }
 {
 "classname" "target_position"
@@ -62843,6 +62857,8 @@ trak5x/base-pipe1b
 "gametypefilter" "teamspawns"
 "modelscale" "0.5"
 "targetname" "laser-beam-2"
+"message" "was cut to pieces by an enemy team laser"
+"message2" "was pushed into an enemy team laser by"
 }
 {
 "classname" "target_position"
@@ -63019,6 +63035,8 @@ trak5x/base-pipe1b
 "team" "5"
 "gametypefilter" "teamspawns"
 "modelscale" "0.5"
+"message" "was cut to pieces by an enemy team laser"
+"message2" "was pushed into an enemy team laser by"
 }
 {
 "classname" "target_position"
@@ -63060,6 +63078,8 @@ trak5x/base-pipe1b
 "team" "5"
 "gametypefilter" "teamspawns"
 "modelscale" "0.5"
+"message" "was cut to pieces by an enemy team laser"
+"message2" "was pushed into an enemy team laser by"
 }
 {
 "classname" "target_position"
@@ -63076,6 +63096,8 @@ trak5x/base-pipe1b
 "team" "5"
 "gametypefilter" "teamspawns"
 "modelscale" "0.5"
+"message" "was cut to pieces by an enemy team laser"
+"message2" "was pushed into an enemy team laser by"
 }
 {
 "classname" "target_position"
@@ -63092,6 +63114,8 @@ trak5x/base-pipe1b
 "team" "5"
 "gametypefilter" "teamspawns"
 "modelscale" "0.5"
+"message" "was cut to pieces by an enemy team laser"
+"message2" "was pushed into an enemy team laser by"
 }
 {
 "classname" "target_position"
@@ -63108,6 +63132,8 @@ trak5x/base-pipe1b
 "team" "14"
 "gametypefilter" "teamspawns"
 "modelscale" "0.5"
+"message" "was cut to pieces by an enemy team laser"
+"message2" "was pushed into an enemy team laser by"
 }
 {
 "classname" "target_position"
@@ -63149,6 +63175,8 @@ trak5x/base-pipe1b
 "team" "14"
 "gametypefilter" "teamspawns"
 "modelscale" "0.5"
+"message" "was cut to pieces by an enemy team laser"
+"message2" "was pushed into an enemy team laser by"
 }
 {
 "classname" "target_position"
@@ -63165,6 +63193,8 @@ trak5x/base-pipe1b
 "team" "14"
 "gametypefilter" "teamspawns"
 "modelscale" "0.5"
+"message" "was cut to pieces by an enemy team laser"
+"message2" "was pushed into an enemy team laser by"
 }
 {
 "classname" "target_position"
@@ -63181,6 +63211,8 @@ trak5x/base-pipe1b
 "team" "14"
 "gametypefilter" "teamspawns"
 "modelscale" "0.5"
+"message" "was cut to pieces by an enemy team laser"
+"message2" "was pushed into an enemy team laser by"
 }
 {
 "classname" "target_position"
@@ -63197,6 +63229,8 @@ trak5x/base-pipe1b
 "team" "5"
 "gametypefilter" "teamspawns"
 "modelscale" "0.5"
+"message" "was cut to pieces by an enemy team laser"
+"message2" "was pushed into an enemy team laser by"
 }
 {
 "classname" "target_position"
@@ -63218,6 +63252,8 @@ trak5x/base-pipe1b
 "team" "5"
 "gametypefilter" "teamspawns"
 "modelscale" "0.5"
+"message" "was cut to pieces by an enemy team laser"
+"message2" "was pushed into an enemy team laser by"
 }
 {
 "classname" "target_position"
@@ -63234,6 +63270,8 @@ trak5x/base-pipe1b
 "team" "5"
 "gametypefilter" "teamspawns"
 "modelscale" "0.5"
+"message" "was cut to pieces by an enemy team laser"
+"message2" "was pushed into an enemy team laser by"
 }
 {
 "classname" "target_position"
@@ -63250,6 +63288,8 @@ trak5x/base-pipe1b
 "team" "5"
 "gametypefilter" "teamspawns"
 "modelscale" "0.5"
+"message" "was cut to pieces by an enemy team laser"
+"message2" "was pushed into an enemy team laser by"
 }
 {
 "classname" "target_position"
@@ -63405,6 +63445,8 @@ exx/base-metal04
 "team" "14"
 "gametypefilter" "teamspawns"
 "modelscale" "0.5"
+"message" "was cut to pieces by an enemy team laser"
+"message2" "was pushed into an enemy team laser by"
 }
 {
 "classname" "target_position"
@@ -63421,6 +63463,8 @@ exx/base-metal04
 "team" "14"
 "gametypefilter" "teamspawns"
 "modelscale" "0.5"
+"message" "was cut to pieces by an enemy team laser"
+"message2" "was pushed into an enemy team laser by"
 }
 {
 "classname" "target_position"
@@ -63437,6 +63481,8 @@ exx/base-metal04
 "team" "14"
 "gametypefilter" "teamspawns"
 "modelscale" "0.5"
+"message" "was cut to pieces by an enemy team laser"
+"message2" "was pushed into an enemy team laser by"
 }
 {
 "classname" "target_position"
@@ -63453,6 +63499,8 @@ exx/base-metal04
 "team" "14"
 "gametypefilter" "teamspawns"
 "modelscale" "0.5"
+"message" "was cut to pieces by an enemy team laser"
+"message2" "was pushed into an enemy team laser by"
 }
 {
 "classname" "target_position"
@@ -63587,26 +63635,36 @@ exx/base-metal04
 }
 }
 {
-"classname" "func_wall"
+"classname" "trigger_hurt"
 "gametypefilter" "teamspawns"
+"spawnflags" "4"
+"team" "14"
+"dmg" "1000"
+"message" "was cut to pieces by an enemy team laser"
+"message2" "was pushed into an enemy team laser by"
 {
-( -280 -2616 1024 ) ( -280 -2632 1024 ) ( -296 -2616 1024 ) common/clip 0 0 0 0.5 0.5 0 0 0
-( -280 -1792 336 ) ( -296 -1792 336 ) ( -280 -1792 176 ) common/clip 0 0 0 0.5 0.5 0 0 0
-( -280 -2616 336 ) ( -280 -2616 176 ) ( -280 -2632 336 ) common/clip 0 0 0 0.5 0.5 0 0 0
-( -296 -2632 176 ) ( -280 -2632 176 ) ( -296 -2616 176 ) common/clip 0 0 0 0.5 0.5 0 0 0
-( -296 -2632 176 ) ( -296 -2632 336 ) ( -280 -2632 176 ) common/clip 0 0 0 0.5 0.5 0 0 0
-( -296 -2632 176 ) ( -296 -2616 176 ) ( -296 -2632 336 ) common/clip 0 0 0 0.5 0.5 0 0 0
+( -280 -2616 1024 ) ( -280 -2632 1024 ) ( -296 -2616 1024 ) common/trigger 0 0 0 0.5 0.5 0 0 0
+( -280 -1792 336 ) ( -296 -1792 336 ) ( -280 -1792 176 ) common/trigger 0 0 0 0.5 0.5 0 0 0
+( -280 -2616 336 ) ( -280 -2616 176 ) ( -280 -2632 336 ) common/trigger 0 0 0 0.5 0.5 0 0 0
+( -296 -2632 176 ) ( -280 -2632 176 ) ( -296 -2616 176 ) common/trigger 0 0 0 0.5 0.5 0 0 0
+( -296 -2632 176 ) ( -296 -2632 336 ) ( -280 -2632 176 ) common/trigger 0 0 0 0.5 0.5 0 0 0
+( -296 -2632 176 ) ( -296 -2616 176 ) ( -296 -2632 336 ) common/trigger 0 0 0 0.5 0.5 0 0 0
 }
 }
 {
-"classname" "func_wall"
+"classname" "trigger_hurt"
 "gametypefilter" "teamspawns"
+"spawnflags" "4"
+"team" "5"
+"dmg" "1000"
+"message" "was cut to pieces by an enemy team laser"
+"message2" "was pushed into an enemy team laser by"
 {
-( 296 -2616 1024 ) ( 296 -2632 1024 ) ( 280 -2616 1024 ) common/clip 0 0 0 0.5 0.5 0 0 0
-( 296 -1792 336 ) ( 280 -1792 336 ) ( 296 -1792 176 ) common/clip 0 0 0 0.5 0.5 0 0 0
-( 296 -2616 336 ) ( 296 -2616 176 ) ( 296 -2632 336 ) common/clip 0 0 0 0.5 0.5 0 0 0
-( 280 -2632 176 ) ( 296 -2632 176 ) ( 280 -2616 176 ) common/clip 0 0 0 0.5 0.5 0 0 0
-( 280 -2632 176 ) ( 280 -2632 336 ) ( 296 -2632 176 ) common/clip 0 0 0 0.5 0.5 0 0 0
-( 280 -2632 176 ) ( 280 -2616 176 ) ( 280 -2632 336 ) common/clip 0 0 0 0.5 0.5 0 0 0
+( 296 -2616 1024 ) ( 296 -2632 1024 ) ( 280 -2616 1024 ) common/trigger 0 0 0 0.5 0.5 0 0 0
+( 296 -1792 336 ) ( 280 -1792 336 ) ( 296 -1792 176 ) common/trigger 0 0 0 0.5 0.5 0 0 0
+( 296 -2616 336 ) ( 296 -2616 176 ) ( 296 -2632 336 ) common/trigger 0 0 0 0.5 0.5 0 0 0
+( 280 -2632 176 ) ( 296 -2632 176 ) ( 280 -2616 176 ) common/trigger 0 0 0 0.5 0.5 0 0 0
+( 280 -2632 176 ) ( 280 -2632 336 ) ( 296 -2632 176 ) common/trigger 0 0 0 0.5 0.5 0 0 0
+( 280 -2632 176 ) ( 280 -2616 176 ) ( 280 -2632 336 ) common/trigger 0 0 0 0.5 0.5 0 0 0
 }
 }
