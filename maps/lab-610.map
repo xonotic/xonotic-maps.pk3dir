@@ -17075,6 +17075,7 @@ trak5x/base-pipe1d
 "classname" "info_player_deathmatch"
 "origin" "560.000000 560.000000 48.000000"
 "angle" "-135.000015"
+"gametypefilter" "noteamspawns"
 }
 {
 "classname" "weapon_electro"
@@ -18307,123 +18308,148 @@ trak5x/base-pipe1d
 "classname" "info_player_deathmatch"
 "origin" "-560.000000 -560.000000 48.000000"
 "angle" "44.999992"
+"gametypefilter" "noteamspawns"
 }
 {
 "classname" "info_player_deathmatch"
 "origin" "560.000000 -560.000000 48.000000"
 "angle" "134.999985"
+"gametypefilter" "noteamspawns"
 }
 {
 "classname" "info_player_deathmatch"
 "origin" "2928.000000 -688.000000 -496.000000"
 "angle" "90.000000"
+"gametypefilter" "noteamspawns"
 }
 {
 "classname" "info_player_deathmatch"
 "origin" "-560.000000 560.000000 48.000000"
 "angle" "-45.000008"
+"gametypefilter" "noteamspawns"
 }
 {
 "classname" "info_player_deathmatch"
 "origin" "3888.000000 0.000000 -288.000000"
 "angle" "-179.999985"
+"gametypefilter" "noteamspawns"
 }
 {
 "classname" "info_player_deathmatch"
 "origin" "3160.000000 -232.000000 -456.000000"
 "angle" "134.999985"
+"gametypefilter" "noteamspawns"
 }
 {
 "classname" "info_player_deathmatch"
 "origin" "2928.000000 688.000000 -496.000000"
 "angle" "-90.000000"
+"gametypefilter" "noteamspawns"
 }
 {
 "classname" "info_player_deathmatch"
 "origin" "2240.000000 -224.000000 -496.000000"
 "angle" "0.000009"
+"gametypefilter" "noteamspawns"
 }
 {
 "classname" "info_player_deathmatch"
 "origin" "2240.000000 224.000000 -496.000000"
 "angle" "0.000009"
+"gametypefilter" "noteamspawns"
 }
 {
 "classname" "info_player_deathmatch"
 "origin" "3616.000000 224.000000 -496.000000"
 "angle" "-179.999985"
+"gametypefilter" "noteamspawns"
 }
 {
 "classname" "info_player_deathmatch"
 "origin" "2696.000000 232.000000 -456.000000"
 "angle" "-45.000008"
+"gametypefilter" "noteamspawns"
 }
 {
 "classname" "info_player_deathmatch"
 "origin" "2696.000000 -232.000000 -456.000000"
 "angle" "45.000000"
+"gametypefilter" "noteamspawns"
 }
 {
 "classname" "info_player_deathmatch"
 "origin" "3160.000000 232.000000 -456.000000"
 "angle" "-135.000000"
+"gametypefilter" "noteamspawns"
 }
 {
 "classname" "info_player_deathmatch"
 "origin" "3616.000000 -224.000000 -496.000000"
 "angle" "-179.999985"
+"gametypefilter" "noteamspawns"
 }
 {
 "classname" "info_player_deathmatch"
 "origin" "-3616.000000 224.000000 528.000000"
+"gametypefilter" "noteamspawns"
 }
 {
 "classname" "info_player_deathmatch"
 "origin" "-2928.000000 688.000000 528.000000"
 "angle" "-90.000000"
+"gametypefilter" "noteamspawns"
 }
 {
 "classname" "info_player_deathmatch"
 "origin" "-3888.000000 0.000000 736.000000"
+"gametypefilter" "noteamspawns"
 }
 {
 "classname" "info_player_deathmatch"
 "origin" "-3160.000000 232.000000 568.000000"
 "angle" "-45.000008"
+"gametypefilter" "noteamspawns"
 }
 {
 "classname" "info_player_deathmatch"
 "origin" "-2928.000000 -688.000000 528.000000"
 "angle" "90.000000"
+"gametypefilter" "noteamspawns"
 }
 {
 "classname" "info_player_deathmatch"
 "origin" "-2240.000000 224.000000 528.000000"
 "angle" "-179.999985"
+"gametypefilter" "noteamspawns"
 }
 {
 "classname" "info_player_deathmatch"
 "origin" "-2240.000000 -224.000000 528.000000"
 "angle" "-179.999985"
+"gametypefilter" "noteamspawns"
 }
 {
 "classname" "info_player_deathmatch"
 "origin" "-3616.000000 -224.000000 528.000000"
+"gametypefilter" "noteamspawns"
 }
 {
 "classname" "info_player_deathmatch"
 "origin" "-2696.000000 -232.000000 568.000000"
 "angle" "135.000000"
+"gametypefilter" "noteamspawns"
 }
 {
 "classname" "info_player_deathmatch"
 "origin" "-2696.000000 232.000000 568.000000"
 "angle" "-135.000000"
+"gametypefilter" "noteamspawns"
 }
 {
 "classname" "info_player_deathmatch"
 "origin" "-3160.000000 -232.000000 568.000000"
 "angle" "45.000000"
+"gametypefilter" "noteamspawns"
 }
 {
 "classname" "item_shells"
@@ -21383,36 +21409,43 @@ exx/trim-baseboard03
 "classname" "info_player_deathmatch"
 "origin" "480.000000 -1824.000000 48.000000"
 "angle" "-90.000000"
+"gametypefilter" "noteamspawns"
 }
 {
 "classname" "info_player_deathmatch"
 "origin" "-1440.000000 -3744.000000 48.000000"
 "angle" "0.000000"
+"gametypefilter" "noteamspawns"
 }
 {
 "classname" "info_player_deathmatch"
 "origin" "0.000000 -1824.000000 -80.000000"
 "angle" "-90.000000"
+"gametypefilter" "noteamspawns"
 }
 {
 "classname" "info_player_deathmatch"
 "origin" "1376.000000 -2112.000000 48.000000"
 "angle" "-135.000000"
+"gametypefilter" "noteamspawns"
 }
 {
 "classname" "info_player_deathmatch"
 "origin" "1440.000000 -3744.000000 48.000000"
 "angle" "180.000000"
+"gametypefilter" "noteamspawns"
 }
 {
 "classname" "info_player_deathmatch"
 "origin" "-1376.000000 -2112.000000 48.000000"
 "angle" "-45.000000"
+"gametypefilter" "noteamspawns"
 }
 {
 "classname" "info_player_deathmatch"
 "origin" "-480.000000 -1824.000000 48.000000"
 "angle" "270"
+"gametypefilter" "noteamspawns"
 }
 {
 "classname" "func_group"
@@ -26223,26 +26256,31 @@ exx/base-metal01
 "classname" "info_player_deathmatch"
 "origin" "0.000000 -5968.000000 -224.000000"
 "angle" "-90.000000"
+"gametypefilter" "noteamspawns"
 }
 {
 "classname" "info_player_deathmatch"
 "origin" "144.000000 -6432.000000 96.000000"
 "angle" "-135.000000"
+"gametypefilter" "noteamspawns"
 }
 {
 "classname" "info_player_deathmatch"
 "origin" "336.000000 -5472.000000 64.000000"
 "angle" "-179.999985"
+"gametypefilter" "noteamspawns"
 }
 {
 "classname" "info_player_deathmatch"
 "origin" "-208.000000 -6304.000000 -224.000000"
 "angle" "45.000000"
+"gametypefilter" "noteamspawns"
 }
 {
 "classname" "info_player_deathmatch"
 "origin" "208.000000 -6304.000000 -224.000000"
 "angle" "135.000000"
+"gametypefilter" "noteamspawns"
 }
 {
 "classname" "weapon_uzi"
@@ -26323,11 +26361,13 @@ exx/base-metal01
 "classname" "info_player_deathmatch"
 "origin" "-144.000000 -6432.000000 96.000000"
 "angle" "-45.000008"
+"gametypefilter" "noteamspawns"
 }
 {
 "classname" "info_player_deathmatch"
 "origin" "-336.000000 -5472.000000 64.000000"
 "angle" "0"
+"gametypefilter" "noteamspawns"
 }
 {
 "classname" "weapon_grenadelauncher"
@@ -62389,4 +62429,168 @@ trak5x/base-pipe1b
 ( -816 -2172 384 ) ( -976 -2172 384 ) ( -976 -2172 -64 ) exx/base-crete01blue 0 0 0 0.25 0.25 134217728 0 0
 ( -816 -2172 384 ) ( -800 -2176 -64 ) ( -800 -2176 384 ) exx/trim-01 0 0 0 0.25 0.25 134217728 0 0
 }
+}
+{
+"classname" "info_player_team1"
+"origin" "2928.000000 -688.000000 -480.000000"
+"angle" "90.000000"
+"gametypefilter" "teamspawns"
+}
+{
+"classname" "info_player_team1"
+"origin" "3888.000000 0.000000 -272.000000"
+"angle" "-179.999985"
+"gametypefilter" "teamspawns"
+}
+{
+"classname" "info_player_team1"
+"origin" "3160.000000 -232.000000 -440.000000"
+"angle" "134.999985"
+"gametypefilter" "teamspawns"
+}
+{
+"classname" "info_player_team1"
+"origin" "2928.000000 688.000000 -480.000000"
+"angle" "-90.000000"
+"gametypefilter" "teamspawns"
+}
+{
+"classname" "info_player_team1"
+"origin" "2240.000000 -224.000000 -480.000000"
+"angle" "0.000009"
+"gametypefilter" "teamspawns"
+}
+{
+"classname" "info_player_team1"
+"origin" "2240.000000 224.000000 -480.000000"
+"angle" "0.000009"
+"gametypefilter" "teamspawns"
+}
+{
+"classname" "info_player_team1"
+"origin" "3616.000000 224.000000 -480.000000"
+"angle" "-179.999985"
+"gametypefilter" "teamspawns"
+}
+{
+"classname" "info_player_team1"
+"origin" "2696.000000 232.000000 -440.000000"
+"angle" "-45.000008"
+"gametypefilter" "teamspawns"
+}
+{
+"classname" "info_player_team1"
+"origin" "2696.000000 -232.000000 -440.000000"
+"angle" "45.000000"
+"gametypefilter" "teamspawns"
+}
+{
+"classname" "info_player_team1"
+"origin" "3160.000000 232.000000 -440.000000"
+"angle" "-135.000000"
+"gametypefilter" "teamspawns"
+}
+{
+"classname" "info_player_team1"
+"origin" "3616.000000 -224.000000 -480.000000"
+"angle" "-179.999985"
+"gametypefilter" "teamspawns"
+}
+{
+"classname" "info_player_team2"
+"origin" "-3616.000000 224.000000 544.000000"
+"gametypefilter" "teamspawns"
+}
+{
+"classname" "info_player_team2"
+"origin" "-2928.000000 688.000000 544.000000"
+"angle" "-90.000000"
+"gametypefilter" "teamspawns"
+}
+{
+"classname" "info_player_team2"
+"origin" "-3888.000000 0.000000 752.000000"
+"gametypefilter" "teamspawns"
+}
+{
+"classname" "info_player_team2"
+"origin" "-3160.000000 232.000000 584.000000"
+"angle" "-45.000008"
+"gametypefilter" "teamspawns"
+}
+{
+"classname" "info_player_team2"
+"origin" "-2928.000000 -688.000000 544.000000"
+"angle" "90.000000"
+"gametypefilter" "teamspawns"
+}
+{
+"classname" "info_player_team2"
+"origin" "-2240.000000 224.000000 544.000000"
+"angle" "-179.999985"
+"gametypefilter" "teamspawns"
+}
+{
+"classname" "info_player_team2"
+"origin" "-2240.000000 -224.000000 544.000000"
+"angle" "-179.999985"
+"gametypefilter" "teamspawns"
+}
+{
+"classname" "info_player_team2"
+"origin" "-3616.000000 -224.000000 544.000000"
+"gametypefilter" "teamspawns"
+}
+{
+"classname" "info_player_team2"
+"origin" "-2696.000000 -232.000000 584.000000"
+"angle" "135.000000"
+"gametypefilter" "teamspawns"
+}
+{
+"classname" "info_player_team2"
+"origin" "-2696.000000 232.000000 584.000000"
+"angle" "-135.000000"
+"gametypefilter" "teamspawns"
+}
+{
+"classname" "info_player_team2"
+"origin" "-3160.000000 -232.000000 584.000000"
+"angle" "45.000000"
+"gametypefilter" "teamspawns"
+}
+{
+"classname" "info_player_team1"
+"origin" "480.000000 -1824.000000 64.000000"
+"angle" "-90.000000"
+"gametypefilter" "teamspawns"
+}
+{
+"classname" "info_player_team1"
+"origin" "1376.000000 -2112.000000 64.000000"
+"angle" "-135.000000"
+"gametypefilter" "teamspawns"
+}
+{
+"classname" "info_player_team1"
+"origin" "1440.000000 -3744.000000 64.000000"
+"angle" "-179.999985"
+"gametypefilter" "teamspawns"
+}
+{
+"classname" "info_player_team2"
+"origin" "-1440.000000 -3744.000000 64.000000"
+"gametypefilter" "teamspawns"
+}
+{
+"classname" "info_player_team2"
+"origin" "-1376.000000 -2112.000000 64.000000"
+"angle" "-45.000008"
+"gametypefilter" "teamspawns"
+}
+{
+"classname" "info_player_team2"
+"origin" "-480.000000 -1824.000000 64.000000"
+"angle" "-90.000000"
+"gametypefilter" "teamspawns"
 }
