@@ -63009,3 +63009,181 @@ trak5x/base-pipe1b
 ( -1380 -248 -80 ) ( -1380 -240 -80 ) ( -1380 -248 48 ) common/caulk 0 0 0 0.5 0.5 134217728 0 0
 }
 }
+{
+"classname" "misc_laser"
+"origin" "2976.000000 -80.000000 -448.000000"
+"target" "laser-9"
+"colormod" "1 0 0"
+"dmg" "-1"
+"spawnflags" "15"
+"team" "5"
+"gametypefilter" "teamspawns"
+"modelscale" "0.5"
+}
+{
+"classname" "target_position"
+"origin" "2976.000000 80.000000 -448.000000"
+"targetname" "laser-9"
+}
+{
+"classname" "func_wall"
+"_castShadows" "0"
+"gametypefilter" "teamspawns"
+{
+( 2984 -80 -336 ) ( 2984 -88 -336 ) ( 2968 -80 -336 ) exx/base-metal03 0 0 0 0.25 0.25 134217728 0 0
+( 2984 -80 -456 ) ( 2968 -80 -456 ) ( 2984 -80 -488 ) exx/trim-01 32 0 0 0.125 0.125 134217728 0 0
+( 2984 -80 -392 ) ( 2984 -80 -424 ) ( 2984 -88 -392 ) exx/base-metal03 0 0 0 0.25 0.25 134217728 0 0
+( 2968 -88 -496 ) ( 2984 -88 -496 ) ( 2968 -80 -496 ) common/caulk 0 0 0 0.5 0.5 134217728 0 0
+( 2968 -88 -488 ) ( 2968 -88 -456 ) ( 2984 -88 -488 ) exx/base-metal03 0 0 0 0.25 0.25 134217728 0 0
+( 2968 -88 -488 ) ( 2968 -80 -488 ) ( 2968 -88 -456 ) exx/base-metal03 0 0 0 0.25 0.25 134217728 0 0
+( 2972 -80 -456 ) ( 2968 -84 -584 ) ( 2972 -80 -584 ) exx/trim-vert01 0 0 0 0.125 0.125 134217728 0 0
+( 2980 -80 -520 ) ( 2984 -84 -520 ) ( 2980 -80 -392 ) exx/trim-vert01 0 0 0 0.125 0.125 134217728 0 0
+}
+{
+( 2968 80 -336 ) ( 2984 88 -336 ) ( 2984 80 -336 ) exx/base-metal03 0 0 0 0.25 0.25 134217728 0 0
+( 2984 80 -528 ) ( 2968 80 -496 ) ( 2984 80 -496 ) exx/trim-01 32 0 0 0.125 0.125 134217728 0 0
+( 2984 88 -392 ) ( 2984 80 -424 ) ( 2984 80 -392 ) exx/base-metal03 0 0 0 0.25 0.25 134217728 0 0
+( 2968 80 -496 ) ( 2984 88 -496 ) ( 2968 88 -496 ) common/caulk 0 0 0 0.5 0.5 134217728 0 0
+( 2984 88 -488 ) ( 2968 88 -456 ) ( 2968 88 -488 ) exx/base-metal03 0 0 0 0.25 0.25 134217728 0 0
+( 2968 88 -456 ) ( 2968 80 -488 ) ( 2968 88 -488 ) exx/base-metal03 0 0 0 0.25 0.25 134217728 0 0
+( 2972 80 -624 ) ( 2968 84 -624 ) ( 2972 80 -496 ) exx/trim-vert01 0 0 0 0.125 0.125 134217728 0 0
+( 2980 80 -432 ) ( 2984 84 -560 ) ( 2980 80 -560 ) exx/trim-vert01 0 0 0 0.125 0.125 134217728 0 0
+}
+}
+{
+"classname" "misc_laser"
+"origin" "2976.000000 -80.000000 -416.000000"
+"target" "laser-10"
+"colormod" "1 0 0"
+"dmg" "-1"
+"spawnflags" "15"
+"team" "5"
+"gametypefilter" "teamspawns"
+"modelscale" "0.5"
+}
+{
+"classname" "target_position"
+"origin" "2976.000000 80.000000 -416.000000"
+"targetname" "laser-10"
+}
+{
+"classname" "misc_laser"
+"origin" "2976.000000 -80.000000 -384.000000"
+"target" "laser-11"
+"colormod" "1 0 0"
+"dmg" "-1"
+"spawnflags" "15"
+"team" "5"
+"gametypefilter" "teamspawns"
+"modelscale" "0.5"
+}
+{
+"classname" "target_position"
+"origin" "2976.000000 80.000000 -384.000000"
+"targetname" "laser-11"
+}
+{
+"classname" "misc_laser"
+"origin" "2976.000000 -80.000000 -352.000000"
+"target" "laser-12"
+"colormod" "1 0 0"
+"dmg" "-1"
+"spawnflags" "15"
+"team" "5"
+"gametypefilter" "teamspawns"
+"modelscale" "0.5"
+}
+{
+"classname" "target_position"
+"origin" "2976.000000 80.000000 -352.000000"
+"targetname" "laser-12"
+}
+{
+"classname" "misc_laser"
+"origin" "-2976.000000 -80.000000 576.000000"
+"target" "laser-16"
+"colormod" "0 0.25 1"
+"dmg" "-1"
+"spawnflags" "15"
+"team" "14"
+"gametypefilter" "teamspawns"
+"modelscale" "0.5"
+}
+{
+"classname" "target_position"
+"origin" "-2976.000000 80.000000 576.000000"
+"targetname" "laser-16"
+}
+{
+"classname" "func_wall"
+"_castShadows" "0"
+"gametypefilter" "teamspawns"
+{
+( -2968 -80 688 ) ( -2984 -88 688 ) ( -2984 -80 688 ) exx/base-metal03 0 0 0 0.25 0.25 134217728 0 0
+( -2984 -80 536 ) ( -2968 -80 568 ) ( -2984 -80 568 ) exx/trim-01 32 0 0 0.125 0.125 134217728 0 0
+( -2984 -88 632 ) ( -2984 -80 600 ) ( -2984 -80 632 ) exx/base-metal03 0 0 0 0.25 0.25 134217728 0 0
+( -2968 -80 528 ) ( -2984 -88 528 ) ( -2968 -88 528 ) common/caulk 0 0 0 0.5 0.5 134217728 0 0
+( -2984 -88 536 ) ( -2968 -88 568 ) ( -2968 -88 536 ) exx/base-metal03 0 0 0 0.25 0.25 134217728 0 0
+( -2968 -88 568 ) ( -2968 -80 536 ) ( -2968 -88 536 ) exx/base-metal03 0 0 0 0.25 0.25 134217728 0 0
+( -2972 -80 440 ) ( -2968 -84 440 ) ( -2972 -80 568 ) exx/trim-vert01 0 0 0 0.125 0.125 134217728 0 0
+( -2980 -80 632 ) ( -2984 -84 504 ) ( -2980 -80 504 ) exx/trim-vert01 0 0 0 0.125 0.125 134217728 0 0
+}
+{
+( -2984 80 688 ) ( -2984 88 688 ) ( -2968 80 688 ) exx/base-metal03 0 0 0 0.25 0.25 134217728 0 0
+( -2984 80 528 ) ( -2968 80 528 ) ( -2984 80 496 ) exx/trim-01 32 0 0 0.125 0.125 134217728 0 0
+( -2984 80 632 ) ( -2984 80 600 ) ( -2984 88 632 ) exx/base-metal03 0 0 0 0.25 0.25 134217728 0 0
+( -2968 88 528 ) ( -2984 88 528 ) ( -2968 80 528 ) common/caulk 0 0 0 0.5 0.5 134217728 0 0
+( -2968 88 536 ) ( -2968 88 568 ) ( -2984 88 536 ) exx/base-metal03 0 0 0 0.25 0.25 134217728 0 0
+( -2968 88 536 ) ( -2968 80 536 ) ( -2968 88 568 ) exx/base-metal03 0 0 0 0.25 0.25 134217728 0 0
+( -2972 80 528 ) ( -2968 84 400 ) ( -2972 80 400 ) exx/trim-vert01 0 0 0 0.125 0.125 134217728 0 0
+( -2980 80 464 ) ( -2984 84 464 ) ( -2980 80 592 ) exx/trim-vert01 0 0 0 0.125 0.125 134217728 0 0
+}
+}
+{
+"classname" "misc_laser"
+"origin" "-2976.000000 -80.000000 608.000000"
+"target" "laser-13"
+"colormod" "0 0.25 1"
+"dmg" "-1"
+"spawnflags" "15"
+"team" "14"
+"gametypefilter" "teamspawns"
+"modelscale" "0.5"
+}
+{
+"classname" "target_position"
+"origin" "-2976.000000 80.000000 608.000000"
+"targetname" "laser-13"
+}
+{
+"classname" "misc_laser"
+"origin" "-2976.000000 -80.000000 640.000000"
+"target" "laser-14"
+"colormod" "0 0.25 1"
+"dmg" "-1"
+"spawnflags" "15"
+"team" "14"
+"gametypefilter" "teamspawns"
+"modelscale" "0.5"
+}
+{
+"classname" "target_position"
+"origin" "-2976.000000 80.000000 640.000000"
+"targetname" "laser-14"
+}
+{
+"classname" "misc_laser"
+"origin" "-2976.000000 -80.000000 672.000000"
+"target" "laser-15"
+"colormod" "0 0.25 1"
+"dmg" "-1"
+"spawnflags" "15"
+"team" "14"
+"gametypefilter" "teamspawns"
+"modelscale" "0.5"
+}
+{
+"classname" "target_position"
+"origin" "-2976.000000 80.000000 672.000000"
+"targetname" "laser-15"
+}
