@@ -17327,11 +17327,13 @@ trak5x/base-pipe1d
 "classname" "item_health_large"
 "origin" "0.000000 0.000000 24.000000"
 "team" "1"
+"gametypefilter" "-ons"
 }
 {
 "classname" "item_armor_large"
 "origin" "0.000000 0.000000 24.000000"
 "team" "1"
+"gametypefilter" "-ons"
 }
 {
 "classname" "item_armor_small"
@@ -21360,10 +21362,12 @@ exx/trim-baseboard03
 {
 "classname" "item_health_large"
 "origin" "-1120.000000 -3744.000000 16.000000"
+"gametypefilter" "-ons"
 }
 {
 "classname" "item_health_large"
 "origin" "1120.000000 -3744.000000 16.000000"
+"gametypefilter" "-ons"
 }
 {
 "classname" "item_armor_small"
@@ -21376,18 +21380,22 @@ exx/trim-baseboard03
 {
 "classname" "item_health_small"
 "origin" "1056.000000 -3744.000000 16.000000"
+"gametypefilter" "-ons"
 }
 {
 "classname" "item_health_small"
 "origin" "1184.000000 -3744.000000 16.000000"
+"gametypefilter" "-ons"
 }
 {
 "classname" "item_health_small"
 "origin" "-1056.000000 -3744.000000 16.000000"
+"gametypefilter" "-ons"
 }
 {
 "classname" "item_health_small"
 "origin" "-1184.000000 -3744.000000 16.000000"
+"gametypefilter" "-ons"
 }
 {
 "classname" "weapon_rocketlauncher"
@@ -63669,4 +63677,103 @@ exx/base-metal04
 ( 280 -2632 176 ) ( 280 -2616 176 ) ( 280 -2632 336 ) common/trigger 0 0 0 0.5 0.5 0 0 0
 ( -64 -2048 1024 ) ( -64 -1792 768 ) ( 64 -2048 1024 ) common/trigger 0 0 0 0.5 0.5 0 0 0
 }
+}
+{
+"classname" "onslaught_generator"
+"origin" "3520.000000 0.000000 -488.000000"
+"angle" "180.000000"
+"team" "5"
+"targetname" "gen_r"
+}
+{
+"classname" "onslaught_generator"
+"origin" "-3520.000000 0.000000 536.000000"
+"targetname" "gen_b"
+"team" "14"
+}
+{
+"classname" "onslaught_controlpoint"
+"origin" "1984.000000 0.000000 -512.000000"
+"targetname" "cp_r_elevator"
+}
+{
+"classname" "onslaught_link"
+"origin" "2064.000000 0.000000 -368.000000"
+"target" "gen_r"
+"target2" "cp_r_elevator"
+}
+{
+"classname" "onslaught_controlpoint"
+"origin" "-1984.000000 0.000000 512.000000"
+"angle" "180.000000"
+"targetname" "cp_b_elevator"
+}
+{
+"classname" "onslaught_link"
+"origin" "-2064.000000 0.000000 656.000000"
+"angle" "180.000000"
+"target" "gen_b"
+"target2" "cp_b_elevator"
+}
+{
+"classname" "onslaught_controlpoint"
+"origin" "0.000000 0.000000 24.000000"
+"angle" "90.000000"
+"targetname" "cp_center_room"
+}
+{
+"classname" "onslaught_link"
+"origin" "80.000000 0.000000 168.000000"
+"target" "cp_r_elevator"
+"target2" "cp_center_room"
+}
+{
+"classname" "onslaught_link"
+"origin" "-80.000000 0.000000 168.000000"
+"angle" "180.000000"
+"target" "cp_b_elevator"
+"target2" "cp_center_room"
+}
+{
+"classname" "onslaught_controlpoint"
+"origin" "-1120.000000 -3744.000000 16.000000"
+"targetname" "cp_b_bridge"
+}
+{
+"classname" "onslaught_link"
+"origin" "-1040.000000 -3744.000000 160.000000"
+"target" "gen_b"
+"target2" "cp_b_bridge"
+}
+{
+"classname" "onslaught_controlpoint"
+"origin" "1120.000000 -3744.000000 16.000000"
+"angle" "-179.999985"
+"targetname" "cp_r_bridge"
+}
+{
+"classname" "onslaught_link"
+"origin" "1040.000000 -3744.000000 160.000000"
+"angle" "-179.999985"
+"target" "gen_r"
+"target2" "cp_r_bridge"
+}
+{
+"classname" "onslaught_controlpoint"
+"origin" "0.000000 -6144.000000 -256.000000"
+"angle" "90.000000"
+"targetname" "cp_center_building"
+}
+{
+"classname" "onslaught_link"
+"origin" "80.000000 -6144.000000 -112.000000"
+"target" "cp_r_bridge"
+"target2" "cp_center_building"
+}
+{
+"classname" "onslaught_link"
+"origin" "-80.000000 -6144.000000 -112.000000"
+"angle" "-179.999985"
+"target" "cp_b_bridge"
+"target2" "cp_center_building"
 }

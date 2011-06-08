@@ -9,6 +9,7 @@ gametype rune
 gametype lms
 gametype arena
 gametype ctf
+gametype ons
 gametype ca
 gametype dom
 gametype kh
