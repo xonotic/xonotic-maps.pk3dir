@@ -17338,22 +17338,18 @@ trak5x/base-pipe1d
 {
 "classname" "item_armor_small"
 "origin" "80.000000 0.000000 32.000000"
-"gametypefilter" "-ons"
 }
 {
 "classname" "item_armor_small"
 "origin" "-80.000000 0.000000 32.000000"
-"gametypefilter" "-ons"
 }
 {
 "classname" "item_health_small"
 "origin" "0.000000 80.000000 24.000000"
-"gametypefilter" "-ons"
 }
 {
 "classname" "item_health_small"
 "origin" "0.000000 -80.000000 24.000000"
-"gametypefilter" "-ons"
 }
 {
 "classname" "misc_gamemodel"
@@ -63678,14 +63674,14 @@ exx/base-metal04
 }
 {
 "classname" "onslaught_generator"
-"origin" "3520.000000 0.000000 -488.000000"
-"angle" "180.000000"
+"origin" "3520.000000 0.000000 -520.000000"
+"angle" "-179.999985"
 "team" "5"
 "targetname" "gen_r"
 }
 {
 "classname" "onslaught_generator"
-"origin" "-3520.000000 0.000000 536.000000"
+"origin" "-3520.000000 0.000000 504.000000"
 "targetname" "gen_b"
 "team" "14"
 }
