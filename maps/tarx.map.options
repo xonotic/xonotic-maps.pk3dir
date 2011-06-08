@@ -2,4 +2,4 @@
 -light + --no-fast --no-dirty -bounce 8
 -vis +
 -minimap +
-version: 5 
+version: 6 
