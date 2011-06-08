@@ -21563,6 +21563,7 @@ exx/trim-baseboard03
 "angle" "165.000000"
 "modelscale" "1.500000"
 "solid" "4"
+"skin" "2"
 }
 {
 "classname" "misc_gamemodel"
@@ -21571,11 +21572,12 @@ exx/trim-baseboard03
 "angle" "-165.000000"
 "modelscale" "1.500000"
 "solid" "4"
+"skin" "2"
 }
 {
 "classname" "trigger_push"
-"target" "jump1"
-"height" "200"
+"target" "jump-bridge"
+"height" "400"
 {
 ( 480 -5664 112 ) ( 384 -5616 112 ) ( 456 -5600 112 ) common/trigger 0 0 0 0.5 0.5 0 0 0
 ( 384 -5616 112 ) ( 456 -5600 64 ) ( 456 -5600 112 ) common/trigger 0 0 0 0.5 0.5 0 0 0
@@ -21588,12 +21590,12 @@ exx/trim-baseboard03
 {
 "classname" "target_position"
 "origin" "0.000000 -3744.000000 96.000000"
-"targetname" "jump1"
+"targetname" "jump-bridge"
 }
 {
 "classname" "trigger_push"
-"target" "jump1"
-"height" "200"
+"target" "jump-bridge"
+"height" "400"
 {
 ( -408 -5680 112 ) ( -456 -5600 112 ) ( -384 -5616 112 ) common/trigger 0 0 0 0.5 0.5 0 0 0
 ( -456 -5600 112 ) ( -384 -5616 64 ) ( -384 -5616 112 ) common/trigger 0 0 0 0.5 0.5 0 0 0
@@ -21842,13 +21844,13 @@ exx/trim-baseboard03
 }
 {
 "classname" "misc_teleporter_dest"
-"origin" "-576.000000 -5728.000000 -224.000000"
+"origin" "-576.000000 -5808.000000 -224.000000"
 "angle" "-90.000000"
 "targetname" "tele2"
 }
 {
 "classname" "misc_teleporter_dest"
-"origin" "576.000000 -5728.000000 -224.000000"
+"origin" "576.000000 -5808.000000 -224.000000"
 "angle" "-90.000000"
 "targetname" "tele1"
 }
@@ -63822,5 +63824,55 @@ exx/base-metal04
 ( 1344 32 832 ) ( 1344 80 784 ) ( 1472 32 832 ) common/trigger 0 0 0 0.5 0.5 0 0 0
 ( 1344 80 720 ) ( 1344 32 672 ) ( 1472 80 720 ) common/trigger 0 0 0 0.5 0.5 0 0 0
 ( 1472 -80 720 ) ( 1344 -32 672 ) ( 1344 -80 720 ) common/trigger 0 0 0 0.5 0.5 0 0 0
+}
+}
+{
+"classname" "misc_gamemodel"
+"origin" "-576.000000 -5728.000000 -256.000000"
+"model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
+"skin" "2"
+}
+{
+"classname" "trigger_push"
+"height" "100"
+"target" "jump-left"
+{
+( -512 -5680 -208 ) ( -512 -5776 -208 ) ( -608 -5680 -208 ) common/trigger 0 0 0 0.5 0.5 0 0 0
+( -512 -5680 -240 ) ( -608 -5680 -240 ) ( -512 -5680 -256 ) common/trigger 0 0 0 0.5 0.5 0 0 0
+( -528 -5680 -240 ) ( -528 -5680 -256 ) ( -528 -5776 -240 ) common/trigger 0 0 0 0.5 0.5 0 0 0
+( -608 -5776 -256 ) ( -512 -5776 -256 ) ( -608 -5680 -256 ) common/trigger 0 0 0 0.5 0.5 0 0 0
+( -608 -5776 -256 ) ( -608 -5776 -240 ) ( -512 -5776 -256 ) common/trigger 0 0 0 0.5 0.5 0 0 0
+( -624 -5776 -256 ) ( -624 -5680 -256 ) ( -624 -5776 -240 ) common/trigger 0 0 0 0.5 0.5 0 0 0
+}
+}
+{
+"classname" "target_position"
+"origin" "-432.000000 -5632.000000 112.000000"
+"targetname" "jump-left"
+"angle" "90.000000"
+}
+{
+"classname" "target_position"
+"origin" "432.000000 -5632.000000 112.000000"
+"targetname" "jump-right"
+"angle" "90.000000"
+}
+{
+"classname" "misc_gamemodel"
+"origin" "576.000000 -5728.000000 -256.000000"
+"model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
+"skin" "2"
+}
+{
+"classname" "trigger_push"
+"height" "100"
+"target" "jump-right"
+{
+( 608 -5680 -208 ) ( 512 -5776 -208 ) ( 512 -5680 -208 ) common/trigger 0 0 0 0.5 0.5 0 0 0
+( 512 -5680 -256 ) ( 608 -5680 -240 ) ( 512 -5680 -240 ) common/trigger 0 0 0 0.5 0.5 0 0 0
+( 528 -5776 -240 ) ( 528 -5680 -256 ) ( 528 -5680 -240 ) common/trigger 0 0 0 0.5 0.5 0 0 0
+( 608 -5680 -256 ) ( 512 -5776 -256 ) ( 608 -5776 -256 ) common/trigger 0 0 0 0.5 0.5 0 0 0
+( 512 -5776 -256 ) ( 608 -5776 -240 ) ( 608 -5776 -256 ) common/trigger 0 0 0 0.5 0.5 0 0 0
+( 624 -5776 -240 ) ( 624 -5680 -256 ) ( 624 -5776 -256 ) common/trigger 0 0 0 0.5 0.5 0 0 0
 }
 }
