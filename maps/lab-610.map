@@ -21394,6 +21394,7 @@ exx/trim-baseboard03
 {
 "classname" "weapon_rocketlauncher"
 "origin" "0.000000 -3744.000000 32.000000"
+"gametypefilter" "-nexball"
 }
 {
 "classname" "item_bullets"
@@ -63770,4 +63771,56 @@ exx/base-metal04
 "angle" "-179.999985"
 "target" "cp_b_bridge"
 "target2" "cp_center_building"
+}
+{
+"classname" "misc_gamemodel"
+"origin" "3520.000000 0.000000 -288.000000"
+"model" "models/teleporters/gianttele.md3"
+"angle" "-90.000000"
+"modelscale" "1.250000"
+"gametypefilter" "+nexball"
+}
+{
+"classname" "nexball_redgoal"
+"spawnflags" "1"
+{
+( 3504 -64 -192 ) ( 3504 64 -192 ) ( 3536 -64 -192 ) common/trigger 0 0 0 0.5 0.5 0 0 0
+( 3504 -80 -288 ) ( 3536 -80 -288 ) ( 3504 -80 -304 ) common/trigger 0 0 0 0.5 0.5 0 0 0
+( 3504 -64 -288 ) ( 3504 -64 -304 ) ( 3504 64 -288 ) common/trigger 0 0 0 0.5 0.5 0 0 0
+( 3536 64 -352 ) ( 3504 64 -352 ) ( 3536 -64 -352 ) common/trigger 0 0 0 0.5 0.5 0 0 0
+( 3536 80 -304 ) ( 3536 80 -288 ) ( 3504 80 -304 ) common/trigger 0 0 0 0.5 0.5 0 0 0
+( 3536 64 -304 ) ( 3536 -64 -304 ) ( 3536 64 -288 ) common/trigger 0 0 0 0.5 0.5 0 0 0
+( -1472 32 -192 ) ( -1344 80 -240 ) ( -1344 32 -192 ) common/trigger 0 0 0 0.5 0.5 0 0 0
+( -1344 -32 -192 ) ( -1344 -80 -240 ) ( -1472 -32 -192 ) common/trigger 0 0 0 0.5 0.5 0 0 0
+( -1344 -80 -304 ) ( -1344 -32 -352 ) ( -1472 -80 -304 ) common/trigger 0 0 0 0.5 0.5 0 0 0
+( -1472 80 -304 ) ( -1344 32 -352 ) ( -1344 80 -304 ) common/trigger 0 0 0 0.5 0.5 0 0 0
+}
+}
+{
+"classname" "misc_gamemodel"
+"origin" "-3520.000000 0.000000 736.000000"
+"model" "models/teleporters/gianttele.md3"
+"angle" "90.000000"
+"modelscale" "1.250000"
+"gametypefilter" "+nexball"
+}
+{
+"classname" "nexball_basketball"
+"origin" "0.000000 -3744.000000 160.000000"
+}
+{
+"classname" "nexball_bluegoal"
+"spawnflags" "1"
+{
+( -3504 64 832 ) ( -3504 -64 832 ) ( -3536 64 832 ) common/trigger 0 0 0 0.5 0.5 0 0 0
+( -3504 80 736 ) ( -3536 80 736 ) ( -3504 80 720 ) common/trigger 0 0 0 0.5 0.5 0 0 0
+( -3504 64 736 ) ( -3504 64 720 ) ( -3504 -64 736 ) common/trigger 0 0 0 0.5 0.5 0 0 0
+( -3536 -64 672 ) ( -3504 -64 672 ) ( -3536 64 672 ) common/trigger 0 0 0 0.5 0.5 0 0 0
+( -3536 -80 720 ) ( -3536 -80 736 ) ( -3504 -80 720 ) common/trigger 0 0 0 0.5 0.5 0 0 0
+( -3536 -64 720 ) ( -3536 64 720 ) ( -3536 -64 736 ) common/trigger 0 0 0 0.5 0.5 0 0 0
+( 1472 -32 832 ) ( 1344 -80 784 ) ( 1344 -32 832 ) common/trigger 0 0 0 0.5 0.5 0 0 0
+( 1344 32 832 ) ( 1344 80 784 ) ( 1472 32 832 ) common/trigger 0 0 0 0.5 0.5 0 0 0
+( 1344 80 720 ) ( 1344 32 672 ) ( 1472 80 720 ) common/trigger 0 0 0 0.5 0.5 0 0 0
+( 1472 -80 720 ) ( 1344 -32 672 ) ( 1344 -80 720 ) common/trigger 0 0 0 0.5 0.5 0 0 0
+}
 }

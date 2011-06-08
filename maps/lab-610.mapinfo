@@ -10,6 +10,7 @@ gametype lms
 gametype arena
 gametype ctf
 gametype ons
+gametype nexball
 gametype ca
 gametype dom
 gametype kh
