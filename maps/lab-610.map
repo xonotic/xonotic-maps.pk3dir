@@ -26565,12 +26565,6 @@ exx/base-metal01
 }
 {
 "classname" "func_group"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
 {
 ( 832 -1984 0 ) ( 960 -1856 0 ) ( 960 -1984 0 ) common/caulk 0 0 0 0.5 0.5 134217728 0 0
 ( 832 -1856 0 ) ( 944 -1872 -16 ) ( 960 -1856 0 ) exx/trim-vert01 0 0 90 0.5 0.5 134217728 0 0
@@ -28284,33 +28278,6 @@ exx/base-metal01
 ( -3568 -6 578 ) ( -3440 6 584 ) ( -3440 -6 578 ) exx/base-metal01 0 0 0 0.25 0.25 134217728 0 0
 ( -3440 -6 578 ) ( -3440 6 572 ) ( -3568 -6 578 ) exx/base-metal01 0 0 0 0.25 0.25 134217728 0 0
 }
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
 }
 {
 "classname" "func_wall"
@@ -62213,16 +62180,6 @@ trak5x/base-pipe1b
 }
 {
 "classname" "func_wall"
-"gametypefilter" "teamspawns"
-"_castShadows" "0"
-}
-{
-"classname" "func_wall"
-"gametypefilter" "teamspawns"
-"_castShadows" "0"
-}
-{
-"classname" "func_wall"
 "_castShadows" "0"
 "gametypefilter" "teamspawns"
 {
@@ -62384,26 +62341,6 @@ trak5x/base-pipe1b
 ( 644 -1584 224 ) ( 644 -1584 0 ) ( 644 -1616 224 ) exx/floor-wrn01-red 0 0 0 0.25 0.25 134217728 0 0
 ( 640 -1568 224 ) ( 640 -1568 0 ) ( 644 -1584 224 ) exx/trim-01 0 0 0 0.25 0.25 134217728 0 0
 }
-}
-{
-"classname" "func_wall"
-"_castShadows" "0"
-"gametypefilter" "teamspawns"
-}
-{
-"classname" "func_wall"
-"_castShadows" "0"
-"gametypefilter" "teamspawns"
-}
-{
-"classname" "func_wall"
-"_castShadows" "0"
-"gametypefilter" "teamspawns"
-}
-{
-"classname" "func_wall"
-"_castShadows" "0"
-"gametypefilter" "teamspawns"
 }
 {
 "classname" "func_wall"
@@ -63285,11 +63222,6 @@ trak5x/base-pipe1b
 "targetname" "laser-20"
 }
 {
-"classname" "func_wall"
-"_castShadows" "0"
-"gametypefilter" "teamspawns"
-}
-{
 "classname" "misc_laser"
 "origin" "288.000000 -1800.000000 96.000000"
 "target" "laser-17"
@@ -63342,18 +63274,6 @@ trak5x/base-pipe1b
 "classname" "target_position"
 "origin" "288.000000 -2624.000000 160.000000"
 "targetname" "laser-19"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
 }
 {
 "classname" "func_wall"
