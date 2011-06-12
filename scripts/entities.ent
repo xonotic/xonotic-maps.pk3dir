@@ -121,6 +121,7 @@ When a button is touched by a player, it moves in the direction set by the &quot
 <target key="target2" name="target2">all entities with a matching targetname will be triggered.</target>
 <target key="target3" name="target3">all entities with a matching targetname will be triggered.</target>
 <target key="target4" name="target4">all entities with a matching targetname will be triggered.</target>
+<boolean key="target_random" name="target_random">instead of triggering ALL matched entities, trigger ONE of them by random</boolean>
 <real key="speed" name="speed">speed of button's displacement (default 40).</real>
 <real key="platmovetype" name="platmovetype">movement type (1 = linear, 2 = cosine [default])</real>
 <real key="wait" name="wait">number of seconds button stays pressed (default 1, -1 = return immediately).</real>
@@ -321,6 +322,9 @@ Attacking team's player spawning location in Assault. Should touch the floor, bu
 -------- KEYS --------
 <target key="target" name="target">this should point to a target_objective to decide when this spawning point is active.</target>
 <target key="target2" name="target2">trigger all entities with this targetname when someone spawns</target>
+<target key="target3" name="target3">trigger all entities with this targetname when someone spawns</target>
+<target key="target4" name="target4">trigger all entities with this targetname when someone spawns</target>
+<boolean key="target_random" name="target_random">instead of triggering ALL matched entities, trigger ONE of them by random</boolean>
 <real key="cnt" name="cnt">weight of spawn point for random selection. Set to a lower value if you have many spawn points close together. Default value is 1.</real>
 <real key="restriction" name="restriction">when 1, only bots can spawn here; when 2, only humans can spawn here (be careful with these, or the game will crash because someone cannot spawn)</real>
 </point>
@@ -339,6 +343,9 @@ Defending team's player spawning location in Assault. Should touch the floor, bu
 -------- KEYS --------
 <target key="target" name="target">this should point to a target_objective to decide when this spawning point is active.</target>
 <target key="target2" name="target2">trigger all entities with this targetname when someone spawns</target>
+<target key="target3" name="target3">trigger all entities with this targetname when someone spawns</target>
+<target key="target4" name="target4">trigger all entities with this targetname when someone spawns</target>
+<boolean key="target_random" name="target_random">instead of triggering ALL matched entities, trigger ONE of them by random</boolean>
 <real key="cnt" name="cnt">weight of spawn point for random selection. Set to a lower value if you have many spawn points close together. Default value is 1.</real>
 <real key="restriction" name="restriction">when 1, only bots can spawn here; when 2, only humans can spawn here (be careful with these, or the game will crash because someone cannot spawn)</real>
 </point>
@@ -902,6 +909,7 @@ Teleport destination location point for trigger_teleport entities. Do not let it
 <target key="target2" name="target2">target to activate when a teleporter targeting this is used</target>
 <target key="target3" name="target3">target to activate when a teleporter targeting this is used</target>
 <target key="target4" name="target4">target to activate when a teleporter targeting this is used</target>
+<boolean key="target_random" name="target_random">instead of triggering ALL matched entities, trigger ONE of them by random</boolean>
 <direction key="angle" name="angle">direction in which player will look when teleported, OR use</direction>
 <angles key="angles" name="angles">pitch and yaw when coming out of the teleporter (also specifies the direction the player will aim when coming out)</angles>
 <real key="cnt" name="cnt">weight for random selection, in case a teleporter points at multiple misc_teleporter_dest</real>
@@ -943,6 +951,7 @@ All path_corner entities of a train have to connect in a circular manner, while 
 <target key="target2" name="target2">triggered when a func_train stops at this target</target>
 <target key="target3" name="target3">triggered when a func_train stops at this target</target>
 <target key="target4" name="target4">triggered when a func_train stops at this target</target>
+<boolean key="target_random" name="target_random">instead of triggering ALL matched entities, trigger ONE of them by random</boolean>
 <targetname key="targetname" name="targetname">the train following the path or the previous path_corner in the path points to this.</targetname>
 <real key="speed" name="speed">speed of func_train while moving to this path corner. If unset, the value from the func_train will be used.</real>
 <real key="wait" name="wait">number of seconds func_train will pause on this path corner before moving to next path corner (default: 0.1; to not wait, set this to -1</real>
@@ -968,6 +977,7 @@ This entity triggers its targets whenever a new assault round is started. This c
 <target key="target2" name="target2">targetname of entities to be enabled/triggered on round start (e.g. the func_assault_destructibles targeting the target_objective)</target>
 <target key="target3" name="target3">targetname of entities to be enabled/triggered on round start</target>
 <target key="target4" name="target4">targetname of entities to be enabled/triggered on round start</target>
+<boolean key="target_random" name="target_random">instead of triggering ALL matched entities, trigger ONE of them by random</boolean>
 </point>
 
 <point name="target_objective" color=".5 0 .5" box="-8 -8 -8 8 8 8">
@@ -977,6 +987,7 @@ target_objective controls an objective. Once triggered the objective is active a
 <target key="target2" name="target2">targetname of entities to be enabled/triggered on objective fulfilling (e.g. the func_assault_destructibles targeting the target_objective)</target>
 <target key="target3" name="target3">targetname of entities to be enabled/triggered on objective fulfilling</target>
 <target key="target4" name="target4">targetname of entities to be enabled/triggered on objective fulfilling</target>
+<boolean key="target_random" name="target_random">instead of triggering ALL matched entities, trigger ONE of them by random</boolean>
 <targetname key="targetname" name="targetname">targetname for this entity so it can be triggered by other entities.</targetname>
 </point>
 
@@ -1074,6 +1085,7 @@ Variable sized repeatable trigger.  Must be targeted at one or more entities.  I
 <target key="target2" name="target2">trigger all entities with this targetname when triggered</target>
 <target key="target3" name="target3">trigger all entities with this targetname when triggered</target>
 <target key="target4" name="target4">trigger all entities with this targetname when triggered</target>
+<boolean key="target_random" name="target_random">instead of triggering ALL matched entities, trigger ONE of them by random</boolean>
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
 <real key="delay" name="delay">delay the triggering by the given time</real>
 <string key="message" name="message">print this message to the player who activated the trigger</string>
@@ -1130,6 +1142,7 @@ More than one &quot;trigger event&quot; can be delayed at once, as opposed to tr
 <target key="target2" name="target2">trigger all entities with this targetname when triggered</target>
 <target key="target3" name="target3">trigger all entities with this targetname when triggered</target>
 <target key="target4" name="target4">trigger all entities with this targetname when triggered</target>
+<boolean key="target_random" name="target_random">instead of triggering ALL matched entities, trigger ONE of them by random</boolean>
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
 <real key="delay" name="delay">delay the triggering by the given time</real>
 <string key="message" name="message">print this message to the player who activated the trigger</string>
@@ -1152,6 +1165,7 @@ Note that in Xonotic, teleporters preserve momentum of the player using them.
 <target key="target2" name="target2">target to activate when the teleporter is used</target>
 <target key="target3" name="target3">target to activate when the teleporter is used</target>
 <target key="target4" name="target4">target to activate when the teleporter is used</target>
+<boolean key="target_random" name="target_random">instead of triggering ALL matched entities, trigger ONE of them by random</boolean>
 <integer key="team" name="team">team that owns this teleporter (5 = red, 14 = blue, etc) (when set, only this team can teleport)</integer>
 <targetname key="targetname" name="targetname">when targeted by a func_button, pressing the button will reassign the teleporter to the team of the activator.</targetname>
 -------- SPAWNFLAGS --------
@@ -1347,6 +1361,9 @@ NOTE for race_place: when the race starts after the qualifying, the player with 
 -------- KEYS --------
 <target key="target" name="target">this should point to a trigger_race_checkpoint to decide when this spawning point is active. The checkpoint has to be AFTER this spawn.</target>
 <target key="target2" name="target2">trigger all entities with this targetname when someone spawns</target>
+<target key="target3" name="target3">trigger all entities with this targetname when someone spawns</target>
+<target key="target4" name="target4">trigger all entities with this targetname when someone spawns</target>
+<boolean key="target_random" name="target_random">instead of triggering ALL matched entities, trigger ONE of them by random</boolean>
 <real key="cnt" name="cnt">weight of spawn point for random selection. Set to a lower value if you have many spawn points close together. Default value is 1.</real>
 <real key="race_place" name="race_place">if target points to the trigger_race_checkpoint with cnt 0 (finish line), this sets which place the spawn corresponds to; the special value 0 stands for spawns for players who died in game, and -1 marks the spawnpoint for qualifying mode only; any race map must have spawnpoints with race_place being 1, 2, 3 or it gets marked as a frustrating map</real>
 <real key="restriction" name="restriction">when 1, only bots can spawn here; when 2, only humans can spawn here (be careful with these, or the game will crash because someone cannot spawn)</real>
@@ -1422,6 +1439,7 @@ Triggers once when the game starts, then no longer does anything.
 <target key="target2" name="target2">trigger all entities with this targetname when starting the game</target>
 <target key="target3" name="target3">trigger all entities with this targetname when starting the game</target>
 <target key="target4" name="target4">trigger all entities with this targetname when starting the game</target>
+<boolean key="target_random" name="target_random">instead of triggering ALL matched entities, trigger ONE of them by random</boolean>
 <real key="wait" name="wait">wait so many seconds before triggering</real>
 </point>
 
@@ -1744,6 +1762,7 @@ Works similar to trigger_relay, but only relays trigger events if the team of th
 <target key="target2" name="target2">trigger all entities with this targetname when triggered</target>
 <target key="target3" name="target3">trigger all entities with this targetname when triggered</target>
 <target key="target4" name="target4">trigger all entities with this targetname when triggered</target>
+<boolean key="target_random" name="target_random">instead of triggering ALL matched entities, trigger ONE of them by random</boolean>
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
 <real key="delay" name="delay">delay the triggering by the given time</real>
 <string key="message" name="message">print this message to the player who activated the trigger</string>
@@ -1880,6 +1899,7 @@ Triggers targets when a given magic word has been said
 <target key="target2" name="target2">all entities with a matching targetname will be triggered.</target>
 <target key="target3" name="target3">all entities with a matching targetname will be triggered.</target>
 <target key="target4" name="target4">all entities with a matching targetname will be triggered.</target>
+<boolean key="target_random" name="target_random">instead of triggering ALL matched entities, trigger ONE of them by random</boolean>
 -------- SPAWNFLAGS --------
 <flag key="IGNORE_SAY" name="IGNORE_SAY" bit="0">do not respond to &quot;say&quot; messages</flag>
 <flag key="IGNORE_TEAMSAY" name="IGNORE_TEAMSAY" bit="1">do not respond to &quot;say_team&quot; messages</flag>
@@ -1916,6 +1936,7 @@ Should be thick enough to fit a player entity (i.e. 32 units), preferably even t
 <target key="target2" name="target2">is triggered when a player ENTERS the warpzone (and warps away)</target>
 <target key="target3" name="target3">is triggered when a player LEAVES the warpzone (from the other warp zone to this one)</target>
 <target key="target4" name="target4">is triggered in both cases</target>
+<boolean key="target_random" name="target_random">instead of triggering ALL matched entities, trigger ONE of them by random</boolean>
 <targetname key="targetname" name="targetname">must be pointed to by another trigger_warpzone. Should be pointed to by a misc_warpzone_position entity, or...</targetname>
 <target key="killtarget" name="killtarget">should point to a target_position entity, or</target>
 <real key="warpzone_fadestart" name="warpzone_fadestart">start distance of fading out the warpzone</real>
