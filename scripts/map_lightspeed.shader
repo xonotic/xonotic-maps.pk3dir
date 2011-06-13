@@ -37,8 +37,31 @@ textures/map_lightspeed/lightspeedscrn_t
 
 textures/map_lightspeed/lcd_compile
 {
-	qer_editorimage models/map_lightspeed/lcd_compile1.jpg
+	qer_editorimage models/map_lightspeed/lcd/lcd_compile1.jpg
 		{
-		animMap 5 models/map_lightspeed/lcd_compile1.jpg models/map_lightspeed/lcd_compile2.jpg models/map_lightspeed/lcd_compile3.jpg models/map_lightspeed/lcd_compile4.jpg models/map_lightspeed/lcd_compile5.jpg models/map_lightspeed/lcd_compile5.jpg models/map_lightspeed/lcd_compile5.jpg models/map_lightspeed/lcd_compile5.jpg models/map_lightspeed/lcd_compile5.jpg models/map_lightspeed/lcd_compile5.jpg 
+		animMap 5 models/map_lightspeed/lcd/lcd_compile1.jpg models/map_lightspeed/lcd/lcd_compile2.jpg models/map_lightspeed/lcd/lcd_compile3.jpg models/map_lightspeed/lcd/lcd_compile4.jpg models/map_lightspeed/lcd/lcd_compile5.jpg models/map_lightspeed/lcd/lcd_compile5.jpg models/map_lightspeed/lcd/lcd_compile5.jpg models/map_lightspeed/lcd/lcd_compile5.jpg models/map_lightspeed/lcd/lcd_compile5.jpg models/map_lightspeed/lcd/lcd_compile5.jpg 
+	}
+}
+
+textures/map_lightspeed/light_nonglow
+{
+	qer_editorimage textures/map_lightspeed/light/light_1.tga
+	
+	q3map_bounceScale  0.75
+	dpoffsetmapping - 0.5
+	dpglossintensitymod  3
+	dpglossexponentmod  4
+
+
+	{
+		map textures/map_lightspeed/light/light_1.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
 	}
 }
