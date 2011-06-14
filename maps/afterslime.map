@@ -48393,9 +48393,9 @@ exx/base-metal03
 ( 1468 -944 -104 ) ( 1468 -976 -104 ) ( 1464 -944 -104 ) common/caulk 16 0 0 0.25 0.25 0 0 0
 ( 1468 -936 -112 ) ( 1464 -936 -112 ) ( 1468 -936 -140 ) common/caulk 16 0 0 0.25 0.25 0 0 0
 ( 1468 -944 -112 ) ( 1468 -944 -140 ) ( 1468 -976 -112 ) common/caulk 0 0 0 0.25 0.25 0 0 0
-( 1464 -976 -148 ) ( 1468 -976 -148 ) ( 1464 -944 -148 ) common/caulk 16 0 0 0.25 0.25 0 0 0
-( 1464 -980 -140 ) ( 1464 -980 -112 ) ( 1468 -980 -140 ) common/caulk 16 0 0 0.25 0.25 0 0 0
-( 1464 -976 -140 ) ( 1464 -944 -140 ) ( 1464 -976 -112 ) effects_item/respawnring-blue 34.9091796875 81.4545288086 0 0.34375 0.34375 0 0 0
+( 1464 -976 -144 ) ( 1468 -976 -144 ) ( 1464 -944 -144 ) common/caulk 16 0 0 0.25 0.25 0 0 0
+( 1464 -984 -140 ) ( 1464 -984 -112 ) ( 1468 -984 -140 ) common/caulk 16 0 0 0.25 0.25 0 0 0
+( 1464 -976 -140 ) ( 1464 -944 -140 ) ( 1464 -976 -112 ) effects_item/respawnring-blue 63.9982910156 51.200012207 0 0.375000298 0.3125000298 0 0 0
 }
 {
 ( 1016 16 528 ) ( 1016 80 528 ) ( 1016 16 576 ) exx/floor-simplines 0 0 0 0.25 0.25 0 0 0
@@ -48555,10 +48555,6 @@ exx/base-metal03
 "noise" "sound/machines/Slime_bubbling.wav"
 }
 {
-"classname" "func_rotating"
-"speed" "50"
-}
-{
 "classname" "trigger_push"
 "target" "target_position10"
 {
@@ -48584,10 +48580,6 @@ exx/base-metal03
 "classname" "light"
 "origin" "1152.000000 -8.000000 480.000000"
 "light" "300"
-}
-{
-"classname" "func_rotating"
-"speed" "50"
 }
 {
 "classname" "light"
@@ -48839,7 +48831,7 @@ exx/base-metal03
 }
 {
 "classname" "info_player_deathmatch"
-"origin" "1424.000000 -768.000000 -136.000000"
+"origin" "1424.000000 -768.000000 -152.000000"
 "angle" "-179.999985"
 }
 {
@@ -49781,11 +49773,11 @@ trak5x/base-pipe1a
 }
 {
 "classname" "item_health_small"
-"origin" "416.000000 -32.000000 320.000000"
+"origin" "416.000000 -32.000000 328.000000"
 }
 {
 "classname" "item_health_small"
-"origin" "-32.000000 -32.000000 320.000000"
+"origin" "-32.000000 -32.000000 328.000000"
 }
 {
 "classname" "item_armor_small"
@@ -49793,7 +49785,7 @@ trak5x/base-pipe1a
 }
 {
 "classname" "item_health_small"
-"origin" "-160.000000 -32.000000 320.000000"
+"origin" "-160.000000 -32.000000 328.000000"
 }
 {
 "classname" "item_armor_small"
@@ -49801,7 +49793,7 @@ trak5x/base-pipe1a
 }
 {
 "classname" "item_health_small"
-"origin" "288.000000 -32.000000 320.000000"
+"origin" "288.000000 -32.000000 328.000000"
 }
 {
 "classname" "item_cells"
@@ -52245,23 +52237,23 @@ exx/trim-metalsupp01
 }
 {
 "classname" "item_armor_small"
-"origin" "-352.000000 -1872.000000 432.000000"
+"origin" "-352.000000 -1872.000000 440.000000"
 }
 {
 "classname" "item_armor_small"
-"origin" "864.000000 -1872.000000 432.000000"
+"origin" "864.000000 -1872.000000 440.000000"
 }
 {
 "classname" "item_health_small"
-"origin" "-544.000000 -1872.000000 408.000000"
+"origin" "-544.000000 -1872.000000 416.000000"
 }
 {
 "classname" "item_health_small"
-"origin" "672.000000 -1872.000000 408.000000"
+"origin" "672.000000 -1872.000000 416.000000"
 }
 {
 "classname" "item_health_small"
-"origin" "1056.000000 -1872.000000 408.000000"
+"origin" "1056.000000 -1872.000000 416.000000"
 }
 {
 "classname" "item_shells"
@@ -52472,7 +52464,7 @@ exx/trim-metalsupp01
 }
 {
 "classname" "item_armor_small"
-"origin" "-736.000000 -1872.000000 432.000000"
+"origin" "-736.000000 -1872.000000 440.000000"
 }
 {
 "classname" "light"
@@ -52568,9 +52560,9 @@ exx/trim-metalsupp01
 {
 ( 1472 -896 -64 ) ( 1472 -984 -64 ) ( 1456 -896 -64 ) common/trigger 0 0 0 0.25 0.25 0 0 0
 ( 1472 -896 -64 ) ( 1456 -896 -64 ) ( 1472 -896 -104 ) common/trigger 0 0 0 0.25 0.25 0 0 0
-( 1460 -896 -64 ) ( 1460 -896 -104 ) ( 1460 -984 -64 ) common/trigger 0 0 0 0.25 0.25 0 0 0
+( 1460 -896 -64 ) ( 1460 -896 -104 ) ( 1460 -984 -64 ) common/trigger -0 0 0 0.25 0.25 0 0 0
 ( 1456 -976 -184 ) ( 1472 -976 -184 ) ( 1456 -888 -184 ) common/trigger 0 32 0 0.25 0.25 0 0 0
 ( 1456 -1024 -104 ) ( 1456 -1024 -64 ) ( 1472 -1024 -104 ) common/trigger 0 0 0 0.25 0.25 0 0 0
-( 1452 -984 -104 ) ( 1452 -896 -104 ) ( 1452 -984 -64 ) common/trigger 0 0 0 0.25 0.25 0 0 0
+( 1452 -984 -104 ) ( 1452 -896 -104 ) ( 1452 -984 -64 ) common/trigger -0 0 0 0.25 0.25 0 0 0
 }
 }
