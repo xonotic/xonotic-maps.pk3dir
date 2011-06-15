@@ -16338,11 +16338,10 @@ facility114x/misc-tube
 }
 {
 "classname" "target_speaker"
-"origin" "656.000000 -1520.000000 376.000000"
-"spawnflags" "4"
+"origin" "672.000000 -1544.000000 376.000000"
 "noise" "sound/thunder/Thunder3.wav"
-"volume" "2"
-"targetname" "target_speaker4"
+"targetname" "thunder4"
+"spawnflags" "4"
 }
 {
 "classname" "misc_model"
@@ -16438,37 +16437,34 @@ ex2x/light-1
 }
 {
 "classname" "target_speaker"
-"origin" "656.000000 -1448.000000 376.000000"
-"spawnflags" "4"
+"origin" "672.000000 -1448.000000 376.000000"
 "noise" "sound/thunder/Thunder-short.wav"
-"volume" "2"
-"targetname" "target_speaker1"
+"targetname" "thunder1"
+"spawnflags" "4"
 }
 {
 "classname" "target_speaker"
-"origin" "656.000000 -1472.000000 376.000000"
-"spawnflags" "4"
+"origin" "672.000000 -1480.000000 376.000000"
 "noise" "sound/thunder/Thunder1.wav"
-"volume" "2"
-"targetname" "target_speaker2"
+"targetname" "thunder2"
+"spawnflags" "4"
 }
 {
 "classname" "target_speaker"
-"origin" "656.000000 -1496.000000 376.000000"
-"spawnflags" "4"
+"origin" "672.000000 -1512.000000 376.000000"
 "noise" "sound/thunder/Thunder2.wav"
-"volume" "2"
-"targetname" "target_speaker3"
+"targetname" "thunder3"
+"spawnflags" "4"
 }
 {
 "classname" "trigger_multivibrator"
-"origin" "704.000000 -1488.000000 376.000000"
-"target" "target_speaker1"
+"origin" "736.000000 -1496.000000 376.000000"
+"target" "thunder1"
 "spawnflags" "1"
 "wait" "20"
-"target4" "target_speaker4"
-"target2" "target_speaker2"
-"target3" "target_speaker3"
+"target2" "thunder2"
+"target3" "thunder3"
+"target4" "thunder4"
 "target_random" "1"
 }
 {
