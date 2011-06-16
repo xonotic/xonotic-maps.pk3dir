@@ -29,7 +29,7 @@ cull none
        deformVertexes wave 128 sin 0 1 0 0.4 
        {
                map models/leaves6.tga
-               alphaFunc GT0
+               blendFunc blend
                rgbGen vertex
        }
 }
@@ -46,7 +46,7 @@ cull none
        deformVertexes wave 128 sin 0 1 0 0.5
        {
                map models/leaves7.tga
-               alphaFunc GT0
+               blendFunc blend
                rgbGen vertex
        }
 }
