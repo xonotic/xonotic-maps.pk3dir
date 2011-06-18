@@ -1,8 +1,8 @@
 {
 "classname" "worldspawn"
-"message" "Pick'em up by C.Brutail"
+"message" "Lightspeed by C.Brutail"
 "author" "C.Brutail"
-"_description" "Very small, 1on1 CTF map."
+"_description" "Very small, 1on1 CTF map. Key to survival: move as fast, as the speed of light!"
 {
 ( 256 160 64 ) ( 160 -256 64 ) ( 160 256 64 ) facility114x/base-baseyellow 0 0 0 0.25 0.25 0 0 0
 ( 256 -160 64 ) ( 160 -256 0 ) ( 160 -256 64 ) common/caulk 0 0 0 -0.5 0.5 0 0 0
@@ -16849,7 +16849,7 @@ ex2x/light-1
 }
 {
 "classname" "target_position"
-"origin" "-608.000000 1616.000000 376.000000"
+"origin" "-608.000000 1616.000000 428.000000"
 "targetname" "target_position16"
 }
 {
@@ -17277,4 +17277,44 @@ facility114x/misc-tube
 "classname" "light"
 "origin" "-1184.000000 352.000000 304.000000"
 "light" "350"
+}
+{
+"classname" "light"
+"origin" "1184.000000 -832.000000 440.000000"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "-752.000000 0.000000 184.000000"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "752.000000 0.000000 184.000000"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "0.000000 -524.000000 440.000000"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "0.000000 520.000000 440.000000"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "-592.000000 1184.000000 440.000000"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "-1184.000000 832.000000 440.000000"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "592.000000 -1184.000000 440.000000"
+"light" "250"
 }
