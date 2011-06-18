@@ -1923,7 +1923,7 @@ FLOATING: the item will float in air, instead of aligning to the floor by fallin
 modeldisabled="models/weapons/g_fireball.md3"
 */
 
-/*QUAKED trigger_warpzone (1 .5 1) ?
+/*QUAKED trigger_warpzone (1 .5 1) ? WATCHMOVE
 A warp zone, i.e. seamlessly connecting two parts of the map.
 One surface of this entity must have the common/warpzone shader (or a similar selfmade shader) - this will be the warp plane - the others must be common/trigger.
 Must target, or be targeted by, another trigger_warpzone with a congruent common/warpzone surface.
@@ -1939,6 +1939,8 @@ targetname: must be pointed to by another trigger_warpzone. Should be pointed to
 killtarget: should point to a target_position entity, or
 warpzone_fadestart: start distance of fading out the warpzone
 warpzone_fadeend: end distance of fading out the warpzone (if viewer is further, warpzone is not rendered at all)
+-------- SPAWNFLAGS --------
+WATCHMOVE: allow this entity to be moved by others, e.g. misc_follow in MOVETYPE_FOLLOW mode
 */
 
 /*QUAKED trigger_warpzone_reconnect (1 .5 1) (-8 -8 -8) (8 8 8) IGNORE_VISIBLE
@@ -1958,7 +1960,7 @@ angles: must point perpendicular to the common/warpzone surface of the trigger_w
 origin: must be on the common/warpzone surface of the trigger_warpzone
 */
 
-/*QUAKED func_camera (1 .5 1) ?
+/*QUAKED func_camera (1 .5 1) ? WATCHMOVE
 A camera, i.e. a surface that shows a view from another part of the map.
 One surface of this entity must have the common/camera shader, the others should be common/caulk.
 Must target a target_position that indicates the view to be shown (and whose angles also indicate the orientation of the view)
@@ -1966,6 +1968,8 @@ Must target a target_position that indicates the view to be shown (and whose ang
 target: must point to a target_position
 warpzone_fadestart: start distance of fading out the warpzone
 warpzone_fadeend: end distance of fading out the warpzone (if viewer is further, warpzone is not rendered at all)
+-------- SPAWNFLAGS --------
+WATCHMOVE: allow this entity to be moved by others, e.g. misc_follow in MOVETYPE_FOLLOW mode
 */
 
 /*QUAKED target_music (1 0 0) (-8 -8 -8) (8 8 8) START_OFF
