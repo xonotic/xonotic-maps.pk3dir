@@ -28,7 +28,6 @@ textures/liquids_water/water0_cubemap
 	surfaceparm nolightmap
 	cull none
 	q3map_globaltexture
-	tessSize 256
 	qer_editorimage textures/liquids_water/water0_reflect.tga
 	{
 		map textures/liquids_water/water0.tga

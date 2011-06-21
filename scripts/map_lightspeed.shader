@@ -65,3 +65,157 @@ textures/map_lightspeed/light_nonglow
 		blendfunc filter
 	}
 }
+
+textures/map_lightspeed/vines
+{
+	qer_editorimage models/map_lightspeed/vines/vines01.tga
+	surfaceparm nomarks
+	surfaceparm trans
+	surfaceparm alphashadow
+	cull none
+	{
+		map models/map_lightspeed/vines/vines01.tga
+		alphaFunc GT0
+		rgbGen vertex
+	}
+}
+
+textures/map_lightspeed/env1
+{
+	qer_editorimage textures/map_lightspeed/env/env1.tga
+	qer_trans 20
+	surfaceparm nomarks
+	surfaceparm trans
+	surfaceparm water
+	surfaceparm nolightmap
+	cull none
+	q3map_globaltexture
+	tessSize 256
+	{
+		map textures/map_lightspeed/env/env1.tga
+		tcMod turb 0 0.04 0 0.08
+		blendfunc add
+	}
+	dpreflectcube textures/map_lightspeed/env/env1.tga
+	{
+		map $lightmap
+		blendfunc add
+		tcGen lightmap
+	}	
+	dp_water 0.1 0.25  3 3  1 1 1  1 1 1  0.125
+}
+
+textures/map_lightspeed/env2
+{
+	qer_editorimage textures/map_lightspeed/env/env2.tga
+	qer_trans 20
+	surfaceparm nomarks
+	surfaceparm trans
+	surfaceparm water
+	surfaceparm nolightmap
+	cull none
+	q3map_globaltexture
+	tessSize 256
+	{
+		map textures/map_lightspeed/env/env2.tga
+		tcMod turb 0 0.04 0 0.08
+		blendfunc add
+	}
+	dpreflectcube textures/map_lightspeed/env/env2.tga
+	{
+		map $lightmap
+		blendfunc add
+		tcGen lightmap
+	}	
+	dp_water 0.1 0.25  3 3  1 1 1  1 1 1  0.125
+}
+
+textures/map_lightspeed/env3
+{
+	qer_editorimage textures/map_lightspeed/env/env3.tga
+	qer_trans 20
+	surfaceparm nomarks
+	surfaceparm trans
+	surfaceparm water
+	surfaceparm nolightmap
+	cull none
+	q3map_globaltexture
+	tessSize 256
+	{
+		map textures/map_lightspeed/env/env3.tga
+		tcMod turb 0 0.04 0 0.08
+		blendfunc add
+	}
+	dpreflectcube textures/map_lightspeed/env/env3.tga
+	{
+		map $lightmap
+		blendfunc add
+		tcGen lightmap
+	}	
+	dp_water 0.1 0.25  3 3  1 1 1  1 1 1  0.125
+}
+
+//Lightning1-a
+textures/map_lightspeed/lightning1
+{
+	qer_editorimage textures/effects_lightning/lightning1/3.tga
+	surfaceparm nolightmap
+	surfaceparm nodlight
+	surfaceparm trans
+	surfaceparm nomarks
+	surfaceparm noimpact
+	cull none
+	deformVertexes autosprite2
+	{
+	map textures/effects_lightning/lightning1/3.tga
+	blendfunc add
+	}
+}
+textures/map_lightspeed/lightning2
+{
+	qer_editorimage textures/effects_lightning/lightning1/4.tga
+	surfaceparm nolightmap
+	surfaceparm nodlight
+	surfaceparm trans
+	surfaceparm nomarks
+	surfaceparm noimpact
+	cull none
+	deformVertexes autosprite2
+	{
+	map textures/effects_lightning/lightning1/4.tga
+	blendfunc add
+	}
+}
+
+textures/map_lightspeed/lightning3
+{
+	qer_editorimage textures/effects_lightning/lightning1/9.tga
+	surfaceparm nolightmap
+	surfaceparm nodlight
+	surfaceparm trans
+	surfaceparm nomarks
+	surfaceparm noimpact
+	cull none
+	deformVertexes autosprite2
+	{
+	map textures/effects_lightning/lightning1/9.tga
+	blendfunc add
+	}
+}
+
+textures/map_lightspeed/lightning4
+{
+	qer_editorimage textures/effects_lightning/lightning1/10.tga
+	surfaceparm nolightmap
+	surfaceparm nodlight
+	surfaceparm trans
+	surfaceparm nomarks
+	surfaceparm noimpact
+	cull none
+	deformVertexes autosprite2
+	{
+	map textures/effects_lightning/lightning1/10.tga
+	blendfunc add
+	}
+}
+
