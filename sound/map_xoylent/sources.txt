@@ -1,0 +1,15 @@
+(edited) sound file: source
+
+ambient_boom.ogg: sound/noises/Boom.wav
+ambient_lonely.ogg: sound/atmosphere/ambient_lonely.wav
+
+easteregg_asteroid.ogg: sound/player/insurrectionist/coms/taunt4.ogg
+easteregg_door.ogg: sound/machines/Elevator_Up.wav
+easteregg_message.ogg: sound/misc/shield_respawn.wav
+easteregg_teleporter.ogg: sound/supernatural/Time machine test.mp3
+
+object_exhaust.ogg: sound/machines/Big_machine.wav
+object_light.ogg: sound/machines/Flourescent-Loop(Mono).wav
+object_pipe.ogg: sound/machines/pipewater_loop.wav
+object_spawnpoint.ogg: sound/ambient/transformer.ogg
+object_turbine.ogg: sound/ambient/fan4.ogg

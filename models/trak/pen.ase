@@ -12,7 +12,7 @@
 *MATERIAL_LIST {
 	*MATERIAL_COUNT 1
 	*MATERIAL 0 {
-		*MATERIAL_NAME "models/mapobjects/trak/pen"
+		*MATERIAL_NAME "models/trak/pen"
 		*MATERIAL_CLASS "Standard"
 		*MATERIAL_AMBIENT 0.588235	0.588235	0.588235
 		*MATERIAL_DIFFUSE 0.588235	0.588235	0.588235
@@ -31,7 +31,7 @@
 			*MAP_CLASS "Bitmap"
 			*MAP_SUBNO 1
 			*MAP_AMOUNT 1.000000
-			*BITMAP "D:\games\Xreal\trunk\xreal\base\models\mapobjects\trak\pen.tga"
+			*BITMAP "models/trak/pen.tga"
 			*MAP_TYPE Screen
 			*UVW_U_OFFSET 0.000000
 			*UVW_V_OFFSET 0.000000
