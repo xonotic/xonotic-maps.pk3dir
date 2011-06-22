@@ -29,6 +29,37 @@ textures/terrain01x/blends-mars-rock01-ground01
 	}
 }
 
+textures/terrain01x/blends-mars-rock01-sand04
+{
+	qer_editorimage textures/terrain01x/blends/mars-rock01-sand04.tga
+	
+	q3map_bounceScale  0.5
+	dpoffsetmapping - 2
+
+	q3map_lightmapSampleOffset 8
+	q3map_nonplanar
+	q3map_shadeangle 95
+
+	surfaceparm dust
+
+	q3map_alphaMod dotproduct2 ( 0 0 0.95 )
+
+	{
+		map textures/terrain01x/rock/mars01.tga	// Primary
+	}
+
+	{
+		map textures/terrain01x/ground/sand04.tga	// Secondary
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA		
+		alphaGen vertex
+	}
+
+	{
+		map $lightmap
+		blendFunc GL_DST_COLOR GL_ZERO
+	}
+}
+
 textures/terrain01x/blends-mars-rock02-ground01
 {
 	qer_editorimage textures/terrain01x/blends/mars-rock02-ground01.tga
@@ -83,6 +114,38 @@ textures/terrain01x/blends-mars-rock01-ground01-projected
 
 	{
 		map textures/terrain01x/ground/mars01.tga	// Secondary
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA		
+		alphaGen vertex
+	}
+
+	{
+		map $lightmap
+		blendFunc GL_DST_COLOR GL_ZERO
+	}
+}
+
+textures/terrain01x/blends-mars-rock01-sand04-projected
+{
+	qer_editorimage textures/terrain01x/blends/mars-rock01-sand04.tga
+	
+	q3map_bounceScale  0.5
+	dpoffsetmapping - 2
+
+	q3map_lightmapSampleOffset 8
+	q3map_nonplanar
+	q3map_shadeangle 95
+
+	surfaceparm dust
+
+	q3map_alphaMod dotproduct2 ( 0 0 0.95 )
+	q3map_tcGen ivector ( 1024 0 0 ) ( 0 1024 0 )
+
+	{
+		map textures/terrain01x/rock/mars01.tga	// Primary
+	}
+
+	{
+		map textures/terrain01x/ground/sand04.tga	// Secondary
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA		
 		alphaGen vertex
 	}
