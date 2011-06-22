@@ -4,6 +4,7 @@ Primary weapon is a rapid fire energy cannon, secondary lockable rockets.
 -------- KEYS --------
 team: 5=red, 14=blue
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="models/vehicles-static/wakazachi.md3"
 */
 
 /*QUAKED vehicle_spiderbot (0 0 1) (-48 -48 0) (48 48 32)
@@ -12,6 +13,7 @@ Primary weapon is twin miniguns, secondary eight rockets that can be guided by t
 -------- KEYS --------
 team: 5=red, 14=blue
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="models/vehicles-static/spiderbot.md3"
 */
 
 /*QUAKED vehicle_raptor (0 0 1) (-48 -48 0) (48 48 32)
@@ -21,4 +23,5 @@ Secondary is a pair of vert powerfull clusterbombs.
 -------- KEYS --------
 team: 5=red, 14=blue
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="models/vehicles-static/raptor.md3"
 */
