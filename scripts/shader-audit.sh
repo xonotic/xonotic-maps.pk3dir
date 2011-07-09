@@ -211,6 +211,9 @@ parse_shaderstage()
 					use_texture "$parsing_shader" "`normalize "$X"`" animmap
 				done
 				;;
+			'{')
+				echo "(EE) brace nesting error in $parsing_shader"; seterror
+				;;
 			'}')
 				break
 				;;
