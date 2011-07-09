@@ -46,6 +46,7 @@ $types{target4} = "target";
 $types{targetname} = "targetname";
 $types{target} = "target";
 $types{team} = "integer";
+$types{target_random} = "boolean";
 
 # missing definition in QC, q3map2 only
 $types{_ambient} = "real";
@@ -62,7 +63,8 @@ $types{fade} = "real";
 $types{_farplanedist} = "real";
 $types{_filterradius} = "real";
 $types{_floodlight} = "string";
-$types{_frame} = "real";
+$types{_frame} = "integer";
+$types{_skin} = "integer";
 $types{gridsize} = "integer3";
 $types{_ignoreleaks} = "boolean";
 $types{_indexmap} = "texture";

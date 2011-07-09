@@ -119,6 +119,7 @@ target: all entities with a matching targetname will be triggered.
 target2: all entities with a matching targetname will be triggered.
 target3: all entities with a matching targetname will be triggered.
 target4: all entities with a matching targetname will be triggered.
+target_random: instead of triggering ALL matched entities, trigger ONE of them by random
 speed: speed of button's displacement (default 40).
 platmovetype: movement type (1 = linear, 2 = cosine [default])
 wait: number of seconds button stays pressed (default 1, -1 = return immediately).
@@ -319,6 +320,9 @@ Attacking team's player spawning location in Assault. Should touch the floor, bu
 -------- KEYS --------
 target: this should point to a target_objective to decide when this spawning point is active.
 target2: trigger all entities with this targetname when someone spawns
+target3: trigger all entities with this targetname when someone spawns
+target4: trigger all entities with this targetname when someone spawns
+target_random: instead of triggering ALL matched entities, trigger ONE of them by random
 cnt: weight of spawn point for random selection. Set to a lower value if you have many spawn points close together. Default value is 1.
 restriction: when 1, only bots can spawn here; when 2, only humans can spawn here (be careful with these, or the game will crash because someone cannot spawn)
 */
@@ -337,6 +341,9 @@ Defending team's player spawning location in Assault. Should touch the floor, bu
 -------- KEYS --------
 target: this should point to a target_objective to decide when this spawning point is active.
 target2: trigger all entities with this targetname when someone spawns
+target3: trigger all entities with this targetname when someone spawns
+target4: trigger all entities with this targetname when someone spawns
+target_random: instead of triggering ALL matched entities, trigger ONE of them by random
 cnt: weight of spawn point for random selection. Set to a lower value if you have many spawn points close together. Default value is 1.
 restriction: when 1, only bots can spawn here; when 2, only humans can spawn here (be careful with these, or the game will crash because someone cannot spawn)
 */
@@ -381,6 +388,7 @@ restriction: when 1, only bots can spawn here; when 2, only humans can spawn her
 Large Armor (default 100 armor points)
 -------- KEYS --------
 respawntime: time till it respawns (default: 30)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 armorvalue: amount of armor it gives (default: 100 (g_pickup_armorlarge))
 max_armorvalue: max of armor it increases to (default: 999 (g_pickup_armorlarge_max))
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
@@ -395,6 +403,7 @@ modeldisabled="models/items/g_a25.md3"
 Big Armor (default 50 armor points)
 -------- KEYS --------
 respawntime: time till it respawns (default: 20)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 armorvalue: amount of armor it gives (default: 50 (g_pickup_armorlarge))
 max_armorvalue: max of armor it increases to (default: 999 (g_pickup_armorlarge_max))
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
@@ -409,6 +418,7 @@ modeldisabled="models/items/g_a50.md3"
 Medium Armor (default 25 armor points)
 -------- KEYS --------
 respawntime: time till it respawns (default: 20)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 armorvalue: amount of armor it gives (default: 25 (g_pickup_armormedium))
 max_armorvalue: max of armor it increases to (default: 999 (g_pickup_armormedium_max))
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
@@ -423,6 +433,7 @@ modeldisabled="models/items/g_armormedium.md3"
 Small Armor (default 5 armor points)
 -------- KEYS --------
 respawntime: time till it respawns (default: 15)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 armorvalue: amount of armor it gives (default: 5 (g_pickup_armorsmall))
 max_armorvalue: max of armor it increases to (default: 999 (g_pickup_armorsmall_max))
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
@@ -438,6 +449,7 @@ Machine Gun ammo
 -------- KEYS --------
 ammo_nails: bullets gained by this item (if unset, g_pickup_nails is used)
 respawntime: time till it respawns (default: 15)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -451,6 +463,7 @@ Nex, Electro and Crylink ammo
 -------- KEYS --------
 ammo_cells: cells gained by this item (if unset, g_pickup_cells is used)
 respawntime: time till it respawns (default: 15)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -489,6 +502,7 @@ zbqry="zbqryf/pgs/enqvnag/synt_oyhr_enqvnag.zq3"
 Large Health (default 50 health points)
 -------- KEYS --------
 respawntime: time till it respawns (default: 20)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 health: amount of health it gives (default: 50 (g_pickup_healthlarge))
 max_health: max of health it increases to (default: 999 (g_pickup_healthlarge_max))
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
@@ -503,6 +517,7 @@ modeldisabled="models/items/g_h50.md3"
 Medium Health (default 25 health points)
 -------- KEYS --------
 respawntime: time till it respawns (default: 15)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 health: amount of health it gives (default: 25 (g_pickup_healthmedium))
 max_health: max of health it increases to (default: 999 (g_pickup_healthmedium_max))
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
@@ -518,6 +533,7 @@ Mega Health (default 100 health points)
 In Minstagib, this randomly turns into either an invisibility, an extra lives or a speed power-up with a default respawn time of 120.
 -------- KEYS --------
 respawntime: time till it respawns (default: 30)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 health: amount of health it gives (default: 100 (g_pickup_healthmega))
 max_health: max of health it increases to (default: 999 (g_pickup_healthmega_max))
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
@@ -532,6 +548,7 @@ modeldisabled="models/items/g_h100.md3"
 Small Health (default 5 health points)
 -------- KEYS --------
 respawntime: time till it respawns (default: 15)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 health: amount of health it gives (default: 5 (g_pickup_healthsmall))
 max_health: max of health it increases to (default: 5 (g_pickup_healthsmall_max))
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
@@ -547,6 +564,7 @@ Strong Shield
 In Minstagib, this randomly turns into either an invisibility, an extra lives or a speed power-up with a default respawn time of 120.
 -------- KEYS --------
 respawntime: time till it respawns (default: 120)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -561,6 +579,7 @@ Always contains 5 (g_minstagib_ammo_drop) shots.
 It only appears when playing Minstagib and prevents auto-replacement of weapon_nex & weapon_rocketlauncher when used.
 -------- KEYS --------
 respawntime: time till it respawns (default: 45)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -574,6 +593,7 @@ Rocket Launcher, Hagar and Mortar ammo
 -------- KEYS --------
 ammo_rockets: rockets gained by this item (if unset, g_pickup_rockets is used)
 respawntime: time till it respawns (default: 15)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -587,6 +607,7 @@ Shotgun ammo
 -------- KEYS --------
 ammo_shells: shells gained by this item (if unset, g_pickup_shells is used)
 respawntime: time till it respawns (default: 15)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -600,6 +621,7 @@ Strength aka Quad damage
 In Minstagib, this randomly turns into either an invisibility, an extra lives or a speed power-up with a default respawn time of 120.
 -------- KEYS --------
 respawntime: time till it respawns (default: 120)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -678,6 +700,7 @@ Generic placeholder for inserting MD3 models in game. Requires compilation of ma
 -------- Q3MAP2 KEYS --------
 model: file name of model to include
 _frame: frame of model to include
+_skin: skin of model to include
 _remap: string of the form from;to specifying which texture name of the model to replace by which shader; * is allowed. Any key starting with this prefix will work, so if you need more remappings, create _remap2, etc.
 angle: view direction of the model
 angles: view direction of the model in PITCH YAW ROLL
@@ -884,6 +907,7 @@ target: target to activate when a teleporter targeting this is used
 target2: target to activate when a teleporter targeting this is used
 target3: target to activate when a teleporter targeting this is used
 target4: target to activate when a teleporter targeting this is used
+target_random: instead of triggering ALL matched entities, trigger ONE of them by random
 angle: direction in which player will look when teleported, OR use
 angles: pitch and yaw when coming out of the teleporter (also specifies the direction the player will aim when coming out)
 cnt: weight for random selection, in case a teleporter points at multiple misc_teleporter_dest
@@ -925,6 +949,7 @@ target: point to next path_corner in the path.
 target2: triggered when a func_train stops at this target
 target3: triggered when a func_train stops at this target
 target4: triggered when a func_train stops at this target
+target_random: instead of triggering ALL matched entities, trigger ONE of them by random
 targetname: the train following the path or the previous path_corner in the path points to this.
 speed: speed of func_train while moving to this path corner. If unset, the value from the func_train will be used.
 wait: number of seconds func_train will pause on this path corner before moving to next path corner (default: 0.1; to not wait, set this to -1
@@ -950,6 +975,7 @@ target: targetname of entities to be enabled/triggered on round start (e.g. the 
 target2: targetname of entities to be enabled/triggered on round start (e.g. the func_assault_destructibles targeting the target_objective)
 target3: targetname of entities to be enabled/triggered on round start
 target4: targetname of entities to be enabled/triggered on round start
+target_random: instead of triggering ALL matched entities, trigger ONE of them by random
 */
 
 /*QUAKED target_objective (.5 0 .5) (-8 -8 -8) (8 8 8) 
@@ -959,6 +985,7 @@ target: targetname of entities to be enabled/triggered on objective fulfilling (
 target2: targetname of entities to be enabled/triggered on objective fulfilling (e.g. the func_assault_destructibles targeting the target_objective)
 target3: targetname of entities to be enabled/triggered on objective fulfilling
 target4: targetname of entities to be enabled/triggered on objective fulfilling
+target_random: instead of triggering ALL matched entities, trigger ONE of them by random
 targetname: targetname for this entity so it can be triggered by other entities.
 */
 
@@ -1056,6 +1083,7 @@ target: trigger all entities with this targetname when triggered
 target2: trigger all entities with this targetname when triggered
 target3: trigger all entities with this targetname when triggered
 target4: trigger all entities with this targetname when triggered
+target_random: instead of triggering ALL matched entities, trigger ONE of them by random
 targetname: name that identifies this entity so it can be triggered
 delay: delay the triggering by the given time
 message: print this message to the player who activated the trigger
@@ -1112,6 +1140,7 @@ target: trigger all entities with this targetname when triggered
 target2: trigger all entities with this targetname when triggered
 target3: trigger all entities with this targetname when triggered
 target4: trigger all entities with this targetname when triggered
+target_random: instead of triggering ALL matched entities, trigger ONE of them by random
 targetname: name that identifies this entity so it can be triggered
 delay: delay the triggering by the given time
 message: print this message to the player who activated the trigger
@@ -1134,6 +1163,7 @@ target: this must point to a misc_teleporter_dest entity. If it points to more t
 target2: target to activate when the teleporter is used
 target3: target to activate when the teleporter is used
 target4: target to activate when the teleporter is used
+target_random: instead of triggering ALL matched entities, trigger ONE of them by random
 team: team that owns this teleporter (5 = red, 14 = blue, etc) (when set, only this team can teleport)
 targetname: when targeted by a func_button, pressing the button will reassign the teleporter to the team of the activator.
 -------- SPAWNFLAGS --------
@@ -1145,6 +1175,7 @@ the Crylink
 -------- KEYS --------
 ammo_cells: initial cells of the weapon (if unset, g_pickup_cells is used)
 respawntime: time till it respawns (default: 15)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -1158,6 +1189,7 @@ the Electro
 -------- KEYS --------
 ammo_cells: initial cells of the weapon (if unset, g_pickup_cells is used)
 respawntime: time till it respawns (default: 15)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -1171,6 +1203,7 @@ the Mortar
 -------- KEYS --------
 ammo_rockets: initial rockets of the weapon (if unset, g_pickup_rockets is used)
 respawntime: time till it respawns (default: 15)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -1184,6 +1217,7 @@ the Hagar
 -------- KEYS --------
 ammo_rockets: initial rockets of the weapon (if unset, g_pickup_rockets is used)
 respawntime: time till it respawns (default: 15)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -1198,6 +1232,7 @@ the Laser. Note that unless you use
 in your mapinfo file, everyone will already spawn with one, making this pickup useless.
 -------- KEYS --------
 respawntime: time till it respawns (default: 15)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -1212,6 +1247,7 @@ In Minstagib, this turns into an item_minst_cells if no explicit item_minst_cell
 -------- KEYS --------
 ammo_cells: initial cells of the weapon (if unset, g_pickup_cells is used)
 respawntime: time till it respawns (default: 15 * g_balance_nex_respawntime_modifier)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -1226,6 +1262,7 @@ In Minstagib, this turns into an item_minst_cells if no explicit item_minst_cell
 -------- KEYS --------
 ammo_rockets: initial rockets of the weapon (if unset, g_pickup_rockets is used)
 respawntime: time till it respawns (default: 15)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -1241,6 +1278,7 @@ in your mapinfo file, everyone will already spawn with one, making this pickup u
 -------- KEYS --------
 ammo_shells: initial shells of the weapon (if unset, g_pickup_shells is used)
 respawntime: time till it respawns (default: 15)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -1254,6 +1292,7 @@ the Machine Gun
 -------- KEYS --------
 ammo_nails: initial bullets of the weapon (if unset, g_pickup_nails is used)
 respawntime: time till it respawns (default: 15)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -1320,6 +1359,9 @@ NOTE for race_place: when the race starts after the qualifying, the player with 
 -------- KEYS --------
 target: this should point to a trigger_race_checkpoint to decide when this spawning point is active. The checkpoint has to be AFTER this spawn.
 target2: trigger all entities with this targetname when someone spawns
+target3: trigger all entities with this targetname when someone spawns
+target4: trigger all entities with this targetname when someone spawns
+target_random: instead of triggering ALL matched entities, trigger ONE of them by random
 cnt: weight of spawn point for random selection. Set to a lower value if you have many spawn points close together. Default value is 1.
 race_place: if target points to the trigger_race_checkpoint with cnt 0 (finish line), this sets which place the spawn corresponds to; the special value 0 stands for spawns for players who died in game, and -1 marks the spawnpoint for qualifying mode only; any race map must have spawnpoints with race_place being 1, 2, 3 or it gets marked as a frustrating map
 restriction: when 1, only bots can spawn here; when 2, only humans can spawn here (be careful with these, or the game will crash because someone cannot spawn)
@@ -1395,6 +1437,7 @@ target: trigger all entities with this targetname when starting the game
 target2: trigger all entities with this targetname when starting the game
 target3: trigger all entities with this targetname when starting the game
 target4: trigger all entities with this targetname when starting the game
+target_random: instead of triggering ALL matched entities, trigger ONE of them by random
 wait: wait so many seconds before triggering
 */
 
@@ -1416,6 +1459,7 @@ the MinstaGib Nex. Always kills with one shot.
 -------- KEYS --------
 ammo_cells: initial cells of the weapon (if unset, g_pickup_cells is used)
 respawntime: time till it respawns (default: 15)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -1429,6 +1473,7 @@ the Port-O-Launch. Only can be shot once.
 Portals cannot be made on noimpact surfaces, and the portal missile will bounce on slick surfaces.
 -------- KEYS --------
 respawntime: time till it respawns (default: 120)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -1501,6 +1546,44 @@ target4: reference entity (can be used as $target4)
 ONLOAD: create a first entity on map load
 */
 
+/*QUAKED misc_breakablemodel (1 0 0) ? DISABLED INDICATE - - - - - - NOSPLASH
+This is a model which can be damaged.
+Once all health is consumed it'll disappear and trigger the targeted entity/entities.
+When triggered, it resets to full health, and unbreaks.
+-------- KEYS --------
+model: file name of model to include
+health: The damage this trigger can take
+target: The entity/entities to be triggered once this entity gets invisible
+targetname: The name other entities can use to target this entity
+mdl: particle effect name to show when destroyed
+count: particle effect multiplier
+mdl_dead: optional replacement model to show when destroyed
+debris: names of debris models to show when destroyed, separated by spaces
+noise: sound to play when destroyed
+dmg: damage to deal to the environment when destroyed
+dmg_edge: edge damage to deal to the environment when destroyed
+dmg_radius: damage radius
+dmg_force: damage force
+message: death message when a player gets hit by the explosion
+message2: death message when someone gets pushed into this (default: "was pushed into an explosion by"). The # character is replaced by the attacker name if present (and it instead does not get appended to the end)
+debrismovetype: way in which the debris moves: one of 1 = ANGLENOCLIP, 2 = ANGLECLIP, 3 = WALK, 4 = STEP, 5 = FLY, 6 = TOSS, 7 = PUSH, 8 = NOCLIP, 9 = FLYMISSILE, 10 = BOUNCE, 11 = BOUNCEMISSILE
+debrissolid: solidity of the debris: one of 0 = NOT, 1 = TRIGGER, 2 = BBOX, 3 = SLIDEBOX, 4 = BSP, 5 = CORPSE
+debrisvelocity: initial velocity vector of the debris (static part)
+debrisvelocityjitter: initial velocity vector of the debris (random part)
+debrisavelocityjitter: initial angular velocity vector of the debris (random part)
+debristime: time till the debris fades (average)
+debristimejitter: time till the debris fades (random part)
+debrisfadetime: how long debris takes to fade
+debrisdamageforcescale: how much debris is affected by damage force (e.g. explosions)
+debrisskin: skin number of debris
+respawntime: time till it respawns (default: no auto respawn)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
+-------- SPAWNFLAGS --------
+DISABLED: do not allow damaging this until it is first activated
+INDICATE: indicate amount of damage already taken by coloring
+NOSPLASH: if set, splash damage cannot activate the door, only direct damage can (requires health to be set)
+*/
+
 /*QUAKED func_breakable (1 0 0) ? DISABLED INDICATE - - - - - - NOSPLASH
 This is a brush model which can be damaged.
 Once all health is consumed it'll disappear and trigger the targeted entity/entities.
@@ -1530,6 +1613,8 @@ debristimejitter: time till the debris fades (random part)
 debrisfadetime: how long debris takes to fade
 debrisdamageforcescale: how much debris is affected by damage force (e.g. explosions)
 debrisskin: skin number of debris
+respawntime: time till it respawns (default: no auto respawn)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 -------- SPAWNFLAGS --------
 DISABLED: do not allow damaging this until it is first activated
 INDICATE: indicate amount of damage already taken by coloring
@@ -1553,6 +1638,7 @@ the Heavy Laser Assault Cannon.
 -------- KEYS --------
 ammo_cells: initial cells of the weapon (if unset, g_pickup_cells is used)
 respawntime: time till it respawns (default: 30)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -1566,6 +1652,7 @@ the Mine Layer.
 -------- KEYS --------
 ammo_rockets: initial rockets of the weapon (if unset, g_pickup_rockets is used)
 respawntime: time till it respawns (default: 30)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -1580,6 +1667,7 @@ the T.A.G. Seeker.
 -------- KEYS --------
 ammo_rockets: initial rockets of the weapon (if unset, g_pickup_rockets is used)
 respawntime: time till it respawns (default: 30)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -1593,6 +1681,7 @@ the on-hand Grappling Hook.
 -------- KEYS --------
 ammo_cells: initial cells of the weapon (if unset, g_pickup_cells is used)
 respawntime: time till it respawns (default: 30)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -1609,11 +1698,12 @@ max_health: max health this trigger will give (default 200)
 noise: sound file to play (use misc/null.wav to make it silent), default = item_health_medium sound
 */
 
-/*QUAKED weapon_sniperrifle (1 0 .5) (-30 -30 0) (30 30 32) FLOATING
+/*QUAKED weapon_rifle (1 0 .5) (-30 -30 0) (30 30 32) FLOATING
 the Sniper Rifle.
 -------- KEYS --------
 ammo_nails: initial bullets of the weapon (if unset, g_pickup_nails is used)
 respawntime: time till it respawns (default: 30)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -1670,6 +1760,7 @@ target: trigger all entities with this targetname when triggered
 target2: trigger all entities with this targetname when triggered
 target3: trigger all entities with this targetname when triggered
 target4: trigger all entities with this targetname when triggered
+target_random: instead of triggering ALL matched entities, trigger ONE of them by random
 targetname: name that identifies this entity so it can be triggered
 delay: delay the triggering by the given time
 message: print this message to the player who activated the trigger
@@ -1760,6 +1851,7 @@ Jetpack fuel
 -------- KEYS --------
 ammo_fuel: fuel units gained by this item (if unset, g_pickup_fuel is used)
 respawntime: time till it respawns (default: 15)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -1772,6 +1864,7 @@ modeldisabled="models/items/g_fuel.md3"
 Fuel regenerator
 -------- KEYS --------
 respawntime: time till it respawns (default: 120)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -1785,6 +1878,7 @@ Jetpack
 -------- KEYS --------
 ammo_fuel: fuel units gained by this item (if unset, g_pickup_fuel_jetpack is used)
 respawntime: time till it respawns (default: 120)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -1803,6 +1897,7 @@ target: all entities with a matching targetname will be triggered.
 target2: all entities with a matching targetname will be triggered.
 target3: all entities with a matching targetname will be triggered.
 target4: all entities with a matching targetname will be triggered.
+target_random: instead of triggering ALL matched entities, trigger ONE of them by random
 -------- SPAWNFLAGS --------
 IGNORE_SAY: do not respond to "say" messages
 IGNORE_TEAMSAY: do not respond to "say_team" messages
@@ -1819,6 +1914,7 @@ the Fireball
 -------- KEYS --------
 ammo_rockets: initial rockets of the weapon (if unset, g_pickup_rockets is used)
 respawntime: time till it respawns (default: 15)
+respawntimejitter: respawn time randomization +/- seconds (default: 0)
 team: out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.
 cnt: weight of this item for random selection using "team". Set to a lower value for items you want to see less likely.
 -------- SPAWNFLAGS --------
@@ -1827,7 +1923,7 @@ FLOATING: the item will float in air, instead of aligning to the floor by fallin
 modeldisabled="models/weapons/g_fireball.md3"
 */
 
-/*QUAKED trigger_warpzone (1 .5 1) ?
+/*QUAKED trigger_warpzone (1 .5 1) ? WATCHMOVE
 A warp zone, i.e. seamlessly connecting two parts of the map.
 One surface of this entity must have the common/warpzone shader (or a similar selfmade shader) - this will be the warp plane - the others must be common/trigger.
 Must target, or be targeted by, another trigger_warpzone with a congruent common/warpzone surface.
@@ -1838,10 +1934,13 @@ target: must point to another trigger_warpzone, or...
 target2: is triggered when a player ENTERS the warpzone (and warps away)
 target3: is triggered when a player LEAVES the warpzone (from the other warp zone to this one)
 target4: is triggered in both cases
+target_random: instead of triggering ALL matched entities, trigger ONE of them by random
 targetname: must be pointed to by another trigger_warpzone. Should be pointed to by a misc_warpzone_position entity, or...
 killtarget: should point to a target_position entity, or
 warpzone_fadestart: start distance of fading out the warpzone
 warpzone_fadeend: end distance of fading out the warpzone (if viewer is further, warpzone is not rendered at all)
+-------- SPAWNFLAGS --------
+WATCHMOVE: allow this entity to be moved by others, e.g. misc_follow in MOVETYPE_FOLLOW mode
 */
 
 /*QUAKED trigger_warpzone_reconnect (1 .5 1) (-8 -8 -8) (8 8 8) IGNORE_VISIBLE
@@ -1861,7 +1960,7 @@ angles: must point perpendicular to the common/warpzone surface of the trigger_w
 origin: must be on the common/warpzone surface of the trigger_warpzone
 */
 
-/*QUAKED func_camera (1 .5 1) ?
+/*QUAKED func_camera (1 .5 1) ? WATCHMOVE
 A camera, i.e. a surface that shows a view from another part of the map.
 One surface of this entity must have the common/camera shader, the others should be common/caulk.
 Must target a target_position that indicates the view to be shown (and whose angles also indicate the orientation of the view)
@@ -1869,6 +1968,8 @@ Must target a target_position that indicates the view to be shown (and whose ang
 target: must point to a target_position
 warpzone_fadestart: start distance of fading out the warpzone
 warpzone_fadeend: end distance of fading out the warpzone (if viewer is further, warpzone is not rendered at all)
+-------- SPAWNFLAGS --------
+WATCHMOVE: allow this entity to be moved by others, e.g. misc_follow in MOVETYPE_FOLLOW mode
 */
 
 /*QUAKED target_music (1 0 0) (-8 -8 -8) (8 8 8) START_OFF
@@ -1972,4 +2073,257 @@ When no chmap key is set, the entity just ends the match when triggered. The pla
 targetname: The name other entities can use to target this entity
 chmap: Map file to switch to, leave empty to make this entity just end the match
 gametype: Switch to this gametype. If empty, the same gametype stays
+*/
+/*QUAKED turret_machinegun (1 0 0) (-32 -32 0) (32 32 50) - PILLAR
+Fast firing moderate damage bullet (hitscan) turret.
+-------- KEYS --------
+turret_scale_damage: 2 = double damage, 0.5 = half
+turret_scale_range: 2 = double range, 0.5 = half
+turret_scale_refire: 2 = double refire (SLOWER!), 0.5 = half (FASTER!)
+turret_scale_ammo: 2 = double ammo carry & regen, 0.5 = half ammo carry & regen
+turret_scale_aim: 2 = aim twice as fast, 0,5 = aim at half speed
+turret_scale_health: 2 = double health, 0.5 = half
+target: Defend the position of this entity
+team: 5=red, 14=blue
+-------- SPAWNFLAGS --------
+PILLAR: Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="../xonotic-data.pk3dir/models/turrets/radiant/mg.md3"
+*/
+
+/*QUAKED turret_plasma (1 0 0) (-32 -32 0) (32 32 50) - PILLAR
+-------- KEYS --------
+turret_scale_damage: 2 = double damage, 0.5 = half
+turret_scale_range: 2 = double range, 0.5 = half
+turret_scale_refire: 2 = double refire (SLOWER!), 0.5 = half (FASTER!)
+turret_scale_ammo: 2 = double ammo carry & regen, 0.5 = half ammo carry & regen
+turret_scale_aim: 2 = aim twice as fast, 0,5 = aim at half speed
+turret_scale_health: 2 = double health, 0.5 = half
+target: Defend the position of this entity
+team: 5=red, 14=blue
+-------- SPAWNFLAGS --------
+PILLAR: Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)
+---------NOTES----------
+Basic energy cannon
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="../xonotic-data.pk3dir/models/turrets/radiant/plasma.md3"
+*/
+
+/*QUAKED turret_plasma_dual (1 0 0) (-32 -32 0) (32 32 50) - PILLAR
+basic energy cannon * 2
+-------- KEYS --------
+turret_scale_damage: 2 = double damage, 0.5 = half
+turret_scale_range: 2 = double range, 0.5 = half
+turret_scale_refire: 2 = double refire (SLOWER!), 0.5 = half (FASTER!)
+turret_scale_ammo: 2 = double ammo carry & regen, 0.5 = half ammo carry & regen
+turret_scale_aim: 2 = aim twice as fast, 0,5 = aim at half speed
+turret_scale_health: 2 = double health, 0.5 = half
+target: Defend the position of this entity
+team: 5=red, 14=blue
+-------- SPAWNFLAGS --------
+PILLAR: Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="../xonotic-data.pk3dir/models/turrets/radiant/plasma2.md3"
+*/
+
+/*QUAKED turret_flac (1 0 0) (-32 -32 0) (32 32 50) - PILLAR
+Only kills missiles, rockets, grenadelauncher & electro secondaries to be precise.
+-------- KEYS --------
+turret_scale_damage: 2 = double damage, 0.5 = half
+turret_scale_range: 2 = double range, 0.5 = half
+turret_scale_refire: 2 = double refire (SLOWER!), 0.5 = half (FASTER!)
+turret_scale_ammo: 2 = double ammo carry & regen, 0.5 = half ammo carry & regen
+turret_scale_aim: 2 = aim twice as fast, 0,5 = aim at half speed
+turret_scale_health: 2 = double health, 0.5 = half
+target: Defend the position of this entity
+team: 5=red, 14=blue
+-------- SPAWNFLAGS --------
+PILLAR: Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="../xonotic-data.pk3dir/models/turrets/radiant/flac.md3"
+*/
+
+/*QUAKED turret_mlrs (1 0 0) (-32 -32 0) (32 32 50) - PILLAR
+6 unguided rockers fired in a rapid burst.
+-------- KEYS --------
+turret_scale_damage: 2 = double damage, 0.5 = half
+turret_scale_range: 2 = double range, 0.5 = half
+turret_scale_refire: 2 = double refire (SLOWER!), 0.5 = half (FASTER!)
+turret_scale_ammo: 2 = double ammo carry & regen, 0.5 = half ammo carry & regen
+turret_scale_aim: 2 = aim twice as fast, 0,5 = aim at half speed
+turret_scale_health: 2 = double health, 0.5 = half
+target: Defend the position of this entity
+team: 5=red, 14=blue
+-------- SPAWNFLAGS --------
+PILLAR: Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="../xonotic-data.pk3dir/models/turrets/radiant/mlrs.md3"
+*/
+
+/*QUAKED turret_hellion (1 0 0) (-32 -32 0) (32 32 50) - PILLAR
+2 guided moderate damage accelerating rockets 
+-------- KEYS --------
+turret_scale_damage: 2 = double damage, 0.5 = half
+turret_scale_range: 2 = double range, 0.5 = half
+turret_scale_refire: 2 = double refire (SLOWER!), 0.5 = half (FASTER!)
+turret_scale_ammo: 2 = double ammo carry & regen, 0.5 = half ammo carry & regen
+turret_scale_aim: 2 = aim twice as fast, 0,5 = aim at half speed
+turret_scale_health: 2 = double health, 0.5 = half
+target: Defend the position of this entity
+team: 5=red, 14=blue
+-------- SPAWNFLAGS --------
+PILLAR: Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="../xonotic-data.pk3dir/models/turrets/radiant/hellion.md3"
+*/
+
+
+/*QUAKED turret_hk (1 0 0) (-32 -32 0) (32 32 50) - PILLAR
+Single powerful rocket with the ability to evade obstacles to find its target. Varied speed.
+-------- KEYS --------
+turret_scale_damage: 2 = double damage, 0.5 = half
+turret_scale_range: 2 = double range, 0.5 = half
+turret_scale_refire: 2 = double refire (SLOWER!), 0.5 = half (FASTER!)
+turret_scale_ammo: 2 = double ammo carry & regen, 0.5 = half ammo carry & regen
+turret_scale_aim: 2 = aim twice as fast, 0,5 = aim at half speed
+turret_scale_health: 2 = double health, 0.5 = half
+target: Defend the position of this entity
+team: 5=red, 14=blue
+-------- SPAWNFLAGS --------
+PILLAR: Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="../xonotic-data.pk3dir/models/turrets/radiant/hk.md3"
+*/
+
+/*QUAKED turret_tesla (1 0 0) (-32 -32 0) (32 32 50) - PILLAR
+Fires a lightning bolt that will jump to up to 10 targets if they are close enough to each other. Missiles included.
+-------- KEYS --------
+turret_scale_damage: 2 = double damage, 0.5 = half
+turret_scale_range: 2 = double range, 0.5 = half
+turret_scale_refire: 2 = double refire (SLOWER!), 0.5 = half (FASTER!)
+turret_scale_ammo: 2 = double ammo carry & regen, 0.5 = half ammo carry & regen
+turret_scale_aim: 2 = aim twice as fast, 0,5 = aim at half speed
+turret_scale_health: 2 = double health, 0.5 = half
+target: Defend the position of this entity
+team: 5=red, 14=blue
+-------- SPAWNFLAGS --------
+PILLAR: Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="../xonotic-data.pk3dir/models/turrets/radiant/tesla.md3"
+*/
+
+/*QUAKED turret_phaser (1 0 0) (-32 -32 0) (32 32 50) - PILLAR
+Constant beam weapon that will considerably slow its target down while dealing low but constant damage.
+-------- KEYS --------
+turret_scale_damage: 2 = double damage, 0.5 = half
+turret_scale_range: 2 = double range, 0.5 = half
+turret_scale_refire: 2 = double refire (SLOWER!), 0.5 = half (FASTER!)
+turret_scale_ammo: 2 = double ammo carry & regen, 0.5 = half ammo carry & regen
+turret_scale_aim: 2 = aim twice as fast, 0,5 = aim at half speed
+turret_scale_health: 2 = double health, 0.5 = half
+target: Defend the position of this entity
+team: 5=red, 14=blue
+-------- SPAWNFLAGS --------
+PILLAR: Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="../xonotic-data.pk3dir/models/turrets/radiant/phaser.md3"
+*/
+
+
+/*QUAKED turret_fusionreactor (1 0 0) (-32 -32 0) (32 32 50) - PILLAR
+-------- KEYS --------
+turret_scale_damage: 2 = double damage, 0.5 = half
+turret_scale_range: 2 = double range, 0.5 = half
+turret_scale_refire: 2 = double refire (SLOWER!), 0.5 = half (FASTER!)
+turret_scale_ammo: 2 = double ammo carry & regen, 0.5 = half ammo carry & regen
+turret_scale_aim: 2 = aim twice as fast, 0,5 = aim at half speed
+turret_scale_health: 2 = double health, 0.5 = half
+team: 5=red, 14=blue
+-------- SPAWNFLAGS --------
+PILLAR: Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)
+---------NOTES----------
+Supplies neerby energy based turrets with more power so they can fire more often.
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="../xonotic-data.pk3dir/models/turrets/radiant/reactor.md3"
+*/
+
+/*QUAKED turret_targettrigger (.5 .5 .5) ?
+Used to feed turrets capable of it with remote target info. currently only turret_hk supports this.
+*/
+
+
+/*QUAKED turret_walker (1 0 0) (-32 -32 0) (32 32 50)
+-----------KEYS------------
+turret_scale_damage: 2 = double damage, 0.5 = half
+turret_scale_range:  2 = double range, 0.5 = half
+turret_scale_refire: 2 = doubble refire (SLOWER!), 0.5 = half (FASTER!)
+turret_scale_ammo:   2 = doubble ammo carry & regen, 0.5 = half ammo carry & regen
+turret_scale_aim:    2 = aim twice as fast, 0,5 = aim at half speed
+turret_scale_health: 2 = double health, 0.5 = half
+team: 5=red, 14=blue
+-----------SPAWNFLAGS-----------
+---------NOTES----------
+
+A nasty mechanical critter that will engage longrange target with missiles, midrange with its minigun and meele things up close and personal.
+
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="../xonotic-data.pk3dir/models/turrets/radiant/walker.md3"
+*/
+
+
+/*QUAKED turret_ewheel (1 0 0) (-32 -32 0) (32 32 50)
+-----------KEYS------------
+turret_scale_damage: 2 = double damage, 0.5 = half
+turret_scale_range:  2 = double range, 0.5 = half
+turret_scale_refire: 2 = doubble refire (SLOWER!), 0.5 = half (FASTER!)
+turret_scale_ammo:   2 = doubble ammo carry & regen, 0.5 = half ammo carry & regen
+turret_scale_aim:    2 = aim twice as fast, 0,5 = aim at half speed
+turret_scale_health: 2 = double health, 0.5 = half
+team: 5=red, 14=blue
+-----------SPAWNFLAGS-----------
+---------NOTES----------
+
+Small, agile and moveing turret.
+
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="../xonotic-data.pk3dir/models/turrets/radiant/ewheel.md3"
+*/
+
+
+/*QUAKED turret_checkpoint (1 0 1) (-32 -32 -32) (32 32 32)
+-----------KEYS------------
+target: .targetname of next wapoint in chain.
+wait:   Pause at this point # seconds.
+-----------SPAWNFLAGS-----------
+
+---------NOTES----------
+If a loop is of targets are formed, any unit entering this loop will patrol it indefinitly.
+If the checkpoint chain in not looped, the unit will go "Roaming" when the last point is reached.
+*/
+/*QUAKED vehicle_racer (0 0 1) (-48 -48 0) (48 48 32) 
+Fast moving hover type vehicle, with low shiled & health.
+Primary weapon is a rapid fire energy cannon, secondary lockable rockets.
+-------- KEYS --------
+team: 5=red, 14=blue
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="models/vehicles-static/wakazachi.md3"
+*/
+
+/*QUAKED vehicle_spiderbot (0 0 1) (-48 -48 0) (48 48 32)
+A slow moving 6 legged mech type vehile that has plenty of health and shiled.
+Primary weapon is twin miniguns, secondary eight rockets that can be guided by the pilot.
+-------- KEYS --------
+team: 5=red, 14=blue
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="models/vehicles-static/spiderbot.md3"
+*/
+
+/*QUAKED vehicle_raptor (0 0 1) (-48 -48 0) (48 48 32)
+The raptor is primaerly a air to ground frighter, its quite lightly armoured or shilded.
+Its main weapon is four rapid fire energy cannons, wich can be locked to track a target by aming at it for some time.
+Secondary is a pair of vert powerfull clusterbombs.
+-------- KEYS --------
+team: 5=red, 14=blue
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="models/vehicles-static/raptor.md3"
 */
