@@ -90,19 +90,13 @@ textures/map_lightspeed/env1
 	surfaceparm nolightmap
 	cull none
 	q3map_globaltexture
-	tessSize 256
 	{
 		map textures/map_lightspeed/env/env1.tga
-		tcMod turb 0 0.04 0 0.08
+		//tcMod turb 0 0.04 0 0.08
 		blendfunc add
 	}
-	dpreflectcube textures/map_lightspeed/env/env1.tga
-	{
-		map $lightmap
-		blendfunc add
-		tcGen lightmap
-	}	
-	dp_water 0.1 0.25  3 3  1 1 1  1 1 1  0.125
+	dpreflectcube textures/map_lightspeed/env/env1_
+	dp_reflect 0  1 1 1 1
 }
 
 textures/map_lightspeed/env2
@@ -115,19 +109,13 @@ textures/map_lightspeed/env2
 	surfaceparm nolightmap
 	cull none
 	q3map_globaltexture
-	tessSize 256
 	{
 		map textures/map_lightspeed/env/env2.tga
-		tcMod turb 0 0.04 0 0.08
+		//tcMod turb 0 0.04 0 0.08
 		blendfunc add
 	}
-	dpreflectcube textures/map_lightspeed/env/env2.tga
-	{
-		map $lightmap
-		blendfunc add
-		tcGen lightmap
-	}	
-	dp_water 0.1 0.25  3 3  1 1 1  1 1 1  0.125
+	dpreflectcube textures/map_lightspeed/env/env2_
+	dp_reflect 0  1 1 1 1
 }
 
 textures/map_lightspeed/env3
@@ -140,19 +128,13 @@ textures/map_lightspeed/env3
 	surfaceparm nolightmap
 	cull none
 	q3map_globaltexture
-	tessSize 256
 	{
 		map textures/map_lightspeed/env/env3.tga
-		tcMod turb 0 0.04 0 0.08
+		//tcMod turb 0 0.04 0 0.08
 		blendfunc add
 	}
-	dpreflectcube textures/map_lightspeed/env/env3.tga
-	{
-		map $lightmap
-		blendfunc add
-		tcGen lightmap
-	}	
-	dp_water 0.1 0.25  3 3  1 1 1  1 1 1  0.125
+	dpreflectcube textures/map_lightspeed/env/env3_
+	dp_reflect 0  1 1 1 1
 }
 
 //Lightning1-a
