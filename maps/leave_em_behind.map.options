@@ -2,4 +2,4 @@
 -light + -samples 3 -lightmapsize 512 -bounce 8 -fastbounce -bouncegrid
 -vis +
 -minimap +
-Version: 3
+Version: 4
