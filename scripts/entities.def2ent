@@ -1,0 +1,163 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+
+my %types;
+my %types_override;
+
+open my $fh, '<', '../../xonotic-data.pk3dir/qcsrc/server/qc.asm'
+	or die "must have qc.asm in server qc";
+while(<$fh>)
+{
+	chomp;
+	if(/^\.(\w+) (\w+);$/)
+	{
+		if($1 eq "float")
+		{
+			$types{$2} = "real";
+		}
+		elsif($1 eq "string")
+		{
+			$types{$2} = "string";
+		}
+		elsif($1 eq "vector")
+		{
+			$types{$2} = "real3";
+		}
+	}
+}
+
+# specialization
+$types{angle} = "direction";
+$types{angles} = "angles";
+$types{_color} = "color";
+$types{colormod} = "color";
+$types{killtarget} = "target";
+$types{model2} = "model";
+$types{model} = "model";
+$types{noise} = "sound";
+$types{noise1} = "sound";
+$types{noise2} = "sound";
+$types{noise3} = "sound";
+$types{target2} = "target";
+$types{target3} = "target";
+$types{target4} = "target";
+$types{targetname} = "targetname";
+$types{target} = "target";
+$types{team} = "integer";
+$types{target_random} = "boolean";
+
+# missing definition in QC, q3map2 only
+$types{_ambient} = "real";
+$types{_anglescale} = "real";
+$types{author} = "string";
+$types{_blocksize} = "integer3";
+$types{_castshadows} = "boolean";
+$types{_celshader} = "texture";
+$types{_clonename} = "targetname";
+$types{_clone} = "target";
+$types{_description} = "string";
+$types{_deviance} = "real";
+$types{fade} = "real";
+$types{_farplanedist} = "real";
+$types{_filterradius} = "real";
+$types{_floodlight} = "string";
+$types{_frame} = "integer";
+$types{_skin} = "integer";
+$types{gridsize} = "integer3";
+$types{_ignoreleaks} = "boolean";
+$types{_indexmap} = "texture";
+$types{key1} = "string";
+$types{key2} = "string";
+$types{_layers} = "integer";
+$types{_lightmapscale} = "real";
+$types{light} = "real";
+$types{max} = "real3";
+$types{_mingridlight} = "real";
+$types{_minlight} = "real";
+$types{min} = "real3";
+$types{modelscale_vec} = "real3";
+$types{_noshadersun} = "boolean";
+$types{_offsets} = "string";
+$types{_receiveshadows} = "boolean";
+$types{_remap} = "array";
+$types{_samples} = "integer";
+$types{_scale} = "real";
+$types{_shader} = "texture";
+$types{_sun} = "boolean";
+
+# XML types:
+# angle           specialisation of real - Yaw angle
+# angles          specialisation of real3 - Pitch Yaw Roll
+# array           an array of strings - value is a semi-colon-delimited string
+# boolean         an integer - shows as a checkbox - true = non-zero
+# color           specialisation of real3 - RGB floating-point colour
+# direction       specialisation of real - Yaw angle, -1 = down, -2 = up
+# integer2        two integer values
+# integer3        three integer values
+# integer         an integer value
+# model           the VFS path to a model file
+# skin            the VFS path to a skin file
+# sound           the VFS path to a sound file
+# target          a string that uniquely identifies an entity or group of entities
+# targetname      a string that uniquely identifies an entity or group of entities
+# texture         the VFS path to a texture file or a shader name
+
+
+print <<EOF;
+<?xml version="1.0"?>
+<classes>
+EOF
+
+my $closetag;
+my @spawnflags;
+my $class;
+while(<STDIN>)
+{
+	chomp;
+	s/&/&amp;/g;
+	s/</&lt;/g;
+	s/>/&gt;/g;
+	s/"/&quot;/g;
+	if(/^\/\*QUAKED (\S+) \((\S+ \S+ \S+)\) \((\S+ \S+ \S+)\) \((\S+ \S+ \S+)\) ?(.*)/)
+	{
+		$class = $1;
+		print "<point name=\"$1\" color=\"$2\" box=\"$3 $4\">\n";
+		$closetag = "</point>";
+		@spawnflags = split / /, $5;
+	}
+	elsif(/^\/\*QUAKED (\S+) \((\S+ \S+ \S+)\) \? ?(.*)/)
+	{
+		$class = $1;
+		print "<group name=\"$1\" color=\"$2\">\n";
+		$closetag = "</group>";
+		@spawnflags = split / /, $3;
+	}
+	elsif(/^\*\/$/)
+	{
+		print "$closetag\n";
+	}
+	elsif(/^([0-9a-z_]*): +(.*)/)
+	{
+		my $type = $types_override{$class}{$1} || $types{$1};
+		warn "No type for $1"
+			if not defined $type;
+		print "<$type key=\"$1\" name=\"$1\">$2</$type>\n";
+	}
+	elsif(/^([0-9A-Z_]*): +(.*)/)
+	{
+		my $bit = [grep { $spawnflags[$_] eq $1; } 0..@spawnflags-1]->[0];
+		warn "Cannot find bit $1 in @spawnflags\n"
+			if not defined $bit;
+		print "<flag key=\"$1\" name=\"$1\" bit=\"$bit\">$2</flag>\n";
+	}
+	else
+	{
+		print "$_\n";
+	}
+}
+
+print <<EOF;
+</classes>
+EOF

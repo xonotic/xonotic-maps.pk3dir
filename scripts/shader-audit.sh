@@ -149,7 +149,7 @@ use_texture()
 			esac
 			;;
 		## RULE: textures/FOO/* must use textures/FOO/*, for FOO in decals, liquids_water, liquids_slime, liquids_lava
-		textures/decals/*|textures/liquids_*/*|textures/effects_*/*)
+		textures/decals/*|textures/liquids_*/*|textures/effects_*/*|textures/screens/*|textures/logos/*)
 			pre=`echo "$1" | cut -d / -f 1-2`
 			case "$2" in
 				"$pre"/*)
@@ -210,6 +210,9 @@ parse_shaderstage()
 				for X in $Aother; do
 					use_texture "$parsing_shader" "`normalize "$X"`" animmap
 				done
+				;;
+			'{')
+				echo "(EE) brace nesting error in $parsing_shader"; seterror
 				;;
 			'}')
 				break

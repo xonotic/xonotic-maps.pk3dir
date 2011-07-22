@@ -223,9 +223,41 @@ textures/common/warpzone
 
 textures/common/camera
 {
+	surfaceparm nolightmap
+	surfaceparm trans
 	{
 		map textures/common/warpzone/trans.tga // fully transparent
 		blendfunc blend
 	}
 	dp_camera
+}
+
+textures/common/waternodraw
+{
+	qer_trans 0.40
+	surfaceparm nodraw
+	surfaceparm nolightmap
+	surfaceparm water
+	surfaceparm trans
+	surfaceparm nomarks
+}
+
+textures/common/slimenodraw
+{
+	qer_trans 0.40
+	surfaceparm nodraw
+	surfaceparm nolightmap
+	surfaceparm slime
+	surfaceparm trans
+	surfaceparm nomarks
+}
+
+textures/common/lavanodraw
+{
+	qer_trans 0.40
+	surfaceparm nodraw
+	surfaceparm nolightmap
+	surfaceparm lava
+	surfaceparm trans
+	surfaceparm nomarks
 }

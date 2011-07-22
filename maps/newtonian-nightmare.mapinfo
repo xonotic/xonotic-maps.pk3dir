@@ -1,0 +1,7 @@
+title Newtonian Nightmare
+description The modified physics of this orbiting battleground is Sir Isaac's worst nightmare.
+author C.Brutail
+has weapons
+gametype ctf
+cdtrack 3
+clientsettemp_for_type all r_water 1

@@ -307,50 +307,6 @@ textures/ex2x/floor-h4
 		blendfunc filter
 	}
 }
-textures/ex2x/floor-metal1
-{
-	qer_editorimage textures/ex2x/floor/floor_metal1.tga
-	
-	q3map_bounceScale  0.5
-	dpoffsetmapping - 0.5
-	dpglossintensitymod  3
-	dpglossexponentmod  4
-
-
-	{
-		map textures/ex2x/floor/floor_metal1.tga
-		
-
-	}
-	{
-		map $lightmap
-		rgbGen identity
-		tcGen lightmap
-		blendfunc filter
-	}
-}
-textures/ex2x/floor-metal2
-{
-	qer_editorimage textures/ex2x/floor/floor_metal2.tga
-	
-	q3map_bounceScale  0.5
-	dpoffsetmapping - 0.5
-	dpglossintensitymod  3
-	dpglossexponentmod  4
-
-
-	{
-		map textures/ex2x/floor/floor_metal2.tga
-		
-
-	}
-	{
-		map $lightmap
-		rgbGen identity
-		tcGen lightmap
-		blendfunc filter
-	}
-}
 textures/ex2x/floor-metal3
 {
 	qer_editorimage textures/ex2x/floor/floor_metal3.tga
@@ -363,28 +319,6 @@ textures/ex2x/floor-metal3
 
 	{
 		map textures/ex2x/floor/floor_metal3.tga
-		
-
-	}
-	{
-		map $lightmap
-		rgbGen identity
-		tcGen lightmap
-		blendfunc filter
-	}
-}
-textures/ex2x/floor-p1
-{
-	qer_editorimage textures/ex2x/floor/floor_p1.tga
-	
-	q3map_bounceScale  0.5
-	dpoffsetmapping - 0.5
-	dpglossintensitymod  3
-	dpglossexponentmod  4
-
-
-	{
-		map textures/ex2x/floor/floor_p1.tga
 		
 
 	}
@@ -461,28 +395,6 @@ textures/ex2x/floor-r1
 		blendfunc filter
 	}
 }
-textures/ex2x/floor-rust1
-{
-	qer_editorimage textures/ex2x/floor/floor_rust1.tga
-	
-	q3map_bounceScale  0.5
-	dpoffsetmapping - 0.5
-	dpglossintensitymod  3
-	dpglossexponentmod  4
-
-
-	{
-		map textures/ex2x/floor/floor_rust1.tga
-		
-
-	}
-	{
-		map $lightmap
-		rgbGen identity
-		tcGen lightmap
-		blendfunc filter
-	}
-}
 textures/ex2x/light-1
 {
 	qer_editorimage textures/ex2x/light/light_1.tga
@@ -495,28 +407,6 @@ textures/ex2x/light-1
 
 	{
 		map textures/ex2x/light/light_1.tga
-		
-
-	}
-	{
-		map $lightmap
-		rgbGen identity
-		tcGen lightmap
-		blendfunc filter
-	}
-}
-textures/ex2x/light-2
-{
-	qer_editorimage textures/ex2x/light/light_2.tga
-	
-	q3map_bounceScale  0.75
-	dpoffsetmapping - 0.5
-	dpglossintensitymod  3
-	dpglossexponentmod  4
-
-
-	{
-		map textures/ex2x/light/light_2.tga
 		
 
 	}
@@ -607,50 +497,6 @@ textures/ex2x/trim-warn1
 
 	{
 		map textures/ex2x/trim/trim_warn1.tga
-		
-
-	}
-	{
-		map $lightmap
-		rgbGen identity
-		tcGen lightmap
-		blendfunc filter
-	}
-}
-textures/ex2x/wall-green1
-{
-	qer_editorimage textures/ex2x/wall/wall_green1.tga
-	
-	q3map_bounceScale  0.5
-	dpoffsetmapping - 0.5
-	dpglossintensitymod  3
-	dpglossexponentmod  4
-
-
-	{
-		map textures/ex2x/wall/wall_green1.tga
-		
-
-	}
-	{
-		map $lightmap
-		rgbGen identity
-		tcGen lightmap
-		blendfunc filter
-	}
-}
-textures/ex2x/wall-green1dirt
-{
-	qer_editorimage textures/ex2x/wall/wall_green1dirt.tga
-	
-	q3map_bounceScale  0.5
-	dpoffsetmapping - 0.5
-	dpglossintensitymod  3
-	dpglossexponentmod  4
-
-
-	{
-		map textures/ex2x/wall/wall_green1dirt.tga
 		
 
 	}
