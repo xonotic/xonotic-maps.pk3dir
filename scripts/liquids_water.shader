@@ -41,6 +41,7 @@ textures/liquids_water/water0_cubemap
 		blendfunc add
 		tcGen lightmap
 	}
+	dp_water 0.1 0.9  3 3  1 1 1  1 1 1  0.4
 }
 
 textures/liquids_water/water1
