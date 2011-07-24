@@ -1,5 +1,5 @@
 -bsp + -samplesize 4 -minsamplesize 2
+-light + -samples 4 -filter --no-lightmapsearchpower --no-randomsamples --no-dirty --no-fill
 -vis +
--light + -deluxe -patchshadows -samples 4 -lightmapsize 512 -fast -filter --no-lightmapsearchpower --no-randomsamples --no-dirty --no-fill
 -minimap +
 Version: 2
