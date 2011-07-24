@@ -7,7 +7,7 @@ textures/map_courtfun/screenanim_work
     cull none
     {
         animMap 1 textures/map_courtfun/screen_sleep.tga textures/map_courtfun/screen_work.tga textures/map_courtfun/screen_obey.tga textures/map_courtfun/screen_black.tga textures/map_courtfun/screen_black.tga textures/map_courtfun/screen_black.tga
-        blendFunc GL_ONE GL_ONE
+        blendFunc filter
     }
 }
 
@@ -20,7 +20,7 @@ textures/map_courtfun/screenanim_obey
     cull none
     {
         animMap 1 textures/map_courtfun/screen_obey.tga textures/map_courtfun/screen_xon.tga textures/map_courtfun/screen_black.tga textures/map_courtfun/screen_black.tga textures/map_courtfun/screen_black.tga
-        blendFunc GL_ONE GL_ONE
+        blendFunc filter
     }
 }
 
