@@ -1,5 +1,5 @@
 -bsp + -samplesize 4 -minsamplesize 2
--light + -samples 4 -filter --no-lightmapsearchpower --no-randomsamples --no-dirty --no-fill
+-light +
 -vis +
 -minimap +
 Version: 2
