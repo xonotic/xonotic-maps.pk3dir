@@ -35211,79 +35211,79 @@ map_courtfun/screen_obey
 {
 "classname" "info_player_race"
 "origin" "-512.000000 -704.000000 344.000000"
-"cnt" "0"
+"race_place" "0"
 "target" "trigger_race_checkpoint3"
 }
 {
 "classname" "info_player_race"
 "origin" "1536.000000 -1024.000000 344.000000"
-"cnt" "-1"
+"race_place" "-1"
 "target" "trigger_race_checkpoint3"
 }
 {
 "classname" "info_player_race"
 "origin" "1536.000000 -960.000000 344.000000"
-"cnt" "1"
+"race_place" "1"
 "target" "trigger_race_checkpoint3"
 }
 {
 "classname" "info_player_race"
 "origin" "1280.000000 -1088.000000 344.000000"
-"cnt" "2"
+"race_place" "2"
 "target" "trigger_race_checkpoint3"
 }
 {
 "classname" "info_player_race"
 "origin" "1024.000000 -960.000000 344.000000"
-"cnt" "3"
+"race_place" "3"
 "target" "trigger_race_checkpoint3"
 }
 {
 "classname" "info_player_race"
 "origin" "768.000000 -1088.000000 344.000000"
-"cnt" "4"
+"race_place" "4"
 "target" "trigger_race_checkpoint3"
 }
 {
 "classname" "info_player_race"
 "origin" "512.000000 -960.000000 344.000000"
-"cnt" "5"
+"race_place" "5"
 "target" "trigger_race_checkpoint3"
 }
 {
 "classname" "info_player_race"
 "origin" "256.000000 -1088.000000 344.000000"
-"cnt" "6"
+"race_place" "6"
 "target" "trigger_race_checkpoint3"
 }
 {
 "classname" "info_player_race"
 "origin" "0.000000 -960.000000 344.000000"
-"cnt" "7"
+"race_place" "7"
 "target" "trigger_race_checkpoint3"
 }
 {
 "classname" "info_player_race"
 "origin" "-256.000000 -1088.000000 344.000000"
-"cnt" "8"
+"race_place" "8"
 "target" "trigger_race_checkpoint3"
 }
 {
 "classname" "info_player_race"
 "origin" "-512.000000 -1088.000000 344.000000"
-"cnt" "0"
+"race_place" "0"
 "target" "trigger_race_checkpoint3"
 }
 {
 "classname" "info_player_race"
 "origin" "-512.000000 -960.000000 344.000000"
-"cnt" "0"
+"race_place" "0"
 "target" "trigger_race_checkpoint3"
 }
 {
 "classname" "info_player_race"
 "origin" "-512.000000 -832.000000 344.000000"
-"cnt" "0"
+"race_place" "0"
 "target" "trigger_race_checkpoint3"
 }
 {
@@ -35469,7 +35469,7 @@ map_courtfun/screen_obey
 {
 "classname" "trigger_push"
 "target" "target_position3"
-"height" "128"
+"height" "64"
 "gametypefilter" "+rc"
 {
 ( -1536 2656 352 ) ( -1536 2560 352 ) ( -1776 2656 352 ) common/trigger 0 0 0 0.25 0.25 0 0 0
