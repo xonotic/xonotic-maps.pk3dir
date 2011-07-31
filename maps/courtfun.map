@@ -35394,7 +35394,7 @@ map_courtfun/screen_obey
 }
 {
 "classname" "func_wall"
-"gametypefilter" "+rc"
+"gametypefilter" "+rc,cts"
 "_castshadows" "-2"
 "_receiveshadows" "2"
 {
@@ -35470,7 +35470,7 @@ map_courtfun/screen_obey
 "classname" "trigger_push"
 "target" "target_position3"
 "height" "64"
-"gametypefilter" "+rc"
+"gametypefilter" "+rc,cts"
 {
 ( -1536 2656 352 ) ( -1536 2560 352 ) ( -1776 2656 352 ) common/trigger 0 0 0 0.25 0.25 0 0 0
 ( -1536 2656 336 ) ( -1776 2656 336 ) ( -1536 2656 320 ) common/trigger 0 0 0 0.25 0.25 0 0 0
@@ -35486,7 +35486,7 @@ map_courtfun/screen_obey
 "model" "models/xonotic_jumppad01/xonotic_launchpad01.md3"
 "modelscale" "2.000000"
 "angle" "-28.4"
-"gametypefilter" "+rc"
+"gametypefilter" "+rc,cts"
 "_castshadows" "-2"
 "_receiveshadows" "2"
 }
