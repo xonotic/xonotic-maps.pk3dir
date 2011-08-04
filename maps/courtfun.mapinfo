@@ -34,3 +34,4 @@ settemp_for_type cts g_weaponreplace_uzi 0
 settemp_for_type cts g_powerup_shield 0
 settemp_for_type cts g_start_weapon_shotgun 0
 settemp_for_type cts g_start_weapon_laser 1
+settemp_for_type cts g_cts_finish_kill_delay 0
