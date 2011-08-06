@@ -35540,7 +35540,7 @@ map_courtfun/screen_obey
 }
 {
 "classname" "onslaught_link"
-"origin" "1776.000000 -1992.000000 336.000000"
+"origin" "816.000000 -2032.000000 336.000000"
 "target" "redgen1"
 "target2" "redcp1"
 }
@@ -35594,7 +35594,7 @@ map_courtfun/screen_obey
 }
 {
 "classname" "onslaught_link"
-"origin" "-5880.000000 6128.000000 280.000000"
+"origin" "-4912.000000 6000.000000 280.000000"
 "target" "bluegen"
 "target2" "bluecp1"
 }
