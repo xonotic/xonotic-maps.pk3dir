@@ -3,6 +3,7 @@
 "author" "SavageX & Calinou"
 "message" "Courtfun"
 "license" "GPL"
+"spawnflags" "1"
 "_floodlight" "240 240 255 1024 128"
 "fog" "0.075 .7 .4. .3 1 1000 2000"
 {
