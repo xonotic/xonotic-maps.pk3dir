@@ -923,7 +923,7 @@ target: target any entities that are tied to this control point, such as vehicle
 message: name of this control point (should reflect the location in the map, such as "center bridge", "north tower", etc)
 */
 
-/*QUAKED onslaught_generator (0 .5 .8) (-32 -32 -24) (32 32 64) 
+/*QUAKED onslaught_generator (0 .5 .8) (-52 -52 -14) (52 52 75) 
 Base generator.
 
 onslaught_link entities can target this.
