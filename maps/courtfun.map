@@ -30758,6 +30758,7 @@ exx/base-metal01
 "origin" "512.000000 1600.000000 64.000000"
 "angle" "180.000000"
 "team" "5"
+"targetname" "turret_plasma1"
 }
 {
 "classname" "misc_gamemodel"
@@ -34227,6 +34228,7 @@ exx/base-metal01
 "origin" "-4608.000000 2368.000000 64.000000"
 "angle" "0.000003"
 "team" "14"
+"targetname" "turret_plasma2"
 }
 {
 "classname" "misc_gamemodel"
@@ -35507,6 +35509,7 @@ map_courtfun/screen_obey
 "classname" "onslaught_controlpoint"
 "origin" "-72.000000 1608.000000 64.000000"
 "targetname" "redside1"
+"target" "turret_plasma1"
 }
 {
 "classname" "onslaught_controlpoint"
@@ -35517,6 +35520,7 @@ map_courtfun/screen_obey
 "classname" "onslaught_controlpoint"
 "origin" "-3960.000000 2360.000000 64.000000"
 "targetname" "blueside1"
+"target" "turret_plasma2"
 }
 {
 "classname" "onslaught_controlpoint"
