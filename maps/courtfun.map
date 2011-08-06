@@ -35495,7 +35495,7 @@ map_courtfun/screen_obey
 }
 {
 "classname" "onslaught_generator"
-"origin" "512.000000 -3520.000000 280.000000"
+"origin" "512.000000 -3520.000000 270.000000"
 "angle" "90.000000"
 "team" "5"
 "targetname" "redgen1"
@@ -35539,7 +35539,7 @@ map_courtfun/screen_obey
 }
 {
 "classname" "onslaught_generator"
-"origin" "-4608.000000 7488.000000 280.000000"
+"origin" "-4608.000000 7488.000000 270.000000"
 "targetname" "bluegen"
 "team" "14"
 }
