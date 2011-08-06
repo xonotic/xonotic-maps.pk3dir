@@ -27941,7 +27941,7 @@ exx/base-metal01
 }
 {
 "classname" "item_health_large"
-"origin" "-200.000000 1608.000000 88.000000"
+"origin" "-288.000000 1608.000000 88.000000"
 }
 {
 "classname" "light"
@@ -31338,7 +31338,7 @@ exx/base-metal01
 }
 {
 "classname" "item_health_large"
-"origin" "-3896.000000 2360.000000 88.000000"
+"origin" "-3808.000000 2360.000000 88.000000"
 "angle" "-179.999985"
 }
 {
@@ -35489,4 +35489,360 @@ map_courtfun/screen_obey
 "gametypefilter" "+rc,cts"
 "_castshadows" "-2"
 "_receiveshadows" "2"
+}
+{
+"classname" "onslaught_generator"
+"origin" "512.000000 -3520.000000 280.000000"
+"angle" "90.000000"
+"team" "5"
+"targetname" "redgen1"
+}
+{
+"classname" "onslaught_controlpoint"
+"origin" "2144.000000 -1248.000000 328.000000"
+"targetname" "redcp1"
+}
+{
+"classname" "onslaught_controlpoint"
+"origin" "-72.000000 1608.000000 64.000000"
+"targetname" "redside1"
+}
+{
+"classname" "onslaught_controlpoint"
+"origin" "-1824.000000 -352.000000 64.000000"
+"targetname" "redside2"
+}
+{
+"classname" "onslaught_controlpoint"
+"origin" "-3960.000000 2360.000000 64.000000"
+"targetname" "blueside1"
+}
+{
+"classname" "onslaught_controlpoint"
+"origin" "-2048.000000 1984.000000 0.000000"
+"targetname" "middle"
+}
+{
+"classname" "onslaught_controlpoint"
+"origin" "-2240.000000 4320.000000 64.000000"
+"targetname" "blueside2"
+}
+{
+"classname" "onslaught_controlpoint"
+"origin" "-6240.000000 5216.000000 328.000000"
+"targetname" "bluecp1"
+}
+{
+"classname" "onslaught_generator"
+"origin" "-4608.000000 7488.000000 280.000000"
+"targetname" "bluegen"
+"team" "14"
+}
+{
+"classname" "onslaught_link"
+"origin" "1776.000000 -1992.000000 336.000000"
+"target" "redgen1"
+"target2" "redcp1"
+}
+{
+"classname" "onslaught_link"
+"origin" "160.000000 1504.000000 352.000000"
+"target" "redcp1"
+"target2" "redside1"
+}
+{
+"classname" "onslaught_link"
+"origin" "-1552.000000 -408.000000 232.000000"
+"target2" "redside2"
+"target" "redcp1"
+}
+{
+"classname" "onslaught_link"
+"origin" "-2024.000000 1720.000000 96.000000"
+"target2" "middle"
+"target" "redside2"
+}
+{
+"classname" "onslaught_link"
+"origin" "-1832.000000 2016.000000 96.000000"
+"target2" "redside1"
+"target" "middle"
+}
+{
+"classname" "onslaught_link"
+"origin" "-2056.000000 2416.000000 96.000000"
+"target" "middle"
+"target2" "blueside2"
+}
+{
+"classname" "onslaught_link"
+"origin" "-2384.000000 1880.000000 88.000000"
+"target" "middle"
+"target2" "blueside1"
+}
+{
+"classname" "onslaught_link"
+"origin" "-6016.000000 5224.000000 376.000000"
+"target" "blueside2"
+"target2" "bluecp1"
+}
+{
+"classname" "onslaught_link"
+"origin" "-6232.000000 5008.000000 376.000000"
+"target2" "bluecp1"
+"target" "blueside1"
+}
+{
+"classname" "onslaught_link"
+"origin" "-5880.000000 6128.000000 280.000000"
+"target" "bluegen"
+"target2" "bluecp1"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "1472.000000 -720.000000 80.000000"
+"angle" "89.999992"
+"target" "redcp1"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-432.000000 -1032.000000 360.000000"
+"angle" "89.999992"
+"target" "redcp1"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-616.000000 -488.000000 360.000000"
+"angle" "0.000010"
+"target" "redcp1"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-528.000000 616.000000 352.000000"
+"target" "redcp1"
+"angle" "0.000009"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "1864.000000 536.000000 360.000000"
+"target" "redcp1"
+"angle" "-179.999985"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "1792.000000 -936.000000 360.000000"
+"target" "redcp1"
+"angle" "-179.999985"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-4064.000000 2232.000000 136.000000"
+"target" "blueside1"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-4672.000000 2088.000000 136.000000"
+"target" "blueside1"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-4904.000000 2576.000000 368.000000"
+"target" "blueside1"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-4104.000000 2544.000000 136.000000"
+"target" "blueside1"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-4064.000000 2232.000000 136.000000"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-4672.000000 1960.000000 136.000000"
+"target" "blueside1"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-4904.000000 1768.000000 368.000000"
+"target" "blueside1"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-1640.000000 4048.000000 176.000000"
+"angle" "179.999985"
+"target" "blueside2"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-2752.000000 4352.000000 176.000000"
+"angle" "0.000010"
+"target" "blueside2"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-2648.000000 4704.000000 176.000000"
+"angle" "-90.000000"
+"target" "blueside2"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-2368.000000 4704.000000 176.000000"
+"angle" "-90.000000"
+"target" "blueside2"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-2104.000000 3704.000000 176.000000"
+"angle" "179.999985"
+"target" "blueside2"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-1616.000000 3632.000000 176.000000"
+"angle" "179.999985"
+"target" "blueside2"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-2488.000000 -56.000000 176.000000"
+"angle" "0.000010"
+"target" "redside2"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-1376.000000 -384.000000 176.000000"
+"angle" "-179.999985"
+"target" "redside2"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-1480.000000 -736.000000 176.000000"
+"angle" "90.000015"
+"target" "redside2"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-1760.000000 -736.000000 176.000000"
+"angle" "90.000015"
+"target" "redside2"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-2024.000000 264.000000 176.000000"
+"angle" "0.000010"
+"target" "redside2"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-2512.000000 336.000000 176.000000"
+"angle" "0.000010"
+"target" "redside2"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-1656.000000 2872.000000 344.000000"
+"angle" "-89.999992"
+"target" "middle"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-2424.000000 1056.000000 344.000000"
+"angle" "90.000000"
+"target" "middle"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-1984.000000 1472.000000 24.000000"
+"angle" "0.000003"
+"target" "middle"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-1600.000000 1224.000000 24.000000"
+"angle" "90.000000"
+"target" "middle"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-2112.000000 2496.000000 24.000000"
+"angle" "-179.999985"
+"target" "middle"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-2496.000000 2744.000000 24.000000"
+"angle" "-90.000000"
+"target" "middle"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-5568.000000 4656.000000 80.000000"
+"angle" "-90.000000"
+"target" "bluecp1"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-3664.000000 4968.000000 360.000000"
+"angle" "-90.000000"
+"target" "bluecp1"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-3480.000000 4424.000000 360.000000"
+"angle" "179.999985"
+"target" "bluecp1"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-3568.000000 3320.000000 352.000000"
+"target" "bluecp1"
+"angle" "-179.999985"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-5960.000000 3400.000000 360.000000"
+"target" "bluecp1"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-5888.000000 4872.000000 360.000000"
+"target" "bluecp1"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-112.000000 1768.000000 152.000000"
+"angle" "0.000009"
+"target" "redside1"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "832.000000 2368.000000 448.000000"
+"angle" "-179.999985"
+"target" "redside1"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "832.000000 1728.000000 448.000000"
+"angle" "-179.999985"
+"target" "redside1"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-168.000000 1448.000000 152.000000"
+"angle" "0.000009"
+"target" "redside1"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "488.000000 1880.000000 152.000000"
+"angle" "-179.999985"
+"target" "redside1"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "488.000000 2040.000000 152.000000"
+"angle" "-179.999985"
+"target" "redside1"
 }
