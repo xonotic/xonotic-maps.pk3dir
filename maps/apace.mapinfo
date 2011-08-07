@@ -1,0 +1,5 @@
+title Apace
+description CTF arena inside of a large spacebase.
+author kuniu the frogg
+has weapons
+gametype ctf 300 20 10
