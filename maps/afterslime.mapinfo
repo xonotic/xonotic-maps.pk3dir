@@ -1,7 +1,7 @@
 title Afterslime
 description Medium sized indoor deathmatch map
 author kuniu the frogg
-cdtrack 3
+cdtrack 12
 has weapons
 gametype dm
 gametype tdm
