@@ -29218,6 +29218,7 @@ trak5x/base-pipe1a
 {
 "classname" "trigger_push"
 "target" "t2"
+"height" "64"
 {
 ( 584 -256 16 ) ( 584 -160 16 ) ( 712 -160 16 ) common/trigger 0 -32 0 0.25 0.25 0 7 0
 ( 584 -160 2 ) ( 584 -256 2 ) ( 712 -256 2 ) common/trigger 0 -32 0 0.25 0.25 0 7 0
@@ -29230,7 +29231,7 @@ trak5x/base-pipe1a
 {
 "classname" "info_notnull"
 "targetname" "t2"
-"origin" "640 -176 328"
+"origin" "640.000000 -128.000000 264.000000"
 }
 {
 "classname" "trigger_push"
