@@ -20,6 +20,7 @@ map_courtfun
 map_glowplant
 map_leave_em_behind
 map_newtonian-nightmare
+map_onarail
 map_red-planet
 map_space-elevator
 map_stormkeep
