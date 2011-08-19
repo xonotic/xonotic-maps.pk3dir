@@ -923,7 +923,7 @@ target: target any entities that are tied to this control point, such as vehicle
 message: name of this control point (should reflect the location in the map, such as "center bridge", "north tower", etc)
 */
 
-/*QUAKED onslaught_generator (0 .5 .8) (-32 -32 -24) (32 32 64) 
+/*QUAKED onslaught_generator (0 .5 .8) (-52 -52 -14) (52 52 75) 
 Base generator.
 
 onslaught_link entities can target this.
@@ -1923,7 +1923,7 @@ FLOATING: the item will float in air, instead of aligning to the floor by fallin
 modeldisabled="models/weapons/g_fireball.md3"
 */
 
-/*QUAKED trigger_warpzone (1 .5 1) ?
+/*QUAKED trigger_warpzone (1 .5 1) ? WATCHMOVE
 A warp zone, i.e. seamlessly connecting two parts of the map.
 One surface of this entity must have the common/warpzone shader (or a similar selfmade shader) - this will be the warp plane - the others must be common/trigger.
 Must target, or be targeted by, another trigger_warpzone with a congruent common/warpzone surface.
@@ -1939,6 +1939,8 @@ targetname: must be pointed to by another trigger_warpzone. Should be pointed to
 killtarget: should point to a target_position entity, or
 warpzone_fadestart: start distance of fading out the warpzone
 warpzone_fadeend: end distance of fading out the warpzone (if viewer is further, warpzone is not rendered at all)
+-------- SPAWNFLAGS --------
+WATCHMOVE: allow this entity to be moved by others, e.g. misc_follow in MOVETYPE_FOLLOW mode
 */
 
 /*QUAKED trigger_warpzone_reconnect (1 .5 1) (-8 -8 -8) (8 8 8) IGNORE_VISIBLE
@@ -1958,7 +1960,7 @@ angles: must point perpendicular to the common/warpzone surface of the trigger_w
 origin: must be on the common/warpzone surface of the trigger_warpzone
 */
 
-/*QUAKED func_camera (1 .5 1) ?
+/*QUAKED func_camera (1 .5 1) ? WATCHMOVE
 A camera, i.e. a surface that shows a view from another part of the map.
 One surface of this entity must have the common/camera shader, the others should be common/caulk.
 Must target a target_position that indicates the view to be shown (and whose angles also indicate the orientation of the view)
@@ -1966,6 +1968,8 @@ Must target a target_position that indicates the view to be shown (and whose ang
 target: must point to a target_position
 warpzone_fadestart: start distance of fading out the warpzone
 warpzone_fadeend: end distance of fading out the warpzone (if viewer is further, warpzone is not rendered at all)
+-------- SPAWNFLAGS --------
+WATCHMOVE: allow this entity to be moved by others, e.g. misc_follow in MOVETYPE_FOLLOW mode
 */
 
 /*QUAKED target_music (1 0 0) (-8 -8 -8) (8 8 8) START_OFF
@@ -2069,4 +2073,257 @@ When no chmap key is set, the entity just ends the match when triggered. The pla
 targetname: The name other entities can use to target this entity
 chmap: Map file to switch to, leave empty to make this entity just end the match
 gametype: Switch to this gametype. If empty, the same gametype stays
+*/
+/*QUAKED turret_machinegun (1 0 0) (-32 -32 0) (32 32 50) - PILLAR
+Fast firing moderate damage bullet (hitscan) turret.
+-------- KEYS --------
+turret_scale_damage: 2 = double damage, 0.5 = half
+turret_scale_range: 2 = double range, 0.5 = half
+turret_scale_refire: 2 = double refire (SLOWER!), 0.5 = half (FASTER!)
+turret_scale_ammo: 2 = double ammo carry & regen, 0.5 = half ammo carry & regen
+turret_scale_aim: 2 = aim twice as fast, 0,5 = aim at half speed
+turret_scale_health: 2 = double health, 0.5 = half
+target: Defend the position of this entity
+team: 5=red, 14=blue
+-------- SPAWNFLAGS --------
+PILLAR: Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="../xonotic-data.pk3dir/models/turrets/radiant/mg.md3"
+*/
+
+/*QUAKED turret_plasma (1 0 0) (-32 -32 0) (32 32 50) - PILLAR
+-------- KEYS --------
+turret_scale_damage: 2 = double damage, 0.5 = half
+turret_scale_range: 2 = double range, 0.5 = half
+turret_scale_refire: 2 = double refire (SLOWER!), 0.5 = half (FASTER!)
+turret_scale_ammo: 2 = double ammo carry & regen, 0.5 = half ammo carry & regen
+turret_scale_aim: 2 = aim twice as fast, 0,5 = aim at half speed
+turret_scale_health: 2 = double health, 0.5 = half
+target: Defend the position of this entity
+team: 5=red, 14=blue
+-------- SPAWNFLAGS --------
+PILLAR: Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)
+---------NOTES----------
+Basic energy cannon
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="../xonotic-data.pk3dir/models/turrets/radiant/plasma.md3"
+*/
+
+/*QUAKED turret_plasma_dual (1 0 0) (-32 -32 0) (32 32 50) - PILLAR
+basic energy cannon * 2
+-------- KEYS --------
+turret_scale_damage: 2 = double damage, 0.5 = half
+turret_scale_range: 2 = double range, 0.5 = half
+turret_scale_refire: 2 = double refire (SLOWER!), 0.5 = half (FASTER!)
+turret_scale_ammo: 2 = double ammo carry & regen, 0.5 = half ammo carry & regen
+turret_scale_aim: 2 = aim twice as fast, 0,5 = aim at half speed
+turret_scale_health: 2 = double health, 0.5 = half
+target: Defend the position of this entity
+team: 5=red, 14=blue
+-------- SPAWNFLAGS --------
+PILLAR: Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="../xonotic-data.pk3dir/models/turrets/radiant/plasma2.md3"
+*/
+
+/*QUAKED turret_flac (1 0 0) (-32 -32 0) (32 32 50) - PILLAR
+Only kills missiles, rockets, grenadelauncher & electro secondaries to be precise.
+-------- KEYS --------
+turret_scale_damage: 2 = double damage, 0.5 = half
+turret_scale_range: 2 = double range, 0.5 = half
+turret_scale_refire: 2 = double refire (SLOWER!), 0.5 = half (FASTER!)
+turret_scale_ammo: 2 = double ammo carry & regen, 0.5 = half ammo carry & regen
+turret_scale_aim: 2 = aim twice as fast, 0,5 = aim at half speed
+turret_scale_health: 2 = double health, 0.5 = half
+target: Defend the position of this entity
+team: 5=red, 14=blue
+-------- SPAWNFLAGS --------
+PILLAR: Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="../xonotic-data.pk3dir/models/turrets/radiant/flac.md3"
+*/
+
+/*QUAKED turret_mlrs (1 0 0) (-32 -32 0) (32 32 50) - PILLAR
+6 unguided rockers fired in a rapid burst.
+-------- KEYS --------
+turret_scale_damage: 2 = double damage, 0.5 = half
+turret_scale_range: 2 = double range, 0.5 = half
+turret_scale_refire: 2 = double refire (SLOWER!), 0.5 = half (FASTER!)
+turret_scale_ammo: 2 = double ammo carry & regen, 0.5 = half ammo carry & regen
+turret_scale_aim: 2 = aim twice as fast, 0,5 = aim at half speed
+turret_scale_health: 2 = double health, 0.5 = half
+target: Defend the position of this entity
+team: 5=red, 14=blue
+-------- SPAWNFLAGS --------
+PILLAR: Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="../xonotic-data.pk3dir/models/turrets/radiant/mlrs.md3"
+*/
+
+/*QUAKED turret_hellion (1 0 0) (-32 -32 0) (32 32 50) - PILLAR
+2 guided moderate damage accelerating rockets 
+-------- KEYS --------
+turret_scale_damage: 2 = double damage, 0.5 = half
+turret_scale_range: 2 = double range, 0.5 = half
+turret_scale_refire: 2 = double refire (SLOWER!), 0.5 = half (FASTER!)
+turret_scale_ammo: 2 = double ammo carry & regen, 0.5 = half ammo carry & regen
+turret_scale_aim: 2 = aim twice as fast, 0,5 = aim at half speed
+turret_scale_health: 2 = double health, 0.5 = half
+target: Defend the position of this entity
+team: 5=red, 14=blue
+-------- SPAWNFLAGS --------
+PILLAR: Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="../xonotic-data.pk3dir/models/turrets/radiant/hellion.md3"
+*/
+
+
+/*QUAKED turret_hk (1 0 0) (-32 -32 0) (32 32 50) - PILLAR
+Single powerful rocket with the ability to evade obstacles to find its target. Varied speed.
+-------- KEYS --------
+turret_scale_damage: 2 = double damage, 0.5 = half
+turret_scale_range: 2 = double range, 0.5 = half
+turret_scale_refire: 2 = double refire (SLOWER!), 0.5 = half (FASTER!)
+turret_scale_ammo: 2 = double ammo carry & regen, 0.5 = half ammo carry & regen
+turret_scale_aim: 2 = aim twice as fast, 0,5 = aim at half speed
+turret_scale_health: 2 = double health, 0.5 = half
+target: Defend the position of this entity
+team: 5=red, 14=blue
+-------- SPAWNFLAGS --------
+PILLAR: Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="../xonotic-data.pk3dir/models/turrets/radiant/hk.md3"
+*/
+
+/*QUAKED turret_tesla (1 0 0) (-32 -32 0) (32 32 50) - PILLAR
+Fires a lightning bolt that will jump to up to 10 targets if they are close enough to each other. Missiles included.
+-------- KEYS --------
+turret_scale_damage: 2 = double damage, 0.5 = half
+turret_scale_range: 2 = double range, 0.5 = half
+turret_scale_refire: 2 = double refire (SLOWER!), 0.5 = half (FASTER!)
+turret_scale_ammo: 2 = double ammo carry & regen, 0.5 = half ammo carry & regen
+turret_scale_aim: 2 = aim twice as fast, 0,5 = aim at half speed
+turret_scale_health: 2 = double health, 0.5 = half
+target: Defend the position of this entity
+team: 5=red, 14=blue
+-------- SPAWNFLAGS --------
+PILLAR: Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="../xonotic-data.pk3dir/models/turrets/radiant/tesla.md3"
+*/
+
+/*QUAKED turret_phaser (1 0 0) (-32 -32 0) (32 32 50) - PILLAR
+Constant beam weapon that will considerably slow its target down while dealing low but constant damage.
+-------- KEYS --------
+turret_scale_damage: 2 = double damage, 0.5 = half
+turret_scale_range: 2 = double range, 0.5 = half
+turret_scale_refire: 2 = double refire (SLOWER!), 0.5 = half (FASTER!)
+turret_scale_ammo: 2 = double ammo carry & regen, 0.5 = half ammo carry & regen
+turret_scale_aim: 2 = aim twice as fast, 0,5 = aim at half speed
+turret_scale_health: 2 = double health, 0.5 = half
+target: Defend the position of this entity
+team: 5=red, 14=blue
+-------- SPAWNFLAGS --------
+PILLAR: Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="../xonotic-data.pk3dir/models/turrets/radiant/phaser.md3"
+*/
+
+
+/*QUAKED turret_fusionreactor (1 0 0) (-32 -32 0) (32 32 50) - PILLAR
+-------- KEYS --------
+turret_scale_damage: 2 = double damage, 0.5 = half
+turret_scale_range: 2 = double range, 0.5 = half
+turret_scale_refire: 2 = double refire (SLOWER!), 0.5 = half (FASTER!)
+turret_scale_ammo: 2 = double ammo carry & regen, 0.5 = half ammo carry & regen
+turret_scale_aim: 2 = aim twice as fast, 0,5 = aim at half speed
+turret_scale_health: 2 = double health, 0.5 = half
+team: 5=red, 14=blue
+-------- SPAWNFLAGS --------
+PILLAR: Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)
+---------NOTES----------
+Supplies neerby energy based turrets with more power so they can fire more often.
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="../xonotic-data.pk3dir/models/turrets/radiant/reactor.md3"
+*/
+
+/*QUAKED turret_targettrigger (.5 .5 .5) ?
+Used to feed turrets capable of it with remote target info. currently only turret_hk supports this.
+*/
+
+
+/*QUAKED turret_walker (1 0 0) (-32 -32 0) (32 32 50)
+-----------KEYS------------
+turret_scale_damage: 2 = double damage, 0.5 = half
+turret_scale_range:  2 = double range, 0.5 = half
+turret_scale_refire: 2 = doubble refire (SLOWER!), 0.5 = half (FASTER!)
+turret_scale_ammo:   2 = doubble ammo carry & regen, 0.5 = half ammo carry & regen
+turret_scale_aim:    2 = aim twice as fast, 0,5 = aim at half speed
+turret_scale_health: 2 = double health, 0.5 = half
+team: 5=red, 14=blue
+-----------SPAWNFLAGS-----------
+---------NOTES----------
+
+A nasty mechanical critter that will engage longrange target with missiles, midrange with its minigun and meele things up close and personal.
+
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="../xonotic-data.pk3dir/models/turrets/radiant/walker.md3"
+*/
+
+
+/*QUAKED turret_ewheel (1 0 0) (-32 -32 0) (32 32 50)
+-----------KEYS------------
+turret_scale_damage: 2 = double damage, 0.5 = half
+turret_scale_range:  2 = double range, 0.5 = half
+turret_scale_refire: 2 = doubble refire (SLOWER!), 0.5 = half (FASTER!)
+turret_scale_ammo:   2 = doubble ammo carry & regen, 0.5 = half ammo carry & regen
+turret_scale_aim:    2 = aim twice as fast, 0,5 = aim at half speed
+turret_scale_health: 2 = double health, 0.5 = half
+team: 5=red, 14=blue
+-----------SPAWNFLAGS-----------
+---------NOTES----------
+
+Small, agile and moveing turret.
+
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="../xonotic-data.pk3dir/models/turrets/radiant/ewheel.md3"
+*/
+
+
+/*QUAKED turret_checkpoint (1 0 1) (-32 -32 -32) (32 32 32)
+-----------KEYS------------
+target: .targetname of next wapoint in chain.
+wait:   Pause at this point # seconds.
+-----------SPAWNFLAGS-----------
+
+---------NOTES----------
+If a loop is of targets are formed, any unit entering this loop will patrol it indefinitly.
+If the checkpoint chain in not looped, the unit will go "Roaming" when the last point is reached.
+*/
+/*QUAKED vehicle_racer (0 0 1) (-48 -48 0) (48 48 32) 
+Fast moving hover type vehicle, with low shiled & health.
+Primary weapon is a rapid fire energy cannon, secondary lockable rockets.
+-------- KEYS --------
+team: 5=red, 14=blue
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="models/vehicles-static/wakazachi.md3"
+*/
+
+/*QUAKED vehicle_spiderbot (0 0 1) (-48 -48 0) (48 48 32)
+A slow moving 6 legged mech type vehile that has plenty of health and shiled.
+Primary weapon is twin miniguns, secondary eight rockets that can be guided by the pilot.
+-------- KEYS --------
+team: 5=red, 14=blue
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="models/vehicles-static/spiderbot.md3"
+*/
+
+/*QUAKED vehicle_raptor (0 0 1) (-48 -48 0) (48 48 32)
+The raptor is primaerly a air to ground frighter, its quite lightly armoured or shilded.
+Its main weapon is four rapid fire energy cannons, wich can be locked to track a target by aming at it for some time.
+Secondary is a pair of vert powerfull clusterbombs.
+-------- KEYS --------
+team: 5=red, 14=blue
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model="models/vehicles-static/raptor.md3"
 */

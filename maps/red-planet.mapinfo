@@ -7,7 +7,7 @@ gametype dm
 gametype tdm
 gametype rune
 gametype ctf
-gametype ons
+// gametype ons
 gametype lms
 gametype arena
 gametype ca
