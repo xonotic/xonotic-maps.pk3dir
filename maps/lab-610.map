@@ -21997,7 +21997,7 @@ exx/trim-baseboard03
 {
 "classname" "trigger_push"
 "target" "jump-bridge"
-"height" "400"
+"height" "800"
 {
 ( 480 -5664 112 ) ( 384 -5616 112 ) ( 456 -5600 112 ) common/trigger 0 0 0 0.5 0.5 0 0 0
 ( 384 -5616 112 ) ( 456 -5600 64 ) ( 456 -5600 112 ) common/trigger 0 0 0 0.5 0.5 0 0 0
@@ -22015,7 +22015,7 @@ exx/trim-baseboard03
 {
 "classname" "trigger_push"
 "target" "jump-bridge"
-"height" "400"
+"height" "800"
 {
 ( -408 -5680 112 ) ( -456 -5600 112 ) ( -384 -5616 112 ) common/trigger 0 0 0 0.5 0.5 0 0 0
 ( -456 -5600 112 ) ( -384 -5616 64 ) ( -384 -5616 112 ) common/trigger 0 0 0 0.5 0.5 0 0 0
@@ -64662,20 +64662,20 @@ exx/trim-vert01
 {
 "classname" "light"
 "origin" "96.000000 -2592.000000 416.000000"
-"light" "800"
+"light" "200"
 }
 {
 "classname" "light"
 "origin" "-96.000000 -2592.000000 416.000000"
-"light" "800"
+"light" "200"
 }
 {
 "classname" "light"
 "origin" "96.000000 -2592.000000 640.000000"
-"light" "800"
+"light" "200"
 }
 {
 "classname" "light"
 "origin" "-96.000000 -2592.000000 640.000000"
-"light" "800"
+"light" "200"
 }
