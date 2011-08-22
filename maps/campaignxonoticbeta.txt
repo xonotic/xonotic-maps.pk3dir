@@ -17,7 +17,7 @@
 "dm","xoylent","4","8","10",,"g_weaponarena laser","[Special] Deathmatch: Xoylent","Laser only: This time you get only the Laser, so try to push the enemies of the map! But don't let them push you, because you need only 10 frags to win."
 "dm","runningman","4","8","15",,,"Deathmatch: Running Man","In this DM game you will face 4 Pro bots on the DM version of Running Man."
 "ctf","space-elevator","5","8","5",,,"Capture The Flag: Space Elevator","CTF versus a team of Pro bots! 5 captures to win."
-"ons","red-planet","7","9","5",,,"Onslaught: Red Planet","In Onslaught you have to control generators and get generators of the other team by destroying them. The main goal is to destroy their main generator."
+"ons","courtfun","7","9","5",,,"Onslaught: Courtfun","In Onslaught you have to control generators and get generators of the other team by destroying them. The main goal is to destroy their main generator."
 "freezetag","afterslime","7","9","5",,,"Freeze Tag: Afterslime","In Freeze Tag you have to freeze enemies (kill them). Your team gets a point if the other team is completly frozen. It's a team game, so help you teammates and revive them if they are frozen by standing close to them."
 "ctf","dance","3","9","3",,"g_minstagib 1; g_grappling_hook 1","[Special] Capture The Flag: Dance","MinstaGib in CTF this time. Also you will experience here how to play the Grappling Hook (Press 'E' to use it)!"
 "rune","g-23","5","10","50",,,"Runematch: Docking Station G-23","In a Runematch you can pick up relics and they will give you some extra powers - some are good, some not."
