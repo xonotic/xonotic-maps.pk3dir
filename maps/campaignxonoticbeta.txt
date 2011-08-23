@@ -13,7 +13,7 @@
 "tdm","stormkeep","5","6","20",,,"Team Deathmatch: Stormkeep","Another 3v3 TDM match.\nTip: You can shoot through warpzones!"
 "nexball","nexballarena","5","7","5",,,"Nexball: Nexball Arena","This is similar to football now. You move the ball if you hit it, so try to push it into the ememies goal. First team who can score 5 goals wins!"
 "dom","glowplant","5","7","50",,,"Domination: Glowplant","If you control the control points and frag enemies in meanwhile you won't have any problems to win."
-"as","techassault","7","7","30",,"movetoteam_red 1","Assault: Techassault","You are in the attacking team and you have to destroy all objects. There will be new rooms/ways if you destroy an object."
+"as","techassault","7","7","30",,"g_campaign_forceteam 2","Assault: Techassault","You are in the attacking team and you have to destroy all objects. There will be new rooms/ways if you destroy an object."
 "dm","xoylent","4","8","10",,"g_weaponarena laser","[Special] Deathmatch: Xoylent","Laser only: This time you get only the Laser, so try to push the enemies of the map! But don't let them push you, because you need only 10 frags to win."
 "dm","runningman","4","8","15",,,"Deathmatch: Running Man","In this DM game you will face 4 Pro bots on the DM version of Running Man."
 "ctf","space-elevator","5","8","5",,,"Capture The Flag: Space Elevator","CTF versus a team of Pro bots! 5 captures to win."
