@@ -91,7 +91,7 @@ use_texture()
 						if [ "$min" -eq "$max" ]; then
 							echo "(EE) shader $1 uses broken normalmap ${2}_norm.tga (add dpoffsetmapping none)"; seterror
 						else
-							echo "(EE) shader $1 uses ${2}_norm.tga but lacks median (add dpoffsetmapping with: match8 $median)"; seterror
+							echo "(EE) shader $1 uses ${2}_norm.tga but lacks median (add dpoffsetmapping - 1 match8 $median)"; seterror
 						fi
 						;;
 					none) # offsetmapping turned off explicitly
