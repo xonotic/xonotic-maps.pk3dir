@@ -25,6 +25,41 @@ normalize()
 allowed_prefixes=
 forbidden_prefixes=
 
+getstats_e()
+{
+	identify -verbose -alpha extract -depth 8 "$1" | {
+		pix=0
+		while read -r L V R; do
+			case "$L" in
+				Geometry:)
+					V=${V%%[-+]*}
+					pix=$(( (${V%%x*} * ${V#*x}) / 2 ))
+					;;
+				min:)
+					min=$V
+					;;
+				max:)
+					max=$V
+					;;
+				[0-9]*:)
+					pix=$(( $pix - ${L%:} ))
+					if [ $pix -le 0 ]; then
+						median=`echo "$V $R" | cut -d , -f 1 | tr -cd 0-9`
+						break
+					fi
+			esac
+		done
+		cat >/dev/null
+		echo "min=$min"
+		echo "max=$max"
+		echo "median=$median"
+	}
+}
+getstats()
+{
+	eval `getstats_e "$1"`
+}
+
 textures_used=
 # $1 = shader
 # $2 = texture
@@ -45,6 +80,40 @@ use_texture()
 		fi
 	fi
 	textures_used="$textures_used$LF$2"
+
+	if [ x"$3" = x"map" ]; then
+		lasttex=$2
+		if [ -n "$AUDIT_OFFSETMAPPING" ]; then
+			if [ -f "../${2}_norm.tga" ]; then
+				case "$offsetmapping_match8" in
+					'') # no dpoffsetmapping keyword
+						getstats "../${2}_norm.tga"
+						if [ "$min" -eq "$max" ]; then
+							echo "(EE) shader $1 uses broken normalmap ${2}_norm.tga (add dpoffsetmapping none)"; seterror
+						else
+							echo "(EE) shader $1 uses ${2}_norm.tga but lacks median (add dpoffsetmapping with: match8 $median)"; seterror
+						fi
+						;;
+					none) # offsetmapping turned off explicitly
+						;;
+					default) # offsetmapping keyword without bias
+						getstats "../${2}_norm.tga"
+						if [ "$min" -eq "$max" ]; then
+							echo "(EE) shader $1 uses broken normalmap ${2}_norm.tga, maybe use dpoffsetmapping none?"; seterror
+						else
+							echo "(EE) shader $1 uses ${2}_norm.tga but lacks median (add to dpoffsetmapping: match8 $median)"; seterror
+						fi
+						;;
+					*) # offsetmapping keyword with bias
+						;;
+				esac
+			else
+				if [ -n "$offsetmapping_match8" ]; then
+					echo "(EE) shader $1 specifies offsetmapping, but texture $2 does not have a normalmap"
+				fi
+			fi
+		fi
+	fi
 
 	if [ -n "$allowed_prefixes" ]; then
 		ok=false
@@ -197,7 +266,7 @@ parse_shaderstage()
 {
 	while read L A1 Aother; do
 		case "`echo "$L" | tr A-Z a-z`" in
-			map)
+			map|clampmap)
 				case "$A1" in
 					'$lightmap')
 						;;
@@ -226,8 +295,29 @@ parse_shaderstage()
 parse_shader()
 {
 	use_texture "$parsing_shader" "$parsing_shader" shader
+	offsetmapping_match8=
 	while read L A1 Aother; do
 		case "`echo "$L" | tr A-Z a-z`" in
+			dpoffsetmapping)
+				set -- $Aother
+				if [ x"$A1" = x"none" ]; then
+					offsetmapping_match8=none
+				elif [ x"$A1" = x"off" ]; then
+					offsetmapping_match8=none
+				elif [ x"$A1" = x"disabled" ]; then
+					offsetmapping_match8=none
+				elif [ x"$2" = x"match8" ]; then
+					offsetmapping_match8=`echo "($3 + 0.5) / 1" | bc`
+				elif [ x"$2" = x"match16" ]; then
+					offsetmapping_match8=`echo "($3 / 257 + 0.5) / 1" | bc`
+				elif [ x"$2" = x"match" ]; then
+					offsetmapping_match8=`echo "($3 * 255 + 0.5) / 1" | bc`
+				elif [ x"$2" = x"bias" ]; then
+					offsetmapping_match8=`echo "((1 - $3) * 255 + 0.5) / 1" | bc`
+				else
+					offsetmapping_match8=default
+				fi
+				;;
 			qer_editorimage)
 				use_texture "$parsing_shader" "`normalize "$A1"`" editorimage
 				;;
