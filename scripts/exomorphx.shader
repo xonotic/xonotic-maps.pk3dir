@@ -985,7 +985,7 @@ textures/exomorphx/wall-metal_wall05
 textures/exomorphx/wall-concrete_wall_slab04blue
 {
 	qer_editorimage textures/exomorphx/wall/concrete_wall_slab04blue
-		dpoffsetmapping - 0.5
+	dpoffsetmapping - .41876896414816016975 match8 113.02606500000000000000
 	dpglossintensitymod  2
 	dpglossexponentmod  4
 	dpreflectcube env/exomorph/exomorph
@@ -1039,7 +1039,7 @@ textures/exomorphx/wall-metal_panel01
 textures/exomorphx/wall-metal_wall04
 {
 	qer_editorimage textures/exomorphx/wall/metal_wall04
-	dpoffsetmapping - 1.52193054519870410374 0
+	dpoffsetmapping - 1.52193054519870410374 match8 255
 	dpglossintensitymod  2
 	dpglossexponentmod  4
 	dpreflectcube env/exomorph/exomorph
