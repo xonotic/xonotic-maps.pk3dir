@@ -1,5 +1,6 @@
 textures/effects_warpzone/wavy
 {
+	dpoffsetmapping none
 	surfaceparm nolightmap
 	// surfaceparm nonsolid // no, it must be solid like trigger
 	surfaceparm trans
