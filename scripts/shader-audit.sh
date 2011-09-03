@@ -95,7 +95,7 @@ use_texture()
 					'') # no dpoffsetmapping keyword
 						getstats "../${2}_norm.tga" || getstats "../${2}_norm.png" || getstats "../${2}_norm.jpg"
 						if [ "$min" -eq "$max" ]; then
-							echo "(EE) shader $1 uses broken normalmap ${2}_norm.tga (add dpoffsetmapping none)"; seterror
+							echo "(WW) shader $1 uses broken normalmap ${2}_norm.tga (add dpoffsetmapping none)"
 						else
 							echo "(EE) shader $1 uses ${2}_norm.tga but lacks median (add dpoffsetmapping - 1 match8 $median)"; seterror
 						fi
@@ -347,6 +347,7 @@ parse_shaderstage()
 								fi
 								;;
 							*)
+								# alphagen is set, but blendfunc has no use for it
 								echo "(EE) $parsing_shader uses alpha-using texture $ss_map with blendfunc $ss_blendfunc and alphafunc $ss_alphafunc and alphagen $ss_alphagen"; seterror
 								;;
 						esac
