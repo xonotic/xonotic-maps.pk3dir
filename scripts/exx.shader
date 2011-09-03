@@ -413,7 +413,7 @@ textures/exx/floor-grate01
 	surfaceparm alphashadow
 	surfaceparm nomarks
 	Cull None
-	dpoffsetmapping - 2 match8 200
+	dpoffsetmapping - 2 match8 126
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
@@ -437,7 +437,7 @@ textures/exx/floor-grate01-cull
 	q3map_bounceScale  0.75
 	surfaceparm alphashadow
 	surfaceparm nomarks
-	dpoffsetmapping - 2 match8 200
+	dpoffsetmapping - 2 match8 126
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
@@ -631,7 +631,7 @@ textures/exx/floor-panel01
 	qer_editorimage textures/exx/floor/floor_panel01.tga
 	surfaceparm metalsteps
 	q3map_bounceScale  0.75
-	dpoffsetmapping - 2 match8 131
+	dpoffsetmapping - 2 match8 172
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 

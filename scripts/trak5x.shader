@@ -58,7 +58,7 @@ textures/trak5x/base-base1c
 textures/trak5x/base-holes1a
 {
 	qer_editorimage textures/trak5x/base/base_holes1a.tga
-	dpoffsetmapping - 1 match8 46
+	dpoffsetmapping - 4 match8 46
 	
 	q3map_bounceScale 1.25
 
@@ -78,7 +78,7 @@ textures/trak5x/base-holes1a
 textures/trak5x/base-holes1b
 {
 	qer_editorimage textures/trak5x/base/base_holes1b.tga
-	dpoffsetmapping - 1 match8 46
+	dpoffsetmapping - 4 match8 46
 	
 	q3map_bounceScale 1.25
 
@@ -193,7 +193,7 @@ textures/trak5x/base-pipe1e
 textures/trak5x/base-pits1a
 {
 	qer_editorimage textures/trak5x/base/base_pits1a.tga
-	dpoffsetmapping - 1 match8 108
+	dpoffsetmapping - 4 match8 108
 	
 	q3map_bounceScale 1.25
 
@@ -213,7 +213,7 @@ textures/trak5x/base-pits1a
 textures/trak5x/base-ribs1a
 {
 	qer_editorimage textures/trak5x/base/base_ribs1a.tga
-	dpoffsetmapping - 1 match8 38
+	dpoffsetmapping - 4 match8 38
 	
 	q3map_bounceScale 1.25
 
@@ -233,7 +233,7 @@ textures/trak5x/base-ribs1a
 textures/trak5x/base-thread1
 {
 	qer_editorimage textures/trak5x/base/base_thread1.tga
-	dpoffsetmapping - 1 match8 7
+	dpoffsetmapping - 4 match8 7
 	
 	q3map_bounceScale 1.25
 
@@ -253,7 +253,7 @@ textures/trak5x/base-thread1
 textures/trak5x/floor-floor1a
 {
 	qer_editorimage textures/trak5x/floor/floor_floor1a.tga
-	dpoffsetmapping - 1 match8 35
+	dpoffsetmapping - 4 match8 35
 	
 	q3map_bounceScale 1.25
 
@@ -273,7 +273,7 @@ textures/trak5x/floor-floor1a
 textures/trak5x/floor-floor2a
 {
 	qer_editorimage textures/trak5x/floor/floor_floor2a.tga
-	dpoffsetmapping - 1 match8 86
+	dpoffsetmapping - 2 match8 86
 	
 	q3map_bounceScale 1.25
 
@@ -293,7 +293,7 @@ textures/trak5x/floor-floor2a
 textures/trak5x/floor-floor2b
 {
 	qer_editorimage textures/trak5x/floor/floor_floor2b.tga
-	dpoffsetmapping - 1 match8 86
+	dpoffsetmapping - 2 match8 86
 	
 	q3map_bounceScale 1.25
 
@@ -313,7 +313,7 @@ textures/trak5x/floor-floor2b
 textures/trak5x/floor-floor2c
 {
 	qer_editorimage textures/trak5x/floor/floor_floor2c.tga
-	dpoffsetmapping - 1 match8 86
+	dpoffsetmapping - 2 match8 86
 	
 	q3map_bounceScale 1.25
 
@@ -333,7 +333,7 @@ textures/trak5x/floor-floor2c
 textures/trak5x/floor-floor2d
 {
 	qer_editorimage textures/trak5x/floor/floor_floor2d.tga
-	dpoffsetmapping - 1 match8 86
+	dpoffsetmapping - 2 match8 86
 	
 	q3map_bounceScale 1.25
 
@@ -353,7 +353,7 @@ textures/trak5x/floor-floor2d
 textures/trak5x/floor-floor2e
 {
 	qer_editorimage textures/trak5x/floor/floor_floor2e.tga
-	dpoffsetmapping - 1 match8 86
+	dpoffsetmapping - 2 match8 86
 	
 	q3map_bounceScale 1.25
 
@@ -373,7 +373,7 @@ textures/trak5x/floor-floor2e
 textures/trak5x/floor-floor2f
 {
 	qer_editorimage textures/trak5x/floor/floor_floor2f.tga
-	dpoffsetmapping - 1 match8 86
+	dpoffsetmapping - 2 match8 86
 	
 	q3map_bounceScale 1.25
 
@@ -393,7 +393,7 @@ textures/trak5x/floor-floor2f
 textures/trak5x/floor-hex1
 {
 	qer_editorimage textures/trak5x/floor/floor_hex1.tga
-	dpoffsetmapping - 1 match8 34
+	dpoffsetmapping - 4 match8 34
 	
 	q3map_bounceScale 1.25
 
@@ -413,7 +413,7 @@ textures/trak5x/floor-hex1
 textures/trak5x/floor-tile1
 {
 	qer_editorimage textures/trak5x/floor/floor_tile1.tga
-	dpoffsetmapping - 1 match8 34
+	dpoffsetmapping - 4 match8 34
 	
 	q3map_bounceScale 1.25
 
@@ -433,7 +433,7 @@ textures/trak5x/floor-tile1
 textures/trak5x/floor-tile1a
 {
 	qer_editorimage textures/trak5x/floor/floor_tile1a.tga
-	dpoffsetmapping - 1 match8 57
+	dpoffsetmapping - 4 match8 57
 	
 	q3map_bounceScale 1.25
 
@@ -453,7 +453,7 @@ textures/trak5x/floor-tile1a
 textures/trak5x/floor-tile1b
 {
 	qer_editorimage textures/trak5x/floor/floor_tile1b.tga
-	dpoffsetmapping - 1 match8 57
+	dpoffsetmapping - 4 match8 57
 	
 	q3map_bounceScale 1.25
 
@@ -473,7 +473,7 @@ textures/trak5x/floor-tile1b
 textures/trak5x/floor-tile1c
 {
 	qer_editorimage textures/trak5x/floor/floor_tile1c.tga
-	dpoffsetmapping - 1 match8 57
+	dpoffsetmapping - 4 match8 57
 	
 	q3map_bounceScale 1.25
 
@@ -493,7 +493,7 @@ textures/trak5x/floor-tile1c
 textures/trak5x/floor-tile1d
 {
 	qer_editorimage textures/trak5x/floor/floor_tile1d.tga
-	dpoffsetmapping - 1 match8 57
+	dpoffsetmapping - 4 match8 57
 	
 	q3map_bounceScale 1.25
 
@@ -513,7 +513,7 @@ textures/trak5x/floor-tile1d
 textures/trak5x/floor-tile1e
 {
 	qer_editorimage textures/trak5x/floor/floor_tile1e.tga
-	dpoffsetmapping - 1 match8 57
+	dpoffsetmapping - 4 match8 57
 	
 	q3map_bounceScale 1.25
 
@@ -533,7 +533,7 @@ textures/trak5x/floor-tile1e
 textures/trak5x/floor-tile2a
 {
 	qer_editorimage textures/trak5x/floor/floor_tile2a.tga
-	dpoffsetmapping - 1 match8 63
+	dpoffsetmapping - 4 match8 63
 	
 	q3map_bounceScale 1.25
 
@@ -553,7 +553,7 @@ textures/trak5x/floor-tile2a
 textures/trak5x/floor-tile2b
 {
 	qer_editorimage textures/trak5x/floor/floor_tile2b.tga
-	dpoffsetmapping - 1 match8 63
+	dpoffsetmapping - 4 match8 63
 	
 	q3map_bounceScale 1.25
 
@@ -573,7 +573,7 @@ textures/trak5x/floor-tile2b
 textures/trak5x/floor-tile2c
 {
 	qer_editorimage textures/trak5x/floor/floor_tile2c.tga
-	dpoffsetmapping - 1 match8 63
+	dpoffsetmapping - 4 match8 63
 	
 	q3map_bounceScale 1.25
 
@@ -593,7 +593,7 @@ textures/trak5x/floor-tile2c
 textures/trak5x/floor-tile2d
 {
 	qer_editorimage textures/trak5x/floor/floor_tile2d.tga
-	dpoffsetmapping - 1 match8 63
+	dpoffsetmapping - 4 match8 63
 	
 	q3map_bounceScale 1.25
 
@@ -613,7 +613,7 @@ textures/trak5x/floor-tile2d
 textures/trak5x/floor-tile3a
 {
 	qer_editorimage textures/trak5x/floor/floor_tile3a.tga
-	dpoffsetmapping - 1 match8 63
+	dpoffsetmapping - 4 match8 63
 	
 	q3map_bounceScale 1.25
 
@@ -633,7 +633,7 @@ textures/trak5x/floor-tile3a
 textures/trak5x/floor-tile3b
 {
 	qer_editorimage textures/trak5x/floor/floor_tile3b.tga
-	dpoffsetmapping - 1 match8 63
+	dpoffsetmapping - 4 match8 63
 	
 	q3map_bounceScale 1.25
 
@@ -653,7 +653,7 @@ textures/trak5x/floor-tile3b
 textures/trak5x/floor-tile3c
 {
 	qer_editorimage textures/trak5x/floor/floor_tile3c.tga
-	dpoffsetmapping - 1 match8 63
+	dpoffsetmapping - 4 match8 63
 	
 	q3map_bounceScale 1.25
 
@@ -673,7 +673,7 @@ textures/trak5x/floor-tile3c
 textures/trak5x/floor-tile3d
 {
 	qer_editorimage textures/trak5x/floor/floor_tile3d.tga
-	dpoffsetmapping - 1 match8 63
+	dpoffsetmapping - 4 match8 63
 	
 	q3map_bounceScale 1.25
 
@@ -693,7 +693,7 @@ textures/trak5x/floor-tile3d
 textures/trak5x/floor-tile3e
 {
 	qer_editorimage textures/trak5x/floor/floor_tile3e.tga
-	dpoffsetmapping - 1 match8 63
+	dpoffsetmapping - 4 match8 63
 	
 	q3map_bounceScale 1.25
 
@@ -713,7 +713,7 @@ textures/trak5x/floor-tile3e
 textures/trak5x/floor-tile4a
 {
 	qer_editorimage textures/trak5x/floor/floor_tile4a.tga
-	dpoffsetmapping - 1 match8 73
+	dpoffsetmapping - 4 match8 73
 	
 	q3map_bounceScale 1.25
 
@@ -733,7 +733,7 @@ textures/trak5x/floor-tile4a
 textures/trak5x/floor-tile4b
 {
 	qer_editorimage textures/trak5x/floor/floor_tile4b.tga
-	dpoffsetmapping - 1 match8 73
+	dpoffsetmapping - 4 match8 73
 	
 	q3map_bounceScale 1.25
 
@@ -753,7 +753,7 @@ textures/trak5x/floor-tile4b
 textures/trak5x/floor-tile4c
 {
 	qer_editorimage textures/trak5x/floor/floor_tile4c.tga
-	dpoffsetmapping - 1 match8 73
+	dpoffsetmapping - 4 match8 73
 	
 	q3map_bounceScale 1.25
 
@@ -773,7 +773,7 @@ textures/trak5x/floor-tile4c
 textures/trak5x/floor-tile4d
 {
 	qer_editorimage textures/trak5x/floor/floor_tile4d.tga
-	dpoffsetmapping - 1 match8 73
+	dpoffsetmapping - 4 match8 73
 	
 	q3map_bounceScale 1.25
 
@@ -793,7 +793,7 @@ textures/trak5x/floor-tile4d
 textures/trak5x/floor-tile4e
 {
 	qer_editorimage textures/trak5x/floor/floor_tile4e.tga
-	dpoffsetmapping - 1 match8 73
+	dpoffsetmapping - 4 match8 73
 	
 	q3map_bounceScale 1.25
 
@@ -813,7 +813,7 @@ textures/trak5x/floor-tile4e
 textures/trak5x/floor-tile5a
 {
 	qer_editorimage textures/trak5x/floor/floor_tile5a.tga
-	dpoffsetmapping - 1 match8 72
+	dpoffsetmapping - 4 match8 72
 	
 	q3map_bounceScale 1.25
 
@@ -833,7 +833,7 @@ textures/trak5x/floor-tile5a
 textures/trak5x/floor-tile5b
 {
 	qer_editorimage textures/trak5x/floor/floor_tile5b.tga
-	dpoffsetmapping - 1 match8 72
+	dpoffsetmapping - 4 match8 72
 	
 	q3map_bounceScale 1.25
 
@@ -853,7 +853,7 @@ textures/trak5x/floor-tile5b
 textures/trak5x/floor-tile5c
 {
 	qer_editorimage textures/trak5x/floor/floor_tile5c.tga
-	dpoffsetmapping - 1 match8 72
+	dpoffsetmapping - 4 match8 72
 	
 	q3map_bounceScale 1.25
 
@@ -873,7 +873,7 @@ textures/trak5x/floor-tile5c
 textures/trak5x/floor-tile5d
 {
 	qer_editorimage textures/trak5x/floor/floor_tile5d.tga
-	dpoffsetmapping - 1 match8 72
+	dpoffsetmapping - 4 match8 72
 	
 	q3map_bounceScale 1.25
 
@@ -893,7 +893,7 @@ textures/trak5x/floor-tile5d
 textures/trak5x/floor-tile5e
 {
 	qer_editorimage textures/trak5x/floor/floor_tile5e.tga
-	dpoffsetmapping - 1 match8 72
+	dpoffsetmapping - 4 match8 72
 	
 	q3map_bounceScale 1.25
 
@@ -913,7 +913,7 @@ textures/trak5x/floor-tile5e
 textures/trak5x/light-light1a
 {
 	qer_editorimage textures/trak5x/light/light_light1a.tga
-	dpoffsetmapping - 1 match8 67
+	dpoffsetmapping - 4 match8 67
 	
 	q3map_bounceScale 1.25
 
@@ -932,7 +932,7 @@ textures/trak5x/light-light1a
 textures/trak5x/light-light1a-surfacelight
 {
 	qer_editorimage textures/trak5x/light/light_light1a.tga
-	dpoffsetmapping - 1 match8 67
+	dpoffsetmapping - 4 match8 67
 	
 	q3map_bounceScale 1.25
 
@@ -954,7 +954,7 @@ textures/trak5x/light-light1a-surfacelight
 textures/trak5x/light-light1b
 {
 	qer_editorimage textures/trak5x/light/light_light1b.tga
-	dpoffsetmapping - 1 match8 67
+	dpoffsetmapping - 4 match8 67
 	
 	q3map_bounceScale 1.25
 
@@ -973,7 +973,7 @@ textures/trak5x/light-light1b
 textures/trak5x/light-light1b-surfacelight
 {
 	qer_editorimage textures/trak5x/light/light_light1b.tga
-	dpoffsetmapping - 1 match8 67
+	dpoffsetmapping - 4 match8 67
 	
 	q3map_bounceScale 1.25
 
@@ -995,7 +995,7 @@ textures/trak5x/light-light1b-surfacelight
 textures/trak5x/light-light1c
 {
 	qer_editorimage textures/trak5x/light/light_light1c.tga
-	dpoffsetmapping - 1 match8 67
+	dpoffsetmapping - 4 match8 67
 	
 	q3map_bounceScale 1.25
 
@@ -1014,7 +1014,7 @@ textures/trak5x/light-light1c
 textures/trak5x/light-light1c-surfacelight
 {
 	qer_editorimage textures/trak5x/light/light_light1c.tga
-	dpoffsetmapping - 1 match8 67
+	dpoffsetmapping - 4 match8 67
 	
 	q3map_bounceScale 1.25
 
@@ -1036,7 +1036,7 @@ textures/trak5x/light-light1c-surfacelight
 textures/trak5x/light-light2a
 {
 	qer_editorimage textures/trak5x/light/light_light2a.tga
-	dpoffsetmapping - 1 match8 85
+	dpoffsetmapping - 4 match8 85
 	
 	q3map_bounceScale 1.25
 
@@ -1055,7 +1055,7 @@ textures/trak5x/light-light2a
 textures/trak5x/light-light2a-surfacelight
 {
 	qer_editorimage textures/trak5x/light/light_light2a.tga
-	dpoffsetmapping - 1 match8 85
+	dpoffsetmapping - 4 match8 85
 	
 	q3map_bounceScale 1.25
 
@@ -1077,7 +1077,7 @@ textures/trak5x/light-light2a-surfacelight
 textures/trak5x/light-light2b
 {
 	qer_editorimage textures/trak5x/light/light_light2b.tga
-	dpoffsetmapping - 1 match8 85
+	dpoffsetmapping - 4 match8 85
 	
 	q3map_bounceScale 1.25
 
@@ -1096,7 +1096,7 @@ textures/trak5x/light-light2b
 textures/trak5x/light-light2b-surfacelight
 {
 	qer_editorimage textures/trak5x/light/light_light2b.tga
-	dpoffsetmapping - 1 match8 85
+	dpoffsetmapping - 4 match8 85
 	
 	q3map_bounceScale 1.25
 
@@ -1118,7 +1118,7 @@ textures/trak5x/light-light2b-surfacelight
 textures/trak5x/light-light2c
 {
 	qer_editorimage textures/trak5x/light/light_light2c.tga
-	dpoffsetmapping - 1 match8 85
+	dpoffsetmapping - 4 match8 85
 	
 	q3map_bounceScale 1.25
 
@@ -1137,7 +1137,7 @@ textures/trak5x/light-light2c
 textures/trak5x/light-light2c-surfacelight
 {
 	qer_editorimage textures/trak5x/light/light_light2c.tga
-	dpoffsetmapping - 1 match8 85
+	dpoffsetmapping - 4 match8 85
 	
 	q3map_bounceScale 1.25
 
@@ -1159,7 +1159,7 @@ textures/trak5x/light-light2c-surfacelight
 textures/trak5x/light-light2d
 {
 	qer_editorimage textures/trak5x/light/light_light2d.tga
-	dpoffsetmapping - 1 match8 85
+	dpoffsetmapping - 4 match8 85
 	
 	q3map_bounceScale 1.25
 
@@ -1178,7 +1178,7 @@ textures/trak5x/light-light2d
 textures/trak5x/light-light2d-surfacelight
 {
 	qer_editorimage textures/trak5x/light/light_light2d.tga
-	dpoffsetmapping - 1 match8 85
+	dpoffsetmapping - 4 match8 85
 	
 	q3map_bounceScale 1.25
 
@@ -1200,7 +1200,7 @@ textures/trak5x/light-light2d-surfacelight
 textures/trak5x/light-light3a
 {
 	qer_editorimage textures/trak5x/light/light_light3a.tga
-	dpoffsetmapping - 1 match8 73
+	dpoffsetmapping - 4 match8 73
 	
 	q3map_bounceScale 1.25
 
@@ -1219,7 +1219,7 @@ textures/trak5x/light-light3a
 textures/trak5x/light-light3a-surfacelight
 {
 	qer_editorimage textures/trak5x/light/light_light3a.tga
-	dpoffsetmapping - 1 match8 73
+	dpoffsetmapping - 4 match8 73
 	
 	q3map_bounceScale 1.25
 
@@ -1241,7 +1241,7 @@ textures/trak5x/light-light3a-surfacelight
 textures/trak5x/light-light3b
 {
 	qer_editorimage textures/trak5x/light/light_light3b.tga
-	dpoffsetmapping - 1 match8 73
+	dpoffsetmapping - 4 match8 73
 	
 	q3map_bounceScale 1.25
 
@@ -1260,7 +1260,7 @@ textures/trak5x/light-light3b
 textures/trak5x/light-light3b-surfacelight
 {
 	qer_editorimage textures/trak5x/light/light_light3b.tga
-	dpoffsetmapping - 1 match8 73
+	dpoffsetmapping - 4 match8 73
 	
 	q3map_bounceScale 1.25
 
@@ -1282,7 +1282,7 @@ textures/trak5x/light-light3b-surfacelight
 textures/trak5x/misc-button1
 {
 	qer_editorimage textures/trak5x/misc/misc_button1.tga
-	dpoffsetmapping - 1 match8 37
+	dpoffsetmapping - 4 match8 37
 	
 	q3map_bounceScale 1.25
 
@@ -1320,7 +1320,7 @@ textures/trak5x/misc-glass
 textures/trak5x/misc-pipez1a
 {
 	qer_editorimage textures/trak5x/misc/misc_pipez1a.tga
-	dpoffsetmapping - 1 match8 85
+	dpoffsetmapping - 4 match8 85
 	
 	q3map_bounceScale 0.5
 
@@ -1340,7 +1340,7 @@ textures/trak5x/misc-pipez1a
 textures/trak5x/misc-thingy1a
 {
 	qer_editorimage textures/trak5x/misc/misc_thingy1a.tga
-	dpoffsetmapping - 1 match8 13
+	dpoffsetmapping - 4 match8 13
 	
 	q3map_bounceScale 1.25
 
@@ -1360,7 +1360,7 @@ textures/trak5x/misc-thingy1a
 textures/trak5x/panel-block1
 {
 	qer_editorimage textures/trak5x/panel/panel_block1.tga
-	dpoffsetmapping - 1 match8 34
+	dpoffsetmapping - 4 match8 34
 	
 	q3map_bounceScale 1.25
 
@@ -1380,7 +1380,7 @@ textures/trak5x/panel-block1
 textures/trak5x/panel-ceil1a
 {
 	qer_editorimage textures/trak5x/panel/panel_ceil1a.tga
-	dpoffsetmapping - 1 match8 43
+	dpoffsetmapping - 4 match8 43
 	
 	q3map_bounceScale 1.25
 
@@ -1400,7 +1400,7 @@ textures/trak5x/panel-ceil1a
 textures/trak5x/panel-comp1a
 {
 	qer_editorimage textures/trak5x/panel/panel_comp1a.tga
-	dpoffsetmapping - 1 match8 77
+	dpoffsetmapping - 4 match8 77
 	
 	q3map_bounceScale 1.25
 
@@ -1420,7 +1420,7 @@ textures/trak5x/panel-comp1a
 textures/trak5x/panel-comp1b
 {
 	qer_editorimage textures/trak5x/panel/panel_comp1b.tga
-	dpoffsetmapping - 1 match8 77
+	dpoffsetmapping - 4 match8 77
 	
 	q3map_bounceScale 1.25
 
@@ -1440,7 +1440,7 @@ textures/trak5x/panel-comp1b
 textures/trak5x/panel-comp1c
 {
 	qer_editorimage textures/trak5x/panel/panel_comp1c.tga
-	dpoffsetmapping - 1 match8 77
+	dpoffsetmapping - 4 match8 77
 	
 	q3map_bounceScale 1.25
 
@@ -1460,7 +1460,7 @@ textures/trak5x/panel-comp1c
 textures/trak5x/panel-comp1d
 {
 	qer_editorimage textures/trak5x/panel/panel_comp1d.tga
-	dpoffsetmapping - 1 match8 77
+	dpoffsetmapping - 4 match8 77
 	
 	q3map_bounceScale 1.25
 
@@ -1480,7 +1480,7 @@ textures/trak5x/panel-comp1d
 textures/trak5x/panel-comp1e
 {
 	qer_editorimage textures/trak5x/panel/panel_comp1e.tga
-	dpoffsetmapping - 1 match8 77
+	dpoffsetmapping - 4 match8 77
 	
 	q3map_bounceScale 1.25
 
@@ -1500,7 +1500,7 @@ textures/trak5x/panel-comp1e
 textures/trak5x/panel-crate1a
 {
 	qer_editorimage textures/trak5x/panel/panel_crate1a.tga
-	dpoffsetmapping - 1 match8 47
+	dpoffsetmapping - 4 match8 47
 	
 	q3map_bounceScale 1.25
 
@@ -1520,7 +1520,7 @@ textures/trak5x/panel-crate1a
 textures/trak5x/panel-crate1b
 {
 	qer_editorimage textures/trak5x/panel/panel_crate1b.tga
-	dpoffsetmapping - 1 match8 47
+	dpoffsetmapping - 4 match8 47
 	
 	q3map_bounceScale 1.25
 
@@ -1540,7 +1540,7 @@ textures/trak5x/panel-crate1b
 textures/trak5x/panel-crate1c
 {
 	qer_editorimage textures/trak5x/panel/panel_crate1c.tga
-	dpoffsetmapping - 1 match8 47
+	dpoffsetmapping - 4 match8 47
 	
 	q3map_bounceScale 1.25
 
@@ -1560,7 +1560,7 @@ textures/trak5x/panel-crate1c
 textures/trak5x/panel-crate1d
 {
 	qer_editorimage textures/trak5x/panel/panel_crate1d.tga
-	dpoffsetmapping - 1 match8 47
+	dpoffsetmapping - 4 match8 47
 	
 	q3map_bounceScale 1.25
 
@@ -1580,7 +1580,7 @@ textures/trak5x/panel-crate1d
 textures/trak5x/panel-crate1e
 {
 	qer_editorimage textures/trak5x/panel/panel_crate1e.tga
-	dpoffsetmapping - 1 match8 47
+	dpoffsetmapping - 4 match8 47
 	
 	q3map_bounceScale 1.25
 
@@ -1600,7 +1600,7 @@ textures/trak5x/panel-crate1e
 textures/trak5x/panel-grate1a
 {
 	qer_editorimage textures/trak5x/panel/panel_grate1a.tga
-	dpoffsetmapping - 1 match8 69
+	dpoffsetmapping - 4 match8 69
 	q3map_bounceScale 1.25
 
 
@@ -1617,7 +1617,7 @@ textures/trak5x/panel-grate1a
 textures/trak5x/panel-grate2a
 {
 	qer_editorimage textures/trak5x/panel/panel_grate2a.tga
-	dpoffsetmapping - 1 match8 22
+	dpoffsetmapping - 4 match8 22
 	q3map_bounceScale 1.25
 
 
@@ -1634,7 +1634,7 @@ textures/trak5x/panel-grate2a
 textures/trak5x/panel-graypanel1
 {
 	qer_editorimage textures/trak5x/panel/panel_graypanel1.tga
-	dpoffsetmapping - 1 match8 69
+	dpoffsetmapping - 4 match8 69
 	
 	q3map_bounceScale 1.25
 
@@ -1654,7 +1654,7 @@ textures/trak5x/panel-graypanel1
 textures/trak5x/panel-graypanel2
 {
 	qer_editorimage textures/trak5x/panel/panel_graypanel2.tga
-	dpoffsetmapping - 1 match8 63
+	dpoffsetmapping - 4 match8 63
 	
 	q3map_bounceScale 1.25
 
@@ -1674,7 +1674,7 @@ textures/trak5x/panel-graypanel2
 textures/trak5x/panel-graypanel3
 {
 	qer_editorimage textures/trak5x/panel/panel_graypanel3.tga
-	dpoffsetmapping - 1 match8 70
+	dpoffsetmapping - 4 match8 70
 	
 	q3map_bounceScale 1.25
 
@@ -1694,7 +1694,7 @@ textures/trak5x/panel-graypanel3
 textures/trak5x/panel-panel1
 {
 	qer_editorimage textures/trak5x/panel/panel_panel1.tga
-	dpoffsetmapping - 1 match8 43
+	dpoffsetmapping - 4 match8 43
 	
 	q3map_bounceScale 1.25
 
@@ -1714,7 +1714,7 @@ textures/trak5x/panel-panel1
 textures/trak5x/panel-panel1a
 {
 	qer_editorimage textures/trak5x/panel/panel_panel1a.tga
-	dpoffsetmapping - 1 match8 33
+	dpoffsetmapping - 4 match8 33
 	
 	q3map_bounceScale 1.25
 
@@ -1734,7 +1734,7 @@ textures/trak5x/panel-panel1a
 textures/trak5x/panel-panel2a
 {
 	qer_editorimage textures/trak5x/panel/panel_panel2a.tga
-	dpoffsetmapping - 1 match8 36
+	dpoffsetmapping - 4 match8 36
 	
 	q3map_bounceScale 1.25
 
@@ -1754,7 +1754,7 @@ textures/trak5x/panel-panel2a
 textures/trak5x/panel-thinpanel1
 {
 	qer_editorimage textures/trak5x/panel/panel_thinpanel1.tga
-	dpoffsetmapping - 1 match8 34
+	dpoffsetmapping - 4 match8 34
 	
 	q3map_bounceScale 1.25
 
@@ -1774,7 +1774,7 @@ textures/trak5x/panel-thinpanel1
 textures/trak5x/panel-trisec1c
 {
 	qer_editorimage textures/trak5x/panel/panel_trisec1c.tga
-	dpoffsetmapping - 1 match8 94
+	dpoffsetmapping - 4 match8 94
 	
 	q3map_bounceScale 1.25
 
@@ -1794,7 +1794,7 @@ textures/trak5x/panel-trisec1c
 textures/trak5x/panel-trisec1d
 {
 	qer_editorimage textures/trak5x/panel/panel_trisec1d.tga
-	dpoffsetmapping - 1 match8 94
+	dpoffsetmapping - 4 match8 94
 	
 	q3map_bounceScale 1.25
 
@@ -1814,7 +1814,7 @@ textures/trak5x/panel-trisec1d
 textures/trak5x/panel-vertpanel1a
 {
 	qer_editorimage textures/trak5x/panel/panel_vertpanel1a.tga
-	dpoffsetmapping - 1 match8 102
+	dpoffsetmapping - 4 match8 102
 	
 	q3map_bounceScale 1.25
 
@@ -1834,7 +1834,7 @@ textures/trak5x/panel-vertpanel1a
 textures/trak5x/panel-vertpanel1b
 {
 	qer_editorimage textures/trak5x/panel/panel_vertpanel1b.tga
-	dpoffsetmapping - 1 match8 102
+	dpoffsetmapping - 4 match8 102
 	
 	q3map_bounceScale 1.25
 
@@ -1854,7 +1854,7 @@ textures/trak5x/panel-vertpanel1b
 textures/trak5x/panel-vertpanel1c
 {
 	qer_editorimage textures/trak5x/panel/panel_vertpanel1c.tga
-	dpoffsetmapping - 1 match8 102
+	dpoffsetmapping - 4 match8 102
 	
 	q3map_bounceScale 1.25
 
@@ -1874,7 +1874,7 @@ textures/trak5x/panel-vertpanel1c
 textures/trak5x/panel-vertpanel1d
 {
 	qer_editorimage textures/trak5x/panel/panel_vertpanel1d.tga
-	dpoffsetmapping - 1 match8 102
+	dpoffsetmapping - 4 match8 102
 	
 	q3map_bounceScale 1.25
 
@@ -1894,7 +1894,7 @@ textures/trak5x/panel-vertpanel1d
 textures/trak5x/panel-vertpanel1e
 {
 	qer_editorimage textures/trak5x/panel/panel_vertpanel1e.tga
-	dpoffsetmapping - 1 match8 102
+	dpoffsetmapping - 4 match8 102
 	
 	q3map_bounceScale 1.25
 
@@ -1914,7 +1914,7 @@ textures/trak5x/panel-vertpanel1e
 textures/trak5x/panel-vertpanel2a
 {
 	qer_editorimage textures/trak5x/panel/panel_vertpanel2a.tga
-	dpoffsetmapping - 1 match8 71
+	dpoffsetmapping - 4 match8 71
 	
 	q3map_bounceScale 1.25
 
@@ -1934,7 +1934,7 @@ textures/trak5x/panel-vertpanel2a
 textures/trak5x/panel-vertpanel2b
 {
 	qer_editorimage textures/trak5x/panel/panel_vertpanel2b.tga
-	dpoffsetmapping - 1 match8 71
+	dpoffsetmapping - 4 match8 71
 	
 	q3map_bounceScale 1.25
 
@@ -1954,7 +1954,7 @@ textures/trak5x/panel-vertpanel2b
 textures/trak5x/panel-vertpanel2c
 {
 	qer_editorimage textures/trak5x/panel/panel_vertpanel2c.tga
-	dpoffsetmapping - 1 match8 71
+	dpoffsetmapping - 4 match8 71
 	
 	q3map_bounceScale 1.25
 
@@ -1974,7 +1974,7 @@ textures/trak5x/panel-vertpanel2c
 textures/trak5x/panel-vertpanel2d
 {
 	qer_editorimage textures/trak5x/panel/panel_vertpanel2d.tga
-	dpoffsetmapping - 1 match8 71
+	dpoffsetmapping - 4 match8 71
 	
 	q3map_bounceScale 1.25
 
@@ -1994,7 +1994,7 @@ textures/trak5x/panel-vertpanel2d
 textures/trak5x/panel-vertpanel2e
 {
 	qer_editorimage textures/trak5x/panel/panel_vertpanel2e.tga
-	dpoffsetmapping - 1 match8 71
+	dpoffsetmapping - 4 match8 71
 	
 	q3map_bounceScale 1.25
 
@@ -2014,7 +2014,7 @@ textures/trak5x/panel-vertpanel2e
 textures/trak5x/trim-basictrim1a
 {
 	qer_editorimage textures/trak5x/trim/trim_basictrim1a.tga
-	dpoffsetmapping - 1 match8 76
+	dpoffsetmapping - 4 match8 76
 	
 	q3map_bounceScale 1.25
 
@@ -2034,7 +2034,7 @@ textures/trak5x/trim-basictrim1a
 textures/trak5x/trim-basictrim1b
 {
 	qer_editorimage textures/trak5x/trim/trim_basictrim1b.tga
-	dpoffsetmapping - 1 match8 76
+	dpoffsetmapping - 4 match8 76
 	
 	q3map_bounceScale 1.25
 
@@ -2054,7 +2054,7 @@ textures/trak5x/trim-basictrim1b
 textures/trak5x/trim-stair1a
 {
 	qer_editorimage textures/trak5x/trim/trim_stair1a.tga
-	dpoffsetmapping - 1 match8 105
+	dpoffsetmapping - 4 match8 105
 	
 	q3map_bounceScale 1.25
 
@@ -2074,7 +2074,7 @@ textures/trak5x/trim-stair1a
 textures/trak5x/trim-trim1a
 {
 	qer_editorimage textures/trak5x/trim/trim_trim1a.tga
-	dpoffsetmapping - 1 match8 109
+	dpoffsetmapping - 4 match8 109
 	
 	q3map_bounceScale 1.25
 
@@ -2094,7 +2094,7 @@ textures/trak5x/trim-trim1a
 textures/trak5x/trim-trim1b
 {
 	qer_editorimage textures/trak5x/trim/trim_trim1b.tga
-	dpoffsetmapping - 1 match8 109
+	dpoffsetmapping - 4 match8 109
 	
 	q3map_bounceScale 1.25
 
@@ -2114,7 +2114,7 @@ textures/trak5x/trim-trim1b
 textures/trak5x/trim-trim1ca
 {
 	qer_editorimage textures/trak5x/trim/trim_trim1ca.tga
-	dpoffsetmapping - 1 match8 117
+	dpoffsetmapping - 4 match8 117
 	
 	q3map_bounceScale 1.25
 
@@ -2134,7 +2134,7 @@ textures/trak5x/trim-trim1ca
 textures/trak5x/trim-trim1cb
 {
 	qer_editorimage textures/trak5x/trim/trim_trim1cb.tga
-	dpoffsetmapping - 1 match8 117
+	dpoffsetmapping - 4 match8 117
 	
 	q3map_bounceScale 1.25
 
@@ -2154,7 +2154,7 @@ textures/trak5x/trim-trim1cb
 textures/trak5x/trim-trim2
 {
 	qer_editorimage textures/trak5x/trim/trim_trim2.tga
-	dpoffsetmapping - 1 match8 19
+	dpoffsetmapping - 4 match8 19
 	
 	q3map_bounceScale 1.25
 
@@ -2175,7 +2175,7 @@ textures/trak5x/trim-trim2
 textures/trak5x/trim-trim2a
 {
 	qer_editorimage textures/trak5x/trim/trim_trim2a.tga
-	dpoffsetmapping - 1 match8 79
+	dpoffsetmapping - 4 match8 79
 	
 	q3map_bounceScale 1.25
 
@@ -2195,7 +2195,7 @@ textures/trak5x/trim-trim2a
 textures/trak5x/trim-trim2b
 {
 	qer_editorimage textures/trak5x/trim/trim_trim2b.tga
-	dpoffsetmapping - 1 match8 79
+	dpoffsetmapping - 4 match8 79
 	
 	q3map_bounceScale 1.25
 
@@ -2215,7 +2215,7 @@ textures/trak5x/trim-trim2b
 textures/trak5x/trim-trim3a
 {
 	qer_editorimage textures/trak5x/trim/trim_trim3a.tga
-	dpoffsetmapping - 1 match8 96
+	dpoffsetmapping - 4 match8 96
 	
 	q3map_bounceScale 1.25
 
@@ -2235,7 +2235,7 @@ textures/trak5x/trim-trim3a
 textures/trak5x/trim-trim3b
 {
 	qer_editorimage textures/trak5x/trim/trim_trim3b.tga
-	dpoffsetmapping - 1 match8 96
+	dpoffsetmapping - 4 match8 96
 	
 	q3map_bounceScale 1.25
 
@@ -2255,7 +2255,7 @@ textures/trak5x/trim-trim3b
 textures/trak5x/trim-trim3c
 {
 	qer_editorimage textures/trak5x/trim/trim_trim3c.tga
-	dpoffsetmapping - 1 match8 96
+	dpoffsetmapping - 4 match8 96
 	
 	q3map_bounceScale 1.25
 
@@ -2275,7 +2275,7 @@ textures/trak5x/trim-trim3c
 textures/trak5x/trim-trim3d
 {
 	qer_editorimage textures/trak5x/trim/trim_trim3d.tga
-	dpoffsetmapping - 1 match8 96
+	dpoffsetmapping - 4 match8 96
 	
 	q3map_bounceScale 1.25
 
@@ -2295,7 +2295,7 @@ textures/trak5x/trim-trim3d
 textures/trak5x/trim-trim3e
 {
 	qer_editorimage textures/trak5x/trim/trim_trim3e.tga
-	dpoffsetmapping - 1 match8 96
+	dpoffsetmapping - 4 match8 96
 	
 	q3map_bounceScale 1.25
 
@@ -2315,7 +2315,7 @@ textures/trak5x/trim-trim3e
 textures/trak5x/trim-trim4a
 {
 	qer_editorimage textures/trak5x/trim/trim_trim4a.tga
-	dpoffsetmapping - 1 match8 65
+	dpoffsetmapping - 4 match8 65
 	
 	q3map_bounceScale 1.25
 
@@ -2335,7 +2335,7 @@ textures/trak5x/trim-trim4a
 textures/trak5x/trim-trim4b
 {
 	qer_editorimage textures/trak5x/trim/trim_trim4b.tga
-	dpoffsetmapping - 1 match8 65
+	dpoffsetmapping - 4 match8 65
 	
 	q3map_bounceScale 1.25
 
@@ -2355,7 +2355,7 @@ textures/trak5x/trim-trim4b
 textures/trak5x/trim-trim4c
 {
 	qer_editorimage textures/trak5x/trim/trim_trim4c.tga
-	dpoffsetmapping - 1 match8 65
+	dpoffsetmapping - 4 match8 65
 	
 	q3map_bounceScale 1.25
 
@@ -2375,7 +2375,7 @@ textures/trak5x/trim-trim4c
 textures/trak5x/trim-trim4d
 {
 	qer_editorimage textures/trak5x/trim/trim_trim4d.tga
-	dpoffsetmapping - 1 match8 65
+	dpoffsetmapping - 4 match8 65
 	
 	q3map_bounceScale 1.25
 
@@ -2395,7 +2395,7 @@ textures/trak5x/trim-trim4d
 textures/trak5x/trim-trim4e
 {
 	qer_editorimage textures/trak5x/trim/trim_trim4e.tga
-	dpoffsetmapping - 1 match8 65
+	dpoffsetmapping - 4 match8 65
 	
 	q3map_bounceScale 1.25
 
@@ -2415,7 +2415,7 @@ textures/trak5x/trim-trim4e
 textures/trak5x/trim-trim5a
 {
 	qer_editorimage textures/trak5x/trim/trim_trim5a.tga
-	dpoffsetmapping - 1 match8 118
+	dpoffsetmapping - 4 match8 118
 	
 	q3map_bounceScale 1.25
 
@@ -2435,7 +2435,7 @@ textures/trak5x/trim-trim5a
 textures/trak5x/trim-trim5b
 {
 	qer_editorimage textures/trak5x/trim/trim_trim5b.tga
-	dpoffsetmapping - 1 match8 118
+	dpoffsetmapping - 4 match8 118
 	
 	q3map_bounceScale 1.25
 
@@ -2455,7 +2455,7 @@ textures/trak5x/trim-trim5b
 textures/trak5x/trim-trim5c
 {
 	qer_editorimage textures/trak5x/trim/trim_trim5c.tga
-	dpoffsetmapping - 1 match8 118
+	dpoffsetmapping - 4 match8 118
 	
 	q3map_bounceScale 1.25
 
@@ -2475,7 +2475,7 @@ textures/trak5x/trim-trim5c
 textures/trak5x/trim-trim5d
 {
 	qer_editorimage textures/trak5x/trim/trim_trim5d.tga
-	dpoffsetmapping - 1 match8 118
+	dpoffsetmapping - 4 match8 118
 	
 	q3map_bounceScale 1.25
 
@@ -2495,7 +2495,7 @@ textures/trak5x/trim-trim5d
 textures/trak5x/trim-trim5e
 {
 	qer_editorimage textures/trak5x/trim/trim_trim5e.tga
-	dpoffsetmapping - 1 match8 118
+	dpoffsetmapping - 4 match8 118
 	
 	q3map_bounceScale 1.25
 
@@ -2515,7 +2515,7 @@ textures/trak5x/trim-trim5e
 textures/trak5x/trim-trim6a
 {
 	qer_editorimage textures/trak5x/trim/trim_trim6a.tga
-	dpoffsetmapping - 1 match8 89
+	dpoffsetmapping - 4 match8 89
 	
 	q3map_bounceScale 1.25
 
@@ -2535,7 +2535,7 @@ textures/trak5x/trim-trim6a
 textures/trak5x/trim-trim6b
 {
 	qer_editorimage textures/trak5x/trim/trim_trim6b.tga
-	dpoffsetmapping - 1 match8 89
+	dpoffsetmapping - 4 match8 89
 	
 	q3map_bounceScale 1.25
 
@@ -2555,7 +2555,7 @@ textures/trak5x/trim-trim6b
 textures/trak5x/trim-trim6c
 {
 	qer_editorimage textures/trak5x/trim/trim_trim6c.tga
-	dpoffsetmapping - 1 match8 89
+	dpoffsetmapping - 4 match8 89
 	
 	q3map_bounceScale 1.25
 
@@ -2575,7 +2575,7 @@ textures/trak5x/trim-trim6c
 textures/trak5x/trim-trim6d
 {
 	qer_editorimage textures/trak5x/trim/trim_trim6d.tga
-	dpoffsetmapping - 1 match8 89
+	dpoffsetmapping - 4 match8 89
 	
 	q3map_bounceScale 1.25
 
@@ -2595,7 +2595,7 @@ textures/trak5x/trim-trim6d
 textures/trak5x/trim-trim6e
 {
 	qer_editorimage textures/trak5x/trim/trim_trim6e.tga
-	dpoffsetmapping - 1 match8 89
+	dpoffsetmapping - 4 match8 89
 	
 	q3map_bounceScale 1.25
 
@@ -2615,7 +2615,7 @@ textures/trak5x/trim-trim6e
 textures/trak5x/trim-trim7a
 {
 	qer_editorimage textures/trak5x/trim/trim_trim7a.tga
-	dpoffsetmapping - 1 match8 90
+	dpoffsetmapping - 4 match8 90
 	
 	q3map_bounceScale 1.25
 
@@ -2635,7 +2635,7 @@ textures/trak5x/trim-trim7a
 textures/trak5x/trim-trim7b
 {
 	qer_editorimage textures/trak5x/trim/trim_trim7b.tga
-	dpoffsetmapping - 1 match8 90
+	dpoffsetmapping - 4 match8 90
 	
 	q3map_bounceScale 1.25
 
@@ -2655,7 +2655,7 @@ textures/trak5x/trim-trim7b
 textures/trak5x/trim-trim7c
 {
 	qer_editorimage textures/trak5x/trim/trim_trim7c.tga
-	dpoffsetmapping - 1 match8 90
+	dpoffsetmapping - 4 match8 90
 	
 	q3map_bounceScale 1.25
 
@@ -2675,7 +2675,7 @@ textures/trak5x/trim-trim7c
 textures/trak5x/trim-trim7d
 {
 	qer_editorimage textures/trak5x/trim/trim_trim7d.tga
-	dpoffsetmapping - 1 match8 90
+	dpoffsetmapping - 4 match8 90
 	
 	q3map_bounceScale 1.25
 
@@ -2695,7 +2695,7 @@ textures/trak5x/trim-trim7d
 textures/trak5x/trim-trim7e
 {
 	qer_editorimage textures/trak5x/trim/trim_trim7e.tga
-	dpoffsetmapping - 1 match8 90
+	dpoffsetmapping - 4 match8 90
 	
 	q3map_bounceScale 1.25
 
@@ -2715,7 +2715,7 @@ textures/trak5x/trim-trim7e
 textures/trak5x/trim-trim8a
 {
 	qer_editorimage textures/trak5x/trim/trim_trim8a.tga
-	dpoffsetmapping - 1 match8 93
+	dpoffsetmapping - 4 match8 93
 	
 	q3map_bounceScale 1.25
 
@@ -2735,7 +2735,7 @@ textures/trak5x/trim-trim8a
 textures/trak5x/trim-trim8b
 {
 	qer_editorimage textures/trak5x/trim/trim_trim8b.tga
-	dpoffsetmapping - 1 match8 93
+	dpoffsetmapping - 4 match8 93
 	
 	q3map_bounceScale 1.25
 
@@ -2755,7 +2755,7 @@ textures/trak5x/trim-trim8b
 textures/trak5x/trim-trim8c
 {
 	qer_editorimage textures/trak5x/trim/trim_trim8c.tga
-	dpoffsetmapping - 1 match8 93
+	dpoffsetmapping - 4 match8 93
 	
 	q3map_bounceScale 1.25
 
@@ -2775,7 +2775,7 @@ textures/trak5x/trim-trim8c
 textures/trak5x/trim-trim8d
 {
 	qer_editorimage textures/trak5x/trim/trim_trim8d.tga
-	dpoffsetmapping - 1 match8 93
+	dpoffsetmapping - 4 match8 93
 	
 	q3map_bounceScale 1.25
 
@@ -2795,7 +2795,7 @@ textures/trak5x/trim-trim8d
 textures/trak5x/trim-trim8e
 {
 	qer_editorimage textures/trak5x/trim/trim_trim8e.tga
-	dpoffsetmapping - 1 match8 93
+	dpoffsetmapping - 4 match8 93
 	
 	q3map_bounceScale 1.25
 
@@ -2815,7 +2815,7 @@ textures/trak5x/trim-trim8e
 textures/trak5x/trim-trim9a
 {
 	qer_editorimage textures/trak5x/trim/trim_trim9a.tga
-	dpoffsetmapping - 1 match8 72
+	dpoffsetmapping - 4 match8 72
 	
 	q3map_bounceScale 1.25
 
@@ -2835,7 +2835,7 @@ textures/trak5x/trim-trim9a
 textures/trak5x/trim-trim9b
 {
 	qer_editorimage textures/trak5x/trim/trim_trim9b.tga
-	dpoffsetmapping - 1 match8 72
+	dpoffsetmapping - 4 match8 72
 	
 	q3map_bounceScale 1.25
 
@@ -2855,7 +2855,7 @@ textures/trak5x/trim-trim9b
 textures/trak5x/trim-trim9c
 {
 	qer_editorimage textures/trak5x/trim/trim_trim9c.tga
-	dpoffsetmapping - 1 match8 72
+	dpoffsetmapping - 4 match8 72
 	
 	q3map_bounceScale 1.25
 
@@ -2875,7 +2875,7 @@ textures/trak5x/trim-trim9c
 textures/trak5x/trim-trim9d
 {
 	qer_editorimage textures/trak5x/trim/trim_trim9d.tga
-	dpoffsetmapping - 1 match8 72
+	dpoffsetmapping - 4 match8 72
 	
 	q3map_bounceScale 1.25
 
@@ -2895,7 +2895,7 @@ textures/trak5x/trim-trim9d
 textures/trak5x/trim-trim9e
 {
 	qer_editorimage textures/trak5x/trim/trim_trim9e.tga
-	dpoffsetmapping - 1 match8 72
+	dpoffsetmapping - 4 match8 72
 	
 	q3map_bounceScale 1.25
 
@@ -2915,7 +2915,7 @@ textures/trak5x/trim-trim9e
 textures/trak5x/trim-trisec1a
 {
 	qer_editorimage textures/trak5x/trim/trim_trisec1a.tga
-	dpoffsetmapping - 1 match8 94
+	dpoffsetmapping - 4 match8 94
 	
 	q3map_bounceScale 1.25
 
@@ -2935,7 +2935,7 @@ textures/trak5x/trim-trisec1a
 textures/trak5x/trim-trisec1b
 {
 	qer_editorimage textures/trak5x/trim/trim_trisec1b.tga
-	dpoffsetmapping - 1 match8 94
+	dpoffsetmapping - 4 match8 94
 	
 	q3map_bounceScale 1.25
 
@@ -2955,7 +2955,7 @@ textures/trak5x/trim-trisec1b
 textures/trak5x/trim-vert1
 {
 	qer_editorimage textures/trak5x/trim/trim_vert1.tga
-	dpoffsetmapping - 1 match8 58
+	dpoffsetmapping - 4 match8 58
 	
 	q3map_bounceScale 1.25
 
@@ -2975,7 +2975,7 @@ textures/trak5x/trim-vert1
 textures/trak5x/wall-wall1
 {
 	qer_editorimage textures/trak5x/wall/wall_wall1.tga
-	dpoffsetmapping - 1 match8 38
+	dpoffsetmapping - 4 match8 38
 	
 	q3map_bounceScale 1.25
 
@@ -2996,7 +2996,7 @@ textures/trak5x/wall-wall1
 textures/trak5x/wall-wall1a
 {
 	qer_editorimage textures/trak5x/wall/wall_wall1a.tga
-	dpoffsetmapping - 1 match8 59
+	dpoffsetmapping - 4 match8 59
 	
 	q3map_bounceScale 1.25
 
@@ -3016,7 +3016,7 @@ textures/trak5x/wall-wall1a
 textures/trak5x/wall-wall1b
 {
 	qer_editorimage textures/trak5x/wall/wall_wall1b.tga
-	dpoffsetmapping - 1 match8 59
+	dpoffsetmapping - 4 match8 59
 	
 	q3map_bounceScale 1.25
 
@@ -3036,7 +3036,7 @@ textures/trak5x/wall-wall1b
 textures/trak5x/wall-wall1c
 {
 	qer_editorimage textures/trak5x/wall/wall_wall1c.tga
-	dpoffsetmapping - 1 match8 59
+	dpoffsetmapping - 4 match8 59
 	
 	q3map_bounceScale 1.25
 
@@ -3056,7 +3056,7 @@ textures/trak5x/wall-wall1c
 textures/trak5x/wall-wall1d
 {
 	qer_editorimage textures/trak5x/wall/wall_wall1d.tga
-	dpoffsetmapping - 1 match8 59
+	dpoffsetmapping - 4 match8 59
 	
 	q3map_bounceScale 1.25
 
@@ -3076,7 +3076,7 @@ textures/trak5x/wall-wall1d
 textures/trak5x/wall-wall1e
 {
 	qer_editorimage textures/trak5x/wall/wall_wall1e.tga
-	dpoffsetmapping - 1 match8 59
+	dpoffsetmapping - 4 match8 59
 	
 	q3map_bounceScale 1.25
 
@@ -3096,7 +3096,7 @@ textures/trak5x/wall-wall1e
 textures/trak5x/wall-wall2
 {
 	qer_editorimage textures/trak5x/wall/wall_wall2.tga
-	dpoffsetmapping - 1 match8 52
+	dpoffsetmapping - 4 match8 52
 	
 	q3map_bounceScale 1.25
 
@@ -3116,7 +3116,7 @@ textures/trak5x/wall-wall2
 textures/trak5x/wall-wall2a
 {
 	qer_editorimage textures/trak5x/wall/wall_wall2a.tga
-	dpoffsetmapping - 1 match8 30
+	dpoffsetmapping - 4 match8 30
 	
 	q3map_bounceScale 1.25
 
@@ -3136,7 +3136,7 @@ textures/trak5x/wall-wall2a
 textures/trak5x/wall-wall2b
 {
 	qer_editorimage textures/trak5x/wall/wall_wall2b.tga
-	dpoffsetmapping - 1 match8 30
+	dpoffsetmapping - 4 match8 30
 	
 	q3map_bounceScale 1.25
 
@@ -3156,7 +3156,7 @@ textures/trak5x/wall-wall2b
 textures/trak5x/wall-wall2c
 {
 	qer_editorimage textures/trak5x/wall/wall_wall2c.tga
-	dpoffsetmapping - 1 match8 30
+	dpoffsetmapping - 4 match8 30
 	
 	q3map_bounceScale 1.25
 
@@ -3176,7 +3176,7 @@ textures/trak5x/wall-wall2c
 textures/trak5x/wall-wall2d
 {
 	qer_editorimage textures/trak5x/wall/wall_wall2d.tga
-	dpoffsetmapping - 1 match8 30
+	dpoffsetmapping - 4 match8 30
 	
 	q3map_bounceScale 1.25
 
@@ -3196,7 +3196,7 @@ textures/trak5x/wall-wall2d
 textures/trak5x/wall-wall2e
 {
 	qer_editorimage textures/trak5x/wall/wall_wall2e.tga
-	dpoffsetmapping - 1 match8 30
+	dpoffsetmapping - 4 match8 30
 	
 	q3map_bounceScale 1.25
 
@@ -3216,7 +3216,7 @@ textures/trak5x/wall-wall2e
 textures/trak5x/wall-wall3a
 {
 	qer_editorimage textures/trak5x/wall/wall_wall3a.tga
-	dpoffsetmapping - 1 match8 97
+	dpoffsetmapping - 4 match8 97
 	
 	q3map_bounceScale 1.25
 
@@ -3236,7 +3236,7 @@ textures/trak5x/wall-wall3a
 textures/trak5x/wall-wall3b
 {
 	qer_editorimage textures/trak5x/wall/wall_wall3b.tga
-	dpoffsetmapping - 1 match8 97
+	dpoffsetmapping - 4 match8 97
 	
 	q3map_bounceScale 1.25
 
@@ -3256,7 +3256,7 @@ textures/trak5x/wall-wall3b
 textures/trak5x/wall-wall3c
 {
 	qer_editorimage textures/trak5x/wall/wall_wall3c.tga
-	dpoffsetmapping - 1 match8 97
+	dpoffsetmapping - 4 match8 97
 	
 	q3map_bounceScale 1.25
 
@@ -3276,7 +3276,7 @@ textures/trak5x/wall-wall3c
 textures/trak5x/wall-wall3d
 {
 	qer_editorimage textures/trak5x/wall/wall_wall3d.tga
-	dpoffsetmapping - 1 match8 97
+	dpoffsetmapping - 4 match8 97
 	
 	q3map_bounceScale 1.25
 
@@ -3296,7 +3296,7 @@ textures/trak5x/wall-wall3d
 textures/trak5x/wall-wall3e
 {
 	qer_editorimage textures/trak5x/wall/wall_wall3e.tga
-	dpoffsetmapping - 1 match8 97
+	dpoffsetmapping - 4 match8 97
 	
 	q3map_bounceScale 1.25
 
@@ -3316,7 +3316,7 @@ textures/trak5x/wall-wall3e
 textures/trak5x/wall-wall4a
 {
 	qer_editorimage textures/trak5x/wall/wall_wall4a.tga
-	dpoffsetmapping - 1 match8 56
+	dpoffsetmapping - 4 match8 56
 	
 	q3map_bounceScale 1.25
 
@@ -3336,7 +3336,7 @@ textures/trak5x/wall-wall4a
 textures/trak5x/wall-wall4b
 {
 	qer_editorimage textures/trak5x/wall/wall_wall4b.tga
-	dpoffsetmapping - 1 match8 56
+	dpoffsetmapping - 4 match8 56
 	
 	q3map_bounceScale 1.25
 
@@ -3356,7 +3356,7 @@ textures/trak5x/wall-wall4b
 textures/trak5x/wall-wall4c
 {
 	qer_editorimage textures/trak5x/wall/wall_wall4c.tga
-	dpoffsetmapping - 1 match8 56
+	dpoffsetmapping - 4 match8 56
 	
 	q3map_bounceScale 1.25
 
@@ -3376,7 +3376,7 @@ textures/trak5x/wall-wall4c
 textures/trak5x/wall-wall4d
 {
 	qer_editorimage textures/trak5x/wall/wall_wall4d.tga
-	dpoffsetmapping - 1 match8 56
+	dpoffsetmapping - 4 match8 56
 	
 	q3map_bounceScale 1.25
 
@@ -3396,7 +3396,7 @@ textures/trak5x/wall-wall4d
 textures/trak5x/wall-wall4e
 {
 	qer_editorimage textures/trak5x/wall/wall_wall4e.tga
-	dpoffsetmapping - 1 match8 56
+	dpoffsetmapping - 4 match8 56
 	
 	q3map_bounceScale 1.25
 
@@ -3416,7 +3416,7 @@ textures/trak5x/wall-wall4e
 textures/trak5x/wall-wall5a
 {
 	qer_editorimage textures/trak5x/wall/wall_wall5a.tga
-	dpoffsetmapping - 1 match8 59
+	dpoffsetmapping - 4 match8 59
 	
 	q3map_bounceScale 1.25
 
@@ -3436,7 +3436,7 @@ textures/trak5x/wall-wall5a
 textures/trak5x/wall-wall5b
 {
 	qer_editorimage textures/trak5x/wall/wall_wall5b.tga
-	dpoffsetmapping - 1 match8 59
+	dpoffsetmapping - 4 match8 59
 	
 	q3map_bounceScale 1.25
 
@@ -3456,7 +3456,7 @@ textures/trak5x/wall-wall5b
 textures/trak5x/wall-wall5c
 {
 	qer_editorimage textures/trak5x/wall/wall_wall5c.tga
-	dpoffsetmapping - 1 match8 59
+	dpoffsetmapping - 4 match8 59
 	
 	q3map_bounceScale 1.25
 
@@ -3476,7 +3476,7 @@ textures/trak5x/wall-wall5c
 textures/trak5x/wall-wall5d
 {
 	qer_editorimage textures/trak5x/wall/wall_wall5d.tga
-	dpoffsetmapping - 1 match8 59
+	dpoffsetmapping - 4 match8 59
 	
 	q3map_bounceScale 1.25
 
@@ -3496,7 +3496,7 @@ textures/trak5x/wall-wall5d
 textures/trak5x/wall-wall5e
 {
 	qer_editorimage textures/trak5x/wall/wall_wall5e.tga
-	dpoffsetmapping - 1 match8 59
+	dpoffsetmapping - 4 match8 59
 	
 	q3map_bounceScale 1.25
 
@@ -3516,7 +3516,7 @@ textures/trak5x/wall-wall5e
 textures/trak5x/wall-wall6a
 {
 	qer_editorimage textures/trak5x/wall/wall_wall6a.tga
-	dpoffsetmapping - 1 match8 78
+	dpoffsetmapping - 4 match8 78
 	
 	q3map_bounceScale 1.25
 
@@ -3536,7 +3536,7 @@ textures/trak5x/wall-wall6a
 textures/trak5x/wall-wall7a
 {
 	qer_editorimage textures/trak5x/wall/wall_wall7a.tga
-	dpoffsetmapping - 1 match8 23
+	dpoffsetmapping - 4 match8 23
 	
 	q3map_bounceScale 1.25
 
