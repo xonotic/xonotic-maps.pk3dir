@@ -90,7 +90,7 @@ use_texture()
 	if [ x"$3" = x"map" ]; then
 		lasttex=$2
 		if [ -n "$AUDIT_ALPHACHANNELS" ]; then
-			if [ -f "../${2}_norm.tga" ]; then
+			if [ -f "../${2}_norm.tga" ] || [ -f "../${2}_norm.png" ] || [ -f "../${2}_norm.jpg" ]; then
 				case "$offsetmapping_match8" in
 					'') # no dpoffsetmapping keyword
 						getstats "../${2}_norm.tga" || getstats "../${2}_norm.png" || getstats "../${2}_norm.jpg"
