@@ -1466,7 +1466,7 @@ textures/exx/trim-metalsupp01
 	
 	surfaceparm metalsteps
 	q3map_bounceScale  2
-	dpoffsetmapping - 2 match8 243
+	dpoffsetmapping - 8 match8 243
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
