@@ -272,6 +272,7 @@ parse_shaderstage()
 {
 	ss_blendfunc=none
 	ss_alphafunc=none
+	ss_alphagen=none
 	ss_map=
 	while read L A1 Aother; do
 		case "`echo "$L" | tr A-Z a-z`" in
@@ -280,6 +281,9 @@ parse_shaderstage()
 				;;
 			alphafunc)
 				ss_alphafunc=`echo $A1 | tr A-Z a-z`
+				;;
+			alphagen)
+				ss_alphagen=`echo $A1 | tr A-Z a-z`
 				;;
 			map|clampmap)
 				case "$A1" in
@@ -316,29 +320,36 @@ parse_shaderstage()
 		case "$ss_blendfunc" in
 			*src_alpha*|*blend*)
 				# texture must have alpha
-				if [ $min -eq 255 ]; then
-					echo "(EE) $parsing_shader uses alpha-less texture $ss_map with blendfunc $ss_blendfunc"; seterror
+				if [ x"$ss_alphagen" = x"none" -a $min -eq 255 ]; then
+					echo "(EE) $parsing_shader uses alpha-less texture $ss_map with blendfunc $ss_blendfunc and alphagen $ss_alphagen"; seterror
 				fi
 				;;
 			add|"gl_one gl_one")
 				# texture must not have alpha (engine bug)
-				if [ $min -lt 255 ]; then
-					echo "(EE) $parsing_shader uses alpha-using texture $ss_map with blendfunc $ss_blendfunc"; seterror
+				if [ x"$ss_alphagen" != x"none" -o $min -lt 255 ]; then
+					echo "(EE) $parsing_shader uses alpha-using texture $ss_map with blendfunc $ss_blendfunc and alphagen $ss_alphagen"; seterror
 				fi
 				;;
 			*)
 				case "$ss_alphafunc" in
 					g*)
 						# texture must have alpha
-						if [ $min -eq 255 ]; then
-							echo "(EE) $parsing_shader uses alpha-less texture $ss_map with alphafunc $ss_alphafunc"; seterror
+						if [ x"$ss_alphagen" = x"none" -a $min -eq 255 ]; then
+							echo "(EE) $parsing_shader uses alpha-less texture $ss_map with alphafunc $ss_alphafunc and alphagen $ss_alphagen"; seterror
 						fi
 						;;
 					*)
 						# texture should not have alpha (no bug if not)
-						if [ $min -lt 255 ]; then
-							echo "(WW) $parsing_shader uses alpha-using texture $ss_map with blendfunc $ss_blendfunc and alphafunc $ss_alphafunc"
-						fi
+						case "$ss_alphagen" in
+							none)
+								if [ $min -lt 255 ]; then
+									echo "(WW) $parsing_shader uses alpha-using texture $ss_map with blendfunc $ss_blendfunc and alphafunc $ss_alphafunc and alphagen $ss_alphagen"
+								fi
+								;;
+							*)
+								echo "(EE) $parsing_shader uses alpha-using texture $ss_map with blendfunc $ss_blendfunc and alphafunc $ss_alphafunc and alphagen $ss_alphagen"; seterror
+								;;
+						esac
 						;;
 				esac
 				;;

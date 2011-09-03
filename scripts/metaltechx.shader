@@ -5,14 +5,11 @@ textures/metaltechx/detail-grate
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 	surfaceparm metalsteps
-	surfaceparm trans
 	q3map_bouncescale 1.75
 
 
 	{
 		map textures/metaltechx/detail/grate
-				blendfunc blend
-		
 	}
 
 	{
