@@ -241,7 +241,7 @@ textures/narmorx/base-dirt01
 textures/narmorx/base-wood01
 {
 	qer_editorimage textures/narmorx/base/wood01.tga
-	dpoffsetmapping - 2
+	dpoffsetmapping - 2 match8 215
 	q3map_bounceScale 1.25
 	
 
