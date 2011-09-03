@@ -476,13 +476,12 @@ textures/trak4x/wood1d
 textures/trak4x/decal-door
 {
 	qer_editorimage textures/trak4x/decal/decal_door.tga
-	surfaceparm trans
+	surfaceparm trans // keeping this, don't want any shadows from this
 	q3map_bounceScale 0.5
 
 
 	{
 		map textures/trak4x/decal/decal_door.tga
-		blendFunc blend
 	}
 	{
 		map $lightmap
@@ -824,13 +823,11 @@ textures/trak4x/floor-tile3c
 textures/trak4x/trim-grate1
 {
 	qer_editorimage textures/trak4x/trim/trim_grate1.tga
-	surfaceparm trans
 	q3map_bounceScale 1.25
 
 
 	{
 		map textures/trak4x/trim/trim_grate1.tga
-		blendFunc blend
 	}
 	{
 		map $lightmap
@@ -842,13 +839,11 @@ textures/trak4x/trim-grate1
 textures/trak4x/trim-grate2a
 {
 	qer_editorimage textures/trak4x/trim/trim_grate2a.tga
-	surfaceparm trans
 	q3map_bounceScale 1.25
 
 
 	{
 		map textures/trak4x/trim/trim_grate2a.tga
-		blendFunc blend
 	}
 	{
 		map $lightmap

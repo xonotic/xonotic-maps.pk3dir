@@ -268,13 +268,11 @@ textures/trak6x/panel-crate1
 textures/trak6x/panel-grate2
 {
 	qer_editorimage textures/trak6x/panel/panel_grate2.tga
-	surfaceparm trans
 	q3map_bounceScale 1.25
 
 
 	{
 		map textures/trak6x/panel/panel_grate2.tga
-		blendFunc blend
 	}
 	{
 		map $lightmap

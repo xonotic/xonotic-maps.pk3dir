@@ -1529,13 +1529,11 @@ textures/trak5x/panel-crate1e
 textures/trak5x/panel-grate1a
 {
 	qer_editorimage textures/trak5x/panel/panel_grate1a.tga
-	surfaceparm trans
 	q3map_bounceScale 1.25
 
 
 	{
 		map textures/trak5x/panel/panel_grate1a.tga
-		blendFunc blend
 	}
 	{
 		map $lightmap
@@ -1547,13 +1545,11 @@ textures/trak5x/panel-grate1a
 textures/trak5x/panel-grate2a
 {
 	qer_editorimage textures/trak5x/panel/panel_grate2a.tga
-	surfaceparm trans
 	q3map_bounceScale 1.25
 
 
 	{
 		map textures/trak5x/panel/panel_grate2a.tga
-		blendFunc blend
 	}
 	{
 		map $lightmap
