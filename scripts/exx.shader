@@ -722,7 +722,7 @@ textures/exx/floor-simplines
 	qer_editorimage textures/exx/floor/floor_simplines.tga
 	
 	q3map_bounceScale  0.75
-	dpoffsetmapping - 2 match8 152
+	dpoffsetmapping - 1 match8 244
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
