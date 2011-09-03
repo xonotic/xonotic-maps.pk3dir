@@ -1697,7 +1697,7 @@ textures/exx/wall-bplate06
 	
 	surfaceparm metalsteps
 	q3map_bounceScale  1.75
-	dpoffsetmapping - 2 match8 114
+	dpoffsetmapping - 8 match8 114
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
