@@ -6,7 +6,7 @@ textures/effects_beam/beam-blue
 	q3map_surfacelight 3000
 	{
 		map textures/effects_beam/beam-blue.tga
-		blendfunc add
+		blendfunc GL_SRC_ALPHA GL_ONE
 	}
 }
 
@@ -18,7 +18,7 @@ textures/effects_beam/beam-purple
 	q3map_surfacelight 3000
 	{
 		map textures/effects_beam/beam-purple.tga
-		blendfunc add
+		blendfunc GL_SRC_ALPHA GL_ONE
 	}
 }
 
@@ -30,7 +30,7 @@ textures/effects_beam/beam-red
 	q3map_surfacelight 3000
 	{
 		map textures/effects_beam/beam-red.tga
-		blendfunc add
+		blendfunc GL_SRC_ALPHA GL_ONE
 	}
 }
 
@@ -42,7 +42,7 @@ textures/effects_beam/beam-green
 	q3map_surfacelight 3000
 	{
 		map textures/effects_beam/beam-green.tga
-		blendfunc add
+		blendfunc GL_SRC_ALPHA GL_ONE
 	}
 }
 
@@ -54,6 +54,6 @@ textures/effects_beam/beam-yellow
 	q3map_surfacelight 3000
 	{
 		map textures/effects_beam/beam-yellow.tga
-		blendfunc add
+		blendfunc GL_SRC_ALPHA GL_ONE
 	}
 }

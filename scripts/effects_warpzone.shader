@@ -22,7 +22,7 @@ textures/effects_warpzone/blueedge
 	cull none
 	{
 		map textures/effects_warpzone/blueedge.tga
-		blendfunc add
+		blendfunc GL_SRC_ALPHA GL_ONE
 	}
 }
 
@@ -34,7 +34,7 @@ textures/effects_warpzone/rededge
 	cull none
 	{
 		map textures/effects_warpzone/rededge.tga
-		blendfunc add
+		blendfunc GL_SRC_ALPHA GL_ONE
 	}
 }
 

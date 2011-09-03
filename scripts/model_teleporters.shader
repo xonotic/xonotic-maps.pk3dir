@@ -4,7 +4,7 @@ models/teleporters/thrust
 	cull none
 	{
 		map models/teleporters/thrust.tga
-		blendfunc add
+		blendfunc GL_SRC_ALPHA GL_ONE
 		rgbGen vertex
 	}
 }
