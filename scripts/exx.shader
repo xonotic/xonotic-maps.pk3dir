@@ -700,7 +700,7 @@ textures/exx/floor-simple05
 	surfaceparm metalsteps
 	
 	q3map_bounceScale  0.75
-	dpoffsetmapping - 2 32
+	dpoffsetmapping - 4 match8 32
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
@@ -768,7 +768,7 @@ textures/exx/floor-tread01
 	surfaceparm metalsteps
 	
 	q3map_bounceScale  0.75
-	dpoffsetmapping - 2 match8 77
+	dpoffsetmapping - 1 match8 221
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
@@ -1900,7 +1900,7 @@ textures/exx/wall-metalb01
 	
 	surfaceparm metalsteps
 	q3map_bounceScale  2
-	dpoffsetmapping - 2 match8 37
+	dpoffsetmapping - 1 match8 37
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
