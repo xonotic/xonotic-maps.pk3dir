@@ -53,10 +53,16 @@ getstats_e()
 		echo "min=$min"
 		echo "max=$max"
 		echo "median=$median"
+		echo "error=false"
 	}
 }
 getstats()
 {
+	min=255
+	max=255
+	median=255
+	error=true
+	[ -f "$1" ] || return 1
 	eval `getstats_e "$1"`
 }
 
@@ -83,11 +89,11 @@ use_texture()
 
 	if [ x"$3" = x"map" ]; then
 		lasttex=$2
-		if [ -n "$AUDIT_OFFSETMAPPING" ]; then
+		if [ -n "$AUDIT_ALPHACHANNELS" ]; then
 			if [ -f "../${2}_norm.tga" ]; then
 				case "$offsetmapping_match8" in
 					'') # no dpoffsetmapping keyword
-						getstats "../${2}_norm.tga"
+						getstats "../${2}_norm.tga" || getstats "../${2}_norm.png" || getstats "../${2}_norm.jpg"
 						if [ "$min" -eq "$max" ]; then
 							echo "(EE) shader $1 uses broken normalmap ${2}_norm.tga (add dpoffsetmapping none)"; seterror
 						else
@@ -264,20 +270,34 @@ use_texture()
 parsing_shader=
 parse_shaderstage()
 {
+	ss_blendfunc=none
+	ss_alphafunc=none
+	ss_map=
 	while read L A1 Aother; do
 		case "`echo "$L" | tr A-Z a-z`" in
+			blendfunc)
+				ss_blendfunc=`echo $A1 $Aother | tr A-Z a-z`
+				;;
+			alphafunc)
+				ss_alphafunc=`echo $A1 | tr A-Z a-z`
+				;;
 			map|clampmap)
 				case "$A1" in
 					'$lightmap')
 						;;
 					*)
 						use_texture "$parsing_shader" "`normalize "$A1"`" map
+						ss_map="`normalize "$A1"`"
 						;;
 				esac
 				;;
 			animmap)
 				for X in $Aother; do
 					use_texture "$parsing_shader" "`normalize "$X"`" animmap
+				done
+				for X in $Aother; do
+					ss_map="`normalize "$X"`"
+					break
 				done
 				;;
 			'{')
@@ -290,6 +310,40 @@ parse_shaderstage()
 				;;
 		esac
 	done
+
+	if [ -n "$AUDIT_ALPHACHANNELS" ] && [ -n "$ss_map" ]; then
+		getstats "../$ss_map.tga" || getstats "../$ss_map.png" || getstats "../$ss_map.jpg"
+		case "$ss_blendfunc" in
+			*src_alpha*|*blend*)
+				# texture must have alpha
+				if [ $min -eq 255 ]; then
+					echo "(EE) $parsing_shader uses alpha-less texture $ss_map with blendfunc $ss_blendfunc"; seterror
+				fi
+				;;
+			add|"gl_one gl_one")
+				# texture must not have alpha (engine bug)
+				if [ $min -lt 255 ]; then
+					echo "(EE) $parsing_shader uses alpha-using texture $ss_map with blendfunc $ss_blendfunc"; seterror
+				fi
+				;;
+			*)
+				case "$ss_alphafunc" in
+					g*)
+						# texture must have alpha
+						if [ $min -eq 255 ]; then
+							echo "(EE) $parsing_shader uses alpha-less texture $ss_map with alphafunc $ss_alphafunc"; seterror
+						fi
+						;;
+					*)
+						# texture should not have alpha (no bug if not)
+						if [ $min -lt 255 ]; then
+							echo "(WW) $parsing_shader uses alpha-using texture $ss_map with blendfunc $ss_blendfunc and alphafunc $ss_alphafunc"
+						fi
+						;;
+				esac
+				;;
+		esac
+	fi
 }
 
 parse_shader()
