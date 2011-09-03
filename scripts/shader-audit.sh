@@ -27,7 +27,7 @@ forbidden_prefixes=
 
 getstats_e()
 {
-	identify -verbose -alpha set -alpha extract -depth 8 "$1" | {
+	identify -verbose -depth 8 -alpha set -alpha extract "$1" | {
 		pix=0
 		while read -r L V R; do
 			case "$L" in
