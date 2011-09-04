@@ -8,6 +8,7 @@ effects_jumppad
 effects_lightning
 effects_warpzone
 ex2x
+exomorphx
 exx
 facility114invx
 facility114x
@@ -15,7 +16,6 @@ liquids_lava
 liquids_slime
 liquids_water
 logos
-map_afterslime
 map_courtfun
 map_glowplant
 map_leave_em_behind
@@ -25,10 +25,12 @@ map_space-elevator
 map_stormkeep
 map_techassault
 map_xoylent
+metaltechx
 model_bigfan01
 model_crate02
 model_desertfactory
 model_teleporters
+model_trak
 model_tree
 model_walker-static
 model_xonotic_jumppad01
