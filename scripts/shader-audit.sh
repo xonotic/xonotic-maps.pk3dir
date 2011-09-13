@@ -93,7 +93,7 @@ use_texture()
 		if [ "$3" = "shader" ]; then
 			return
 		else
-			err "shader $1 uses non-existing texture $2"
+			err "$1 uses non-existing texture $2"
 		fi
 	fi
 	textures_used="$textures_used$LF$2"
@@ -106,9 +106,9 @@ use_texture()
 					'') # no dpoffsetmapping keyword
 						getstats "../${2}_norm.tga" || getstats "../${2}_norm.png" || getstats "../${2}_norm.jpg"
 						if [ "$min" -eq "$max" ]; then
-							warn "shader $1 uses broken normalmap ${2}_norm.tga (add dpoffsetmapping none)"
+							warn "$1 uses broken normalmap ${2}_norm.tga (add dpoffsetmapping none)"
 						else
-							err "shader $1 uses ${2}_norm.tga but lacks median (add dpoffsetmapping - 1 match8 $median)"
+							err "$1 uses ${2}_norm.tga but lacks median (add dpoffsetmapping - 1 match8 $median)"
 						fi
 						;;
 					none) # offsetmapping turned off explicitly
@@ -116,9 +116,9 @@ use_texture()
 					default) # offsetmapping keyword without bias
 						getstats "../${2}_norm.tga"
 						if [ "$min" -eq "$max" ]; then
-							warn "shader $1 uses broken normalmap ${2}_norm.tga, maybe use dpoffsetmapping none?"
+							warn "$1 uses broken normalmap ${2}_norm.tga, maybe use dpoffsetmapping none?"
 						else
-							err "shader $1 uses ${2}_norm.tga but lacks median (add to dpoffsetmapping: match8 $median)"
+							err "$1 uses ${2}_norm.tga but lacks median (add to dpoffsetmapping: match8 $median)"
 						fi
 						;;
 					*) # offsetmapping keyword with bias
@@ -126,7 +126,7 @@ use_texture()
 				esac
 			else
 				if [ -n "$offsetmapping_match8" ]; then
-					warn "shader $1 specifies offsetmapping, but texture $2 does not have a normalmap"
+					warn "$1 specifies offsetmapping, but texture $2 does not have a normalmap"
 				fi
 			fi
 		fi
@@ -152,7 +152,7 @@ use_texture()
 		esac
 	done
 	if ! $ok; then
-		err "shader $1 is not allowed in this shader file (allowed: $allowed_prefixes, forbidden: $forbidden_prefixes)"
+		err "$1 is not allowed in this shader file (allowed: $allowed_prefixes, forbidden: $forbidden_prefixes)"
 	fi
 
 	case "$3" in
