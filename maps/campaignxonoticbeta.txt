@@ -8,7 +8,7 @@
 "kh","stormkeep","5","4","1000",,,"Key Hunt: Stormkeep","Every team holds a key. You have to collect them (kill key holders and pick them up) and meet with the other key holder in your team."
 "dm","red-planet","8","4","15",,"g_nix 1","[Special] Deathmatch: Red Planet","NixNex: In this mode everyone will spawn with the same weapon, but the weapon will change randomly after some time."
 "keepaway","runningman","6","5","15",,,"Keepaway: Running Man","Pick up the ball and frag everything that moves!"
-"rc","leave_em_behind","0","0","2500",,,"Race: Leave'em Behind","It's a race so run as fast as you can! You can try to boost yourself with the Laser if you shoot at the wall or under your feet. To proceed you need to get a time under 25 seconds."
+"rc","leave_em_behind","0","0","2200",,,"Race: Leave'em Behind","It's a race so run as fast as you can! You can try to boost yourself with the Laser if you shoot at the wall or under your feet. To proceed you need to get a time under 22 seconds."
 "dm","afterslime","5","6","15",,"g_minstagib 1","[Special] Deathmatch: Afterslime","MinstaGib! Everyone has got one weapon - the MinstaNex. Your opponent will be dead if you hit him with it (unless he picked up a powerup like 'Extra Life')."
 "tdm","stormkeep","5","6","20",,,"Team Deathmatch: Stormkeep","Another 3v3 TDM match.\nTip: You can shoot through warpzones!"
 //"nexball","nexballarena","5","7","5",,,"Nexball: Nexball Arena","This is similar to football now. You move the ball if you hit it, so try to push it into the ememies goal. First team who can score 5 goals wins!"
