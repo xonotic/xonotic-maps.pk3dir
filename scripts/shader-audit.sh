@@ -105,7 +105,7 @@ use_texture()
 					default) # offsetmapping keyword without bias
 						getstats "../${2}_norm.tga"
 						if [ "$min" -eq "$max" ]; then
-							echo "(WW) shader $1 uses broken normalmap ${2}_norm.tga, maybe use dpoffsetmapping none?"; seterror
+							echo "(WW) shader $1 uses broken normalmap ${2}_norm.tga, maybe use dpoffsetmapping none?"
 						else
 							echo "(EE) shader $1 uses ${2}_norm.tga but lacks median (add to dpoffsetmapping: match8 $median)"; seterror
 						fi
@@ -115,7 +115,7 @@ use_texture()
 				esac
 			else
 				if [ -n "$offsetmapping_match8" ]; then
-					echo "(EE) shader $1 specifies offsetmapping, but texture $2 does not have a normalmap"
+					echo "(WW) shader $1 specifies offsetmapping, but texture $2 does not have a normalmap"
 				fi
 			fi
 		fi

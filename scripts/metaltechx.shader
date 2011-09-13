@@ -144,7 +144,7 @@ textures/metaltechx/wall-alu_base
 textures/metaltechx/wall-alu02
 {
 	qer_editorimage textures/metaltechx/wall/alu02
-	dpoffsetmapping - 2
+	dpoffsetmapping - 2 match8 163
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 	surfaceparm metalsteps
