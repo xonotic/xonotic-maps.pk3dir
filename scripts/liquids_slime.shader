@@ -41,6 +41,7 @@ textures/liquids_slime/gelslime-purple
 	qer_editorimage textures/liquids_slime/gelslime-purple.tga
 	q3map_lightimage textures/liquids_slime/gelslime-purple.tga
 	qer_trans 20
+	dpoffsetmapping - 1 match8 107
 	surfaceparm noimpact
 	surfaceparm trans
 	surfaceparm nonsolid
@@ -67,7 +68,10 @@ textures/liquids_slime/gelslime-purple
 }
 textures/liquids_slime/gelslime-purple_cubemap
 {
+	qer_editorimage textures/liquids_slime/gelslime-purple.tga
+	q3map_lightimage textures/liquids_slime/gelslime-purple.tga
 	qer_trans 20
+	dpoffsetmapping - 1 match8 107
 	surfaceparm noimpact
 	surfaceparm trans
 	surfaceparm nonsolid

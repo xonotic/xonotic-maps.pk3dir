@@ -39,6 +39,7 @@ models/leaves7
 cull none
        qer_editorimage models/leaves7.tga
        qer_trans 0.6
+       dpoffsetmapping - 1 match8 111
        deformVertexes autosprite
        surfaceparm nolightmap
        surfaceparm trans

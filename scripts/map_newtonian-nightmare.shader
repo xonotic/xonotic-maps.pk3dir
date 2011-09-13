@@ -5,7 +5,7 @@ textures/map_newtonian-nightmare/trimlight_blue_s
 	qer_editorimage textures/map_newtonian-nightmare/trims/trimlight_blue.tga
 	
 	q3map_bounceScale  0.5
-	dpoffsetmapping - 2
+	dpoffsetmapping - 2 match8 84
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
@@ -27,7 +27,7 @@ textures/map_newtonian-nightmare/trimlight_red_s
 	qer_editorimage textures/map_newtonian-nightmare/trims/trimlight_red.tga
 	
 	q3map_bounceScale  0.5
-	dpoffsetmapping - 2
+	dpoffsetmapping - 2 match8 84
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
@@ -49,7 +49,7 @@ textures/map_newtonian-nightmare/trimlight_green_s
 	qer_editorimage textures/map_newtonian-nightmare/trims/trimlight_green.tga
 	
 	q3map_bounceScale  0.5
-	dpoffsetmapping - 2
+	dpoffsetmapping - 2 match8 84
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
