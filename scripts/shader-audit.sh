@@ -89,7 +89,7 @@ use_texture()
 
 	if [ x"$3" = x"map" ]; then
 		lasttex=$2
-		if [ -n "$AUDIT_ALPHACHANNELS" ]; then
+		if [ -n "$AUDIT_ALPHACHANNELS" ] && [ x"$offsetmapping_match8" != x"firststagedone" ]; then
 			if [ -f "../${2}_norm.tga" ] || [ -f "../${2}_norm.png" ] || [ -f "../${2}_norm.jpg" ]; then
 				case "$offsetmapping_match8" in
 					'') # no dpoffsetmapping keyword
@@ -292,6 +292,7 @@ parse_shaderstage()
 					*)
 						use_texture "$parsing_shader" "`normalize "$A1"`" map
 						ss_map="`normalize "$A1"`"
+						offsetmapping_match8=firststagedone
 						;;
 				esac
 				;;
