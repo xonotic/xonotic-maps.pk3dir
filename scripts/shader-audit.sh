@@ -316,46 +316,26 @@ parse_shaderstage()
 		esac
 	done
 
-	if [ -n "$AUDIT_ALPHACHANNELS" ] && [ -n "$ss_map" ]; then
-		getstats "../$ss_map.tga" || getstats "../$ss_map.png" || getstats "../$ss_map.jpg"
-		case "$ss_blendfunc" in
-			*src_alpha*|*blend*)
-				# texture must have alpha
-				if [ x"$ss_alphagen" = x"none" -a $min -eq 255 ]; then
-					echo "(EE) $parsing_shader uses alpha-less texture $ss_map with blendfunc $ss_blendfunc and alphagen $ss_alphagen"; seterror
-				fi
-				;;
-			add|"gl_one gl_one")
-				# texture must not have alpha (engine bug)
-				if [ x"$ss_alphagen" != x"none" -o $min -lt 255 ]; then
-					echo "(EE) $parsing_shader uses alpha-using texture $ss_map with blendfunc $ss_blendfunc and alphagen $ss_alphagen"; seterror
-				fi
-				;;
-			*)
-				case "$ss_alphafunc" in
-					g*)
-						# texture must have alpha
-						if [ x"$ss_alphagen" = x"none" -a $min -eq 255 ]; then
-							echo "(EE) $parsing_shader uses alpha-less texture $ss_map with alphafunc $ss_alphafunc and alphagen $ss_alphagen"; seterror
-						fi
-						;;
-					*)
-						# texture should not have alpha (no bug if not)
-						case "$ss_alphagen" in
-							none)
-								if [ $min -lt 255 ]; then
-									echo "(WW) $parsing_shader uses alpha-using texture $ss_map with blendfunc $ss_blendfunc and alphafunc $ss_alphafunc and alphagen $ss_alphagen"
-								fi
-								;;
-							*)
-								# alphagen is set, but blendfunc has no use for it
-								echo "(EE) $parsing_shader uses alpha-using texture $ss_map with blendfunc $ss_blendfunc and alphafunc $ss_alphafunc and alphagen $ss_alphagen"; seterror
-								;;
-						esac
-						;;
-				esac
-				;;
-		esac
+	if [ -n "$ss_map" ]; then
+		if [ -z "$maintexture" ]; then
+			maintexture=$ss_map
+			mainblendfunc=$ss_blendfunc
+			mainalphafunc=$ss_alphafunc
+			mainalphagen=$ss_alphagen
+		elif [ x"$ss_alphagen" = x"vertex" ] && ! $textureblending; then
+			case "$mainblendfunc:$mainalphafunc:$ss_blendfunc:$ss_alphafunc" in
+				none:none:"gl_src_alpha gl_one_minus_src_alpha":none) textureblending=true ;;
+				none:none:filter:none) textureblending=true ;;
+				none:none:none:g*) textureblending=true ;;
+				"gl_one gl_zero":none:filter:none) textureblending=true ;;
+				"gl_one gl_zero":none:none:g*) textureblending=true ;;
+				*)
+					echo "(EE) texture blending requires first stage to have no blendfunc/alphatest, and requires second stage to be blendfunc filter"; seterror
+					;;
+			esac
+		else
+			echo "(EE) multistage shader without alphagen vertex, or using more than 2 stages, is not supported by DarkPlaces"; seterror
+		fi
 	fi
 }
 
@@ -363,6 +343,8 @@ parse_shader()
 {
 	use_texture "$parsing_shader" "$parsing_shader" shader
 	offsetmapping_match8=
+	textureblending=false
+	maintexture=
 	while read L A1 Aother; do
 		case "`echo "$L" | tr A-Z a-z`" in
 			dpoffsetmapping)
@@ -406,6 +388,47 @@ parse_shader()
 				;;
 		esac
 	done
+	if [ -n "$AUDIT_ALPHACHANNELS" ] && [ -n "$maintexture" ] && ! $textureblending; then
+		getstats "../$maintexture.tga" || getstats "../$maintexture.png" || getstats "../$maintexture.jpg"
+		case "$mainblendfunc" in
+			*src_alpha*|*blend*)
+				# texture must have alpha
+				if [ x"$mainalphagen" = x"none" -a $min -eq 255 ]; then
+					echo "(EE) $parsing_shader uses alpha-less texture $maintexture with blendfunc $mainblendfunc and alphagen $mainalphagen"; seterror
+				fi
+				;;
+			add|"gl_one gl_one")
+				# texture must not have alpha (engine bug)
+				if [ x"$mainalphagen" != x"none" -o $min -lt 255 ]; then
+					echo "(EE) $parsing_shader uses alpha-using texture $maintexture with blendfunc $mainblendfunc and alphagen $mainalphagen"; seterror
+				fi
+				;;
+			*)
+				case "$mainalphafunc" in
+					g*)
+						# texture must have alpha
+						if [ x"$mainalphagen" = x"none" -a $min -eq 255 ]; then
+							echo "(EE) $parsing_shader uses alpha-less texture $maintexture with alphafunc $mainalphafunc and alphagen $mainalphagen"; seterror
+						fi
+						;;
+					*)
+						# texture should not have alpha (no bug if not)
+						case "$mainalphagen" in
+							none)
+								if [ $min -lt 255 ]; then
+									echo "(WW) $parsing_shader uses alpha-using texture $maintexture with blendfunc $mainblendfunc and alphafunc $mainalphafunc and alphagen $mainalphagen"
+								fi
+								;;
+							*)
+								# alphagen is set, but blendfunc has no use for it
+								echo "(EE) $parsing_shader uses alpha-using texture $maintexture with blendfunc $mainblendfunc and alphafunc $mainalphafunc and alphagen $mainalphagen"; seterror
+								;;
+						esac
+						;;
+				esac
+				;;
+		esac
+	fi
 }
 
 parse_shaderfile()
