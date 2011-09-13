@@ -192,6 +192,7 @@ textures/terrain01x/blends-mars-rock02-ground01-projected
 
 textures/terrain01x/ground-barren01
 {
+	xon_nowarn "We're intentionally using an alpha'd texture without using the alpha channel"
 	qer_editorimage textures/terrain01x/ground/barren01.tga
 	
 	q3map_bounceScale  0.5
@@ -215,6 +216,7 @@ textures/terrain01x/ground-barren01
 }
 textures/terrain01x/ground-barren02
 {
+	xon_nowarn "We're intentionally using an alpha'd texture without using the alpha channel"
 	qer_editorimage textures/terrain01x/ground/barren02.tga
 	
 	q3map_bounceScale  0.5
@@ -238,6 +240,7 @@ textures/terrain01x/ground-barren02
 }
 textures/terrain01x/ground-drylake01
 {
+	xon_nowarn "We're intentionally using an alpha'd texture without using the alpha channel"
 	qer_editorimage textures/terrain01x/ground/drylake01.tga
 	
 	q3map_bounceScale  0.5
@@ -261,6 +264,7 @@ textures/terrain01x/ground-drylake01
 }
 textures/terrain01x/ground-drylake02
 {
+	xon_nowarn "We're intentionally using an alpha'd texture without using the alpha channel"
 	qer_editorimage textures/terrain01x/ground/drylake02.tga
 	
 	q3map_bounceScale  0.5
@@ -284,6 +288,7 @@ textures/terrain01x/ground-drylake02
 }
 textures/terrain01x/ground-goopit
 {
+	xon_nowarn "We're intentionally using an alpha'd texture without using the alpha channel"
 	qer_editorimage textures/terrain01x/ground/goopit.tga
 	
 	q3map_bounceScale  0.75
@@ -309,6 +314,7 @@ textures/terrain01x/ground-goopit
 }
 textures/terrain01x/ground-gravel01
 {
+	xon_nowarn "We're intentionally using an alpha'd texture without using the alpha channel"
 	qer_editorimage textures/terrain01x/ground/gravel01.tga
 	
 	q3map_bounceScale  0.5
@@ -332,6 +338,7 @@ textures/terrain01x/ground-gravel01
 }
 textures/terrain01x/ground-ice01
 {
+	xon_nowarn "We're intentionally using an alpha'd texture without using the alpha channel"
 	qer_editorimage textures/terrain01x/ground/ice01.tga
 	
 	q3map_bounceScale  0.75
@@ -357,6 +364,7 @@ textures/terrain01x/ground-ice01
 }
 textures/terrain01x/ground-mars01
 {
+	xon_nowarn "We're intentionally using an alpha'd texture without using the alpha channel"
 	qer_editorimage textures/terrain01x/ground/mars01.tga
 	
 	q3map_bounceScale  0.5
@@ -380,6 +388,7 @@ textures/terrain01x/ground-mars01
 }
 textures/terrain01x/ground-mud01
 {
+	xon_nowarn "We're intentionally using an alpha'd texture without using the alpha channel"
 	qer_editorimage textures/terrain01x/ground/mud01.tga
 	
 	q3map_bounceScale  0.5
@@ -403,6 +412,7 @@ textures/terrain01x/ground-mud01
 }
 textures/terrain01x/ground-mud02
 {
+	xon_nowarn "We're intentionally using an alpha'd texture without using the alpha channel"
 	qer_editorimage textures/terrain01x/ground/mud02.tga
 	
 	q3map_bounceScale  0.5
@@ -426,6 +436,7 @@ textures/terrain01x/ground-mud02
 }
 textures/terrain01x/ground-sand01
 {
+	xon_nowarn "We're intentionally using an alpha'd texture without using the alpha channel"
 	qer_editorimage textures/terrain01x/ground/sand01.tga
 	
 	q3map_bounceScale  0.5
@@ -449,6 +460,7 @@ textures/terrain01x/ground-sand01
 }
 textures/terrain01x/ground-sand02
 {
+	xon_nowarn "We're intentionally using an alpha'd texture without using the alpha channel"
 	qer_editorimage textures/terrain01x/ground/sand02.tga
 	
 	q3map_bounceScale  0.5
@@ -472,6 +484,7 @@ textures/terrain01x/ground-sand02
 }
 textures/terrain01x/ground-sand03
 {
+	xon_nowarn "We're intentionally using an alpha'd texture without using the alpha channel"
 	qer_editorimage textures/terrain01x/ground/sand03.tga
 	
 	q3map_bounceScale  0.5
@@ -495,6 +508,7 @@ textures/terrain01x/ground-sand03
 }
 textures/terrain01x/ground-sand04
 {
+	xon_nowarn "We're intentionally using an alpha'd texture without using the alpha channel"
 	qer_editorimage textures/terrain01x/ground/sand04.tga
 	
 	q3map_bounceScale  0.5
@@ -518,6 +532,7 @@ textures/terrain01x/ground-sand04
 }
 textures/terrain01x/rock-mars01
 {
+	xon_nowarn "We're intentionally using an alpha'd texture without using the alpha channel"
 	qer_editorimage textures/terrain01x/rock/mars01.tga
 	
 	q3map_bounceScale  0.5
@@ -541,6 +556,7 @@ textures/terrain01x/rock-mars01
 }
 textures/terrain01x/rock-mars02
 {
+	xon_nowarn "We're intentionally using an alpha'd texture without using the alpha channel"
 	qer_editorimage textures/terrain01x/rock/mars02.tga
 	
 	q3map_bounceScale  0.5
@@ -564,6 +580,7 @@ textures/terrain01x/rock-mars02
 }
 textures/terrain01x/rock-rock01
 {
+	xon_nowarn "We're intentionally using an alpha'd texture without using the alpha channel"
 	qer_editorimage textures/terrain01x/rock/rock01.tga
 	
 	q3map_bounceScale  0.5
@@ -587,6 +604,7 @@ textures/terrain01x/rock-rock01
 }
 textures/terrain01x/rock-rock02
 {
+	xon_nowarn "We're intentionally using an alpha'd texture without using the alpha channel"
 	qer_editorimage textures/terrain01x/rock/rock02.tga
 	
 	q3map_bounceScale  0.5
@@ -610,6 +628,7 @@ textures/terrain01x/rock-rock02
 }
 textures/terrain01x/rock-rock03
 {
+	xon_nowarn "We're intentionally using an alpha'd texture without using the alpha channel"
 	qer_editorimage textures/terrain01x/rock/rock03.tga
 	
 	q3map_bounceScale  0.5
