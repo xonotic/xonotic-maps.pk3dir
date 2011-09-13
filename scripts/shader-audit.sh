@@ -14,6 +14,17 @@ seterror()
 	kill -USR1 "$pid"
 }
 
+nowarn=false
+err()
+{
+	echo "(EE) $*"
+	seterror
+}
+warn()
+{
+	$nowarn || echo "(WW) $*"
+}
+
 LF="
 "
 
@@ -82,7 +93,7 @@ use_texture()
 		if [ "$3" = "shader" ]; then
 			return
 		else
-			echo "(EE) shader $1 uses non-existing texture $2"; seterror
+			err "shader $1 uses non-existing texture $2"
 		fi
 	fi
 	textures_used="$textures_used$LF$2"
@@ -95,9 +106,9 @@ use_texture()
 					'') # no dpoffsetmapping keyword
 						getstats "../${2}_norm.tga" || getstats "../${2}_norm.png" || getstats "../${2}_norm.jpg"
 						if [ "$min" -eq "$max" ]; then
-							echo "(WW) shader $1 uses broken normalmap ${2}_norm.tga (add dpoffsetmapping none)"
+							warn "shader $1 uses broken normalmap ${2}_norm.tga (add dpoffsetmapping none)"
 						else
-							echo "(EE) shader $1 uses ${2}_norm.tga but lacks median (add dpoffsetmapping - 1 match8 $median)"; seterror
+							err "shader $1 uses ${2}_norm.tga but lacks median (add dpoffsetmapping - 1 match8 $median)"
 						fi
 						;;
 					none) # offsetmapping turned off explicitly
@@ -105,9 +116,9 @@ use_texture()
 					default) # offsetmapping keyword without bias
 						getstats "../${2}_norm.tga"
 						if [ "$min" -eq "$max" ]; then
-							echo "(WW) shader $1 uses broken normalmap ${2}_norm.tga, maybe use dpoffsetmapping none?"
+							warn "shader $1 uses broken normalmap ${2}_norm.tga, maybe use dpoffsetmapping none?"
 						else
-							echo "(EE) shader $1 uses ${2}_norm.tga but lacks median (add to dpoffsetmapping: match8 $median)"; seterror
+							err "shader $1 uses ${2}_norm.tga but lacks median (add to dpoffsetmapping: match8 $median)"
 						fi
 						;;
 					*) # offsetmapping keyword with bias
@@ -115,7 +126,7 @@ use_texture()
 				esac
 			else
 				if [ -n "$offsetmapping_match8" ]; then
-					echo "(WW) shader $1 specifies offsetmapping, but texture $2 does not have a normalmap"
+					warn "shader $1 specifies offsetmapping, but texture $2 does not have a normalmap"
 				fi
 			fi
 		fi
@@ -141,7 +152,7 @@ use_texture()
 		esac
 	done
 	if ! $ok; then
-		echo "(EE) shader $1 is not allowed in this shader file (allowed: $allowed_prefixes, forbidden: $forbidden_prefixes)"; seterror
+		err "shader $1 is not allowed in this shader file (allowed: $allowed_prefixes, forbidden: $forbidden_prefixes)"
 	fi
 
 	case "$3" in
@@ -151,7 +162,7 @@ use_texture()
 				env/*)
 					;;
 				*)
-					echo "(EE) texture $2 of shader $1 is out of place, $3 textures must be in env/"; seterror
+					err "texture $2 of shader $1 is out of place, $3 textures must be in env/"
 					;;
 			esac
 			;;
@@ -159,7 +170,7 @@ use_texture()
 		*)
 			case "$2" in
 				env/*)
-					echo "(EE) texture $2 of shader $1 is out of place, $3 textures must not be in env/"; seterror
+					err "texture $2 of shader $1 is out of place, $3 textures must not be in env/"
 					;;
 				*)
 					;;
@@ -178,7 +189,7 @@ use_texture()
 				"$pre"/*/*)
 					;;
 				*)
-					echo "(EE) texture $2 of shader $1 is out of place, recommended file name is $pre/$suf"; seterror
+					err "texture $2 of shader $1 is out of place, recommended file name is $pre/$suf"
 					;;
 			esac
 			;;
@@ -190,7 +201,7 @@ use_texture()
 				"$pre"/*/*)
 					;;
 				*)
-					echo "(EE) texture $2 of shader $1 is out of place, recommended file name is $pre/base/$suf"; seterror
+					err "texture $2 of shader $1 is out of place, recommended file name is $pre/base/$suf"
 					;;
 			esac
 			;;
@@ -204,7 +215,7 @@ use_texture()
 					;;
 				textures/map_*)
 					# protect one map's textures from the evil of other maps :P
-					echo "(EE) texture $2 of shader $1 is out of place, recommended file name is $pre/map_$map/*"; seterror
+					err "texture $2 of shader $1 is out of place, recommended file name is $pre/map_$map/*"
 					;;
 				*)
 					# using outside stuff is permitted
@@ -219,7 +230,7 @@ use_texture()
 				textures/common/*/*)
 					;;
 				*)
-					echo "(EE) texture $2 of shader $1 is out of place, recommended file name is $1 or textures/common/*/*"; seterror
+					err "texture $2 of shader $1 is out of place, recommended file name is $1 or textures/common/*/*"
 					;;
 			esac
 			;;
@@ -231,7 +242,7 @@ use_texture()
 					# I _suppose_ this is fine, as tZork committed this pack
 					;;
 				*)
-					echo "(EE) texture $2 of shader $1 is out of place, recommended file name is $1"; seterror
+					err "texture $2 of shader $1 is out of place, recommended file name is $1"
 					;;
 			esac
 			;;
@@ -247,7 +258,7 @@ use_texture()
 					# typical place for skybox
 					;;
 				*)
-					echo "(EE) texture $2 of shader $1 is out of place, recommended file name is $1"; seterror
+					err "texture $2 of shader $1 is out of place, recommended file name is $1"
 					;;
 			esac
 			;;
@@ -257,12 +268,12 @@ use_texture()
 				models/*)
 					;;
 				*)
-					echo "(EE) texture $2 of shader $1 is out of place, recommended file name is $1 or models/*"; seterror
+					err "texture $2 of shader $1 is out of place, recommended file name is $1 or models/*"
 					;;
 			esac
 			;;
 		*)
-			echo "(EE) no shader name pattern for $1"; seterror
+			err "no shader name pattern for $1"
 			;;
 	esac
 }
@@ -306,7 +317,7 @@ parse_shaderstage()
 				done
 				;;
 			'{')
-				echo "(EE) brace nesting error in $parsing_shader"; seterror
+				err "brace nesting error in $parsing_shader"
 				;;
 			'}')
 				break
@@ -330,11 +341,11 @@ parse_shaderstage()
 				"gl_one gl_zero":none:filter:none) textureblending=true ;;
 				"gl_one gl_zero":none:none:g*) textureblending=true ;;
 				*)
-					echo "(EE) texture blending requires first stage to have no blendfunc/alphatest, and requires second stage to be blendfunc filter"; seterror
+					err "texture blending requires first stage to have no blendfunc/alphatest, and requires second stage to be blendfunc filter"
 					;;
 			esac
 		else
-			echo "(EE) multistage shader without alphagen vertex, or using more than 2 stages, is not supported by DarkPlaces"; seterror
+			err "multistage shader without alphagen vertex, or using more than 2 stages, is not supported by DarkPlaces"
 		fi
 	fi
 }
@@ -345,8 +356,12 @@ parse_shader()
 	offsetmapping_match8=
 	textureblending=false
 	maintexture=
+	nowarn=false
 	while read L A1 Aother; do
 		case "`echo "$L" | tr A-Z a-z`" in
+			xon_nowarn)
+				nowarn=true
+				;;
 			dpoffsetmapping)
 				set -- $Aother
 				if [ x"$A1" = x"none" ]; then
@@ -394,13 +409,13 @@ parse_shader()
 			*src_alpha*|*blend*)
 				# texture must have alpha
 				if [ x"$mainalphagen" = x"none" -a $min -eq 255 ]; then
-					echo "(EE) $parsing_shader uses alpha-less texture $maintexture with blendfunc $mainblendfunc and alphagen $mainalphagen"; seterror
+					err "$parsing_shader uses alpha-less texture $maintexture with blendfunc $mainblendfunc and alphagen $mainalphagen"
 				fi
 				;;
 			add|"gl_one gl_one")
 				# texture must not have alpha (engine bug)
 				if [ x"$mainalphagen" != x"none" -o $min -lt 255 ]; then
-					echo "(EE) $parsing_shader uses alpha-using texture $maintexture with blendfunc $mainblendfunc and alphagen $mainalphagen"; seterror
+					err "$parsing_shader uses alpha-using texture $maintexture with blendfunc $mainblendfunc and alphagen $mainalphagen"
 				fi
 				;;
 			*)
@@ -408,7 +423,7 @@ parse_shader()
 					g*)
 						# texture must have alpha
 						if [ x"$mainalphagen" = x"none" -a $min -eq 255 ]; then
-							echo "(EE) $parsing_shader uses alpha-less texture $maintexture with alphafunc $mainalphafunc and alphagen $mainalphagen"; seterror
+							err "$parsing_shader uses alpha-less texture $maintexture with alphafunc $mainalphafunc and alphagen $mainalphagen"
 						fi
 						;;
 					*)
@@ -416,12 +431,12 @@ parse_shader()
 						case "$mainalphagen" in
 							none)
 								if [ $min -lt 255 ]; then
-									echo "(WW) $parsing_shader uses alpha-using texture $maintexture with blendfunc $mainblendfunc and alphafunc $mainalphafunc and alphagen $mainalphagen"
+									warn "$parsing_shader uses alpha-using texture $maintexture with blendfunc $mainblendfunc and alphafunc $mainalphafunc and alphagen $mainalphagen"
 								fi
 								;;
 							*)
 								# alphagen is set, but blendfunc has no use for it
-								echo "(EE) $parsing_shader uses alpha-using texture $maintexture with blendfunc $mainblendfunc and alphafunc $mainalphafunc and alphagen $mainalphagen"; seterror
+								err "$parsing_shader uses alpha-using texture $maintexture with blendfunc $mainblendfunc and alphafunc $mainalphafunc and alphagen $mainalphagen"
 								;;
 						esac
 						;;
@@ -460,7 +475,7 @@ parse_shaderfile()
 			*/*)
 				parsing_shader="`normalize "$L"`"
 				if [ x"$L" != x"$parsing_shader" ]; then
-					echo "(WW) normalized shader name $L to $parsing_shader"
+					warn "normalized shader name $L to $parsing_shader"
 				fi
 				;;
 			'{')
@@ -494,7 +509,7 @@ echo "$textures_used$LF$textures_used$LF$textures_avail" | sort | uniq -u | whil
 		textures/map_*/*)
 			;;
 		*)
-			echo "(EE) texture $L is not referenced by any shader"; seterror
+			err "texture $L is not referenced by any shader"
 			;;
 	esac
 done
