@@ -1,4 +1,4 @@
--bsp +
+-bsp + -metaadequatescore 99999 -metamaxbboxdistance 16
 -light + -bounce 8 -dirtscale 2 -bouncescale 1.15 -exposure 150 -areascale 1.25 -pointscale 1.4
 -vis +
 -minimap +
