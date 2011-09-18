@@ -10,6 +10,7 @@ settemp_for_type all g_weaponarena all
 settemp_for_type all bot_sound_monopoly 1
 settemp_for_type all bot_ignore_bots 1
 settemp_for_type all g_jetpack 1
+settemp_for_type all _independent_players 1
 // optional: clientsettemp_for_type (all|gametypename) cvarname value
 // optional: size mins_x mins_y mins_z maxs_x maxs_y maxs_z
 // optional: hidden
