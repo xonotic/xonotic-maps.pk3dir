@@ -12,7 +12,7 @@ settemp_for_type all bot_ignore_bots 1
 settemp_for_type all g_jetpack 1
 settemp_for_type all _independent_players 1
 settemp_for_type all bot_navigation_ignoreplayers 1
-settemp_for_type all bot_ai_thinkinterval 0.0333333
+settemp_for_type all bot_ai_thinkinterval 0
 settemp_for_type all g_casings 0
 // optional: clientsettemp_for_type (all|gametypename) cvarname value
 clientsettemp_for_type all snd_soundradius 10000
