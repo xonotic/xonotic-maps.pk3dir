@@ -24,6 +24,7 @@ map_red-planet
 map_space-elevator
 map_stormkeep
 map_techassault
+map_unsealedtrial
 map_xoylent
 metaltechx
 model_bigfan01
