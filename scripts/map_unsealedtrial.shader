@@ -121,6 +121,7 @@ textures/glassx/hexglass
 	dpreflectcube cubemaps/default/sky
 	dpnoshadow
 	surfaceparm trans
+	surfaceparm alphashadow
  	{
 		map textures/glassx/hexglass.tga
 		blendfunc blend
