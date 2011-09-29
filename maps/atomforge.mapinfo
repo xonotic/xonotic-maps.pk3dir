@@ -1,0 +1,14 @@
+title Atomforge
+description Small, fast indoor DM map.
+author kuniu the frogg
+cdtrack 12
+has weapons
+gametype dm
+gametype tdm
+gametype lms
+gametype ca
+gametype arena
+gametype rune
+gametype freezetag
+gametype kh
+gametype dom
