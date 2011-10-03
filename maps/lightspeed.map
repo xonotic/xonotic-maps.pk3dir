@@ -11942,11 +11942,6 @@ terrain01x/ground-drylake01
 "origin" "0.000000 0.000000 64.000000"
 }
 {
-"classname" "info_player_team2"
-"origin" "-1248.000000 -832.000000 128.000000"
-"angle" "90.000000"
-}
-{
 "classname" "item_flag_team1"
 "origin" "-1616.000000 -528.000000 320.000000"
 }
@@ -16781,16 +16776,6 @@ ex2x/light-1
 }
 }
 {
-"classname" "info_player_team1"
-"origin" "1120.000000 832.000000 108.000000"
-"angle" "-90.000000"
-}
-{
-"classname" "info_player_team1"
-"origin" "1264.000000 832.000000 108.000000"
-"angle" "-90.000000"
-}
-{
 "classname" "misc_model"
 "origin" "-596.000000 1532.000000 320.000000"
 "model" "models/containers/barrel01.md3"
@@ -16977,11 +16962,6 @@ ex2x/light-1
 "classname" "target_position"
 "origin" "-720.000000 -788.000000 160.000000"
 "targetname" "target_position6"
-}
-{
-"classname" "info_player_team2"
-"origin" "-1120.000000 -832.000000 128.000000"
-"angle" "90.000000"
 }
 {
 "classname" "func_group"
@@ -18713,4 +18693,24 @@ facility114x/misc-tube
 "classname" "info_location"
 "origin" "0.000000 -1184.000000 432.000000"
 "netname" "^4BLUE Corner^7"
+}
+{
+"classname" "info_player_team2"
+"origin" "1120.000000 832.000000 108.000000"
+"angle" "-90.000000"
+}
+{
+"classname" "info_player_team2"
+"origin" "1248.000000 832.000000 108.000000"
+"angle" "-90.000000"
+}
+{
+"classname" "info_player_team1"
+"origin" "-1248.000000 -832.000000 128.000000"
+"angle" "90.000000"
+}
+{
+"classname" "info_player_team1"
+"origin" "-1120.000000 -832.000000 128.000000"
+"angle" "90.000000"
 }
