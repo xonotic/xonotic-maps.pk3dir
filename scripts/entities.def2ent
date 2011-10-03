@@ -11,7 +11,7 @@ open my $fh, '<', '../../xonotic-data.pk3dir/qcsrc/server/qc.asm'
 while(<$fh>)
 {
 	chomp;
-	if(/^\.(\w+) (\w+);$/)
+	if(/^\.(\w+) (\w+);(?: \/\* at .* \*\/)$/)
 	{
 		if($1 eq "float")
 		{

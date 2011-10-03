@@ -78,9 +78,10 @@ textures/common/hintskip
 
 textures/common/invisible // solid, transparent polygons, casts shadows
 {
+	qer_editorimage textures/common/invisible.tga
 	surfaceparm nolightmap
         {
-		map textures/common/invisible.tga
+		map textures/common/invisible/invisible.tga
 		alphaFunc GE128
 		depthWrite
 		rgbGen vertex

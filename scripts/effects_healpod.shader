@@ -11,7 +11,7 @@ textures/effects_healpod/healpod1_d
 	qer_trans 0.6
 	{
 		map textures/effects_healpod/healpod1_d.tga
-		blendfunc add
+		blendfunc GL_SRC_ALPHA GL_ONE
 		tcMod scroll 0 2
 	}
 }
