@@ -1,6 +1,6 @@
 textures/map_arena/floor00invg_g
 {
-	qer_editorimage textures/map_arena/floor00invg.tga
+	qer_editorimage textures/map_arena/gfx/floor00invg.tga
 
 	surfaceparm trans
 	surfaceparm nonsolid
@@ -12,7 +12,7 @@ textures/map_arena/floor00invg_g
 	cull none
 
 	{
-		map textures/map_arena/floor00invg.tga
+		map textures/map_arena/gfx/floor00invg.tga
 		blendFunc blend
 		alphaFunc GT0
 		rgbgen identity
@@ -21,7 +21,7 @@ textures/map_arena/floor00invg_g
 
 textures/map_arena/light_beam_anim
 {
-	qer_editorimage textures/map_arena/light_beam_anim_qer.tga
+	qer_editorimage textures/map_arena/gfx/light_beam_anim_qer.tga
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	surfaceparm nonsolid
@@ -29,16 +29,16 @@ textures/map_arena/light_beam_anim
 	cull none
 	qer_trans 0.6
 	{
-		map textures/map_arena/light_beam_anim.tga
+		map textures/map_arena/gfx/light_beam_anim.tga
 		blendfunc blend
 //		alphaFunc GT0
 		tcMod scroll -2 0
 	}
 }
 
-textures/map_arena/energycircle_anim
+textures/map_arena/pulseblue_anim
 {
-	qer_editorimage textures/map_arena/energycircle.tga
+	qer_editorimage textures/map_arena/gfx/pulseblue.tga
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	surfaceparm nonsolid
@@ -46,9 +46,46 @@ textures/map_arena/energycircle_anim
 	cull none
 	qer_trans 0.6
 	{
-		map textures/map_arena/energycircle.tga
+		map textures/map_arena/gfx/pulseblue.tga
 		blendfunc blend
 //		alphaFunc GT0
 		tcMod scroll 0 2
+	}
+}
+
+textures/map_arena/pulsered_anim
+{
+	qer_editorimage textures/map_arena/gfx/pulsered.tga
+	surfaceparm nolightmap
+	surfaceparm nomarks
+	surfaceparm nonsolid
+	surfaceparm trans
+	cull none
+	qer_trans 0.6
+	{
+		map textures/map_arena/gfx/pulsered.tga
+		blendfunc blend
+//		alphaFunc GT0
+		tcMod scroll 0 2
+	}
+}
+
+textures/map_arena/baseblue
+{
+	qer_editorimage textures/map_arena/base/blue.tga
+	
+	q3map_bounceScale 1.25
+
+
+	{
+		map textures/map_arena/base/baseblue.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
 	}
 }
