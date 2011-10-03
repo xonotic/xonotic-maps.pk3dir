@@ -49,7 +49,7 @@
         }
 }
 
-"charis - red"
+textures/map_opera/chairs_red
 {
         qer_editorimage textures/narmorx/base/concrete05_red.tga
         dpoffsetmapping - 0.5 match8 119
@@ -68,6 +68,7 @@
 
 "gold"
 {
+	cull none // gold is precious
 	{
 		map textures/tuba
 		tcgen environment
