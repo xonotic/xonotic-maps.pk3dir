@@ -70,6 +70,23 @@ textures/map_arena/pulsered_anim
 	}
 }
 
+textures/map_arena/pulsegreen_anim
+{
+	qer_editorimage textures/map_arena/gfx/pulsegreen.tga
+	surfaceparm nolightmap
+	surfaceparm nomarks
+	surfaceparm nonsolid
+	surfaceparm trans
+	cull none
+	qer_trans 0.6
+	{
+		map textures/map_arena/gfx/pulsegreen.tga
+		blendfunc blend
+//		alphaFunc GT0
+		tcMod scroll 0 2
+	}
+}
+
 textures/map_arena/baseblue
 {
 	qer_editorimage textures/map_arena/base/blue.tga
