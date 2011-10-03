@@ -78,7 +78,7 @@ textures/map_arena/baseblue
 
 
 	{
-		map textures/map_arena/base/baseblue.tga
+		map textures/map_arena/base/blue.tga
 		
 
 	}
