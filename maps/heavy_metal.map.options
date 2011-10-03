@@ -1,0 +1,6 @@
+-bsp + -minsamplesize 2
+-light + -deluxe -dirty -dirtmode 1 -dirtscale 2 -fast -lightmapsize 1024 -patchshadows -samples 4
+-vis +
+-minimap +
+Version: 1
+

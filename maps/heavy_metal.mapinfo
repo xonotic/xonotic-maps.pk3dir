@@ -1,0 +1,13 @@
+title Heavy Metal
+description Die for Metal!
+author Maddin
+has weapons
+gametype dm
+gametype tdm
+gametype lms
+gametype arena
+gametype ca
+gametype dom
+gametype freezetag
+gametype keepaway
+cdtrack heavymetal
