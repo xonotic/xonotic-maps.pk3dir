@@ -146,3 +146,83 @@ textures/decals/splatter05
 		rgbgen identity
 	}
 }
+
+textures/decals/arrow01
+{
+	qer_editorimage textures/decals/arrow01
+
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nodlight
+	surfaceparm nolightmap
+
+	polygonOffset
+	sort 6
+	cull none
+
+	{
+		map textures/decals/arrow01
+		blendFunc filter
+		rgbgen identity
+	}
+}
+
+textures/decals/arrow02
+{
+	qer_editorimage textures/decals/arrow02
+
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nodlight
+	surfaceparm nolightmap
+
+	polygonOffset
+	sort 6
+	cull none
+
+	{
+		map textures/decals/arrow02
+		blendFunc filter
+		rgbgen identity
+	}
+}
+
+textures/decals/biohazard01
+{
+	qer_editorimage textures/decals/biohazard01
+
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nodlight
+	surfaceparm nolightmap
+
+	polygonOffset
+	sort 6
+	cull none
+
+	{
+		map textures/decals/biohazard01
+		blendFunc filter
+		rgbgen identity
+	}
+}
+
+textures/decals/biohazard02
+{
+	qer_editorimage textures/decals/biohazard02
+
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nodlight
+	surfaceparm nolightmap
+
+	polygonOffset
+	sort 6
+	cull none
+
+	{
+		map textures/decals/biohazard02
+		blendFunc filter
+		rgbgen identity
+	}
+}
