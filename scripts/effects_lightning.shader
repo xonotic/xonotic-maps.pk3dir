@@ -75,3 +75,63 @@ textures/effects_lightning/gradient_white
 		blendfunc blend
 	}
 }
+//Lightning1-a-nosprite
+textures/effects_lightning/lightning1_a_nosprite
+{
+	qer_editorimage textures/effects_lightning/lightning1/1.tga
+	surfaceparm nolightmap
+	surfaceparm nodlight
+	surfaceparm trans
+	surfaceparm nomarks
+	surfaceparm noimpact
+	cull none
+	{
+		animMap 15 textures/effects_lightning/lightning1/1.tga textures/effects_lightning/lightning1/2.tga textures/effects_lightning/lightning1/3.tga textures/effects_lightning/lightning1/4.tga textures/effects_lightning/lightning1/5.tga textures/effects_lightning/lightning1/6.tga textures/effects_lightning/lightning1/7.tga textures/effects_lightning/lightning1/8.tga textures/effects_lightning/lightning1/9.tga textures/effects_lightning/lightning1/10.tga textures/effects_lightning/lightning1/11.tga
+		blendfunc add
+	}
+}
+//Lightning1-b-nosprite
+textures/effects_lightning/lightning1_b_nosprite
+{
+	qer_editorimage textures/effects_lightning/lightning1/4.tga
+	surfaceparm nolightmap
+	surfaceparm nodlight
+	surfaceparm trans
+	surfaceparm nomarks
+	surfaceparm noimpact
+	cull none
+	{
+		animMap 15 textures/effects_lightning/lightning1/4.tga textures/effects_lightning/lightning1/5.tga textures/effects_lightning/lightning1/6.tga textures/effects_lightning/lightning1/7.tga textures/effects_lightning/lightning1/8.tga textures/effects_lightning/lightning1/9.tga textures/effects_lightning/lightning1/10.tga textures/effects_lightning/lightning1/11.tga textures/effects_lightning/lightning1/1.tga textures/effects_lightning/lightning1/2.tga textures/effects_lightning/lightning1/3.tga
+		blendfunc add
+	}
+}
+//Lightning1-c-nosprite
+textures/effects_lightning/lightning1_c_nosprite
+{
+	qer_editorimage textures/effects_lightning/lightning1/6.tga
+	surfaceparm nolightmap
+	surfaceparm nodlight
+	surfaceparm trans
+	surfaceparm nomarks
+	surfaceparm noimpact
+	cull none
+	{
+		animMap 15 textures/effects_lightning/lightning1/6.tga textures/effects_lightning/lightning1/7.tga textures/effects_lightning/lightning1/8.tga textures/effects_lightning/lightning1/9.tga textures/effects_lightning/lightning1/10.tga textures/effects_lightning/lightning1/11.tga textures/effects_lightning/lightning1/1.tga textures/effects_lightning/lightning1/2.tga textures/effects_lightning/lightning1/3.tga textures/effects_lightning/lightning1/4.tga textures/effects_lightning/lightning1/5.tga
+		blendfunc add
+	}
+}
+//Lightning1-d-nosprite
+textures/effects_lightning/lightning1_d_nosprite
+{
+	qer_editorimage textures/effects_lightning/lightning1/8.tga
+	surfaceparm nolightmap
+	surfaceparm nodlight
+	surfaceparm trans
+	surfaceparm nomarks
+	surfaceparm noimpact
+	cull none
+	{
+		animMap 15 textures/effects_lightning/lightning1/8.tga textures/effects_lightning/lightning1/9.tga textures/effects_lightning/lightning1/10.tga textures/effects_lightning/lightning1/11.tga textures/effects_lightning/lightning1/1.tga textures/effects_lightning/lightning1/2.tga textures/effects_lightning/lightning1/3.tga textures/effects_lightning/lightning1/4.tga textures/effects_lightning/lightning1/5.tga textures/effects_lightning/lightning1/6.tga textures/effects_lightning/lightning1/7.tga
+		blendfunc add
+	}
+}
