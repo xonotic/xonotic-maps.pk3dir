@@ -2,7 +2,7 @@ title Opera
 description He's there, the phantom of the opera!
 author Morphed
 // no cdtrack
-// uncomment this if you added weapon pickups: has weapons
+has weapons
 gametype dm // defaults: timelimit=20 pointlimit=30 leadlimit=0
 gametype lms // defaults: timelimit=20 lives=9 leadlimit=0
 gametype rune // defaults: timelimit=20 pointlimit=200 leadlimit=0
@@ -28,4 +28,6 @@ settemp_for_type all _independent_players 1
 settemp_for_type all bot_navigation_ignoreplayers 1
 
 // adjusted sound radius
-clientsettemp_for_type all snd_soundradius 1600
+clientsettemp_for_type all snd_soundradius 3200
+clientsettemp_for_type all r_shadows 2
+clientsettemp_for_type all r_shadow_shadowmapping 1
