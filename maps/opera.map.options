@@ -1,5 +1,5 @@
 -bsp +
--nolight
+-light +
 -novis
 -minimap +
 Version: 1

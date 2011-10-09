@@ -1,5 +1,7 @@
 {
 "classname" "worldspawn"
+"gridsize" "256 256 256"
+"_floodlight" "240 240 255 512 128"
 {
 brushDef
 {
@@ -2550,13 +2552,14 @@ brushDef
 "model" "models/map_opera/goldendetails.md3"
 "modelscale" "8.000000"
 "origin" "0.000000 0.000000 0.000000"
+"effects" "512"
 }
 {
 "classname" "misc_model"
 "model" "models/map_opera/opera3.ase"
 "modelscale" "8.000000"
 "origin" "0.000000 0.000000 0.000000"
-"spawnflags" "2"
+"spawnflags" "6"
 }
 {
 "classname" "misc_model_NOT"
@@ -2565,4 +2568,204 @@ brushDef
 "origin" "0.000000 0.000000 0.000000"
 "spawnflags" "2"
 "_remap" "*;textures/common/weapclip"
+}
+{
+"classname" "light"
+"origin" "832.000000 -608.000000 1328.000000"
+"light" "384"
+}
+{
+"classname" "light"
+"origin" "832.000000 -608.000000 480.000000"
+"light" "384"
+}
+{
+"classname" "light"
+"origin" "832.000000 -608.000000 768.000000"
+"light" "384"
+}
+{
+"classname" "light"
+"origin" "928.000000 448.000000 1344.000000"
+"light" "384"
+}
+{
+"classname" "light"
+"origin" "928.000000 448.000000 480.000000"
+"light" "384"
+}
+{
+"classname" "light"
+"origin" "928.000000 448.000000 768.000000"
+"light" "384"
+}
+{
+"classname" "light"
+"origin" "832.000000 -608.000000 1056.000000"
+"light" "384"
+}
+{
+"classname" "light"
+"origin" "928.000000 128.000000 1344.000000"
+"light" "384"
+}
+{
+"classname" "light"
+"origin" "928.000000 128.000000 1056.000000"
+"light" "384"
+}
+{
+"classname" "light"
+"origin" "928.000000 128.000000 480.000000"
+"light" "384"
+}
+{
+"classname" "light"
+"origin" "928.000000 128.000000 768.000000"
+"light" "384"
+}
+{
+"classname" "light"
+"origin" "928.000000 -224.000000 1344.000000"
+"light" "384"
+}
+{
+"classname" "light"
+"origin" "928.000000 -224.000000 1056.000000"
+"light" "384"
+}
+{
+"classname" "light"
+"origin" "928.000000 -224.000000 480.000000"
+"light" "384"
+}
+{
+"classname" "light"
+"origin" "928.000000 -224.000000 768.000000"
+"light" "384"
+}
+{
+"classname" "light"
+"origin" "288.000000 -1072.000000 1328.000000"
+"light" "384"
+}
+{
+"classname" "light"
+"origin" "-832.000000 -608.000000 1056.000000"
+"light" "384"
+}
+{
+"classname" "light"
+"origin" "-928.000000 448.000000 1056.000000"
+"light" "384"
+}
+{
+"classname" "light"
+"origin" "-928.000000 448.000000 480.000000"
+"light" "384"
+}
+{
+"classname" "light"
+"origin" "-928.000000 448.000000 768.000000"
+"light" "384"
+}
+{
+"classname" "light"
+"origin" "-928.000000 128.000000 1328.000000"
+"light" "384"
+}
+{
+"classname" "light"
+"origin" "-928.000000 128.000000 1056.000000"
+"light" "384"
+}
+{
+"classname" "light"
+"origin" "-928.000000 128.000000 480.000000"
+"light" "384"
+}
+{
+"classname" "light"
+"origin" "-928.000000 128.000000 768.000000"
+"light" "384"
+}
+{
+"classname" "light"
+"origin" "-928.000000 -224.000000 1328.000000"
+"light" "384"
+}
+{
+"classname" "light"
+"origin" "-928.000000 -224.000000 1056.000000"
+"light" "384"
+}
+{
+"classname" "light"
+"origin" "-928.000000 -224.000000 480.000000"
+"light" "384"
+}
+{
+"classname" "light"
+"origin" "-928.000000 -224.000000 768.000000"
+"light" "384"
+}
+{
+"classname" "light"
+"origin" "-832.000000 -608.000000 480.000000"
+"light" "384"
+}
+{
+"classname" "light"
+"origin" "-832.000000 -608.000000 768.000000"
+"light" "384"
+}
+{
+"classname" "light"
+"origin" "928.000000 448.000000 1056.000000"
+"light" "384"
+}
+{
+"classname" "light"
+"origin" "-832.000000 -608.000000 1328.000000"
+"light" "384"
+}
+{
+"classname" "light"
+"origin" "0.000000 -1120.000000 1328.000000"
+"light" "384"
+}
+{
+"classname" "light"
+"origin" "-288.000000 -1072.000000 1328.000000"
+"light" "384"
+}
+{
+"classname" "light"
+"origin" "-224.000000 -864.000000 480.000000"
+"light" "384"
+}
+{
+"classname" "light"
+"origin" "0.000000 -832.000000 480.000000"
+"light" "384"
+}
+{
+"classname" "light"
+"origin" "256.000000 -864.000000 480.000000"
+"light" "384"
+}
+{
+"classname" "light"
+"origin" "0.000000 -832.000000 992.000000"
+"light" "384"
+}
+{
+"classname" "light"
+"origin" "256.000000 -864.000000 992.000000"
+"light" "384"
+}
+{
+"classname" "light"
+"origin" "-224.000000 -864.000000 992.000000"
+"light" "384"
 }
