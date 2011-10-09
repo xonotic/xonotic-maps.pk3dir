@@ -35,7 +35,38 @@ textures/map_arena/light_beam_anim
 		tcMod scroll -2 0
 	}
 }
-
+textures/map_arena/light_beam_anim_red
+{
+	qer_editorimage textures/map_arena/gfx/light_beam_anim_r_qer.tga
+	surfaceparm nolightmap
+	surfaceparm nomarks
+	surfaceparm nonsolid
+	surfaceparm trans
+	cull none
+	qer_trans 0.6
+	{
+		map textures/map_arena/gfx/light_beam_anim_r.tga
+		blendfunc blend
+//		alphaFunc GT0
+		tcMod scroll -2 0
+	}
+}
+textures/map_arena/light_beam_anim_green
+{
+	qer_editorimage textures/map_arena/gfx/light_beam_anim_g_qer.tga
+	surfaceparm nolightmap
+	surfaceparm nomarks
+	surfaceparm nonsolid
+	surfaceparm trans
+	cull none
+	qer_trans 0.6
+	{
+		map textures/map_arena/gfx/light_beam_anim_g.tga
+		blendfunc blend
+//		alphaFunc GT0
+		tcMod scroll -2 0
+	}
+}
 textures/map_arena/pulseblue_anim
 {
 	qer_editorimage textures/map_arena/gfx/pulseblue.tga
