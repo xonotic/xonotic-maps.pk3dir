@@ -2553,7 +2553,7 @@ brushDef
 }
 {
 "classname" "misc_model"
-"model" "models/map_opera/operatest2.ase"
+"model" "models/map_opera/opera3.ase"
 "modelscale" "8.000000"
 "origin" "0.000000 0.000000 0.000000"
 "spawnflags" "2"
