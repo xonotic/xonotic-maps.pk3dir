@@ -296,6 +296,26 @@ textures/facility114invx/trim-trim02inv
 		blendfunc filter
 	}
 }
+textures/facility114invx/trim-trim01invg
+{
+	qer_editorimage textures/facility114invx/trim/trim01invg.tga
+	dpoffsetmapping - 1 match8 69
+	
+	q3map_bounceScale 1.25
+
+
+	{
+		map textures/facility114invx/trim/trim01invg.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
 textures/facility114invx/wall-corridor00inv
 {
 	qer_editorimage textures/facility114invx/wall/corridor00inv.tga
