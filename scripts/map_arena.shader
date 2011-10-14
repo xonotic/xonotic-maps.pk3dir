@@ -137,3 +137,81 @@ textures/map_arena/baseblue
 		blendfunc filter
 	}
 }
+textures/map_arena/basered
+{
+	qer_editorimage textures/map_arena/base/red.tga
+	
+	q3map_bounceScale 1.25
+
+
+	{
+		map textures/map_arena/base/red.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/map_arena/basegreen
+{
+	qer_editorimage textures/map_arena/base/green.tga
+	
+	q3map_bounceScale 1.25
+
+
+	{
+		map textures/map_arena/base/green.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+
+//These warpzone shaders do not render reflection! Map specific. 
+textures/map_arena/warpzone_blue
+{
+	qer_editorimage textures/map_arena/warpzone/blueqer.tga
+//	surfaceparm nonsolid	//NO! SOLID! Else it's epic fail
+	surfaceparm nomarks
+	q3map_surfacelight 2500
+	cull none
+	{
+		map textures/effects_warpzone/blueedge.tga
+		blendfunc GL_SRC_ALPHA GL_ONE
+	}
+}
+
+textures/map_arena/warpzone_red
+{
+	qer_editorimage textures/map_arena/warpzone/redqer.tga
+//	surfaceparm nonsolid	//NO! SOLID! Else it's epic fail
+	surfaceparm nomarks
+	q3map_surfacelight 2500
+	cull none
+	{
+		map textures/effects_warpzone/rededge.tga
+		blendfunc GL_SRC_ALPHA GL_ONE
+	}
+}
+
+textures/map_arena/warpzone_green
+{
+	qer_editorimage textures/map_arena/warpzone/greenqer.tga
+//	surfaceparm nonsolid	//NO! SOLID! Else it's epic fail
+	surfaceparm nomarks
+	q3map_surfacelight 2500
+	cull none
+	{
+		map textures/effects_warpzone/greenedge.tga
+		blendfunc GL_SRC_ALPHA GL_ONE
+	}
+}
