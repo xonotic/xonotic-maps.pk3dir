@@ -461,6 +461,28 @@ textures/ex2x/light-beam_red
 		blendfunc filter
 	}
 }
+textures/ex2x/light-beam_green
+{
+	qer_editorimage textures/ex2x/light/light_beam_green.tga
+	
+	q3map_bounceScale  0.75
+	dpoffsetmapping - 0.5 match8 99
+	dpglossintensitymod  3
+	dpglossexponentmod  4
+
+
+	{
+		map textures/ex2x/light/light_beam_green.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
 textures/ex2x/trim-green2
 {
 	qer_editorimage textures/ex2x/trim/trim_green2.tga
