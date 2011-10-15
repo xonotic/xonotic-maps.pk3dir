@@ -7,6 +7,7 @@ textures/map_opera/lightconcrete
 	dpreflectcube env/exomorph/exomorph
 	q3map_bouncescale 1.25
 	q3map_tcmod scale 256 256
+	surfaceparm nosteps
 	{
 		map textures/exomorphx/base/concrete
 	}
