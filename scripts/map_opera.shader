@@ -82,3 +82,68 @@ textures/map_opera/gold
 		map $lightmap
 	}
 }
+
+textures/map_opera/nosteps
+{
+	qer_editorimage textures/facility114x/misc/lift00.tga
+	dpoffsetmapping - 1 match8 98
+	q3map_bounceScale 1.25
+	surfaceparm nosteps
+	{
+		map textures/facility114x/misc/lift00.tga
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+
+textures/map_opera/metalsteps
+{
+        qer_editorimage textures/facility114x/floor/floor02.tga
+        dpoffsetmapping - 1 match8 9
+        q3map_bounceScale 1.25
+	surfaceparm metalsteps
+        {
+                map textures/facility114x/floor/floor02.tga
+        }
+        {
+                map $lightmap
+                rgbGen identity
+                tcGen lightmap
+                blendfunc filter
+        }
+}
+
+textures/map_opera/middle
+{
+        qer_editorimage textures/facility114x/base/base.tga
+        q3map_bounceScale 1.25
+        {
+                map textures/facility114x/base/base.tga
+        }
+        {
+                map $lightmap
+                rgbGen identity
+                tcGen lightmap
+                blendfunc filter
+        }
+}
+
+textures/map_opera/front
+{
+        qer_editorimage textures/facility114x/misc/lift00r.tga
+        dpoffsetmapping - 1 match8 98
+        q3map_bounceScale 1.25
+        {
+                map textures/facility114x/misc/lift00r.tga
+        }
+        {
+                map $lightmap
+                rgbGen identity
+                tcGen lightmap
+                blendfunc filter
+        }
+}
