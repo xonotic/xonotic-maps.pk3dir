@@ -1,0 +1,12 @@
+title recratemini
+description quick map made for ctf overkill
+author Morphed
+cdtrack 4
+// uncomment this if you added weapon pickups: has weapons
+gametype ctf // defaults: timelimit=20 pointlimit=300 caplimit=10 leadlimit=0
+// optional: fog density red green blue alpha mindist maxdist
+// optional: settemp_for_type (all|gametypename) cvarname value
+clientsettemp_for_type (all|gametypename) r_bloom_colorscale 1.1
+clientsettemp_for_type (all|gametypename) r_bloom_brighten 1.1
+// optional: size mins_x mins_y mins_z maxs_x maxs_y maxs_z
+// optional: hidden

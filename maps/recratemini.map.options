@@ -1,0 +1,5 @@
+-bsp + -samplesize 8 -minsamplesize 4
+-light + -randomsamples -samples 4 -lightmapsize 512 -bounce 8 -fastbounce -bouncegrid -dirty -dirtscale 2
+-vis +
+-minimap +
+Version: 9 
