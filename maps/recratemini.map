@@ -2,7 +2,6 @@
 "classname" "worldspawn"
 "_floodlight" "244 231 166 1024 128"
 "_blocksize" "512"
-"_gridsize" "32 32 64"
 {
 brushDef
 {
