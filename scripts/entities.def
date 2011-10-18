@@ -575,6 +575,33 @@ FLOATING: the item will float in air, instead of aligning to the floor by fallin
 modeldisabled="models/items/g_invincible.md3"
 */
 
+/*QUAKED item_key (0 .5 .8) (-16 -16 -24) (16 16 32) FLOATING
+A key entity.
+The itemkeys should contain one of the following key IDs:
+1 - GOLD key - 
+2 - SILVER key
+4 - BRONZE key
+8 - RED keycard
+16 - BLUE keycard
+32 - GREEN keycard
+Custom keys:
+... - last key is 1<<23
+Keys with bigger Id than 32 don't have a default netname and model, if you use one of them, you MUST provide those.
+-----------KEYS------------
+colormod: color of the key (default: '.9 .9 .9').
+itemkeys: a key Id.
+message: message to print when player picks up this key.
+model: custom key model to use.
+netname: the display name of the key.
+noise: custom sound to play when player picks up the key.
+-------- SPAWNFLAGS --------
+FLOATING: the item will float in air, instead of aligning to the floor by falling
+---------NOTES----------
+This is the only correct way to put keys on the map!
+
+itemkeys MUST always have exactly one bit set.
+*/
+
 /*QUAKED item_key1 (0 .5 .8) (-16 -16 -24) (16 16 32) FLOATING
 SILVER key.
 -----------KEYS------------
@@ -585,6 +612,7 @@ noise: custom sound to play when player picks up the key.
 -------- SPAWNFLAGS --------
 FLOATING: the item will float in air, instead of aligning to the floor by falling
 ---------NOTES----------
+Don't use this entity on new maps! Use item_key instead.
 */
 
 /*QUAKED item_key2 (0 .5 .8) (-16 -16 -24) (16 16 32) FLOATING
@@ -597,6 +625,7 @@ noise: custom sound to play when player picks up the key.
 -------- SPAWNFLAGS --------
 FLOATING: the item will float in air, instead of aligning to the floor by falling
 ---------NOTES----------
+Don't use this entity on new maps! Use item_key instead.
 */
 
 /*QUAKED item_minst_cells (.3 .3 1) (-30 -30 0) (30 30 32) FLOATING
@@ -1098,27 +1127,23 @@ strength: "wind field", "gravity field": amount of force per second to apply. "d
 falloff: "gravity field": 0 means no falloff, 1 means linear falloff (zero at the outside), 2 means inverted linear falloff (zero at the inside)
 */
 
-/*QUAKED trigger_keylock (.0 .5 .8) ? - - - GOLD_KEY SILVER_KEY
+/*QUAKED trigger_keylock (.0 .5 .8) ?
 Keylock trigger.  Must target other entities.
 This trigger will trigger target entities when all required keys are provided.
 -------- KEYS --------
-wait: prevent triggering again for this amount of time (default: 5) - applies to target2, target3, target4.
-sounds: 1 to play misc/secret.wav, 2 to play misc/talk.wav, 3 to play misc/trigger1.wav
+itemkeys: A bit field with key IDs that are needed to open this lock.
+sounds: 1 to play misc/secret.wav, 2 to play misc/talk.wav, 3 to play misc/trigger1.wav (3 is default)
 target: trigger all entities with this targetname when triggered and all keys have been given to it, then remove this trigger
 target2: trigger all entities with this targetname when triggered without giving it all the required keys.
-target3: trigger all entities with this targetname when triggered with GOLD_KEY missing (requires GOLD_KEY spawnflag)
-target4: trigger all entities with this targetname when triggered with SILVER_KEY missing (requires SILVER_KEY spawnflag)
+killtarget: remove all entities with this targetname when triggered with all the needed keys.
 message: print this message to the player who activated the trigger when all needed keys have been given.
 message2: print this message to the player who activated the trigger when not all of the needed keys have been given.
 noise: sound to play when lock gets unlocked (default: see sounds)
-noise1: sound to play when only one of the needed key was used (default: misc/decreasevalue.wav)
+noise1: sound to play when only some of the needed key were used but not all (default: misc/decreasevalue.wav)
 noise2: sound to play when a key is missing (default: misc/talk.wav)
-killtarget: remove all entities with this targetname when triggered with all the needed keys.
--------- SPAWNFLAGS --------
-GOLD_KEY: causes the door to open only if the activator holds a gold key.
-SILVER_KEY: causes the door to open only if the activator holds a silver key.
+wait: prevent triggering again for this amount of time (default: 5) - applies to target2, target3, target4.
 ---------NOTES----------
-If spawned without any key specified, this trigger will remove itself.
+If spawned without any key specified in itemkeys, this trigger will display an error and remove itself.
 message2 and noise2 will be resent to the player every 2 seconds while he is in the trigger zone.
 */
 
