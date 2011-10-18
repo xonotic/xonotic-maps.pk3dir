@@ -1,6 +1,5 @@
 title recratemini
-description quick map made for ctf overkill
-author Morphed
+description a map so small it triggered a bug
 cdtrack 4
 // uncomment this if you added weapon pickups: has weapons
 gametype ctf // defaults: timelimit=20 pointlimit=300 caplimit=10 leadlimit=0
