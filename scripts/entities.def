@@ -146,13 +146,16 @@ dmg: damage to inflict when blocked (when triggered and someone is in the way)
 sounds: when 1, use default door sounds
 noise1: sound when the door opens
 noise2: sound when the door closes
+itemkeys: keys required to open this door.
 -------- SPAWNFLAGS --------
 START_OPEN: causes the door to move to its destination when spawned, and operate in reverse.  It is used to temporarily or permanently close off an area when triggered (not useful for touch or damage triggered doors).
 DOOR_DONT_LINK: the door won't link with another door it touches
-GOLD_KEY: causes the door to open only if the activator holds a gold key.
-SILVER_KEY: causes the door to open only if the activator holds a silver key.
+GOLD_KEY: causes the door to open only if the activator holds a gold key (Q1 compatibility).
+SILVER_KEY: causes the door to open only if the activator holds a silver key (Q1 compatibility).
 TOGGLE: causes the door to wait in both the start and end states for a trigger event.
 NOSPLASH: if set, splash damage cannot activate the door, only direct damage can (requires health to be set)
+-------- NOTES --------
+More information about keys can be found in item_key description.
 */
 
 /*QUAKED func_door_rotating (0 .5 .8) ? START_OPEN BIDIR DOOR_DONT_LINK BIDIR_IN_DOWN - TOGGLE X_AXIS Y_AXIS NOSPLASH
