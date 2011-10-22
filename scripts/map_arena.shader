@@ -67,7 +67,7 @@ textures/map_arena/light_beam_anim_green
 		tcMod scroll -2 0
 	}
 }
-textures/map_arena/pulseblue_anim
+textures/map_arena/pulseblue_scroll
 {
 	qer_editorimage textures/map_arena/gfx/pulseblue.tga
 	surfaceparm nolightmap
@@ -84,7 +84,109 @@ textures/map_arena/pulseblue_anim
 	}
 }
 
-textures/map_arena/pulsered_anim
+textures/map_arena/pulseblue_move22_1
+{
+	qer_editorimage textures/map_arena/gfx/pulseblue.tga
+	surfaceparm nolightmap
+	surfaceparm nomarks
+	surfaceparm nonsolid
+	surfaceparm trans
+	deformVertexes move 0 0 22 sin 0 1 0 0.1
+	cull none
+	qer_trans 0.6
+	{
+		map textures/map_arena/gfx/pulseblue.tga
+		blendfunc blend
+//		alphaFunc GT0
+		tcMod scroll 0 2
+	}
+}
+textures/map_arena/pulseblue_move22_2
+{
+	qer_editorimage textures/map_arena/gfx/pulseblue.tga
+	surfaceparm nolightmap
+	surfaceparm nomarks
+	surfaceparm nonsolid
+	surfaceparm trans
+	deformVertexes move 0 0 22 sin 0 1 0 0.2
+	cull none
+	qer_trans 0.6
+	{
+		map textures/map_arena/gfx/pulseblue.tga
+		blendfunc blend
+//		alphaFunc GT0
+		tcMod scroll 0 2
+	}
+}
+textures/map_arena/pulseblue_move22_3
+{
+	qer_editorimage textures/map_arena/gfx/pulseblue.tga
+	surfaceparm nolightmap
+	surfaceparm nomarks
+	surfaceparm nonsolid
+	surfaceparm trans
+	deformVertexes move 0 0 22 sin 0 1 0 0.3
+	cull none
+	qer_trans 0.6
+	{
+		map textures/map_arena/gfx/pulseblue.tga
+		blendfunc blend
+//		alphaFunc GT0
+		tcMod scroll 0 2
+	}
+}
+textures/map_arena/pulseblue_move48
+{
+	qer_editorimage textures/map_arena/gfx/pulseblue.tga
+	surfaceparm nolightmap
+	surfaceparm nomarks
+	surfaceparm nonsolid
+	surfaceparm trans
+	deformVertexes move 0 0 48 sin 0 1 0 0.1
+	cull none
+	qer_trans 0.6
+	{
+		map textures/map_arena/gfx/pulseblue.tga
+		blendfunc blend
+//		alphaFunc GT0
+		tcMod scroll 0 2
+	}
+}
+textures/map_arena/pulseblue_move64
+{
+	qer_editorimage textures/map_arena/gfx/pulseblue.tga
+	surfaceparm nolightmap
+	surfaceparm nomarks
+	surfaceparm nonsolid
+	surfaceparm trans
+	deformVertexes move 0 0 64 sin 0 1 0 0.3
+	cull none
+	qer_trans 0.6
+	{
+		map textures/map_arena/gfx/pulseblue.tga
+		blendfunc blend
+//		alphaFunc GT0
+		tcMod scroll 0 2
+	}
+}
+textures/map_arena/pulseblue_move80
+{
+	qer_editorimage textures/map_arena/gfx/pulseblue.tga
+	surfaceparm nolightmap
+	surfaceparm nomarks
+	surfaceparm nonsolid
+	surfaceparm trans
+	deformVertexes move 0 0 80 sin 0 1 0 0.2
+	cull none
+	qer_trans 0.6
+	{
+		map textures/map_arena/gfx/pulseblue.tga
+		blendfunc blend
+//		alphaFunc GT0
+		tcMod scroll 0 2
+	}
+}
+textures/map_arena/pulsered_scroll
 {
 	qer_editorimage textures/map_arena/gfx/pulsered.tga
 	surfaceparm nolightmap
@@ -100,14 +202,218 @@ textures/map_arena/pulsered_anim
 		tcMod scroll 0 2
 	}
 }
-
-textures/map_arena/pulsegreen_anim
+textures/map_arena/pulsered_move22_1
+{
+	qer_editorimage textures/map_arena/gfx/pulsered.tga
+	surfaceparm nolightmap
+	surfaceparm nomarks
+	surfaceparm nonsolid
+	surfaceparm trans
+	deformVertexes move 0 0 22 sin 0 1 0 0.1
+	cull none
+	qer_trans 0.6
+	{
+		map textures/map_arena/gfx/pulsered.tga
+		blendfunc blend
+//		alphaFunc GT0
+		tcMod scroll 0 2
+	}
+}
+textures/map_arena/pulsered_move22_2
+{
+	qer_editorimage textures/map_arena/gfx/pulsered.tga
+	surfaceparm nolightmap
+	surfaceparm nomarks
+	surfaceparm nonsolid
+	surfaceparm trans
+	deformVertexes move 0 0 22 sin 0 1 0 0.2
+	cull none
+	qer_trans 0.6
+	{
+		map textures/map_arena/gfx/pulsered.tga
+		blendfunc blend
+//		alphaFunc GT0
+		tcMod scroll 0 2
+	}
+}
+textures/map_arena/pulsered_move22_3
+{
+	qer_editorimage textures/map_arena/gfx/pulsered.tga
+	surfaceparm nolightmap
+	surfaceparm nomarks
+	surfaceparm nonsolid
+	surfaceparm trans
+	deformVertexes move 0 0 22 sin 0 1 0 0.3
+	cull none
+	qer_trans 0.6
+	{
+		map textures/map_arena/gfx/pulsered.tga
+		blendfunc blend
+//		alphaFunc GT0
+		tcMod scroll 0 2
+	}
+}
+textures/map_arena/pulsered_move48
+{
+	qer_editorimage textures/map_arena/gfx/pulsered.tga
+	surfaceparm nolightmap
+	surfaceparm nomarks
+	surfaceparm nonsolid
+	surfaceparm trans
+	deformVertexes move 0 0 48 sin 0 1 0 0.1
+	cull none
+	qer_trans 0.6
+	{
+		map textures/map_arena/gfx/pulsered.tga
+		blendfunc blend
+//		alphaFunc GT0
+		tcMod scroll 0 2
+	}
+}
+textures/map_arena/pulsered_move64
+{
+	qer_editorimage textures/map_arena/gfx/pulsered.tga
+	surfaceparm nolightmap
+	surfaceparm nomarks
+	surfaceparm nonsolid
+	surfaceparm trans
+	deformVertexes move 0 0 64 sin 0 1 0 0.3
+	cull none
+	qer_trans 0.6
+	{
+		map textures/map_arena/gfx/pulsered.tga
+		blendfunc blend
+//		alphaFunc GT0
+		tcMod scroll 0 2
+	}
+}
+textures/map_arena/pulsered_move80
+{
+	qer_editorimage textures/map_arena/gfx/pulsered.tga
+	surfaceparm nolightmap
+	surfaceparm nomarks
+	surfaceparm nonsolid
+	surfaceparm trans
+	deformVertexes move 0 0 80 sin 0 1 0 0.2
+	cull none
+	qer_trans 0.6
+	{
+		map textures/map_arena/gfx/pulsered.tga
+		blendfunc blend
+//		alphaFunc GT0
+		tcMod scroll 0 2
+	}
+}
+textures/map_arena/pulsegreen_scroll
 {
 	qer_editorimage textures/map_arena/gfx/pulsegreen.tga
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm trans
+	cull none
+	qer_trans 0.6
+	{
+		map textures/map_arena/gfx/pulsegreen.tga
+		blendfunc blend
+//		alphaFunc GT0
+		tcMod scroll 0 2
+	}
+}
+
+textures/map_arena/pulsegreen_move22_1
+{
+	qer_editorimage textures/map_arena/gfx/pulsegreen.tga
+	surfaceparm nolightmap
+	surfaceparm nomarks
+	surfaceparm nonsolid
+	surfaceparm trans
+	deformVertexes move 0 0 22 sin 0 1 0 0.1
+	cull none
+	qer_trans 0.6
+	{
+		map textures/map_arena/gfx/pulsegreen.tga
+		blendfunc blend
+//		alphaFunc GT0
+		tcMod scroll 0 2
+	}
+}
+textures/map_arena/pulsegreen_move22_2
+{
+	qer_editorimage textures/map_arena/gfx/pulsegreen.tga
+	surfaceparm nolightmap
+	surfaceparm nomarks
+	surfaceparm nonsolid
+	surfaceparm trans
+	deformVertexes move 0 0 22 sin 0 1 0 0.2
+	cull none
+	qer_trans 0.6
+	{
+		map textures/map_arena/gfx/pulsegreen.tga
+		blendfunc blend
+//		alphaFunc GT0
+		tcMod scroll 0 2
+	}
+}
+textures/map_arena/pulsegreen_move22_3
+{
+	qer_editorimage textures/map_arena/gfx/pulsegreen.tga
+	surfaceparm nolightmap
+	surfaceparm nomarks
+	surfaceparm nonsolid
+	surfaceparm trans
+	deformVertexes move 0 0 22 sin 0 1 0 0.3
+	cull none
+	qer_trans 0.6
+	{
+		map textures/map_arena/gfx/pulsegreen.tga
+		blendfunc blend
+//		alphaFunc GT0
+		tcMod scroll 0 2
+	}
+}
+textures/map_arena/pulsegreen_move48
+{
+	qer_editorimage textures/map_arena/gfx/pulsegreen.tga
+	surfaceparm nolightmap
+	surfaceparm nomarks
+	surfaceparm nonsolid
+	surfaceparm trans
+	deformVertexes move 0 0 48 sin 0 1 0 0.1
+	cull none
+	qer_trans 0.6
+	{
+		map textures/map_arena/gfx/pulsegreen.tga
+		blendfunc blend
+//		alphaFunc GT0
+		tcMod scroll 0 2
+	}
+}
+textures/map_arena/pulsegreen_move64
+{
+	qer_editorimage textures/map_arena/gfx/pulsegreen.tga
+	surfaceparm nolightmap
+	surfaceparm nomarks
+	surfaceparm nonsolid
+	surfaceparm trans
+	deformVertexes move 0 0 64 sin 0 1 0 0.3
+	cull none
+	qer_trans 0.6
+	{
+		map textures/map_arena/gfx/pulsegreen.tga
+		blendfunc blend
+//		alphaFunc GT0
+		tcMod scroll 0 2
+	}
+}
+textures/map_arena/pulsegreen_move80
+{
+	qer_editorimage textures/map_arena/gfx/pulsegreen.tga
+	surfaceparm nolightmap
+	surfaceparm nomarks
+	surfaceparm nonsolid
+	surfaceparm trans
+	deformVertexes move 0 0 80 sin 0 1 0 0.2
 	cull none
 	qer_trans 0.6
 	{
