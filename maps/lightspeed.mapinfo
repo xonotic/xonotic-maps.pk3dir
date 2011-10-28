@@ -1,7 +1,7 @@
 title Lightspeed by C.Brutail
-description Very small, 1on1 CTF map. Key to survival: move as fast, as the speed of light!
+description Very small, 1on1 CTF map. Key to survive: move as fast, as the speed of light!
 author C.Brutail
-cdtrack 
+cdtrack sensation3
 has weapons
 type ctf 300 20 10
 settemp_for_type all g_start_ammo_shells 20 

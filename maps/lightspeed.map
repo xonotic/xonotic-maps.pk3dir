@@ -2,7 +2,7 @@
 "classname" "worldspawn"
 "message" "Lightspeed by C.Brutail"
 "author" "C.Brutail"
-"_description" "Very small, 1on1 CTF map. Key to survival: move as fast, as the speed of light!"
+"_description" "Very small, 1on1 CTF map. Key to survive: move as fast, as the speed of light!"
 {
 ( 256 160 64 ) ( 160 -256 64 ) ( 160 256 64 ) facility114x/base-baseyellow 0 0 0 0.25 0.25 0 0 0
 ( 256 -160 64 ) ( 160 -256 0 ) ( 160 -256 64 ) common/caulk 0 0 0 -0.5 0.5 0 0 0
