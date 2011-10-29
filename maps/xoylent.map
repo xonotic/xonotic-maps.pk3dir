@@ -28993,3 +28993,7 @@ exx/trim-baseboard
 "light" "96"
 "_color" "1 0.9375 0.875"
 }
+{
+"classname" "weapon_tuba"
+"origin" "544.000000 -992.000000 640.000000"
+}
