@@ -129,7 +129,7 @@ health: (default 0) if set to any non-zero value, the button must take damage (a
 NOSPLASH: if set, splash damage cannot activate the door, only direct damage can (requires health to be set)
 */
 
-/*QUAKED func_door (0 .5 .8) ? START_OPEN - DOOR_DONT_LINK - - TOGGLE - - NOSPLASH
+/*QUAKED func_door (0 .5 .8) ? START_OPEN - DOOR_DONT_LINK GOLD_KEY SILVER_KEY TOGGLE - - NOSPLASH
 Normal sliding door entity. By default, the door will activate when player walks close to it or when damage is inflicted to it.
 If DOOR_DONT_LINK is not set, the door will be linked with all doors it touches. Note however that for linked doors to work properly, it is necessary that ALL linked doors have SOME volume of common area (that is, there must be a point that is part of ALL doors).
 -------- KEYS --------
@@ -146,11 +146,16 @@ dmg: damage to inflict when blocked (when triggered and someone is in the way)
 sounds: when 1, use default door sounds
 noise1: sound when the door opens
 noise2: sound when the door closes
+itemkeys: keys required to open this door.
 -------- SPAWNFLAGS --------
 START_OPEN: causes the door to move to its destination when spawned, and operate in reverse.  It is used to temporarily or permanently close off an area when triggered (not useful for touch or damage triggered doors).
 DOOR_DONT_LINK: the door won't link with another door it touches
+GOLD_KEY: causes the door to open only if the activator holds a gold key (Q1 compatibility).
+SILVER_KEY: causes the door to open only if the activator holds a silver key (Q1 compatibility).
 TOGGLE: causes the door to wait in both the start and end states for a trigger event.
 NOSPLASH: if set, splash damage cannot activate the door, only direct damage can (requires health to be set)
+-------- NOTES --------
+More information about keys can be found in item_key description.
 */
 
 /*QUAKED func_door_rotating (0 .5 .8) ? START_OPEN BIDIR DOOR_DONT_LINK BIDIR_IN_DOWN - TOGGLE X_AXIS Y_AXIS NOSPLASH
@@ -571,6 +576,59 @@ cnt: weight of this item for random selection using "team". Set to a lower value
 FLOATING: the item will float in air, instead of aligning to the floor by falling
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 modeldisabled="models/items/g_invincible.md3"
+*/
+
+/*QUAKED item_key (0 .5 .8) (-16 -16 -24) (16 16 32) FLOATING
+A key entity.
+The itemkeys should contain one of the following key IDs:
+1 - GOLD key - 
+2 - SILVER key
+4 - BRONZE key
+8 - RED keycard
+16 - BLUE keycard
+32 - GREEN keycard
+Custom keys:
+... - last key is 1<<23
+Keys with bigger Id than 32 don't have a default netname and model, if you use one of them, you MUST provide those.
+-----------KEYS------------
+colormod: color of the key (default: '.9 .9 .9').
+itemkeys: a key Id.
+message: message to print when player picks up this key.
+model: custom key model to use.
+netname: the display name of the key.
+noise: custom sound to play when player picks up the key.
+-------- SPAWNFLAGS --------
+FLOATING: the item will float in air, instead of aligning to the floor by falling
+---------NOTES----------
+This is the only correct way to put keys on the map!
+
+itemkeys MUST always have exactly one bit set.
+*/
+
+/*QUAKED item_key1 (0 .5 .8) (-16 -16 -24) (16 16 32) FLOATING
+SILVER key.
+-----------KEYS------------
+colormod: color of the key (default: '.9 .9 .9').
+message: message to print when player picks up this key.
+model: custom model to use.
+noise: custom sound to play when player picks up the key.
+-------- SPAWNFLAGS --------
+FLOATING: the item will float in air, instead of aligning to the floor by falling
+---------NOTES----------
+Don't use this entity on new maps! Use item_key instead.
+*/
+
+/*QUAKED item_key2 (0 .5 .8) (-16 -16 -24) (16 16 32) FLOATING
+GOLD key.
+-----------KEYS------------
+colormod: color of the key (default: '1 .9 0').
+message: message to print when player picks up this key.
+model: custom model to use.
+noise: custom sound to play when player picks up the key.
+-------- SPAWNFLAGS --------
+FLOATING: the item will float in air, instead of aligning to the floor by falling
+---------NOTES----------
+Don't use this entity on new maps! Use item_key instead.
 */
 
 /*QUAKED item_minst_cells (.3 .3 1) (-30 -30 0) (30 30 32) FLOATING
@@ -1072,6 +1130,26 @@ strength: "wind field", "gravity field": amount of force per second to apply. "d
 falloff: "gravity field": 0 means no falloff, 1 means linear falloff (zero at the outside), 2 means inverted linear falloff (zero at the inside)
 */
 
+/*QUAKED trigger_keylock (.0 .5 .8) ?
+Keylock trigger.  Must target other entities.
+This trigger will trigger target entities when all required keys are provided.
+-------- KEYS --------
+itemkeys: A bit field with key IDs that are needed to open this lock.
+sounds: 1 to play misc/secret.wav, 2 to play misc/talk.wav, 3 to play misc/trigger1.wav (3 is default)
+target: trigger all entities with this targetname when triggered and all keys have been given to it, then remove this trigger
+target2: trigger all entities with this targetname when triggered without giving it all the required keys.
+killtarget: remove all entities with this targetname when triggered with all the needed keys.
+message: print this message to the player who activated the trigger when all needed keys have been given.
+message2: print this message to the player who activated the trigger when not all of the needed keys have been given.
+noise: sound to play when lock gets unlocked (default: see sounds)
+noise1: sound to play when only some of the needed key were used but not all (default: misc/decreasevalue.wav)
+noise2: sound to play when a key is missing (default: misc/talk.wav)
+wait: prevent triggering again for this amount of time (default: 5) - applies to target2, target3, target4.
+---------NOTES----------
+If spawned without any key specified in itemkeys, this trigger will display an error and remove itself.
+message2 and noise2 will be resent to the player every 2 seconds while he is in the trigger zone.
+*/
+
 /*QUAKED trigger_multiple (.5 .5 .5) ? NOTOUCH ALLENTS INVERT_TEAM - - - - - NOSPLASH
 Variable sized repeatable trigger.  Must be targeted at one or more entities.  If "health" is set, the trigger must be killed to activate each time.
 -------- KEYS --------
@@ -1145,6 +1223,20 @@ targetname: name that identifies this entity so it can be triggered
 delay: delay the triggering by the given time
 message: print this message to the player who activated the trigger
 killtarget: remove all entities with this targetname when triggered
+*/
+
+/*QUAKED trigger_secret (.5 .5 .5) ?
+Variable sized secret trigger. Can be targeted at one or more entities.
+Basically, it's a trigger_once that additionally updates the number of secrets found.
+-------- KEYS --------
+sounds: 1 to play misc/secret.wav, 2 to play misc/talk.wav, 3 to play misc/trigger1.wav (default: 1)
+noise: path to sound file, if you want to play something else
+target: trigger all entities with this targetname when triggered
+message: print this message to the player who activated the trigger instead of the standard 'You found a secret!'
+killtarget: remove all entities with this targetname when triggered
+-------- NOTES --------
+You should create a common/trigger textured brush covering the entrance to a secret room/area.
+Trigger secret can only be trigger by a player's touch and can not be a target itself.
 */
 
 /*QUAKED trigger_swamp (.5 .5 .5) ? 
