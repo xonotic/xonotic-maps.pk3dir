@@ -18,7 +18,7 @@ textures/map_xoylent/light-panel01-surfacelight
 	qer_editorimage textures/exx/light/light_panel01.tga
 	
 	q3map_bounceScale  0.75
-	dpoffsetmapping - 2
+	dpoffsetmapping - 2 match8 79
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
@@ -42,7 +42,7 @@ textures/map_xoylent/light-u201-surfacelight
 	qer_editorimage textures/exx/light/light_u201.tga
 	
 	q3map_bounceScale  0.75
-	dpoffsetmapping - 2
+	dpoffsetmapping - 2 match8 76
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
@@ -64,7 +64,7 @@ textures/map_xoylent/light-u201-surfacelight
 textures/map_xoylent/base_cutmetal
 {
 	qer_editorimage textures/map_xoylent/base_cutmetal.tga
-	dpoffsetmapping - 2
+	dpoffsetmapping none
 	dpglossintensitymod 3
 	dpglossexponentmod 4
 	{
@@ -81,7 +81,7 @@ textures/map_xoylent/base_cutmetal
 textures/map_xoylent/base_pipes
 {
 	qer_editorimage textures/map_xoylent/base_pipes.tga
-	dpoffsetmapping - 2
+	dpoffsetmapping none
 	dpglossintensitymod 4
 	dpglossexponentmod 4
 	{
@@ -98,7 +98,7 @@ textures/map_xoylent/base_pipes
 textures/map_xoylent/base_pipes_nolight
 {
 	qer_editorimage textures/map_xoylent/base_pipes_nolight.tga
-	dpoffsetmapping - 2
+	dpoffsetmapping none
 	dpglossintensitymod 4
 	dpglossexponentmod 4
 	{
@@ -115,7 +115,7 @@ textures/map_xoylent/base_pipes_nolight
 textures/map_xoylent/border_big
 {
 	qer_editorimage textures/map_xoylent/border_big.tga
-	dpoffsetmapping - 2
+	dpoffsetmapping - 2 match8 195
 	{
 		map textures/map_xoylent/border_big.tga
 	}
@@ -130,7 +130,7 @@ textures/map_xoylent/border_big
 textures/map_xoylent/border_small
 {
 	qer_editorimage textures/map_xoylent/border_small.tga
-	dpoffsetmapping - 2
+	dpoffsetmapping - 2 match8 195
 	{
 		map textures/map_xoylent/border_small.tga
 	}
@@ -145,7 +145,7 @@ textures/map_xoylent/border_small
 textures/map_xoylent/border_withlight
 {
 	q3map_lightImage textures/map_xoylent/border_withlight_lightimage.tga
-	dpoffsetmapping - 2
+	dpoffsetmapping - 2 match8 195
 	qer_editorimage textures/map_xoylent/border_withlight.tga
 	q3map_surfacelight 2500
 	q3map_lightRGB 1 0.875 0.75
@@ -164,7 +164,7 @@ textures/map_xoylent/border_withlight
 textures/map_xoylent/panels_floor
 {
 	qer_editorimage textures/map_xoylent/panels_floor.tga
-	dpoffsetmapping - 2
+	dpoffsetmapping - 2 match8 189
 	{
 		map textures/map_xoylent/panels_floor.tga
 	}
@@ -179,7 +179,7 @@ textures/map_xoylent/panels_floor
 textures/map_xoylent/panels_horizontal
 {
 	qer_editorimage textures/map_xoylent/panels_horizontal.tga
-	dpoffsetmapping - 2
+	dpoffsetmapping - 2 match8 193
 	dpglossintensitymod 3
 	dpglossexponentmod 4
 	{
@@ -196,7 +196,7 @@ textures/map_xoylent/panels_horizontal
 textures/map_xoylent/panels_trim
 {
 	qer_editorimage textures/map_xoylent/panels_trim.tga
-	dpoffsetmapping - 2
+	dpoffsetmapping - 2 match8 171
 	dpglossintensitymod 3
 	dpglossexponentmod 4
 	{
@@ -213,7 +213,7 @@ textures/map_xoylent/panels_trim
 textures/map_xoylent/panels_vertical
 {
 	qer_editorimage textures/map_xoylent/panels_vertical.tga
-	dpoffsetmapping - 2
+	dpoffsetmapping - 2 match8 176
 	dpglossintensitymod 3
 	dpglossexponentmod 4
 	{
@@ -230,7 +230,7 @@ textures/map_xoylent/panels_vertical
 textures/map_xoylent/panels_wall
 {
 	qer_editorimage textures/map_xoylent/panels_wall.tga
-	dpoffsetmapping - 2
+	dpoffsetmapping - 2 match8 187
 	{
 		map textures/map_xoylent/panels_wall.tga
 	}
@@ -245,7 +245,7 @@ textures/map_xoylent/panels_wall
 textures/map_xoylent/panels_warning
 {
 	qer_editorimage textures/map_xoylent/panels_warning.tga
-	dpoffsetmapping - 2
+	dpoffsetmapping - 2 match8 189
 	dpglossintensitymod 3
 	dpglossexponentmod 4
 	{
@@ -262,6 +262,7 @@ textures/map_xoylent/panels_warning
 textures/map_xoylent/trak6_trim4_edit
 {
 	qer_editorimage textures/map_xoylent/trak6_trim4_edit.tga
+	dpoffsetmapping - 1 match8 53
 	dpglossintensitymod 3
 	dpglossexponentmod 4
 	{
