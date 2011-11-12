@@ -1,0 +1,5 @@
+-bsp + -samplesize 8 -minsamplesize 4
+-light + -sRGBtex -sRGBlight -dirty -dirtdepth 256 -dirtscale 2 -bounce 3 -deluxe -fast -filter -patchshadows -samples 3
+-vis +
+-minimap +
+Version: 1
