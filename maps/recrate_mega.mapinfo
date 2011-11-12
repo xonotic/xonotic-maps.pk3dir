@@ -1,0 +1,11 @@
+title Recrate Mega
+description Large scale FFA map
+author Morphed & tZork
+cdtrack 6
+has weapons
+gametype dm 
+gametype lms
+gametype arena 
+gametype rune 
+gametype keepaway 
+fog 1 0.5 0.5 0.5 1 256 2000 -160 160
