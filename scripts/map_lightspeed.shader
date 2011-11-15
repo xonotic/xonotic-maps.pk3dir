@@ -43,6 +43,14 @@ textures/map_lightspeed/lcd_compile
 	}
 }
 
+textures/map_lightspeed/lcd_map
+{
+	qer_editorimage models/map_lightspeed/lcd/lcd_map.jpg
+		{
+		map models/map_lightspeed/lcd/lcd_map.jpg
+	}
+}
+
 textures/map_lightspeed/light_nonglow
 {
 	qer_editorimage textures/map_lightspeed/light/light_1.tga
