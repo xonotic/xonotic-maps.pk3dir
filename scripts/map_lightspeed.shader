@@ -43,7 +43,7 @@ textures/map_lightspeed/lcd_compile
 	}
 }
 
-textures/map_lightspeed/lcd_map
+models/map_lightspeed/lcd_map
 {
 	qer_editorimage models/map_lightspeed/lcd/lcd_map.jpg
 		{
