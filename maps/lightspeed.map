@@ -12100,11 +12100,6 @@ terrain01x/ground-drylake01
 "angle" "-179.999985"
 }
 {
-"classname" "func_rain"
-"count" "1600"
-"velocity" "0 0 -700"
-}
-{
 "classname" "misc_model"
 "origin" "-56.000000 24.000000 64.000000"
 "model" "models/desertfactory/objects_plants/grass03.ase"
@@ -12170,16 +12165,6 @@ terrain01x/ground-drylake01
 "origin" "704.000000 -1628.000000 316.000000"
 "model" "models/desertfactory/objects_plants/grass02.ase"
 "modelscale" "3.000000"
-}
-{
-"classname" "func_rain"
-"count" "2000"
-"velocity" "0 0 -650"
-}
-{
-"classname" "func_rain"
-"velocity" "0 0 -650"
-"count" "2000"
 }
 {
 "classname" "func_rain"
