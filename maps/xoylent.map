@@ -26719,6 +26719,17 @@ exx/trim-baseboard
 "target2" "Egg_DoorTriggerStrahlemann"
 }
 {
+"classname" "trigger_magicear"
+"origin" "544.000000 -752.000000 648.000000"
+"targetname" "Egg_PwThreadbareEar"
+"message" "4.25 0.25 4.25 2.25"
+"radius" "96"
+"target" "Egg_IdDoor"
+"target2" "Egg_DoorTriggerThreadbare"
+"spawnflags" "256"
+"netname" "Open Sesame!"
+}
+{
 "classname" "trigger_multiple"
 "targetname" "Egg_DoorTriggerSev"
 "spawnflags" "1"
@@ -26732,6 +26743,22 @@ exx/trim-baseboard
 ( 480 -760 728 ) ( 544 -760 728 ) ( 480 -696 728 ) common/trigger 0 0 0 0.125 0.125 134217728 0 0
 ( 480 -736 728 ) ( 480 -736 792 ) ( 544 -736 728 ) common/trigger 0 0 0 0.125 0.125 134217728 0 0
 ( 504 -760 728 ) ( 504 -696 728 ) ( 504 -760 792 ) common/trigger 0 0 0 0.125 0.125 134217728 0 0
+}
+}
+{
+"classname" "trigger_multiple"
+"targetname" "Egg_DoorTriggerThreadbare"
+"spawnflags" "1"
+"message" "^1Access granted!\n^7Welcome Bobbin."
+"target" "Egg_DoorOpenerDelay"
+"delay" "3"
+{
+( 576 -696 744 ) ( 576 -760 744 ) ( 512 -696 744 ) common/trigger 0 0 0 0.125 0.125 134217728 0 0
+( 576 -720 792 ) ( 512 -720 792 ) ( 576 -720 728 ) common/trigger 0 0 0 0.125 0.125 134217728 0 0
+( 552 -696 792 ) ( 552 -696 728 ) ( 552 -760 792 ) common/trigger 0 0 0 0.125 0.125 134217728 0 0
+( 512 -760 728 ) ( 576 -760 728 ) ( 512 -696 728 ) common/trigger 0 0 0 0.125 0.125 134217728 0 0
+( 512 -736 728 ) ( 512 -736 792 ) ( 576 -736 728 ) common/trigger 0 0 0 0.125 0.125 134217728 0 0
+( 536 -760 728 ) ( 536 -696 728 ) ( 536 -760 792 ) common/trigger 0 0 0 0.125 0.125 134217728 0 0
 }
 }
 {
@@ -26769,6 +26796,12 @@ exx/trim-baseboard
 "origin" "480.000000 -776.000000 664.000000"
 "killtarget" "Egg_IdDoor"
 "target" "Egg_IdSevEar"
+}
+{
+"classname" "misc_follow"
+"origin" "480.000000 -776.000000 664.000000"
+"killtarget" "Egg_IdDoor"
+"target" "Egg_PwThreadbareEar"
 }
 {
 "classname" "misc_follow"
