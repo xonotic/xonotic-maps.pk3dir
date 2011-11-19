@@ -1979,7 +1979,7 @@ FLOATING: the item will float in air, instead of aligning to the floor by fallin
 modeldisabled="models/items/g_jetpack.md3"
 */
 
-/*QUAKED trigger_magicear (0 0 1) (-8 -8 -8) (8 8 8) IGNORE_SAY IGNORE_TEAMSAY IGNORE_TELL IGNORE_INVALIDTELL REPLACE_WHOLE_MESSAGE REPLACE_OUTSIDE CONTINUE NODECOLORIZE TUBA
+/*QUAKED trigger_magicear (0 0 1) (-8 -8 -8) (8 8 8) IGNORE_SAY IGNORE_TEAMSAY IGNORE_TELL IGNORE_INVALIDTELL REPLACE_WHOLE_MESSAGE REPLACE_OUTSIDE CONTINUE NODECOLORIZE TUBA TUBA_EXACTPITCH
 Triggers targets when a given magic word has been said
 -------- KEYS --------
 message: message to wait for (can start or end with * for wildcards)
