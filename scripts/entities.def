@@ -336,7 +336,9 @@ restriction: when 1, only bots can spawn here; when 2, only humans can spawn her
 Normal player spawning location in game types without team spawns. Should touch the floor, but not the walls, and should point where the player should look when he spawns there.
 -------- KEYS --------
 cnt: weight of spawn point for random selection. Set to a lower value if you have many spawn points close together. Default value is 1.
-target: trigger all entities with this targetname when someone spawns
+target2: trigger all entities with this targetname when someone spawns
+target3: trigger all entities with this targetname when someone spawns
+target4: trigger all entities with this targetname when someone spawns
 targetname: when targeted by a func_button, pressing the button will assign the spawn point to the team of the activator as an additional spawn point, or reassign it if it was already assigned. Also used to assign spawn points to Onslaught control points.
 restriction: when 1, only bots can spawn here; when 2, only humans can spawn here (be careful with these, or the game will crash because someone cannot spawn)
 */
@@ -357,7 +359,9 @@ restriction: when 1, only bots can spawn here; when 2, only humans can spawn her
 Red team's player spawning location in e.g. CTF and Onslaught. Should touch the floor, but not the walls, and should point where the player should look when he spawns there.
 -------- KEYS --------
 cnt: weight of spawn point for random selection. Set to a lower value if you have many spawn points close together. Default value is 1.
-target: trigger all entities with this targetname when someone spawns
+target2: trigger all entities with this targetname when someone spawns
+target3: trigger all entities with this targetname when someone spawns
+target4: trigger all entities with this targetname when someone spawns
 targetname: when targeted by a func_button, pressing the button will reassign the spawn point to the team of the activator. If a team has no more spawn point left, it immediately loses.
 restriction: when 1, only bots can spawn here; when 2, only humans can spawn here (be careful with these, or the game will crash because someone cannot spawn)
 */
@@ -366,7 +370,9 @@ restriction: when 1, only bots can spawn here; when 2, only humans can spawn her
 Blue team's player spawning location in e.g. CTF and Onslaught. Should touch the floor, but not the walls, and should point where the player should look when he spawns there.
 -------- KEYS --------
 cnt: weight of spawn point for random selection. Set to a lower value if you have many spawn points close together. Default value is 1.
-target: trigger all entities with this targetname when someone spawns
+target2: trigger all entities with this targetname when someone spawns
+target3: trigger all entities with this targetname when someone spawns
+target4: trigger all entities with this targetname when someone spawns
 targetname: when targeted by a func_button, pressing the button will reassign the spawn point to the team of the activator. If a team has no more spawn point left, it immediately loses.
 restriction: when 1, only bots can spawn here; when 2, only humans can spawn here (be careful with these, or the game will crash because someone cannot spawn)
 */
@@ -375,7 +381,9 @@ restriction: when 1, only bots can spawn here; when 2, only humans can spawn her
 Yellow team's player spawning location, but there is no game mode to use this yet. Anyway, should touch the floor, but not the walls, and should point where the player should look when he spawns there.
 -------- KEYS --------
 cnt: weight of spawn point for random selection. Set to a lower value if you have many spawn points close together. Default value is 1.
-target: trigger all entities with this targetname when someone spawns
+target2: trigger all entities with this targetname when someone spawns
+target3: trigger all entities with this targetname when someone spawns
+target4: trigger all entities with this targetname when someone spawns
 targetname: when targeted by a func_button, pressing the button will reassign the spawn point to the team of the activator. If a team has no more spawn point left, it immediately loses.
 restriction: when 1, only bots can spawn here; when 2, only humans can spawn here (be careful with these, or the game will crash because someone cannot spawn)
 */
@@ -384,7 +392,9 @@ restriction: when 1, only bots can spawn here; when 2, only humans can spawn her
 Pink team's player spawning location, but there is no game mode to use this yet. Anyway, should touch the floor, but not the walls, and should point where the player should look when he spawns there.
 -------- KEYS --------
 cnt: weight of spawn point for random selection. Set to a lower value if you have many spawn points close together. Default value is 1.
-target: trigger all entities with this targetname when someone spawns
+target2: trigger all entities with this targetname when someone spawns
+target3: trigger all entities with this targetname when someone spawns
+target4: trigger all entities with this targetname when someone spawns
 targetname: when targeted by a func_button, pressing the button will reassign the spawn point to the team of the activator. If a team has no more spawn point left, it immediately loses.
 restriction: when 1, only bots can spawn here; when 2, only humans can spawn here (be careful with these, or the game will crash because someone cannot spawn)
 */
