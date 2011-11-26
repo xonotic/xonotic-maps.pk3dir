@@ -1,5 +1,5 @@
--bsp +
--light +
+-bsp + -sRGBtex
+-light + -sRGBtex -sRGBlight -dirtscale 2
 -vis +
 -minimap +
-Version: 2
+Version: 3
