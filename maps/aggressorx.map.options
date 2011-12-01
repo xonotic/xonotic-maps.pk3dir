@@ -1,2 +1,2 @@
--light + -samples 4 -bounce 8 -areascale 3.5 -bouncescale 1.5 -bouncegrid -dirty
+-light + -samples 4 -bounce 8 -areascale 3.5 -bouncegrid -dirty -gamma 1.5
 -scale 1.25
