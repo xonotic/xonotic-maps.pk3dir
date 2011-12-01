@@ -2,7 +2,6 @@
 "classname" "worldspawn"
 "gridsize" "64.000000 64.000000 128.000000"
 "message" "Aggressor"
-"_keepLights" "1"
 {
 ( -32 -192 288 ) ( -32 -192 304 ) ( -64 -224 304 ) map_aggressor/base-concrete02 0 0 0 0.125 0.125 0 0 0
 ( -32 -192 288 ) ( -64 -224 288 ) ( 0 -224 288 ) map_aggressor/base-concrete02 0 0 0 0.25 0.25 0 4 0
