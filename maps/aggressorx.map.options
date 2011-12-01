@@ -1,1 +1,5 @@
--light + -gamma 1.35
+-bsp + -scale 1.25
+-light + -bounce 6 -bouncegrid -areascale 1.25 -gamma 1.35
+-vis +
+-minimap +
+Version: 1

@@ -255,3 +255,20 @@ textures/map_aggressor/skies/exosystem
 	q3map_skylight 800 4
 	skyparms env/exosystem/exosystem - -
 }
+
+textures/map_aggressor/#tele9
+{
+	qer_editorimage textures/map_aggressor/#tele9
+	qer_nocarve
+	surfaceparm noimpact
+	//surfaceparm water
+	surfaceparm nolightmap
+	q3map_surfacelight 500
+	cull disable
+	//tessSize 256
+	//deformVertexes wave 100sin 5 5 .5 0.02
+	{
+		map textures/map_aggressor/#tele9
+		tcMod turb 0 0.2 0 0.04
+	}
+}
