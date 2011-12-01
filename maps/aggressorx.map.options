@@ -1,2 +1,2 @@
--light + -sRGBlight -sRGBtex
+-light + -gamma 1.5
 -scale 1.25
