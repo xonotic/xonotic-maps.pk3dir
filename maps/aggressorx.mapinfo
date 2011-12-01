@@ -1,0 +1,16 @@
+title Aggressor
+description Small sized indoors map, well suited for duels.
+author Kevin "Tyrann" Shanahan, Paul Evers, FruitieX, nifrek
+has weapons
+gametype dm
+gametype tdm
+gametype dom
+gametype rune
+gametype lms
+gametype arena
+gametype kh
+gametype ca
+gametype freezetag
+gametype keepaway
+cdtrack 5
+
