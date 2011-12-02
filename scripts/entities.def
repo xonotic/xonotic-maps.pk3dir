@@ -336,7 +336,9 @@ restriction: when 1, only bots can spawn here; when 2, only humans can spawn her
 Normal player spawning location in game types without team spawns. Should touch the floor, but not the walls, and should point where the player should look when he spawns there.
 -------- KEYS --------
 cnt: weight of spawn point for random selection. Set to a lower value if you have many spawn points close together. Default value is 1.
-target: trigger all entities with this targetname when someone spawns
+target2: trigger all entities with this targetname when someone spawns
+target3: trigger all entities with this targetname when someone spawns
+target4: trigger all entities with this targetname when someone spawns
 targetname: when targeted by a func_button, pressing the button will assign the spawn point to the team of the activator as an additional spawn point, or reassign it if it was already assigned. Also used to assign spawn points to Onslaught control points.
 restriction: when 1, only bots can spawn here; when 2, only humans can spawn here (be careful with these, or the game will crash because someone cannot spawn)
 */
@@ -357,7 +359,9 @@ restriction: when 1, only bots can spawn here; when 2, only humans can spawn her
 Red team's player spawning location in e.g. CTF and Onslaught. Should touch the floor, but not the walls, and should point where the player should look when he spawns there.
 -------- KEYS --------
 cnt: weight of spawn point for random selection. Set to a lower value if you have many spawn points close together. Default value is 1.
-target: trigger all entities with this targetname when someone spawns
+target2: trigger all entities with this targetname when someone spawns
+target3: trigger all entities with this targetname when someone spawns
+target4: trigger all entities with this targetname when someone spawns
 targetname: when targeted by a func_button, pressing the button will reassign the spawn point to the team of the activator. If a team has no more spawn point left, it immediately loses.
 restriction: when 1, only bots can spawn here; when 2, only humans can spawn here (be careful with these, or the game will crash because someone cannot spawn)
 */
@@ -366,7 +370,9 @@ restriction: when 1, only bots can spawn here; when 2, only humans can spawn her
 Blue team's player spawning location in e.g. CTF and Onslaught. Should touch the floor, but not the walls, and should point where the player should look when he spawns there.
 -------- KEYS --------
 cnt: weight of spawn point for random selection. Set to a lower value if you have many spawn points close together. Default value is 1.
-target: trigger all entities with this targetname when someone spawns
+target2: trigger all entities with this targetname when someone spawns
+target3: trigger all entities with this targetname when someone spawns
+target4: trigger all entities with this targetname when someone spawns
 targetname: when targeted by a func_button, pressing the button will reassign the spawn point to the team of the activator. If a team has no more spawn point left, it immediately loses.
 restriction: when 1, only bots can spawn here; when 2, only humans can spawn here (be careful with these, or the game will crash because someone cannot spawn)
 */
@@ -375,7 +381,9 @@ restriction: when 1, only bots can spawn here; when 2, only humans can spawn her
 Yellow team's player spawning location, but there is no game mode to use this yet. Anyway, should touch the floor, but not the walls, and should point where the player should look when he spawns there.
 -------- KEYS --------
 cnt: weight of spawn point for random selection. Set to a lower value if you have many spawn points close together. Default value is 1.
-target: trigger all entities with this targetname when someone spawns
+target2: trigger all entities with this targetname when someone spawns
+target3: trigger all entities with this targetname when someone spawns
+target4: trigger all entities with this targetname when someone spawns
 targetname: when targeted by a func_button, pressing the button will reassign the spawn point to the team of the activator. If a team has no more spawn point left, it immediately loses.
 restriction: when 1, only bots can spawn here; when 2, only humans can spawn here (be careful with these, or the game will crash because someone cannot spawn)
 */
@@ -384,7 +392,9 @@ restriction: when 1, only bots can spawn here; when 2, only humans can spawn her
 Pink team's player spawning location, but there is no game mode to use this yet. Anyway, should touch the floor, but not the walls, and should point where the player should look when he spawns there.
 -------- KEYS --------
 cnt: weight of spawn point for random selection. Set to a lower value if you have many spawn points close together. Default value is 1.
-target: trigger all entities with this targetname when someone spawns
+target2: trigger all entities with this targetname when someone spawns
+target3: trigger all entities with this targetname when someone spawns
+target4: trigger all entities with this targetname when someone spawns
 targetname: when targeted by a func_button, pressing the button will reassign the spawn point to the team of the activator. If a team has no more spawn point left, it immediately loses.
 restriction: when 1, only bots can spawn here; when 2, only humans can spawn here (be careful with these, or the game will crash because someone cannot spawn)
 */
@@ -835,8 +845,8 @@ _castshadows: Allows per-entity control over shadow casting. Defaults to 0 on en
 _receiveshadows: Allows per-entity control over shadow reception. Defaults to 1 on everything (world shadows). 0 = receives NO shadows. > 1 = receive shadows only from corresponding keyed entities (see above) and world. < 1 = receive shadows ONLY from corresponding keyed entities.
 _clone: copies brushes from entity with identical _clonename. Still needs a single brush that will get replaced.
 _clonename: template name so one can clone from it
-min: override automatically found minimum coordinate bounds
-max: override automatically found maximum coordinate bounds
+mins: override automatically found minimum coordinate bounds
+maxs: override automatically found maximum coordinate bounds
 targetname: if targeted by a misc_model, its brushes get inserted into this
 _celshader: Sets the cel shader used for this geometry. Note: omit the "textures/" prefix.
 */
@@ -867,8 +877,8 @@ _castshadows: Allows per-entity control over shadow casting. Defaults to 0 on en
 _receiveshadows: Allows per-entity control over shadow reception. Defaults to 1 on everything (world shadows). 0 = receives NO shadows. > 1 = receive shadows only from corresponding keyed entities (see above) and world. < 1 = receive shadows ONLY from corresponding keyed entities.
 _clone: copies brushes from entity with identical _clonename. Still needs a single brush that will get replaced.
 _clonename: template name so one can clone from it
-min: override automatically found minimum coordinate bounds
-max: override automatically found maximum coordinate bounds
+mins: override automatically found minimum coordinate bounds
+maxs: override automatically found maximum coordinate bounds
 targetname: if targeted by a misc_model, its brushes get inserted into this
 _celshader: Sets the cel shader used for this geometry. Note: omit the "textures/" prefix.
 */
@@ -920,8 +930,8 @@ _castshadows: Allows per-entity control over shadow casting. Defaults to 0 on en
 _receiveshadows: Allows per-entity control over shadow reception. Defaults to 1 on everything (world shadows). 0 = receives NO shadows. > 1 = receive shadows only from corresponding keyed entities (see above) and world. < 1 = receive shadows ONLY from corresponding keyed entities.
 _clone: copies brushes from entity with identical _clonename. Still needs a single brush that will get replaced.
 _clonename: template name so one can clone from it
-min: override automatically found minimum coordinate bounds
-max: override automatically found maximum coordinate bounds
+mins: override automatically found minimum coordinate bounds
+maxs: override automatically found maximum coordinate bounds
 targetname: if targeted by a misc_model, its brushes get inserted into this
 _celshader: Sets the cel shader used for this geometry. Note: omit the "textures/" prefix.
 */
@@ -951,8 +961,8 @@ _castshadows: Allows per-entity control over shadow casting. Defaults to 0 on en
 _receiveshadows: Allows per-entity control over shadow reception. Defaults to 1 on everything (world shadows). 0 = receives NO shadows. > 1 = receive shadows only from corresponding keyed entities (see above) and world. < 1 = receive shadows ONLY from corresponding keyed entities.
 _clone: copies brushes from entity with identical _clonename. Still needs a single brush that will get replaced.
 _clonename: template name so one can clone from it
-min: override automatically found minimum coordinate bounds
-max: override automatically found maximum coordinate bounds
+mins: override automatically found minimum coordinate bounds
+maxs: override automatically found maximum coordinate bounds
 targetname: if targeted by a misc_model, its brushes get inserted into this
 _celshader: Sets the cel shader used for this geometry. Note: omit the "textures/" prefix.
 */
@@ -1979,7 +1989,7 @@ FLOATING: the item will float in air, instead of aligning to the floor by fallin
 modeldisabled="models/items/g_jetpack.md3"
 */
 
-/*QUAKED trigger_magicear (0 0 1) (-8 -8 -8) (8 8 8) IGNORE_SAY IGNORE_TEAMSAY IGNORE_TELL IGNORE_INVALIDTELL REPLACE_WHOLE_MESSAGE REPLACE_OUTSIDE CONTINUE NODECOLORIZE
+/*QUAKED trigger_magicear (0 0 1) (-8 -8 -8) (8 8 8) IGNORE_SAY IGNORE_TEAMSAY IGNORE_TELL IGNORE_INVALIDTELL REPLACE_WHOLE_MESSAGE REPLACE_OUTSIDE CONTINUE NODECOLORIZE TUBA TUBA_EXACTPITCH
 Triggers targets when a given magic word has been said
 -------- KEYS --------
 message: message to wait for (can start or end with * for wildcards)
@@ -1990,6 +2000,7 @@ target2: all entities with a matching targetname will be triggered.
 target3: all entities with a matching targetname will be triggered.
 target4: all entities with a matching targetname will be triggered.
 target_random: instead of triggering ALL matched entities, trigger ONE of them by random
+movedir: if TUBA is set, this is a string of "instrument+1 mintempo maxtempo". Components can be set to 0 to not match.
 -------- SPAWNFLAGS --------
 IGNORE_SAY: do not respond to "say" messages
 IGNORE_TEAMSAY: do not respond to "say_team" messages
@@ -1999,6 +2010,8 @@ REPLACE_WHOLE_MESSAGE: replace the whole message by netname, or drop the message
 REPLACE_OUTSIDE: also perform the replacement when outside the radius (to hide the "secret word")
 CONTINUE: even if this magic ear matched, continue looking for further matches/replacements (useful for swear word filters)
 NODECOLORIZE: do not decolorize the input string before matching
+TUBA: the message is a space separated note sequence that must be played on the @!#%'n Tuba or the @!#%'n Accordeon. For example, 4.25 means a quarter note at pitch 4, where 0 is base pitch (red team primary fire with no motion). For secret triggers to open doors, use 4.25 0.25 4.25 2.25. The first one to encode a rickroll in this gets slapped with the shotgun.
+TUBA_EXACTPITCH: the note pitch must be accurate and cannot be transposed
 */
 
 /*QUAKED weapon_fireball (1 0 .5) (-30 -30 0) (30 30 32) FLOATING
