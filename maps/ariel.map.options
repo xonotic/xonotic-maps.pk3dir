@@ -1,6 +1,6 @@
--bsp +
+-bsp + -samplesize 6
 -light + -bounce 8 -dirtscale 2
 -vis +
 -minimap +
-Version: 3
+Version: 4
 
