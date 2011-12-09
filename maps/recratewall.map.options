@@ -1,5 +1,5 @@
 -bsp + -samplesize 4 -minsamplesize 2
 -light +
 -vis +
--minimap +
+-minimap + -autolevel
 Version: 2
