@@ -1,0 +1,5 @@
+-bsp + -samplesize 4 -minsamplesize 2
+-light +
+-vis +
+-minimap +
+Version: 2
