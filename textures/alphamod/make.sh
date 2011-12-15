@@ -27,7 +27,6 @@ for x in `seq 0 100`; do
 	cat <<EOF
 textures/alphamod/alpha_$nnn
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid

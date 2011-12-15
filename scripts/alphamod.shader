@@ -1,6 +1,5 @@
 textures/alphamod/alpha_000
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -12,7 +11,6 @@ textures/alphamod/alpha_000
 }
 textures/alphamod/alpha_001
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -24,7 +22,6 @@ textures/alphamod/alpha_001
 }
 textures/alphamod/alpha_002
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -36,7 +33,6 @@ textures/alphamod/alpha_002
 }
 textures/alphamod/alpha_003
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -48,7 +44,6 @@ textures/alphamod/alpha_003
 }
 textures/alphamod/alpha_004
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -60,7 +55,6 @@ textures/alphamod/alpha_004
 }
 textures/alphamod/alpha_005
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -72,7 +66,6 @@ textures/alphamod/alpha_005
 }
 textures/alphamod/alpha_006
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -84,7 +77,6 @@ textures/alphamod/alpha_006
 }
 textures/alphamod/alpha_007
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -96,7 +88,6 @@ textures/alphamod/alpha_007
 }
 textures/alphamod/alpha_008
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -108,7 +99,6 @@ textures/alphamod/alpha_008
 }
 textures/alphamod/alpha_009
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -120,7 +110,6 @@ textures/alphamod/alpha_009
 }
 textures/alphamod/alpha_010
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -132,7 +121,6 @@ textures/alphamod/alpha_010
 }
 textures/alphamod/alpha_011
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -144,7 +132,6 @@ textures/alphamod/alpha_011
 }
 textures/alphamod/alpha_012
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -156,7 +143,6 @@ textures/alphamod/alpha_012
 }
 textures/alphamod/alpha_013
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -168,7 +154,6 @@ textures/alphamod/alpha_013
 }
 textures/alphamod/alpha_014
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -180,7 +165,6 @@ textures/alphamod/alpha_014
 }
 textures/alphamod/alpha_015
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -192,7 +176,6 @@ textures/alphamod/alpha_015
 }
 textures/alphamod/alpha_016
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -204,7 +187,6 @@ textures/alphamod/alpha_016
 }
 textures/alphamod/alpha_017
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -216,7 +198,6 @@ textures/alphamod/alpha_017
 }
 textures/alphamod/alpha_018
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -228,7 +209,6 @@ textures/alphamod/alpha_018
 }
 textures/alphamod/alpha_019
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -240,7 +220,6 @@ textures/alphamod/alpha_019
 }
 textures/alphamod/alpha_020
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -252,7 +231,6 @@ textures/alphamod/alpha_020
 }
 textures/alphamod/alpha_021
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -264,7 +242,6 @@ textures/alphamod/alpha_021
 }
 textures/alphamod/alpha_022
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -276,7 +253,6 @@ textures/alphamod/alpha_022
 }
 textures/alphamod/alpha_023
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -288,7 +264,6 @@ textures/alphamod/alpha_023
 }
 textures/alphamod/alpha_024
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -300,7 +275,6 @@ textures/alphamod/alpha_024
 }
 textures/alphamod/alpha_025
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -312,7 +286,6 @@ textures/alphamod/alpha_025
 }
 textures/alphamod/alpha_026
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -324,7 +297,6 @@ textures/alphamod/alpha_026
 }
 textures/alphamod/alpha_027
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -336,7 +308,6 @@ textures/alphamod/alpha_027
 }
 textures/alphamod/alpha_028
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -348,7 +319,6 @@ textures/alphamod/alpha_028
 }
 textures/alphamod/alpha_029
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -360,7 +330,6 @@ textures/alphamod/alpha_029
 }
 textures/alphamod/alpha_030
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -372,7 +341,6 @@ textures/alphamod/alpha_030
 }
 textures/alphamod/alpha_031
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -384,7 +352,6 @@ textures/alphamod/alpha_031
 }
 textures/alphamod/alpha_032
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -396,7 +363,6 @@ textures/alphamod/alpha_032
 }
 textures/alphamod/alpha_033
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -408,7 +374,6 @@ textures/alphamod/alpha_033
 }
 textures/alphamod/alpha_034
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -420,7 +385,6 @@ textures/alphamod/alpha_034
 }
 textures/alphamod/alpha_035
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -432,7 +396,6 @@ textures/alphamod/alpha_035
 }
 textures/alphamod/alpha_036
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -444,7 +407,6 @@ textures/alphamod/alpha_036
 }
 textures/alphamod/alpha_037
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -456,7 +418,6 @@ textures/alphamod/alpha_037
 }
 textures/alphamod/alpha_038
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -468,7 +429,6 @@ textures/alphamod/alpha_038
 }
 textures/alphamod/alpha_039
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -480,7 +440,6 @@ textures/alphamod/alpha_039
 }
 textures/alphamod/alpha_040
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -492,7 +451,6 @@ textures/alphamod/alpha_040
 }
 textures/alphamod/alpha_041
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -504,7 +462,6 @@ textures/alphamod/alpha_041
 }
 textures/alphamod/alpha_042
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -516,7 +473,6 @@ textures/alphamod/alpha_042
 }
 textures/alphamod/alpha_043
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -528,7 +484,6 @@ textures/alphamod/alpha_043
 }
 textures/alphamod/alpha_044
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -540,7 +495,6 @@ textures/alphamod/alpha_044
 }
 textures/alphamod/alpha_045
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -552,7 +506,6 @@ textures/alphamod/alpha_045
 }
 textures/alphamod/alpha_046
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -564,7 +517,6 @@ textures/alphamod/alpha_046
 }
 textures/alphamod/alpha_047
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -576,7 +528,6 @@ textures/alphamod/alpha_047
 }
 textures/alphamod/alpha_048
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -588,7 +539,6 @@ textures/alphamod/alpha_048
 }
 textures/alphamod/alpha_049
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -600,7 +550,6 @@ textures/alphamod/alpha_049
 }
 textures/alphamod/alpha_050
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -612,7 +561,6 @@ textures/alphamod/alpha_050
 }
 textures/alphamod/alpha_051
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -624,7 +572,6 @@ textures/alphamod/alpha_051
 }
 textures/alphamod/alpha_052
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -636,7 +583,6 @@ textures/alphamod/alpha_052
 }
 textures/alphamod/alpha_053
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -648,7 +594,6 @@ textures/alphamod/alpha_053
 }
 textures/alphamod/alpha_054
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -660,7 +605,6 @@ textures/alphamod/alpha_054
 }
 textures/alphamod/alpha_055
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -672,7 +616,6 @@ textures/alphamod/alpha_055
 }
 textures/alphamod/alpha_056
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -684,7 +627,6 @@ textures/alphamod/alpha_056
 }
 textures/alphamod/alpha_057
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -696,7 +638,6 @@ textures/alphamod/alpha_057
 }
 textures/alphamod/alpha_058
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -708,7 +649,6 @@ textures/alphamod/alpha_058
 }
 textures/alphamod/alpha_059
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -720,7 +660,6 @@ textures/alphamod/alpha_059
 }
 textures/alphamod/alpha_060
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -732,7 +671,6 @@ textures/alphamod/alpha_060
 }
 textures/alphamod/alpha_061
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -744,7 +682,6 @@ textures/alphamod/alpha_061
 }
 textures/alphamod/alpha_062
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -756,7 +693,6 @@ textures/alphamod/alpha_062
 }
 textures/alphamod/alpha_063
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -768,7 +704,6 @@ textures/alphamod/alpha_063
 }
 textures/alphamod/alpha_064
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -780,7 +715,6 @@ textures/alphamod/alpha_064
 }
 textures/alphamod/alpha_065
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -792,7 +726,6 @@ textures/alphamod/alpha_065
 }
 textures/alphamod/alpha_066
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -804,7 +737,6 @@ textures/alphamod/alpha_066
 }
 textures/alphamod/alpha_067
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -816,7 +748,6 @@ textures/alphamod/alpha_067
 }
 textures/alphamod/alpha_068
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -828,7 +759,6 @@ textures/alphamod/alpha_068
 }
 textures/alphamod/alpha_069
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -840,7 +770,6 @@ textures/alphamod/alpha_069
 }
 textures/alphamod/alpha_070
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -852,7 +781,6 @@ textures/alphamod/alpha_070
 }
 textures/alphamod/alpha_071
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -864,7 +792,6 @@ textures/alphamod/alpha_071
 }
 textures/alphamod/alpha_072
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -876,7 +803,6 @@ textures/alphamod/alpha_072
 }
 textures/alphamod/alpha_073
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -888,7 +814,6 @@ textures/alphamod/alpha_073
 }
 textures/alphamod/alpha_074
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -900,7 +825,6 @@ textures/alphamod/alpha_074
 }
 textures/alphamod/alpha_075
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -912,7 +836,6 @@ textures/alphamod/alpha_075
 }
 textures/alphamod/alpha_076
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -924,7 +847,6 @@ textures/alphamod/alpha_076
 }
 textures/alphamod/alpha_077
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -936,7 +858,6 @@ textures/alphamod/alpha_077
 }
 textures/alphamod/alpha_078
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -948,7 +869,6 @@ textures/alphamod/alpha_078
 }
 textures/alphamod/alpha_079
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -960,7 +880,6 @@ textures/alphamod/alpha_079
 }
 textures/alphamod/alpha_080
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -972,7 +891,6 @@ textures/alphamod/alpha_080
 }
 textures/alphamod/alpha_081
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -984,7 +902,6 @@ textures/alphamod/alpha_081
 }
 textures/alphamod/alpha_082
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -996,7 +913,6 @@ textures/alphamod/alpha_082
 }
 textures/alphamod/alpha_083
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -1008,7 +924,6 @@ textures/alphamod/alpha_083
 }
 textures/alphamod/alpha_084
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -1020,7 +935,6 @@ textures/alphamod/alpha_084
 }
 textures/alphamod/alpha_085
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -1032,7 +946,6 @@ textures/alphamod/alpha_085
 }
 textures/alphamod/alpha_086
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -1044,7 +957,6 @@ textures/alphamod/alpha_086
 }
 textures/alphamod/alpha_087
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -1056,7 +968,6 @@ textures/alphamod/alpha_087
 }
 textures/alphamod/alpha_088
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -1068,7 +979,6 @@ textures/alphamod/alpha_088
 }
 textures/alphamod/alpha_089
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -1080,7 +990,6 @@ textures/alphamod/alpha_089
 }
 textures/alphamod/alpha_090
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -1092,7 +1001,6 @@ textures/alphamod/alpha_090
 }
 textures/alphamod/alpha_091
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -1104,7 +1012,6 @@ textures/alphamod/alpha_091
 }
 textures/alphamod/alpha_092
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -1116,7 +1023,6 @@ textures/alphamod/alpha_092
 }
 textures/alphamod/alpha_093
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -1128,7 +1034,6 @@ textures/alphamod/alpha_093
 }
 textures/alphamod/alpha_094
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -1140,7 +1045,6 @@ textures/alphamod/alpha_094
 }
 textures/alphamod/alpha_095
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -1152,7 +1056,6 @@ textures/alphamod/alpha_095
 }
 textures/alphamod/alpha_096
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -1164,7 +1067,6 @@ textures/alphamod/alpha_096
 }
 textures/alphamod/alpha_097
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -1176,7 +1078,6 @@ textures/alphamod/alpha_097
 }
 textures/alphamod/alpha_098
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -1188,7 +1089,6 @@ textures/alphamod/alpha_098
 }
 textures/alphamod/alpha_099
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
@@ -1200,7 +1100,6 @@ textures/alphamod/alpha_099
 }
 textures/alphamod/alpha_100
 {
-	qer_nocarve
 	qer_trans 0.30
 	surfaceparm nodraw
 	surfaceparm nonsolid
