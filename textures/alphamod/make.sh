@@ -23,7 +23,7 @@ for x in `seq 0 100`; do
 		-fill black \
 		-draw "text 0,0 '$x%'" \
 		PNM:- |\
-		pamtotga -mono > "alpha_$nnn.tga"
+		pamtotga -mono -norle > "alpha_$nnn.tga"
 	cat <<EOF
 textures/alphamod/alpha_$nnn
 {
