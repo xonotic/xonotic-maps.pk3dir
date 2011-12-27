@@ -1,6 +1,6 @@
--bsp + -sRGBcolor -sRGBtex
--light + -sRGBcolor -sRGBtex -sRGBlight -bounce 8 -dirtscale 2 -sphericalscale 0.5
+-bsp +
+-light + -bounce 8 -dirtscale 2 -sphericalscale 0.5
 -vis +
 -minimap +
--nosRGB
+-sRGB
 Version: 6
