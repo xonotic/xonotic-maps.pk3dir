@@ -29078,13 +29078,13 @@ exx/base-metal03
 {
 "classname" "light"
 "origin" "-224.000000 -168.000000 -104.000000"
-"light" "20"
+"light" "10"
 "_color" "0.61268 0.859144 1"
 }
 {
 "classname" "light"
 "origin" "88.000000 -192.000000 -104.000000"
-"light" "20"
+"light" "10"
 "_color" "0.61268 0.859144 1"
 }
 {
@@ -29135,7 +29135,7 @@ exx/base-metal03
 {
 "classname" "light"
 "origin" "-280.000000 -192.000000 -104.000000"
-"light" "20"
+"light" "10"
 "_color" "0.61268 0.859144 1"
 }
 {
@@ -29147,7 +29147,7 @@ exx/base-metal03
 {
 "classname" "light"
 "origin" "-280.000000 -320.000000 -104.000000"
-"light" "20"
+"light" "10"
 "_color" "0.61268 0.859144 1"
 }
 {
@@ -29250,7 +29250,7 @@ exx/base-metal03
 {
 "classname" "light"
 "origin" "-32.000000 -280.000000 -104.000000"
-"light" "20"
+"light" "10"
 "_color" "0.61268 0.859144 1"
 }
 {
@@ -29769,13 +29769,13 @@ exx/trim-psimple04
 {
 "classname" "light"
 "origin" "-24.000000 -64.000000 -104.000000"
-"light" "20"
+"light" "10"
 "_color" "0.61268 0.859144 1"
 }
 {
 "classname" "light"
 "origin" "88.000000 -64.000000 -104.000000"
-"light" "20"
+"light" "10"
 "_color" "0.61268 0.859144 1"
 }
 {
