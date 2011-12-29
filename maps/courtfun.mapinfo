@@ -3,7 +3,7 @@ description A classic large scale CTF map
 author SavageX & Calinou
 cdtrack 9
 has weapons
-gametype ctf // defaults: timelimit=20 pointlimit=300 caplimit=10 leadlimit=0
+gametype ctf // defaults: timelimit=20 caplimit=10 leadlimit=0
 gametype rc
 gametype cts
 gametype ons
