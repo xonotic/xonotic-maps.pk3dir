@@ -12141,6 +12141,7 @@ exx/wall-metalrib01
 }
 {
 "classname" "func_plat"
+"lip" "8"
 "speed" "300"
 "sound1" "sound/machines/Elevator_Up.wav"
 {
