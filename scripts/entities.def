@@ -130,11 +130,21 @@ NOSPLASH: if set, splash damage cannot activate the door, only direct damage can
 */
 
 /*QUAKED func_conveyor (0 .5 .8) ? START_ON
-A conveyor.
+A conveyor. Solid brush version.
 -------- KEYS --------
 targetname: if set, it can be turned on/off
 angle: determines the opening direction
-speed: movement speed (200 default, must be above or equal sv_stopspeed)
+speed: movement speed (200 default)
+-------- SPAWNFLAGS --------
+START_ON: the conveyor is turned on if not triggered
+*/
+
+/*QUAKED trigger_conveyor (0 .5 .8) ? START_ON
+A conveyor. Nonsolid trigger version.
+-------- KEYS --------
+targetname: if set, it can be turned on/off
+angle: determines the opening direction
+speed: movement speed (200 default)
 -------- SPAWNFLAGS --------
 START_ON: the conveyor is turned on if not triggered
 */
