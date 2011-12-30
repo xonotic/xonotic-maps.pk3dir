@@ -15136,15 +15136,10 @@ map_g-23/conveyor_belt
 }
 }
 {
-"classname" "func_door"
-"sounds" "sound/machines/Elevator_Up.wav"
+"classname" "func_plat"
+"sound1" "sound/machines/Elevator_Up.wav"
 "speed" "300"
 "lip" "32"
-"spawnflags" "1"
-"wait" "5"
-"message" "was crushed by the elevator."
-"message2" "was crushed by # at the elevator."
-"targetname" "func_door1"
 {
 ( 576 -192 0 ) ( 576 -256 0 ) ( 512 -192 0 ) common/caulk 0 0 0 0.25 0.25 134217728 0 0
 ( 576 -192 -32 ) ( 512 -192 -32 ) ( 576 -192 -64 ) exx/wall-bigrib02 0 0 0 0.25 0.25 134217728 0 0
@@ -15218,18 +15213,5 @@ map_g-23/conveyor_belt
 ( 520 -224 -64 ) ( 528 -216 -64 ) ( 520 -224 64 ) common/caulk 0 0 0 0.25 0.25 134217728 0 0
 ( 520 -352 -64 ) ( 520 -296 -64 ) ( 520 -352 64 ) common/caulk 0 0 0 0.25 0.25 134217728 0 0
 ( 656 -376 64 ) ( 680 -376 -64 ) ( 656 -376 -64 ) common/caulk 0 0 0 0.25 0.25 134217728 0 0
-}
-}
-{
-"classname" "trigger_multiple"
-"target" "func_door1"
-{
-( 704 -192 -416 ) ( 704 -384 -416 ) ( 512 -192 -416 ) common/trigger 0 0 0 0.25 0.25 0 0 0
-( 704 -192 -400 ) ( 512 -192 -400 ) ( 704 -192 -432 ) common/trigger 0 64 0 0.25 0.25 0 0 0
-( 704 -192 -400 ) ( 704 -192 -432 ) ( 704 -384 -400 ) common/trigger 0 64 0 0.25 0.25 0 0 0
-( 512 -384 -432 ) ( 704 -384 -432 ) ( 512 -192 -432 ) common/trigger 0 0 0 0.25 0.25 0 0 0
-( 512 -384 -432 ) ( 512 -384 -400 ) ( 704 -384 -432 ) common/trigger 0 64 0 0.25 0.25 0 0 0
-( 512 -384 -432 ) ( 512 -192 -432 ) ( 512 -384 -400 ) common/trigger 0 64 0 0.25 0.25 0 0 0
-( 512 -224 -496 ) ( 544 -192 -496 ) ( 512 -224 -368 ) common/trigger 0 64 0 0.25 0.25 0 0 0
 }
 }
