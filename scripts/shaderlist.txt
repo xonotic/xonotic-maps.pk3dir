@@ -1,3 +1,4 @@
+alphamod
 common
 decals
 effects_beam

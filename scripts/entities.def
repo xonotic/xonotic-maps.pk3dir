@@ -129,6 +129,26 @@ health: (default 0) if set to any non-zero value, the button must take damage (a
 NOSPLASH: if set, splash damage cannot activate the door, only direct damage can (requires health to be set)
 */
 
+/*QUAKED func_conveyor (0 .5 .8) ? START_ON
+A conveyor. Solid brush version.
+-------- KEYS --------
+targetname: if set, it can be turned on/off
+angle: determines the opening direction
+speed: movement speed (200 default)
+-------- SPAWNFLAGS --------
+START_ON: the conveyor is turned on if not triggered
+*/
+
+/*QUAKED trigger_conveyor (0 .5 .8) ? START_ON
+A conveyor. Nonsolid trigger version.
+-------- KEYS --------
+targetname: if set, it can be turned on/off
+angle: determines the opening direction
+speed: movement speed (200 default)
+-------- SPAWNFLAGS --------
+START_ON: the conveyor is turned on if not triggered
+*/
+
 /*QUAKED func_door (0 .5 .8) ? START_OPEN - DOOR_DONT_LINK GOLD_KEY SILVER_KEY TOGGLE - - NOSPLASH
 Normal sliding door entity. By default, the door will activate when player walks close to it or when damage is inflicted to it.
 If DOOR_DONT_LINK is not set, the door will be linked with all doors it touches. Note however that for linked doors to work properly, it is necessary that ALL linked doors have SOME volume of common area (that is, there must be a point that is part of ALL doors).
