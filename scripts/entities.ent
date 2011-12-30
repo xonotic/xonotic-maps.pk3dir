@@ -132,11 +132,21 @@ When a button is touched by a player, it moves in the direction set by the &quot
 </group>
 
 <group name="func_conveyor" color="0 .5 .8">
-A conveyor.
+A conveyor. Solid brush version.
 -------- KEYS --------
 <targetname key="targetname" name="targetname">if set, it can be turned on/off</targetname>
 <direction key="angle" name="angle">determines the opening direction</direction>
-<real key="speed" name="speed">movement speed (200 default, must be above or equal sv_stopspeed)</real>
+<real key="speed" name="speed">movement speed (200 default)</real>
+-------- SPAWNFLAGS --------
+<flag key="START_ON" name="START_ON" bit="0">the conveyor is turned on if not triggered</flag>
+</group>
+
+<group name="trigger_conveyor" color="0 .5 .8">
+A conveyor. Nonsolid trigger version.
+-------- KEYS --------
+<targetname key="targetname" name="targetname">if set, it can be turned on/off</targetname>
+<direction key="angle" name="angle">determines the opening direction</direction>
+<real key="speed" name="speed">movement speed (200 default)</real>
 -------- SPAWNFLAGS --------
 <flag key="START_ON" name="START_ON" bit="0">the conveyor is turned on if not triggered</flag>
 </group>
