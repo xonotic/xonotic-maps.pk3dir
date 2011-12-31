@@ -1,5 +1,5 @@
 -bsp +
--light + -bounce 8 -dirtscale 2 -sphericalscale 1 -spotscale 1.5 -areascale 0.25 -skyscale 1
+-light + -bounce 8 -dirtscale 2 -sphericalscale 2 -spotscale 3 -areascale 0.25 -skyscale 1
 -vis +
 -minimap +
 -sRGB
