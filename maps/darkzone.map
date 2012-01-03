@@ -30162,3 +30162,25 @@ exx/wall-metalrib01
 "spawnflags" "1"
 "target" "horizwheels3"
 }
+{
+"classname" "target_speaker"
+"origin" "296.000000 -440.000000 48.000000"
+"noise" "sound/machines/Gas_Generator.wav"
+"volume" "0.5"
+}
+{
+"classname" "target_speaker"
+"origin" "296.000000 312.000000 48.000000"
+"noise" "sound/machines/Gas_Generator.wav"
+"volume" "0.5"
+}
+{
+"classname" "target_speaker"
+"origin" "-96.000000 -488.000000 352.000000"
+}
+{
+"classname" "target_speaker"
+"origin" "1120.000000 600.000000 216.000000"
+"volume" "0.25"
+"noise" "sound/machines/Electric-Arcs1.wav"
+}
