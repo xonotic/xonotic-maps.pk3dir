@@ -281,7 +281,7 @@ This is an invisible area like a trigger, which rain falls inside of.
 Brush entity that spins in place on one axis (default Z). Use an origin brush to specify the rotation axis.
 To rotate around another axis, make a func_wall with an explicit avelocity given.
 -------- KEYS --------
-<real key="speed" name="speed">speed to rotate (in degrees per second)</real>
+<real key="speed" name="speed">speed to rotate (in degrees per second, default: 100)</real>
 <sound key="noise" name="noise">path/name of looping .wav file to play.</sound>
 <real key="dmg" name="dmg">Do this much dmg every .dmgtime interval when blocked</real>
 <real key="dmgtime" name="dmgtime">See above. (0.25s default)</real>
