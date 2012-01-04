@@ -38,7 +38,7 @@ textures/liquids_lava/lava0_flow_pipe
 	surfaceparm noimpact
 	surfaceparm trans
 	cull disable
-	deformVertexes wave 4 sin 1 2 0.25 0.1
+	deformVertexes wave 2 sin 1 2 0.25 0.1
 	q3map_surfacelight 1000
 	q3map_lightSubdivide 64
 	{
@@ -88,7 +88,7 @@ textures/liquids_lava/lava0_blue_flow_pipe
 	surfaceparm noimpact
 	surfaceparm trans
 	cull disable
-	deformVertexes wave 4 sin 1 2 0.25 0.1
+	deformVertexes wave 2 sin 1 2 0.25 0.1
 	q3map_surfacelight 1000
 	q3map_lightSubdivide 64
 	{
@@ -138,7 +138,7 @@ textures/liquids_lava/lava0_green_flow_pipe
 	surfaceparm noimpact
 	surfaceparm trans
 	cull disable
-	deformVertexes wave 4 sin 1 2 0.25 0.1
+	deformVertexes wave 2 sin 1 2 0.25 0.1
 	q3map_surfacelight 1000
 	q3map_lightSubdivide 64
 	{
@@ -188,7 +188,7 @@ textures/liquids_lava/lava0_purple_flow_pipe
 	surfaceparm noimpact
 	surfaceparm trans
 	cull disable
-	deformVertexes wave 4 sin 1 2 0.25 0.1
+	deformVertexes wave 2 sin 1 2 0.25 0.1
 	q3map_surfacelight 1000
 	q3map_lightSubdivide 64
 	{
