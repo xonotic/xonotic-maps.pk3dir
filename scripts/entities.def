@@ -279,7 +279,7 @@ count: adjusts density, this many particles fall every second for a 1024x1024 ar
 Brush entity that spins in place on one axis (default Z). Use an origin brush to specify the rotation axis.
 To rotate around another axis, make a func_wall with an explicit avelocity given.
 -------- KEYS --------
-speed: speed to rotate (in degrees per second)
+speed: speed to rotate (in degrees per second, default: 100)
 noise: path/name of looping .wav file to play.
 dmg: Do this much dmg every .dmgtime interval when blocked
 dmgtime: See above. (0.25s default)
