@@ -1,5 +1,6 @@
--bsp + -np 45 -sRGBtex -sRGBcolor
--light + -sRGBtex -sRGBcolor -sRGBlight -dirtscale 4 -bounce 8
+-bsp + -np 45
+-light + -dirtscale 4 -bounce 8
 -vis +
 -minimap +
+-sRGB
 Version: 2
