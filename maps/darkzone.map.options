@@ -1,5 +1,5 @@
 -bsp + -np 45
--light + -dirtscale 4 -bounce 8
+-light + -dirtscale 4 -bounce 8 -dirtmode 1
 -vis +
 -minimap +
 -sRGB
