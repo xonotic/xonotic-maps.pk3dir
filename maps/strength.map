@@ -22851,12 +22851,6 @@ exx/base-metal07rust
 }
 }
 {
-"classname" "misc_model"
-"angle" "270"
-"model" "models/mapobjects/morphed_tele/telepad.ase"
-"origin" "1912 336 272"
-}
-{
 "classname" "light"
 "origin" "1916 324 304"
 "light" "100"
@@ -23545,12 +23539,6 @@ exx/base-metal07rust
 "_color" "0.769665 0.881132 1.000000"
 }
 {
-"classname" "misc_model"
-"origin" "248 1936 160"
-"model" "models/mapobjects/morphed_tele/telepad.ase"
-"angle" "270"
-}
-{
 "classname" "light"
 "_color" "0.921875 0.6953125 0.0625"
 "light" "100"
@@ -23706,12 +23694,6 @@ exx/base-metal07rust
 "origin" "2032 1856 1440"
 "light" "350"
 "_color" "0.769665 0.881132 1.000000"
-}
-{
-"classname" "misc_model"
-"angle" "270"
-"model" "models/mapobjects/morphed_tele/telepad.ase"
-"origin" "768 1866 1024"
 }
 {
 "classname" "light"
