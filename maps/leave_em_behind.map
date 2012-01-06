@@ -16177,7 +16177,7 @@ exx/panel-q201
 {
 "classname" "target_speaker"
 "origin" "0.000000 -288.000000 184.000000"
-"noise" "sound/map_leave_em_behind/pumps.ogg"
+"noise" "sound/machines/pumps_looped.ogg"
 }
 {
 "classname" "target_speaker"
@@ -16667,7 +16667,7 @@ exx/panel-q201
 {
 "classname" "target_speaker"
 "origin" "0.000000 288.000000 184.000000"
-"noise" "sound/map_leave_em_behind/pumps.ogg"
+"noise" "sound/machines/pumps_looped.ogg"
 }
 {
 "classname" "target_speaker"
