@@ -1,5 +1,5 @@
 -bsp + -samplesize 8
--light + -dirtscale 2 -dirtdepth 64 -pointscale 0.5 -gamma 0.85 // -areascale 0.5 -spotscale 0.75 -bounce 8 -compensate 1.5 -skyscale
+-light + -dirtscale 3 -dirtdepth 64 -pointscale 0.5 // -gamma 0.85 -areascale 0.5 -spotscale 0.75 -bounce 8 -compensate 1.5 -skyscale
 -vis +
 -minimap +
 -sRGB
