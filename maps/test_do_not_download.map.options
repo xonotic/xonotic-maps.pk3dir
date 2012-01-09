@@ -1,6 +1,6 @@
 -bsp + -samplesize 4
--light + -bounce 8 -dirtscale 2 -sphericalscale 2.0 -spotscale 1.5 -areascale 2 //-skyscale 1.5
+-light + -bounce 8 -sphericalscale 2.0 -areascale 2 -gamma 1.5 -compensate 1.5 //-spotscale 1.5 -dirtscale 2 -skyscale
 -vis +
 -minimap +
--nosRGB
+-sRGB
 Version: 1
