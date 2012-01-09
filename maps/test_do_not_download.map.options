@@ -1,5 +1,5 @@
 -bsp + -samplesize 4
--light + -bounce 8 -sphericalscale 2.0 -areascale 2 -gamma 1.5 -compensate 1.5 //-spotscale 1.5 -dirtscale 2 -skyscale
+-light + -bounce 8 -gamma 1.5 -compensate 1.5 //-sphericalscale 2.0 -areascale 2 -spotscale 1.5 -dirtscale 2 -skyscale
 -vis +
 -minimap +
 -sRGB
