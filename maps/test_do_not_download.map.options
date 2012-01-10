@@ -1,5 +1,5 @@
 -bsp + //-samplesize 8
--light + -bounce 8 -bouncescale 2 //-dirtscale 4 -dirtdepth 32 -spotscale 2 -pointscale 0.5
+-light + -bounce 8 -bouncescale 2 -dirtscale 2 //-dirtdepth 32 -spotscale 2 -pointscale 0.5
 -vis +
 -minimap +
 -sRGB
