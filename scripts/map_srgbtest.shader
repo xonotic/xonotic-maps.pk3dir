@@ -76,7 +76,7 @@ textures/nifrek/grey75light-surfacelight
 	
 	q3map_bouncescale 1.25
 
-	q3map_surfacelight 2500
+	q3map_surfacelight 1500
 	q3map_lightSubdivide 64
 
 	
