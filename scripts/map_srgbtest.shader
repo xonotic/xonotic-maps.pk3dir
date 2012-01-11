@@ -1,3 +1,69 @@
+textures/nifrek/metal_tone01
+{
+	qer_editorimage textures/nifrek/metal_tone01
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	q3map_bouncescale 1.50
+
+	{
+		map textures/nifrek/metal_tone01
+		
+		
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+
+textures/nifrek/metal_tone02
+{
+	qer_editorimage textures/nifrek/metal_tone02
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	q3map_bouncescale 1.50
+
+	{
+		map textures/nifrek/metal_tone02
+		
+		
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+
+textures/nifrek/metal_tone03
+{
+	qer_editorimage textures/nifrek/metal_tone03
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	q3map_bouncescale 1.50
+
+	{
+		map textures/nifrek/metal_tone03
+		
+		
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+
 textures/nifrek/grey25
 {
 	qer_editorimage textures/nifrek/grey25
