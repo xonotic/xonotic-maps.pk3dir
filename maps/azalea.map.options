@@ -1,5 +1,6 @@
--bsp + -sRGBtex
--light + -sRGBtex -sRGBlight -dirtscale 2
+-bsp + -samplesize 4
+-light + -bounce 8 -dirtscale 2
 -vis +
 -minimap +
-Version: 5
+-sRGB
+Version: 6
