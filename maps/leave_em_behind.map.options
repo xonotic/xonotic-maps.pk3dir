@@ -1,0 +1,6 @@
+-bsp + -samplesize 8 -minsamplesize 4 
+-light + -bounce 8
+-vis +
+-minimap +
+-nosRGB
+Version: 4

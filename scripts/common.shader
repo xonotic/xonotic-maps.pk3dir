@@ -9,6 +9,18 @@ textures/common/antiportal
 	surfaceparm antiportal
 }
 
+textures/common/botclip
+{
+	qer_trans 0.40
+	surfaceparm nodraw
+	surfaceparm nolightmap
+	surfaceparm nonsolid
+	surfaceparm trans
+	surfaceparm nomarks
+	surfaceparm noimpact
+	surfaceparm botclip
+}
+
 textures/common/caulk
 {
 	surfaceparm nodraw
@@ -78,9 +90,10 @@ textures/common/hintskip
 
 textures/common/invisible // solid, transparent polygons, casts shadows
 {
+	qer_editorimage textures/common/invisible.tga
 	surfaceparm nolightmap
         {
-		map textures/common/invisible.tga
+		map textures/common/invisible/invisible.tga
 		alphaFunc GE128
 		depthWrite
 		rgbGen vertex
@@ -223,9 +236,41 @@ textures/common/warpzone
 
 textures/common/camera
 {
+	surfaceparm nolightmap
+	surfaceparm trans
 	{
 		map textures/common/warpzone/trans.tga // fully transparent
 		blendfunc blend
 	}
 	dp_camera
+}
+
+textures/common/waternodraw
+{
+	qer_trans 0.40
+	surfaceparm nodraw
+	surfaceparm nolightmap
+	surfaceparm water
+	surfaceparm trans
+	surfaceparm nomarks
+}
+
+textures/common/slimenodraw
+{
+	qer_trans 0.40
+	surfaceparm nodraw
+	surfaceparm nolightmap
+	surfaceparm slime
+	surfaceparm trans
+	surfaceparm nomarks
+}
+
+textures/common/lavanodraw
+{
+	qer_trans 0.40
+	surfaceparm nodraw
+	surfaceparm nolightmap
+	surfaceparm lava
+	surfaceparm trans
+	surfaceparm nomarks
 }

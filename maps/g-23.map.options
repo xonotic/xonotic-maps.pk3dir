@@ -1,5 +1,6 @@
--bsp +
--light +
+-bsp + -samplesize 4
+-light + -bounce 8 -dirtscale 2 -sphericalscale 0.5 -spotscale 1.5 -areascale 0.5 -skyscale 1.5
 -vis +
 -minimap +
-Version: 1
+-sRGB
+Version: 6.18 // ten times golden section

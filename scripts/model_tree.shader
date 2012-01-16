@@ -29,7 +29,7 @@ cull none
        deformVertexes wave 128 sin 0 1 0 0.4 
        {
                map models/leaves6.tga
-               alphaFunc GT0
+               blendFunc blend
                rgbGen vertex
        }
 }
@@ -39,6 +39,7 @@ models/leaves7
 cull none
        qer_editorimage models/leaves7.tga
        qer_trans 0.6
+       dpoffsetmapping - 1 match8 111
        deformVertexes autosprite
        surfaceparm nolightmap
        surfaceparm trans
@@ -46,7 +47,7 @@ cull none
        deformVertexes wave 128 sin 0 1 0 0.5
        {
                map models/leaves7.tga
-               alphaFunc GT0
+               blendFunc blend
                rgbGen vertex
        }
 }

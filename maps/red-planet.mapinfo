@@ -1,0 +1,18 @@
+title Red Planet
+description A large facility on a red dusty planet
+author Mircea Kitsune, Cuinnton, FruitieX
+cdtrack 13
+has weapons
+gametype dm
+gametype tdm
+gametype rune
+gametype ctf
+gametype ons
+gametype lms
+gametype arena
+gametype ca
+gametype dom
+gametype kh
+gametype freezetag
+gametype keepaway
+gametype nexball

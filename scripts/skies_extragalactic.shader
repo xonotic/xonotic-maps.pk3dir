@@ -1,6 +1,6 @@
 textures/skies/extragalactic_asteroids
 {
-	qer_editorimage textures/skies/extragalactic_asteroids.tga
+	qer_editorimage textures/skies/extragalactic_asteroids.jpg
 	surfaceparm sky
 	surfaceparm nolightmap
 	surfaceparm nodlight
@@ -14,7 +14,7 @@ textures/skies/extragalactic_asteroids
 
 textures/skies/extragalactic_nebulae
 {
-	qer_editorimage textures/skies/extragalactic_nebulae.tga
+	qer_editorimage textures/skies/extragalactic_nebulae.jpg
 	surfaceparm sky
 	surfaceparm nolightmap
 	surfaceparm nodlight
@@ -29,7 +29,7 @@ textures/skies/extragalactic_nebulae
 
 textures/skies/extragalactic_planets
 {
-	qer_editorimage textures/skies/extragalactic_planets.tga
+	qer_editorimage textures/skies/extragalactic_planets.jpg
 	surfaceparm sky
 	surfaceparm nolightmap
 	surfaceparm nodlight
@@ -37,6 +37,34 @@ textures/skies/extragalactic_planets
 	surfaceparm nomarks
 
 	skyparms env/extragalactic/planets - - //farbox cloudheight nearbox
-	q3map_sunExt 1 0.9 0.8 320 124 42 0 16 //rgb intensity degrees elevation deviance samples
+	q3map_sunExt 1 0.6 0.1 320 124 42 0 16 //rgb intensity degrees elevation deviance samples
+	q3map_skylight 50 4
+}
+
+textures/skies/extragalactic_planets_intensity_256
+{
+	qer_editorimage textures/skies/extragalactic_planets.jpg
+	surfaceparm sky
+	surfaceparm nolightmap
+	surfaceparm nodlight
+	surfaceparm noimpact
+	surfaceparm nomarks
+
+	skyparms env/extragalactic/planets - - //farbox cloudheight nearbox
+	q3map_sunExt 1 0.6 0.1 256 124 42 0 16 //rgb intensity degrees elevation deviance samples
+	q3map_skylight 50 4
+}
+
+textures/skies/extragalactic_planets_intensity_196
+{
+	qer_editorimage textures/skies/extragalactic_planets.jpg
+	surfaceparm sky
+	surfaceparm nolightmap
+	surfaceparm nodlight
+	surfaceparm noimpact
+	surfaceparm nomarks
+
+	skyparms env/extragalactic/planets - - //farbox cloudheight nearbox
+	q3map_sunExt 1 0.6 0.1 196 124 42 0 16 //rgb intensity degrees elevation deviance samples
 	q3map_skylight 50 4
 }
