@@ -2,4 +2,5 @@
 -light + -bounce 6 -bouncegrid -dirtscale 1.5
 -vis +
 -minimap +
+-nosRGB
 Version: 9

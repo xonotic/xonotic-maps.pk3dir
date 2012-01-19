@@ -2,4 +2,5 @@
 -light +
 -vis + -fast
 -minimap +
+-nosRGB
 Version: 5
