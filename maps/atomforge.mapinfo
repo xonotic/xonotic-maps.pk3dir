@@ -1,5 +1,5 @@
 title Atomforge
-description Small, fast indoor DM map.
+description Medium size, fast indoors map.
 author kuniu the frogg
 cdtrack 12
 has weapons
@@ -11,3 +11,4 @@ gametype arena
 gametype rune
 gametype freezetag
 gametype kh
+gametype dom
