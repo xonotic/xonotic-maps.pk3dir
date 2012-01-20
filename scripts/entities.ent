@@ -324,9 +324,10 @@ Trains cannot be block-stopped just by getting in their way, the player must be 
 </group>
 
 <point name="info_autoscreenshot" color="0 0 0.2" box="-8 -8 -8 8 8 8">
-Location to make the first autoscreenshot from.
+Location to make the first autoscreenshots from. At most three such entities may be used!
 -------- KEYS --------
 <angles key="angles" name="angles">view direction of the camera in PITCH YAW ROLL</angles>
+<target key="target" name="target">targetname of a target_position for the view direction, alternatively to specifying angles</target>
 </point>
 
 <point name="info_location" color="1 1 0" box="-8 -8 -8 8 8 8">
