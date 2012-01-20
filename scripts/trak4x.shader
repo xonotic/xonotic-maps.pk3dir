@@ -1,6 +1,7 @@
 textures/trak4x/base-concrete1a
 {
 	qer_editorimage textures/trak4x/base/base_concrete1a.tga
+	dpoffsetmapping - 1 match8 250
 	
 	q3map_bounceScale 0.5
 
@@ -20,6 +21,7 @@ textures/trak4x/base-concrete1a
 textures/trak4x/base-concrete1b
 {
 	qer_editorimage textures/trak4x/base/base_concrete1b.tga
+	dpoffsetmapping - 1 match8 250
 	
 	q3map_bounceScale 0.5
 
@@ -39,6 +41,7 @@ textures/trak4x/base-concrete1b
 textures/trak4x/base-concrete2a
 {
 	qer_editorimage textures/trak4x/base/base_concrete2a.tga
+	dpoffsetmapping - 1 match8 255
 	
 	q3map_bounceScale 0.5
 
@@ -58,6 +61,7 @@ textures/trak4x/base-concrete2a
 textures/trak4x/base-concrete3
 {
 	qer_editorimage textures/trak4x/base/base_concrete3.tga
+	dpoffsetmapping - 1 match8 255
 	
 	q3map_bounceScale 0.5
 
@@ -77,6 +81,7 @@ textures/trak4x/base-concrete3
 textures/trak4x/base-concrete4a
 {
 	qer_editorimage textures/trak4x/base/base_concrete4a.tga
+	dpoffsetmapping - 1 match8 255
 	
 	q3map_bounceScale 0.5
 
@@ -96,6 +101,7 @@ textures/trak4x/base-concrete4a
 textures/trak4x/base-concrete4b
 {
 	qer_editorimage textures/trak4x/base/base_concrete4b.tga
+	dpoffsetmapping - 1 match8 255
 	
 	q3map_bounceScale 0.5
 
@@ -115,6 +121,7 @@ textures/trak4x/base-concrete4b
 textures/trak4x/base-concrete5a
 {
 	qer_editorimage textures/trak4x/base/base_concrete5a.tga
+	dpoffsetmapping - 1 match8 92
 	
 	q3map_bounceScale 0.5
 
@@ -134,6 +141,7 @@ textures/trak4x/base-concrete5a
 textures/trak4x/base-concrete5b
 {
 	qer_editorimage textures/trak4x/base/base_concrete5b.tga
+	dpoffsetmapping - 1 match8 92
 	
 	q3map_bounceScale 0.5
 
@@ -153,6 +161,7 @@ textures/trak4x/base-concrete5b
 textures/trak4x/base-concrete6
 {
 	qer_editorimage textures/trak4x/base/base_concrete6.tga
+	dpoffsetmapping - 1 match8 94
 	
 	q3map_bounceScale 0.5
 
@@ -172,6 +181,7 @@ textures/trak4x/base-concrete6
 textures/trak4x/base-painted2
 {
 	qer_editorimage textures/trak4x/base/base_painted2.tga
+	dpoffsetmapping - 1 match8 108
 	
 	q3map_bounceScale 1.25
 
@@ -191,6 +201,7 @@ textures/trak4x/base-painted2
 textures/trak4x/base-paint_blue
 {
 	qer_editorimage textures/trak4x/base/base_paint_blue.tga
+	dpoffsetmapping - 1 match8 109
 	
 	q3map_bounceScale 1.25
 
@@ -210,6 +221,7 @@ textures/trak4x/base-paint_blue
 textures/trak4x/base-paint_dblue
 {
 	qer_editorimage textures/trak4x/base/base_paint_dblue.tga
+	dpoffsetmapping - 1 match8 109
 	
 	q3map_bounceScale 1.25
 
@@ -229,6 +241,7 @@ textures/trak4x/base-paint_dblue
 textures/trak4x/base-paint_green
 {
 	qer_editorimage textures/trak4x/base/base_paint_green.tga
+	dpoffsetmapping - 1 match8 109
 	
 	q3map_bounceScale 1.25
 
@@ -248,6 +261,7 @@ textures/trak4x/base-paint_green
 textures/trak4x/base-paint_pink
 {
 	qer_editorimage textures/trak4x/base/base_paint_pink.tga
+	dpoffsetmapping - 1 match8 109
 	
 	q3map_bounceScale 1.25
 
@@ -267,6 +281,7 @@ textures/trak4x/base-paint_pink
 textures/trak4x/base-paint_purp
 {
 	qer_editorimage textures/trak4x/base/base_paint_purp.tga
+	dpoffsetmapping - 1 match8 109
 	
 	q3map_bounceScale 1.25
 
@@ -286,6 +301,7 @@ textures/trak4x/base-paint_purp
 textures/trak4x/base-paint_red
 {
 	qer_editorimage textures/trak4x/base/base_paint_red.tga
+	dpoffsetmapping - 1 match8 109
 	
 	q3map_bounceScale 1.25
 
@@ -305,6 +321,7 @@ textures/trak4x/base-paint_red
 textures/trak4x/base-paint_yellow
 {
 	qer_editorimage textures/trak4x/base/base_paint_yellow.tga
+	dpoffsetmapping - 1 match8 109
 	
 	q3map_bounceScale 1.25
 
@@ -324,6 +341,7 @@ textures/trak4x/base-paint_yellow
 textures/trak4x/base-rust1
 {
 	qer_editorimage textures/trak4x/base/base_rust1.tga
+	dpoffsetmapping - 1 match8 249
 	
 	q3map_bounceScale 0.5
 
@@ -343,6 +361,7 @@ textures/trak4x/base-rust1
 textures/trak4x/base-rust1a
 {
 	qer_editorimage textures/trak4x/base/base_rust1a.tga
+	dpoffsetmapping - 1 match8 249
 	
 	q3map_bounceScale 0.5
 
@@ -362,6 +381,7 @@ textures/trak4x/base-rust1a
 textures/trak4x/base-rust1b
 {
 	qer_editorimage textures/trak4x/base/base_rust1b.tga
+	dpoffsetmapping - 1 match8 249
 	
 	q3map_bounceScale 0.5
 
@@ -381,6 +401,7 @@ textures/trak4x/base-rust1b
 textures/trak4x/base-rust1c
 {
 	qer_editorimage textures/trak4x/base/base_rust1c.tga
+	dpoffsetmapping - 1 match8 249
 	
 	q3map_bounceScale 1.25
 
@@ -400,6 +421,7 @@ textures/trak4x/base-rust1c
 textures/trak4x/base-rust2
 {
 	qer_editorimage textures/trak4x/base/base_rust2.tga
+	dpoffsetmapping - 1 match8 32
 	
 	q3map_bounceScale 1.25
 
@@ -419,6 +441,7 @@ textures/trak4x/base-rust2
 textures/trak4x/base-rust2b
 {
 	qer_editorimage textures/trak4x/base/base_rust2b.tga
+	dpoffsetmapping - 1 match8 32
 	
 	q3map_bounceScale 1.25
 
@@ -438,6 +461,7 @@ textures/trak4x/base-rust2b
 textures/trak4x/wood1c
 {
 	qer_editorimage textures/trak4x/base/wood1c.tga
+	dpoffsetmapping - 1 match8 121
 	
 	q3map_bounceScale 0.5
 
@@ -457,6 +481,7 @@ textures/trak4x/wood1c
 textures/trak4x/wood1d
 {
 	qer_editorimage textures/trak4x/base/wood1d.tga
+	dpoffsetmapping - 1 match8 121
 	
 	q3map_bounceScale 0.5
 
@@ -476,13 +501,12 @@ textures/trak4x/wood1d
 textures/trak4x/decal-door
 {
 	qer_editorimage textures/trak4x/decal/decal_door.tga
-	surfaceparm trans
+	surfaceparm trans // keeping this, don't want any shadows from this
 	q3map_bounceScale 0.5
 
 
 	{
 		map textures/trak4x/decal/decal_door.tga
-		blendFunc blend
 	}
 	{
 		map $lightmap
@@ -710,6 +734,7 @@ textures/trak4x/decal-wallpainting
 textures/trak4x/floor-tile1
 {
 	qer_editorimage textures/trak4x/floor/floor_tile1.tga
+	dpoffsetmapping - 1 match8 151
 	
 	q3map_bounceScale 1.25
 
@@ -729,6 +754,7 @@ textures/trak4x/floor-tile1
 textures/trak4x/floor-tile2a
 {
 	qer_editorimage textures/trak4x/floor/floor_tile2a.tga
+	dpoffsetmapping - 1 match8 255
 	
 	q3map_bounceScale 1.25
 
@@ -748,6 +774,7 @@ textures/trak4x/floor-tile2a
 textures/trak4x/floor-tile2b
 {
 	qer_editorimage textures/trak4x/floor/floor_tile2b.tga
+	dpoffsetmapping - 1 match8 255
 	
 	q3map_bounceScale 1.25
 
@@ -767,6 +794,7 @@ textures/trak4x/floor-tile2b
 textures/trak4x/floor-tile3a
 {
 	qer_editorimage textures/trak4x/floor/floor_tile3a.tga
+	dpoffsetmapping - 1 match8 255
 	
 	q3map_bounceScale 1.25
 
@@ -786,6 +814,7 @@ textures/trak4x/floor-tile3a
 textures/trak4x/floor-tile3b
 {
 	qer_editorimage textures/trak4x/floor/floor_tile3b.tga
+	dpoffsetmapping - 1 match8 255
 	
 	q3map_bounceScale 1.25
 
@@ -805,6 +834,7 @@ textures/trak4x/floor-tile3b
 textures/trak4x/floor-tile3c
 {
 	qer_editorimage textures/trak4x/floor/floor_tile3c.tga
+	dpoffsetmapping - 1 match8 255
 	
 	q3map_bounceScale 1.25
 
@@ -824,13 +854,12 @@ textures/trak4x/floor-tile3c
 textures/trak4x/trim-grate1
 {
 	qer_editorimage textures/trak4x/trim/trim_grate1.tga
-	surfaceparm trans
+	dpoffsetmapping - 1 match8 203
 	q3map_bounceScale 1.25
 
 
 	{
 		map textures/trak4x/trim/trim_grate1.tga
-		blendFunc blend
 	}
 	{
 		map $lightmap
@@ -842,13 +871,12 @@ textures/trak4x/trim-grate1
 textures/trak4x/trim-grate2a
 {
 	qer_editorimage textures/trak4x/trim/trim_grate2a.tga
-	surfaceparm trans
+	dpoffsetmapping - 1 match8 89
 	q3map_bounceScale 1.25
 
 
 	{
 		map textures/trak4x/trim/trim_grate2a.tga
-		blendFunc blend
 	}
 	{
 		map $lightmap
@@ -860,6 +888,7 @@ textures/trak4x/trim-grate2a
 textures/trak4x/trim-trim1
 {
 	qer_editorimage textures/trak4x/trim/trim_trim1.tga
+	dpoffsetmapping - 1 match8 99
 	
 	q3map_bounceScale 0.5
 
@@ -879,6 +908,7 @@ textures/trak4x/trim-trim1
 textures/trak4x/trim-trim1a
 {
 	qer_editorimage textures/trak4x/trim/trim_trim1a.tga
+	dpoffsetmapping - 1 match8 99
 	
 	q3map_bounceScale 0.5
 
@@ -898,6 +928,7 @@ textures/trak4x/trim-trim1a
 textures/trak4x/trim-trim1b
 {
 	qer_editorimage textures/trak4x/trim/trim_trim1b.tga
+	dpoffsetmapping - 1 match8 99
 	
 	q3map_bounceScale 0.5
 
@@ -917,6 +948,7 @@ textures/trak4x/trim-trim1b
 textures/trak4x/trim-trim1c
 {
 	qer_editorimage textures/trak4x/trim/trim_trim1c.tga
+	dpoffsetmapping - 1 match8 99
 	
 	q3map_bounceScale 0.5
 
@@ -936,6 +968,7 @@ textures/trak4x/trim-trim1c
 textures/trak4x/trim-trim1d
 {
 	qer_editorimage textures/trak4x/trim/trim_trim1d.tga
+	dpoffsetmapping - 1 match8 99
 	
 	q3map_bounceScale 0.5
 
@@ -955,6 +988,7 @@ textures/trak4x/trim-trim1d
 textures/trak4x/trim-trim1e
 {
 	qer_editorimage textures/trak4x/trim/trim_trim1e.tga
+	dpoffsetmapping - 1 match8 99
 	
 	q3map_bounceScale 0.5
 
@@ -974,6 +1008,7 @@ textures/trak4x/trim-trim1e
 textures/trak4x/trim-trim1f
 {
 	qer_editorimage textures/trak4x/trim/trim_trim1f.tga
+	dpoffsetmapping - 1 match8 99
 	
 	q3map_bounceScale 0.5
 
@@ -993,6 +1028,7 @@ textures/trak4x/trim-trim1f
 textures/trak4x/wall-brick1
 {
 	qer_editorimage textures/trak4x/wall/wall_brick1.tga
+	dpoffsetmapping - 1 match8 232
 	
 	q3map_bounceScale 0.5
 
@@ -1012,6 +1048,7 @@ textures/trak4x/wall-brick1
 textures/trak4x/wall-brick2
 {
 	qer_editorimage textures/trak4x/wall/wall_brick2.tga
+	dpoffsetmapping - 1 match8 175
 	
 	q3map_bounceScale 0.5
 
@@ -1031,6 +1068,7 @@ textures/trak4x/wall-brick2
 textures/trak4x/wall-brick2a
 {
 	qer_editorimage textures/trak4x/wall/wall_brick2a.tga
+	dpoffsetmapping - 1 match8 175
 	
 	q3map_bounceScale 0.5
 
@@ -1050,6 +1088,7 @@ textures/trak4x/wall-brick2a
 textures/trak4x/wall-brick2b
 {
 	qer_editorimage textures/trak4x/wall/wall_brick2b.tga
+	dpoffsetmapping - 1 match8 175
 	
 	q3map_bounceScale 0.5
 
@@ -1069,6 +1108,7 @@ textures/trak4x/wall-brick2b
 textures/trak4x/wall-door1
 {
 	qer_editorimage textures/trak4x/wall/wall_door1.tga
+	dpoffsetmapping - 1 match8 75
 	
 	q3map_bounceScale 1.25
 
@@ -1088,6 +1128,7 @@ textures/trak4x/wall-door1
 textures/trak4x/wall-door1a
 {
 	qer_editorimage textures/trak4x/wall/wall_door1a.tga
+	dpoffsetmapping - 1 match8 75
 	
 	q3map_bounceScale 1.25
 
@@ -1107,6 +1148,7 @@ textures/trak4x/wall-door1a
 textures/trak4x/wall-door1b
 {
 	qer_editorimage textures/trak4x/wall/wall_door1b.tga
+	dpoffsetmapping - 1 match8 75
 	
 	q3map_bounceScale 1.25
 
@@ -1126,6 +1168,7 @@ textures/trak4x/wall-door1b
 textures/trak4x/wall-door1c
 {
 	qer_editorimage textures/trak4x/wall/wall_door1c.tga
+	dpoffsetmapping - 1 match8 75
 	
 	q3map_bounceScale 1.25
 
@@ -1145,6 +1188,7 @@ textures/trak4x/wall-door1c
 textures/trak4x/wall-door1d
 {
 	qer_editorimage textures/trak4x/wall/wall_door1d.tga
+	dpoffsetmapping - 1 match8 75
 	
 	q3map_bounceScale 1.25
 
@@ -1164,6 +1208,7 @@ textures/trak4x/wall-door1d
 textures/trak4x/wall-door1e
 {
 	qer_editorimage textures/trak4x/wall/wall_door1e.tga
+	dpoffsetmapping - 1 match8 75
 	
 	q3map_bounceScale 1.25
 
@@ -1183,6 +1228,7 @@ textures/trak4x/wall-door1e
 textures/trak4x/wall-plaster1
 {
 	qer_editorimage textures/trak4x/wall/wall_plaster1.tga
+	dpoffsetmapping - 1 match8 153
 	
 	q3map_bounceScale 0.5
 
@@ -1202,6 +1248,7 @@ textures/trak4x/wall-plaster1
 textures/trak4x/wall-plaster3-2
 {
 	qer_editorimage textures/trak4x/wall/wall_plaster3-2.tga
+	dpoffsetmapping - 1 match8 80
 	
 	q3map_bounceScale 0.5
 
@@ -1221,6 +1268,7 @@ textures/trak4x/wall-plaster3-2
 textures/trak4x/wall-plaster3
 {
 	qer_editorimage textures/trak4x/wall/wall_plaster3.tga
+	dpoffsetmapping - 1 match8 80
 	
 	q3map_bounceScale 0.5
 
@@ -1240,6 +1288,7 @@ textures/trak4x/wall-plaster3
 textures/trak4x/wall-plaster3a-2
 {
 	qer_editorimage textures/trak4x/wall/wall_plaster3a-2.tga
+	dpoffsetmapping - 1 match8 80
 	
 	q3map_bounceScale 0.5
 
@@ -1259,6 +1308,7 @@ textures/trak4x/wall-plaster3a-2
 textures/trak4x/wall-plaster3a-3
 {
 	qer_editorimage textures/trak4x/wall/wall_plaster3a-3.tga
+	dpoffsetmapping - 1 match8 80
 	
 	q3map_bounceScale 0.5
 
@@ -1278,6 +1328,7 @@ textures/trak4x/wall-plaster3a-3
 textures/trak4x/wall-plaster3a
 {
 	qer_editorimage textures/trak4x/wall/wall_plaster3a.tga
+	dpoffsetmapping - 1 match8 80
 	
 	q3map_bounceScale 0.5
 
@@ -1297,6 +1348,7 @@ textures/trak4x/wall-plaster3a
 textures/trak4x/wall-plaster3b-2
 {
 	qer_editorimage textures/trak4x/wall/wall_plaster3b-2.tga
+	dpoffsetmapping - 1 match8 80
 	
 	q3map_bounceScale 0.5
 
@@ -1316,6 +1368,7 @@ textures/trak4x/wall-plaster3b-2
 textures/trak4x/wall-plaster3b
 {
 	qer_editorimage textures/trak4x/wall/wall_plaster3b.tga
+	dpoffsetmapping - 1 match8 80
 	
 	q3map_bounceScale 0.5
 
@@ -1335,6 +1388,7 @@ textures/trak4x/wall-plaster3b
 textures/trak4x/wall-plaster3c-2
 {
 	qer_editorimage textures/trak4x/wall/wall_plaster3c-2.tga
+	dpoffsetmapping - 1 match8 80
 	
 	q3map_bounceScale 0.5
 
@@ -1354,6 +1408,7 @@ textures/trak4x/wall-plaster3c-2
 textures/trak4x/wall-plaster3c-3
 {
 	qer_editorimage textures/trak4x/wall/wall_plaster3c-3.tga
+	dpoffsetmapping - 1 match8 80
 	
 	q3map_bounceScale 0.5
 
@@ -1373,6 +1428,7 @@ textures/trak4x/wall-plaster3c-3
 textures/trak4x/wall-plaster3c
 {
 	qer_editorimage textures/trak4x/wall/wall_plaster3c.tga
+	dpoffsetmapping - 1 match8 80
 	
 	q3map_bounceScale 0.5
 
@@ -1392,6 +1448,7 @@ textures/trak4x/wall-plaster3c
 textures/trak4x/wall-plaster3d-2
 {
 	qer_editorimage textures/trak4x/wall/wall_plaster3d-2.tga
+	dpoffsetmapping - 1 match8 80
 	
 	q3map_bounceScale 0.5
 
@@ -1411,6 +1468,7 @@ textures/trak4x/wall-plaster3d-2
 textures/trak4x/wall-plaster3d
 {
 	qer_editorimage textures/trak4x/wall/wall_plaster3d.tga
+	dpoffsetmapping - 1 match8 80
 	
 	q3map_bounceScale 0.5
 
