@@ -131,6 +131,26 @@ When a button is touched by a player, it moves in the direction set by the &quot
 <flag key="NOSPLASH" name="NOSPLASH" bit="8">if set, splash damage cannot activate the door, only direct damage can (requires health to be set)</flag>
 </group>
 
+<group name="func_conveyor" color="0 .5 .8">
+A conveyor. Solid brush version.
+-------- KEYS --------
+<targetname key="targetname" name="targetname">if set, it can be turned on/off</targetname>
+<direction key="angle" name="angle">determines the opening direction</direction>
+<real key="speed" name="speed">movement speed (200 default)</real>
+-------- SPAWNFLAGS --------
+<flag key="START_ON" name="START_ON" bit="0">the conveyor is turned on if not triggered</flag>
+</group>
+
+<group name="trigger_conveyor" color="0 .5 .8">
+A conveyor. Nonsolid trigger version.
+-------- KEYS --------
+<targetname key="targetname" name="targetname">if set, it can be turned on/off</targetname>
+<direction key="angle" name="angle">determines the opening direction</direction>
+<real key="speed" name="speed">movement speed (200 default)</real>
+-------- SPAWNFLAGS --------
+<flag key="START_ON" name="START_ON" bit="0">the conveyor is turned on if not triggered</flag>
+</group>
+
 <group name="func_door" color="0 .5 .8">
 Normal sliding door entity. By default, the door will activate when player walks close to it or when damage is inflicted to it.
 If DOOR_DONT_LINK is not set, the door will be linked with all doors it touches. Note however that for linked doors to work properly, it is necessary that ALL linked doors have SOME volume of common area (that is, there must be a point that is part of ALL doors).
@@ -148,11 +168,16 @@ If DOOR_DONT_LINK is not set, the door will be linked with all doors it touches.
 <real key="sounds" name="sounds">when 1, use default door sounds</real>
 <sound key="noise1" name="noise1">sound when the door opens</sound>
 <sound key="noise2" name="noise2">sound when the door closes</sound>
+<real key="itemkeys" name="itemkeys">keys required to open this door.</real>
 -------- SPAWNFLAGS --------
 <flag key="START_OPEN" name="START_OPEN" bit="0">causes the door to move to its destination when spawned, and operate in reverse.  It is used to temporarily or permanently close off an area when triggered (not useful for touch or damage triggered doors).</flag>
 <flag key="DOOR_DONT_LINK" name="DOOR_DONT_LINK" bit="2">the door won't link with another door it touches</flag>
+<flag key="GOLD_KEY" name="GOLD_KEY" bit="3">causes the door to open only if the activator holds a gold key (Q1 compatibility).</flag>
+<flag key="SILVER_KEY" name="SILVER_KEY" bit="4">causes the door to open only if the activator holds a silver key (Q1 compatibility).</flag>
 <flag key="TOGGLE" name="TOGGLE" bit="5">causes the door to wait in both the start and end states for a trigger event.</flag>
 <flag key="NOSPLASH" name="NOSPLASH" bit="8">if set, splash damage cannot activate the door, only direct damage can (requires health to be set)</flag>
+-------- NOTES --------
+More information about keys can be found in item_key description.
 </group>
 
 <group name="func_door_rotating" color="0 .5 .8">
@@ -256,7 +281,7 @@ This is an invisible area like a trigger, which rain falls inside of.
 Brush entity that spins in place on one axis (default Z). Use an origin brush to specify the rotation axis.
 To rotate around another axis, make a func_wall with an explicit avelocity given.
 -------- KEYS --------
-<real key="speed" name="speed">speed to rotate (in degrees per second)</real>
+<real key="speed" name="speed">speed to rotate (in degrees per second, default: 100)</real>
 <sound key="noise" name="noise">path/name of looping .wav file to play.</sound>
 <real key="dmg" name="dmg">Do this much dmg every .dmgtime interval when blocked</real>
 <real key="dmgtime" name="dmgtime">See above. (0.25s default)</real>
@@ -298,6 +323,12 @@ Trains cannot be block-stopped just by getting in their way, the player must be 
 <string key="message2" name="message2">death message when someone gets pushed into this (default: &quot;was thrown into a world of hurt by&quot;). The # character is replaced by the attacker name if present (and it instead does not get appended to the end)</string>
 </group>
 
+<point name="info_autoscreenshot" color="0 0 0.2" box="-8 -8 -8 8 8 8">
+Location to make the first autoscreenshot from.
+-------- KEYS --------
+<angles key="angles" name="angles">view direction of the camera in PITCH YAW ROLL</angles>
+</point>
+
 <point name="info_location" color="1 1 0" box="-8 -8 -8 8 8 8">
 Location for use by the %l escape in &quot;say&quot; messages.
 The closest &quot;visible&quot; info_location entity is chosen to find the right location name for a point.
@@ -333,7 +364,9 @@ Attacking team's player spawning location in Assault. Should touch the floor, bu
 Normal player spawning location in game types without team spawns. Should touch the floor, but not the walls, and should point where the player should look when he spawns there.
 -------- KEYS --------
 <real key="cnt" name="cnt">weight of spawn point for random selection. Set to a lower value if you have many spawn points close together. Default value is 1.</real>
-<target key="target" name="target">trigger all entities with this targetname when someone spawns</target>
+<target key="target2" name="target2">trigger all entities with this targetname when someone spawns</target>
+<target key="target3" name="target3">trigger all entities with this targetname when someone spawns</target>
+<target key="target4" name="target4">trigger all entities with this targetname when someone spawns</target>
 <targetname key="targetname" name="targetname">when targeted by a func_button, pressing the button will assign the spawn point to the team of the activator as an additional spawn point, or reassign it if it was already assigned. Also used to assign spawn points to Onslaught control points.</targetname>
 <real key="restriction" name="restriction">when 1, only bots can spawn here; when 2, only humans can spawn here (be careful with these, or the game will crash because someone cannot spawn)</real>
 </point>
@@ -354,7 +387,9 @@ Defending team's player spawning location in Assault. Should touch the floor, bu
 Red team's player spawning location in e.g. CTF and Onslaught. Should touch the floor, but not the walls, and should point where the player should look when he spawns there.
 -------- KEYS --------
 <real key="cnt" name="cnt">weight of spawn point for random selection. Set to a lower value if you have many spawn points close together. Default value is 1.</real>
-<target key="target" name="target">trigger all entities with this targetname when someone spawns</target>
+<target key="target2" name="target2">trigger all entities with this targetname when someone spawns</target>
+<target key="target3" name="target3">trigger all entities with this targetname when someone spawns</target>
+<target key="target4" name="target4">trigger all entities with this targetname when someone spawns</target>
 <targetname key="targetname" name="targetname">when targeted by a func_button, pressing the button will reassign the spawn point to the team of the activator. If a team has no more spawn point left, it immediately loses.</targetname>
 <real key="restriction" name="restriction">when 1, only bots can spawn here; when 2, only humans can spawn here (be careful with these, or the game will crash because someone cannot spawn)</real>
 </point>
@@ -363,7 +398,9 @@ Red team's player spawning location in e.g. CTF and Onslaught. Should touch the 
 Blue team's player spawning location in e.g. CTF and Onslaught. Should touch the floor, but not the walls, and should point where the player should look when he spawns there.
 -------- KEYS --------
 <real key="cnt" name="cnt">weight of spawn point for random selection. Set to a lower value if you have many spawn points close together. Default value is 1.</real>
-<target key="target" name="target">trigger all entities with this targetname when someone spawns</target>
+<target key="target2" name="target2">trigger all entities with this targetname when someone spawns</target>
+<target key="target3" name="target3">trigger all entities with this targetname when someone spawns</target>
+<target key="target4" name="target4">trigger all entities with this targetname when someone spawns</target>
 <targetname key="targetname" name="targetname">when targeted by a func_button, pressing the button will reassign the spawn point to the team of the activator. If a team has no more spawn point left, it immediately loses.</targetname>
 <real key="restriction" name="restriction">when 1, only bots can spawn here; when 2, only humans can spawn here (be careful with these, or the game will crash because someone cannot spawn)</real>
 </point>
@@ -372,7 +409,9 @@ Blue team's player spawning location in e.g. CTF and Onslaught. Should touch the
 Yellow team's player spawning location, but there is no game mode to use this yet. Anyway, should touch the floor, but not the walls, and should point where the player should look when he spawns there.
 -------- KEYS --------
 <real key="cnt" name="cnt">weight of spawn point for random selection. Set to a lower value if you have many spawn points close together. Default value is 1.</real>
-<target key="target" name="target">trigger all entities with this targetname when someone spawns</target>
+<target key="target2" name="target2">trigger all entities with this targetname when someone spawns</target>
+<target key="target3" name="target3">trigger all entities with this targetname when someone spawns</target>
+<target key="target4" name="target4">trigger all entities with this targetname when someone spawns</target>
 <targetname key="targetname" name="targetname">when targeted by a func_button, pressing the button will reassign the spawn point to the team of the activator. If a team has no more spawn point left, it immediately loses.</targetname>
 <real key="restriction" name="restriction">when 1, only bots can spawn here; when 2, only humans can spawn here (be careful with these, or the game will crash because someone cannot spawn)</real>
 </point>
@@ -381,7 +420,9 @@ Yellow team's player spawning location, but there is no game mode to use this ye
 Pink team's player spawning location, but there is no game mode to use this yet. Anyway, should touch the floor, but not the walls, and should point where the player should look when he spawns there.
 -------- KEYS --------
 <real key="cnt" name="cnt">weight of spawn point for random selection. Set to a lower value if you have many spawn points close together. Default value is 1.</real>
-<target key="target" name="target">trigger all entities with this targetname when someone spawns</target>
+<target key="target2" name="target2">trigger all entities with this targetname when someone spawns</target>
+<target key="target3" name="target3">trigger all entities with this targetname when someone spawns</target>
+<target key="target4" name="target4">trigger all entities with this targetname when someone spawns</target>
 <targetname key="targetname" name="targetname">when targeted by a func_button, pressing the button will reassign the spawn point to the team of the activator. If a team has no more spawn point left, it immediately loses.</targetname>
 <real key="restriction" name="restriction">when 1, only bots can spawn here; when 2, only humans can spawn here (be careful with these, or the game will crash because someone cannot spawn)</real>
 </point>
@@ -573,6 +614,59 @@ In Minstagib, this randomly turns into either an invisibility, an extra lives or
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 modeldisabled=&quot;models/items/g_invincible.md3&quot;
+</point>
+
+<point name="item_key" color="0 .5 .8" box="-16 -16 -24 16 16 32">
+A key entity.
+The itemkeys should contain one of the following key IDs:
+1 - GOLD key - 
+2 - SILVER key
+4 - BRONZE key
+8 - RED keycard
+16 - BLUE keycard
+32 - GREEN keycard
+Custom keys:
+... - last key is 1&lt;&lt;23
+Keys with bigger Id than 32 don't have a default netname and model, if you use one of them, you MUST provide those.
+-----------KEYS------------
+<color key="colormod" name="colormod">color of the key (default: '.9 .9 .9').</color>
+<real key="itemkeys" name="itemkeys">a key Id.</real>
+<string key="message" name="message">message to print when player picks up this key.</string>
+<model key="model" name="model">custom key model to use.</model>
+<string key="netname" name="netname">the display name of the key.</string>
+<sound key="noise" name="noise">custom sound to play when player picks up the key.</sound>
+-------- SPAWNFLAGS --------
+<flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+---------NOTES----------
+This is the only correct way to put keys on the map!
+
+itemkeys MUST always have exactly one bit set.
+</point>
+
+<point name="item_key1" color="0 .5 .8" box="-16 -16 -24 16 16 32">
+SILVER key.
+-----------KEYS------------
+<color key="colormod" name="colormod">color of the key (default: '.9 .9 .9').</color>
+<string key="message" name="message">message to print when player picks up this key.</string>
+<model key="model" name="model">custom model to use.</model>
+<sound key="noise" name="noise">custom sound to play when player picks up the key.</sound>
+-------- SPAWNFLAGS --------
+<flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+---------NOTES----------
+Don't use this entity on new maps! Use item_key instead.
+</point>
+
+<point name="item_key2" color="0 .5 .8" box="-16 -16 -24 16 16 32">
+GOLD key.
+-----------KEYS------------
+<color key="colormod" name="colormod">color of the key (default: '1 .9 0').</color>
+<string key="message" name="message">message to print when player picks up this key.</string>
+<model key="model" name="model">custom model to use.</model>
+<sound key="noise" name="noise">custom sound to play when player picks up the key.</sound>
+-------- SPAWNFLAGS --------
+<flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+---------NOTES----------
+Don't use this entity on new maps! Use item_key instead.
 </point>
 
 <point name="item_minst_cells" color=".3 .3 1" box="-30 -30 0 30 30 32">
@@ -779,8 +873,8 @@ The keys below actually apply to most brush entities as they are engine features
 <boolean key="_receiveshadows" name="_receiveshadows">Allows per-entity control over shadow reception. Defaults to 1 on everything (world shadows). 0 = receives NO shadows. &gt; 1 = receive shadows only from corresponding keyed entities (see above) and world. &lt; 1 = receive shadows ONLY from corresponding keyed entities.</boolean>
 <target key="_clone" name="_clone">copies brushes from entity with identical _clonename. Still needs a single brush that will get replaced.</target>
 <targetname key="_clonename" name="_clonename">template name so one can clone from it</targetname>
-<real3 key="min" name="min">override automatically found minimum coordinate bounds</real3>
-<real3 key="max" name="max">override automatically found maximum coordinate bounds</real3>
+<real3 key="mins" name="mins">override automatically found minimum coordinate bounds</real3>
+<real3 key="maxs" name="maxs">override automatically found maximum coordinate bounds</real3>
 <targetname key="targetname" name="targetname">if targeted by a misc_model, its brushes get inserted into this</targetname>
 <texture key="_celshader" name="_celshader">Sets the cel shader used for this geometry. Note: omit the &quot;textures/&quot; prefix.</texture>
 </group>
@@ -811,8 +905,8 @@ The keys below actually apply to most brush entities as they are engine features
 <boolean key="_receiveshadows" name="_receiveshadows">Allows per-entity control over shadow reception. Defaults to 1 on everything (world shadows). 0 = receives NO shadows. &gt; 1 = receive shadows only from corresponding keyed entities (see above) and world. &lt; 1 = receive shadows ONLY from corresponding keyed entities.</boolean>
 <target key="_clone" name="_clone">copies brushes from entity with identical _clonename. Still needs a single brush that will get replaced.</target>
 <targetname key="_clonename" name="_clonename">template name so one can clone from it</targetname>
-<real3 key="min" name="min">override automatically found minimum coordinate bounds</real3>
-<real3 key="max" name="max">override automatically found maximum coordinate bounds</real3>
+<real3 key="mins" name="mins">override automatically found minimum coordinate bounds</real3>
+<real3 key="maxs" name="maxs">override automatically found maximum coordinate bounds</real3>
 <targetname key="targetname" name="targetname">if targeted by a misc_model, its brushes get inserted into this</targetname>
 <texture key="_celshader" name="_celshader">Sets the cel shader used for this geometry. Note: omit the &quot;textures/&quot; prefix.</texture>
 </group>
@@ -864,8 +958,8 @@ A client-side non-solid brush entity. Use func_wall if you want it solid.
 <boolean key="_receiveshadows" name="_receiveshadows">Allows per-entity control over shadow reception. Defaults to 1 on everything (world shadows). 0 = receives NO shadows. &gt; 1 = receive shadows only from corresponding keyed entities (see above) and world. &lt; 1 = receive shadows ONLY from corresponding keyed entities.</boolean>
 <target key="_clone" name="_clone">copies brushes from entity with identical _clonename. Still needs a single brush that will get replaced.</target>
 <targetname key="_clonename" name="_clonename">template name so one can clone from it</targetname>
-<real3 key="min" name="min">override automatically found minimum coordinate bounds</real3>
-<real3 key="max" name="max">override automatically found maximum coordinate bounds</real3>
+<real3 key="mins" name="mins">override automatically found minimum coordinate bounds</real3>
+<real3 key="maxs" name="maxs">override automatically found maximum coordinate bounds</real3>
 <targetname key="targetname" name="targetname">if targeted by a misc_model, its brushes get inserted into this</targetname>
 <texture key="_celshader" name="_celshader">Sets the cel shader used for this geometry. Note: omit the &quot;textures/&quot; prefix.</texture>
 </group>
@@ -895,8 +989,8 @@ A client-side solid brush entity. Use func_clientillusionary if you want it non-
 <boolean key="_receiveshadows" name="_receiveshadows">Allows per-entity control over shadow reception. Defaults to 1 on everything (world shadows). 0 = receives NO shadows. &gt; 1 = receive shadows only from corresponding keyed entities (see above) and world. &lt; 1 = receive shadows ONLY from corresponding keyed entities.</boolean>
 <target key="_clone" name="_clone">copies brushes from entity with identical _clonename. Still needs a single brush that will get replaced.</target>
 <targetname key="_clonename" name="_clonename">template name so one can clone from it</targetname>
-<real3 key="min" name="min">override automatically found minimum coordinate bounds</real3>
-<real3 key="max" name="max">override automatically found maximum coordinate bounds</real3>
+<real3 key="mins" name="mins">override automatically found minimum coordinate bounds</real3>
+<real3 key="maxs" name="maxs">override automatically found maximum coordinate bounds</real3>
 <targetname key="targetname" name="targetname">if targeted by a misc_model, its brushes get inserted into this</targetname>
 <texture key="_celshader" name="_celshader">Sets the cel shader used for this geometry. Note: omit the &quot;textures/&quot; prefix.</texture>
 </group>
@@ -1074,6 +1168,26 @@ Can be used in two ways:
 <real key="falloff" name="falloff">&quot;gravity field&quot;: 0 means no falloff, 1 means linear falloff (zero at the outside), 2 means inverted linear falloff (zero at the inside)</real>
 </group>
 
+<group name="trigger_keylock" color=".0 .5 .8">
+Keylock trigger.  Must target other entities.
+This trigger will trigger target entities when all required keys are provided.
+-------- KEYS --------
+<real key="itemkeys" name="itemkeys">A bit field with key IDs that are needed to open this lock.</real>
+<real key="sounds" name="sounds">1 to play misc/secret.wav, 2 to play misc/talk.wav, 3 to play misc/trigger1.wav (3 is default)</real>
+<target key="target" name="target">trigger all entities with this targetname when triggered and all keys have been given to it, then remove this trigger</target>
+<target key="target2" name="target2">trigger all entities with this targetname when triggered without giving it all the required keys.</target>
+<target key="killtarget" name="killtarget">remove all entities with this targetname when triggered with all the needed keys.</target>
+<string key="message" name="message">print this message to the player who activated the trigger when all needed keys have been given.</string>
+<string key="message2" name="message2">print this message to the player who activated the trigger when not all of the needed keys have been given.</string>
+<sound key="noise" name="noise">sound to play when lock gets unlocked (default: see sounds)</sound>
+<sound key="noise1" name="noise1">sound to play when only some of the needed key were used but not all (default: misc/decreasevalue.wav)</sound>
+<sound key="noise2" name="noise2">sound to play when a key is missing (default: misc/talk.wav)</sound>
+<real key="wait" name="wait">prevent triggering again for this amount of time (default: 5) - applies to target2, target3, target4.</real>
+---------NOTES----------
+If spawned without any key specified in itemkeys, this trigger will display an error and remove itself.
+message2 and noise2 will be resent to the player every 2 seconds while he is in the trigger zone.
+</group>
+
 <group name="trigger_multiple" color=".5 .5 .5">
 Variable sized repeatable trigger.  Must be targeted at one or more entities.  If &quot;health&quot; is set, the trigger must be killed to activate each time.
 -------- KEYS --------
@@ -1148,6 +1262,20 @@ More than one &quot;trigger event&quot; can be delayed at once, as opposed to tr
 <string key="message" name="message">print this message to the player who activated the trigger</string>
 <target key="killtarget" name="killtarget">remove all entities with this targetname when triggered</target>
 </point>
+
+<group name="trigger_secret" color=".5 .5 .5">
+Variable sized secret trigger. Can be targeted at one or more entities.
+Basically, it's a trigger_once that additionally updates the number of secrets found.
+-------- KEYS --------
+<real key="sounds" name="sounds">1 to play misc/secret.wav, 2 to play misc/talk.wav, 3 to play misc/trigger1.wav (default: 1)</real>
+<sound key="noise" name="noise">path to sound file, if you want to play something else</sound>
+<target key="target" name="target">trigger all entities with this targetname when triggered</target>
+<string key="message" name="message">print this message to the player who activated the trigger instead of the standard 'You found a secret!'</string>
+<target key="killtarget" name="killtarget">remove all entities with this targetname when triggered</target>
+-------- NOTES --------
+You should create a common/trigger textured brush covering the entrance to a secret room/area.
+Trigger secret can only be trigger by a player's touch and can not be a target itself.
+</group>
 
 <group name="trigger_swamp" color=".5 .5 .5">
 Players getting into the swamp will get slowed down and damaged
@@ -1900,6 +2028,7 @@ Triggers targets when a given magic word has been said
 <target key="target3" name="target3">all entities with a matching targetname will be triggered.</target>
 <target key="target4" name="target4">all entities with a matching targetname will be triggered.</target>
 <boolean key="target_random" name="target_random">instead of triggering ALL matched entities, trigger ONE of them by random</boolean>
+<real3 key="movedir" name="movedir">if TUBA is set, this is a string of &quot;instrument+1 mintempo maxtempo&quot;. Components can be set to 0 to not match.</real3>
 -------- SPAWNFLAGS --------
 <flag key="IGNORE_SAY" name="IGNORE_SAY" bit="0">do not respond to &quot;say&quot; messages</flag>
 <flag key="IGNORE_TEAMSAY" name="IGNORE_TEAMSAY" bit="1">do not respond to &quot;say_team&quot; messages</flag>
@@ -1909,6 +2038,8 @@ Triggers targets when a given magic word has been said
 <flag key="REPLACE_OUTSIDE" name="REPLACE_OUTSIDE" bit="5">also perform the replacement when outside the radius (to hide the &quot;secret word&quot;)</flag>
 <flag key="CONTINUE" name="CONTINUE" bit="6">even if this magic ear matched, continue looking for further matches/replacements (useful for swear word filters)</flag>
 <flag key="NODECOLORIZE" name="NODECOLORIZE" bit="7">do not decolorize the input string before matching</flag>
+<flag key="TUBA" name="TUBA" bit="8">the message is a space separated note sequence that must be played on the @!#%'n Tuba or the @!#%'n Accordeon. For example, 4.25 means a quarter note at pitch 4, where 0 is base pitch (red team primary fire with no motion). For secret triggers to open doors, use 4.25 0.25 4.25 2.25. The first one to encode a rickroll in this gets slapped with the shotgun.</flag>
+<flag key="TUBA_EXACTPITCH" name="TUBA_EXACTPITCH" bit="9">the note pitch must be accurate and cannot be transposed</flag>
 </point>
 
 <point name="weapon_fireball" color="1 0 .5" box="-30 -30 0 30 30 32">

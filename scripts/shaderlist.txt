@@ -1,3 +1,4 @@
+alphamod
 common
 decals
 effects_beam
@@ -36,6 +37,8 @@ model_walker-static
 model_xonotic_jumppad01
 model_xoylent
 narmorx
+phillipk1x
+phillipk2x
 proceduralx
 screens
 skies_calm_sea
