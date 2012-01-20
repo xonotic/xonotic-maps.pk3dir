@@ -30585,7 +30585,7 @@ exx/base-metal01
 "origin" "512.000000 -3648.000000 256.000000"
 }
 {
-"classname" "weapon_hlac"
+"classname" "weapon_crylink"
 "origin" "1024.000000 -1184.000000 320.000000"
 }
 {
@@ -34035,7 +34035,7 @@ exx/base-metal01
 "angle" "-179.999985"
 }
 {
-"classname" "weapon_hlac"
+"classname" "weapon_crylink"
 "origin" "-5120.000000 5152.000000 320.000000"
 "angle" "-179.999985"
 }

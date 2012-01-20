@@ -15081,7 +15081,7 @@ map_g-23/conveyor_belt
 "_color" "1 0.151965 0"
 }
 {
-"classname" "weapon_hlac"
+"classname" "weapon_crylink"
 "origin" "-864.000000 -704.000000 -256.000000"
 }
 {
