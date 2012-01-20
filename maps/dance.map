@@ -23741,6 +23741,6 @@ effects_jumppad/jumppadfx1_a
 "angles" "18.369183 11.335669 90.000000"
 }
 {
-"classname" "weapon_campingrifle"
+"classname" "weapon_rifle"
 "origin" "0.000000 0.000000 -176.000000"
 }

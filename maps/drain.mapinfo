@@ -1,0 +1,13 @@
+title Drain
+description Small duel/DM map
+author FruitieX
+cdtrack 4
+has weapons
+gametype dm
+gametype lms
+gametype rune
+gametype ca
+gametype kh
+gametype arena
+gametype freezetag
+gametype keepaway

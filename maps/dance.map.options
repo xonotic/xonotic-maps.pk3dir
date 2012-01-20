@@ -1,5 +1,6 @@
 -bsp + -samplesize 6
--light + -dirtscale 2 -bounce 8 -randomsamples -samples 128
+-light + -bounce 8 -dirtscale 2
 -vis +
 -minimap +
+-nosRGB
 Version: 3

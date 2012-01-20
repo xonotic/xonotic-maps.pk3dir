@@ -14,6 +14,17 @@ seterror()
 	kill -USR1 "$pid"
 }
 
+nowarn=false
+err()
+{
+	echo "(EE) $*"
+	seterror
+}
+warn()
+{
+	$nowarn || echo "(WW) $*"
+}
+
 LF="
 "
 
@@ -24,6 +35,47 @@ normalize()
 
 allowed_prefixes=
 forbidden_prefixes=
+
+getstats_e()
+{
+	identify -verbose -depth 8 -alpha set -alpha extract "$1" | {
+		pix=0
+		while read -r L V R; do
+			case "$L" in
+				Geometry:)
+					V=${V%%[-+]*}
+					pix=$(( (${V%%x*} * ${V#*x}) / 2 ))
+					;;
+				min:)
+					min=$V
+					;;
+				max:)
+					max=$V
+					;;
+				[0-9]*:)
+					pix=$(( $pix - ${L%:} ))
+					if [ $pix -le 0 ]; then
+						median=`echo "$V $R" | cut -d , -f 1 | tr -cd 0-9`
+						break
+					fi
+			esac
+		done
+		cat >/dev/null
+		echo "min=$min"
+		echo "max=$max"
+		echo "median=$median"
+		echo "error=false"
+	}
+}
+getstats()
+{
+	min=255
+	max=255
+	median=255
+	error=true
+	[ -f "$1" ] || return 1
+	eval `getstats_e "$1"`
+}
 
 textures_used=
 # $1 = shader
@@ -41,10 +93,44 @@ use_texture()
 		if [ "$3" = "shader" ]; then
 			return
 		else
-			echo "(EE) shader $1 uses non-existing texture $2"; seterror
+			err "$1 uses non-existing texture $2"
 		fi
 	fi
 	textures_used="$textures_used$LF$2"
+
+	if [ x"$3" = x"map" ]; then
+		lasttex=$2
+		if [ -n "$AUDIT_ALPHACHANNELS" ] && [ x"$offsetmapping_match8" != x"firststagedone" ]; then
+			if [ -f "../${2}_norm.tga" ] || [ -f "../${2}_norm.png" ] || [ -f "../${2}_norm.jpg" ]; then
+				case "$offsetmapping_match8" in
+					'') # no dpoffsetmapping keyword
+						getstats "../${2}_norm.tga" || getstats "../${2}_norm.png" || getstats "../${2}_norm.jpg"
+						if [ "$min" -eq "$max" ]; then
+							warn "$1 uses broken normalmap ${2}_norm.tga (add dpoffsetmapping none)"
+						else
+							err "$1 uses ${2}_norm.tga but lacks median (add dpoffsetmapping - 1 match8 $median)"
+						fi
+						;;
+					none) # offsetmapping turned off explicitly
+						;;
+					default) # offsetmapping keyword without bias
+						getstats "../${2}_norm.tga"
+						if [ "$min" -eq "$max" ]; then
+							warn "$1 uses broken normalmap ${2}_norm.tga, maybe use dpoffsetmapping none?"
+						else
+							err "$1 uses ${2}_norm.tga but lacks median (add to dpoffsetmapping: match8 $median)"
+						fi
+						;;
+					*) # offsetmapping keyword with bias
+						;;
+				esac
+			else
+				if [ -n "$offsetmapping_match8" ]; then
+					warn "$1 specifies offsetmapping, but texture $2 does not have a normalmap"
+				fi
+			fi
+		fi
+	fi
 
 	if [ -n "$allowed_prefixes" ]; then
 		ok=false
@@ -66,7 +152,7 @@ use_texture()
 		esac
 	done
 	if ! $ok; then
-		echo "(EE) shader $1 is not allowed in this shader file (allowed: $allowed_prefixes, forbidden: $forbidden_prefixes)"; seterror
+		err "$1 is not allowed in this shader file (allowed: $allowed_prefixes, forbidden: $forbidden_prefixes)"
 	fi
 
 	case "$3" in
@@ -76,7 +162,7 @@ use_texture()
 				env/*)
 					;;
 				*)
-					echo "(EE) texture $2 of shader $1 is out of place, $3 textures must be in env/"; seterror
+					err "texture $2 of shader $1 is out of place, $3 textures must be in env/"
 					;;
 			esac
 			;;
@@ -84,7 +170,7 @@ use_texture()
 		*)
 			case "$2" in
 				env/*)
-					echo "(EE) texture $2 of shader $1 is out of place, $3 textures must not be in env/"; seterror
+					err "texture $2 of shader $1 is out of place, $3 textures must not be in env/"
 					;;
 				*)
 					;;
@@ -103,7 +189,7 @@ use_texture()
 				"$pre"/*/*)
 					;;
 				*)
-					echo "(EE) texture $2 of shader $1 is out of place, recommended file name is $pre/$suf"; seterror
+					err "texture $2 of shader $1 is out of place, recommended file name is $pre/$suf"
 					;;
 			esac
 			;;
@@ -115,21 +201,21 @@ use_texture()
 				"$pre"/*/*)
 					;;
 				*)
-					echo "(EE) texture $2 of shader $1 is out of place, recommended file name is $pre/base/$suf"; seterror
+					err "texture $2 of shader $1 is out of place, recommended file name is $pre/base/$suf"
 					;;
 			esac
 			;;
 		## RULE: textures/map_FOO[_/]* must use textures/map_FOO[_/]*
-		textures/map_*/*)
+		textures/map_*/*|models/map_*/*)
 			pre=${1%%/map_*}
 			suf=${1#*/map_}
 			map=${suf%%[_/]*}
 			case "$2" in
 				"$pre"/map_$map[/_]*)
 					;;
-				textures/map_*)
+				textures/map_*|models/map_*)
 					# protect one map's textures from the evil of other maps :P
-					echo "(EE) texture $2 of shader $1 is out of place, recommended file name is $pre/map_$map/*"; seterror
+					err "texture $2 of shader $1 is out of place, recommended file name is $pre/map_$map/*"
 					;;
 				*)
 					# using outside stuff is permitted
@@ -144,19 +230,19 @@ use_texture()
 				textures/common/*/*)
 					;;
 				*)
-					echo "(EE) texture $2 of shader $1 is out of place, recommended file name is $1 or textures/common/*/*"; seterror
+					err "texture $2 of shader $1 is out of place, recommended file name is $1 or textures/common/*/*"
 					;;
 			esac
 			;;
-		## RULE: textures/FOO/* must use textures/FOO/*, for FOO in decals, liquids_water, liquids_slime, liquids_lava
-		textures/decals/*|textures/liquids_*/*|textures/effects_*/*|textures/screens/*|textures/logos/*)
+		## RULE: textures/FOO/* must use textures/FOO/*, for FOO in decals, liquids_water, liquids_slime, liquids_lava, alphamod
+		textures/decals/*|textures/liquids_*/*|textures/effects_*/*|textures/screens/*|textures/logos/*|textures/alphamod/*)
 			pre=`echo "$1" | cut -d / -f 1-2`
 			case "$2" in
 				"$pre"/*)
 					# I _suppose_ this is fine, as tZork committed this pack
 					;;
 				*)
-					echo "(EE) texture $2 of shader $1 is out of place, recommended file name is $1"; seterror
+					err "texture $2 of shader $1 is out of place, recommended file name is $1"
 					;;
 			esac
 			;;
@@ -172,7 +258,7 @@ use_texture()
 					# typical place for skybox
 					;;
 				*)
-					echo "(EE) texture $2 of shader $1 is out of place, recommended file name is $1"; seterror
+					err "texture $2 of shader $1 is out of place, recommended file name is $1"
 					;;
 			esac
 			;;
@@ -182,12 +268,12 @@ use_texture()
 				models/*)
 					;;
 				*)
-					echo "(EE) texture $2 of shader $1 is out of place, recommended file name is $1 or models/*"; seterror
+					err "texture $2 of shader $1 is out of place, recommended file name is $1 or models/*"
 					;;
 			esac
 			;;
 		*)
-			echo "(EE) no shader name pattern for $1"; seterror
+			err "no shader name pattern for $1"
 			;;
 	esac
 }
@@ -195,14 +281,29 @@ use_texture()
 parsing_shader=
 parse_shaderstage()
 {
+	ss_blendfunc=none
+	ss_alphafunc=none
+	ss_alphagen=none
+	ss_map=
 	while read L A1 Aother; do
 		case "`echo "$L" | tr A-Z a-z`" in
-			map)
+			blendfunc)
+				ss_blendfunc=`echo $A1 $Aother | tr A-Z a-z`
+				;;
+			alphafunc)
+				ss_alphafunc=`echo $A1 | tr A-Z a-z`
+				;;
+			alphagen)
+				ss_alphagen=`echo $A1 | tr A-Z a-z`
+				;;
+			map|clampmap)
 				case "$A1" in
 					'$lightmap')
 						;;
 					*)
 						use_texture "$parsing_shader" "`normalize "$A1"`" map
+						ss_map="`normalize "$A1"`"
+						offsetmapping_match8=firststagedone
 						;;
 				esac
 				;;
@@ -210,6 +311,13 @@ parse_shaderstage()
 				for X in $Aother; do
 					use_texture "$parsing_shader" "`normalize "$X"`" animmap
 				done
+				for X in $Aother; do
+					ss_map="`normalize "$X"`"
+					break
+				done
+				;;
+			'{')
+				err "brace nesting error in $parsing_shader"
 				;;
 			'}')
 				break
@@ -218,13 +326,62 @@ parse_shaderstage()
 				;;
 		esac
 	done
+
+	if [ -n "$ss_map" ]; then
+		if [ -z "$maintexture" ]; then
+			maintexture=$ss_map
+			mainblendfunc=$ss_blendfunc
+			mainalphafunc=$ss_alphafunc
+			mainalphagen=$ss_alphagen
+		elif [ x"$ss_alphagen" = x"vertex" ] && ! $textureblending; then
+			case "$mainblendfunc:$mainalphafunc:$ss_blendfunc:$ss_alphafunc" in
+				none:none:"gl_src_alpha gl_one_minus_src_alpha":none) textureblending=true ;;
+				none:none:filter:none) textureblending=true ;;
+				none:none:none:g*) textureblending=true ;;
+				"gl_one gl_zero":none:filter:none) textureblending=true ;;
+				"gl_one gl_zero":none:none:g*) textureblending=true ;;
+				*)
+					err "texture blending requires first stage to have no blendfunc/alphatest, and requires second stage to be blendfunc filter"
+					;;
+			esac
+		else
+			err "multistage shader without alphagen vertex, or using more than 2 stages, is not supported by DarkPlaces"
+		fi
+	fi
 }
 
 parse_shader()
 {
 	use_texture "$parsing_shader" "$parsing_shader" shader
+	offsetmapping_match8=
+	textureblending=false
+	maintexture=
+	nowarn=false
 	while read L A1 Aother; do
 		case "`echo "$L" | tr A-Z a-z`" in
+			xon_nowarn)
+				nowarn=true
+				;;
+			dpoffsetmapping)
+				set -- $Aother
+				if [ x"$A1" = x"none" ]; then
+					offsetmapping_match8=none
+				elif [ x"$A1" = x"off" ]; then
+					offsetmapping_match8=none
+				elif [ x"$A1" = x"disabled" ]; then
+					offsetmapping_match8=none
+				elif [ x"$2" = x"match8" ]; then
+					offsetmapping_match8=`echo "($3 + 0.5) / 1" | bc`
+				elif [ x"$2" = x"match16" ]; then
+					offsetmapping_match8=`echo "($3 / 257 + 0.5) / 1" | bc`
+				elif [ x"$2" = x"match" ]; then
+					offsetmapping_match8=`echo "($3 * 255 + 0.5) / 1" | bc`
+				elif [ x"$2" = x"bias" ]; then
+					offsetmapping_match8=`echo "((1 - $3) * 255 + 0.5) / 1" | bc`
+				else
+					offsetmapping_match8=default
+				fi
+				;;
 			qer_editorimage)
 				use_texture "$parsing_shader" "`normalize "$A1"`" editorimage
 				;;
@@ -246,6 +403,47 @@ parse_shader()
 				;;
 		esac
 	done
+	if [ -n "$AUDIT_ALPHACHANNELS" ] && [ -n "$maintexture" ] && ! $textureblending; then
+		getstats "../$maintexture.tga" || getstats "../$maintexture.png" || getstats "../$maintexture.jpg"
+		case "$mainblendfunc" in
+			*src_alpha*|*blend*)
+				# texture must have alpha
+				if [ x"$mainalphagen" = x"none" -a $min -eq 255 ]; then
+					err "$parsing_shader uses alpha-less texture $maintexture with blendfunc $mainblendfunc and alphagen $mainalphagen"
+				fi
+				;;
+			add|"gl_one gl_one")
+				# texture must not have alpha (engine bug)
+				if [ x"$mainalphagen" != x"none" -o $min -lt 255 ]; then
+					err "$parsing_shader uses alpha-using texture $maintexture with blendfunc $mainblendfunc and alphagen $mainalphagen"
+				fi
+				;;
+			*)
+				case "$mainalphafunc" in
+					g*)
+						# texture must have alpha
+						if [ x"$mainalphagen" = x"none" -a $min -eq 255 ]; then
+							err "$parsing_shader uses alpha-less texture $maintexture with alphafunc $mainalphafunc and alphagen $mainalphagen"
+						fi
+						;;
+					*)
+						# texture should not have alpha (no bug if not)
+						case "$mainalphagen" in
+							none)
+								if [ $min -lt 255 ]; then
+									warn "$parsing_shader uses alpha-using texture $maintexture with blendfunc $mainblendfunc and alphafunc $mainalphafunc and alphagen $mainalphagen"
+								fi
+								;;
+							*)
+								# alphagen is set, but blendfunc has no use for it
+								err "$parsing_shader uses alpha-using texture $maintexture with blendfunc $mainblendfunc and alphafunc $mainalphafunc and alphagen $mainalphagen"
+								;;
+						esac
+						;;
+				esac
+				;;
+		esac
+	fi
 }
 
 parse_shaderfile()
@@ -253,7 +451,7 @@ parse_shaderfile()
 	case "$1" in
 		## RULE: map_FOO.shader may define tetxures/map_FOO_* and textures/map_FOO/*
 		map_*)
-			allowed_prefixes="textures/map_`echo "$1" | cut -d _ -f 2`_ textures/map_`echo "$1" | cut -d _ -f 2`/"
+			allowed_prefixes="textures/map_`echo "$1" | cut -d _ -f 2`_ textures/map_`echo "$1" | cut -d _ -f 2`/ models/map_`echo "$1" | cut -d _ -f 2`_ models/map_`echo "$1" | cut -d _ -f 2`/"
 			forbidden_prefixes=
 			;;
 		## RULE: skies_FOO.shader may define tetxures/skies/FOO and textures/skies/FOO_*
@@ -264,7 +462,7 @@ parse_shaderfile()
 		## RULE: model_*.shader may define models/*
 		model_*)
 			allowed_prefixes="models/"
-			forbidden_prefixes=
+			forbidden_prefixes="models/map_"
 			;;
 		## RULE: any other FOO.shader may define textures/FOO/*
 		*)
@@ -277,7 +475,7 @@ parse_shaderfile()
 			*/*)
 				parsing_shader="`normalize "$L"`"
 				if [ x"$L" != x"$parsing_shader" ]; then
-					echo "(WW) normalized shader name $L to $parsing_shader"
+					warn "normalized shader name $L to $parsing_shader"
 				fi
 				;;
 			'{')
@@ -301,17 +499,19 @@ for X in *.shader; do
 done
 rm -f "$t"
 
-textures_avail=`( cd ..; find textures/ -type f -not -name '*_norm.*' -not -name '*_glow.*' -not -name '*_gloss.*' -not -name '*_reflect.*' -not -name '*.xcf' ) | while IFS= read -r T; do normalize "$T"; done | sort -u`
+textures_avail=`( cd ..; find textures/ -type f -not -name '*.sh' -not -name '*_norm.*' -not -name '*_glow.*' -not -name '*_gloss.*' -not -name '*_reflect.*' -not -name '*.xcf' -not -name '*.txt' ) | while IFS= read -r T; do normalize "$T"; done | sort -u`
 textures_used=`echo "${textures_used#$LF}" | sort -u`
 
 echo "$textures_used$LF$textures_used$LF$textures_avail" | sort | uniq -u | while IFS= read -r L; do
 	case "$L" in
 		textures/radiant/*)
 			;;
+		models/map_*/*)
+			;;
 		textures/map_*/*)
 			;;
 		*)
-			echo "(EE) texture $L is not referenced by any shader"; seterror
+			err "texture $L is not referenced by any shader"
 			;;
 	esac
 done
