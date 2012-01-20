@@ -35887,3 +35887,13 @@ map_courtfun/screen_obey
 "origin" "-4416.000000 6400.000000 448.000000"
 "targetname" "info_null138"
 }
+{
+"classname" "info_autoscreenshot"
+"origin" "-5959.000000 3342.000000 660.000000"
+"target" "target_position4"
+}
+{
+"classname" "target_position"
+"origin" "-5164.000000 4016.000000 364.000000"
+"targetname" "target_position4"
+}
