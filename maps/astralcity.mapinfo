@@ -1,6 +1,7 @@
 title Astralcity
-description Large industrial CTF arena.
+description Large industrial arena.
 author kuniu the frogg
 cdtrack 14
 has weapons
 gametype ctf
+gametype ons
