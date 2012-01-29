@@ -45,11 +45,11 @@ textures/map_brokenworld/sand-rock
 	q3map_alphaMod dotproduct2 ( 0 0 0.95 )
 
 	{
-		map textures/terrain01x/rock/rock01.tga	// Primary
+		map textures/terrain01x/rock/mars02.tga	// Primary
 	}
 
 	{
-		map textures/terrain01x/ground/sand03.tga	// Secondary
+		map textures/terrain01x/ground/mud02.tga	// Secondary
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA		
 		alphaGen vertex
 	}

@@ -1,5 +1,7 @@
+-scale 1.5
 -bsp + -samplesize 6 -minsamplesize 2 -np 35
 -light + -light -sRGBtex -sRGBlight -dirty -dirtdepth 256 -dirtscale 3 -deluxe -fast -filter -patchshadows -samples 4 -sky 0.5 -areascale 0.5 -gamma 0.75 -pointscale 1.5
 -vis +
 -minimap +
+-scale 1:2 +
 Version: 4

@@ -12,17 +12,17 @@
 *MATERIAL_LIST	{
 	*MATERIAL_COUNT	5
 	*MATERIAL	0	{
-		*MATERIAL_NAME	"textures/terrain_dotproduct2/grass01-rock05"
+		*MATERIAL_NAME	"textures/map_brokenworld/drylake-rock"
 		*MATERIAL_CLASS	"Standard"
 		*MATERIAL_DIFFUSE	0.964776	1.000000	0.756246
 		*MATERIAL_SHADING Phong
 		*MAP_DIFFUSE	{
-			*MAP_NAME	"textures/terrain_dotproduct2/grass01-rock05"
+			*MAP_NAME	"textures/map_brokenworld/drylake-rock"
 			*MAP_CLASS	"Bitmap"
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\terrain_dotproduct2\grass01-rock05.jpg"
+			*BITMAP	"textures/map_brokenworld/drylake-rock"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}
@@ -42,32 +42,32 @@
 		}
 	}
 	*MATERIAL	2	{
-		*MATERIAL_NAME	"textures/terrain_dotproduct2/snow-rock05"
+		*MATERIAL_NAME	"textures/map_brokenworld/ice-rock"
 		*MATERIAL_CLASS	"Standard"
 		*MATERIAL_DIFFUSE	1.000000	0.971626	0.943656
 		*MATERIAL_SHADING Phong
 		*MAP_DIFFUSE	{
-			*MAP_NAME	"textures/terrain_dotproduct2/snow-rock05"
+			*MAP_NAME	"textures/map_brokenworld/ice-rock"
 			*MAP_CLASS	"Bitmap"
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\terrain_dotproduct2\snow-rock05.jpg"
+			*BITMAP	"textures/map_brokenworld/ice-rock"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}
 	*MATERIAL	3	{
-		*MATERIAL_NAME	"textures/terrain_dotproduct2/sand-rock07"
+		*MATERIAL_NAME	"textures/map_brokenworld/sand-rock"
 		*MATERIAL_CLASS	"Standard"
 		*MATERIAL_DIFFUSE	1.000000	0.922685	0.779864
 		*MATERIAL_SHADING Phong
 		*MAP_DIFFUSE	{
-			*MAP_NAME	"textures/terrain_dotproduct2/sand-rock07"
+			*MAP_NAME	"textures/map_brokenworld/sand-rock"
 			*MAP_CLASS	"Bitmap"
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\terrain_dotproduct2\sand-rock07.jpg"
+			*BITMAP	"textures/map_brokenworld/sand-rock"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}
