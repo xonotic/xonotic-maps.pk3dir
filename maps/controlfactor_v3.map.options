@@ -1,0 +1,6 @@
+-bsp + -np 35
+-light + -sRGBtex -sRGBlight -dirty -dirtdepth 128 -dirtscale 2 -deluxe -fast -filter -patchshadows -samples 4 -sky 0.8 -v -gamma 0.8 -pointscale 2
+-vis +
+-minimap +
+-sRGB
+Version: 3
