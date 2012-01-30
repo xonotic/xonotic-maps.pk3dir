@@ -23704,12 +23704,12 @@ effects_jumppad/jumppadfx1_a
 "angle" "-90.000000"
 }
 {
-"classname" "weapon_hlac"
+"classname" "weapon_crylink"
 "origin" "832.000000 -2560.000000 144.000000"
 "angle" "180.000000"
 }
 {
-"classname" "weapon_hlac"
+"classname" "weapon_crylink"
 "origin" "-832.000000 2560.000000 144.000000"
 "angle" "0.000003"
 }
@@ -23741,6 +23741,6 @@ effects_jumppad/jumppadfx1_a
 "angles" "18.369183 11.335669 90.000000"
 }
 {
-"classname" "weapon_campingrifle"
+"classname" "weapon_rifle"
 "origin" "0.000000 0.000000 -176.000000"
 }

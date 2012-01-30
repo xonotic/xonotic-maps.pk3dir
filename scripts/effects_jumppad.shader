@@ -10,7 +10,7 @@ textures/effects_jumppad/jumppadfx1_a
 	qer_trans 0.6
 	{
 		map textures/effects_jumppad/jumppadfx1_a.tga
-		blendfunc add
+		blendfunc GL_SRC_ALPHA GL_ONE
 		tcMod scroll 0 2
 	}
 }
@@ -26,7 +26,7 @@ textures/effects_jumppad/jumppadfx1_b
 	qer_trans 0.6
 	{
 		map textures/effects_jumppad/jumppadfx1_b.tga
-		blendfunc add
+		blendfunc GL_SRC_ALPHA GL_ONE
 		tcMod scroll 0 2
 	}
 }
@@ -42,7 +42,7 @@ textures/effects_jumppad/jumppadfx1_c
 	qer_trans 0.6
 	{
 		map textures/effects_jumppad/jumppadfx1_c.tga
-		blendfunc add
+		blendfunc GL_SRC_ALPHA GL_ONE
 		tcMod scroll 0 2
 	}
 }
@@ -58,7 +58,7 @@ textures/effects_jumppad/jumppadfx1_d
 	qer_trans 0.6
 	{
 		map textures/effects_jumppad/jumppadfx1_d.tga
-		blendfunc add
+		blendfunc GL_SRC_ALPHA GL_ONE
 		tcMod scroll 0 2
 	}
 }
