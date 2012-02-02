@@ -52970,3 +52970,13 @@ exx/trim-metalsupp01
 "origin" "-192.000000 -248.000000 -40.000000"
 "targetname" "target_position16"
 }
+{
+"classname" "info_autoscreenshot"
+"origin" "902.000000 -301.000000 552.000000"
+"target" "target_position92"
+}
+{
+"classname" "target_position"
+"origin" "-495.000000 -605.000000 118.000000"
+"targetname" "target_position92"
+}
