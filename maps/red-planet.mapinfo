@@ -13,6 +13,6 @@ gametype arena
 gametype ca
 gametype dom
 gametype kh
-gametype freezetag
-gametype keepaway
-gametype nexball
+gametype ft
+gametype ka
+gametype nb
