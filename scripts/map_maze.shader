@@ -1,5 +1,5 @@
 textures/map_maze
-
+{
 	qer_editorimage textures/map_maze/sand.tga
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 2 match8 184
