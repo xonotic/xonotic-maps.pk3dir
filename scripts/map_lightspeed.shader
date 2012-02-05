@@ -4,8 +4,8 @@ textures/map_lightspeed/lightspeedscrn
 
 	surfaceparm trans
 	surfaceparm nonsolid
-	surfaceparm nodlight
-	surfaceparm nolightmap
+//	surfaceparm nodlight
+//	surfaceparm nolightmap
 	qer_trans 0.6
 	
 	polygonOffset
@@ -14,8 +14,8 @@ textures/map_lightspeed/lightspeedscrn
 
 	{
 		map textures/map_lightspeed/screens/lightspeedscrn.tga
-		rgbgen identity
-		blendfunc add
+//		rgbgen identity
+		blendfunc blend
 		tcMod scroll 0 -0.25
 	}
 }
@@ -23,15 +23,15 @@ textures/map_lightspeed/lightspeedscrn
 textures/map_lightspeed/lightspeedscrn_t
 {
 	qer_editorimage textures/map_lightspeed/screens/lightspeedscrn1.tga
-	surfaceparm nolightmap
-	surfaceparm nodlight
+//	surfaceparm nolightmap
+//	surfaceparm nodlight
 	surfaceparm trans
 	cull none
 	qer_trans 0.6
 	
 	{
 		animMap 18 textures/map_lightspeed/screens/lightspeedscrn1.tga textures/map_lightspeed/screens/lightspeedscrn2.tga textures/map_lightspeed/screens/lightspeedscrn3.tga textures/map_lightspeed/screens/lightspeedscrn4.tga textures/map_lightspeed/screens/lightspeedscrn5.tga textures/map_lightspeed/screens/lightspeedscrn4.tga textures/map_lightspeed/screens/lightspeedscrn3.tga textures/map_lightspeed/screens/lightspeedscrn2.tga
-		blendfunc add
+		blendfunc blend
 	}
 }
 
