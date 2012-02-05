@@ -8,5 +8,5 @@ gametype lms
 gametype arena
 gametype rune
 gametype ft
-gametype keepaway
+gametype ka
 

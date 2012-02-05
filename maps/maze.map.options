@@ -1,4 +1,4 @@
--light + -bounce 8 -dirtscale 2 -sphericalscale 0.3 -spotscale 0.5 -areascale 0.3 -
--sky 0.8
+-light + -bounce 2 -dirtscale 2 -sphericalscale 0.3 -spotscale 0.5 -areascale 0.3 -
+-sky 0.7
 -sRGB+
 Version: 1
