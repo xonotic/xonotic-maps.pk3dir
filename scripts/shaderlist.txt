@@ -26,6 +26,7 @@ map_space-elevator
 map_stormkeep
 map_techassault
 map_xoylent
+map_maze
 metaltechx
 model_bigfan01
 model_crate02
