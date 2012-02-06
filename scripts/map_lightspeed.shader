@@ -77,14 +77,22 @@ textures/map_lightspeed/light_nonglow
 textures/map_lightspeed/vines
 {
 	qer_editorimage models/map_lightspeed/vines/vines01.tga
-	surfaceparm nomarks
 	surfaceparm trans
-	surfaceparm alphashadow
+	surfaceparm nonsolid
+	surfaceparm nodlight
+	surfaceparm nolightmap
+
+	polygonOffset
+	sort 6
 	cull none
+	
+	
+	
 	{
 		map models/map_lightspeed/vines/vines01.tga
+		blendfunc filter
 		alphaFunc GT0
-		rgbGen vertex
+		rgbGen identity
 	}
 }
 
