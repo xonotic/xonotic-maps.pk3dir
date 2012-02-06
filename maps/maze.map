@@ -9574,5 +9574,6 @@ map_maze/sand
 "classname" "misc_model"
 "origin" "-6.000000 0.000000 0.000000"
 "model" "models/map_maze/mazeterrain.ase"
-"spawnflags" "30"
+"spawnflags" "6"
+"_receiveshadows" "1"
 }
