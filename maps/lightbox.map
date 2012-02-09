@@ -1,0 +1,61 @@
+{
+"classname" "worldspawn"
+{
+( 320 272 128 ) ( 320 -320 128 ) ( -304 272 128 ) exomorphx/wall-concrete_wall_slab03 0 0 0 0.25 0.25 0 0 0
+( 320 272 120 ) ( -304 272 120 ) ( 320 272 24 ) exomorphx/wall-concrete_wall_slab03 0 0 0 0.25 0.25 0 0 0
+( 320 272 120 ) ( 320 272 24 ) ( 320 -320 120 ) exomorphx/wall-concrete_wall_slab03 0 0 0 0.25 0.25 0 0 0
+( -304 -320 24 ) ( -304 -320 120 ) ( 320 -320 24 ) exomorphx/wall-concrete_wall_slab03 0 0 0 0.25 0.25 0 0 0
+( -304 -320 24 ) ( -304 272 24 ) ( -304 -320 120 ) exomorphx/wall-concrete_wall_slab03 0 0 0 0.25 0.25 0 0 0
+( -304 272 120 ) ( 320 -320 120 ) ( 320 272 120 ) exomorphx/wall-concrete_wall_slab03 0 0 0 0.25 0.25 0 0 0
+}
+{
+( 320 272 128 ) ( 320 -320 128 ) ( -304 272 128 ) exomorphx/wall-concrete_wall_slab03 0 0 0 0.25 0.25 0 0 0
+( 320 272 120 ) ( -304 272 120 ) ( 320 272 24 ) exomorphx/wall-concrete_wall_slab03 0 0 0 0.25 0.25 0 0 0
+( 320 272 120 ) ( 320 272 24 ) ( 320 -320 120 ) exomorphx/wall-concrete_wall_slab03 0 0 0 0.25 0.25 0 0 0
+( -304 -320 -128 ) ( 320 -320 -128 ) ( -304 272 -128 ) exomorphx/wall-concrete_wall_slab03 0 0 0 0.25 0.25 0 0 0
+( -304 -320 24 ) ( -304 272 24 ) ( -304 -320 120 ) exomorphx/wall-concrete_wall_slab03 0 0 0 0.25 0.25 0 0 0
+( 320 264 24 ) ( -304 264 120 ) ( 320 264 120 ) exomorphx/wall-concrete_wall_slab03 0 0 0 0.25 0.25 0 0 0
+}
+{
+( 320 272 128 ) ( 320 -320 128 ) ( -304 272 128 ) exomorphx/wall-concrete_wall_slab03 0 0 0 0.25 0.25 0 0 0
+( 320 272 120 ) ( -304 272 120 ) ( 320 272 24 ) exomorphx/wall-concrete_wall_slab03 0 0 0 0.25 0.25 0 0 0
+( 320 272 120 ) ( 320 272 24 ) ( 320 -320 120 ) exomorphx/wall-concrete_wall_slab03 0 0 0 0.25 0.25 0 0 0
+( -304 -320 -128 ) ( 320 -320 -128 ) ( -304 272 -128 ) exomorphx/wall-concrete_wall_slab03 0 0 0 0.25 0.25 0 0 0
+( -304 -320 24 ) ( -304 -320 120 ) ( 320 -320 24 ) exomorphx/wall-concrete_wall_slab03 0 0 0 0.25 0.25 0 0 0
+( 312 -320 120 ) ( 312 272 24 ) ( 312 272 120 ) exomorphx/wall-concrete_wall_slab03 0 0 0 0.25 0.25 0 0 0
+}
+{
+( 320 272 120 ) ( -304 272 120 ) ( 320 272 24 ) exomorphx/wall-concrete_wall_slab03 0 0 0 0.25 0.25 0 0 0
+( 320 272 120 ) ( 320 272 24 ) ( 320 -320 120 ) exomorphx/wall-concrete_wall_slab03 0 0 0 0.25 0.25 0 0 0
+( -304 -320 -128 ) ( 320 -320 -128 ) ( -304 272 -128 ) exomorphx/wall-concrete_wall_slab03 0 0 0 0.25 0.25 0 0 0
+( -304 -320 24 ) ( -304 -320 120 ) ( 320 -320 24 ) exomorphx/wall-concrete_wall_slab03 0 0 0 0.25 0.25 0 0 0
+( -304 -320 24 ) ( -304 272 24 ) ( -304 -320 120 ) exomorphx/wall-concrete_wall_slab03 0 0 0 0.25 0.25 0 0 0
+( -304 272 -120 ) ( 320 -320 -120 ) ( -304 -320 -120 ) exomorphx/wall-concrete_wall_slab03 0 0 0 0.25 0.25 0 0 0
+}
+{
+( 320 272 128 ) ( 320 -320 128 ) ( -304 272 128 ) exomorphx/wall-concrete_wall_slab03 0 0 0 0.25 0.25 0 0 0
+( 320 272 120 ) ( 320 272 24 ) ( 320 -320 120 ) exomorphx/wall-concrete_wall_slab03 0 0 0 0.25 0.25 0 0 0
+( -304 -320 -128 ) ( 320 -320 -128 ) ( -304 272 -128 ) exomorphx/wall-concrete_wall_slab03 0 0 0 0.25 0.25 0 0 0
+( -304 -320 24 ) ( -304 -320 120 ) ( 320 -320 24 ) exomorphx/wall-concrete_wall_slab03 0 0 0 0.25 0.25 0 0 0
+( -304 -320 24 ) ( -304 272 24 ) ( -304 -320 120 ) exomorphx/wall-concrete_wall_slab03 0 0 0 0.25 0.25 0 0 0
+( 320 -312 24 ) ( -304 -312 120 ) ( -304 -312 24 ) exomorphx/wall-concrete_wall_slab03 0 0 0 0.25 0.25 0 0 0
+}
+{
+( 320 272 128 ) ( 320 -320 128 ) ( -304 272 128 ) exomorphx/wall-concrete_wall_slab03 0 0 0 0.25 0.25 0 0 0
+( 320 272 120 ) ( -304 272 120 ) ( 320 272 24 ) exomorphx/wall-concrete_wall_slab03 0 0 0 0.25 0.25 0 0 0
+( -304 -320 -128 ) ( 320 -320 -128 ) ( -304 272 -128 ) exomorphx/wall-concrete_wall_slab03 0 0 0 0.25 0.25 0 0 0
+( -304 -320 24 ) ( -304 -320 120 ) ( 320 -320 24 ) exomorphx/wall-concrete_wall_slab03 0 0 0 0.25 0.25 0 0 0
+( -304 -320 24 ) ( -304 272 24 ) ( -304 -320 120 ) exomorphx/wall-concrete_wall_slab03 0 0 0 0.25 0.25 0 0 0
+( -296 -320 120 ) ( -296 272 24 ) ( -296 -320 24 ) exomorphx/wall-concrete_wall_slab03 0 0 0 0.25 0.25 0 0 0
+}
+}
+{
+"classname" "light"
+"origin" "256.000000 192.000000 0.000000"
+"light" "45"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-112.000000 -112.000000 0.000000"
+"angle" "39.573868"
+}
