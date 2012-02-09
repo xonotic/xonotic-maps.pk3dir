@@ -624,7 +624,7 @@
 ( -488 -4880 616 ) ( -488 -4944 616 ) ( -768 -4880 616 ) skies/exosystem2_high_elevation 0 0 0 0.25 0.25 0 0 0
 ( -496 -32 536 ) ( -776 -32 536 ) ( -496 -32 448 ) skies/exosystem2_high_elevation 0 0 0 0.25 0.25 0 0 0
 ( 832 32 536 ) ( 832 32 448 ) ( 832 -32 536 ) skies/exosystem2_high_elevation 0 0 0 0.25 0.25 0 0 0
-( -768 -32 448 ) ( -488 -32 448 ) ( -768 32 448 ) skies/exosystem2_high_elevation 0 0 0 0.25 0.25 0 0 0
+( -768 -32 480 ) ( -488 -32 480 ) ( -768 32 480 ) skies/exosystem2_high_elevation 0 0 0 0.25 0.25 0 0 0
 ( -728 -3584 528 ) ( -728 -3584 616 ) ( -448 -3584 528 ) skies/exosystem2_high_elevation 0 0 0 0.25 0.25 0 0 0
 ( -832 -40 448 ) ( -832 24 448 ) ( -832 -40 536 ) skies/exosystem2_high_elevation 0 0 0 0.25 0.25 0 0 0
 }
@@ -5005,6 +5005,46 @@ terrain01x/rock-mars02
 ( 320 -128 128 ) ( 320 -120 128 ) ( 192 -128 128 ) common/caulk 0 0 0 0.25 0.25 0 0 0
 ( -320 -128 -64 ) ( -320 -96 -64 ) ( -320 -128 64 ) common/caulk 0 0 0 0.25 0.25 0 0 0
 ( 256 -40 64 ) ( 264 -40 -64 ) ( 256 -40 -64 ) common/caulk 0 0 0 0.25 0.25 0 0 0
+}
+{
+( 896 -128 480 ) ( 896 -3520 480 ) ( 832 -128 480 ) skies/exosystem2_high_elevation 0 0 0 0.25 0.25 0 0 0
+( 896 -128 480 ) ( 832 -128 480 ) ( 896 -128 416 ) skies/exosystem2_high_elevation 0 128 0 0.25 0.25 0 0 0
+( 896 -128 512 ) ( 896 -128 448 ) ( 896 -3520 512 ) skies/exosystem2_high_elevation 0 0 0 0.25 0.25 0 0 0
+( 832 -3520 448 ) ( 896 -3520 448 ) ( 832 -128 448 ) skies/exosystem2_high_elevation 0 0 0 0.25 0.25 0 0 0
+( 832 -3520 416 ) ( 832 -3520 480 ) ( 896 -3520 416 ) skies/exosystem2_high_elevation 0 128 0 0.25 0.25 0 0 0
+( 832 -3520 448 ) ( 832 -128 448 ) ( 832 -3520 512 ) skies/exosystem2_high_elevation 0 0 0 0.25 0.25 0 0 0
+}
+{
+( -832 -128 480 ) ( -832 -3520 480 ) ( -896 -128 480 ) skies/exosystem2_high_elevation 0 0 0 0.25 0.25 0 0 0
+( -832 -128 480 ) ( -896 -128 480 ) ( -832 -128 416 ) skies/exosystem2_high_elevation 0 128 0 0.25 0.25 0 0 0
+( -832 -128 512 ) ( -832 -128 448 ) ( -832 -3520 512 ) skies/exosystem2_high_elevation 0 0 0 0.25 0.25 0 0 0
+( -896 -3520 448 ) ( -832 -3520 448 ) ( -896 -128 448 ) skies/exosystem2_high_elevation 0 0 0 0.25 0.25 0 0 0
+( -896 -3520 416 ) ( -896 -3520 480 ) ( -832 -3520 416 ) skies/exosystem2_high_elevation 0 128 0 0.25 0.25 0 0 0
+( -896 -3520 448 ) ( -896 -128 448 ) ( -896 -3520 512 ) skies/exosystem2_high_elevation 0 0 0 0.25 0.25 0 0 0
+}
+{
+( 864 -32 480 ) ( 864 -128 480 ) ( 288 -32 480 ) skies/exosystem2_high_elevation 640 0 0 0.25 0.25 0 0 0
+( 864 -32 512 ) ( 288 -32 512 ) ( 864 -32 448 ) skies/exosystem2_high_elevation 640 0 0 0.25 0.25 0 0 0
+( 832 -32 512 ) ( 832 -32 448 ) ( 832 -128 512 ) skies/exosystem2_high_elevation 0 0 0 0.25 0.25 0 0 0
+( 288 -128 448 ) ( 864 -128 448 ) ( 288 -32 448 ) skies/exosystem2_high_elevation 640 0 0 0.25 0.25 0 0 0
+( 288 -128 416 ) ( 288 -128 480 ) ( 864 -128 416 ) skies/exosystem2_high_elevation 640 128 0 0.25 0.25 0 0 0
+( 288 -128 448 ) ( 288 -32 448 ) ( 288 -128 512 ) skies/exosystem2_high_elevation 0 0 0 0.25 0.25 0 0 0
+}
+{
+( -256 -32 480 ) ( -256 -128 480 ) ( -832 -32 480 ) skies/exosystem2_high_elevation 0 0 0 0.25 0.25 0 0 0
+( -256 -32 512 ) ( -832 -32 512 ) ( -256 -32 448 ) skies/exosystem2_high_elevation 0 0 0 0.25 0.25 0 0 0
+( -288 -32 512 ) ( -288 -32 448 ) ( -288 -128 512 ) skies/exosystem2_high_elevation 0 0 0 0.25 0.25 0 0 0
+( -832 -128 448 ) ( -256 -128 448 ) ( -832 -32 448 ) skies/exosystem2_high_elevation 0 0 0 0.25 0.25 0 0 0
+( -832 -128 416 ) ( -832 -128 480 ) ( -256 -128 416 ) skies/exosystem2_high_elevation 0 128 0 0.25 0.25 0 0 0
+( -832 -128 448 ) ( -832 -32 448 ) ( -832 -128 512 ) skies/exosystem2_high_elevation 0 0 0 0.25 0.25 0 0 0
+}
+{
+( 832 -3520 480 ) ( 832 -3584 480 ) ( -832 -3520 480 ) skies/exosystem2_high_elevation 0 0 0 0.25 0.25 0 0 0
+( 832 -3520 480 ) ( -832 -3520 480 ) ( 832 -3520 416 ) skies/exosystem2_high_elevation 0 128 0 0.25 0.25 0 0 0
+( 832 -3520 512 ) ( 832 -3520 448 ) ( 832 -3584 512 ) skies/exosystem2_high_elevation 0 0 0 0.25 0.25 0 0 0
+( -832 -3584 448 ) ( 832 -3584 448 ) ( -832 -3520 448 ) skies/exosystem2_high_elevation 0 0 0 0.25 0.25 0 0 0
+( -832 -3584 448 ) ( -832 -3584 512 ) ( 832 -3584 448 ) skies/exosystem2_high_elevation 0 0 0 0.25 0.25 0 0 0
+( -832 -3584 448 ) ( -832 -3520 448 ) ( -832 -3584 512 ) skies/exosystem2_high_elevation 0 0 0 0.25 0.25 0 0 0
 }
 }
 {
