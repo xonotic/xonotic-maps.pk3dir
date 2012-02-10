@@ -77,7 +77,6 @@ textures/map_lightspeed/light_nonglow
 textures/map_lightspeed/vines
 {
 	qer_editorimage models/map_lightspeed/vines/vines01.tga
-	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nodlight
 	surfaceparm nolightmap

@@ -3,6 +3,7 @@
 "message" "Lightspeed by C.Brutail"
 "author" "C.Brutail"
 "_description" "Very small, 1on1 CTF map. Key to survive: move as fast, as the speed of light!"
+"fog" "6 0.5 0.5 0.45 0.9 1 80 105 100"
 {
 ( 256 160 64 ) ( 160 -256 64 ) ( 160 256 64 ) facility114x/base-baseyellow 0 0 0 0.25 0.25 0 0 0
 ( 256 -160 64 ) ( 160 -256 0 ) ( 160 -256 64 ) common/caulk 0 0 0 -0.5 0.5 0 0 0
@@ -11658,4 +11659,100 @@ facility114x/misc-tube
 "angle" "0.000010"
 "modelscale" "1.200000"
 "spawnflags" "2"
+}
+{
+"classname" "func_pointparticles"
+"spawnflags" "5"
+"mdl" "fireflies"
+"impulse" "-1"
+"velocity" "1"
+"count" "1"
+{
+( 864 -1568 384 ) ( 864 -1584 384 ) ( 848 -1568 384 ) common/trigger 160 96 0 0.25 0.25 0 0 0
+( 856 -1592 592 ) ( 840 -1592 592 ) ( 856 -1592 320 ) common/trigger 192 0 0 0.25 0.25 0 0 0
+( 736 -1568 584 ) ( 736 -1568 312 ) ( 736 -1584 584 ) common/trigger 160 224 0 0.25 0.25 0 0 0
+( 840 -1584 320 ) ( 856 -1584 320 ) ( 840 -1568 320 ) common/trigger 192 96 0 0.25 0.25 0 0 0
+( 808 -1656 320 ) ( 808 -1656 592 ) ( 824 -1656 320 ) common/trigger 64 0 0 0.25 0.25 0 0 0
+( 672 -1584 320 ) ( 672 -1568 320 ) ( 672 -1584 592 ) common/trigger 160 0 0 0.25 0.25 0 0 0
+}
+}
+{
+"classname" "func_pointparticles"
+"spawnflags" "5"
+"mdl" "fireflies"
+"impulse" "-1"
+"velocity" "1"
+"count" "1"
+{
+( -1088 1280 384 ) ( -1088 1264 384 ) ( -1104 1280 384 ) common/trigger 32 224 0 0.25 0.25 0 0 0
+( -1096 1256 592 ) ( -1112 1256 592 ) ( -1096 1256 320 ) common/trigger 64 0 0 0.25 0.25 0 0 0
+( -1280 1280 584 ) ( -1280 1280 312 ) ( -1280 1264 584 ) common/trigger 32 224 0 0.25 0.25 0 0 0
+( -1112 1264 320 ) ( -1096 1264 320 ) ( -1112 1280 320 ) common/trigger 64 224 0 0.25 0.25 0 0 0
+( -1144 1192 320 ) ( -1144 1192 592 ) ( -1128 1192 320 ) common/trigger 192 0 0 0.25 0.25 0 0 0
+( -1344 1264 320 ) ( -1344 1280 320 ) ( -1344 1264 592 ) common/trigger 32 0 0 0.25 0.25 0 0 0
+}
+}
+{
+"classname" "func_pointparticles"
+"spawnflags" "5"
+"mdl" "fireflies"
+"impulse" "-1"
+"velocity" "1"
+"count" "1"
+{
+( 616 -1536 384 ) ( 616 -1552 384 ) ( 600 -1536 384 ) common/trigger 128 224 0 0.25 0.25 0 0 0
+( 608 -1560 592 ) ( 592 -1560 592 ) ( 608 -1560 320 ) common/trigger 160 0 0 0.25 0.25 0 0 0
+( 464 -1544 584 ) ( 464 -1544 312 ) ( 464 -1560 584 ) common/trigger 64 224 0 0.25 0.25 0 0 0
+( 592 -1552 320 ) ( 608 -1552 320 ) ( 592 -1536 320 ) common/trigger 160 224 0 0.25 0.25 0 0 0
+( 560 -1624 320 ) ( 560 -1624 592 ) ( 576 -1624 320 ) common/trigger 32 0 0 0.25 0.25 0 0 0
+( 400 -1552 320 ) ( 400 -1536 320 ) ( 400 -1552 592 ) common/trigger 32 0 0 0.25 0.25 0 0 0
+}
+}
+{
+"classname" "func_pointparticles"
+"spawnflags" "5"
+"mdl" "fireflies"
+"impulse" "-1"
+"velocity" "1"
+"count" "1"
+{
+( 816 -1464 384 ) ( 816 -1480 384 ) ( 800 -1464 384 ) common/trigger 96 0 0 0.25 0.25 0 0 0
+( 808 -1488 592 ) ( 792 -1488 592 ) ( 808 -1488 320 ) common/trigger 128 0 0 0.25 0.25 0 0 0
+( 664 -1472 584 ) ( 664 -1472 312 ) ( 664 -1488 584 ) common/trigger 32 224 0 0.25 0.25 0 0 0
+( 792 -1480 320 ) ( 808 -1480 320 ) ( 792 -1464 320 ) common/trigger 128 0 0 0.25 0.25 0 0 0
+( 760 -1552 320 ) ( 760 -1552 592 ) ( 776 -1552 320 ) common/trigger 0 0 0 0.25 0.25 0 0 0
+( 600 -1480 320 ) ( 600 -1464 320 ) ( 600 -1480 592 ) common/trigger 0 0 0 0.25 0.25 0 0 0
+}
+}
+{
+"classname" "func_pointparticles"
+"spawnflags" "5"
+"mdl" "fireflies"
+"impulse" "-1"
+"velocity" "1"
+"count" "1"
+{
+( 960 184 128 ) ( 960 168 128 ) ( 944 184 128 ) common/trigger 32 192 0 0.25 0.25 0 0 0
+( 952 160 336 ) ( 936 160 336 ) ( 952 160 64 ) common/trigger 64 0 0 0.25 0.25 0 0 0
+( 768 184 328 ) ( 768 184 56 ) ( 768 168 328 ) common/trigger 64 224 0 0.25 0.25 0 0 0
+( 936 168 64 ) ( 952 168 64 ) ( 936 184 64 ) common/trigger 64 192 0 0.25 0.25 0 0 0
+( 904 96 64 ) ( 904 96 336 ) ( 920 96 64 ) common/trigger 192 0 0 0.25 0.25 0 0 0
+( 704 168 64 ) ( 704 184 64 ) ( 704 168 336 ) common/trigger 64 0 0 0.25 0.25 0 0 0
+}
+}
+{
+"classname" "func_pointparticles"
+"spawnflags" "5"
+"mdl" "fireflies"
+"impulse" "-1"
+"velocity" "1"
+"count" "1"
+{
+( 192 104 128 ) ( 192 88 128 ) ( 176 104 128 ) common/trigger 32 128 0 0.25 0.25 0 0 0
+( 184 80 336 ) ( 168 80 336 ) ( 184 80 64 ) common/trigger 64 0 0 0.25 0.25 0 0 0
+( 0 104 328 ) ( 0 104 56 ) ( 0 88 328 ) common/trigger 128 224 0 0.25 0.25 0 0 0
+( 168 88 64 ) ( 184 88 64 ) ( 168 104 64 ) common/trigger 64 128 0 0.25 0.25 0 0 0
+( 136 16 64 ) ( 136 16 336 ) ( 152 16 64 ) common/trigger 192 0 0 0.25 0.25 0 0 0
+( -64 88 64 ) ( -64 104 64 ) ( -64 88 336 ) common/trigger 128 0 0 0.25 0.25 0 0 0
+}
 }
