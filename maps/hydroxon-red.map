@@ -5699,3 +5699,73 @@ terrain01x/rock-mars02
 ( 72 -448 -272 ) ( 72 -464 -272 ) ( 72 -448 24 ) common/trigger 0 0 0 -0.25 0.25 0 0 0
 }
 }
+{
+"classname" "misc_model"
+"origin" "322.119781 -742.607849 -376.000000"
+"model" "models/desertfactory/objects_plants/grass02.ase"
+"angle" "-32.000874"
+}
+{
+"classname" "misc_model"
+"origin" "132.576050 -1196.228271 -377.999969"
+"model" "models/desertfactory/objects_plants/grass02.ase"
+"angle" "25.214266"
+}
+{
+"classname" "misc_model"
+"origin" "-357.870850 -834.606079 -377.999969"
+"model" "models/desertfactory/objects_plants/grass02.ase"
+"angle" "-31.138714"
+}
+{
+"classname" "misc_model"
+"origin" "-687.412354 -1360.196899 -328.000000"
+"model" "models/desertfactory/objects_plants/grass02.ase"
+"angle" "28.327164"
+}
+{
+"classname" "misc_model"
+"origin" "690.058655 -1196.616455 -353.999908"
+"model" "models/desertfactory/objects_plants/grass02.ase"
+"angle" "-37.723686"
+}
+{
+"classname" "misc_model"
+"origin" "690.604004 -618.136658 -357.999908"
+"model" "models/desertfactory/objects_plants/grass02.ase"
+"angle" "34.085880"
+}
+{
+"classname" "misc_model"
+"origin" "-130.567352 -586.249329 -333.999969"
+"model" "models/desertfactory/objects_plants/grass02.ase"
+"angle" "-109.453941"
+}
+{
+"classname" "misc_model"
+"origin" "424.000000 -1308.000000 -374.000000"
+"model" "models/desertfactory/objects_plants/grass01.ase"
+}
+{
+"classname" "misc_model"
+"origin" "-306.000000 -1192.000000 -378.000000"
+"model" "models/desertfactory/objects_plants/grass01.ase"
+}
+{
+"classname" "misc_model"
+"origin" "-353.870850 -596.606079 -359.999969"
+"model" "models/desertfactory/objects_plants/grass03.ase"
+"angle" "-31.138714"
+}
+{
+"classname" "misc_model"
+"origin" "-709.392944 -516.123840 -351.999969"
+"model" "models/desertfactory/objects_plants/grass03.ase"
+"angle" "35.305683"
+}
+{
+"classname" "misc_model"
+"origin" "746.607056 -960.123779 -295.999969"
+"model" "models/desertfactory/objects_plants/grass03.ase"
+"angle" "35.305683"
+}
