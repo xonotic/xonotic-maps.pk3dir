@@ -43624,3 +43624,13 @@ trak5x/base-pipe1a
 }
 }
 }
+{
+"classname" "info_autoscreenshot"
+"origin" "-1744.000000 968.000000 512.000000"
+"target" "target_position1"
+}
+{
+"classname" "target_position"
+"origin" "-1360.000000 512.000000 336.000000"
+"targetname" "target_position1"
+}
