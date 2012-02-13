@@ -1,10 +1,9 @@
 title Darkzone
 description Xonotic remake of a classic map from Quake1: Q1DM6. Recommended for cut-throat duels.
-author Cortez, C.Brutail
+author Cortez, C.Brutail, SavageX
 cdtrack 5
 has weapons
 type dm 30 20 0
-type rune 200 20 0
 type lms 9 20 0
 type arena 10 20 0
 // optional: fog density red green blue alpha mindist maxdist
