@@ -1,5 +1,5 @@
--bsp + -patchmeta
+-bsp +
+-light + -bounce 8
 -vis +
--light + -lomem
 -minimap +
-Version: 3
+Version: 4
