@@ -28984,7 +28984,7 @@ ex2x/base-yellowpaint
 }
 {
 "classname" "_skybox"
-"origin" "1256.000000 4896.000000 224.000000"
+"origin" "1256.000000 4872.000000 304.000000"
 }
 {
 "classname" "func_group"
@@ -29848,13 +29848,11 @@ ex2x/base-yellowpaint
 }
 {
 "classname" "misc_model"
-"origin" "0.000000 0.000000 0.000000"
-"model" "models/map_reflection/reflectionterrain.ase"
-"spawnflags" "6"
+"origin" "-8.000000 4808.000000 -416.000000"
+"model" "models/map_reflection/ref_skybox.ase"
 }
 {
 "classname" "misc_model"
-"origin" "-8.000000 4808.000000 -416.000000"
-"model" "models/map_reflection/reflectionskybox.ase"
-"spawnflags" "4"
+"origin" "0.000000 0.000000 0.000000"
+"model" "models/map_reflection/ref_terrain.ase"
 }
