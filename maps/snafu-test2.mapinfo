@@ -1,0 +1,8 @@
+title SNAFU test 2
+description small snafu testmap
+author tZork
+cdtrack 8
+has weapons
+
+gametype snafu // defaults: timelimit=20 pointlimit=30 leadlimit=0
+
