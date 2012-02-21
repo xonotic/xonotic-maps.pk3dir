@@ -1,0 +1,2 @@
+uses textures from common-spog.pk3 which spog put in public domain
+manually copied them together in the pattern you see

@@ -1,0 +1,10 @@
+GIMP:
+
+make 512x512 pic
+filter/render/pattern/maze width=16 height=16 tileable
+make 16x16 pic; 10x10 circle centered, tile to 512x512, copy
+	paste to big pic's selection, bg color = white, delete
+make 16x16 pic; 4x16 box centered, tile to 512x512, copy
+	paste to big pic's selection, protect green channel, bg color = black, delete
+make 16x16 pic; 16x4 box centered, tile to 512x512, copy
+	paste to big pic's selection, protect red and blue channel, bg color = black, delete
