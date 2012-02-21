@@ -1,0 +1,7 @@
+afterslime as of git revision 8b6b565, one of the spawnpoints
+
+exec effects-norma.cfg
+vid_samples 1
+r_viewfbo 2
+vid_restart
+envmap filename 1024
