@@ -1,0 +1,4 @@
+-bsp + -samplesize 64
+-vis + -fastvis
+-light +
+-minimap +
