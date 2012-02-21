@@ -1,7 +1,9 @@
-afterslime as of git revision 8b6b565, one of the spawnpoints
-
-exec effects-norma.cfg
+exec effects-normal.cfg
 vid_samples 1
+vid_width 1024
+vid_height 1024
 r_viewfbo 2
 vid_restart
-envmap filename 1024
+map afterslime
+prvm_edictset server 1 origin "+185.36 -716.64 -56.19"
+envmap afterslime-8b6b565- 1024
