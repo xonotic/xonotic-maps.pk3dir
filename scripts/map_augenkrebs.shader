@@ -24,7 +24,7 @@ textures/map_augenkrebs/moiretex
 	nomipmaps
 	surfaceparm trans
 	{
-		map "textures/moirebox/moiretex.tga"
+		map "textures/map_augenkrebs/moiretex.tga"
 		alphaFunc GE128
 		tcmod rotate 1
 	}
