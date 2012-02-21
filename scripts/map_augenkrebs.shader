@@ -1,7 +1,7 @@
-textures/augenkrebs_v2/magibon
+textures/map_augenkrebs/magibon
 {
 	{
-		map textures/augenkrebs_v2/magibon
+		map textures/map_augenkrebs/magibon
 		tcmod page 16 16 0.1
 	}
 	{
@@ -11,14 +11,14 @@ textures/augenkrebs_v2/magibon
 	}
 }
 
-textures/augenkrebs_v2/black
+textures/map_augenkrebs/black
 {
 	{
 		map gfx/colors/vga-0
 	}
 }
 
-textures/augenkrebs_v2/moiretex
+textures/map_augenkrebs/moiretex
 {
 	nopicmip
 	nomipmaps
@@ -34,7 +34,7 @@ textures/augenkrebs_v2/moiretex
 	}
 }
 
-textures/augenkrebs_v2/swampa2
+textures/map_augenkrebs/swampa2
 {
 	nopicmip
 	nomipmap
@@ -45,7 +45,7 @@ textures/augenkrebs_v2/swampa2
 	Q3map_TessSize 128
 	cull none
 	{
-		map textures/augenkrebs_v2/swampa2.tga
+		map textures/map_augenkrebs/swampa2.tga
 	}
 	{
 		map $lightmap
@@ -54,13 +54,13 @@ textures/augenkrebs_v2/swampa2
 }
 
 
-textures/augenkrebs_v2/loituma
+textures/map_augenkrebs/loituma
 {
 	nopicmip
 	nomipmap
 	{
-		map textures/augenkrebs_v2/loituma4
-		animmap 9 textures/augenkrebs_v2/loituma4 textures/augenkrebs_v2/loituma6 textures/augenkrebs_v2/loituma8 textures/augenkrebs_v2/loituma10
+		map textures/map_augenkrebs/loituma4
+		animmap 9 textures/map_augenkrebs/loituma4 textures/map_augenkrebs/loituma6 textures/map_augenkrebs/loituma8 textures/map_augenkrebs/loituma10
 	}
 	{
 		map $lightmap
@@ -68,13 +68,13 @@ textures/augenkrebs_v2/loituma
 		blendfunc filter
 	}
 }
-textures/augenkrebs_v2/augen
+textures/map_augenkrebs/augen
 {
 	nopicmip
 	nomipmap
 	{
-		map textures/augenkrebs/augen
-		animmap 5 textures/augenkrebs/augen textures/augenkrebs/augen-1 textures/augenkrebs/augen-2 textures/augenkrebs/augen-3
+		map textures/map_augenkrebs/augen
+		animmap 5 textures/map_augenkrebs/augen textures/map_augenkrebs/augen-1 textures/map_augenkrebs/augen-2 textures/map_augenkrebs/augen-3
 	}
 	{
 		map $lightmap
@@ -82,13 +82,13 @@ textures/augenkrebs_v2/augen
 		blendfunc filter
 	}
 }
-textures/augenkrebs_v2/bricks
+textures/map_augenkrebs/bricks
 {
 	nopicmip
 	nomipmap
 	{
-		map textures/augenkrebs/bricks
-		animmap 17 textures/augenkrebs/bricks textures/augenkrebs/bricks textures/augenkrebs/bricks textures/augenkrebs/bricks textures/augenkrebs/bricks textures/augenkrebs/bricks textures/augenkrebs/bricks textures/augenkrebs/bricks-1
+		map textures/map_augenkrebs/bricks
+		animmap 17 textures/map_augenkrebs/bricks textures/map_augenkrebs/bricks textures/map_augenkrebs/bricks textures/map_augenkrebs/bricks textures/map_augenkrebs/bricks textures/map_augenkrebs/bricks textures/map_augenkrebs/bricks textures/map_augenkrebs/bricks-1
 		tcmod stretch sawtooth 1 1 0 0.271
 		tcmod stretch sawtooth 1 1 0.5 0.0314
 	}
@@ -98,13 +98,13 @@ textures/augenkrebs_v2/bricks
 		blendfunc filter
 	}
 }
-textures/augenkrebs_v2/bw
+textures/map_augenkrebs/bw
 {
 	nopicmip
 	nomipmap
 	{
-		map textures/augenkrebs/bw
-		animmap 3 textures/augenkrebs/bw textures/augenkrebs/bw-1
+		map textures/map_augenkrebs/bw
+		animmap 3 textures/map_augenkrebs/bw textures/map_augenkrebs/bw-1
 	}
 	{
 		map $lightmap
@@ -112,12 +112,12 @@ textures/augenkrebs_v2/bw
 		blendfunc filter
 	}
 }
-textures/augenkrebs_v2/bwscroll
+textures/map_augenkrebs/bwscroll
 {
 	nopicmip
 	nomipmap
 	{
-		map textures/augenkrebs/bw
+		map textures/map_augenkrebs/bw
 		tcmod scroll 0 1
 	}
 	{
@@ -126,13 +126,13 @@ textures/augenkrebs_v2/bwscroll
 		blendfunc filter
 	}
 }
-textures/augenkrebs_v2/g
+textures/map_augenkrebs/g
 {
 	nopicmip
 	nomipmap
 	{
-		map textures/augenkrebs/g
-		animmap 11 textures/augenkrebs/g textures/augenkrebs/g textures/augenkrebs/g textures/augenkrebs/g textures/augenkrebs/g textures/augenkrebs/g textures/augenkrebs/g textures/augenkrebs/p
+		map textures/map_augenkrebs/g
+		animmap 11 textures/map_augenkrebs/g textures/map_augenkrebs/g textures/map_augenkrebs/g textures/map_augenkrebs/g textures/map_augenkrebs/g textures/map_augenkrebs/g textures/map_augenkrebs/g textures/map_augenkrebs/p
 	}
 	{
 		map $lightmap
@@ -140,13 +140,13 @@ textures/augenkrebs_v2/g
 		blendfunc filter
 	}
 }
-textures/augenkrebs_v2/jumpy
+textures/map_augenkrebs/jumpy
 {
 	nopicmip
 	nomipmap
 	{
-		map textures/augenkrebs/jumpy
-		animmap 13 textures/augenkrebs/jumpy textures/augenkrebs/jumpy-1 textures/augenkrebs/jumpy-2 textures/augenkrebs/jumpy-3 textures/augenkrebs/jumpy-2 textures/augenkrebs/jumpy-1
+		map textures/map_augenkrebs/jumpy
+		animmap 13 textures/map_augenkrebs/jumpy textures/map_augenkrebs/jumpy-1 textures/map_augenkrebs/jumpy-2 textures/map_augenkrebs/jumpy-3 textures/map_augenkrebs/jumpy-2 textures/map_augenkrebs/jumpy-1
 	}
 	{
 		map $lightmap
@@ -154,13 +154,13 @@ textures/augenkrebs_v2/jumpy
 		blendfunc filter
 	}
 }
-textures/augenkrebs_v2/mahopa-augenkrebs-01
+textures/map_augenkrebs/mahopa-augenkrebs-01
 {
 	nopicmip
 	nomipmap
 	{
-		map textures/augenkrebs/mahopa-augenkrebs-01
-		animmap 2 textures/augenkrebs/mahopa-augenkrebs-01 textures/augenkrebs/mahopa-augenkrebs-01-1
+		map textures/map_augenkrebs/mahopa-augenkrebs-01
+		animmap 2 textures/map_augenkrebs/mahopa-augenkrebs-01 textures/map_augenkrebs/mahopa-augenkrebs-01-1
 		tcmod scroll 0.0625 0.03125
 	}
 	{
@@ -169,12 +169,12 @@ textures/augenkrebs_v2/mahopa-augenkrebs-01
 		blendfunc filter
 	}
 }
-textures/augenkrebs_v2/mahopa-augenkrebs-04
+textures/map_augenkrebs/mahopa-augenkrebs-04
 {
 	nopicmip
 	nomipmap
 	{
-		map textures/augenkrebs/mahopa-augenkrebs-04
+		map textures/map_augenkrebs/mahopa-augenkrebs-04
 		tcmod scroll 0.3 0
 	}
 	{
@@ -183,13 +183,13 @@ textures/augenkrebs_v2/mahopa-augenkrebs-04
 		blendfunc filter
 	}
 }
-textures/augenkrebs_v2/mahopa-augenkrebs-06
+textures/map_augenkrebs/mahopa-augenkrebs-06
 {
 	nopicmip
 	nomipmap
 	{
-		map textures/augenkrebs/mahopa-augenkrebs-06
-		animmap 3 textures/augenkrebs/mahopa-augenkrebs-06 textures/augenkrebs/mahopa-augenkrebs-06-1
+		map textures/map_augenkrebs/mahopa-augenkrebs-06
+		animmap 3 textures/map_augenkrebs/mahopa-augenkrebs-06 textures/map_augenkrebs/mahopa-augenkrebs-06-1
 	}
 	{
 		map $lightmap
@@ -197,13 +197,13 @@ textures/augenkrebs_v2/mahopa-augenkrebs-06
 		blendfunc filter
 	}
 }
-textures/augenkrebs_v2/omgchucky
+textures/map_augenkrebs/omgchucky
 {
 	nopicmip
 	nomipmap
 	{
-		map textures/augenkrebs/omgchucky
-		animmap 3 textures/augenkrebs/omgchucky textures/augenkrebs/omgchucky-1 textures/augenkrebs/omgchucky-2
+		map textures/map_augenkrebs/omgchucky
+		animmap 3 textures/map_augenkrebs/omgchucky textures/map_augenkrebs/omgchucky-1 textures/map_augenkrebs/omgchucky-2
 	}
 	{
 		map $lightmap
@@ -211,13 +211,13 @@ textures/augenkrebs_v2/omgchucky
 		blendfunc filter
 	}
 }
-textures/augenkrebs_v2/p
+textures/map_augenkrebs/p
 {
 	nopicmip
 	nomipmap
 	{
-		map textures/augenkrebs/p
-		animmap 11 textures/augenkrebs/p textures/augenkrebs/p textures/augenkrebs/p textures/augenkrebs/g textures/augenkrebs/p textures/augenkrebs/p textures/augenkrebs/p textures/augenkrebs/p
+		map textures/map_augenkrebs/p
+		animmap 11 textures/map_augenkrebs/p textures/map_augenkrebs/p textures/map_augenkrebs/p textures/map_augenkrebs/g textures/map_augenkrebs/p textures/map_augenkrebs/p textures/map_augenkrebs/p textures/map_augenkrebs/p
 	}
 	{
 		map $lightmap
@@ -225,13 +225,13 @@ textures/augenkrebs_v2/p
 		blendfunc filter
 	}
 }
-textures/augenkrebs_v2/pg
+textures/map_augenkrebs/pg
 {
 	nopicmip
 	nomipmap
 	{
-		map textures/augenkrebs/pg
-		animmap 11 textures/augenkrebs/pg textures/augenkrebs/pg textures/augenkrebs/pg textures/augenkrebs/g textures/augenkrebs/gp textures/augenkrebs/gp textures/augenkrebs/gp textures/augenkrebs/p
+		map textures/map_augenkrebs/pg
+		animmap 11 textures/map_augenkrebs/pg textures/map_augenkrebs/pg textures/map_augenkrebs/pg textures/map_augenkrebs/g textures/map_augenkrebs/gp textures/map_augenkrebs/gp textures/map_augenkrebs/gp textures/map_augenkrebs/p
 	}
 	{
 		map $lightmap
@@ -239,12 +239,12 @@ textures/augenkrebs_v2/pg
 		blendfunc filter
 	}
 }
-textures/augenkrebs_v2/pgscroll
+textures/map_augenkrebs/pgscroll
 {
 	nopicmip
 	nomipmap
 	{
-		map textures/augenkrebs/pg
+		map textures/map_augenkrebs/pg
 		tcmod scroll 0 0.3
 	}
 	{
@@ -253,13 +253,13 @@ textures/augenkrebs_v2/pgscroll
 		blendfunc filter
 	}
 }
-textures/augenkrebs_v2/pinchpunch
+textures/map_augenkrebs/pinchpunch
 {
 	nopicmip
 	nomipmap
 	{
-		map textures/augenkrebs/pinchpunch
-		animmap 17 textures/augenkrebs/pinchpunch textures/augenkrebs/pinchpunch textures/augenkrebs/pinchpunch textures/augenkrebs/pinchpunch textures/augenkrebs/pinchpunch textures/augenkrebs/pinchpunch-1
+		map textures/map_augenkrebs/pinchpunch
+		animmap 17 textures/map_augenkrebs/pinchpunch textures/map_augenkrebs/pinchpunch textures/map_augenkrebs/pinchpunch textures/map_augenkrebs/pinchpunch textures/map_augenkrebs/pinchpunch textures/map_augenkrebs/pinchpunch-1
 	}
 	{
 		map $lightmap
@@ -267,13 +267,13 @@ textures/augenkrebs_v2/pinchpunch
 		blendfunc filter
 	}
 }
-textures/augenkrebs_v2/punkte_5
+textures/map_augenkrebs/punkte_5
 {
 	nopicmip
 	nomipmap
 	{
-		map textures/augenkrebs/punkte_5
-		animmap 3 textures/augenkrebs/punkte_5 textures/augenkrebs/punkte_5-1
+		map textures/map_augenkrebs/punkte_5
+		animmap 3 textures/map_augenkrebs/punkte_5 textures/map_augenkrebs/punkte_5-1
 	}
 	{
 		map $lightmap
@@ -281,12 +281,12 @@ textures/augenkrebs_v2/punkte_5
 		blendfunc filter
 	}
 }
-textures/augenkrebs_v2/rotsnake7
+textures/map_augenkrebs/rotsnake7
 {
 	nopicmip
 	nomipmap
 	{
-		map textures/augenkrebs/rotsnake7
+		map textures/map_augenkrebs/rotsnake7
 		tcmod turb 0 0.01 0 0.31
 	}
 	{
@@ -295,13 +295,13 @@ textures/augenkrebs_v2/rotsnake7
 		blendfunc filter
 	}
 }
-textures/augenkrebs_v2/sakuras2b
+textures/map_augenkrebs/sakuras2b
 {
 	nopicmip
 	nomipmap
 	nolightmap
 	{
-		map textures/augenkrebs/sakuras2b
+		map textures/map_augenkrebs/sakuras2b
 		tcmod scroll 0.314 0.271
 	}
 	{
@@ -310,13 +310,13 @@ textures/augenkrebs_v2/sakuras2b
 		blendfunc filter
 	}
 }
-textures/augenkrebs_v2/thweber-mystics2
+textures/map_augenkrebs/thweber-mystics2
 {
 	nopicmip
 	nomipmap
-	dpreflectcube textures/augenkrebs/afterslime-8b6b565-
+	dpreflectcube textures/map_augenkrebs/afterslime-8b6b565-
 	{
-		map textures/augenkrebs/b
+		map textures/map_augenkrebs/b
 	}
 	{
 		map $lightmap
@@ -324,13 +324,13 @@ textures/augenkrebs_v2/thweber-mystics2
 		blendfunc filter
 	}
 }
-textures/augenkrebs_v2/epilepsy
+textures/map_augenkrebs/epilepsy
 {
 	nopicmip
 	nomipmap
 	{
-		map textures/augenkrebs/epilepsy
-		animmap 23 textures/augenkrebs/epilepsy textures/augenkrebs/epilepsy-1
+		map textures/map_augenkrebs/epilepsy
+		animmap 23 textures/map_augenkrebs/epilepsy textures/map_augenkrebs/epilepsy-1
 	}
 	{
 		map $lightmap
@@ -339,7 +339,7 @@ textures/augenkrebs_v2/epilepsy
 	}
 }
 
-textures/augenkrebs_v2/maze-of-augenkrebs
+textures/map_augenkrebs/maze-of-augenkrebs
 {
 	surfaceparm trans
 	surfaceparm nonsolid
@@ -347,7 +347,7 @@ textures/augenkrebs_v2/maze-of-augenkrebs
 	nomipmap
 	cull none
 	{
-		map "textures/augenkrebs/maze-of-augenkrebs.tga"
+		map "textures/map_augenkrebs/maze-of-augenkrebs.tga"
 		tcMod scroll 0.01 0.02
 		tcMod turb .1 .1 0 .01
 		tcMod stretch sin 1 0.05 0.2 .0015
@@ -356,14 +356,14 @@ textures/augenkrebs_v2/maze-of-augenkrebs
 	}
 }
 
-textures/augenkrebs_v2/mirror-of-augenkrebs
+textures/map_augenkrebs/mirror-of-augenkrebs
 {
 	surfaceparm trans
 	surfaceparm nonsolid
 	nopicmip
 	nomipmap
 	{
-		map "textures/augenkrebs/mirror-of-augenkrebs.tga"
+		map "textures/map_augenkrebs/mirror-of-augenkrebs.tga"
 		tcMod scroll 0.01 0.02
 		tcMod turb .1 .1 0 .01
 		tcMod stretch sin 1 0.05 0.2 .0015
@@ -374,15 +374,15 @@ textures/augenkrebs_v2/mirror-of-augenkrebs
 	cull none
 }
 
-textures/augenkrebs_v2/mirror-of-augenkrebs-r
+textures/map_augenkrebs/mirror-of-augenkrebs-r
 {
-	qer_editorimage "textures/augenkrebs/mirror-of-augenkrebs.tga"
+	qer_editorimage "textures/map_augenkrebs/mirror-of-augenkrebs.tga"
 	surfaceparm trans
 	surfaceparm nonsolid
 	nopicmip
 	nomipmap
 	{
-		map "textures/augenkrebs/mirror-of-augenkrebs.tga"
+		map "textures/map_augenkrebs/mirror-of-augenkrebs.tga"
 		tcMod scroll 0.01 0.02
 		tcMod turb .1 .1 0 .01
 		tcMod stretch sin 1 0.05 0.2 .0015
@@ -392,15 +392,15 @@ textures/augenkrebs_v2/mirror-of-augenkrebs-r
 	cull none
 }
 
-textures/augenkrebs_v2/mirror-of-augenkrebs-g
+textures/map_augenkrebs/mirror-of-augenkrebs-g
 {
-	qer_editorimage "textures/augenkrebs/mirror-of-augenkrebs.tga"
+	qer_editorimage "textures/map_augenkrebs/mirror-of-augenkrebs.tga"
 	surfaceparm trans
 	surfaceparm nonsolid
 	nopicmip
 	nomipmap
 	{
-		map "textures/augenkrebs/mirror-of-augenkrebs.tga"
+		map "textures/map_augenkrebs/mirror-of-augenkrebs.tga"
 		tcMod scroll 0.011 0.02
 		tcMod turb .1 .1 0 .01
 		tcMod stretch sin 1 0.05 0.2 .0015
@@ -411,15 +411,15 @@ textures/augenkrebs_v2/mirror-of-augenkrebs-g
 	cull none
 }
 
-textures/augenkrebs_v2/mirror-of-augenkrebs-b
+textures/map_augenkrebs/mirror-of-augenkrebs-b
 {
-	qer_editorimage "textures/augenkrebs/mirror-of-augenkrebs.tga"
+	qer_editorimage "textures/map_augenkrebs/mirror-of-augenkrebs.tga"
 	surfaceparm trans
 	surfaceparm nonsolid
 	nopicmip
 	nomipmap
 	{
-		map "textures/augenkrebs/mirror-of-augenkrebs.tga"
+		map "textures/map_augenkrebs/mirror-of-augenkrebs.tga"
 		tcMod scroll 0.01 0.022
 		tcMod turb .1 .1 0 .01
 		tcMod stretch sin 1 0.05 0.2 .0015
