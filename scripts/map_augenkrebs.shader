@@ -314,9 +314,9 @@ textures/augenkrebs_v2/thweber-mystics2
 {
 	nopicmip
 	nomipmap
+	dpreflectcube textures/augenkrebs/afterslime-8b6b565-
 	{
-		map textures/augenkrebs/thweber-mystics2
-		animmap 13 textures/augenkrebs/thweber-mystics2 textures/augenkrebs/thweber-mystics2-1 textures/augenkrebs/thweber-mystics2-2 textures/augenkrebs/thweber-mystics2-3 textures/augenkrebs/thweber-mystics2-4 textures/augenkrebs/thweber-mystics2-3 textures/augenkrebs/thweber-mystics2-2 textures/augenkrebs/thweber-mystics2-1
+		map textures/augenkrebs/b
 	}
 	{
 		map $lightmap
