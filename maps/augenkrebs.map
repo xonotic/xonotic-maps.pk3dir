@@ -1633,7 +1633,7 @@
 {
 "classname" "trigger_music"
 "volume" "1"
-"noise" "sound/cdtracks/loop-miku-ievanpolkka.ogg"
+"noise" "sound/map_augenkrebs/markushaist-free-software-song.ogg"
 "fade_time" "1"
 "fade_rate" "1"
 {
@@ -1647,7 +1647,7 @@
 }
 {
 "classname" "target_music"
-"noise" "sound/cdtracks/loop-miku-derhoellerache.ogg"
+"noise" "sound/map_augenkrebs/free_software_song_sunnata.ogg"
 "fade_time" "1"
 "fade_rate" "1"
 "volume" "1"
