@@ -1,0 +1,1 @@
+convert bricks.png -negate -flip bricks-1.png
