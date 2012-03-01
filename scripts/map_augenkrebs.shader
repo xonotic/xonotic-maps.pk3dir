@@ -89,8 +89,8 @@ textures/map_augenkrebs/bricks
 	{
 		map textures/map_augenkrebs/bricks
 		animmap 17 textures/map_augenkrebs/bricks textures/map_augenkrebs/bricks textures/map_augenkrebs/bricks textures/map_augenkrebs/bricks textures/map_augenkrebs/bricks textures/map_augenkrebs/bricks textures/map_augenkrebs/bricks textures/map_augenkrebs/bricks-1
-		tcmod stretch sawtooth 1 1 0 0.271
-		tcmod stretch sawtooth 1 1 0.5 0.0314
+		tcmod stretch sawtooth 1 1 0 0.0271
+		tcmod stretch sawtooth 1 1 0.5 0.00314
 	}
 	{
 		map $lightmap
