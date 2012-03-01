@@ -1,8 +1,8 @@
 {
 "classname" "worldspawn"
 "_color" "1 1 1"
-"_minLight" "127"
-"_minVertexLight" "127"
+"_minLight" "62"
+"_minVertexLight" "62"
 {
 ( 2304 2048 2048 ) ( 2304 -2048 2048 ) ( -1792 2048 2048 ) mikeenova_sky/mikeenova_sky 0 0 0 0.5 0.5 0 0 0
 ( 2048 1792 256 ) ( -2048 1792 256 ) ( 2048 1792 0 ) mikeenova_sky/mikeenova_sky 0 0 0 0.5 0.5 0 0 0
