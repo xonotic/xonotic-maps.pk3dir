@@ -8,7 +8,9 @@ type ctf 300 20
 type dm 30 20
 type lms 9 20
 type kh 600 20 2
-// cdtrack loop-miku-derhoellerache
+// cdtrack ...
 // we are using target_music and trigger_music entities for that!
 settemp_for_type all r_water 1
 settemp_for_type all r_water_resolutionmultiplier 1
+// bloom makes stuff EASIER to see
+settemp_for_type all r_bloom 0
