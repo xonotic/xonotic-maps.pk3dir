@@ -1,0 +1,1 @@
+convert -negate -flop omgchucky.png omgchucky-3.png
