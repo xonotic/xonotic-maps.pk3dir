@@ -4,10 +4,10 @@ author divVerent
 _diameter 5046.066406
 _spawnpoints 18
 has weapons
-type ctf 300 20
-type dm 30 20
-type lms 9 20
-type kh 600 20 2
+gametype ctf
+gametype dm
+gametype lms
+gametype kh
 // cdtrack ...
 // we are using target_music and trigger_music entities for that!
 settemp_for_type all r_water 1
