@@ -46,8 +46,8 @@ textures/map_augenkrebs/swampa2
 	cull none
 	{
 		map textures/map_augenkrebs/swampa2.tga
-		tcmod scale 0.25 0.25
 		tcMod turb 0 0.4 0 0.08
+		tcmod scale 0.25 0.25
 	}
 	{
 		map $lightmap
