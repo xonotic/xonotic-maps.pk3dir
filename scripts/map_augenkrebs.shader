@@ -47,7 +47,6 @@ textures/map_augenkrebs/swampa2
 	{
 		map textures/map_augenkrebs/swampa2.tga
 		tcMod turb 0 0.4 0 0.08
-		tcmod scale 0.25 0.25
 	}
 	{
 		map $lightmap
@@ -287,6 +286,7 @@ textures/map_augenkrebs/rotsnake7
 {
 	nopicmip
 	nomipmaps
+	Q3map_TessSize 128
 	{
 		map textures/map_augenkrebs/rotsnake7
 		tcmod turb 0 0.01 0 0.31
@@ -348,10 +348,11 @@ textures/map_augenkrebs/maze-of-augenkrebs
 	nopicmip
 	nomipmaps
 	cull none
+	Q3map_TessSize 128
 	{
 		map "textures/map_augenkrebs/maze-of-augenkrebs.tga"
-		tcMod scroll 0.01 0.02
 		tcMod turb .1 .1 0 .01
+		tcMod scroll 0.01 0.02
 		tcMod stretch sin 1 0.05 0.2 .0015
 		tcmod rotate 0.5
 		blendfunc blend
@@ -364,10 +365,11 @@ textures/map_augenkrebs/mirror-of-augenkrebs
 	surfaceparm nonsolid
 	nopicmip
 	nomipmaps
+	Q3map_TessSize 128
 	{
 		map "textures/map_augenkrebs/mirror-of-augenkrebs.tga"
-		tcMod scroll 0.01 0.02
 		tcMod turb .1 .1 0 .01
+		tcMod scroll 0.01 0.02
 		tcMod stretch sin 1 0.05 0.2 .0015
 		tcmod rotate 0.5
 	}
@@ -383,10 +385,11 @@ textures/map_augenkrebs/mirror-of-augenkrebs-r
 	surfaceparm nonsolid
 	nopicmip
 	nomipmaps
+	Q3map_TessSize 128
 	{
 		map "textures/map_augenkrebs/mirror-of-augenkrebs.tga"
-		tcMod scroll 0.01 0.02
 		tcMod turb .1 .1 0 .01
+		tcMod scroll 0.01 0.02
 		tcMod stretch sin 1 0.05 0.2 .0015
 		tcmod rotate 0.5
 	}
@@ -401,10 +404,11 @@ textures/map_augenkrebs/mirror-of-augenkrebs-g
 	surfaceparm nonsolid
 	nopicmip
 	nomipmaps
+	Q3map_TessSize 128
 	{
 		map "textures/map_augenkrebs/mirror-of-augenkrebs.tga"
-		tcMod scroll 0.011 0.02
 		tcMod turb .1 .1 0 .01
+		tcMod scroll 0.011 0.02
 		tcMod stretch sin 1 0.05 0.2 .0015
 		tcmod rotate 0.5
 		blendfunc add
@@ -420,10 +424,11 @@ textures/map_augenkrebs/mirror-of-augenkrebs-b
 	surfaceparm nonsolid
 	nopicmip
 	nomipmaps
+	Q3map_TessSize 128
 	{
 		map "textures/map_augenkrebs/mirror-of-augenkrebs.tga"
-		tcMod scroll 0.01 0.022
 		tcMod turb .1 .1 0 .01
+		tcMod scroll 0.01 0.022
 		tcMod stretch sin 1 0.05 0.2 .0015
 		tcmod rotate 0.5
 		blendfunc add
