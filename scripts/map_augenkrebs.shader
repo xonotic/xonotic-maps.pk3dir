@@ -203,7 +203,7 @@ textures/map_augenkrebs/omgchucky
 	nomipmap
 	{
 		map textures/map_augenkrebs/omgchucky
-		animmap 3 textures/map_augenkrebs/omgchucky textures/map_augenkrebs/omgchucky-1 textures/map_augenkrebs/omgchucky-2
+		animmap 5 textures/map_augenkrebs/omgchucky textures/map_augenkrebs/omgchucky-1 textures/map_augenkrebs/omgchucky-2 textures/map_augenkrebs/omgchucky-3
 	}
 	{
 		map $lightmap
