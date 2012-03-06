@@ -1,0 +1,1 @@
+convert mahopa-augenkrebs-06.png -negate -channel blue +level 0%,0% mahopa-augenkrebs-06-1.png
