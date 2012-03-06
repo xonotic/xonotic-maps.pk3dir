@@ -1,0 +1,7 @@
+screenshots of the GPL3 as viewed in Chromium
+
+window size: 512x512
+pressed ctrl-minus a few times
+added css: line-height: 95%
+applied: mogrify -negate gpl?[13579].png
+then: montage gpl??.png -border 0 -frame 0 -geometry +0+0 gpl.png

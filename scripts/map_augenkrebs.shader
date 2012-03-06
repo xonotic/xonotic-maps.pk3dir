@@ -1,12 +1,11 @@
-textures/map_augenkrebs/magibon
+textures/map_augenkrebs/gpl
 {
 	{
-		map textures/map_augenkrebs/magibon
-		tcmod page 16 16 0.1
+		map textures/map_augenkrebs/gpl
+		tcmod page 4 4 0.2
 	}
 	{
 		map $lightmap
-		tcGen lightmap
 		blendfunc filter
 	}
 }
@@ -65,7 +64,6 @@ textures/map_augenkrebs/loituma
 	}
 	{
 		map $lightmap
-		tcGen lightmap
 		blendfunc filter
 	}
 }
@@ -79,7 +77,6 @@ textures/map_augenkrebs/augen
 	}
 	{
 		map $lightmap
-		tcGen lightmap
 		blendfunc filter
 	}
 }
@@ -95,7 +92,6 @@ textures/map_augenkrebs/bricks
 	}
 	{
 		map $lightmap
-		tcGen lightmap
 		blendfunc filter
 	}
 }
@@ -109,7 +105,6 @@ textures/map_augenkrebs/bw
 	}
 	{
 		map $lightmap
-		tcGen lightmap
 		blendfunc filter
 	}
 }
@@ -123,7 +118,6 @@ textures/map_augenkrebs/bwscroll
 	}
 	{
 		map $lightmap
-		tcGen lightmap
 		blendfunc filter
 	}
 }
@@ -137,7 +131,6 @@ textures/map_augenkrebs/g
 	}
 	{
 		map $lightmap
-		tcGen lightmap
 		blendfunc filter
 	}
 }
@@ -151,7 +144,6 @@ textures/map_augenkrebs/jumpy
 	}
 	{
 		map $lightmap
-		tcGen lightmap
 		blendfunc filter
 	}
 }
@@ -166,7 +158,6 @@ textures/map_augenkrebs/mahopa-augenkrebs-01
 	}
 	{
 		map $lightmap
-		tcGen lightmap
 		blendfunc filter
 	}
 }
@@ -181,7 +172,6 @@ textures/map_augenkrebs/mahopa-augenkrebs-04
 	}
 	{
 		map $lightmap
-		tcGen lightmap
 		blendfunc filter
 	}
 }
@@ -195,7 +185,6 @@ textures/map_augenkrebs/mahopa-augenkrebs-06
 	}
 	{
 		map $lightmap
-		tcGen lightmap
 		blendfunc filter
 	}
 }
@@ -209,7 +198,6 @@ textures/map_augenkrebs/omgchucky
 	}
 	{
 		map $lightmap
-		tcGen lightmap
 		blendfunc filter
 	}
 }
@@ -223,7 +211,6 @@ textures/map_augenkrebs/p
 	}
 	{
 		map $lightmap
-		tcGen lightmap
 		blendfunc filter
 	}
 }
@@ -237,7 +224,6 @@ textures/map_augenkrebs/pg
 	}
 	{
 		map $lightmap
-		tcGen lightmap
 		blendfunc filter
 	}
 }
@@ -251,7 +237,6 @@ textures/map_augenkrebs/pgscroll
 	}
 	{
 		map $lightmap
-		tcGen lightmap
 		blendfunc filter
 	}
 }
@@ -265,7 +250,6 @@ textures/map_augenkrebs/pinchpunch
 	}
 	{
 		map $lightmap
-		tcGen lightmap
 		blendfunc filter
 	}
 }
@@ -279,7 +263,6 @@ textures/map_augenkrebs/punkte_5
 	}
 	{
 		map $lightmap
-		tcGen lightmap
 		blendfunc filter
 	}
 }
@@ -294,7 +277,6 @@ textures/map_augenkrebs/rotsnake7
 	}
 	{
 		map $lightmap
-		tcGen lightmap
 		blendfunc filter
 	}
 }
@@ -309,7 +291,6 @@ textures/map_augenkrebs/sakuras2b
 	}
 	{
 		map $lightmap
-		tcGen lightmap
 		blendfunc filter
 	}
 }
@@ -323,7 +304,6 @@ textures/map_augenkrebs/thweber-mystics2
 	}
 	{
 		map $lightmap
-		tcGen lightmap
 		blendfunc filter
 	}
 }
@@ -337,7 +317,6 @@ textures/map_augenkrebs/epilepsy
 	}
 	{
 		map $lightmap
-		tcGen lightmap
 		blendfunc filter
 	}
 }
