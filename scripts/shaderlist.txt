@@ -13,6 +13,7 @@ exomorphx
 exx
 facility114invx
 facility114x
+grass
 liquids_lava
 liquids_slime
 liquids_water
@@ -26,6 +27,7 @@ map_space-elevator
 map_stormkeep
 map_techassault
 map_xoylent
+map_solarium
 metaltechx
 model_bigfan01
 model_crate02
@@ -55,3 +57,5 @@ trak4x
 trak5x
 trak6x
 trak7x
+
+
