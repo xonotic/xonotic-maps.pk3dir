@@ -1,0 +1,2 @@
+espeak -w gpl.wav -f /usr/share/licenses/common/GPL3/license.txt
+oggenc -q0 -o gpl.ogg gpl.wav

@@ -1622,7 +1622,7 @@
 }
 {
 "classname" "target_music"
-"noise" "sound/cdtracks/loop-miku-nggyu.ogg"
+"noise" "sound/map_augenkrebs/gpl.ogg"
 "fade_time" "1"
 "fade_rate" "1"
 "volume" "1"
