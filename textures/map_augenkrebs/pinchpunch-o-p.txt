@@ -1,0 +1,1 @@
+convert pinchpunch-o.png -channel red,blue -negate pinchpunch-o-p.png

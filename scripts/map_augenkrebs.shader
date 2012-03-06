@@ -260,7 +260,7 @@ textures/map_augenkrebs/pinchpunch
 	nomipmaps
 	{
 		map textures/map_augenkrebs/pinchpunch
-		animmap 17 textures/map_augenkrebs/pinchpunch textures/map_augenkrebs/pinchpunch textures/map_augenkrebs/pinchpunch textures/map_augenkrebs/pinchpunch textures/map_augenkrebs/pinchpunch textures/map_augenkrebs/pinchpunch-1
+		animmap 17 textures/map_augenkrebs/pinchpunch-p textures/map_augenkrebs/pinchpunch textures/map_augenkrebs/pinchpunch textures/map_augenkrebs/pinchpunch textures/map_augenkrebs/pinchpunch textures/map_augenkrebs/pinchpunch textures/map_augenkrebs/pinchpunch textures/map_augenkrebs/pinchpunch textures/map_augenkrebs/pinchpunch textures/map_augenkrebs/pinchpunch-p textures/map_augenkrebs/pinchpunch-i-p textures/map_augenkrebs/pinchpunch-i textures/map_augenkrebs/pinchpunch-i textures/map_augenkrebs/pinchpunch-i textures/map_augenkrebs/pinchpunch-i textures/map_augenkrebs/pinchpunch-i textures/map_augenkrebs/pinchpunch-i textures/map_augenkrebs/pinchpunch-i textures/map_augenkrebs/pinchpunch-i textures/map_augenkrebs/pinchpunch-i-p textures/map_augenkrebs/pinchpunch-o-p textures/map_augenkrebs/pinchpunch-o textures/map_augenkrebs/pinchpunch-o textures/map_augenkrebs/pinchpunch-o textures/map_augenkrebs/pinchpunch-o textures/map_augenkrebs/pinchpunch-o textures/map_augenkrebs/pinchpunch-o textures/map_augenkrebs/pinchpunch-o textures/map_augenkrebs/pinchpunch-o textures/map_augenkrebs/pinchpunch-o-p
 	}
 	{
 		map $lightmap
