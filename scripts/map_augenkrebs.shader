@@ -108,6 +108,7 @@ textures/map_augenkrebs/bw
 }
 textures/map_augenkrebs/bwscroll
 {
+	qer_editorimage textures/map_augenkrebs/bw
 	nopicmip
 	nomipmaps
 	{
@@ -227,6 +228,7 @@ textures/map_augenkrebs/pg
 }
 textures/map_augenkrebs/pgscroll
 {
+	qer_editorimage textures/map_augenkrebs/pg
 	nopicmip
 	nomipmaps
 	{
@@ -292,8 +294,9 @@ textures/map_augenkrebs/pbfloor
 		blendfunc filter
 	}
 }
-textures/map_augenkrebs/thweber-mystics2
+textures/map_augenkrebs/afterslime
 {
+	qer_editorimage textures/map_augenkrebs/afterslime-8b6b565-ft
 	nopicmip
 	nomipmaps
 	dpreflectcube textures/map_augenkrebs/afterslime-8b6b565-
@@ -417,7 +420,7 @@ textures/map_augenkrebs/mirror-of-augenkrebs-b
 
 textures/map_augenkrebs/novasky
 {
-	qer_editorimage env/map_augenkrebs/novasky
+	qer_editorimage env/map_augenkrebs/novasky-ft
 	surfaceparm sky
 	surfaceparm noimpact
 	surfaceparm nolightmap
