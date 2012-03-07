@@ -10,7 +10,10 @@ gametype lms
 gametype kh
 // cdtrack ...
 // we are using target_music and trigger_music entities for that!
-settemp_for_type all r_water 1
-settemp_for_type all r_water_resolutionmultiplier 1
+// reflections are KEWL
+clientsettemp_for_type all r_water 1
+clientsettemp_for_type all r_water_resolutionmultiplier 1
 // bloom makes stuff EASIER to see
-settemp_for_type all r_bloom 0
+clientsettemp_for_type all r_bloom 0
+// damn cheats
+clientsettemp_for_type all r_showsurfaces 0
