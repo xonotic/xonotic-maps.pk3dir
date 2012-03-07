@@ -1,0 +1,1 @@
+convert -size 64x64 xc:black -draw "image over -32,-32 0,0 punkte.png" -draw "image over 32,-32 0,0 punkte.png" -draw "image over -32,32 0,0 punkte.png" -draw "image over 32,32 0,0 punkte.png" punkte-1.png
