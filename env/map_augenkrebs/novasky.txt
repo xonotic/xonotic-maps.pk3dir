@@ -1,0 +1,40 @@
+before exporting, flatten and run "make seamless"
+
+Use these commands to make _dn and _up images:
+
+convert novasky_bk.png \
+	-fx "
+		bot = j / 1023;
+		top = 1 - bot;
+		lef = i / 1023;
+		rig = 1 - lef;
+		ptop = p{i, j};
+		pbot = p{1023 - i, 1023 - j};
+		prig = p{1023 - j, i};
+		plef = p{j, 1023 - i};
+		strength = 1.0 / (1.0001 - max(max(bot, top), max(lef, rig)));
+		xbot = pow(bot, strength);
+		xtop = pow(top, strength);
+		xlef = pow(lef, strength);
+		xrig = pow(rig, strength);
+		sum = xbot + xtop + xlef + xrig;
+		(ptop * xtop + pbot * xbot + plef * xlef + prig * xrig) / sum
+	" novasky_dn.png
+convert novasky_bk.png \
+	-fx "
+		top = j / 1023;
+		bot = 1 - top;
+		rig = i / 1023;
+		lef = 1 - rig;
+		ptop = p{i, j};
+		pbot = p{1023 - i, 1023 - j};
+		prig = p{1023 - j, i};
+		plef = p{j, 1023 - i};
+		strength = 1.0 / (1.0001 - max(max(bot, top), max(lef, rig)));
+		xbot = pow(bot, strength);
+		xtop = pow(top, strength);
+		xlef = pow(lef, strength);
+		xrig = pow(rig, strength);
+		sum = xbot + xtop + xlef + xrig;
+		(ptop * xtop + pbot * xbot + plef * xlef + prig * xrig) / sum
+	" novasky_up.png
