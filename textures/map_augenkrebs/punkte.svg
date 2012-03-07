@@ -16,8 +16,8 @@
    inkscape:version="0.48.3.1 r9886"
    sodipodi:docname="punkte.svg"
    inkscape:export-filename="/home/rpolzer/Games/Xonotic/data/xonotic-maps.pk3dir/textures/map_augenkrebs/punkte.png"
-   inkscape:export-xdpi="90"
-   inkscape:export-ydpi="90">
+   inkscape:export-xdpi="360"
+   inkscape:export-ydpi="360">
   <defs
      id="defs4">
     <inkscape:perspective
@@ -109,7 +109,7 @@
        sodipodi:cy="32"
        sodipodi:rx="8"
        sodipodi:ry="8"
-       d="m 40,32 a 8,8 0 1 1 -16,0 8,8 0 1 1 16,0 z"
+       d="m 40,32 c 0,4.418278 -3.581722,8 -8,8 -4.418278,0 -8,-3.581722 -8,-8 0,-4.418278 3.581722,-8 8,-8 4.418278,0 8,3.581722 8,8 z"
        transform="translate(0,988.36218)" />
   </g>
 </svg>

@@ -1,1 +1,1 @@
-epilepsy inverted
+convert epilepsy.png -negate epilepsy-1.png 
