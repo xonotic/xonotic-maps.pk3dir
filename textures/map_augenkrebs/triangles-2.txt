@@ -1,1 +1,1 @@
-convert -flip -flop omgchucky.png omgchucky-2.png
+convert -flip -flop triangles.png triangles-2.png

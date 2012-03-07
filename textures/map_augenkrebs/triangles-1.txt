@@ -1,1 +1,1 @@
-convert -negate -flip omgchucky.png omgchucky-1.png
+convert -negate -flip triangles.png triangles-1.png

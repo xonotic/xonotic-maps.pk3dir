@@ -253,13 +253,13 @@ textures/map_augenkrebs/pinchpunch
 		blendfunc filter
 	}
 }
-textures/map_augenkrebs/punkte_5
+textures/map_augenkrebs/punkte
 {
 	nopicmip
 	nomipmaps
 	{
-		map textures/map_augenkrebs/punkte_5
-		animmap 3 textures/map_augenkrebs/punkte_5 textures/map_augenkrebs/punkte_5-1
+		map textures/map_augenkrebs/punkte
+		animmap 3 textures/map_augenkrebs/punkte textures/map_augenkrebs/punkte-1
 	}
 	{
 		map $lightmap

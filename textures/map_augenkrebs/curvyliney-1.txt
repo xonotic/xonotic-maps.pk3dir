@@ -1,1 +1,1 @@
-convert bricks.png -negate -flip bricks-1.png
+convert curvyliney.png -negate -flip curvyliney-1.png

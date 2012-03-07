@@ -3,5 +3,5 @@ S, V: 1
 
 Then run:
 for i in `seq 1 39`; do
-	convert mahopa-augenkrebs-04.png  -modulate 100,100,$(($i * 5 + 100)) mahopa-augenkrebs-04-$i.png
+	convert cycling.png  -modulate 100,100,$(($i * 5 + 100)) cycling-$i.png
 done
