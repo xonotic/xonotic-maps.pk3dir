@@ -10,10 +10,10 @@ textures/map_augenkrebs/gpl
 	}
 }
 
-textures/map_augenkrebs/black
+textures/map_augenkrebs/b
 {
 	{
-		map gfx/colors/vga-0
+		map textures/map_augenkrebs/b
 	}
 }
 
