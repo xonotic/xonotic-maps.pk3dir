@@ -33,7 +33,7 @@ textures/map_augenkrebs/moiretex
 	}
 }
 
-textures/map_augenkrebs/swampa2
+textures/map_augenkrebs/lava
 {
 	nopicmip
 	nomipmaps
@@ -44,7 +44,7 @@ textures/map_augenkrebs/swampa2
 	Q3map_TessSize 128
 	cull none
 	{
-		map textures/map_augenkrebs/swampa2.tga
+		map textures/map_augenkrebs/lava.tga
 		tcMod turb 0 0.4 0 0.08
 	}
 	{
@@ -67,26 +67,26 @@ textures/map_augenkrebs/loituma
 		blendfunc filter
 	}
 }
-textures/map_augenkrebs/augen
+textures/map_augenkrebs/x11
 {
 	nopicmip
 	nomipmaps
 	{
-		map textures/map_augenkrebs/augen
-		animmap 5 textures/map_augenkrebs/augen textures/map_augenkrebs/augen-1 textures/map_augenkrebs/augen-2 textures/map_augenkrebs/augen-3
+		map textures/map_augenkrebs/x11
+		animmap 5 textures/map_augenkrebs/x11 textures/map_augenkrebs/x11-1 textures/map_augenkrebs/x11-2 textures/map_augenkrebs/x11-3
 	}
 	{
 		map $lightmap
 		blendfunc filter
 	}
 }
-textures/map_augenkrebs/bricks
+textures/map_augenkrebs/curvyliney
 {
 	nopicmip
 	nomipmaps
 	{
-		map textures/map_augenkrebs/bricks
-		animmap 17 textures/map_augenkrebs/bricks textures/map_augenkrebs/bricks textures/map_augenkrebs/bricks textures/map_augenkrebs/bricks textures/map_augenkrebs/bricks textures/map_augenkrebs/bricks textures/map_augenkrebs/bricks textures/map_augenkrebs/bricks-1
+		map textures/map_augenkrebs/curvyliney
+		animmap 17 textures/map_augenkrebs/curvyliney textures/map_augenkrebs/curvyliney textures/map_augenkrebs/curvyliney textures/map_augenkrebs/curvyliney textures/map_augenkrebs/curvyliney textures/map_augenkrebs/curvyliney textures/map_augenkrebs/curvyliney textures/map_augenkrebs/curvyliney-1
 		tcmod stretch sawtooth 1 1 0 0.0271
 		tcmod stretch sawtooth 1 1 0.5 0.00314
 	}
@@ -134,26 +134,26 @@ textures/map_augenkrebs/g
 		blendfunc filter
 	}
 }
-textures/map_augenkrebs/jumpy
+textures/map_augenkrebs/jpeg
 {
 	nopicmip
 	nomipmaps
 	{
-		map textures/map_augenkrebs/jumpy
-		animmap 13 textures/map_augenkrebs/jumpy textures/map_augenkrebs/jumpy-1 textures/map_augenkrebs/jumpy-2 textures/map_augenkrebs/jumpy-3 textures/map_augenkrebs/jumpy-2 textures/map_augenkrebs/jumpy-1
+		map textures/map_augenkrebs/jpeg
+		animmap 13 textures/map_augenkrebs/jpeg textures/map_augenkrebs/jpeg-1 textures/map_augenkrebs/jpeg-2 textures/map_augenkrebs/jpeg-3 textures/map_augenkrebs/jpeg-2 textures/map_augenkrebs/jpeg-1
 	}
 	{
 		map $lightmap
 		blendfunc filter
 	}
 }
-textures/map_augenkrebs/mahopa-augenkrebs-01
+textures/map_augenkrebs/checkermaze
 {
 	nopicmip
 	nomipmaps
 	{
-		map textures/map_augenkrebs/mahopa-augenkrebs-01
-		animmap 2 textures/map_augenkrebs/mahopa-augenkrebs-01 textures/map_augenkrebs/mahopa-augenkrebs-01-1
+		map textures/map_augenkrebs/checkermaze
+		animmap 2 textures/map_augenkrebs/checkermaze textures/map_augenkrebs/checkermaze-1
 		tcmod scroll 0.0625 0.03125
 	}
 	{
@@ -161,13 +161,13 @@ textures/map_augenkrebs/mahopa-augenkrebs-01
 		blendfunc filter
 	}
 }
-textures/map_augenkrebs/mahopa-augenkrebs-04
+textures/map_augenkrebs/cycling
 {
 	nopicmip
 	nomipmaps
 	{
-		map textures/map_augenkrebs/mahopa-augenkrebs-04
-		animmap 12.732395 textures/map_augenkrebs/mahopa-augenkrebs-04 textures/map_augenkrebs/mahopa-augenkrebs-04-1 textures/map_augenkrebs/mahopa-augenkrebs-04-2 textures/map_augenkrebs/mahopa-augenkrebs-04-3 textures/map_augenkrebs/mahopa-augenkrebs-04-4 textures/map_augenkrebs/mahopa-augenkrebs-04-5 textures/map_augenkrebs/mahopa-augenkrebs-04-6 textures/map_augenkrebs/mahopa-augenkrebs-04-7 textures/map_augenkrebs/mahopa-augenkrebs-04-8 textures/map_augenkrebs/mahopa-augenkrebs-04-9 textures/map_augenkrebs/mahopa-augenkrebs-04-10 textures/map_augenkrebs/mahopa-augenkrebs-04-11 textures/map_augenkrebs/mahopa-augenkrebs-04-12 textures/map_augenkrebs/mahopa-augenkrebs-04-13 textures/map_augenkrebs/mahopa-augenkrebs-04-14 textures/map_augenkrebs/mahopa-augenkrebs-04-15 textures/map_augenkrebs/mahopa-augenkrebs-04-16 textures/map_augenkrebs/mahopa-augenkrebs-04-17 textures/map_augenkrebs/mahopa-augenkrebs-04-18 textures/map_augenkrebs/mahopa-augenkrebs-04-19 textures/map_augenkrebs/mahopa-augenkrebs-04-20 textures/map_augenkrebs/mahopa-augenkrebs-04-21 textures/map_augenkrebs/mahopa-augenkrebs-04-22 textures/map_augenkrebs/mahopa-augenkrebs-04-23 textures/map_augenkrebs/mahopa-augenkrebs-04-24 textures/map_augenkrebs/mahopa-augenkrebs-04-25 textures/map_augenkrebs/mahopa-augenkrebs-04-26 textures/map_augenkrebs/mahopa-augenkrebs-04-27 textures/map_augenkrebs/mahopa-augenkrebs-04-28 textures/map_augenkrebs/mahopa-augenkrebs-04-29 textures/map_augenkrebs/mahopa-augenkrebs-04-30 textures/map_augenkrebs/mahopa-augenkrebs-04-31 textures/map_augenkrebs/mahopa-augenkrebs-04-32 textures/map_augenkrebs/mahopa-augenkrebs-04-33 textures/map_augenkrebs/mahopa-augenkrebs-04-34 textures/map_augenkrebs/mahopa-augenkrebs-04-35 textures/map_augenkrebs/mahopa-augenkrebs-04-36 textures/map_augenkrebs/mahopa-augenkrebs-04-37 textures/map_augenkrebs/mahopa-augenkrebs-04-38 textures/map_augenkrebs/mahopa-augenkrebs-04-39
+		map textures/map_augenkrebs/cycling
+		animmap 12.732395 textures/map_augenkrebs/cycling textures/map_augenkrebs/cycling-1 textures/map_augenkrebs/cycling-2 textures/map_augenkrebs/cycling-3 textures/map_augenkrebs/cycling-4 textures/map_augenkrebs/cycling-5 textures/map_augenkrebs/cycling-6 textures/map_augenkrebs/cycling-7 textures/map_augenkrebs/cycling-8 textures/map_augenkrebs/cycling-9 textures/map_augenkrebs/cycling-10 textures/map_augenkrebs/cycling-11 textures/map_augenkrebs/cycling-12 textures/map_augenkrebs/cycling-13 textures/map_augenkrebs/cycling-14 textures/map_augenkrebs/cycling-15 textures/map_augenkrebs/cycling-16 textures/map_augenkrebs/cycling-17 textures/map_augenkrebs/cycling-18 textures/map_augenkrebs/cycling-19 textures/map_augenkrebs/cycling-20 textures/map_augenkrebs/cycling-21 textures/map_augenkrebs/cycling-22 textures/map_augenkrebs/cycling-23 textures/map_augenkrebs/cycling-24 textures/map_augenkrebs/cycling-25 textures/map_augenkrebs/cycling-26 textures/map_augenkrebs/cycling-27 textures/map_augenkrebs/cycling-28 textures/map_augenkrebs/cycling-29 textures/map_augenkrebs/cycling-30 textures/map_augenkrebs/cycling-31 textures/map_augenkrebs/cycling-32 textures/map_augenkrebs/cycling-33 textures/map_augenkrebs/cycling-34 textures/map_augenkrebs/cycling-35 textures/map_augenkrebs/cycling-36 textures/map_augenkrebs/cycling-37 textures/map_augenkrebs/cycling-38 textures/map_augenkrebs/cycling-39
 		tcmod scroll 0.36787944 0.043213918
 	}
 	{
@@ -175,26 +175,26 @@ textures/map_augenkrebs/mahopa-augenkrebs-04
 		blendfunc filter
 	}
 }
-textures/map_augenkrebs/mahopa-augenkrebs-06
+textures/map_augenkrebs/lines
 {
 	nopicmip
 	nomipmaps
 	{
-		map textures/map_augenkrebs/mahopa-augenkrebs-06
-		animmap 3 textures/map_augenkrebs/mahopa-augenkrebs-06 textures/map_augenkrebs/mahopa-augenkrebs-06-1
+		map textures/map_augenkrebs/lines
+		animmap 3 textures/map_augenkrebs/lines textures/map_augenkrebs/lines-1
 	}
 	{
 		map $lightmap
 		blendfunc filter
 	}
 }
-textures/map_augenkrebs/omgchucky
+textures/map_augenkrebs/triangles
 {
 	nopicmip
 	nomipmaps
 	{
-		map textures/map_augenkrebs/omgchucky
-		animmap 5 textures/map_augenkrebs/omgchucky textures/map_augenkrebs/omgchucky-1 textures/map_augenkrebs/omgchucky-2 textures/map_augenkrebs/omgchucky-3
+		map textures/map_augenkrebs/triangles
+		animmap 5 textures/map_augenkrebs/triangles textures/map_augenkrebs/triangles-1 textures/map_augenkrebs/triangles-2 textures/map_augenkrebs/triangles-3
 	}
 	{
 		map $lightmap
@@ -266,13 +266,13 @@ textures/map_augenkrebs/punkte_5
 		blendfunc filter
 	}
 }
-textures/map_augenkrebs/rotsnake7
+textures/map_augenkrebs/rotating
 {
 	nopicmip
 	nomipmaps
 	Q3map_TessSize 128
 	{
-		map textures/map_augenkrebs/rotsnake7
+		map textures/map_augenkrebs/rotating
 		tcmod turb 0 0.002 0 0.31
 	}
 	{
@@ -280,13 +280,13 @@ textures/map_augenkrebs/rotsnake7
 		blendfunc filter
 	}
 }
-textures/map_augenkrebs/sakuras2b
+textures/map_augenkrebs/pbfloor
 {
 	nopicmip
 	nomipmaps
 	nolightmap
 	{
-		map textures/map_augenkrebs/sakuras2b
+		map textures/map_augenkrebs/pbfloor
 		tcmod scroll 0.314 0.271
 	}
 	{
