@@ -273,7 +273,7 @@ textures/map_augenkrebs/rotsnake7
 	Q3map_TessSize 128
 	{
 		map textures/map_augenkrebs/rotsnake7
-		tcmod turb 0 0.01 0 0.31
+		tcmod turb 0 0.002 0 0.31
 	}
 	{
 		map $lightmap
