@@ -54,13 +54,11 @@ textures/map_augenkrebs/lava
 }
 
 
-textures/map_augenkrebs/loituma
+textures/map_augenkrebs/sanity
 {
-	nopicmip
-	nomipmaps
+	// this one is actually sane
 	{
-		map textures/map_augenkrebs/loituma4
-		animmap 9 textures/map_augenkrebs/loituma4 textures/map_augenkrebs/loituma6 textures/map_augenkrebs/loituma8 textures/map_augenkrebs/loituma10
+		map textures/map_augenkrebs/sanity
 	}
 	{
 		map $lightmap
