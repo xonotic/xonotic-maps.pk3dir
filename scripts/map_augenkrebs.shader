@@ -458,6 +458,7 @@ textures/map_augenkrebs/crative_ink
 textures/map_augenkrebs/crative
 {
 	qer_editorimage textures/map_augenkrebs/crative
+	dpoffsetmapping - 1 match8 0
 	{
 		map textures/map_augenkrebs/crative
 	}
