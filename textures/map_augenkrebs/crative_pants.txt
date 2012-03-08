@@ -1,0 +1,1 @@
+convert crative_shirt.png -negate crative_pants.png

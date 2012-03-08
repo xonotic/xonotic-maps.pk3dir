@@ -1,0 +1,6 @@
+GIMP:
+Normalmap
+	Sobel 5x5
+	alpha = height
+	wrap
+	invert y

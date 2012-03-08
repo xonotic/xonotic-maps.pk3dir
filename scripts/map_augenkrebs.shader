@@ -338,6 +338,10 @@ textures/map_augenkrebs/maze-of-augenkrebs
 		tcmod rotate 0.5
 		blendfunc blend
 	}
+	{
+		map $lightmap
+		blendfunc filter
+	}
 }
 
 textures/map_augenkrebs/mirror-of-augenkrebs
@@ -428,4 +432,37 @@ textures/map_augenkrebs/novasky
 	q3map_surfacelight 0
 	q3map_sun 1 .98 .9 0 0 90
 	skyparms env/map_augenkrebs/novasky - -
+}
+
+textures/map_augenkrebs/crative_ink
+{
+	qer_editorimage textures/map_augenkrebs/cycling
+	q3map_notjunc
+	q3map_nonplanar
+	q3map_bounce 0.0
+	q3map_shadeangle 175
+	// q3map_texturesize 1 1
+	q3map_invert
+	q3map_offset -2.0
+	surfaceparm nolightmap
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nomarks
+	{
+		map textures/map_augenkrebs/cycling
+		animmap 12.732395 textures/map_augenkrebs/cycling textures/map_augenkrebs/cycling-1 textures/map_augenkrebs/cycling-2 textures/map_augenkrebs/cycling-3 textures/map_augenkrebs/cycling-4 textures/map_augenkrebs/cycling-5 textures/map_augenkrebs/cycling-6 textures/map_augenkrebs/cycling-7 textures/map_augenkrebs/cycling-8 textures/map_augenkrebs/cycling-9 textures/map_augenkrebs/cycling-10 textures/map_augenkrebs/cycling-11 textures/map_augenkrebs/cycling-12 textures/map_augenkrebs/cycling-13 textures/map_augenkrebs/cycling-14 textures/map_augenkrebs/cycling-15 textures/map_augenkrebs/cycling-16 textures/map_augenkrebs/cycling-17 textures/map_augenkrebs/cycling-18 textures/map_augenkrebs/cycling-19 textures/map_augenkrebs/cycling-20 textures/map_augenkrebs/cycling-21 textures/map_augenkrebs/cycling-22 textures/map_augenkrebs/cycling-23 textures/map_augenkrebs/cycling-24 textures/map_augenkrebs/cycling-25 textures/map_augenkrebs/cycling-26 textures/map_augenkrebs/cycling-27 textures/map_augenkrebs/cycling-28 textures/map_augenkrebs/cycling-29 textures/map_augenkrebs/cycling-30 textures/map_augenkrebs/cycling-31 textures/map_augenkrebs/cycling-32 textures/map_augenkrebs/cycling-33 textures/map_augenkrebs/cycling-34 textures/map_augenkrebs/cycling-35 textures/map_augenkrebs/cycling-36 textures/map_augenkrebs/cycling-37 textures/map_augenkrebs/cycling-38 textures/map_augenkrebs/cycling-39
+		tcmod scroll 0.36787944 0.043213918
+	}
+}
+
+textures/map_augenkrebs/crative
+{
+	qer_editorimage textures/map_augenkrebs/crative
+	{
+		map textures/map_augenkrebs/crative
+	}
+	{
+		map $lightmap
+		blendfunc filter
+	}
 }
