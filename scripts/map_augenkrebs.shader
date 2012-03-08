@@ -22,14 +22,11 @@ textures/map_augenkrebs/moiretex
 	nopicmip
 	nomipmaps
 	surfaceparm trans
+	surfaceparm nolightmap
 	{
 		map "textures/map_augenkrebs/moiretex.tga"
 		alphaFunc GE128
 		tcmod rotate 1
-	}
-	{
-		map $lightmap
-		blendfunc filter
 	}
 }
 
@@ -301,7 +298,7 @@ textures/map_augenkrebs/afterslime
 	nomipmaps
 	dpreflectcube textures/map_augenkrebs/afterslime-8b6b565-
 	{
-		map textures/map_augenkrebs/b
+		map textures/map_augenkrebs/breflect
 	}
 	{
 		map $lightmap
