@@ -11261,90 +11261,90 @@ facility114x/misc-tube
 {
 "classname" "target_speaker"
 "origin" "1184.000000 528.000000 528.000000"
-"noise" "sound/machines/Flourescent-Loop(Stereo).wav"
+"noise" "sound/machines/fluorescent_stereo_looped.ogg"
 "volume" "0.6"
 "angle" "-179.999985"
 }
 {
 "classname" "target_speaker"
 "origin" "0.000000 128.000000 272.000000"
-"noise" "sound/machines/Flourescent-Loop(Stereo).wav"
+"noise" "sound/machines/fluorescent_stereo_looped.ogg"
 "volume" "0.6"
 }
 {
 "classname" "target_speaker"
 "origin" "0.000000 -128.000000 272.000000"
-"noise" "sound/machines/Flourescent-Loop(Stereo).wav"
+"noise" "sound/machines/fluorescent_stereo_looped.ogg"
 "volume" "0.6"
 }
 {
 "classname" "target_speaker"
 "origin" "752.000000 0.000000 272.000000"
-"noise" "sound/machines/Flourescent-Loop(Stereo).wav"
+"noise" "sound/machines/fluorescent_stereo_looped.ogg"
 "volume" "0.6"
 }
 {
 "classname" "target_speaker"
 "origin" "-752.000000 0.000000 272.000000"
-"noise" "sound/machines/Flourescent-Loop(Stereo).wav"
+"noise" "sound/machines/fluorescent_stereo_looped.ogg"
 "volume" "0.6"
 }
 {
 "classname" "target_speaker"
 "origin" "1184.000000 -352.000000 528.000000"
-"noise" "sound/machines/Flourescent-Loop(Stereo).wav"
+"noise" "sound/machines/fluorescent_stereo_looped.ogg"
 "volume" "0.6"
 "angle" "-179.999985"
 }
 {
 "classname" "target_speaker"
 "origin" "1184.000000 -832.000000 528.000000"
-"noise" "sound/machines/Flourescent-Loop(Stereo).wav"
+"noise" "sound/machines/fluorescent_stereo_looped.ogg"
 "volume" "0.6"
 "angle" "-179.999985"
 }
 {
 "classname" "target_speaker"
 "origin" "592.000000 -1184.000000 528.000000"
-"noise" "sound/machines/Flourescent-Loop(Stereo).wav"
+"noise" "sound/machines/fluorescent_stereo_looped.ogg"
 "volume" "0.6"
 "angle" "-179.999985"
 }
 {
 "classname" "target_speaker"
 "origin" "0.000000 -524.000000 528.000000"
-"noise" "sound/machines/Flourescent-Loop(Stereo).wav"
+"noise" "sound/machines/fluorescent_stereo_looped.ogg"
 "volume" "0.6"
 "angle" "-179.999985"
 }
 {
 "classname" "target_speaker"
 "origin" "-1184.000000 -528.000000 528.000000"
-"noise" "sound/machines/Flourescent-Loop(Stereo).wav"
+"noise" "sound/machines/fluorescent_stereo_looped.ogg"
 "volume" "0.6"
 }
 {
 "classname" "target_speaker"
 "origin" "-1184.000000 832.000000 528.000000"
-"noise" "sound/machines/Flourescent-Loop(Stereo).wav"
+"noise" "sound/machines/fluorescent_stereo_looped.ogg"
 "volume" "0.6"
 }
 {
 "classname" "target_speaker"
 "origin" "-1184.000000 352.000000 528.000000"
-"noise" "sound/machines/Flourescent-Loop(Stereo).wav"
+"noise" "sound/machines/fluorescent_stereo_looped.ogg"
 "volume" "0.6"
 }
 {
 "classname" "target_speaker"
 "origin" "-592.000000 1184.000000 528.000000"
-"noise" "sound/machines/Flourescent-Loop(Stereo).wav"
+"noise" "sound/machines/fluorescent_stereo_looped.ogg"
 "volume" "0.6"
 }
 {
 "classname" "target_speaker"
 "origin" "0.000000 524.000000 528.000000"
-"noise" "sound/machines/Flourescent-Loop(Stereo).wav"
+"noise" "sound/machines/fluorescent_stereo_looped.ogg"
 "volume" "0.6"
 }
 {

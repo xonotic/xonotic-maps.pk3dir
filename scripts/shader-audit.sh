@@ -211,7 +211,9 @@ use_texture()
 			suf=${1#*/map_}
 			map=${suf%%[_/]*}
 			case "$2" in
-				"$pre"/map_$map[/_]*)
+				textures/map_$map[/_]*)
+					;;
+				models/map_$map[/_]*)
 					;;
 				textures/map_*|models/map_*)
 					# protect one map's textures from the evil of other maps :P

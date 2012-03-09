@@ -8,7 +8,6 @@ gametype tdm
 gametype lms
 gametype ca
 gametype arena
-gametype rune
 gametype ft
 gametype ka
 gametype kh
