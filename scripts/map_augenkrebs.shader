@@ -21,11 +21,9 @@ textures/map_augenkrebs/moiretex
 {
 	nopicmip
 	nomipmaps
-	surfaceparm trans
 	surfaceparm nolightmap
 	{
 		map "textures/map_augenkrebs/moiretex.tga"
-		alphaFunc GE128
 		tcmod rotate 1
 	}
 }
@@ -356,7 +354,6 @@ textures/map_augenkrebs/mirror-of-augenkrebs
 		tcmod rotate 0.5
 	}
 	dp_reflect 1  1.5 0.5 1.5 0.7
-	dp_refract 1	1   1   1
 	cull none
 }
 
