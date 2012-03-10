@@ -461,3 +461,16 @@ textures/map_augenkrebs/crative
 		blendfunc filter
 	}
 }
+textures/map_augenkrebs/tvsnow
+{
+	nopicmip
+	nomipmaps
+	{
+		map textures/map_augenkrebs/tvsnow
+		tcmod page 2 2 0.02
+	}
+	{
+		map $lightmap
+		blendfunc filter
+	}
+}
