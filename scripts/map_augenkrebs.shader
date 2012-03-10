@@ -467,7 +467,7 @@ textures/map_augenkrebs/tvsnow
 	nomipmaps
 	{
 		map textures/map_augenkrebs/tvsnow
-		tcmod page 2 2 0.02
+		tcmod page 512 512 0.000001
 	}
 	{
 		map $lightmap
