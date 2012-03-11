@@ -23948,7 +23948,7 @@ trak5x/trim-trim1a
 }
 {
 "classname" "light"
-"light" "750"
+"light" "550"
 "origin" "808 832 352"
 "_color" "1 0.880461 0.636286"
 }
@@ -31250,4 +31250,14 @@ exx/wall-metalrib01
 "origin" "368.000000 -368.000000 -48.000000"
 "volume" "2"
 "noise" "sound/machines/light_mono_looped.ogg"
+}
+{
+"classname" "info_autoscreenshot"
+"origin" "400.000000 272.000000 56.000000"
+"target" "info_notnull1"
+}
+{
+"classname" "info_notnull"
+"origin" "-56.000000 -184.000000 80.000000"
+"targetname" "info_notnull1"
 }
