@@ -1,6 +1,6 @@
 {
 "classname" "worldspawn"
-"_floodlight" "1024 64"
+"_floodlight" "1 1 1 1024 64"
 {
 ( 64 64 -32 ) ( 64 -64 -32 ) ( -64 64 -32 ) facility114x/misc-lift02 256 256 0 0.25 0.25 0 0 0
 ( 64 64 0 ) ( -64 64 0 ) ( 64 64 -8 ) common/caulk 0 128 0 0.25 0.25 0 0 0
