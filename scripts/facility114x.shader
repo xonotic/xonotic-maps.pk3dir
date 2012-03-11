@@ -115,6 +115,7 @@ textures/facility114x/base-baseyellow
 textures/facility114x/ceiling-ceiling00
 {
 	qer_editorimage textures/facility114x/ceiling/ceiling00.tga
+	dpoffsetmapping - 1 match8 255
 	
 	q3map_bounceScale 1.25
 
@@ -134,6 +135,7 @@ textures/facility114x/ceiling-ceiling00
 textures/facility114x/ceiling-ceiling00b
 {
 	qer_editorimage textures/facility114x/ceiling/ceiling00b.tga
+	dpoffsetmapping - 1 match8 255
 	
 	q3map_bounceScale 1.25
 
@@ -153,6 +155,7 @@ textures/facility114x/ceiling-ceiling00b
 textures/facility114x/ceiling-ceiling00r
 {
 	qer_editorimage textures/facility114x/ceiling/ceiling00r.tga
+	dpoffsetmapping - 1 match8 255
 	
 	q3map_bounceScale 1.25
 
@@ -172,6 +175,7 @@ textures/facility114x/ceiling-ceiling00r
 textures/facility114x/ceiling-ceiling01
 {
 	qer_editorimage textures/facility114x/ceiling/ceiling01.tga
+	dpoffsetmapping - 1 match8 139
 	
 	q3map_bounceScale 1.25
 
@@ -191,6 +195,7 @@ textures/facility114x/ceiling-ceiling01
 textures/facility114x/ceiling-ceiling01b
 {
 	qer_editorimage textures/facility114x/ceiling/ceiling01b.tga
+	dpoffsetmapping - 1 match8 139
 	
 	q3map_bounceScale 1.25
 
@@ -210,6 +215,7 @@ textures/facility114x/ceiling-ceiling01b
 textures/facility114x/ceiling-ceiling01r
 {
 	qer_editorimage textures/facility114x/ceiling/ceiling01r.tga
+	dpoffsetmapping - 1 match8 139
 	
 	q3map_bounceScale 1.25
 
@@ -229,6 +235,7 @@ textures/facility114x/ceiling-ceiling01r
 textures/facility114x/floor-floor00
 {
 	qer_editorimage textures/facility114x/floor/floor00.tga
+	dpoffsetmapping - 1 match8 255
 	
 	q3map_bounceScale 1.25
 
@@ -248,6 +255,7 @@ textures/facility114x/floor-floor00
 textures/facility114x/floor-floor01
 {
 	qer_editorimage textures/facility114x/floor/floor01.tga
+	dpoffsetmapping - 1 match8 14
 	
 	q3map_bounceScale 1.25
 
@@ -267,6 +275,7 @@ textures/facility114x/floor-floor01
 textures/facility114x/floor-floor02
 {
 	qer_editorimage textures/facility114x/floor/floor02.tga
+	dpoffsetmapping - 1 match8 9
 	
 	q3map_bounceScale 1.25
 
@@ -305,6 +314,7 @@ textures/facility114x/misc-door01
 textures/facility114x/misc-lift00
 {
 	qer_editorimage textures/facility114x/misc/lift00.tga
+	dpoffsetmapping - 1 match8 98
 	
 	q3map_bounceScale 1.25
 
@@ -324,6 +334,7 @@ textures/facility114x/misc-lift00
 textures/facility114x/misc-lift00b
 {
 	qer_editorimage textures/facility114x/misc/lift00b.tga
+	dpoffsetmapping - 1 match8 98
 	
 	q3map_bounceScale 1.25
 
@@ -343,6 +354,7 @@ textures/facility114x/misc-lift00b
 textures/facility114x/misc-lift00r
 {
 	qer_editorimage textures/facility114x/misc/lift00r.tga
+	dpoffsetmapping - 1 match8 98
 	
 	q3map_bounceScale 1.25
 
@@ -362,6 +374,7 @@ textures/facility114x/misc-lift00r
 textures/facility114x/misc-lift01
 {
 	qer_editorimage textures/facility114x/misc/lift01.tga
+	dpoffsetmapping - 1 match8 98
 	
 	q3map_bounceScale 1.25
 
@@ -381,6 +394,7 @@ textures/facility114x/misc-lift01
 textures/facility114x/misc-lift01b
 {
 	qer_editorimage textures/facility114x/misc/lift01b.tga
+	dpoffsetmapping - 1 match8 98
 	
 	q3map_bounceScale 1.25
 
@@ -400,6 +414,7 @@ textures/facility114x/misc-lift01b
 textures/facility114x/misc-lift01r
 {
 	qer_editorimage textures/facility114x/misc/lift01r.tga
+	dpoffsetmapping - 1 match8 98
 	
 	q3map_bounceScale 1.25
 
@@ -419,6 +434,7 @@ textures/facility114x/misc-lift01r
 textures/facility114x/misc-lift02
 {
 	qer_editorimage textures/facility114x/misc/lift02.tga
+	dpoffsetmapping - 1 match8 98
 	
 	q3map_bounceScale 1.25
 
@@ -438,6 +454,7 @@ textures/facility114x/misc-lift02
 textures/facility114x/misc-lift02b
 {
 	qer_editorimage textures/facility114x/misc/lift02b.tga
+	dpoffsetmapping - 1 match8 98
 	
 	q3map_bounceScale 1.25
 
@@ -457,6 +474,7 @@ textures/facility114x/misc-lift02b
 textures/facility114x/misc-lift02r
 {
 	qer_editorimage textures/facility114x/misc/lift02r.tga
+	dpoffsetmapping - 1 match8 98
 	
 	q3map_bounceScale 1.25
 
@@ -476,6 +494,7 @@ textures/facility114x/misc-lift02r
 textures/facility114x/misc-tube
 {
 	qer_editorimage textures/facility114x/misc/tube.tga
+	dpoffsetmapping - 1 match8 255
 	
 	q3map_bounceScale 1.25
 
@@ -495,6 +514,7 @@ textures/facility114x/misc-tube
 textures/facility114x/trim-trim00
 {
 	qer_editorimage textures/facility114x/trim/trim00.tga
+	dpoffsetmapping - 1 match8 255
 	
 	q3map_bounceScale 1.25
 
@@ -514,6 +534,7 @@ textures/facility114x/trim-trim00
 textures/facility114x/trim-trim01
 {
 	qer_editorimage textures/facility114x/trim/trim01.tga
+	dpoffsetmapping - 1 match8 69
 	
 	q3map_bounceScale 1.25
 
@@ -533,6 +554,7 @@ textures/facility114x/trim-trim01
 textures/facility114x/trim-trim01b
 {
 	qer_editorimage textures/facility114x/trim/trim01b.tga
+	dpoffsetmapping - 1 match8 69
 	
 	q3map_bounceScale 1.25
 
@@ -552,6 +574,7 @@ textures/facility114x/trim-trim01b
 textures/facility114x/trim-trim01r
 {
 	qer_editorimage textures/facility114x/trim/trim01r.tga
+	dpoffsetmapping - 1 match8 69
 	
 	q3map_bounceScale 1.25
 
@@ -571,6 +594,7 @@ textures/facility114x/trim-trim01r
 textures/facility114x/trim-trim02
 {
 	qer_editorimage textures/facility114x/trim/trim02.tga
+	dpoffsetmapping - 1 match8 68
 	
 	q3map_bounceScale 1.25
 

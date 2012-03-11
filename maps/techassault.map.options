@@ -1,3 +1,6 @@
--bsp + -light + -vis + -minimap +
+-bsp +
+-light +
+-vis +
+-minimap +
+-nosRGB
 Version: 3
-

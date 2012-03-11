@@ -131,6 +131,26 @@ When a button is touched by a player, it moves in the direction set by the &quot
 <flag key="NOSPLASH" name="NOSPLASH" bit="8">if set, splash damage cannot activate the door, only direct damage can (requires health to be set)</flag>
 </group>
 
+<group name="func_conveyor" color="0 .5 .8">
+A conveyor. Solid brush version.
+-------- KEYS --------
+<targetname key="targetname" name="targetname">if set, it can be turned on/off</targetname>
+<direction key="angle" name="angle">determines the opening direction</direction>
+<real key="speed" name="speed">movement speed (200 default)</real>
+-------- SPAWNFLAGS --------
+<flag key="START_ON" name="START_ON" bit="0">the conveyor is turned on if not triggered</flag>
+</group>
+
+<group name="trigger_conveyor" color="0 .5 .8">
+A conveyor. Nonsolid trigger version.
+-------- KEYS --------
+<targetname key="targetname" name="targetname">if set, it can be turned on/off</targetname>
+<direction key="angle" name="angle">determines the opening direction</direction>
+<real key="speed" name="speed">movement speed (200 default)</real>
+-------- SPAWNFLAGS --------
+<flag key="START_ON" name="START_ON" bit="0">the conveyor is turned on if not triggered</flag>
+</group>
+
 <group name="func_door" color="0 .5 .8">
 Normal sliding door entity. By default, the door will activate when player walks close to it or when damage is inflicted to it.
 If DOOR_DONT_LINK is not set, the door will be linked with all doors it touches. Note however that for linked doors to work properly, it is necessary that ALL linked doors have SOME volume of common area (that is, there must be a point that is part of ALL doors).
@@ -148,11 +168,16 @@ If DOOR_DONT_LINK is not set, the door will be linked with all doors it touches.
 <real key="sounds" name="sounds">when 1, use default door sounds</real>
 <sound key="noise1" name="noise1">sound when the door opens</sound>
 <sound key="noise2" name="noise2">sound when the door closes</sound>
+<real key="itemkeys" name="itemkeys">keys required to open this door.</real>
 -------- SPAWNFLAGS --------
 <flag key="START_OPEN" name="START_OPEN" bit="0">causes the door to move to its destination when spawned, and operate in reverse.  It is used to temporarily or permanently close off an area when triggered (not useful for touch or damage triggered doors).</flag>
 <flag key="DOOR_DONT_LINK" name="DOOR_DONT_LINK" bit="2">the door won't link with another door it touches</flag>
+<flag key="GOLD_KEY" name="GOLD_KEY" bit="3">causes the door to open only if the activator holds a gold key (Q1 compatibility).</flag>
+<flag key="SILVER_KEY" name="SILVER_KEY" bit="4">causes the door to open only if the activator holds a silver key (Q1 compatibility).</flag>
 <flag key="TOGGLE" name="TOGGLE" bit="5">causes the door to wait in both the start and end states for a trigger event.</flag>
 <flag key="NOSPLASH" name="NOSPLASH" bit="8">if set, splash damage cannot activate the door, only direct damage can (requires health to be set)</flag>
+-------- NOTES --------
+More information about keys can be found in item_key description.
 </group>
 
 <group name="func_door_rotating" color="0 .5 .8">
@@ -256,7 +281,7 @@ This is an invisible area like a trigger, which rain falls inside of.
 Brush entity that spins in place on one axis (default Z). Use an origin brush to specify the rotation axis.
 To rotate around another axis, make a func_wall with an explicit avelocity given.
 -------- KEYS --------
-<real key="speed" name="speed">speed to rotate (in degrees per second)</real>
+<real key="speed" name="speed">speed to rotate (in degrees per second, default: 100)</real>
 <sound key="noise" name="noise">path/name of looping .wav file to play.</sound>
 <real key="dmg" name="dmg">Do this much dmg every .dmgtime interval when blocked</real>
 <real key="dmgtime" name="dmgtime">See above. (0.25s default)</real>
@@ -298,6 +323,13 @@ Trains cannot be block-stopped just by getting in their way, the player must be 
 <string key="message2" name="message2">death message when someone gets pushed into this (default: &quot;was thrown into a world of hurt by&quot;). The # character is replaced by the attacker name if present (and it instead does not get appended to the end)</string>
 </group>
 
+<point name="info_autoscreenshot" color="0 0 0.2" box="-8 -8 -8 8 8 8">
+Location to make the first autoscreenshots from. At most three such entities may be used!
+-------- KEYS --------
+<angles key="angles" name="angles">view direction of the camera in PITCH YAW ROLL</angles>
+<target key="target" name="target">targetname of a target_position for the view direction, alternatively to specifying angles</target>
+</point>
+
 <point name="info_location" color="1 1 0" box="-8 -8 -8 8 8 8">
 Location for use by the %l escape in &quot;say&quot; messages.
 The closest &quot;visible&quot; info_location entity is chosen to find the right location name for a point.
@@ -333,7 +365,9 @@ Attacking team's player spawning location in Assault. Should touch the floor, bu
 Normal player spawning location in game types without team spawns. Should touch the floor, but not the walls, and should point where the player should look when he spawns there.
 -------- KEYS --------
 <real key="cnt" name="cnt">weight of spawn point for random selection. Set to a lower value if you have many spawn points close together. Default value is 1.</real>
-<target key="target" name="target">trigger all entities with this targetname when someone spawns</target>
+<target key="target2" name="target2">trigger all entities with this targetname when someone spawns</target>
+<target key="target3" name="target3">trigger all entities with this targetname when someone spawns</target>
+<target key="target4" name="target4">trigger all entities with this targetname when someone spawns</target>
 <targetname key="targetname" name="targetname">when targeted by a func_button, pressing the button will assign the spawn point to the team of the activator as an additional spawn point, or reassign it if it was already assigned. Also used to assign spawn points to Onslaught control points.</targetname>
 <real key="restriction" name="restriction">when 1, only bots can spawn here; when 2, only humans can spawn here (be careful with these, or the game will crash because someone cannot spawn)</real>
 </point>
@@ -354,7 +388,9 @@ Defending team's player spawning location in Assault. Should touch the floor, bu
 Red team's player spawning location in e.g. CTF and Onslaught. Should touch the floor, but not the walls, and should point where the player should look when he spawns there.
 -------- KEYS --------
 <real key="cnt" name="cnt">weight of spawn point for random selection. Set to a lower value if you have many spawn points close together. Default value is 1.</real>
-<target key="target" name="target">trigger all entities with this targetname when someone spawns</target>
+<target key="target2" name="target2">trigger all entities with this targetname when someone spawns</target>
+<target key="target3" name="target3">trigger all entities with this targetname when someone spawns</target>
+<target key="target4" name="target4">trigger all entities with this targetname when someone spawns</target>
 <targetname key="targetname" name="targetname">when targeted by a func_button, pressing the button will reassign the spawn point to the team of the activator. If a team has no more spawn point left, it immediately loses.</targetname>
 <real key="restriction" name="restriction">when 1, only bots can spawn here; when 2, only humans can spawn here (be careful with these, or the game will crash because someone cannot spawn)</real>
 </point>
@@ -363,7 +399,9 @@ Red team's player spawning location in e.g. CTF and Onslaught. Should touch the 
 Blue team's player spawning location in e.g. CTF and Onslaught. Should touch the floor, but not the walls, and should point where the player should look when he spawns there.
 -------- KEYS --------
 <real key="cnt" name="cnt">weight of spawn point for random selection. Set to a lower value if you have many spawn points close together. Default value is 1.</real>
-<target key="target" name="target">trigger all entities with this targetname when someone spawns</target>
+<target key="target2" name="target2">trigger all entities with this targetname when someone spawns</target>
+<target key="target3" name="target3">trigger all entities with this targetname when someone spawns</target>
+<target key="target4" name="target4">trigger all entities with this targetname when someone spawns</target>
 <targetname key="targetname" name="targetname">when targeted by a func_button, pressing the button will reassign the spawn point to the team of the activator. If a team has no more spawn point left, it immediately loses.</targetname>
 <real key="restriction" name="restriction">when 1, only bots can spawn here; when 2, only humans can spawn here (be careful with these, or the game will crash because someone cannot spawn)</real>
 </point>
@@ -372,7 +410,9 @@ Blue team's player spawning location in e.g. CTF and Onslaught. Should touch the
 Yellow team's player spawning location, but there is no game mode to use this yet. Anyway, should touch the floor, but not the walls, and should point where the player should look when he spawns there.
 -------- KEYS --------
 <real key="cnt" name="cnt">weight of spawn point for random selection. Set to a lower value if you have many spawn points close together. Default value is 1.</real>
-<target key="target" name="target">trigger all entities with this targetname when someone spawns</target>
+<target key="target2" name="target2">trigger all entities with this targetname when someone spawns</target>
+<target key="target3" name="target3">trigger all entities with this targetname when someone spawns</target>
+<target key="target4" name="target4">trigger all entities with this targetname when someone spawns</target>
 <targetname key="targetname" name="targetname">when targeted by a func_button, pressing the button will reassign the spawn point to the team of the activator. If a team has no more spawn point left, it immediately loses.</targetname>
 <real key="restriction" name="restriction">when 1, only bots can spawn here; when 2, only humans can spawn here (be careful with these, or the game will crash because someone cannot spawn)</real>
 </point>
@@ -381,7 +421,9 @@ Yellow team's player spawning location, but there is no game mode to use this ye
 Pink team's player spawning location, but there is no game mode to use this yet. Anyway, should touch the floor, but not the walls, and should point where the player should look when he spawns there.
 -------- KEYS --------
 <real key="cnt" name="cnt">weight of spawn point for random selection. Set to a lower value if you have many spawn points close together. Default value is 1.</real>
-<target key="target" name="target">trigger all entities with this targetname when someone spawns</target>
+<target key="target2" name="target2">trigger all entities with this targetname when someone spawns</target>
+<target key="target3" name="target3">trigger all entities with this targetname when someone spawns</target>
+<target key="target4" name="target4">trigger all entities with this targetname when someone spawns</target>
 <targetname key="targetname" name="targetname">when targeted by a func_button, pressing the button will reassign the spawn point to the team of the activator. If a team has no more spawn point left, it immediately loses.</targetname>
 <real key="restriction" name="restriction">when 1, only bots can spawn here; when 2, only humans can spawn here (be careful with these, or the game will crash because someone cannot spawn)</real>
 </point>
@@ -573,6 +615,59 @@ In Minstagib, this randomly turns into either an invisibility, an extra lives or
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 modeldisabled=&quot;models/items/g_invincible.md3&quot;
+</point>
+
+<point name="item_key" color="0 .5 .8" box="-16 -16 -24 16 16 32">
+A key entity.
+The itemkeys should contain one of the following key IDs:
+1 - GOLD key - 
+2 - SILVER key
+4 - BRONZE key
+8 - RED keycard
+16 - BLUE keycard
+32 - GREEN keycard
+Custom keys:
+... - last key is 1&lt;&lt;23
+Keys with bigger Id than 32 don't have a default netname and model, if you use one of them, you MUST provide those.
+-----------KEYS------------
+<color key="colormod" name="colormod">color of the key (default: '.9 .9 .9').</color>
+<real key="itemkeys" name="itemkeys">a key Id.</real>
+<string key="message" name="message">message to print when player picks up this key.</string>
+<model key="model" name="model">custom key model to use.</model>
+<string key="netname" name="netname">the display name of the key.</string>
+<sound key="noise" name="noise">custom sound to play when player picks up the key.</sound>
+-------- SPAWNFLAGS --------
+<flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+---------NOTES----------
+This is the only correct way to put keys on the map!
+
+itemkeys MUST always have exactly one bit set.
+</point>
+
+<point name="item_key1" color="0 .5 .8" box="-16 -16 -24 16 16 32">
+SILVER key.
+-----------KEYS------------
+<color key="colormod" name="colormod">color of the key (default: '.9 .9 .9').</color>
+<string key="message" name="message">message to print when player picks up this key.</string>
+<model key="model" name="model">custom model to use.</model>
+<sound key="noise" name="noise">custom sound to play when player picks up the key.</sound>
+-------- SPAWNFLAGS --------
+<flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+---------NOTES----------
+Don't use this entity on new maps! Use item_key instead.
+</point>
+
+<point name="item_key2" color="0 .5 .8" box="-16 -16 -24 16 16 32">
+GOLD key.
+-----------KEYS------------
+<color key="colormod" name="colormod">color of the key (default: '1 .9 0').</color>
+<string key="message" name="message">message to print when player picks up this key.</string>
+<model key="model" name="model">custom model to use.</model>
+<sound key="noise" name="noise">custom sound to play when player picks up the key.</sound>
+-------- SPAWNFLAGS --------
+<flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+---------NOTES----------
+Don't use this entity on new maps! Use item_key instead.
 </point>
 
 <point name="item_minst_cells" color=".3 .3 1" box="-30 -30 0 30 30 32">
@@ -779,8 +874,8 @@ The keys below actually apply to most brush entities as they are engine features
 <boolean key="_receiveshadows" name="_receiveshadows">Allows per-entity control over shadow reception. Defaults to 1 on everything (world shadows). 0 = receives NO shadows. &gt; 1 = receive shadows only from corresponding keyed entities (see above) and world. &lt; 1 = receive shadows ONLY from corresponding keyed entities.</boolean>
 <target key="_clone" name="_clone">copies brushes from entity with identical _clonename. Still needs a single brush that will get replaced.</target>
 <targetname key="_clonename" name="_clonename">template name so one can clone from it</targetname>
-<real3 key="min" name="min">override automatically found minimum coordinate bounds</real3>
-<real3 key="max" name="max">override automatically found maximum coordinate bounds</real3>
+<real3 key="mins" name="mins">override automatically found minimum coordinate bounds</real3>
+<real3 key="maxs" name="maxs">override automatically found maximum coordinate bounds</real3>
 <targetname key="targetname" name="targetname">if targeted by a misc_model, its brushes get inserted into this</targetname>
 <texture key="_celshader" name="_celshader">Sets the cel shader used for this geometry. Note: omit the &quot;textures/&quot; prefix.</texture>
 </group>
@@ -811,8 +906,8 @@ The keys below actually apply to most brush entities as they are engine features
 <boolean key="_receiveshadows" name="_receiveshadows">Allows per-entity control over shadow reception. Defaults to 1 on everything (world shadows). 0 = receives NO shadows. &gt; 1 = receive shadows only from corresponding keyed entities (see above) and world. &lt; 1 = receive shadows ONLY from corresponding keyed entities.</boolean>
 <target key="_clone" name="_clone">copies brushes from entity with identical _clonename. Still needs a single brush that will get replaced.</target>
 <targetname key="_clonename" name="_clonename">template name so one can clone from it</targetname>
-<real3 key="min" name="min">override automatically found minimum coordinate bounds</real3>
-<real3 key="max" name="max">override automatically found maximum coordinate bounds</real3>
+<real3 key="mins" name="mins">override automatically found minimum coordinate bounds</real3>
+<real3 key="maxs" name="maxs">override automatically found maximum coordinate bounds</real3>
 <targetname key="targetname" name="targetname">if targeted by a misc_model, its brushes get inserted into this</targetname>
 <texture key="_celshader" name="_celshader">Sets the cel shader used for this geometry. Note: omit the &quot;textures/&quot; prefix.</texture>
 </group>
@@ -864,8 +959,8 @@ A client-side non-solid brush entity. Use func_wall if you want it solid.
 <boolean key="_receiveshadows" name="_receiveshadows">Allows per-entity control over shadow reception. Defaults to 1 on everything (world shadows). 0 = receives NO shadows. &gt; 1 = receive shadows only from corresponding keyed entities (see above) and world. &lt; 1 = receive shadows ONLY from corresponding keyed entities.</boolean>
 <target key="_clone" name="_clone">copies brushes from entity with identical _clonename. Still needs a single brush that will get replaced.</target>
 <targetname key="_clonename" name="_clonename">template name so one can clone from it</targetname>
-<real3 key="min" name="min">override automatically found minimum coordinate bounds</real3>
-<real3 key="max" name="max">override automatically found maximum coordinate bounds</real3>
+<real3 key="mins" name="mins">override automatically found minimum coordinate bounds</real3>
+<real3 key="maxs" name="maxs">override automatically found maximum coordinate bounds</real3>
 <targetname key="targetname" name="targetname">if targeted by a misc_model, its brushes get inserted into this</targetname>
 <texture key="_celshader" name="_celshader">Sets the cel shader used for this geometry. Note: omit the &quot;textures/&quot; prefix.</texture>
 </group>
@@ -895,8 +990,8 @@ A client-side solid brush entity. Use func_clientillusionary if you want it non-
 <boolean key="_receiveshadows" name="_receiveshadows">Allows per-entity control over shadow reception. Defaults to 1 on everything (world shadows). 0 = receives NO shadows. &gt; 1 = receive shadows only from corresponding keyed entities (see above) and world. &lt; 1 = receive shadows ONLY from corresponding keyed entities.</boolean>
 <target key="_clone" name="_clone">copies brushes from entity with identical _clonename. Still needs a single brush that will get replaced.</target>
 <targetname key="_clonename" name="_clonename">template name so one can clone from it</targetname>
-<real3 key="min" name="min">override automatically found minimum coordinate bounds</real3>
-<real3 key="max" name="max">override automatically found maximum coordinate bounds</real3>
+<real3 key="mins" name="mins">override automatically found minimum coordinate bounds</real3>
+<real3 key="maxs" name="maxs">override automatically found maximum coordinate bounds</real3>
 <targetname key="targetname" name="targetname">if targeted by a misc_model, its brushes get inserted into this</targetname>
 <texture key="_celshader" name="_celshader">Sets the cel shader used for this geometry. Note: omit the &quot;textures/&quot; prefix.</texture>
 </group>
@@ -925,7 +1020,7 @@ This should link to an onslaught_controlpoint entity or onslaught_generator enti
 <string key="message" name="message">name of this control point (should reflect the location in the map, such as &quot;center bridge&quot;, &quot;north tower&quot;, etc)</string>
 </point>
 
-<point name="onslaught_generator" color="0 .5 .8" box="-32 -32 -24 32 32 64">
+<point name="onslaught_generator" color="0 .5 .8" box="-52 -52 -14 52 52 75">
 Base generator.
 
 onslaught_link entities can target this.
@@ -1074,6 +1169,26 @@ Can be used in two ways:
 <real key="falloff" name="falloff">&quot;gravity field&quot;: 0 means no falloff, 1 means linear falloff (zero at the outside), 2 means inverted linear falloff (zero at the inside)</real>
 </group>
 
+<group name="trigger_keylock" color=".0 .5 .8">
+Keylock trigger.  Must target other entities.
+This trigger will trigger target entities when all required keys are provided.
+-------- KEYS --------
+<real key="itemkeys" name="itemkeys">A bit field with key IDs that are needed to open this lock.</real>
+<real key="sounds" name="sounds">1 to play misc/secret.wav, 2 to play misc/talk.wav, 3 to play misc/trigger1.wav (3 is default)</real>
+<target key="target" name="target">trigger all entities with this targetname when triggered and all keys have been given to it, then remove this trigger</target>
+<target key="target2" name="target2">trigger all entities with this targetname when triggered without giving it all the required keys.</target>
+<target key="killtarget" name="killtarget">remove all entities with this targetname when triggered with all the needed keys.</target>
+<string key="message" name="message">print this message to the player who activated the trigger when all needed keys have been given.</string>
+<string key="message2" name="message2">print this message to the player who activated the trigger when not all of the needed keys have been given.</string>
+<sound key="noise" name="noise">sound to play when lock gets unlocked (default: see sounds)</sound>
+<sound key="noise1" name="noise1">sound to play when only some of the needed key were used but not all (default: misc/decreasevalue.wav)</sound>
+<sound key="noise2" name="noise2">sound to play when a key is missing (default: misc/talk.wav)</sound>
+<real key="wait" name="wait">prevent triggering again for this amount of time (default: 5) - applies to target2, target3, target4.</real>
+---------NOTES----------
+If spawned without any key specified in itemkeys, this trigger will display an error and remove itself.
+message2 and noise2 will be resent to the player every 2 seconds while he is in the trigger zone.
+</group>
+
 <group name="trigger_multiple" color=".5 .5 .5">
 Variable sized repeatable trigger.  Must be targeted at one or more entities.  If &quot;health&quot; is set, the trigger must be killed to activate each time.
 -------- KEYS --------
@@ -1148,6 +1263,20 @@ More than one &quot;trigger event&quot; can be delayed at once, as opposed to tr
 <string key="message" name="message">print this message to the player who activated the trigger</string>
 <target key="killtarget" name="killtarget">remove all entities with this targetname when triggered</target>
 </point>
+
+<group name="trigger_secret" color=".5 .5 .5">
+Variable sized secret trigger. Can be targeted at one or more entities.
+Basically, it's a trigger_once that additionally updates the number of secrets found.
+-------- KEYS --------
+<real key="sounds" name="sounds">1 to play misc/secret.wav, 2 to play misc/talk.wav, 3 to play misc/trigger1.wav (default: 1)</real>
+<sound key="noise" name="noise">path to sound file, if you want to play something else</sound>
+<target key="target" name="target">trigger all entities with this targetname when triggered</target>
+<string key="message" name="message">print this message to the player who activated the trigger instead of the standard 'You found a secret!'</string>
+<target key="killtarget" name="killtarget">remove all entities with this targetname when triggered</target>
+-------- NOTES --------
+You should create a common/trigger textured brush covering the entrance to a secret room/area.
+Trigger secret can only be trigger by a player's touch and can not be a target itself.
+</group>
 
 <group name="trigger_swamp" color=".5 .5 .5">
 Players getting into the swamp will get slowed down and damaged
@@ -1900,6 +2029,7 @@ Triggers targets when a given magic word has been said
 <target key="target3" name="target3">all entities with a matching targetname will be triggered.</target>
 <target key="target4" name="target4">all entities with a matching targetname will be triggered.</target>
 <boolean key="target_random" name="target_random">instead of triggering ALL matched entities, trigger ONE of them by random</boolean>
+<real3 key="movedir" name="movedir">if TUBA is set, this is a string of &quot;instrument+1 mintempo maxtempo&quot;. Components can be set to 0 to not match.</real3>
 -------- SPAWNFLAGS --------
 <flag key="IGNORE_SAY" name="IGNORE_SAY" bit="0">do not respond to &quot;say&quot; messages</flag>
 <flag key="IGNORE_TEAMSAY" name="IGNORE_TEAMSAY" bit="1">do not respond to &quot;say_team&quot; messages</flag>
@@ -1909,6 +2039,8 @@ Triggers targets when a given magic word has been said
 <flag key="REPLACE_OUTSIDE" name="REPLACE_OUTSIDE" bit="5">also perform the replacement when outside the radius (to hide the &quot;secret word&quot;)</flag>
 <flag key="CONTINUE" name="CONTINUE" bit="6">even if this magic ear matched, continue looking for further matches/replacements (useful for swear word filters)</flag>
 <flag key="NODECOLORIZE" name="NODECOLORIZE" bit="7">do not decolorize the input string before matching</flag>
+<flag key="TUBA" name="TUBA" bit="8">the message is a space separated note sequence that must be played on the @!#%'n Tuba or the @!#%'n Accordeon. For example, 4.25 means a quarter note at pitch 4, where 0 is base pitch (red team primary fire with no motion). For secret triggers to open doors, use 4.25 0.25 4.25 2.25. The first one to encode a rickroll in this gets slapped with the shotgun.</flag>
+<flag key="TUBA_EXACTPITCH" name="TUBA_EXACTPITCH" bit="9">the note pitch must be accurate and cannot be transposed</flag>
 </point>
 
 <point name="weapon_fireball" color="1 0 .5" box="-30 -30 0 30 30 32">
@@ -1933,14 +2065,16 @@ Should target a target_position, or be targeted by a misc_warpzone_position.
 Should be thick enough to fit a player entity (i.e. 32 units), preferably even thicker.
 -------- KEYS --------
 <target key="target" name="target">must point to another trigger_warpzone, or...</target>
+<targetname key="targetname" name="targetname">must be pointed to by another trigger_warpzone. Should be pointed to by a misc_warpzone_position entity, or...</targetname>
+<target key="killtarget" name="killtarget">should point to a target_position entity.</target>
 <target key="target2" name="target2">is triggered when a player ENTERS the warpzone (and warps away)</target>
 <target key="target3" name="target3">is triggered when a player LEAVES the warpzone (from the other warp zone to this one)</target>
 <target key="target4" name="target4">is triggered in both cases</target>
 <boolean key="target_random" name="target_random">instead of triggering ALL matched entities, trigger ONE of them by random</boolean>
-<targetname key="targetname" name="targetname">must be pointed to by another trigger_warpzone. Should be pointed to by a misc_warpzone_position entity, or...</targetname>
-<target key="killtarget" name="killtarget">should point to a target_position entity, or</target>
 <real key="warpzone_fadestart" name="warpzone_fadestart">start distance of fading out the warpzone</real>
 <real key="warpzone_fadeend" name="warpzone_fadeend">end distance of fading out the warpzone (if viewer is further, warpzone is not rendered at all)</real>
+-------- SPAWNFLAGS --------
+<flag key="WATCHMOVE" name="WATCHMOVE" bit="0">allow this entity to be moved by others, e.g. misc_follow in MOVETYPE_FOLLOW mode</flag>
 </group>
 
 <point name="trigger_warpzone_reconnect" color="1 .5 1" box="-8 -8 -8 8 8 8">
@@ -1968,6 +2102,8 @@ Must target a target_position that indicates the view to be shown (and whose ang
 <target key="target" name="target">must point to a target_position</target>
 <real key="warpzone_fadestart" name="warpzone_fadestart">start distance of fading out the warpzone</real>
 <real key="warpzone_fadeend" name="warpzone_fadeend">end distance of fading out the warpzone (if viewer is further, warpzone is not rendered at all)</real>
+-------- SPAWNFLAGS --------
+<flag key="WATCHMOVE" name="WATCHMOVE" bit="0">allow this entity to be moved by others, e.g. misc_follow in MOVETYPE_FOLLOW mode</flag>
 </group>
 
 <point name="target_music" color="1 0 0" box="-8 -8 -8 8 8 8">
@@ -2071,5 +2207,258 @@ When no chmap key is set, the entity just ends the match when triggered. The pla
 <targetname key="targetname" name="targetname">The name other entities can use to target this entity</targetname>
 <string key="chmap" name="chmap">Map file to switch to, leave empty to make this entity just end the match</string>
 <string key="gametype" name="gametype">Switch to this gametype. If empty, the same gametype stays</string>
+</point>
+<point name="turret_machinegun" color="1 0 0" box="-32 -32 0 32 32 50">
+Fast firing moderate damage bullet (hitscan) turret.
+-------- KEYS --------
+<real key="turret_scale_damage" name="turret_scale_damage">2 = double damage, 0.5 = half</real>
+<real key="turret_scale_range" name="turret_scale_range">2 = double range, 0.5 = half</real>
+<real key="turret_scale_refire" name="turret_scale_refire">2 = double refire (SLOWER!), 0.5 = half (FASTER!)</real>
+<real key="turret_scale_ammo" name="turret_scale_ammo">2 = double ammo carry &amp; regen, 0.5 = half ammo carry &amp; regen</real>
+<real key="turret_scale_aim" name="turret_scale_aim">2 = aim twice as fast, 0,5 = aim at half speed</real>
+<real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
+<target key="target" name="target">Defend the position of this entity</target>
+<integer key="team" name="team">5=red, 14=blue</integer>
+-------- SPAWNFLAGS --------
+<flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/mg.md3&quot;
+</point>
+
+<point name="turret_plasma" color="1 0 0" box="-32 -32 0 32 32 50">
+-------- KEYS --------
+<real key="turret_scale_damage" name="turret_scale_damage">2 = double damage, 0.5 = half</real>
+<real key="turret_scale_range" name="turret_scale_range">2 = double range, 0.5 = half</real>
+<real key="turret_scale_refire" name="turret_scale_refire">2 = double refire (SLOWER!), 0.5 = half (FASTER!)</real>
+<real key="turret_scale_ammo" name="turret_scale_ammo">2 = double ammo carry &amp; regen, 0.5 = half ammo carry &amp; regen</real>
+<real key="turret_scale_aim" name="turret_scale_aim">2 = aim twice as fast, 0,5 = aim at half speed</real>
+<real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
+<target key="target" name="target">Defend the position of this entity</target>
+<integer key="team" name="team">5=red, 14=blue</integer>
+-------- SPAWNFLAGS --------
+<flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
+---------NOTES----------
+Basic energy cannon
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/plasma.md3&quot;
+</point>
+
+<point name="turret_plasma_dual" color="1 0 0" box="-32 -32 0 32 32 50">
+basic energy cannon * 2
+-------- KEYS --------
+<real key="turret_scale_damage" name="turret_scale_damage">2 = double damage, 0.5 = half</real>
+<real key="turret_scale_range" name="turret_scale_range">2 = double range, 0.5 = half</real>
+<real key="turret_scale_refire" name="turret_scale_refire">2 = double refire (SLOWER!), 0.5 = half (FASTER!)</real>
+<real key="turret_scale_ammo" name="turret_scale_ammo">2 = double ammo carry &amp; regen, 0.5 = half ammo carry &amp; regen</real>
+<real key="turret_scale_aim" name="turret_scale_aim">2 = aim twice as fast, 0,5 = aim at half speed</real>
+<real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
+<target key="target" name="target">Defend the position of this entity</target>
+<integer key="team" name="team">5=red, 14=blue</integer>
+-------- SPAWNFLAGS --------
+<flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/plasma2.md3&quot;
+</point>
+
+<point name="turret_flac" color="1 0 0" box="-32 -32 0 32 32 50">
+Only kills missiles, rockets, grenadelauncher &amp; electro secondaries to be precise.
+-------- KEYS --------
+<real key="turret_scale_damage" name="turret_scale_damage">2 = double damage, 0.5 = half</real>
+<real key="turret_scale_range" name="turret_scale_range">2 = double range, 0.5 = half</real>
+<real key="turret_scale_refire" name="turret_scale_refire">2 = double refire (SLOWER!), 0.5 = half (FASTER!)</real>
+<real key="turret_scale_ammo" name="turret_scale_ammo">2 = double ammo carry &amp; regen, 0.5 = half ammo carry &amp; regen</real>
+<real key="turret_scale_aim" name="turret_scale_aim">2 = aim twice as fast, 0,5 = aim at half speed</real>
+<real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
+<target key="target" name="target">Defend the position of this entity</target>
+<integer key="team" name="team">5=red, 14=blue</integer>
+-------- SPAWNFLAGS --------
+<flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/flac.md3&quot;
+</point>
+
+<point name="turret_mlrs" color="1 0 0" box="-32 -32 0 32 32 50">
+6 unguided rockers fired in a rapid burst.
+-------- KEYS --------
+<real key="turret_scale_damage" name="turret_scale_damage">2 = double damage, 0.5 = half</real>
+<real key="turret_scale_range" name="turret_scale_range">2 = double range, 0.5 = half</real>
+<real key="turret_scale_refire" name="turret_scale_refire">2 = double refire (SLOWER!), 0.5 = half (FASTER!)</real>
+<real key="turret_scale_ammo" name="turret_scale_ammo">2 = double ammo carry &amp; regen, 0.5 = half ammo carry &amp; regen</real>
+<real key="turret_scale_aim" name="turret_scale_aim">2 = aim twice as fast, 0,5 = aim at half speed</real>
+<real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
+<target key="target" name="target">Defend the position of this entity</target>
+<integer key="team" name="team">5=red, 14=blue</integer>
+-------- SPAWNFLAGS --------
+<flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/mlrs.md3&quot;
+</point>
+
+<point name="turret_hellion" color="1 0 0" box="-32 -32 0 32 32 50">
+2 guided moderate damage accelerating rockets 
+-------- KEYS --------
+<real key="turret_scale_damage" name="turret_scale_damage">2 = double damage, 0.5 = half</real>
+<real key="turret_scale_range" name="turret_scale_range">2 = double range, 0.5 = half</real>
+<real key="turret_scale_refire" name="turret_scale_refire">2 = double refire (SLOWER!), 0.5 = half (FASTER!)</real>
+<real key="turret_scale_ammo" name="turret_scale_ammo">2 = double ammo carry &amp; regen, 0.5 = half ammo carry &amp; regen</real>
+<real key="turret_scale_aim" name="turret_scale_aim">2 = aim twice as fast, 0,5 = aim at half speed</real>
+<real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
+<target key="target" name="target">Defend the position of this entity</target>
+<integer key="team" name="team">5=red, 14=blue</integer>
+-------- SPAWNFLAGS --------
+<flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/hellion.md3&quot;
+</point>
+
+
+<point name="turret_hk" color="1 0 0" box="-32 -32 0 32 32 50">
+Single powerful rocket with the ability to evade obstacles to find its target. Varied speed.
+-------- KEYS --------
+<real key="turret_scale_damage" name="turret_scale_damage">2 = double damage, 0.5 = half</real>
+<real key="turret_scale_range" name="turret_scale_range">2 = double range, 0.5 = half</real>
+<real key="turret_scale_refire" name="turret_scale_refire">2 = double refire (SLOWER!), 0.5 = half (FASTER!)</real>
+<real key="turret_scale_ammo" name="turret_scale_ammo">2 = double ammo carry &amp; regen, 0.5 = half ammo carry &amp; regen</real>
+<real key="turret_scale_aim" name="turret_scale_aim">2 = aim twice as fast, 0,5 = aim at half speed</real>
+<real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
+<target key="target" name="target">Defend the position of this entity</target>
+<integer key="team" name="team">5=red, 14=blue</integer>
+-------- SPAWNFLAGS --------
+<flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/hk.md3&quot;
+</point>
+
+<point name="turret_tesla" color="1 0 0" box="-32 -32 0 32 32 50">
+Fires a lightning bolt that will jump to up to 10 targets if they are close enough to each other. Missiles included.
+-------- KEYS --------
+<real key="turret_scale_damage" name="turret_scale_damage">2 = double damage, 0.5 = half</real>
+<real key="turret_scale_range" name="turret_scale_range">2 = double range, 0.5 = half</real>
+<real key="turret_scale_refire" name="turret_scale_refire">2 = double refire (SLOWER!), 0.5 = half (FASTER!)</real>
+<real key="turret_scale_ammo" name="turret_scale_ammo">2 = double ammo carry &amp; regen, 0.5 = half ammo carry &amp; regen</real>
+<real key="turret_scale_aim" name="turret_scale_aim">2 = aim twice as fast, 0,5 = aim at half speed</real>
+<real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
+<target key="target" name="target">Defend the position of this entity</target>
+<integer key="team" name="team">5=red, 14=blue</integer>
+-------- SPAWNFLAGS --------
+<flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/tesla.md3&quot;
+</point>
+
+<point name="turret_phaser" color="1 0 0" box="-32 -32 0 32 32 50">
+Constant beam weapon that will considerably slow its target down while dealing low but constant damage.
+-------- KEYS --------
+<real key="turret_scale_damage" name="turret_scale_damage">2 = double damage, 0.5 = half</real>
+<real key="turret_scale_range" name="turret_scale_range">2 = double range, 0.5 = half</real>
+<real key="turret_scale_refire" name="turret_scale_refire">2 = double refire (SLOWER!), 0.5 = half (FASTER!)</real>
+<real key="turret_scale_ammo" name="turret_scale_ammo">2 = double ammo carry &amp; regen, 0.5 = half ammo carry &amp; regen</real>
+<real key="turret_scale_aim" name="turret_scale_aim">2 = aim twice as fast, 0,5 = aim at half speed</real>
+<real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
+<target key="target" name="target">Defend the position of this entity</target>
+<integer key="team" name="team">5=red, 14=blue</integer>
+-------- SPAWNFLAGS --------
+<flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/phaser.md3&quot;
+</point>
+
+
+<point name="turret_fusionreactor" color="1 0 0" box="-32 -32 0 32 32 50">
+-------- KEYS --------
+<real key="turret_scale_damage" name="turret_scale_damage">2 = double damage, 0.5 = half</real>
+<real key="turret_scale_range" name="turret_scale_range">2 = double range, 0.5 = half</real>
+<real key="turret_scale_refire" name="turret_scale_refire">2 = double refire (SLOWER!), 0.5 = half (FASTER!)</real>
+<real key="turret_scale_ammo" name="turret_scale_ammo">2 = double ammo carry &amp; regen, 0.5 = half ammo carry &amp; regen</real>
+<real key="turret_scale_aim" name="turret_scale_aim">2 = aim twice as fast, 0,5 = aim at half speed</real>
+<real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
+<integer key="team" name="team">5=red, 14=blue</integer>
+-------- SPAWNFLAGS --------
+<flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
+---------NOTES----------
+Supplies neerby energy based turrets with more power so they can fire more often.
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/reactor.md3&quot;
+</point>
+
+<group name="turret_targettrigger" color=".5 .5 .5">
+Used to feed turrets capable of it with remote target info. currently only turret_hk supports this.
+</group>
+
+
+<point name="turret_walker" color="1 0 0" box="-32 -32 0 32 32 50">
+-----------KEYS------------
+<real key="turret_scale_damage" name="turret_scale_damage">2 = double damage, 0.5 = half</real>
+<real key="turret_scale_range" name="turret_scale_range">2 = double range, 0.5 = half</real>
+<real key="turret_scale_refire" name="turret_scale_refire">2 = doubble refire (SLOWER!), 0.5 = half (FASTER!)</real>
+<real key="turret_scale_ammo" name="turret_scale_ammo">2 = doubble ammo carry &amp; regen, 0.5 = half ammo carry &amp; regen</real>
+<real key="turret_scale_aim" name="turret_scale_aim">2 = aim twice as fast, 0,5 = aim at half speed</real>
+<real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
+<integer key="team" name="team">5=red, 14=blue</integer>
+-----------SPAWNFLAGS-----------
+---------NOTES----------
+
+A nasty mechanical critter that will engage longrange target with missiles, midrange with its minigun and meele things up close and personal.
+
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/walker.md3&quot;
+</point>
+
+
+<point name="turret_ewheel" color="1 0 0" box="-32 -32 0 32 32 50">
+-----------KEYS------------
+<real key="turret_scale_damage" name="turret_scale_damage">2 = double damage, 0.5 = half</real>
+<real key="turret_scale_range" name="turret_scale_range">2 = double range, 0.5 = half</real>
+<real key="turret_scale_refire" name="turret_scale_refire">2 = doubble refire (SLOWER!), 0.5 = half (FASTER!)</real>
+<real key="turret_scale_ammo" name="turret_scale_ammo">2 = doubble ammo carry &amp; regen, 0.5 = half ammo carry &amp; regen</real>
+<real key="turret_scale_aim" name="turret_scale_aim">2 = aim twice as fast, 0,5 = aim at half speed</real>
+<real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
+<integer key="team" name="team">5=red, 14=blue</integer>
+-----------SPAWNFLAGS-----------
+---------NOTES----------
+
+Small, agile and moveing turret.
+
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/ewheel.md3&quot;
+</point>
+
+
+<point name="turret_checkpoint" color="1 0 1" box="-32 -32 -32 32 32 32">
+-----------KEYS------------
+<target key="target" name="target">.targetname of next wapoint in chain.</target>
+<real key="wait" name="wait">Pause at this point # seconds.</real>
+-----------SPAWNFLAGS-----------
+
+---------NOTES----------
+If a loop is of targets are formed, any unit entering this loop will patrol it indefinitly.
+If the checkpoint chain in not looped, the unit will go &quot;Roaming&quot; when the last point is reached.
+</point>
+<point name="vehicle_racer" color="0 0 1" box="-48 -48 0 48 48 32">
+Fast moving hover type vehicle, with low shiled &amp; health.
+Primary weapon is a rapid fire energy cannon, secondary lockable rockets.
+-------- KEYS --------
+<integer key="team" name="team">5=red, 14=blue</integer>
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model=&quot;models/vehicles-static/wakazachi.md3&quot;
+</point>
+
+<point name="vehicle_spiderbot" color="0 0 1" box="-48 -48 0 48 48 32">
+A slow moving 6 legged mech type vehile that has plenty of health and shiled.
+Primary weapon is twin miniguns, secondary eight rockets that can be guided by the pilot.
+-------- KEYS --------
+<integer key="team" name="team">5=red, 14=blue</integer>
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model=&quot;models/vehicles-static/spiderbot.md3&quot;
+</point>
+
+<point name="vehicle_raptor" color="0 0 1" box="-48 -48 0 48 48 32">
+The raptor is primaerly a air to ground frighter, its quite lightly armoured or shilded.
+Its main weapon is four rapid fire energy cannons, wich can be locked to track a target by aming at it for some time.
+Secondary is a pair of vert powerfull clusterbombs.
+-------- KEYS --------
+<integer key="team" name="team">5=red, 14=blue</integer>
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+model=&quot;models/vehicles-static/raptor.md3&quot;
 </point>
 </classes>

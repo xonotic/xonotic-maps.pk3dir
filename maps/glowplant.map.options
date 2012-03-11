@@ -1,5 +1,6 @@
 -bsp + -samplesize 6 -minsamplesize 2 -np 20
--light + -bounce 6  -bouncegrid -dirtscale 1.5 -randomsamples -samples 128
+-light + -bounce 6 -bouncegrid -dirtscale 1.5
 -vis +
 -minimap +
+-nosRGB
 Version: 9
