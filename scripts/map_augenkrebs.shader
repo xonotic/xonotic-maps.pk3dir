@@ -485,8 +485,6 @@ textures/map_augenkrebs/tvsnow
 }
 textures/map_augenkrebs/qranim
 {
-	nopicmip
-	nomipmaps
 	{
 		map textures/map_augenkrebs/qranim
 		tcmod page 4 3 0.05
