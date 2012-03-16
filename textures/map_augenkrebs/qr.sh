@@ -38,7 +38,7 @@ while [ $j -lt $i ]; do
 	j=$(($j+1))
 	l="$l qr-$j.png qr-$((($j-1+$i/2)%$i+1))_i.png"
 done
-convert -delay 10 $l qranim.gif
+convert -delay 5 $l qranim.gif
 montage -border 0 -frame 0 -geometry +0+0 $l qranim.png
 optipng -o7 -nc qranim.png
 rm -f $l

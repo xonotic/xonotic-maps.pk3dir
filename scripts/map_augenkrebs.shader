@@ -319,7 +319,6 @@ textures/map_augenkrebs/epilepsy
 
 textures/map_augenkrebs/maze-of-augenkrebs
 {
-	surfaceparm trans
 	surfaceparm nonsolid
 	nopicmip
 	nomipmaps
@@ -331,7 +330,6 @@ textures/map_augenkrebs/maze-of-augenkrebs
 		tcMod scroll 0.01 0.02
 		tcMod stretch sin 1 0.05 0.2 .0015
 		tcmod rotate 0.5
-		blendfunc blend
 	}
 	{
 		map $lightmap
@@ -341,7 +339,6 @@ textures/map_augenkrebs/maze-of-augenkrebs
 
 textures/map_augenkrebs/mirror-of-augenkrebs
 {
-	surfaceparm trans
 	surfaceparm nonsolid
 	nopicmip
 	nomipmaps
@@ -354,6 +351,18 @@ textures/map_augenkrebs/mirror-of-augenkrebs
 		tcmod rotate 0.5
 	}
 	dp_reflect 1  1.5 0.5 1.5 0.7
+	cull none
+}
+
+textures/map_augenkrebs/mirror-of-normality
+{
+	qer_editorimage "textures/map_augenkrebs/mirror-of-augenkrebs.tga"
+	nopicmip
+	nomipmaps
+	{
+		map "textures/map_augenkrebs/w"
+	}
+	dp_reflect 1  1 1 1  1
 	cull none
 }
 
