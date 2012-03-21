@@ -22,7 +22,7 @@
 "ctf","space-elevator","7","9","5",,,"Capture The Flag: Space Elevator","CTF versus a team of Pro bots! 5 captures to win."
 //"freezetag","g-23","7","9","5",,,"Freeze Tag: Docking Station G-23","In Freeze Tag you have to freeze enemies (kill them). Your team gets a point if the other team is completly frozen. It's a team game, so help you teammates and revive them if they are frozen by standing close to them."
 "ctf","dance","5","10","3",,"g_minstagib 1; g_grappling_hook 1","[Special] Capture The Flag: Dance","MinstaGib in CTF this time. Also you will experience here how to play the Grappling Hook (Press 'E' to use it)!"
-"rune","darkzone","5","10","50",,,"Runematch: Darkzone","In a Runematch you can pick up relics and they will give you some extra powers - some are good, some not."
+//"rune","darkzone","5","10","50",,,"Runematch: Darkzone","In a Runematch you can pick up relics and they will give you some extra powers - some are good, some not."
 "rc","stormkeep","0","0","2900",,,"Race: Stormkeep","This time you can use any weapon to boost yourself. You have to complete the map under 29 seconds!"
 //"ca","runningman","7","10","5",,,"Clan Arena: Running Man","Clan Arena is basically Team LMS. Once you die you have to spectate. If one entire team is dead the other team gets 1 point."
 "dm","glowplant","4","11","20",,,"[FINAL] Deathmatch: Glowplant","In this final match you face 4 Godlike bots and you have to get 20 frags to win and complete the campaign! After this you should be ready for fights versus real people."
