@@ -39274,8 +39274,9 @@ brushDef
 "classname" "func_plat"
 "lip" "8"
 "sound1" "sound/doors/pneumatic_door_open.ogg"
-"speed" "200"
+"speed" "250"
 "sound2" "-1"
+"wait" "2"
 {
 brushDef
 {
@@ -39417,8 +39418,9 @@ trak4x/base-concrete1b
 "classname" "func_plat"
 "lip" "8"
 "sound1" "sound/doors/pneumatic_door_open.ogg"
-"speed" "200"
+"speed" "250"
 "sound2" "-1"
+"wait" "2"
 {
 brushDef
 {
@@ -39561,7 +39563,8 @@ trak4x/base-concrete1b
 "lip" "8"
 "sound1" "sound/doors/pneumatic_door_open.ogg"
 "sound2" "-1"
-"speed" "200"
+"speed" "250"
+"wait" "2"
 {
 brushDef
 {
@@ -39703,8 +39706,9 @@ trak4x/base-concrete1b
 "classname" "func_plat"
 "lip" "8"
 "sound1" "sound/doors/pneumatic_door_open.ogg"
-"speed" "200"
+"speed" "250"
 "sound2" "-1"
+"wait" "2"
 {
 brushDef
 {
@@ -39846,8 +39850,9 @@ trak4x/base-concrete1b
 "classname" "func_plat"
 "lip" "8"
 "sound1" "sound/doors/pneumatic_door_open.ogg"
-"speed" "200"
+"speed" "250"
 "sound2" "-1"
+"wait" "2"
 {
 brushDef
 {
