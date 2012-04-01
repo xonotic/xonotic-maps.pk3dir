@@ -1,0 +1,5 @@
+-bsp + -samplesize 6
+-vis +
+-light + -bounce 8 -dirty -dirtscale 2
+-minimap +
+Version: 1.2
