@@ -1,7 +1,7 @@
 {
 "classname" "worldspawn"
 "_noshadersun" "1"
-"_ambient" "24"
+"_ambient" "32"
 "gridsize" "256 256 512"
 {
 brushDef
@@ -4970,9 +4970,9 @@ brushDef
 {
 "classname" "light"
 "origin" "-1296.000000 944.000000 272.000000"
-"light" "275"
+"light" "250"
 "spawnflags" "1"
-"fade" "0.7"
+"fade" "0.65"
 }
 {
 "classname" "misc_gamemodel"
@@ -4986,9 +4986,9 @@ brushDef
 {
 "classname" "light"
 "origin" "-1296.000000 544.000000 272.000000"
-"light" "275"
+"light" "250"
 "spawnflags" "1"
-"fade" "0.7"
+"fade" "0.65"
 }
 {
 "classname" "misc_gamemodel"
@@ -5002,9 +5002,9 @@ brushDef
 {
 "classname" "light"
 "origin" "-1296.000000 160.000000 304.000000"
-"light" "275"
+"light" "250"
 "spawnflags" "1"
-"fade" "0.7"
+"fade" "0.65"
 }
 {
 "classname" "misc_gamemodel"
@@ -5018,9 +5018,9 @@ brushDef
 {
 "classname" "light"
 "origin" "-1296.000000 -240.000000 304.000000"
-"light" "275"
+"light" "250"
 "spawnflags" "1"
-"fade" "0.7"
+"fade" "0.65"
 }
 {
 "classname" "misc_gamemodel"
@@ -5034,9 +5034,9 @@ brushDef
 {
 "classname" "light"
 "origin" "-1008.000000 1136.000000 272.000000"
-"light" "275"
+"light" "250"
 "spawnflags" "1"
-"fade" "0.7"
+"fade" "0.65"
 }
 {
 "classname" "misc_gamemodel"
@@ -5050,9 +5050,9 @@ brushDef
 {
 "classname" "light"
 "origin" "-592.000000 1136.000000 272.000000"
-"light" "225"
+"light" "200"
 "spawnflags" "1"
-"fade" "0.7"
+"fade" "0.65"
 }
 {
 "classname" "misc_gamemodel"
@@ -5066,9 +5066,9 @@ brushDef
 {
 "classname" "light"
 "origin" "-192.000000 1136.000000 272.000000"
-"light" "225"
+"light" "200"
 "spawnflags" "1"
-"fade" "0.7"
+"fade" "0.65"
 }
 {
 "classname" "misc_gamemodel"
@@ -5082,9 +5082,9 @@ brushDef
 {
 "classname" "light"
 "origin" "208.000000 1136.000000 272.000000"
-"light" "225"
+"light" "200"
 "spawnflags" "1"
-"fade" "0.7"
+"fade" "0.65"
 }
 {
 "classname" "misc_gamemodel"
@@ -5098,9 +5098,9 @@ brushDef
 {
 "classname" "light"
 "origin" "96.000000 912.000000 272.000000"
-"light" "125"
+"light" "75"
 "spawnflags" "1"
-"fade" "0.2"
+"fade" "0.1"
 }
 {
 "classname" "misc_gamemodel"
@@ -5114,9 +5114,9 @@ brushDef
 {
 "classname" "light"
 "origin" "576.000000 912.000000 272.000000"
-"light" "125"
+"light" "75"
 "spawnflags" "1"
-"fade" "0.2"
+"fade" "0.1"
 }
 {
 "classname" "misc_gamemodel"
@@ -5130,9 +5130,9 @@ brushDef
 {
 "classname" "light"
 "origin" "96.000000 912.000000 -16.000000"
-"light" "200"
+"light" "175"
 "spawnflags" "1"
-"fade" "0.4"
+"fade" "0.35"
 }
 {
 "classname" "misc_gamemodel"
@@ -5146,9 +5146,9 @@ brushDef
 {
 "classname" "light"
 "origin" "576.000000 912.000000 -16.000000"
-"light" "200"
+"light" "175"
 "spawnflags" "1"
-"fade" "0.4"
+"fade" "0.35"
 }
 {
 "classname" "misc_gamemodel"
@@ -5162,9 +5162,9 @@ brushDef
 {
 "classname" "light"
 "origin" "-384.000000 912.000000 -16.000000"
-"light" "200"
+"light" "175"
 "spawnflags" "1"
-"fade" "0.4"
+"fade" "0.35"
 }
 {
 "classname" "misc_gamemodel"
@@ -5178,9 +5178,9 @@ brushDef
 {
 "classname" "light"
 "origin" "1296.000000 768.000000 272.000000"
-"light" "275"
+"light" "250"
 "spawnflags" "1"
-"fade" "0.7"
+"fade" "0.65"
 }
 {
 "classname" "misc_gamemodel"
@@ -5194,9 +5194,9 @@ brushDef
 {
 "classname" "light"
 "origin" "1376.000000 192.000000 272.000000"
-"light" "275"
+"light" "250"
 "spawnflags" "1"
-"fade" "0.7"
+"fade" "0.65"
 }
 {
 "classname" "misc_gamemodel"
@@ -5210,9 +5210,9 @@ brushDef
 {
 "classname" "light"
 "origin" "1376.000000 -224.000000 272.000000"
-"light" "275"
+"light" "250"
 "spawnflags" "1"
-"fade" "0.7"
+"fade" "0.65"
 }
 {
 "classname" "misc_gamemodel"
@@ -5226,9 +5226,9 @@ brushDef
 {
 "classname" "light"
 "origin" "976.000000 -304.000000 272.000000"
-"light" "275"
+"light" "225"
 "spawnflags" "1"
-"fade" "0.7"
+"fade" "0.5"
 }
 {
 "classname" "misc_gamemodel"
@@ -5242,9 +5242,9 @@ brushDef
 {
 "classname" "light"
 "origin" "976.000000 272.000000 272.000000"
-"light" "275"
+"light" "225"
 "spawnflags" "1"
-"fade" "0.7"
+"fade" "0.5"
 }
 {
 "classname" "misc_gamemodel"
@@ -5258,9 +5258,9 @@ brushDef
 {
 "classname" "light"
 "origin" "384.000000 224.000000 272.000000"
-"light" "225"
+"light" "175"
 "spawnflags" "1"
-"fade" "0.7"
+"fade" "0.5"
 }
 {
 "classname" "misc_gamemodel"
@@ -5274,9 +5274,9 @@ brushDef
 {
 "classname" "light"
 "origin" "384.000000 -160.000000 272.000000"
-"light" "225"
+"light" "175"
 "spawnflags" "1"
-"fade" "0.7"
+"fade" "0.5"
 }
 {
 "classname" "misc_gamemodel"
@@ -5289,9 +5289,9 @@ brushDef
 {
 "classname" "light"
 "origin" "384.000000 -160.000000 272.000000"
-"light" "200"
+"light" "175"
 "spawnflags" "1"
-"fade" "0.7"
+"fade" "0.65"
 }
 {
 "classname" "misc_gamemodel"
@@ -5305,9 +5305,9 @@ brushDef
 {
 "classname" "light"
 "origin" "384.000000 -544.000000 272.000000"
-"light" "225"
+"light" "175"
 "spawnflags" "1"
-"fade" "0.7"
+"fade" "0.5"
 }
 {
 "classname" "misc_gamemodel"
@@ -5321,9 +5321,9 @@ brushDef
 {
 "classname" "light"
 "origin" "384.000000 -928.000000 272.000000"
-"light" "225"
+"light" "175"
 "spawnflags" "1"
-"fade" "0.7"
+"fade" "0.5"
 }
 {
 "classname" "misc_gamemodel"
@@ -5337,9 +5337,9 @@ brushDef
 {
 "classname" "light"
 "origin" "384.000000 -1440.000000 272.000000"
-"light" "275"
+"light" "175"
 "spawnflags" "1"
-"fade" "0.7"
+"fade" "0.35"
 }
 {
 "classname" "misc_gamemodel"
@@ -5353,9 +5353,9 @@ brushDef
 {
 "classname" "light"
 "origin" "624.000000 -928.000000 272.000000"
-"light" "275"
+"light" "250"
 "spawnflags" "1"
-"fade" "0.7"
+"fade" "0.65"
 }
 {
 "classname" "misc_gamemodel"
@@ -5369,9 +5369,9 @@ brushDef
 {
 "classname" "light"
 "origin" "624.000000 -544.000000 272.000000"
-"light" "275"
+"light" "250"
 "spawnflags" "1"
-"fade" "0.7"
+"fade" "0.65"
 }
 {
 "classname" "misc_gamemodel"
@@ -5385,9 +5385,9 @@ brushDef
 {
 "classname" "light"
 "origin" "1376.000000 -912.000000 272.000000"
-"light" "175"
+"light" "125"
 "spawnflags" "1"
-"fade" "0.35"
+"fade" "0.2"
 }
 {
 "classname" "misc_gamemodel"
@@ -5401,9 +5401,9 @@ brushDef
 {
 "classname" "light"
 "origin" "1376.000000 -1280.000000 272.000000"
-"light" "275"
+"light" "125"
 "spawnflags" "1"
-"fade" "0.7"
+"fade" "0.25"
 }
 {
 "classname" "misc_gamemodel"
@@ -5417,9 +5417,9 @@ brushDef
 {
 "classname" "light"
 "origin" "1168.000000 -928.000000 272.000000"
-"light" "175"
+"light" "125"
 "spawnflags" "1"
-"fade" "0.35"
+"fade" "0.2"
 }
 {
 "classname" "misc_gamemodel"
@@ -5433,9 +5433,9 @@ brushDef
 {
 "classname" "light"
 "origin" "1760.000000 -288.000000 272.000000"
-"light" "275"
+"light" "250"
 "spawnflags" "1"
-"fade" "0.7"
+"fade" "0.65"
 }
 {
 "classname" "misc_gamemodel"
@@ -5449,9 +5449,9 @@ brushDef
 {
 "classname" "light"
 "origin" "1760.000000 -560.000000 272.000000"
-"light" "275"
+"light" "250"
 "spawnflags" "1"
-"fade" "0.7"
+"fade" "0.65"
 }
 {
 "classname" "misc_gamemodel"
@@ -5465,9 +5465,9 @@ brushDef
 {
 "classname" "light"
 "origin" "1120.000000 -1600.000000 272.000000"
-"light" "275"
+"light" "250"
 "spawnflags" "1"
-"fade" "0.7"
+"fade" "0.65"
 }
 {
 "classname" "misc_gamemodel"
@@ -5481,9 +5481,9 @@ brushDef
 {
 "classname" "light"
 "origin" "1120.000000 -2016.000000 272.000000"
-"light" "275"
+"light" "250"
 "spawnflags" "1"
-"fade" "0.7"
+"fade" "0.65"
 }
 {
 "classname" "misc_gamemodel"
@@ -5497,9 +5497,9 @@ brushDef
 {
 "classname" "light"
 "origin" "832.000000 -2128.000000 272.000000"
-"light" "275"
+"light" "250"
 "spawnflags" "1"
-"fade" "0.7"
+"fade" "0.65"
 }
 {
 "classname" "misc_gamemodel"
@@ -5513,9 +5513,9 @@ brushDef
 {
 "classname" "light"
 "origin" "416.000000 -2128.000000 272.000000"
-"light" "275"
+"light" "250"
 "spawnflags" "1"
-"fade" "0.7"
+"fade" "0.65"
 }
 {
 "classname" "misc_gamemodel"
@@ -5529,9 +5529,9 @@ brushDef
 {
 "classname" "light"
 "origin" "16.000000 -2128.000000 272.000000"
-"light" "275"
+"light" "250"
 "spawnflags" "1"
-"fade" "0.7"
+"fade" "0.65"
 }
 {
 "classname" "misc_gamemodel"
@@ -5545,9 +5545,9 @@ brushDef
 {
 "classname" "light"
 "origin" "-368.000000 -2128.000000 272.000000"
-"light" "275"
+"light" "250"
 "spawnflags" "1"
-"fade" "0.7"
+"fade" "0.65"
 }
 {
 "classname" "misc_gamemodel"
@@ -5561,9 +5561,9 @@ brushDef
 {
 "classname" "light"
 "origin" "-768.000000 -2128.000000 272.000000"
-"light" "275"
+"light" "250"
 "spawnflags" "1"
-"fade" "0.7"
+"fade" "0.65"
 }
 {
 "classname" "misc_gamemodel"
@@ -5577,9 +5577,9 @@ brushDef
 {
 "classname" "light"
 "origin" "-1120.000000 -2128.000000 272.000000"
-"light" "275"
+"light" "250"
 "spawnflags" "1"
-"fade" "0.7"
+"fade" "0.65"
 }
 {
 "classname" "misc_gamemodel"
@@ -5593,9 +5593,9 @@ brushDef
 {
 "classname" "light"
 "origin" "-1296.000000 -672.000000 304.000000"
-"light" "275"
+"light" "250"
 "spawnflags" "1"
-"fade" "0.7"
+"fade" "0.65"
 }
 {
 "classname" "misc_gamemodel"
@@ -5609,9 +5609,9 @@ brushDef
 {
 "classname" "light"
 "origin" "-1296.000000 -1040.000000 304.000000"
-"light" "275"
+"light" "250"
 "spawnflags" "1"
-"fade" "0.7"
+"fade" "0.65"
 }
 {
 "classname" "misc_gamemodel"
@@ -5625,9 +5625,9 @@ brushDef
 {
 "classname" "light"
 "origin" "-1296.000000 -1424.000000 304.000000"
-"light" "275"
+"light" "250"
 "spawnflags" "1"
-"fade" "0.7"
+"fade" "0.65"
 }
 {
 "classname" "misc_gamemodel"
@@ -5641,9 +5641,9 @@ brushDef
 {
 "classname" "light"
 "origin" "-1296.000000 -1840.000000 272.000000"
-"light" "275"
+"light" "250"
 "spawnflags" "1"
-"fade" "0.7"
+"fade" "0.65"
 }
 {
 "classname" "misc_gamemodel"
@@ -5657,9 +5657,9 @@ brushDef
 {
 "classname" "light"
 "origin" "-944.000000 -1616.000000 304.000000"
-"light" "275"
+"light" "225"
 "spawnflags" "1"
-"fade" "0.75"
+"fade" "0.4"
 }
 {
 "classname" "misc_gamemodel"
@@ -5673,9 +5673,9 @@ brushDef
 {
 "classname" "light"
 "origin" "224.000000 -1872.000000 272.000000"
-"light" "275"
+"light" "250"
 "spawnflags" "1"
-"fade" "0.7"
+"fade" "0.65"
 }
 {
 "classname" "misc_gamemodel"
@@ -5689,9 +5689,9 @@ brushDef
 {
 "classname" "light"
 "origin" "-144.000000 -1504.000000 272.000000"
-"light" "275"
+"light" "225"
 "spawnflags" "1"
-"fade" "0.55"
+"fade" "0.4"
 }
 {
 "classname" "misc_gamemodel"
@@ -5705,10 +5705,9 @@ brushDef
 {
 "classname" "light"
 "origin" "-224.000000 -1264.000000 272.000000"
-"light" "275"
+"light" "200"
 "spawnflags" "1"
-"fade" "0.6"
-"_ambient" "24"
+"fade" "0.4"
 }
 {
 "classname" "misc_gamemodel"
@@ -5722,10 +5721,9 @@ brushDef
 {
 "classname" "light"
 "origin" "-48.000000 -912.000000 272.000000"
-"light" "275"
+"light" "200"
 "spawnflags" "1"
-"fade" "0.6"
-"_ambient" "24"
+"fade" "0.4"
 }
 {
 "classname" "misc_gamemodel"
@@ -5739,10 +5737,9 @@ brushDef
 {
 "classname" "light"
 "origin" "-460.000000 -752.000000 272.000000"
-"light" "275"
+"light" "200"
 "spawnflags" "1"
-"fade" "0.6"
-"_ambient" "24"
+"fade" "0.4"
 }
 {
 "classname" "misc_gamemodel"
@@ -5756,9 +5753,9 @@ brushDef
 {
 "classname" "light"
 "origin" "-880.000000 -208.000000 304.000000"
-"light" "275"
+"light" "250"
 "spawnflags" "1"
-"fade" "0.7"
+"fade" "0.65"
 }
 {
 "classname" "misc_gamemodel"
@@ -5772,9 +5769,9 @@ brushDef
 {
 "classname" "light"
 "origin" "-480.000000 -208.000000 304.000000"
-"light" "275"
+"light" "250"
 "spawnflags" "1"
-"fade" "0.7"
+"fade" "0.65"
 }
 {
 "classname" "misc_gamemodel"
@@ -5788,9 +5785,9 @@ brushDef
 {
 "classname" "light"
 "origin" "144.000000 -544.000000 272.000000"
-"light" "200"
+"light" "150"
 "spawnflags" "1"
-"fade" "0.55"
+"fade" "0.3"
 }
 {
 "classname" "misc_gamemodel"
@@ -5804,9 +5801,9 @@ brushDef
 {
 "classname" "light"
 "origin" "144.000000 -160.000000 272.000000"
-"light" "200"
+"light" "150"
 "spawnflags" "1"
-"fade" "0.55"
+"fade" "0.3"
 }
 {
 "classname" "misc_gamemodel"
@@ -5820,9 +5817,9 @@ brushDef
 {
 "classname" "light"
 "origin" "144.000000 224.000000 272.000000"
-"light" "200"
+"light" "150"
 "spawnflags" "1"
-"fade" "0.55"
+"fade" "0.3"
 }
 {
 "classname" "misc_gamemodel"
@@ -5836,9 +5833,9 @@ brushDef
 {
 "classname" "light"
 "origin" "-144.000000 464.000000 272.000000"
-"light" "275"
+"light" "250"
 "spawnflags" "1"
-"fade" "0.7"
+"fade" "0.65"
 }
 {
 "classname" "misc_gamemodel"
@@ -5854,7 +5851,7 @@ brushDef
 "origin" "1376.000000 -16.000000 0.000000"
 "light" "200"
 "spawnflags" "1"
-"fade" "0.65"
+"fade" "0.6"
 }
 {
 "classname" "misc_gamemodel"
@@ -5870,7 +5867,7 @@ brushDef
 "origin" "1376.000000 400.000000 0.000000"
 "light" "200"
 "spawnflags" "1"
-"fade" "0.65"
+"fade" "0.6"
 }
 {
 "classname" "misc_gamemodel"
@@ -5886,7 +5883,7 @@ brushDef
 "origin" "1376.000000 -912.000000 0.000000"
 "light" "200"
 "spawnflags" "1"
-"fade" "0.65"
+"fade" "0.6"
 }
 {
 "classname" "misc_gamemodel"
@@ -5902,14 +5899,14 @@ brushDef
 "origin" "1376.000000 -576.000000 0.000000"
 "light" "200"
 "spawnflags" "1"
-"fade" "0.65"
+"fade" "0.6"
 }
 {
 "classname" "light"
 "origin" "1104.000000 -1008.000000 0.000000"
-"light" "200"
+"light" "175"
 "spawnflags" "1"
-"fade" "0.8"
+"fade" "0.75"
 }
 {
 "classname" "misc_gamemodel"
@@ -5923,9 +5920,9 @@ brushDef
 {
 "classname" "light"
 "origin" "912.000000 400.000000 -64.000000"
-"light" "200"
+"light" "175"
 "spawnflags" "1"
-"fade" "0.7"
+"fade" "0.65"
 }
 {
 "classname" "misc_gamemodel"
@@ -5939,9 +5936,9 @@ brushDef
 {
 "classname" "light"
 "origin" "144.000000 -1264.000000 208.000000"
-"light" "200"
+"light" "175"
 "spawnflags" "1"
-"fade" "0.7"
+"fade" "0.65"
 }
 {
 "classname" "misc_gamemodel"
@@ -5955,9 +5952,9 @@ brushDef
 {
 "classname" "light"
 "origin" "144.000000 -1264.000000 32.000000"
-"light" "200"
+"light" "175"
 "spawnflags" "1"
-"fade" "0.7"
+"fade" "0.65"
 }
 {
 "classname" "misc_gamemodel"
@@ -5973,7 +5970,7 @@ brushDef
 "origin" "-512.000000 -480.000000 80.000000"
 "light" "200"
 "spawnflags" "1"
-"fade" "0.65"
+"fade" "0.6"
 }
 {
 "classname" "misc_gamemodel"
@@ -5987,9 +5984,9 @@ brushDef
 {
 "classname" "light"
 "origin" "-912.000000 -456.000000 80.000000"
-"light" "175"
+"light" "150"
 "spawnflags" "1"
-"fade" "0.65"
+"fade" "0.6"
 }
 {
 "classname" "misc_gamemodel"
@@ -6003,9 +6000,9 @@ brushDef
 {
 "classname" "light"
 "origin" "-528.000000 -128.000000 64.000000"
-"light" "200"
+"light" "175"
 "spawnflags" "1"
-"fade" "0.7"
+"fade" "0.65"
 }
 {
 "classname" "misc_gamemodel"
@@ -6019,9 +6016,9 @@ brushDef
 {
 "classname" "light"
 "origin" "-528.000000 288.000000 -32.000000"
-"light" "200"
+"light" "175"
 "spawnflags" "1"
-"fade" "0.7"
+"fade" "0.65"
 }
 {
 "classname" "misc_gamemodel"
@@ -24218,9 +24215,9 @@ brushDef
 {
 "classname" "light"
 "origin" "1680.000000 -296.000000 -32.000000"
-"light" "200"
+"light" "175"
 "spawnflags" "1"
-"fade" "0.8"
+"fade" "0.75"
 }
 {
 "classname" "misc_gamemodel"
@@ -24234,9 +24231,9 @@ brushDef
 {
 "classname" "light"
 "origin" "1552.000000 -552.000000 88.000000"
-"light" "200"
+"light" "175"
 "spawnflags" "1"
-"fade" "0.8"
+"fade" "0.75"
 }
 {
 "classname" "func_group"
