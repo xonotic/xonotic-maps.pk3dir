@@ -1883,6 +1883,29 @@ textures/exx/wall-metal01b
 		blendfunc filter
 	}
 }
+textures/exx/wall-metal01c
+{
+	qer_editorimage textures/exx/wall/wall_metal01c.tga
+	
+	surfaceparm metalsteps
+	q3map_bounceScale  2
+	dpoffsetmapping - 2 match8 225
+	dpglossintensitymod  3
+	dpglossexponentmod  4
+
+
+	{
+		map textures/exx/wall/wall_metal01c.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
 textures/exx/wall-metal02
 {
 	qer_editorimage textures/exx/wall/wall_metal02.tga

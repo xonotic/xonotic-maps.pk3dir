@@ -24417,17 +24417,17 @@ exx/base-crete03
 "respawntime" "5"
 }
 {
-"classname" "item_cells"
+"classname" "item_rockets"
 "origin" "-4160.000000 640.000000 -32.000000"
 "respawntime" "5"
 }
 {
-"classname" "weapon_hlac"
+"classname" "weapon_rocketlauncher"
 "origin" "-4160.000000 -704.000000 -32.000000"
 "respawntime" "1"
 }
 {
-"classname" "item_cells"
+"classname" "item_rockets"
 "origin" "-4160.000000 -768.000000 -32.000000"
 "respawntime" "5"
 }
@@ -26442,7 +26442,7 @@ exx/base-crete03
 "respawntime" "5"
 }
 {
-"classname" "weapon_hlac"
+"classname" "weapon_crylink"
 "origin" "-32.000000 -192.000000 352.000000"
 "respawntime" "1"
 }

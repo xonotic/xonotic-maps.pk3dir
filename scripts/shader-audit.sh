@@ -206,14 +206,16 @@ use_texture()
 			esac
 			;;
 		## RULE: textures/map_FOO[_/]* must use textures/map_FOO[_/]*
-		textures/map_*/*)
+		textures/map_*/*|models/map_*/*)
 			pre=${1%%/map_*}
 			suf=${1#*/map_}
 			map=${suf%%[_/]*}
 			case "$2" in
-				"$pre"/map_$map[/_]*)
+				textures/map_$map[/_]*)
 					;;
-				textures/map_*)
+				models/map_$map[/_]*)
+					;;
+				textures/map_*|models/map_*)
 					# protect one map's textures from the evil of other maps :P
 					err "texture $2 of shader $1 is out of place, recommended file name is $pre/map_$map/*"
 					;;
@@ -234,8 +236,8 @@ use_texture()
 					;;
 			esac
 			;;
-		## RULE: textures/FOO/* must use textures/FOO/*, for FOO in decals, liquids_water, liquids_slime, liquids_lava
-		textures/decals/*|textures/liquids_*/*|textures/effects_*/*|textures/screens/*|textures/logos/*)
+		## RULE: textures/FOO/* must use textures/FOO/*, for FOO in decals, liquids_water, liquids_slime, liquids_lava, alphamod
+		textures/decals/*|textures/liquids_*/*|textures/effects_*/*|textures/screens/*|textures/logos/*|textures/alphamod/*)
 			pre=`echo "$1" | cut -d / -f 1-2`
 			case "$2" in
 				"$pre"/*)
@@ -451,7 +453,7 @@ parse_shaderfile()
 	case "$1" in
 		## RULE: map_FOO.shader may define tetxures/map_FOO_* and textures/map_FOO/*
 		map_*)
-			allowed_prefixes="textures/map_`echo "$1" | cut -d _ -f 2`_ textures/map_`echo "$1" | cut -d _ -f 2`/"
+			allowed_prefixes="textures/map_`echo "$1" | cut -d _ -f 2`_ textures/map_`echo "$1" | cut -d _ -f 2`/ models/map_`echo "$1" | cut -d _ -f 2`_ models/map_`echo "$1" | cut -d _ -f 2`/"
 			forbidden_prefixes=
 			;;
 		## RULE: skies_FOO.shader may define tetxures/skies/FOO and textures/skies/FOO_*
@@ -462,7 +464,7 @@ parse_shaderfile()
 		## RULE: model_*.shader may define models/*
 		model_*)
 			allowed_prefixes="models/"
-			forbidden_prefixes=
+			forbidden_prefixes="models/map_"
 			;;
 		## RULE: any other FOO.shader may define textures/FOO/*
 		*)
@@ -499,12 +501,14 @@ for X in *.shader; do
 done
 rm -f "$t"
 
-textures_avail=`( cd ..; find textures/ -type f -not -name '*.sh' -not -name '*_norm.*' -not -name '*_glow.*' -not -name '*_gloss.*' -not -name '*_reflect.*' -not -name '*.xcf' ) | while IFS= read -r T; do normalize "$T"; done | sort -u`
+textures_avail=`( cd ..; find textures/ -type f -not -name '*.sh' -not -name '*_norm.*' -not -name '*_glow.*' -not -name '*_gloss.*' -not -name '*_reflect.*' -not -name '*.xcf' -not -name '*.txt' ) | while IFS= read -r T; do normalize "$T"; done | sort -u`
 textures_used=`echo "${textures_used#$LF}" | sort -u`
 
 echo "$textures_used$LF$textures_used$LF$textures_avail" | sort | uniq -u | while IFS= read -r L; do
 	case "$L" in
 		textures/radiant/*)
+			;;
+		models/map_*/*)
 			;;
 		textures/map_*/*)
 			;;
