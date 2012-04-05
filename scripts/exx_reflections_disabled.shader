@@ -1,3 +1,6 @@
+// contains exx textures with reflections, disabled state
+// those shaders are active when r_reflections_world is off
+
 textures/exx/base-metal01
 {
 	dpshaderkillifcvar r_reflections_world != 0

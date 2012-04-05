@@ -1,3 +1,5 @@
+// contains exx textures without reflections
+
 textures/exx/base-crete01
 {
 	qer_editorimage textures/exx/base/base_crete01.tga
