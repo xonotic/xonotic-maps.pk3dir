@@ -117,8 +117,9 @@ textures/exx/base-metal01
 	dpoffsetmapping - 2 match8 106
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/base/base_metal01.tga
@@ -141,8 +142,9 @@ textures/exx/base-metal02
 	dpoffsetmapping - 2 match8 106
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/base/base_metal02.tga
@@ -165,8 +167,9 @@ textures/exx/base-metal03
 	dpoffsetmapping - 2 match8 106
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/base/base_metal03.tga
@@ -189,8 +192,9 @@ textures/exx/base-metal04
 	dpoffsetmapping - 2 match8 106
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/base/base_metal04.tga
@@ -213,8 +217,9 @@ textures/exx/base-metal05rust
 	dpoffsetmapping - 2 match8 70
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/base/base_metal05rust.tga
@@ -237,8 +242,9 @@ textures/exx/base-metal06rust
 	dpoffsetmapping - 2 match8 70
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/base/base_metal06rust.tga
@@ -261,8 +267,9 @@ textures/exx/base-metal07rust
 	dpoffsetmapping - 2 match8 70
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/base/base_metal07rust.tga
@@ -285,8 +292,9 @@ textures/exx/floor-clang01
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 	surfaceparm metalsteps
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/floor/floor_clang01.tga
@@ -309,8 +317,9 @@ textures/exx/floor-clang01b
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 	surfaceparm metalsteps
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/floor/floor_clang01b.tga
@@ -424,8 +433,9 @@ textures/exx/floor-grate01
 	dpoffsetmapping - 2 match8 126
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/floor/floor_grate01.tga
@@ -449,8 +459,9 @@ textures/exx/floor-grate01-cull
 	dpoffsetmapping - 2 match8 126
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/floor/floor_grate01.tga
@@ -475,8 +486,9 @@ textures/exx/floor-grate02
 	dpoffsetmapping - 2 match8 224
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/floor/floor_grate02.tga
@@ -500,8 +512,9 @@ textures/exx/floor-grate02-cull
 	dpoffsetmapping - 2 match8 224
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/floor/floor_grate02.tga
@@ -526,8 +539,9 @@ textures/exx/floor-grate03
 	dpoffsetmapping - 2 match8 223
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/floor/floor_grate03.tga
@@ -551,8 +565,9 @@ textures/exx/floor-grate03-cull
 	dpoffsetmapping - 2 match8 223
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/floor/floor_grate03.tga
@@ -577,8 +592,9 @@ textures/exx/floor-grate04
 	dpoffsetmapping - 2 match8 248
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/floor/floor_grate04.tga
@@ -603,8 +619,9 @@ textures/exx/floor-grate04-cull
 	dpoffsetmapping - 2 match8 248
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/floor/floor_grate04.tga
@@ -628,8 +645,9 @@ textures/exx/floor-metal02
 	dpoffsetmapping - 2 match8 241
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/floor/floor_metal02.tga
@@ -651,8 +669,9 @@ textures/exx/floor-panel01
 	dpoffsetmapping - 2 match8 172
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/floor/floor_panel01.tga
@@ -675,8 +694,9 @@ textures/exx/floor-rnd01
 	dpoffsetmapping - 2 match8 128
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/floor/floor_rnd01.tga
@@ -699,8 +719,9 @@ textures/exx/floor-rnd02
 	dpoffsetmapping - 2 match8 110
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/floor/floor_rnd02.tga
@@ -723,8 +744,9 @@ textures/exx/floor-simple05
 	dpoffsetmapping - 4 match8 32
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/floor/floor_simple05.tga
@@ -746,8 +768,9 @@ textures/exx/floor-simplines
 	dpoffsetmapping - 1 match8 244
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/floor/floor_simplines.tga
@@ -770,8 +793,9 @@ textures/exx/floor-tile03
 	dpoffsetmapping - 2 match8 218
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/floor/floor_tile03.tga
@@ -794,8 +818,9 @@ textures/exx/floor-tread01
 	dpoffsetmapping - 1 match8 221
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/floor/floor_tread01.tga
@@ -909,8 +934,9 @@ textures/exx/light-panel01
 	dpoffsetmapping - 2 match8 79
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/light/light_panel01.tga
@@ -936,8 +962,9 @@ textures/exx/light-panel01-surfacelight
 	q3map_surfacelight 2500
 	q3map_lightSubdivide 64
 
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/light/light_panel01.tga
@@ -960,8 +987,9 @@ textures/exx/light-u201
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/light/light_u201.tga
@@ -987,8 +1015,9 @@ textures/exx/light-u201-surfacelight
 	q3map_surfacelight 2500
 	q3map_lightSubdivide 64
 
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/light/light_u201.tga
@@ -1020,8 +1049,9 @@ textures/exx/panel-grate01
 	nopicmip
 	nomipmaps
 
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/panel/panel_grate01.tga
@@ -1052,8 +1082,9 @@ textures/exx/panel-grate01-cull
 	nopicmip
 	nomipmaps
 
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/panel/panel_grate01.tga
@@ -1076,8 +1107,9 @@ textures/exx/panel-metal01
 	dpoffsetmapping - 2 match8 101
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/panel/panel_metal01.tga
@@ -1100,8 +1132,9 @@ textures/exx/panel-metal01b
 	dpoffsetmapping - 2 match8 101
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/panel/panel_metal01b.tga
@@ -1124,8 +1157,9 @@ textures/exx/panel-metal01c
 	dpoffsetmapping - 2 match8 116
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/panel/panel_metal01c.tga
@@ -1148,8 +1182,9 @@ textures/exx/panel-metal02
 	dpoffsetmapping - 2 match8 216
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/panel/panel_metal02.tga
@@ -1172,8 +1207,9 @@ textures/exx/panel-metal03
 	dpoffsetmapping - 2 match8 241
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/panel/panel_metal03.tga
@@ -1196,8 +1232,9 @@ textures/exx/panel-metal04
 	dpoffsetmapping - 2 match8 229
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/panel/panel_metal04.tga
@@ -1220,8 +1257,9 @@ textures/exx/panel-metal05
 	dpoffsetmapping - 2 match8 238
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/panel/panel_metal05.tga
@@ -1244,8 +1282,9 @@ textures/exx/panel-metalbig04
 	dpoffsetmapping - 2 match8 165
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/panel/panel_metalbig04.tga
@@ -1268,8 +1307,9 @@ textures/exx/panel-metalbig04b
 	dpoffsetmapping - 2 match8 177
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/panel/panel_metalbig04b.tga
@@ -1292,8 +1332,9 @@ textures/exx/panel-q201
 	dpoffsetmapping - 2 match8 138
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/panel/panel_q201.tga
@@ -1316,8 +1357,9 @@ textures/exx/panel-q201b
 	dpoffsetmapping - 2 match8 81
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/panel/panel_q201b.tga
@@ -1340,8 +1382,9 @@ textures/exx/panel-q201c
 	dpoffsetmapping - 2 match8 98
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/panel/panel_q201c.tga
@@ -1364,8 +1407,9 @@ textures/exx/panel-q201d
 	dpoffsetmapping - 2 match8 189
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/panel/panel_q201d.tga
@@ -1388,8 +1432,9 @@ textures/exx/panel-q201e
 	dpoffsetmapping - 2 match8 132
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/panel/panel_q201e.tga
@@ -1412,8 +1457,9 @@ textures/exx/panel-rs01
 	dpoffsetmapping - 2 match8 178
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/panel/panel_rs01.tga
@@ -1436,8 +1482,9 @@ textures/exx/trim-01
 	dpoffsetmapping - 2 match8 169
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/trim/trim_01.tga
@@ -1460,8 +1507,9 @@ textures/exx/trim-baseboard
 	dpoffsetmapping - 2 match8 181
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/trim/trim_baseboard.tga		
@@ -1483,8 +1531,9 @@ textures/exx/trim-baseboard02
 	dpoffsetmapping - 2 match8 162
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/trim/trim_baseboard02.tga
@@ -1507,8 +1556,9 @@ textures/exx/trim-baseboard03
 	dpoffsetmapping - 2 match8 110
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/trim/trim_baseboard03.tga
@@ -1531,8 +1581,9 @@ textures/exx/trim-metalsupp01
 	dpoffsetmapping - 8 match8 243
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/trim/trim_metalsupp01.tga
@@ -1555,8 +1606,9 @@ textures/exx/trim-psimple04
 	dpoffsetmapping - 2 match8 44
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/trim/trim_psimple04.tga
@@ -1579,8 +1631,9 @@ textures/exx/trim-psimple05
 	dpoffsetmapping - 2 match8 230
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/trim/trim_psimple05.tga
@@ -1603,8 +1656,9 @@ textures/exx/trim-simple01
 	dpoffsetmapping - 2 match8 213
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/trim/trim_simple01.tga
@@ -1627,8 +1681,9 @@ textures/exx/trim-simple03
 	dpoffsetmapping - 2 match8 142
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/trim/trim_simple03.tga
@@ -1651,8 +1706,9 @@ textures/exx/trim-steptop01
 	dpoffsetmapping - 2 match8 140
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/trim/trim_steptop01.tga
@@ -1675,8 +1731,9 @@ textures/exx/trim-support03
 	dpoffsetmapping - 2 match8 111
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/trim/trim_support03.tga
@@ -1699,8 +1756,9 @@ textures/exx/trim-vert01
 	dpoffsetmapping - 2 match8 231
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/trim/trim_vert01.tga
@@ -1723,8 +1781,9 @@ textures/exx/trim-horz01
 	dpoffsetmapping - 2 match8 231
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/trim/trim_horz01.tga
@@ -1748,8 +1807,9 @@ textures/exx/wall-bigrib02
 	dpoffsetmapping - 2 match8 250
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/wall/wall_bigrib02.tga
@@ -1772,8 +1832,9 @@ textures/exx/wall-bplate06
 	dpoffsetmapping - 8 match8 114
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/wall/wall_bplate06.tga
@@ -1884,8 +1945,9 @@ textures/exx/wall-des01
 	dpoffsetmapping - 2 match8 55
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/wall/wall_des01.tga
@@ -1908,8 +1970,9 @@ textures/exx/wall-metal01
 	dpoffsetmapping - 2 match8 225
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/wall/wall_metal01.tga
@@ -1932,8 +1995,9 @@ textures/exx/wall-metal01b
 	dpoffsetmapping - 2 match8 225
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/wall/wall_metal01b.tga
@@ -1979,8 +2043,9 @@ textures/exx/wall-metal02
 	dpoffsetmapping - 2 match8 177
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/wall/wall_metal02.tga
@@ -2003,8 +2068,9 @@ textures/exx/wall-metalb01
 	dpoffsetmapping - 1 match8 37
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/wall/wall_metalb01.tga
@@ -2027,8 +2093,9 @@ textures/exx/wall-metalrib01
 	dpoffsetmapping - 2 match8 216
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/wall/wall_metalrib01.tga
@@ -2051,8 +2118,9 @@ textures/exx/wall-panel05
 	dpoffsetmapping - 2 match8 66
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/wall/wall_panel05.tga
@@ -2075,8 +2143,9 @@ textures/exx/wall-panels08
 	dpoffsetmapping - 2 match8 195
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/wall/wall_panels08.tga
@@ -2099,8 +2168,9 @@ textures/exx/wall-panels08b
 	dpoffsetmapping - 2 match8 195
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/wall/wall_panels08b.tga
@@ -2123,8 +2193,9 @@ textures/exx/wall-pipe
 	dpoffsetmapping - 2 match8 157
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/wall/wall_pipe.tga
@@ -2147,8 +2218,9 @@ textures/exx/wall-u207
 	dpoffsetmapping - 2 match8 109
 	dpglossintensitymod  3
 	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
 
-	dpshaderkillifcvar g_cubemap != 0
+	dpshaderkillifcvar g_cubemap == 0
 
 	{
 		map textures/exx/wall/wall_u207.tga
