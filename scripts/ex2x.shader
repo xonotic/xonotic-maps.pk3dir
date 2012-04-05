@@ -1,4 +1,4 @@
-textures/exx/base-yellowpaint
+textures/ex2x/base-yellowpaint
 {
 	qer_editorimage textures/ex2x/base/base_yellowpaint.tga
 	
