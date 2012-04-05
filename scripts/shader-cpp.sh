@@ -106,7 +106,7 @@ preprocess()
 					*0*)
 						;;
 					*)
-						echo "$L"
+						echo "${L% }"
 						;;
 				esac
 				;;

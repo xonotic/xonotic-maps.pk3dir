@@ -1,9 +1,9 @@
 INFILES = $(wildcard *.shader.in)
 GENERATEDFILES = $(patsubst %.shader.in,%.shader,$(INFILES))
 
-all: $(GENERATEDFILES)
+all: shaderlist.txt $(GENERATEDFILES)
 
-%.shader: shaderlist.txt %.shader.in
+%.shader: %.shader.in
 	./shader-cpp.sh "$<" > "$@"
 
 clean:
