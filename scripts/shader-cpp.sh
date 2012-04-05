@@ -90,10 +90,10 @@ preprocess()
 				;;
 			'#else')
 				case "$condstack" in
-					0)
+					0*)
 						condstack=1${condstack#0}
 						;;
-					1)
+					1*)
 						condstack=0${condstack#1}
 						;;
 				esac
