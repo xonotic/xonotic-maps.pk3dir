@@ -7,6 +7,13 @@ case "$0" in
 esac
 
 . ./shader-parser.subr
+set -e
+
+err()
+{
+	echo >&2 "(EE) $*"
+	exit 1
+}
 
 LF="
 "
@@ -71,47 +78,58 @@ shaderkill()
 }
 preprocess()
 {
-	condstack=
-	echo "$shadertext" | while IFS= read -r L; do
-		[ -n "$L" ] || continue
-		set -- $L
-		k=$1
-		shift
-		case "$k" in
-			'#if')
-				case "$LF$conds$LF" in
-					*"$LF$*$LF"*)
-						condstack=0$condstack
-						;;
-					*)
-						condstack=1$condstack
-						;;
-				esac
-				;;
-			'#else')
-				case "$condstack" in
-					0*)
-						condstack=1${condstack#0}
-						;;
-					1*)
-						condstack=0${condstack#1}
-						;;
-				esac
-				;;
-			'#endif')
-				condstack=${condstack#?}
-				;;
-			*)
-				case "$condstack" in
-					*0*)
-						;;
-					*)
-						echo "${L% }"
-						;;
-				esac
-				;;
-		esac
-	done
+	echo "$shadertext" | {
+		condstack=
+		while IFS= read -r L; do
+			[ -n "$L" ] || continue
+			set -- $L
+			k=$1
+			shift
+			case "$k" in
+				'#if')
+					case "$LF$conds$LF" in
+						*"$LF$*$LF"*)
+							condstack=0$condstack
+							;;
+						*)
+							condstack=1$condstack
+							;;
+					esac
+					;;
+				'#else')
+					if [ -z "$condstack" ]; then
+						err "unmatched #else"
+					fi
+					case "$condstack" in
+						0*)
+							condstack=1${condstack#0}
+							;;
+						1*)
+							condstack=0${condstack#1}
+							;;
+					esac
+					;;
+				'#endif')
+					if [ -z "$condstack" ]; then
+						err "unmatched #endif"
+					fi
+					condstack=${condstack#?}
+					;;
+				*)
+					case "$condstack" in
+						*0*)
+							;;
+						*)
+							echo "${L% }"
+							;;
+					esac
+					;;
+			esac
+		done
+		if [ -n "$condstack" ]; then
+			err "unmatched #if"
+		fi
+	}
 }
 conditionalize()
 {
