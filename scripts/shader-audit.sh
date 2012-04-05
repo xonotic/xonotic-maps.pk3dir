@@ -6,6 +6,8 @@ case "$0" in
 		;;
 esac
 
+. ./shader-parser.subr
+
 pid=$$
 status=true
 trap 'status=false' USR1
@@ -27,11 +29,6 @@ warn()
 
 LF="
 "
-
-normalize()
-{
-	echo "$1" | sed 's/\.\(tga\|jpg\|png\)$//'
-}
 
 allowed_prefixes=
 forbidden_prefixes=
@@ -281,54 +278,62 @@ use_texture()
 }
 
 parsing_shader=
-parse_shaderstage()
+parse_shaderstage_pre()
 {
 	ss_blendfunc=none
 	ss_alphafunc=none
 	ss_alphagen=none
 	ss_map=
-	while read L A1 Aother; do
-		case "`echo "$L" | tr A-Z a-z`" in
-			blendfunc)
-				ss_blendfunc=`echo $A1 $Aother | tr A-Z a-z`
-				;;
-			alphafunc)
-				ss_alphafunc=`echo $A1 | tr A-Z a-z`
-				;;
-			alphagen)
-				ss_alphagen=`echo $A1 | tr A-Z a-z`
-				;;
-			map|clampmap)
-				case "$A1" in
-					'$lightmap')
-						;;
-					*)
-						use_texture "$parsing_shader" "`normalize "$A1"`" map
-						ss_map="`normalize "$A1"`"
-						offsetmapping_match8=firststagedone
-						;;
-				esac
-				;;
-			animmap)
-				for X in $Aother; do
-					use_texture "$parsing_shader" "`normalize "$X"`" animmap
-				done
-				for X in $Aother; do
-					ss_map="`normalize "$X"`"
-					break
-				done
-				;;
-			'{')
-				err "brace nesting error in $parsing_shader"
-				;;
-			'}')
-				break
-				;;
-			*)
-				;;
-		esac
-	done
+}
 
+parse_shaderstage_line()
+{
+	L=$1
+	A1=$2
+	Aother=$3
+	case "`echo "$L" | tr A-Z a-z`" in
+		blendfunc)
+			ss_blendfunc=`echo $A1 $Aother | tr A-Z a-z`
+			;;
+		alphafunc)
+			ss_alphafunc=`echo $A1 | tr A-Z a-z`
+			;;
+		alphagen)
+			ss_alphagen=`echo $A1 | tr A-Z a-z`
+			;;
+		map|clampmap)
+			case "$A1" in
+				'$lightmap')
+					;;
+				*)
+					use_texture "$parsing_shader" "`shader_normalize "$A1"`" map
+					ss_map="`shader_normalize "$A1"`"
+					offsetmapping_match8=firststagedone
+					;;
+			esac
+			;;
+		animmap)
+			for X in $Aother; do
+				use_texture "$parsing_shader" "`shader_normalize "$X"`" animmap
+			done
+			for X in $Aother; do
+				ss_map="`shader_normalize "$X"`"
+				break
+			done
+			;;
+		'{')
+			err "brace nesting error in $parsing_shader"
+			;;
+		'}')
+			break
+			;;
+		*)
+			;;
+	esac
+}
+
+parse_shaderstage_post()
+{
 	if [ -n "$ss_map" ]; then
 		if [ -z "$maintexture" ]; then
 			maintexture=$ss_map
@@ -352,59 +357,62 @@ parse_shaderstage()
 	fi
 }
 
-parse_shader()
+parse_shader_pre()
 {
 	use_texture "$parsing_shader" "$parsing_shader" shader
 	offsetmapping_match8=
 	textureblending=false
 	maintexture=
 	nowarn=false
-	while read L A1 Aother; do
-		case "`echo "$L" | tr A-Z a-z`" in
-			xon_nowarn)
-				nowarn=true
-				;;
-			dpoffsetmapping)
-				set -- $Aother
-				if [ x"$A1" = x"none" ]; then
-					offsetmapping_match8=none
-				elif [ x"$A1" = x"off" ]; then
-					offsetmapping_match8=none
-				elif [ x"$A1" = x"disabled" ]; then
-					offsetmapping_match8=none
-				elif [ x"$2" = x"match8" ]; then
-					offsetmapping_match8=`echo "($3 + 0.5) / 1" | bc`
-				elif [ x"$2" = x"match16" ]; then
-					offsetmapping_match8=`echo "($3 / 257 + 0.5) / 1" | bc`
-				elif [ x"$2" = x"match" ]; then
-					offsetmapping_match8=`echo "($3 * 255 + 0.5) / 1" | bc`
-				elif [ x"$2" = x"bias" ]; then
-					offsetmapping_match8=`echo "((1 - $3) * 255 + 0.5) / 1" | bc`
-				else
-					offsetmapping_match8=default
-				fi
-				;;
-			qer_editorimage)
-				use_texture "$parsing_shader" "`normalize "$A1"`" editorimage
-				;;
-			skyparms)
-				use_texture "$parsing_shader" "${A1}_lf" sky
-				use_texture "$parsing_shader" "${A1}_rt" sky
-				use_texture "$parsing_shader" "${A1}_up" sky
-				use_texture "$parsing_shader" "${A1}_dn" sky
-				use_texture "$parsing_shader" "${A1}_ft" sky
-				use_texture "$parsing_shader" "${A1}_bk" sky
-				;;
-			'{')
-				parse_shaderstage
-				;;
-			'}')
-				break
-				;;
-			*)
-				;;
-		esac
-	done
+}
+
+parse_shader_line()
+{
+	L=$1
+	A1=$2
+	Aother=$3
+	case "`echo "$L" | tr A-Z a-z`" in
+		xon_nowarn)
+			nowarn=true
+			;;
+		dpoffsetmapping)
+			set -- $Aother
+			if [ x"$A1" = x"none" ]; then
+				offsetmapping_match8=none
+			elif [ x"$A1" = x"off" ]; then
+				offsetmapping_match8=none
+			elif [ x"$A1" = x"disabled" ]; then
+				offsetmapping_match8=none
+			elif [ x"$2" = x"match8" ]; then
+				offsetmapping_match8=`echo "($3 + 0.5) / 1" | bc`
+			elif [ x"$2" = x"match16" ]; then
+				offsetmapping_match8=`echo "($3 / 257 + 0.5) / 1" | bc`
+			elif [ x"$2" = x"match" ]; then
+				offsetmapping_match8=`echo "($3 * 255 + 0.5) / 1" | bc`
+			elif [ x"$2" = x"bias" ]; then
+				offsetmapping_match8=`echo "((1 - $3) * 255 + 0.5) / 1" | bc`
+			else
+				offsetmapping_match8=default
+			fi
+			;;
+		qer_editorimage)
+			use_texture "$parsing_shader" "`shader_normalize "$A1"`" editorimage
+			;;
+		skyparms)
+			use_texture "$parsing_shader" "${A1}_lf" sky
+			use_texture "$parsing_shader" "${A1}_rt" sky
+			use_texture "$parsing_shader" "${A1}_up" sky
+			use_texture "$parsing_shader" "${A1}_dn" sky
+			use_texture "$parsing_shader" "${A1}_ft" sky
+			use_texture "$parsing_shader" "${A1}_bk" sky
+			;;
+		*)
+			;;
+	esac
+}
+
+parse_shader_post()
+{
 	if [ -n "$AUDIT_ALPHACHANNELS" ] && [ -n "$maintexture" ] && ! $textureblending; then
 		getstats "../$maintexture.tga" || getstats "../$maintexture.png" || getstats "../$maintexture.jpg"
 		case "$mainblendfunc" in
@@ -448,17 +456,18 @@ parse_shader()
 	fi
 }
 
-parse_shaderfile()
+parse_shaderfile_pre()
 {
-	case "$1" in
+	s="${parsing_shaderfile%.shader}"
+	case "$s" in
 		## RULE: map_FOO.shader may define tetxures/map_FOO_* and textures/map_FOO/*
 		map_*)
-			allowed_prefixes="textures/map_`echo "$1" | cut -d _ -f 2`_ textures/map_`echo "$1" | cut -d _ -f 2`/ models/map_`echo "$1" | cut -d _ -f 2`_ models/map_`echo "$1" | cut -d _ -f 2`/"
+			allowed_prefixes="textures/map_`echo "$s" | cut -d _ -f 2`_ textures/map_`echo "$s" | cut -d _ -f 2`/ models/map_`echo "$s" | cut -d _ -f 2`_ models/map_`echo "$s" | cut -d _ -f 2`/"
 			forbidden_prefixes=
 			;;
 		## RULE: skies_FOO.shader may define tetxures/skies/FOO and textures/skies/FOO_*
 		skies_*)
-			allowed_prefixes="textures/skies/`echo "$1" | cut -d _ -f 2`: textures/skies/`echo "$1" | cut -d _ -f 2`_"
+			allowed_prefixes="textures/skies/`echo "$s" | cut -d _ -f 2`: textures/skies/`echo "$s" | cut -d _ -f 2`_"
 			forbidden_prefixes=
 			;;
 		## RULE: model_*.shader may define models/*
@@ -468,40 +477,15 @@ parse_shaderfile()
 			;;
 		## RULE: any other FOO.shader may define textures/FOO/*
 		*)
-			allowed_prefixes="textures/$1/"
+			allowed_prefixes="textures/$s/"
 			forbidden_prefixes="textures/skies/ textures/map_ models/"
 			;;
 	esac
-	while read L; do
-		case "$L" in
-			*/*)
-				parsing_shader="`normalize "$L"`"
-				if [ x"$L" != x"$parsing_shader" ]; then
-					warn "normalized shader name $L to $parsing_shader"
-				fi
-				;;
-			'{')
-				parse_shader
-				;;
-			*)
-				;;
-		esac
-	done
 }
 
-strip_comments()
-{
-	sed 's,//.*,,g; s,\r, ,g; s,\t, ,g; s,  *, ,g; s, $,,; s,^ ,,; /^$/ d'
-}
+parse_shaders
 
-t=`mktemp || echo ".temp"`
-for X in *.shader; do
-	strip_comments < "$X" > "$t"
-	parse_shaderfile "${X%.shader}" < "$t"
-done
-rm -f "$t"
-
-textures_avail=`( cd ..; find textures/ -type f -not -name '*.sh' -not -name '*_norm.*' -not -name '*_glow.*' -not -name '*_gloss.*' -not -name '*_reflect.*' -not -name '*.xcf' -not -name '*.txt' ) | while IFS= read -r T; do normalize "$T"; done | sort -u`
+textures_avail=`( cd ..; find textures/ -type f -not -name '*.sh' -not -name '*_norm.*' -not -name '*_glow.*' -not -name '*_gloss.*' -not -name '*_reflect.*' -not -name '*.xcf' -not -name '*.txt' ) | while IFS= read -r T; do shader_normalize "$T"; done | sort -u`
 textures_used=`echo "${textures_used#$LF}" | sort -u`
 
 echo "$textures_used$LF$textures_used$LF$textures_avail" | sort | uniq -u | while IFS= read -r L; do
