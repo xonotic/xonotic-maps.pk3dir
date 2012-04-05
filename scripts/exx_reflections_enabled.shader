@@ -1,4 +1,4 @@
-// contains exx textures with reflections, enabled state
+// contains exx textures with reflections on solid surfaces, enabled state
 // those shaders are active when r_reflections_world is on
 
 textures/exx/base-metal01

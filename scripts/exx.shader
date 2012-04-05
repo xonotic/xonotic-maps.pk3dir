@@ -1,4 +1,4 @@
-// contains exx textures without reflections
+// contains exx textures without reflections on solid surfaces
 
 textures/exx/base-crete01
 {
