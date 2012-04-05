@@ -118,7 +118,7 @@ textures/exx/base-metal01
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -144,7 +144,7 @@ textures/exx/base-metal02
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -170,7 +170,7 @@ textures/exx/base-metal03
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -196,7 +196,7 @@ textures/exx/base-metal04
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -222,7 +222,7 @@ textures/exx/base-metal05rust
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -248,7 +248,7 @@ textures/exx/base-metal06rust
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -274,7 +274,7 @@ textures/exx/base-metal07rust
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -300,7 +300,7 @@ textures/exx/floor-clang01
 	dpglossexponentmod  4
 	surfaceparm metalsteps
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -326,7 +326,7 @@ textures/exx/floor-clang01b
 	dpglossexponentmod  4
 	surfaceparm metalsteps
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -443,7 +443,7 @@ textures/exx/floor-grate01
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -470,7 +470,7 @@ textures/exx/floor-grate01-cull
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -498,7 +498,7 @@ textures/exx/floor-grate02
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -525,7 +525,7 @@ textures/exx/floor-grate02-cull
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -553,7 +553,7 @@ textures/exx/floor-grate03
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -580,7 +580,7 @@ textures/exx/floor-grate03-cull
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -608,7 +608,7 @@ textures/exx/floor-grate04
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -636,7 +636,7 @@ textures/exx/floor-grate04-cull
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -663,7 +663,7 @@ textures/exx/floor-metal02
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -688,7 +688,7 @@ textures/exx/floor-panel01
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -714,7 +714,7 @@ textures/exx/floor-rnd01
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -740,7 +740,7 @@ textures/exx/floor-rnd02
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -766,7 +766,7 @@ textures/exx/floor-simple05
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -791,7 +791,7 @@ textures/exx/floor-simplines
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -817,7 +817,7 @@ textures/exx/floor-tile03
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -843,7 +843,7 @@ textures/exx/floor-tread01
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -960,7 +960,7 @@ textures/exx/light-panel01
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -989,7 +989,7 @@ textures/exx/light-panel01-surfacelight
 	q3map_lightSubdivide 64
 
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -1015,7 +1015,7 @@ textures/exx/light-u201
 	dpglossexponentmod  4
 
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -1044,7 +1044,7 @@ textures/exx/light-u201-surfacelight
 	q3map_lightSubdivide 64
 
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -1079,7 +1079,7 @@ textures/exx/panel-grate01
 	nomipmaps
 
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -1113,7 +1113,7 @@ textures/exx/panel-grate01-cull
 	nomipmaps
 
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -1139,7 +1139,7 @@ textures/exx/panel-metal01
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -1165,7 +1165,7 @@ textures/exx/panel-metal01b
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -1191,7 +1191,7 @@ textures/exx/panel-metal01c
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -1217,7 +1217,7 @@ textures/exx/panel-metal02
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -1243,7 +1243,7 @@ textures/exx/panel-metal03
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -1269,7 +1269,7 @@ textures/exx/panel-metal04
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -1295,7 +1295,7 @@ textures/exx/panel-metal05
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -1321,7 +1321,7 @@ textures/exx/panel-metalbig04
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -1347,7 +1347,7 @@ textures/exx/panel-metalbig04b
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -1373,7 +1373,7 @@ textures/exx/panel-q201
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -1399,7 +1399,7 @@ textures/exx/panel-q201b
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -1425,7 +1425,7 @@ textures/exx/panel-q201c
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -1451,7 +1451,7 @@ textures/exx/panel-q201d
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -1477,7 +1477,7 @@ textures/exx/panel-q201e
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -1503,7 +1503,7 @@ textures/exx/panel-rs01
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -1529,7 +1529,7 @@ textures/exx/trim-01
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -1555,7 +1555,7 @@ textures/exx/trim-baseboard
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -1580,7 +1580,7 @@ textures/exx/trim-baseboard02
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -1606,7 +1606,7 @@ textures/exx/trim-baseboard03
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -1632,7 +1632,7 @@ textures/exx/trim-metalsupp01
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -1658,7 +1658,7 @@ textures/exx/trim-psimple04
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -1684,7 +1684,7 @@ textures/exx/trim-psimple05
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -1710,7 +1710,7 @@ textures/exx/trim-simple01
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -1736,7 +1736,7 @@ textures/exx/trim-simple03
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -1762,7 +1762,7 @@ textures/exx/trim-steptop01
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -1788,7 +1788,7 @@ textures/exx/trim-support03
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -1814,7 +1814,7 @@ textures/exx/trim-vert01
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -1840,7 +1840,7 @@ textures/exx/trim-horz01
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -1867,7 +1867,7 @@ textures/exx/wall-bigrib02
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -1893,7 +1893,7 @@ textures/exx/wall-bplate06
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -2007,7 +2007,7 @@ textures/exx/wall-des01
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -2033,7 +2033,7 @@ textures/exx/wall-metal01
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -2059,7 +2059,7 @@ textures/exx/wall-metal01b
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -2108,7 +2108,7 @@ textures/exx/wall-metal02
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -2134,7 +2134,7 @@ textures/exx/wall-metalb01
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -2160,7 +2160,7 @@ textures/exx/wall-metalrib01
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -2186,7 +2186,7 @@ textures/exx/wall-panel05
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -2212,7 +2212,7 @@ textures/exx/wall-panels08
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -2238,7 +2238,7 @@ textures/exx/wall-panels08b
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -2264,7 +2264,7 @@ textures/exx/wall-pipe
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
@@ -2290,7 +2290,7 @@ textures/exx/wall-u207
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 
-#if r_reflections_world
+#if cl_cubemaps_extra >= 1
 	dpreflectcube env/exomorph/exomorph
 #endif
 
