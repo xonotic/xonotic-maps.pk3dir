@@ -483,7 +483,7 @@ parse_shaderfile_pre()
 	esac
 }
 
-parse_shaders
+parse_shaders *.shader
 
 textures_avail=`( cd ..; find textures/ -type f -not -name '*.sh' -not -name '*_norm.*' -not -name '*_glow.*' -not -name '*_gloss.*' -not -name '*_reflect.*' -not -name '*.xcf' -not -name '*.txt' ) | while IFS= read -r T; do shader_normalize "$T"; done | sort -u`
 textures_used=`echo "${textures_used#$LF}" | sort -u`

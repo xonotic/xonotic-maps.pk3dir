@@ -30,6 +30,8 @@ parse_shaderstage()
 			'}')
 				break
 				;;
+			'')
+				;;
 			*)
 				parse_shaderstage_line "$shaderparser_L" "$shaderparser_A1" "$shaderparser_Aother"
 				;;
@@ -60,6 +62,8 @@ parse_shader()
 				;;
 			'}')
 				break
+				;;
+			'')
 				;;
 			*)
 				parse_shader_line "$shaderparser_L" "$shaderparser_A1" "$shaderparser_Aother"
@@ -109,7 +113,7 @@ shaderparser_strip_comments()
 parse_shaders()
 {
 	shaderparser_t=`mktemp || echo ".temp"`
-	for shaderparser_X in *.shader; do
+	for shaderparser_X in "$@"; do
 		shaderparser_strip_comments < "$shaderparser_X" > "$shaderparser_t"
 		parsing_shaderfile="$shaderparser_X"
 		parse_shaderfile < "$shaderparser_t"
