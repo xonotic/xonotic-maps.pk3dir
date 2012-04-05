@@ -197,3 +197,22 @@ textures/liquids_lava/lava0_purple_flow_pipe
 		tcMod scroll 0 -0.25
 	}
 }
+
+textures/liquids_lava/lava1
+{
+	qer_editorimage textures/liquids_lava/lava1.tga
+	surfaceparm lava
+	surfaceparm trans
+	surfaceparm noimpact
+	cull disable
+	deformVertexes wave 150.0 sin 2 5 0.25 0.1
+	Q3map_TessSize 128
+	q3map_surfacelight 1000
+	q3map_lightSubdivide 64
+	{
+		map textures/liquids_lava/lava1.tga
+		//blendfunc GL_SRC_ALPHA GL_ONE
+		tcMod turb 0 0.1 0.05 0.05
+
+	}
+}
