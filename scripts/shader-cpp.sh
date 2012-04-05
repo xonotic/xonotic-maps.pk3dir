@@ -174,7 +174,7 @@ conditionalize()
 }
 parse_shader_post()
 {
-	allconds=`echo "$shaderconds" | sort -u | grep .`
+	allconds=`echo "$shaderconds" | sort -u | grep . || true`
 	conds=
 	conditionalize "$allconds"
 }
