@@ -3,7 +3,7 @@ description Very small, 1on1 CTF map. Key to survive: move as fast, as the speed
 author C.Brutail
 cdtrack 14 //sensation3
 has weapons
-type ctf 300 20 10
+gametype ctf
 settemp_for_type all g_start_ammo_shells 20 
 // optional: fog density red green blue alpha mindist maxdist
 // optional: settemp_for_type (all|gametypename) cvarname value

@@ -3,10 +3,11 @@ description A classic large scale CTF map
 author SavageX & Calinou
 cdtrack 9
 has weapons
-gametype ctf // defaults: timelimit=20 pointlimit=300 caplimit=10 leadlimit=0
+gametype ctf // defaults: timelimit=20 caplimit=10 leadlimit=0
 gametype rc
 gametype cts
 gametype ons
+gametype nb
 // optional: fog density red green blue alpha mindist maxdist
 // optional: settemp_for_type (all|gametypename) cvarname value
 // optional: clientsettemp_for_type (all|gametypename) cvarname value
@@ -36,4 +37,4 @@ settemp_for_type cts g_start_weapon_shotgun 0
 settemp_for_type cts g_start_weapon_laser 1
 settemp_for_type cts g_cts_finish_kill_delay 0
 
-settemp_for_type ons g_powerup_shield 0
+settemp_for_type ons g_powerups 0

@@ -1,3 +1,4 @@
+alphamod
 common
 decals
 effects_beam
@@ -17,10 +18,14 @@ liquids_slime
 liquids_water
 logos
 map_courtfun
+map_darkzone
+map_g-23
 map_glowplant
 map_leave_em_behind
+map_lightspeed
 map_newtonian-nightmare
 map_red-planet
+map_solarium
 map_space-elevator
 map_stormkeep
 map_techassault
@@ -29,12 +34,12 @@ metaltechx
 model_bigfan01
 model_crate02
 model_desertfactory
+model_lightspeed
 model_teleporters
 model_trak
 model_tree
 model_walker-static
 model_xonotic_jumppad01
-model_xoylent
 narmorx
 phillipk1x
 phillipk2x
