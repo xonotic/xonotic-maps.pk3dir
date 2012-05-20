@@ -29,6 +29,7 @@ textures/city/traffic_green
 	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm trans
+	cull disable
 	nopicmip
 	{
 		map textures/city/traffic_green.tga
@@ -46,6 +47,7 @@ textures/city/traffic_yellow
 	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm trans
+	cull disable
 	nopicmip
 	{
 		map textures/city/traffic_yellow.tga
@@ -61,6 +63,7 @@ textures/city/traffic_red
 	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm trans
+	cull disable
 	nopicmip
 	{
 		map textures/city/traffic_red.tga
@@ -76,6 +79,7 @@ textures/city/pedestrian_green
 	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm trans
+	cull disable
 	nopicmip
 	{
 		map textures/city/pedestrian_green.tga
@@ -91,6 +95,7 @@ textures/city/pedestrian_red
 	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm trans
+	cull disable
 	nopicmip
 	{
 		map textures/city/pedestrian_red.tga
@@ -106,6 +111,7 @@ textures/city/sign_traffic
 	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm trans
+	cull disable
 	nopicmip
 	{
 		map textures/city/traffic_green
@@ -121,6 +127,7 @@ textures/city/sign_traffic_inverted
 	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm trans
+	cull disable
 	nopicmip
 	{
 		map textures/city/traffic_green
@@ -136,6 +143,7 @@ textures/city/sign_pedestrian
 	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm trans
+	cull disable
 	nopicmip
 	{
 		map textures/city/traffic_green
@@ -151,6 +159,7 @@ textures/city/sign_pedestrian_inverted
 	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm trans
+	cull disable
 	nopicmip
 	{
 		map textures/city/traffic_green
