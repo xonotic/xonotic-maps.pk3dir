@@ -36045,3 +36045,48 @@ trak4x/base-rust2b
 }
 }
 }
+{
+"classname" "target_speaker"
+"origin" "2560.000000 -704.000000 640.000000"
+"noise" "sound/ambient/demonwind01.ogg"
+"atten" "1"
+}
+{
+"classname" "target_speaker"
+"origin" "3200.000000 384.000000 128.000000"
+"noise" "sound/ambient/demonwind01.ogg"
+"atten" "1"
+}
+{
+"classname" "target_speaker"
+"origin" "4288.000000 -704.000000 128.000000"
+"noise" "sound/ambient/demonwind01.ogg"
+"atten" "1"
+}
+{
+"classname" "target_speaker"
+"origin" "2560.000000 -704.000000 128.000000"
+"noise" "sound/ambient/demonwind01.ogg"
+"atten" "2"
+}
+{
+"classname" "target_speaker"
+"origin" "1536.000000 -704.000000 640.000000"
+"noise" "sound/ambient/demonwind01.ogg"
+"atten" "1"
+"angle" "-179.999985"
+}
+{
+"classname" "target_speaker"
+"origin" "1536.000000 -704.000000 128.000000"
+"noise" "sound/ambient/demonwind01.ogg"
+"atten" "2"
+"angle" "-179.999985"
+}
+{
+"classname" "target_speaker"
+"origin" "4800.000000 448.000000 384.000000"
+"noise" "sound/city/City_night_LOOP.wav"
+"atten" "1"
+"angle" "-135.000000"
+}
