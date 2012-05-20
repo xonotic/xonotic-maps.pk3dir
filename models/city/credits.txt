@@ -1,0 +1,3 @@
+car_0: http://opengameart.org/content/car-vw-corradon (by rohezal)
+
+knight_statue: http://opengameart.org/content/knight-statue (by yd)
