@@ -321,6 +321,9 @@ Trains cannot be block-stopped just by getting in their way, the player must be 
 <real key="dmgtime" name="dmgtime">interval to apply dmg to a player who is s in the way</real>
 <string key="message" name="message">death message when a player gets crushed</string>
 <string key="message2" name="message2">death message when someone gets pushed into this (default: &quot;was thrown into a world of hurt by&quot;). The # character is replaced by the attacker name if present (and it instead does not get appended to the end)</string>
+-------- SPAWNFLAGS --------
+<flag key="BEZIER_CURVES" name="BEZIER_CURVES" bit="0">use bezier curves movement instead of linear movement. See the path_corner properties for how to define a curve</flag>
+<flag key="ROTATE" name="ROTATE" bit="1">the train faces the direction it's riding towards. Requires bezier curves movement and the train to have an origin brush</flag>
 </group>
 
 <point name="info_autoscreenshot" color="0 0 0.2" box="-8 -8 -8 8 8 8">
