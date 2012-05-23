@@ -314,7 +314,7 @@ Trains are not trigger-able or toggle-able.
 Trains cannot be block-stopped just by getting in their way, the player must be wedged between the train and another obstacle to block it.
 -------- KEYS --------
 <real key="speed" name="speed">default/initial speed of train (default 100 or overridden by speed value of targeted path_corner)</real>
-<real key="platmovetype" name="platmovetype">movement type (1 = linear, 2 = cosine [default], 3 = sine, 4 = half cosine, 5 = half sine)</real>
+<real key="platmovetype" name="platmovetype">movement type (1 = linear, 2 = cosine [default], 3 = inverted cosine, 4 = half cosine, 5 = half inverted cosine)</real>
 <target key="target" name="target">targetname of first path_corner to move to at the default speed; ideally, this path_corner shall be exactly where the train starts</target>
 <sound key="noise" name="noise">path/name of .wav or .ogg file to play while moving. Use looping sounds only (e.g. sound/world/drone6.wav - See Notes).</sound>
 <real key="dmg" name="dmg">damage a player who gets crushed by it receives</real>
