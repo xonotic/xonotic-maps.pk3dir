@@ -1050,7 +1050,7 @@ All path_corner entities of a train have to connect in a circular manner, while 
 <target key="target3" name="target3">triggered when a func_train stops at this target</target>
 <target key="target4" name="target4">triggered when a func_train stops at this target</target>
 <curve key="curve" name="curve">if the train uses bezier curves movement, specify an entity by targetname which is the control point of the curve (use something like target_position)</target>
-<real key="platmovetype" name="platmovetype">override the train's movement type while going to this corner (0 = no override, 1 = linear, 2 = cosine [default], 3 = sine, 4 = half cosine, 5 = half sine)</real>
+<real key="platmovetype" name="platmovetype">override the train's movement type while going to this corner (1 = linear, 2 = cosine [default], 3 = inverted cosine, 4 = half cosine, 5 = half inverted cosine)</real>
 <boolean key="target_random" name="target_random">instead of triggering ALL matched entities, trigger ONE of them by random</boolean>
 <targetname key="targetname" name="targetname">the train following the path or the previous path_corner in the path points to this.</targetname>
 <real key="speed" name="speed">speed of func_train while moving to this path corner. If unset, the value from the func_train will be used.</real>
