@@ -1,4 +1,5 @@
 -bsp + -samplesize 4
+-nolight
 -vis +
 -minimap +
 //-sRGB
