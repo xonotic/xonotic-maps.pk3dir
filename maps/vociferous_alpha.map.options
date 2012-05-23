@@ -1,5 +1,4 @@
 -bsp + -samplesize 4
-//-light + -bounce 6 -dirtscale 2
 -vis +
 -minimap +
 //-sRGB
