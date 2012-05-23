@@ -6606,3 +6606,8 @@ trak5x/misc-glass
 "classname" "item_armor_big"
 "origin" "-896.000000 -1280.000000 192.000000"
 }
+{
+"classname" "info_autoscreenshot"
+"origin" "0.000000 -924.000000 568.000000"
+"angles" "36 90.000000 0.000000"
+}
