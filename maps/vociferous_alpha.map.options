@@ -1,6 +1,6 @@
--bsp + -samplesize 4
--nolight
+-bsp +
+-light +
 -vis +
 -minimap +
-//-sRGB
+-sRGB
 Version: 1
