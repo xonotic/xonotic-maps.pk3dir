@@ -7423,7 +7423,7 @@ trak5x/misc-glass
 {
 "classname" "trigger_push"
 "target" "jumppad1"
-"height" "200"
+"height" "100"
 {
 ( -48 -592 8 ) ( -48 -880 88 ) ( -48 -880 56 ) common/trigger 96 208 0 0.5 0.5 0 0 0
 ( -104 -752 88 ) ( 184 -752 56 ) ( -104 -752 56 ) common/trigger 176 208 0 0.5 0.5 0 0 0
@@ -7448,7 +7448,7 @@ trak5x/misc-glass
 }
 {
 "classname" "misc_teleporter_dest"
-"origin" "-1024.000000 -640.000000 408.000000"
+"origin" "-1024.000000 -608.000000 424.000000"
 "angle" "-90.000000"
 "targetname" "misc_teleporter_dest1"
 }
