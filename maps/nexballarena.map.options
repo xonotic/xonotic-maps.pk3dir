@@ -2,3 +2,5 @@
 -light + -bounce 8 -dirtscale 2 -bouncescale 1.15 -exposure 150
 -vis +
 -minimap +
+-nosRGB
+Version: 1

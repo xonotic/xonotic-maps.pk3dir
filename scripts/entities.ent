@@ -131,6 +131,26 @@ When a button is touched by a player, it moves in the direction set by the &quot
 <flag key="NOSPLASH" name="NOSPLASH" bit="8">if set, splash damage cannot activate the door, only direct damage can (requires health to be set)</flag>
 </group>
 
+<group name="func_conveyor" color="0 .5 .8">
+A conveyor. Solid brush version.
+-------- KEYS --------
+<targetname key="targetname" name="targetname">if set, it can be turned on/off</targetname>
+<direction key="angle" name="angle">determines the opening direction</direction>
+<real key="speed" name="speed">movement speed (200 default)</real>
+-------- SPAWNFLAGS --------
+<flag key="START_ON" name="START_ON" bit="0">the conveyor is turned on if not triggered</flag>
+</group>
+
+<group name="trigger_conveyor" color="0 .5 .8">
+A conveyor. Nonsolid trigger version.
+-------- KEYS --------
+<targetname key="targetname" name="targetname">if set, it can be turned on/off</targetname>
+<direction key="angle" name="angle">determines the opening direction</direction>
+<real key="speed" name="speed">movement speed (200 default)</real>
+-------- SPAWNFLAGS --------
+<flag key="START_ON" name="START_ON" bit="0">the conveyor is turned on if not triggered</flag>
+</group>
+
 <group name="func_door" color="0 .5 .8">
 Normal sliding door entity. By default, the door will activate when player walks close to it or when damage is inflicted to it.
 If DOOR_DONT_LINK is not set, the door will be linked with all doors it touches. Note however that for linked doors to work properly, it is necessary that ALL linked doors have SOME volume of common area (that is, there must be a point that is part of ALL doors).
@@ -261,7 +281,7 @@ This is an invisible area like a trigger, which rain falls inside of.
 Brush entity that spins in place on one axis (default Z). Use an origin brush to specify the rotation axis.
 To rotate around another axis, make a func_wall with an explicit avelocity given.
 -------- KEYS --------
-<real key="speed" name="speed">speed to rotate (in degrees per second)</real>
+<real key="speed" name="speed">speed to rotate (in degrees per second, default: 100)</real>
 <sound key="noise" name="noise">path/name of looping .wav file to play.</sound>
 <real key="dmg" name="dmg">Do this much dmg every .dmgtime interval when blocked</real>
 <real key="dmgtime" name="dmgtime">See above. (0.25s default)</real>
@@ -303,6 +323,13 @@ Trains cannot be block-stopped just by getting in their way, the player must be 
 <string key="message2" name="message2">death message when someone gets pushed into this (default: &quot;was thrown into a world of hurt by&quot;). The # character is replaced by the attacker name if present (and it instead does not get appended to the end)</string>
 </group>
 
+<point name="info_autoscreenshot" color="0 0 0.2" box="-8 -8 -8 8 8 8">
+Location to make the first autoscreenshots from. At most three such entities may be used!
+-------- KEYS --------
+<angles key="angles" name="angles">view direction of the camera in PITCH YAW ROLL</angles>
+<target key="target" name="target">targetname of a target_position for the view direction, alternatively to specifying angles</target>
+</point>
+
 <point name="info_location" color="1 1 0" box="-8 -8 -8 8 8 8">
 Location for use by the %l escape in &quot;say&quot; messages.
 The closest &quot;visible&quot; info_location entity is chosen to find the right location name for a point.
@@ -338,7 +365,9 @@ Attacking team's player spawning location in Assault. Should touch the floor, bu
 Normal player spawning location in game types without team spawns. Should touch the floor, but not the walls, and should point where the player should look when he spawns there.
 -------- KEYS --------
 <real key="cnt" name="cnt">weight of spawn point for random selection. Set to a lower value if you have many spawn points close together. Default value is 1.</real>
-<target key="target" name="target">trigger all entities with this targetname when someone spawns</target>
+<target key="target2" name="target2">trigger all entities with this targetname when someone spawns</target>
+<target key="target3" name="target3">trigger all entities with this targetname when someone spawns</target>
+<target key="target4" name="target4">trigger all entities with this targetname when someone spawns</target>
 <targetname key="targetname" name="targetname">when targeted by a func_button, pressing the button will assign the spawn point to the team of the activator as an additional spawn point, or reassign it if it was already assigned. Also used to assign spawn points to Onslaught control points.</targetname>
 <real key="restriction" name="restriction">when 1, only bots can spawn here; when 2, only humans can spawn here (be careful with these, or the game will crash because someone cannot spawn)</real>
 </point>
@@ -359,7 +388,9 @@ Defending team's player spawning location in Assault. Should touch the floor, bu
 Red team's player spawning location in e.g. CTF and Onslaught. Should touch the floor, but not the walls, and should point where the player should look when he spawns there.
 -------- KEYS --------
 <real key="cnt" name="cnt">weight of spawn point for random selection. Set to a lower value if you have many spawn points close together. Default value is 1.</real>
-<target key="target" name="target">trigger all entities with this targetname when someone spawns</target>
+<target key="target2" name="target2">trigger all entities with this targetname when someone spawns</target>
+<target key="target3" name="target3">trigger all entities with this targetname when someone spawns</target>
+<target key="target4" name="target4">trigger all entities with this targetname when someone spawns</target>
 <targetname key="targetname" name="targetname">when targeted by a func_button, pressing the button will reassign the spawn point to the team of the activator. If a team has no more spawn point left, it immediately loses.</targetname>
 <real key="restriction" name="restriction">when 1, only bots can spawn here; when 2, only humans can spawn here (be careful with these, or the game will crash because someone cannot spawn)</real>
 </point>
@@ -368,7 +399,9 @@ Red team's player spawning location in e.g. CTF and Onslaught. Should touch the 
 Blue team's player spawning location in e.g. CTF and Onslaught. Should touch the floor, but not the walls, and should point where the player should look when he spawns there.
 -------- KEYS --------
 <real key="cnt" name="cnt">weight of spawn point for random selection. Set to a lower value if you have many spawn points close together. Default value is 1.</real>
-<target key="target" name="target">trigger all entities with this targetname when someone spawns</target>
+<target key="target2" name="target2">trigger all entities with this targetname when someone spawns</target>
+<target key="target3" name="target3">trigger all entities with this targetname when someone spawns</target>
+<target key="target4" name="target4">trigger all entities with this targetname when someone spawns</target>
 <targetname key="targetname" name="targetname">when targeted by a func_button, pressing the button will reassign the spawn point to the team of the activator. If a team has no more spawn point left, it immediately loses.</targetname>
 <real key="restriction" name="restriction">when 1, only bots can spawn here; when 2, only humans can spawn here (be careful with these, or the game will crash because someone cannot spawn)</real>
 </point>
@@ -377,7 +410,9 @@ Blue team's player spawning location in e.g. CTF and Onslaught. Should touch the
 Yellow team's player spawning location, but there is no game mode to use this yet. Anyway, should touch the floor, but not the walls, and should point where the player should look when he spawns there.
 -------- KEYS --------
 <real key="cnt" name="cnt">weight of spawn point for random selection. Set to a lower value if you have many spawn points close together. Default value is 1.</real>
-<target key="target" name="target">trigger all entities with this targetname when someone spawns</target>
+<target key="target2" name="target2">trigger all entities with this targetname when someone spawns</target>
+<target key="target3" name="target3">trigger all entities with this targetname when someone spawns</target>
+<target key="target4" name="target4">trigger all entities with this targetname when someone spawns</target>
 <targetname key="targetname" name="targetname">when targeted by a func_button, pressing the button will reassign the spawn point to the team of the activator. If a team has no more spawn point left, it immediately loses.</targetname>
 <real key="restriction" name="restriction">when 1, only bots can spawn here; when 2, only humans can spawn here (be careful with these, or the game will crash because someone cannot spawn)</real>
 </point>
@@ -386,7 +421,9 @@ Yellow team's player spawning location, but there is no game mode to use this ye
 Pink team's player spawning location, but there is no game mode to use this yet. Anyway, should touch the floor, but not the walls, and should point where the player should look when he spawns there.
 -------- KEYS --------
 <real key="cnt" name="cnt">weight of spawn point for random selection. Set to a lower value if you have many spawn points close together. Default value is 1.</real>
-<target key="target" name="target">trigger all entities with this targetname when someone spawns</target>
+<target key="target2" name="target2">trigger all entities with this targetname when someone spawns</target>
+<target key="target3" name="target3">trigger all entities with this targetname when someone spawns</target>
+<target key="target4" name="target4">trigger all entities with this targetname when someone spawns</target>
 <targetname key="targetname" name="targetname">when targeted by a func_button, pressing the button will reassign the spawn point to the team of the activator. If a team has no more spawn point left, it immediately loses.</targetname>
 <real key="restriction" name="restriction">when 1, only bots can spawn here; when 2, only humans can spawn here (be careful with these, or the game will crash because someone cannot spawn)</real>
 </point>
