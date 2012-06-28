@@ -1,0 +1,6 @@
+-bsp + -samplesize 32 -minsamplesize 16 -np 20
+-light + -fast -gamma 1.5 -compensate 2 -samples 3
+-vis +
+-minimap +
+-nosRGB
+Version: 1
