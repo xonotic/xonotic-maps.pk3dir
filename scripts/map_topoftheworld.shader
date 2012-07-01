@@ -1,4 +1,6 @@
-textures/map_topoftheworld/ter-lower1
+
+
+textures/map_topoftheworld/ice
 {
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 2 match8 184
@@ -6,6 +8,58 @@ textures/map_topoftheworld/ter-lower1
 	q3map_lightmapSampleOffset 16
 	q3map_nonplanar
 	q3map_shadeangle 30
+	qer_editorimage textures/terrain01x/ground/ice01
+
+	{
+		map	textures/terrain01x/ground/ice01
+		blendFunc blend
+		alphagen vertex
+	} 
+	{
+		map	$lightmap
+		blendfunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+
+	} 
+}
+
+textures/map_topoftheworld/ter-base
+{
+	q3map_lightmapSampleOffset 20
+	q3map_nonplanar
+	q3map_shadeangle 25
+	q3map_bounceScale  0.5
+//	q3map_tcMod scale 10 10
+}
+
+textures/map_topoftheworld/ter-cracks
+{
+	dpoffsetmapping - 2 match8 184
+	q3map_baseShader textures/map_topoftheworld/ter-base
+
+	qer_editorimage textures/terrain01x/rock/rock03
+
+	{
+		map	textures/terrain01x/ground/drylake01.tga
+	} 
+	{
+		map	textures/terrain01x/rock/rock03
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
+		alphagen vertex
+	} 
+	{
+		map	$lightmap
+		blendfunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+
+	} 
+}
+
+textures/map_topoftheworld/ter-lower1
+{
+	dpoffsetmapping - 2 match8 184
+	q3map_baseShader textures/map_topoftheworld/ter-base
+
 	qer_editorimage textures/terrain01x/ground/drylake01.tga
 
 	{
@@ -26,12 +80,8 @@ textures/map_topoftheworld/ter-lower1
 
 textures/map_topoftheworld/ter-lower2
 {
-	q3map_bounceScale  0.5
 	dpoffsetmapping - 2 match8 184
-
-	q3map_lightmapSampleOffset 16
-	q3map_nonplanar
-	q3map_shadeangle 30
+	q3map_baseShader textures/map_topoftheworld/ter-base
 	qer_editorimage textures/map_topoftheworld/ground1
 
 	{
@@ -52,12 +102,8 @@ textures/map_topoftheworld/ter-lower2
 
 textures/map_topoftheworld/path-mix
 {
-	q3map_bounceScale  0.5
 	dpoffsetmapping - 2 match8 184
-
-	q3map_lightmapSampleOffset 16
-	q3map_nonplanar
-	q3map_shadeangle 30
+	q3map_baseShader textures/map_topoftheworld/ter-base
 	qer_editorimage textures/terrain01x/rock/mars02.tga
 
 	{
@@ -79,12 +125,8 @@ textures/map_topoftheworld/path-mix
 
 textures/map_topoftheworld/ter-upper
 {
-	q3map_bounceScale  0.5
 	dpoffsetmapping - 2 match8 184
-
-	q3map_lightmapSampleOffset 16
-	q3map_nonplanar
-	q3map_shadeangle 30
+	q3map_baseShader textures/map_topoftheworld/ter-base
 	qer_editorimage textures/terrain01x/rock/mars02.tga
 
 	{
@@ -122,70 +164,64 @@ textures/map_topoftheworld/hexglass
     }
 }
 
-textures/topoftheworld/lightning1_a
+textures/map_topoftheworld/plasma-1
 {
-	qer_editorimage textures/effects_lightning/lightning1/1.tga
+	qer_editorimage textures/map_topoftheworld/effects/plasma1
+
+	surfaceparm nonsolid
+	surfaceparm trans
+
 	surfaceparm nolightmap
 	surfaceparm nodlight
-	surfaceparm trans
-	surfaceparm nomarks
-	surfaceparm noimpact
+	surfacepatm nosolid
+	qer_trans 0.5
+	dpnoshadow
+
 	{
-		animMap 15 textures/effects_lightning/lightning1/1.tga textures/effects_lightning/lightning1/2.tga textures/effects_lightning/lightning1/3.tga textures/effects_lightning/lightning1/4.tga textures/effects_lightning/lightning1/5.tga textures/effects_lightning/lightning1/6.tga textures/effects_lightning/lightning1/7.tga textures/effects_lightning/lightning1/8.tga textures/effects_lightning/lightning1/9.tga textures/effects_lightning/lightning1/10.tga textures/effects_lightning/lightning1/11.tga
+		map textures/map_topoftheworld/effects/plasma1
 		blendfunc add
-		tcMod scroll 2 1
-		tcMod rotate 32
-		tcMod stretch sawtooth .6 .2 0 1
+		tcMod scroll 2 -2
+		tcMod rotate 16
+		tcMod stretch sin 7 1.5 1 0.85 
 	}
 }
 
-textures/topoftheworld/lightning1_b
+textures/map_topoftheworld/plasma-2
 {
-	qer_editorimage textures/effects_lightning/lightning1/4.tga
+	qer_editorimage textures/map_topoftheworld/effects/plasma2
+
+	surfaceparm nonsolid
+	surfaceparm trans
+
 	surfaceparm nolightmap
 	surfaceparm nodlight
-	surfaceparm trans
-	surfaceparm nomarks
-	surfaceparm noimpact
+	surfacepatm nosolid
+	qer_trans 0.5
+	dpnoshadow
+
 	{
-		animMap 15 textures/effects_lightning/lightning1/4.tga textures/effects_lightning/lightning1/5.tga textures/effects_lightning/lightning1/6.tga textures/effects_lightning/lightning1/7.tga textures/effects_lightning/lightning1/8.tga textures/effects_lightning/lightning1/9.tga textures/effects_lightning/lightning1/10.tga textures/effects_lightning/lightning1/11.tga textures/effects_lightning/lightning1/1.tga textures/effects_lightning/lightning1/2.tga textures/effects_lightning/lightning1/3.tga
+		map textures/map_topoftheworld/effects/plasma2
 		blendfunc add
-		tcMod scroll -3 2
-		tcMod rotate -16
-		tcMod stretch sawtooth .1 .4 1 2
+		tcMod scroll 0.5 0.1
+		tcMod rotate -1
+		tcMod stretch sin 1 0.2 1 0.1
 	}
 }
 
-textures/topoftheworld/lightning1_c
+textures/map_topoftheworld/softbox
 {
-	qer_editorimage textures/effects_lightning/lightning1/6.tga
-	surfaceparm nolightmap
-	surfaceparm nodlight
-	surfaceparm trans
-	surfaceparm nomarks
-	surfaceparm noimpact
-	{
-		animMap 15 textures/effects_lightning/lightning1/6.tga textures/effects_lightning/lightning1/7.tga textures/effects_lightning/lightning1/8.tga textures/effects_lightning/lightning1/9.tga textures/effects_lightning/lightning1/10.tga textures/effects_lightning/lightning1/11.tga textures/effects_lightning/lightning1/1.tga textures/effects_lightning/lightning1/2.tga textures/effects_lightning/lightning1/3.tga textures/effects_lightning/lightning1/4.tga textures/effects_lightning/lightning1/5.tga
-		blendfunc add
-		tcMod scroll 0.5 1
-		tcMod rotate 4
-		tcMod stretch sawtooth .9 .3 1 0.2
-	}
-}
+	qer_editorimage textures/map_topoftheworld/effects/softbox
 
-textures/topoftheworld/lightning1_d
-{
-	qer_editorimage textures/effects_lightning/lightning1/8.tga
+	surfaceparm nonsolid
+	surfaceparm trans
 	surfaceparm nolightmap
 	surfaceparm nodlight
-	surfaceparm trans
-	surfaceparm nomarks
-	surfaceparm noimpact
+	surfacepatm nosolid
+	qer_trans 0.5
+	dpnoshadow
+
 	{
-		animMap 15 textures/effects_lightning/lightning1/8.tga textures/effects_lightning/lightning1/9.tga textures/effects_lightning/lightning1/10.tga textures/effects_lightning/lightning1/11.tga textures/effects_lightning/lightning1/1.tga textures/effects_lightning/lightning1/2.tga textures/effects_lightning/lightning1/3.tga textures/effects_lightning/lightning1/4.tga textures/effects_lightning/lightning1/5.tga textures/effects_lightning/lightning1/6.tga textures/effects_lightning/lightning1/7.tga
-		blendfunc add
-		tcMod scroll 0.1 0.1
-		tcMod rotate 9
-		tcMod stretch sawtooth .5 .3 0.2 0.7
+		map textures/map_topoftheworld/effects/softbox
+		blendfunc filter
 	}
 }
