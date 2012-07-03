@@ -1,3 +1,28 @@
+textures/map_topoftheworld/crystal1
+{
+	dpreflectcube cubemaps/default/sky
+
+	q3map_lightmapSampleOffset 16
+	q3map_lightmapfilterradius 4 0
+	q3map_bounceScale  2
+	dpoffsetmapping - 2 match8 65
+	dpglossintensitymod  1
+	dpglossexponentmod  1
+//	surfaceparm nolightmap
+
+	{
+		map textures/map_topoftheworld/crystal1
+//		rgbgen lightingDiffuse
+		tcGen environment
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+	
 
 
 textures/map_topoftheworld/ice
@@ -25,7 +50,9 @@ textures/map_topoftheworld/ice
 
 textures/map_topoftheworld/ter-base
 {
-	q3map_lightmapSampleOffset 20
+	q3map_lightmapfilterradius 8 0
+	q3map_lightmapSampleSize 64
+	q3map_lightmapSampleOffset 32
 	q3map_nonplanar
 	q3map_shadeangle 25
 	q3map_bounceScale  0.5
@@ -41,6 +68,7 @@ textures/map_topoftheworld/ter-cracks
 
 	{
 		map	textures/terrain01x/ground/drylake01.tga
+//		map	textures/map_topoftheworld/ground1
 	} 
 	{
 		map	textures/terrain01x/rock/rock03
