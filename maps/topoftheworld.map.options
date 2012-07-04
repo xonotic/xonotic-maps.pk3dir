@@ -1,6 +1,5 @@
--bsp + -samplesize 32 -minsamplesize 16 -np 20
--light + -fast -gamma 1.5 -compensate 2 -samples 3
+-bsp +
+-light + -fast -gamma 0.85 -patchshadows -sky 1 -dirty -dirtscale 4 -sRGB 
 -vis +
 -minimap +
--nosRGB
-Version: 1
+Version: 2
