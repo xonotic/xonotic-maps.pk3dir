@@ -1,0 +1,5 @@
+-bsp + 
+-light + -fast -gamma 0.9 -patchshadows -dirty -dirtscale 3 -sRGB -lightmapsize 1024
+-vis +
+-minimap +
+Version: 1

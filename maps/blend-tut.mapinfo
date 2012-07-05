@@ -1,0 +1,6 @@
+title blend-tut
+description Example map for vertex colour textue blending
+author Jakob "tZork" MG
+cdtrack 2
+gametype dm
+hidden
