@@ -1,0 +1,13 @@
+title Top of the world
+description Large scale vehicle ctf & onslught map
+author Jakob "tZork" Markström Gröhn
+cdtrack 10
+has weapons
+has turrets
+has weapons
+gametype ctf caplimit=5 timelimit=60
+gametype ons timelimit=60
+settemp_for_type all g_turrets_unit_plasma_dual_respawntime 120
+settemp_for_type all g_turrets_unit_mlrs_std_respawntime 180
+settemp_for_type all g_turrets_unit_flac_std_respawntime 240
+settemp_for_type all g_turrets_unit_plasma_dual_shot_speed 5000
