@@ -1,5 +1,0 @@
--bsp +
--light + -fast -gamma 0.85 -patchshadows -sky 1 -dirty -dirtscale 4 -sRGB 
--vis +
--minimap +
-Version: 2
