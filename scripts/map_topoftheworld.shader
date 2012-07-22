@@ -1,17 +1,3 @@
-textures/map_topoftheworld/shipyardz
-{
-	dpreflectcube cubemaps/default/sky
-	q3map_noTJunc
-	q3map_noClip
-	surfaceparm nolightmap
-
-	{
-		map textures/map_topoftheworld/shipyard
-		rgbgen lightingDiffuse
-//		tcGen environment
-	}
-}
-	
 textures/map_topoftheworld/ter-base
 {
 
@@ -23,31 +9,7 @@ textures/map_topoftheworld/ter-base
 	q3map_bounceScale  0.5
 }
 
-textures/map_topoftheworld/ter-upper2
-{
-	dpoffsetmapping - 2 match8 184
-	q3map_baseShader textures/map_topoftheworld/ter-base
-	qer_editorimage textures/terrain01x/rock/mars02.tga
-
-	{
-		map	textures/terrain01x/ground/ice01
-
-	} 
-	{
-		map	textures/terrain01x/rock/mars02.tga
-		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
-		alphagen vertex
-	} 
-	{
-		map	$lightmap
-		blendfunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-
-	} 
-}
-
-textures/map_topoftheworld/ter-upper
-
+textures/map_topoftheworld/ter-upper-rock
 {
 	q3map_baseShader textures/map_topoftheworld/ter-base
 	qer_editorimage textures/terrain01x/rock/mars02
@@ -57,46 +19,43 @@ textures/map_topoftheworld/ter-upper
 		tcGen lightmap
 	}
 	{
-		map	textures/terrain01x/rock/mars02.tga
+		map	textures/map_topoftheworld/rock/mars02.tga
 		rgbGen identity
 		blendFunc GL_DST_COLOR GL_ZERO
 	}
 }
 
-
-textures/map_topoftheworld/pure_ice
+textures/map_topoftheworld/ter-pureice
 {
 	q3map_baseShader textures/map_topoftheworld/ter-base
 	q3map_bounceScale  2
 //	dpreflectcube textures/map_topoftheworld/reflect/totw
-	qer_editorimage textures/map_topoftheworld/ice01
+	qer_editorimage textures/map_topoftheworld/misc/ice01
+
 	{
 		map $lightmap
 		rgbGen identity
 		tcGen lightmap
 	}
 	{
-		//map textures/map_topoftheworld/ice01
-		map	textures/terrain01x/ground/ice01
+		map	textures/map_topoftheworld/misc/ice01
 		rgbGen identity
 		blendFunc GL_DST_COLOR GL_ZERO
 	}
 }
 
-textures/map_topoftheworld/ice_ice
+textures/map_topoftheworld/ter-ice-rock
 {
 	q3map_bounceScale  1.2
 	dpoffsetmapping - 2 match8 184
-	qer_editorimage textures/map_topoftheworld/ice01
+	qer_editorimage textures/map_topoftheworld/misc/ice01
 	q3map_baseShader textures/map_topoftheworld/ter-base
 
 	{
-		map	textures/terrain01x/rock/mars02.tga
-
+		map	textures/map_topoftheworld/rock/mars02.tga
 	} 
 	{
-		map	textures/terrain01x/ground/ice01
-		//map	textures/map_topoftheworld/ice01
+		map	textures/map_topoftheworld/misc/ice01
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
 		alphagen vertex
 	} 
@@ -104,63 +63,15 @@ textures/map_topoftheworld/ice_ice
 		map	$lightmap
 		blendfunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
-
-	} 
-
-}
-
-textures/map_topoftheworld/crystal1
-{
-	q3map_lightmapSampleOffset 16
-	q3map_lightmapfilterradius 4 0
-	q3map_bounceScale  2
-	dpreflectcube textures/map_topoftheworld/reflect/totw
-	{
-		map $lightmap
-		rgbGen identity
-		tcGen lightmap
-	}
-	{
-		map textures/map_topoftheworld/crystal1
-		rgbGen identity
-		blendFunc GL_DST_COLOR GL_ZERO
-		tcGen environment
-	}
-}
-
-
-
-
-textures/map_topoftheworld/ice
-{
-	q3map_bounceScale  0.5
-	dpoffsetmapping - 2 match8 184
-
-	q3map_lightmapSampleOffset 16
-	q3map_nonplanar
-	q3map_shadeangle 30
-	qer_editorimage textures/map_topoftheworld/ice01
-
-	{
-		map	textures/map_topoftheworld/ice01
-		blendFunc blend
-		alphagen vertex
-	} 
-	{
-		map	$lightmap
-		blendfunc GL_DST_COLOR GL_ZERO
-		rgbGen identity
-
 	} 
 }
 
-textures/map_topoftheworld/ter-lower1
+textures/map_topoftheworld/ter-lower-sides
 {
 	dpoffsetmapping - 2 match8 184
 	q3map_baseShader textures/map_topoftheworld/ter-base
-
 	qer_editorimage textures/map_topoftheworld/rock/rougth1
-
+//	q3map_alphaMod dotproduct2 ( 0 0 0.95 )
 	{
 		map	textures/map_topoftheworld/ground/drylake01.tga
 	} 
@@ -173,40 +84,31 @@ textures/map_topoftheworld/ter-lower1
 		map	$lightmap
 		blendfunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
-
 	} 
 }
 
-textures/map_topoftheworld/ter-lower2
+textures/map_topoftheworld/ter-lower-edge
 {
 	dpoffsetmapping - 2 match8 184
 	q3map_baseShader textures/map_topoftheworld/ter-base
-	qer_editorimage textures/map_topoftheworld/sand1
-
+	qer_editorimage textures/map_topoftheworld/ground/drylake01
 	{
-		map	textures/map_topoftheworld/ground/drylake01
-	} 
-	{
-		//map	textures/map_topoftheworld/ground/redstone
-		map	textures/map_topoftheworld/ground/drylake01
-
-		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
-		alphagen vertex
-	} 
-	{
-		map	$lightmap
-		blendfunc GL_DST_COLOR GL_ZERO
+		map $lightmap
 		rgbGen identity
-
-	} 
+		tcGen lightmap
+	}
+	{
+		map	textures/map_topoftheworld/ground/drylake01
+		rgbGen identity
+		blendFunc GL_DST_COLOR GL_ZERO		
+	}
 }
 
-textures/map_topoftheworld/ter-lower4
+textures/map_topoftheworld/ter-lower-edge2
 {
 	dpoffsetmapping - 2 match8 184
 	q3map_baseShader textures/map_topoftheworld/ter-base
-	qer_editorimage textures/map_topoftheworld/sand1
-
+	qer_editorimage textures/map_topoftheworld/ground/drylake01
 	{
 		map	textures/map_topoftheworld/ground/redstone
 	} 
@@ -224,18 +126,16 @@ textures/map_topoftheworld/ter-lower4
 }
 
 
-textures/map_topoftheworld/ter-lower3
+textures/map_topoftheworld/ter-lower-ground
 {
 	dpoffsetmapping - 2 match8 184
 	q3map_baseShader textures/map_topoftheworld/ter-base
-	qer_editorimage textures/map_topoftheworld/sand1
-
+	qer_editorimage textures/map_topoftheworld/ground/sand02
 	{
 		map	textures/map_topoftheworld/ground/redstone
 	} 
 	{
-		//map	textures/map_topoftheworld/sand1
-		map	textures/terrain01x/ground/sand04
+		map	textures/map_topoftheworld/ground/sand02
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
 		alphagen vertex
 	} 
@@ -248,11 +148,11 @@ textures/map_topoftheworld/ter-lower3
 }
 
 
-textures/map_topoftheworld/path-mix
+textures/map_topoftheworld/ter-lower-to-upper
 {
 	dpoffsetmapping - 2 match8 184
 	q3map_baseShader textures/map_topoftheworld/ter-base
-	qer_editorimage textures/terrain01x/rock/mars02.tga
+	qer_editorimage textures/map_topoftheworld/rock/mars02.tga
 
 	{
 		map	textures/terrain01x/rock/mars02
@@ -273,11 +173,13 @@ textures/map_topoftheworld/path-mix
 textures/map_topoftheworld/hexglass
 {
 	q3map_bouncescale 3
-	dpreflectcube cubemaps/default/sky
+	dpreflectcube textures/map_topoftheworld/reflect/totw
 	dpnoshadow
 	surfaceparm trans
+	qer_editorimage textures/map_topoftheworld/misc/hexglass.tga
+	
  	{
-		map textures/map_topoftheworld/hexglass.tga
+		map textures/map_topoftheworld/misc/hexglass.tga
 		blendfunc blend
 		rgbgen lightingDiffuse
 	}
@@ -316,7 +218,6 @@ textures/map_topoftheworld/plasma-2
 
 	surfaceparm nonsolid
 	surfaceparm trans
-
 	surfaceparm nolightmap
 	surfaceparm nodlight
 	surfacepatm nosolid
@@ -332,39 +233,23 @@ textures/map_topoftheworld/plasma-2
 	}
 }
 
-textures/map_topoftheworld/softbox
+textures/map_topoftheworld/crystal1
 {
-	qer_editorimage textures/map_topoftheworld/effects/softbox
-
-	surfaceparm nonsolid
-	surfaceparm trans
-	surfaceparm nolightmap
-	surfaceparm nodlight
-	surfacepatm nosolid
-	qer_trans 0.5
-	dpnoshadow
-
-	{
-		map textures/map_topoftheworld/effects/softbox
-		blendfunc filter
-	}
-}
-
-textures/map_topoftheworld/pure_ice3
-{
-	q3map_baseShader textures/map_topoftheworld/ter-base
+	q3map_lightmapSampleOffset 16
+	q3map_lightmapfilterradius 4 0
 	q3map_bounceScale  2
-//	dpreflectcube textures/map_topoftheworld/reflect/totw
-	qer_editorimage textures/map_topoftheworld/ice01
+	dpreflectcube textures/map_topoftheworld/reflect/totw
+	qer_editorimage textures/map_topoftheworld/misc/crystal1
+
 	{
 		map $lightmap
 		rgbGen identity
 		tcGen lightmap
 	}
 	{
-		//map textures/map_topoftheworld/ice01
-		map	textures/terrain01x/ground/ice01
+		map textures/map_topoftheworld/misc/crystal1
 		rgbGen identity
 		blendFunc GL_DST_COLOR GL_ZERO
+		tcGen environment
 	}
 }

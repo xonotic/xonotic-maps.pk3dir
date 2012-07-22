@@ -1,5 +1,5 @@
 -bsp +
--light + -fast -gamma 0.75 -patchshadows -sky 1 -dirty -dirtscale 5 -sRGB 
+-light + -light -deluxe -fast -gamma 0.85 -patchshadows -sky 1 -dirty -dirtscale 4 -sRGB -lightmapsize 1024
 -vis +
 -minimap +
 Version: 4
