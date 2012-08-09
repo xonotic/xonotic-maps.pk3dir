@@ -1,5 +1,6 @@
 -bsp +
 -vis +
+-nolight
 -minimap +
 -nosRGB
 Version: 1
