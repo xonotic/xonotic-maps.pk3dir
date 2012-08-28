@@ -26040,3 +26040,8 @@ trak5x/base-base1a
 "volume" "2"
 "atten" ".35"
 }
+{
+"classname" "info_autoscreenshot"
+"origin" "'691.4 -1733.8 281.3'"
+"angles" "' 16.4 -131.3   0.0'"
+}
