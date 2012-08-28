@@ -7,6 +7,6 @@ gametype lms
 gametype ca
 gametype arena
 gametype rune
-gametype freezetag
-gametype keepaway
+gametype ft
+gametype ka
 cdtrack 2

@@ -12,8 +12,8 @@ textures/liquids_water/water0
 	q3map_globaltexture
 	{
 		map textures/liquids_water/water0.tga
-		tcMod scroll 0.07 0.07
 		tcmod scale 1.2 0.7
+		tcMod scroll 0.084 0.049
 		blendfunc blend
 	}
 	dp_water 0.1 0.25  3 3  1 1 1  1 1 1  0.125
@@ -82,8 +82,8 @@ textures/liquids_water/water1
 	q3map_globaltexture
 	{
 		map textures/liquids_water/water1.tga
-		tcMod scroll 0.07 0.07
 		tcmod scale 1.2 0.7
+		tcMod scroll 0.084 0.049
 		blendfunc blend
 	}
 	dp_water 0.1 0.25  3 3  1 1 1  1 1 1  0.125
@@ -101,8 +101,8 @@ textures/liquids_water/water2
 	q3map_globaltexture
 	{
 		map textures/liquids_water/water2.tga
-		tcMod scroll 0.07 0.07
 		tcmod scale 1.2 0.7
+		tcMod scroll 0.084 0.049
 		blendfunc blend
 	}
 	dp_water 0.1 0.25  3 3  1 1 1  1 1 1  0.125

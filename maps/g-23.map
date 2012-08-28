@@ -14979,19 +14979,19 @@ map_g-23/conveyor_belt
 {
 "classname" "target_speaker"
 "origin" "1536.000000 -1024.000000 240.000000"
-"noise" "sound/machines/Lights(Mono).wav"
+"noise" "sound/machines/light_mono_looped.ogg"
 "volume" "0.6"
 }
 {
 "classname" "target_speaker"
 "origin" "320.000000 0.000000 304.000000"
-"noise" "sound/machines/Lights(Mono).wav"
+"noise" "sound/machines/light_mono_looped.ogg"
 "volume" "0.6"
 }
 {
 "classname" "target_speaker"
 "origin" "320.000000 -1024.000000 240.000000"
-"noise" "sound/machines/Lights(Mono).wav"
+"noise" "sound/machines/light_mono_looped.ogg"
 "volume" "0.6"
 }
 {
@@ -15028,7 +15028,7 @@ map_g-23/conveyor_belt
 {
 "classname" "target_speaker"
 "origin" "1088.000000 -1008.000000 240.000000"
-"noise" "sound/machines/Lights(Mono).wav"
+"noise" "sound/machines/light_mono_looped.ogg"
 "volume" "0.6"
 }
 {
@@ -15059,7 +15059,7 @@ map_g-23/conveyor_belt
 {
 "classname" "target_speaker"
 "origin" "768.000000 -1008.000000 240.000000"
-"noise" "sound/machines/Lights(Mono).wav"
+"noise" "sound/machines/light_mono_looped.ogg"
 "volume" "0.6"
 }
 {

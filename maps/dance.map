@@ -23744,3 +23744,8 @@ effects_jumppad/jumppadfx1_a
 "classname" "weapon_rifle"
 "origin" "0.000000 0.000000 -176.000000"
 }
+{
+"classname" "info_autoscreenshot"
+"origin" "'1885.3 -2916.6 741.5'"
+"angles" "' 36.7 125.4   0.0'"
+}
