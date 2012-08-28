@@ -17023,6 +17023,6 @@ exx/panel-q201
 }
 {
 "classname" "info_autoscreenshot"
-"origin" "'-720.7 174.3 247.9'"
-"angles" "' 21.8 -53.1   0.0'"
+"origin" "-720.7 174.3 247.9"
+"angles" "21.8 -53.1 0.0"
 }
