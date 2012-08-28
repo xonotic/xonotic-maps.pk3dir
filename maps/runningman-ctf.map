@@ -37641,3 +37641,8 @@ effects_healpod/healpod1_d
 ( -752 2384 288 ) ( -768 2368 192 ) ( -768 2368 288 ) common/caulk 0 0 0 0.25 0.25 134217728 0 0
 }
 }
+{
+"classname" "info_autoscreenshot"
+"origin" "'-1937.5 2665.0 356.1'"
+"angles" "' 12.2 -44.1   0.0'"
+}

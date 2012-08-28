@@ -17021,3 +17021,8 @@ exx/panel-q201
 "modelscale" "5.000000"
 "angle" "90.000000"
 }
+{
+"classname" "info_autoscreenshot"
+"origin" "'-720.7 174.3 247.9'"
+"angles" "' 21.8 -53.1   0.0'"
+}
