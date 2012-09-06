@@ -9,5 +9,5 @@ gametype rune
 gametype ca
 gametype kh
 gametype arena
-gametype freezetag
-gametype keepaway
+gametype ft
+gametype ka

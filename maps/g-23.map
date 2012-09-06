@@ -14979,19 +14979,19 @@ map_g-23/conveyor_belt
 {
 "classname" "target_speaker"
 "origin" "1536.000000 -1024.000000 240.000000"
-"noise" "sound/machines/Lights(Mono).wav"
+"noise" "sound/machines/light_mono_looped.ogg"
 "volume" "0.6"
 }
 {
 "classname" "target_speaker"
 "origin" "320.000000 0.000000 304.000000"
-"noise" "sound/machines/Lights(Mono).wav"
+"noise" "sound/machines/light_mono_looped.ogg"
 "volume" "0.6"
 }
 {
 "classname" "target_speaker"
 "origin" "320.000000 -1024.000000 240.000000"
-"noise" "sound/machines/Lights(Mono).wav"
+"noise" "sound/machines/light_mono_looped.ogg"
 "volume" "0.6"
 }
 {
@@ -15028,7 +15028,7 @@ map_g-23/conveyor_belt
 {
 "classname" "target_speaker"
 "origin" "1088.000000 -1008.000000 240.000000"
-"noise" "sound/machines/Lights(Mono).wav"
+"noise" "sound/machines/light_mono_looped.ogg"
 "volume" "0.6"
 }
 {
@@ -15059,7 +15059,7 @@ map_g-23/conveyor_belt
 {
 "classname" "target_speaker"
 "origin" "768.000000 -1008.000000 240.000000"
-"noise" "sound/machines/Lights(Mono).wav"
+"noise" "sound/machines/light_mono_looped.ogg"
 "volume" "0.6"
 }
 {
@@ -15081,7 +15081,7 @@ map_g-23/conveyor_belt
 "_color" "1 0.151965 0"
 }
 {
-"classname" "weapon_hlac"
+"classname" "weapon_crylink"
 "origin" "-864.000000 -704.000000 -256.000000"
 }
 {
@@ -15214,4 +15214,9 @@ map_g-23/conveyor_belt
 ( -824 -1072 -480 ) ( -824 -1072 -432 ) ( -752 -1072 -480 ) common/trigger 0 0 0 0.25 0.25 0 0 0
 ( -824 -1024 -480 ) ( -824 -976 -480 ) ( -824 -1024 -432 ) common/trigger 64 0 0 0.25 0.25 0 0 0
 }
+}
+{
+"classname" "info_autoscreenshot"
+"origin" "-1600.000000 296.000000 152.000000"
+"angles" "16.757401 -22.815008 0.000000"
 }
