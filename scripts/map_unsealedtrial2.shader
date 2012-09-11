@@ -217,6 +217,7 @@ models/volcanic_mountain/simplemoutain
 textures/glassx/hexglass
 {
 	q3map_bouncescale 3
+	qer_editorimage textures/glassx/hexglass.tga
 	dpreflectcube cubemaps/default/sky
 	dpnoshadow
 	surfaceparm trans
