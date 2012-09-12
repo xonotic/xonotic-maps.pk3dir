@@ -1,5 +1,4 @@
 -bsp +
 -light + -dirtscale 2 -lomem -dirtdepth 256
 -vis +
--minimap +
-Version: 4
+Version: 5
