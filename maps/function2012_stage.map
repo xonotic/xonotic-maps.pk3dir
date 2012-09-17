@@ -2518,7 +2518,7 @@ map_arena/light_beam_anim_green
 ( -3264 64 96 ) ( -3248 64 96 ) ( -3264 -64 96 ) common/caulk 0 0 0 0.25 0.25 0 0 0
 }
 {
-( -3328 192 96 ) ( -3328 64 96 ) ( -3456 192 96 ) facility114invx/floor-floor02inv 0 256 0 0.25 0.25 0 0 0
+( -3328 192 96 ) ( -3328 64 96 ) ( -3456 192 96 ) map_function2012_stage/floor00inv_metalsteps 0 256 0 0.25 0.25 0 0 0
 ( -3328 192 128 ) ( -3456 192 128 ) ( -3328 192 0 ) facility114invx/trim-trim01invg 0 12 0 0.25 0.25 0 0 0
 ( -3328 192 128 ) ( -3328 192 0 ) ( -3328 64 128 ) facility114invx/trim-trim01invg 0 0 0 0.25 0.25 0 0 0
 ( -3456 64 80 ) ( -3328 64 80 ) ( -3456 192 80 ) common/caulk 0 0 0 0.25 0.25 0 0 0
@@ -2526,7 +2526,7 @@ map_arena/light_beam_anim_green
 ( -3456 64 0 ) ( -3456 192 0 ) ( -3456 64 128 ) facility114invx/trim-trim01invg 0 12 0 0.25 0.25 0 0 0
 }
 {
-( -3200 192 112 ) ( -3200 64 112 ) ( -3328 192 112 ) facility114invx/misc-lift00inv 0 12 0 0.25 0.25 0 0 0
+( -3200 192 112 ) ( -3200 64 112 ) ( -3328 192 112 ) map_function2012_stage/lift00inv_nosteps 0 12 0 0.25 0.25 0 0 0
 ( -3200 256 96 ) ( -3328 256 96 ) ( -3200 256 -32 ) facility114invx/trim-trim01invg 0 12 0 0.25 0.25 0 0 0
 ( -3200 192 96 ) ( -3200 192 -32 ) ( -3200 64 96 ) facility114invx/trim-trim01invg 0 12 0 0.25 0.25 0 0 0
 ( -3344 -256 -32 ) ( -3344 -256 96 ) ( -3216 -256 -32 ) facility114invx/trim-trim01invg 0 12 0 0.25 0.25 0 0 0
