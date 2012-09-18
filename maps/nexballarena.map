@@ -8415,3 +8415,8 @@ ex2x/base-metalmaterial1
 "classname" "ball_football"
 "origin" "0.000000 0.000000 336.000000"
 }
+{
+"classname" "info_autoscreenshot"
+"origin" "'-130.6 631.6 235.6'"
+"angles" "' 14.0 -78.8   0.0'"
+}

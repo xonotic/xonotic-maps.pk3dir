@@ -29047,3 +29047,8 @@ exx/trim-baseboard
 "classname" "weapon_tuba"
 "origin" "544.000000 -992.000000 640.000000"
 }
+{
+"classname" "info_autoscreenshot"
+"origin" "'1715.1 535.4 943.4'"
+"angles" "' 21.8 -136.6   0.0'"
+}

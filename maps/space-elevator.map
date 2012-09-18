@@ -33179,3 +33179,8 @@ effects_jumppad/jumppadfx1_a
 "angle" "-90.000000"
 "modelscale_vec" "1 3 4"
 }
+{
+"classname" "info_autoscreenshot"
+"origin" "'-1371.7 -4151.0 719.6'"
+"angles" "' 23.2  50.5   0.0'"
+}
