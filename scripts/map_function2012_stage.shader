@@ -1,3 +1,4 @@
+//STAGE RELATED
 textures/map_function2012_stage/lift00inv_nosteps
 {
 	qer_editorimage textures/facility114invx/misc/lift00inv.tga
@@ -25,6 +26,45 @@ textures/map_function2012_stage/floor00inv_metalsteps
 	surfaceparm metalsteps
 	{
 		map textures/facility114invx/floor/floor02inv.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+
+textures/map_function2012_stage/floor-floor00inv
+{
+	qer_editorimage textures/facility114invx/floor/floor00inv.tga
+	dpoffsetmapping - 1 match8 255
+	q3map_bounceScale 1.25
+	surfaceparm nosteps
+	{
+		map textures/facility114invx/floor/floor00inv.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+
+textures/map_function2012_stage/base-baseblack
+{
+	qer_editorimage textures/facility114invx/base/baseblack.tga
+	surfaceparm nosteps
+	q3map_bounceScale 1.25
+
+
+	{
+		map textures/facility114invx/base/baseblack.tga
 		
 
 	}
@@ -276,3 +316,24 @@ textures/map_function2012_stage/cloudgrey
 		blendfunc filter
 	}
 }
+
+//PATB
+
+textures/map_function2012_stage/pinkybrain_roto
+{
+	qer_editorimage textures/map_function2012_stage/pinkybrain.tga
+	surfaceparm nonsolid
+	surfaceparm nodlight
+	surfaceparm nolightmap
+	cull none
+
+	{
+		map textures/map_function2012_stage/pinkybrain.tga
+		tcMod rotate -45
+		tcMod stretch sin 1.25 1 0 0.1
+		tcMod scroll 0.5 0.5
+	}
+	{
+	blendfunc filter
+}
+}	
