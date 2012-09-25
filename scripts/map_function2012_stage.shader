@@ -76,6 +76,113 @@ textures/map_function2012_stage/base-baseblack
 	}
 }
 
+//BARS
+textures/map_function2012_stage/bar_tuba
+{
+	qer_editorimage textures/map_function2012_stage/bar_tuba.tga
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nodlight
+	surfaceparm nolightmap
+	cull none
+	qer_trans 0.6
+	{
+		map textures/map_function2012_stage/bar_tuba.tga
+		blendFunc blend
+		alphaFunc GT0
+		rgbgen identity
+	}
+}
+
+textures/map_function2012_stage/bar_akkordeon
+{
+	qer_editorimage textures/map_function2012_stage/bar_akkordeon.tga
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nodlight
+	surfaceparm nolightmap
+	cull none
+	qer_trans 0.6
+	{
+		map textures/map_function2012_stage/bar_akkordeon.tga
+		blendFunc blend
+		alphaFunc GT0
+		rgbgen identity
+	}
+}
+
+textures/map_function2012_stage/bar_klein
+{
+	qer_editorimage textures/map_function2012_stage/bar_klein.tga
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nodlight
+	surfaceparm nolightmap
+	cull none
+	qer_trans 0.6
+	{
+		map textures/map_function2012_stage/bar_klein.tga
+		blendFunc blend
+		alphaFunc GT0
+		rgbgen identity
+	}
+}
+
+textures/map_function2012_stage/tuba_icon
+{
+	qer_editorimage textures/map_function2012_stage/tuba_icon.tga
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nodlight
+	surfaceparm nolightmap
+	cull none
+	deformVertexes autosprite
+	qer_trans 0.6
+	{
+		map textures/map_function2012_stage/tuba_icon.tga
+		blendFunc blend
+		alphaFunc GT0
+		rgbgen identity
+	}
+}
+
+textures/map_function2012_stage/akkordeon_icon
+{
+	qer_editorimage textures/map_function2012_stage/akkordeon_icon.tga
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nodlight
+	surfaceparm nolightmap
+	cull none
+	deformVertexes autosprite
+	qer_trans 0.6
+	{
+		map textures/map_function2012_stage/akkordeon_icon.tga
+		blendFunc blend
+		alphaFunc GT0
+		rgbgen identity
+	}
+}
+
+
+textures/map_function2012_stage/klein_icon
+{
+	qer_editorimage textures/map_function2012_stage/klein_icon.tga
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nodlight
+	surfaceparm nolightmap
+	cull none
+	deformVertexes autosprite
+	qer_trans 0.6
+	{
+		map textures/map_function2012_stage/klein_icon.tga
+		blendFunc blend
+		alphaFunc GT0
+		rgbgen identity
+	}
+}
+
 //MARIO related
 
 textures/map_function2012_stage/bigblock_bright
