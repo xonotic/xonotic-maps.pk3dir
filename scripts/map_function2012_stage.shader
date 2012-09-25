@@ -128,6 +128,161 @@ textures/map_function2012_stage/bar_klein
 	}
 }
 
+textures/map_function2012_stage/bar_crylink
+{
+	qer_editorimage textures/map_function2012_stage/bar_crylink.tga
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nodlight
+	surfaceparm nolightmap
+	cull none
+	qer_trans 0.6
+	{
+		map textures/map_function2012_stage/bar_crylink.tga
+		blendFunc blend
+		alphaFunc GT0
+		rgbgen identity
+	}
+}
+
+textures/map_function2012_stage/bar_electro
+{
+	qer_editorimage textures/map_function2012_stage/bar_electro.tga
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nodlight
+	surfaceparm nolightmap
+	cull none
+	qer_trans 0.6
+	{
+		map textures/map_function2012_stage/bar_electro.tga
+		blendFunc blend
+		alphaFunc GT0
+		rgbgen identity
+	}
+}
+
+
+
+textures/map_function2012_stage/bar_hagar
+{
+	qer_editorimage textures/map_function2012_stage/bar_hagar.tga
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nodlight
+	surfaceparm nolightmap
+	cull none
+	qer_trans 0.6
+	{
+		map textures/map_function2012_stage/bar_hagar.tga
+		blendFunc blend
+		alphaFunc GT0
+		rgbgen identity
+	}
+}
+
+textures/map_function2012_stage/bar_hook
+{
+	qer_editorimage textures/map_function2012_stage/bar_hook.tga
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nodlight
+	surfaceparm nolightmap
+	cull none
+	qer_trans 0.6
+	{
+		map textures/map_function2012_stage/bar_hook.tga
+		blendFunc blend
+		alphaFunc GT0
+		rgbgen identity
+	}
+}
+
+textures/map_function2012_stage/bar_laser
+{
+	qer_editorimage textures/map_function2012_stage/bar_laser.tga
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nodlight
+	surfaceparm nolightmap
+	cull none
+	qer_trans 0.6
+	{
+		map textures/map_function2012_stage/bar_laser.tga
+		blendFunc blend
+		alphaFunc GT0
+		rgbgen identity
+	}
+}
+
+textures/map_function2012_stage/bar_minstanex
+{
+	qer_editorimage textures/map_function2012_stage/bar_minstanex.tga
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nodlight
+	surfaceparm nolightmap
+	cull none
+	qer_trans 0.6
+	{
+		map textures/map_function2012_stage/bar_minstanex.tga
+		blendFunc blend
+		alphaFunc GT0
+		rgbgen identity
+	}
+}
+
+textures/map_function2012_stage/bar_nex
+{
+	qer_editorimage textures/map_function2012_stage/bar_nex.tga
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nodlight
+	surfaceparm nolightmap
+	cull none
+	qer_trans 0.6
+	{
+		map textures/map_function2012_stage/bar_nex.tga
+		blendFunc blend
+		alphaFunc GT0
+		rgbgen identity
+	}
+}
+
+textures/map_function2012_stage/bar_seeker
+{
+	qer_editorimage textures/map_function2012_stage/bar_seeker.tga
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nodlight
+	surfaceparm nolightmap
+	cull none
+	qer_trans 0.6
+	{
+		map textures/map_function2012_stage/bar_seeker.tga
+		blendFunc blend
+		alphaFunc GT0
+		rgbgen identity
+	}
+}
+
+textures/map_function2012_stage/bar_uzi
+{
+	qer_editorimage textures/map_function2012_stage/bar_uzi.tga
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nodlight
+	surfaceparm nolightmap
+	cull none
+	qer_trans 0.6
+	{
+		map textures/map_function2012_stage/bar_uzi.tga
+		blendFunc blend
+		alphaFunc GT0
+		rgbgen identity
+	}
+}
+
 textures/map_function2012_stage/tuba_icon
 {
 	qer_editorimage textures/map_function2012_stage/tuba_icon.tga
@@ -183,7 +338,223 @@ textures/map_function2012_stage/klein_icon
 	}
 }
 
-//MARIO related
+textures/map_function2012_stage/crylink_icon
+{
+	qer_editorimage textures/map_function2012_stage/crylink_icon.tga
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nodlight
+	surfaceparm nolightmap
+	cull none
+	deformVertexes autosprite
+	qer_trans 0.6
+	{
+		map textures/map_function2012_stage/crylink_icon.tga
+		blendFunc blend
+		alphaFunc GT0
+		rgbgen identity
+	}
+}
+
+textures/map_function2012_stage/electro_icon
+{
+	qer_editorimage textures/map_function2012_stage/electro_icon.tga
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nodlight
+	surfaceparm nolightmap
+	cull none
+	deformVertexes autosprite
+	qer_trans 0.6
+	{
+		map textures/map_function2012_stage/electro_icon.tga
+		blendFunc blend
+		alphaFunc GT0
+		rgbgen identity
+	}
+}
+
+textures/map_function2012_stage/hagar_icon
+{
+	qer_editorimage textures/map_function2012_stage/hagar_icon.tga
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nodlight
+	surfaceparm nolightmap
+	cull none
+	deformVertexes autosprite
+	qer_trans 0.6
+	{
+		map textures/map_function2012_stage/hagar_icon.tga
+		blendFunc blend
+		alphaFunc GT0
+		rgbgen identity
+	}
+}
+
+textures/map_function2012_stage/hook_icon
+{
+	qer_editorimage textures/map_function2012_stage/hook_icon.tga
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nodlight
+	surfaceparm nolightmap
+	cull none
+	deformVertexes autosprite
+	qer_trans 0.6
+	{
+		map textures/map_function2012_stage/hook_icon.tga
+		blendFunc blend
+		alphaFunc GT0
+		rgbgen identity
+	}
+}
+
+textures/map_function2012_stage/jetpack_icon
+{
+	qer_editorimage textures/map_function2012_stage/jetpack_icon.tga
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nodlight
+	surfaceparm nolightmap
+	cull none
+	deformVertexes autosprite
+	qer_trans 0.6
+	{
+		map textures/map_function2012_stage/jetpack_icon.tga
+		blendFunc blend
+		alphaFunc GT0
+		rgbgen identity
+	}
+}
+
+textures/map_function2012_stage/jump_icon
+{
+	qer_editorimage textures/map_function2012_stage/jump_icon.tga
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nodlight
+	surfaceparm nolightmap
+	cull none
+	deformVertexes autosprite
+	qer_trans 0.6
+	{
+		map textures/map_function2012_stage/jump_icon.tga
+		blendFunc blend
+		alphaFunc GT0
+		rgbgen identity
+	}
+}
+
+textures/map_function2012_stage/laser_icon
+{
+	qer_editorimage textures/map_function2012_stage/laser_icon.tga
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nodlight
+	surfaceparm nolightmap
+	cull none
+	deformVertexes autosprite
+	qer_trans 0.6
+	{
+		map textures/map_function2012_stage/laser_icon.tga
+		blendFunc blend
+		alphaFunc GT0
+		rgbgen identity
+	}
+}
+
+textures/map_function2012_stage/minstanex_icon
+{
+	qer_editorimage textures/map_function2012_stage/minstanex_icon.tga
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nodlight
+	surfaceparm nolightmap
+	cull none
+	deformVertexes autosprite
+	qer_trans 0.6
+	{
+		map textures/map_function2012_stage/minstanex_icon.tga
+		blendFunc blend
+		alphaFunc GT0
+		rgbgen identity
+	}
+}
+
+textures/map_function2012_stage/nex_icon
+{
+	qer_editorimage textures/map_function2012_stage/nex_icon.tga
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nodlight
+	surfaceparm nolightmap
+	cull none
+	deformVertexes autosprite
+	qer_trans 0.6
+	{
+		map textures/map_function2012_stage/nex_icon.tga
+		blendFunc blend
+		alphaFunc GT0
+		rgbgen identity
+	}
+}
+
+textures/map_function2012_stage/rifle_icon
+{
+	qer_editorimage textures/map_function2012_stage/rifle_icon.tga
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nodlight
+	surfaceparm nolightmap
+	cull none
+	deformVertexes autosprite
+	qer_trans 0.6
+	{
+		map textures/map_function2012_stage/rifle_icon.tga
+		blendFunc blend
+		alphaFunc GT0
+		rgbgen identity
+	}
+}
+
+textures/map_function2012_stage/seeker_icon
+{
+	qer_editorimage textures/map_function2012_stage/seeker_icon.tga
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nodlight
+	surfaceparm nolightmap
+	cull none
+	deformVertexes autosprite
+	qer_trans 0.6
+	{
+		map textures/map_function2012_stage/seeker_icon.tga
+		blendFunc blend
+		alphaFunc GT0
+		rgbgen identity
+	}
+}
+
+textures/map_function2012_stage/uzi_icon
+{
+	qer_editorimage textures/map_function2012_stage/uzi_icon.tga
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nodlight
+	surfaceparm nolightmap
+	cull none
+	deformVertexes autosprite
+	qer_trans 0.6
+	{
+		map textures/map_function2012_stage/uzi_icon.tga
+		blendFunc blend
+		alphaFunc GT0
+		rgbgen identity
+	}
+}
+
+//MARIO
 
 textures/map_function2012_stage/bigblock_bright
 {
