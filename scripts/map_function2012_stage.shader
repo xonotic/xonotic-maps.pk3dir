@@ -76,6 +76,26 @@ textures/map_function2012_stage/base-baseblack
 	}
 }
 
+//INTRO
+
+textures/map_function2012_stage/intro
+{
+	qer_editorimage textures/map_function2012_stage/intro.tga
+	surfaceparm nonsolid
+	surfaceparm nodlight
+	surfaceparm nolightmap
+	cull none
+
+	{
+		map textures/map_function2012_stage/intro.tga
+	}
+	{
+	blendfunc filter
+}
+}
+
+
+
 //BARS
 textures/map_function2012_stage/bar_tuba
 {
@@ -814,4 +834,5 @@ textures/map_function2012_stage/pinkybrain_roto
 	{
 	blendfunc filter
 }
-}	
+}
+
