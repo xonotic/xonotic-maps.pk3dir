@@ -836,3 +836,133 @@ textures/map_function2012_stage/pinkybrain_roto
 }
 }
 
+//ANGRY BIRDS
+textures/map_function2012_stage/wood
+{
+	qer_editorimage textures/map_function2012_stage/wood.tga
+	dpoffsetmapping - 2 match8 215
+	q3map_bounceScale 1.25
+	
+
+	{
+		map textures/map_function2012_stage/wood.tga
+				
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+
+textures/map_function2012_stage/angrybird_eyes
+{
+	qer_editorimage textures/map_function2012_stage/angrybird_eyes.tga
+	surfaceparm nodlight
+	surfaceparm nolightmap
+	
+	{
+	map textures/map_function2012_stage/angrybird_eyes.tga
+	alphafunc GE128
+		}
+{
+		blendfunc filter
+		
+	}
+}
+
+textures/map_function2012_stage/angrybird_upper
+{
+	qer_editorimage textures/map_function2012_stage/angrybird_upper.tga
+	surfaceparm nodlight
+	surfaceparm nolightmap
+	{
+	map textures/map_function2012_stage/angrybird_upper.tga
+		}
+{
+		blendfunc filter
+	}
+}
+
+textures/map_function2012_stage/angrybird_lower
+{
+	qer_editorimage textures/map_function2012_stage/angrybird_lower.tga
+	surfaceparm nodlight
+	surfaceparm nolightmap
+	{
+	map textures/map_function2012_stage/angrybird_lower.tga
+		}
+{
+		blendfunc filter
+	}
+}
+
+textures/map_function2012_stage/pig_body
+{
+	qer_editorimage textures/map_function2012_stage/pig_body.tga
+	surfaceparm nodlight
+	surfaceparm nolightmap
+	{
+	map textures/map_function2012_stage/pig_body.tga
+		}
+{
+		blendfunc filter
+	}
+}
+
+textures/map_function2012_stage/pig_eye
+{
+	qer_editorimage textures/map_function2012_stage/pig_eye.tga
+	surfaceparm nodlight
+	surfaceparm nolightmap
+	{
+	map textures/map_function2012_stage/pig_eye.tga
+		}
+{
+		blendfunc filter
+	}
+}
+
+textures/map_function2012_stage/pig_snout
+{
+	qer_editorimage textures/map_function2012_stage/pig_snout.tga
+	surfaceparm nodlight
+	surfaceparm nolightmap
+	{
+	map textures/map_function2012_stage/pig_snout.tga
+		}
+{
+		blendfunc filter
+	}
+}
+
+textures/map_function2012_stage/pig_eyebrow
+{
+	qer_editorimage textures/map_function2012_stage/pig_eyebrow.tga
+	surfaceparm nodlight
+	surfaceparm nolightmap
+	{
+	map textures/map_function2012_stage/pig_eyebrow.tga
+		}
+{
+		blendfunc filter
+	}
+}
+
+textures/map_function2012_stage/pig_eye
+{
+	qer_editorimage textures/map_function2012_stage/pig_eye.png
+	surfaceparm nodlight
+	surfaceparm nolightmap
+	
+	{
+	map textures/map_function2012_stage/pig_eye.png
+	alphafunc GE128
+		}
+{
+		blendfunc filter
+		
+	}
+}
