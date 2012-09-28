@@ -815,18 +815,18 @@ textures/map_function2012_stage/cloudgrey
 	}
 }
 
-//PATB
+//PINKY AND THE BRAIN
 
 textures/map_function2012_stage/pinkybrain_roto
 {
-	qer_editorimage textures/map_function2012_stage/pinkybrain.tga
+	qer_editorimage textures/map_function2012_stage/pinkybrain.png
 	surfaceparm nonsolid
 	surfaceparm nodlight
 	surfaceparm nolightmap
 	cull none
 
 	{
-		map textures/map_function2012_stage/pinkybrain.tga
+		map textures/map_function2012_stage/pinkybrain.png
 		tcMod rotate -45
 		tcMod stretch sin 1.25 1 0 0.1
 		tcMod scroll 0.5 0.5
@@ -912,19 +912,6 @@ textures/map_function2012_stage/pig_body
 	}
 }
 
-textures/map_function2012_stage/pig_eye
-{
-	qer_editorimage textures/map_function2012_stage/pig_eye.tga
-	surfaceparm nodlight
-	surfaceparm nolightmap
-	{
-	map textures/map_function2012_stage/pig_eye.tga
-		}
-{
-		blendfunc filter
-	}
-}
-
 textures/map_function2012_stage/pig_snout
 {
 	qer_editorimage textures/map_function2012_stage/pig_snout.tga
@@ -964,5 +951,18 @@ textures/map_function2012_stage/pig_eye
 {
 		blendfunc filter
 		
+	}
+}
+
+textures/map_function2012_stage/angry_birds
+{
+	qer_editorimage textures/map_function2012_stage/angry_birds_logo.png
+	surfaceparm nodlight
+	surfaceparm nolightmap
+	{
+	map textures/map_function2012_stage/angry_birds_logo.png
+		}
+{
+		blendfunc filter
 	}
 }
