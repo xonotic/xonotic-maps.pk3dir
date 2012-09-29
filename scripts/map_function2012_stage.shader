@@ -966,3 +966,104 @@ textures/map_function2012_stage/angry_birds
 		blendfunc filter
 	}
 }
+
+//BEETHOVEN
+textures/map_function2012_stage/beethoven
+{
+	qer_editorimage textures/map_function2012_stage/beethoven.jpg
+	surfaceparm nodlight
+	surfaceparm nolightmap
+	{
+	map textures/map_function2012_stage/beethoven.jpg
+		}
+{
+		blendfunc filter
+	}
+}
+
+textures/map_function2012_stage/bloki
+{
+	qer_editorimage textures/map_function2012_stage/bloki.jpg
+	surfaceparm nodlight
+	surfaceparm nolightmap
+	{
+	map textures/map_function2012_stage/bloki.jpg
+		}
+{
+		blendfunc filter
+	}
+}
+
+textures/map_function2012_stage/wrong
+{
+	qer_editorimage textures/map_function2012_stage/wrong.jpg
+	surfaceparm nodlight
+	surfaceparm nolightmap
+	{
+	map textures/map_function2012_stage/wrong.jpg
+		}
+{
+		blendfunc filter
+	}
+}
+
+textures/map_function2012_stage/5th
+{
+	qer_editorimage textures/map_function2012_stage/5th.jpg
+	surfaceparm nodlight
+	surfaceparm nolightmap
+	{
+	map textures/map_function2012_stage/5th.jpg
+		}
+{
+		blendfunc filter
+	}
+}
+
+//EYE OF THE TIGER
+textures/map_function2012_stage/tigers/tigers
+{
+	qer_editorimage textures/map_function2012_stage/tigers/tiger01.jpg
+	surfaceparm nodlight
+	surfaceparm nolightmap
+	
+	{
+	animmap 0.083 textures/map_function2012_stage/tigers/tiger01.png textures/map_function2012_stage/tigers/tiger02.jpg textures/map_function2012_stage/tigers/tiger03.jpg textures/map_function2012_stage/tigers/tiger04.jpg textures/map_function2012_stage/tigers/tiger05.png textures/map_function2012_stage/tigers/tiger06.png textures/map_function2012_stage/tigers/tiger07.png textures/map_function2012_stage/tigers/tiger08.png textures/map_function2012_stage/tigers/tiger09.png textures/map_function2012_stage/tigers/tiger10.png 
+	alphafunc GE128
+		}
+{
+		blendfunc filter
+		
+	}
+}
+
+//RICKROLL
+textures/map_function2012_stage/rickroll/rickroll
+{
+	qer_editorimage textures/map_function2012_stage/rickroll/rickroll01.jpg
+	surfaceparm nodlight
+	surfaceparm nolightmap
+	deformVertexes autosprite
+	{
+	animmap 12 textures/map_function2012_stage/rickroll/rickroll01.jpg textures/map_function2012_stage/rickroll/rickroll02.jpg textures/map_function2012_stage/rickroll/rickroll03.jpg textures/map_function2012_stage/rickroll/rickroll04.jpg textures/map_function2012_stage/rickroll/rickroll05.jpg textures/map_function2012_stage/rickroll/rickroll06.jpg textures/map_function2012_stage/rickroll/rickroll07.jpg textures/map_function2012_stage/rickroll/rickroll08.jpg textures/map_function2012_stage/rickroll/rickroll09.jpg textures/map_function2012_stage/rickroll/rickroll10.jpg textures/map_function2012_stage/rickroll/rickroll11.jpg textures/map_function2012_stage/rickroll/rickroll12.jpg textures/map_function2012_stage/rickroll/rickroll13.jpg textures/map_function2012_stage/rickroll/rickroll14.jpg textures/map_function2012_stage/rickroll/rickroll15.jpg textures/map_function2012_stage/rickroll/rickroll16.jpg textures/map_function2012_stage/rickroll/rickroll17.jpg textures/map_function2012_stage/rickroll/rickroll18.jpg 
+textures/map_function2012_stage/rickroll/rickroll19.jpg textures/map_function2012_stage/rickroll/rickroll20.jpg textures/map_function2012_stage/rickroll/rickroll21.jpg textures/map_function2012_stage/rickroll/rickroll22.jpg textures/map_function2012_stage/rickroll/rickroll23.jpg textures/map_function2012_stage/rickroll/rickroll24.jpg textures/map_function2012_stage/rickroll/rickroll25.jpg textures/map_function2012_stage/rickroll/rickroll26.jpg textures/map_function2012_stage/rickroll/rickroll27.jpg 
+		}
+{
+		blendfunc filter
+		
+	}
+}
+
+textures/map_function2012_stage/credits
+{
+    qer_editorimage textures/map_function2012_stage/credits.jpg
+	surfaceparm nodlight
+	    surfaceparm nolightmap
+		{
+		    map textures/map_function2012_stage/credits.jpg
+		    tcMod scroll 0 0.016
+}
+{
+blendfunc filter
+}
+}
