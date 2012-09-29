@@ -782,3 +782,23 @@ textures/facility114x/wall-corridor04
 		blendfunc filter
 	}
 }
+
+textures/facility114x/base-basegreen
+{
+	qer_editorimage textures/facility114x/base/basegreen.tga
+	
+	q3map_bounceScale 1.25
+
+
+	{
+		map textures/facility114x/base/basegreen.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
