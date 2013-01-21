@@ -1,0 +1,7 @@
+//Xonotic approved
+-bsp + -maxarea -samplesize 8 -mv 1000000 -mi 6000000 
+-light + -lightmapsearchpower 3 -deluxe -patchshadows -randomsamples -samples 4 -lightmapsize 512 -fast -fastbounce -dirty -bouncegrid -fill -bounce 8
+-vis +
+-minimap +
+-sRGB
+Version: 1
