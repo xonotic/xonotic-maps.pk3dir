@@ -36512,12 +36512,7 @@ effects_healpod/healpod1_d
 "classname" "onslaught_generator"
 "origin" "-680.000000 2448.000000 264.000000"
 "team" "14"
-"targetname" "redgen4"
-"angle" "-179.999985"
-}
-{
-"classname" "item_flag_team2"
-"origin" "-680.000000 2448.000000 312.000000"
+"targetname" "redgen2"
 "angle" "-179.999985"
 }
 {
@@ -36525,4 +36520,9 @@ effects_healpod/healpod1_d
 "origin" "784.000000 944.000000 296.000000"
 "message" " has captured the ^1blue base ^7control point"
 "angle" "-90.000000"
+}
+{
+"classname" "item_flag_team1"
+"origin" "-680.000000 2448.000000 312.000000"
+"angle" "-179.999985"
 }
