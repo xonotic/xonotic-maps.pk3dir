@@ -37643,6 +37643,6 @@ effects_healpod/healpod1_d
 }
 {
 "classname" "info_autoscreenshot"
-"origin" "-1994.716553 2652.458740 324.141266"
-"angles" "8.093985 -45.318146 0"
+"origin" "-2047.183960 1567.862915 552.647461"
+"angles" "27.764854 42.006069 0"
 }
