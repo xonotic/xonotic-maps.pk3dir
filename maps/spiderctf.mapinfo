@@ -1,0 +1,7 @@
+title SpiderCtf
+description The large CTF map with lots of spiders. 
+author Justin 
+has weapons
+gametype ctf
+cdtrack 3
+clientsettemp_for_type all r_water 1

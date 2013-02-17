@@ -1,0 +1,6 @@
+-bsp + -samplesize 6
+-light + -bounce 8 -dirtscale 2
+-vis +
+-minimap +
+-nosRGB
+Version: 3
