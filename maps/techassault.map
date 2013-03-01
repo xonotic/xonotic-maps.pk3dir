@@ -29281,3 +29281,8 @@ exx/trim-baseboard
 "light" "25"
 "_color" "1 0.423819 0.32401"
 }
+{
+"classname" "info_autoscreenshot"
+"origin" "'-3971.5 -541.1 152.9'"
+"angles" "'-10.3   9.7   0.0'"
+}
