@@ -5,7 +5,6 @@ cdtrack 6
 has weapons
 gametype ctf
 gametype ca
-gametype kh
 gametype ons
 gametype dom
 gametype freezetag
