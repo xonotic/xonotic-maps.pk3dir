@@ -6,5 +6,6 @@ has weapons
 gametype dm
 gametype lms
 gametype arena
+gametype kh
 gametype ka
 clientsettemp_for_type all r_water 1
