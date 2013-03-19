@@ -11756,3 +11756,8 @@ facility114x/misc-tube
 ( -64 88 64 ) ( -64 104 64 ) ( -64 88 336 ) common/trigger 128 0 0 0.25 0.25 0 0 0
 }
 }
+{
+"classname" "info_autoscreenshot"
+"origin" "'-146.9 -224.7 632.0'"
+"angles" "' 46.9  60.9   0.0'"
+}

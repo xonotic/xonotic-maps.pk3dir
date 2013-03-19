@@ -11326,3 +11326,8 @@
 "classname" "item_armor_big"
 "origin" "-96.000000 64.000000 192.000000"
 }
+{
+"classname" "info_autoscreenshot"
+"origin" "'-1294.4 -1118.9 -18.0'"
+"angles" "' 21.4 -35.6   0.0'"
+}
