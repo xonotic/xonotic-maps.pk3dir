@@ -1,0 +1,18 @@
+title Arboria
+description Arboria, a calm glade in the forest...
+author Torus, sev, MirceaKitsune
+cdtrack 14
+fog 0.2 0.2 0.35 0.35 1 2000 4000
+has weapons
+gametype dm
+gametype tdm
+gametype lms
+gametype arena
+gametype ca
+gametype ka
+gametype ft
+gametype rune
+gametype dom
+gametype ctf
+gametype kh
+gametype ons

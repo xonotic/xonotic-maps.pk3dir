@@ -1,0 +1,39 @@
+// fireflies, used in the middle room
+effect fireflies
+count 1
+type snow
+tex 38 38
+color 0xff9600 0xffefb8
+size 2 3
+sizeincrease -0.3
+alpha 256 256 70
+//bounce 1.5
+originjitter 500 500 500
+velocityjitter 0.1 0.1 0.1
+velocitymultiplier -5
+
+// blue smoke, used on stone jump pads
+effect bluesmoke
+count 5
+type smoke
+tex 0 8
+color 0x008aff 0x75e7ff
+size 10 10
+sizeincrease 20
+gravity -0.02
+alpha 256 128 64
+//bounce 1.5
+originjitter 50 50 0
+velocityjitter 5 5 30
+airfriction 1
+effect bluesmoke
+count 5
+type smoke
+tex 48 55
+size 10 10
+sizeincrease 20
+color 0x008aff 0x75e7ff
+alpha 256 128 64
+gravity -0.001
+originjitter 50 50 0
+velocityjitter 15 15 30
