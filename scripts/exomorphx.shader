@@ -394,6 +394,7 @@ textures/exomorphx/grate-metal_grate02
 	dpreflectcube env/exomorph/exomorph
 	surfaceparm metalsteps
 	surfaceparm trans
+	surfaceparm alphashadow
 	q3map_bouncescale 1.75
 
 
@@ -424,6 +425,7 @@ textures/exomorphx/grate-metal_grate04
 	dpreflectcube env/exomorph/exomorph
 	surfaceparm metalsteps
 	surfaceparm trans
+	surfaceparm alphashadow
 	q3map_bouncescale 1.75
 
 
@@ -454,6 +456,7 @@ textures/exomorphx/grate-metal_grate03
 	dpreflectcube env/exomorph/exomorph
 	surfaceparm metalsteps
 	surfaceparm trans
+	surfaceparm alphashadow
 	q3map_bouncescale 1.75
 
 
@@ -484,6 +487,7 @@ textures/exomorphx/grate-metal_grate06
 	dpreflectcube env/exomorph/exomorph
 	surfaceparm metalsteps
 	surfaceparm trans
+	surfaceparm alphashadow
 	q3map_bouncescale 1.75
 
 
@@ -514,6 +518,7 @@ textures/exomorphx/grate-metal_grate01
 	dpreflectcube env/exomorph/exomorph
 	surfaceparm metalsteps
 	surfaceparm trans
+	surfaceparm alphashadow
 	q3map_bouncescale 1.75
 
 
@@ -544,6 +549,7 @@ textures/exomorphx/grate-metal_grate05
 	dpreflectcube env/exomorph/exomorph
 	surfaceparm metalsteps
 	surfaceparm trans
+	surfaceparm alphashadow
 	q3map_bouncescale 1.75
 
 

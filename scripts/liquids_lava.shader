@@ -31,6 +31,23 @@ textures/liquids_lava/lava0_flow
 	}
 }
 
+textures/liquids_lava/lava0_flow_pipe
+{
+	qer_editorimage textures/liquids_lava/lava0.tga
+	surfaceparm lava
+	surfaceparm noimpact
+	surfaceparm trans
+	cull disable
+	deformVertexes wave 2 sin 1 2 0.25 0.1
+	q3map_surfacelight 1000
+	q3map_lightSubdivide 64
+	{
+		map textures/liquids_lava/lava0.tga
+		blendfunc GL_SRC_ALPHA GL_ONE
+		tcMod scroll 0 -0.25
+	}
+}
+
 textures/liquids_lava/lava0_blue
 {
 	qer_editorimage textures/liquids_lava/lava0_blue.tga
@@ -55,6 +72,23 @@ textures/liquids_lava/lava0_blue_flow
 	surfaceparm noimpact
 	surfaceparm trans
 	cull disable
+	q3map_surfacelight 1000
+	q3map_lightSubdivide 64
+	{
+		map textures/liquids_lava/lava0_blue.tga
+		blendfunc GL_SRC_ALPHA GL_ONE
+		tcMod scroll 0 -0.25
+	}
+}
+
+textures/liquids_lava/lava0_blue_flow_pipe
+{
+	qer_editorimage textures/liquids_lava/lava0_blue.tga
+	surfaceparm lava
+	surfaceparm noimpact
+	surfaceparm trans
+	cull disable
+	deformVertexes wave 2 sin 1 2 0.25 0.1
 	q3map_surfacelight 1000
 	q3map_lightSubdivide 64
 	{
@@ -97,6 +131,23 @@ textures/liquids_lava/lava0_green_flow
 	}
 }
 
+textures/liquids_lava/lava0_green_flow_pipe
+{
+	qer_editorimage textures/liquids_lava/lava0_green.tga
+	surfaceparm lava
+	surfaceparm noimpact
+	surfaceparm trans
+	cull disable
+	deformVertexes wave 2 sin 1 2 0.25 0.1
+	q3map_surfacelight 1000
+	q3map_lightSubdivide 64
+	{
+		map textures/liquids_lava/lava0_green.tga
+		blendfunc GL_SRC_ALPHA GL_ONE
+		tcMod scroll 0 -0.25
+	}
+}
+
 textures/liquids_lava/lava0_purple
 {
 	qer_editorimage textures/liquids_lava/lava0_purple.tga
@@ -130,3 +181,19 @@ textures/liquids_lava/lava0_purple_flow
 	}
 }
 
+textures/liquids_lava/lava0_purple_flow_pipe
+{
+	qer_editorimage textures/liquids_lava/lava0_purple.tga
+	surfaceparm lava
+	surfaceparm noimpact
+	surfaceparm trans
+	cull disable
+	deformVertexes wave 2 sin 1 2 0.25 0.1
+	q3map_surfacelight 1000
+	q3map_lightSubdivide 64
+	{
+		map textures/liquids_lava/lava0_purple.tga
+		blendfunc GL_SRC_ALPHA GL_ONE
+		tcMod scroll 0 -0.25
+	}
+}
