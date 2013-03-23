@@ -1,0 +1,14 @@
+title Strength
+description A large indoor map with different levels
+author ^7Strah^2l^7emann, Debugger
+cdtrack 14
+has weapons
+gametype dm
+gametype tdm
+gametype lms
+gametype keepaway
+gametype freezetag
+gametype rune
+gametype dom
+gametype ca
+gametype kh
