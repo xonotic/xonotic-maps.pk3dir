@@ -1,0 +1,14 @@
+title Station X
+description Space ship with low gravity outdoors
+author MirceaKitsune
+cdtrack 5
+has weapons
+gametype dm
+gametype tdm
+gametype lms
+gametype ca
+gametype arena
+gametype ft
+gametype ka
+gametype kh
+gametype dom
