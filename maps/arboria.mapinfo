@@ -2,7 +2,7 @@ title Arboria
 description Arboria, a calm glade in the forest...
 author Torus, sev, MirceaKitsune
 cdtrack 14
-fog 0.2 0.2 0.35 0.35 1 2000 4000
+fog 0.2 0.2 0.35 0.35 1 1000 8000
 has weapons
 gametype dm
 gametype tdm
