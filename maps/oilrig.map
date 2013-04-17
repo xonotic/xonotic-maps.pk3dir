@@ -24167,3 +24167,13 @@ exx/wall-bigrib02
 "origin" "-40.000000 -472.000000 304.000000"
 "light" "75"
 }
+{
+"classname" "light"
+"origin" "0.000000 -512.000000 368.000000"
+"light" "75"
+}
+{
+"classname" "light"
+"origin" "0.000000 -512.000000 304.000000"
+"light" "75"
+}
