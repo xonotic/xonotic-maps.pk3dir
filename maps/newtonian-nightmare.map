@@ -24520,11 +24520,6 @@ effects_forcefield/forcefield1_b
 }
 }
 {
-"classname" "info_autoscreenshot"
-"origin" "'-4824.8 1265.7 960.2'"
-"angles" "' 17.8 -29.2   0.0'"
-}
-{
 "classname" "weapon_nex"
 "origin" "-4384.000000 0.000000 1680.000000"
 }
@@ -24571,4 +24566,19 @@ effects_forcefield/forcefield1_b
 {
 "classname" "item_armor_large"
 "origin" "4592.000000 752.000000 656.000000"
+}
+{
+"classname" "info_autoscreenshot"
+"origin" "-2855.96753 1178.16064 774.088135"
+"angles" "12.0135498 -134.494629 0"
+}
+{
+"classname" "info_autoscreenshot"
+"origin" "-943.255554 775.19519 294.949219"
+"angles" "19.4018555 -31.2835693 0"
+}
+{
+"classname" "info_autoscreenshot"
+"origin" "-5130.5415 1778.82715 1524.09009"
+"angles" "17.8198242 -33.6621094 0"
 }
