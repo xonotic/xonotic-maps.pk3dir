@@ -52972,11 +52972,17 @@ exx/trim-metalsupp01
 }
 {
 "classname" "info_autoscreenshot"
-"origin" "902.000000 -301.000000 552.000000"
+"origin" "-475.53952 -1239.74243 394.492096"
 "target" "target_position92"
+"angles" "12.8045654 41.050415 0"
 }
 {
-"classname" "target_position"
-"origin" "-495.000000 -605.000000 118.000000"
-"targetname" "target_position92"
+"classname" "info_autoscreenshot"
+"origin" "1449.97888 213.645752 683.759033"
+"angles" "3.69689941 -49.3670654 0"
+}
+{
+"classname" "info_autoscreenshot"
+"origin" "1016.98907 -2265.43896 481.283722"
+"angles" "12.6727295 141.146851 0"
 }
