@@ -19000,7 +19000,7 @@ effects_healpod/healpod1_d
 "classname" "misc_model"
 "origin" "-160.000000 144.000000 -282.000000"
 "model" "models/space_ctf/generator.md3"
-"spawnflags" "6"
+"spawnflags" "10"
 "_castshadows" "2"
 "target" "red_generator_2"
 }
@@ -19105,8 +19105,8 @@ effects_healpod/healpod1_d
 "classname" "misc_model"
 "origin" "160.000000 -144.000000 -282.000000"
 "model" "models/space_ctf/generator.md3"
-"spawnflags" "2"
 "target" "blue_generator_4"
+"spawnflags" "10"
 }
 {
 "classname" "misc_model"
