@@ -28870,7 +28870,7 @@ effects_jumppad/jumppadfx1_a
 {
 "classname" "trigger_hurt"
 "message" "was lost in space"
-"dmg" "20"
+"dmg" "1000"
 {
 ( -2944 -5376 -1136 ) ( 2944 5376 -1136 ) ( 2944 -5376 -1136 ) common/trigger 0 0 0 0.25 0.25 134217728 0 0
 ( -2944 -5376 -1136 ) ( -2944 -5376 -3696 ) ( -2944 5376 -3696 ) common/trigger 0 64 0 0.25 0.25 134217728 0 0
