@@ -1,5 +1,3 @@
-//TELEPORTER 
-
 textures/map_fuse/fuse_teleporter_beam
 {
 	surfaceparm nonsolid
@@ -21,8 +19,6 @@ textures/map_fuse/fuse_teleporter_beam
 		tcmod scroll 0 0.9
 	}
 }
-
-//PIPE LIQUID
 
 textures/map_fuse/lava0_blue_flow_pipe
 {
@@ -75,8 +71,6 @@ textures/map_fuse/lava0_flow_pipe_100
 	}
 }
 
-//SKY 
-
 textures/map_fuse/fuse_heaven
 {
 	qer_editorimage textures/map_fuse/fuse_heaven.tga
@@ -107,8 +101,6 @@ textures/map_fuse/heaven
 	skyparms env/heaven/heaven - -
 }
 
-//BIRD
-
 textures/map_fuse/fuse_bird
 {
 	qer_editorimage textures/map_fuse/fuse_bird.tga
@@ -124,8 +116,6 @@ textures/map_fuse/fuse_bird
 		rgbgen identity
 	}
 }
-
-//WIRES NONSOLID
 
 textures/map_fuse/floor-simplines
 {
@@ -162,8 +152,6 @@ textures/map_fuse/fuse_scanlines
 		tcMod scroll 0 -0.75
 	}
 }
-
-//AD BOARDS
 
 textures/map_fuse/ad_msg
 {
