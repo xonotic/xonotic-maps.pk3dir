@@ -2116,7 +2116,7 @@
 ( -464 544 -64 ) ( -464 512 -64 ) ( -464 544 64 ) common/caulk 0 0 0 0.25 0.25 0 0 0
 }
 {
-( 288 480 608 ) ( 288 -32 608 ) ( -544 480 608 ) common/hintskip 0 0 0 0.2499999702 0.25 0 0 0
+( 288 480 384 ) ( 288 -32 384 ) ( -544 480 384 ) common/hintskip 0 0 0 0.2499999702 0.25 0 0 0
 ( 288 512 384 ) ( -544 512 384 ) ( 288 512 352 ) common/hintskip 0 0 0 0.2499999702 0.25 0 0 0
 ( 480 544 384 ) ( 480 544 352 ) ( 480 32 384 ) common/hintskip 512 0 0 0.2499999702 0.25 0 0 0
 ( -544 -32 352 ) ( 288 -32 352 ) ( -544 480 352 ) common/hint 0 0 0 0.2499999702 0.25 0 0 0
@@ -11550,7 +11550,7 @@ trak5x/base-pipe1d
 }
 {
 "classname" "item_health_small"
-"origin" "224.000000 -992.000000 -64.000000"
+"origin" "96.000000 -992.000000 -64.000000"
 }
 {
 "classname" "item_health_small"
@@ -11670,8 +11670,8 @@ trak5x/base-pipe1d
 }
 {
 "classname" "info_autoscreenshot"
-"origin" "'-1294.4 -1118.9 -18.0'"
-"angles" "' 21.4 -35.6   0.0'"
+"origin" "-1287.79248 -1044.23132 5.21250057"
+"angles" "9.23950195 -41.1108398 0"
 }
 {
 "classname" "misc_breakablemodel"
@@ -12003,15 +12003,15 @@ trak5x/base-pipe1d
 }
 {
 "classname" "item_armor_small"
-"origin" "312.000000 -544.000000 -64.000000"
+"origin" "344.000000 -544.000000 -64.000000"
 }
 {
 "classname" "item_armor_small"
-"origin" "480.000000 -544.000000 -64.000000"
+"origin" "472.000000 -544.000000 -64.000000"
 }
 {
 "classname" "item_armor_small"
-"origin" "424.000000 -544.000000 -64.000000"
+"origin" "408.000000 -544.000000 -64.000000"
 }
 {
 "classname" "func_pointparticles"
@@ -12054,14 +12054,12 @@ trak5x/base-pipe1d
 "respawntimejitter" "10"
 }
 {
-"classname" "item_health_small"
-"origin" "96.000000 -992.000000 -64.000000"
+"classname" "info_autoscreenshot"
+"origin" "-633.897034 625.670288 213.689545"
+"angles" "7.78930664 -28.5699463 0"
 }
 {
-"classname" "item_health_small"
-"origin" "160.000000 -992.000000 -64.000000"
-}
-{
-"classname" "item_armor_small"
-"origin" "368.000000 -544.000000 -64.000000"
+"classname" "info_autoscreenshot"
+"origin" "-191.908432 83.3172836 -238.772797"
+"angles" "3.82873535 -144.766846 0"
 }
