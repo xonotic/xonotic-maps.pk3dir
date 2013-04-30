@@ -27379,7 +27379,7 @@ trak5x/base-pipe1b
 ( 672 -320 480 ) ( 640 -320 480 ) ( 640 -320 488 ) common/caulk 0 0 0 0.25 0.25 0 4 0
 ( 96 -320 480 ) ( 96 -192 480 ) ( 128 -192 512 ) common/caulk 0 0 0 0.25 0.25 0 4 0
 ( 288 -192 480 ) ( 288 -320 480 ) ( 256 -320 512 ) common/caulk 0 0 0 0.25 0.25 0 4 0
-( 96 -192 480 ) ( 96 -320 480 ) ( 288 -320 480 ) common/caulk 0 0 0 0.25 0.25 0 4 0
+( 96 -192 480 ) ( 96 -320 480 ) ( 288 -320 480 ) exx/wall-metalrib01 0 0 0 0.25 0.25 0 4 0
 }
 {
 ( 320 -480 480 ) ( 240 -480 480 ) ( 208 -448 512 ) common/caulk 0 0 0 0.25 0.25 0 0 0
@@ -28066,30 +28066,6 @@ trak5x/base-pipe1c
 ( -866 626 146 ) ( -838 701 146 ) ( -838 701 74 ) common/weapclip -137 0 0 0.2349849939 0.25 0 5 0
 ( -838 701 146 ) ( -906 726 146 ) ( -906 726 74 ) common/weapclip 248 0 0 0.2349240035 0.25 0 5 0
 ( -904 726 140 ) ( -932 651 140 ) ( -932 651 68 ) common/weapclip 14 0 0 0.2349240035 0.25 0 5 0
-}
-{
-( -208 -1332 -64 ) ( -214 -1332 -64 ) ( -208 -1332 -20 ) common/weapclip 0 0 0 0.25 0.25 0 5 0
-( -196 -1314 -64 ) ( -196 -1322 -64 ) ( -196 -1314 -20 ) common/weapclip 0 0 0 0.25 0.25 0 5 0
-( -200 -1328 -64 ) ( -206 -1332 -64 ) ( -200 -1328 -20 ) common/weapclip 0 0 0 0.25 0.25 0 5 0
-( -242 -1276 -64 ) ( -238 -1272 -64 ) ( -242 -1276 -20 ) common/weapclip 0 0 0 0.25 0.25 0 5 0
-( -226 -1324 -64 ) ( -244 -1284 -64 ) ( -226 -1324 -20 ) common/weapclip 0 0 0 0.25 0.25 0 5 0
-( -214 -1276 -64 ) ( -198 -1308 -64 ) ( -214 -1276 -20 ) common/weapclip 0 0 0 0.25 0.25 0 5 0
-( -244 -1268 -18 ) ( -244 -1336 -18 ) ( -244 -1336 -64 ) common/weapclip 0 0 0 0.25 0.25 0 5 0
-( -190 -1268 -18 ) ( -244 -1268 -18 ) ( -244 -1268 -64 ) common/weapclip 0 0 0 0.25 0.25 0 5 0
-( -250 -1336 -20 ) ( -250 -1268 -20 ) ( -196 -1268 -20 ) common/weapclip 0 0 0 0.25 0.25 0 5 0
-( -190 -1268 -64 ) ( -244 -1268 -64 ) ( -244 -1336 -64 ) common/weapclip 0 0 0 0.25 0.25 0 5 0
-}
-{
-( -234 -1308 -20 ) ( -238 -1304 -20 ) ( -234 -1308 24 ) common/weapclip 0 176 0 0.25 0.25 0 5 0
-( -210 -1304 -20 ) ( -216 -1310 -20 ) ( -210 -1304 24 ) common/weapclip 0 176 0 0.25 0.25 0 5 0
-( -216 -1282 -20 ) ( -210 -1288 -20 ) ( -216 -1282 24 ) common/weapclip 0 176 0 0.25 0.25 0 5 0
-( -210 -1282 -20 ) ( -240 -1282 -20 ) ( -240 -1314 -20 ) common/weapclip 0 0 0 0.25 0.25 0 5 0
-( -240 -1314 26 ) ( -240 -1282 26 ) ( -210 -1282 26 ) common/weapclip 0 0 0 0.25 0.25 0 5 0
-( -240 -1312 24 ) ( -210 -1312 24 ) ( -210 -1312 -20 ) common/weapclip 0 176 0 0.25 0.25 0 5 0
-( -208 -1314 24 ) ( -208 -1282 24 ) ( -208 -1282 -20 ) common/weapclip 0 176 0 0.25 0.25 0 5 0
-( -210 -1280 24 ) ( -240 -1280 24 ) ( -240 -1280 -20 ) common/weapclip 0 176 0 0.25 0.25 0 5 0
-( -240 -1282 24 ) ( -240 -1314 24 ) ( -240 -1314 -20 ) common/weapclip 0 176 0 0.25 0.25 0 5 0
-( -238 -1288 -20 ) ( -232 -1282 -20 ) ( -238 -1288 24 ) common/weapclip 0 176 0 0.25 0.25 0 5 0
 }
 {
 ( -1336 -992 552 ) ( -1336 -960 552 ) ( -1336 -960 600 ) trak5x/base-base1b 0 0 0 0.25 0.25 0 0 0
@@ -29244,6 +29220,42 @@ trak5x/base-pipe1a
 ( -944 1088 992 ) ( -944 1088 960 ) ( -944 1040 992 ) common/caulk 0 0 0 0.25 0.25 0 0 0
 ( -936 920 960 ) ( -936 920 992 ) ( -904 920 960 ) common/caulk 224 0 0 0.25 0.25 0 0 0
 ( -944 64 960 ) ( -952 64 968 ) ( -944 -64 960 ) exx/trim-simple01 231.6186523438 -0 -90 0.1640625 0.125 0 0 0
+}
+{
+( -204 -1280 26 ) ( -204 -1312 26 ) ( -236 -1280 26 ) common/weapclip 0 0 0 0.25 0.25 134217728 0 0
+( -204 -1280 -17 ) ( -236 -1280 -17 ) ( -204 -1280 -19 ) common/weapclip 0 0 0 0.25 0.25 134217728 0 0
+( -204 -1280 -17 ) ( -204 -1280 -19 ) ( -204 -1312 -17 ) common/weapclip 0 0 0 0.25 0.25 134217728 0 0
+( -236 -1312 -19 ) ( -204 -1312 -19 ) ( -236 -1280 -19 ) common/weapclip 0 0 0 0.25 0.25 134217728 0 0
+( -236 -1312 -19 ) ( -236 -1312 -17 ) ( -204 -1312 -19 ) common/weapclip 0 0 0 0.25 0.25 134217728 0 0
+( -236 -1312 -19 ) ( -236 -1280 -19 ) ( -236 -1312 -17 ) common/weapclip 0 0 0 0.25 0.25 134217728 0 0
+( -236 -1290 -147 ) ( -226 -1280 -147 ) ( -236 -1290 -19 ) common/weapclip 0 0 0 0.25 0.25 134217728 0 0
+( -214 -1280 -147 ) ( -204 -1290 -147 ) ( -214 -1280 -19 ) common/weapclip 0 0 0 0.25 0.25 134217728 0 0
+( -204 -1302 -147 ) ( -214 -1312 -147 ) ( -204 -1302 -19 ) common/weapclip 0 0 0 0.25 0.25 134217728 0 0
+( -226 -1312 -147 ) ( -236 -1302 -147 ) ( -226 -1312 -19 ) common/weapclip 0 0 0 0.25 0.25 134217728 0 0
+}
+{
+( -220 -1264 -19 ) ( -220 -1296 -19 ) ( -252 -1264 -19 ) common/weapclip 0 0 0 0.25 0.25 134217728 0 0
+( -220 -1264 -62 ) ( -252 -1264 -62 ) ( -220 -1264 -64 ) common/weapclip 0 0 0 0.25 0.25 134217728 0 0
+( -220 -1264 -62 ) ( -220 -1264 -64 ) ( -220 -1296 -62 ) common/weapclip 0 0 0 0.25 0.25 134217728 0 0
+( -252 -1296 -64 ) ( -220 -1296 -64 ) ( -252 -1264 -64 ) common/weapclip 0 0 0 0.25 0.25 134217728 0 0
+( -252 -1296 -64 ) ( -252 -1296 -62 ) ( -220 -1296 -64 ) common/weapclip 0 0 0 0.25 0.25 134217728 0 0
+( -252 -1296 -64 ) ( -252 -1264 -64 ) ( -252 -1296 -62 ) common/weapclip 0 0 0 0.25 0.25 134217728 0 0
+( -252 -1274 -192 ) ( -242 -1264 -192 ) ( -252 -1274 -64 ) common/weapclip 0 0 0 0.25 0.25 134217728 0 0
+( -230 -1264 -192 ) ( -220 -1274 -192 ) ( -230 -1264 -64 ) common/weapclip 0 0 0 0.25 0.25 134217728 0 0
+( -220 -1286 -192 ) ( -230 -1296 -192 ) ( -220 -1286 -64 ) common/weapclip 0 0 0 0.25 0.25 134217728 0 0
+( -242 -1296 -192 ) ( -252 -1286 -192 ) ( -242 -1296 -64 ) common/weapclip 0 0 0 0.25 0.25 134217728 0 0
+}
+{
+( -196 -1288 -19 ) ( -196 -1320 -19 ) ( -228 -1288 -19 ) common/weapclip 0 0 0 0.25 0.25 134217728 0 0
+( -196 -1288 -62 ) ( -228 -1288 -62 ) ( -196 -1288 -64 ) common/weapclip 0 0 0 0.25 0.25 134217728 0 0
+( -196 -1288 -62 ) ( -196 -1288 -64 ) ( -196 -1320 -62 ) common/weapclip 0 0 0 0.25 0.25 134217728 0 0
+( -228 -1320 -64 ) ( -196 -1320 -64 ) ( -228 -1288 -64 ) common/weapclip 0 0 0 0.25 0.25 134217728 0 0
+( -228 -1320 -64 ) ( -228 -1320 -62 ) ( -196 -1320 -64 ) common/weapclip 0 0 0 0.25 0.25 134217728 0 0
+( -228 -1320 -64 ) ( -228 -1288 -64 ) ( -228 -1320 -62 ) common/weapclip 0 0 0 0.25 0.25 134217728 0 0
+( -228 -1298 -192 ) ( -218 -1288 -192 ) ( -228 -1298 -64 ) common/weapclip 0 0 0 0.25 0.25 134217728 0 0
+( -206 -1288 -192 ) ( -196 -1298 -192 ) ( -206 -1288 -64 ) common/weapclip 0 0 0 0.25 0.25 134217728 0 0
+( -196 -1310 -192 ) ( -206 -1320 -192 ) ( -196 -1310 -64 ) common/weapclip 0 0 0 0.25 0.25 134217728 0 0
+( -218 -1320 -192 ) ( -228 -1310 -192 ) ( -218 -1320 -64 ) common/weapclip 0 0 0 0.25 0.25 134217728 0 0
 }
 }
 {
@@ -42754,23 +42766,6 @@ trak5x/base-pipe1a
 "_color" "0.733333 0.921141 1.000000"
 }
 {
-"classname" "misc_gamemodel"
-"origin" "-228 -1284 -64"
-"model" "models/containers/barrel01.md3"
-}
-{
-"classname" "misc_gamemodel"
-"model" "models/containers/barrel01.md3"
-"origin" "-212 -1316 -64"
-"angle" "135"
-}
-{
-"classname" "misc_gamemodel"
-"angle" "45"
-"origin" "-224 -1296 -20"
-"model" "models/containers/barrel01.md3"
-}
-{
 "classname" "misc_model"
 "origin" "-800 636 72"
 "model" "models/containers/crate01.md3"
@@ -43669,4 +43664,79 @@ trak5x/base-pipe1a
 "classname" "info_autoscreenshot"
 "origin" "1024.000000 -64.000000 640.000000"
 "angle" "172.22"
+}
+{
+"classname" "misc_breakablemodel"
+"origin" "-219.999878 -1296.000122 -19.000000"
+"model" "models/containers/barrel01.md3"
+"_castShadows" "1"
+"angle" "120.000000"
+"count" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debrissolid" "0"
+"debristime" "6"
+"debristimejitter" "2"
+"dmg" "75"
+"dmg_edge" "25"
+"dmg_force" "600"
+"dmg_radius" "150"
+"health" "25"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"message" "was killed by an explosive barrel"
+"message2" "was killed with an explosive barrel by"
+"noise" "sound/weapons/rocket_impact.ogg"
+"respawntime" "40"
+"respawntimejitter" "10"
+}
+{
+"classname" "misc_breakablemodel"
+"origin" "-235.999878 -1280.000122 -64.000000"
+"model" "models/containers/barrel01.md3"
+"_castShadows" "1"
+"angle" "120.000000"
+"count" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debrissolid" "0"
+"debristime" "6"
+"debristimejitter" "2"
+"dmg" "75"
+"dmg_edge" "25"
+"dmg_force" "600"
+"dmg_radius" "150"
+"health" "25"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"message" "was killed by an explosive barrel"
+"message2" "was killed with an explosive barrel by"
+"noise" "sound/weapons/rocket_impact.ogg"
+"respawntime" "40"
+"respawntimejitter" "10"
+}
+{
+"classname" "misc_breakablemodel"
+"origin" "-211.999878 -1304.000122 -64.000000"
+"model" "models/containers/barrel01.md3"
+"_castShadows" "1"
+"angle" "120.000000"
+"count" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debrissolid" "0"
+"debristime" "6"
+"debristimejitter" "2"
+"dmg" "75"
+"dmg_edge" "25"
+"dmg_force" "600"
+"dmg_radius" "150"
+"health" "25"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"message" "was killed by an explosive barrel"
+"message2" "was killed with an explosive barrel by"
+"noise" "sound/weapons/rocket_impact.ogg"
+"respawntime" "40"
+"respawntimejitter" "10"
 }
