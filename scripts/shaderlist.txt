@@ -19,7 +19,6 @@ liquids_water
 logos
 map_courtfun
 map_darkzone
-map_fuse
 map_g-23
 map_glowplant
 map_leave_em_behind
