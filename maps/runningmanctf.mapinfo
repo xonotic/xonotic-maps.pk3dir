@@ -1,11 +1,13 @@
 title Running Man CTF
 description Medium-sized, fast enclosed map supporting multiple gamemodes.
-author Paul Evers, FruitieX
+author FruitieX, Cortez, Paul Evers, Debugger
 cdtrack 6
 has weapons
+gametype tdm
 gametype ctf
 gametype ca
 gametype ons
 gametype dom
-gametype freezetag
+gametype ft
+gametype kh
 clientsettemp_for_type all r_water 1

@@ -1,11 +1,10 @@
 title Stormkeep
-description Medium sized indoors map, well suited for team games.
-author W. Libert, M. Merten, P. Evers, FruitieX
+description Medium sized indoor map, well suited for team games
+author FruitieX, Cuinnton, SavageX, Strahlemann, W. Libert, tZork
 has weapons
 gametype dm
 gametype tdm
 gametype dom
-gametype rune
 gametype lms
 gametype arena
 gametype rc
