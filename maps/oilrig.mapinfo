@@ -1,0 +1,14 @@
+title Oilrig
+description A very large open map designed after an offshore oil rig.
+author Tronyn, Debugger, SavageX, Dustin Geeraert, Garth Hendy
+cdtrack 14
+has weapons all
+gametype dm // defaults: timelimit=20 pointlimit=30 leadlimit=0
+gametype lms // defaults: timelimit=20 lives=9 leadlimit=0
+gametype rune // defaults: timelimit=20 pointlimit=200 leadlimit=0
+gametype tdm // defaults: timelimit=20 pointlimit=50 teams=2 leadlimit=0
+gametype ca // defaults: timelimit=20 pointlimit=10 leadlimit=0
+gametype dom // defaults: timelimit=20 pointlimit=200 teams=2 leadlimit=0
+gametype kh // defaults: timelimit=20 pointlimit=1000 teams=3 leadlimit=0
+gametype ft // defaults: timelimit=20 pointlimit=10 teams=2 leadlimit=0
+gametype ka // defaults: timelimit=20 pointlimit=30
