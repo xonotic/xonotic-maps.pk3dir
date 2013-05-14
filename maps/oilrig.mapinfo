@@ -1,6 +1,6 @@
 title Oilrig
 description A very large open map designed after an offshore oil rig.
-author Tronyn, Debugger, Dustin Geeraert, Garth Hendy
+author Tronyn, Debugger, SavageX, Dustin Geeraert, Garth Hendy
 cdtrack 14
 has weapons all
 gametype dm // defaults: timelimit=20 pointlimit=30 leadlimit=0
