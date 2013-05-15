@@ -1949,8 +1949,8 @@ Disables a trigger_relay temporarily (until triggered again)
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
 </point>
 
-<point name="monster_demon" color="1 0 0" box="-41 -41 -31 41 41 31">
-Fiend. Jumps at the player
+<point name="monster_animus" color="1 0 0" box="-41 -41 -31 41 41 31">
+Animus. Undead doll which pounces at the enemy
 -------- KEYS --------
 <integer key="health" name="health">monster health amount</integer>
 <integer key="netname" name="netname">waypoint name</integer>
@@ -1968,8 +1968,8 @@ Fiend. Jumps at the player
 <flag key="MONSTER_RESPAWN_DEATHPOINT" name="RESPAWN_DEATHPOINT" bit="3">Re-spawn where monster died, rather than at original spawn location</flag>
 </point>
 
-<point name="monster_dog" color="1 0 0" box="-16 -16 -24 16 16 12">
-Rottweiler. Man's best enemy
+<point name="monster_cerberus" color="1 0 0" box="-16 -16 -24 16 16 12">
+Cerberus. Man's best enemy
 -------- KEYS --------
 <integer key="health" name="health">monster health amount</integer>
 <integer key="netname" name="netname">waypoint name</integer>
@@ -1987,8 +1987,8 @@ Rottweiler. Man's best enemy
 <flag key="MONSTER_RESPAWN_DEATHPOINT" name="RESPAWN_DEATHPOINT" bit="3">Re-spawn where monster died, rather than at original spawn location</flag>
 </point>
 
-<point name="monster_fish" color="1 0 0" box="-20 -20 -31 20 20 20">
-Rotfish. First water monster
+<point name="monster_stingray" color="1 0 0" box="-20 -20 -31 20 20 20">
+Stingray. A swimming beast with poison stings
 -------- KEYS --------
 <integer key="health" name="health">monster health amount</integer>
 <integer key="netname" name="netname">waypoint name</integer>
@@ -2006,8 +2006,8 @@ Rotfish. First water monster
 <flag key="MONSTER_RESPAWN_DEATHPOINT" name="RESPAWN_DEATHPOINT" bit="3">Re-spawn where monster died, rather than at original spawn location</flag>
 </point>
 
-<point name="monster_hellknight" color="1 0 0" box="-20 -20 -32 20 20 41">
-Hell-Knight. A cursed warrior from the depths of hell
+<point name="monster_knight" color="1 0 0" box="-20 -20 -32 20 20 41">
+Knight. A cursed warrior from the depths of hell
 -------- KEYS --------
 <integer key="health" name="health">monster health amount</integer>
 <integer key="netname" name="netname">waypoint name</integer>
@@ -2025,8 +2025,8 @@ Hell-Knight. A cursed warrior from the depths of hell
 <flag key="MONSTER_RESPAWN_DEATHPOINT" name="RESPAWN_DEATHPOINT" bit="3">Re-spawn where monster died, rather than at original spawn location</flag>
 </point>
 
-<point name="monster_knight" color="1 0 0" box="-20 -20 -31 20 20 53">
-Knight. A cursed medieval warrior
+<point name="monster_bruiser" color="1 0 0" box="-20 -20 -31 20 20 53">
+Bruiser. A cursed medieval warrior
 -------- KEYS --------
 <integer key="health" name="health">monster health amount</integer>
 <integer key="netname" name="netname">waypoint name</integer>
@@ -2044,8 +2044,8 @@ Knight. A cursed medieval warrior
 <flag key="MONSTER_RESPAWN_DEATHPOINT" name="RESPAWN_DEATHPOINT" bit="3">Re-spawn where monster died, rather than at original spawn location</flag>
 </point>
 
-<point name="monster_ogre" color="1 0 0" box="-36 -36 -20 36 36 50">
-Ogre. Chops down creatures like trees
+<point name="monster_brute" color="1 0 0" box="-36 -36 -20 36 36 50">
+Brute. Chops down creatures like trees
 -------- KEYS --------
 <integer key="health" name="health">monster health amount</integer>
 <integer key="netname" name="netname">waypoint name</integer>
@@ -2101,25 +2101,6 @@ Shambler. Summons lightning bolts with its large meat cleaving claws
 <flag key="MONSTER_RESPAWN_DEATHPOINT" name="RESPAWN_DEATHPOINT" bit="3">Re-spawn where monster died, rather than at original spawn location</flag>
 </point>
 
-<point name="monster_marine" color="1 0 0" box="-16 -16 -30 16 16 32">
-Marine. Undead soldier
--------- KEYS --------
-<integer key="health" name="health">monster health amount</integer>
-<integer key="netname" name="netname">waypoint name</integer>
-<integer key="target_range" name="target_range">maximum targeting range. If current target is further away, it will be lost</integer>
-<real key="respawntime" name="respawntime">delay in seconds before re-spawning</real>
-<integer key="monster_moveflags" name="monster_moveflags">move target while not attacking. 2=wander around, 3=spawn location, 4=no moving</integer>
-<target key="target" name="target">disable/enable all relays with this targetname when killed</target>
-<target key="target2" name="target2">follow this target</target>
-<targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
-<integer key="team" name="team">5=red, 14=blue</integer>
--------- SPAWNFLAGS --------
-<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="0">Spawn as mini-boss (slightly more powerful)</flag>
-<flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="1">Spawn when triggered</flag>
-<flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="2">Don't re-spawn</flag>
-<flag key="MONSTER_RESPAWN_DEATHPOINT" name="RESPAWN_DEATHPOINT" bit="3">Re-spawn where monster died, rather than at original spawn location</flag>
-</point>
-
 <point name="monster_spider" color="1 0 0" box="-18 -18 -25 18 18 30">
 Spider. Freezing ice or burning fire web, both lead to an 8-legged grave
 -------- KEYS --------
@@ -2140,8 +2121,8 @@ Spider. Freezing ice or burning fire web, both lead to an 8-legged grave
 <flag key="MONSTER_RESPAWN_DEATHPOINT" name="RESPAWN_DEATHPOINT" bit="3">Re-spawn where monster died, rather than at original spawn location</flag>
 </point>
 
-<point name="monster_tarbaby" color="1 0 0" box="-20 -20 -31 20 20 20">
-Tarbaby. A slimy explosives experiment gone horribly wrong
+<point name="monster_slime" color="1 0 0" box="-20 -20 -31 20 20 20">
+Slime. A slimy explosives experiment come to life
 -------- KEYS --------
 <integer key="health" name="health">monster health amount</integer>
 <integer key="netname" name="netname">waypoint name</integer>
@@ -2159,8 +2140,8 @@ Tarbaby. A slimy explosives experiment gone horribly wrong
 <flag key="MONSTER_RESPAWN_DEATHPOINT" name="RESPAWN_DEATHPOINT" bit="3">Re-spawn where monster died, rather than at original spawn location</flag>
 </point>
 
-<point name="monster_scrag" color="1 0 0" box="-20 -20 -58 20 20 20">
-Scrag. First flying monster
+<point name="monster_wyvern" color="1 0 0" box="-20 -20 -58 20 20 20">
+Wyvern. Flies around shooting fireballs
 -------- KEYS --------
 <integer key="health" name="health">monster health amount</integer>
 <integer key="netname" name="netname">waypoint name</integer>
