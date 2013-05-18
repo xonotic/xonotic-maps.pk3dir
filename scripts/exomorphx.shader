@@ -1767,4 +1767,1163 @@ textures/exomorphx/light-metal_light08
 
 }
 
+textures/exomorphx/base-metal01
+{
+	qer_editorimage textures/exomorphx/base/metal01
+	dpoffsetmapping - .05538845958254273813 match8 91.30766800000000000000
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	q3map_bouncescale 1.25
 
+
+
+	{
+		map textures/exomorphx/base/metal01
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+
+}
+
+textures/exomorphx/base-metal01_blue
+{
+	qer_editorimage textures/exomorphx/base/metal01_blue
+	dpoffsetmapping - .05538845958254273813 match8 91.30766800000000000000
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	q3map_bouncescale 1.25
+
+
+
+	{
+		map textures/exomorphx/base/metal01_blue
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+
+}
+
+textures/exomorphx/base-metal01_red
+{
+	qer_editorimage textures/exomorphx/base/metal01_red
+	dpoffsetmapping - .05538845958254273813 match8 91.30766800000000000000
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	q3map_bouncescale 1.25
+
+
+
+	{
+		map textures/exomorphx/base/metal01_red
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+
+}
+
+textures/exomorphx/base-metal02
+{
+	qer_editorimage textures/exomorphx/base/metal02
+	dpoffsetmapping - .05538845958254273813 match8 91.30766800000000000000
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	q3map_bouncescale 1.25
+
+
+
+	{
+		map textures/exomorphx/base/metal02
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+
+}
+
+textures/exomorphx/base-metal03
+{
+	qer_editorimage textures/exomorphx/base/metal03
+	dpoffsetmapping - .05538845958254273813 match8 91.30766800000000000000
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	q3map_bouncescale 1.25
+
+
+
+	{
+		map textures/exomorphx/base/metal03
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+
+}
+
+textures/exomorphx/base-concrete02
+{
+	qer_editorimage textures/exomorphx/base/concrete02
+	dpoffsetmapping - .05538845958254273813 match8 91.30766800000000000000
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	q3map_bouncescale 1.25
+
+
+
+	{
+		map textures/exomorphx/base/concrete02
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+
+}
+
+textures/exomorphx/base-concrete03
+{
+	qer_editorimage textures/exomorphx/base/concrete03
+	dpoffsetmapping - .05538845958254273813 match8 91.30766800000000000000
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	q3map_bouncescale 1.25
+
+
+
+	{
+		map textures/exomorphx/base/concrete03
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+
+}
+
+textures/exomorphx/floor-metal_floor02a
+{
+	qer_editorimage textures/exomorphx/floor/metal_floor02a
+	dpoffsetmapping - .68234963752831711667 match8 197.15924700000000000000
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	surfaceparm metalsteps
+	q3map_bouncescale 1.50
+
+
+
+	{
+		map textures/exomorphx/floor/metal_floor02a
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+
+}
+
+textures/exomorphx/floor-metal_floor03b
+{
+	qer_editorimage textures/exomorphx/floor/metal_floor03b
+	dpoffsetmapping - .68234963752831711667 match8 197.15924700000000000000
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	surfaceparm metalsteps
+	q3map_bouncescale 1.50
+
+
+
+	{
+		map textures/exomorphx/floor/metal_floor03b
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+
+}
+
+textures/exomorphx/floor-metal_floor03c
+{
+	qer_editorimage textures/exomorphx/floor/metal_floor03c
+	dpoffsetmapping - .68234963752831711667 match8 197.15924700000000000000
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	surfaceparm metalsteps
+	q3map_bouncescale 1.50
+
+
+
+	{
+		map textures/exomorphx/floor/metal_floor03c
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+
+}
+
+textures/exomorphx/floor-metal_floor04a
+{
+	qer_editorimage textures/exomorphx/floor/metal_floor04a
+	dpoffsetmapping - 2.28641290560094684604 match8 220.49524300000000000000
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	surfaceparm metalsteps
+	q3map_bouncescale 1.50
+
+
+
+	{
+		map textures/exomorphx/floor/metal_floor04a
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+
+}
+
+textures/exomorphx/floor-metal_floor04b
+{
+	qer_editorimage textures/exomorphx/floor/metal_floor04b
+	dpoffsetmapping - 2.28641290560094684604 match8 220.49524300000000000000
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	surfaceparm metalsteps
+	q3map_bouncescale 1.50
+
+
+
+	{
+		map textures/exomorphx/floor/metal_floor04b
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+
+}
+
+textures/exomorphx/floor-metal_floor04c
+{
+	qer_editorimage textures/exomorphx/floor/metal_floor04c
+	dpoffsetmapping - 2.28641290560094684604 match8 220.49524300000000000000
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	surfaceparm metalsteps
+	q3map_bouncescale 1.50
+
+
+
+	{
+		map textures/exomorphx/floor/metal_floor04c
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+
+}
+
+textures/exomorphx/floor-metal_floor05a
+{
+	qer_editorimage textures/exomorphx/floor/metal_floor05a
+	dpoffsetmapping - 2.28641290560094684604 match8 220.49524300000000000000
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	surfaceparm metalsteps
+	q3map_bouncescale 1.50
+
+
+
+	{
+		map textures/exomorphx/floor/metal_floor05a
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+
+}
+
+textures/exomorphx/floor-metal_panel_floor03b
+{
+	qer_editorimage textures/exomorphx/floor/metal_panel_floor03b
+	dpoffsetmapping - 2.28641290560094684604 match8 220.49524300000000000000
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	surfaceparm metalsteps
+	q3map_bouncescale 1.50
+
+
+
+	{
+		map textures/exomorphx/floor/metal_panel_floor03b
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+
+}
+
+textures/exomorphx/light-metal_light04_blue
+{
+	qer_editorimage textures/exomorphx/light/metal_light04_blue
+	dpoffsetmapping - .89493873437289361705 match8 124.51321500000000000000
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	surfaceparm metalsteps
+	q3map_bouncescale 1.50
+
+
+
+	{
+		map textures/exomorphx/light/metal_light04_blue
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+
+}
+
+textures/exomorphx/light-metal_light08a
+{
+	qer_editorimage textures/exomorphx/light/metal_light08a
+	dpoffsetmapping - 6.18143032736626864759 match8 161.78619100000000000000
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	surfaceparm metalsteps
+	q3map_bouncescale 1.50
+
+
+
+	{
+		map textures/exomorphx/light/metal_light08a
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+
+}
+
+textures/exomorphx/light-metal_light08ablue
+{
+	qer_editorimage textures/exomorphx/light/metal_light08ablue
+	dpoffsetmapping - 6.18143032736626864759 match8 161.78619100000000000000
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	surfaceparm metalsteps
+	q3map_bouncescale 1.50
+
+
+
+	{
+		map textures/exomorphx/light/metal_light08ablue
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+
+}
+
+textures/exomorphx/light-metal_light08ared
+{
+	qer_editorimage textures/exomorphx/light/metal_light08ared
+	dpoffsetmapping - 6.18143032736626864759 match8 161.78619100000000000000
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	surfaceparm metalsteps
+	q3map_bouncescale 1.50
+
+
+
+	{
+		map textures/exomorphx/light/metal_light08ared
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+
+textures/exomorphx/light-metal_panel_light01a
+{
+	qer_editorimage textures/exomorphx/light/metal_panel_light01a
+	dpoffsetmapping - .73862026416195735908 match8 239.12868300000000000000
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	surfaceparm metalsteps
+	q3map_bouncescale 1.50
+
+
+
+	{
+		map textures/exomorphx/light/metal_panel_light01a
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+
+textures/exomorphx/panel-concrete_wall_metal02a
+{
+	qer_editorimage textures/exomorphx/panel/concrete_wall_metal02a
+	dpoffsetmapping - .40499102153122854479 match8 163.61867400000000000000
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	q3map_bouncescale 1.25
+
+
+
+	{
+		map textures/exomorphx/panel/concrete_wall_metal02a
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+
+textures/exomorphx/panel-metal_floor02b
+{
+	qer_editorimage textures/exomorphx/panel/metal_floor02b
+	dpoffsetmapping - .68234963752831711667 match8 197.15924700000000000000
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	surfaceparm metalsteps
+	q3map_bouncescale 1.50
+
+
+
+	{
+		map textures/exomorphx/panel/metal_floor02b
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+
+}
+
+textures/exomorphx/panel-metal_floor04d
+{
+	qer_editorimage textures/exomorphx/panel/metal_floor04d
+	dpoffsetmapping - 2.28641290560094684604 match8 220.49524300000000000000
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	surfaceparm metalsteps
+	q3map_bouncescale 1.50
+
+
+
+	{
+		map textures/exomorphx/panel/metal_floor04d
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+
+}
+
+textures/exomorphx/panel-metal_panel01a
+{
+	qer_editorimage textures/exomorphx/panel/metal_panel01a
+	dpoffsetmapping - .61916338529116318878 match8 246.99417400000000000000
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	surfaceparm metalsteps
+	q3map_bouncescale 1.50
+
+
+
+	{
+		map textures/exomorphx/panel/metal_panel01a
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+
+}
+
+textures/exomorphx/panel-metal_panel05_blue
+{
+	qer_editorimage textures/exomorphx/panel/metal_panel05_blue
+	dpoffsetmapping - 1.66758797536355148942 match8 133.37883100000000000000
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	surfaceparm metalsteps
+	q3map_bouncescale 1.50
+
+
+
+	{
+		map textures/exomorphx/panel/metal_panel05_blue
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+
+}
+
+textures/exomorphx/panel-metal_panel05_red
+{
+	qer_editorimage textures/exomorphx/panel/metal_panel05_red
+	dpoffsetmapping - 1.66758797536355148942 match8 133.37883100000000000000
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	surfaceparm metalsteps
+	q3map_bouncescale 1.50
+
+
+
+	{
+		map textures/exomorphx/panel/metal_panel05_red
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+
+}
+
+textures/exomorphx/panel-metal_panel05a
+{
+	qer_editorimage textures/exomorphx/panel/metal_panel05a
+	dpoffsetmapping - 1.66758797536355148942 match8 133.37883100000000000000
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	surfaceparm metalsteps
+	q3map_bouncescale 1.50
+
+
+
+	{
+		map textures/exomorphx/panel/metal_panel05a
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+
+}
+
+textures/exomorphx/panel-metal_panel05b
+{
+	qer_editorimage textures/exomorphx/panel/metal_panel05b
+	dpoffsetmapping - 1.66758797536355148942 match8 133.37883100000000000000
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	surfaceparm metalsteps
+	q3map_bouncescale 1.50
+
+
+
+	{
+		map textures/exomorphx/panel/metal_panel05b
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+
+}
+
+textures/exomorphx/panel-metal_panel05c
+{
+	qer_editorimage textures/exomorphx/panel/metal_panel05c
+	dpoffsetmapping - 1.66758797536355148942 match8 133.37883100000000000000
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	surfaceparm metalsteps
+	q3map_bouncescale 1.50
+
+
+
+	{
+		map textures/exomorphx/panel/metal_panel05c
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+
+}
+
+textures/exomorphx/trim-concrete_wall_metal01a
+{
+	qer_editorimage textures/exomorphx/trim/concrete_wall_metal01a
+	dpoffsetmapping - .40499102153122854479 match8 163.61867400000000000000
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	q3map_bouncescale 1.25
+
+
+
+	{
+		map textures/exomorphx/trim/concrete_wall_metal01a
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+
+}
+
+textures/exomorphx/trim-concrete_wall_metal02b
+{
+	qer_editorimage textures/exomorphx/trim/concrete_wall_metal02b
+	dpoffsetmapping - .40499102153122854479 match8 163.61867400000000000000
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	q3map_bouncescale 1.25
+
+
+
+	{
+		map textures/exomorphx/trim/concrete_wall_metal02b
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+
+}
+
+textures/exomorphx/trim-metal_floor01a
+{
+	qer_editorimage textures/exomorphx/trim/metal_floor01a
+	dpoffsetmapping - .68234963752831711667 match8 197.15924700000000000000
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	surfaceparm metalsteps
+	q3map_bouncescale 1.50
+
+
+
+	{
+		map textures/exomorphx/trim/metal_floor01a
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+
+}
+
+textures/exomorphx/trim-metal_panel01_orange-trim
+{
+	qer_editorimage textures/exomorphx/trim/metal_panel01_orange-trim
+	dpoffsetmapping - .61916338529116318878 match8 246.99417400000000000000
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	surfaceparm metalsteps
+	q3map_bouncescale 1.50
+
+
+
+	{
+		map textures/exomorphx/trim/metal_panel01_orange-trim
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+
+}
+
+textures/exomorphx/trim-metal_panel01b
+{
+	qer_editorimage textures/exomorphx/trim/metal_panel01b
+	dpoffsetmapping - .61916338529116318878 match8 246.99417400000000000000
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	surfaceparm metalsteps
+	q3map_bouncescale 1.50
+
+
+
+	{
+		map textures/exomorphx/trim/metal_panel01b
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+
+}
+
+textures/exomorphx/trim-metal_panel05_blue-1
+{
+	qer_editorimage textures/exomorphx/trim/metal_panel05_blue-1
+	dpoffsetmapping - 1.66758797536355148942 match8 133.37883100000000000000
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	surfaceparm metalsteps
+	q3map_bouncescale 1.50
+
+
+
+	{
+		map textures/exomorphx/trim/metal_panel05_blue-1
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+
+}
+
+textures/exomorphx/trim-metal_panel05_red-1
+{
+	qer_editorimage textures/exomorphx/trim/metal_panel05_red-1
+	dpoffsetmapping - 1.66758797536355148942 match8 133.37883100000000000000
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	surfaceparm metalsteps
+	q3map_bouncescale 1.50
+
+
+
+	{
+		map textures/exomorphx/trim/metal_panel05_red-1
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+
+}
+
+textures/exomorphx/trim-metal_panel05-1
+{
+	qer_editorimage textures/exomorphx/trim/metal_panel05-1
+	dpoffsetmapping - 1.66758797536355148942 match8 133.37883100000000000000
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	surfaceparm metalsteps
+	q3map_bouncescale 1.50
+
+
+
+	{
+		map textures/exomorphx/trim/metal_panel05-1
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+
+}
+
+textures/exomorphx/trim-metal_panel05-2
+{
+	qer_editorimage textures/exomorphx/trim/metal_panel05-2
+	dpoffsetmapping - 1.66758797536355148942 match8 133.37883100000000000000
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	surfaceparm metalsteps
+	q3map_bouncescale 1.50
+
+
+
+	{
+		map textures/exomorphx/trim/metal_panel05-2
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+
+}
+
+textures/exomorphx/trim-metal_panel05-3
+{
+	qer_editorimage textures/exomorphx/trim/metal_panel05-3
+	dpoffsetmapping - 1.66758797536355148942 match8 133.37883100000000000000
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	surfaceparm metalsteps
+	q3map_bouncescale 1.50
+
+
+
+	{
+		map textures/exomorphx/trim/metal_panel05-3
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+
+}
+
+textures/exomorphx/trim-trim_metal_panel02a
+{
+	qer_editorimage textures/exomorphx/trim/trim_metal_panel02a
+	dpoffsetmapping - 1.66758797536355148942 match8 133.37883100000000000000
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	surfaceparm metalsteps
+	q3map_bouncescale 1.50
+
+
+
+	{
+		map textures/exomorphx/trim/trim_metal_panel02a
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+
+}
+
+textures/exomorphx/trim-trim_metal_panel02b
+{
+	qer_editorimage textures/exomorphx/trim/trim_metal_panel02b
+	dpoffsetmapping - 1.33580629545323584147 match8 177.93754300000000000000
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	surfaceparm metalsteps
+	q3map_bouncescale 1.50
+
+
+
+	{
+		map textures/exomorphx/trim/trim_metal_panel02b
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+
+}
+
+textures/exomorphx/trim-trim_metal04_dark
+{
+	qer_editorimage textures/exomorphx/trim/trim_metal04_dark
+	dpoffsetmapping - 1.33580629545323584147 match8 177.93754300000000000000
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	surfaceparm metalsteps
+	q3map_bouncescale 1.50
+
+
+
+	{
+		map textures/exomorphx/trim/trim_metal04_dark
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+
+}
+
+textures/exomorphx/trim-trim_metal07a
+{
+	qer_editorimage textures/exomorphx/trim/trim_metal07a
+	dpoffsetmapping - 1.33580629545323584147 match8 177.93754300000000000000
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	surfaceparm metalsteps
+	q3map_bouncescale 1.50
+
+
+
+	{
+		map textures/exomorphx/trim/trim_metal07a
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+
+}
+
+textures/exomorphx/trim-trim_metal07b
+{
+	qer_editorimage textures/exomorphx/trim/trim_metal07b
+	dpoffsetmapping - 1.33580629545323584147 match8 177.93754300000000000000
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	surfaceparm metalsteps
+	q3map_bouncescale 1.50
+
+
+
+	{
+		map textures/exomorphx/trim/trim_metal07b
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+
+}
+
+textures/exomorphx/wall-concrete_wall_slab03stripes
+{
+	qer_editorimage textures/exomorphx/wall/concrete_wall_slab03stripes
+	dpoffsetmapping - .40499102153122854479 match8 163.61867400000000000000
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	q3map_bouncescale 1.25
+
+
+
+	{
+		map textures/exomorphx/wall/concrete_wall_slab03stripes
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+
+}
+
+textures/exomorphx/wall-metal_panel02rust
+{
+	qer_editorimage textures/exomorphx/wall/metal_panel02rust
+	dpoffsetmapping - .71825975354494740329 match8 227.04564900000000000000
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	surfaceparm metalsteps
+	q3map_bouncescale 1.50
+
+
+
+	{
+		map textures/exomorphx/wall/metal_panel02rust		
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+
+}
+
+textures/exomorphx/wall-metal_panel01_orange
+{
+	qer_editorimage textures/exomorphx/wall/metal_panel01_orange
+	dpoffsetmapping - .61916338529116318878 match8 246.99417400000000000000
+	dpglossintensitymod  2
+	dpglossexponentmod  4
+	dpreflectcube env/exomorph/exomorph
+	surfaceparm metalsteps
+	q3map_bouncescale 1.50
+
+
+
+	{
+		map textures/exomorphx/wall/metal_panel01_orange
+	}
+
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+
+}
