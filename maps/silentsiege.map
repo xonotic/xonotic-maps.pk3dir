@@ -58358,3 +58358,47 @@ brushDef
 "origin" "288.000000 -1248.000000 672.000000"
 "angle" "90.000000"
 }
+{
+"classname" "dom_team"
+"origin" "-944.000000 -240.000000 672.000000"
+"angle" "-179.999985"
+"model" "models/domination/dom_unclaimed.md3"
+}
+{
+"classname" "dom_team"
+"origin" "-944.000000 -128.000000 672.000000"
+"angle" "-180.000000"
+"cnt" "13"
+"netname" "^4Blue Team^3"
+"model" "models/domination/dom_blue.md3"
+"message" "Blue team has captured a control point"
+"noise" "domination/claim.wav"
+"noise1" "domination/claim.wav"
+}
+{
+"classname" "dom_team"
+"origin" "-944.000000 -184.000000 672.000000"
+"angle" "-179.999985"
+"cnt" "4"
+"netname" "^1Red Team^3"
+"model" "models/domination/dom_red.md3"
+"message" "Red team has captured a control point"
+"noise" "domination/claim.wav"
+"noise1" "domination/claim.wav"
+}
+{
+"classname" "dom_controlpoint"
+"origin" "-960.000000 -992.000000 336.000000"
+"message" "has captured ControlPoint 1"
+}
+{
+"classname" "dom_controlpoint"
+"origin" "-736.000000 592.000000 16.000000"
+"message" "has captured ControlPoint 2"
+}
+{
+"classname" "dom_controlpoint"
+"origin" "416.000000 -1120.000000 656.000000"
+"message" "has captured ControlPoint 3"
+"angle" "90.000000"
+}
