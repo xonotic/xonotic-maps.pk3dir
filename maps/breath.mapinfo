@@ -1,0 +1,14 @@
+title Breath
+description A large indoor map for teamgames
+author Debugger
+cdtrack 4
+has weapons all
+gametype dm
+gametype tdm
+gametype lms
+gametype ft
+gametype arena
+gametype ca
+gametype kh
+gametype keepaway
+gametype rune
