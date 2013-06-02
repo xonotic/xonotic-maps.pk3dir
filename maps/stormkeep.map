@@ -29870,7 +29870,7 @@ exx/trim-psimple04
 }
 {
 "classname" "dom_team"
-"origin" "704.000000 -512.000000 -152.000000"
+"origin" "328.000000 -504.000000 -96.000000"
 "netname" "^4Blue Team^3"
 "model" "models/domination/dom_blue.md3"
 "message" "Blue Team has captured a control point"
@@ -29880,7 +29880,7 @@ exx/trim-psimple04
 }
 {
 "classname" "dom_team"
-"origin" "704.000000 -576.000000 -152.000000"
+"origin" "328.000000 -568.000000 -96.000000"
 "cnt" "4"
 "message" "Red Team has captured a control point"
 "model" "models/domination/dom_red.md3"
@@ -29890,12 +29890,12 @@ exx/trim-psimple04
 }
 {
 "classname" "dom_team"
-"origin" "704.000000 -640.000000 -152.000000"
+"origin" "328.000000 -632.000000 -96.000000"
 "model" "models/domination/dom_unclaimed.md3"
 }
 {
 "classname" "dom_team"
-"origin" "704.000000 -544.000000 -152.000000"
+"origin" "328.000000 -536.000000 -96.000000"
 "netname" "^3Yellow Team^3"
 "model" "models/domination/dom_yellow.md3"
 "message" "Yellow Team has captured a control point"
@@ -29905,11 +29905,16 @@ exx/trim-psimple04
 }
 {
 "classname" "dom_team"
-"origin" "704.000000 -616.000000 -152.000000"
+"origin" "328.000000 -600.000000 -96.000000"
 "netname" "^6Pink Team^3"
 "model" "models/domination/dom_pink.md3"
 "message" "Pink Team has captured a control point"
 "noise" "domination/claim.wav"
 "noise1" "domination/claim.wav"
 "cnt" "9"
+}
+{
+"classname" "dom_controlpoint"
+"origin" "176.000000 -912.000000 -8.000000"
+"message" " has captured the ^2Mortar ^3control point"
 }
