@@ -49750,7 +49750,7 @@ brushDef
 {
 "classname" "misc_model"
 "origin" "-903.999939 -512.000122 320.000000"
-"model" "models/final_rage/gspawn.md3"
+"model" "models/map_silentsiege/gspawn.md3"
 "angle" "-179.999985"
 }
 {
