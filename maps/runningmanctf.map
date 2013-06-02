@@ -36744,7 +36744,7 @@ effects_healpod/healpod1_d
 }
 {
 "classname" "dom_team"
-"origin" "704.000000 -512.000000 -152.000000"
+"origin" "544.000000 -240.000000 -152.000000"
 "netname" "^4Blue Team^3"
 "model" "models/domination/dom_blue.md3"
 "message" "Blue Team has captured a control point"
@@ -36754,7 +36754,7 @@ effects_healpod/healpod1_d
 }
 {
 "classname" "dom_team"
-"origin" "704.000000 -576.000000 -152.000000"
+"origin" "544.000000 -304.000000 -152.000000"
 "cnt" "4"
 "message" "Red Team has captured a control point"
 "model" "models/domination/dom_red.md3"
@@ -36764,12 +36764,12 @@ effects_healpod/healpod1_d
 }
 {
 "classname" "dom_team"
-"origin" "704.000000 -640.000000 -152.000000"
+"origin" "544.000000 -368.000000 -152.000000"
 "model" "models/domination/dom_unclaimed.md3"
 }
 {
 "classname" "dom_team"
-"origin" "704.000000 -544.000000 -152.000000"
+"origin" "544.000000 -272.000000 -152.000000"
 "netname" "^3Yellow Team^3"
 "model" "models/domination/dom_yellow.md3"
 "message" "Yellow Team has captured a control point"
@@ -36779,7 +36779,7 @@ effects_healpod/healpod1_d
 }
 {
 "classname" "dom_team"
-"origin" "704.000000 -616.000000 -152.000000"
+"origin" "544.000000 -336.000000 -152.000000"
 "netname" "^6Pink Team^3"
 "model" "models/domination/dom_pink.md3"
 "message" "Pink Team has captured a control point"
