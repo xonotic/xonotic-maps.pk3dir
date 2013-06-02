@@ -58361,17 +58361,17 @@ brushDef
 {
 "classname" "dom_controlpoint"
 "origin" "-960.000000 -992.000000 336.000000"
-"message" "has captured ControlPoint 1"
+"message" " has captured the ^2Electro ^3control point"
 }
 {
 "classname" "dom_controlpoint"
 "origin" "-736.000000 592.000000 16.000000"
-"message" "has captured ControlPoint 2"
+"message" " has captured the ^2Rocket Launcher ^3control point"
 }
 {
 "classname" "dom_controlpoint"
 "origin" "416.000000 -1120.000000 656.000000"
-"message" "has captured ControlPoint 3"
+"message" " has captured the ^2Mega Armor ^3control point"
 "angle" "90.000000"
 }
 {
