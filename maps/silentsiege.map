@@ -49547,17 +49547,6 @@ phillipk2x/base-pk02_generic01b
 )
 }
 }
-{
-brushDef
-{
-( -1248 576 80 ) ( -1440 576 80 ) ( -1248 576 0 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/donotenter 0 0 0
-( -1440 352 0 ) ( -1248 352 0 ) ( -1440 576 0 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/donotenter 0 0 0
-( -1440 320 0 ) ( -1440 320 80 ) ( -1248 320 0 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0 ) ) common/donotenter 0 0 0
-( -1800 352 32 ) ( -1800 576 32 ) ( -1800 352 112 ) ( ( 0.015625 0 0 ) ( 0 0.015625 0.5 ) ) common/donotenter 0 0 0
-( -1504 64 128 ) ( -1488 64 120 ) ( -1504 -64 128 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/donotenter 0 0 0
-( -1696 64 176 ) ( -1680 64 176 ) ( -1696 -64 176 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/donotenter 0 0 0
-}
-}
 }
 {
 "classname" "info_player_deathmatch"
@@ -49761,7 +49750,7 @@ brushDef
 {
 "classname" "misc_model"
 "origin" "-903.999939 -512.000122 320.000000"
-"model" "models/final_rage/gspawn.md3"
+"model" "models/map_silentsiege/gspawn.md3"
 "angle" "-179.999985"
 }
 {
@@ -58372,22 +58361,22 @@ brushDef
 {
 "classname" "dom_controlpoint"
 "origin" "-960.000000 -992.000000 336.000000"
-"message" " has captured the ^2Electro ^3control point"
+"message" "has captured ControlPoint 1"
 }
 {
 "classname" "dom_controlpoint"
 "origin" "-736.000000 592.000000 16.000000"
-"message" " has captured the ^2Rocket Launcher ^3control point"
+"message" "has captured ControlPoint 2"
 }
 {
 "classname" "dom_controlpoint"
 "origin" "416.000000 -1120.000000 656.000000"
-"message" " has captured the ^2Mega Armor ^3control point"
+"message" "has captured ControlPoint 3"
 "angle" "90.000000"
 }
 {
 "classname" "dom_team"
-"origin" "704.000000 -152.000000 120.000000"
+"origin" "712.000000 -1240.000000 120.000000"
 "netname" "^4Blue Team^3"
 "model" "models/domination/dom_blue.md3"
 "message" "Blue Team has captured a control point"
@@ -58397,7 +58386,7 @@ brushDef
 }
 {
 "classname" "dom_team"
-"origin" "704.000000 -216.000000 120.000000"
+"origin" "712.000000 -1304.000000 120.000000"
 "cnt" "4"
 "message" "Red Team has captured a control point"
 "model" "models/domination/dom_red.md3"
@@ -58407,12 +58396,12 @@ brushDef
 }
 {
 "classname" "dom_team"
-"origin" "704.000000 -280.000000 120.000000"
+"origin" "712.000000 -1360.000000 120.000000"
 "model" "models/domination/dom_unclaimed.md3"
 }
 {
 "classname" "dom_team"
-"origin" "704.000000 -184.000000 120.000000"
+"origin" "712.000000 -1272.000000 120.000000"
 "netname" "^3Yellow Team^3"
 "model" "models/domination/dom_yellow.md3"
 "message" "Yellow Team has captured a control point"
@@ -58422,7 +58411,7 @@ brushDef
 }
 {
 "classname" "dom_team"
-"origin" "704.000000 -256.000000 120.000000"
+"origin" "712.000000 -1336.000000 120.000000"
 "netname" "^6Pink Team^3"
 "model" "models/domination/dom_pink.md3"
 "message" "Pink Team has captured a control point"
