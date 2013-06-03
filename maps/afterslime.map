@@ -52908,7 +52908,7 @@ exx/trim-metalsupp01
 "origin" "704.000000 -512.000000 -152.000000"
 "netname" "^4Blue Team^3"
 "model" "models/domination/dom_blue.md3"
-"message" "Blue team has captured a control point"
+"message" "Blue Team has captured a control point"
 "noise" "domination/claim.wav"
 "noise1" "domination/claim.wav"
 "cnt" "13"
@@ -52917,7 +52917,7 @@ exx/trim-metalsupp01
 "classname" "dom_team"
 "origin" "704.000000 -576.000000 -152.000000"
 "cnt" "4"
-"message" "Red team has captured a control point"
+"message" "Red Team has captured a control point"
 "model" "models/domination/dom_red.md3"
 "netname" "^1Red Team^3"
 "noise" "domination/claim.wav"
@@ -52932,17 +52932,18 @@ exx/trim-metalsupp01
 "classname" "dom_controlpoint"
 "origin" "1152.000000 -352.000000 512.000000"
 "angle" "-180.000000"
-"message" "has captured ControlPoint 1"
+"message" " has captured the Strength control point"
 }
 {
 "classname" "dom_controlpoint"
 "origin" "-1312.000000 -576.000000 16.000000"
-"message" "has captured ControlPoint 2"
+"message" " has captured the Mortar control point"
 }
 {
 "classname" "dom_controlpoint"
 "origin" "160.000000 -2048.000000 12.000000"
 "angle" "90.000000"
+"message" " has captured the Crylink control point"
 }
 {
 "classname" "trigger_teleport"
@@ -52984,4 +52985,24 @@ exx/trim-metalsupp01
 "classname" "info_autoscreenshot"
 "origin" "1016.98907 -2265.43896 481.283722"
 "angles" "12.6727295 141.146851 0"
+}
+{
+"classname" "dom_team"
+"origin" "704.000000 -544.000000 -152.000000"
+"netname" "^3Yellow Team^3"
+"model" "models/domination/dom_yellow.md3"
+"message" "Yellow Team has captured a control point"
+"noise" "domination/claim.wav"
+"noise1" "domination/claim.wav"
+"cnt" "12"
+}
+{
+"classname" "dom_team"
+"origin" "704.000000 -616.000000 -152.000000"
+"netname" "^6Pink Team^3"
+"model" "models/domination/dom_pink.md3"
+"message" "Pink Team has captured a control point"
+"noise" "domination/claim.wav"
+"noise1" "domination/claim.wav"
+"cnt" "9"
 }

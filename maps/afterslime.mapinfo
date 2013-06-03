@@ -1,6 +1,6 @@
 title Afterslime
 description Medium sized indoor deathmatch map
-author kuniuthefrogg
+author kuniu the frogg
 cdtrack 12
 has weapons
 gametype dm
@@ -9,6 +9,5 @@ gametype lms
 gametype ca
 gametype arena
 gametype ft
-gametype ka
 gametype kh
 gametype dom
