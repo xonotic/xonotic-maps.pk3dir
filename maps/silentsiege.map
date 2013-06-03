@@ -58359,46 +58359,63 @@ brushDef
 "angle" "90.000000"
 }
 {
-"classname" "dom_team"
-"origin" "-944.000000 -240.000000 672.000000"
-"angle" "-179.999985"
-"model" "models/domination/dom_unclaimed.md3"
-}
-{
-"classname" "dom_team"
-"origin" "-944.000000 -128.000000 672.000000"
-"angle" "-180.000000"
-"cnt" "13"
-"netname" "^4Blue Team^3"
-"model" "models/domination/dom_blue.md3"
-"message" "Blue team has captured a control point"
-"noise" "domination/claim.wav"
-"noise1" "domination/claim.wav"
-}
-{
-"classname" "dom_team"
-"origin" "-944.000000 -184.000000 672.000000"
-"angle" "-179.999985"
-"cnt" "4"
-"netname" "^1Red Team^3"
-"model" "models/domination/dom_red.md3"
-"message" "Red team has captured a control point"
-"noise" "domination/claim.wav"
-"noise1" "domination/claim.wav"
-}
-{
 "classname" "dom_controlpoint"
 "origin" "-960.000000 -992.000000 336.000000"
-"message" "has captured ControlPoint 1"
+"message" " has captured the ^2Electro ^3control point"
 }
 {
 "classname" "dom_controlpoint"
 "origin" "-736.000000 592.000000 16.000000"
-"message" "has captured ControlPoint 2"
+"message" " has captured the ^2Rocket Launcher ^3control point"
 }
 {
 "classname" "dom_controlpoint"
 "origin" "416.000000 -1120.000000 656.000000"
-"message" "has captured ControlPoint 3"
+"message" " has captured the ^2Mega Armor ^3control point"
 "angle" "90.000000"
+}
+{
+"classname" "dom_team"
+"origin" "712.000000 -1240.000000 120.000000"
+"netname" "^4Blue Team^3"
+"model" "models/domination/dom_blue.md3"
+"message" "Blue Team has captured a control point"
+"noise" "domination/claim.wav"
+"noise1" "domination/claim.wav"
+"cnt" "13"
+}
+{
+"classname" "dom_team"
+"origin" "712.000000 -1304.000000 120.000000"
+"cnt" "4"
+"message" "Red Team has captured a control point"
+"model" "models/domination/dom_red.md3"
+"netname" "^1Red Team^3"
+"noise" "domination/claim.wav"
+"noise1" "domination/claim.wav"
+}
+{
+"classname" "dom_team"
+"origin" "712.000000 -1360.000000 120.000000"
+"model" "models/domination/dom_unclaimed.md3"
+}
+{
+"classname" "dom_team"
+"origin" "712.000000 -1272.000000 120.000000"
+"netname" "^3Yellow Team^3"
+"model" "models/domination/dom_yellow.md3"
+"message" "Yellow Team has captured a control point"
+"noise" "domination/claim.wav"
+"noise1" "domination/claim.wav"
+"cnt" "12"
+}
+{
+"classname" "dom_team"
+"origin" "712.000000 -1336.000000 120.000000"
+"netname" "^6Pink Team^3"
+"model" "models/domination/dom_pink.md3"
+"message" "Pink Team has captured a control point"
+"noise" "domination/claim.wav"
+"noise1" "domination/claim.wav"
+"cnt" "9"
 }
