@@ -40937,17 +40937,17 @@ exx/floor-panel01
 {
 "classname" "dom_controlpoint"
 "origin" "-1408.000000 -32.000000 48.000000"
-"message" " has captured the outside control point"
+"message" " has captured the ^2Rocket Launcher ^3control point"
 }
 {
 "classname" "dom_controlpoint"
 "origin" "544.000000 0.000000 528.000000"
-"message" " has captured the top control point"
+"message" " has captured the ^2Mega Health ^3control point"
 }
 {
 "classname" "dom_controlpoint"
 "origin" "160.000000 960.000000 320.000000"
-"message" " has captured the side control point"
+"message" " has captured the ^2Machine Gun ^3control point"
 }
 {
 "classname" "misc_model"
@@ -43751,4 +43751,49 @@ trak5x/base-pipe1a
 "_color" "0.826566 0.819196 1.000000"
 "light" "400"
 "origin" "-1312.000000 -976.000000 536.000000"
+}
+{
+"classname" "dom_team"
+"origin" "440.000000 -336.000000 296.000000"
+"netname" "^4Blue Team^3"
+"model" "models/domination/dom_blue.md3"
+"message" "Blue Team has captured a control point"
+"noise" "domination/claim.wav"
+"noise1" "domination/claim.wav"
+"cnt" "13"
+}
+{
+"classname" "dom_team"
+"origin" "440.000000 -400.000000 296.000000"
+"cnt" "4"
+"message" "Red Team has captured a control point"
+"model" "models/domination/dom_red.md3"
+"netname" "^1Red Team^3"
+"noise" "domination/claim.wav"
+"noise1" "domination/claim.wav"
+}
+{
+"classname" "dom_team"
+"origin" "440.000000 -464.000000 296.000000"
+"model" "models/domination/dom_unclaimed.md3"
+}
+{
+"classname" "dom_team"
+"origin" "440.000000 -368.000000 296.000000"
+"netname" "^3Yellow Team^3"
+"model" "models/domination/dom_yellow.md3"
+"message" "Yellow Team has captured a control point"
+"noise" "domination/claim.wav"
+"noise1" "domination/claim.wav"
+"cnt" "12"
+}
+{
+"classname" "dom_team"
+"origin" "440.000000 -432.000000 296.000000"
+"netname" "^6Pink Team^3"
+"model" "models/domination/dom_pink.md3"
+"message" "Pink Team has captured a control point"
+"noise" "domination/claim.wav"
+"noise1" "domination/claim.wav"
+"cnt" "9"
 }
