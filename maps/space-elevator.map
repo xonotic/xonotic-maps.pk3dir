@@ -30557,8 +30557,8 @@ effects_jumppad/jumppadfx1_a
 }
 {
 "classname" "info_autoscreenshot"
-"origin" "1187.67493 2221.96851 322.862885"
-"angles" "12.1453857 134.87915 0"
+"origin" "-1791.435547 -4204.274902 1521.009033"
+"angles" "26.112049 39.783573 0"
 }
 {
 "classname" "info_autoscreenshot"
