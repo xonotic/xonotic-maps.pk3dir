@@ -353,7 +353,7 @@
 ( 0 -288 0 ) ( 0 -96 0 ) ( 0 -288 192 ) common/caulk 0 0 0 0.25 0.25 0 0 0
 }
 {
-( 128 160 -32 ) ( 128 -32 -32 ) ( 64 160 -32 ) phillipk1x/floors-pk01_tile_floor01a 0 0 0 0.25 0.25 0 0 0
+( 128 160 -16 ) ( 128 -32 -16 ) ( 64 160 -16 ) phillipk1x/floors-pk01_tile_floor01a 0 0 0 0.25 0.25 0 0 0
 ( 128 160 0 ) ( 64 160 0 ) ( 128 160 -64 ) phillipk1x/floors-pk01_tile_floor01a 0 0 0 0.25 0.25 0 0 0
 ( 128 160 0 ) ( 128 160 -64 ) ( 128 -32 0 ) phillipk1x/floors-pk01_tile_floor01a 0 0 0 0.25 0.25 0 0 0
 ( 64 -32 -64 ) ( 128 -32 -64 ) ( 64 160 -64 ) phillipk1x/floors-pk01_tile_floor01a 0 0 0 0.25 0.25 0 0 0
