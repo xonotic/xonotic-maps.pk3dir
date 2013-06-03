@@ -52943,7 +52943,7 @@ exx/trim-metalsupp01
 "classname" "dom_controlpoint"
 "origin" "160.000000 -2048.000000 12.000000"
 "angle" "90.000000"
-"message" " has capture the Crylink control point"
+"message" " has captured the Crylink control point"
 }
 {
 "classname" "trigger_teleport"
@@ -52974,7 +52974,6 @@ exx/trim-metalsupp01
 {
 "classname" "info_autoscreenshot"
 "origin" "-475.53952 -1239.74243 394.492096"
-"target" "target_position92"
 "angles" "12.8045654 41.050415 0"
 }
 {
