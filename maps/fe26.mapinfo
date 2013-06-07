@@ -1,0 +1,6 @@
+title fe26
+description Iron overload
+author monad
+cdtrack 8
+has weapons
+gametype dm // defaults: timelimit=20 pointlimit=30 leadlimit=0
