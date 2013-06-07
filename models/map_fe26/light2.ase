@@ -57,17 +57,17 @@
 		}
 	}
 	*MATERIAL	3	{
-		*MATERIAL_NAME	"textures/exx/base-metal03"
+		*MATERIAL_NAME	"textures/trak6x/base-base1a"
 		*MATERIAL_CLASS	"Standard"
-		*MATERIAL_DIFFUSE	1.000000	0.883476	0.833214
+		*MATERIAL_DIFFUSE	1.000000	0.998617	0.990158
 		*MATERIAL_SHADING Phong
 		*MAP_DIFFUSE	{
-			*MAP_NAME	"textures/exx/base-metal03"
+			*MAP_NAME	"textures/trak6x/base-base1a"
 			*MAP_CLASS	"Bitmap"
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"textures/exx/base-metal03"
+			*BITMAP	"textures/trak6x/base-base1a"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}

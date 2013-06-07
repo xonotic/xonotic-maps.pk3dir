@@ -12,17 +12,17 @@
 *MATERIAL_LIST	{
 	*MATERIAL_COUNT	4
 	*MATERIAL	0	{
-		*MATERIAL_NAME	"textures/exx/base-metal01"
+		*MATERIAL_NAME	"textures/trak6x/base-base1a"
 		*MATERIAL_CLASS	"Standard"
-		*MATERIAL_DIFFUSE	1.000000	0.977605	0.913803
+		*MATERIAL_DIFFUSE	1.000000	0.999945	0.981140
 		*MATERIAL_SHADING Phong
 		*MAP_DIFFUSE	{
-			*MAP_NAME	"textures/exx/base-metal01"
+			*MAP_NAME	"textures/trak6x/base-base1a"
 			*MAP_CLASS	"Bitmap"
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"textures/exx/base-metal01"
+			*BITMAP	"textures/trak6x/base-base1a"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}
