@@ -28244,9 +28244,51 @@ exx/base-metal03
 }
 {
 "classname" "misc_gamemodel"
+"origin" "1119.999756 -1055.999756 -32.000000"
+"model" "models/containers/barrel01.md3"
+"angle" "-43.961552"
+"_cs" "1"
+}
+{
+"classname" "misc_gamemodel"
 "origin" "-378.000244 -1477.000244 -32.000000"
 "model" "models/containers/crate01.md3"
 "angle" "36.808372"
+"_cs" "1"
+}
+{
+"classname" "misc_gamemodel"
+"origin" "1138.101807 -1091.733154 -31.998146"
+"model" "models/containers/barrel01.md3"
+"angles" "0.636327 -79.863075 0.383868"
+"_cs" "1"
+}
+{
+"classname" "misc_gamemodel"
+"origin" "1771.966064 -835.716675 -31.998150"
+"model" "models/containers/barrel01.md3"
+"angles" "0.636327 -52.110069 0.383868"
+"_cs" "1"
+}
+{
+"classname" "misc_gamemodel"
+"origin" "1391.225220 -1044.824341 -31.998144"
+"model" "models/containers/barrel01.md3"
+"angles" "0.636327 -111.025429 0.383868"
+"_cs" "1"
+}
+{
+"classname" "misc_gamemodel"
+"origin" "1428.991943 -1045.718140 -31.998196"
+"model" "models/containers/barrel01.md3"
+"angles" "0.632615 -58.041397 0.371588"
+"_cs" "1"
+}
+{
+"classname" "misc_gamemodel"
+"origin" "1404.133789 -1079.747803 -31.998146"
+"model" "models/containers/barrel01.md3"
+"angles" "0.636327 -86.930954 0.383868"
 "_cs" "1"
 }
 {
