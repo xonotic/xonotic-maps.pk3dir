@@ -18446,3 +18446,8 @@ brushDef
 "spawnflags" "4"
 "targetname" "building4"
 }
+{
+"classname" "info_autoscreenshot"
+"origin" "-523.841858 -564.631226 571.298279"
+"angles" "10.000000 0.000000 0.000000"
+}
