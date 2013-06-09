@@ -45,13 +45,14 @@ textures/map_fe26/teleporter
 
 textures/map_fe26/fe26
 {
-	nopicmip
+	surfaceparm nomarks
 	surfaceparm trans
-	polygonOffset
-	sort 6
+	surfaceparm nonsolid
+	surfaceparm pointlight
+	nopicmip
 	{
 		map textures/map_fe26/fe26
-		blendFunc filter
 		rgbGen identity
+		blendFunc add
 	}
 }
