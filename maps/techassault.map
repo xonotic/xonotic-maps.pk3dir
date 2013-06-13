@@ -24045,17 +24045,17 @@ exx/base-crete03
 "light" "250"
 }
 {
-"classname" "weapon_campingrifle"
+"classname" "weapon_nex"
 "origin" "-1120.000000 320.000000 352.000000"
 "respawntime" "1"
 }
 {
-"classname" "item_bullets"
+"classname" "item_cells"
 "origin" "-1048.000000 320.000000 352.000000"
 "respawntime" "5"
 }
 {
-"classname" "item_bullets"
+"classname" "item_cells"
 "origin" "-1184.000000 320.000000 352.000000"
 "respawntime" "5"
 }
