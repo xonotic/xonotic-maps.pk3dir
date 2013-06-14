@@ -28358,7 +28358,7 @@ exx/trim-baseboard
 "origin" "104.000000 -2688.000000 48.000000"
 }
 {
-"classname" "weapon_minelayer"
+"classname" "weapon_hagar"
 "origin" "-800.000000 -584.000000 352.000000"
 "respawntime" "1"
 }
