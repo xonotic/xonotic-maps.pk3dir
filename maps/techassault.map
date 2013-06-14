@@ -24382,7 +24382,7 @@ exx/base-crete03
 "target" "target_objective_relais"
 }
 {
-"classname" "weapon_campingrifle"
+"classname" "weapon_uzi"
 "origin" "-4480.000000 72.000000 -32.000000"
 "respawntime" "1"
 }
