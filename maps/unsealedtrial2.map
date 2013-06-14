@@ -14011,3 +14011,18 @@
 "classname" "item_health_large"
 "origin" "-2784.000000 -3248.000000 128.000000"
 }
+{
+"classname" "info_autoscreenshot"
+"origin" "5100.649902 -4054.666992 1844.960327"
+"angles" "20.255611 49.029541 0"
+}
+{
+"classname" "info_autoscreenshot"
+"origin" "458.640472 6548.814453 4070.968750"
+"angles" "39.373207 -111.320526 0"
+}
+{
+"classname" "info_autoscreenshot"
+"origin" "10671.968750 1327.968750 934.968750"
+"angles" "26.112055 -133.681625 0"
+}
