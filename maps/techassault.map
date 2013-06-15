@@ -23387,6 +23387,15 @@ exx/base-crete03
 "targetname" "destructible_relais"
 "target" "destructible_relais_decrease"
 "health" "350"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debrissolid" "0"
+"debristime" "6"
+"debristimejitter" "2"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"noise" "sound/weapons/rocket_impact.ogg"
+"respawntimejitter" "10"
 {
 ( -576 -2944 128 ) ( -576 -3008 128 ) ( -704 -2944 128 ) trak5x/panel-graypanel1 256 0 0 0.125 0.125 0 0 0
 ( -576 -2944 32 ) ( -704 -2944 32 ) ( -576 -2944 0 ) trak5x/panel-comp1b 0 0 0 -0.25 0.25 0 0 0
@@ -23413,6 +23422,15 @@ exx/base-crete03
 "targetname" "destructible_relais"
 "target" "destructible_relais_decrease1"
 "health" "350"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debrissolid" "0"
+"debristime" "6"
+"debristimejitter" "2"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"noise" "sound/weapons/rocket_impact.ogg"
+"respawntimejitter" "10"
 {
 ( -704 -1664 128 ) ( -704 -1600 128 ) ( -576 -1664 128 ) trak5x/panel-graypanel1 256 0 180 0.125 0.125 0 0 0
 ( -704 -1664 32 ) ( -576 -1664 32 ) ( -704 -1664 0 ) trak5x/panel-comp1b 0 0 0 0.25 0.25 0 0 0
@@ -23434,6 +23452,15 @@ exx/base-crete03
 "targetname" "destructible_relais"
 "target" "destructible_relais_decrease2"
 "health" "350"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debrissolid" "0"
+"debristime" "6"
+"debristimejitter" "2"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"noise" "sound/weapons/rocket_impact.ogg"
+"respawntimejitter" "10"
 {
 ( -576 1664 128 ) ( -576 1600 128 ) ( -704 1664 128 ) trak5x/panel-graypanel1 256 0 0 0.125 0.125 0 0 0
 ( -576 1664 32 ) ( -704 1664 32 ) ( -576 1664 0 ) trak5x/panel-comp1b 0 0 0 -0.25 0.25 0 0 0
@@ -23455,6 +23482,15 @@ exx/base-crete03
 "targetname" "destructible_relais"
 "target" "destructible_relais_decrease3"
 "health" "350"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debrissolid" "0"
+"debristime" "6"
+"debristimejitter" "2"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"noise" "sound/weapons/rocket_impact.ogg"
+"respawntimejitter" "10"
 {
 ( -704 2944 128 ) ( -704 3008 128 ) ( -576 2944 128 ) trak5x/panel-graypanel1 256 0 180 0.125 0.125 0 0 0
 ( -704 2944 32 ) ( -576 2944 32 ) ( -704 2944 0 ) trak5x/panel-comp1b 0 0 0 0.25 0.25 0 0 0
@@ -23476,6 +23512,15 @@ exx/base-crete03
 "targetname" "destructible_powercore"
 "target" "objective_powercore_decrease"
 "health" "1000"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debrissolid" "0"
+"debristime" "6"
+"debristimejitter" "2"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"noise" "sound/weapons/fireball_impact2.ogg"
+"respawntimejitter" "10"
 {
 ( 6336 128 768 ) ( 6336 -128 768 ) ( 6080 -128 768 ) common/caulk 0 0 90 0.25 0.25 0 0 0
 ( 6080 -128 320 ) ( 6336 -128 320 ) ( 6336 128 320 ) common/caulk 0 0 90 0.25 0.25 0 0 0
@@ -27689,6 +27734,15 @@ exx/trim-baseboard
 "targetname" "destructible_storagedoors"
 "target" "decrease_storagedoors"
 "health" "250"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debrissolid" "0"
+"debristime" "6"
+"debristimejitter" "2"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"noise" "sound/weapons/rocket_impact.ogg"
+"respawntimejitter" "10"
 {
 ( 3800 448 192 ) ( 3800 384 192 ) ( 3784 448 192 ) exx/base-metal04 416 0 0 0.25 0.25 0 0 0
 ( 3800 432 192 ) ( 3784 432 192 ) ( 3800 432 64 ) exx/base-metal04 416 0 0 0.25 0.25 0 0 0
@@ -27703,6 +27757,15 @@ exx/trim-baseboard
 "targetname" "destructible_storagedoors"
 "target" "decrease_storagedoors2"
 "health" "250"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debrissolid" "0"
+"debristime" "6"
+"debristimejitter" "2"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"noise" "sound/weapons/rocket_impact.ogg"
+"respawntimejitter" "10"
 {
 ( 3800 -384 192 ) ( 3800 -448 192 ) ( 3784 -384 192 ) exx/base-metal04 416 0 0 0.25 0.25 0 0 0
 ( 3800 -400 192 ) ( 3784 -400 192 ) ( 3800 -400 64 ) exx/base-metal04 416 0 0 0.25 0.25 0 0 0
@@ -28997,6 +29060,15 @@ exx/trim-baseboard
 "targetname" "destructible_reactordoor"
 "target" "decrease_reactordoor"
 "health" "1500"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debrissolid" "0"
+"debristime" "6"
+"debristimejitter" "2"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"noise" "sound/weapons/rocket_impact.ogg"
+"respawntimejitter" "10"
 {
 ( 5160 128 480 ) ( 5160 -128 480 ) ( 5136 128 480 ) common/caulk 0 0 0 0.25 0.25 0 0 0
 ( 5160 128 512 ) ( 5136 128 512 ) ( 5160 128 288 ) common/caulk 0 0 0 0.25 0.25 0 0 0
