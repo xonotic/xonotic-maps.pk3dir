@@ -10,8 +10,8 @@ textures/liquids_slime/slime0
 	q3map_globaltexture
 	{
 		map textures/liquids_slime/slime0.tga
-		tcMod scroll 0.07 0.07
 		tcmod scale 1.2 0.7
+		tcMod scroll 0.084 0.049
 		blendfunc blend
 	}
 	dp_water 0.1 0.8  3 3  0.5 1 0.5  0.5 1 0.5  0.75
@@ -29,8 +29,8 @@ textures/liquids_slime/slime1
 	q3map_globaltexture
 	{
 		map textures/liquids_slime/slime1.tga
-		tcMod scroll 0.07 0.07
 		tcmod scale 1.2 0.7
+		tcMod scroll 0.084 0.049
 		blendfunc blend
 	}
 	dp_water 0.1 0.8  3 3  1 1 0.5  1 1 0.5  0.75
@@ -41,6 +41,7 @@ textures/liquids_slime/gelslime-purple
 	qer_editorimage textures/liquids_slime/gelslime-purple.tga
 	q3map_lightimage textures/liquids_slime/gelslime-purple.tga
 	qer_trans 20
+	dpoffsetmapping - 1 match8 107
 	surfaceparm noimpact
 	surfaceparm trans
 	surfaceparm nonsolid
@@ -52,8 +53,8 @@ textures/liquids_slime/gelslime-purple
 		map textures/liquids_slime/gelslime-purple.tga
 		rgbGen identity
 		depthWrite
-		tcMod scroll 0.05 0.05
 		tcmod scale 1.2 0.7
+		tcMod scroll 0.06 0.035
 		blendfunc blend
 	}
 	dp_water 0.3 1  2 2  1 0.1 1  1 0.1 1  0.25
@@ -67,7 +68,10 @@ textures/liquids_slime/gelslime-purple
 }
 textures/liquids_slime/gelslime-purple_cubemap
 {
+	qer_editorimage textures/liquids_slime/gelslime-purple.tga
+	q3map_lightimage textures/liquids_slime/gelslime-purple.tga
 	qer_trans 20
+	dpoffsetmapping - 1 match8 107
 	surfaceparm noimpact
 	surfaceparm trans
 	surfaceparm nonsolid
@@ -80,8 +84,8 @@ textures/liquids_slime/gelslime-purple_cubemap
 		map textures/liquids_slime/gelslime-purple.tga
 		rgbGen identity
 		depthWrite
-		tcMod scroll 0.05 0.05
 		tcmod scale 1.2 0.7
+		tcMod scroll 0.06 0.035
 		blendfunc blend
 	}
 	dpreflectcube cubemaps/default/sky

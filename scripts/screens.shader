@@ -77,3 +77,13 @@ textures/screens/screen_toggle0
 		map textures/screens/screen_toggle0.tga
 	}
 }
+
+textures/screens/screen_error
+{
+	qer_editorimage textures/screens/screen_error.tga
+	surfaceparm nolightmap
+	q3map_surfacelight 100
+	{
+		map textures/screens/screen_error.tga
+	}
+}
