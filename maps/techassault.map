@@ -27117,6 +27117,7 @@ exx/base-crete03
 "turret_scale_respawn" "10"
 "angle" "180.000000"
 "turret_scale_range" "2"
+"turret_scale_refire" "0.7"
 }
 {
 "classname" "turret_mlrs"
@@ -27124,6 +27125,7 @@ exx/base-crete03
 "turret_scale_respawn" "10"
 "angle" "180.000000"
 "turret_scale_range" "2"
+"turret_scale_refire" "0.7"
 }
 {
 "classname" "func_group"
