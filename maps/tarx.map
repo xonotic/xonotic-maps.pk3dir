@@ -39222,15 +39222,15 @@ exx/floor-rnd01
 "origin" "1368.000000 2080.000000 128.000000"
 }
 {
-"classname" "weapon_hlac"
+"classname" "weapon_hagar"
 "origin" "2144.000000 928.000000 192.000000"
 }
 {
-"classname" "item_cells"
+"classname" "item_rockets"
 "origin" "2144.000000 992.000000 192.000000"
 }
 {
-"classname" "item_cells"
+"classname" "item_rockets"
 "origin" "2144.000000 864.000000 192.000000"
 }
 {
@@ -39278,17 +39278,17 @@ exx/floor-rnd01
 "origin" "640.000000 2016.000000 704.000000"
 }
 {
-"classname" "weapon_hlac"
+"classname" "weapon_hagar"
 "origin" "-1632.000000 6752.000000 192.000000"
 "angle" "-179.999985"
 }
 {
-"classname" "item_cells"
+"classname" "item_rockets"
 "origin" "-1632.000000 6688.000000 192.000000"
 "angle" "-179.999985"
 }
 {
-"classname" "item_cells"
+"classname" "item_rockets"
 "origin" "-1632.000000 6816.000000 192.000000"
 "angle" "-179.999985"
 }
