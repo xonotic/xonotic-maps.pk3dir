@@ -1,5 +1,6 @@
-title Aurora
+title Aurora CTF
 description A small sized space ctf map
 author dublpaws, Debugger
 has weapons
+cdtrack 7
 gametype ctf
