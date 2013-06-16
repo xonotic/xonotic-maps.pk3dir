@@ -39704,3 +39704,18 @@ exx/floor-rnd01
 "origin" "192.000000 4480.000000 128.000000"
 "angle" "-90.000000"
 }
+{
+"classname" "info_autoscreenshot"
+"origin" "1994.539062 -364.919647 1303.722900"
+"angles" "31.436012 119.765579 0"
+}
+{
+"classname" "info_autoscreenshot"
+"origin" "-1893.887939 4312.067383 -138.308838"
+"angles" "19.698854 -27.462799 0"
+}
+{
+"classname" "info_autoscreenshot"
+"origin" "-1673.745850 2519.297363 1823.765015"
+"angles" "44.745979 47.940063 0"
+}
