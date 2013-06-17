@@ -10024,7 +10024,7 @@ facility114x/misc-tube
 "origin" "-539.000061 -618.999878 96.000000"
 "model" "models/it/lcd.md3"
 "angle" "-82.233498"
-"_remap" "models/it/lcd;models/map_lightspeed/lcd/lcd_forum"
+"_remap" "models/it/lcd;models/map_lightspeed/lcd/lcd_homepage"
 }
 {
 "classname" "misc_model"
