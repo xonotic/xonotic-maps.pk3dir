@@ -1,5 +1,5 @@
 -bsp + -samplesize 4
--light + -bounce 6 -dirtscale 2
+-light + -bounce 6 -dirtscale 2 -lightmapsize 1024
 -vis +
 -minimap +
 -sRGB
