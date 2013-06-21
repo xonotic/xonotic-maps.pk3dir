@@ -14012,6 +14012,24 @@
 "origin" "-2784.000000 -3248.000000 128.000000"
 }
 {
+"classname" "target_speaker"
+"origin" "298.023346 574.525269 2992.188965"
+"spawnflags" "1"
+"noise" "sound/wind/ac_duct_wind.ogg"
+}
+{
+"classname" "target_speaker"
+"origin" "266.000000 -772.000000 2969.000000"
+"spawnflags" "1"
+"noise" "sound/wind/ac_duct_wind.ogg"
+}
+{
+"classname" "target_speaker"
+"origin" "303.560760 -24.192635 2384.094971"
+"spawnflags" "1"
+"noise" "sound/wind/Howling-Wind.wav"
+}
+{
 "classname" "info_autoscreenshot"
 "origin" "5100.649902 -4054.666992 1844.960327"
 "angles" "20.255611 49.029541 0"
