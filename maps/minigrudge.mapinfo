@@ -1,0 +1,11 @@
+title Minigrudge
+description A medium sized techy area for small teamgames
+author Debugger
+cdtrack 9
+has weapons
+gametype tdm
+gametype dm
+gametype kh
+gametype ft
+gametype lms
+gametype ca
