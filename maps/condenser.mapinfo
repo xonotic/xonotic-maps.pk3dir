@@ -1,0 +1,6 @@
+title Condenser
+description CTF arena.
+author ..., Debugger
+cdtrack 4
+has weapons
+gametype ctf
