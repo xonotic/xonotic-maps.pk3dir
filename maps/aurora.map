@@ -19423,3 +19423,27 @@ map_aurora/northern_lights
 "origin" "-64.000000 -256.000000 320.000000"
 "angle" "-179.999985"
 }
+{
+"classname" "item_health_small"
+"origin" "2112.000000 3776.000000 -1248.000000"
+}
+{
+"classname" "item_health_small"
+"origin" "2240.000000 3904.000000 -1248.000000"
+}
+{
+"classname" "item_armor_small"
+"origin" "2176.000000 3840.000000 -1248.000000"
+}
+{
+"classname" "item_health_small"
+"origin" "3584.000000 2304.000000 -1248.000000"
+}
+{
+"classname" "item_health_small"
+"origin" "3712.000000 2432.000000 -1248.000000"
+}
+{
+"classname" "item_armor_small"
+"origin" "3648.000000 2368.000000 -1248.000000"
+}
