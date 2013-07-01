@@ -1,0 +1,6 @@
+-bsp + -np 45
+-light + -dirtscale 1.5 -bounce 8 -sphericalscale 0.9 -spotscale 0.9 -areascale 0.9 -skyscale 0.9
+-vis +
+-minimap +
+-sRGB
+Version: 8

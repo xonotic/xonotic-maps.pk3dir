@@ -1,5 +1,6 @@
 textures/effects_warpzone/wavy
 {
+	dpoffsetmapping none
 	surfaceparm nolightmap
 	// surfaceparm nonsolid // no, it must be solid like trigger
 	surfaceparm trans
@@ -21,7 +22,7 @@ textures/effects_warpzone/blueedge
 	cull none
 	{
 		map textures/effects_warpzone/blueedge.tga
-		blendfunc add
+		blendfunc GL_SRC_ALPHA GL_ONE
 	}
 }
 
@@ -33,9 +34,22 @@ textures/effects_warpzone/rededge
 	cull none
 	{
 		map textures/effects_warpzone/rededge.tga
-		blendfunc add
+		blendfunc GL_SRC_ALPHA GL_ONE
 	}
 }
+
+textures/effects_warpzone/greenedge
+{
+	surfaceparm nonsolid
+	surfaceparm nomarks
+	q3map_surfacelight 2500
+	cull none
+	{
+		map textures/effects_warpzone/greenedge.tga
+		blendfunc GL_SRC_ALPHA GL_ONE
+	}
+}
+
 
 textures/effects_warpzone/warpzone_backdrop
 {

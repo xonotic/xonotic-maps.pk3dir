@@ -12,7 +12,7 @@
 *MATERIAL_LIST {
 	*MATERIAL_COUNT 1
 	*MATERIAL 0 {
-		*MATERIAL_NAME "models/mapobjects/trak/desk"
+		*MATERIAL_NAME "models/trak/desk"
 		*MATERIAL_CLASS "Standard"
 		*MATERIAL_AMBIENT 0.823529	0.823529	0.823529
 		*MATERIAL_DIFFUSE 0.823529	0.823529	0.823529
@@ -31,7 +31,7 @@
 			*MAP_CLASS "Bitmap"
 			*MAP_SUBNO 1
 			*MAP_AMOUNT 1.000000
-			*BITMAP "C:\Documents and Settings\Georges\My Documents\3dsmax\sceneassets\images\checkers.tga"
+			*BITMAP "models/trak/desk.tga"
 			*MAP_TYPE Screen
 			*UVW_U_OFFSET 0.000000
 			*UVW_V_OFFSET 0.000000

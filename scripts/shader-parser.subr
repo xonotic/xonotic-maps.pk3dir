@@ -1,0 +1,122 @@
+#!/bin/sh
+
+# simple shader parsing "framework"
+
+shader_normalize()
+{
+	echo "$1" | sed 's/\.\(tga\|jpg\|png\)$//'
+}
+
+parse_shaderstage_pre()
+{
+	: replace this function after including
+}
+parse_shaderstage_line()
+{
+	: replace this function after including
+}
+parse_shaderstage_post()
+{
+	: replace this function after including
+}
+parse_shaderstage()
+{
+	parse_shaderstage_pre
+	while read shaderparser_L shaderparser_A1 shaderparser_Aother; do
+		case "`echo "$shaderparser_L" | tr A-Z a-z`" in
+			'{')
+				err "brace nesting error in $parsing_shader"
+				;;
+			'}')
+				break
+				;;
+			'')
+				;;
+			*)
+				parse_shaderstage_line "$shaderparser_L" "$shaderparser_A1" "$shaderparser_Aother"
+				;;
+		esac
+	done
+	parse_shaderstage_post
+}
+
+parse_shader_pre()
+{
+	: replace this function after including
+}
+parse_shader_line()
+{
+	: replace this function after including
+}
+parse_shader_post()
+{
+	: replace this function after including
+}
+parse_shader()
+{
+	parse_shader_pre
+	while read shaderparser_L shaderparser_A1 shaderparser_Aother; do
+		case "`echo "$shaderparser_L" | tr A-Z a-z`" in
+			'{')
+				parse_shaderstage
+				;;
+			'}')
+				break
+				;;
+			'')
+				;;
+			*)
+				parse_shader_line "$shaderparser_L" "$shaderparser_A1" "$shaderparser_Aother"
+				;;
+		esac
+	done
+	parse_shader_post
+}
+
+parse_shaderfile_pre()
+{
+	: replace this function after including
+}
+parse_shaderfile_post()
+{
+	: replace this function after including
+}
+parse_shaderfile()
+{
+	parse_shaderfile_pre
+	while read shaderparser_L; do
+		case "$shaderparser_L" in
+			'{')
+				parse_shader
+				;;
+			'{')
+				err "brace nesting error in $parsing_shader"
+				;;
+			'')
+				;;
+			*)
+				parsing_shader="`shader_normalize "$shaderparser_L"`"
+				if [ x"$shaderparser_L" != x"$parsing_shader" ]; then
+					warn "normalized shader name $shaderparser_L to $parsing_shader"
+				fi
+				;;
+		esac
+	done
+	parse_shaderfile_post
+}
+
+shaderparser_strip_comments()
+{
+	sed 's,//.*,,g; s,\r, ,g; s,\shaderparser_t, ,g; s,  *, ,g; s, $,,; s,^ ,,; /^$/ d'
+}
+
+parse_shaders()
+{
+	shaderparser_t=`mktemp || echo ".temp"`
+	for shaderparser_X in "$@"; do
+		shaderparser_strip_comments < "$shaderparser_X" > "$shaderparser_t"
+		parsing_shaderfile="$shaderparser_X"
+		parse_shaderfile < "$shaderparser_t"
+	done
+	rm -f "$shaderparser_t"
+}

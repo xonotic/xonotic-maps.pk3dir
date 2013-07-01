@@ -1,0 +1,7 @@
+-scale 0.9
+-bsp +
+-light + -dirtscale 2 -bounce 8
+-vis +
+-minimap +
+-sRGB
+Version: 10
