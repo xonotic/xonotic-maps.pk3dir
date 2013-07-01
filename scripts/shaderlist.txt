@@ -18,6 +18,7 @@ liquids_lava
 liquids_slime
 liquids_water
 logos
+map_aurora
 map_courtfun
 map_darkzone
 map_g-23
