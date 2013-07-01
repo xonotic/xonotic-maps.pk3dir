@@ -2,7 +2,7 @@ textures/map_aurora/northern-lights
 {		
 	qer_editorimage textures/map_aurora/northern_lights.tga
     surfaceparm trans
-    qer_trans .01
+    qer_trans 1
     surfaceparm nonsolid
     surfaceparm lava
     surfaceparm nomarks
