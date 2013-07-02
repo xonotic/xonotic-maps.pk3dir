@@ -1,11 +1,11 @@
 title Red Planet
 description A large facility on a red dusty planet
 author Mircea Kitsune, Cuinnton, FruitieX
-cdtrack 13
+cdtrack 7
 has weapons
+hidden
 gametype dm
 gametype tdm
-gametype rune
 gametype ctf
 gametype ons
 gametype lms
@@ -14,5 +14,4 @@ gametype ca
 gametype dom
 gametype kh
 gametype ft
-gametype ka
 gametype nb
