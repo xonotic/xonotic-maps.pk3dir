@@ -1,5 +1,5 @@
 -bsp +
--light + --no-fast --no-dirty -bounce 8
+-light +
 -vis +
 -minimap +
 version: 7 

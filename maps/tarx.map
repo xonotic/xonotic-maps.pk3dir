@@ -1,10 +1,7 @@
 {
 "classname" "worldspawn"
-"message" "Tarx by It's Me"
-"_ambient" "14"
+"message" "tarx by packer"
 "_description" "Rusty station in air - very open map"
-"_floodlight" "1 0.68 0.2 1500 42"
-"_color" "1 0.82 0.45"
 {
 ( -1536 4736 256 ) ( -512 4736 256 ) ( -1536 4736 0 ) common/caulk 0 0 0 -0.5 0.5 0 0 0
 ( -512 6400 0 ) ( -512 6400 256 ) ( -1536 6400 0 ) common/caulk 0 0 0 -0.5 0.5 0 0 0
@@ -39218,27 +39215,33 @@ exx/floor-simplines
 }
 {
 "classname" "item_cells"
-"origin" "-32.000000 2752.000000 512.000000"
+"origin" "-1632.000000 4704.000000 128.000000"
+"angle" "-89.999992"
 }
 {
 "classname" "item_cells"
-"origin" "96.000000 2752.000000 512.000000"
+"origin" "2144.000000 2976.000000 128.000000"
+"angle" "-90.000000"
 }
 {
 "classname" "weapon_electro"
-"origin" "32.000000 2752.000000 512.000000"
+"origin" "-1632.000000 4640.000000 128.000000"
+"angle" "-89.999992"
 }
 {
 "classname" "weapon_grenadelauncher"
-"origin" "2144.000000 3040.000000 128.000000"
+"origin" "480.000000 4928.000000 512.000000"
+"angle" "-90.000000"
 }
 {
 "classname" "item_rockets"
-"origin" "2144.000000 2976.000000 128.000000"
+"origin" "416.000000 4928.000000 512.000000"
+"angle" "-90.000000"
 }
 {
 "classname" "item_rockets"
-"origin" "2144.000000 3104.000000 128.000000"
+"origin" "544.000000 4928.000000 512.000000"
+"angle" "-90.000000"
 }
 {
 "classname" "item_cells"
@@ -39264,33 +39267,13 @@ exx/floor-simplines
 }
 {
 "classname" "item_cells"
-"origin" "544.000000 4928.000000 512.000000"
-"angle" "-179.999985"
-}
-{
-"classname" "item_cells"
-"origin" "416.000000 4928.000000 512.000000"
-"angle" "-179.999985"
+"origin" "2144.000000 2976.000000 128.000000"
+"angle" "90.000015"
 }
 {
 "classname" "weapon_electro"
-"origin" "480.000000 4928.000000 512.000000"
-"angle" "-179.999985"
-}
-{
-"classname" "weapon_grenadelauncher"
-"origin" "-1632.000000 4640.000000 128.000000"
-"angle" "-179.999985"
-}
-{
-"classname" "item_rockets"
-"origin" "-1632.000000 4704.000000 128.000000"
-"angle" "-179.999985"
-}
-{
-"classname" "item_rockets"
-"origin" "-1632.000000 4576.000000 128.000000"
-"angle" "-179.999985"
+"origin" "2144.000000 3040.000000 128.000000"
+"angle" "90.000015"
 }
 {
 "classname" "item_cells"
@@ -39669,4 +39652,34 @@ exx/floor-simplines
 "model" "models/jumppads/jumppad01.ase"
 "origin" "288.000000 2976.000000 704.000000"
 "angle" "0.000016"
+}
+{
+"classname" "weapon_grenadelauncher"
+"origin" "32.000000 2752.000000 512.000000"
+"angle" "-90.000000"
+}
+{
+"classname" "item_rockets"
+"origin" "-32.000000 2752.000000 512.000000"
+"angle" "-90.000000"
+}
+{
+"classname" "item_rockets"
+"origin" "96.000000 2752.000000 512.000000"
+"angle" "-90.000000"
+}
+{
+"classname" "info_autoscreenshot"
+"origin" "1930.693359 -294.039795 726.675781"
+"angles" "27.192102 124.979774 0"
+}
+{
+"classname" "info_autoscreenshot"
+"origin" "1802.387329 4282.898438 -564.549194"
+"angles" "-0.000488 -151.692459 0"
+}
+{
+"classname" "info_autoscreenshot"
+"origin" "-751.968750 4586.597656 363.714966"
+"angles" "11.615477 -38.304596 0"
 }
