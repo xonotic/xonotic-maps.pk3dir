@@ -31,6 +31,7 @@ map_solarium
 map_space-elevator
 map_stormkeep
 map_techassault
+map_unsealedtrial2
 map_xoylent
 metaltechx
 model_bigfan01

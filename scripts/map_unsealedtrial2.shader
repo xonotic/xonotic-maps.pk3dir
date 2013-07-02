@@ -239,6 +239,7 @@ models/unsealed/bark
 	dpmeshcollisions
 	dpglossintensitymod 1
 	dpglossexponentmod 1
+	surfaceparm alphashadow
 	{
 		map "models/unsealed/bark"
 	}
