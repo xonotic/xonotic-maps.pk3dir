@@ -24,3 +24,6 @@ settemp_for_type all g_turrets_unit_plasma_dual_respawntime 120
 settemp_for_type all g_turrets_unit_mlrs_std_respawntime 120
 settemp_for_type all g_turrets_unit_flac_std_respawntime 250
 settemp_for_type all g_turrets_unit_plasma_dual_aim_maxpitch 50
+// fix weapon items
+settemp_for_type all g_new_toys 1
+settemp_for_type all g_new_toys_autoreplace 0
