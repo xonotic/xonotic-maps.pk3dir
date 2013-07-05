@@ -12867,7 +12867,7 @@
 "classname" "misc_model"
 "origin" "10824.000000 -2336.000000 72.000000"
 "model" "models/unsealed/tree.md3"
-"modelscale" "2.000000"
+"modelscale" "1.000000"
 "angle" "-90.000000"
 "_castshadows" "1"
 "_receiveshadows" "1"
@@ -12884,7 +12884,7 @@
 "classname" "misc_model"
 "origin" "2656.000000 -5624.000000 72.000000"
 "model" "models/unsealed/tree.md3"
-"modelscale" "2.000000"
+"modelscale" "2.400000"
 "_castshadows" "1"
 "_receiveshadows" "1"
 }
@@ -12892,7 +12892,7 @@
 "classname" "misc_model"
 "origin" "2528.000000 -2488.000000 72.000000"
 "model" "models/unsealed/tree.md3"
-"modelscale" "2.000000"
+"modelscale" "3.000000"
 "_castshadows" "1"
 "_receiveshadows" "1"
 }
@@ -12900,7 +12900,7 @@
 "classname" "misc_model"
 "origin" "-1824.000000 -5880.000000 72.000000"
 "model" "models/unsealed/tree.md3"
-"modelscale" "2.000000"
+"modelscale" "2.300000"
 "_castshadows" "1"
 "_receiveshadows" "1"
 }
@@ -12908,7 +12908,7 @@
 "classname" "misc_model"
 "origin" "-2752.000000 -4216.000000 72.000000"
 "model" "models/unsealed/tree.md3"
-"modelscale" "2.000000"
+"modelscale" "1.700000"
 "_castshadows" "1"
 "_receiveshadows" "1"
 }
@@ -12916,7 +12916,7 @@
 "classname" "misc_model"
 "origin" "-2528.000000 3656.000000 72.000000"
 "model" "models/unsealed/tree.md3"
-"modelscale" "2.000000"
+"modelscale" "2.100000"
 "_castshadows" "1"
 "_receiveshadows" "1"
 }
@@ -12924,7 +12924,7 @@
 "classname" "misc_model"
 "origin" "-2080.000000 5640.000000 72.000000"
 "model" "models/unsealed/tree.md3"
-"modelscale" "2.000000"
+"modelscale" "2.800000"
 "_castshadows" "1"
 "_receiveshadows" "1"
 }
@@ -12932,7 +12932,7 @@
 "classname" "misc_model"
 "origin" "2208.000000 5960.000000 72.000000"
 "model" "models/unsealed/tree.md3"
-"modelscale" "2.000000"
+"modelscale" "1.400000"
 "_castshadows" "1"
 "_receiveshadows" "1"
 }
@@ -12940,7 +12940,7 @@
 "classname" "misc_model"
 "origin" "4128.000000 -1208.000000 136.000000"
 "model" "models/unsealed/tree.md3"
-"modelscale" "2.000000"
+"modelscale" "1.900000"
 "_castshadows" "1"
 "_receiveshadows" "1"
 }
@@ -12956,7 +12956,7 @@
 "classname" "misc_model"
 "origin" "11552.000000 -3000.000000 72.000000"
 "model" "models/unsealed/tree.md3"
-"modelscale" "2.000000"
+"modelscale" "2.100000"
 "_castshadows" "1"
 "_receiveshadows" "1"
 }
@@ -12964,7 +12964,7 @@
 "classname" "misc_model"
 "origin" "11616.000000 2184.000000 72.000000"
 "model" "models/unsealed/tree.md3"
-"modelscale" "2.000000"
+"modelscale" "2.200000"
 "_castshadows" "1"
 "_receiveshadows" "1"
 }
@@ -13883,7 +13883,7 @@
 "classname" "misc_model"
 "origin" "-10632.000000 2399.998779 40.000000"
 "model" "models/unsealed/tree.md3"
-"modelscale" "2.000000"
+"modelscale" "3.000000"
 "angle" "90.000000"
 "_castshadows" "1"
 "_receiveshadows" "1"
@@ -13892,7 +13892,7 @@
 "classname" "misc_model"
 "origin" "-7904.000000 4536.000000 136.000000"
 "model" "models/unsealed/tree.md3"
-"modelscale" "2.000000"
+"modelscale" "1.200000"
 "angle" "-179.999985"
 "_castshadows" "1"
 "_receiveshadows" "1"
@@ -13901,7 +13901,7 @@
 "classname" "misc_model"
 "origin" "-11360.000000 3063.999756 136.000000"
 "model" "models/unsealed/tree.md3"
-"modelscale" "2.000000"
+"modelscale" "2.400000"
 "angle" "-179.999985"
 "_castshadows" "1"
 "_receiveshadows" "1"
@@ -13910,7 +13910,7 @@
 "classname" "misc_model"
 "origin" "-11424.000000 -2119.999756 136.000000"
 "model" "models/unsealed/tree.md3"
-"modelscale" "2.000000"
+"modelscale" "2.800000"
 "angle" "-179.999985"
 "_castshadows" "1"
 "_receiveshadows" "1"
@@ -14014,6 +14014,12 @@
 }
  
 {
+"classname" "target_speaker"
+"origin" "-10328.319336 -4418.773438 491.704865"
+"volume" "2"
+"noise" "sound/machines/light_mono_looped.ogg"
+}
+{
 "classname" "misc_model"
 "origin" "4160.000488 2528.000000 -127.999992"
 "model" "models/unsealed/mala.md3"
@@ -14074,7 +14080,7 @@
 "classname" "misc_model"
 "origin" "5536.000000 -3256.000000 72.000000"
 "model" "models/unsealed/tree.md3"
-"modelscale" "2.000000"
+"modelscale" "2.300000"
 "_castshadows" "1"
 "_receiveshadows" "1"
 }
@@ -14082,7 +14088,7 @@
 "classname" "misc_model"
 "origin" "-7808.000000 -5656.000000 72.000000"
 "model" "models/unsealed/tree.md3"
-"modelscale" "2.000000"
+"modelscale" "2.700000"
 "_castshadows" "1"
 "_receiveshadows" "1"
 }
@@ -14090,7 +14096,7 @@
 "classname" "misc_model"
 "origin" "7904.000000 5512.000000 40.000000"
 "model" "models/unsealed/tree.md3"
-"modelscale" "2.000000"
+"modelscale" "1.400000"
 "_castshadows" "1"
 "_receiveshadows" "1"
 }
@@ -14098,7 +14104,7 @@
 "classname" "misc_model"
 "origin" "-3328.000000 -280.000000 136.000000"
 "model" "models/unsealed/tree.md3"
-"modelscale" "2.000000"
+"modelscale" "2.300000"
 "_castshadows" "1"
 "_receiveshadows" "1"
 }
@@ -14114,7 +14120,7 @@
 "classname" "misc_model"
 "origin" "6656.000000 3528.000000 136.000000"
 "model" "models/unsealed/tree.md3"
-"modelscale" "2.000000"
+"modelscale" "1.400000"
 "_castshadows" "1"
 "_receiveshadows" "1"
 }
