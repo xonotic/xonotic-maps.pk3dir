@@ -12555,6 +12555,12 @@
 "modelscale" "0.500000"
 }
 {
+"classname" "target_speaker"
+"origin" "9440.000000 -447.000000 392.000000"
+"volume" "2"
+"noise" "sound/machines/light_mono_looped.ogg"
+}
+{
 "classname" "light"
 "origin" "9440.000000 -392.000000 392.000000"
 "light" "100"
@@ -12565,6 +12571,12 @@
 "model" "models/lights/xonlight04.md3"
 "modelscale" "0.500000"
 "angle" "-180.000000"
+}
+{
+"classname" "target_speaker"
+"origin" "9439.999023 -1026.999023 392.000000"
+"volume" "2"
+"noise" "sound/machines/light_mono_looped.ogg"
 }
 {
 "classname" "light"
@@ -12579,6 +12591,12 @@
 "angle" "90.000000"
 }
 {
+"classname" "target_speaker"
+"origin" "9087.000000 448.000000 968.000000"
+"volume" "2"
+"noise" "sound/machines/light_mono_looped.ogg"
+}
+{
 "classname" "light"
 "origin" "9032.000000 -736.000000 392.000000"
 "light" "300"
@@ -12589,6 +12607,12 @@
 "model" "models/lights/xonlight04.md3"
 "modelscale" "0.500000"
 "angle" "90.000000"
+}
+{
+"classname" "target_speaker"
+"origin" "9087.000000 1632.000000 392.000000"
+"volume" "2"
+"noise" "sound/machines/light_mono_looped.ogg"
 }
 {
 "classname" "light"
@@ -12666,6 +12690,12 @@
 "solid" "4"
 }
 {
+"classname" "target_speaker"
+"origin" "-288.000000 4368.000000 32.000000"
+"volume" "2"
+"noise" "sound/machines/light_mono_looped.ogg"
+}
+{
 "classname" "light"
 "origin" "-288.000000 4368.000000 144.000000"
 "light" "800"
@@ -12677,6 +12707,12 @@
 "modelscale" "1.500000"
 "_cs" "0"
 "solid" "4"
+}
+{
+"classname" "target_speaker"
+"origin" "-64.000000 1632.000000 48.000000"
+"volume" "2"
+"noise" "sound/machines/light_mono_looped.ogg"
 }
 {
 "classname" "light"
@@ -12692,6 +12728,12 @@
 "solid" "4"
 }
 {
+"classname" "target_speaker"
+"origin" "480.000000 -64.000000 16.000000"
+"volume" "2"
+"noise" "sound/machines/light_mono_looped.ogg"
+}
+{
 "classname" "light"
 "origin" "480.000000 -64.000000 128.000000"
 "light" "800"
@@ -12702,6 +12744,12 @@
 "model" "models/lights/xonlight04.md3"
 "modelscale" "0.500000"
 "angle" "90.000000"
+}
+{
+"classname" "target_speaker"
+"origin" "9087.000000 -736.000000 392.000000"
+"volume" "2"
+"noise" "sound/machines/light_mono_looped.ogg"
 }
 {
 "classname" "light"
@@ -12732,6 +12780,12 @@
 "solid" "4"
 }
 {
+"classname" "target_speaker"
+"origin" "16.000000 -1408.000000 -16.000000"
+"volume" "2"
+"noise" "sound/machines/light_mono_looped.ogg"
+}
+{
 "classname" "light"
 "origin" "16.000000 -1408.000000 96.000000"
 "light" "800"
@@ -12743,6 +12797,12 @@
 "modelscale" "1.500000"
 "_cs" "0"
 "solid" "4"
+}
+{
+"classname" "target_speaker"
+"origin" "144.000000 -4816.000000 -16.000000"
+"volume" "2"
+"noise" "sound/machines/light_mono_looped.ogg"
 }
 {
 "classname" "light"
@@ -12758,6 +12818,12 @@
 "solid" "4"
 }
 {
+"classname" "target_speaker"
+"origin" "896.000000 -5168.000000 -32.000000"
+"volume" "2"
+"noise" "sound/machines/light_mono_looped.ogg"
+}
+{
 "classname" "light"
 "origin" "896.000000 -5168.000000 80.000000"
 "light" "800"
@@ -12769,6 +12835,12 @@
 "modelscale" "1.500000"
 "_cs" "0"
 "solid" "4"
+}
+{
+"classname" "target_speaker"
+"origin" "304.000000 5136.000000 80.000000"
+"volume" "2"
+"noise" "sound/machines/light_mono_looped.ogg"
 }
 {
 "classname" "light"
@@ -12904,6 +12976,12 @@
 "angle" "-179.999985"
 }
 {
+"classname" "target_speaker"
+"origin" "9440.000000 1343.000000 392.000000"
+"volume" "2"
+"noise" "sound/machines/light_mono_looped.ogg"
+}
+{
 "classname" "light"
 "origin" "9440.000000 1288.000000 392.000000"
 "light" "100"
@@ -12920,6 +12998,12 @@
 "model" "models/lights/xonlight04.md3"
 "modelscale" "0.500000"
 "angle" "0.000016"
+}
+{
+"classname" "target_speaker"
+"origin" "9440.000977 1921.000366 392.000000"
+"volume" "2"
+"noise" "sound/machines/light_mono_looped.ogg"
 }
 {
 "classname" "light"
@@ -12961,6 +13045,12 @@
 "angles" "-9.067719 -128.999588 -68.930161"
 }
 {
+"classname" "target_speaker"
+"origin" "-9943.405273 4830.895996 515.741943"
+"volume" "2"
+"noise" "sound/machines/light_mono_looped.ogg"
+}
+{
 "classname" "light"
 "origin" "10144.000000 -4720.000000 480.000000"
 "light" "800"
@@ -12975,6 +13065,12 @@
 "origin" "10512.000000 4447.999512 543.998840"
 "model" "models/lights/xonlight05.md3"
 "angles" "9.704852 -166.834076 -58.744141"
+}
+{
+"classname" "target_speaker"
+"origin" "10512.000000 4447.999512 543.998840"
+"volume" "2"
+"noise" "sound/machines/light_mono_looped.ogg"
 }
 {
 "classname" "vehicle_racer"
@@ -13647,6 +13743,12 @@
 "angle" "-179.999985"
 }
 {
+"classname" "target_speaker"
+"origin" "-9248.000000 511.000000 456.000000"
+"volume" "2"
+"noise" "sound/machines/light_mono_looped.ogg"
+}
+{
 "classname" "light"
 "origin" "-9248.000000 456.000000 456.000000"
 "light" "100"
@@ -13657,6 +13759,12 @@
 "model" "models/lights/xonlight04.md3"
 "modelscale" "0.500000"
 "angle" "0.000003"
+}
+{
+"classname" "target_speaker"
+"origin" "-9247.999023 1090.999023 456.000000"
+"volume" "2"
+"noise" "sound/machines/light_mono_looped.ogg"
 }
 {
 "classname" "light"
@@ -13671,6 +13779,12 @@
 "angle" "-90.000000"
 }
 {
+"classname" "target_speaker"
+"origin" "-8895.000000 -384.000000 1032.000000"
+"volume" "2"
+"noise" "sound/machines/light_mono_looped.ogg"
+}
+{
 "classname" "light"
 "origin" "-8840.000000 800.000000 456.000000"
 "light" "300"
@@ -13681,6 +13795,12 @@
 "model" "models/lights/xonlight04.md3"
 "modelscale" "0.500000"
 "angle" "-90.000000"
+}
+{
+"classname" "target_speaker"
+"origin" "-8895.000000 -1568.000000 456.000000"
+"volume" "2"
+"noise" "sound/machines/light_mono_looped.ogg"
 }
 {
 "classname" "light"
@@ -13749,6 +13869,12 @@
 "angle" "-90.000000"
 }
 {
+"classname" "target_speaker"
+"origin" "-8895.000000 800.000000 456.000000"
+"volume" "2"
+"noise" "sound/machines/light_mono_looped.ogg"
+}
+{
 "classname" "light"
 "origin" "-8840.000000 -1568.000000 456.000000"
 "light" "300"
@@ -13797,6 +13923,12 @@
 "angle" "0.000016"
 }
 {
+"classname" "target_speaker"
+"origin" "-9248.000000 -1279.000244 456.000000"
+"volume" "2"
+"noise" "sound/machines/light_mono_looped.ogg"
+}
+{
 "classname" "light"
 "origin" "-9248.000000 -1224.000000 456.000000"
 "light" "100"
@@ -13819,6 +13951,12 @@
 "model" "models/lights/xonlight04.md3"
 "modelscale" "0.500000"
 "angle" "-179.999985"
+}
+{
+"classname" "target_speaker"
+"origin" "-9248.000977 -1857.000000 456.000000"
+"volume" "2"
+"noise" "sound/machines/light_mono_looped.ogg"
 }
 {
 "classname" "light"
@@ -13863,11 +14001,18 @@
 "angles" "6.658519 -151.526794 -118.857460"
 }
 {
+"classname" "target_speaker"
+"origin" "10183.156250 -4772.896973 540.847595"
+"volume" "2"
+"noise" "sound/machines/light_mono_looped.ogg"
+}
+{
 "classname" "misc_gamemodel"
 "origin" "-10328.319336 -4418.773438 491.704865"
 "model" "models/lights/xonlight05.md3"
 "angles" "4.930053 -138.767227 -126.775070"
 }
+ 
 {
 "classname" "misc_model"
 "origin" "4160.000488 2528.000000 -127.999992"
