@@ -14121,6 +14121,22 @@
 "volume" "2.0"
 }
 {
+"classname" "target_speaker"
+"origin" "-38.000000 -30.000000 73.000000"
+"spawnflags" "1"
+"noise" "sound/supernatural/Haunted.wav"
+"volume" "1.0"
+"delay" "10"
+}
+{
+"classname" "target_speaker"
+"origin" "329.000000 -108.000000 87.000000"
+"spawnflags" "1"
+"noise" "sound/supernatural/Thrumble.wav"
+"volume" "1.0"
+"delay" "11"
+}
+{
 "classname" "info_autoscreenshot"
 "origin" "5100.649902 -4054.666992 1844.960327"
 "angles" "20.255611 49.029541 0"
