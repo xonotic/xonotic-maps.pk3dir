@@ -1,6 +1,6 @@
 title Unsealed trial 2
-description Vehicle carnage
-author Morphed
+description Medium sized vehicle ctf map
+author Morphed, matthiaskrgr
 cdtrack 6
 has weapons
 // uncomment this if you added weapon pickups: has weapons
@@ -27,3 +27,4 @@ settemp_for_type all g_turrets_unit_plasma_dual_aim_maxpitch 50
 // fix weapon items
 settemp_for_type all g_new_toys 1
 settemp_for_type all g_new_toys_autoreplace 0
+// todo: get rid of NEWTOYS voice
