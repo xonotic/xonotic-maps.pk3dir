@@ -1,37 +1,36 @@
 unsealdtrialterrain
-      {
-              q3map_nonplanar
-              q3map_shadeangle 65
-              q3map_lightmapSampleOffset 8
-			  q3map_lightmapSampleSize 32
-			  q3map_lightmapfilterradius 8 0
-			  q3map_globalTexture
-              qer_editorimage models/unsealed/scorchedearth.tga
-              dpnoshadow
-              {
-                      map models/unsealed/scorchedearth_grass.tga
-              }
-              {
-                      map models/unsealed/scorchedearth.tga
-                      blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-                      alphagen vertex
-              }
-       
-			  {
-                      map $lightmap
-                      blendfunc GL_DST_COLOR GL_ZERO
-                      rgbGen identity
-              }
-      }
-	  
+	{
+		q3map_nonplanar
+		q3map_shadeangle 65
+		q3map_lightmapSampleOffset 8
+		q3map_lightmapSampleSize 32
+		q3map_lightmapfilterradius 8 0
+		q3map_globalTexture
+		qer_editorimage models/unsealed/scorchedearth.tga
+		dpnoshadow
+		{
+			map models/unsealed/scorchedearth_grass.tga
+		}
+		{
+			map models/unsealed/scorchedearth.tga
+			blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+			alphagen vertex
+		}
+		{
+			map $lightmap
+			blendfunc GL_DST_COLOR GL_ZERO
+			rgbGen identity
+		}
+	}
+
 models/unsealed/gora
 {
 	dpnoshadow
 	dpglossintensitymod 1
 	dpglossexponentmod 1
 	q3map_nonplanar
-    q3map_shadeangle 165
-    q3map_lightmapSampleOffset 16
+	q3map_shadeangle 165
+	q3map_lightmapSampleOffset 16
 	q3map_lightmapSampleSize 128
 	q3map_lightmapfilterradius 12 0
 	{
@@ -86,8 +85,6 @@ models/unsealed/whiterock
 	}
 }
 
-
-
 models/unsealed/boczna2
 {
 	dpnoshadow
@@ -130,90 +127,86 @@ models/unsealed/mala
 	}
 }
 
-
-
 models/volcanic_mountain/boulder
-      {
-              q3map_nonplanar
-              q3map_shadeangle 165
-              q3map_lightmapSampleOffset 8
-			  q3map_lightmapSampleSize 128
-			  			  q3map_lightmapfilterradius 8 0
-              qer_editorimage models/volcanic_mountain/boulder01.tga
-			  	q3map_lightmapMergable
-              dpnoshadow
-              {
-                      map models/volcanic_mountain/boulder01.tga
-              }
-			  {
-                      map $lightmap
-                      blendfunc GL_DST_COLOR GL_ZERO
-                      rgbGen identity
-              }
-      }
-	  
+{
+	q3map_nonplanar
+	q3map_shadeangle 165
+	q3map_lightmapSampleOffset 8
+	q3map_lightmapSampleSize 128
+	q3map_lightmapfilterradius 8 0
+	qer_editorimage models/volcanic_mountain/boulder01.tga
+	q3map_lightmapMergable
+	dpnoshadow
+	{
+		map models/volcanic_mountain/boulder01.tga
+	}
+	{
+		map $lightmap
+		blendfunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
 models/volcanic_mountain/boulder02
-      {
-              q3map_nonplanar
-              q3map_shadeangle 165
-              q3map_lightmapSampleOffset 8
-			  q3map_lightmapSampleSize 128
-			  q3map_lightmapfilterradius 8 0
-              qer_editorimage models/volcanic_mountain/boulder02.tga
-			  q3map_lightmapMergable
-              dpnoshadow
-              {
-                      map models/volcanic_mountain/boulder02.tga
-              }
-			  {
-                      map $lightmap
-                      blendfunc GL_DST_COLOR GL_ZERO
-                      rgbGen identity
-              }
-      }
-	  
+{
+	q3map_nonplanar
+	q3map_shadeangle 165
+	q3map_lightmapSampleOffset 8
+	q3map_lightmapSampleSize 128
+	q3map_lightmapfilterradius 8 0
+	qer_editorimage models/volcanic_mountain/boulder02.tga
+	q3map_lightmapMergable
+	dpnoshadow
+	{
+		map models/volcanic_mountain/boulder02.tga
+	}
+	{
+		map $lightmap
+		blendfunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
 models/volcanic_mountain/arc
-      {
-              q3map_nonplanar
-              q3map_shadeangle 165
-              q3map_lightmapSampleOffset 8
-			  q3map_lightmapSampleSize 64
-			  			  q3map_lightmapfilterradius 8 0
-              qer_editorimage models/volcanic_mountain/arc.tga
-			  	q3map_lightmapMergable
-              dpnoshadow
-              {
-                      map models/volcanic_mountain/arc.tga
-              }
-			  {
-                      map $lightmap
-                      blendfunc GL_DST_COLOR GL_ZERO
-                      rgbGen identity
-              }
-      }
-	  
+	{
+		q3map_nonplanar
+		q3map_shadeangle 165
+		q3map_lightmapSampleOffset 8
+		q3map_lightmapSampleSize 64
+		q3map_lightmapfilterradius 8 0
+		qer_editorimage models/volcanic_mountain/arc.tga
+		q3map_lightmapMergable
+		dpnoshadow
+		{
+			map models/volcanic_mountain/arc.tga
+		}
+		{
+			map $lightmap
+			blendfunc GL_DST_COLOR GL_ZERO
+			rgbGen identity
+		}
+	}
+
 models/volcanic_mountain/simplemoutain
-      {
-              q3map_nonplanar
-              q3map_shadeangle 165
-				q3map_shadeangle 165
-				q3map_lightmapSampleOffset 16
-				q3map_lightmapSampleSize 32
-					q3map_lightmapMergable
-              qer_editorimage models/volcanic_mountain/simplemoutain.tga
-              dpnoshadow
-              {
-                      map models/volcanic_mountain/simplemoutain.tga
-              }
-			  {
-                      map $lightmap
-                      blendfunc GL_DST_COLOR GL_ZERO
-                      rgbGen identity
-              }
-      }
-	  
-	  
-	  
+{
+	q3map_nonplanar
+	q3map_shadeangle 165
+	q3map_shadeangle 165
+	q3map_lightmapSampleOffset 16
+	q3map_lightmapSampleSize 32
+	q3map_lightmapMergable
+	qer_editorimage models/volcanic_mountain/simplemoutain.tga
+	dpnoshadow
+	{
+		map models/volcanic_mountain/simplemoutain.tga
+	}
+	{
+		map $lightmap
+		blendfunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
 textures/glassx/hexglass
 {
 	q3map_bouncescale 3
@@ -229,11 +222,12 @@ textures/glassx/hexglass
 		rgbgen lightingDiffuse
 	}
 	{
-        map $lightmap
-        blendfunc GL_DST_COLOR GL_ZERO
-        rgbGen identity
-    }
+		map $lightmap
+		blendfunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
 }
+
 models/unsealed/bark
 {
 	dpmeshcollisions
@@ -246,7 +240,7 @@ models/unsealed/bark
 	{
 		map $lightmap
 		blendfunc GL_DST_COLOR GL_ZERO
-        rgbGen identity
+		rgbGen identity
 	}
 }
 
