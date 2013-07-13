@@ -1,7 +1,7 @@
 textures/glassx/hexglass
 {
 	q3map_bouncescale 3
-	qer_editorimage textures/glassx/hexglass.tga
+	qer_editorimage textures/glassx/base/hexglass.tga
 	dpreflectcube cubemaps/default/sky
 	dpnoshadow
 	surfaceparm trans
@@ -9,7 +9,7 @@ textures/glassx/hexglass
 	q3map_lightmapSampleSize 64
 	cull none
  	{
-		map textures/glassx/hexglass.tga
+		map textures/glassx/base/hexglass.tga
 		blendfunc blend
 		rgbgen lightingDiffuse
 	}
