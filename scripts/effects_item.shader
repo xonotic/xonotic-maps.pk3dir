@@ -4,7 +4,7 @@ textures/effects_item/respawnring-red
 	surfaceparm nomarks
 	surfaceparm trans
 	{
-		map textures/effects_item/respawnring-red.png
+		map textures/effects_item/respawnring-red.jpg
 		blendfunc add
 		rgbGen identity
 	}
@@ -16,67 +16,91 @@ textures/effects_item/respawnring-blue
 	surfaceparm nomarks
 	surfaceparm trans
 	{
-		map textures/effects_item/respawnring-blue.png
+		map textures/effects_item/respawnring-blue.jpg
 		blendfunc add
 		rgbGen identity
 	}
 }
 
-textures/effects_item/respawnring-yellow
+textures/effects_item/respawnring-red-highres
 {
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	surfaceparm trans
 	{
-		map textures/effects_item/respawnring-yellow.png
+		map textures/effects_item/respawnring-red-highres.png
 		blendfunc add
 		rgbGen identity
 	}
 }
 
-textures/effects_item/respawnring-black
+textures/effects_item/respawnring-blue-highres
 {
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	surfaceparm trans
 	{
-		map textures/effects_item/respawnring-black.png
+		map textures/effects_item/respawnring-blue-highres.png
 		blendfunc add
 		rgbGen identity
 	}
 }
 
-textures/effects_item/respawnring-green
+textures/effects_item/respawnring-yellow-highres
 {
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	surfaceparm trans
 	{
-		map textures/effects_item/respawnring-green.png
+		map textures/effects_item/respawnring-yellow-highres.png
 		blendfunc add
 		rgbGen identity
 	}
 }
 
-textures/effects_item/respawnring-purple
+textures/effects_item/respawnring-black-highres
 {
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	surfaceparm trans
 	{
-		map textures/effects_item/respawnring-purple.png
+		map textures/effects_item/respawnring-black-highres.png
 		blendfunc add
 		rgbGen identity
 	}
 }
 
-textures/effects_item/respawnring-white
+textures/effects_item/respawnring-green-highres
 {
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	surfaceparm trans
 	{
-		map textures/effects_item/respawnring-white.png
+		map textures/effects_item/respawnring-green-highres.png
+		blendfunc add
+		rgbGen identity
+	}
+}
+
+textures/effects_item/respawnring-purple-highres
+{
+	surfaceparm nolightmap
+	surfaceparm nomarks
+	surfaceparm trans
+	{
+		map textures/effects_item/respawnring-purple-highres.png
+		blendfunc add
+		rgbGen identity
+	}
+}
+
+textures/effects_item/respawnring-white-highres
+{
+	surfaceparm nolightmap
+	surfaceparm nomarks
+	surfaceparm trans
+	{
+		map textures/effects_item/respawnring-white-highres.png
 		blendfunc add
 		rgbGen identity
 	}
