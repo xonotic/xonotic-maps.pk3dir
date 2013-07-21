@@ -1,14 +1,14 @@
 textures/map_aurora/northern_lights
 {		
 	qer_editorimage textures/map_aurora/northern_lights.tga
-    surfaceparm trans
+    // surfaceparm trans
     qer_trans 1
     surfaceparm nonsolid
-    surfaceparm lava
+    // surfaceparm lava
     surfaceparm nomarks
     // deformVertexes wave div func base amplitude phase freq
     deformVertexes wave 750.0 sin 7 150 0.25 .2
-    // Q3map_TessSize 128 WHY?
+    // Q3map_TessSize 128 -WHY?
     q3map_surfacelight 2500
     cull none
 
