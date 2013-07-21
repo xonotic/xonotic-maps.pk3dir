@@ -1,4 +1,4 @@
-textures/map_aurora/northern-lights
+textures/map_aurora/northern_lights
 {		
 	qer_editorimage textures/map_aurora/northern_lights.tga
     surfaceparm trans
