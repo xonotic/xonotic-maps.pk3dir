@@ -19447,3 +19447,13 @@ map_aurora/northern_lights
 "classname" "item_armor_small"
 "origin" "3648.000000 2368.000000 -1248.000000"
 }
+{
+"classname" "light"
+"origin" "-128.000000 0.000000 -240.000000"
+"light" "25"
+}
+{
+"classname" "light"
+"origin" "5952.000000 6208.000000 -240.000000"
+"light" "25"
+}
