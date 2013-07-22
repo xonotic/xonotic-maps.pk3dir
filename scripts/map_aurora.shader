@@ -1,7 +1,7 @@
 textures/map_aurora/northern_lights
 {		
 	qer_editorimage textures/map_aurora/northern_lights.tga
-    // surfaceparm trans
+    surfaceparm trans
     qer_trans 1
     surfaceparm nonsolid
     // surfaceparm lava
@@ -9,7 +9,7 @@ textures/map_aurora/northern_lights
     // deformVertexes wave div func base amplitude phase freq
     deformVertexes wave 750.0 sin 7 150 0.25 .2
     // Q3map_TessSize 128 -WHY?
-    q3map_surfacelight 2500
+    // q3map_surfacelight 2500
     cull none
 
     {
@@ -21,7 +21,7 @@ textures/map_aurora/northern_lights
     {
 		blendfunc filter	
 		map $lightmap
-		blendfunc filter
+		blendfunc blend
 		tcGen lightmap
     }
 }
