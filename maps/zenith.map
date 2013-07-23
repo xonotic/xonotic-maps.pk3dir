@@ -8387,7 +8387,7 @@ brushDef
 }
 {
 "classname" "item_health_medium"
-"origin" "1344.000000 -128.000000 0.000000"
+"origin" "1344.000000 -112.000000 0.000000"
 "angle" "-90.000000"
 }
 {
@@ -12040,4 +12040,40 @@ brushDef
 "classname" "info_autoscreenshot"
 "origin" "1184.000000 -320.000000 288.000000"
 "angle" "-179.999985"
+}
+{
+"classname" "item_cells"
+"origin" "224.000000 16.000000 192.000000"
+}
+{
+"classname" "item_rockets"
+"origin" "1344.000000 -32.000000 0.000000"
+}
+{
+"classname" "item_cells"
+"origin" "544.000000 -992.000000 192.000000"
+}
+{
+"classname" "item_cells"
+"origin" "-224.000000 -416.000000 192.000000"
+}
+{
+"classname" "item_rockets"
+"origin" "-16.000000 -624.000000 192.000000"
+}
+{
+"classname" "item_bullets"
+"origin" "1344.000000 -192.000000 0.000000"
+}
+{
+"classname" "item_shells"
+"origin" "224.000000 -1120.000000 64.000000"
+}
+{
+"classname" "item_shells"
+"origin" "800.000000 -32.000000 0.000000"
+}
+{
+"classname" "item_shells"
+"origin" "-224.000000 96.000000 192.000000"
 }
