@@ -8648,7 +8648,7 @@ brushDef
 {
 "classname" "misc_model"
 "origin" "1248.000000 -512.000000 0.000000"
-"model" "models/zenith/doorway.ase"
+"model" "models/map_zenith/doorway.ase"
 "targetname" "doorway"
 "angle" "-90.000000"
 "spawnflags" "6"
@@ -8656,7 +8656,7 @@ brushDef
 {
 "classname" "misc_model"
 "origin" "1088.000000 144.000000 128.000000"
-"model" "models/zenith/doorway.ase"
+"model" "models/map_zenith/doorway.ase"
 "targetname" "doorway"
 "angle" "179.999985"
 "spawnflags" "6"
@@ -8664,7 +8664,7 @@ brushDef
 {
 "classname" "misc_model"
 "origin" "384.000000 -896.000000 192.000000"
-"model" "models/zenith/doorway.ase"
+"model" "models/map_zenith/doorway.ase"
 "targetname" "doorway"
 "angle" "179.999985"
 "spawnflags" "6"
@@ -9342,7 +9342,7 @@ phillipk2x/base-pk02_generic01b
 {
 "classname" "misc_model"
 "origin" "1088.000000 0.000000 128.000000"
-"model" "models/zenith/doorway.ase"
+"model" "models/map_zenith/doorway.ase"
 "targetname" "doorway"
 "angle" "179.999985"
 "spawnflags" "6"
@@ -9898,7 +9898,7 @@ phillipk2x/walls-pk02_wall04a
 {
 "classname" "misc_model"
 "origin" "-856.000244 -744.000122 1024.000000"
-"model" "models/zenith/support1.ase"
+"model" "models/map_zenith/support1.ase"
 "targetname" "support1"
 "spawnflags" "6"
 "angle" "-45.000008"
@@ -9906,7 +9906,7 @@ phillipk2x/walls-pk02_wall04a
 {
 "classname" "misc_model"
 "origin" "-808.000122 -167.999969 1024.000000"
-"model" "models/zenith/support1.ase"
+"model" "models/map_zenith/support1.ase"
 "targetname" "support1"
 "spawnflags" "6"
 "angle" "-135.000015"
@@ -9914,7 +9914,7 @@ phillipk2x/walls-pk02_wall04a
 {
 "classname" "misc_model"
 "origin" "-231.999878 -215.999908 1024.000000"
-"model" "models/zenith/support1.ase"
+"model" "models/map_zenith/support1.ase"
 "targetname" "support1"
 "spawnflags" "6"
 "angle" "134.999985"
@@ -9922,7 +9922,7 @@ phillipk2x/walls-pk02_wall04a
 {
 "classname" "misc_model"
 "origin" "-279.999878 -792.000122 1024.000000"
-"model" "models/zenith/support1.ase"
+"model" "models/map_zenith/support1.ase"
 "targetname" "support1"
 "spawnflags" "6"
 "angle" "44.999985"
