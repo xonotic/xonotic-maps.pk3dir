@@ -13,6 +13,7 @@ exomorphx
 exx
 facility114invx
 facility114x
+glassx
 liquids_lava
 liquids_slime
 liquids_water
