@@ -14785,3 +14785,19 @@
 ( -10488 -520 864 ) ( -10528 -520 864 ) ( -10488 -520 928 ) common/nodraw 224 0 0 -0.25 0.25 0 0 0
 }
 }
+{
+"classname" "item_armor_medium"
+"origin" "-10392.000000 408.000000 456.000000"
+}
+{
+"classname" "item_armor_medium"
+"origin" "-10400.000000 -1184.000000 464.000000"
+}
+{
+"classname" "item_armor_medium"
+"origin" "10596.000000 1252.000000 420.000000"
+}
+{
+"classname" "item_armor_medium"
+"origin" "10588.000000 -340.000000 428.000000"
+}
