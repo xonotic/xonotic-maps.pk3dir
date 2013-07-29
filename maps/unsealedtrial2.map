@@ -13117,11 +13117,11 @@
 }
 {
 "classname" "weapon_electro"
-"origin" "-2160.000000 -832.000000 176.000000"
+"origin" "-2672.000000 -832.000000 176.000000"
 }
 {
 "classname" "weapon_electro"
-"origin" "2112.000000 512.000000 128.000000"
+"origin" "3264.000000 512.000000 128.000000"
 }
 {
 "classname" "item_health_medium"
