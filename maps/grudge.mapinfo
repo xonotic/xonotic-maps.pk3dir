@@ -1,0 +1,14 @@
+title Grudge
+description A medium sized TDM map
+author Debugger
+cdtrack 7
+has weapons
+gametype dm
+gametype tdm
+gametype rune
+gametype lms
+gametype arena
+gametype ca
+gametype kh
+gametype ft
+gametype ka
