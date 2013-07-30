@@ -1,4 +1,5 @@
 alphamod
+crystals
 common
 decals
 effects_beam
