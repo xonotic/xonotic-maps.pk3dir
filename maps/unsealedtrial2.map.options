@@ -1,4 +1,5 @@
 -bsp +
 -light + -dirtscale 2 -lomem -dirtdepth 256 -lightmapsize 2048
 -vis +
+-minimap + -size 0  -o /dev/null
 Version: 6
