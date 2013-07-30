@@ -20894,3 +20894,69 @@
 "origin" "-10584.000000 -268.000000 996.000000"
 "light" "50"
 }
+{
+"classname" "misc_model"
+"origin" "256.000000 -128.000000 936.000000"
+"model" "models/crystals/crystal1.md3"
+"angles" "-0.000000 -90.000000 179.999985"
+}
+{
+"classname" "misc_model"
+"origin" "448.000061 312.000061 896.000000"
+"model" "models/crystals/crystal1.md3"
+"angles" "35.608776 -55.340916 141.054199"
+}
+{
+"classname" "misc_model"
+"origin" "-48.000080 -408.000031 752.000000"
+"model" "models/crystals/crystal1.md3"
+"angles" "12.154839 -85.364128 -143.407074"
+}
+{
+"classname" "misc_model"
+"origin" "-8.000000 1120.000000 615.999878"
+"model" "models/crystals/crystal1.md3"
+"angles" "-48.677002 171.167755 0.872133"
+}
+{
+"classname" "misc_model"
+"origin" "-63.999924 311.999725 800.000183"
+"model" "models/crystals/crystal1.md3"
+"angles" "-22.214470 -98.649452 -130.093338"
+}
+{
+"classname" "misc_model"
+"origin" "183.999847 -672.000000 855.999878"
+"model" "models/crystals/crystal1.md3"
+"angles" "-30.345594 -102.708931 163.437485"
+}
+{
+"classname" "misc_model"
+"origin" "592.000488 1120.000366 440.000214"
+"model" "models/crystals/crystal1.md3"
+"angles" "15.843727 -114.335983 86.534050"
+}
+{
+"classname" "misc_model"
+"origin" "568.000000 -671.999939 544.000305"
+"model" "models/crystals/crystal1.md3"
+"angles" "21.872536 -114.228844 53.707550"
+}
+{
+"classname" "misc_model"
+"origin" "616.000000 -216.000244 408.000244"
+"model" "models/crystals/crystal1.md3"
+"angles" "-72.878632 5.678804 -0.919880"
+}
+{
+"classname" "misc_model"
+"origin" "424.000061 312.000244 119.999870"
+"model" "models/crystals/crystal1.md3"
+"angles" "51.368542 68.049881 -121.521347"
+}
+{
+"classname" "misc_model"
+"origin" "-160.000031 -47.999977 400.000000"
+"model" "models/crystals/crystal1.md3"
+"angles" "-53.205082 -54.222404 -151.176682"
+}
