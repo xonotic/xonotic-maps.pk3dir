@@ -271,3 +271,36 @@ textures/map_unsealed/trim_trim6b
 		blendfunc filter
 	}
 }
+
+textures/map_unsealed/floor_floor2cf
+{
+	qer_editorimage textures/map_unsealed/floor_floor2cf.tga
+	dpoffsetmapping - 2 match8 86
+	q3map_bounceScale 1.25
+	{
+		map textures/map_unsealed/floor_floor2cf.tga
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+
+textures/map_unsealed/floor_floor2ef
+{
+	qer_editorimage textures/map_unsealed/floor_floor2ef.tga
+	dpoffsetmapping - 2 match8 86
+	q3map_bounceScale 1.25
+	{
+		map textures/map_unsealed/floor_floor2ef.tga
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+
