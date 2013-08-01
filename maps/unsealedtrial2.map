@@ -15020,7 +15020,7 @@
 }
 {
 "classname" "misc_model"
-"origin" "4848.000000 5012.000000 -292.000000"
+"origin" "4848.000000 4930.000000 -292.000000"
 "model" "models/volcanic_mountain/simplemountain.md3"
 "modelscale" "15.000000"
 "_rs" "1"
@@ -15062,7 +15062,7 @@
 }
 {
 "classname" "misc_model"
-"origin" "-4376.000000 5068.000000 -292.000000"
+"origin" "-4376.000000 4986.000000 -292.000000"
 "model" "models/volcanic_mountain/simplemountain.md3"
 "modelscale" "15.000000"
 "_rs" "1"
