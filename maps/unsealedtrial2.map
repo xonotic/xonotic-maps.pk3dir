@@ -1,7 +1,6 @@
 {
 "classname" "worldspawn"
 "_blocksize" "2048 2048 2048"
-"_lightmapscale" "1.5"
 "_ambient" "6"
 {
 ( 5888 -4352 2304 ) ( 5888 -6656 2304 ) ( 4096 -4352 2304 ) common/caulk 0 0 0 0.25 0.25 0 0 0
@@ -15300,6 +15299,7 @@
 "spawnflags" "102"
 "modelscale" "99"
 "_castshadows" "0"
+"_lightmapscale" "1.5"
 }
 {
 "classname" "misc_model"
