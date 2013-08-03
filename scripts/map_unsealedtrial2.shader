@@ -304,3 +304,18 @@ textures/map_unsealed/floor_floor2ef
 	}
 }
 
+textures/trak5x/light-light2a_orange
+{
+	qer_editorimage textures/trak5x/light/light_light2a_orange.tga
+	dpoffsetmapping - 4 match8 85
+	q3map_bounceScale 1.25
+	{
+		map textures/trak5x/light/light_light2a_orange.tga
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
