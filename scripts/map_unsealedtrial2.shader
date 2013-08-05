@@ -319,3 +319,20 @@ textures/map_unsealed/light-light2a_orange
 		blendfunc filter
 	}
 }
+
+textures/map_unsealed/floor_wrn01-red_layer
+{
+	qer_editorimage textures/map_unsealed/floor_wrn01-red_layer.tga
+	surfaceparm trans
+	surfaceparm alphashadow
+ 	{
+		map textures/map_unsealed/floor_wrn01-red_layer.tga
+		blendfunc blend
+		rgbgen lightingDiffuse
+	}
+	{
+		map $lightmap
+		blendfunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
