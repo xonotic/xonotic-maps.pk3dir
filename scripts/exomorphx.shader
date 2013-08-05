@@ -8,12 +8,8 @@ textures/exomorphx/trim-htrim_metal
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/trim/htrim_metal
-		
-		
 	}
 
 	{
@@ -22,7 +18,6 @@ textures/exomorphx/trim-htrim_metal
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -36,12 +31,8 @@ textures/exomorphx/trim-trim_metal02
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/trim/trim_metal02
-		
-		
 	}
 
 	{
@@ -50,7 +41,6 @@ textures/exomorphx/trim-trim_metal02
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -67,8 +57,6 @@ textures/exomorphx/trim-trim_concrete01
 
 	{
 		map textures/exomorphx/trim/trim_concrete01
-		
-		
 	}
 
 	{
@@ -77,7 +65,6 @@ textures/exomorphx/trim-trim_concrete01
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -91,12 +78,8 @@ textures/exomorphx/trim-trim_metal05
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/trim/trim_metal05
-		
-		
 	}
 
 	{
@@ -105,7 +88,6 @@ textures/exomorphx/trim-trim_metal05
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -119,12 +101,8 @@ textures/exomorphx/trim-trim_metal03
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/trim/trim_metal03
-		
-		
 	}
 
 	{
@@ -133,7 +111,6 @@ textures/exomorphx/trim-trim_metal03
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -148,8 +125,6 @@ textures/exomorphx/trim-trim_metal04
 
 	{
 		map textures/exomorphx/trim/trim_metal04
-		
-		
 	}
 
 	{
@@ -158,7 +133,6 @@ textures/exomorphx/trim-trim_metal04
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -172,12 +146,8 @@ textures/exomorphx/trim-trim_metal_panel05
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
-		map textures/exomorphx/trim/trim_metal_panel05
-		
-		
+		map textures/exomorphx/trim/trim_metal_panel05		
 	}
 
 	{
@@ -186,7 +156,6 @@ textures/exomorphx/trim-trim_metal_panel05
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -200,12 +169,8 @@ textures/exomorphx/trim-trim_metal_panel03
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/trim/trim_metal_panel03
-		
-		
 	}
 
 	{
@@ -214,7 +179,6 @@ textures/exomorphx/trim-trim_metal_panel03
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -232,8 +196,6 @@ textures/exomorphx/trim-trim_metal07
 
 	{
 		map textures/exomorphx/trim/trim_metal07
-		
-		
 	}
 
 	{
@@ -242,7 +204,6 @@ textures/exomorphx/trim-trim_metal07
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -256,12 +217,8 @@ textures/exomorphx/trim-trim_metal_panel04
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/trim/trim_metal_panel04
-		
-		
 	}
 
 	{
@@ -270,7 +227,6 @@ textures/exomorphx/trim-trim_metal_panel04
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -284,12 +240,8 @@ textures/exomorphx/trim-trim_metal06
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/trim/trim_metal06
-		
-		
 	}
 
 	{
@@ -298,7 +250,6 @@ textures/exomorphx/trim-trim_metal06
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -312,12 +263,8 @@ textures/exomorphx/trim-trim_metal_panel01
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/trim/trim_metal_panel01
-		
-		
 	}
 
 	{
@@ -326,7 +273,6 @@ textures/exomorphx/trim-trim_metal_panel01
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -340,12 +286,8 @@ textures/exomorphx/trim-trim_metal_panel02
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
-		map textures/exomorphx/trim/trim_metal_panel02
-		
-		
+		map textures/exomorphx/trim/trim_metal_panel02		
 	}
 
 	{
@@ -354,7 +296,6 @@ textures/exomorphx/trim-trim_metal_panel02
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -367,12 +308,8 @@ textures/exomorphx/base-concrete
 	dpreflectcube env/exomorph/exomorph
 	q3map_bouncescale 1.25
 
-
-
 	{
 		map textures/exomorphx/base/concrete
-		
-		
 	}
 
 	{
@@ -381,7 +318,6 @@ textures/exomorphx/base-concrete
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -397,13 +333,9 @@ textures/exomorphx/grate-metal_grate02
 	surfaceparm alphashadow
 	q3map_bouncescale 1.75
 
-
-
 	{
 		map textures/exomorphx/grate/metal_grate02
-				blendfunc blend
-
-		
+		blendfunc blend
 	}
 
 	{
@@ -412,7 +344,6 @@ textures/exomorphx/grate-metal_grate02
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -428,13 +359,9 @@ textures/exomorphx/grate-metal_grate04
 	surfaceparm alphashadow
 	q3map_bouncescale 1.75
 
-
-
 	{
 		map textures/exomorphx/grate/metal_grate04
-				blendfunc blend
-
-		
+		blendfunc blend
 	}
 
 	{
@@ -443,7 +370,6 @@ textures/exomorphx/grate-metal_grate04
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -459,13 +385,9 @@ textures/exomorphx/grate-metal_grate03
 	surfaceparm alphashadow
 	q3map_bouncescale 1.75
 
-
-
 	{
 		map textures/exomorphx/grate/metal_grate03
-				blendfunc blend
-
-		
+		blendfunc blend
 	}
 
 	{
@@ -474,7 +396,6 @@ textures/exomorphx/grate-metal_grate03
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -490,13 +411,9 @@ textures/exomorphx/grate-metal_grate06
 	surfaceparm alphashadow
 	q3map_bouncescale 1.75
 
-
-
 	{
 		map textures/exomorphx/grate/metal_grate06
-				blendfunc blend
-
-		
+		blendfunc blend		
 	}
 
 	{
@@ -505,7 +422,6 @@ textures/exomorphx/grate-metal_grate06
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -521,13 +437,9 @@ textures/exomorphx/grate-metal_grate01
 	surfaceparm alphashadow
 	q3map_bouncescale 1.75
 
-
-
 	{
 		map textures/exomorphx/grate/metal_grate01
-				blendfunc blend
-
-		
+		blendfunc blend
 	}
 
 	{
@@ -536,7 +448,6 @@ textures/exomorphx/grate-metal_grate01
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -552,13 +463,9 @@ textures/exomorphx/grate-metal_grate05
 	surfaceparm alphashadow
 	q3map_bouncescale 1.75
 
-
-
 	{
 		map textures/exomorphx/grate/metal_grate05
-				blendfunc blend
-
-		
+		blendfunc blend
 	}
 
 	{
@@ -567,7 +474,6 @@ textures/exomorphx/grate-metal_grate05
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -581,12 +487,8 @@ textures/exomorphx/wall-metal_wall02
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/wall/metal_wall02
-		
-		
 	}
 
 	{
@@ -595,7 +497,6 @@ textures/exomorphx/wall-metal_wall02
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -609,12 +510,8 @@ textures/exomorphx/wall-concrete_metal_wallplate02
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/wall/concrete_metal_wallplate02
-		
-		
 	}
 
 	{
@@ -623,7 +520,6 @@ textures/exomorphx/wall-concrete_metal_wallplate02
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -637,12 +533,8 @@ textures/exomorphx/wall-metal_panel05_blue
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/wall/metal_panel05_blue
-		
-		
 	}
 
 	{
@@ -651,7 +543,6 @@ textures/exomorphx/wall-metal_panel05_blue
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -665,12 +556,8 @@ textures/exomorphx/wall-concrete_wall_metal02
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/wall/concrete_wall_metal02
-		
-		
 	}
 
 	{
@@ -679,7 +566,6 @@ textures/exomorphx/wall-concrete_wall_metal02
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -693,12 +579,8 @@ textures/exomorphx/wall-metal_panel01_blue
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/wall/metal_panel01_blue
-		
-		
 	}
 
 	{
@@ -707,7 +589,6 @@ textures/exomorphx/wall-metal_panel01_blue
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -720,12 +601,8 @@ textures/exomorphx/wall-concrete_wall_slab04red
 	dpreflectcube env/exomorph/exomorph
 	q3map_bouncescale 1.25
 
-
-
 	{
 		map textures/exomorphx/wall/concrete_wall_slab04red
-		
-		
 	}
 
 	{
@@ -734,7 +611,6 @@ textures/exomorphx/wall-concrete_wall_slab04red
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -747,12 +623,8 @@ textures/exomorphx/wall-concrete_wall_slab04
 	dpreflectcube env/exomorph/exomorph
 	q3map_bouncescale 1.25
 
-
-
 	{
 		map textures/exomorphx/wall/concrete_wall_slab04
-		
-		
 	}
 
 	{
@@ -761,7 +633,6 @@ textures/exomorphx/wall-concrete_wall_slab04
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -775,12 +646,8 @@ textures/exomorphx/wall-metal_panel02
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/wall/metal_panel02
-		
-		
 	}
 
 	{
@@ -789,7 +656,6 @@ textures/exomorphx/wall-metal_panel02
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -802,12 +668,8 @@ textures/exomorphx/wall-concrete_wall_slab03
 	dpreflectcube env/exomorph/exomorph
 	q3map_bouncescale 1.25
 
-
-
 	{
 		map textures/exomorphx/wall/concrete_wall_slab03
-		
-		
 	}
 
 	{
@@ -816,7 +678,6 @@ textures/exomorphx/wall-concrete_wall_slab03
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -830,12 +691,8 @@ textures/exomorphx/wall-metal_panel05
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/wall/metal_panel05
-		
-		
 	}
 
 	{
@@ -844,7 +701,6 @@ textures/exomorphx/wall-metal_panel05
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -858,12 +714,8 @@ textures/exomorphx/wall-concrete_metal_wallplate01
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/wall/concrete_metal_wallplate01
-		
-		
 	}
 
 	{
@@ -872,7 +724,6 @@ textures/exomorphx/wall-concrete_metal_wallplate01
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -886,12 +737,8 @@ textures/exomorphx/wall-metal_panel04
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
-		map textures/exomorphx/wall/metal_panel04
-		
-		
+		map textures/exomorphx/wall/metal_panel04	
 	}
 
 	{
@@ -900,7 +747,6 @@ textures/exomorphx/wall-metal_panel04
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -914,12 +760,8 @@ textures/exomorphx/wall-concrete_wall_metal01
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/wall/concrete_wall_metal01
-		
-		
 	}
 
 	{
@@ -928,7 +770,6 @@ textures/exomorphx/wall-concrete_wall_metal01
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -942,12 +783,8 @@ textures/exomorphx/wall-metal_panel05_red
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/wall/metal_panel05_red
-		
-		
 	}
 
 	{
@@ -956,7 +793,6 @@ textures/exomorphx/wall-metal_panel05_red
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -970,12 +806,8 @@ textures/exomorphx/wall-metal_wall05
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/wall/metal_wall05
-		
-		
 	}
 
 	{
@@ -984,7 +816,6 @@ textures/exomorphx/wall-metal_wall05
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -996,12 +827,8 @@ textures/exomorphx/wall-concrete_wall_slab04blue
 	dpglossexponentmod  4
 	dpreflectcube env/exomorph/exomorph
 
-
-
 	{
 		map textures/exomorphx/wall/concrete_wall_slab04blue
-		
-		
 	}
 
 	{
@@ -1010,7 +837,6 @@ textures/exomorphx/wall-concrete_wall_slab04blue
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -1024,12 +850,8 @@ textures/exomorphx/wall-metal_panel01
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/wall/metal_panel01
-		
-		
 	}
 
 	{
@@ -1038,7 +860,6 @@ textures/exomorphx/wall-metal_panel01
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -1052,12 +873,8 @@ textures/exomorphx/wall-metal_wall04
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/wall/metal_wall04
-		
-		
 	}
 
 	{
@@ -1066,7 +883,6 @@ textures/exomorphx/wall-metal_wall04
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -1079,12 +895,8 @@ textures/exomorphx/wall-concrete_wall_slab01
 	dpreflectcube env/exomorph/exomorph
 	q3map_bouncescale 1.25
 
-
-
 	{
 		map textures/exomorphx/wall/concrete_wall_slab01
-		
-		
 	}
 
 	{
@@ -1093,7 +905,6 @@ textures/exomorphx/wall-concrete_wall_slab01
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -1107,12 +918,8 @@ textures/exomorphx/wall-metal_wall03
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/wall/metal_wall03
-		
-		
 	}
 
 	{
@@ -1121,7 +928,6 @@ textures/exomorphx/wall-metal_wall03
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -1134,12 +940,8 @@ textures/exomorphx/wall-concrete_wall_slab02
 	dpreflectcube env/exomorph/exomorph
 	q3map_bouncescale 1.25
 
-
-
 	{
 		map textures/exomorphx/wall/concrete_wall_slab02
-		
-		
 	}
 
 	{
@@ -1148,7 +950,6 @@ textures/exomorphx/wall-concrete_wall_slab02
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -1162,12 +963,8 @@ textures/exomorphx/wall-metal_wall01
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/wall/metal_wall01
-		
-		
 	}
 
 	{
@@ -1176,7 +973,6 @@ textures/exomorphx/wall-metal_wall01
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -1190,12 +986,8 @@ textures/exomorphx/wall-metal_panel01_red
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/wall/metal_panel01_red
-		
-		
 	}
 
 	{
@@ -1204,7 +996,6 @@ textures/exomorphx/wall-metal_panel01_red
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -1218,12 +1009,8 @@ textures/exomorphx/wall-concrete_metal_wallplate03
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/wall/concrete_metal_wallplate03
-		
-		
 	}
 
 	{
@@ -1232,7 +1019,6 @@ textures/exomorphx/wall-concrete_metal_wallplate03
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -1246,12 +1032,8 @@ textures/exomorphx/wall-metal_panel03
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/wall/metal_panel03
-		
-		
 	}
 
 	{
@@ -1260,7 +1042,6 @@ textures/exomorphx/wall-metal_panel03
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -1274,12 +1055,8 @@ textures/exomorphx/floor-metal_panel_floor01
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/floor/metal_panel_floor01
-		
-		
 	}
 
 	{
@@ -1288,7 +1065,6 @@ textures/exomorphx/floor-metal_panel_floor01
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -1302,12 +1078,8 @@ textures/exomorphx/floor-metal_floor02
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
-		map textures/exomorphx/floor/metal_floor02
-		
-		
+		map textures/exomorphx/floor/metal_floor02		
 	}
 
 	{
@@ -1316,7 +1088,6 @@ textures/exomorphx/floor-metal_floor02
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -1330,12 +1101,8 @@ textures/exomorphx/floor-metal_floor01
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/floor/metal_floor01
-		
-		
 	}
 
 	{
@@ -1344,7 +1111,6 @@ textures/exomorphx/floor-metal_floor01
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -1358,12 +1124,8 @@ textures/exomorphx/floor-metal_floor03
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/floor/metal_floor03
-		
-		
 	}
 
 	{
@@ -1372,7 +1134,6 @@ textures/exomorphx/floor-metal_floor03
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -1386,12 +1147,8 @@ textures/exomorphx/floor-metal_floor04
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/floor/metal_floor04
-		
-		
 	}
 
 	{
@@ -1400,7 +1157,6 @@ textures/exomorphx/floor-metal_floor04
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -1414,12 +1170,8 @@ textures/exomorphx/floor-metal_panel_floor03
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/floor/metal_panel_floor03
-		
-		
 	}
 
 	{
@@ -1428,7 +1180,6 @@ textures/exomorphx/floor-metal_panel_floor03
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -1442,12 +1193,8 @@ textures/exomorphx/floor-metal_panel_floor02
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/floor/metal_panel_floor02
-		
-		
 	}
 
 	{
@@ -1456,7 +1203,6 @@ textures/exomorphx/floor-metal_panel_floor02
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -1470,12 +1216,8 @@ textures/exomorphx/floor-metal_floor05
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/floor/metal_floor05
-		
-		
 	}
 
 	{
@@ -1484,7 +1226,6 @@ textures/exomorphx/floor-metal_floor05
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -1498,12 +1239,8 @@ textures/exomorphx/light-metal_light03
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/light/metal_light03
-		
-		
 	}
 
 	{
@@ -1512,7 +1249,6 @@ textures/exomorphx/light-metal_light03
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -1526,12 +1262,8 @@ textures/exomorphx/light-metal_light06
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/light/metal_light06
-		
-		
 	}
 
 	{
@@ -1540,7 +1272,6 @@ textures/exomorphx/light-metal_light06
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -1554,12 +1285,8 @@ textures/exomorphx/light-metal_light01
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/light/metal_light01
-		
-		
 	}
 
 	{
@@ -1568,7 +1295,6 @@ textures/exomorphx/light-metal_light01
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -1582,12 +1308,8 @@ textures/exomorphx/light-metal_light05
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/light/metal_light05
-		
-		
 	}
 
 	{
@@ -1596,7 +1318,6 @@ textures/exomorphx/light-metal_light05
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -1610,12 +1331,8 @@ textures/exomorphx/light-metal_light07
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/light/metal_light07
-		
-		
 	}
 
 	{
@@ -1624,7 +1341,6 @@ textures/exomorphx/light-metal_light07
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -1638,12 +1354,8 @@ textures/exomorphx/light-metal_light04
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/light/metal_light04
-		
-		
 	}
 
 	{
@@ -1652,7 +1364,6 @@ textures/exomorphx/light-metal_light04
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -1666,12 +1377,8 @@ textures/exomorphx/light-metal_light02
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/light/metal_light02
-		
-		
 	}
 
 	{
@@ -1694,12 +1401,8 @@ textures/exomorphx/light-metal_panel_light01
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/light/metal_panel_light01
-		
-		
 	}
 
 	{
@@ -1708,7 +1411,6 @@ textures/exomorphx/light-metal_panel_light01
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -1722,12 +1424,8 @@ textures/exomorphx/light-metal_light09
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
-		map textures/exomorphx/light/metal_light09
-		
-		
+		map textures/exomorphx/light/metal_light09		
 	}
 
 	{
@@ -1736,7 +1434,6 @@ textures/exomorphx/light-metal_light09
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 
@@ -1750,12 +1447,8 @@ textures/exomorphx/light-metal_light08
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/light/metal_light08
-		
-		
 	}
 
 	{
@@ -1764,7 +1457,6 @@ textures/exomorphx/light-metal_light08
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 textures/exomorphx/base-metal01
@@ -1776,8 +1468,6 @@ textures/exomorphx/base-metal01
 	dpreflectcube env/exomorph/exomorph
 	q3map_bouncescale 1.25
 
-
-
 	{
 		map textures/exomorphx/base/metal01
 	}
@@ -1788,7 +1478,6 @@ textures/exomorphx/base-metal01
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 textures/exomorphx/base-metal01_blue
@@ -1800,8 +1489,6 @@ textures/exomorphx/base-metal01_blue
 	dpreflectcube env/exomorph/exomorph
 	q3map_bouncescale 1.25
 
-
-
 	{
 		map textures/exomorphx/base/metal01_blue
 	}
@@ -1812,7 +1499,6 @@ textures/exomorphx/base-metal01_blue
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 textures/exomorphx/base-metal01_red
@@ -1824,8 +1510,6 @@ textures/exomorphx/base-metal01_red
 	dpreflectcube env/exomorph/exomorph
 	q3map_bouncescale 1.25
 
-
-
 	{
 		map textures/exomorphx/base/metal01_red
 	}
@@ -1836,7 +1520,6 @@ textures/exomorphx/base-metal01_red
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 textures/exomorphx/base-metal02
@@ -1848,8 +1531,6 @@ textures/exomorphx/base-metal02
 	dpreflectcube env/exomorph/exomorph
 	q3map_bouncescale 1.25
 
-
-
 	{
 		map textures/exomorphx/base/metal02
 	}
@@ -1860,7 +1541,6 @@ textures/exomorphx/base-metal02
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 textures/exomorphx/base-metal03
@@ -1872,8 +1552,6 @@ textures/exomorphx/base-metal03
 	dpreflectcube env/exomorph/exomorph
 	q3map_bouncescale 1.25
 
-
-
 	{
 		map textures/exomorphx/base/metal03
 	}
@@ -1884,7 +1562,6 @@ textures/exomorphx/base-metal03
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 textures/exomorphx/base-concrete02
@@ -1896,8 +1573,6 @@ textures/exomorphx/base-concrete02
 	dpreflectcube env/exomorph/exomorph
 	q3map_bouncescale 1.25
 
-
-
 	{
 		map textures/exomorphx/base/concrete02
 	}
@@ -1908,7 +1583,6 @@ textures/exomorphx/base-concrete02
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 textures/exomorphx/base-concrete03
@@ -1920,8 +1594,6 @@ textures/exomorphx/base-concrete03
 	dpreflectcube env/exomorph/exomorph
 	q3map_bouncescale 1.25
 
-
-
 	{
 		map textures/exomorphx/base/concrete03
 	}
@@ -1932,7 +1604,6 @@ textures/exomorphx/base-concrete03
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 textures/exomorphx/floor-metal_floor02a
@@ -1945,8 +1616,6 @@ textures/exomorphx/floor-metal_floor02a
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/floor/metal_floor02a
 	}
@@ -1957,7 +1626,6 @@ textures/exomorphx/floor-metal_floor02a
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 textures/exomorphx/floor-metal_floor03b
@@ -1970,8 +1638,6 @@ textures/exomorphx/floor-metal_floor03b
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/floor/metal_floor03b
 	}
@@ -1982,7 +1648,6 @@ textures/exomorphx/floor-metal_floor03b
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 textures/exomorphx/floor-metal_floor03c
@@ -1995,8 +1660,6 @@ textures/exomorphx/floor-metal_floor03c
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/floor/metal_floor03c
 	}
@@ -2007,7 +1670,6 @@ textures/exomorphx/floor-metal_floor03c
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 textures/exomorphx/floor-metal_floor04a
@@ -2020,8 +1682,6 @@ textures/exomorphx/floor-metal_floor04a
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/floor/metal_floor04a
 	}
@@ -2032,7 +1692,6 @@ textures/exomorphx/floor-metal_floor04a
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 textures/exomorphx/floor-metal_floor04b
@@ -2045,8 +1704,6 @@ textures/exomorphx/floor-metal_floor04b
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/floor/metal_floor04b
 	}
@@ -2057,7 +1714,6 @@ textures/exomorphx/floor-metal_floor04b
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 textures/exomorphx/floor-metal_floor04c
@@ -2070,8 +1726,6 @@ textures/exomorphx/floor-metal_floor04c
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/floor/metal_floor04c
 	}
@@ -2082,7 +1736,6 @@ textures/exomorphx/floor-metal_floor04c
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 textures/exomorphx/floor-metal_floor05a
@@ -2095,8 +1748,6 @@ textures/exomorphx/floor-metal_floor05a
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/floor/metal_floor05a
 	}
@@ -2107,7 +1758,6 @@ textures/exomorphx/floor-metal_floor05a
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 textures/exomorphx/floor-metal_panel_floor03b
@@ -2120,8 +1770,6 @@ textures/exomorphx/floor-metal_panel_floor03b
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/floor/metal_panel_floor03b
 	}
@@ -2132,7 +1780,6 @@ textures/exomorphx/floor-metal_panel_floor03b
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 textures/exomorphx/light-metal_light04_blue
@@ -2145,8 +1792,6 @@ textures/exomorphx/light-metal_light04_blue
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/light/metal_light04_blue
 	}
@@ -2157,7 +1802,6 @@ textures/exomorphx/light-metal_light04_blue
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 textures/exomorphx/light-metal_light08a
@@ -2170,8 +1814,6 @@ textures/exomorphx/light-metal_light08a
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/light/metal_light08a
 	}
@@ -2182,7 +1824,6 @@ textures/exomorphx/light-metal_light08a
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 textures/exomorphx/light-metal_light08ablue
@@ -2195,8 +1836,6 @@ textures/exomorphx/light-metal_light08ablue
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/light/metal_light08ablue
 	}
@@ -2207,7 +1846,6 @@ textures/exomorphx/light-metal_light08ablue
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 textures/exomorphx/light-metal_light08ared
@@ -2219,8 +1857,6 @@ textures/exomorphx/light-metal_light08ared
 	dpreflectcube env/exomorph/exomorph
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
-
-
 
 	{
 		map textures/exomorphx/light/metal_light08ared
@@ -2244,8 +1880,6 @@ textures/exomorphx/light-metal_panel_light01a
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/light/metal_panel_light01a
 	}
@@ -2266,8 +1900,6 @@ textures/exomorphx/panel-concrete_wall_metal02a
 	dpglossexponentmod  4
 	dpreflectcube env/exomorph/exomorph
 	q3map_bouncescale 1.25
-
-
 
 	{
 		map textures/exomorphx/panel/concrete_wall_metal02a
@@ -2291,8 +1923,6 @@ textures/exomorphx/panel-metal_floor02b
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/panel/metal_floor02b
 	}
@@ -2303,7 +1933,6 @@ textures/exomorphx/panel-metal_floor02b
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 textures/exomorphx/panel-metal_floor04d
@@ -2316,8 +1945,6 @@ textures/exomorphx/panel-metal_floor04d
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/panel/metal_floor04d
 	}
@@ -2328,7 +1955,6 @@ textures/exomorphx/panel-metal_floor04d
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 textures/exomorphx/panel-metal_panel01a
@@ -2341,8 +1967,6 @@ textures/exomorphx/panel-metal_panel01a
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/panel/metal_panel01a
 	}
@@ -2353,7 +1977,6 @@ textures/exomorphx/panel-metal_panel01a
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 textures/exomorphx/panel-metal_panel05_blue
@@ -2366,8 +1989,6 @@ textures/exomorphx/panel-metal_panel05_blue
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/panel/metal_panel05_blue
 	}
@@ -2378,7 +1999,6 @@ textures/exomorphx/panel-metal_panel05_blue
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 textures/exomorphx/panel-metal_panel05_red
@@ -2391,8 +2011,6 @@ textures/exomorphx/panel-metal_panel05_red
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/panel/metal_panel05_red
 	}
@@ -2403,7 +2021,6 @@ textures/exomorphx/panel-metal_panel05_red
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 textures/exomorphx/panel-metal_panel05a
@@ -2416,8 +2033,6 @@ textures/exomorphx/panel-metal_panel05a
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/panel/metal_panel05a
 	}
@@ -2428,7 +2043,6 @@ textures/exomorphx/panel-metal_panel05a
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 textures/exomorphx/panel-metal_panel05b
@@ -2441,8 +2055,6 @@ textures/exomorphx/panel-metal_panel05b
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/panel/metal_panel05b
 	}
@@ -2453,7 +2065,6 @@ textures/exomorphx/panel-metal_panel05b
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 textures/exomorphx/panel-metal_panel05c
@@ -2466,8 +2077,6 @@ textures/exomorphx/panel-metal_panel05c
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/panel/metal_panel05c
 	}
@@ -2478,7 +2087,6 @@ textures/exomorphx/panel-metal_panel05c
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 textures/exomorphx/trim-concrete_wall_metal01a
@@ -2490,8 +2098,6 @@ textures/exomorphx/trim-concrete_wall_metal01a
 	dpreflectcube env/exomorph/exomorph
 	q3map_bouncescale 1.25
 
-
-
 	{
 		map textures/exomorphx/trim/concrete_wall_metal01a
 	}
@@ -2502,7 +2108,6 @@ textures/exomorphx/trim-concrete_wall_metal01a
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 textures/exomorphx/trim-concrete_wall_metal02b
@@ -2514,8 +2119,6 @@ textures/exomorphx/trim-concrete_wall_metal02b
 	dpreflectcube env/exomorph/exomorph
 	q3map_bouncescale 1.25
 
-
-
 	{
 		map textures/exomorphx/trim/concrete_wall_metal02b
 	}
@@ -2526,7 +2129,6 @@ textures/exomorphx/trim-concrete_wall_metal02b
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 textures/exomorphx/trim-metal_floor01a
@@ -2539,8 +2141,6 @@ textures/exomorphx/trim-metal_floor01a
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/trim/metal_floor01a
 	}
@@ -2551,7 +2151,6 @@ textures/exomorphx/trim-metal_floor01a
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 textures/exomorphx/trim-metal_panel01_orange-trim
@@ -2564,8 +2163,6 @@ textures/exomorphx/trim-metal_panel01_orange-trim
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/trim/metal_panel01_orange-trim
 	}
@@ -2576,7 +2173,6 @@ textures/exomorphx/trim-metal_panel01_orange-trim
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 textures/exomorphx/trim-metal_panel01b
@@ -2589,8 +2185,6 @@ textures/exomorphx/trim-metal_panel01b
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/trim/metal_panel01b
 	}
@@ -2601,7 +2195,6 @@ textures/exomorphx/trim-metal_panel01b
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 textures/exomorphx/trim-metal_panel05_blue-1
@@ -2614,8 +2207,6 @@ textures/exomorphx/trim-metal_panel05_blue-1
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/trim/metal_panel05_blue-1
 	}
@@ -2626,7 +2217,6 @@ textures/exomorphx/trim-metal_panel05_blue-1
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 textures/exomorphx/trim-metal_panel05_red-1
@@ -2639,8 +2229,6 @@ textures/exomorphx/trim-metal_panel05_red-1
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/trim/metal_panel05_red-1
 	}
@@ -2651,7 +2239,6 @@ textures/exomorphx/trim-metal_panel05_red-1
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 textures/exomorphx/trim-metal_panel05-1
@@ -2664,8 +2251,6 @@ textures/exomorphx/trim-metal_panel05-1
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/trim/metal_panel05-1
 	}
@@ -2676,7 +2261,6 @@ textures/exomorphx/trim-metal_panel05-1
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 textures/exomorphx/trim-metal_panel05-2
@@ -2689,8 +2273,6 @@ textures/exomorphx/trim-metal_panel05-2
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/trim/metal_panel05-2
 	}
@@ -2701,7 +2283,6 @@ textures/exomorphx/trim-metal_panel05-2
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 textures/exomorphx/trim-metal_panel05-3
@@ -2714,8 +2295,6 @@ textures/exomorphx/trim-metal_panel05-3
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/trim/metal_panel05-3
 	}
@@ -2726,7 +2305,6 @@ textures/exomorphx/trim-metal_panel05-3
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 textures/exomorphx/trim-trim_metal_panel02a
@@ -2739,8 +2317,6 @@ textures/exomorphx/trim-trim_metal_panel02a
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/trim/trim_metal_panel02a
 	}
@@ -2751,7 +2327,6 @@ textures/exomorphx/trim-trim_metal_panel02a
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 textures/exomorphx/trim-trim_metal_panel02b
@@ -2764,8 +2339,6 @@ textures/exomorphx/trim-trim_metal_panel02b
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/trim/trim_metal_panel02b
 	}
@@ -2776,7 +2349,6 @@ textures/exomorphx/trim-trim_metal_panel02b
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 textures/exomorphx/trim-trim_metal04_dark
@@ -2789,8 +2361,6 @@ textures/exomorphx/trim-trim_metal04_dark
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/trim/trim_metal04_dark
 	}
@@ -2801,7 +2371,6 @@ textures/exomorphx/trim-trim_metal04_dark
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 textures/exomorphx/trim-trim_metal07a
@@ -2814,8 +2383,6 @@ textures/exomorphx/trim-trim_metal07a
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/trim/trim_metal07a
 	}
@@ -2826,7 +2393,6 @@ textures/exomorphx/trim-trim_metal07a
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 textures/exomorphx/trim-trim_metal07b
@@ -2839,8 +2405,6 @@ textures/exomorphx/trim-trim_metal07b
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/trim/trim_metal07b
 	}
@@ -2851,7 +2415,6 @@ textures/exomorphx/trim-trim_metal07b
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 textures/exomorphx/wall-concrete_wall_slab03stripes
@@ -2863,8 +2426,6 @@ textures/exomorphx/wall-concrete_wall_slab03stripes
 	dpreflectcube env/exomorph/exomorph
 	q3map_bouncescale 1.25
 
-
-
 	{
 		map textures/exomorphx/wall/concrete_wall_slab03stripes
 	}
@@ -2875,7 +2436,6 @@ textures/exomorphx/wall-concrete_wall_slab03stripes
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 textures/exomorphx/wall-metal_panel02rust
@@ -2888,8 +2448,6 @@ textures/exomorphx/wall-metal_panel02rust
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/wall/metal_panel02rust		
 	}
@@ -2900,7 +2458,6 @@ textures/exomorphx/wall-metal_panel02rust
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
 
 textures/exomorphx/wall-metal_panel01_orange
@@ -2913,8 +2470,6 @@ textures/exomorphx/wall-metal_panel01_orange
 	surfaceparm metalsteps
 	q3map_bouncescale 1.50
 
-
-
 	{
 		map textures/exomorphx/wall/metal_panel01_orange
 	}
@@ -2925,5 +2480,4 @@ textures/exomorphx/wall-metal_panel01_orange
 		tcGen lightmap
 		blendfunc filter
 	}
-
 }
