@@ -1,7 +1,7 @@
 textures/liquids_slime/slime0
 {
 	qer_editorimage textures/liquids_slime/slime0.tga
-	qer_trans 20
+	qer_trans 0.5
 	surfaceparm nomarks
 	surfaceparm trans
 	surfaceparm slime
@@ -20,7 +20,7 @@ textures/liquids_slime/slime0
 textures/liquids_slime/slime1
 {
 	qer_editorimage textures/liquids_slime/slime1.tga
-	qer_trans 20
+	qer_trans 0.5
 	surfaceparm nomarks
 	surfaceparm trans
 	surfaceparm slime
@@ -40,7 +40,7 @@ textures/liquids_slime/gelslime-purple
 {
 	qer_editorimage textures/liquids_slime/gelslime-purple.tga
 	q3map_lightimage textures/liquids_slime/gelslime-purple.tga
-	qer_trans 20
+	qer_trans 0.5
 	dpoffsetmapping - 1 match8 107
 	surfaceparm noimpact
 	surfaceparm trans
@@ -70,7 +70,7 @@ textures/liquids_slime/gelslime-purple_cubemap
 {
 	qer_editorimage textures/liquids_slime/gelslime-purple.tga
 	q3map_lightimage textures/liquids_slime/gelslime-purple.tga
-	qer_trans 20
+	qer_trans 0.5
 	dpoffsetmapping - 1 match8 107
 	surfaceparm noimpact
 	surfaceparm trans

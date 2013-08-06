@@ -3,7 +3,7 @@
 textures/liquids_water/water0
 {
 	qer_editorimage textures/liquids_water/water0.tga
-	qer_trans 20
+	qer_trans 0.5
 	surfaceparm nomarks
 	surfaceparm trans
 	surfaceparm water
@@ -21,7 +21,7 @@ textures/liquids_water/water0
 
 textures/liquids_water/water0_cubemap
 {
-	qer_trans 20
+	qer_trans 0.5
 	surfaceparm nomarks
 	surfaceparm trans
 	surfaceparm water
@@ -46,7 +46,7 @@ textures/liquids_water/water0_cubemap
 
 textures/liquids_water/water0_cubemap_alphamod
 {
-	qer_trans 20
+	qer_trans 0.5
 	surfaceparm nomarks
 	surfaceparm trans
 	surfaceparm water
@@ -73,7 +73,7 @@ textures/liquids_water/water0_cubemap_alphamod
 textures/liquids_water/water1
 {
 	qer_editorimage textures/liquids_water/water1.tga
-	qer_trans 20
+	qer_trans 0.5
 	surfaceparm nomarks
 	surfaceparm trans
 	surfaceparm water
@@ -92,7 +92,7 @@ textures/liquids_water/water1
 textures/liquids_water/water2
 {
 	qer_editorimage textures/liquids_water/water2.tga
-	qer_trans 20
+	qer_trans 0.5
 	surfaceparm nomarks
 	surfaceparm trans
 	surfaceparm water
