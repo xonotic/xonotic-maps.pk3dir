@@ -238,10 +238,7 @@ textures/map_unsealed/trim_trim6a
 {
 	qer_editorimage textures/map_unsealed/trim_trim6a.tga
 	dpoffsetmapping - 4 match8 89
-	
 	q3map_bounceScale 1.25
-
-
 	{
 		map textures/map_unsealed/trim_trim6a.tga
 	}
@@ -257,10 +254,7 @@ textures/map_unsealed/trim_trim6b
 {
 	qer_editorimage textures/map_unsealed/trim_trim6b.tga
 	dpoffsetmapping - 4 match8 89
-	
 	q3map_bounceScale 1.25
-
-
 	{
 		map textures/map_unsealed/trim_trim6b.tga
 	}
@@ -322,6 +316,7 @@ textures/map_unsealed/light_light2a_orange
 
 textures/map_unsealed/floor_wrn01-red_layer
 {
+	qer_trans 0.5
 	qer_editorimage textures/map_unsealed/floor_wrn01-red_layer.tga
 	surfaceparm trans
 	surfaceparm alphashadow
