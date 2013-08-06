@@ -225,6 +225,7 @@ models/unsealed/bark
 
 models/unsealed/branch
 {
+	qer_trans 0.5
 	surfaceparm trans
 	surfaceparm alphashadow
 	cull none
