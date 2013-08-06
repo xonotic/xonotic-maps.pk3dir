@@ -304,7 +304,7 @@ textures/map_unsealed/floor_floor2ef
 	}
 }
 
-textures/map_unsealed/light-light2a_orange
+textures/map_unsealed/light_light2a_orange
 {
 	qer_editorimage textures/map_unsealed/light_light2a_orange.tga
 	dpoffsetmapping - 4 match8 85
