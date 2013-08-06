@@ -336,3 +336,21 @@ textures/map_unsealed/floor_wrn01-red_layer
 		rgbGen identity
 	}
 }
+
+textures/map_unsealed/base_stone_metal
+{
+	qer_editorimage textures/map_unsealed/base_stone_metal.tga
+	q3map_bounceScale  0.5
+	dpoffsetmapping - 0.5 match8 201
+	dpglossintensitymod  3
+	dpglossexponentmod  4
+	{
+		map textures/map_unsealed/base_stone_metal.tga
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
