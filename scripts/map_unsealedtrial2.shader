@@ -354,3 +354,21 @@ textures/map_unsealed/base_stone_metal
 		blendfunc filter
 	}
 }
+
+textures/map_unsealed/base_diamondplate
+{
+	qer_editorimage textures/map_unsealed/base_diamondplate.png
+	q3map_bounceScale 0.5
+	dpoffsetmapping - 2
+	dpglossintensitymod  3
+	dpglossexponentmod  4
+	{
+		map textures/map_unsealed/base_diamondplate.png
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
