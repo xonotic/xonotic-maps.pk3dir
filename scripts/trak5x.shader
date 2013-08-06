@@ -1304,8 +1304,7 @@ textures/trak5x/misc-glass
 	qer_editorimage textures/trak5x/misc/misc_glass.tga
 	surfaceparm trans
 	q3map_bounceScale 0.75
-
-
+	qer_trans 0.5
 	{
 		map textures/trak5x/misc/misc_glass.tga
 		blendFunc blend

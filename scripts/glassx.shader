@@ -7,6 +7,7 @@ textures/glassx/hexglass
 	surfaceparm trans
 	surfaceparm alphashadow
 	q3map_lightmapSampleSize 64
+	qer_trans 0.5
  	{
 		map textures/glassx/base/hexglass.tga
 		blendfunc blend
