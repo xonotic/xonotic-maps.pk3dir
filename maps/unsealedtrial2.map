@@ -20166,10 +20166,10 @@
 }
 {
 "classname" "target_speaker"
-"origin" "4989.671387 538.188354 1854.374390"
+"origin" "6653.671387 3530.188477 222.374390"
 "spawnflags" "1"
-"noise" "sound/wind/ac_duct_wind.ogg"
-"volume" "2.0"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
 }
 {
 "classname" "target_speaker"
@@ -27573,4 +27573,480 @@
 "spawnflags" "1"
 "noise" "sound/wind/ac_duct_wind.ogg"
 "volume" "2.0"
+}
+{
+"classname" "target_speaker"
+"origin" "6653.671387 3530.188477 334.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "6653.671387 3530.188477 446.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "7893.671387 5514.188477 158.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "7893.671387 5514.188477 270.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "7893.671387 5514.188477 382.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "11589.671875 2194.188477 158.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "11589.671875 2194.188477 270.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "11589.671875 2194.188477 382.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "10821.671875 -2333.811523 158.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "10821.671875 -2333.811523 270.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "10821.671875 -2333.811523 382.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "11533.671875 -2997.811523 158.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "11533.671875 -2997.811523 270.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "11533.671875 -2997.811523 382.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "8085.671875 -4469.811523 158.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "8085.671875 -4469.811523 270.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "8085.671875 -4469.811523 382.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "5525.671875 -3245.811523 158.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "5525.671875 -3245.811523 270.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "5525.671875 -3245.811523 382.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "4117.671875 -1197.811523 158.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "4117.671875 -1197.811523 270.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "4117.671875 -1197.811523 382.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "2509.671875 -2469.811523 158.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "2509.671875 -2469.811523 270.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "2509.671875 -2469.811523 382.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "2637.671875 -5621.811523 158.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "2637.671875 -5621.811523 270.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "2637.671875 -5621.811523 382.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "-1834.328125 -5877.811523 158.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "-1834.328125 -5877.811523 270.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "-1834.328125 -5877.811523 382.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "-2762.328125 -4205.811523 158.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "-2762.328125 -4205.811523 270.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "-2762.328125 -4205.811523 382.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "-6178.328125 -3733.811523 158.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "-6178.328125 -3733.811523 270.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "-6178.328125 -3733.811523 382.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "-7818.328125 -5637.811523 158.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "-7818.328125 -5637.811523 270.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "-7818.328125 -5637.811523 382.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "-11418.328125 -2117.811523 158.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "-11418.328125 -2117.811523 270.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "-11418.328125 -2117.811523 382.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "-10642.328125 2386.188477 158.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "-10642.328125 2386.188477 270.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "-10642.328125 2386.188477 382.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "-11354.328125 3058.188477 158.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "-11354.328125 3058.188477 270.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "-11354.328125 3058.188477 382.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "-7898.328125 4538.188477 158.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "-7898.328125 4538.188477 270.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "-7898.328125 4538.188477 382.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "-3354.328125 -261.811523 158.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "-3354.328125 -261.811523 270.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "-3354.328125 -261.811523 382.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "-2554.328125 3666.188477 158.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "-2554.328125 3666.188477 270.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "-2554.328125 3666.188477 382.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "-2082.328125 5650.188477 158.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "-2082.328125 5650.188477 270.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "-2082.328125 5650.188477 382.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "2197.671875 5962.188477 158.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "2197.671875 5962.188477 270.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "2197.671875 5962.188477 382.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "3221.671875 3730.188477 158.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "3221.671875 3730.188477 270.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
+}
+{
+"classname" "target_speaker"
+"origin" "3221.671875 3730.188477 382.374390"
+"spawnflags" "1"
+"noise" "sound/creatures/Tree-frogs1.wav"
+"volume" "4.0"
 }
