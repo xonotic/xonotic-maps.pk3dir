@@ -24729,8 +24729,8 @@
 }
 {
 "classname" "info_autoscreenshot"
-"origin" "12872.202148 379.638397 672.185791"
-"angles" "3.726556 178.304932 0"
+"origin" "12592.202148 379.638397 672.185791"
+"angles" "3.726556 178.304932 0.000000"
 }
 {
 "classname" "info_autoscreenshot"
