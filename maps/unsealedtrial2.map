@@ -24715,6 +24715,31 @@
 "angles" "26.112055 -133.681625 0"
 }
 {
+"classname" "info_autoscreenshot"
+"origin" "9104.031250 -431.968750 187.031250"
+"angles" "-8.494080 42.899525 0"
+}
+{
+"classname" "info_autoscreenshot"
+"origin" "12872.202148 379.638397 672.185791"
+"angles" "3.726556 178.304932 0"
+}
+{
+"classname" "info_autoscreenshot"
+"origin" "7514.952148 -3088.067627 986.837830"
+"angles" "11.180075 69.695381 0"
+}
+{
+"classname" "info_autoscreenshot"
+"origin" "5576.987305 -130.411346 1634.728394"
+"angles" "30.878889 10.066530 0"
+}
+{
+"classname" "info_autoscreenshot"
+"origin" "271.330902 -106.636566 14098.711914"
+"angles" "90 -90.024078 0"
+}
+{
 "classname" "light"
 "origin" "9696.000000 2024.000000 272.000000"
 "light" "50"
