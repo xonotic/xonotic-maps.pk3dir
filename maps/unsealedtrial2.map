@@ -26377,17 +26377,17 @@
 {
 "classname" "light"
 "origin" "10776.000000 448.000000 932.000000"
-"light" "130"
+"light" "300"
 }
 {
 "classname" "light"
 "origin" "10776.000000 1106.000000 932.000000"
-"light" "50"
+"light" "100"
 }
 {
 "classname" "light"
 "origin" "10776.000000 994.000000 932.000000"
-"light" "50"
+"light" "100"
 }
 {
 "classname" "light"
@@ -26442,7 +26442,7 @@
 {
 "classname" "light"
 "origin" "10776.000000 -98.000000 932.000000"
-"light" "50"
+"light" "100"
 }
 {
 "classname" "light"
@@ -27517,17 +27517,17 @@
 {
 "classname" "light"
 "origin" "10776.000000 334.000000 932.000000"
-"light" "50"
+"light" "100"
 }
 {
 "classname" "light"
 "origin" "10776.000000 -210.000000 932.000000"
-"light" "50"
+"light" "100"
 }
 {
 "classname" "light"
 "origin" "10776.000000 558.000000 932.000000"
-"light" "50"
+"light" "100"
 }
 {
 "classname" "light"
@@ -27880,12 +27880,12 @@
 {
 "classname" "light"
 "origin" "11248.000000 448.000000 899.000000"
-"light" "1000"
+"light" "2000"
 "target" "info_null113"
 }
 {
 "classname" "info_null"
-"origin" "11248.000000 448.000000 719.000000"
+"origin" "11248.000000 448.000000 591.000000"
 "targetname" "info_null113"
 "angles" "0.000010 0.000010 90.000000"
 }
