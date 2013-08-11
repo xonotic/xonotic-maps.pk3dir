@@ -863,9 +863,9 @@ textures/exomorphx/wall-metal_panel01
 }
 
 
-textures/exomorphx/wall-metal_wall04
+textures/exomorphx/panel-metal_wall04
 {
-	qer_editorimage textures/exomorphx/wall/metal_wall04
+	qer_editorimage textures/exomorphx/panel/metal_wall04
 	dpoffsetmapping - 1.52193054519870410374 match8 255
 	dpglossintensitymod  2
 	dpglossexponentmod  4
@@ -874,7 +874,7 @@ textures/exomorphx/wall-metal_wall04
 	q3map_bouncescale 1.50
 
 	{
-		map textures/exomorphx/wall/metal_wall04
+		map textures/exomorphx/panel/metal_wall04
 	}
 
 	{
@@ -908,9 +908,9 @@ textures/exomorphx/wall-concrete_wall_slab01
 }
 
 
-textures/exomorphx/wall-metal_wall03
+textures/exomorphx/panel-metal_wall03
 {
-	qer_editorimage textures/exomorphx/wall/metal_wall03
+	qer_editorimage textures/exomorphx/panel/metal_wall03
 	dpoffsetmapping - 3.13442224680592611975 match8 184.93727500000000000000
 	dpglossintensitymod  2
 	dpglossexponentmod  4
@@ -919,7 +919,7 @@ textures/exomorphx/wall-metal_wall03
 	q3map_bouncescale 1.50
 
 	{
-		map textures/exomorphx/wall/metal_wall03
+		map textures/exomorphx/panel/metal_wall03
 	}
 
 	{
@@ -1344,9 +1344,9 @@ textures/exomorphx/light-metal_light07
 }
 
 
-textures/exomorphx/light-metal_light04
+textures/exomorphx/light-metal_light04_red
 {
-	qer_editorimage textures/exomorphx/light/metal_light04
+	qer_editorimage textures/exomorphx/light/metal_light04_red
 	dpoffsetmapping - .89493873437289361705 match8 124.51321500000000000000
 	dpglossintensitymod  2
 	dpglossexponentmod  4
@@ -1355,7 +1355,7 @@ textures/exomorphx/light-metal_light04
 	q3map_bouncescale 1.50
 
 	{
-		map textures/exomorphx/light/metal_light04
+		map textures/exomorphx/light/metal_light04_red
 	}
 
 	{
@@ -2438,9 +2438,9 @@ textures/exomorphx/wall-concrete_wall_slab03stripes
 	}
 }
 
-textures/exomorphx/wall-metal_panel02rust
+textures/exomorphx/wall-metal_panel01_rust
 {
-	qer_editorimage textures/exomorphx/wall/metal_panel02rust
+	qer_editorimage textures/exomorphx/wall/metal_panel01_rust
 	dpoffsetmapping - .71825975354494740329 match8 227.04564900000000000000
 	dpglossintensitymod  2
 	dpglossexponentmod  4
@@ -2449,7 +2449,7 @@ textures/exomorphx/wall-metal_panel02rust
 	q3map_bouncescale 1.50
 
 	{
-		map textures/exomorphx/wall/metal_panel02rust		
+		map textures/exomorphx/wall/metal_panel01_rust		
 	}
 
 	{
