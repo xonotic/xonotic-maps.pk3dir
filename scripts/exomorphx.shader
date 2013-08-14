@@ -1694,9 +1694,9 @@ textures/exomorphx/floor-metal_floor04a
 	}
 }
 
-textures/exomorphx/base-metal_floor04b
+textures/exomorphx/floor-metal_floor04b
 {
-	qer_editorimage textures/exomorphx/base/metal_floor04b
+	qer_editorimage textures/exomorphx/floor/metal_floor04b
 	dpoffsetmapping - 2.28641290560094684604 match8 220.49524300000000000000
 	dpglossintensitymod  2
 	dpglossexponentmod  4
@@ -1705,7 +1705,7 @@ textures/exomorphx/base-metal_floor04b
 	q3map_bouncescale 1.50
 
 	{
-		map textures/exomorphx/base/metal_floor04b
+		map textures/exomorphx/floor/metal_floor04b
 	}
 
 	{
@@ -1716,9 +1716,9 @@ textures/exomorphx/base-metal_floor04b
 	}
 }
 
-textures/exomorphx/base-metal_floor04c
+textures/exomorphx/floor-metal_floor04c
 {
-	qer_editorimage textures/exomorphx/base/metal_floor04c
+	qer_editorimage textures/exomorphx/floor/metal_floor04c
 	dpoffsetmapping - 2.28641290560094684604 match8 220.49524300000000000000
 	dpglossintensitymod  2
 	dpglossexponentmod  4
@@ -1727,7 +1727,7 @@ textures/exomorphx/base-metal_floor04c
 	q3map_bouncescale 1.50
 
 	{
-		map textures/exomorphx/base/metal_floor04c
+		map textures/exomorphx/floor/metal_floor04c
 	}
 
 	{
