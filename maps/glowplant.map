@@ -42524,11 +42524,6 @@ trak5x/base-pipe1a
 "angle" "90.000000"
 }
 {
-"classname" "item_health_large"
-"origin" "-512.000000 -768.000000 64.000000"
-"noalign" "1"
-}
-{
 "classname" "item_health_medium"
 "origin" "-328.000000 288.000000 256.000000"
 }
@@ -42538,7 +42533,8 @@ trak5x/base-pipe1a
 }
 {
 "classname" "weapon_electro"
-"origin" "-24.000000 0.000000 264.000000"
+"origin" "-512.000000 -768.000000 64.000000"
+"angle" "90.000000"
 }
 {
 "classname" "item_armor_small"
