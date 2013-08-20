@@ -472,3 +472,8 @@ facility114x/misc-tube
 "origin" "-116.000000 0.000000 24.000000"
 "light" "250"
 }
+{
+"classname" "info_autoscreenshot"
+"origin" "163.504181 -139.488159 42.342636"
+"angles" "22.917538 128.308304 0"
+}
