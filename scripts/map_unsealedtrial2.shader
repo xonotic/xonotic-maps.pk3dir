@@ -315,6 +315,22 @@ textures/map_unsealed/light_light2a_orange
 	}
 }
 
+textures/map_unsealed/light_light2a_ice
+{
+	qer_editorimage textures/map_unsealed/light_light2a_ice.tga
+	dpoffsetmapping - 4 match8 85
+	q3map_bounceScale 1.25
+	{
+		map textures/map_unsealed/light_light2a_ice.tga
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+
 textures/map_unsealed/floor_wrn01-red_layer
 {
 	qer_trans 0.5
