@@ -333,6 +333,24 @@ textures/map_unsealed/floor_wrn01-red_layer
 	}
 }
 
+textures/map_unsealed/floor_wrn01-blue_layer
+{
+	qer_trans 0.5
+	qer_editorimage textures/map_unsealed/floor_wrn01-blue_layer.tga
+	surfaceparm trans
+	surfaceparm alphashadow
+ 	{
+		map textures/map_unsealed/floor_wrn01-blue_layer.tga
+		blendfunc blend
+		rgbgen lightingDiffuse
+	}
+	{
+		map $lightmap
+		blendfunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
 textures/map_unsealed/base_stone_metal
 {
 	qer_editorimage textures/map_unsealed/base_stone_metal.tga
