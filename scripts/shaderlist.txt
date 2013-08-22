@@ -61,4 +61,3 @@ trak4x
 trak5x
 trak6x
 trak7x
-map_tarx
