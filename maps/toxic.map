@@ -35338,14 +35338,6 @@ brushDef
 }
 }
 {
-"classname" "info_player_deathmatch"
-"origin" "128.000000 2944.000000 192.000000"
-}
-{
-"classname" "weapon_grenadelauncher"
-"origin" "128.000000 3072.000000 192.000000"
-}
-{
 "classname" "light"
 "origin" "892.000000 1856.000000 604.000000"
 "light" "250"
@@ -38432,4 +38424,221 @@ brushDef
 "origin" "768.000000 2240.000000 876.000000"
 "angle" "90.000000"
 "targetname" "target_position112"
+}
+{
+"classname" "item_strength"
+"origin" "768.000000 2944.000000 16.000000"
+}
+{
+"classname" "item_rockets"
+"origin" "1112.000000 2600.000000 352.000000"
+}
+{
+"classname" "item_bullets"
+"origin" "424.000000 2600.000000 352.000000"
+"angle" "-180.000000"
+}
+{
+"classname" "item_cells"
+"origin" "424.000000 3288.000000 352.000000"
+"angle" "-179.999985"
+}
+{
+"classname" "item_shells"
+"origin" "1112.000000 3288.000000 352.000000"
+"angle" "0.000016"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "768.000000 3592.000000 64.000000"
+"angle" "-90.000000"
+}
+{
+"classname" "item_armor_small"
+"origin" "1088.000000 3584.000000 64.000000"
+"angle" "-90.000000"
+}
+{
+"classname" "item_armor_small"
+"origin" "1344.000000 3488.000000 64.000000"
+"angle" "-90.000000"
+}
+{
+"classname" "item_armor_small"
+"origin" "448.000000 3584.000000 64.000000"
+"angle" "-90.000000"
+}
+{
+"classname" "item_armor_small"
+"origin" "192.000000 3488.000000 64.000000"
+"angle" "-90.000000"
+}
+{
+"classname" "item_health_small"
+"origin" "1216.000000 3552.000000 64.000000"
+"angle" "-90.000000"
+}
+{
+"classname" "item_health_small"
+"origin" "1392.000000 3360.000000 64.000000"
+"angle" "-90.000000"
+}
+{
+"classname" "item_health_small"
+"origin" "144.000000 3360.000000 64.000000"
+"angle" "-90.000000"
+}
+{
+"classname" "item_health_small"
+"origin" "320.000000 3552.000000 64.000000"
+"angle" "-90.000000"
+}
+{
+"classname" "item_health_small"
+"origin" "768.000000 1664.000000 128.000000"
+"angle" "-90.000000"
+}
+{
+"classname" "item_health_small"
+"origin" "768.000000 1792.000000 128.000000"
+"angle" "-90.000000"
+}
+{
+"classname" "item_health_small"
+"origin" "768.000000 1408.000000 128.000000"
+"angle" "-90.000000"
+}
+{
+"classname" "item_health_small"
+"origin" "768.000000 1536.000000 128.000000"
+"angle" "-90.000000"
+}
+{
+"classname" "item_armor_small"
+"origin" "768.000000 360.000000 56.000000"
+}
+{
+"classname" "item_armor_small"
+"origin" "768.000000 152.000000 56.000000"
+"angle" "-180.000000"
+}
+{
+"classname" "item_armor_small"
+"origin" "856.000000 336.000000 56.000000"
+}
+{
+"classname" "item_armor_small"
+"origin" "680.000000 336.000000 56.000000"
+}
+{
+"classname" "item_armor_small"
+"origin" "680.000000 184.000000 56.000000"
+"angle" "-179.999985"
+}
+{
+"classname" "item_armor_small"
+"origin" "856.000000 184.000000 56.000000"
+"angle" "-179.999985"
+}
+{
+"classname" "item_armor_small"
+"origin" "872.000000 256.000000 56.000000"
+"angle" "-89.999992"
+}
+{
+"classname" "item_armor_small"
+"origin" "664.000000 256.000000 56.000000"
+"angle" "89.999992"
+}
+{
+"classname" "weapon_grenadelauncher"
+"origin" "768.000000 -64.000000 112.000000"
+"angle" "90.000008"
+}
+{
+"classname" "item_bullets"
+"origin" "864.000000 -64.000000 112.000000"
+"angle" "90.000008"
+}
+{
+"classname" "item_cells"
+"origin" "672.000000 -64.000000 112.000000"
+"angle" "90.000008"
+}
+{
+"classname" "item_health_large"
+"origin" "1664.000000 24.000000 128.000000"
+"angle" "90.000000"
+}
+{
+"classname" "item_armor_large"
+"origin" "1536.000000 1216.000000 128.000000"
+}
+{
+"classname" "weapon_crylink"
+"origin" "2360.000000 1440.000000 128.000000"
+"angle" "-180.000000"
+}
+{
+"classname" "item_health_mega"
+"origin" "768.000000 -512.000000 472.000000"
+}
+{
+"classname" "weapon_nex"
+"origin" "768.000000 -1056.000000 472.000000"
+}
+{
+"classname" "item_armor_small"
+"origin" "864.000000 -1056.000000 472.000000"
+}
+{
+"classname" "item_armor_small"
+"origin" "672.000000 -1056.000000 472.000000"
+}
+{
+"classname" "weapon_hagar"
+"origin" "-672.000000 1584.000000 256.000000"
+}
+{
+"classname" "item_health_large"
+"origin" "768.000000 1576.000000 680.000000"
+}
+{
+"classname" "weapon_electro"
+"origin" "768.000000 1160.000000 440.000000"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "1408.000000 2944.000000 104.000000"
+"angle" "-179.999985"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "128.000000 2944.000000 104.000000"
+"angle" "0.000009"
+}
+{
+"classname" "weapon_uzi"
+"origin" "768.000000 4000.000000 680.000000"
+"angle" "-90.000000"
+}
+{
+"classname" "item_armor_big"
+"origin" "768.000000 4232.000000 680.000000"
+"angle" "-90.000000"
+}
+{
+"classname" "info_autoscreenshot"
+"origin" "1079.85437 4253.02881 993.797363"
+"angles" "17.1606445 -106.029053 0"
+}
+{
+"classname" "info_autoscreenshot"
+"origin" "1858.73401 2106.15747 1859.10095"
+"angles" "39.6002197 -133.654175 0"
+}
+{
+"classname" "info_autoscreenshot"
+"origin" "372.562897 674.89917 575.800964"
+"angles" "23.4942627 -45.3460693 0"
 }
