@@ -1,6 +1,6 @@
--bsp + -samplesize 4 -minsamplesize 2
--light -bounce 8 +
+-bsp + -samplesize 4 -minsamplesize 2 
+-light + -bounce 8  -lightmapsize 1024 +
 -vis +
 -minimap +
 -nosRGB
-Version: 6
+Version: 7
