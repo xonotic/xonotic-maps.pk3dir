@@ -38260,3 +38260,19 @@
 "targetname" "info_null674"
 "angles" "0.000003 -90.000000 0.000000"
 }
+{
+"classname" "misc_model"
+"origin" "9168.042969 -5056.419434 1256.002563"
+"model" "models/map_solarium/radardish.ase"
+"modelscale" "1.500000"
+"spawnflags" "6"
+"angles" "-0.000000 142.733673 0.000010"
+}
+{
+"classname" "misc_model"
+"origin" "-8912.041992 5104.419922 1200.001953"
+"model" "models/map_solarium/radardish.ase"
+"modelscale" "1.500000"
+"spawnflags" "6"
+"angles" "-0.000000 -37.266323 0.000010"
+}
