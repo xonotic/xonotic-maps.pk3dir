@@ -38262,7 +38262,7 @@
 }
 {
 "classname" "misc_model"
-"origin" "9168.042969 -5056.419434 1256.002563"
+"origin" "9168.042969 -5056.419434 1272.002563"
 "model" "models/map_solarium/radardish.ase"
 "modelscale" "1.500000"
 "spawnflags" "6"
@@ -38270,7 +38270,7 @@
 }
 {
 "classname" "misc_model"
-"origin" "-8912.041992 5104.419922 1200.001953"
+"origin" "-8992.041992 5104.419922 1240.001953"
 "model" "models/map_solarium/radardish.ase"
 "modelscale" "1.500000"
 "spawnflags" "6"
