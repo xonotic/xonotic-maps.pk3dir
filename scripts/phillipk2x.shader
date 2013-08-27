@@ -678,6 +678,7 @@ textures/phillipk2x/floor-pk02_floor07
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 	q3map_bouncescale 1.25
+	surfaceparm alphashadow
 
 	{
 		map textures/phillipk2x/floor/pk02_floor07
@@ -788,6 +789,7 @@ textures/phillipk2x/floor-pk02_floor10
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 	q3map_bouncescale 1.25
+	sufraceparm alphashadow
 
 	{
 		map textures/phillipk2x/floor/pk02_floor10
@@ -876,6 +878,7 @@ textures/phillipk2x/floor-pk02_floor13a
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 	q3map_bouncescale 1.25
+	surfaceparm alphashadow
 
 	{
 		map textures/phillipk2x/floor/pk02_floor13a
@@ -898,6 +901,7 @@ textures/phillipk2x/floor-pk02_floor13b
 	dpglossintensitymod  3
 	dpglossexponentmod  4
 	q3map_bouncescale 1.25
+	surfaceparm alphashadow
 
 	{
 		map textures/phillipk2x/floor/pk02_floor13b
