@@ -1,4 +1,4 @@
--bsp + -samplesize 4 -minsamplesize 2
+-bsp + -samplesize 4
 -light + -bounce 3 -lightmapsize 2048
 -vis +
 -minimap +
