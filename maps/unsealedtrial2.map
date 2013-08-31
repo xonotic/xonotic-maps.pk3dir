@@ -18771,7 +18771,7 @@
 {
 ( -6400 -1728 192 ) ( -6144 -1728 192 ) ( -6400 -1728 0 ) narmorx/base-concrete05_blue 512 256 0 -0.25 0.25 134217728 0 0
 ( -7360 -1728 160 ) ( -7360 -1408 160 ) ( -7360 -1728 192 ) narmorx/base-concrete05_blue 0 256 0 -0.25 0.25 134217728 0 0
-( -7360 -1408 152 ) ( -7360 -1728 152 ) ( -6144 -1728 -72 ) narmorx/base-concrete05_blue 0 0 180 0.25 0.25 134217728 0 0
+( -7360 -1408 152 ) ( -7360 -1728 152 ) ( -6144 -1728 -72 ) map_unsealed/base_stone_metal 0 0 180 0.25 0.25 134217728 0 0
 ( -6144 -1408 0 ) ( -6144 -1408 192 ) ( -6400 -1408 0 ) narmorx/base-concrete05_blue 512 256 0 -0.25 0.25 134217728 0 0
 ( -7360 128 192 ) ( -6144 0 -64 ) ( -7360 0 192 ) narmorx/base-concrete05_blue 768 768 180 0.25 0.25 134217728 0 0
 }
@@ -29714,7 +29714,7 @@
 {
 ( -6400 1088 0 ) ( -6144 1088 192 ) ( -6400 1088 192 ) narmorx/base-concrete05_blue 512 256 0 -0.25 0.25 134217728 0 0
 ( -7360 1088 192 ) ( -7360 768 160 ) ( -7360 1088 160 ) narmorx/base-concrete05_blue 0 256 0 -0.25 0.25 134217728 0 0
-( -6144 1088 -72 ) ( -7360 1088 152 ) ( -7360 768 152 ) narmorx/base-concrete05_blue 0 0 180 0.25 0.25 134217728 0 0
+( -6144 1088 -72 ) ( -7360 1088 152 ) ( -7360 768 152 ) map_unsealed/base_stone_metal 0 0 180 0.25 0.25 134217728 0 0
 ( -6400 768 0 ) ( -6144 768 192 ) ( -6144 768 0 ) narmorx/base-concrete05_blue 512 256 0 -0.25 0.25 134217728 0 0
 ( -7360 -640 192 ) ( -6144 -640 -64 ) ( -7360 -768 192 ) narmorx/base-concrete05_blue 768 768 180 0.25 0.25 134217728 0 0
 }
@@ -33542,11 +33542,12 @@
 }
 {
 "classname" "misc_model"
-"origin" "-4764.000000 -12.000000 -16.000000"
+"origin" "-4259.999512 -243.999237 -16.000732"
 "model" "models/volcanic_mountain/arc.md3"
 "modelscale" "12.000000"
 "solid" "4"
 "spawnflags" "6"
+"angles" "0.000010 -179.999985 0.000000"
 }
 {
 "classname" "misc_model"
@@ -34919,11 +34920,12 @@
 }
 {
 "classname" "misc_model"
-"origin" "-3328.000000 -280.000000 136.000000"
+"origin" "-3839.997070 1112.000732 135.999863"
 "model" "models/unsealed/tree.md3"
 "modelscale" "2.300000"
 "_castshadows" "1"
 "_receiveshadows" "1"
+"angles" "0.000010 -179.999985 0.000000"
 }
 {
 "classname" "misc_model"
@@ -39344,31 +39346,35 @@
 }
 {
 "classname" "target_speaker"
-"origin" "-4778.911621 -278.867279 1858.817017"
+"origin" "-4245.088379 22.867188 1858.816895"
 "spawnflags" "1"
 "noise" "sound/wind/ac_duct_wind.ogg"
 "volume" "2.0"
+"angles" "0.000010 -179.999985 0.000000"
 }
 {
 "classname" "target_speaker"
-"origin" "-4430.920898 -106.474762 1751.075317"
+"origin" "-4593.079102 -149.525391 1751.075195"
 "spawnflags" "1"
 "noise" "sound/wind/ac_duct_wind.ogg"
 "volume" "2.0"
+"angles" "0.000010 -179.999985 0.000000"
 }
 {
 "classname" "target_speaker"
-"origin" "-4666.328613 674.188354 1894.374390"
+"origin" "-4357.671387 -930.188477 1894.374512"
 "spawnflags" "1"
 "noise" "sound/wind/ac_duct_wind.ogg"
 "volume" "2.0"
+"angles" "0.000010 -179.999985 0.000000"
 }
 {
 "classname" "target_speaker"
-"origin" "-5083.710449 519.244873 1863.395020"
+"origin" "-3940.289551 -775.245117 1863.395020"
 "spawnflags" "1"
 "noise" "sound/wind/ac_duct_wind.ogg"
 "volume" "2.0"
+"angles" "0.000010 -179.999985 0.000000"
 }
 {
 "classname" "target_speaker"
@@ -39400,24 +39406,27 @@
 }
 {
 "classname" "target_speaker"
-"origin" "-4874.328613 298.188354 1854.374390"
+"origin" "-4149.671387 -554.188477 1854.374512"
 "spawnflags" "1"
 "noise" "sound/wind/ac_duct_wind.ogg"
 "volume" "2.0"
+"angles" "0.000010 -179.999985 0.000000"
 }
 {
 "classname" "target_speaker"
-"origin" "-5042.328613 146.188354 1790.374390"
+"origin" "-3981.671387 -402.188477 1790.374512"
 "spawnflags" "1"
 "noise" "sound/wind/ac_duct_wind.ogg"
 "volume" "2.0"
+"angles" "0.000010 -179.999985 0.000000"
 }
 {
 "classname" "target_speaker"
-"origin" "-4578.328613 234.188354 1774.374390"
+"origin" "-4445.671387 -490.188477 1774.374512"
 "spawnflags" "1"
 "noise" "sound/wind/ac_duct_wind.ogg"
 "volume" "2.0"
+"angles" "0.000010 -179.999985 0.000000"
 }
 {
 "classname" "target_speaker"
@@ -41183,21 +41192,21 @@
 }
 {
 "classname" "target_speaker"
-"origin" "-3354.328125 -261.811523 158.374390"
+"origin" "-3834.328125 1106.188477 158.374390"
 "spawnflags" "1"
 "noise" "sound/creatures/Tree-frogs1.wav"
 "volume" "4.0"
 }
 {
 "classname" "target_speaker"
-"origin" "-3354.328125 -261.811523 270.374390"
+"origin" "-3834.328125 1106.188477 270.374390"
 "spawnflags" "1"
 "noise" "sound/creatures/Tree-frogs1.wav"
 "volume" "4.0"
 }
 {
 "classname" "target_speaker"
-"origin" "-3354.328125 -261.811523 382.374390"
+"origin" "-3834.328125 1106.188477 382.374390"
 "spawnflags" "1"
 "noise" "sound/creatures/Tree-frogs1.wav"
 "volume" "4.0"
