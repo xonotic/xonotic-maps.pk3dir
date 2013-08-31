@@ -45941,9 +45941,10 @@
 }
 {
 "classname" "misc_gamemodel"
-"origin" "-9248.000000 511.000000 456.000000"
+"origin" "-9248.000000 513.000000 456.000000"
 "model" "models/lights/xonlight04.md3"
 "modelscale" "0.500000"
+"angle" "-180.000000"
 }
 {
 "classname" "target_speaker"
@@ -45958,10 +45959,10 @@
 }
 {
 "classname" "misc_gamemodel"
-"origin" "-9247.998047 1090.999023 456.000000"
+"origin" "-9248.001953 1093.000977 456.000000"
 "model" "models/lights/xonlight04.md3"
 "modelscale" "0.500000"
-"angle" "-179.999985"
+"angle" "0.000016"
 }
 {
 "classname" "target_speaker"
@@ -45994,10 +45995,10 @@
 }
 {
 "classname" "misc_gamemodel"
-"origin" "-8895.000000 -1568.000000 456.000000"
+"origin" "-8897.000000 -1568.000000 456.000000"
 "model" "models/lights/xonlight04.md3"
 "modelscale" "0.500000"
-"angle" "90.000000"
+"angles" "-0.000000 -90.000000 0.000010"
 }
 {
 "classname" "target_speaker"
@@ -46024,10 +46025,10 @@
 }
 {
 "classname" "misc_gamemodel"
-"origin" "-8895.000000 800.000000 456.000000"
+"origin" "-8897.000000 800.000000 456.000000"
 "model" "models/lights/xonlight04.md3"
 "modelscale" "0.500000"
-"angle" "90.000000"
+"angles" "-0.000000 -89.999992 -0.000001"
 }
 {
 "classname" "target_speaker"
@@ -46042,10 +46043,10 @@
 }
 {
 "classname" "misc_gamemodel"
-"origin" "-9248.000000 -1279.000000 456.000000"
+"origin" "-9248.000000 -1281.000000 456.000000"
 "model" "models/lights/xonlight04.md3"
 "modelscale" "0.500000"
-"angle" "-179.999985"
+"angle" "0.000016"
 }
 {
 "classname" "target_speaker"
@@ -46066,10 +46067,10 @@
 }
 {
 "classname" "misc_gamemodel"
-"origin" "-9248.001953 -1857.000000 456.000000"
+"origin" "-9247.998047 -1855.000000 456.000000"
 "model" "models/lights/xonlight04.md3"
 "modelscale" "0.500000"
-"angle" "0.000016"
+"angle" "-180.000000"
 }
 {
 "classname" "target_speaker"
@@ -49761,10 +49762,10 @@
 }
 {
 "classname" "misc_gamemodel"
-"origin" "-9375.999023 -1279.000000 840.000000"
+"origin" "-9376.000977 -1281.000000 840.000000"
 "model" "models/lights/xonlight04.md3"
 "modelscale" "0.500000"
-"angle" "-179.999985"
+"angle" "0.000016"
 }
 {
 "classname" "target_speaker"
@@ -49780,10 +49781,10 @@
 }
 {
 "classname" "misc_gamemodel"
-"origin" "-9376.000000 511.000000 840.000000"
+"origin" "-9376.000000 513.000000 840.000000"
 "model" "models/lights/xonlight04.md3"
 "modelscale" "0.500000"
-"angle" "0.000016"
+"angle" "-180.000000"
 }
 {
 "classname" "target_speaker"
@@ -49804,10 +49805,10 @@
 }
 {
 "classname" "misc_gamemodel"
-"origin" "-8224.000000 513.000122 456.000000"
+"origin" "-8224.000000 507.000000 456.000000"
 "model" "models/lights/xonlight04.md3"
 "modelscale" "0.500000"
-"angle" "-179.999985"
+"angle" "0.000016"
 }
 {
 "classname" "target_speaker"
@@ -49823,10 +49824,10 @@
 }
 {
 "classname" "misc_gamemodel"
-"origin" "-8224.000000 -1280.999878 456.000000"
+"origin" "-8224.000000 -1275.000000 456.000000"
 "model" "models/lights/xonlight04.md3"
 "modelscale" "0.500000"
-"angle" "0.000009"
+"angles" "0.000010 -179.999985 0.000000"
 }
 {
 "classname" "target_speaker"
