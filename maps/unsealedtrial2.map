@@ -45922,10 +45922,10 @@
 }
 {
 "classname" "misc_gamemodel"
-"origin" "-8895.000000 -384.000000 1032.000000"
+"origin" "-8897.000000 -384.000000 1032.000000"
 "model" "models/lights/xonlight04.md3"
 "modelscale" "0.500000"
-"angle" "90.000000"
+"angle" "-89.999992"
 }
 {
 "classname" "target_speaker"
