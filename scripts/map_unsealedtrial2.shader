@@ -251,38 +251,6 @@ textures/map_unsealed/trim_trim6a
 	}
 }
 
-textures/map_unsealed/trim_trim6b
-{
-	qer_editorimage textures/map_unsealed/trim_trim6b.tga
-	dpoffsetmapping - 4 match8 89
-	q3map_bounceScale 1.25
-	{
-		map textures/map_unsealed/trim_trim6b.tga
-	}
-	{
-		map $lightmap
-		rgbGen identity
-		tcGen lightmap
-		blendfunc filter
-	}
-}
-
-textures/map_unsealed/floor_floor2cf
-{
-	qer_editorimage textures/map_unsealed/floor_floor2cf.tga
-	dpoffsetmapping - 2 match8 86
-	q3map_bounceScale 1.25
-	{
-		map textures/map_unsealed/floor_floor2cf.tga
-	}
-	{
-		map $lightmap
-		rgbGen identity
-		tcGen lightmap
-		blendfunc filter
-	}
-}
-
 textures/map_unsealed/floor_floor2ef
 {
 	qer_editorimage textures/map_unsealed/floor_floor2ef.tga
