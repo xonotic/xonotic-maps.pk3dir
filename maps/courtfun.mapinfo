@@ -1,5 +1,5 @@
 title Courtfun
-description A classic large scale CTF map
+description A classic large scale CTF map supporting other gamemodes as well
 author SavageX, Calinou, Debugger
 cdtrack 9
 has weapons
@@ -22,7 +22,6 @@ settemp_for_type cts g_use_ammunition 0
 settemp_for_type cts g_weaponreplace_electro 0
 settemp_for_type cts g_weaponreplace_grenadelauncher 0
 settemp_for_type cts g_weaponreplace_hagar 0
-settemp_for_type cts g_weaponreplace_hlac 0
 settemp_for_type cts g_weaponreplace_nex 0
 settemp_for_type cts g_weaponreplace_rocketlauncher 0
 settemp_for_type cts g_weaponreplace_uzi 0

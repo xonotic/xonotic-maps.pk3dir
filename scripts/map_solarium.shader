@@ -1,12 +1,12 @@
 textures/map_solarium/waterfall
 {
-	qer_editorimage textures/map_solarium/waterfall/water2.tga
+	qer_editorimage textures/liquids_water/water2.tga
 	qer_trans 20
 	cull disable
 	surfaceparm trans
 
 	{
-		map textures/map_solarium/waterfall/water2.tga	
+		map textures/liquids_water/water2.tga
 		tcMod scroll 0 -1.9
 		blendfunc blend
 	
