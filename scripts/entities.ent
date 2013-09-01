@@ -1927,7 +1927,7 @@ Animus. Undead doll which pounces at the enemy
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
 <integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
-<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="0">Spawn as mini-boss (slightly more powerful)</flag>
+<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="6">Spawn as mini-boss (slightly more powerful)</flag>
 <flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="1">Spawn when triggered</flag>
 <flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="2">Don't re-spawn</flag>
 <flag key="MONSTERFLAG_FLY_VERTICAL" name="FLY_VERTICAL" bit="3">Allow flying/swimming monsters to move up/down</flag>
@@ -1949,7 +1949,7 @@ Cerberus. Man's best enemy
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
 <integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
-<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="0">Spawn as mini-boss (slightly more powerful)</flag>
+<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="6">Spawn as mini-boss (slightly more powerful)</flag>
 <flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="1">Spawn when triggered</flag>
 <flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="2">Don't re-spawn</flag>
 <flag key="MONSTERFLAG_FLY_VERTICAL" name="FLY_VERTICAL" bit="3">Allow flying/swimming monsters to move up/down</flag>
@@ -1971,7 +1971,7 @@ Stingray. A swimming beast with poison stings
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
 <integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
-<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="0">Spawn as mini-boss (slightly more powerful)</flag>
+<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="6">Spawn as mini-boss (slightly more powerful)</flag>
 <flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="1">Spawn when triggered</flag>
 <flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="2">Don't re-spawn</flag>
 <flag key="MONSTERFLAG_FLY_VERTICAL" name="FLY_VERTICAL" bit="3">Allow flying/swimming monsters to move up/down</flag>
@@ -1993,7 +1993,7 @@ Knight. A cursed warrior from the depths of hell
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
 <integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
-<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="0">Spawn as mini-boss (slightly more powerful)</flag>
+<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="6">Spawn as mini-boss (slightly more powerful)</flag>
 <flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="1">Spawn when triggered</flag>
 <flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="2">Don't re-spawn</flag>
 <flag key="MONSTERFLAG_FLY_VERTICAL" name="FLY_VERTICAL" bit="3">Allow flying/swimming monsters to move up/down</flag>
@@ -2015,7 +2015,7 @@ Bruiser. A cursed medieval warrior
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
 <integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
-<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="0">Spawn as mini-boss (slightly more powerful)</flag>
+<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="6">Spawn as mini-boss (slightly more powerful)</flag>
 <flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="1">Spawn when triggered</flag>
 <flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="2">Don't re-spawn</flag>
 <flag key="MONSTERFLAG_FLY_VERTICAL" name="FLY_VERTICAL" bit="3">Allow flying/swimming monsters to move up/down</flag>
@@ -2037,7 +2037,7 @@ Brute. Chops down creatures like trees
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
 <integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
-<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="0">Spawn as mini-boss (slightly more powerful)</flag>
+<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="6">Spawn as mini-boss (slightly more powerful)</flag>
 <flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="1">Spawn when triggered</flag>
 <flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="2">Don't re-spawn</flag>
 <flag key="MONSTERFLAG_FLY_VERTICAL" name="FLY_VERTICAL" bit="3">Allow flying/swimming monsters to move up/down</flag>
@@ -2059,7 +2059,7 @@ Mage. Master of dark magic
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
 <integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
-<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="0">Spawn as mini-boss (slightly more powerful)</flag>
+<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="6">Spawn as mini-boss (slightly more powerful)</flag>
 <flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="1">Spawn when triggered</flag>
 <flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="2">Don't re-spawn</flag>
 <flag key="MONSTERFLAG_FLY_VERTICAL" name="FLY_VERTICAL" bit="3">Allow flying/swimming monsters to move up/down</flag>
@@ -2081,7 +2081,7 @@ Shambler. Summons lightning bolts with its large meat cleaving claws
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
 <integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
-<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="0">Spawn as mini-boss (slightly more powerful)</flag>
+<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="6">Spawn as mini-boss (slightly more powerful)</flag>
 <flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="1">Spawn when triggered</flag>
 <flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="2">Don't re-spawn</flag>
 <flag key="MONSTERFLAG_FLY_VERTICAL" name="FLY_VERTICAL" bit="3">Allow flying/swimming monsters to move up/down</flag>
@@ -2104,7 +2104,7 @@ Spider. Freezing ice or burning fire web, both lead to an 8-legged grave
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
 <integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
-<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="0">Spawn as mini-boss (slightly more powerful)</flag>
+<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="6">Spawn as mini-boss (slightly more powerful)</flag>
 <flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="1">Spawn when triggered</flag>
 <flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="2">Don't re-spawn</flag>
 <flag key="MONSTERFLAG_FLY_VERTICAL" name="FLY_VERTICAL" bit="3">Allow flying/swimming monsters to move up/down</flag>
@@ -2126,7 +2126,7 @@ Slime. A slimy explosives experiment come to life
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
 <integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
-<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="0">Spawn as mini-boss (slightly more powerful)</flag>
+<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="6">Spawn as mini-boss (slightly more powerful)</flag>
 <flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="1">Spawn when triggered</flag>
 <flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="2">Don't re-spawn</flag>
 <flag key="MONSTERFLAG_FLY_VERTICAL" name="FLY_VERTICAL" bit="3">Allow flying/swimming monsters to move up/down</flag>
@@ -2148,7 +2148,7 @@ Wyvern. Flies around shooting fireballs
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
 <integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
-<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="0">Spawn as mini-boss (slightly more powerful)</flag>
+<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="6">Spawn as mini-boss (slightly more powerful)</flag>
 <flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="1">Spawn when triggered</flag>
 <flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="2">Don't re-spawn</flag>
 <flag key="MONSTERFLAG_FLY_VERTICAL" name="FLY_VERTICAL" bit="3">Allow flying/swimming monsters to move up/down</flag>
@@ -2170,7 +2170,7 @@ Braaaiins!
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
 <integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
-<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="0">Spawn as mini-boss (slightly more powerful)</flag>
+<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="6">Spawn as mini-boss (slightly more powerful)</flag>
 <flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="1">Spawn when triggered</flag>
 <flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="2">Don't re-spawn</flag>
 <flag key="MONSTERFLAG_FLY_VERTICAL" name="FLY_VERTICAL" bit="3">Allow flying/swimming monsters to move up/down</flag>
