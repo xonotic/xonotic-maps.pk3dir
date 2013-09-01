@@ -1119,43 +1119,9 @@ The sound name may also be of the form *soundname, and in that case the respecti
 <flag key="ACTIVATOR" name="ACTIVATOR" bit="3">the sound is played to the activator only when triggered (cannot be combined with LOOPED_ON and LOOPED_OFF)</flag>
 </point>
 
-<point name="td_controller" color="0 .5 .5" box="-12 -12 -12 12 12 12">
-Entity that controls some tower defense functions
+<point name="invasion_spawnpoint" color="1 0.5 0" box="-16 -16 -24 16 16 45">
+Monster spawnpoint in Invasion
 -------- KEYS --------
-<integer key="maxwaves" name="maxwaves">maximum monster waves</integer>
-<integer key="monstercount" name="monstercount">starting wave monster count</integer>
-<integer key="startwave" name="startwave">starting wave</integer>
-<integer key="dontent" name="dontent">don't game over if only 1 generator was destroyed and another is still alive</integer>
-<integer key="maxturrets" name="maxturrets">maximum spawned turrets per player</integer>
-<real key="buildtime" name="buildtime">delay between combat phases</real>
-<integer key="mspeed_run" name="mspeed_run">monster running speed</integer>
-<integer key="mspeed_walk" name="mspeed_walk">monster walking speed</integer>
-<real key="spawndelay" name="spawndelay">delay between monster spawns</real>
-<integer key="maxcurrent" name="maxcurrent">maximum alive monsters (spawning will be delayed until some monsters are killed)</integer>
-<integer key="ignoreturrets" name="ignoreturrets">monsters won't attack turrets</integer>
--------- SPAWNFLAGS --------
-</point>
-
-<point name="td_generator" color="0 .5 .8" box="-52 -52 -14 52 52 75">
-The base generator. Must be protected from waves of monsters to win the match
--------- KEYS --------
-<integer key="health" name="health">generator health</integer>
--------- SPAWNFLAGS --------
-</point>
-
-<point name="td_waypoint" color="0 .7 .7" box="-8 -8 -8 8 8 8">
-Monster waypoint. Must be linked from monster_swarm spawnpoint to the generator via other td_waypoint entities
--------- KEYS --------
-<target key="target" name="target">point to next td_waypoint, or to generator targetname</target>
-<target key="target2" name="target2">alternative path, randomly chosen if target exists</target>
-<targetname key="targetname" name="targetname">name that identifies this entity so it can be targeted</targetname>
--------- SPAWNFLAGS --------
-</point>
-
-<point name="monster_swarm" color="1 0 0" box="-16 -16 -24 16 16 45">
-Monster spawnpoint in Tower Defense
--------- KEYS --------
-<target key="target" name="target">point to a td_waypoint, or to generator targetname</target>
 -------- SPAWNFLAGS --------
 </point>
 
@@ -1962,10 +1928,10 @@ Animus. Undead doll which pounces at the enemy
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
 <integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
-<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="0">Spawn as mini-boss (slightly more powerful)</flag>
-<flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="1">Spawn when triggered</flag>
-<flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="2">Don't re-spawn</flag>
-<flag key="MONSTER_RESPAWN_DEATHPOINT" name="RESPAWN_DEATHPOINT" bit="3">Re-spawn where monster died, rather than at original spawn location</flag>
+<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="1">Spawn as mini-boss (slightly more powerful)</flag>
+<flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="2">Spawn when triggered</flag>
+<flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="4">Don't re-spawn</flag>
+<flag key="MONSTERFLAG_FLY_VERTICAL" name="FLY_VERTICAL" bit="8">Allow flying monsters to fly up/down</flag>
 </point>
 
 <point name="monster_cerberus" color="1 0 0" box="-16 -16 -24 16 16 12">
@@ -1981,10 +1947,10 @@ Cerberus. Man's best enemy
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
 <integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
-<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="0">Spawn as mini-boss (slightly more powerful)</flag>
-<flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="1">Spawn when triggered</flag>
-<flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="2">Don't re-spawn</flag>
-<flag key="MONSTER_RESPAWN_DEATHPOINT" name="RESPAWN_DEATHPOINT" bit="3">Re-spawn where monster died, rather than at original spawn location</flag>
+<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="1">Spawn as mini-boss (slightly more powerful)</flag>
+<flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="2">Spawn when triggered</flag>
+<flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="4">Don't re-spawn</flag>
+<flag key="MONSTERFLAG_FLY_VERTICAL" name="FLY_VERTICAL" bit="8">Allow flying monsters to fly up/down</flag>
 </point>
 
 <point name="monster_stingray" color="1 0 0" box="-20 -20 -31 20 20 20">
@@ -2000,10 +1966,10 @@ Stingray. A swimming beast with poison stings
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
 <integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
-<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="0">Spawn as mini-boss (slightly more powerful)</flag>
-<flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="1">Spawn when triggered</flag>
-<flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="2">Don't re-spawn</flag>
-<flag key="MONSTER_RESPAWN_DEATHPOINT" name="RESPAWN_DEATHPOINT" bit="3">Re-spawn where monster died, rather than at original spawn location</flag>
+<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="1">Spawn as mini-boss (slightly more powerful)</flag>
+<flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="2">Spawn when triggered</flag>
+<flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="4">Don't re-spawn</flag>
+<flag key="MONSTERFLAG_FLY_VERTICAL" name="FLY_VERTICAL" bit="8">Allow flying monsters to fly up/down</flag>
 </point>
 
 <point name="monster_knight" color="1 0 0" box="-20 -20 -32 20 20 41">
@@ -2019,10 +1985,10 @@ Knight. A cursed warrior from the depths of hell
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
 <integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
-<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="0">Spawn as mini-boss (slightly more powerful)</flag>
-<flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="1">Spawn when triggered</flag>
-<flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="2">Don't re-spawn</flag>
-<flag key="MONSTER_RESPAWN_DEATHPOINT" name="RESPAWN_DEATHPOINT" bit="3">Re-spawn where monster died, rather than at original spawn location</flag>
+<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="1">Spawn as mini-boss (slightly more powerful)</flag>
+<flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="2">Spawn when triggered</flag>
+<flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="4">Don't re-spawn</flag>
+<flag key="MONSTERFLAG_FLY_VERTICAL" name="FLY_VERTICAL" bit="8">Allow flying monsters to fly up/down</flag>
 </point>
 
 <point name="monster_bruiser" color="1 0 0" box="-20 -20 -31 20 20 53">
@@ -2038,10 +2004,10 @@ Bruiser. A cursed medieval warrior
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
 <integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
-<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="0">Spawn as mini-boss (slightly more powerful)</flag>
-<flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="1">Spawn when triggered</flag>
-<flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="2">Don't re-spawn</flag>
-<flag key="MONSTER_RESPAWN_DEATHPOINT" name="RESPAWN_DEATHPOINT" bit="3">Re-spawn where monster died, rather than at original spawn location</flag>
+<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="1">Spawn as mini-boss (slightly more powerful)</flag>
+<flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="2">Spawn when triggered</flag>
+<flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="4">Don't re-spawn</flag>
+<flag key="MONSTERFLAG_FLY_VERTICAL" name="FLY_VERTICAL" bit="8">Allow flying monsters to fly up/down</flag>
 </point>
 
 <point name="monster_brute" color="1 0 0" box="-36 -36 -20 36 36 50">
@@ -2057,10 +2023,10 @@ Brute. Chops down creatures like trees
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
 <integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
-<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="0">Spawn as mini-boss (slightly more powerful)</flag>
-<flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="1">Spawn when triggered</flag>
-<flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="2">Don't re-spawn</flag>
-<flag key="MONSTER_RESPAWN_DEATHPOINT" name="RESPAWN_DEATHPOINT" bit="3">Re-spawn where monster died, rather than at original spawn location</flag>
+<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="1">Spawn as mini-boss (slightly more powerful)</flag>
+<flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="2">Spawn when triggered</flag>
+<flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="4">Don't re-spawn</flag>
+<flag key="MONSTERFLAG_FLY_VERTICAL" name="FLY_VERTICAL" bit="8">Allow flying monsters to fly up/down</flag>
 </point>
 
 <point name="monster_mage" color="1 0 0" box="-36 -36 -24 36 36 50">
@@ -2076,10 +2042,10 @@ Mage. Master of dark magic
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
 <integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
-<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="0">Spawn as mini-boss (slightly more powerful)</flag>
-<flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="1">Spawn when triggered</flag>
-<flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="2">Don't re-spawn</flag>
-<flag key="MONSTER_RESPAWN_DEATHPOINT" name="RESPAWN_DEATHPOINT" bit="3">Re-spawn where monster died, rather than at original spawn location</flag>
+<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="1">Spawn as mini-boss (slightly more powerful)</flag>
+<flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="2">Spawn when triggered</flag>
+<flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="4">Don't re-spawn</flag>
+<flag key="MONSTERFLAG_FLY_VERTICAL" name="FLY_VERTICAL" bit="8">Allow flying monsters to fly up/down</flag>
 </point>
 
 <point name="monster_shambler" color="1 0 0" box="-41 -41 -31 41 41 65">
@@ -2095,10 +2061,10 @@ Shambler. Summons lightning bolts with its large meat cleaving claws
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
 <integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
-<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="0">Spawn as mini-boss (slightly more powerful)</flag>
-<flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="1">Spawn when triggered</flag>
-<flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="2">Don't re-spawn</flag>
-<flag key="MONSTER_RESPAWN_DEATHPOINT" name="RESPAWN_DEATHPOINT" bit="3">Re-spawn where monster died, rather than at original spawn location</flag>
+<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="1">Spawn as mini-boss (slightly more powerful)</flag>
+<flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="2">Spawn when triggered</flag>
+<flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="4">Don't re-spawn</flag>
+<flag key="MONSTERFLAG_FLY_VERTICAL" name="FLY_VERTICAL" bit="8">Allow flying monsters to fly up/down</flag>
 </point>
 
 <point name="monster_spider" color="1 0 0" box="-18 -18 -25 18 18 30">
@@ -2115,10 +2081,10 @@ Spider. Freezing ice or burning fire web, both lead to an 8-legged grave
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
 <integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
-<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="0">Spawn as mini-boss (slightly more powerful)</flag>
-<flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="1">Spawn when triggered</flag>
-<flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="2">Don't re-spawn</flag>
-<flag key="MONSTER_RESPAWN_DEATHPOINT" name="RESPAWN_DEATHPOINT" bit="3">Re-spawn where monster died, rather than at original spawn location</flag>
+<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="1">Spawn as mini-boss (slightly more powerful)</flag>
+<flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="2">Spawn when triggered</flag>
+<flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="4">Don't re-spawn</flag>
+<flag key="MONSTERFLAG_FLY_VERTICAL" name="FLY_VERTICAL" bit="8">Allow flying monsters to fly up/down</flag>
 </point>
 
 <point name="monster_slime" color="1 0 0" box="-20 -20 -31 20 20 20">
@@ -2134,10 +2100,10 @@ Slime. A slimy explosives experiment come to life
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
 <integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
-<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="0">Spawn as mini-boss (slightly more powerful)</flag>
-<flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="1">Spawn when triggered</flag>
-<flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="2">Don't re-spawn</flag>
-<flag key="MONSTER_RESPAWN_DEATHPOINT" name="RESPAWN_DEATHPOINT" bit="3">Re-spawn where monster died, rather than at original spawn location</flag>
+<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="1">Spawn as mini-boss (slightly more powerful)</flag>
+<flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="2">Spawn when triggered</flag>
+<flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="4">Don't re-spawn</flag>
+<flag key="MONSTERFLAG_FLY_VERTICAL" name="FLY_VERTICAL" bit="8">Allow flying monsters to fly up/down</flag>
 </point>
 
 <point name="monster_wyvern" color="1 0 0" box="-20 -20 -58 20 20 20">
@@ -2153,10 +2119,10 @@ Wyvern. Flies around shooting fireballs
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
 <integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
-<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="0">Spawn as mini-boss (slightly more powerful)</flag>
-<flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="1">Spawn when triggered</flag>
-<flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="2">Don't re-spawn</flag>
-<flag key="MONSTER_RESPAWN_DEATHPOINT" name="RESPAWN_DEATHPOINT" bit="3">Re-spawn where monster died, rather than at original spawn location</flag>
+<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="1">Spawn as mini-boss (slightly more powerful)</flag>
+<flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="2">Spawn when triggered</flag>
+<flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="4">Don't re-spawn</flag>
+<flag key="MONSTERFLAG_FLY_VERTICAL" name="FLY_VERTICAL" bit="8">Allow flying monsters to fly up/down</flag>
 </point>
 
 <point name="monster_zombie" color="1 0 0" box="-18 -18 -25 18 18 47">
@@ -2172,10 +2138,10 @@ Braaaiins!
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
 <integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
-<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="0">Spawn as mini-boss (slightly more powerful)</flag>
-<flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="1">Spawn when triggered</flag>
-<flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="2">Don't re-spawn</flag>
-<flag key="MONSTER_RESPAWN_DEATHPOINT" name="RESPAWN_DEATHPOINT" bit="3">Re-spawn where monster died, rather than at original spawn location</flag>
+<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="1">Spawn as mini-boss (slightly more powerful)</flag>
+<flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="2">Spawn when triggered</flag>
+<flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="4">Don't re-spawn</flag>
+<flag key="MONSTERFLAG_FLY_VERTICAL" name="FLY_VERTICAL" bit="8">Allow flying monsters to fly up/down</flag>
 </point>
 
 <group name="nexball_redgoal" color="1 0 0">
