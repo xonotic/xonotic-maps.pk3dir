@@ -1932,6 +1932,9 @@ Animus. Undead doll which pounces at the enemy
 <flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="2">Don't re-spawn</flag>
 <flag key="MONSTERFLAG_FLY_VERTICAL" name="FLY_VERTICAL" bit="3">Allow flying/swimming monsters to move up/down</flag>
 <flag key="MONSTERFLAG_INFRONT" name="INFRONT" bit="4">Only attack targets infront of the monster</flag>
+<flag key="MONSTERSKILL_NOTEASY" name="NOTEASY" bit="8">Don't spawn this monster when skill is 1</flag>
+<flag key="MONSTERSKILL_NOTMEDIUM" name="NOTMEDIUM" bit="9">Don't spawn this monster when skill is 2</flag>
+<flag key="MONSTERSKILL_NOTHARD" name="NOTHARD" bit="10">Don't spawn this monster when skill is 3</flag>
 </point>
 
 <point name="monster_cerberus" color="1 0 0" box="-16 -16 -24 16 16 12">
@@ -1951,6 +1954,9 @@ Cerberus. Man's best enemy
 <flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="2">Don't re-spawn</flag>
 <flag key="MONSTERFLAG_FLY_VERTICAL" name="FLY_VERTICAL" bit="3">Allow flying/swimming monsters to move up/down</flag>
 <flag key="MONSTERFLAG_INFRONT" name="INFRONT" bit="4">Only attack targets infront of the monster</flag>
+<flag key="MONSTERSKILL_NOTEASY" name="NOTEASY" bit="8">Don't spawn this monster when skill is 1</flag>
+<flag key="MONSTERSKILL_NOTMEDIUM" name="NOTMEDIUM" bit="9">Don't spawn this monster when skill is 2</flag>
+<flag key="MONSTERSKILL_NOTHARD" name="NOTHARD" bit="10">Don't spawn this monster when skill is 3</flag>
 </point>
 
 <point name="monster_stingray" color="1 0 0" box="-20 -20 -31 20 20 20">
@@ -1970,6 +1976,9 @@ Stingray. A swimming beast with poison stings
 <flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="2">Don't re-spawn</flag>
 <flag key="MONSTERFLAG_FLY_VERTICAL" name="FLY_VERTICAL" bit="3">Allow flying/swimming monsters to move up/down</flag>
 <flag key="MONSTERFLAG_INFRONT" name="INFRONT" bit="4">Only attack targets infront of the monster</flag>
+<flag key="MONSTERSKILL_NOTEASY" name="NOTEASY" bit="8">Don't spawn this monster when skill is 1</flag>
+<flag key="MONSTERSKILL_NOTMEDIUM" name="NOTMEDIUM" bit="9">Don't spawn this monster when skill is 2</flag>
+<flag key="MONSTERSKILL_NOTHARD" name="NOTHARD" bit="10">Don't spawn this monster when skill is 3</flag>
 </point>
 
 <point name="monster_knight" color="1 0 0" box="-20 -20 -32 20 20 41">
@@ -1989,6 +1998,9 @@ Knight. A cursed warrior from the depths of hell
 <flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="2">Don't re-spawn</flag>
 <flag key="MONSTERFLAG_FLY_VERTICAL" name="FLY_VERTICAL" bit="3">Allow flying/swimming monsters to move up/down</flag>
 <flag key="MONSTERFLAG_INFRONT" name="INFRONT" bit="4">Only attack targets infront of the monster</flag>
+<flag key="MONSTERSKILL_NOTEASY" name="NOTEASY" bit="8">Don't spawn this monster when skill is 1</flag>
+<flag key="MONSTERSKILL_NOTMEDIUM" name="NOTMEDIUM" bit="9">Don't spawn this monster when skill is 2</flag>
+<flag key="MONSTERSKILL_NOTHARD" name="NOTHARD" bit="10">Don't spawn this monster when skill is 3</flag>
 </point>
 
 <point name="monster_bruiser" color="1 0 0" box="-20 -20 -31 20 20 53">
@@ -2008,6 +2020,9 @@ Bruiser. A cursed medieval warrior
 <flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="2">Don't re-spawn</flag>
 <flag key="MONSTERFLAG_FLY_VERTICAL" name="FLY_VERTICAL" bit="3">Allow flying/swimming monsters to move up/down</flag>
 <flag key="MONSTERFLAG_INFRONT" name="INFRONT" bit="4">Only attack targets infront of the monster</flag>
+<flag key="MONSTERSKILL_NOTEASY" name="NOTEASY" bit="8">Don't spawn this monster when skill is 1</flag>
+<flag key="MONSTERSKILL_NOTMEDIUM" name="NOTMEDIUM" bit="9">Don't spawn this monster when skill is 2</flag>
+<flag key="MONSTERSKILL_NOTHARD" name="NOTHARD" bit="10">Don't spawn this monster when skill is 3</flag>
 </point>
 
 <point name="monster_brute" color="1 0 0" box="-36 -36 -20 36 36 50">
@@ -2027,6 +2042,9 @@ Brute. Chops down creatures like trees
 <flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="2">Don't re-spawn</flag>
 <flag key="MONSTERFLAG_FLY_VERTICAL" name="FLY_VERTICAL" bit="3">Allow flying/swimming monsters to move up/down</flag>
 <flag key="MONSTERFLAG_INFRONT" name="INFRONT" bit="4">Only attack targets infront of the monster</flag>
+<flag key="MONSTERSKILL_NOTEASY" name="NOTEASY" bit="8">Don't spawn this monster when skill is 1</flag>
+<flag key="MONSTERSKILL_NOTMEDIUM" name="NOTMEDIUM" bit="9">Don't spawn this monster when skill is 2</flag>
+<flag key="MONSTERSKILL_NOTHARD" name="NOTHARD" bit="10">Don't spawn this monster when skill is 3</flag>
 </point>
 
 <point name="monster_mage" color="1 0 0" box="-36 -36 -24 36 36 50">
@@ -2046,6 +2064,9 @@ Mage. Master of dark magic
 <flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="2">Don't re-spawn</flag>
 <flag key="MONSTERFLAG_FLY_VERTICAL" name="FLY_VERTICAL" bit="3">Allow flying/swimming monsters to move up/down</flag>
 <flag key="MONSTERFLAG_INFRONT" name="INFRONT" bit="4">Only attack targets infront of the monster</flag>
+<flag key="MONSTERSKILL_NOTEASY" name="NOTEASY" bit="8">Don't spawn this monster when skill is 1</flag>
+<flag key="MONSTERSKILL_NOTMEDIUM" name="NOTMEDIUM" bit="9">Don't spawn this monster when skill is 2</flag>
+<flag key="MONSTERSKILL_NOTHARD" name="NOTHARD" bit="10">Don't spawn this monster when skill is 3</flag>
 </point>
 
 <point name="monster_shambler" color="1 0 0" box="-41 -41 -31 41 41 65">
@@ -2065,6 +2086,9 @@ Shambler. Summons lightning bolts with its large meat cleaving claws
 <flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="2">Don't re-spawn</flag>
 <flag key="MONSTERFLAG_FLY_VERTICAL" name="FLY_VERTICAL" bit="3">Allow flying/swimming monsters to move up/down</flag>
 <flag key="MONSTERFLAG_INFRONT" name="INFRONT" bit="4">Only attack targets infront of the monster</flag>
+<flag key="MONSTERSKILL_NOTEASY" name="NOTEASY" bit="8">Don't spawn this monster when skill is 1</flag>
+<flag key="MONSTERSKILL_NOTMEDIUM" name="NOTMEDIUM" bit="9">Don't spawn this monster when skill is 2</flag>
+<flag key="MONSTERSKILL_NOTHARD" name="NOTHARD" bit="10">Don't spawn this monster when skill is 3</flag>
 </point>
 
 <point name="monster_spider" color="1 0 0" box="-18 -18 -25 18 18 30">
@@ -2085,6 +2109,9 @@ Spider. Freezing ice or burning fire web, both lead to an 8-legged grave
 <flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="2">Don't re-spawn</flag>
 <flag key="MONSTERFLAG_FLY_VERTICAL" name="FLY_VERTICAL" bit="3">Allow flying/swimming monsters to move up/down</flag>
 <flag key="MONSTERFLAG_INFRONT" name="INFRONT" bit="4">Only attack targets infront of the monster</flag>
+<flag key="MONSTERSKILL_NOTEASY" name="NOTEASY" bit="8">Don't spawn this monster when skill is 1</flag>
+<flag key="MONSTERSKILL_NOTMEDIUM" name="NOTMEDIUM" bit="9">Don't spawn this monster when skill is 2</flag>
+<flag key="MONSTERSKILL_NOTHARD" name="NOTHARD" bit="10">Don't spawn this monster when skill is 3</flag>
 </point>
 
 <point name="monster_slime" color="1 0 0" box="-20 -20 -31 20 20 20">
@@ -2104,6 +2131,9 @@ Slime. A slimy explosives experiment come to life
 <flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="2">Don't re-spawn</flag>
 <flag key="MONSTERFLAG_FLY_VERTICAL" name="FLY_VERTICAL" bit="3">Allow flying/swimming monsters to move up/down</flag>
 <flag key="MONSTERFLAG_INFRONT" name="INFRONT" bit="4">Only attack targets infront of the monster</flag>
+<flag key="MONSTERSKILL_NOTEASY" name="NOTEASY" bit="8">Don't spawn this monster when skill is 1</flag>
+<flag key="MONSTERSKILL_NOTMEDIUM" name="NOTMEDIUM" bit="9">Don't spawn this monster when skill is 2</flag>
+<flag key="MONSTERSKILL_NOTHARD" name="NOTHARD" bit="10">Don't spawn this monster when skill is 3</flag>
 </point>
 
 <point name="monster_wyvern" color="1 0 0" box="-20 -20 -58 20 20 20">
@@ -2123,6 +2153,9 @@ Wyvern. Flies around shooting fireballs
 <flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="2">Don't re-spawn</flag>
 <flag key="MONSTERFLAG_FLY_VERTICAL" name="FLY_VERTICAL" bit="3">Allow flying/swimming monsters to move up/down</flag>
 <flag key="MONSTERFLAG_INFRONT" name="INFRONT" bit="4">Only attack targets infront of the monster</flag>
+<flag key="MONSTERSKILL_NOTEASY" name="NOTEASY" bit="8">Don't spawn this monster when skill is 1</flag>
+<flag key="MONSTERSKILL_NOTMEDIUM" name="NOTMEDIUM" bit="9">Don't spawn this monster when skill is 2</flag>
+<flag key="MONSTERSKILL_NOTHARD" name="NOTHARD" bit="10">Don't spawn this monster when skill is 3</flag>
 </point>
 
 <point name="monster_zombie" color="1 0 0" box="-18 -18 -25 18 18 47">
@@ -2142,6 +2175,9 @@ Braaaiins!
 <flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="2">Don't re-spawn</flag>
 <flag key="MONSTERFLAG_FLY_VERTICAL" name="FLY_VERTICAL" bit="3">Allow flying/swimming monsters to move up/down</flag>
 <flag key="MONSTERFLAG_INFRONT" name="INFRONT" bit="4">Only attack targets infront of the monster</flag>
+<flag key="MONSTERSKILL_NOTEASY" name="NOTEASY" bit="8">Don't spawn this monster when skill is 1</flag>
+<flag key="MONSTERSKILL_NOTMEDIUM" name="NOTMEDIUM" bit="9">Don't spawn this monster when skill is 2</flag>
+<flag key="MONSTERSKILL_NOTHARD" name="NOTHARD" bit="10">Don't spawn this monster when skill is 3</flag>
 </point>
 
 <group name="nexball_redgoal" color="1 0 0">
