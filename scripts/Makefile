@@ -7,7 +7,8 @@ all: shaderlist.txt $(GENERATEDFILES)
 	./shader-cpp.sh "$<" > "$@"
 
 clean:
-	$(RM) "$(GENERATEDFILES)"
+	$(RM) $(GENERATEDFILES)
 
+.PHONY: shaderlist.txt
 shaderlist.txt:
 	ls -1 *.shader | cut -d . -f 1 > "$@"

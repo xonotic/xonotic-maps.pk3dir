@@ -1,12 +1,14 @@
-title Docking Station G-23
-description You and your expert team of soldiers have docked Docking Station G-23 for retrieving a package and letting no one stand in your way.
-author Moo
+title G-23
+description A small DM map with tight corridors
+author MooKow
+cdtrack 2
 has weapons
 gametype dm
 gametype lms
 gametype ca
 gametype arena
-gametype rune
+gametype kh
+gametype tdm
 gametype ft
 gametype ka
-cdtrack 2
+
