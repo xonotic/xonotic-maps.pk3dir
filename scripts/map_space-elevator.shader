@@ -1,6 +1,6 @@
 textures/map_space-elevator/hangwires
 {
-	surfaceparm nolightmap
+	surfaceparm alphashadow
 	surfaceparm nomarks
 	surfaceparm trans
 	cull disable
