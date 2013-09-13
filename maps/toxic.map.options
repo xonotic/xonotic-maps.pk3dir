@@ -1,5 +1,5 @@
 -bsp + -samplesize 4
--light + -bounce 3 -lightmapsize 2048
+-light + -bounce 3 -lightmapsize 2048 -lomem
 -vis +
 -minimap +
 -nosRGB
