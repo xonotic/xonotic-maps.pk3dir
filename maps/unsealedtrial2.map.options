@@ -2,4 +2,4 @@
 -light + -dirtscale 2 -lomem -dirtdepth 256 -lightmapsize 2048 -lightmapsearchpower 3 -deluxe -patchshadows -randomsamples -samples 4  -fast -fastbounce -dirty -bouncegrid -fill
 -vis +
 -minimap + -size 0  -o /dev/null
-Version: 6
+Version: 7
