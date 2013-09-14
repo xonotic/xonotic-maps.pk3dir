@@ -1,6 +1,6 @@
 -bsp +
 -vis +
--nolight
+-light +
 -minimap +
 -nosRGB
 Version: 2
