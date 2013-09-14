@@ -1,8 +1,8 @@
 // shaders for the Project::OSiRiON skybox collection
 
-textures/osirion/sky01
+textures/skies/sky01
 {
-      qer_editorimage env/osirion/sky01_small.png
+      qer_editorimage textures/skies/sky01_small.png
       surfaceparm noimpact
       surfaceparm nolightmap
       surfaceparm sky
@@ -10,9 +10,9 @@ textures/osirion/sky01
       skyparms env/osirion/sky01 - -
 }
 
-textures/osirion/sky02
+textures/skies/sky02
 {
-      qer_editorimage env/osirion/sky02_small
+      qer_editorimage textures/skies/sky02_small
       surfaceparm noimpact
       surfaceparm nolightmap
       surfaceparm sky
@@ -20,9 +20,9 @@ textures/osirion/sky02
       skyparms env/osirion/sky02 - -
 }
 
-textures/osirion/sky03
+textures/skies/sky03
 {
-      qer_editorimage env/osirion/sky03_small
+      qer_editorimage textures/skies/sky03_small
       surfaceparm noimpact
       surfaceparm nolightmap
       surfaceparm sky
@@ -30,9 +30,9 @@ textures/osirion/sky03
       skyparms env/osirion/sky03 - -
 }
 
-textures/osirion/sky04
+textures/skies/sky04
 {
-      qer_editorimage env/osirion/sky04_small
+      qer_editorimage textures/skies/sky04_small
       surfaceparm noimpact
       surfaceparm nolightmap
       surfaceparm sky
@@ -40,9 +40,9 @@ textures/osirion/sky04
       skyparms env/osirion/sky04 - -
 }
 
-textures/osirion/sky05
+textures/skies/sky05
 {
-      qer_editorimage env/osirion/sky05_small
+      qer_editorimage textures/skies/sky05_small
       surfaceparm noimpact
       surfaceparm nolightmap
       surfaceparm sky
@@ -50,9 +50,9 @@ textures/osirion/sky05
       skyparms env/osirion/sky05 - -
 }
 
-textures/osirion/sky06
+textures/skies/sky06
 {
-      qer_editorimage env/osirion/sky06_small
+      qer_editorimage textures/skies/sky06_small
       surfaceparm noimpact
       surfaceparm nolightmap
       surfaceparm sky
@@ -60,9 +60,9 @@ textures/osirion/sky06
       skyparms env/osirion/sky06 - -
 }
 
-textures/osirion/sky07
+textures/skies/sky07
 {
-      qer_editorimage env/osirion/sky07_small
+      qer_editorimage textures/skies/sky07_small
       surfaceparm noimpact
       surfaceparm nolightmap
       surfaceparm sky
@@ -70,9 +70,9 @@ textures/osirion/sky07
       skyparms env/osirion/sky07 - -
 }
 
-textures/osirion/sky08
+textures/skies/sky08
 {
-      qer_editorimage env/osirion/sky08_small
+      qer_editorimage textures/skies/sky08_small
       surfaceparm noimpact
       surfaceparm nolightmap
       surfaceparm sky
@@ -80,9 +80,9 @@ textures/osirion/sky08
       skyparms env/osirion/sky08 - -
 }
 
-textures/osirion/sky09
+textures/skies/sky09
 {
-      qer_editorimage env/osirion/sky09_small
+      qer_editorimage textures/skies/sky09_small
       surfaceparm noimpact
       surfaceparm nolightmap
       surfaceparm sky
@@ -90,9 +90,9 @@ textures/osirion/sky09
       skyparms env/osirion/sky09 - -
 }
 
-textures/osirion/sky10
+textures/skies/sky10
 {
-      qer_editorimage env/osirion/sky10_small
+      qer_editorimage textures/skies/sky10_small
       surfaceparm noimpact
       surfaceparm nolightmap
       surfaceparm sky
@@ -100,9 +100,9 @@ textures/osirion/sky10
       skyparms env/osirion/sky10 - -
 }
 
-textures/osirion/sky11
+textures/skies/sky11
 {
-      qer_editorimage env/osirion/sky11_small
+      qer_editorimage textures/skies/sky11_small
       surfaceparm noimpact
       surfaceparm nolightmap
       surfaceparm sky
@@ -110,9 +110,9 @@ textures/osirion/sky11
       skyparms env/osirion/sky11 - -
 }
 
-textures/osirion/sky12
+textures/skies/sky12
 {
-      qer_editorimage env/osirion/sky12_small
+      qer_editorimage textures/skies/sky12_small
       surfaceparm noimpact
       surfaceparm nolightmap
       surfaceparm sky
@@ -120,9 +120,9 @@ textures/osirion/sky12
       skyparms env/osirion/sky12 - -
 }
 
-textures/osirion/sky13
+textures/skies/sky13
 {
-      qer_editorimage env/osirion/sky13_small
+      qer_editorimage textures/skies/sky13_small
       surfaceparm noimpact
       surfaceparm nolightmap
       surfaceparm sky
@@ -130,9 +130,9 @@ textures/osirion/sky13
       skyparms env/osirion/sky13 - -
 }
 
-textures/osirion/sky14
+textures/skies/sky14
 {
-      qer_editorimage env/osirion/sky14_small
+      qer_editorimage textures/skies/sky14_small
       surfaceparm noimpact
       surfaceparm nolightmap
       surfaceparm sky
@@ -140,9 +140,9 @@ textures/osirion/sky14
       skyparms env/osirion/sky14 - -
 }
 
-textures/osirion/sky15
+textures/skies/sky15
 {
-      qer_editorimage env/osirion/sky15_small
+      qer_editorimage textures/skies/sky15_small
       surfaceparm noimpact
       surfaceparm nolightmap
       surfaceparm sky
@@ -150,9 +150,9 @@ textures/osirion/sky15
       skyparms env/osirion/sky15 - -
 }
 
-textures/osirion/sky16
+textures/skies/sky16
 {
-      qer_editorimage env/osirion/sky16_small
+      qer_editorimage textures/skies/sky16_small
       surfaceparm noimpact
       surfaceparm nolightmap
       surfaceparm sky
@@ -160,9 +160,9 @@ textures/osirion/sky16
       skyparms env/osirion/sky16 - -
 }
 
-textures/osirion/sky17
+textures/skies/sky17
 {
-      qer_editorimage env/osirion/sky17_small
+      qer_editorimage textures/skies/sky17_small
       surfaceparm noimpact
       surfaceparm nolightmap
       surfaceparm sky
@@ -170,9 +170,9 @@ textures/osirion/sky17
       skyparms env/osirion/sky17 - -
 }
 
-textures/osirion/sky18
+textures/skies/sky18
 {
-      qer_editorimage env/osirion/sky18_small
+      qer_editorimage textures/skies/sky18_small
       surfaceparm noimpact
       surfaceparm nolightmap
       surfaceparm sky
@@ -180,9 +180,9 @@ textures/osirion/sky18
       skyparms env/osirion/sky18 - -
 }
 
-textures/osirion/sky19
+textures/skies/sky19
 {
-      qer_editorimage env/osirion/sky19_small
+      qer_editorimage textures/skies/sky19_small
       surfaceparm noimpact
       surfaceparm nolightmap
       surfaceparm sky
@@ -190,9 +190,9 @@ textures/osirion/sky19
       skyparms env/osirion/sky19 - -
 }
 
-textures/osirion/sky20
+textures/skies/sky20
 {
-      qer_editorimage env/osirion/sky20_small
+      qer_editorimage textures/skies/sky20_small
       surfaceparm noimpact
       surfaceparm nolightmap
       surfaceparm sky
