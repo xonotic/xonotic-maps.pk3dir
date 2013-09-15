@@ -6,6 +6,8 @@ textures/logos/logo01_blue
 	surfaceparm nonsolid
 	surfaceparm nodlight
 	surfaceparm nolightmap
+	surfaceparm nomarks
+	nopicmip
 
 	polygonOffset
 	sort 6
@@ -27,6 +29,8 @@ textures/logos/logo01_blue_glowy
 	surfaceparm nonsolid
 	surfaceparm nodlight
 	surfaceparm nolightmap
+	surfaceparm nomarks
+	nopicmip
 
 	polygonOffset
 	sort 6
@@ -48,6 +52,8 @@ textures/logos/logo01_red
 	surfaceparm nonsolid
 	surfaceparm nodlight
 	surfaceparm nolightmap
+	surfaceparm nomarks
+	nopicmip
 
 	polygonOffset
 	sort 6
@@ -69,6 +75,8 @@ textures/logos/logo01_red_glowy
 	surfaceparm nonsolid
 	surfaceparm nodlight
 	surfaceparm nolightmap
+	surfaceparm nomarks
+	nopicmip
 
 	polygonOffset
 	sort 6
@@ -90,6 +98,8 @@ textures/logos/logo01_green
 	surfaceparm nonsolid
 	surfaceparm nodlight
 	surfaceparm nolightmap
+	surfaceparm nomarks
+	nopicmip
 
 	polygonOffset
 	sort 6
@@ -111,6 +121,8 @@ textures/logos/logo01_green_glowy
 	surfaceparm nonsolid
 	surfaceparm nodlight
 	surfaceparm nolightmap
+	surfaceparm nomarks
+	nopicmip
 
 	polygonOffset
 	sort 6
@@ -132,6 +144,8 @@ textures/logos/logo01_yellow
 	surfaceparm nonsolid
 	surfaceparm nodlight
 	surfaceparm nolightmap
+	surfaceparm nomarks
+	nopicmip
 
 	polygonOffset
 	sort 6
@@ -153,6 +167,8 @@ textures/logos/logo01_yellow_glowy
 	surfaceparm nonsolid
 	surfaceparm nodlight
 	surfaceparm nolightmap
+	surfaceparm nomarks
+	nopicmip
 
 	polygonOffset
 	sort 6
@@ -174,6 +190,8 @@ textures/logos/logo02_red
 	surfaceparm nonsolid
 	surfaceparm nodlight
 	surfaceparm nolightmap
+	surfaceparm nomarks
+	nopicmip
 
 	polygonOffset
 	sort 6
@@ -195,6 +213,8 @@ textures/logos/logo02_red_glowy
 	surfaceparm nonsolid
 	surfaceparm nodlight
 	surfaceparm nolightmap
+	surfaceparm nomarks
+	nopicmip
 
 	polygonOffset
 	sort 6
@@ -216,6 +236,8 @@ textures/logos/logo02_blue
 	surfaceparm nonsolid
 	surfaceparm nodlight
 	surfaceparm nolightmap
+	surfaceparm nomarks
+	nopicmip
 
 	polygonOffset
 	sort 6
@@ -237,6 +259,8 @@ textures/logos/logo02_blue_glowy
 	surfaceparm nonsolid
 	surfaceparm nodlight
 	surfaceparm nolightmap
+	surfaceparm nomarks
+	nopicmip
 
 	polygonOffset
 	sort 6
@@ -258,6 +282,8 @@ textures/logos/logo02_green
 	surfaceparm nonsolid
 	surfaceparm nodlight
 	surfaceparm nolightmap
+	surfaceparm nomarks
+	nopicmip
 
 	polygonOffset
 	sort 6
@@ -279,6 +305,8 @@ textures/logos/logo02_green_glowy
 	surfaceparm nonsolid
 	surfaceparm nodlight
 	surfaceparm nolightmap
+	surfaceparm nomarks
+	nopicmip
 
 	polygonOffset
 	sort 6
@@ -300,6 +328,8 @@ textures/logos/logo02_yellow
 	surfaceparm nonsolid
 	surfaceparm nodlight
 	surfaceparm nolightmap
+	surfaceparm nomarks
+	nopicmip
 
 	polygonOffset
 	sort 6
@@ -321,6 +351,8 @@ textures/logos/logo02_yellow_glowy
 	surfaceparm nonsolid
 	surfaceparm nodlight
 	surfaceparm nolightmap
+	surfaceparm nomarks
+	nopicmip
 
 	polygonOffset
 	sort 6
