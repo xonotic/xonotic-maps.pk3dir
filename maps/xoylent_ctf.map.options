@@ -1,6 +1,5 @@
 -bsp + -samplesize 4 -minsamplesize 2
--light +  -bounce 8 -lightmapsize 2048 -dirtscale 3
+-light +  -bounce 8 -lightmapsize 2048 -dirtscale 4
 -vis +
 -minimap +
--nosRGB
-Version: 9
+Version: 10
