@@ -30096,7 +30096,7 @@
 }
 {
 ( -6784 -513 288 ) ( -6784 -257 288 ) ( -6112 -513 288 ) narmorx/base-concrete05_blue 768 768 180 0.25 0.25 134217728 0 0
-( -6112 -257 256 ) ( -6784 -257 256 ) ( -6112 -513 256 ) narmorx/base-concrete05_blue 128 256 180 0.25 0.25 134217728 0 0
+( -6112 -257 256 ) ( -6784 -257 256 ) ( -6112 -513 256 ) map_unsealed/base_stone_metal 128 256 180 0.25 0.25 134217728 0 0
 ( -6496 -321 128 ) ( -6784 -321 0 ) ( -6496 -321 0 ) narmorx/base-concrete05_blue 0 0 0 -0.25 0.25 134217728 0 0
 ( -6496 -353 0 ) ( -6562 -353 0 ) ( -6496 -353 128 ) narmorx/base-concrete05_blue 0 0 0 -0.25 0.25 134217728 0 0
 ( -6496 -289 0 ) ( -6496 -481 0 ) ( -6496 -289 128 ) narmorx/base-concrete05_blue 0 0 0 -0.25 0.25 134217728 0 0
@@ -30104,7 +30104,7 @@
 }
 {
 ( -6752 -609 288 ) ( -6752 -353 288 ) ( -6080 -609 288 ) narmorx/base-concrete05_blue 768 768 180 0.25 0.25 134217728 0 0
-( -6080 -353 256 ) ( -6752 -353 256 ) ( -6080 -609 256 ) narmorx/base-concrete05_blue 128 256 180 0.25 0.25 134217728 0 0
+( -6080 -353 256 ) ( -6752 -353 256 ) ( -6080 -609 256 ) map_unsealed/base_stone_metal 128 256 180 0.25 0.25 134217728 0 0
 ( -6464 -417 128 ) ( -6752 -417 0 ) ( -6464 -417 0 ) narmorx/base-concrete05_blue 0 0 0 -0.25 0.25 134217728 0 0
 ( -6464 -449 0 ) ( -6530 -449 0 ) ( -6464 -449 128 ) narmorx/base-concrete05_blue 0 0 0 -0.25 0.25 134217728 0 0
 ( -6496 -289 0 ) ( -6496 -481 0 ) ( -6496 -289 128 ) narmorx/base-concrete05_blue 0 0 0 -0.25 0.25 134217728 0 0
@@ -39872,7 +39872,7 @@ map_glowplant/biolumi2_blue
 }
 {
 "classname" "misc_model"
-"origin" "3232.000000 3720.000000 72.000000"
+"origin" "3232.000000 3720.000000 144.000000"
 "model" "models/unsealed/tree.md3"
 "modelscale" "2.000000"
 "_castshadows" "1"
@@ -39912,7 +39912,7 @@ map_glowplant/biolumi2_blue
 }
 {
 "classname" "misc_model"
-"origin" "-2528.000000 3656.000000 72.000000"
+"origin" "-2528.000000 3656.000000 244.000000"
 "model" "models/unsealed/tree.md3"
 "modelscale" "2.100000"
 "_castshadows" "1"
@@ -39928,7 +39928,7 @@ map_glowplant/biolumi2_blue
 }
 {
 "classname" "misc_model"
-"origin" "2208.000000 5960.000000 72.000000"
+"origin" "2208.000000 5960.000000 112.000000"
 "model" "models/unsealed/tree.md3"
 "modelscale" "1.400000"
 "_castshadows" "1"
@@ -40283,7 +40283,7 @@ map_glowplant/biolumi2_blue
 }
 {
 "classname" "misc_model"
-"origin" "-3839.997070 1112.000732 135.999863"
+"origin" "-3839.997070 1112.000732 199.999863"
 "model" "models/unsealed/tree.md3"
 "modelscale" "2.300000"
 "_castshadows" "1"
