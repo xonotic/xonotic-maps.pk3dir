@@ -206,7 +206,6 @@ models/glowyplants/glowyleaves01
 	{
 		map models/glowyplants/trees/glowyleaves01.tga
 		blendFunc blend
-		rgbGen vertex
 }
 }
 
@@ -227,7 +226,6 @@ models/glowyplants/glowyleaves02
 	{
 		map models/glowyplants/trees/glowyleaves02.tga
 		blendFunc blend
-		rgbGen vertex
 }
 }
 
@@ -248,7 +246,6 @@ models/glowyplants/glowyleaves03
 	{
 		map models/glowyplants/trees/glowyleaves03.tga
 		blendFunc blend
-		rgbGen vertex
 }
 }
 
@@ -270,6 +267,5 @@ models/glowyplants/glowyleaves04
 	{
 		map models/glowyplants/trees/glowyleaves04.tga
 		blendFunc blend
-		rgbGen vertex
 }
 }
