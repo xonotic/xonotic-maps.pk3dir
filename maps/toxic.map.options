@@ -1,6 +1,5 @@
 -bsp + -samplesize 4
--light + -bounce 3 -lightmapsize 2048 -lomem
+-light + -bounce 3
 -vis +
 -minimap +
--nosRGB
 Version: 7
