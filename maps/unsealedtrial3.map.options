@@ -1,5 +1,5 @@
--bsp + -maxarea -samplesize 8 -mv 1000000 -mi 6000000 
--light + -dirtscale 2 -lomem -dirtdepth 256 -lightmapsize 2048 -lightmapsearchpower 3 -deluxe -patchshadows -randomsamples -samples 4  -fast -fastbounce -dirty -bouncegrid -fill
+-bsp +
+-light + -dirtscale 2 -dirtdepth 256
 -vis +
 -nominimap
 Version: 7
