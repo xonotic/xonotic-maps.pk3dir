@@ -1,5 +1,5 @@
 -bsp + -metaadequatescore 99999 -metamaxbboxdistance 16 -np 0.1
--light +
+-light + -bounce 8
 -vis + -fast
 -minimap +
 -nosRGB
