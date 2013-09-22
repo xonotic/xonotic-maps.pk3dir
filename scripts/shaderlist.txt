@@ -22,6 +22,7 @@ map_atelier
 map_boil
 map_catharsis
 map_courtfun
+map_dance
 map_darkzone
 map_erbium
 map_geoplanetary
