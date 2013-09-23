@@ -416,7 +416,7 @@ textures/exx/floor-grate01
 	dpoffsetmapping - 2 match8 126
 	dpglossintensitymod  3
 	dpglossexponentmod  4
-
+	nopicmip
 
 	{
 		map textures/exx/floor/floor_grate01.tga
@@ -440,7 +440,7 @@ textures/exx/floor-grate01-cull
 	dpoffsetmapping - 2 match8 126
 	dpglossintensitymod  3
 	dpglossexponentmod  4
-
+	nopicmip
 
 	{
 		map textures/exx/floor/floor_grate01.tga
@@ -465,7 +465,7 @@ textures/exx/floor-grate02
 	dpoffsetmapping - 2 match8 224
 	dpglossintensitymod  3
 	dpglossexponentmod  4
-
+	nopicmip
 
 	{
 		map textures/exx/floor/floor_grate02.tga
@@ -489,7 +489,7 @@ textures/exx/floor-grate02-cull
 	dpoffsetmapping - 2 match8 224
 	dpglossintensitymod  3
 	dpglossexponentmod  4
-
+	nopicmip
 
 	{
 		map textures/exx/floor/floor_grate02.tga
@@ -514,7 +514,7 @@ textures/exx/floor-grate03
 	dpoffsetmapping - 2 match8 223
 	dpglossintensitymod  3
 	dpglossexponentmod  4
-
+	nopicmip
 
 	{
 		map textures/exx/floor/floor_grate03.tga
@@ -538,7 +538,7 @@ textures/exx/floor-grate03-cull
 	dpoffsetmapping - 2 match8 223
 	dpglossintensitymod  3
 	dpglossexponentmod  4
-
+	nopicmip
 
 	{
 		map textures/exx/floor/floor_grate03.tga
@@ -563,7 +563,7 @@ textures/exx/floor-grate04
 	dpoffsetmapping - 2 match8 248
 	dpglossintensitymod  3
 	dpglossexponentmod  4
-
+	nopicmip
 
 	{
 		map textures/exx/floor/floor_grate04.tga
@@ -588,7 +588,7 @@ textures/exx/floor-grate04-cull
 	dpoffsetmapping - 2 match8 248
 	dpglossintensitymod  3
 	dpglossexponentmod  4
-
+	nopicmip
 
 	{
 		map textures/exx/floor/floor_grate04.tga

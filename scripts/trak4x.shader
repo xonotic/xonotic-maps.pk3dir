@@ -856,7 +856,7 @@ textures/trak4x/trim-grate1
 	qer_editorimage textures/trak4x/trim/trim_grate1.tga
 	dpoffsetmapping - 1 match8 203
 	q3map_bounceScale 1.25
-
+	nopicmip
 
 	{
 		map textures/trak4x/trim/trim_grate1.tga
@@ -873,7 +873,7 @@ textures/trak4x/trim-grate2a
 	qer_editorimage textures/trak4x/trim/trim_grate2a.tga
 	dpoffsetmapping - 1 match8 89
 	q3map_bounceScale 1.25
-
+	nopicmip
 
 	{
 		map textures/trak4x/trim/trim_grate2a.tga

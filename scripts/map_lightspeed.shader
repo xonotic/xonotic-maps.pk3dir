@@ -84,7 +84,7 @@ textures/map_lightspeed/vines
 	polygonOffset
 	sort 6
 	cull none
-	
+	nopicmip
 	
 	
 	{

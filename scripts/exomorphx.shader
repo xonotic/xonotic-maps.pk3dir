@@ -332,6 +332,7 @@ textures/exomorphx/grate-metal_grate02
 	surfaceparm trans
 	surfaceparm alphashadow
 	q3map_bouncescale 1.75
+	nopicmip
 
 	{
 		map textures/exomorphx/grate/metal_grate02
@@ -358,6 +359,7 @@ textures/exomorphx/grate-metal_grate04
 	surfaceparm trans
 	surfaceparm alphashadow
 	q3map_bouncescale 1.75
+	nopicmip
 
 	{
 		map textures/exomorphx/grate/metal_grate04
@@ -384,6 +386,7 @@ textures/exomorphx/grate-metal_grate03
 	surfaceparm trans
 	surfaceparm alphashadow
 	q3map_bouncescale 1.75
+	nopicmip
 
 	{
 		map textures/exomorphx/grate/metal_grate03
@@ -410,6 +413,7 @@ textures/exomorphx/grate-metal_grate06
 	surfaceparm trans
 	surfaceparm alphashadow
 	q3map_bouncescale 1.75
+	nopicmip
 
 	{
 		map textures/exomorphx/grate/metal_grate06
@@ -436,6 +440,7 @@ textures/exomorphx/grate-metal_grate01
 	surfaceparm trans
 	surfaceparm alphashadow
 	q3map_bouncescale 1.75
+	nopicmip
 
 	{
 		map textures/exomorphx/grate/metal_grate01
@@ -462,6 +467,7 @@ textures/exomorphx/grate-metal_grate05
 	surfaceparm trans
 	surfaceparm alphashadow
 	q3map_bouncescale 1.75
+	nopicmip
 
 	{
 		map textures/exomorphx/grate/metal_grate05
