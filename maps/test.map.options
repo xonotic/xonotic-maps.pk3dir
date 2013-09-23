@@ -1,5 +1,6 @@
 -bsp +
--light + -bounce 8
+-light +
 -vis +
 -minimap +
+-sRGB
 Version: 0
