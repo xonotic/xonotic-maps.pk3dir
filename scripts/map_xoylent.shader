@@ -10,7 +10,7 @@ textures/map_xoylent/sky
 	skyparms env/extragalactic/asteroids - - //farbox cloudheight nearbox
 	q3map_lightmapFilterRadius 0 8 //self other
 q3map_sunExt 1 0.6875 0.375 380.464142 25 47 0 16
-q3map_skylight 9.32523632 3
+q3map_skylight 0.32523632 3
 }
 
 textures/map_xoylent/light-panel01-surfacelight
