@@ -1,0 +1,6 @@
+-bsp + -maxarea -samplesize 8 
+-light + -lightmapsearchpower 3 -deluxe -patchshadows -randomsamples -samples 4 -lightmapsize 512 -fast -fastbounce -dirty -bouncegrid -fill -dirtscale 2 
+-vis +
+-minimap +
+-sRGB
+Version: 7

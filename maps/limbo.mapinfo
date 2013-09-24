@@ -1,0 +1,35 @@
+title Limbo
+description The Limbo. Feel free to roam around!
+author C.Brutail
+cdtrack 4
+
+// uncomment this if you added weapon pickups: has weapons
+
+has vehicles
+gametype dm timelimit=0 pointlimit=0 fraglimit=0 leadlimit=0
+
+// optional: fog density red green blue alpha mindist maxdist
+//fog 0.1 0.45 0.45 0.45 0.97 500 13000
+
+clientsettemp_for_type all r_water 1
+
+settemp_for_type dm bot_nofire 1
+settemp_for_type dm bot_wander_enable 0
+settemp_for_type dm bot_number 7
+settemp_for_type dm g_start_weapon_shotgun 1
+settemp_for_type dm g_start_weapon_laser 1
+settemp_for_type dm g_start_weapon_uzi 1
+settemp_for_type dm g_start_weapon_grenadelauncher 1
+settemp_for_type dm g_start_weapon_electro 1
+settemp_for_type dm g_start_weapon_crylink 1
+settemp_for_type dm g_start_weapon_nex 1
+settemp_for_type dm g_start_weapon_hagar 1
+settemp_for_type dm g_start_weapon_rocketlauncher 1
+settemp_for_type dm g_start_ammo_cells 999
+settemp_for_type dm g_start_ammo_fuel 999
+settemp_for_type dm g_start_ammo_rockets 999
+settemp_for_type dm g_start_ammo_nails 999
+settemp_for_type dm g_start_ammo_shells 999
+settemp_for_type dm g_start_ammo_shells 999
+
+hidden
