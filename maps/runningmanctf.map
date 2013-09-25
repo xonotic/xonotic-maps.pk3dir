@@ -29291,6 +29291,126 @@ exx/base-metal03
 ( -1344 2256 64 ) ( -1344 2224 -64 ) ( -1344 2256 -64 ) common/caulk 0 0 0 0.25 0.25 0 0 0
 ( -1280 2256 160 ) ( -1280 2256 128 ) ( -1280 2240 160 ) exx/floor-wrn01-red 0 0 0 0.25 0.25 0 0 0
 }
+{
+( -464 888 -212 ) ( -464 856 -212 ) ( -496 888 -212 ) common/clip 32 32 0 0.25 0.25 0 0 0
+( -464 888 -252 ) ( -496 888 -252 ) ( -464 888 -260 ) common/clip 32 240 0 0.25 0.25 0 0 0
+( -464 888 -248 ) ( -464 888 -256 ) ( -464 856 -248 ) common/clip 224 0 0 0.25 0.25 0 0 0
+( -496 856 -256 ) ( -464 856 -256 ) ( -496 888 -256 ) common/clip 32 32 0 0.25 0.25 0 0 0
+( -496 856 -256 ) ( -496 856 -248 ) ( -464 856 -256 ) common/clip 32 0 0 0.25 0.25 0 0 0
+( -496 856 -256 ) ( -496 888 -256 ) ( -496 856 -248 ) common/clip 224 0 0 0.25 0.25 0 0 0
+( -496 876 -68 ) ( -492 888 -68 ) ( -496 876 60 ) common/clip 224 240 0 0.25 0.25 0 0 0
+( -496 880 -68 ) ( -488 888 -68 ) ( -496 880 60 ) common/clip 224 240 0 0.25 0.25 0 0 0
+( -496 884 -68 ) ( -484 888 -68 ) ( -496 884 60 ) common/clip 32 240 0 0.25 0.25 0 0 0
+( -476 888 -68 ) ( -464 884 -68 ) ( -476 888 60 ) common/clip 32 240 0 0.25 0.25 0 0 0
+( -472 888 -68 ) ( -464 880 -68 ) ( -472 888 60 ) common/clip 224 240 0 0.25 0.25 0 0 0
+( -468 888 -68 ) ( -464 876 -68 ) ( -468 888 60 ) common/clip 224 240 0 0.25 0.25 0 0 0
+( -464 868 -64 ) ( -468 856 -64 ) ( -464 868 64 ) common/clip 224 0 0 0.25 0.25 0 0 0
+( -464 864 -64 ) ( -472 856 -64 ) ( -464 864 64 ) common/clip 224 0 0 0.25 0.25 0 0 0
+( -464 860 -64 ) ( -476 856 -64 ) ( -464 860 64 ) common/clip 32 0 0 0.25 0.25 0 0 0
+( -484 856 -64 ) ( -496 860 -64 ) ( -484 856 64 ) common/clip 32 0 0 0.25 0.25 0 0 0
+( -488 856 -64 ) ( -496 864 -64 ) ( -488 856 64 ) common/clip 224 0 0 0.25 0.25 0 0 0
+( -492 856 -64 ) ( -496 868 -64 ) ( -492 856 64 ) common/clip 224 0 0 0.25 0.25 0 0 0
+}
+{
+( -776 1200 -212 ) ( -776 1168 -212 ) ( -808 1200 -212 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( -776 1200 -248 ) ( -808 1200 -248 ) ( -776 1200 -256 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( -776 1200 -248 ) ( -776 1200 -256 ) ( -776 1168 -248 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( -808 1168 -256 ) ( -776 1168 -256 ) ( -808 1200 -256 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( -808 1168 -260 ) ( -808 1168 -252 ) ( -776 1168 -260 ) common/clip 0 240 0 0.25 0.25 0 0 0
+( -808 1168 -256 ) ( -808 1200 -256 ) ( -808 1168 -248 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( -808 1188 -64 ) ( -804 1200 -64 ) ( -808 1188 64 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( -808 1192 -64 ) ( -800 1200 -64 ) ( -808 1192 64 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( -808 1196 -64 ) ( -796 1200 -64 ) ( -808 1196 64 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( -788 1200 -64 ) ( -776 1196 -64 ) ( -788 1200 64 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( -784 1200 -64 ) ( -776 1192 -64 ) ( -784 1200 64 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( -780 1200 -64 ) ( -776 1188 -64 ) ( -780 1200 64 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( -776 1180 -68 ) ( -780 1168 -68 ) ( -776 1180 60 ) common/clip 0 240 0 0.25 0.25 0 0 0
+( -776 1176 -68 ) ( -784 1168 -68 ) ( -776 1176 60 ) common/clip 0 240 0 0.25 0.25 0 0 0
+( -776 1172 -68 ) ( -788 1168 -68 ) ( -776 1172 60 ) common/clip 0 240 0 0.25 0.25 0 0 0
+( -796 1168 -68 ) ( -808 1172 -68 ) ( -796 1168 60 ) common/clip 0 240 0 0.25 0.25 0 0 0
+( -800 1168 -68 ) ( -808 1176 -68 ) ( -800 1168 60 ) common/clip 0 240 0 0.25 0.25 0 0 0
+( -804 1168 -68 ) ( -808 1180 -68 ) ( -804 1168 60 ) common/clip 0 240 0 0.25 0.25 0 0 0
+}
+{
+( -780 1160 -212 ) ( -780 1128 -212 ) ( -812 1160 -212 ) common/clip 16 96 0 0.25 0.25 0 0 0
+( -780 1160 -248 ) ( -812 1160 -248 ) ( -780 1160 -256 ) common/clip 16 0 0 0.25 0.25 0 0 0
+( -780 1160 -248 ) ( -780 1160 -256 ) ( -780 1128 -248 ) common/clip 160 0 0 0.25 0.25 0 0 0
+( -812 1128 -256 ) ( -780 1128 -256 ) ( -812 1160 -256 ) common/clip 16 96 0 0.25 0.25 0 0 0
+( -812 1128 -260 ) ( -812 1128 -252 ) ( -780 1128 -260 ) common/clip 16 240 0 0.25 0.25 0 0 0
+( -812 1128 -256 ) ( -812 1160 -256 ) ( -812 1128 -248 ) common/clip 160 0 0 0.25 0.25 0 0 0
+( -812 1148 -64 ) ( -808 1160 -64 ) ( -812 1148 64 ) common/clip 160 0 0 0.25 0.25 0 0 0
+( -812 1152 -64 ) ( -804 1160 -64 ) ( -812 1152 64 ) common/clip 160 0 0 0.25 0.25 0 0 0
+( -812 1156 -64 ) ( -800 1160 -64 ) ( -812 1156 64 ) common/clip 16 0 0 0.25 0.25 0 0 0
+( -792 1160 -64 ) ( -780 1156 -64 ) ( -792 1160 64 ) common/clip 16 0 0 0.25 0.25 0 0 0
+( -788 1160 -64 ) ( -780 1152 -64 ) ( -788 1160 64 ) common/clip 160 0 0 0.25 0.25 0 0 0
+( -784 1160 -64 ) ( -780 1148 -64 ) ( -784 1160 64 ) common/clip 160 0 0 0.25 0.25 0 0 0
+( -780 1140 -68 ) ( -784 1128 -68 ) ( -780 1140 60 ) common/clip 160 240 0 0.25 0.25 0 0 0
+( -780 1136 -68 ) ( -788 1128 -68 ) ( -780 1136 60 ) common/clip 160 240 0 0.25 0.25 0 0 0
+( -780 1132 -68 ) ( -792 1128 -68 ) ( -780 1132 60 ) common/clip 16 240 0 0.25 0.25 0 0 0
+( -800 1128 -68 ) ( -812 1132 -68 ) ( -800 1128 60 ) common/clip 16 240 0 0.25 0.25 0 0 0
+( -804 1128 -68 ) ( -812 1136 -68 ) ( -804 1128 60 ) common/clip 160 240 0 0.25 0.25 0 0 0
+( -808 1128 -68 ) ( -812 1140 -68 ) ( -808 1128 60 ) common/clip 160 240 0 0.25 0.25 0 0 0
+}
+{
+( -776 1124 -212 ) ( -776 1092 -212 ) ( -808 1124 -212 ) common/clip 0 208 0 0.25 0.25 0 0 0
+( -776 1124 -248 ) ( -808 1124 -248 ) ( -776 1124 -256 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( -776 1124 -248 ) ( -776 1124 -256 ) ( -776 1092 -248 ) common/clip 48 0 0 0.25 0.25 0 0 0
+( -808 1092 -256 ) ( -776 1092 -256 ) ( -808 1124 -256 ) common/clip 0 208 0 0.25 0.25 0 0 0
+( -808 1092 -256 ) ( -808 1092 -248 ) ( -776 1092 -256 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( -808 1092 -256 ) ( -808 1124 -256 ) ( -808 1092 -248 ) common/clip 48 0 0 0.25 0.25 0 0 0
+( -808 1112 -64 ) ( -804 1124 -64 ) ( -808 1112 64 ) common/clip 48 0 0 0.25 0.25 0 0 0
+( -808 1116 -64 ) ( -800 1124 -64 ) ( -808 1116 64 ) common/clip 48 0 0 0.25 0.25 0 0 0
+( -808 1120 -64 ) ( -796 1124 -64 ) ( -808 1120 64 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( -788 1124 -68 ) ( -776 1120 -68 ) ( -788 1124 60 ) common/clip 0 240 0 0.25 0.25 0 0 0
+( -784 1124 -64 ) ( -776 1116 -64 ) ( -784 1124 64 ) common/clip 48 0 0 0.25 0.25 0 0 0
+( -780 1124 -64 ) ( -776 1112 -64 ) ( -780 1124 64 ) common/clip 48 0 0 0.25 0.25 0 0 0
+( -776 1104 -64 ) ( -780 1092 -64 ) ( -776 1104 64 ) common/clip 48 0 0 0.25 0.25 0 0 0
+( -776 1100 -64 ) ( -784 1092 -64 ) ( -776 1100 64 ) common/clip 48 0 0 0.25 0.25 0 0 0
+( -776 1096 -64 ) ( -788 1092 -64 ) ( -776 1096 64 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( -796 1092 -64 ) ( -808 1096 -64 ) ( -796 1092 64 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( -800 1092 -64 ) ( -808 1100 -64 ) ( -800 1092 64 ) common/clip 48 0 0 0.25 0.25 0 0 0
+( -804 1092 -64 ) ( -808 1104 -64 ) ( -804 1092 64 ) common/clip 48 0 0 0.25 0.25 0 0 0
+}
+{
+( -540 888 -212 ) ( -540 856 -212 ) ( -572 888 -212 ) common/clip 80 32 0 0.25 0.25 0 0 0
+( -540 888 -252 ) ( -572 888 -252 ) ( -540 888 -260 ) common/clip 80 240 0 0.25 0.25 0 0 0
+( -540 888 -248 ) ( -540 888 -256 ) ( -540 856 -248 ) common/clip 224 0 0 0.25 0.25 0 0 0
+( -572 856 -256 ) ( -540 856 -256 ) ( -572 888 -256 ) common/clip 80 32 0 0.25 0.25 0 0 0
+( -572 856 -256 ) ( -572 856 -248 ) ( -540 856 -256 ) common/clip 80 0 0 0.25 0.25 0 0 0
+( -572 856 -256 ) ( -572 888 -256 ) ( -572 856 -248 ) common/clip 224 0 0 0.25 0.25 0 0 0
+( -572 876 -68 ) ( -568 888 -68 ) ( -572 876 60 ) common/clip 224 240 0 0.25 0.25 0 0 0
+( -572 880 -68 ) ( -564 888 -68 ) ( -572 880 60 ) common/clip 224 240 0 0.25 0.25 0 0 0
+( -572 884 -68 ) ( -560 888 -68 ) ( -572 884 60 ) common/clip 80 240 0 0.25 0.25 0 0 0
+( -552 888 -68 ) ( -540 884 -68 ) ( -552 888 60 ) common/clip 80 240 0 0.25 0.25 0 0 0
+( -548 888 -68 ) ( -540 880 -68 ) ( -548 888 60 ) common/clip 224 240 0 0.25 0.25 0 0 0
+( -544 888 -68 ) ( -540 876 -68 ) ( -544 888 60 ) common/clip 224 240 0 0.25 0.25 0 0 0
+( -540 868 -64 ) ( -544 856 -64 ) ( -540 868 64 ) common/clip 224 0 0 0.25 0.25 0 0 0
+( -540 864 -64 ) ( -548 856 -64 ) ( -540 864 64 ) common/clip 224 0 0 0.25 0.25 0 0 0
+( -540 860 -64 ) ( -552 856 -64 ) ( -540 860 64 ) common/clip 80 0 0 0.25 0.25 0 0 0
+( -560 856 -64 ) ( -572 860 -64 ) ( -560 856 64 ) common/clip 80 0 0 0.25 0.25 0 0 0
+( -564 856 -64 ) ( -572 864 -64 ) ( -564 856 64 ) common/clip 224 0 0 0.25 0.25 0 0 0
+( -568 856 -64 ) ( -572 868 -64 ) ( -568 856 64 ) common/clip 224 0 0 0.25 0.25 0 0 0
+}
+{
+( -504 888 -212 ) ( -504 856 -212 ) ( -536 888 -212 ) common/clip 192 32 0 0.25 0.25 0 0 0
+( -504 888 -252 ) ( -536 888 -252 ) ( -504 888 -260 ) common/clip 192 240 0 0.25 0.25 0 0 0
+( -504 888 -248 ) ( -504 888 -256 ) ( -504 856 -248 ) common/clip 224 0 0 0.25 0.25 0 0 0
+( -536 856 -256 ) ( -504 856 -256 ) ( -536 888 -256 ) common/clip 192 32 0 0.25 0.25 0 0 0
+( -536 856 -256 ) ( -536 856 -248 ) ( -504 856 -256 ) common/clip 192 0 0 0.25 0.25 0 0 0
+( -536 856 -256 ) ( -536 888 -256 ) ( -536 856 -248 ) common/clip 224 0 0 0.25 0.25 0 0 0
+( -536 876 -68 ) ( -532 888 -68 ) ( -536 876 60 ) common/clip 224 240 0 0.25 0.25 0 0 0
+( -536 880 -68 ) ( -528 888 -68 ) ( -536 880 60 ) common/clip 224 240 0 0.25 0.25 0 0 0
+( -536 884 -68 ) ( -524 888 -68 ) ( -536 884 60 ) common/clip 192 240 0 0.25 0.25 0 0 0
+( -516 888 -68 ) ( -504 884 -68 ) ( -516 888 60 ) common/clip 192 240 0 0.25 0.25 0 0 0
+( -512 888 -68 ) ( -504 880 -68 ) ( -512 888 60 ) common/clip 224 240 0 0.25 0.25 0 0 0
+( -508 888 -68 ) ( -504 876 -68 ) ( -508 888 60 ) common/clip 224 240 0 0.25 0.25 0 0 0
+( -504 868 -64 ) ( -508 856 -64 ) ( -504 868 64 ) common/clip 224 0 0 0.25 0.25 0 0 0
+( -504 864 -64 ) ( -512 856 -64 ) ( -504 864 64 ) common/clip 224 0 0 0.25 0.25 0 0 0
+( -504 860 -64 ) ( -516 856 -64 ) ( -504 860 64 ) common/clip 192 0 0 0.25 0.25 0 0 0
+( -524 856 -64 ) ( -536 860 -64 ) ( -524 856 64 ) common/clip 192 0 0 0.25 0.25 0 0 0
+( -528 856 -64 ) ( -536 864 -64 ) ( -528 856 64 ) common/clip 224 0 0 0.25 0.25 0 0 0
+( -532 856 -64 ) ( -536 868 -64 ) ( -532 856 64 ) common/clip 224 0 0 0.25 0.25 0 0 0
+}
 }
 {
 "classname" "item_health_medium"
@@ -31380,18 +31500,18 @@ exx/base-metal03
 {
 "classname" "dom_controlpoint"
 "origin" "256.000000 -1024.000000 -160.000000"
-"message" " has captured the ^4blue warpzone ^7control point"
+"message" " has captured the ^4Blue ^2Hagar ^3control point"
 "angle" "90.000000"
 }
 {
 "classname" "dom_controlpoint"
 "origin" "-2144.000000 -480.000000 128.000000"
-"message" " has captured the ^2upper middle ^7control point"
+"message" " has captured the ^2Mega Armor (Middle) ^3control point"
 }
 {
 "classname" "dom_controlpoint"
 "origin" "-480.000000 1184.000000 -240.000000"
-"message" " has captured the ^2lower middle ^7control point"
+"message" " has captured the ^2Strength ^3control point"
 }
 {
 "classname" "target_position"
@@ -32857,26 +32977,6 @@ exx/base-metal03
 "lodmodel1" "models/containers/crate01_lod.md3"
 "loddistance1" "450"
 "angle" "-1.603582"
-}
-{
-"classname" "misc_model"
-"origin" "-554.999878 870.999756 -256.000000"
-"model" "models/containers/barrel01.md3"
-"angle" "-40.469692"
-"spawnflags" "2"
-}
-{
-"classname" "misc_model"
-"origin" "-480.000000 872.000000 -256.000000"
-"model" "models/containers/barrel01.md3"
-"spawnflags" "2"
-}
-{
-"classname" "misc_model"
-"origin" "-520.000000 869.999939 -256.000000"
-"model" "models/containers/barrel01.md3"
-"angle" "-66.641502"
-"spawnflags" "2"
 }
 {
 "classname" "item_health_medium"
@@ -34806,7 +34906,7 @@ exx/base-metal03
 {
 "classname" "dom_controlpoint"
 "origin" "-2688.000000 1920.000000 -160.000000"
-"message" " has captured the ^4blue warpzone ^7control point"
+"message" " has captured the ^1Red ^2Hagar ^3control point"
 "angle" "-179.999985"
 }
 {
@@ -36275,25 +36375,28 @@ exx/base-metal03
 "angle" "88.396439"
 }
 {
-"classname" "misc_model"
-"origin" "-793.000122 1109.000244 -256.000000"
-"model" "models/containers/barrel01.md3"
-"angle" "49.530289"
-"spawnflags" "2"
-}
-{
-"classname" "misc_model"
+"classname" "misc_breakablemodel"
 "origin" "-544.000000 -488.000031 0.000000"
 "model" "models/containers/barrel01.md3"
-"spawnflags" "2"
 "angle" "0.000003"
-}
-{
-"classname" "misc_model"
-"origin" "-793.999756 1144.000244 -256.000000"
-"model" "models/containers/barrel01.md3"
-"angle" "23.358463"
-"spawnflags" "2"
+"health" "25"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"count" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"noise" "sound/weapons/rocket_impact.ogg"
+"dmg" "25"
+"dmg_edge" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"message" "was killed by an explosive barrel"
+"message2" "was killed with an explosive barrel by"
+"debrissolid" "0"
+"debristime" "6"
+"debristimejitter" "2"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"respawntime" "40"
+"respawntimejitter" "10"
 }
 {
 "classname" "misc_model"
@@ -36458,18 +36561,28 @@ effects_healpod/healpod1_d
 "origin" "784.000000 64.000000 -160.000000"
 }
 {
-"classname" "misc_model"
-"origin" "-792.000000 1184.000000 -256.000000"
-"model" "models/containers/barrel01.md3"
-"spawnflags" "2"
-"angle" "90.000000"
-}
-{
-"classname" "misc_model"
+"classname" "misc_breakablemodel"
 "origin" "-2152.000000 1120.000000 0.000000"
 "model" "models/containers/barrel01.md3"
-"spawnflags" "2"
 "angle" "90.000000"
+"health" "25"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"count" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"noise" "sound/weapons/rocket_impact.ogg"
+"dmg" "25"
+"dmg_edge" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"message" "was killed by an explosive barrel"
+"message2" "was killed with an explosive barrel by"
+"debrissolid" "0"
+"debristime" "6"
+"debristimejitter" "2"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"respawntime" "40"
+"respawntimejitter" "10"
 }
 {
 "classname" "item_armor_large"
@@ -36497,7 +36610,7 @@ effects_healpod/healpod1_d
 {
 "classname" "dom_controlpoint"
 "origin" "784.000000 944.000000 296.000000"
-"message" " has captured the ^1blue base ^7control point"
+"message" " has captured the ^4Blue ^2base ^3control point"
 "angle" "-90.000000"
 }
 {
@@ -36519,4 +36632,192 @@ effects_healpod/healpod1_d
 "classname" "info_autoscreenshot"
 "origin" "477.651245 -851.75 -140.53656"
 "angles" "0.52734375 -149.002075 0"
+}
+{
+"classname" "misc_breakablemodel"
+"origin" "-554.999878 870.999756 -256.000000"
+"model" "models/containers/barrel01.md3"
+"angle" "-40.469692"
+"health" "25"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"count" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"noise" "sound/weapons/rocket_impact.ogg"
+"dmg" "25"
+"dmg_edge" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"message" "was killed by an explosive barrel"
+"message2" "was killed with an explosive barrel by"
+"debrissolid" "0"
+"debristime" "6"
+"debristimejitter" "2"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"respawntime" "40"
+"respawntimejitter" "10"
+}
+{
+"classname" "misc_breakablemodel"
+"origin" "-480.000000 872.000000 -256.000000"
+"model" "models/containers/barrel01.md3"
+"health" "25"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"count" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"noise" "sound/weapons/rocket_impact.ogg"
+"dmg" "25"
+"dmg_edge" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"message" "was killed by an explosive barrel"
+"message2" "was killed with an explosive barrel by"
+"debrissolid" "0"
+"debristime" "6"
+"debristimejitter" "2"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"respawntime" "40"
+"respawntimejitter" "10"
+}
+{
+"classname" "misc_breakablemodel"
+"origin" "-520.000000 869.999939 -256.000000"
+"model" "models/containers/barrel01.md3"
+"angle" "-66.641502"
+"health" "25"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"count" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"noise" "sound/weapons/rocket_impact.ogg"
+"dmg" "25"
+"dmg_edge" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"message" "was killed by an explosive barrel"
+"message2" "was killed with an explosive barrel by"
+"debrissolid" "0"
+"debristime" "6"
+"debristimejitter" "2"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"respawntime" "40"
+"respawntimejitter" "10"
+}
+{
+"classname" "misc_breakablemodel"
+"origin" "-793.000122 1109.000244 -256.000000"
+"model" "models/containers/barrel01.md3"
+"angle" "49.530289"
+"health" "25"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"count" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"noise" "sound/weapons/rocket_impact.ogg"
+"dmg" "25"
+"dmg_edge" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"message" "was killed by an explosive barrel"
+"message2" "was killed with an explosive barrel by"
+"debrissolid" "0"
+"debristime" "6"
+"debristimejitter" "2"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"respawntime" "40"
+"respawntimejitter" "10"
+}
+{
+"classname" "misc_breakablemodel"
+"origin" "-792.000000 1184.000000 -256.000000"
+"model" "models/containers/barrel01.md3"
+"angle" "90.000000"
+"health" "25"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"count" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"noise" "sound/weapons/rocket_impact.ogg"
+"dmg" "25"
+"dmg_edge" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"message" "was killed by an explosive barrel"
+"message2" "was killed with an explosive barrel by"
+"debrissolid" "0"
+"debristime" "6"
+"debristimejitter" "2"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"respawntime" "40"
+"respawntimejitter" "10"
+}
+{
+"classname" "misc_breakablemodel"
+"origin" "-793.999756 1144.000244 -256.000000"
+"model" "models/containers/barrel01.md3"
+"angle" "23.358463"
+"health" "25"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"count" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"noise" "sound/weapons/rocket_impact.ogg"
+"dmg" "25"
+"dmg_edge" "25"
+"dmg_radius" "150"
+"dmg_force" "600"
+"message" "was killed by an explosive barrel"
+"message2" "was killed with an explosive barrel by"
+"debrissolid" "0"
+"debristime" "6"
+"debristimejitter" "2"
+"debrisfadetime" "1"
+"debrisdamageforcescale" "1"
+"respawntime" "40"
+"respawntimejitter" "10"
+}
+{
+"classname" "dom_team"
+"origin" "544.000000 -240.000000 -152.000000"
+"netname" "^4Blue Team^3"
+"model" "models/domination/dom_blue.md3"
+"message" "Blue Team has captured a control point"
+"noise" "domination/claim.wav"
+"noise1" "domination/claim.wav"
+"cnt" "13"
+}
+{
+"classname" "dom_team"
+"origin" "544.000000 -304.000000 -152.000000"
+"cnt" "4"
+"message" "Red Team has captured a control point"
+"model" "models/domination/dom_red.md3"
+"netname" "^1Red Team^3"
+"noise" "domination/claim.wav"
+"noise1" "domination/claim.wav"
+}
+{
+"classname" "dom_team"
+"origin" "544.000000 -368.000000 -152.000000"
+"model" "models/domination/dom_unclaimed.md3"
+}
+{
+"classname" "dom_team"
+"origin" "544.000000 -272.000000 -152.000000"
+"netname" "^3Yellow Team^3"
+"model" "models/domination/dom_yellow.md3"
+"message" "Yellow Team has captured a control point"
+"noise" "domination/claim.wav"
+"noise1" "domination/claim.wav"
+"cnt" "12"
+}
+{
+"classname" "dom_team"
+"origin" "544.000000 -336.000000 -152.000000"
+"netname" "^6Pink Team^3"
+"model" "models/domination/dom_pink.md3"
+"message" "Pink Team has captured a control point"
+"noise" "domination/claim.wav"
+"noise1" "domination/claim.wav"
+"cnt" "9"
 }
