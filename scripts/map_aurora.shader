@@ -9,6 +9,8 @@ textures/map_aurora/northern_lights
 	surfaceparm nomarks
 	surfaceparm noimpact
 	cull none
+	
+	deformVertexes wave 750.0 sin 7 150 0.25 .2
 
     {
 		map textures/map_aurora/northern_lights.tga
