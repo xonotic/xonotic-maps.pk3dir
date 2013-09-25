@@ -20,7 +20,7 @@ textures/map_aurora/northern_lights
 textures/map_aurora/pipe1_blue
 {
 	qer_editorimage textures/map_aurora/pipe1_blue.tga
-	surfaceparm noimpact
+	surfaceparm nomarks
 	surfaceparm trans
 	cull disable
 	Q3map_TessSize 128
@@ -35,7 +35,7 @@ textures/map_aurora/pipe1_blue
 textures/map_aurora/pipe1_red
 {
 	qer_editorimage textures/map_aurora/pipe1_red.tga
-	surfaceparm noimpact
+	surfaceparm nomarls
 	surfaceparm trans
 	cull disable
 	Q3map_TessSize 128
