@@ -42,7 +42,7 @@
 		}
 	}
 	*MATERIAL	2	{
-		*MATERIAL_NAME	"models/model_lightspeed/vines_long"
+		*MATERIAL_NAME	"models/desertfactory/textures/misc/vines01.tga"
 		*MATERIAL_CLASS	"Standard"
 		*MATERIAL_DIFFUSE	0.666268	1.000000	0.139158
 		*MATERIAL_SHADING Phong
