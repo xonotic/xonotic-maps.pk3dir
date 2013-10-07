@@ -1,6 +1,0 @@
--bsp + -samplesize 8 -minsamplesize 2
--light +
--vis +
--minimap +
--sRGB 
-Version: 1.0
