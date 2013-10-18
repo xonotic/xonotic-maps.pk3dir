@@ -3,6 +3,7 @@
 textures/cleax/base1
 {
 	qer_editorimage textures/cleax/base/base1
+	dpoffsetmapping - 1 match8 5
 	dpglossintensitymod 4
 	dpglossexponentmod 4
 	surfaceparm metalsteps
@@ -19,6 +20,7 @@ textures/cleax/base1
 textures/cleax/base2
 {
 	qer_editorimage textures/cleax/base/base2
+	dpoffsetmapping - 1 match8 5
 	dpglossintensitymod 4
 	dpglossexponentmod 4
 	surfaceparm metalsteps
@@ -35,6 +37,7 @@ textures/cleax/base2
 textures/cleax/base3
 {
 	qer_editorimage textures/cleax/base/base3
+	dpoffsetmapping - 1 match8 5
 	dpglossintensitymod 4
 	dpglossexponentmod 4
 	surfaceparm metalsteps
@@ -48,11 +51,46 @@ textures/cleax/base3
 	}
 }
 
+textures/cleax/base4
+{
+	qer_editorimage textures/cleax/base/base4
+	dpoffsetmapping - 1 match8 5
+	dpglossintensitymod 4
+	dpglossexponentmod 4
+	surfaceparm metalsteps
+	q3map_bouncescale 0.75
+	{
+		map textures/cleax/base/base4
+	}
+	{
+		map $lightmap
+		blendfunc filter
+	}
+}
+
+textures/cleax/base5
+{
+	qer_editorimage textures/cleax/base/base5
+	dpoffsetmapping - 1 match8 5
+	dpglossintensitymod 4
+	dpglossexponentmod 4
+	surfaceparm metalsteps
+	q3map_bouncescale 0.75
+	{
+		map textures/cleax/base/base5
+	}
+	{
+		map $lightmap
+		blendfunc filter
+	}
+}
+
 // FLOOR
 
 textures/cleax/floor1
 {
 	qer_editorimage textures/cleax/floor/floor1
+	dpoffsetmapping - 1 match8 128
 	dpglossintensitymod 4
 	dpglossexponentmod 4
 	surfaceparm metalsteps
@@ -71,6 +109,7 @@ textures/cleax/floor1
 textures/cleax/grate1_twosided
 {
 	qer_editorimage textures/cleax/grate/grate1
+	dpoffsetmapping - 1 match8 55
 	dpglossintensitymod 2
 	dpglossexponentmod 4
 	surfaceparm trans
@@ -92,6 +131,7 @@ textures/cleax/grate1_twosided
 textures/cleax/grate1_onesided
 {
 	qer_editorimage textures/cleax/grate/grate1
+	dpoffsetmapping - 1 match8 55
 	dpglossintensitymod 2
 	dpglossexponentmod 4
 	surfaceparm trans
@@ -112,6 +152,7 @@ textures/cleax/grate1_onesided
 textures/cleax/grate2_twosided
 {
 	qer_editorimage textures/cleax/grate/grate2
+	dpoffsetmapping - 1 match8 170
 	dpglossintensitymod 2
 	dpglossexponentmod 4
 	surfaceparm trans
@@ -133,6 +174,7 @@ textures/cleax/grate2_twosided
 textures/cleax/grate2_onesided
 {
 	qer_editorimage textures/cleax/grate/grate2
+	dpoffsetmapping - 1 match8 170
 	dpglossintensitymod 2
 	dpglossexponentmod 4
 	surfaceparm trans
@@ -155,6 +197,7 @@ textures/cleax/grate2_onesided
 textures/cleax/light1_red
 {
 	qer_editorimage textures/cleax/light/light1_red
+	dpoffsetmapping - 1 match8 129
 	dpglossintensitymod 4
 	dpglossexponentmod 4
 	surfaceparm metalsteps
@@ -171,6 +214,7 @@ textures/cleax/light1_red
 textures/cleax/light1_orange
 {
 	qer_editorimage textures/cleax/light/light1_orange
+	dpoffsetmapping - 1 match8 129
 	dpglossintensitymod 4
 	dpglossexponentmod 4
 	surfaceparm metalsteps
@@ -187,6 +231,7 @@ textures/cleax/light1_orange
 textures/cleax/light1_green
 {
 	qer_editorimage textures/cleax/light/light1_green
+	dpoffsetmapping - 1 match8 129
 	dpglossintensitymod 4
 	dpglossexponentmod 4
 	surfaceparm metalsteps
@@ -203,6 +248,7 @@ textures/cleax/light1_green
 textures/cleax/light1_blue
 {
 	qer_editorimage textures/cleax/light/light1_blue
+	dpoffsetmapping - 1 match8 129
 	dpglossintensitymod 4
 	dpglossexponentmod 4
 	surfaceparm metalsteps
@@ -222,6 +268,7 @@ textures/cleax/water
 {
 	qer_editorimage textures/cleax/natural/water
 	qer_trans 0.25
+	dpoffsetmapping none
 	surfaceparm nomarks
 	surfaceparm trans
 	surfaceparm water
@@ -242,6 +289,7 @@ textures/cleax/water
 textures/cleax/panel1
 {
 	qer_editorimage textures/cleax/panel/panel1
+	dpoffsetmapping - 0.5 match8 128 
 	dpglossintensitymod 4
 	dpglossexponentmod 4
 	surfaceparm metalsteps
@@ -258,6 +306,7 @@ textures/cleax/panel1
 textures/cleax/panel2
 {
 	qer_editorimage textures/cleax/panel/panel2
+	dpoffsetmapping - 0.7 match8 34
 	dpglossintensitymod 4
 	dpglossexponentmod 4
 	surfaceparm metalsteps
@@ -274,6 +323,7 @@ textures/cleax/panel2
 textures/cleax/panel3
 {
 	qer_editorimage textures/cleax/panel/panel3
+	dpoffsetmapping - 0.7 match8 36
 	dpglossintensitymod 4
 	dpglossexponentmod 4
 	surfaceparm metalsteps
@@ -290,6 +340,7 @@ textures/cleax/panel3
 textures/cleax/panel4
 {
 	qer_editorimage textures/cleax/panel/panel4
+	dpoffsetmapping - 0.7 match8 36
 	dpglossintensitymod 4
 	dpglossexponentmod 4
 	surfaceparm metalsteps
@@ -306,6 +357,7 @@ textures/cleax/panel4
 textures/cleax/panel5
 {
 	qer_editorimage textures/cleax/panel/panel5
+	dpoffsetmapping - 0.4 match8 112
 	dpglossintensitymod 4
 	dpglossexponentmod 4
 	surfaceparm metalsteps
@@ -322,6 +374,7 @@ textures/cleax/panel5
 textures/cleax/panel6
 {
 	qer_editorimage textures/cleax/panel/panel6
+	dpoffsetmapping - 0.5 match8 5
 	dpglossintensitymod 4
 	dpglossexponentmod 4
 	surfaceparm metalsteps
@@ -335,27 +388,12 @@ textures/cleax/panel6
 	}
 }
 
-textures/cleax/panel7
-{
-	qer_editorimage textures/cleax/panel/panel7
-	dpglossintensitymod 4
-	dpglossexponentmod 4
-	surfaceparm metalsteps
-	q3map_bouncescale 1.5
-	{
-		map textures/cleax/panel/panel7
-	}
-	{
-		map $lightmap
-		blendfunc filter
-	}
-}
-
 // TRIM
 
 textures/cleax/trim1
 {
 	qer_editorimage textures/cleax/trim/trim1
+	dpoffsetmapping - 1 match8 5
 	dpglossintensitymod 4
 	dpglossexponentmod 4
 	surfaceparm metalsteps
@@ -372,6 +410,7 @@ textures/cleax/trim1
 textures/cleax/trim2
 {
 	qer_editorimage textures/cleax/trim/trim2
+	dpoffsetmapping - 1 match8 5
 	dpglossintensitymod 4
 	dpglossexponentmod 4
 	surfaceparm metalsteps
@@ -388,6 +427,7 @@ textures/cleax/trim2
 textures/cleax/trim3
 {
 	qer_editorimage textures/cleax/trim/trim3
+	dpoffsetmapping - 0.5 match8 5
 	dpglossintensitymod 4
 	dpglossexponentmod 4
 	surfaceparm metalsteps
@@ -404,6 +444,7 @@ textures/cleax/trim3
 textures/cleax/trim4
 {
 	qer_editorimage textures/cleax/trim/trim4
+	dpoffsetmapping - 0.5 match8 5
 	dpglossintensitymod 4
 	dpglossexponentmod 4
 	surfaceparm metalsteps
@@ -420,6 +461,7 @@ textures/cleax/trim4
 textures/cleax/trim5
 {
 	qer_editorimage textures/cleax/trim/trim5
+	dpoffsetmapping - 0.5 match8 5
 	dpglossintensitymod 4
 	dpglossexponentmod 4
 	surfaceparm metalsteps
@@ -436,12 +478,66 @@ textures/cleax/trim5
 textures/cleax/trim6
 {
 	qer_editorimage textures/cleax/trim/trim6
+	dpoffsetmapping - 0.5 match8 5
 	dpglossintensitymod 4
 	dpglossexponentmod 4
 	surfaceparm metalsteps
 	q3map_bouncescale 1.5
 	{
 		map textures/cleax/trim/trim6
+	}
+	{
+		map $lightmap
+		blendfunc filter
+	}
+}
+
+// WALL
+
+textures/cleax/wall1
+{
+	qer_editorimage textures/cleax/wall/wall1
+	dpoffsetmapping - 1 match8 47
+	dpglossintensitymod 4
+	dpglossexponentmod 4
+	surfaceparm metalsteps
+	q3map_bouncescale 1.5
+	{
+		map textures/cleax/wall/wall1
+	}
+	{
+		map $lightmap
+		blendfunc filter
+	}
+}
+
+textures/cleax/wall2
+{
+	qer_editorimage textures/cleax/wall/wall2
+	dpoffsetmapping - 1 match8 47
+	dpglossintensitymod 4
+	dpglossexponentmod 4
+	surfaceparm metalsteps
+	q3map_bouncescale 1.5
+	{
+		map textures/cleax/wall/wall2
+	}
+	{
+		map $lightmap
+		blendfunc filter
+	}
+}
+
+textures/cleax/wall3
+{
+	qer_editorimage textures/cleax/wall/wall3
+	dpoffsetmapping - 1 match8 47
+	dpglossintensitymod 4
+	dpglossexponentmod 4
+	surfaceparm metalsteps
+	q3map_bouncescale 1.5
+	{
+		map textures/cleax/wall/wall3
 	}
 	{
 		map $lightmap
