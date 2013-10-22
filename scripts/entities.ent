@@ -428,6 +428,21 @@ Pink team's player spawning location, but there is no game mode to use this yet.
 <real key="restriction" name="restriction">when 1, only bots can spawn here; when 2, only humans can spawn here (be careful with these, or the game will crash because someone cannot spawn)</real>
 </point>
 
+<point name="item_ammo" color=".3 .3 1" box="-30 -30 0 30 30 32">
+Ammo (automatically distributed)
+-------- KEYS --------
+<target key="target" name="target">Assume targeted entity's origin for automatic distribution purposes</target>
+<real key="ammo_shells" name="ammo_shells">Probability modifier for becoming shells (-1 to forbid)</real>
+<real key="ammo_nails" name="ammo_nails">Probability modifier for becoming bullets (-1 to forbid)</real>
+<real key="ammo_rockets" name="ammo_rockets">Probability modifier for becoming rockets (-1 to forbid)</real>
+<real key="ammo_cells" name="ammo_cells">Probability modifier for becoming cells (-1 to forbid)</real>
+<real key="ammo_fuel" name="ammo_fuel">Probability modifier for becoming fuel (-1 to forbid)</real>
+-------- SPAWNFLAGS --------
+<flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+modeldisabled=&quot;models/items/a_ammo.md3&quot;
+</point>
+
 <point name="item_armor_large" color=".4 .8 .4" box="-30 -30 0 30 30 32">
 Large Armor (default 100 armor points)
 -------- KEYS --------
