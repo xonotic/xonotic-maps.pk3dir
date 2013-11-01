@@ -388,6 +388,23 @@ textures/cleax/panel6
 	}
 }
 
+textures/cleax/panel7
+{
+	qer_editorimage textures/cleax/panel/panel7
+	dpoffsetmapping - 1 match8 128
+	dpglossintensitymod 4
+	dpglossexponentmod 4
+	surfaceparm metalsteps
+	q3map_bouncescale 1.5
+	{
+		map textures/cleax/panel/panel7
+	}
+	{
+		map $lightmap
+		blendfunc filter
+	}
+}
+
 // TRIM
 
 textures/cleax/trim1
@@ -497,7 +514,7 @@ textures/cleax/trim6
 textures/cleax/wall1
 {
 	qer_editorimage textures/cleax/wall/wall1
-	dpoffsetmapping - 1 match8 47
+	dpoffsetmapping - 1 match8 28
 	dpglossintensitymod 4
 	dpglossexponentmod 4
 	surfaceparm metalsteps
@@ -511,16 +528,16 @@ textures/cleax/wall1
 	}
 }
 
-textures/cleax/wall2
+textures/cleax/wall1_red
 {
-	qer_editorimage textures/cleax/wall/wall2
-	dpoffsetmapping - 1 match8 47
+	qer_editorimage textures/cleax/wall/wall1_red
+	dpoffsetmapping - 1 match8 28
 	dpglossintensitymod 4
 	dpglossexponentmod 4
 	surfaceparm metalsteps
 	q3map_bouncescale 1.5
 	{
-		map textures/cleax/wall/wall2
+		map textures/cleax/wall/wall1_red
 	}
 	{
 		map $lightmap
@@ -528,16 +545,33 @@ textures/cleax/wall2
 	}
 }
 
-textures/cleax/wall3
+textures/cleax/wall1_blue
 {
-	qer_editorimage textures/cleax/wall/wall3
-	dpoffsetmapping - 1 match8 47
+	qer_editorimage textures/cleax/wall/wall1_blue
+	dpoffsetmapping - 1 match8 28
 	dpglossintensitymod 4
 	dpglossexponentmod 4
 	surfaceparm metalsteps
 	q3map_bouncescale 1.5
 	{
-		map textures/cleax/wall/wall3
+		map textures/cleax/wall/wall1_blue
+	}
+	{
+		map $lightmap
+		blendfunc filter
+	}
+}
+
+textures/cleax/wall2
+{
+	qer_editorimage textures/cleax/wall/wall2
+	dpoffsetmapping - 1 match8 22
+	dpglossintensitymod 4
+	dpglossexponentmod 4
+	surfaceparm metalsteps
+	q3map_bouncescale 1.5
+	{
+		map textures/cleax/wall/wall2
 	}
 	{
 		map $lightmap
