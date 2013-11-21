@@ -1,7 +1,8 @@
 title Attic
-description Large indoors map.
-author kuniu the frogg
-cdtrack 3
+description Large indoors map
+author kuniu the frogg, Mirio
+cdtrack 6
 has weapons
 gametype ctf
 gametype ons
+gametype lms
