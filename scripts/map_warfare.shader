@@ -93,7 +93,7 @@ textures/map_warfare/cactus
 
 textures/map_warfare/sky
 {
-	qer_editorimage textures/skies/exosystem.tga
+	qer_editorimage textures/skies/exosystem
 	
 	surfaceparm noimpact
 	surfaceparm nolightmap
@@ -101,10 +101,9 @@ textures/map_warfare/sky
 	surfaceparm nomarks
 	surfaceparm sky
 
+	q3map_sunext 1 1 1 350 60 42 3 16
+	q3map_lightmapfilterradius 0 8
+	q3map_skylight 400 4
 	skyparms env/exosystem/exosystem - -
-
-	q3map_sunExt 1 1 1 350 60 42 3 16
-	q3map_lightmapFilterRadius 0 8 // self other
-	q3map_skyLight 400 4
 }
 
