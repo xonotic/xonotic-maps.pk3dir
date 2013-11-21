@@ -1,0 +1,5 @@
+-bsp + -samplesize 4
+-vis +
+-light + -samplesize 4 -deluxe -patchshadows -samples 4 -lightmapsize 2048 -dirty -dirtscale 2
+-minimap +
+Version: 1
