@@ -93,7 +93,7 @@ textures/map_warfare/cactus
 
 textures/map_warfare/sky
 {
-	qer_editorimage textures/skies/exosystem
+	//qer_editorimage textures/skies/exosystem
 	
 	surfaceparm noimpact
 	surfaceparm nolightmap
