@@ -45,6 +45,7 @@ textures/ex2x/base-bluepaint
 textures/ex2x/base-chainlink
 {
 	qer_editorimage textures/ex2x/base/base_chainlink.tga
+	qer_trans 0.5
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 0.5 match8 204
