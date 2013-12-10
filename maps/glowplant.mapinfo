@@ -7,7 +7,6 @@ gametype dm
 gametype tdm
 gametype dom
 gametype lms
-gametype arena
 gametype ca
 gametype kh
 gametype ft
