@@ -1,99 +1,71 @@
-textures/map_warfare/blends_earth_rock01_sand01
+textures/map_warfare/rocktosoil
 {
-	qer_editorimage textures/map_warfare/blends_earth_rock01_sand01.tga
+	qer_editorimage textures/map_warfare/rocktosoil
 	
-	q3map_bounceScale  0.5
-	dpoffsetmapping - 9 match8 168
-
-	q3map_lightmapSampleOffset 8
+	dpoffsetmapping - 2 match8 168
+	
+	q3map_bouncescale  0.75
+	q3map_lightmapsampleoffset 8
 	q3map_nonplanar
-	q3map_shadeangle 95
-
-	q3map_alphaMod dotproduct2 ( 0 0 1 )
-
+	q3map_shadeangle 90
+    q3map_alphamod dotproduct2 ( 0 0 1 )
 	{
-		map textures/phillipk2x/natural/pk02_rock01.tga // Primary
+		map textures/phillipk2x/natural/pk02_rock01
 	}
-
 	{
-		map textures/phillipk2x/natural/pk02_sand01.tga // Secondary
-		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA		
-		alphaGen vertex
+		map textures/phillipk2x/natural/pk02_sand01
+		blendfunc blend
+		alphagen vertex
 	}
-
 	{
 		map $lightmap
-		blendFunc GL_DST_COLOR GL_ZERO
+		blendfunc GL_DST_COLOR GL_ZERO
 	}
 }
 
 textures/map_warfare/env
 {
 	qer_editorimage textures/map_warfare/env.tga
-	surfaceparm trans
-	cull disable
 	qer_trans 0.5
+	
+	surfaceparm trans
+	
+	cull none
 	{
 		map textures/map_warfare/env.tga
-		blendfunc GL_ONE GL_ONE
+		blendfunc add
 		tcgen environment
-		tcmod scale 0.5 0.5
 	}
 }
 
 textures/map_warfare/floor_panel
 {
 	qer_editorimage textures/map_warfare/floor_panel
-	qer_alphaFunc qequal 0.5
-
-	q3map_bounceScale  0.75
-	dpoffsetmapping - 2 match8 172
+	qer_alphafunc qequal 0.5
+    
+    dpoffsetmapping - 2 match8 172
 	dpglossintensitymod  3
 	dpglossexponentmod  4
-
+	
 	surfaceparm metalsteps
 	surfaceparm trans
+	
+	q3map_bouncescale  0.75
 
-	polygonOffset
-	sort 6
-
+    polygonoffset
 	{
 		map textures/map_warfare/floor_panel
 		alphaFunc GT0
 	}
 	{
 		map $lightmap
-		rgbGen identity
-		tcGen lightmap
-		blendfunc filter
-	}
-}
-
-textures/map_warfare/cactus
-{
-	qer_editorimage textures/map_warfare/cactus
-	surfaceparm trans
-	surfaceparm alphashadow
-	surfaceparm nomarks
-	Cull None
-	dpglossintensitymod  3
-	dpglossexponentmod  4
-	deformVertexes wave .1 triangle 0 .25 0 .5
-	{
-		map textures/map_warfare/cactus
-		alphaFunc GT0
-	}
-	{
-		map $lightmap
-		rgbGen identity
-		tcGen lightmap
 		blendfunc filter
 	}
 }
 
 textures/map_warfare/sky
 {
-	//qer_editorimage textures/skies/exosystem
+	qer_editorimage textures/skies/exosystem
 	
 	surfaceparm noimpact
 	surfaceparm nolightmap
@@ -104,6 +76,7 @@ textures/map_warfare/sky
 	q3map_sunext 1 1 1 350 60 42 3 16
 	q3map_lightmapfilterradius 0 8
 	q3map_skylight 400 4
+
 	skyparms env/exosystem/exosystem - -
 }
 
