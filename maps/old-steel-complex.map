@@ -6238,7 +6238,6 @@ brushDef
 "classname" "light"
 "origin" "144.000000 -544.000000 272.000000"
 "light" "250"
-"fade" "0.3"
 }
 {
 "classname" "misc_gamemodel"
@@ -6252,7 +6251,6 @@ brushDef
 "classname" "light"
 "origin" "144.000000 -160.000000 272.000000"
 "light" "250"
-"fade" "0.3"
 }
 {
 "classname" "misc_gamemodel"
@@ -6266,7 +6264,6 @@ brushDef
 "classname" "light"
 "origin" "144.000000 224.000000 272.000000"
 "light" "250"
-"fade" "0.3"
 }
 {
 "classname" "misc_gamemodel"
@@ -6280,7 +6277,6 @@ brushDef
 "classname" "light"
 "origin" "-144.000000 464.000000 272.000000"
 "light" "250"
-"fade" "0.65"
 }
 {
 "classname" "misc_gamemodel"
