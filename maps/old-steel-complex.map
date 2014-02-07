@@ -5820,11 +5820,6 @@ brushDef
 "_castShadows" "1"
 }
 {
-"classname" "light"
-"origin" "384.000000 -160.000000 272.000000"
-"light" "250"
-}
-{
 "classname" "misc_gamemodel"
 "origin" "271.999512 -159.999756 336.000000"
 "model" "models/lights/xonlight07.md3"
