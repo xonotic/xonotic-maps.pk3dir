@@ -9,7 +9,6 @@ gametype tdm
 gametype ctf
 gametype ons
 gametype lms
-gametype arena
 gametype ca
 gametype dom
 gametype kh

@@ -11,7 +11,6 @@ gametype ft
 gametype ka
 gametype kh
 gametype dom
-gametype arena
 // optional: fog density red green blue alpha mindist maxdist
 // optional: settemp_for_type (all|gametypename) cvarname value
 // optional: clientsettemp_for_type (all|gametypename) cvarname value
