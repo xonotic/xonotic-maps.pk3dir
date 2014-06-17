@@ -26,7 +26,6 @@ map_leave_em_behind
 map_lightspeed
 map_newtonian-nightmare
 map_oilrig
-map_red-planet
 map_silentsiege
 map_solarium
 map_space-elevator
