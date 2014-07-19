@@ -46,3 +46,32 @@ textures/map_go/jumppadfx_white
 		blendfunc filter
 	}
 }
+textures/map_go/pipe1_blue
+{
+	qer_editorimage textures/map_go/pipe1_blue.tga
+	surfaceparm nomarks
+	surfaceparm trans
+	cull disable
+	Q3map_TessSize 128
+	q3map_surfacelight 1500
+	q3map_lightSubdivide 64
+	{
+		map textures/map_go/pipe1_blue.tga
+		blendfunc GL_SRC_ALPHA GL_ONE
+	}
+}
+
+textures/map_go/pipe1_red
+{
+	qer_editorimage textures/map_go/pipe1_red.tga
+	surfaceparm nomarls
+	surfaceparm trans
+	cull disable
+	Q3map_TessSize 128
+	q3map_surfacelight 1500
+	q3map_lightSubdivide 64
+	{
+		map textures/map_go/pipe1_red.tga
+		blendfunc GL_SRC_ALPHA GL_ONE
+	}
+}
