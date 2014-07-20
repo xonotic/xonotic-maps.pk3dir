@@ -64,7 +64,7 @@ textures/map_go/pipe1_blue
 textures/map_go/pipe1_red
 {
 	qer_editorimage textures/map_go/pipe1_red.tga
-	surfaceparm nomarls
+	surfaceparm nomarks
 	surfaceparm trans
 	cull disable
 	Q3map_TessSize 128
