@@ -20648,46 +20648,42 @@ effects_jumppad/jumppadfx1_a
 "origin" "1280.000000 -1024.000000 0.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "-90.000000"
-"_castshadows" "0"
 }
 {
 "classname" "misc_model"
 "origin" "1024.000000 -1280.000000 0.000000"
 "model" "models/lights/xonlight01.md3"
-"_castshadows" "0"
 }
 {
 "classname" "misc_model"
 "origin" "128.000122 -576.000000 0.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "-90.000000"
-"_castshadows" "0"
 }
 {
 "classname" "misc_model"
 "origin" "1024.000000 -768.000000 0.000000"
 "model" "models/lights/xonlight01.md3"
-"_castshadows" "0"
 }
 {
 "classname" "light"
-"origin" "1024.000000 -768.000000 -32.000000"
-"light" "400"
+"origin" "1024.000000 -768.000000 -18.000000"
+"light" "240"
 }
 {
 "classname" "light"
-"origin" "1024.000000 -1280.000000 -32.000000"
-"light" "400"
+"origin" "1024.000000 -1280.000000 -18.000000"
+"light" "240"
 }
 {
 "classname" "light"
-"origin" "1280.000000 -1024.000000 -32.000000"
-"light" "400"
+"origin" "1280.000000 -1024.000000 -18.000000"
+"light" "240"
 }
 {
 "classname" "light"
-"origin" "128.000000 -576.000000 -32.000000"
-"light" "400"
+"origin" "128.000000 -576.000000 -18.000000"
+"light" "240"
 }
 {
 "classname" "item_cells"
@@ -20710,96 +20706,88 @@ effects_jumppad/jumppadfx1_a
 "origin" "768.000122 -1024.000000 0.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "-90.000000"
-"_castshadows" "0"
 }
 {
 "classname" "light"
-"origin" "768.000000 -1024.000000 -32.000000"
-"light" "400"
+"origin" "768.000000 -1024.000000 -18.000000"
+"light" "240"
 }
 {
 "classname" "misc_model"
 "origin" "736.000122 -1536.000000 0.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "-90.000000"
-"_castshadows" "0"
 }
 {
 "classname" "light"
-"origin" "736.000000 -1536.000000 -32.000000"
-"light" "400"
+"origin" "736.000000 -1536.000000 -18.000000"
+"light" "240"
 }
 {
 "classname" "misc_model"
 "origin" "128.000122 -960.000000 0.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "-90.000000"
-"_castshadows" "0"
 }
 {
 "classname" "light"
-"origin" "128.000000 -960.000000 -32.000000"
-"light" "400"
+"origin" "128.000000 -960.000000 -18.000000"
+"light" "240"
 }
 {
 "classname" "misc_model"
 "origin" "736.000122 -2304.000000 0.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "-90.000000"
-"_castshadows" "0"
 }
 {
 "classname" "light"
-"origin" "736.000000 -2304.000000 -32.000000"
-"light" "400"
+"origin" "736.000000 -2304.000000 -18.000000"
+"light" "240"
 }
 {
 "classname" "misc_model"
 "origin" "736.000122 -1920.000000 0.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "-90.000000"
-"_castshadows" "0"
 }
 {
 "classname" "light"
-"origin" "736.000000 -1920.000000 -32.000000"
-"light" "400"
+"origin" "736.000000 -1920.000000 -18.000000"
+"light" "240"
 }
 {
 "classname" "misc_model"
 "origin" "288.000122 -1536.000000 0.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "-90.000000"
-"_castshadows" "0"
 }
 {
 "classname" "light"
-"origin" "288.000000 -1536.000000 -32.000000"
-"light" "400"
+"origin" "288.000000 -1536.000000 -18.000000"
+"light" "240"
 }
 {
 "classname" "misc_model"
 "origin" "288.000122 -2304.000000 0.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "-90.000000"
-"_castshadows" "0"
 }
 {
 "classname" "light"
-"origin" "288.000000 -2304.000000 -32.000000"
-"light" "400"
+"origin" "288.000000 -2304.000000 -18.000000"
+"light" "240"
 }
 {
 "classname" "misc_model"
 "origin" "288.000122 -1920.000000 0.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "-90.000000"
-"_castshadows" "0"
 }
 {
 "classname" "light"
-"origin" "288.000000 -1920.000000 -32.000000"
-"light" "400"
+"origin" "288.000000 -1920.000000 -18.000000"
+"light" "240"
 }
 {
 "classname" "item_invincible"
@@ -22103,13 +22091,11 @@ effects_jumppad/jumppadfx1_a
 "origin" "-1280.000122 1024.000000 0.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "90.000000"
-"_castshadows" "0"
 }
 {
 "classname" "misc_model"
 "origin" "-1024.000000 1279.999878 0.000000"
 "model" "models/lights/xonlight01.md3"
-"_castshadows" "0"
 "angle" "-179.999985"
 }
 {
@@ -22117,34 +22103,32 @@ effects_jumppad/jumppadfx1_a
 "origin" "-128.000000 576.000000 0.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "90.000000"
-"_castshadows" "0"
 }
 {
 "classname" "misc_model"
 "origin" "-1024.000000 768.000000 0.000000"
 "model" "models/lights/xonlight01.md3"
-"_castshadows" "0"
 "angle" "-179.999985"
 }
 {
 "classname" "light"
-"origin" "-1024.000000 768.000000 -32.000000"
-"light" "400"
+"origin" "-1024.000000 768.000000 -18.000000"
+"light" "240"
 }
 {
 "classname" "light"
-"origin" "-1024.000000 1280.000000 -32.000000"
-"light" "400"
+"origin" "-1024.000000 1280.000000 -18.000000"
+"light" "240"
 }
 {
 "classname" "light"
-"origin" "-1280.000000 1024.000000 -32.000000"
-"light" "400"
+"origin" "-1280.000000 1024.000000 -18.000000"
+"light" "240"
 }
 {
 "classname" "light"
-"origin" "-128.000000 576.000000 -32.000000"
-"light" "400"
+"origin" "-128.000000 576.000000 -18.000000"
+"light" "240"
 }
 {
 "classname" "item_cells"
@@ -22156,96 +22140,88 @@ effects_jumppad/jumppadfx1_a
 "origin" "-768.000000 1024.000000 0.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "90.000000"
-"_castshadows" "0"
 }
 {
 "classname" "light"
-"origin" "-768.000000 1024.000000 -32.000000"
-"light" "400"
+"origin" "-768.000000 1024.000000 -18.000000"
+"light" "240"
 }
 {
 "classname" "misc_model"
 "origin" "-736.000244 1536.000000 0.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "90.000000"
-"_castshadows" "0"
 }
 {
 "classname" "light"
-"origin" "-736.000000 1536.000000 -32.000000"
-"light" "400"
+"origin" "-736.000000 1536.000000 -18.000000"
+"light" "240"
 }
 {
 "classname" "misc_model"
 "origin" "-128.000244 960.000183 0.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "90.000000"
-"_castshadows" "0"
 }
 {
 "classname" "light"
-"origin" "-128.000000 960.000000 -32.000000"
-"light" "400"
+"origin" "-128.000000 960.000000 -18.000000"
+"light" "240"
 }
 {
 "classname" "misc_model"
 "origin" "-736.000122 2304.000000 0.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "90.000000"
-"_castshadows" "0"
 }
 {
 "classname" "light"
-"origin" "-736.000000 2304.000000 -32.000000"
-"light" "400"
+"origin" "-736.000000 2304.000000 -18.000000"
+"light" "240"
 }
 {
 "classname" "misc_model"
 "origin" "-736.000000 1920.000000 0.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "90.000000"
-"_castshadows" "0"
 }
 {
 "classname" "light"
-"origin" "-736.000000 1920.000000 -32.000000"
-"light" "400"
+"origin" "-736.000000 1920.000000 -18.000000"
+"light" "240"
 }
 {
 "classname" "misc_model"
 "origin" "-288.000000 1536.000000 0.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "90.000000"
-"_castshadows" "0"
 }
 {
 "classname" "light"
-"origin" "-288.000000 1536.000000 -32.000000"
-"light" "400"
+"origin" "-288.000000 1536.000000 -18.000000"
+"light" "240"
 }
 {
 "classname" "misc_model"
 "origin" "-288.000000 2304.000000 0.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "90.000000"
-"_castshadows" "0"
 }
 {
 "classname" "light"
-"origin" "-288.000000 2304.000000 -32.000000"
-"light" "400"
+"origin" "-288.000000 2304.000000 -18.000000"
+"light" "240"
 }
 {
 "classname" "misc_model"
 "origin" "-288.000000 1920.000122 0.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "90.000000"
-"_castshadows" "0"
 }
 {
 "classname" "light"
-"origin" "-288.000000 1920.000000 -32.000000"
-"light" "400"
+"origin" "-288.000000 1920.000000 -18.000000"
+"light" "240"
 }
 {
 "classname" "misc_gamemodel"
@@ -23688,170 +23664,15 @@ effects_jumppad/jumppadfx1_a
 "angle" "-179.999985"
 }
 {
-"classname" "misc_breakablemodel"
-"origin" "1108.000000 735.999878 92.000000"
-"model" "models/containers/barrel01.md3"
-"_castShadows" "1"
-"angle" "60.000000"
-"count" "1"
-"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
-"debrisdamageforcescale" "1"
-"debrisfadetime" "1"
-"debrissolid" "0"
-"debristime" "6"
-"debristimejitter" "2"
-"dmg" "75"
-"dmg_edge" "25"
-"dmg_force" "600"
-"dmg_radius" "150"
-"health" "25"
-"mdl" "TE_TEI_BIGEXPLOSION"
-"message" "was killed by an explosive barrel"
-"message2" "was killed with an explosive barrel by"
-"noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "40"
-"respawntimejitter" "10"
-}
-{
-"classname" "misc_breakablemodel"
-"origin" "1052.000000 751.999878 92.000000"
-"model" "models/containers/barrel01.md3"
-"_castShadows" "1"
-"angle" "60.000000"
-"count" "1"
-"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
-"debrisdamageforcescale" "1"
-"debrisfadetime" "1"
-"debrissolid" "0"
-"debristime" "6"
-"debristimejitter" "2"
-"dmg" "75"
-"dmg_edge" "25"
-"dmg_force" "600"
-"dmg_radius" "150"
-"health" "25"
-"mdl" "TE_TEI_BIGEXPLOSION"
-"message" "was killed by an explosive barrel"
-"message2" "was killed with an explosive barrel by"
-"noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "40"
-"respawntimejitter" "10"
-}
-{
-"classname" "misc_breakablemodel"
-"origin" "1087.935547 662.859192 107.964203"
-"model" "models/containers/barrel01.md3"
-"_castShadows" "1"
-"count" "1"
-"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
-"debrisdamageforcescale" "1"
-"debrisfadetime" "1"
-"debrissolid" "0"
-"debristime" "6"
-"debristimejitter" "2"
-"dmg" "75"
-"dmg_edge" "25"
-"dmg_force" "600"
-"dmg_radius" "150"
-"health" "25"
-"mdl" "TE_TEI_BIGEXPLOSION"
-"message" "was killed by an explosive barrel"
-"message2" "was killed with an explosive barrel by"
-"noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "40"
-"respawntimejitter" "10"
-"angles" "-0.000000 0.194464 -90.000000"
-}
-{
-"classname" "misc_breakablemodel"
-"origin" "-1108.000122 -735.999878 92.000000"
-"model" "models/containers/barrel01.md3"
-"_castShadows" "1"
-"angle" "-120.000015"
-"count" "1"
-"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
-"debrisdamageforcescale" "1"
-"debrisfadetime" "1"
-"debrissolid" "0"
-"debristime" "6"
-"debristimejitter" "2"
-"dmg" "75"
-"dmg_edge" "25"
-"dmg_force" "600"
-"dmg_radius" "150"
-"health" "25"
-"mdl" "TE_TEI_BIGEXPLOSION"
-"message" "was killed by an explosive barrel"
-"message2" "was killed with an explosive barrel by"
-"noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "40"
-"respawntimejitter" "10"
-}
-{
-"classname" "misc_breakablemodel"
-"origin" "-1052.000000 -752.000000 92.000000"
-"model" "models/containers/barrel01.md3"
-"_castShadows" "1"
-"angle" "-120.000015"
-"count" "1"
-"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
-"debrisdamageforcescale" "1"
-"debrisfadetime" "1"
-"debrissolid" "0"
-"debristime" "6"
-"debristimejitter" "2"
-"dmg" "75"
-"dmg_edge" "25"
-"dmg_force" "600"
-"dmg_radius" "150"
-"health" "25"
-"mdl" "TE_TEI_BIGEXPLOSION"
-"message" "was killed by an explosive barrel"
-"message2" "was killed with an explosive barrel by"
-"noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "40"
-"respawntimejitter" "10"
-}
-{
-"classname" "misc_breakablemodel"
-"origin" "-1087.601563 -707.193542 108.035683"
-"model" "models/containers/barrel01.md3"
-"_castShadows" "1"
-"count" "1"
-"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
-"debrisdamageforcescale" "1"
-"debrisfadetime" "1"
-"debrissolid" "0"
-"debristime" "6"
-"debristimejitter" "2"
-"dmg" "75"
-"dmg_edge" "25"
-"dmg_force" "600"
-"dmg_radius" "150"
-"health" "25"
-"mdl" "TE_TEI_BIGEXPLOSION"
-"message" "was killed by an explosive barrel"
-"message2" "was killed with an explosive barrel by"
-"noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "40"
-"respawntimejitter" "10"
-"angles" "0.000010 -179.805542 90.000000"
-}
-{
 "classname" "misc_model"
 "origin" "-320.000000 -896.000000 0.000000"
 "model" "models/lights/xonlight01.md3"
 }
 {
 "classname" "light"
-"origin" "-320.000000 -896.000000 -24.000000"
-"light" "150"
-"target" "target_position19"
-}
-{
-"classname" "target_position"
-"origin" "-320.000000 -896.000000 -200.000000"
-"targetname" "target_position19"
+"origin" "-320.000000 -896.000000 -18.000000"
+"light" "175"
+"_color" "1 1 0.9"
 }
 {
 "classname" "misc_model"
@@ -23860,14 +23681,9 @@ effects_jumppad/jumppadfx1_a
 }
 {
 "classname" "light"
-"origin" "-640.000000 -896.000000 -24.000000"
-"light" "150"
-"target" "target_position20"
-}
-{
-"classname" "target_position"
-"origin" "-640.000000 -896.000000 -200.000000"
-"targetname" "target_position20"
+"origin" "-640.000000 -896.000000 -18.000000"
+"light" "175"
+"_color" "1 1 0.9"
 }
 {
 "classname" "misc_model"
@@ -23876,14 +23692,9 @@ effects_jumppad/jumppadfx1_a
 }
 {
 "classname" "light"
-"origin" "-960.000000 -896.000000 -24.000000"
-"light" "150"
-"target" "target_position54"
-}
-{
-"classname" "target_position"
-"origin" "-960.000000 -896.000000 -200.000000"
-"targetname" "target_position54"
+"origin" "-960.000000 -896.000000 -18.000000"
+"light" "175"
+"_color" "1 1 0.9"
 }
 {
 "classname" "misc_model"
@@ -23892,14 +23703,9 @@ effects_jumppad/jumppadfx1_a
 }
 {
 "classname" "light"
-"origin" "-1280.000000 -896.000000 -24.000000"
-"light" "150"
-"target" "target_position55"
-}
-{
-"classname" "target_position"
-"origin" "-1280.000000 -896.000000 -200.000000"
-"targetname" "target_position55"
+"origin" "-1280.000000 -896.000000 -18.000000"
+"light" "175"
+"_color" "1 1 0.9"
 }
 {
 "classname" "misc_model"
@@ -23909,15 +23715,9 @@ effects_jumppad/jumppadfx1_a
 }
 {
 "classname" "light"
-"origin" "-1600.000000 -560.000000 -24.000000"
-"light" "150"
-"target" "target_position56"
-}
-{
-"classname" "target_position"
-"origin" "-1600.000000 -560.000000 -200.000000"
-"targetname" "target_position56"
-"angle" "-90.000000"
+"origin" "-1600.000000 -560.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
 }
 {
 "classname" "misc_model"
@@ -23927,15 +23727,9 @@ effects_jumppad/jumppadfx1_a
 }
 {
 "classname" "light"
-"origin" "-1600.000000 -224.000000 -24.000000"
-"light" "150"
-"target" "target_position82"
-}
-{
-"classname" "target_position"
-"origin" "-1600.000000 -224.000000 -200.000000"
-"targetname" "target_position82"
-"angle" "-90.000000"
+"origin" "-1600.000000 -224.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
 }
 {
 "classname" "misc_model"
@@ -23945,15 +23739,9 @@ effects_jumppad/jumppadfx1_a
 }
 {
 "classname" "light"
-"origin" "-1600.000000 96.000000 -24.000000"
-"light" "150"
-"target" "target_position104"
-}
-{
-"classname" "target_position"
-"origin" "-1600.000000 96.000000 -200.000000"
-"targetname" "target_position104"
-"angle" "-90.000000"
+"origin" "-1600.000000 96.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
 }
 {
 "classname" "misc_model"
@@ -23963,15 +23751,9 @@ effects_jumppad/jumppadfx1_a
 }
 {
 "classname" "light"
-"origin" "-1600.000000 416.000000 -24.000000"
-"light" "150"
-"target" "target_position106"
-}
-{
-"classname" "target_position"
-"origin" "-1600.000000 416.000000 -200.000000"
-"targetname" "target_position106"
-"angle" "-90.000000"
+"origin" "-1600.000000 416.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
 }
 {
 "classname" "misc_model"
@@ -23981,15 +23763,9 @@ effects_jumppad/jumppadfx1_a
 }
 {
 "classname" "light"
-"origin" "-1600.000000 736.000000 -24.000000"
-"light" "150"
-"target" "target_position143"
-}
-{
-"classname" "target_position"
-"origin" "-1600.000000 736.000000 -200.000000"
-"targetname" "target_position143"
-"angle" "-90.000000"
+"origin" "-1600.000000 736.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
 }
 {
 "classname" "misc_model"
@@ -23999,15 +23775,9 @@ effects_jumppad/jumppadfx1_a
 }
 {
 "classname" "light"
-"origin" "-1600.000000 1056.000000 -24.000000"
-"light" "150"
-"target" "target_position144"
-}
-{
-"classname" "target_position"
-"origin" "-1600.000000 1056.000000 -200.000000"
-"targetname" "target_position144"
-"angle" "-90.000000"
+"origin" "-1600.000000 1056.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
 }
 {
 "classname" "misc_model"
@@ -24017,15 +23787,9 @@ effects_jumppad/jumppadfx1_a
 }
 {
 "classname" "light"
-"origin" "-1600.000000 1408.000000 -24.000000"
-"light" "150"
-"target" "target_position145"
-}
-{
-"classname" "target_position"
-"origin" "-1600.000000 1408.000000 -200.000000"
-"targetname" "target_position145"
-"angle" "-90.000000"
+"origin" "-1600.000000 1408.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
 }
 {
 "classname" "misc_model"
@@ -24035,15 +23799,9 @@ effects_jumppad/jumppadfx1_a
 }
 {
 "classname" "light"
-"origin" "-1600.000000 -896.000000 -24.000000"
-"light" "150"
-"target" "target_position174"
-}
-{
-"classname" "target_position"
-"origin" "-1600.000000 -896.000000 -200.000000"
-"targetname" "target_position174"
-"angle" "-90.000000"
+"origin" "-1600.000000 -896.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
 }
 {
 "classname" "misc_model"
@@ -24053,15 +23811,9 @@ effects_jumppad/jumppadfx1_a
 }
 {
 "classname" "light"
-"origin" "320.000000 896.000000 -24.000000"
-"light" "150"
-"target" "target_position193"
-}
-{
-"classname" "target_position"
-"origin" "320.000000 896.000000 -200.000000"
-"targetname" "target_position193"
-"angle" "-179.999985"
+"origin" "320.000000 896.000000 -18.000000"
+"light" "175"
+"_color" "1 1 0.9"
 }
 {
 "classname" "misc_model"
@@ -24071,15 +23823,9 @@ effects_jumppad/jumppadfx1_a
 }
 {
 "classname" "light"
-"origin" "640.000000 896.000000 -24.000000"
-"light" "150"
-"target" "target_position194"
-}
-{
-"classname" "target_position"
-"origin" "640.000000 896.000000 -200.000000"
-"targetname" "target_position194"
-"angle" "-179.999985"
+"origin" "640.000000 896.000000 -18.000000"
+"light" "175"
+"_color" "1 1 0.9"
 }
 {
 "classname" "misc_model"
@@ -24089,15 +23835,9 @@ effects_jumppad/jumppadfx1_a
 }
 {
 "classname" "light"
-"origin" "960.000000 896.000000 -24.000000"
-"light" "150"
-"target" "target_position195"
-}
-{
-"classname" "target_position"
-"origin" "960.000000 896.000000 -200.000000"
-"targetname" "target_position195"
-"angle" "-179.999985"
+"origin" "960.000000 896.000000 -18.000000"
+"light" "175"
+"_color" "1 1 0.9"
 }
 {
 "classname" "misc_model"
@@ -24107,15 +23847,9 @@ effects_jumppad/jumppadfx1_a
 }
 {
 "classname" "light"
-"origin" "1280.000000 896.000000 -24.000000"
-"light" "150"
-"target" "target_position196"
-}
-{
-"classname" "target_position"
-"origin" "1280.000000 896.000000 -200.000000"
-"targetname" "target_position196"
-"angle" "-179.999985"
+"origin" "1280.000000 896.000000 -18.000000"
+"light" "175"
+"_color" "1 1 0.9"
 }
 {
 "classname" "misc_model"
@@ -24125,15 +23859,9 @@ effects_jumppad/jumppadfx1_a
 }
 {
 "classname" "light"
-"origin" "1600.000000 560.000000 -24.000000"
-"light" "150"
-"target" "target_position197"
-}
-{
-"classname" "target_position"
-"origin" "1600.000000 560.000000 -200.000000"
-"targetname" "target_position197"
-"angle" "90.000000"
+"origin" "1600.000000 560.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
 }
 {
 "classname" "misc_model"
@@ -24143,15 +23871,9 @@ effects_jumppad/jumppadfx1_a
 }
 {
 "classname" "light"
-"origin" "1600.000000 224.000000 -24.000000"
-"light" "150"
-"target" "target_position198"
-}
-{
-"classname" "target_position"
-"origin" "1600.000000 224.000000 -200.000000"
-"targetname" "target_position198"
-"angle" "90.000000"
+"origin" "1600.000000 224.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
 }
 {
 "classname" "misc_model"
@@ -24161,15 +23883,9 @@ effects_jumppad/jumppadfx1_a
 }
 {
 "classname" "light"
-"origin" "1600.000000 -96.000000 -24.000000"
-"light" "150"
-"target" "target_position187"
-}
-{
-"classname" "target_position"
-"origin" "1600.000000 -96.000000 -200.000000"
-"targetname" "target_position187"
-"angle" "90.000000"
+"origin" "1600.000000 -96.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
 }
 {
 "classname" "misc_model"
@@ -24179,15 +23895,9 @@ effects_jumppad/jumppadfx1_a
 }
 {
 "classname" "light"
-"origin" "1600.000000 -416.000000 -24.000000"
-"light" "150"
-"target" "target_position188"
-}
-{
-"classname" "target_position"
-"origin" "1600.000000 -416.000000 -200.000000"
-"targetname" "target_position188"
-"angle" "90.000000"
+"origin" "1600.000000 -416.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
 }
 {
 "classname" "misc_model"
@@ -24197,15 +23907,9 @@ effects_jumppad/jumppadfx1_a
 }
 {
 "classname" "light"
-"origin" "1600.000000 -736.000000 -24.000000"
-"light" "150"
-"target" "target_position189"
-}
-{
-"classname" "target_position"
-"origin" "1600.000000 -736.000000 -200.000000"
-"targetname" "target_position189"
-"angle" "90.000000"
+"origin" "1600.000000 -736.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
 }
 {
 "classname" "misc_model"
@@ -24215,15 +23919,9 @@ effects_jumppad/jumppadfx1_a
 }
 {
 "classname" "light"
-"origin" "1600.000000 -1056.000000 -24.000000"
-"light" "150"
-"target" "target_position190"
-}
-{
-"classname" "target_position"
-"origin" "1600.000000 -1056.000000 -200.000000"
-"targetname" "target_position190"
-"angle" "90.000000"
+"origin" "1600.000000 -1056.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
 }
 {
 "classname" "misc_model"
@@ -24233,15 +23931,9 @@ effects_jumppad/jumppadfx1_a
 }
 {
 "classname" "light"
-"origin" "1600.000000 -1408.000000 -24.000000"
-"light" "150"
-"target" "target_position191"
-}
-{
-"classname" "target_position"
-"origin" "1600.000000 -1408.000000 -200.000000"
-"targetname" "target_position191"
-"angle" "90.000000"
+"origin" "1600.000000 -1408.000000 -17.000000"
+"light" "175"
+"_color" "1 1 0.9"
 }
 {
 "classname" "misc_model"
@@ -24251,113 +23943,777 @@ effects_jumppad/jumppadfx1_a
 }
 {
 "classname" "light"
-"origin" "1600.000000 896.000000 -24.000000"
-"light" "150"
-"target" "target_position192"
+"origin" "1600.000000 896.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
 }
 {
-"classname" "target_position"
-"origin" "1600.000000 896.000000 -200.000000"
-"targetname" "target_position192"
-"angle" "90.000000"
+"classname" "light"
+"origin" "1600.000000 -1426.000000 -17.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "1600.000000 -1390.000000 -17.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "1280.000000 -1042.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "1280.000000 -1006.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "1006.000000 -768.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "1042.000000 -768.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "1042.000000 -1280.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "1006.000000 -1280.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "768.000000 -1042.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "768.000000 -1006.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "736.000000 -1518.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "736.000000 -1554.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "128.000000 -594.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "128.000000 -978.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "736.000000 -2322.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "736.000000 -1938.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "288.000000 -1554.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "288.000000 -2322.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "288.000000 -1938.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-1280.000000 1006.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-128.000000 558.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-768.000000 1006.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-736.000000 1518.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-128.000000 942.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-736.000000 2286.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-736.000000 1902.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-288.000000 1518.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-288.000000 2286.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-288.000000 1902.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "128.000000 -557.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "128.000000 -941.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "736.000000 -2285.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "736.000000 -1901.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "288.000000 -1517.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "288.000000 -2285.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "288.000000 -1901.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-1280.000000 1043.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-128.000000 595.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-768.000000 1043.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-736.000000 1555.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-128.000000 979.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-736.000000 2323.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-736.000000 1939.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-288.000000 1555.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-288.000000 2323.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-288.000000 1939.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-1006.000000 768.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-1042.000000 768.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-1042.000000 1280.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-1006.000000 1280.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-1600.000000 -540.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "-1600.000000 -204.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "-1600.000000 116.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "-1600.000000 436.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "-1600.000000 756.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "-1600.000000 1076.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "-1600.000000 1428.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "1600.000000 580.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "1600.000000 244.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "1600.000000 -76.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "1600.000000 -396.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "1600.000000 -716.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "1600.000000 -1036.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "-1600.000000 -580.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "-1600.000000 -244.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "-1600.000000 76.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "-1600.000000 396.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "-1600.000000 716.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "-1600.000000 1036.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "-1600.000000 1388.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "1600.000000 540.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "1600.000000 204.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "1600.000000 -116.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "1600.000000 -436.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "1600.000000 -756.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "1600.000000 -1076.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "-1589.000000 -908.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "1611.000000 884.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "-1612.500000 -884.500000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "1587.500000 907.500000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "-339.000000 -896.000000 -18.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "-659.000000 -896.000000 -18.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "-979.000000 -896.000000 -18.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "-1299.000000 -896.000000 -18.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "301.000000 896.000000 -18.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "621.000000 896.000000 -18.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "941.000000 896.000000 -18.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "1261.000000 896.000000 -18.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "-299.000000 -892.000000 -18.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "-619.000000 -892.000000 -18.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "-939.000000 -892.000000 -18.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "-1259.000000 -892.000000 -18.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "341.000000 900.000000 -18.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "661.000000 900.000000 -18.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "981.000000 900.000000 -18.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "1301.000000 900.000000 -18.000000"
+"light" "175"
+"_color" "1 1 0.9"
 }
 {
 "classname" "misc_breakablemodel"
-"origin" "-1420.000000 -736.000000 92.000000"
+"origin" "-1052.000000 -752.000000 92.000000"
 "model" "models/containers/barrel01.md3"
-"_castShadows" "1"
-"angle" "-120.000015"
+"modelscale" "1.200000"
 "count" "1"
 "debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
 "debrisdamageforcescale" "1"
 "debrisfadetime" "1"
 "debrissolid" "0"
-"debristime" "6"
+"debristime" "5"
 "debristimejitter" "2"
-"dmg" "75"
+"dmg" "25"
 "dmg_edge" "25"
 "dmg_force" "600"
-"dmg_radius" "150"
+"dmg_radius" "190"
 "health" "25"
 "mdl" "TE_TEI_BIGEXPLOSION"
 "message" "was killed by an explosive barrel"
 "message2" "was killed with an explosive barrel by"
 "noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "40"
+"respawntime" "35"
+"respawntimejitter" "10"
+}
+{
+"classname" "misc_breakablemodel"
+"origin" "-1108.000122 -735.999878 92.000000"
+"model" "models/containers/barrel01.md3"
+"modelscale" "1.200000"
+"count" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debrissolid" "0"
+"debristime" "5"
+"debristimejitter" "2"
+"dmg" "25"
+"dmg_edge" "25"
+"dmg_force" "600"
+"dmg_radius" "190"
+"health" "25"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"message" "was killed by an explosive barrel"
+"message2" "was killed with an explosive barrel by"
+"noise" "sound/weapons/rocket_impact.ogg"
+"respawntime" "35"
+"respawntimejitter" "10"
+}
+{
+"classname" "misc_breakablemodel"
+"origin" "-1420.000000 -736.000000 92.000000"
+"model" "models/containers/barrel01.md3"
+"modelscale" "1.200000"
+"count" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debrissolid" "0"
+"debristime" "5"
+"debristimejitter" "2"
+"dmg" "25"
+"dmg_edge" "25"
+"dmg_force" "600"
+"dmg_radius" "190"
+"health" "25"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"message" "was killed by an explosive barrel"
+"message2" "was killed with an explosive barrel by"
+"noise" "sound/weapons/rocket_impact.ogg"
+"respawntime" "35"
 "respawntimejitter" "10"
 }
 {
 "classname" "misc_breakablemodel"
 "origin" "-1452.000000 -696.000000 92.000000"
 "model" "models/containers/barrel01.md3"
-"_castShadows" "1"
-"angle" "-120.000015"
+"modelscale" "1.200000"
 "count" "1"
 "debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
 "debrisdamageforcescale" "1"
 "debrisfadetime" "1"
 "debrissolid" "0"
-"debristime" "6"
+"debristime" "5"
 "debristimejitter" "2"
-"dmg" "75"
+"dmg" "25"
 "dmg_edge" "25"
 "dmg_force" "600"
-"dmg_radius" "150"
+"dmg_radius" "190"
 "health" "25"
 "mdl" "TE_TEI_BIGEXPLOSION"
 "message" "was killed by an explosive barrel"
 "message2" "was killed with an explosive barrel by"
 "noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "40"
+"respawntime" "35"
 "respawntimejitter" "10"
+}
+{
+"classname" "misc_breakablemodel"
+"origin" "-1087.601563 -707.193542 108.035683"
+"model" "models/containers/barrel01.md3"
+"modelscale" "1.200000"
+"count" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debrissolid" "0"
+"debristime" "5"
+"debristimejitter" "2"
+"dmg" "25"
+"dmg_edge" "25"
+"dmg_force" "600"
+"dmg_radius" "190"
+"health" "25"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"message" "was killed by an explosive barrel"
+"message2" "was killed with an explosive barrel by"
+"noise" "sound/weapons/rocket_impact.ogg"
+"respawntime" "35"
+"respawntimejitter" "10"
+"angles" "0.000010 -179.805542 90.000000"
+}
+{
+"classname" "misc_breakablemodel"
+"origin" "1052.000000 751.999878 92.000000"
+"model" "models/containers/barrel01.md3"
+"modelscale" "1.200000"
+"count" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debrissolid" "0"
+"debristime" "5"
+"debristimejitter" "2"
+"dmg" "25"
+"dmg_edge" "25"
+"dmg_force" "600"
+"dmg_radius" "190"
+"health" "25"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"message" "was killed by an explosive barrel"
+"message2" "was killed with an explosive barrel by"
+"noise" "sound/weapons/rocket_impact.ogg"
+"respawntime" "35"
+"respawntimejitter" "10"
+}
+{
+"classname" "misc_breakablemodel"
+"origin" "1108.000000 735.999878 92.000000"
+"model" "models/containers/barrel01.md3"
+"modelscale" "1.200000"
+"count" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debrissolid" "0"
+"debristime" "5"
+"debristimejitter" "2"
+"dmg" "25"
+"dmg_edge" "25"
+"dmg_force" "600"
+"dmg_radius" "190"
+"health" "25"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"message" "was killed by an explosive barrel"
+"message2" "was killed with an explosive barrel by"
+"noise" "sound/weapons/rocket_impact.ogg"
+"respawntime" "35"
+"respawntimejitter" "10"
+}
+{
+"classname" "misc_breakablemodel"
+"origin" "1087.935547 662.859192 107.964203"
+"model" "models/containers/barrel01.md3"
+"modelscale" "1.200000"
+"count" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debrissolid" "0"
+"debristime" "5"
+"debristimejitter" "2"
+"dmg" "25"
+"dmg_edge" "25"
+"dmg_force" "600"
+"dmg_radius" "190"
+"health" "25"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"message" "was killed by an explosive barrel"
+"message2" "was killed with an explosive barrel by"
+"noise" "sound/weapons/rocket_impact.ogg"
+"respawntime" "35"
+"respawntimejitter" "10"
+"angles" "-0.000000 0.194464 -90.000000"
 }
 {
 "classname" "misc_breakablemodel"
 "origin" "1419.999878 736.000122 92.000000"
 "model" "models/containers/barrel01.md3"
-"_castShadows" "1"
-"angle" "59.999981"
+"modelscale" "1.200000"
 "count" "1"
 "debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
 "debrisdamageforcescale" "1"
 "debrisfadetime" "1"
 "debrissolid" "0"
-"debristime" "6"
+"debristime" "5"
 "debristimejitter" "2"
-"dmg" "75"
+"dmg" "25"
 "dmg_edge" "25"
 "dmg_force" "600"
-"dmg_radius" "150"
+"dmg_radius" "190"
 "health" "25"
 "mdl" "TE_TEI_BIGEXPLOSION"
 "message" "was killed by an explosive barrel"
 "message2" "was killed with an explosive barrel by"
 "noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "40"
+"respawntime" "35"
 "respawntimejitter" "10"
 }
 {
 "classname" "misc_breakablemodel"
 "origin" "1452.000000 695.999939 92.000000"
 "model" "models/containers/barrel01.md3"
-"_castShadows" "1"
-"angle" "59.999981"
+"modelscale" "1.200000"
 "count" "1"
 "debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
 "debrisdamageforcescale" "1"
 "debrisfadetime" "1"
 "debrissolid" "0"
-"debristime" "6"
+"debristime" "5"
 "debristimejitter" "2"
-"dmg" "75"
+"dmg" "25"
 "dmg_edge" "25"
 "dmg_force" "600"
-"dmg_radius" "150"
+"dmg_radius" "190"
 "health" "25"
 "mdl" "TE_TEI_BIGEXPLOSION"
 "message" "was killed by an explosive barrel"
 "message2" "was killed with an explosive barrel by"
 "noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "40"
+"respawntime" "35"
 "respawntimejitter" "10"
 }
