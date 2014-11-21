@@ -1,0 +1,7 @@
+titile Catharsis
+description Medium-sized CTF level with crystals
+author Justin
+has weapons
+gametype ctf
+cdtrack 16
+clientsettemp_for_type all r_water 1
