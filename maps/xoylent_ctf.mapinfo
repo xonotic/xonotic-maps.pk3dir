@@ -2,7 +2,8 @@ title Xoylent CTF
 description Xoylent CTF-ified.
 author sev, Strahlemann, MaKR, kuniu the frogg
 has weapons
+cdtrack 7
 gametype ctf
 gametype tdm
 gametype ft
-cdtrack 7
+gametype kh
