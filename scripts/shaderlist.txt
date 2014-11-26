@@ -22,6 +22,7 @@ map_courtfun
 map_darkzone
 map_g-23
 map_glowplant
+map_implosion
 map_leave_em_behind
 map_lightspeed
 map_newtonian-nightmare
