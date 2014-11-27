@@ -14,6 +14,7 @@ exx
 exx_reflections_off
 facility114invx
 facility114x
+glassx
 liquids_lava
 liquids_slime
 liquids_water
@@ -25,7 +26,8 @@ map_glowplant
 map_leave_em_behind
 map_lightspeed
 map_newtonian-nightmare
-map_red-planet
+map_oilrig
+map_silentsiege
 map_solarium
 map_space-elevator
 map_stormkeep

@@ -1,0 +1,15 @@
+title Silent Siege
+description Medium size Duel/TDM map
+author Justin, kuniu the frogg
+cdtrack 5
+has weapons
+gametype dm
+gametype lms
+gametype tdm
+gametype ca
+gametype ft
+gametype ka
+gametype kh
+gametype dom
+
+//Great thanks to all developers of the game Xonotic. Also greetings to my friends, level designers, especially: kuniu, cityy, Maddin, sev, Fruitex, monad. For making the best maps ever created! 
