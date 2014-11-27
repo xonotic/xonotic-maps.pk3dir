@@ -1119,6 +1119,12 @@ The sound name may also be of the form *soundname, and in that case the respecti
 <flag key="ACTIVATOR" name="ACTIVATOR" bit="3">the sound is played to the activator only when triggered (cannot be combined with LOOPED_ON and LOOPED_OFF)</flag>
 </point>
 
+<point name="invasion_spawnpoint" color="1 0.5 0" box="-16 -16 -24 16 16 45">
+Monster spawnpoint in Invasion
+-------- KEYS --------
+-------- SPAWNFLAGS --------
+</point>
+
 <group name="trigger_counter" color=".5 .5 .5">
 Acts as an intermediary for an action that takes multiple inputs.
 After the counter has been triggered &quot;count&quot; times, it will fire all of its targets and remove itself.
@@ -1907,6 +1913,118 @@ Disables a trigger_relay temporarily (until triggered again)
 -------- KEYS --------
 <target key="target" name="target">disable/enable all relays with this targetname when triggered</target>
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
+</point>
+
+
+<point name="monster_mage" color="1 0 0" box="-36 -36 -24 36 36 50">
+Mage. Master of dark magic
+-------- KEYS --------
+<integer key="health" name="health">monster health amount</integer>
+<integer key="target_range" name="target_range">maximum targeting range. If current target is further away, it will be lost</integer>
+<real key="respawntime" name="respawntime">delay in seconds before re-spawning</real>
+<integer key="monster_moveflags" name="monster_moveflags">move target while not attacking. 2=wander around, 3=spawn location, 4=no moving</integer>
+<target key="target" name="target">disable/enable all relays with this targetname when killed</target>
+<target key="target2" name="target2">follow this target</target>
+<targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
+<integer key="team" name="team">5=red, 14=blue</integer>
+-------- SPAWNFLAGS --------
+<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="6">Spawn as mini-boss (slightly more powerful)</flag>
+<flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="1">Spawn when triggered</flag>
+<flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="2">Don't re-spawn</flag>
+<flag key="MONSTERFLAG_FLY_VERTICAL" name="FLY_VERTICAL" bit="3">Allow flying/swimming monsters to move up/down</flag>
+<flag key="MONSTERFLAG_INFRONT" name="INFRONT" bit="4">Only attack targets infront of the monster</flag>
+<flag key="MONSTERSKILL_NOTEASY" name="NOTEASY" bit="8">Don't spawn this monster when skill is 1</flag>
+<flag key="MONSTERSKILL_NOTMEDIUM" name="NOTMEDIUM" bit="9">Don't spawn this monster when skill is 2</flag>
+<flag key="MONSTERSKILL_NOTHARD" name="NOTHARD" bit="10">Don't spawn this monster when skill is 3</flag>
+</point>
+
+<point name="monster_shambler" color="1 0 0" box="-41 -41 -31 41 41 65">
+Shambler. Summons lightning bolts with its large meat cleaving claws
+-------- KEYS --------
+<integer key="health" name="health">monster health amount</integer>
+<integer key="target_range" name="target_range">maximum targeting range. If current target is further away, it will be lost</integer>
+<real key="respawntime" name="respawntime">delay in seconds before re-spawning</real>
+<integer key="monster_moveflags" name="monster_moveflags">move target while not attacking. 2=wander around, 3=spawn location, 4=no moving</integer>
+<target key="target" name="target">disable/enable all relays with this targetname when killed</target>
+<target key="target2" name="target2">follow this target</target>
+<targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
+<integer key="team" name="team">5=red, 14=blue</integer>
+-------- SPAWNFLAGS --------
+<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="6">Spawn as mini-boss (slightly more powerful)</flag>
+<flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="1">Spawn when triggered</flag>
+<flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="2">Don't re-spawn</flag>
+<flag key="MONSTERFLAG_FLY_VERTICAL" name="FLY_VERTICAL" bit="3">Allow flying/swimming monsters to move up/down</flag>
+<flag key="MONSTERFLAG_INFRONT" name="INFRONT" bit="4">Only attack targets infront of the monster</flag>
+<flag key="MONSTERSKILL_NOTEASY" name="NOTEASY" bit="8">Don't spawn this monster when skill is 1</flag>
+<flag key="MONSTERSKILL_NOTMEDIUM" name="NOTMEDIUM" bit="9">Don't spawn this monster when skill is 2</flag>
+<flag key="MONSTERSKILL_NOTHARD" name="NOTHARD" bit="10">Don't spawn this monster when skill is 3</flag>
+</point>
+
+<point name="monster_spider" color="1 0 0" box="-18 -18 -25 18 18 30">
+Spider. Freezing ice or burning fire web, both lead to an 8-legged grave
+-------- KEYS --------
+<integer key="health" name="health">monster health amount</integer>
+<integer key="spider_type" name="spider_type">spider attack type. 1=ice, 2=fire</integer>
+<integer key="target_range" name="target_range">maximum targeting range. If current target is further away, it will be lost</integer>
+<real key="respawntime" name="respawntime">delay in seconds before re-spawning</real>
+<integer key="monster_moveflags" name="monster_moveflags">move target while not attacking. 2=wander around, 3=spawn location, 4=no moving</integer>
+<target key="target" name="target">disable/enable all relays with this targetname when killed</target>
+<target key="target2" name="target2">follow this target</target>
+<targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
+<integer key="team" name="team">5=red, 14=blue</integer>
+-------- SPAWNFLAGS --------
+<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="6">Spawn as mini-boss (slightly more powerful)</flag>
+<flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="1">Spawn when triggered</flag>
+<flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="2">Don't re-spawn</flag>
+<flag key="MONSTERFLAG_FLY_VERTICAL" name="FLY_VERTICAL" bit="3">Allow flying/swimming monsters to move up/down</flag>
+<flag key="MONSTERFLAG_INFRONT" name="INFRONT" bit="4">Only attack targets infront of the monster</flag>
+<flag key="MONSTERSKILL_NOTEASY" name="NOTEASY" bit="8">Don't spawn this monster when skill is 1</flag>
+<flag key="MONSTERSKILL_NOTMEDIUM" name="NOTMEDIUM" bit="9">Don't spawn this monster when skill is 2</flag>
+<flag key="MONSTERSKILL_NOTHARD" name="NOTHARD" bit="10">Don't spawn this monster when skill is 3</flag>
+</point>
+
+<point name="monster_wyvern" color="1 0 0" box="-20 -20 -58 20 20 20">
+Wyvern. Flies around shooting fireballs
+-------- KEYS --------
+<integer key="health" name="health">monster health amount</integer>
+<integer key="target_range" name="target_range">maximum targeting range. If current target is further away, it will be lost</integer>
+<real key="respawntime" name="respawntime">delay in seconds before re-spawning</real>
+<integer key="monster_moveflags" name="monster_moveflags">move target while not attacking. 2=wander around, 3=spawn location, 4=no moving</integer>
+<target key="target" name="target">disable/enable all relays with this targetname when killed</target>
+<target key="target2" name="target2">follow this target</target>
+<targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
+<integer key="team" name="team">5=red, 14=blue</integer>
+-------- SPAWNFLAGS --------
+<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="6">Spawn as mini-boss (slightly more powerful)</flag>
+<flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="1">Spawn when triggered</flag>
+<flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="2">Don't re-spawn</flag>
+<flag key="MONSTERFLAG_FLY_VERTICAL" name="FLY_VERTICAL" bit="3">Allow flying/swimming monsters to move up/down</flag>
+<flag key="MONSTERFLAG_INFRONT" name="INFRONT" bit="4">Only attack targets infront of the monster</flag>
+<flag key="MONSTERSKILL_NOTEASY" name="NOTEASY" bit="8">Don't spawn this monster when skill is 1</flag>
+<flag key="MONSTERSKILL_NOTMEDIUM" name="NOTMEDIUM" bit="9">Don't spawn this monster when skill is 2</flag>
+<flag key="MONSTERSKILL_NOTHARD" name="NOTHARD" bit="10">Don't spawn this monster when skill is 3</flag>
+</point>
+
+<point name="monster_zombie" color="1 0 0" box="-18 -18 -25 18 18 47">
+Braaaiins!
+-------- KEYS --------
+<integer key="health" name="health">monster health amount</integer>
+<integer key="target_range" name="target_range">maximum targeting range. If current target is further away, it will be lost</integer>
+<real key="respawntime" name="respawntime">delay in seconds before re-spawning</real>
+<integer key="monster_moveflags" name="monster_moveflags">move target while not attacking. 2=wander around, 3=spawn location, 4=no moving</integer>
+<target key="target" name="target">disable/enable all relays with this targetname when killed</target>
+<target key="target2" name="target2">follow this target</target>
+<targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
+<integer key="team" name="team">5=red, 14=blue</integer>
+-------- SPAWNFLAGS --------
+<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="6">Spawn as mini-boss (slightly more powerful)</flag>
+<flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="1">Spawn when triggered</flag>
+<flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="2">Don't re-spawn</flag>
+<flag key="MONSTERFLAG_FLY_VERTICAL" name="FLY_VERTICAL" bit="3">Allow flying/swimming monsters to move up/down</flag>
+<flag key="MONSTERFLAG_INFRONT" name="INFRONT" bit="4">Only attack targets infront of the monster</flag>
+<flag key="MONSTERSKILL_NOTEASY" name="NOTEASY" bit="8">Don't spawn this monster when skill is 1</flag>
+<flag key="MONSTERSKILL_NOTMEDIUM" name="NOTMEDIUM" bit="9">Don't spawn this monster when skill is 2</flag>
+<flag key="MONSTERSKILL_NOTHARD" name="NOTHARD" bit="10">Don't spawn this monster when skill is 3</flag>
 </point>
 
 <group name="nexball_redgoal" color="1 0 0">
