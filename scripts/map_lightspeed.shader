@@ -53,7 +53,7 @@ models/map_lightspeed/lcd_map
 
 textures/map_lightspeed/light_nonglow
 {
-	qer_editorimage textures/map_lightspeed/light/light_1.tga
+	qer_editorimage textures/ex2x/light/light_1.tga
 	
 	q3map_bounceScale  0.75
 	dpoffsetmapping - 0.5
@@ -62,7 +62,7 @@ textures/map_lightspeed/light_nonglow
 
 
 	{
-		map textures/map_lightspeed/light/light_1.tga
+		map textures/ex2x/light/light_1.tga
 		
 
 	}
@@ -76,7 +76,7 @@ textures/map_lightspeed/light_nonglow
 
 textures/map_lightspeed/vines
 {
-	qer_editorimage models/map_lightspeed/vines/vines01.tga
+	qer_editorimage models/desertfactory/textures/misc/vines01.tga
 	surfaceparm nonsolid
 	surfaceparm nodlight
 	surfaceparm nolightmap
@@ -88,7 +88,7 @@ textures/map_lightspeed/vines
 	
 	
 	{
-		map models/map_lightspeed/vines/vines01.tga
+		map models/desertfactory/textures/misc/vines01.tga
 		blendfunc filter
 		alphaFunc GT0
 		rgbGen identity
