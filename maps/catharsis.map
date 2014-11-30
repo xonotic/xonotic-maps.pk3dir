@@ -38341,54 +38341,6 @@ brushDef
 {
 brushDef
 {
-( -864 6944 280 ) ( -800 6752 280 ) ( -800 6944 280 ) ( ( 0.015625 0 0 ) ( 0 -0.015625 0 ) ) common/weapclip 0 0 0
-( -800 6944 344 ) ( -864 6944 280 ) ( -800 6944 280 ) ( ( 0.015625 0 0 ) ( 0 -0.015625 251.125 ) ) common/weapclip 0 0 0
-( -800 6752 280 ) ( -800 6944 344 ) ( -800 6944 280 ) ( ( 0.015625 0 0 ) ( 0 -0.015625 251.125 ) ) common/weapclip 0 0 0
-( -864 6944 344 ) ( -800 6752 344 ) ( -864 6752 344 ) ( ( 0.015625 0 0 ) ( 0 -0.015625 0 ) ) common/weapclip 0 0 0
-( -800 6752 344 ) ( -864 6752 280 ) ( -864 6752 344 ) ( ( 0.015625 0 0 ) ( 0 -0.015625 251.125 ) ) common/weapclip 0 0 0
-( -864 6752 280 ) ( -864 6944 344 ) ( -864 6752 344 ) ( ( 0.015625 0 0 ) ( 0 -0.015625 251.125 ) ) common/weapclip 0 0 0
-( -864 -64 328 ) ( -816 64 280 ) ( -864 64 328 ) ( ( 0.015625 0 0 ) ( 0 -0.0156249972 252.5528411865 ) ) common/weapclip 0 0 0
-( -800 -64 288 ) ( -816 64 304 ) ( -800 64 288 ) ( ( 0.015625 0 0 ) ( 0 -0.0156249972 252.5528411865 ) ) common/weapclip 0 0 0
-}
-}
-{
-brushDef
-{
-( -800 6944 32 ) ( -800 6752 32 ) ( -864 6944 32 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/weapclip 0 0 0
-( -800 6944 32 ) ( -864 6944 32 ) ( -800 6944 -32 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/weapclip 0 0 0
-( -800 6944 32 ) ( -800 6944 -32 ) ( -800 6752 32 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/weapclip 0 0 0
-( -864 6752 -32 ) ( -800 6752 -32 ) ( -864 6944 -32 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/weapclip 0 0 0
-( -864 6752 -32 ) ( -864 6752 32 ) ( -800 6752 -32 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/weapclip 0 0 0
-( -864 6752 -32 ) ( -864 6944 -32 ) ( -864 6752 32 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/weapclip 0 0 0
-( -864 64 -16 ) ( -816 64 32 ) ( -864 -64 -16 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/weapclip 0 0 0
-( -800 64 24 ) ( -816 64 8 ) ( -800 -64 24 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/weapclip 0 0 0
-}
-}
-{
-brushDef
-{
-( 768 368 336 ) ( 712 368 280 ) ( 768 368 280 ) ( ( 0.015625 0 0 ) ( 0 -0.015625 251.125 ) ) common/weapclip 0 0 0
-( 712 368 336 ) ( 768 168 336 ) ( 712 168 336 ) ( ( 0.015625 0 0 ) ( 0 -0.015625 0 ) ) common/weapclip 0 0 0
-( 768 168 336 ) ( 712 168 280 ) ( 712 168 336 ) ( ( 0.015625 0 0 ) ( 0 -0.015625 251.125 ) ) common/weapclip 0 0 0
-( 720 -64 288 ) ( 728 64 296 ) ( 720 64 288 ) ( ( 0.015625 0 0 ) ( 0 -0.0156249972 252.5528564453 ) ) common/weapclip 0 0 0
-( 728 -64 304 ) ( 720 64 296 ) ( 728 64 304 ) ( ( 0.015625 0 0 ) ( 0 -0.0156249972 252.5528564453 ) ) common/weapclip 0 0 0
-( 712 -64 288 ) ( 736 64 280 ) ( 712 64 288 ) ( ( 0.015625 0 0 ) ( 0 -0.015625 254.4583892822 ) ) common/weapclip 0 0 0
-}
-}
-{
-brushDef
-{
-( 768 368 32 ) ( 712 368 32 ) ( 768 368 -24 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/weapclip 0 0 0
-( 712 168 -24 ) ( 768 168 -24 ) ( 712 368 -24 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/weapclip 0 0 0
-( 712 168 -24 ) ( 712 168 32 ) ( 768 168 -24 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/weapclip 0 0 0
-( 720 64 24 ) ( 728 64 16 ) ( 720 -64 24 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/weapclip 0 0 0
-( 728 64 8 ) ( 720 64 16 ) ( 728 -64 8 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/weapclip 0 0 0
-( 712 64 24 ) ( 736 64 32 ) ( 712 -64 24 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/weapclip 0 0 0
-}
-}
-{
-brushDef
-{
 ( 1296 1232 0 ) ( 1296 1232 -160 ) ( 1184 1232 0 ) ( ( 0.015625 0 13.25 ) ( 0 0.015625 2.5 ) ) common/caulk 0 0 0
 ( 1184 1296 -160 ) ( 1184 1232 -160 ) ( 1296 1296 -160 ) ( ( 0 -0.015625 13.25 ) ( 0.015625 0 215.25 ) ) common/caulk 0 0 0
 ( -784 1296 -160 ) ( -784 1280 -144 ) ( -912 1296 -160 ) ( ( -0.00390625 -0 -0.2109375 ) ( 0 -0.00390625 0.6484375 ) ) trak6x/wall-wall6a 0 0 0
@@ -44826,32 +44778,6 @@ brushDef
 }
 {
 "classname" "misc_breakablemodel"
-"origin" "716.002625 7506.077637 -118.293671"
-"model" "models/containers/barrel01.md3"
-"dmg_force" "600"
-"_castShadows" "0"
-"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
-"debrisdamageforcescale" "1"
-"debrisfadetime" "1"
-"debrissolid" "0"
-"dmg_radius" "190"
-"health" "25"
-"mdl" "TE_TEI_BIGEXPLOSION"
-"message" "was killed by an explosive barrel"
-"message2" "was killed with an explosive barrel by"
-"noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "35"
-"respawntimejitter" "10"
-"count" "1"
-"debristime" "6"
-"debristimejitter" "2"
-"dmg" "90"
-"dmg_edge" "35"
-"angles" "9.548835 89.773582 89.466362"
-"modelscale" "1"
-}
-{
-"classname" "misc_breakablemodel"
 "origin" "584.000000 384.000000 -320.000000"
 "model" "models/containers/barrel01.md3"
 "modelscale" "1"
@@ -44870,10 +44796,10 @@ brushDef
 "respawntime" "35"
 "respawntimejitter" "10"
 "count" "1"
-"debristime" "6"
+"debristime" "5"
 "debristimejitter" "2"
-"dmg" "90"
-"dmg_edge" "35"
+"dmg" "25"
+"dmg_edge" "25"
 }
 {
 "classname" "misc_breakablemodel"
@@ -44896,10 +44822,10 @@ brushDef
 "respawntime" "35"
 "respawntimejitter" "10"
 "count" "1"
-"debristime" "2"
+"debristime" "5"
 "debristimejitter" "2"
-"dmg" "90"
-"dmg_edge" "35"
+"dmg" "25"
+"dmg_edge" "25"
 }
 {
 "classname" "misc_breakablemodel"
@@ -44921,10 +44847,10 @@ brushDef
 "respawntime" "35"
 "respawntimejitter" "10"
 "count" "1"
-"debristime" "6"
+"debristime" "5"
 "debristimejitter" "2"
-"dmg" "90"
-"dmg_edge" "35"
+"dmg" "25"
+"dmg_edge" "25"
 "angle" "44.586792"
 }
 {
@@ -44947,10 +44873,10 @@ brushDef
 "respawntime" "35"
 "respawntimejitter" "10"
 "count" "1"
-"debristime" "2"
+"debristime" "5"
 "debristimejitter" "2"
-"dmg" "90"
-"dmg_edge" "35"
+"dmg" "25"
+"dmg_edge" "25"
 "angles" "90.000000 0.000000 39.789391"
 }
 {
@@ -44973,10 +44899,10 @@ brushDef
 "respawntime" "35"
 "respawntimejitter" "10"
 "count" "1"
-"debristime" "2"
+"debristime" "5"
 "debristimejitter" "2"
-"dmg" "90"
-"dmg_edge" "35"
+"dmg" "25"
+"dmg_edge" "25"
 }
 {
 "classname" "misc_breakablemodel"
@@ -44998,10 +44924,10 @@ brushDef
 "respawntime" "35"
 "respawntimejitter" "10"
 "count" "1"
-"debristime" "2"
+"debristime" "5"
 "debristimejitter" "2"
-"dmg" "90"
-"dmg_edge" "35"
+"dmg" "25"
+"dmg_edge" "25"
 "angles" "16.674313 25.786049 -88.020752"
 }
 {
@@ -45024,10 +44950,10 @@ brushDef
 "respawntime" "35"
 "respawntimejitter" "10"
 "count" "1"
-"debristime" "6"
+"debristime" "5"
 "debristimejitter" "2"
-"dmg" "90"
-"dmg_edge" "35"
+"dmg" "25"
+"dmg_edge" "25"
 "modelscale" "1"
 }
 {
@@ -45050,10 +44976,10 @@ brushDef
 "respawntime" "35"
 "respawntimejitter" "10"
 "count" "1"
-"debristime" "6"
+"debristime" "5"
 "debristimejitter" "2"
-"dmg" "90"
-"dmg_edge" "35"
+"dmg" "25"
+"dmg_edge" "25"
 }
 {
 "classname" "misc_breakablemodel"
@@ -45075,10 +45001,10 @@ brushDef
 "respawntime" "35"
 "respawntimejitter" "10"
 "count" "1"
-"debristime" "6"
+"debristime" "5"
 "debristimejitter" "2"
-"dmg" "90"
-"dmg_edge" "35"
+"dmg" "25"
+"dmg_edge" "25"
 "angle" "44.586792"
 }
 {
@@ -45127,10 +45053,10 @@ brushDef
 "respawntime" "35"
 "respawntimejitter" "10"
 "count" "1"
-"debristime" "2"
+"debristime" "5"
 "debristimejitter" "2"
-"dmg" "90"
-"dmg_edge" "35"
+"dmg" "25"
+"dmg_edge" "25"
 }
 {
 "classname" "item_health_small"
@@ -45535,10 +45461,10 @@ brushDef
 "respawntime" "35"
 "respawntimejitter" "10"
 "count" "1"
-"debristime" "2"
+"debristime" "5"
 "debristimejitter" "2"
-"dmg" "90"
-"dmg_edge" "35"
+"dmg" "25"
+"dmg_edge" "25"
 }
 {
 "classname" "misc_breakablemodel"
@@ -45560,10 +45486,10 @@ brushDef
 "respawntime" "35"
 "respawntimejitter" "10"
 "count" "1"
-"debristime" "2"
+"debristime" "5"
 "debristimejitter" "2"
-"dmg" "90"
-"dmg_edge" "35"
+"dmg" "25"
+"dmg_edge" "25"
 }
 {
 "classname" "misc_breakablemodel"
@@ -45585,10 +45511,10 @@ brushDef
 "respawntime" "35"
 "respawntimejitter" "10"
 "count" "1"
-"debristime" "6"
+"debristime" "5"
 "debristimejitter" "2"
-"dmg" "90"
-"dmg_edge" "35"
+"dmg" "25"
+"dmg_edge" "25"
 "angle" "44.586792"
 }
 {
@@ -45611,10 +45537,10 @@ brushDef
 "respawntime" "35"
 "respawntimejitter" "10"
 "count" "1"
-"debristime" "6"
+"debristime" "5"
 "debristimejitter" "2"
-"dmg" "90"
-"dmg_edge" "35"
+"dmg" "25"
+"dmg_edge" "25"
 "angle" "44.586792"
 }
 {
@@ -45637,10 +45563,10 @@ brushDef
 "respawntime" "35"
 "respawntimejitter" "10"
 "count" "1"
-"debristime" "6"
+"debristime" "5"
 "debristimejitter" "2"
-"dmg" "90"
-"dmg_edge" "35"
+"dmg" "25"
+"dmg_edge" "25"
 "angle" "44.586792"
 }
 {
@@ -45663,10 +45589,10 @@ brushDef
 "respawntime" "35"
 "respawntimejitter" "10"
 "count" "1"
-"debristime" "6"
+"debristime" "5"
 "debristimejitter" "2"
-"dmg" "90"
-"dmg_edge" "35"
+"dmg" "25"
+"dmg_edge" "25"
 "angle" "44.586792"
 }
 {
@@ -45713,10 +45639,10 @@ brushDef
 "respawntime" "35"
 "respawntimejitter" "10"
 "count" "1"
-"debristime" "6"
+"debristime" "5"
 "debristimejitter" "2"
-"dmg" "90"
-"dmg_edge" "35"
+"dmg" "25"
+"dmg_edge" "25"
 "modelscale" "1"
 }
 {
@@ -45738,10 +45664,10 @@ brushDef
 "respawntime" "35"
 "respawntimejitter" "10"
 "count" "1"
-"debristime" "6"
+"debristime" "5"
 "debristimejitter" "2"
-"dmg" "90"
-"dmg_edge" "35"
+"dmg" "25"
+"dmg_edge" "25"
 "angles" "9.548835 89.773582 89.466362"
 "modelscale" "1"
 }
@@ -45764,10 +45690,10 @@ brushDef
 "respawntime" "35"
 "respawntimejitter" "10"
 "count" "1"
-"debristime" "6"
+"debristime" "5"
 "debristimejitter" "2"
-"dmg" "90"
-"dmg_edge" "35"
+"dmg" "25"
+"dmg_edge" "25"
 "angles" "9.548835 89.773582 89.466362"
 "modelscale" "1"
 }
@@ -45791,10 +45717,10 @@ brushDef
 "respawntime" "35"
 "respawntimejitter" "10"
 "count" "1"
-"debristime" "2"
+"debristime" "5"
 "debristimejitter" "2"
-"dmg" "90"
-"dmg_edge" "35"
+"dmg" "25"
+"dmg_edge" "25"
 }
 {
 "classname" "misc_breakablemodel"
@@ -45816,10 +45742,10 @@ brushDef
 "respawntime" "35"
 "respawntimejitter" "10"
 "count" "1"
-"debristime" "2"
+"debristime" "5"
 "debristimejitter" "2"
-"dmg" "90"
-"dmg_edge" "35"
+"dmg" "25"
+"dmg_edge" "25"
 }
 {
 "classname" "item_armor_small"
@@ -45851,10 +45777,10 @@ brushDef
 "debrisdamageforcescale" "1"
 "debrisfadetime" "1"
 "debrissolid" "0"
-"debristime" "6"
+"debristime" "5"
 "debristimejitter" "2"
-"dmg" "90"
-"dmg_edge" "35"
+"dmg" "25"
+"dmg_edge" "25"
 "dmg_force" "600"
 "dmg_radius" "190"
 "health" "25"
@@ -45875,10 +45801,10 @@ brushDef
 "debrisdamageforcescale" "1"
 "debrisfadetime" "1"
 "debrissolid" "0"
-"debristime" "6"
+"debristime" "5"
 "debristimejitter" "2"
-"dmg" "90"
-"dmg_edge" "35"
+"dmg" "25"
+"dmg_edge" "25"
 "dmg_force" "600"
 "dmg_radius" "190"
 "health" "25"
@@ -45899,10 +45825,10 @@ brushDef
 "debrisdamageforcescale" "1"
 "debrisfadetime" "1"
 "debrissolid" "0"
-"debristime" "6"
+"debristime" "5"
 "debristimejitter" "2"
-"dmg" "90"
-"dmg_edge" "35"
+"dmg" "25"
+"dmg_edge" "25"
 "dmg_force" "600"
 "dmg_radius" "190"
 "health" "25"
@@ -45924,10 +45850,10 @@ brushDef
 "debrisdamageforcescale" "1"
 "debrisfadetime" "1"
 "debrissolid" "0"
-"debristime" "6"
+"debristime" "5"
 "debristimejitter" "2"
-"dmg" "90"
-"dmg_edge" "35"
+"dmg" "25"
+"dmg_edge" "25"
 "dmg_force" "600"
 "dmg_radius" "190"
 "health" "25"
@@ -45949,10 +45875,10 @@ brushDef
 "debrisdamageforcescale" "1"
 "debrisfadetime" "1"
 "debrissolid" "0"
-"debristime" "6"
+"debristime" "5"
 "debristimejitter" "2"
-"dmg" "90"
-"dmg_edge" "35"
+"dmg" "25"
+"dmg_edge" "25"
 "dmg_force" "600"
 "dmg_radius" "190"
 "health" "25"
@@ -45974,10 +45900,10 @@ brushDef
 "debrisdamageforcescale" "1"
 "debrisfadetime" "1"
 "debrissolid" "0"
-"debristime" "6"
+"debristime" "5"
 "debristimejitter" "2"
-"dmg" "90"
-"dmg_edge" "35"
+"dmg" "25"
+"dmg_edge" "25"
 "dmg_force" "600"
 "dmg_radius" "190"
 "health" "25"
