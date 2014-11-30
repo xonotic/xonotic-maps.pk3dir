@@ -8717,14 +8717,6 @@
 "origin" "1192.000000 1912.000000 528.000000"
 }
 {
-"classname" "weapon_hlac"
-"origin" "552.000000 3840.000000 552.000000"
-}
-{
-"classname" "weapon_hlac"
-"origin" "552.000000 4808.000000 552.000000"
-}
-{
 "classname" "item_armor_small"
 "origin" "2720.000000 4576.000000 544.000000"
 }
@@ -8763,14 +8755,6 @@
 {
 "classname" "item_armor_small"
 "origin" "768.000000 4192.000000 544.000000"
-}
-{
-"classname" "weapon_hlac"
-"origin" "2920.000000 3840.000000 552.000000"
-}
-{
-"classname" "weapon_hlac"
-"origin" "2920.000000 4808.000000 552.000000"
 }
 {
 "classname" "item_health_small"
@@ -9467,4 +9451,24 @@
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "_skin" "1"
 "modelscale" "0.8"
+}
+{
+"classname" "item_buff_random"
+"origin" "552.000000 3840.000000 552.000000"
+"team" "5"
+}
+{
+"classname" "item_buff_random"
+"origin" "2920.000000 3840.000000 552.000000"
+"team" "5"
+}
+{
+"classname" "item_buff_random"
+"origin" "2920.000000 4808.000000 552.000000"
+"team" "14"
+}
+{
+"classname" "item_buff_random"
+"origin" "552.000000 4808.000000 552.000000"
+"team" "14"
 }
