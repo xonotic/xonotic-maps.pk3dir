@@ -574,7 +574,7 @@ modeldisabled=&quot;models/items/g_h25.md3&quot;
 
 <point name="item_health_mega" color=".9 .3 .3" box="-30 -30 0 30 30 48">
 Mega Health (default 100 health points)
-In Minstagib, this randomly turns into either an invisibility, an extra lives or a speed power-up with a default respawn time of 120.
+In Instagib, this randomly turns into either an invisibility, an extra lives or a speed power-up with a default respawn time of 120.
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 30)</real>
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
@@ -605,7 +605,7 @@ modeldisabled=&quot;models/items/g_h1.md3&quot;
 
 <point name="item_invincible" color=".3 .3 1" box="-30 -30 0 30 30 48">
 Strong Shield
-In Minstagib, this randomly turns into either an invisibility, an extra lives or a speed power-up with a default respawn time of 120.
+In Instagib, this randomly turns into either an invisibility, an extra lives or a speed power-up with a default respawn time of 120.
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 120)</real>
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
@@ -671,9 +671,9 @@ Don't use this entity on new maps! Use item_key instead.
 </point>
 
 <point name="item_minst_cells" color=".3 .3 1" box="-30 -30 0 30 30 32">
-Minstagib ammo.
-Always contains 5 (g_minstagib_ammo_drop) shots.
-It only appears when playing Minstagib and prevents auto-replacement of weapon_nex &amp; weapon_rocketlauncher when used.
+Instagib ammo.
+Always contains 5 (g_instagib_ammo_drop) shots.
+It only appears when playing Instagib and prevents auto-replacement of weapon_nex &amp; weapon_rocketlauncher when used.
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 45)</real>
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
@@ -715,7 +715,7 @@ modeldisabled=&quot;models/items/a_shells.md3&quot;
 
 <point name="item_strength" color=".3 .3 1" box="-30 -30 0 30 30 48">
 Strength aka Quad damage
-In Minstagib, this randomly turns into either an invisibility, an extra lives or a speed power-up with a default respawn time of 120.
+In Instagib, this randomly turns into either an invisibility, an extra lives or a speed power-up with a default respawn time of 120.
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 120)</real>
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
@@ -1380,7 +1380,7 @@ modeldisabled=&quot;models/weapons/g_laser.md3&quot;
 
 <point name="weapon_nex" color="1 0 .5" box="-30 -30 0 30 30 32">
 the Nex
-In Minstagib, this turns into an item_minst_cells if no explicit item_minst_cells have been placed.
+In Instagib, this turns into an item_minst_cells if no explicit item_minst_cells have been placed.
 -------- KEYS --------
 <real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, g_pickup_cells is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15 * g_balance_nex_respawntime_modifier)</real>
@@ -1395,7 +1395,7 @@ modeldisabled=&quot;models/weapons/g_nex.md3&quot;
 
 <point name="weapon_rocketlauncher" color="1 0 .5" box="-30 -30 0 30 30 32">
 the Rocket Launcher
-In Minstagib, this turns into an item_minst_cells if no explicit item_minst_cells have been placed.
+In Instagib, this turns into an item_minst_cells if no explicit item_minst_cells have been placed.
 -------- KEYS --------
 <real key="ammo_rockets" name="ammo_rockets">initial rockets of the weapon (if unset, g_pickup_rockets is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
@@ -1592,7 +1592,7 @@ Makes one entity follow another. Will not work with all entities.
 
 <point name="weapon_minstanex" color="1 0 .5" box="-30 -30 0 30 30 32">
 Placing this entity on a map kills your cat, voids the warranty on your toaster, and makes your map an unenjoyable campers' paradise.
-the MinstaGib Nex. Always kills with one shot.
+the InstaGib Nex. Always kills with one shot.
 -------- KEYS --------
 <real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, g_pickup_cells is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>

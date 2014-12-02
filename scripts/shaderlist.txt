@@ -1,5 +1,6 @@
 alphamod
 common
+crystals
 decals
 effects_beam
 effects_forcefield
@@ -18,6 +19,7 @@ liquids_lava
 liquids_slime
 liquids_water
 logos
+map_catharsis
 map_courtfun
 map_darkzone
 map_g-23
