@@ -75,3 +75,18 @@ textures/map_go/pipe1_red
 		blendfunc GL_SRC_ALPHA GL_ONE
 	}
 }
+
+textures/map_go/extragalactic_nebulae_reduced
+{
+	qer_editorimage textures/map_go/extragalactic_nebulae_reduced.jpg
+	surfaceparm sky
+	surfaceparm nolightmap
+	surfaceparm nodlight
+	surfaceparm noimpact
+	surfaceparm nomarks
+
+	skyparms env/extragalactic_reduced/nebulae - - //farbox cloudheight nearbox
+    q3map_skyLight 40 4 //amount iterations
+	q3map_sunExt 1 0.9 0.8 300 66 36 3 16 //rgb intensity degrees elevation deviance samples
+	q3map_skylight 40 4
+}

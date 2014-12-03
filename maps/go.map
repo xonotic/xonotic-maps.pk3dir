@@ -18329,22 +18329,22 @@ map_go/jumppadfx_blue
 {
 "classname" "light"
 "origin" "-208.000000 1424.000000 -112.000000"
-"light" "50"
+"light" "25"
 }
 {
 "classname" "light"
 "origin" "-208.000000 1424.000000 -400.000000"
-"light" "50"
+"light" "25"
 }
 {
 "classname" "light"
 "origin" "-208.000000 1424.000000 -752.000000"
-"light" "50"
+"light" "25"
 }
 {
 "classname" "light"
 "origin" "-208.000000 1424.000000 -1040.000000"
-"light" "50"
+"light" "25"
 }
 {
 "classname" "item_armor_small"
@@ -18764,7 +18764,7 @@ map_go/jumppadfx_blue
 }
 {
 "classname" "target_position"
-"origin" "952.000000 264.000000 192.000000"
+"origin" "960.000000 256.000000 192.000000"
 "targetname" "target_position24"
 }
 {
@@ -19266,15 +19266,15 @@ map_go/jumppadfx_blue
 }
 {
 "classname" "misc_model"
-"origin" "816.000000 3024.000000 968.000000"
+"origin" "816.000061 3023.999756 968.000000"
 "model" "models/ventilation/ventpanel1.ase"
-"angle" "90.000000"
+"angle" "-89.999992"
 }
 {
 "classname" "misc_model"
-"origin" "816.000000 3024.000000 648.000000"
+"origin" "816.000061 3023.999756 648.000000"
 "model" "models/ventilation/ventpanel1.ase"
-"angle" "90.000000"
+"angle" "-89.999992"
 }
 {
 "classname" "func_clientillusionary"
@@ -19604,22 +19604,22 @@ map_go/jumppadfx_blue
 {
 "classname" "light"
 "origin" "2384.000000 3824.000000 -112.000000"
-"light" "50"
+"light" "25"
 }
 {
 "classname" "light"
 "origin" "2384.000000 3824.000000 -400.000000"
-"light" "50"
+"light" "25"
 }
 {
 "classname" "light"
 "origin" "2384.000000 3824.000000 -752.000000"
-"light" "50"
+"light" "25"
 }
 {
 "classname" "light"
 "origin" "2384.000000 3824.000000 -1040.000000"
-"light" "50"
+"light" "25"
 }
 {
 "classname" "item_armor_small"
@@ -20056,7 +20056,7 @@ map_go/jumppadfx_blue
 }
 {
 "classname" "target_position"
-"origin" "1224.000000 4984.000000 192.000000"
+"origin" "1216.000000 4992.000000 192.000000"
 "targetname" "target_position49"
 "angle" "-179.999985"
 }
@@ -20497,15 +20497,15 @@ map_go/jumppadfx_blue
 }
 {
 "classname" "misc_model"
-"origin" "1360.000000 2224.000000 968.000000"
+"origin" "1360.000244 2224.000000 968.000000"
 "model" "models/ventilation/ventpanel1.ase"
-"angle" "-90.000000"
+"angle" "90.000000"
 }
 {
 "classname" "misc_model"
-"origin" "1360.000000 2224.000000 648.000000"
+"origin" "1360.000244 2224.000000 648.000000"
 "model" "models/ventilation/ventpanel1.ase"
-"angle" "-90.000000"
+"angle" "90.000000"
 }
 {
 "classname" "func_clientillusionary"
