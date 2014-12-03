@@ -18329,22 +18329,22 @@ map_go/jumppadfx_blue
 {
 "classname" "light"
 "origin" "-208.000000 1424.000000 -112.000000"
-"light" "25"
+"light" "50"
 }
 {
 "classname" "light"
 "origin" "-208.000000 1424.000000 -400.000000"
-"light" "25"
+"light" "50"
 }
 {
 "classname" "light"
 "origin" "-208.000000 1424.000000 -752.000000"
-"light" "25"
+"light" "50"
 }
 {
 "classname" "light"
 "origin" "-208.000000 1424.000000 -1040.000000"
-"light" "25"
+"light" "50"
 }
 {
 "classname" "item_armor_small"
@@ -18790,73 +18790,73 @@ map_go/jumppadfx_blue
 {
 "classname" "light"
 "origin" "352.000000 480.000000 -352.000000"
-"light" "50"
+"light" "30"
 "_color" "1 0.918914 0.695033"
 }
 {
 "classname" "light"
 "origin" "416.000000 480.000000 -352.000000"
-"light" "50"
+"light" "30"
 "_color" "1 0.918914 0.695033"
 }
 {
 "classname" "light"
 "origin" "352.000000 480.000000 -224.000000"
-"light" "50"
+"light" "30"
 "_color" "1 0.918914 0.695033"
 }
 {
 "classname" "light"
 "origin" "416.000000 480.000000 -224.000000"
-"light" "50"
+"light" "30"
 "_color" "1 0.918914 0.695033"
 }
 {
 "classname" "light"
 "origin" "352.000000 480.000000 -96.000000"
-"light" "50"
+"light" "30"
 "_color" "1 0.918914 0.695033"
 }
 {
 "classname" "light"
 "origin" "416.000000 480.000000 -96.000000"
-"light" "50"
+"light" "30"
 "_color" "1 0.918914 0.695033"
 }
 {
 "classname" "light"
 "origin" "352.000000 480.000000 32.000000"
-"light" "50"
+"light" "30"
 "_color" "1 0.918914 0.695033"
 }
 {
 "classname" "light"
 "origin" "416.000000 480.000000 32.000000"
-"light" "50"
+"light" "30"
 "_color" "1 0.918914 0.695033"
 }
 {
 "classname" "light"
 "origin" "352.000000 480.000000 160.000000"
-"light" "50"
+"light" "30"
 "_color" "1 0.918914 0.695033"
 }
 {
 "classname" "light"
 "origin" "416.000000 480.000000 160.000000"
-"light" "50"
+"light" "30"
 "_color" "1 0.918914 0.695033"
 }
 {
 "classname" "light"
 "origin" "352.000000 480.000000 288.000000"
-"light" "50"
+"light" "30"
 "_color" "1 0.918914 0.695033"
 }
 {
 "classname" "light"
 "origin" "416.000000 480.000000 288.000000"
-"light" "50"
+"light" "30"
 "_color" "1 0.918914 0.695033"
 }
 {
@@ -19139,42 +19139,42 @@ map_go/jumppadfx_blue
 {
 "classname" "light"
 "origin" "840.000000 2624.000000 720.000000"
-"light" "20"
+"light" "10"
 }
 {
 "classname" "light"
 "origin" "728.000000 2624.000000 720.000000"
-"light" "20"
+"light" "10"
 }
 {
 "classname" "light"
 "origin" "784.000000 2696.000000 720.000000"
-"light" "20"
+"light" "10"
 }
 {
 "classname" "light"
 "origin" "784.000000 2552.000000 720.000000"
-"light" "20"
+"light" "10"
 }
 {
 "classname" "light"
 "origin" "840.000000 2624.000000 1040.000000"
-"light" "20"
+"light" "10"
 }
 {
 "classname" "light"
 "origin" "728.000000 2624.000000 1040.000000"
-"light" "20"
+"light" "10"
 }
 {
 "classname" "light"
 "origin" "784.000000 2696.000000 1040.000000"
-"light" "20"
+"light" "10"
 }
 {
 "classname" "light"
 "origin" "784.000000 2552.000000 1040.000000"
-"light" "20"
+"light" "10"
 }
 {
 "classname" "misc_model"
@@ -19604,22 +19604,22 @@ map_go/jumppadfx_blue
 {
 "classname" "light"
 "origin" "2384.000000 3824.000000 -112.000000"
-"light" "25"
+"light" "50"
 }
 {
 "classname" "light"
 "origin" "2384.000000 3824.000000 -400.000000"
-"light" "25"
+"light" "50"
 }
 {
 "classname" "light"
 "origin" "2384.000000 3824.000000 -752.000000"
-"light" "25"
+"light" "50"
 }
 {
 "classname" "light"
 "origin" "2384.000000 3824.000000 -1040.000000"
-"light" "25"
+"light" "50"
 }
 {
 "classname" "item_armor_small"
@@ -20083,73 +20083,73 @@ map_go/jumppadfx_blue
 {
 "classname" "light"
 "origin" "1824.000000 4768.000000 -352.000000"
-"light" "50"
+"light" "30"
 "_color" "1 0.918914 0.695033"
 }
 {
 "classname" "light"
 "origin" "1760.000000 4768.000000 -352.000000"
-"light" "50"
+"light" "30"
 "_color" "1 0.918914 0.695033"
 }
 {
 "classname" "light"
 "origin" "1824.000000 4768.000000 -224.000000"
-"light" "50"
+"light" "30"
 "_color" "1 0.918914 0.695033"
 }
 {
 "classname" "light"
 "origin" "1760.000000 4768.000000 -224.000000"
-"light" "50"
+"light" "30"
 "_color" "1 0.918914 0.695033"
 }
 {
 "classname" "light"
 "origin" "1824.000000 4768.000000 -96.000000"
-"light" "50"
+"light" "30"
 "_color" "1 0.918914 0.695033"
 }
 {
 "classname" "light"
 "origin" "1760.000000 4768.000000 -96.000000"
-"light" "50"
+"light" "30"
 "_color" "1 0.918914 0.695033"
 }
 {
 "classname" "light"
 "origin" "1824.000000 4768.000000 32.000000"
-"light" "50"
+"light" "30"
 "_color" "1 0.918914 0.695033"
 }
 {
 "classname" "light"
 "origin" "1760.000000 4768.000000 32.000000"
-"light" "50"
+"light" "30"
 "_color" "1 0.918914 0.695033"
 }
 {
 "classname" "light"
 "origin" "1824.000000 4768.000000 160.000000"
-"light" "50"
+"light" "30"
 "_color" "1 0.918914 0.695033"
 }
 {
 "classname" "light"
 "origin" "1760.000000 4768.000000 160.000000"
-"light" "50"
+"light" "30"
 "_color" "1 0.918914 0.695033"
 }
 {
 "classname" "light"
 "origin" "1824.000000 4768.000000 288.000000"
-"light" "50"
+"light" "30"
 "_color" "1 0.918914 0.695033"
 }
 {
 "classname" "light"
 "origin" "1760.000000 4768.000000 288.000000"
-"light" "50"
+"light" "30"
 "_color" "1 0.918914 0.695033"
 }
 {
@@ -20390,42 +20390,42 @@ map_go/jumppadfx_blue
 {
 "classname" "light"
 "origin" "1336.000000 2624.000000 720.000000"
-"light" "20"
+"light" "10"
 }
 {
 "classname" "light"
 "origin" "1448.000000 2624.000000 720.000000"
-"light" "20"
+"light" "10"
 }
 {
 "classname" "light"
 "origin" "1392.000000 2552.000000 720.000000"
-"light" "20"
+"light" "10"
 }
 {
 "classname" "light"
 "origin" "1392.000000 2696.000000 720.000000"
-"light" "20"
+"light" "10"
 }
 {
 "classname" "light"
 "origin" "1336.000000 2624.000000 1040.000000"
-"light" "20"
+"light" "10"
 }
 {
 "classname" "light"
 "origin" "1448.000000 2624.000000 1040.000000"
-"light" "20"
+"light" "10"
 }
 {
 "classname" "light"
 "origin" "1392.000000 2552.000000 1040.000000"
-"light" "20"
+"light" "10"
 }
 {
 "classname" "light"
 "origin" "1392.000000 2696.000000 1040.000000"
-"light" "20"
+"light" "10"
 }
 {
 "classname" "light"
