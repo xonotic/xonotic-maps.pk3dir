@@ -44259,7 +44259,7 @@ brushDef
 {
 "classname" "misc_model"
 "origin" "-96.000000 7104.000000 0.000000"
-"model" "models/terrain.ase"
+"model" "models/map_catharsis/terrain.ase"
 "modelscale" "1.111111"
 "spawnflags" "2"
 "angle" "-179.999985"
