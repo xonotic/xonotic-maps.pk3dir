@@ -44278,7 +44278,7 @@ brushDef
 {
 "classname" "misc_model"
 "origin" "8.000000 0.000000 0.000000"
-"model" "models/terrain.ase"
+"model" "models/map_catharsis/terrain.ase"
 "modelscale" "1.111111"
 "spawnflags" "2"
 "_castshadows" "1"
