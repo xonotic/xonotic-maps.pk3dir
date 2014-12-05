@@ -44269,7 +44269,7 @@ brushDef
 {
 "classname" "misc_model"
 "origin" "16.000000 -8.000000 0.000000"
-"model" "models/skarpa.ase"
+"model" "models/map_catharsis/skarpa.ase"
 "modelscale" "1.111111"
 "spawnflags" "2"
 "_castshadows" "1"
@@ -45413,7 +45413,7 @@ brushDef
 {
 "classname" "misc_model"
 "origin" "-112.000000 7104.000000 0.000000"
-"model" "models/skarpa.ase"
+"model" "models/map_catharsis/skarpa.ase"
 "modelscale" "1.111111"
 "spawnflags" "2"
 "angle" "-179.999985"
