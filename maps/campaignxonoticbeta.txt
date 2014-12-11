@@ -10,7 +10,7 @@
 "dm","solarium","8","5","15",,"g_nix 1","[Special] Deathmatch: Solarium","NIX: In this mutator everyone will spawn with the same weapon, but the weapon will change randomly after some time."
 "ka","stormkeep","6","6","15",,,"Keepaway: Stormkeep","Pick up the ball and frag everything that moves!\nHint: You can shoot through warpzones!"
 "ctf","vorix","11","6","5",,"g_grappling_hook 1","[Special] Capture the Flag: Vorix","Grappling Hook: Press 'e' (default key) to use it. Shoot it at walls and it will pull you quickly."
-"rc","leave_em_behind","0","0","2400",,,"Race: Leave'em behind","It's a race, so run as fast as you can! You can try to boost yourself with the Laser if you shoot at the wall or under your feet. Also hold your Jump key to gain speed ('Bunnyhopping').\nTo proceed you need to get a time under 24 seconds."
+"cts","leave_em_behind","0","0","2400",,,"Race CTS: Leave'em behind","It's a race, so run as fast as you can! You can try to boost yourself with the Laser if you shoot at the wall or under your feet. Also hold your Jump key to gain speed ('Bunnyhopping').\nTo proceed you need to get a time under 24 seconds."
 "dm","drain","6","6","15",,"g_instagib 1","[Special] Deathmatch: Drain","InstaGib! Everyone has got one weapon - the MinstaNex.\nYour opponent will be dead if you hit him with it (unless he picked up a powerup like 'Extra Life')."
 "ctf","abyss","13","6","5",,,"Capture the Flag: Abyss","Since CTF is one of the most popular gamemodes, one more level to practise it."
 "lms","glowplant","6","6","9",,,"Last Man Standing: Glow Plant","You will have 9 lives in this gamemode and the goal is not to run out of lives before the others do!\n= The last man standing"
