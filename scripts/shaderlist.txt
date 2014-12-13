@@ -12,6 +12,7 @@ effects_warpzone
 ex2x
 exomorphx
 exx
+exx_reflections_off
 facility114invx
 facility114x
 glassx
