@@ -7990,7 +7990,7 @@
 }
 }
 {
-"classname" "turret_flac"
+"classname" "dotc_turret"
 "angle" "180"
 "targetname" "t61"
 "origin" "9536 4960 64"
