@@ -7013,17 +7013,13 @@
 "classname" "turret_mlrs"
 "angle" "270"
 "origin" "5552 6464 96"
+"team" "14"
 }
 {
 "classname" "turret_plasma_dual"
 "angle" "180"
 "origin" "9504 5312 288"
 "team" "14"
-}
-{
-"classname" "dotc_blue_core"
-"angle" "-179.999985"
-"origin" "10496.000000 4416.000000 -24.000000"
 }
 {
 "classname" "trigger_teleport"
@@ -7698,6 +7694,7 @@
 "classname" "turret_mlrs"
 "origin" "5552 2368 96"
 "angle" "270"
+"team" "14"
 }
 {
 "classname" "func_group"
@@ -8084,6 +8081,7 @@
 "classname" "turret_mlrs"
 "origin" "-2048 9968 96"
 "angle" "270"
+"team" "5"
 }
 {
 "classname" "turret_plasma_dual"
@@ -8093,7 +8091,7 @@
 }
 {
 "classname" "trigger_teleport"
-"target" "red_port_bottom_2"
+"target" "red_port_bottom_1"
 {
 ( -896 11904 704 ) ( -960 11904 512 ) ( -960 12000 512 ) common/trigger 0 0 0 0.25 0.25 0 7 0
 ( -896 11936 544 ) ( -896 11936 736 ) ( -736 11936 736 ) common/trigger 0 0 0 0.25 0.25 0 7 0
@@ -8407,7 +8405,7 @@
 }
 {
 "classname" "trigger_teleport"
-"target" "red_port_top_1"
+"target" "red_port_top_2"
 {
 ( 704 11920 0 ) ( 704 12016 0 ) ( 768 12016 192 ) common/trigger 0 0 0 0.25 0.25 0 7 0
 ( 928 12016 192 ) ( 768 12016 192 ) ( 768 12016 0 ) common/trigger 0 0 0 0.25 0.25 0 7 0
@@ -8419,7 +8417,7 @@
 }
 {
 "classname" "trigger_teleport"
-"target" "red_port_bottom_1"
+"target" "red_port_bottom_2"
 {
 ( 960 11904 512 ) ( 960 12000 512 ) ( 704 12000 512 ) common/trigger 0 0 0 0.25 0.25 0 7 0
 ( 896 12000 704 ) ( 896 11904 704 ) ( 736 11904 704 ) common/trigger 0 0 0 0.25 0.25 0 7 0
@@ -8752,6 +8750,7 @@
 "classname" "turret_mlrs"
 "angle" "270"
 "origin" "2048 9968 96"
+"team" "5"
 }
 {
 "classname" "func_group"
@@ -36258,7 +36257,7 @@ exx/base-metal05rust
 }
 {
 "classname" "trigger_teleport"
-"target" "red_port_top_2"
+"target" "red_port_top_1"
 {
 ( -960 12016 0 ) ( -960 11920 0 ) ( -704 11920 0 ) common/trigger 0 0 0 0.25 0.25 0 7 0
 ( -896 11920 192 ) ( -896 12016 192 ) ( -736 12016 192 ) common/trigger 0 0 0 0.25 0.25 0 7 0
@@ -42935,7 +42934,7 @@ exx/base-metal05rust
 "classname" "misc_teleporter_dest"
 "origin" "832.000000 12088.000000 24.000000"
 "angle" "90.000000"
-"targetname" "red_port_bottom_1"
+"targetname" "red_port_bottom_2"
 }
 {
 "classname" "misc_teleporter_dest"
@@ -43029,32 +43028,37 @@ exx/base-metal05rust
 "angle" "-179.999985"
 }
 {
-"classname" "info_player_team2"
+"classname" "info_player_team1"
 "origin" "784.000000 13616.000000 56.000000"
 "angle" "-90.000000"
 }
 {
-"classname" "info_player_team2"
-"origin" "488.000000 15384.000000 56.000000"
-"angle" "-90.000000"
-}
-{
-"classname" "info_player_team2"
+"classname" "info_player_team1"
 "origin" "640.000000 12000.000000 544.000000"
 "angle" "-90.000000"
 }
 {
-"classname" "info_player_team2"
-"origin" "-496.000000 15328.000000 56.000000"
-"angle" "-90.000000"
-}
-{
-"classname" "info_player_team2"
+"classname" "info_player_team1"
 "origin" "-744.000000 13736.000000 56.000000"
 "angle" "-90.000000"
 }
 {
-"classname" "info_player_team2"
+"classname" "info_player_team1"
 "origin" "-648.000000 12000.000000 544.000000"
 "angle" "-90.000000"
+}
+{
+"classname" "info_player_team1"
+"origin" "488.000000 15384.000000 56.000000"
+"angle" "-90.000000"
+}
+{
+"classname" "info_player_team1"
+"origin" "-496.000000 15328.000000 56.000000"
+"angle" "-90.000000"
+}
+{
+"classname" "dotc_core_blue"
+"angle" "-179.999985"
+"origin" "10496.000000 4416.000000 -24.000000"
 }
