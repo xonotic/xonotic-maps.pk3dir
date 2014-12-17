@@ -1,0 +1,20 @@
+title Arahia
+description Battleground on forgotten planet
+author Morphed
+has weapons
+type dom 1000 45
+type ons 20
+cdtrack out-there
+settemp_for_type all g_weapon_stay 1
+settemp_for_type all g_domination_point_rate 2
+settemp_for_type all g_domination_teams_override 2
+settemp_for_type all g_turrets_unit_plasma_dual_target_range 2250
+settemp_for_type all g_turrets_unit_walker_std_target_range 2750
+settemp_for_type all g_turrets_unit_ewheel_std_target_range 2750
+settemp_for_type all g_turrets_unit_flac_std_target_range 2500
+settemp_for_type all g_turrets_unit_hellion_std_target_range 3000
+settemp_for_type all g_turrets_unit_hk_std_target_range 3000
+settemp_for_type all g_turrets_unit_machinegun_std_target_range 2500
+settemp_for_type all g_turrets_unit_mlrs_std_target_range 1750
+settemp_for_type all g_turrets_unit_phaser_std_target_range 1750
+settemp_for_type all g_turrets_unit_plasma_std_target_range 2000
