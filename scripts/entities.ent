@@ -1121,9 +1121,77 @@ The sound name may also be of the form *soundname, and in that case the respecti
 
 <point name="invasion_spawnpoint" color="1 0.5 0" box="-16 -16 -24 16 16 45">
 Monster spawnpoint in Invasion
--------- KEYS --------
--------- SPAWNFLAGS --------
 </point>
+
+
+<point name="dotc_factory_red" color="1 0 0" box="-128 -128 0 128 128 128">
+Defense of the Core - Red drone factory
+
+Factories must point to a valid dotc_dronepath entity
+
+-------- KEYS --------
+<target key="target" name="target">trigger all entities with this targetname when triggered</target>
+<real key="health" name="health">health limit for this factory, should match other team's factory</real>
+<string key="netname" name="netname">name of this factory, leave blank for default team based name</string>
+</point>
+
+<point name="dotc_factory_blue" color="0 0 1" box="-128 -128 0 128 128 128">
+Defense of the Core - Blue drone factory
+
+Factories must point to a valid dotc_dronepath entity
+
+-------- KEYS --------
+<target key="target" name="target">trigger all entities with this targetname when triggered</target>
+<real key="health" name="health">health limit for this factory, should match other team's factory</real>
+<string key="netname" name="netname">name of this factory, leave blank for default team based name</string>
+</point>
+
+<point name="dotc_core_red" color="1 0 0" box="-128 -128 0 128 128 128">
+Defense of the Core - Red core
+
+This entity is the center of the gamemode, when it is destroyed, the match is over
+Place only one of these on your map, no targets need to be set
+
+-------- KEYS --------
+<real key="health" name="health">health limit for this core, should match other team's core</real>
+<string key="netname" name="netname">name of this core, leave blank for default team based name</string>
+</point>
+
+<point name="dotc_core_blue" color="0 0 1" box="-128 -128 0 128 128 128">
+Defense of the Core - Blue core
+
+This entity is the center of the gamemode, when it is destroyed, the match is over
+Place only one of these on your map, no targets need to be set
+
+-------- KEYS --------
+<real key="health" name="health">health limit for this core, should match other team's core</real>
+<string key="netname" name="netname">name of this core, leave blank for default team based name</string>
+</point>
+
+<point name="dotc_dronepath" color="0.5 0 0.5" box="-8 -8 -8 8 8 8">
+Defense of the Core - Drone path
+
+Must be linked to a drone factory and/or another dotc_dronepath
+The last dotc_dronepath in the line does not need a target set
+
+-------- KEYS --------
+<target key="target" name="target">trigger all entities with this targetname when triggered</target>
+<targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
+</point>
+
+<point name="dotc_spawnitems" color="0.5 0 0.5" box="-8 -8 -8 8 8 8">
+Defense of the Core - Player start items
+
+Must be linked to an item
+Gives players starting items depending on core level
+May point to multiple items
+
+-------- KEYS --------
+<target key="target" name="target">trigger all entities with this targetname when triggered</target>
+<real key="cnt" name="cnt">minimum level at which this item is used</real>
+<real key="count" name="count">maximum level at which this item is used</real>
+</point>
+
 
 <group name="trigger_counter" color=".5 .5 .5">
 Acts as an intermediary for an action that takes multiple inputs.
