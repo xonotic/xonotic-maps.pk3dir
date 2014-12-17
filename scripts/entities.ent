@@ -1146,6 +1146,28 @@ Factories must point to a valid dotc_dronepath entity
 <string key="netname" name="netname">name of this factory, leave blank for default team based name</string>
 </point>
 
+<point name="dotc_factory_yellow" color="1 1 0" box="-128 -128 0 128 128 128">
+Defense of the Core - Yellow drone factory
+
+Factories must point to a valid dotc_dronepath entity
+
+-------- KEYS --------
+<target key="target" name="target">trigger all entities with this targetname when triggered</target>
+<real key="health" name="health">health limit for this factory, should match other team's factory</real>
+<string key="netname" name="netname">name of this factory, leave blank for default team based name</string>
+</point>
+
+<point name="dotc_factory_pink" color="1 0 1" box="-128 -128 0 128 128 128">
+Defense of the Core - Pink drone factory
+
+Factories must point to a valid dotc_dronepath entity
+
+-------- KEYS --------
+<target key="target" name="target">trigger all entities with this targetname when triggered</target>
+<real key="health" name="health">health limit for this factory, should match other team's factory</real>
+<string key="netname" name="netname">name of this factory, leave blank for default team based name</string>
+</point>
+
 <point name="dotc_core_red" color="1 0 0" box="-128 -128 0 128 128 128">
 Defense of the Core - Red core
 

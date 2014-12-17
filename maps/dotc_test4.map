@@ -42998,3 +42998,63 @@ exx/base-metal05rust
 "origin" "9920.000000 3584.000000 8.000000"
 "angle" "-179.999985"
 }
+{
+"classname" "info_player_team2"
+"origin" "9192.000000 3632.000000 56.000000"
+"angle" "-179.999985"
+}
+{
+"classname" "info_player_team2"
+"origin" "10960.000000 3928.000000 56.000000"
+"angle" "-180.000000"
+}
+{
+"classname" "info_player_team2"
+"origin" "7576.000000 3776.000000 544.000000"
+"angle" "-179.999985"
+}
+{
+"classname" "info_player_team2"
+"origin" "10904.000000 4912.000000 56.000000"
+"angle" "-179.999985"
+}
+{
+"classname" "info_player_team2"
+"origin" "9312.000000 5160.000000 56.000000"
+"angle" "-179.999985"
+}
+{
+"classname" "info_player_team2"
+"origin" "7576.000000 5064.000000 544.000000"
+"angle" "-179.999985"
+}
+{
+"classname" "info_player_team2"
+"origin" "784.000000 13616.000000 56.000000"
+"angle" "-90.000000"
+}
+{
+"classname" "info_player_team2"
+"origin" "488.000000 15384.000000 56.000000"
+"angle" "-90.000000"
+}
+{
+"classname" "info_player_team2"
+"origin" "640.000000 12000.000000 544.000000"
+"angle" "-90.000000"
+}
+{
+"classname" "info_player_team2"
+"origin" "-496.000000 15328.000000 56.000000"
+"angle" "-90.000000"
+}
+{
+"classname" "info_player_team2"
+"origin" "-744.000000 13736.000000 56.000000"
+"angle" "-90.000000"
+}
+{
+"classname" "info_player_team2"
+"origin" "-648.000000 12000.000000 544.000000"
+"angle" "-90.000000"
+}
