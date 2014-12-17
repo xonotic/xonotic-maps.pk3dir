@@ -42990,13 +42990,13 @@ exx/base-metal05rust
 "classname" "dotc_factory_blue"
 "target" "t62"
 "origin" "9920.000000 5248.000000 8.000000"
-"angle" "-180.000000"
+"angle" "-89.999992"
 }
 {
 "classname" "dotc_factory_blue"
 "target" "t63"
 "origin" "9920.000000 3584.000000 8.000000"
-"angle" "0.000016"
+"angle" "90.000000"
 }
 {
 "classname" "info_player_team2"
