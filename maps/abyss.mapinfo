@@ -5,3 +5,4 @@ cdtrack 14
 has weapons
 gametype ctf
 clientsettemp_for_type all r_water 1
+hidden
