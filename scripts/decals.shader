@@ -1,6 +1,7 @@
 textures/decals/scorch01
 {
 	qer_editorimage textures/decals/scorch01
+	dpoffsetmapping none
 
 	surfaceparm trans
 	surfaceparm nonsolid
