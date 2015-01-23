@@ -7,7 +7,6 @@ has weapons
 // uncomment this if you added vehicles: has vehicles
 gametype dm // defaults: timelimit=20 pointlimit=30 leadlimit=0
 gametype lms // defaults: timelimit=20 lives=9 leadlimit=0
-gametype arena // defaults: timelimit=20 pointlimit=10 leadlimit=0
 gametype ka // defaults: timelimit=20 pointlimit=30
 gametype kh
 gametype ft
