@@ -1,2 +1,3 @@
 maps/*.bsp
 maps/*/lm_*.tga
+.DS_Store
