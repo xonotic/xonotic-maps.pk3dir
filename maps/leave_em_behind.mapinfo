@@ -1,9 +1,11 @@
-title Leave'em behind
+title Leave'em Behind
 description A very small race map
-author C.Brutail, Cortez
+author CuBe0wL, Cortez
 cdtrack 11
-settemp_for_type all g_start_weapon_shotgun 0
-//settemp_for_type all g_start_weapon_laser 0
+settemp_for_type all g_balance_shotgun_weaponstart 0
+settemp_for_type all g_balance_shotgun_weaponoverride 1
+//settemp_for_type all g_balance_blaster_wepaonstart 0
+//settemp_for_type all g_balance_blaster_wepaonstartoverride 1
 // uncomment this if you added weapon pickups: has weapons
 gametype rc timelimit=10 qualifying_timelimit=5
 gametype cts
