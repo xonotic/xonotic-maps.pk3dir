@@ -574,7 +574,7 @@ modeldisabled=&quot;models/items/g_h25.md3&quot;
 
 <point name="item_health_mega" color=".9 .3 .3" box="-30 -30 0 30 30 48">
 Mega Health (default 100 health points)
-In Minstagib, this randomly turns into either an invisibility, an extra lives or a speed power-up with a default respawn time of 120.
+In Instagib, this randomly turns into either an invisibility, an extra lives or a speed power-up with a default respawn time of 120.
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 30)</real>
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
@@ -605,7 +605,7 @@ modeldisabled=&quot;models/items/g_h1.md3&quot;
 
 <point name="item_invincible" color=".3 .3 1" box="-30 -30 0 30 30 48">
 Strong Shield
-In Minstagib, this randomly turns into either an invisibility, an extra lives or a speed power-up with a default respawn time of 120.
+In Instagib, this randomly turns into either an invisibility, an extra lives or a speed power-up with a default respawn time of 120.
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 120)</real>
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
@@ -671,9 +671,9 @@ Don't use this entity on new maps! Use item_key instead.
 </point>
 
 <point name="item_minst_cells" color=".3 .3 1" box="-30 -30 0 30 30 32">
-Minstagib ammo.
-Always contains 5 (g_minstagib_ammo_drop) shots.
-It only appears when playing Minstagib and prevents auto-replacement of weapon_nex &amp; weapon_rocketlauncher when used.
+Instagib ammo.
+Always contains 5 (g_instagib_ammo_drop) shots.
+It only appears when playing Instagib and prevents auto-replacement of weapon_nex &amp; weapon_rocketlauncher when used.
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 45)</real>
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
@@ -715,7 +715,7 @@ modeldisabled=&quot;models/items/a_shells.md3&quot;
 
 <point name="item_strength" color=".3 .3 1" box="-30 -30 0 30 30 48">
 Strength aka Quad damage
-In Minstagib, this randomly turns into either an invisibility, an extra lives or a speed power-up with a default respawn time of 120.
+In Instagib, this randomly turns into either an invisibility, an extra lives or a speed power-up with a default respawn time of 120.
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 120)</real>
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
@@ -1119,6 +1119,12 @@ The sound name may also be of the form *soundname, and in that case the respecti
 <flag key="ACTIVATOR" name="ACTIVATOR" bit="3">the sound is played to the activator only when triggered (cannot be combined with LOOPED_ON and LOOPED_OFF)</flag>
 </point>
 
+<point name="invasion_spawnpoint" color="1 0.5 0" box="-16 -16 -24 16 16 45">
+Monster spawnpoint in Invasion
+-------- KEYS --------
+-------- SPAWNFLAGS --------
+</point>
+
 <group name="trigger_counter" color=".5 .5 .5">
 Acts as an intermediary for an action that takes multiple inputs.
 After the counter has been triggered &quot;count&quot; times, it will fire all of its targets and remove itself.
@@ -1374,7 +1380,7 @@ modeldisabled=&quot;models/weapons/g_laser.md3&quot;
 
 <point name="weapon_nex" color="1 0 .5" box="-30 -30 0 30 30 32">
 the Nex
-In Minstagib, this turns into an item_minst_cells if no explicit item_minst_cells have been placed.
+In Instagib, this turns into an item_minst_cells if no explicit item_minst_cells have been placed.
 -------- KEYS --------
 <real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, g_pickup_cells is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15 * g_balance_nex_respawntime_modifier)</real>
@@ -1389,7 +1395,7 @@ modeldisabled=&quot;models/weapons/g_nex.md3&quot;
 
 <point name="weapon_rocketlauncher" color="1 0 .5" box="-30 -30 0 30 30 32">
 the Rocket Launcher
-In Minstagib, this turns into an item_minst_cells if no explicit item_minst_cells have been placed.
+In Instagib, this turns into an item_minst_cells if no explicit item_minst_cells have been placed.
 -------- KEYS --------
 <real key="ammo_rockets" name="ammo_rockets">initial rockets of the weapon (if unset, g_pickup_rockets is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
@@ -1586,7 +1592,7 @@ Makes one entity follow another. Will not work with all entities.
 
 <point name="weapon_minstanex" color="1 0 .5" box="-30 -30 0 30 30 32">
 Placing this entity on a map kills your cat, voids the warranty on your toaster, and makes your map an unenjoyable campers' paradise.
-the MinstaGib Nex. Always kills with one shot.
+the InstaGib Nex. Always kills with one shot.
 -------- KEYS --------
 <real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, g_pickup_cells is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
@@ -1907,6 +1913,118 @@ Disables a trigger_relay temporarily (until triggered again)
 -------- KEYS --------
 <target key="target" name="target">disable/enable all relays with this targetname when triggered</target>
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
+</point>
+
+
+<point name="monster_mage" color="1 0 0" box="-36 -36 -24 36 36 50">
+Mage. Master of dark magic
+-------- KEYS --------
+<integer key="health" name="health">monster health amount</integer>
+<integer key="target_range" name="target_range">maximum targeting range. If current target is further away, it will be lost</integer>
+<real key="respawntime" name="respawntime">delay in seconds before re-spawning</real>
+<integer key="monster_moveflags" name="monster_moveflags">move target while not attacking. 2=wander around, 3=spawn location, 4=no moving</integer>
+<target key="target" name="target">disable/enable all relays with this targetname when killed</target>
+<target key="target2" name="target2">follow this target</target>
+<targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
+<integer key="team" name="team">5=red, 14=blue</integer>
+-------- SPAWNFLAGS --------
+<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="6">Spawn as mini-boss (slightly more powerful)</flag>
+<flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="1">Spawn when triggered</flag>
+<flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="2">Don't re-spawn</flag>
+<flag key="MONSTERFLAG_FLY_VERTICAL" name="FLY_VERTICAL" bit="3">Allow flying/swimming monsters to move up/down</flag>
+<flag key="MONSTERFLAG_INFRONT" name="INFRONT" bit="4">Only attack targets infront of the monster</flag>
+<flag key="MONSTERSKILL_NOTEASY" name="NOTEASY" bit="8">Don't spawn this monster when skill is 1</flag>
+<flag key="MONSTERSKILL_NOTMEDIUM" name="NOTMEDIUM" bit="9">Don't spawn this monster when skill is 2</flag>
+<flag key="MONSTERSKILL_NOTHARD" name="NOTHARD" bit="10">Don't spawn this monster when skill is 3</flag>
+</point>
+
+<point name="monster_shambler" color="1 0 0" box="-41 -41 -31 41 41 65">
+Shambler. Summons lightning bolts with its large meat cleaving claws
+-------- KEYS --------
+<integer key="health" name="health">monster health amount</integer>
+<integer key="target_range" name="target_range">maximum targeting range. If current target is further away, it will be lost</integer>
+<real key="respawntime" name="respawntime">delay in seconds before re-spawning</real>
+<integer key="monster_moveflags" name="monster_moveflags">move target while not attacking. 2=wander around, 3=spawn location, 4=no moving</integer>
+<target key="target" name="target">disable/enable all relays with this targetname when killed</target>
+<target key="target2" name="target2">follow this target</target>
+<targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
+<integer key="team" name="team">5=red, 14=blue</integer>
+-------- SPAWNFLAGS --------
+<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="6">Spawn as mini-boss (slightly more powerful)</flag>
+<flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="1">Spawn when triggered</flag>
+<flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="2">Don't re-spawn</flag>
+<flag key="MONSTERFLAG_FLY_VERTICAL" name="FLY_VERTICAL" bit="3">Allow flying/swimming monsters to move up/down</flag>
+<flag key="MONSTERFLAG_INFRONT" name="INFRONT" bit="4">Only attack targets infront of the monster</flag>
+<flag key="MONSTERSKILL_NOTEASY" name="NOTEASY" bit="8">Don't spawn this monster when skill is 1</flag>
+<flag key="MONSTERSKILL_NOTMEDIUM" name="NOTMEDIUM" bit="9">Don't spawn this monster when skill is 2</flag>
+<flag key="MONSTERSKILL_NOTHARD" name="NOTHARD" bit="10">Don't spawn this monster when skill is 3</flag>
+</point>
+
+<point name="monster_spider" color="1 0 0" box="-18 -18 -25 18 18 30">
+Spider. Freezing ice or burning fire web, both lead to an 8-legged grave
+-------- KEYS --------
+<integer key="health" name="health">monster health amount</integer>
+<integer key="spider_type" name="spider_type">spider attack type. 1=ice, 2=fire</integer>
+<integer key="target_range" name="target_range">maximum targeting range. If current target is further away, it will be lost</integer>
+<real key="respawntime" name="respawntime">delay in seconds before re-spawning</real>
+<integer key="monster_moveflags" name="monster_moveflags">move target while not attacking. 2=wander around, 3=spawn location, 4=no moving</integer>
+<target key="target" name="target">disable/enable all relays with this targetname when killed</target>
+<target key="target2" name="target2">follow this target</target>
+<targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
+<integer key="team" name="team">5=red, 14=blue</integer>
+-------- SPAWNFLAGS --------
+<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="6">Spawn as mini-boss (slightly more powerful)</flag>
+<flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="1">Spawn when triggered</flag>
+<flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="2">Don't re-spawn</flag>
+<flag key="MONSTERFLAG_FLY_VERTICAL" name="FLY_VERTICAL" bit="3">Allow flying/swimming monsters to move up/down</flag>
+<flag key="MONSTERFLAG_INFRONT" name="INFRONT" bit="4">Only attack targets infront of the monster</flag>
+<flag key="MONSTERSKILL_NOTEASY" name="NOTEASY" bit="8">Don't spawn this monster when skill is 1</flag>
+<flag key="MONSTERSKILL_NOTMEDIUM" name="NOTMEDIUM" bit="9">Don't spawn this monster when skill is 2</flag>
+<flag key="MONSTERSKILL_NOTHARD" name="NOTHARD" bit="10">Don't spawn this monster when skill is 3</flag>
+</point>
+
+<point name="monster_wyvern" color="1 0 0" box="-20 -20 -58 20 20 20">
+Wyvern. Flies around shooting fireballs
+-------- KEYS --------
+<integer key="health" name="health">monster health amount</integer>
+<integer key="target_range" name="target_range">maximum targeting range. If current target is further away, it will be lost</integer>
+<real key="respawntime" name="respawntime">delay in seconds before re-spawning</real>
+<integer key="monster_moveflags" name="monster_moveflags">move target while not attacking. 2=wander around, 3=spawn location, 4=no moving</integer>
+<target key="target" name="target">disable/enable all relays with this targetname when killed</target>
+<target key="target2" name="target2">follow this target</target>
+<targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
+<integer key="team" name="team">5=red, 14=blue</integer>
+-------- SPAWNFLAGS --------
+<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="6">Spawn as mini-boss (slightly more powerful)</flag>
+<flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="1">Spawn when triggered</flag>
+<flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="2">Don't re-spawn</flag>
+<flag key="MONSTERFLAG_FLY_VERTICAL" name="FLY_VERTICAL" bit="3">Allow flying/swimming monsters to move up/down</flag>
+<flag key="MONSTERFLAG_INFRONT" name="INFRONT" bit="4">Only attack targets infront of the monster</flag>
+<flag key="MONSTERSKILL_NOTEASY" name="NOTEASY" bit="8">Don't spawn this monster when skill is 1</flag>
+<flag key="MONSTERSKILL_NOTMEDIUM" name="NOTMEDIUM" bit="9">Don't spawn this monster when skill is 2</flag>
+<flag key="MONSTERSKILL_NOTHARD" name="NOTHARD" bit="10">Don't spawn this monster when skill is 3</flag>
+</point>
+
+<point name="monster_zombie" color="1 0 0" box="-18 -18 -25 18 18 47">
+Braaaiins!
+-------- KEYS --------
+<integer key="health" name="health">monster health amount</integer>
+<integer key="target_range" name="target_range">maximum targeting range. If current target is further away, it will be lost</integer>
+<real key="respawntime" name="respawntime">delay in seconds before re-spawning</real>
+<integer key="monster_moveflags" name="monster_moveflags">move target while not attacking. 2=wander around, 3=spawn location, 4=no moving</integer>
+<target key="target" name="target">disable/enable all relays with this targetname when killed</target>
+<target key="target2" name="target2">follow this target</target>
+<targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
+<integer key="team" name="team">5=red, 14=blue</integer>
+-------- SPAWNFLAGS --------
+<flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="6">Spawn as mini-boss (slightly more powerful)</flag>
+<flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="1">Spawn when triggered</flag>
+<flag key="MONSTERFLAG_NORESPAWN" name="NORESPAWN" bit="2">Don't re-spawn</flag>
+<flag key="MONSTERFLAG_FLY_VERTICAL" name="FLY_VERTICAL" bit="3">Allow flying/swimming monsters to move up/down</flag>
+<flag key="MONSTERFLAG_INFRONT" name="INFRONT" bit="4">Only attack targets infront of the monster</flag>
+<flag key="MONSTERSKILL_NOTEASY" name="NOTEASY" bit="8">Don't spawn this monster when skill is 1</flag>
+<flag key="MONSTERSKILL_NOTMEDIUM" name="NOTMEDIUM" bit="9">Don't spawn this monster when skill is 2</flag>
+<flag key="MONSTERSKILL_NOTHARD" name="NOTHARD" bit="10">Don't spawn this monster when skill is 3</flag>
 </point>
 
 <group name="nexball_redgoal" color="1 0 0">
