@@ -2,12 +2,13 @@ title Geoplanetary
 description Geomonetary in space
 author MintOX, Debugger, Mirio
 has weapons
-cdtrack 14
+cdtrack 18
 gametype ctf
 
 clientsettemp_for_type all r_water 1
+clientsettemp_for_type all r_water_resolutionmultiplier 1
 
-// For my daughter Alysa. Thanks for all your help. I love you boo! 
+//For my daughter Alysa. Thanks for all your help. I love you boo! 
 //Thanks to Dokujisan and ohters on HOCFT that helped!
 
 //Released 5/17/2010
