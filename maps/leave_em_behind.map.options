@@ -2,4 +2,5 @@
 -light + -bounce 8
 -vis +
 -minimap +
-Version: 4
+-nosRGB
+Version: 6
