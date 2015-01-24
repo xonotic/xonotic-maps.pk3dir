@@ -6,9 +6,7 @@ has weapons
 gametype dm
 gametype tdm
 gametype dom
-gametype rune
 gametype lms
-gametype arena
 gametype ca
 gametype kh
 gametype ft
