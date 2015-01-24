@@ -4,6 +4,7 @@ author MintOX, Debugger, Mirio
 has weapons
 cdtrack 18
 gametype ctf
+gametype dom
 
 clientsettemp_for_type all r_water 1
 clientsettemp_for_type all r_water_resolutionmultiplier 1
