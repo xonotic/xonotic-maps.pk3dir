@@ -353,7 +353,7 @@
 ( 0 -288 0 ) ( 0 -96 0 ) ( 0 -288 192 ) common/caulk 0 0 0 0.25 0.25 0 0 0
 }
 {
-( 128 160 -32 ) ( 128 -32 -32 ) ( 64 160 -32 ) phillipk1x/floors-pk01_tile_floor01a 0 0 0 0.25 0.25 0 0 0
+( 128 160 -16 ) ( 128 -32 -16 ) ( 64 160 -16 ) phillipk1x/floors-pk01_tile_floor01a 0 0 0 0.25 0.25 0 0 0
 ( 128 160 0 ) ( 64 160 0 ) ( 128 160 -64 ) phillipk1x/floors-pk01_tile_floor01a 0 0 0 0.25 0.25 0 0 0
 ( 128 160 0 ) ( 128 160 -64 ) ( 128 -32 0 ) phillipk1x/floors-pk01_tile_floor01a 0 0 0 0.25 0.25 0 0 0
 ( 64 -32 -64 ) ( 128 -32 -64 ) ( 64 160 -64 ) phillipk1x/floors-pk01_tile_floor01a 0 0 0 0.25 0.25 0 0 0
@@ -897,18 +897,6 @@
 ( -256 -96 -64 ) ( -192 -96 -64 ) ( -256 -96 64 ) common/caulk 0 0 0 0.25 0.25 0 0 0
 }
 {
-( 0 -304 -181.5 ) ( 0 -160 -181.5 ) ( 0 -160 -256 ) common/clip 64 0 0 -0.25 0.25 0 0 0
-( 0 -336 -181.5 ) ( -76.625 -336 -256 ) ( -76.625 -336 -185.625 ) common/clip 224 0 0 0.25 0.25 0 0 0
-( 0 -304 -256 ) ( -80 -160 -256 ) ( -102.5 -162.25 -256 ) common/clip 64 32 -90 0.25 0.25 0 0 0
-( -124 -233.875 -207.25 ) ( -124 -221 -256 ) ( -124 -221 -207.25 ) common/clip 64 0 0 -0.25 0.25 0 0 0
-( -124 -221 -207.25 ) ( -102.5 -162.25 -256 ) ( -102.5 -162.25 -187.375 ) common/clip 0 0 0 -0.25 0.25 0 0 0
-( -108.875 -295.125 -256 ) ( -124 -233.875 -256 ) ( -124 -233.875 -207.25 ) common/clip 0 0 0 -0.25 0.25 0 0 0
-( -102.125 -297 -187 ) ( -102.5 -162.25 -187.375 ) ( -102.125 -162.125 -187 ) common/clip 0 240 -90 0.25 0.25 0 0 0
-( 0 -304 -181.5 ) ( -102.125 -162.125 -187 ) ( -80 -160 -185.875 ) common/clip 0 240 -90 0.25 0.25 0 0 0
-( -108.875 -327.125 -256 ) ( -76.625 -336 -185.625 ) ( -76.625 -336 -256 ) common/clip 0 0 0 0.25 0.25 0 0 0
-( -8 -120 -256 ) ( -88 -120 -185.875 ) ( -88 -120 -256 ) common/clip 32 0 0 0.25 0.25 0 0 0
-}
-{
 ( 0 224 192 ) ( -256 -32 192 ) ( -256 160 192 ) phillipk1x/floors-pk01_pan_floor02a 0 0 0 0.25 0.25 0 0 0
 ( -256 -32 0 ) ( -256 160 192 ) ( -256 -32 192 ) phillipk1x/vent-pk01_vent_wall03 384 0 0 0.25 0.25 0 0 0
 ( -96 128 -64 ) ( -32 128 -64 ) ( -96 128 64 ) common/caulk 0 0 0 0.25 0.25 0 0 0
@@ -1050,7 +1038,7 @@
 ( -592 248 -64 ) ( -576 240 -64 ) ( -592 248 64 ) phillipk1x/floors-pk01_floor01a 0 0 0 0.25 0.25 0 0 0
 }
 {
-( -652 276 128 ) ( -588 276 128 ) ( -652 244 128 ) common/caulk 48 48 90 0.25 0.25 0 0 0
+( -652 276 128 ) ( -588 276 128 ) ( -652 244 128 ) phillipk1x/floors-pk01_floor01a 48 48 90 0.25 0.25 0 0 0
 ( -652 276 128 ) ( -652 244 128 ) ( -652 276 0 ) phillipk1x/floors-pk01_floor01a 48 0 0 0.25 0.25 0 0 0
 ( -652 260 128 ) ( -652 260 0 ) ( -588 260 128 ) phillipk1x/trim-pk01_door01a 208 0 0 -0.25 0.25 0 0 0
 ( -588 244 0 ) ( -588 276 0 ) ( -652 244 0 ) common/caulk 48 48 90 0.25 0.25 0 0 0
@@ -1073,7 +1061,7 @@
 ( -592 392 64 ) ( -576 400 -64 ) ( -592 392 -64 ) phillipk1x/floors-pk01_floor01a 0 0 0 0.25 0.25 0 0 0
 }
 {
-( -588 364 128 ) ( -652 364 128 ) ( -588 396 128 ) common/caulk 48 208 -90 0.25 0.25 0 0 0
+( -588 364 128 ) ( -652 364 128 ) ( -588 396 128 ) phillipk1x/floors-pk01_floor01a 48 208 -90 0.25 0.25 0 0 0
 ( -588 364 128 ) ( -588 396 128 ) ( -588 364 0 ) phillipk1x/floors-pk01_floor01a 48 0 0 -0.25 0.25 0 0 0
 ( -588 380 128 ) ( -588 380 0 ) ( -652 380 128 ) phillipk1x/trim-pk01_door01a 208 0 0 -0.25 0.25 0 0 0
 ( -652 396 0 ) ( -652 364 0 ) ( -588 396 0 ) common/caulk 48 208 -90 0.25 0.25 0 0 0
@@ -4824,14 +4812,6 @@
 ( 128 -64 -128 ) ( 176 64 -128 ) ( 128 64 -128 ) common/caulk 0 0 0 0.25 0.25 0 0 0
 }
 {
-( -448 -992 -62 ) ( -448 -1056 -62 ) ( -512 -992 -62 ) effects_item/respawnring-blue 63.9997558594 21.3331298828 0 0.375 0.375 0 0 0
-( -440 -1000 -48 ) ( -504 -1000 -48 ) ( -440 -1000 -64 ) common/nodrawnonsolid 96 0 0 0.25 0.25 0 0 0
-( -456 -984 -48 ) ( -456 -984 -64 ) ( -456 -1048 -48 ) common/nodrawnonsolid 224 0 0 0.25 0.25 0 0 0
-( -512 -1056 -64 ) ( -448 -1056 -64 ) ( -512 -992 -64 ) common/nodrawnonsolid 128 0 0 0.25 0.25 0 0 0
-( -520 -1048 -64 ) ( -520 -1048 -48 ) ( -456 -1048 -64 ) common/nodrawnonsolid 160 0 0 0.25 0.25 0 0 0
-( -504 -1064 -64 ) ( -504 -1000 -64 ) ( -504 -1064 -48 ) common/nodrawnonsolid 32 0 0 0.25 0.25 0 0 0
-}
-{
 ( -1024 -784 -252 ) ( -576 -784 -252 ) ( -592 -800 -252 ) phillipk1x/trim-pk01_trims01a 128 384 0 -0.25 0.25 0 0 0
 ( -1024 -784 -252 ) ( -576 -784 -256 ) ( -576 -784 -252 ) phillipk1x/trim-pk01_trims01a 128 384 0 -0.25 0.25 0 0 0
 ( -1008 -800 -256 ) ( -592 -800 -252 ) ( -592 -800 -256 ) phillipk1x/trim-pk01_trims01a 128 384 0 -0.25 0.25 0 0 0
@@ -4945,7 +4925,7 @@
 }
 {
 ( 221.0754089355 -399.7304382324 0 ) ( 226.9245605469 -368.26953125 0 ) ( 158.1536254883 -388.0321044922 0 ) common/caulk 125.6536865234 393.6639404297 -100.532081604 0.2499999702 0.2500000298 134217728 0 0
-( 240 -403.25 0 ) ( 224 -400.25 28 ) ( 240 -403.25 32 ) phillipk1x/trim-pk01_pan_trim01 71 141.4499969482 -79 0.25 0.2457882464 134217728 0 0
+( 240 -403.25 0 ) ( 224 -400.25 28 ) ( 240 -403.25 32 ) phillipk1x/trim-pk01_pan_trim01 71 269.450012207 -79 0.25 0.2457882464 134217728 0 0
 ( 240 -370.75 32 ) ( 224 -367.75 28 ) ( 240 -370.75 0 ) phillipk1x/trim-pk01_pan_trim01 0 155.2521972656 -90 0.25 0.2457882613 134217728 0 0
 ( 240 -370.75 32 ) ( 224 -400.25 28 ) ( 224 -367.75 28 ) phillipk1x/trim-pk01_pan_trim01 125.6536865234 393.6639404297 -100.532081604 0.2499999702 0.2500000298 134217728 0 0
 ( 224 -400.25 0 ) ( 224 -367.75 28 ) ( 224 -400.25 28 ) common/caulk 0 0 0 0.25 0.25 134217728 0 0
@@ -4953,7 +4933,7 @@
 }
 {
 ( 221.0754089355 -399.7304382324 0 ) ( 226.9245605469 -368.26953125 0 ) ( 158.1536254883 -388.0321044922 0 ) common/caulk 125.6536865234 393.6639404297 -100.532081604 0.2499999702 0.2500000298 134217728 0 0
-( 208 -397.25 32 ) ( 224 -400.25 28 ) ( 208 -397.25 0 ) phillipk1x/trim-pk01_pan_trim01 0 131.4548339844 -99 0.25 0.2457882464 134217728 0 0
+( 208 -397.25 32 ) ( 224 -400.25 28 ) ( 208 -397.25 0 ) phillipk1x/trim-pk01_pan_trim01 0 91.4548339844 -99 0.25 0.2457882464 134217728 0 0
 ( 208 -364.75 0 ) ( 224 -367.75 28 ) ( 208 -364.75 32 ) phillipk1x/trim-pk01_pan_trim01 0 155.2521972656 -90 0.25 0.2457882613 134217728 0 0
 ( 208 -364.75 32 ) ( 224 -367.75 28 ) ( 224 -400.25 28 ) phillipk1x/trim-pk01_pan_trim01 125.6536865234 393.6639404297 -100.532081604 0.2499999702 0.2500000298 134217728 0 0
 ( 224 -367.75 0 ) ( 224 -400.25 28 ) ( 224 -367.75 28 ) common/caulk 0 0 0 0.25 0.25 134217728 0 0
@@ -5948,38 +5928,6 @@
 ( -936 -1240 64 ) ( -976 -1240 -64 ) ( -936 -1240 -64 ) common/caulk 0 0 0 0.25 0.25 0 0 0
 }
 {
-( -1056 352 -126 ) ( -1056 288 -126 ) ( -1120 352 -126 ) effects_item/respawnring-blue 21.3332519531 21.3333129883 0 0.375 0.375 0 0 0
-( -1048 344 -112 ) ( -1112 344 -112 ) ( -1048 344 -128 ) common/nodrawnonsolid 224 0 0 0.25 0.25 0 0 0
-( -1064 360 -114 ) ( -1064 360 -130 ) ( -1064 296 -114 ) common/nodrawnonsolid 224 248 0 0.25 0.25 0 0 0
-( -1120 288 -128 ) ( -1056 288 -128 ) ( -1120 352 -128 ) common/nodrawnonsolid 0 0 0 0.25 0.25 0 0 0
-( -1128 296 -128 ) ( -1128 296 -112 ) ( -1064 296 -128 ) common/nodrawnonsolid 32 0 0 0.25 0.25 0 0 0
-( -1112 280 -128 ) ( -1112 344 -128 ) ( -1112 280 -112 ) common/nodrawnonsolid 32 0 0 0.25 0.25 0 0 0
-}
-{
-( 272 560 132 ) ( 272 496 132 ) ( 208 560 132 ) effects_item/respawnring-blue 63.9997558594 64 0 0.375 0.375 0 0 0
-( 280 552 144 ) ( 216 552 144 ) ( 280 552 128 ) common/nodrawnonsolid 32 0 0 0.25 0.25 0 0 0
-( 264 568 144 ) ( 264 568 128 ) ( 264 504 144 ) common/nodrawnonsolid 160 0 0 0.25 0.25 0 0 0
-( 208 496 126 ) ( 272 496 126 ) ( 208 560 126 ) common/nodrawnonsolid 64 64 0 0.25 0.25 0 0 0
-( 200 504 128 ) ( 200 504 144 ) ( 264 504 128 ) common/nodrawnonsolid 96 0 0 0.25 0.25 0 0 0
-( 216 488 126 ) ( 216 552 126 ) ( 216 488 142 ) common/nodrawnonsolid 224 248 0 0.25 0.25 0 0 0
-}
-{
-( -160 -144 196 ) ( -160 -208 196 ) ( -224 -144 196 ) effects_item/respawnring-blue 63.9997558594 106.6665039063 0 0.375 0.375 0 0 0
-( -152 -152 208 ) ( -216 -152 208 ) ( -152 -152 192 ) common/nodrawnonsolid 224 0 0 0.25 0.25 0 0 0
-( -168 -136 208 ) ( -168 -136 192 ) ( -168 -200 208 ) common/nodrawnonsolid 160 0 0 0.25 0.25 0 0 0
-( -224 -208 190 ) ( -160 -208 190 ) ( -224 -144 190 ) common/nodrawnonsolid 0 64 0 0.25 0.25 0 0 0
-( -232 -200 192 ) ( -232 -200 208 ) ( -168 -200 192 ) common/nodrawnonsolid 32 0 0 0.25 0.25 0 0 0
-( -216 -216 190 ) ( -216 -152 190 ) ( -216 -216 206 ) common/nodrawnonsolid 224 248 0 0.25 0.25 0 0 0
-}
-{
-( 464 -400 4 ) ( 464 -464 4 ) ( 400 -400 4 ) effects_item/respawnring-blue 63.9998168945 63.999786377 0 0.375 0.375 0 0 0
-( 472 -408 16 ) ( 408 -408 16 ) ( 472 -408 0 ) common/nodrawnonsolid 32 0 0 0.25 0.25 0 0 0
-( 456 -392 16 ) ( 456 -392 0 ) ( 456 -456 16 ) common/nodrawnonsolid 160 0 0 0.25 0.25 0 0 0
-( 400 -464 -2 ) ( 464 -464 -2 ) ( 400 -400 -2 ) common/nodrawnonsolid 64 64 0 0.25 0.25 0 0 0
-( 392 -456 0 ) ( 392 -456 16 ) ( 456 -456 0 ) common/nodrawnonsolid 96 0 0 0.25 0.25 0 0 0
-( 408 -472 -2 ) ( 408 -408 -2 ) ( 408 -472 14 ) common/nodrawnonsolid 224 248 0 0.25 0.25 0 0 0
-}
-{
 ( -560 -800 -128 ) ( -560 -928 -128 ) ( -576 -800 -128 ) common/clip 0 0 0 0.25 0.25 0 0 0
 ( -560 -800 -128 ) ( -576 -800 -128 ) ( -560 -800 -256 ) common/clip 0 0 0 0.25 0.25 0 0 0
 ( -560 -800 -128 ) ( -560 -800 -256 ) ( -560 -928 -128 ) common/clip 0 0 0 0.25 0.25 0 0 0
@@ -6283,14 +6231,6 @@
 ( -560 -816 0 ) ( -560 -768 0 ) ( -560 -816 352 ) phillipk1x/roof-pk01_roof01 192 64 0 0.25 0.25 0 0 0
 ( -560 -800 64 ) ( -544 -816 -64 ) ( -560 -800 -64 ) common/caulk 0 0 0 0.25 0.25 0 0 0
 ( -528 -816 64 ) ( -512 -800 -64 ) ( -528 -816 -64 ) common/caulk 0 0 0 0.25 0.25 0 0 0
-}
-{
-( -352 -512 -254 ) ( -352 -576 -254 ) ( -416 -512 -254 ) effects_item/respawnring-blue 63.9997558594 21.3331184387 0 0.375 0.375 0 0 0
-( -344 -520 -240 ) ( -408 -520 -240 ) ( -344 -520 -256 ) common/nodrawnonsolid 224 0 0 0.25 0.25 0 0 0
-( -360 -504 -240 ) ( -360 -504 -256 ) ( -360 -568 -240 ) common/nodrawnonsolid 96 0 0 0.25 0.25 0 0 0
-( -416 -576 -256 ) ( -352 -576 -256 ) ( -416 -512 -256 ) common/nodrawnonsolid 0 128 0 0.25 0.25 0 0 0
-( -424 -568 -256 ) ( -424 -568 -240 ) ( -360 -568 -256 ) common/nodrawnonsolid 32 0 0 0.25 0.25 0 0 0
-( -408 -584 -258 ) ( -408 -520 -258 ) ( -408 -584 -242 ) common/nodrawnonsolid 160 248 0 0.25 0.25 0 0 0
 }
 {
 ( 0 544 0 ) ( 0 32 0 ) ( -256 544 0 ) phillipk1x/floors-pk01_floor01a 0 128 0 0.25 0.25 0 0 0
@@ -8179,54 +8119,6 @@
 ( -960 -864 96 ) ( -960 -848 96 ) ( -960 -864 352 ) common/clip 0 0 0 0.25 0.25 0 0 0
 }
 {
-( -576 -1224 -204 ) ( -576 -1256 -204 ) ( -608 -1224 -204 ) common/clip 192 0 0 0.25 0.25 0 0 0
-( -576 -1224 -240 ) ( -608 -1224 -240 ) ( -576 -1224 -248 ) common/clip 192 0 0 0.25 0.25 0 0 0
-( -576 -1224 -240 ) ( -576 -1224 -248 ) ( -576 -1256 -240 ) common/clip 0 0 0 0.25 0.25 0 0 0
-( -608 -1256 -248 ) ( -576 -1256 -248 ) ( -608 -1224 -248 ) common/clip 192 0 0 0.25 0.25 0 0 0
-( -608 -1256 -248 ) ( -608 -1256 -240 ) ( -576 -1256 -248 ) common/clip 192 0 0 0.25 0.25 0 0 0
-( -608 -1256 -248 ) ( -608 -1224 -248 ) ( -608 -1256 -240 ) common/clip 0 0 0 0.25 0.25 0 0 0
-( -608 -1236 -64 ) ( -604 -1228 -64 ) ( -608 -1236 64 ) common/clip 0 0 0 0.25 0.25 0 0 0
-( -604 -1228 -64 ) ( -596 -1224 -64 ) ( -604 -1228 64 ) common/clip 192 0 0 0.25 0.25 0 0 0
-( -588 -1224 -64 ) ( -580 -1228 -64 ) ( -588 -1224 64 ) common/clip 192 0 0 0.25 0.25 0 0 0
-( -580 -1228 -64 ) ( -576 -1236 -64 ) ( -580 -1228 64 ) common/clip 0 0 0 0.25 0.25 0 0 0
-( -576 -1244 -64 ) ( -580 -1252 -64 ) ( -576 -1244 64 ) common/clip 0 0 0 0.25 0.25 0 0 0
-( -580 -1252 -64 ) ( -588 -1256 -64 ) ( -580 -1252 64 ) common/clip 192 0 0 0.25 0.25 0 0 0
-( -596 -1256 -64 ) ( -604 -1252 -64 ) ( -596 -1256 64 ) common/clip 192 0 0 0.25 0.25 0 0 0
-( -604 -1252 -64 ) ( -608 -1244 -64 ) ( -604 -1252 64 ) common/clip 0 0 0 0.25 0.25 0 0 0
-}
-{
-( -608 -1264 -204 ) ( -640 -1264 -204 ) ( -608 -1232 -204 ) common/clip 0 160 -90 0.25 0.25 0 0 0
-( -608 -1264 -240 ) ( -608 -1232 -240 ) ( -608 -1264 -248 ) common/clip 0 0 0 -0.25 0.25 0 0 0
-( -608 -1264 -240 ) ( -608 -1264 -248 ) ( -640 -1264 -240 ) common/clip 96 0 0 0.25 0.25 0 0 0
-( -640 -1232 -248 ) ( -640 -1264 -248 ) ( -608 -1232 -248 ) common/clip 0 160 -90 0.25 0.25 0 0 0
-( -640 -1232 -248 ) ( -640 -1232 -240 ) ( -640 -1264 -248 ) common/clip 0 0 0 -0.25 0.25 0 0 0
-( -640 -1232 -248 ) ( -608 -1232 -248 ) ( -640 -1232 -240 ) common/clip 96 0 0 0.25 0.25 0 0 0
-( -620 -1232 -64 ) ( -612 -1236 -64 ) ( -620 -1232 64 ) common/clip 96 0 0 0.25 0.25 0 0 0
-( -612 -1236 -64 ) ( -608 -1244 -64 ) ( -612 -1236 64 ) common/clip 0 0 0 -0.25 0.25 0 0 0
-( -608 -1252 -64 ) ( -612 -1260 -64 ) ( -608 -1252 64 ) common/clip 0 0 0 -0.25 0.25 0 0 0
-( -612 -1260 -64 ) ( -620 -1264 -64 ) ( -612 -1260 64 ) common/clip 96 0 0 0.25 0.25 0 0 0
-( -628 -1264 -64 ) ( -636 -1260 -64 ) ( -628 -1264 64 ) common/clip 96 0 0 0.25 0.25 0 0 0
-( -636 -1260 -64 ) ( -640 -1252 -64 ) ( -636 -1260 64 ) common/clip 0 0 0 -0.25 0.25 0 0 0
-( -640 -1244 -64 ) ( -636 -1236 -64 ) ( -640 -1244 64 ) common/clip 0 0 0 -0.25 0.25 0 0 0
-( -636 -1236 -64 ) ( -628 -1232 -64 ) ( -636 -1236 64 ) common/clip 96 0 0 0.25 0.25 0 0 0
-}
-{
-( 540 -548 -20 ) ( 508 -548 -20 ) ( 540 -516 -20 ) common/clip 48 144 -90 0.25 0.25 0 0 0
-( 540 -548 -56 ) ( 540 -516 -56 ) ( 540 -548 -64 ) common/clip 48 224 0 -0.25 0.25 0 0 0
-( 540 -548 -56 ) ( 540 -548 -64 ) ( 508 -548 -56 ) common/clip 112 224 0 0.25 0.25 0 0 0
-( 508 -516 -64 ) ( 508 -548 -64 ) ( 540 -516 -64 ) common/clip 48 144 -90 0.25 0.25 0 0 0
-( 508 -516 -64 ) ( 508 -516 -56 ) ( 508 -548 -64 ) common/clip 48 224 0 -0.25 0.25 0 0 0
-( 508 -516 -64 ) ( 540 -516 -64 ) ( 508 -516 -56 ) common/clip 112 224 0 0.25 0.25 0 0 0
-( 528 -516 120 ) ( 536 -520 120 ) ( 528 -516 248 ) common/clip 112 224 0 0.25 0.25 0 0 0
-( 536 -520 120 ) ( 540 -528 120 ) ( 536 -520 248 ) common/clip 48 224 0 -0.25 0.25 0 0 0
-( 540 -536 120 ) ( 536 -544 120 ) ( 540 -536 248 ) common/clip 48 224 0 -0.25 0.25 0 0 0
-( 536 -544 120 ) ( 528 -548 120 ) ( 536 -544 248 ) common/clip 112 224 0 0.25 0.25 0 0 0
-( 520 -548 120 ) ( 512 -544 120 ) ( 520 -548 248 ) common/clip 112 224 0 0.25 0.25 0 0 0
-( 512 -544 120 ) ( 508 -536 120 ) ( 512 -544 248 ) common/clip 48 224 0 -0.25 0.25 0 0 0
-( 508 -528 120 ) ( 512 -520 120 ) ( 508 -528 248 ) common/clip 48 224 0 -0.25 0.25 0 0 0
-( 512 -520 120 ) ( 520 -516 120 ) ( 512 -520 248 ) common/clip 112 224 0 0.25 0.25 0 0 0
-}
-{
 patchDef2
 {
 trak5x/base-pipe1d
@@ -8787,23 +8679,12 @@ trak5x/base-pipe1d
 ( 64 -88 64 ) ( 64 -48 64 ) ( 64 -88 224 ) common/clip 0 0 0 0.25 0.25 0 0 0
 }
 {
-( 240 -52 60 ) ( 240 -76 60 ) ( 200 -52 60 ) common/weapclip 0 240 0 0.25 0.25 0 0 0
-( 240 -44 24 ) ( 200 -44 24 ) ( 240 -44 16 ) common/weapclip 0 0 0 0.25 0.25 0 0 0
-( 236 -48 24 ) ( 236 -48 16 ) ( 236 -72 24 ) common/weapclip 0 0 0 0.25 0.25 0 0 0
-( 200 -72 16 ) ( 240 -72 16 ) ( 200 -48 16 ) common/weapclip 0 0 0 0.25 0.25 0 0 0
-( 200 -76 16 ) ( 200 -76 24 ) ( 240 -76 16 ) common/weapclip 0 0 0 0.25 0.25 0 0 0
-( 204 -72 16 ) ( 204 -48 16 ) ( 204 -72 24 ) common/weapclip 0 0 0 0.25 0.25 0 0 0
-( 204 -56 -64 ) ( 216 -44 -64 ) ( 204 -56 64 ) common/weapclip 0 0 0 0.25 0.25 0 0 0
-( 224 -44 -64 ) ( 236 -56 -64 ) ( 224 -44 64 ) common/weapclip 0 0 0 0.25 0.25 0 0 0
-}
-{
-( -192 584 128 ) ( -192 560 128 ) ( -352 584 128 ) common/clip 0 0 0 0.25 0.25 0 0 0
-( -200 608 128 ) ( -360 608 128 ) ( -200 608 -32 ) common/clip 32 0 0 0.25 0.25 0 0 0
-( -192 584 128 ) ( -192 584 -32 ) ( -192 560 128 ) common/clip 0 0 0 0.25 0.25 0 0 0
-( -352 560 -32 ) ( -192 560 -32 ) ( -352 584 -32 ) common/clip 0 0 0 0.25 0.25 0 0 0
-( -352 560 -32 ) ( -352 560 128 ) ( -192 560 -32 ) common/clip 0 0 0 0.25 0.25 0 0 0
-( -384 552 -32 ) ( -384 576 -32 ) ( -384 552 128 ) common/clip 32 0 0 0.25 0.25 0 0 0
-( -64 560 64 ) ( -64 576 128 ) ( 64 560 64 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( 128 160 8 ) ( 64 160 8 ) ( 128 160 -8 ) common/donotenter 0 0 0 0.25 0.25 0 0 0
+( 128 160 8 ) ( 128 160 -8 ) ( 128 -96 8 ) common/donotenter 0 0 0 0.25 0.25 0 0 0
+( 64 -96 -8 ) ( 128 -96 -8 ) ( 64 160 -8 ) common/donotenter 0 0 0 0.25 0.25 0 0 0
+( 64 -96 -8 ) ( 64 -96 8 ) ( 128 -96 -8 ) common/donotenter 0 0 0 0.25 0.25 0 0 0
+( 64 -96 -8 ) ( 64 160 -8 ) ( 64 -96 8 ) common/donotenter 0 0 0 0.25 0.25 0 0 0
+( 64 64 192 ) ( 128 64 64 ) ( 64 -64 192 ) common/donotenter 0 0 0 0.25 0.25 0 0 0
 }
 }
 {
@@ -9880,13 +9761,6 @@ trak5x/base-pipe1d
 }
 {
 "classname" "misc_model"
-"origin" "-70.644218 -228.258499 -252.090622"
-"model" "models/containers/crate01.md3"
-"modelscale" "0.500000"
-"angles" "-17.015467 -6.363595 8.060327"
-}
-{
-"classname" "misc_model"
 "origin" "-263.000000 300.000000 -20.000000"
 "model" "models/desertfactory/objects_plants/grass02.ase"
 "modelscale" "0.500000"
@@ -9904,6 +9778,7 @@ trak5x/base-pipe1d
 "model" "models/xonotic_jumppad01/xonotic_launchpad01.md3"
 "angle" "-44.606369"
 "modelscale" "1.5"
+"skin" "2"
 }
 {
 "classname" "trigger_push"
@@ -10419,6 +10294,7 @@ trak5x/base-pipe1d
 "classname" "misc_gamemodel"
 "origin" "-940.000000 -1180.000000 -240.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
+"skin" "2"
 }
 {
 "classname" "trigger_push"
@@ -11669,197 +11545,6 @@ trak5x/base-pipe1d
 "angles" "9.239502 -41.110847 0.000000"
 }
 {
-"classname" "misc_breakablemodel"
-"origin" "-592.000000 -1240.000000 -248.000000"
-"model" "models/containers/barrel01.md3"
-"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
-"count" "1"
-"debrisdamageforcescale" "1"
-"debrisfadetime" "1"
-"debrissolid" "0"
-"debristime" "6"
-"debristimejitter" "2"
-"dmg" "75"
-"dmg_edge" "25"
-"dmg_force" "600"
-"dmg_radius" "150"
-"health" "25"
-"mdl" "TE_TEI_BIGEXPLOSION"
-"message" "was killed by an explosive barrel"
-"message2" "was killed with an explosive barrel by"
-"noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "40"
-"respawntimejitter" "10"
-}
-{
-"classname" "misc_breakablemodel"
-"origin" "-624.000000 -1248.000000 -248.000000"
-"model" "models/containers/barrel01.md3"
-"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
-"count" "1"
-"debrisdamageforcescale" "1"
-"debrisfadetime" "1"
-"debrissolid" "0"
-"debristime" "6"
-"debristimejitter" "2"
-"dmg" "75"
-"dmg_edge" "25"
-"dmg_force" "600"
-"dmg_radius" "150"
-"health" "25"
-"mdl" "TE_TEI_BIGEXPLOSION"
-"message" "was killed by an explosive barrel"
-"message2" "was killed with an explosive barrel by"
-"noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "40"
-"respawntimejitter" "10"
-"angle" "-90.000000"
-}
-{
-"classname" "misc_breakablemodel"
-"origin" "524.000122 -531.999878 -64.000000"
-"model" "models/containers/barrel01.md3"
-"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
-"count" "1"
-"debrisdamageforcescale" "1"
-"debrisfadetime" "1"
-"debrissolid" "0"
-"debristime" "6"
-"debristimejitter" "2"
-"dmg" "75"
-"dmg_edge" "25"
-"dmg_force" "600"
-"dmg_radius" "150"
-"health" "25"
-"mdl" "TE_TEI_BIGEXPLOSION"
-"message" "was killed by an explosive barrel"
-"message2" "was killed with an explosive barrel by"
-"noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "40"
-"respawntimejitter" "10"
-"angle" "-179.999985"
-}
-{
-"classname" "misc_breakablemodel"
-"origin" "220.000061 -60.000061 16.000000"
-"model" "models/containers/barrel01.md3"
-"angle" "-125.322510"
-"count" "1"
-"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
-"debrisdamageforcescale" "1"
-"debrisfadetime" "1"
-"debrissolid" "0"
-"debristime" "6"
-"debristimejitter" "2"
-"dmg" "25"
-"dmg_edge" "25"
-"dmg_force" "600"
-"dmg_radius" "150"
-"health" "25"
-"mdl" "TE_TEI_BIGEXPLOSION"
-"message" "was killed by an explosive barrel"
-"message2" "was killed with an explosive barrel by"
-"noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "40"
-"respawntimejitter" "10"
-}
-{
-"classname" "misc_breakablemodel"
-"origin" "-75.648743 -219.866943 -206.721786"
-"model" "models/containers/barrel01.md3"
-"angles" "80.273994 -81.205994 29.943542"
-"count" "1"
-"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
-"debrisdamageforcescale" "1"
-"debrisfadetime" "1"
-"debrissolid" "0"
-"debristime" "6"
-"debristimejitter" "2"
-"dmg" "25"
-"dmg_edge" "25"
-"dmg_force" "600"
-"dmg_radius" "150"
-"health" "25"
-"mdl" "TE_TEI_BIGEXPLOSION"
-"message" "was killed by an explosive barrel"
-"message2" "was killed with an explosive barrel by"
-"noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "40"
-"respawntimejitter" "10"
-}
-{
-"classname" "misc_breakablemodel"
-"origin" "-93.158936 -267.833984 -261.061523"
-"model" "models/containers/barrel01.md3"
-"angles" "-2.919404 101.826599 3.361983"
-"count" "1"
-"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
-"debrisdamageforcescale" "1"
-"debrisfadetime" "1"
-"debrissolid" "0"
-"debristime" "6"
-"debristimejitter" "2"
-"dmg" "25"
-"dmg_edge" "25"
-"dmg_force" "600"
-"dmg_radius" "150"
-"health" "25"
-"mdl" "TE_TEI_BIGEXPLOSION"
-"message" "was killed by an explosive barrel"
-"message2" "was killed with an explosive barrel by"
-"noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "40"
-"respawntimejitter" "10"
-}
-{
-"classname" "misc_breakablemodel"
-"origin" "-108.000000 -228.000183 -256.000000"
-"model" "models/containers/barrel01.md3"
-"angle" "144.677490"
-"count" "1"
-"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
-"debrisdamageforcescale" "1"
-"debrisfadetime" "1"
-"debrissolid" "0"
-"debristime" "6"
-"debristimejitter" "2"
-"dmg" "25"
-"dmg_edge" "25"
-"dmg_force" "600"
-"dmg_radius" "150"
-"health" "25"
-"mdl" "TE_TEI_BIGEXPLOSION"
-"message" "was killed by an explosive barrel"
-"message2" "was killed with an explosive barrel by"
-"noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "40"
-"respawntimejitter" "10"
-}
-{
-"classname" "misc_breakablemodel"
-"origin" "-73.953918 -188.056213 -255.521118"
-"model" "models/containers/barrel01.md3"
-"angles" "4.870223 136.066513 -11.980032"
-"count" "1"
-"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
-"debrisdamageforcescale" "1"
-"debrisfadetime" "1"
-"debrissolid" "0"
-"debristime" "6"
-"debristimejitter" "2"
-"dmg" "25"
-"dmg_edge" "25"
-"dmg_force" "600"
-"dmg_radius" "150"
-"health" "25"
-"mdl" "TE_TEI_BIGEXPLOSION"
-"message" "was killed by an explosive barrel"
-"message2" "was killed with an explosive barrel by"
-"noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "40"
-"respawntimejitter" "10"
-}
-{
 "classname" "weapon_nex"
 "origin" "-1088.000000 320.000000 -128.000000"
 }
@@ -11905,30 +11590,6 @@ trak5x/base-pipe1d
 }
 }
 {
-"classname" "misc_breakablemodel"
-"origin" "-332.000122 587.999939 0.000000"
-"model" "models/containers/barrel01.md3"
-"angle" "144.677490"
-"count" "1"
-"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
-"debrisdamageforcescale" "1"
-"debrisfadetime" "1"
-"debrissolid" "0"
-"debristime" "6"
-"debristimejitter" "2"
-"dmg" "25"
-"dmg_edge" "25"
-"dmg_force" "600"
-"dmg_radius" "150"
-"health" "25"
-"mdl" "TE_TEI_BIGEXPLOSION"
-"message" "was killed by an explosive barrel"
-"message2" "was killed with an explosive barrel by"
-"noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "40"
-"respawntimejitter" "10"
-}
-{
 "classname" "info_autoscreenshot"
 "origin" "-465.897034 513.670288 213.689545"
 "angles" "7.789307 -28.569935 0.000000"
@@ -11940,49 +11601,268 @@ trak5x/base-pipe1d
 }
 {
 "classname" "misc_breakablemodel"
-"origin" "-243.999939 579.999939 0.000000"
+"origin" "220.000061 -44.000061 16.000000"
 "model" "models/containers/barrel01.md3"
-"angle" "-125.322510"
+"modelscale" "1.200000"
 "count" "1"
 "debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
 "debrisdamageforcescale" "1"
 "debrisfadetime" "1"
 "debrissolid" "0"
-"debristime" "6"
+"debristime" "5"
 "debristimejitter" "2"
 "dmg" "25"
 "dmg_edge" "25"
 "dmg_force" "600"
-"dmg_radius" "150"
+"dmg_radius" "190"
 "health" "25"
 "mdl" "TE_TEI_BIGEXPLOSION"
 "message" "was killed by an explosive barrel"
 "message2" "was killed with an explosive barrel by"
 "noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "40"
+"respawntime" "35"
 "respawntimejitter" "10"
 }
 {
 "classname" "misc_breakablemodel"
-"origin" "-276.000122 587.999939 0.000000"
+"origin" "-332.000122 587.999939 0.000000"
 "model" "models/containers/barrel01.md3"
-"angle" "144.677490"
+"modelscale" "1.200000"
 "count" "1"
 "debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
 "debrisdamageforcescale" "1"
 "debrisfadetime" "1"
 "debrissolid" "0"
-"debristime" "6"
+"debristime" "5"
 "debristimejitter" "2"
 "dmg" "25"
 "dmg_edge" "25"
 "dmg_force" "600"
-"dmg_radius" "150"
+"dmg_radius" "190"
 "health" "25"
 "mdl" "TE_TEI_BIGEXPLOSION"
 "message" "was killed by an explosive barrel"
 "message2" "was killed with an explosive barrel by"
 "noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "40"
+"respawntime" "35"
+"respawntimejitter" "10"
+}
+{
+"classname" "misc_breakablemodel"
+"origin" "-284.000122 587.999939 0.000000"
+"model" "models/containers/barrel01.md3"
+"modelscale" "1.200000"
+"count" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debrissolid" "0"
+"debristime" "5"
+"debristimejitter" "2"
+"dmg" "25"
+"dmg_edge" "25"
+"dmg_force" "600"
+"dmg_radius" "190"
+"health" "25"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"message" "was killed by an explosive barrel"
+"message2" "was killed with an explosive barrel by"
+"noise" "sound/weapons/rocket_impact.ogg"
+"respawntime" "35"
+"respawntimejitter" "10"
+}
+{
+"classname" "misc_breakablemodel"
+"origin" "-243.999939 579.999939 0.000000"
+"model" "models/containers/barrel01.md3"
+"modelscale" "1.200000"
+"count" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debrissolid" "0"
+"debristime" "5"
+"debristimejitter" "2"
+"dmg" "25"
+"dmg_edge" "25"
+"dmg_force" "600"
+"dmg_radius" "190"
+"health" "25"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"message" "was killed by an explosive barrel"
+"message2" "was killed with an explosive barrel by"
+"noise" "sound/weapons/rocket_impact.ogg"
+"respawntime" "35"
+"respawntimejitter" "10"
+}
+{
+"classname" "misc_breakablemodel"
+"origin" "-73.953918 -188.056213 -255.521118"
+"model" "models/containers/barrel01.md3"
+"modelscale" "1.200000"
+"count" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debrissolid" "0"
+"debristime" "5"
+"debristimejitter" "2"
+"dmg" "25"
+"dmg_edge" "25"
+"dmg_force" "600"
+"dmg_radius" "190"
+"health" "25"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"message" "was killed by an explosive barrel"
+"message2" "was killed with an explosive barrel by"
+"noise" "sound/weapons/rocket_impact.ogg"
+"respawntime" "35"
+"respawntimejitter" "10"
+"angles" "4.870223 136.066513 -11.980032"
+}
+{
+"classname" "misc_breakablemodel"
+"origin" "-116.000000 -228.000183 -256.000000"
+"model" "models/containers/barrel01.md3"
+"modelscale" "1.200000"
+"count" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debrissolid" "0"
+"debristime" "5"
+"debristimejitter" "2"
+"dmg" "25"
+"dmg_edge" "25"
+"dmg_force" "600"
+"dmg_radius" "190"
+"health" "25"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"message" "was killed by an explosive barrel"
+"message2" "was killed with an explosive barrel by"
+"noise" "sound/weapons/rocket_impact.ogg"
+"respawntime" "35"
+"respawntimejitter" "10"
+}
+{
+"classname" "misc_breakablemodel"
+"origin" "-93.158936 -267.833984 -261.061523"
+"model" "models/containers/barrel01.md3"
+"modelscale" "1.200000"
+"count" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debrissolid" "0"
+"debristime" "5"
+"debristimejitter" "2"
+"dmg" "25"
+"dmg_edge" "25"
+"dmg_force" "600"
+"dmg_radius" "190"
+"health" "25"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"message" "was killed by an explosive barrel"
+"message2" "was killed with an explosive barrel by"
+"noise" "sound/weapons/rocket_impact.ogg"
+"respawntime" "35"
+"respawntimejitter" "10"
+"angles" "-2.919404 101.826599 3.361983"
+}
+{
+"classname" "misc_breakablemodel"
+"origin" "-75.648743 -211.866943 -190.721786"
+"model" "models/containers/barrel01.md3"
+"modelscale" "1.200000"
+"count" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debrissolid" "0"
+"debristime" "5"
+"debristimejitter" "2"
+"dmg" "25"
+"dmg_edge" "25"
+"dmg_force" "600"
+"dmg_radius" "190"
+"health" "25"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"message" "was killed by an explosive barrel"
+"message2" "was killed with an explosive barrel by"
+"noise" "sound/weapons/rocket_impact.ogg"
+"respawntime" "35"
+"respawntimejitter" "10"
+"angles" "80.273994 -81.205994 29.943542"
+}
+{
+"classname" "misc_breakablemodel"
+"origin" "-592.000000 -1240.000000 -248.000000"
+"model" "models/containers/barrel01.md3"
+"modelscale" "1.200000"
+"count" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debrissolid" "0"
+"debristime" "5"
+"debristimejitter" "2"
+"dmg" "25"
+"dmg_edge" "25"
+"dmg_force" "600"
+"dmg_radius" "190"
+"health" "25"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"message" "was killed by an explosive barrel"
+"message2" "was killed with an explosive barrel by"
+"noise" "sound/weapons/rocket_impact.ogg"
+"respawntime" "35"
+"respawntimejitter" "10"
+}
+{
+"classname" "misc_breakablemodel"
+"origin" "-632.000000 -1240.000000 -248.000000"
+"model" "models/containers/barrel01.md3"
+"modelscale" "1.200000"
+"count" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debrissolid" "0"
+"debristime" "5"
+"debristimejitter" "2"
+"dmg" "25"
+"dmg_edge" "25"
+"dmg_force" "600"
+"dmg_radius" "190"
+"health" "25"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"message" "was killed by an explosive barrel"
+"message2" "was killed with an explosive barrel by"
+"noise" "sound/weapons/rocket_impact.ogg"
+"respawntime" "35"
+"respawntimejitter" "10"
+}
+{
+"classname" "misc_breakablemodel"
+"origin" "524.000122 -539.999878 -64.000000"
+"model" "models/containers/barrel01.md3"
+"modelscale" "1.200000"
+"count" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debrissolid" "0"
+"debristime" "5"
+"debristimejitter" "2"
+"dmg" "25"
+"dmg_edge" "25"
+"dmg_force" "600"
+"dmg_radius" "190"
+"health" "25"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"message" "was killed by an explosive barrel"
+"message2" "was killed with an explosive barrel by"
+"noise" "sound/weapons/rocket_impact.ogg"
+"respawntime" "35"
 "respawntimejitter" "10"
 }

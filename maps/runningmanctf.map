@@ -29383,32 +29383,6 @@ exx/base-metal03
 "origin" "-960 704 -248"
 }
 {
-"classname" "onslaught_controlpoint"
-"origin" "-480.000000 1184.000000 -256.000000"
-"targetname" "middlelowcp"
-"target" "middlelowcpspawns"
-"message" "Middle Low"
-}
-{
-"classname" "onslaught_controlpoint"
-"origin" "-2144.000000 -480.000000 112.000000"
-"targetname" "middlehighcp"
-"target" "middlehighcpspawns"
-"message" "Middle High"
-}
-{
-"classname" "info_player_deathmatch"
-"origin" "-864.000000 800.000000 -296.000000"
-"targetname" "middlelowcpspawns"
-"angle" "180.000000"
-}
-{
-"classname" "info_player_deathmatch"
-"origin" "-1936.000000 -272.000000 80.000000"
-"targetname" "middlehighcpspawns"
-"gametypefilter" "-dm,arena"
-}
-{
 "classname" "target_position"
 "origin" "80.000000 -492.000000 92.000000"
 "targetname" "t2"
@@ -31105,47 +31079,6 @@ exx/base-metal03
 }
 }
 {
-"classname" "onslaught_controlpoint"
-"origin" "-80.000000 -208.000000 0.000000"
-"targetname" "redcp1"
-"message" "Big Red room"
-"angle" "-90.000000"
-}
-{
-"classname" "onslaught_link"
-"origin" "-208.000000 -304.000000 80.000000"
-"target" "middlehighcp"
-"target2" "redcp1"
-"angle" "-90.000000"
-}
-{
-"classname" "onslaught_link"
-"origin" "108.000000 -68.000000 84.000000"
-"target" "redgen1"
-"target2" "redcp1"
-"angle" "-90.000000"
-}
-{
-"classname" "onslaught_link"
-"origin" "-208.000000 -112.000000 80.000000"
-"target" "middlelowcp"
-"target2" "redcp1"
-"angle" "-90.000000"
-}
-{
-"classname" "info_player_deathmatch"
-"origin" "-352.000000 1056.000000 -232.000000"
-"targetname" "middlelowcpspawns"
-"angle" "90.000000"
-}
-{
-"classname" "info_player_deathmatch"
-"origin" "-2080.000000 -672.000000 136.000000"
-"targetname" "middlehighcpspawns"
-"angle" "-90.000000"
-"gametypefilter" "-dm,arena"
-}
-{
 "classname" "misc_model"
 "origin" "784.000244 63.999878 -384.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
@@ -31380,18 +31313,18 @@ exx/base-metal03
 {
 "classname" "dom_controlpoint"
 "origin" "256.000000 -1024.000000 -160.000000"
-"message" " has captured the ^4blue warpzone ^7control point"
+"message" " has captured the ^4Blue ^2Hagar ^3control point"
 "angle" "90.000000"
 }
 {
 "classname" "dom_controlpoint"
 "origin" "-2144.000000 -480.000000 128.000000"
-"message" " has captured the ^2upper middle ^7control point"
+"message" " has captured the ^2Mega Armor (Middle) ^3control point"
 }
 {
 "classname" "dom_controlpoint"
 "origin" "-480.000000 1184.000000 -240.000000"
-"message" " has captured the ^2lower middle ^7control point"
+"message" " has captured the ^2Strength ^3control point"
 }
 {
 "classname" "target_position"
@@ -32857,26 +32790,6 @@ exx/base-metal03
 "lodmodel1" "models/containers/crate01_lod.md3"
 "loddistance1" "450"
 "angle" "-1.603582"
-}
-{
-"classname" "misc_model"
-"origin" "-554.999878 870.999756 -256.000000"
-"model" "models/containers/barrel01.md3"
-"angle" "-40.469692"
-"spawnflags" "2"
-}
-{
-"classname" "misc_model"
-"origin" "-480.000000 872.000000 -256.000000"
-"model" "models/containers/barrel01.md3"
-"spawnflags" "2"
-}
-{
-"classname" "misc_model"
-"origin" "-520.000000 869.999939 -256.000000"
-"model" "models/containers/barrel01.md3"
-"angle" "-66.641502"
-"spawnflags" "2"
 }
 {
 "classname" "item_health_medium"
@@ -34600,47 +34513,6 @@ exx/base-metal03
 }
 }
 {
-"classname" "onslaught_controlpoint"
-"origin" "-1872.000000 1584.000000 0.000000"
-"targetname" "redcp2"
-"message" "Big Red room"
-"angle" "0.000003"
-}
-{
-"classname" "onslaught_link"
-"origin" "-1968.000000 1456.000000 80.000000"
-"target" "middlehighcp"
-"target2" "redcp2"
-"angle" "0.000003"
-}
-{
-"classname" "onslaught_link"
-"origin" "-1732.000000 1772.000000 84.000000"
-"target" "redgen2"
-"target2" "redcp2"
-"angle" "0.000003"
-}
-{
-"classname" "onslaught_link"
-"origin" "-1776.000000 1456.000000 80.000000"
-"target" "middlelowcp"
-"target2" "redcp2"
-"angle" "0.000003"
-}
-{
-"classname" "info_player_deathmatch"
-"origin" "-608.000000 1312.000000 -232.000000"
-"targetname" "middlelowcpspawns"
-"angle" "-179.999985"
-}
-{
-"classname" "info_player_deathmatch"
-"origin" "-2336.000000 -416.000000 136.000000"
-"targetname" "middlehighcpspawns"
-"angle" "0.000003"
-"gametypefilter" "-dm,arena"
-}
-{
 "classname" "misc_model"
 "origin" "-1600.000244 2448.000000 -384.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
@@ -34806,7 +34678,7 @@ exx/base-metal03
 {
 "classname" "dom_controlpoint"
 "origin" "-2688.000000 1920.000000 -160.000000"
-"message" " has captured the ^4blue warpzone ^7control point"
+"message" " has captured the ^1Red ^2Hagar ^3control point"
 "angle" "-179.999985"
 }
 {
@@ -36276,27 +36148,6 @@ exx/base-metal03
 }
 {
 "classname" "misc_model"
-"origin" "-793.000122 1109.000244 -256.000000"
-"model" "models/containers/barrel01.md3"
-"angle" "49.530289"
-"spawnflags" "2"
-}
-{
-"classname" "misc_model"
-"origin" "-544.000000 -488.000031 0.000000"
-"model" "models/containers/barrel01.md3"
-"spawnflags" "2"
-"angle" "0.000003"
-}
-{
-"classname" "misc_model"
-"origin" "-793.999756 1144.000244 -256.000000"
-"model" "models/containers/barrel01.md3"
-"angle" "23.358463"
-"spawnflags" "2"
-}
-{
-"classname" "misc_model"
 "origin" "-512.150635 -352.299103 -216.000076"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "angles" "0.000002 -76.533272 -26.603931"
@@ -36458,29 +36309,8 @@ effects_healpod/healpod1_d
 "origin" "784.000000 64.000000 -160.000000"
 }
 {
-"classname" "misc_model"
-"origin" "-792.000000 1184.000000 -256.000000"
-"model" "models/containers/barrel01.md3"
-"spawnflags" "2"
-"angle" "90.000000"
-}
-{
-"classname" "misc_model"
-"origin" "-2152.000000 1120.000000 0.000000"
-"model" "models/containers/barrel01.md3"
-"spawnflags" "2"
-"angle" "90.000000"
-}
-{
 "classname" "item_armor_large"
 "origin" "-2200.000000 -536.000000 128.000000"
-}
-{
-"classname" "onslaught_generator"
-"origin" "784.000000 984.000000 264.000000"
-"team" "14"
-"targetname" "redgen3"
-"angle" "-90.000000"
 }
 {
 "classname" "item_flag_team2"
@@ -36488,16 +36318,9 @@ effects_healpod/healpod1_d
 "angle" "-90.000000"
 }
 {
-"classname" "onslaught_generator"
-"origin" "-680.000000 2448.000000 264.000000"
-"team" "14"
-"targetname" "redgen2"
-"angle" "-179.999985"
-}
-{
 "classname" "dom_controlpoint"
 "origin" "784.000000 944.000000 296.000000"
-"message" " has captured the ^1blue base ^7control point"
+"message" " has captured the ^4Blue ^2base ^3control point"
 "angle" "-90.000000"
 }
 {
@@ -36519,4 +36342,270 @@ effects_healpod/healpod1_d
 "classname" "info_autoscreenshot"
 "origin" "477.651245 -851.75 -140.53656"
 "angles" "0.52734375 -149.002075 0"
+}
+{
+"classname" "dom_team"
+"origin" "544.000000 -240.000000 -152.000000"
+"netname" "^4Blue Team^3"
+"model" "models/domination/dom_blue.md3"
+"message" "Blue Team has captured a control point"
+"noise" "domination/claim.wav"
+"noise1" "domination/claim.wav"
+"cnt" "13"
+}
+{
+"classname" "dom_team"
+"origin" "544.000000 -304.000000 -152.000000"
+"cnt" "4"
+"message" "Red Team has captured a control point"
+"model" "models/domination/dom_red.md3"
+"netname" "^1Red Team^3"
+"noise" "domination/claim.wav"
+"noise1" "domination/claim.wav"
+}
+{
+"classname" "dom_team"
+"origin" "544.000000 -368.000000 -152.000000"
+"model" "models/domination/dom_unclaimed.md3"
+}
+{
+"classname" "dom_team"
+"origin" "544.000000 -272.000000 -152.000000"
+"netname" "^3Yellow Team^3"
+"model" "models/domination/dom_yellow.md3"
+"message" "Yellow Team has captured a control point"
+"noise" "domination/claim.wav"
+"noise1" "domination/claim.wav"
+"cnt" "12"
+}
+{
+"classname" "dom_team"
+"origin" "544.000000 -336.000000 -152.000000"
+"netname" "^6Pink Team^3"
+"model" "models/domination/dom_pink.md3"
+"message" "Pink Team has captured a control point"
+"noise" "domination/claim.wav"
+"noise1" "domination/claim.wav"
+"cnt" "9"
+}
+{
+"classname" "onslaught_generator"
+"origin" "784.000000 1104.000000 296.000000"
+"team" "14"
+"targetname" "redgen1"
+"angle" "-90.000000"
+}
+{
+"classname" "onslaught_controlpoint"
+"origin" "-80.000000 -208.000000 0.000000"
+"targetname" "redcp1"
+"message" "Big Red room"
+"angle" "-90.000000"
+}
+{
+"classname" "onslaught_link"
+"origin" "-208.000000 -304.000000 80.000000"
+"target" "middlehighcp"
+"target2" "redcp1"
+"angle" "-90.000000"
+}
+{
+"classname" "onslaught_link"
+"origin" "108.000000 -68.000000 84.000000"
+"target" "redgen1"
+"target2" "redcp1"
+"angle" "-90.000000"
+}
+{
+"classname" "onslaught_link"
+"origin" "-208.000000 -112.000000 80.000000"
+"target" "middlelowcp"
+"target2" "redcp1"
+"angle" "-90.000000"
+}
+{
+"classname" "onslaught_generator"
+"origin" "-560.000000 2448.000000 296.000000"
+"team" "5"
+"targetname" "redgen2"
+"angle" "0.000003"
+}
+{
+"classname" "onslaught_controlpoint"
+"origin" "-1872.000000 1584.000000 0.000000"
+"targetname" "redcp2"
+"message" "Big Red room"
+"angle" "0.000003"
+}
+{
+"classname" "onslaught_link"
+"origin" "-1968.000000 1456.000000 80.000000"
+"target" "middlehighcp"
+"target2" "redcp2"
+"angle" "0.000003"
+}
+{
+"classname" "onslaught_link"
+"origin" "-1732.000000 1772.000000 84.000000"
+"target" "redgen2"
+"target2" "redcp2"
+"angle" "0.000003"
+}
+{
+"classname" "onslaught_link"
+"origin" "-1776.000000 1456.000000 80.000000"
+"target" "middlelowcp"
+"target2" "redcp2"
+"angle" "0.000003"
+}
+{
+"classname" "onslaught_controlpoint"
+"origin" "-480.000000 1184.000000 -256.000000"
+"targetname" "middlelowcp"
+"target" "middlelowcpspawns"
+"message" "Middle Low"
+}
+{
+"classname" "onslaught_controlpoint"
+"origin" "-2144.000000 -480.000000 112.000000"
+"targetname" "middlehighcp"
+"target" "middlehighcpspawns"
+"message" "Middle High"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-864.000000 800.000000 -296.000000"
+"targetname" "middlelowcpspawns"
+"angle" "180.000000"
+"gametypefilter" "-dm"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-1936.000000 -272.000000 80.000000"
+"targetname" "middlehighcpspawns"
+"gametypefilter" "-dm"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-352.000000 1056.000000 -232.000000"
+"targetname" "middlelowcpspawns"
+"angle" "90.000000"
+"gametypefilter" "-dm"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-2080.000000 -672.000000 136.000000"
+"targetname" "middlehighcpspawns"
+"angle" "-90.000000"
+"gametypefilter" "-dm"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-608.000000 1312.000000 -232.000000"
+"targetname" "middlelowcpspawns"
+"angle" "-179.999985"
+"gametypefilter" "-dm"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-2336.000000 -416.000000 136.000000"
+"targetname" "middlehighcpspawns"
+"angle" "0.000003"
+"gametypefilter" "-dm"
+}
+{
+"classname" "misc_breakablemodel"
+"origin" "-544.000000 -488.000031 0.000000"
+"model" "models/containers/barrel01.md3"
+"modelscale" "1.200000"
+"count" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debrissolid" "0"
+"debristime" "5"
+"debristimejitter" "2"
+"dmg" "25"
+"dmg_edge" "25"
+"dmg_force" "600"
+"dmg_radius" "190"
+"health" "25"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"message" "was killed by an explosive barrel"
+"message2" "was killed with an explosive barrel by"
+"noise" "sound/weapons/rocket_impact.ogg"
+"respawntime" "35"
+"respawntimejitter" "10"
+}
+{
+"classname" "misc_breakablemodel"
+"origin" "-472.000000 872.000000 -256.000000"
+"model" "models/containers/barrel01.md3"
+"modelscale" "1.200000"
+"count" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debrissolid" "0"
+"debristime" "5"
+"debristimejitter" "2"
+"dmg" "25"
+"dmg_edge" "25"
+"dmg_force" "600"
+"dmg_radius" "190"
+"health" "25"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"message" "was killed by an explosive barrel"
+"message2" "was killed with an explosive barrel by"
+"noise" "sound/weapons/rocket_impact.ogg"
+"respawntime" "35"
+"respawntimejitter" "10"
+}
+{
+"classname" "misc_breakablemodel"
+"origin" "-792.000000 1192.000000 -256.000000"
+"model" "models/containers/barrel01.md3"
+"modelscale" "1.200000"
+"count" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debrissolid" "0"
+"debristime" "5"
+"debristimejitter" "2"
+"dmg" "25"
+"dmg_edge" "25"
+"dmg_force" "600"
+"dmg_radius" "190"
+"health" "25"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"message" "was killed by an explosive barrel"
+"message2" "was killed with an explosive barrel by"
+"noise" "sound/weapons/rocket_impact.ogg"
+"respawntime" "35"
+"respawntimejitter" "10"
+}
+{
+"classname" "misc_breakablemodel"
+"origin" "-2152.000000 1120.000000 0.000000"
+"model" "models/containers/barrel01.md3"
+"modelscale" "1.200000"
+"count" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debrissolid" "0"
+"debristime" "5"
+"debristimejitter" "2"
+"dmg" "25"
+"dmg_edge" "25"
+"dmg_force" "600"
+"dmg_radius" "190"
+"health" "25"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"message" "was killed by an explosive barrel"
+"message2" "was killed with an explosive barrel by"
+"noise" "sound/weapons/rocket_impact.ogg"
+"respawntime" "35"
+"respawntimejitter" "10"
 }
