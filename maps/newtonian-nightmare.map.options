@@ -1,5 +1,6 @@
--bsp +
+-bsp + -metaadequatescore 99999 -metamaxbboxdistance 16 -np 0.1
 -light +
--vis +
+-vis + -fast
 -minimap +
-Version: 4
+-nosRGB
+Version: 8

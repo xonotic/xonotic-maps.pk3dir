@@ -11,7 +11,7 @@ textures/liquids_lava/lava0
 	q3map_lightSubdivide 64
 	{
 		map textures/liquids_lava/lava0.tga
-		blendfunc add
+		blendfunc GL_SRC_ALPHA GL_ONE
 	}
 }
 
@@ -26,7 +26,24 @@ textures/liquids_lava/lava0_flow
 	q3map_lightSubdivide 64
 	{
 		map textures/liquids_lava/lava0.tga
-		blendfunc add
+		blendfunc GL_SRC_ALPHA GL_ONE
+		tcMod scroll 0 -0.25
+	}
+}
+
+textures/liquids_lava/lava0_flow_pipe
+{
+	qer_editorimage textures/liquids_lava/lava0.tga
+	surfaceparm lava
+	surfaceparm noimpact
+	surfaceparm trans
+	cull disable
+	deformVertexes wave 2 sin 1 2 0.25 0.1
+	q3map_surfacelight 1000
+	q3map_lightSubdivide 64
+	{
+		map textures/liquids_lava/lava0.tga
+		blendfunc GL_SRC_ALPHA GL_ONE
 		tcMod scroll 0 -0.25
 	}
 }
@@ -44,7 +61,7 @@ textures/liquids_lava/lava0_blue
 	q3map_lightSubdivide 64
 	{
 		map textures/liquids_lava/lava0_blue.tga
-		blendfunc add
+		blendfunc GL_SRC_ALPHA GL_ONE
 	}
 }
 
@@ -59,7 +76,24 @@ textures/liquids_lava/lava0_blue_flow
 	q3map_lightSubdivide 64
 	{
 		map textures/liquids_lava/lava0_blue.tga
-		blendfunc add
+		blendfunc GL_SRC_ALPHA GL_ONE
+		tcMod scroll 0 -0.25
+	}
+}
+
+textures/liquids_lava/lava0_blue_flow_pipe
+{
+	qer_editorimage textures/liquids_lava/lava0_blue.tga
+	surfaceparm lava
+	surfaceparm noimpact
+	surfaceparm trans
+	cull disable
+	deformVertexes wave 2 sin 1 2 0.25 0.1
+	q3map_surfacelight 1000
+	q3map_lightSubdivide 64
+	{
+		map textures/liquids_lava/lava0_blue.tga
+		blendfunc GL_SRC_ALPHA GL_ONE
 		tcMod scroll 0 -0.25
 	}
 }
@@ -77,7 +111,7 @@ textures/liquids_lava/lava0_green
 	q3map_lightSubdivide 64
 	{
 		map textures/liquids_lava/lava0_green.tga
-		blendfunc add
+		blendfunc GL_SRC_ALPHA GL_ONE
 	}
 }
 
@@ -92,7 +126,24 @@ textures/liquids_lava/lava0_green_flow
 	q3map_lightSubdivide 64
 	{
 		map textures/liquids_lava/lava0_green.tga
-		blendfunc add
+		blendfunc GL_SRC_ALPHA GL_ONE
+		tcMod scroll 0 -0.25
+	}
+}
+
+textures/liquids_lava/lava0_green_flow_pipe
+{
+	qer_editorimage textures/liquids_lava/lava0_green.tga
+	surfaceparm lava
+	surfaceparm noimpact
+	surfaceparm trans
+	cull disable
+	deformVertexes wave 2 sin 1 2 0.25 0.1
+	q3map_surfacelight 1000
+	q3map_lightSubdivide 64
+	{
+		map textures/liquids_lava/lava0_green.tga
+		blendfunc GL_SRC_ALPHA GL_ONE
 		tcMod scroll 0 -0.25
 	}
 }
@@ -110,7 +161,7 @@ textures/liquids_lava/lava0_purple
 	q3map_lightSubdivide 64
 	{
 		map textures/liquids_lava/lava0_purple.tga
-		blendfunc add
+		blendfunc GL_SRC_ALPHA GL_ONE
 	}
 }
 
@@ -125,8 +176,24 @@ textures/liquids_lava/lava0_purple_flow
 	q3map_lightSubdivide 64
 	{
 		map textures/liquids_lava/lava0_purple.tga
-		blendfunc add
+		blendfunc GL_SRC_ALPHA GL_ONE
 		tcMod scroll 0 -0.25
 	}
 }
 
+textures/liquids_lava/lava0_purple_flow_pipe
+{
+	qer_editorimage textures/liquids_lava/lava0_purple.tga
+	surfaceparm lava
+	surfaceparm noimpact
+	surfaceparm trans
+	cull disable
+	deformVertexes wave 2 sin 1 2 0.25 0.1
+	q3map_surfacelight 1000
+	q3map_lightSubdivide 64
+	{
+		map textures/liquids_lava/lava0_purple.tga
+		blendfunc GL_SRC_ALPHA GL_ONE
+		tcMod scroll 0 -0.25
+	}
+}
