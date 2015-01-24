@@ -178,13 +178,13 @@ textures/map_glowplant/distort_glass
 
 textures/map_glowplant/gradient_light
 {
-	qer_editorimage textures/map_glowplant/gradient_light.tga
+	qer_editorimage textures/effects_lightning/gradient_white.tga
 	surfaceparm noimpact
 	surfaceparm nonsolid
 	surfaceparm trans
 	cull none
 	{
-		map textures/map_glowplant/gradient_light.tga
+		map textures/effects_lightning/gradient_white.tga
 		blendfunc blend
 	}
 }

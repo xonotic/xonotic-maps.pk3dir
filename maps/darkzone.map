@@ -24788,68 +24788,12 @@ exx/trim-01
 }
 {
 "classname" "misc_gamemodel"
-"origin" "417.999969 636.000061 117.999977"
-"model" "models/containers/barrel01.md3"
-"_castShadows" "1"
-"angles" "90.000000 0.000000 0.000003"
-}
-{
-"classname" "misc_gamemodel"
-"origin" "519.999939 632.000000 32.000000"
-"model" "models/containers/barrel01.md3"
-"_castShadows" "1"
-"angle" "90.000000"
-}
-{
-"classname" "misc_gamemodel"
-"origin" "487.999939 640.000000 32.000000"
-"model" "models/containers/barrel01.md3"
-"_castShadows" "1"
-"angle" "90.000000"
-}
-{
-"classname" "misc_gamemodel"
 "origin" "507.999817 488.000000 32.000000"
 "model" "models/containers/crate01.md3"
 "_castShadows" "1"
 "lodmodel1" "models/containers/crate01_lod.md3"
 "loddistance1" "450"
 "angle" "-2.000607"
-}
-{
-"classname" "misc_gamemodel"
-"origin" "503.999939 640.000000 80.000000"
-"model" "models/containers/barrel01.md3"
-"_castShadows" "1"
-"angle" "90.000000"
-}
-{
-"classname" "misc_gamemodel"
-"origin" "407.999939 608.000000 102.000000"
-"model" "models/containers/barrel01.md3"
-"_castShadows" "1"
-"angle" "90.000000"
-}
-{
-"classname" "misc_gamemodel"
-"origin" "493.999939 508.000000 102.000000"
-"model" "models/containers/barrel01.md3"
-"_castShadows" "1"
-"angle" "90.000000"
-}
-{
-"classname" "misc_gamemodel"
-"origin" "527.999939 496.000000 102.000000"
-"model" "models/containers/barrel01.md3"
-"_castShadows" "1"
-"angle" "90.000000"
-}
-{
-"classname" "misc_gamemodel"
-"origin" "499.999939 474.000000 102.000000"
-"model" "models/containers/barrel01.md3"
-"_castShadows" "1"
-"angle" "90.000000"
 }
 {
 "classname" "light"
