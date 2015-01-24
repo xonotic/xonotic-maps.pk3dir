@@ -5,8 +5,12 @@ cdtrack 5
 has weapons
 gametype dm
 gametype lms
-gametype arena
 gametype ka
+gametype tdm
+gametype ca
+gametype kh
+gametype ft
+
 // optional: fog density red green blue alpha mindist maxdist
 // optional: settemp_for_type (all|gametypename) cvarname value
 // optional: clientsettemp_for_type (all|gametypename) cvarname value
