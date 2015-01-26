@@ -1,8 +1,8 @@
 title Geoplanetary
 description Geomonetary in space
 author MintOX, Debugger, Mirio
-has weapons
 cdtrack 18
+has weapons
 gametype ctf
 gametype dom
 
