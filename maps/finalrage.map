@@ -15275,7 +15275,7 @@ map_stormkeep/rock
 {
 "classname" "target_speaker"
 "origin" "368.000000 -448.000000 -32.000000"
-"noise" "sound/map_bromine/electrified.wav"
+"noise" "sound/map_finalrage/electrified.wav"
 "volume" "0.4"
 "targetname" "warped_01"
 }
@@ -15294,7 +15294,7 @@ map_stormkeep/rock
 "classname" "target_speaker"
 "origin" "1536.000000 1176.000000 224.000000"
 "angle" "-179.999985"
-"noise" "sound/map_bromine/electrified.wav"
+"noise" "sound/map_finalrage/electrified.wav"
 "targetname" "warped_02"
 }
 {
