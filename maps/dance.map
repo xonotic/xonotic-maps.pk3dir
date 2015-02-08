@@ -23664,156 +23664,6 @@ effects_jumppad/jumppadfx1_a
 "angle" "-179.999985"
 }
 {
-"classname" "misc_breakablemodel"
-"origin" "1108.000000 735.999878 92.000000"
-"model" "models/containers/barrel01.md3"
-"_castShadows" "1"
-"angle" "60.000000"
-"count" "1"
-"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
-"debrisdamageforcescale" "1"
-"debrisfadetime" "1"
-"debrissolid" "0"
-"debristime" "6"
-"debristimejitter" "2"
-"dmg" "75"
-"dmg_edge" "25"
-"dmg_force" "600"
-"dmg_radius" "150"
-"health" "25"
-"mdl" "TE_TEI_BIGEXPLOSION"
-"message" "was killed by an explosive barrel"
-"message2" "was killed with an explosive barrel by"
-"noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "40"
-"respawntimejitter" "10"
-}
-{
-"classname" "misc_breakablemodel"
-"origin" "1052.000000 751.999878 92.000000"
-"model" "models/containers/barrel01.md3"
-"_castShadows" "1"
-"angle" "60.000000"
-"count" "1"
-"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
-"debrisdamageforcescale" "1"
-"debrisfadetime" "1"
-"debrissolid" "0"
-"debristime" "6"
-"debristimejitter" "2"
-"dmg" "75"
-"dmg_edge" "25"
-"dmg_force" "600"
-"dmg_radius" "150"
-"health" "25"
-"mdl" "TE_TEI_BIGEXPLOSION"
-"message" "was killed by an explosive barrel"
-"message2" "was killed with an explosive barrel by"
-"noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "40"
-"respawntimejitter" "10"
-}
-{
-"classname" "misc_breakablemodel"
-"origin" "1087.935547 662.859192 107.964203"
-"model" "models/containers/barrel01.md3"
-"_castShadows" "1"
-"count" "1"
-"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
-"debrisdamageforcescale" "1"
-"debrisfadetime" "1"
-"debrissolid" "0"
-"debristime" "6"
-"debristimejitter" "2"
-"dmg" "75"
-"dmg_edge" "25"
-"dmg_force" "600"
-"dmg_radius" "150"
-"health" "25"
-"mdl" "TE_TEI_BIGEXPLOSION"
-"message" "was killed by an explosive barrel"
-"message2" "was killed with an explosive barrel by"
-"noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "40"
-"respawntimejitter" "10"
-"angles" "-0.000000 0.194464 -90.000000"
-}
-{
-"classname" "misc_breakablemodel"
-"origin" "-1108.000122 -735.999878 92.000000"
-"model" "models/containers/barrel01.md3"
-"_castShadows" "1"
-"angle" "-120.000015"
-"count" "1"
-"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
-"debrisdamageforcescale" "1"
-"debrisfadetime" "1"
-"debrissolid" "0"
-"debristime" "6"
-"debristimejitter" "2"
-"dmg" "75"
-"dmg_edge" "25"
-"dmg_force" "600"
-"dmg_radius" "150"
-"health" "25"
-"mdl" "TE_TEI_BIGEXPLOSION"
-"message" "was killed by an explosive barrel"
-"message2" "was killed with an explosive barrel by"
-"noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "40"
-"respawntimejitter" "10"
-}
-{
-"classname" "misc_breakablemodel"
-"origin" "-1052.000000 -752.000000 92.000000"
-"model" "models/containers/barrel01.md3"
-"_castShadows" "1"
-"angle" "-120.000015"
-"count" "1"
-"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
-"debrisdamageforcescale" "1"
-"debrisfadetime" "1"
-"debrissolid" "0"
-"debristime" "6"
-"debristimejitter" "2"
-"dmg" "75"
-"dmg_edge" "25"
-"dmg_force" "600"
-"dmg_radius" "150"
-"health" "25"
-"mdl" "TE_TEI_BIGEXPLOSION"
-"message" "was killed by an explosive barrel"
-"message2" "was killed with an explosive barrel by"
-"noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "40"
-"respawntimejitter" "10"
-}
-{
-"classname" "misc_breakablemodel"
-"origin" "-1087.601563 -707.193542 108.035683"
-"model" "models/containers/barrel01.md3"
-"_castShadows" "1"
-"count" "1"
-"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
-"debrisdamageforcescale" "1"
-"debrisfadetime" "1"
-"debrissolid" "0"
-"debristime" "6"
-"debristimejitter" "2"
-"dmg" "75"
-"dmg_edge" "25"
-"dmg_force" "600"
-"dmg_radius" "150"
-"health" "25"
-"mdl" "TE_TEI_BIGEXPLOSION"
-"message" "was killed by an explosive barrel"
-"message2" "was killed with an explosive barrel by"
-"noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "40"
-"respawntimejitter" "10"
-"angles" "0.000010 -179.805542 90.000000"
-}
-{
 "classname" "misc_model"
 "origin" "-320.000000 -896.000000 0.000000"
 "model" "models/lights/xonlight01.md3"
@@ -24098,103 +23948,773 @@ effects_jumppad/jumppadfx1_a
 "_color" "1 1 0.9"
 }
 {
+"classname" "light"
+"origin" "1600.000000 -1426.000000 -17.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "1600.000000 -1390.000000 -17.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "1280.000000 -1042.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "1280.000000 -1006.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "1006.000000 -768.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "1042.000000 -768.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "1042.000000 -1280.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "1006.000000 -1280.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "768.000000 -1042.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "768.000000 -1006.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "736.000000 -1518.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "736.000000 -1554.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "128.000000 -594.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "128.000000 -978.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "736.000000 -2322.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "736.000000 -1938.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "288.000000 -1554.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "288.000000 -2322.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "288.000000 -1938.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-1280.000000 1006.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-128.000000 558.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-768.000000 1006.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-736.000000 1518.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-128.000000 942.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-736.000000 2286.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-736.000000 1902.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-288.000000 1518.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-288.000000 2286.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-288.000000 1902.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "128.000000 -557.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "128.000000 -941.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "736.000000 -2285.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "736.000000 -1901.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "288.000000 -1517.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "288.000000 -2285.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "288.000000 -1901.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-1280.000000 1043.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-128.000000 595.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-768.000000 1043.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-736.000000 1555.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-128.000000 979.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-736.000000 2323.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-736.000000 1939.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-288.000000 1555.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-288.000000 2323.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-288.000000 1939.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-1006.000000 768.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-1042.000000 768.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-1042.000000 1280.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-1006.000000 1280.000000 -18.000000"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-1600.000000 -540.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "-1600.000000 -204.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "-1600.000000 116.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "-1600.000000 436.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "-1600.000000 756.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "-1600.000000 1076.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "-1600.000000 1428.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "1600.000000 580.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "1600.000000 244.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "1600.000000 -76.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "1600.000000 -396.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "1600.000000 -716.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "1600.000000 -1036.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "-1600.000000 -580.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "-1600.000000 -244.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "-1600.000000 76.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "-1600.000000 396.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "-1600.000000 716.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "-1600.000000 1036.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "-1600.000000 1388.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "1600.000000 540.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "1600.000000 204.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "1600.000000 -116.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "1600.000000 -436.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "1600.000000 -756.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "1600.000000 -1076.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "-1589.000000 -908.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "1611.000000 884.000000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "-1612.500000 -884.500000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "1587.500000 907.500000 -19.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "-339.000000 -896.000000 -18.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "-659.000000 -896.000000 -18.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "-979.000000 -896.000000 -18.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "-1299.000000 -896.000000 -18.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "301.000000 896.000000 -18.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "621.000000 896.000000 -18.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "941.000000 896.000000 -18.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "1261.000000 896.000000 -18.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "-299.000000 -892.000000 -18.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "-619.000000 -892.000000 -18.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "-939.000000 -892.000000 -18.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "-1259.000000 -892.000000 -18.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "341.000000 900.000000 -18.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "661.000000 900.000000 -18.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "981.000000 900.000000 -18.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
+"classname" "light"
+"origin" "1301.000000 900.000000 -18.000000"
+"light" "175"
+"_color" "1 1 0.9"
+}
+{
 "classname" "misc_breakablemodel"
-"origin" "-1420.000000 -736.000000 92.000000"
+"origin" "-1052.000000 -752.000000 92.000000"
 "model" "models/containers/barrel01.md3"
-"_castShadows" "1"
-"angle" "-120.000015"
+"modelscale" "1.200000"
 "count" "1"
 "debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
 "debrisdamageforcescale" "1"
 "debrisfadetime" "1"
 "debrissolid" "0"
-"debristime" "6"
+"debristime" "5"
 "debristimejitter" "2"
-"dmg" "75"
+"dmg" "25"
 "dmg_edge" "25"
 "dmg_force" "600"
-"dmg_radius" "150"
+"dmg_radius" "190"
 "health" "25"
 "mdl" "TE_TEI_BIGEXPLOSION"
 "message" "was killed by an explosive barrel"
 "message2" "was killed with an explosive barrel by"
 "noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "40"
+"respawntime" "35"
+"respawntimejitter" "10"
+}
+{
+"classname" "misc_breakablemodel"
+"origin" "-1108.000122 -735.999878 92.000000"
+"model" "models/containers/barrel01.md3"
+"modelscale" "1.200000"
+"count" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debrissolid" "0"
+"debristime" "5"
+"debristimejitter" "2"
+"dmg" "25"
+"dmg_edge" "25"
+"dmg_force" "600"
+"dmg_radius" "190"
+"health" "25"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"message" "was killed by an explosive barrel"
+"message2" "was killed with an explosive barrel by"
+"noise" "sound/weapons/rocket_impact.ogg"
+"respawntime" "35"
+"respawntimejitter" "10"
+}
+{
+"classname" "misc_breakablemodel"
+"origin" "-1420.000000 -736.000000 92.000000"
+"model" "models/containers/barrel01.md3"
+"modelscale" "1.200000"
+"count" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debrissolid" "0"
+"debristime" "5"
+"debristimejitter" "2"
+"dmg" "25"
+"dmg_edge" "25"
+"dmg_force" "600"
+"dmg_radius" "190"
+"health" "25"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"message" "was killed by an explosive barrel"
+"message2" "was killed with an explosive barrel by"
+"noise" "sound/weapons/rocket_impact.ogg"
+"respawntime" "35"
 "respawntimejitter" "10"
 }
 {
 "classname" "misc_breakablemodel"
 "origin" "-1452.000000 -696.000000 92.000000"
 "model" "models/containers/barrel01.md3"
-"_castShadows" "1"
-"angle" "-120.000015"
+"modelscale" "1.200000"
 "count" "1"
 "debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
 "debrisdamageforcescale" "1"
 "debrisfadetime" "1"
 "debrissolid" "0"
-"debristime" "6"
+"debristime" "5"
 "debristimejitter" "2"
-"dmg" "75"
+"dmg" "25"
 "dmg_edge" "25"
 "dmg_force" "600"
-"dmg_radius" "150"
+"dmg_radius" "190"
 "health" "25"
 "mdl" "TE_TEI_BIGEXPLOSION"
 "message" "was killed by an explosive barrel"
 "message2" "was killed with an explosive barrel by"
 "noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "40"
+"respawntime" "35"
 "respawntimejitter" "10"
+}
+{
+"classname" "misc_breakablemodel"
+"origin" "-1087.601563 -707.193542 108.035683"
+"model" "models/containers/barrel01.md3"
+"modelscale" "1.200000"
+"count" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debrissolid" "0"
+"debristime" "5"
+"debristimejitter" "2"
+"dmg" "25"
+"dmg_edge" "25"
+"dmg_force" "600"
+"dmg_radius" "190"
+"health" "25"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"message" "was killed by an explosive barrel"
+"message2" "was killed with an explosive barrel by"
+"noise" "sound/weapons/rocket_impact.ogg"
+"respawntime" "35"
+"respawntimejitter" "10"
+"angles" "0.000010 -179.805542 90.000000"
+}
+{
+"classname" "misc_breakablemodel"
+"origin" "1052.000000 751.999878 92.000000"
+"model" "models/containers/barrel01.md3"
+"modelscale" "1.200000"
+"count" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debrissolid" "0"
+"debristime" "5"
+"debristimejitter" "2"
+"dmg" "25"
+"dmg_edge" "25"
+"dmg_force" "600"
+"dmg_radius" "190"
+"health" "25"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"message" "was killed by an explosive barrel"
+"message2" "was killed with an explosive barrel by"
+"noise" "sound/weapons/rocket_impact.ogg"
+"respawntime" "35"
+"respawntimejitter" "10"
+}
+{
+"classname" "misc_breakablemodel"
+"origin" "1108.000000 735.999878 92.000000"
+"model" "models/containers/barrel01.md3"
+"modelscale" "1.200000"
+"count" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debrissolid" "0"
+"debristime" "5"
+"debristimejitter" "2"
+"dmg" "25"
+"dmg_edge" "25"
+"dmg_force" "600"
+"dmg_radius" "190"
+"health" "25"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"message" "was killed by an explosive barrel"
+"message2" "was killed with an explosive barrel by"
+"noise" "sound/weapons/rocket_impact.ogg"
+"respawntime" "35"
+"respawntimejitter" "10"
+}
+{
+"classname" "misc_breakablemodel"
+"origin" "1087.935547 662.859192 107.964203"
+"model" "models/containers/barrel01.md3"
+"modelscale" "1.200000"
+"count" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debrissolid" "0"
+"debristime" "5"
+"debristimejitter" "2"
+"dmg" "25"
+"dmg_edge" "25"
+"dmg_force" "600"
+"dmg_radius" "190"
+"health" "25"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"message" "was killed by an explosive barrel"
+"message2" "was killed with an explosive barrel by"
+"noise" "sound/weapons/rocket_impact.ogg"
+"respawntime" "35"
+"respawntimejitter" "10"
+"angles" "-0.000000 0.194464 -90.000000"
 }
 {
 "classname" "misc_breakablemodel"
 "origin" "1419.999878 736.000122 92.000000"
 "model" "models/containers/barrel01.md3"
-"_castShadows" "1"
-"angle" "59.999981"
+"modelscale" "1.200000"
 "count" "1"
 "debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
 "debrisdamageforcescale" "1"
 "debrisfadetime" "1"
 "debrissolid" "0"
-"debristime" "6"
+"debristime" "5"
 "debristimejitter" "2"
-"dmg" "75"
+"dmg" "25"
 "dmg_edge" "25"
 "dmg_force" "600"
-"dmg_radius" "150"
+"dmg_radius" "190"
 "health" "25"
 "mdl" "TE_TEI_BIGEXPLOSION"
 "message" "was killed by an explosive barrel"
 "message2" "was killed with an explosive barrel by"
 "noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "40"
+"respawntime" "35"
 "respawntimejitter" "10"
 }
 {
 "classname" "misc_breakablemodel"
 "origin" "1452.000000 695.999939 92.000000"
 "model" "models/containers/barrel01.md3"
-"_castShadows" "1"
-"angle" "59.999981"
+"modelscale" "1.200000"
 "count" "1"
 "debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
 "debrisdamageforcescale" "1"
 "debrisfadetime" "1"
 "debrissolid" "0"
-"debristime" "6"
+"debristime" "5"
 "debristimejitter" "2"
-"dmg" "75"
+"dmg" "25"
 "dmg_edge" "25"
 "dmg_force" "600"
-"dmg_radius" "150"
+"dmg_radius" "190"
 "health" "25"
 "mdl" "TE_TEI_BIGEXPLOSION"
 "message" "was killed by an explosive barrel"
 "message2" "was killed with an explosive barrel by"
 "noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "40"
+"respawntime" "35"
 "respawntimejitter" "10"
 }
 {

@@ -5,7 +5,6 @@ cdtrack 8
 has weapons
 gametype dm
 gametype lms
-gametype arena
 gametype tdm
 gametype ca
 gametype kh
