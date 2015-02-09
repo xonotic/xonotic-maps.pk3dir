@@ -3,5 +3,5 @@ description Medium sized CTF space floater
 author FruitieX, Mirio, Cuinnton
 has weapons
 gametype ctf
-cdtrack 4
+cdtrack 18
 clientsettemp_for_type all r_water 1
