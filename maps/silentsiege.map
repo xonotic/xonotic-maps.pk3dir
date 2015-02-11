@@ -57322,13 +57322,13 @@ brushDef
 }
 {
 "classname" "info_autoscreenshot"
-"origin" "640.219299 758.931702 765.997986"
-"angles" "21.3848877 -131.813965 0"
+"origin" "669.926392 762.684082 628.004333"
+"angles" "15.7104492 -140.366821 0"
 }
 {
 "classname" "info_autoscreenshot"
-"origin" "-1498.62122 445.156494 351.652405"
-"angles" "20.7312012 -44.1650391 0"
+"origin" "1019.96875 -822.431213 391.963715"
+"angles" "17.1606445 -140.097656 0"
 }
 {
 "classname" "info_player_deathmatch"
@@ -57464,4 +57464,13 @@ brushDef
 ( -1032 320 -64 ) ( -1016 320 -64 ) ( -1032 320 64 ) ( ( 0.015625 0 255.875 ) ( 0 0.015625 0 ) ) common/clip 0 0 0
 }
 }
+}
+{
+"classname" "item_strength"
+"origin" "-800.000000 -824.000000 320.000000"
+}
+{
+"classname" "info_autoscreenshot"
+"origin" "-1164.76868 -1114.33459 634.469421"
+"angles" "10.9588623 44.0771484 0"
 }
