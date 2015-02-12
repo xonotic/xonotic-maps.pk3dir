@@ -9564,11 +9564,11 @@ ex2x/light-1
 "message" "was killed by an explosive barrel"
 "message2" "was killed with an explosive barrel by"
 "debrissolid" "0"
-"debristime" "6"
+"debristime" "5"
 "debristimejitter" "2"
 "debrisfadetime" "1"
 "debrisdamageforcescale" "1"
-"respawntime" "40"
+"respawntime" "35"
 "respawntimejitter" "10"
 }
 {

@@ -31313,7 +31313,7 @@ exx/base-metal03
 {
 "classname" "dom_controlpoint"
 "origin" "256.000000 -1024.000000 -160.000000"
-"message" " has captured the ^4Blue ^2Hagar ^3control point"
+"message" " has captured the ^2Blue Hagar ^3control point"
 "angle" "90.000000"
 }
 {
@@ -34678,7 +34678,7 @@ exx/base-metal03
 {
 "classname" "dom_controlpoint"
 "origin" "-2688.000000 1920.000000 -160.000000"
-"message" " has captured the ^1Red ^2Hagar ^3control point"
+"message" " has captured the ^2Red Hagar ^3control point"
 "angle" "-179.999985"
 }
 {
@@ -36320,7 +36320,7 @@ effects_healpod/healpod1_d
 {
 "classname" "dom_controlpoint"
 "origin" "784.000000 944.000000 296.000000"
-"message" " has captured the ^4Blue ^2base ^3control point"
+"message" " has captured the ^2Blue base ^3control point"
 "angle" "-90.000000"
 }
 {
@@ -36608,4 +36608,10 @@ effects_healpod/healpod1_d
 "noise" "sound/weapons/rocket_impact.ogg"
 "respawntime" "35"
 "respawntimejitter" "10"
+}
+{
+"classname" "dom_controlpoint"
+"origin" "-712.000000 2448.000000 296.000000"
+"angle" "-179.999985"
+"message" " has captured the ^2Red base ^3control point"
 }
