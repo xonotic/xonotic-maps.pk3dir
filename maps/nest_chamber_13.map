@@ -57485,22 +57485,42 @@ brushDef
 "sound" "sound/nest_chamber_13/hushed.wav"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "target_spawn"
 "targetname" "for_precaching_only"
-"model" "models/nest_chamber_13/nest_protect.bsp"
-"effects" "16"
+"message" "classname misc_gamemodel targetname for_precaching_only model models/nest_chamber_13/nest_protect.obj effects 16 $ spawnfunc_misc_gamemodel"
+"spawnflags" "1"
+}
+{
+"classname" "trigger_gamestart"
+"target" "nest_protect_timer"
+"wait" "14.213562373095048801688724209"
 }
 {
 "classname" "trigger_multivibrator"
 "target" "nest_protect"
+"targetname" "nest_protect_timer"
 "target_random" "1"
-"wait" "3.1415926535897932384626433832795028841971"
-"respawntime" "2.7182818284590452353602874713526624977572"
-"spawnflags" "1"
+"wait" "5.926535897932384626433832795028841971"
+"respawntime" "7.182818284590452353602874713526624977572"
 }
 {
 "classname" "target_spawn"
 "targetname" "nest_protect"
-"message" "classname func_breakable health 100 respawntime 30 respawntimejitter 10 mdl TE_TEI_BIGEXPLOSION model models/nest_chamber_13/nest_protect.bsp noise sound/nest_chamber_13/canthushhere.ogg noise1 sound/nest_chamber_13/hushed.wav $ spwawnfunc_func_breakable"
+"message" "classname func_breakable health 100 respawntime 30 respawntimejitter 10 mdl TE_TEI_BIGEXPLOSION model models/nest_chamber_13/nest_protect.obj noise1 sound/nest_chamber_13/canthushhere.ogg noise sound/nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
 "count" "1"
+"origin" "352.000000 -576.000000 160.000000"
+}
+{
+"classname" "target_spawn"
+"targetname" "nest_protect"
+"message" "classname func_breakable health 100 respawntime 30 respawntimejitter 10 mdl TE_TEI_BIGEXPLOSION model models/nest_chamber_13/nest_protect.obj noise1 sound/nest_chamber_13/canthushhere.ogg noise sound/nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
+"count" "1"
+"origin" "352.000000 224.000000 160.000000"
+}
+{
+"classname" "target_spawn"
+"targetname" "nest_protect"
+"message" "classname func_breakable health 100 respawntime 30 respawntimejitter 10 mdl TE_TEI_BIGEXPLOSION model models/nest_chamber_13/nest_protect.obj noise1 sound/nest_chamber_13/canthushhere.ogg noise sound/nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
+"count" "1"
+"origin" "352.000000 -176.000000 192.000000"
 }
