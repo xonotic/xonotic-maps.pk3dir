@@ -57475,102 +57475,32 @@ brushDef
 "angles" "10.9588623 44.0771484 0"
 }
 {
-"classname" "func_breakable"
-"health" "100"
-"noise" "sound/nest_chamber_13/hushed.wav"
-"noise1" "sound/nest_chamber_13/canthushhere.ogg"
-"respawntime" "30"
-"respawntimejitter" "10"
-"mdl" "TE_TEI_BIGEXPLOSION"
-{
-brushDef
-{
-( 784 520 960 ) ( 784 504 960 ) ( 760 520 960 ) ( ( 0.009765625 0 495.75 ) ( 0 0.009765625 507.75 ) ) facility114invx/wall-corridor02invr 0 0 0
-( 784 528 1008 ) ( 760 528 1008 ) ( 784 528 944 ) ( ( 0.009765625 0 4.0625 ) ( 0 0.009765625 6.21875 ) ) facility114invx/wall-corridor02invr 0 0 0
-( 784 520 1008 ) ( 784 520 944 ) ( 784 504 1008 ) ( ( 0.009765625 0 495.75 ) ( 0 0.009765625 6.21875 ) ) facility114invx/wall-corridor02invr 0 0 0
-( 760 504 952 ) ( 784 504 952 ) ( 760 520 952 ) ( ( 0.009765625 0 495.75 ) ( 0 0.009765625 2.9375 ) ) facility114invx/wall-corridor02invr 0 0 0
-( 760 496 944 ) ( 760 496 1008 ) ( 784 496 944 ) ( ( 0.009765625 0 508.875 ) ( 0 0.009765625 6.21875 ) ) facility114invx/wall-corridor02invr 0 0 0
-( 752 504 944 ) ( 752 520 944 ) ( 752 504 1008 ) ( ( 0.009765625 0 17.1875 ) ( 0 0.009765625 6.21875 ) ) facility114invx/wall-corridor02invr 0 0 0
-}
-}
+"classname" "target_speaker"
+"targetname" "for_precaching_only"
+"sound" "sound/nest_chamber_13/canthushhere.ogg"
 }
 {
-"classname" "func_breakable"
-"health" "100"
-"noise" "sound/nest_chamber_13/hushed.wav"
-"noise1" "sound/nest_chamber_13/canthushhere.ogg"
-"respawntime" "30"
-"respawntimejitter" "10"
-"mdl" "TE_TEI_BIGEXPLOSION"
-{
-brushDef
-{
-( 384 -1160 256 ) ( 384 -1176 256 ) ( 360 -1160 256 ) ( ( 0.009765625 0 0.15625 ) ( 0 0.009765625 511.65625 ) ) facility114invx/wall-corridor02invr 0 0 0
-( 384 -1152 304 ) ( 360 -1152 304 ) ( 384 -1152 240 ) ( ( 0.009765625 0 0.15625 ) ( 0 0.009765625 511.34375 ) ) facility114invx/wall-corridor02invr 0 0 0
-( 384 -1160 304 ) ( 384 -1160 240 ) ( 384 -1176 304 ) ( ( 0.009765625 0 0.15625 ) ( 0 0.009765625 511.34375 ) ) facility114invx/wall-corridor02invr 0 0 0
-( 360 -1176 248 ) ( 384 -1176 248 ) ( 360 -1160 248 ) ( ( 0.009765625 0 0.15625 ) ( 0 0.009765625 511.03125 ) ) facility114invx/wall-corridor02invr 0 0 0
-( 360 -1184 240 ) ( 360 -1184 304 ) ( 384 -1184 240 ) ( ( 0.009765625 0 0.78125 ) ( 0 0.009765625 511.34375 ) ) facility114invx/wall-corridor02invr 0 0 0
-( 352 -1176 240 ) ( 352 -1160 240 ) ( 352 -1176 304 ) ( ( 0.009765625 0 0.78125 ) ( 0 0.009765625 511.34375 ) ) facility114invx/wall-corridor02invr 0 0 0
-}
-}
+"classname" "target_speaker"
+"targetname" "for_precaching_only"
+"sound" "sound/nest_chamber_13/hushed.wav"
 }
 {
-"classname" "func_breakable"
-"health" "100"
-"noise" "sound/nest_chamber_13/hushed.wav"
-"noise1" "sound/nest_chamber_13/canthushhere.ogg"
-"respawntime" "30"
-"respawntimejitter" "10"
-"mdl" "TE_TEI_BIGEXPLOSION"
-{
-brushDef
-{
-( 368 -168 192 ) ( 368 -184 192 ) ( 344 -168 192 ) ( ( 0.009765625 0 502.46875 ) ( 0 0.009765625 511.8125 ) ) facility114invx/wall-corridor02invr 0 0 0
-( 368 -160 240 ) ( 344 -160 240 ) ( 368 -160 176 ) ( ( 0.009765625 0 0 ) ( 0 0.009765625 510.71875 ) ) facility114invx/wall-corridor02invr 0 0 0
-( 368 -168 240 ) ( 368 -168 176 ) ( 368 -184 240 ) ( ( 0.009765625 0 502.46875 ) ( 0 0.009765625 510.71875 ) ) facility114invx/wall-corridor02invr 0 0 0
-( 344 -184 184 ) ( 368 -184 184 ) ( 344 -168 184 ) ( ( 0.009765625 0 502.46875 ) ( 0 0.009765625 510.875 ) ) facility114invx/wall-corridor02invr 0 0 0
-( 344 -192 176 ) ( 344 -192 240 ) ( 368 -192 176 ) ( ( 0.009765625 0 0.9375 ) ( 0 0.009765625 510.71875 ) ) facility114invx/wall-corridor02invr 0 0 0
-( 336 -184 176 ) ( 336 -168 176 ) ( 336 -184 240 ) ( ( 0.009765625 0 10.46875 ) ( 0 0.009765625 510.71875 ) ) facility114invx/wall-corridor02invr 0 0 0
-}
-}
+"classname" "misc_gamemodel"
+"targetname" "for_precaching_only"
+"model" "models/nest_chamber_13/nest_protect.bsp"
+"effects" "16"
 }
 {
-"classname" "func_breakable"
-"health" "100"
-"noise" "sound/nest_chamber_13/hushed.wav"
-"noise1" "sound/nest_chamber_13/canthushhere.ogg"
-"respawntime" "30"
-"respawntimejitter" "10"
-"mdl" "TE_TEI_BIGEXPLOSION"
-{
-brushDef
-{
-( 16 776 960 ) ( 16 760 960 ) ( -8 776 960 ) ( ( 0.009765625 0 493.25 ) ( 0 0.009765625 3.25 ) ) facility114invx/wall-corridor02invr 0 0 0
-( 16 784 1008 ) ( -8 784 1008 ) ( 16 784 944 ) ( ( 0.009765625 0 508.5625 ) ( 0 0.009765625 6.21875 ) ) facility114invx/wall-corridor02invr 0 0 0
-( 16 776 1008 ) ( 16 776 944 ) ( 16 760 1008 ) ( ( 0.009765625 0 493.25 ) ( 0 0.009765625 6.21875 ) ) facility114invx/wall-corridor02invr 0 0 0
-( -8 760 952 ) ( 16 760 952 ) ( -8 776 952 ) ( ( 0.009765625 0 493.25 ) ( 0 0.009765625 507.4375 ) ) facility114invx/wall-corridor02invr 0 0 0
-( -8 752 944 ) ( -8 752 1008 ) ( 16 752 944 ) ( ( 0.009765625 0 4.375 ) ( 0 0.009765625 6.21875 ) ) facility114invx/wall-corridor02invr 0 0 0
-( -16 760 944 ) ( -16 776 944 ) ( -16 760 1008 ) ( ( 0.009765625 0 19.6875 ) ( 0 0.009765625 6.21875 ) ) facility114invx/wall-corridor02invr 0 0 0
-}
-}
+"classname" "trigger_multivibrator"
+"target" "nest_protect"
+"target_random" "1"
+"wait" "3.1415926535897932384626433832795028841971"
+"respawntime" "2.7182818284590452353602874713526624977572"
+"spawnflags" "1"
 }
 {
-"classname" "func_breakable"
-"health" "100"
-"noise" "sound/nest_chamber_13/hushed.wav"
-"noise1" "sound/nest_chamber_13/canthushhere.ogg"
-"respawntime" "30"
-"respawntimejitter" "10"
-"mdl" "TE_TEI_BIGEXPLOSION"
-{
-brushDef
-{
-( 528 776 960 ) ( 528 760 960 ) ( 504 776 960 ) ( ( 0.009765625 0 493.25 ) ( 0 0.009765625 510.25 ) ) facility114invx/wall-corridor02invr 0 0 0
-( 528 784 1008 ) ( 504 784 1008 ) ( 528 784 944 ) ( ( 0.009765625 0 1.5625 ) ( 0 0.009765625 6.21875 ) ) facility114invx/wall-corridor02invr 0 0 0
-( 528 776 1008 ) ( 528 776 944 ) ( 528 760 1008 ) ( ( 0.009765625 0 493.25 ) ( 0 0.009765625 6.21875 ) ) facility114invx/wall-corridor02invr 0 0 0
-( 504 760 952 ) ( 528 760 952 ) ( 504 776 952 ) ( ( 0.009765625 0 493.25 ) ( 0 0.009765625 0.4375 ) ) facility114invx/wall-corridor02invr 0 0 0
-( 504 752 944 ) ( 504 752 1008 ) ( 528 752 944 ) ( ( 0.009765625 0 511.375 ) ( 0 0.009765625 6.21875 ) ) facility114invx/wall-corridor02invr 0 0 0
-( 496 760 944 ) ( 496 776 944 ) ( 496 760 1008 ) ( ( 0.009765625 0 19.6875 ) ( 0 0.009765625 6.21875 ) ) facility114invx/wall-corridor02invr 0 0 0
-}
-}
+"classname" "target_spawn"
+"targetname" "nest_protect"
+"message" "classname func_breakable health 100 respawntime 30 respawntimejitter 10 mdl TE_TEI_BIGEXPLOSION model models/nest_chamber_13/nest_protect.bsp noise sound/nest_chamber_13/canthushhere.ogg noise1 sound/nest_chamber_13/hushed.wav $ spwawnfunc_func_breakable"
+"count" "1"
 }
