@@ -57478,17 +57478,23 @@ brushDef
 "classname" "target_speaker"
 "targetname" "for_precaching_only"
 "sound" "sound/nest_chamber_13/canthushhere.ogg"
+"nextthink" "1"
+"think" "SUB_Remove"
 }
 {
 "classname" "target_speaker"
 "targetname" "for_precaching_only"
 "sound" "sound/nest_chamber_13/hushed.wav"
+"nextthink" "1"
+"think" "SUB_Remove"
 }
 {
-"classname" "target_spawn"
+"classname" "misc_gamemodel"
 "targetname" "for_precaching_only"
-"message" "classname misc_gamemodel targetname for_precaching_only model models/nest_chamber_13/nest_protect.obj effects 16 $ spawnfunc_misc_gamemodel"
-"spawnflags" "1"
+"model" "models/nest_chamber_13/nest_protect.obj"
+"effects" "16"
+"nextthink" "1"
+"think" "SUB_Remove"
 }
 {
 "classname" "trigger_gamestart"
@@ -57502,6 +57508,27 @@ brushDef
 "target_random" "1"
 "wait" "5.926535897932384626433832795028841971"
 "respawntime" "7.182818284590452353602874713526624977572"
+}
+{
+"classname" "target_spawn"
+"targetname" "nest_protect"
+"message" "classname func_breakable health 100 respawntime 30 respawntimejitter 10 mdl TE_TEI_BIGEXPLOSION model models/nest_chamber_13/nest_protect.obj noise1 sound/nest_chamber_13/canthushhere.ogg noise sound/nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
+"count" "1"
+"origin" "-192.000000 -880.000000 216.000000"
+}
+{
+"classname" "target_spawn"
+"targetname" "nest_protect"
+"message" "classname func_breakable health 100 respawntime 30 respawntimejitter 10 mdl TE_TEI_BIGEXPLOSION model models/nest_chamber_13/nest_protect.obj noise1 sound/nest_chamber_13/canthushhere.ogg noise sound/nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
+"count" "1"
+"origin" "-1696.000000 416.000000 160.000000"
+}
+{
+"classname" "target_spawn"
+"targetname" "nest_protect"
+"message" "classname func_breakable health 100 respawntime 30 respawntimejitter 10 mdl TE_TEI_BIGEXPLOSION model models/nest_chamber_13/nest_protect.obj noise1 sound/nest_chamber_13/canthushhere.ogg noise sound/nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
+"count" "1"
+"origin" "352.000000 -176.000000 192.000000"
 }
 {
 "classname" "target_spawn"
@@ -57522,5 +57549,33 @@ brushDef
 "targetname" "nest_protect"
 "message" "classname func_breakable health 100 respawntime 30 respawntimejitter 10 mdl TE_TEI_BIGEXPLOSION model models/nest_chamber_13/nest_protect.obj noise1 sound/nest_chamber_13/canthushhere.ogg noise sound/nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
 "count" "1"
-"origin" "352.000000 -176.000000 192.000000"
+"origin" "-32.000000 576.000000 192.000000"
+}
+{
+"classname" "target_spawn"
+"targetname" "nest_protect"
+"message" "classname func_breakable health 100 respawntime 30 respawntimejitter 10 mdl TE_TEI_BIGEXPLOSION model models/nest_chamber_13/nest_protect.obj noise1 sound/nest_chamber_13/canthushhere.ogg noise sound/nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
+"count" "1"
+"origin" "-352.000000 576.000000 192.000000"
+}
+{
+"classname" "target_spawn"
+"targetname" "nest_protect"
+"message" "classname func_breakable health 100 respawntime 30 respawntimejitter 10 mdl TE_TEI_BIGEXPLOSION model models/nest_chamber_13/nest_protect.obj noise1 sound/nest_chamber_13/canthushhere.ogg noise sound/nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
+"count" "1"
+"origin" "-800.000000 224.000000 256.000000"
+}
+{
+"classname" "target_spawn"
+"targetname" "nest_protect"
+"message" "classname func_breakable health 100 respawntime 30 respawntimejitter 10 mdl TE_TEI_BIGEXPLOSION model models/nest_chamber_13/nest_protect.obj noise1 sound/nest_chamber_13/canthushhere.ogg noise sound/nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
+"count" "1"
+"origin" "-1168.000000 240.000000 256.000000"
+}
+{
+"classname" "target_spawn"
+"targetname" "nest_protect"
+"message" "classname func_breakable health 100 respawntime 30 respawntimejitter 10 mdl TE_TEI_BIGEXPLOSION model models/nest_chamber_13/nest_protect.obj noise1 sound/nest_chamber_13/canthushhere.ogg noise sound/nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
+"count" "1"
+"origin" "352.000000 -1184.000000 256.000000"
 }
