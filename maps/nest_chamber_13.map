@@ -57506,8 +57506,8 @@ brushDef
 "target" "nest_protect"
 "targetname" "nest_protect_timer"
 "target_random" "1"
-"wait" "8.01"
-"respawntime" "8.04"
+"wait" "8.03"
+"respawntime" "8.07"
 }
 {
 "classname" "target_spawn"
