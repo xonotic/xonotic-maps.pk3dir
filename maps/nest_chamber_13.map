@@ -57477,21 +57477,21 @@ brushDef
 {
 "classname" "target_speaker"
 "targetname" "for_precaching_only"
-"sound" "sound/nest_chamber_13/canthushhere.ogg"
+"sound" "sound/map_nest_chamber_13/canthushhere.ogg"
 "nextthink" "1"
 "think" "SUB_Remove"
 }
 {
 "classname" "target_speaker"
 "targetname" "for_precaching_only"
-"sound" "sound/nest_chamber_13/hushed.wav"
+"sound" "sound/map_nest_chamber_13/hushed.wav"
 "nextthink" "1"
 "think" "SUB_Remove"
 }
 {
 "classname" "misc_gamemodel"
 "targetname" "for_precaching_only"
-"model" "models/nest_chamber_13/nest_protect.obj"
+"model" "models/map_nest_chamber_13/nest_protect.obj"
 "effects" "16"
 "nextthink" "1"
 "think" "SUB_Remove"
@@ -57512,189 +57512,189 @@ brushDef
 {
 "classname" "target_spawn"
 "targetname" "nest_protect"
-"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/nest_chamber_13/nest_protect.obj noise1 sound/nest_chamber_13/canthushhere.ogg noise sound/nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
+"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/map_nest_chamber_13/nest_protect.obj noise1 sound/map_nest_chamber_13/canthushhere.ogg noise sound/map_nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
 "count" "1"
 "origin" "-192.000000 -880.000000 216.000000"
 }
 {
 "classname" "target_spawn"
 "targetname" "nest_protect"
-"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/nest_chamber_13/nest_protect.obj noise1 sound/nest_chamber_13/canthushhere.ogg noise sound/nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
+"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/map_nest_chamber_13/nest_protect.obj noise1 sound/map_nest_chamber_13/canthushhere.ogg noise sound/map_nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
 "count" "1"
 "origin" "-1696.000000 416.000000 160.000000"
 }
 {
 "classname" "target_spawn"
 "targetname" "nest_protect"
-"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/nest_chamber_13/nest_protect.obj noise1 sound/nest_chamber_13/canthushhere.ogg noise sound/nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
+"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/map_nest_chamber_13/nest_protect.obj noise1 sound/map_nest_chamber_13/canthushhere.ogg noise sound/map_nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
 "count" "1"
 "origin" "352.000000 -176.000000 192.000000"
 }
 {
 "classname" "target_spawn"
 "targetname" "nest_protect"
-"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/nest_chamber_13/nest_protect.obj noise1 sound/nest_chamber_13/canthushhere.ogg noise sound/nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
+"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/map_nest_chamber_13/nest_protect.obj noise1 sound/map_nest_chamber_13/canthushhere.ogg noise sound/map_nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
 "count" "1"
 "origin" "352.000000 -576.000000 160.000000"
 }
 {
 "classname" "target_spawn"
 "targetname" "nest_protect"
-"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/nest_chamber_13/nest_protect.obj noise1 sound/nest_chamber_13/canthushhere.ogg noise sound/nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
+"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/map_nest_chamber_13/nest_protect.obj noise1 sound/map_nest_chamber_13/canthushhere.ogg noise sound/map_nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
 "count" "1"
 "origin" "352.000000 224.000000 160.000000"
 }
 {
 "classname" "target_spawn"
 "targetname" "nest_protect"
-"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/nest_chamber_13/nest_protect.obj noise1 sound/nest_chamber_13/canthushhere.ogg noise sound/nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
+"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/map_nest_chamber_13/nest_protect.obj noise1 sound/map_nest_chamber_13/canthushhere.ogg noise sound/map_nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
 "count" "1"
 "origin" "-32.000000 576.000000 192.000000"
 }
 {
 "classname" "target_spawn"
 "targetname" "nest_protect"
-"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/nest_chamber_13/nest_protect.obj noise1 sound/nest_chamber_13/canthushhere.ogg noise sound/nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
+"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/map_nest_chamber_13/nest_protect.obj noise1 sound/map_nest_chamber_13/canthushhere.ogg noise sound/map_nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
 "count" "1"
 "origin" "-352.000000 576.000000 192.000000"
 }
 {
 "classname" "target_spawn"
 "targetname" "nest_protect"
-"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/nest_chamber_13/nest_protect.obj noise1 sound/nest_chamber_13/canthushhere.ogg noise sound/nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
+"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/map_nest_chamber_13/nest_protect.obj noise1 sound/map_nest_chamber_13/canthushhere.ogg noise sound/map_nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
 "count" "1"
 "origin" "-800.000000 224.000000 256.000000"
 }
 {
 "classname" "target_spawn"
 "targetname" "nest_protect"
-"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/nest_chamber_13/nest_protect.obj noise1 sound/nest_chamber_13/canthushhere.ogg noise sound/nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
+"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/map_nest_chamber_13/nest_protect.obj noise1 sound/map_nest_chamber_13/canthushhere.ogg noise sound/map_nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
 "count" "1"
 "origin" "992.000000 -1376.000000 544.000000"
 }
 {
 "classname" "target_spawn"
 "targetname" "nest_protect"
-"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/nest_chamber_13/nest_protect.obj noise1 sound/nest_chamber_13/canthushhere.ogg noise sound/nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
+"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/map_nest_chamber_13/nest_protect.obj noise1 sound/map_nest_chamber_13/canthushhere.ogg noise sound/map_nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
 "count" "1"
 "origin" "352.000000 -1184.000000 256.000000"
 }
 {
 "classname" "target_spawn"
 "targetname" "nest_protect"
-"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/nest_chamber_13/nest_protect.obj noise1 sound/nest_chamber_13/canthushhere.ogg noise sound/nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
+"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/map_nest_chamber_13/nest_protect.obj noise1 sound/map_nest_chamber_13/canthushhere.ogg noise sound/map_nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
 "count" "1"
 "origin" "-1168.000000 240.000000 256.000000"
 }
 {
 "classname" "target_spawn"
 "targetname" "nest_protect"
-"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/nest_chamber_13/nest_protect.obj noise1 sound/nest_chamber_13/canthushhere.ogg noise sound/nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
+"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/map_nest_chamber_13/nest_protect.obj noise1 sound/map_nest_chamber_13/canthushhere.ogg noise sound/map_nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
 "count" "1"
 "origin" "-928.000000 256.000000 512.000000"
 }
 {
 "classname" "target_spawn"
 "targetname" "nest_protect"
-"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/nest_chamber_13/nest_protect.obj noise1 sound/nest_chamber_13/canthushhere.ogg noise sound/nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
+"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/map_nest_chamber_13/nest_protect.obj noise1 sound/map_nest_chamber_13/canthushhere.ogg noise sound/map_nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
 "count" "1"
 "origin" "-1120.000000 256.000000 512.000000"
 }
 {
 "classname" "target_spawn"
 "targetname" "nest_protect"
-"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/nest_chamber_13/nest_protect.obj noise1 sound/nest_chamber_13/canthushhere.ogg noise sound/nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
+"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/map_nest_chamber_13/nest_protect.obj noise1 sound/map_nest_chamber_13/canthushhere.ogg noise sound/map_nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
 "count" "1"
 "origin" "224.000000 -208.000000 480.000000"
 }
 {
 "classname" "target_spawn"
 "targetname" "nest_protect"
-"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/nest_chamber_13/nest_protect.obj noise1 sound/nest_chamber_13/canthushhere.ogg noise sound/nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
+"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/map_nest_chamber_13/nest_protect.obj noise1 sound/map_nest_chamber_13/canthushhere.ogg noise sound/map_nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
 "count" "1"
 "origin" "416.000000 -992.000000 544.000000"
 }
 {
 "classname" "target_spawn"
 "targetname" "nest_protect"
-"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/nest_chamber_13/nest_protect.obj noise1 sound/nest_chamber_13/canthushhere.ogg noise sound/nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
+"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/map_nest_chamber_13/nest_protect.obj noise1 sound/map_nest_chamber_13/canthushhere.ogg noise sound/map_nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
 "count" "1"
 "origin" "-32.000000 -928.000000 512.000000"
 }
 {
 "classname" "target_spawn"
 "targetname" "nest_protect"
-"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/nest_chamber_13/nest_protect.obj noise1 sound/nest_chamber_13/canthushhere.ogg noise sound/nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
+"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/map_nest_chamber_13/nest_protect.obj noise1 sound/map_nest_chamber_13/canthushhere.ogg noise sound/map_nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
 "count" "1"
 "origin" "-736.000000 -1120.000000 624.000000"
 }
 {
 "classname" "target_spawn"
 "targetname" "nest_protect"
-"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/nest_chamber_13/nest_protect.obj noise1 sound/nest_chamber_13/canthushhere.ogg noise sound/nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
+"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/map_nest_chamber_13/nest_protect.obj noise1 sound/map_nest_chamber_13/canthushhere.ogg noise sound/map_nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
 "count" "1"
 "origin" "-1088.000000 -1280.000000 960.000000"
 }
 {
 "classname" "target_spawn"
 "targetname" "nest_protect"
-"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/nest_chamber_13/nest_protect.obj noise1 sound/nest_chamber_13/canthushhere.ogg noise sound/nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
+"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/map_nest_chamber_13/nest_protect.obj noise1 sound/map_nest_chamber_13/canthushhere.ogg noise sound/map_nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
 "count" "1"
 "origin" "-1168.000000 -384.000000 960.000000"
 }
 {
 "classname" "target_spawn"
 "targetname" "nest_protect"
-"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/nest_chamber_13/nest_protect.obj noise1 sound/nest_chamber_13/canthushhere.ogg noise sound/nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
+"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/map_nest_chamber_13/nest_protect.obj noise1 sound/map_nest_chamber_13/canthushhere.ogg noise sound/map_nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
 "count" "1"
 "origin" "-1664.000000 416.000000 960.000000"
 }
 {
 "classname" "target_spawn"
 "targetname" "nest_protect"
-"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/nest_chamber_13/nest_protect.obj noise1 sound/nest_chamber_13/canthushhere.ogg noise sound/nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
+"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/map_nest_chamber_13/nest_protect.obj noise1 sound/map_nest_chamber_13/canthushhere.ogg noise sound/map_nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
 "count" "1"
 "origin" "-1024.000000 512.000000 960.000000"
 }
 {
 "classname" "target_spawn"
 "targetname" "nest_protect"
-"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/nest_chamber_13/nest_protect.obj noise1 sound/nest_chamber_13/canthushhere.ogg noise sound/nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
+"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/map_nest_chamber_13/nest_protect.obj noise1 sound/map_nest_chamber_13/canthushhere.ogg noise sound/map_nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
 "count" "1"
 "origin" "-368.000000 352.000000 960.000000"
 }
 {
 "classname" "target_spawn"
 "targetname" "nest_protect"
-"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/nest_chamber_13/nest_protect.obj noise1 sound/nest_chamber_13/canthushhere.ogg noise sound/nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
+"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/map_nest_chamber_13/nest_protect.obj noise1 sound/map_nest_chamber_13/canthushhere.ogg noise sound/map_nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
 "count" "1"
 "origin" "736.000000 736.000000 960.000000"
 }
 {
 "classname" "target_spawn"
 "targetname" "nest_protect"
-"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/nest_chamber_13/nest_protect.obj noise1 sound/nest_chamber_13/canthushhere.ogg noise sound/nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
+"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/map_nest_chamber_13/nest_protect.obj noise1 sound/map_nest_chamber_13/canthushhere.ogg noise sound/map_nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
 "count" "1"
 "origin" "768.000000 -296.000000 864.000000"
 }
 {
 "classname" "target_spawn"
 "targetname" "nest_protect"
-"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/nest_chamber_13/nest_protect.obj noise1 sound/nest_chamber_13/canthushhere.ogg noise sound/nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
+"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/map_nest_chamber_13/nest_protect.obj noise1 sound/map_nest_chamber_13/canthushhere.ogg noise sound/map_nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
 "count" "1"
 "origin" "800.000000 -704.000000 960.000000"
 }
 {
 "classname" "target_spawn"
 "targetname" "nest_protect"
-"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/nest_chamber_13/nest_protect.obj noise1 sound/nest_chamber_13/canthushhere.ogg noise sound/nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
+"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/map_nest_chamber_13/nest_protect.obj noise1 sound/map_nest_chamber_13/canthushhere.ogg noise sound/map_nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
 "count" "1"
 "origin" "444.000000 -1092.000000 864.000000"
 }
 {
 "classname" "target_spawn"
 "targetname" "nest_protect"
-"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/nest_chamber_13/nest_protect.obj noise1 sound/nest_chamber_13/canthushhere.ogg noise sound/nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
+"message" "classname func_breakable health 42 respawntime 90 respawntimejitter 30 mdl TE_TEI_BIGEXPLOSION model models/map_nest_chamber_13/nest_protect.obj noise1 sound/map_nest_chamber_13/canthushhere.ogg noise sound/map_nest_chamber_13/hushed.wav origin $self.origin $ spawnfunc_func_breakable"
 "count" "1"
 "origin" "36.000000 -732.000000 816.000000"
 }
