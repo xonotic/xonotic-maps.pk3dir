@@ -1,15 +1,14 @@
 title Atelier
-description Large map, well suited for team games.
+description Large map, well suited for team games
 author ShadoW
-cdtrack 5
+cdtrack 19
 has weapons
-gametype dm // defaults: timelimit=20 pointlimit=30 leadlimit=0
-gametype lms // defaults: timelimit=20 lives=9 leadlimit=0
-gametype rune // defaults: timelimit=20 pointlimit=200 leadlimit=0
-gametype tdm // defaults: timelimit=20 pointlimit=50 teams=2 leadlimit=0
-gametype ca // defaults: timelimit=20 pointlimit=10 leadlimit=0
-gametype freezetag // defaults: timelimit=20 pointlimit=10 teams=2 leadlimit=0
-gametype keepaway // defaults: timelimit=20 pointlimit=30
+gametype dm
+gametype lms
+gametype tdm
+gametype ca
+gametype ft
+gametype ka
 gametype kh
 gametype dom
 // optional: fog density red green blue alpha mindist maxdist
