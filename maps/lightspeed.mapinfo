@@ -6,3 +6,5 @@ has weapons
 gametype ctf
 settemp_for_type all g_start_ammo_shells 20 
 hidden
+
+clientsettemp_for_type all r_shadow_realtime_world 0 // Workaround to fix problem with Realtime world lighting
