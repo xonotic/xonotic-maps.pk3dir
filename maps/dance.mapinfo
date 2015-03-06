@@ -8,5 +8,6 @@ gametype lms
 gametype kh
 gametype ft
 gametype ca
-gametype arena
 gametype ka
+
+clientsettemp_for_type all r_shadow_realtime_world 0 // Workaround to fix problem with Realtime world lighting

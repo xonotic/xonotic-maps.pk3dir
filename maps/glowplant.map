@@ -32192,11 +32192,6 @@ exx/floor-wrn01
 }
 }
 {
-"classname" "info_player_deathmatch"
-"origin" "-1152.000000 992.000000 96.000000"
-"angle" "-135.000000"
-}
-{
 "classname" "light"
 "origin" "-674.000000 -604.000000 440.000000"
 "light" "500"
@@ -34511,10 +34506,6 @@ exx/base-metal05rust
 "targetname" "t128"
 }
 {
-"classname" "weapon_nex"
-"origin" "-784 0 512"
-}
-{
 "classname" "light"
 "origin" "736.000000 0.000000 688.000000"
 "light" "30"
@@ -34663,14 +34654,6 @@ exx/base-metal05rust
 "classname" "info_null"
 "targetname" "t143"
 "origin" "-400.000000 0.000000 -56.000000"
-}
-{
-"classname" "item_armor_large"
-"origin" "-384 0 -192"
-}
-{
-"classname" "item_health_mega"
-"origin" "1056.000000 0.000000 512.000000"
 }
 {
 "classname" "light"
@@ -34876,10 +34859,6 @@ exx/base-metal05rust
 "classname" "info_null"
 "targetname" "t187"
 "origin" "-384.000000 320.000000 120.000000"
-}
-{
-"classname" "item_armor_small"
-"origin" "512.000000 -960.000000 144.000000"
 }
 {
 "classname" "func_group"
@@ -35890,36 +35869,6 @@ map_glowplant/biolumi2_blue
 }
 }
 {
-"classname" "info_player_deathmatch"
-"origin" "336.000000 -128.000000 -160.000000"
-"angle" "135.000000"
-}
-{
-"classname" "info_player_deathmatch"
-"angle" "-135.000000"
-"origin" "336.000000 128.000000 -160.000000"
-}
-{
-"classname" "info_player_deathmatch"
-"origin" "824.000000 1024.000000 328.000000"
-"angle" "0.000003"
-}
-{
-"classname" "info_player_deathmatch"
-"angle" "-179.999985"
-"origin" "488.000000 1024.000000 328.000000"
-}
-{
-"classname" "info_player_deathmatch"
-"origin" "672 -432 32"
-"angle" "90"
-}
-{
-"classname" "info_player_deathmatch"
-"angle" "180"
-"origin" "624 -480 32"
-}
-{
 "classname" "func_group"
 {
 ( -760 360 8 ) ( -784 360 8 ) ( -784 552 72 ) exx/floor-wrn01 0 0 0 0.25 0.25 134217728 0 0
@@ -36317,10 +36266,6 @@ exx/trim-psimple04
 }
 }
 {
-"classname" "item_cells"
-"origin" "-1144.000000 -810.000000 384.000000"
-}
-{
 "classname" "light"
 "origin" "672.000000 -416.000000 408.000000"
 "light" "150"
@@ -36342,14 +36287,6 @@ exx/trim-psimple04
 "classname" "info_null"
 "targetname" "t226"
 "origin" "736 88 352"
-}
-{
-"classname" "item_rockets"
-"origin" "736 384 264"
-}
-{
-"classname" "item_armor_small"
-"origin" "736 256 264"
 }
 {
 "classname" "info_notnull"
@@ -36648,92 +36585,15 @@ exx/trim-psimple04
 "origin" "288 -392 32"
 }
 {
-"classname" "item_armor_big"
-"origin" "-1968 128 344"
-}
-{
-"classname" "weapon_grenadelauncher"
-"origin" "0 -1152 -56"
-}
-{
-"classname" "item_shells"
-"origin" "544.000000 -248.000000 264.000000"
-"angle" "-90.000000"
-}
-{
 "classname" "weapon_rocketlauncher"
 "origin" "-1824 128 344"
 "targetname" "t234"
-}
-{
-"classname" "item_health_medium"
-"origin" "-1968 128 80"
-}
-{
-"classname" "item_armor_small"
-"origin" "-1920 192 104"
-}
-{
-"classname" "item_armor_small"
-"origin" "-1920 64 104"
-}
-{
-"classname" "info_player_deathmatch"
-"angle" "-135.000000"
-"origin" "-1152.000000 992.000000 368.000000"
-}
-{
-"classname" "info_player_deathmatch"
-"angle" "135.000000"
-"origin" "-1152.000000 -736.000000 96.000000"
-}
-{
-"classname" "info_player_deathmatch"
-"origin" "-1152.000000 -736.000000 368.000000"
-"angle" "135.000000"
-}
-{
-"classname" "weapon_crylink"
-"origin" "0 1040 76"
-}
-{
-"classname" "item_health_small"
-"origin" "176 -976 16"
-}
-{
-"classname" "item_health_small"
-"origin" "-176 -976 16"
-}
-{
-"classname" "weapon_uzi"
-"origin" "0 752 296"
-}
-{
-"classname" "item_armor_small"
-"origin" "64 688 296"
-}
-{
-"classname" "item_armor_small"
-"origin" "-64 816 296"
 }
 {
 "classname" "light"
 "origin" "-2024 128 560"
 "light" "500"
 "target" "t234"
-}
-{
-"classname" "item_health_large"
-"origin" "-1472 128 632"
-}
-{
-"classname" "info_player_deathmatch"
-"angle" "90.000000"
-"origin" "-896.000000 -704.000000 72.000000"
-}
-{
-"classname" "info_player_deathmatch"
-"origin" "-832.000000 -768.000000 72.000000"
 }
 {
 "classname" "trigger_push"
@@ -36836,16 +36696,6 @@ exx/trim-psimple04
 ( -1232 -640 88 ) ( -1232 -640 72 ) ( -1232 -608 72 ) trak5x/base-base1b 0 0 0 0.25 0.25 134217728 0 0
 ( -1200 -608 88 ) ( -1200 -608 72 ) ( -1200 -640 72 ) trak5x/base-base1b 0 0 0 0.25 0.25 134217728 0 0
 }
-}
-{
-"classname" "info_player_deathmatch"
-"origin" "672 208 32"
-"angle" "90"
-}
-{
-"classname" "info_player_deathmatch"
-"angle" "180"
-"origin" "624 160 32"
 }
 {
 "classname" "func_group"
@@ -36992,25 +36842,6 @@ exx/trim-psimple04
 }
 }
 {
-"classname" "item_health_medium"
-"origin" "192 0 8"
-}
-{
-"classname" "info_player_deathmatch"
-"origin" "-992.000000 -784.000000 544.000000"
-"angle" "90.000000"
-}
-{
-"classname" "info_player_deathmatch"
-"origin" "-528.000000 800.000000 64.000000"
-"angle" "-179.999985"
-}
-{
-"classname" "info_player_deathmatch"
-"angle" "-90.000000"
-"origin" "-480.000000 760.000000 64.000000"
-}
-{
 "classname" "func_group"
 "type" "patchCapped"
 {
@@ -37073,16 +36904,6 @@ exx/base-metal05rust
 )
 }
 }
-}
-{
-"classname" "item_rockets"
-"origin" "-704 448 516"
-"angle" "135"
-}
-{
-"classname" "item_shells"
-"origin" "-704.000000 -448.000061 516.000000"
-"angle" "45.000000"
 }
 {
 "classname" "func_group"
@@ -39639,26 +39460,6 @@ exx/wall-bigrib02
 }
 }
 {
-"classname" "item_armor_small"
-"origin" "-128.000000 240.000000 512.000000"
-}
-{
-"classname" "item_armor_small"
-"origin" "-128.000000 368.000000 512.000000"
-}
-{
-"classname" "item_armor_small"
-"origin" "-128.000000 496.000000 512.000000"
-}
-{
-"classname" "item_health_small"
-"origin" "-128.000000 432.000000 512.000000"
-}
-{
-"classname" "item_health_small"
-"origin" "-128.000000 304.000000 512.000000"
-}
-{
 "classname" "func_group"
 {
 ( -752 120 520 ) ( -752 152 520 ) ( -736 152 520 ) common/caulk 32 161 0 -0.25 0.25 134217728 4 0
@@ -39991,11 +39792,6 @@ exx/panel-metalbig04
 ( 190 1032 600 ) ( 62 1032 600 ) ( 62 1032 480 ) common/trigger 0 128 0 0.25 0.25 134217728 5 0
 ( 64 1044 600 ) ( 64 1032 600 ) ( 64 1032 480 ) common/trigger 240 128 0 0.25 0.25 134217728 5 0
 }
-}
-{
-"classname" "item_strength"
-"origin" "448.000000 640.000000 256.000000"
-"angle" "-90.000000"
 }
 {
 "classname" "light"
@@ -40703,10 +40499,6 @@ exx/floor-panel01
 "light" "600"
 }
 {
-"classname" "item_cells"
-"origin" "452 -168 8"
-}
-{
 "classname" "light"
 "_color" "0.826566 0.819196 1.000000"
 "light" "800"
@@ -40822,15 +40614,6 @@ exx/floor-panel01
 "target" "t189"
 }
 {
-"classname" "item_health_small"
-"origin" "736.000000 736.000000 256.000000"
-}
-{
-"classname" "item_bullets"
-"origin" "736.000000 544.000000 256.000000"
-"angle" "-90.000000"
-}
-{
 "classname" "light"
 "target" "t202"
 "light" "150"
@@ -40902,10 +40685,6 @@ exx/floor-panel01
 "targetname" "t1"
 }
 {
-"classname" "item_armor_small"
-"origin" "896.000000 -960.000000 144.000000"
-}
-{
 "classname" "light"
 "origin" "192.000000 -384.000000 524.000000"
 "light" "10"
@@ -40914,10 +40693,6 @@ exx/floor-panel01
 "classname" "info_null"
 "origin" "192.000000 -384.000000 580.000000"
 "targetname" "t3"
-}
-{
-"classname" "item_armor_small"
-"origin" "192.000000 -384.000000 528.000000"
 }
 {
 "classname" "target_speaker"
@@ -40933,21 +40708,6 @@ exx/floor-panel01
 "classname" "target_speaker"
 "origin" "240.000000 -576.000000 192.000000"
 "noise" "sound/machines/Big_machine.wav"
-}
-{
-"classname" "dom_controlpoint"
-"origin" "-1408.000000 -32.000000 48.000000"
-"message" " has captured the ^2Rocket Launcher ^3control point"
-}
-{
-"classname" "dom_controlpoint"
-"origin" "544.000000 0.000000 528.000000"
-"message" " has captured the ^2Mega Health ^3control point"
-}
-{
-"classname" "dom_controlpoint"
-"origin" "160.000000 960.000000 320.000000"
-"message" " has captured the ^2Machine Gun ^3control point"
 }
 {
 "classname" "misc_model"
@@ -42648,26 +42408,6 @@ trak5x/base-pipe1a
 }
 }
 {
-"classname" "item_bullets"
-"origin" "-928 -32 16"
-"angle" "315"
-}
-{
-"classname" "item_cells"
-"origin" "-928 288 16"
-"angle" "45"
-}
-{
-"classname" "item_rockets"
-"origin" "-1248 288 16"
-"angle" "135"
-}
-{
-"classname" "item_shells"
-"origin" "-1248 -32 16"
-"angle" "225"
-}
-{
 "classname" "light"
 "origin" "-224 -352 -36"
 "light" "100"
@@ -43571,96 +43311,6 @@ trak5x/base-pipe1a
 }
 }
 {
-"classname" "info_autoscreenshot"
-"origin" "-1744.000000 968.000000 512.000000"
-"target" "target_position1"
-}
-{
-"classname" "target_position"
-"origin" "-1360.000000 512.000000 336.000000"
-"targetname" "target_position1"
-}
-{
-"classname" "info_autoscreenshot"
-"origin" "1024.000000 -64.000000 640.000000"
-"angle" "172.22"
-}
-{
-"classname" "misc_breakablemodel"
-"origin" "-219.999878 -1296.000122 -19.000000"
-"model" "models/containers/barrel01.md3"
-"_castShadows" "1"
-"angle" "120.000000"
-"count" "1"
-"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
-"debrisdamageforcescale" "1"
-"debrisfadetime" "1"
-"debrissolid" "0"
-"debristime" "6"
-"debristimejitter" "2"
-"dmg" "75"
-"dmg_edge" "25"
-"dmg_force" "600"
-"dmg_radius" "150"
-"health" "25"
-"mdl" "TE_TEI_BIGEXPLOSION"
-"message" "was killed by an explosive barrel"
-"message2" "was killed with an explosive barrel by"
-"noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "40"
-"respawntimejitter" "10"
-}
-{
-"classname" "misc_breakablemodel"
-"origin" "-235.999878 -1280.000122 -64.000000"
-"model" "models/containers/barrel01.md3"
-"_castShadows" "1"
-"angle" "120.000000"
-"count" "1"
-"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
-"debrisdamageforcescale" "1"
-"debrisfadetime" "1"
-"debrissolid" "0"
-"debristime" "6"
-"debristimejitter" "2"
-"dmg" "75"
-"dmg_edge" "25"
-"dmg_force" "600"
-"dmg_radius" "150"
-"health" "25"
-"mdl" "TE_TEI_BIGEXPLOSION"
-"message" "was killed by an explosive barrel"
-"message2" "was killed with an explosive barrel by"
-"noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "40"
-"respawntimejitter" "10"
-}
-{
-"classname" "misc_breakablemodel"
-"origin" "-211.999878 -1304.000122 -64.000000"
-"model" "models/containers/barrel01.md3"
-"_castShadows" "1"
-"angle" "120.000000"
-"count" "1"
-"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
-"debrisdamageforcescale" "1"
-"debrisfadetime" "1"
-"debrissolid" "0"
-"debristime" "6"
-"debristimejitter" "2"
-"dmg" "75"
-"dmg_edge" "25"
-"dmg_force" "600"
-"dmg_radius" "150"
-"health" "25"
-"mdl" "TE_TEI_BIGEXPLOSION"
-"message" "was killed by an explosive barrel"
-"message2" "was killed with an explosive barrel by"
-"noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "40"
-"respawntimejitter" "10"
-}
-{
 "classname" "func_rotating"
 "speed" "-720"
 "targetname" "t5"
@@ -43753,6 +43403,561 @@ trak5x/base-pipe1a
 "origin" "-1312.000000 -976.000000 536.000000"
 }
 {
+"classname" "func_group"
+{
+( -376 680 656 ) ( -384 680 656 ) ( -384 420 656 ) common/clip 64 160 0 0.25 0.25 0 13 0
+( -368 440 1184 ) ( -368 700 1184 ) ( -360 700 1184 ) common/clip 0 128 0 0.25 0.25 0 13 0
+( -304 596 952 ) ( -304 856 952 ) ( -304 856 784 ) common/clip 128 64 0 0.25 0.25 0 13 0
+( -372 808 768 ) ( -372 548 768 ) ( -372 548 600 ) common/clip 128 96 0 0.25 0.25 0 13 0
+( 64 184 1184 ) ( -64 184 896 ) ( -64 184 1184 ) common/clip 0 32 0 0.25 0.25 0 0 0
+( 64 944 704 ) ( -64 944 992 ) ( -64 944 704 ) common/clip 0 32 0 0.25 0.25 0 0 0
+}
+}
+{
+"classname" "func_group"
+{
+( -376 -440 656 ) ( -384 -440 656 ) ( -384 -700 656 ) common/clip 64 32 0 0.25 0.25 0 13 0
+( -368 -680 1184 ) ( -368 -420 1184 ) ( -360 -420 1184 ) common/clip 0 0 0 0.25 0.25 0 13 0
+( -304 -524 952 ) ( -304 -264 952 ) ( -304 -264 784 ) common/clip 0 64 0 0.25 0.25 0 13 0
+( -372 -312 768 ) ( -372 -572 768 ) ( -372 -572 600 ) common/clip 0 96 0 0.25 0.25 0 13 0
+( 64 -944 984 ) ( -64 -944 696 ) ( -64 -944 984 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( 64 -168 904 ) ( -64 -168 1192 ) ( -64 -168 904 ) common/clip 0 64 0 0.25 0.25 0 0 0
+}
+}
+{
+"classname" "func_group"
+{
+( -376 -80 832 ) ( -384 -80 832 ) ( -384 -340 832 ) common/clip 64 192 0 0.25 0.25 0 13 0
+( -368 -328 1184 ) ( -368 -68 1184 ) ( -360 -68 1184 ) common/clip 0 128 0 0.25 0.25 0 13 0
+( -304 -172 952 ) ( -304 88 952 ) ( -304 88 784 ) common/clip 128 64 0 0.25 0.25 0 13 0
+( -372 40 768 ) ( -372 -220 768 ) ( -372 -220 600 ) common/clip 128 96 0 0.25 0.25 0 13 0
+( 64 -168 1200 ) ( -64 -168 912 ) ( -64 -168 1200 ) common/clip 0 96 0 0.25 0.25 0 0 0
+( 64 184 904 ) ( -64 184 1192 ) ( -64 184 904 ) common/clip 0 64 0 0.25 0.25 0 0 0
+}
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-1152.000000 992.000000 96.000000"
+"angle" "-135.000000"
+}
+{
+"classname" "item_armor_large"
+"origin" "-384 0 -192"
+}
+{
+"classname" "item_health_mega"
+"origin" "1056.000000 0.000000 512.000000"
+}
+{
+"classname" "item_armor_small"
+"origin" "512.000000 -960.000000 144.000000"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "336.000000 -128.000000 -160.000000"
+"angle" "135.000000"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "-135.000000"
+"origin" "336.000000 128.000000 -160.000000"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "824.000000 1024.000000 328.000000"
+"angle" "0.000003"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "-179.999985"
+"origin" "488.000000 1024.000000 328.000000"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "672 -432 32"
+"angle" "90"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "180"
+"origin" "624 -480 32"
+}
+{
+"classname" "item_cells"
+"origin" "-1144.000000 -810.000000 384.000000"
+}
+{
+"classname" "item_armor_small"
+"origin" "736 256 264"
+}
+{
+"classname" "item_armor_big"
+"origin" "-1968 128 344"
+}
+{
+"classname" "item_health_medium"
+"origin" "-1968 128 80"
+}
+{
+"classname" "item_armor_small"
+"origin" "-1920 192 104"
+}
+{
+"classname" "item_armor_small"
+"origin" "-1920 64 104"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "-135.000000"
+"origin" "-1152.000000 992.000000 368.000000"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "135.000000"
+"origin" "-1152.000000 -736.000000 96.000000"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-1152.000000 -736.000000 368.000000"
+"angle" "135.000000"
+}
+{
+"classname" "item_health_small"
+"origin" "176 -976 16"
+}
+{
+"classname" "item_health_small"
+"origin" "-176 -976 16"
+}
+{
+"classname" "item_armor_small"
+"origin" "64 688 296"
+}
+{
+"classname" "item_armor_small"
+"origin" "-64 816 296"
+}
+{
+"classname" "item_health_large"
+"origin" "-1472 128 632"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "90.000000"
+"origin" "-896.000000 -704.000000 72.000000"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-832.000000 -768.000000 72.000000"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "672 208 32"
+"angle" "90"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "180"
+"origin" "624 160 32"
+}
+{
+"classname" "item_health_medium"
+"origin" "192 0 8"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-992.000000 -784.000000 544.000000"
+"angle" "90.000000"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-528.000000 800.000000 64.000000"
+"angle" "-179.999985"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "-90.000000"
+"origin" "-480.000000 760.000000 64.000000"
+}
+{
+"classname" "item_rockets"
+"origin" "-704 448 516"
+"angle" "135"
+}
+{
+"classname" "item_armor_small"
+"origin" "-128.000000 240.000000 512.000000"
+}
+{
+"classname" "item_armor_small"
+"origin" "-128.000000 368.000000 512.000000"
+}
+{
+"classname" "item_armor_small"
+"origin" "-128.000000 496.000000 512.000000"
+}
+{
+"classname" "item_health_small"
+"origin" "-128.000000 432.000000 512.000000"
+}
+{
+"classname" "item_health_small"
+"origin" "-128.000000 304.000000 512.000000"
+}
+{
+"classname" "item_cells"
+"origin" "452 -168 8"
+}
+{
+"classname" "item_health_small"
+"origin" "736.000000 736.000000 256.000000"
+}
+{
+"classname" "item_armor_small"
+"origin" "896.000000 -1072.000000 144.000000"
+}
+{
+"classname" "item_armor_small"
+"origin" "192.000000 -384.000000 528.000000"
+}
+{
+"classname" "item_bullets"
+"origin" "-928 -32 16"
+"angle" "315"
+}
+{
+"classname" "item_cells"
+"origin" "-928 288 16"
+"angle" "45"
+}
+{
+"classname" "item_rockets"
+"origin" "-1248 288 16"
+"angle" "135"
+}
+{
+"classname" "item_shells"
+"origin" "-1248 -32 16"
+"angle" "225"
+}
+{
+"classname" "item_strength"
+"origin" "0.000000 -1152.000000 -56.000000"
+"angle" "90.000000"
+}
+{
+"classname" "item_health_medium"
+"origin" "-328.000000 288.000000 256.000000"
+}
+{
+"classname" "item_health_medium"
+"origin" "-328.000000 -288.000000 264.000000"
+}
+{
+"classname" "item_armor_small"
+"origin" "48.000000 -384.000000 528.000000"
+}
+{
+"classname" "item_armor_small"
+"origin" "192.000000 -240.000000 528.000000"
+}
+{
+"classname" "item_armor_small"
+"origin" "656.000000 -960.000000 144.000000"
+}
+{
+"classname" "item_armor_small"
+"origin" "800.000000 -960.000000 144.000000"
+}
+{
+"classname" "item_armor_medium"
+"origin" "544.000000 -248.000000 264.000000"
+"angle" "-90.000000"
+}
+{
+"classname" "item_health_small"
+"origin" "736 384 264"
+}
+{
+"classname" "item_armor_small"
+"origin" "736.000000 544.000000 256.000000"
+"angle" "0.000003"
+}
+{
+"classname" "item_health_small"
+"origin" "576.000000 736.000000 256.000000"
+"noalign" "1"
+}
+{
+"classname" "item_armor_small"
+"origin" "576.000000 544.000000 256.000000"
+"angle" "0.000003"
+"noalign" "1"
+}
+{
+"classname" "item_armor_small"
+"origin" "896.000000 -960.000000 144.000000"
+}
+{
+"classname" "item_armor_medium"
+"origin" "-288.000000 672.000000 72.000000"
+}
+{
+"classname" "item_bullets"
+"origin" "-704.000000 -448.000061 516.000000"
+"angle" "45.000000"
+}
+{
+"classname" "weapon_nex"
+"origin" "-784 0 512"
+}
+{
+"classname" "weapon_crylink"
+"origin" "0 1040 76"
+}
+{
+"classname" "weapon_uzi"
+"origin" "0 752 296"
+}
+{
+"classname" "weapon_grenadelauncher"
+"origin" "448.000000 640.000000 256.000000"
+"angle" "-90.000000"
+}
+{
+"classname" "weapon_electro"
+"origin" "-512.000000 -768.000000 64.000000"
+"angle" "90.000000"
+}
+{
+"classname" "weapon_hagar"
+"origin" "336.000000 0.000000 -184.000000"
+"angle" "-179.999985"
+}
+{
+"classname" "misc_breakablemodel"
+"origin" "-219.999878 -1296.000122 -19.000000"
+"model" "models/containers/barrel01.md3"
+"_castShadows" "1"
+"angle" "120.000000"
+"count" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debrissolid" "0"
+"debristime" "6"
+"debristimejitter" "2"
+"dmg" "75"
+"dmg_edge" "25"
+"dmg_force" "600"
+"dmg_radius" "150"
+"health" "25"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"message" "was killed by an explosive barrel"
+"message2" "was killed with an explosive barrel by"
+"noise" "sound/weapons/rocket_impact.ogg"
+"respawntime" "40"
+"respawntimejitter" "10"
+}
+{
+"classname" "misc_breakablemodel"
+"origin" "-235.999878 -1280.000122 -64.000000"
+"model" "models/containers/barrel01.md3"
+"_castShadows" "1"
+"angle" "120.000000"
+"count" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debrissolid" "0"
+"debristime" "6"
+"debristimejitter" "2"
+"dmg" "75"
+"dmg_edge" "25"
+"dmg_force" "600"
+"dmg_radius" "150"
+"health" "25"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"message" "was killed by an explosive barrel"
+"message2" "was killed with an explosive barrel by"
+"noise" "sound/weapons/rocket_impact.ogg"
+"respawntime" "40"
+"respawntimejitter" "10"
+}
+{
+"classname" "misc_breakablemodel"
+"origin" "-211.999878 -1304.000122 -64.000000"
+"model" "models/containers/barrel01.md3"
+"_castShadows" "1"
+"angle" "120.000000"
+"count" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debrissolid" "0"
+"debristime" "6"
+"debristimejitter" "2"
+"dmg" "75"
+"dmg_edge" "25"
+"dmg_force" "600"
+"dmg_radius" "150"
+"health" "25"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"message" "was killed by an explosive barrel"
+"message2" "was killed with an explosive barrel by"
+"noise" "sound/weapons/rocket_impact.ogg"
+"respawntime" "40"
+"respawntimejitter" "10"
+}
+{
+"classname" "misc_breakablemodel"
+"origin" "228.000153 -1288.000000 -19.000000"
+"model" "models/containers/barrel01.md3"
+"_castShadows" "1"
+"angle" "120.000000"
+"count" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debrissolid" "0"
+"debristime" "6"
+"debristimejitter" "2"
+"dmg" "75"
+"dmg_edge" "25"
+"dmg_force" "600"
+"dmg_radius" "150"
+"health" "25"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"message" "was killed by an explosive barrel"
+"message2" "was killed with an explosive barrel by"
+"noise" "sound/weapons/rocket_impact.ogg"
+"respawntime" "40"
+"respawntimejitter" "10"
+}
+{
+"classname" "misc_breakablemodel"
+"origin" "212.000153 -1304.000000 -64.000000"
+"model" "models/containers/barrel01.md3"
+"_castShadows" "1"
+"angle" "120.000000"
+"count" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debrissolid" "0"
+"debristime" "6"
+"debristimejitter" "2"
+"dmg" "75"
+"dmg_edge" "25"
+"dmg_force" "600"
+"dmg_radius" "150"
+"health" "25"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"message" "was killed by an explosive barrel"
+"message2" "was killed with an explosive barrel by"
+"noise" "sound/weapons/rocket_impact.ogg"
+"respawntime" "40"
+"respawntimejitter" "10"
+}
+{
+"classname" "misc_breakablemodel"
+"origin" "236.000122 -1280.000000 -64.000000"
+"model" "models/containers/barrel01.md3"
+"_castShadows" "1"
+"angle" "120.000000"
+"count" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debrissolid" "0"
+"debristime" "6"
+"debristimejitter" "2"
+"dmg" "75"
+"dmg_edge" "25"
+"dmg_force" "600"
+"dmg_radius" "150"
+"health" "25"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"message" "was killed by an explosive barrel"
+"message2" "was killed with an explosive barrel by"
+"noise" "sound/weapons/rocket_impact.ogg"
+"respawntime" "40"
+"respawntimejitter" "10"
+}
+{
+"classname" "func_pointparticles"
+"mdl" "sparks"
+"impulse" "4"
+"count" "6"
+"noise" "sound/map_drain/spark.ogg"
+"velocity" "50 -100 30"
+"spawnflags" "4"
+{
+( 319.1000061035 -313.1000061035 340.8999938965 ) ( 302.6000061035 -314.1999969482 345.3000030518 ) ( 303.6999969482 -286.6999969482 288.1000061035 ) common/trigger 342.1027832031 238.856842041 -29 0.449072808 -0.4037715197 134217728 0 0
+( 319.1000061035 -315.3000030518 339.8000030518 ) ( 318 -330.6999969482 333.1999969482 ) ( 301.5 -316.3999938965 344.1999969482 ) common/trigger 479.4295043945 256.0872192383 -164 0.435664922 -0.4823819101 134217728 0 0
+( 286.1000061035 -295.5 288.1000061035 ) ( 301.5 -321.8999938965 342 ) ( 303.6999969482 -294.3999938965 283.6999969482 ) common/trigger 342.1027832031 238.856842041 -29 0.449072808 -0.4037715197 134217728 0 0
+( 289.3999938965 -305.3999938965 282.6000061035 ) ( 290.5 -288.8999938965 290.3000030518 ) ( 304.8000030518 -331.8000030518 336.5 ) common/trigger 497.7498779297 4.6735839844 -63 0.4016628265 0.35228163 134217728 0 0
+( 286.1000061035 -305.3999938965 283.6999969482 ) ( 302.6000061035 -304.3000030518 279.3000030518 ) ( 286.1000061035 -290 291.3999938965 ) common/trigger 479.4295043945 256.0872192383 -164 0.435664922 -0.4823819101 134217728 0 0
+( 267.3999938965 -720.1000061035 81.299987793 ) ( 290.5 -744.3000030518 128.5999908447 ) ( 275.1000061035 -593.6000061035 142.8999938965 ) common/trigger 497.7498779297 4.6735839844 -63 0.4016628265 0.35228163 134217728 0 0
+( 244.3000030518 -191 96.6999969482 ) ( 247.6000061035 -194.3000030518 93.3999938965 ) ( 279.5 -251.5 218.8000030518 ) common/trigger 432.4817504883 356.4449768066 -87 0.3480070233 0.4014230072 134217728 0 0
+}
+{
+( 260.8000030518 -301 293.6000061035 ) ( 292.6999969482 -326.3000030518 342 ) ( 276.1999969482 -327.3999938965 346.3999938965 ) common/trigger 342.1027832031 238.856842041 -29 0.449072808 -0.4037715197 134217728 0 0
+( 275.1000061035 -345 337.6000061035 ) ( 260.8000030518 -303.1999969482 292.5 ) ( 276.1999969482 -329.6000061035 345.3000030518 ) common/trigger 497.7498779297 4.6735839844 -63 0.4016628265 0.35228163 134217728 0 0
+( 292.6999969482 -328.5 340.8999938965 ) ( 275.1000061035 -345 337.6000061035 ) ( 276.1999969482 -329.6000061035 345.3000030518 ) common/trigger 479.4295043945 256.0872192383 -164 0.435664922 -0.4823819101 134217728 0 0
+( 259.6999969482 -308.6999969482 289.1999969482 ) ( 292.6999969482 -335.1000061035 338.6999969482 ) ( 277.3000030518 -307.6000061035 284.8000030518 ) common/trigger 342.1027832031 238.856842041 -29 0.449072808 -0.4037715197 134217728 0 0
+( 287.1999969482 -345 334.3000030518 ) ( 272.8999938965 -302.1000061035 289.1999969482 ) ( 271.8000030518 -318.6000061035 281.5 ) common/trigger 497.7498779297 4.6735839844 -63 0.4016628265 0.35228163 134217728 0 0
+( 277.3000030518 -302.1000061035 288.1000061035 ) ( 259.6999969482 -318.6000061035 284.8000030518 ) ( 276.1999969482 -317.5 280.3999938965 ) common/trigger 479.4295043945 256.0872192383 -164 0.435664922 -0.4823819101 134217728 0 0
+( 248.6999969482 -606.8000030518 142.8999938965 ) ( 246.5 -759.700012207 134.0999908447 ) ( 241 -734.4000091553 82.3999938965 ) common/trigger 91.7498779297 4.6735839844 -63 0.4016628265 0.35228163 134217728 0 0
+( 239.8999938965 -270.1999969482 221 ) ( 209.1000061035 -213 95.5999908447 ) ( 204.6999969482 -208.5999908447 98.8999938965 ) common/trigger 432.4817504883 356.4449768066 -87 0.3480070233 0.4014230072 134217728 0 0
+}
+{
+( 260.8000030518 -288.8999938965 299.1000061035 ) ( 293.8000030518 -315.3000030518 347.5 ) ( 276.1999969482 -315.3000030518 351.8999938965 ) common/trigger 342.1027832031 238.856842041 -29 0.449072808 -0.4037715197 134217728 0 0
+( 275.1000061035 -334 344.1999969482 ) ( 260.8000030518 -291.1000061035 298 ) ( 276.1999969482 -317.5 350.8000030518 ) common/trigger 497.7498779297 4.6735839844 -63 0.4016628265 0.35228163 134217728 0 0
+( 293.8000030518 -316.3999938965 346.3999938965 ) ( 275.1000061035 -334 344.1999969482 ) ( 276.1999969482 -317.5 350.8000030518 ) common/trigger 479.4295043945 256.0872192383 -164 0.435664922 -0.4823819101 134217728 0 0
+( 260.8000030518 -296.6000061035 294.6999969482 ) ( 292.6999969482 -323 344.1999969482 ) ( 277.3000030518 -296.6000061035 290.3000030518 ) common/trigger 342.1027832031 238.856842041 -29 0.449072808 -0.4037715197 134217728 0 0
+( 288.3000030518 -332.8999938965 340.8999938965 ) ( 274 -290 294.6999969482 ) ( 272.8999938965 -306.5 287 ) common/trigger 497.7498779297 4.6735839844 -63 0.4016628265 0.35228163 134217728 0 0
+( 278.3999938965 -290 293.6000061035 ) ( 259.6999969482 -306.5 290.3000030518 ) ( 277.3000030518 -306.5 285.8999938965 ) common/trigger 479.4295043945 256.0872192383 -164 0.435664922 -0.4823819101 134217728 0 0
+( 249.8000030518 -595.8000030518 149.5 ) ( 247.6000061035 -747.6000061035 139.5999908447 ) ( 242.1000061035 -722.3000030518 87.8999938965 ) common/trigger 91.7498779297 4.6735839844 -63 0.4016628265 0.35228163 134217728 0 0
+( 245.3999938965 -253.6999969482 227.5999908447 ) ( 205.8000030518 -196.5 104.3999938965 ) ( 210.1999969482 -193.1999969482 105.5 ) common/trigger 369.5252075195 273.0955200195 -44 0.6350850463 -0.4268627167 134217728 0 0
+}
+{
+( 316.8999938965 -314.1999969482 348.6000061035 ) ( 282.8000030518 -316.3999938965 357.3999938965 ) ( 315.8000030518 -312 345.3000030518 ) common/trigger 342.1027832031 238.856842041 -29 0.449072808 -0.4037715197 134217728 0 0
+( 349.9000091553 -316.3999938965 338.6999969482 ) ( 348.8000030518 -314.1999969482 334.3000030518 ) ( 349.9000091553 -331.8000030518 331 ) common/trigger 497.7498779297 4.6735839844 -63 0.4016628265 0.35228163 134217728 0 0
+( 318 -320.8000030518 350.8000030518 ) ( 316.8999938965 -336.1999969482 343.1000061035 ) ( 283.8999938965 -321.8999938965 359.6000061035 ) common/trigger 479.4295043945 256.0872192383 -164 0.435664922 -0.4823819101 134217728 0 0
+( 279.5 -338.3999938965 343.1000061035 ) ( 280.6000061035 -340.6000061035 346.3999938965 ) ( 313.6000061035 -336.1999969482 334.3000030518 ) common/trigger 342.1027832031 238.856842041 -29 0.449072808 -0.4037715197 134217728 0 0
+( 246.5 -336.1999969482 353 ) ( 247.6000061035 -320.8000030518 360.6999969482 ) ( 247.6000061035 -338.3999938965 357.3999938965 ) common/trigger 497.7498779297 4.6735839844 -63 0.4016628265 0.35228163 134217728 0 0
+( 280.6000061035 -334 344.1999969482 ) ( 314.6999969482 -331.8000030518 335.3999938965 ) ( 281.6999969482 -318.6000061035 351.8999938965 ) common/trigger 479.4295043945 256.0872192383 -164 0.435664922 -0.4823819101 134217728 0 0
+( 674.4000091553 -293.3000030518 256.1999969482 ) ( 674.4000091553 -298.8000030518 258.3999938965 ) ( 538 -301 291.3999938965 ) common/trigger 100.8300476074 11.7938232422 35.9999961853 0.2828034163 0.5778234005 134217728 0 0
+( 673.3000030518 -314.1999969482 250.6999969482 ) ( 672.200012207 -316.3999938965 245.1999969482 ) ( 538 -323 285.8999938965 ) common/trigger 288.300201416 378.6783447266 -72 0.3626403213 -0.3178505301 134217728 0 0
+}
+{
+( 318 -325.1999969482 335.3999938965 ) ( 301.5 -326.3000030518 339.8000030518 ) ( 302.6000061035 -298.8000030518 282.6000061035 ) common/trigger 342.1027832031 238.856842041 -29 0.449072808 -0.4037715197 134217728 0 0
+( 318 -327.3999938965 334.3000030518 ) ( 302.6000061035 -301 281.5 ) ( 316.8999938965 -342.8000030518 326.6000061035 ) common/trigger 497.7498779297 4.6735839844 -63 0.4016628265 0.35228163 134217728 0 0
+( 318 -327.3999938965 334.3000030518 ) ( 316.8999938965 -342.8000030518 326.6000061035 ) ( 301.5 -328.5 338.6999969482 ) common/trigger 479.4295043945 256.0872192383 -164 0.435664922 -0.4823819101 134217728 0 0
+( 285 -307.6000061035 282.6000061035 ) ( 300.3999938965 -334 336.5 ) ( 302.6000061035 -306.5 278.1999969482 ) common/trigger 342.1027832031 238.856842041 -29 0.449072808 -0.4037715197 134217728 0 0
+( 289.3999938965 -317.5 277.1000061035 ) ( 290.5 -301 284.8000030518 ) ( 304.8000030518 -343.8999938965 329.8999938965 ) common/trigger 497.7498779297 4.6735839844 -63 0.4016628265 0.35228163 134217728 0 0
+( 285 -317.5 278.1999969482 ) ( 301.5 -316.3999938965 273.8000030518 ) ( 286.1000061035 -301 285.8999938965 ) common/trigger 479.4295043945 256.0872192383 -164 0.435664922 -0.4823819101 134217728 0 0
+( 266.3000030518 -732.200012207 75.799987793 ) ( 289.3999938965 -756.4000091553 123.0999908447 ) ( 275.1000061035 -605.700012207 136.3000030518 ) common/trigger 497.7498779297 4.6735839844 -63 0.4016628265 0.35228163 134217728 0 0
+( 247.6000061035 -206.3999938965 87.8999938965 ) ( 243.1999969482 -210.8000030518 86.799987793 ) ( 282.8000030518 -266.8999938965 210 ) common/trigger 300.6590576172 174.1521453857 -44 0.6350850463 -0.4268627167 134217728 0 0
+}
+}
+{
+"classname" "dom_controlpoint"
+"origin" "-1408.000000 -32.000000 48.000000"
+"message" " has captured the ^2Rocket Launcher ^3control point"
+}
+{
+"classname" "dom_controlpoint"
+"origin" "544.000000 0.000000 528.000000"
+"message" " has captured the ^2Mega Health ^3control point"
+}
+{
+"classname" "dom_controlpoint"
+"origin" "160.000000 960.000000 320.000000"
+"message" " has captured the ^2Machine Gun ^3control point"
+}
+{
 "classname" "dom_team"
 "origin" "440.000000 -336.000000 296.000000"
 "netname" "^4Blue Team^3"
@@ -43796,4 +44001,19 @@ trak5x/base-pipe1a
 "noise" "domination/claim.wav"
 "noise1" "domination/claim.wav"
 "cnt" "9"
+}
+{
+"classname" "info_autoscreenshot"
+"origin" "-1795.8374 949.864441 545.190857"
+"angles" "9.89868164 -50.6414795 0"
+}
+{
+"classname" "info_autoscreenshot"
+"origin" "-10.7319641 1071.96875 398.597321"
+"angles" "5.27893066 -42.8137207 0"
+}
+{
+"classname" "info_autoscreenshot"
+"origin" "271.835205 -357.587097 136.00856"
+"angles" "7.6574707 -143.399048 0"
 }

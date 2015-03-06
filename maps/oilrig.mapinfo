@@ -1,13 +1,14 @@
 title Oilrig
-description A very large open map designed after an offshore oil rig.
+description A very large open map designed after an offshore oil rig
 author Tronyn, Debugger, SavageX, Dustin Geeraert, Garth Hendy
 cdtrack 8
 has weapons
 gametype dm
 gametype lms
-gametype arena
 gametype tdm
 gametype ca
 gametype kh
 gametype ft
 gametype ka
+
+clientsettemp_for_type all r_shadow_realtime_world 0 // Disabled, because the performance drops significantly
