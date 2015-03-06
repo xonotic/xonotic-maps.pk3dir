@@ -58,6 +58,7 @@ This is a brush model which can be damaged. Once triggered it's active and will 
 <string key="mdl_dead" name="mdl_dead">optional replacement model to show when destroyed</string>
 <string key="debris" name="debris">names of debris models to show when destroyed, separated by spaces</string>
 <sound key="noise" name="noise">sound to play when destroyed</sound>
+<sound key="noise1" name="noise1">sound to play while alive (either plays at spawn only, or can be a looping sound file)</sound>
 <real key="dmg" name="dmg">damage to deal to the environment when destroyed</real>
 <real key="dmg_edge" name="dmg_edge">edge damage to deal to the environment when destroyed</real>
 <real key="dmg_radius" name="dmg_radius">damage radius</real>
@@ -1625,7 +1626,7 @@ For the number fields, not specifying a value means not changing it. To clear ar
 You may want to target this by a race checkpoint, a teleporter, or a trigger_multiple with ALLENTS set (so it removes weapons thrown through the field to avoid getting a weapon through it).
 -------- KEYS --------
 <targetname key="targetname" name="targetname">used to trigger this</targetname>
-<string key="netname" name="netname">space separated list of items (either weapon short names (like in g_start_weapon_* cvars), or item short names &quot;unlimited_ammo&quot;, &quot;unlimited_weapon_ammo&quot;, &quot;unlimited_superweapons&quot;, &quot;invincible&quot;, &quot;strength&quot;, &quot;jetpack&quot; and &quot;fuel_regen&quot;</string>
+<string key="netname" name="netname">space separated list of items (either weapon short names (like in g_start_weapon_* cvars), or item short names &quot;unlimited_ammo&quot;, &quot;unlimited_weapon_ammo&quot;, &quot;unlimited_superweapons&quot;, &quot;invincible&quot;, &quot;strength&quot;, &quot;jetpack&quot; and &quot;fuel_regen&quot;)</string>
 <string key="message" name="message">message to print</string>
 <real key="ammo_shells" name="ammo_shells">amount of shells</real>
 <real key="ammo_nails" name="ammo_nails">amount of bullets</real>
@@ -1697,6 +1698,7 @@ When triggered, it resets to full health, and unbreaks.
 <string key="mdl_dead" name="mdl_dead">optional replacement model to show when destroyed</string>
 <string key="debris" name="debris">names of debris models to show when destroyed, separated by spaces</string>
 <sound key="noise" name="noise">sound to play when destroyed</sound>
+<sound key="noise1" name="noise1">sound to play while alive (either plays at spawn only, or can be a looping sound file)</sound>
 <real key="dmg" name="dmg">damage to deal to the environment when destroyed</real>
 <real key="dmg_edge" name="dmg_edge">edge damage to deal to the environment when destroyed</real>
 <real key="dmg_radius" name="dmg_radius">damage radius</real>
@@ -1734,6 +1736,7 @@ When triggered, it resets to full health, and unbreaks.
 <string key="mdl_dead" name="mdl_dead">optional replacement model to show when destroyed</string>
 <string key="debris" name="debris">names of debris models to show when destroyed, separated by spaces</string>
 <sound key="noise" name="noise">sound to play when destroyed</sound>
+<sound key="noise1" name="noise1">sound to play while alive (either plays at spawn only, or can be a looping sound file)</sound>
 <real key="dmg" name="dmg">damage to deal to the environment when destroyed</real>
 <real key="dmg_edge" name="dmg_edge">edge damage to deal to the environment when destroyed</real>
 <real key="dmg_radius" name="dmg_radius">damage radius</real>
