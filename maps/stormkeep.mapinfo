@@ -1,6 +1,7 @@
 title Stormkeep
 description Medium sized indoor map, well suited for team games
 author FruitieX, Cuinnton, SavageX, Strahlemann, W. Libert, tZork, Mirio
+cdtrack 5
 has weapons
 gametype dm
 gametype tdm
@@ -11,7 +12,6 @@ gametype kh
 gametype ca
 gametype ft
 gametype ka
-cdtrack 5
 // optional: fog density red green blue alpha mindist maxdist
 // optional: settemp_for_type (all|gametypename) cvarname value
 // optional: clientsettemp_for_type (all|gametypename) cvarname value
