@@ -2,4 +2,4 @@
 -vis +
 -light + -randomsamples -samples 4 -bounce 8 -bouncegrid -dirty -dirtscale 2
 -minimap +
-Version: 3.1.1
+Version: 4.0.0
