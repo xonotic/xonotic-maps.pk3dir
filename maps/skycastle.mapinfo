@@ -1,0 +1,14 @@
+title Skycastle
+description A castle in the sky
+author cortez
+cdtrack 18
+has weapons
+gametype dm
+gametype tdm
+gametype lms
+gametype ca
+gametype ft
+gametype ka
+gametype kh
+gametype ctf
+fog 0.15 0.375 0.0625 0 1 0 2048 512 512
