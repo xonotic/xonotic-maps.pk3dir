@@ -1,0 +1,8 @@
+title Hudsetup
+description Small map for the HUD setup.
+author FruitieX
+cdtrack 14
+noautomaplist
+forbidden
+gametype dm
+
