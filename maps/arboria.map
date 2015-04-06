@@ -5362,7 +5362,7 @@ exx/floor-crete01
 }
 {
 "classname" "trigger_gravity"
-"gravity" "0.375"
+"gravity" "0.5"
 {
 ( 4352 4096 3584 ) ( 4352 -4096 3584 ) ( -3840 4096 3584 ) common/trigger 0 0 0 0.25 0.25 0 0 0
 ( 4096 4096 1148 ) ( -4096 4096 1148 ) ( 4096 4096 1020 ) common/trigger 0 0 0 0.25 0.25 0 0 0
