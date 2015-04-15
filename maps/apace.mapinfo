@@ -1,6 +1,6 @@
 title Apace
-description CTF arena inside of a large spacebase.
+description CTF arena inside of a large spacebase
 author kuniu the frogg
+cdtrack 17
 has weapons
-cdtrack 12
 gametype ctf
