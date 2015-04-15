@@ -19805,8 +19805,8 @@ exx/base-metal03
 }
 {
 "classname" "info_player_deathmatch"
-"angle" "225"
-"origin" "1472 896 0"
+"origin" "1760.000000 336.000000 0.000000"
+"angle" "-180.000000"
 }
 {
 "classname" "item_cells"

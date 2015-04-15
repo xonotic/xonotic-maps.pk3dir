@@ -28107,8 +28107,8 @@ exx/trim-baseboard
 }
 {
 "classname" "info_player_deathmatch"
-"angle" "90"
-"origin" "544.000000 -1216.000000 416.000000"
+"angle" "90.000000"
+"origin" "992.000000 -1224.000000 416.000000"
 }
 {
 "classname" "weapon_nex"
@@ -29061,4 +29061,18 @@ exx/trim-baseboard
 "classname" "info_autoscreenshot"
 "origin" "-701.056213 97.5969925 806.1427"
 "angles" "17.1606445 -42.4456787 0"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "-90.000000"
+"origin" "544.000000 224.000000 672.000000"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "456.000000 -376.000000 160.000000"
+"angle" "-45.000008"
+}
+{
+"classname" "weapon_electro"
+"origin" "778.000000 -1412.000000 408.000000"
 }
