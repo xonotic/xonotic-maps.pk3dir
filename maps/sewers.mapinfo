@@ -1,0 +1,13 @@
+title Sewers
+description Go around map
+author proraide
+cdtrack 16
+has weapons                                                                     
+clientsettemp_for_type all r_water 1
+gametype dm
+gametype tdm
+gametype ca
+gametype kh
+gametype ft
+gametype lms
+gametype ka
