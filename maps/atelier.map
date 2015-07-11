@@ -40788,3 +40788,8 @@ common/weapclip
 "_receiveshadows" "1"
 "modelscale" "0.951665"
 }
+{
+"classname" "dom_controlpoint"
+"origin" "-1792.000000 608.000000 336.000000"
+"message" " has captured the ^2Mega Armor ^3control point"
+}
