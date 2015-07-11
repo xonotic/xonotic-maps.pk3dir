@@ -10,4 +10,4 @@ gametype ca
 gametype ka
 gametype kh
 gametype ft
-clientsettemp_for_type all r_water 1
+clientsettemp_for_type all r_water 0

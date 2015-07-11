@@ -27,8 +27,6 @@ map_glowplant
 map_go
 map_implosion
 map_leave_em_behind
-map_lightspeed
-map_newtonian-nightmare
 map_oilrig
 map_silentsiege
 map_solarium
