@@ -31151,22 +31151,22 @@ exx/base-metal03
 {
 "classname" "target_speaker"
 "origin" "-2320.000000 -656.000000 192.000000"
-"noise" "sounds/wind/WindDesert-Loop.wav"
+"noise" "sound/wind/Evening-Wind(Loop).wav"
 }
 {
 "classname" "target_speaker"
 "origin" "256.000000 -1200.000000 -48.000000"
-"noise" "sounds/machines/Flourescent-Loop(Stereo).wav"
+"noise" "sound/machines/fluorescent_stereo_looped.ogg"
 }
 {
 "classname" "target_speaker"
 "origin" "368.000000 -16.000000 832.000000"
-"noise" "sounds/wind/WindDesert-Loop.wav"
+"noise" "sound/wind/Evening-Wind(Loop).wav"
 }
 {
 "classname" "target_speaker"
 "origin" "-480.000000 -208.000000 -192.000000"
-"noise" "sounds/machines/Electrical_Machine.wav"
+"noise" "sound/machines/Electrical_Machine.wav"
 "volume" "0.4"
 }
 {
@@ -34524,19 +34524,19 @@ exx/base-metal03
 {
 "classname" "target_speaker"
 "origin" "-2864.000000 1920.000000 -48.000000"
-"noise" "sounds/machines/Flourescent-Loop(Stereo).wav"
+"noise" "sound/machines/fluorescent_stereo_looped.ogg"
 "angle" "90.000000"
 }
 {
 "classname" "target_speaker"
 "origin" "-1680.000000 2032.000000 832.000000"
-"noise" "sounds/wind/WindDesert-Loop.wav"
+"noise" "sound/wind/Evening-Wind(Loop).wav"
 "angle" "90.000000"
 }
 {
 "classname" "target_speaker"
 "origin" "-1872.000000 1184.000000 -192.000000"
-"noise" "sounds/machines/Electrical_Machine.wav"
+"noise" "sound/machines/Electrical_Machine.wav"
 "volume" "0.4"
 "angle" "90.000000"
 }

@@ -28045,7 +28045,7 @@ effects_jumppad/jumppadfx1_a
 {
 "classname" "target_speaker"
 "origin" "448.000000 0.000000 -240.000000"
-"noise" "sounds/machines/Washing_Machine.wav"
+"noise" "sound/machines/Washing_Machine.wav"
 "spawnflags" "1"
 "volume" "100"
 }
@@ -28063,7 +28063,7 @@ effects_jumppad/jumppadfx1_a
 {
 "classname" "target_speaker"
 "origin" "-448.000000 0.000000 -240.000000"
-"noise" "sounds/machines/Washing_Machine.wav"
+"noise" "sound/machines/Washing_Machine.wav"
 "spawnflags" "1"
 "volume" "100"
 }
@@ -28656,12 +28656,12 @@ effects_jumppad/jumppadfx1_a
 "classname" "target_speaker"
 "origin" "0.000000 0.000000 1152.000000"
 "atten" "-1"
-"noise" "sound/supernatural/EndOfTheWorld.wav"
+"noise" "sound/supernatural/EndOfTheWorld.mp3"
 }
 {
 "classname" "target_speaker"
 "origin" "0.000000 -3567.000000 -32.000000"
-"noise" "sounds/supernatural/Alien-Ship-Interior-Loop.wav"
+"noise" "sound/supernatural/Alien-Ship-Interior-Loop.wav"
 }
 {
 "classname" "light"
@@ -29661,7 +29661,7 @@ effects_jumppad/jumppadfx1_a
 {
 "classname" "target_speaker"
 "origin" "0.000000 3567.000000 -32.000000"
-"noise" "sounds/supernatural/Alien-Ship-Interior-Loop.wav"
+"noise" "sound/supernatural/Alien-Ship-Interior-Loop.wav"
 "angle" "-179.999985"
 }
 {

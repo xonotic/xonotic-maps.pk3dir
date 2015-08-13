@@ -30880,7 +30880,7 @@ exx/base-metal05rust
 {
 "classname" "target_speaker"
 "origin" "728.000000 64.000000 64.000000"
-"noise" "sound/machines/portal_idle.ogg"
+"noise" "sound/machines/portal_idle.wav"
 "spawnflags" "1"
 }
 {
@@ -31819,7 +31819,7 @@ exx/base-metal05rust
 {
 "classname" "target_speaker"
 "origin" "984.000000 64.000000 384.000000"
-"noise" "sound/machines/portal_idle.ogg"
+"noise" "sound/machines/portal_idle.wav"
 "spawnflags" "1"
 }
 {
