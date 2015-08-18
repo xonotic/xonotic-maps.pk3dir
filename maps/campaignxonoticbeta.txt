@@ -1,7 +1,7 @@
-//campaign:Xonotic 0.8.1 by Mirio
+//campaign:Xonotic 0.8.1 Campaign by Mirio
 //"game","mapname","bots","skill","fraglimit","timelimit","mutator-sets","description","long description"
 "dm","finalrage","5","2","10",,,"Deathmatch: Final Rage","Welcome to Xonotic 0.8.1!\nWe'll start off easy with Deathmatch against 5 'Botlike' bots on Final Rage.\nXonotic is mainly a multiplayer game, but before jumping into online games it might be a good idea to practice a bit versus bots."
-//"tdm","atomforge","5","2",,"5",,"Team Deathmatch: Atomforge","Next we'll try some 3v3 Team Deathmatch on Atomforge.\nYou'll have to do your best for five minutes, because the team with the highest score is going to be the winning team!"
+"tdm","stormkeep","5","2",,"5",,"Team Deathmatch: Stormkeep","Next we'll try some 3v3 Team Deathmatch on Stormkeep.\nYou'll have to do your best for five minutes, because the team with the highest score is going to be the winning team!"
 "ctf","dance","9","3","3",,,"Capture the Flag: Dance","In CTF you have to take the other teams flag and bring it to your base. Also your own flag has to be in your base for a successful capture!\n3 captures to win. "
 "dm","g-23","6","3","15",,,"Deathmatch: Docking Station G-23","Again a DM match, but the bots are slightly better now."
 "dom","atelier","11","4","50",,,"Domination: Atelier","Defend the control points and kill intruders to win."
