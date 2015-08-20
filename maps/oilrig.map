@@ -24340,7 +24340,7 @@ exx/wall-bigrib02
 "classname" "target_speaker"
 "origin" "-256.000000 800.000000 -440.000000"
 "spawnflags" "1"
-"noise" "lighthum_looped.ogg"
+"noise" "sound/machines/lighthum_looped.ogg"
 }
 {
 "classname" "target_speaker"
@@ -24382,7 +24382,7 @@ exx/wall-bigrib02
 "classname" "target_speaker"
 "origin" "640.000000 968.000000 -432.000000"
 "spawnflags" "1"
-"noise" "lighthum_looped.ogg"
+"noise" "sound/machines/lighthum_looped.ogg"
 }
 {
 "classname" "target_speaker"
