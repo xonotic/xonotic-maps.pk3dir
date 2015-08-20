@@ -21926,21 +21926,8 @@ effects_jumppad/jumppadfx1_a
 }
 {
 "classname" "target_speaker"
-"origin" "2688.000000 -3008.000000 64.000000"
-"noise" "sounds/wind/Evening-Wind(Loop).wav"
-"atten" "-1"
-"volume" "0.6"
-}
-{
-"classname" "target_speaker"
-"origin" "0.000000 0.000000 -64.000000"
-"noise" "sounds/atmosphere/Tsunami.wav"
-"atten" "-1"
-}
-{
-"classname" "target_speaker"
 "origin" "1294.000000 -818.000000 -160.000000"
-"noise" "sounds/machines/machinevat_loop.wav"
+"noise" "sound/machines/machinevat_loop.wav"
 "volume" "0.6"
 }
 {
@@ -23353,16 +23340,8 @@ effects_jumppad/jumppadfx1_a
 }
 {
 "classname" "target_speaker"
-"origin" "-2688.000000 3008.000000 64.000000"
-"noise" "sounds/wind/Evening-Wind(Loop).wav"
-"atten" "-1"
-"angle" "-179.999985"
-"volume" "0.6"
-}
-{
-"classname" "target_speaker"
 "origin" "-1294.000000 818.000000 -160.000000"
-"noise" "sounds/machines/machinevat_loop.wav"
+"noise" "sound/machines/machinevat_loop.wav"
 "volume" "0.6"
 "angle" "-179.999985"
 }
