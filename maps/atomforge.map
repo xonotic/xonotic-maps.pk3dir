@@ -20416,6 +20416,14 @@ decals/scorch01
 ( -464 -616 256 ) ( -464 -592 256 ) ( -464 -616 328 ) common/clip 0 0 0 0.25 0.25 0 0 0
 ( 64 -614 303 ) ( -64 -608.5 288 ) ( -64 -614 303 ) common/clip 0 0 0 0.25 0.25 0 0 0
 }
+{
+( -862.0500030518 -1049 -512 ) ( -862.0500030518 -793 -512 ) ( -862.0500030518 -1049 -256 ) common/caulk 100 0 0 0.25 0.25 0 0 0
+( -801.9750061035 -1049.125 -512 ) ( -801.9750061035 -1305.125 -512 ) ( -801.9750061035 -1049.125 -256 ) common/caulk 100.5 0 0 0.25 0.25 0 0 0
+( -430 -1126.0249938965 -512 ) ( -430 -1126.0249938965 -768 ) ( -686 -1126.0249938965 -512 ) common/caulk 184 0 0 0.25 0.25 0 0 0
+( -430.625 -1065.9499969482 -512 ) ( -430.625 -1065.9499969482 -256 ) ( -686.625 -1065.9499969482 -512 ) common/caulk 186.5 0 0 0.25 0.25 0 0 0
+( -430 -1049 -64 ) ( -686 -1049 -64 ) ( -430 -1305 -64 ) common/caulk 184 156 0 0.25 0.25 0 0 0
+( -866.8000030518 -1127.3999938965 -62.6000061035 ) ( -866.8000030518 -1060.1999969482 -62.6000061035 ) ( -799.6000061035 -1060.1999969482 -62.6000061035 ) decals/scorch01 460.1890258789 114.2885742188 0 0.1312500238 0.1312500387 0 0 0
+}
 }
 {
 "classname" "info_player_deathmatch"
@@ -21864,7 +21872,7 @@ facility114invx/base-baseblack
 }
 {
 "classname" "item_strength"
-"origin" "-1472.000000 -208.000000 -168.000000"
+"origin" "-832.000000 -1096.000000 -64.000000"
 "angle" "90.000000"
 }
 {
@@ -21894,20 +21902,20 @@ facility114invx/base-baseblack
 }
 {
 "classname" "dom_controlpoint"
-"origin" "640.000000 -1224.000000 144.000000"
+"origin" "576.000000 -256.000000 176.000000"
 "angle" "90.000000"
-"message" " has captured the ^2Broken teleporter ^3control point"
+"message" " has captured the ^2Vortex hallway ^3control point"
 }
 {
 "classname" "dom_controlpoint"
-"origin" "-1280.000000 1024.000000 176.000000"
-"message" " has captured the ^2Side corridor ^3control point"
+"origin" "-832.000000 1024.000000 176.000000"
+"message" " has captured the ^250 Armor ^3control point"
 }
 {
 "classname" "dom_controlpoint"
-"origin" "-320.000000 -256.000000 400.000000"
+"origin" "-528.000000 -1112.000000 -48.000000"
 "angle" "179.999985"
-"message" " has captured the ^2Highest floor ^3control point"
+"message" " has captured the ^2Mega Armor ^3control point"
 }
 {
 "classname" "misc_breakablemodel"
@@ -22101,7 +22109,7 @@ facility114invx/base-baseblack
 }
 {
 "classname" "weapon_hagar"
-"origin" "-1472.000000 576.000000 -176.000000"
+"origin" "-1472.000000 -192.000000 -176.000000"
 }
 {
 "classname" "dom_team"
