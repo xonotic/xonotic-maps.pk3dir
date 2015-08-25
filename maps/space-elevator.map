@@ -3,6 +3,8 @@
 "license" "GPL"
 "description" "Small space elevator with 3 platforms."
 "_blocksize" "2048 2048 2048"
+"message" "Space Elevator"
+"author" "FruitieX, Mirio, Cuinnton"
 {
 ( 256 736 -128 ) ( 256 736 -192 ) ( 256 -736 -128 ) trak5x/floor-floor2f 0 0 0 0.25 0.25 0 0 0
 ( 192 736 -192 ) ( 192 736 -128 ) ( 192 -736 -128 ) trak5x/floor-floor2f 0 0 0 0.25 0.25 0 0 0
