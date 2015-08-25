@@ -37335,7 +37335,7 @@ exx/trim-psimple04
 {
 "classname" "dom_controlpoint"
 "origin" "1216.000000 672.000000 80.000000"
-"message" " has captured the ^2Nex ^3control point"
+"message" " has captured the ^2Vortex ^3control point"
 }
 {
 "classname" "light"
@@ -40792,4 +40792,9 @@ common/weapclip
 "classname" "dom_controlpoint"
 "origin" "-1792.000000 608.000000 336.000000"
 "message" " has captured the ^2Mega Armor ^3control point"
+}
+{
+"classname" "dom_controlpoint"
+"origin" "-512.000000 576.000000 400.000000"
+"message" " has captured the ^2Center Room ^3control point"
 }
