@@ -2,7 +2,7 @@
 "classname" "worldspawn"
 "_floodlight" "255 190 150 128 128"
 "gridsize" "64 64 64"
-"author" "ShadoW"
+"author" "ShadoW, Mirio, Debugger"
 "message" "Atelier"
 {
 ( -704 -624 160 ) ( -704 -624 0 ) ( -704 -608 160 ) common/caulk 128 96 0 -0.25 0.25 0 0 0
