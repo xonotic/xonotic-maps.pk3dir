@@ -25259,3 +25259,45 @@ effects_jumppad/jumppadfx1_a
 "light" "175"
 "_color" "1 1 0.9"
 }
+{
+"classname" "misc_model"
+"origin" "335.999908 -79.999802 0.000000"
+"model" "models/lights/xonlight01.md3"
+"angle" "45.267586"
+}
+{
+"classname" "light"
+"origin" "335.999939 -79.999969 -17.999996"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "348.668335 -67.212746 -17.999996"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "322.627808 -93.497620 -17.999996"
+"light" "240"
+}
+{
+"classname" "misc_model"
+"origin" "-336.000092 80.000198 0.000000"
+"model" "models/lights/xonlight01.md3"
+"angle" "45.267586"
+}
+{
+"classname" "light"
+"origin" "-336.000061 80.000031 -17.999996"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-323.331665 92.787254 -17.999996"
+"light" "240"
+}
+{
+"classname" "light"
+"origin" "-349.372192 66.502380 -17.999996"
+"light" "240"
+}
