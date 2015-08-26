@@ -1,0 +1,13 @@
+title implosion
+description Space Style CTF Level
+author MintOX, Mirio, Mario
+cdtrack 20
+has weapons
+gametype ctf
+gametype ft
+gametype kh
+gametype ka
+gametype ca
+gametype tdm
+gametype lms
+gametype dom
