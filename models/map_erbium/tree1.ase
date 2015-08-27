@@ -12,7 +12,7 @@
 *MATERIAL_LIST {
 	*MATERIAL_COUNT 3
 	*MATERIAL 0 {
-		*MATERIAL_NAME "textures/map_evolution/tree-bark"
+		*MATERIAL_NAME "textures/map_erbium/tree-bark"
 		*MATERIAL_CLASS "Standard"
 		*MATERIAL_AMBIENT 0.5880	0.5880	0.5880
 		*MATERIAL_DIFFUSE 0.5880	0.5880	0.5880
@@ -31,7 +31,7 @@
 			*MAP_CLASS "Bitmap"
 			*MAP_SUBNO 1
 			*MAP_AMOUNT 1.0000
-			*BITMAP "textures/map_evolution/tree-bark"
+			*BITMAP "textures/map_erbium/tree-bark"
 			*MAP_TYPE Screen
 			*UVW_U_OFFSET 0.0000
 			*UVW_V_OFFSET 0.0000
@@ -59,7 +59,7 @@
 		*MATERIAL_WIRESIZE 1.0000
 		*NUMSUBMTLS 2
 		*SUBMATERIAL 0 {
-			*MATERIAL_NAME "textures/map_evolution/tree-bark"
+			*MATERIAL_NAME "textures/map_erbium/tree-bark"
 			*MATERIAL_CLASS "Standard"
 			*MATERIAL_AMBIENT 0.5880	0.5880	0.5880
 			*MATERIAL_DIFFUSE 0.5880	0.5880	0.5880
@@ -78,7 +78,7 @@
 				*MAP_CLASS "Bitmap"
 				*MAP_SUBNO 1
 				*MAP_AMOUNT 1.0000
-				*BITMAP "textures/map_evolution/tree-bark.tga"
+				*BITMAP "textures/map_erbium/tree-bark.jpg"
 				*MAP_TYPE Screen
 				*UVW_U_OFFSET 0.0000
 				*UVW_V_OFFSET 0.0000
@@ -95,7 +95,7 @@
 			}
 		}
 		*SUBMATERIAL 1 {
-			*MATERIAL_NAME "textures/map_evolution/branches"
+			*MATERIAL_NAME "textures/map_erbium/branches"
 			*MATERIAL_CLASS "Standard"
 			*MATERIAL_AMBIENT 0.5880	0.5880	0.5880
 			*MATERIAL_DIFFUSE 0.5880	0.5880	0.5880
@@ -114,7 +114,7 @@
 				*MAP_CLASS "Bitmap"
 				*MAP_SUBNO 1
 				*MAP_AMOUNT 1.0000
-				*BITMAP "textures/map_evolution/branches.tga"
+				*BITMAP "textures/map_erbium/branches.jpg"
 				*MAP_TYPE Screen
 				*UVW_U_OFFSET 0.0000
 				*UVW_V_OFFSET 0.0000
@@ -151,7 +151,7 @@
 			*MAP_CLASS "Bitmap"
 			*MAP_SUBNO 1
 			*MAP_AMOUNT 1.0000
-			*BITMAP "textures/map_evolution/branches.tga"
+			*BITMAP "textures/map_erbium/branches.jpg"
 			*MAP_TYPE Screen
 			*UVW_U_OFFSET 0.0000
 			*UVW_V_OFFSET 0.0000

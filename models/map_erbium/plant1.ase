@@ -12,7 +12,7 @@
 *MATERIAL_LIST {
 	*MATERIAL_COUNT 1
 	*MATERIAL 0 {
-		*MATERIAL_NAME "textures/map_evolution/leaves2"
+		*MATERIAL_NAME "textures/map_erbium/leaves2"
 		*MATERIAL_CLASS "Standard"
 		*MATERIAL_AMBIENT 0.5882	0.5882	0.5882
 		*MATERIAL_DIFFUSE 0.5882	0.5882	0.5882
@@ -32,7 +32,7 @@
 			*MAP_CLASS "Bitmap"
 			*MAP_SUBNO 1
 			*MAP_AMOUNT 1.0000
-			*BITMAP "textures/map_evolution/leaves2"
+			*BITMAP "textures/map_erbium/leaves2"
 			*MAP_TYPE Screen
 			*UVW_U_OFFSET 0.0000
 			*UVW_V_OFFSET 0.0000
@@ -52,7 +52,7 @@
 			*MAP_CLASS "Bitmap"
 			*MAP_SUBNO 6
 			*MAP_AMOUNT 1.0000
-			*BITMAP "textures/map_evolution/leaves2"
+			*BITMAP "textures/map_erbium/leaves2"
 			*MAP_TYPE Screen
 			*UVW_U_OFFSET 0.0000
 			*UVW_V_OFFSET 0.0000
