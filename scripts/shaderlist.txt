@@ -22,7 +22,7 @@ logos
 map_catharsis
 map_courtfun
 map_darkzone
-map_evolution
+map_erbium
 map_g-23
 map_glowplant
 map_implosion
@@ -38,7 +38,6 @@ metaltechx
 model_bigfan01
 model_crate02
 model_desertfactory
-model_lightspeed
 model_teleporters
 model_trak
 model_tree

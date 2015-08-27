@@ -1,14 +1,14 @@
 textures/map_erbium/spawn_01
 
 {
-	qer_editorimage textures/map_erbium/spawn_01.tga
+	qer_editorimage textures/map_erbium/spawn_01.jpg
 	surfaceparm	nomarks   
    	surfaceparm	trans
 	surfaceparm	nonsolid
  	surfaceparm 	pointlight
 	nopicmip
 	{
-		map textures/map_erbium/spawn_01.tga
+		map textures/map_erbium/spawn_01.jpg
 		rgbGen identity
 		blendFunc add
 	}
@@ -17,14 +17,14 @@ textures/map_erbium/spawn_01
 
 textures/map_erbium/fightingzone
 {
-	qer_editorimage textures/map_erbium/fightingzone.tga
+	qer_editorimage textures/map_erbium/fightingzone.jpg
 	surfaceparm	nomarks   
     	surfaceparm	trans
 	surfaceparm	nonsolid
    	surfaceparm 	pointlight
 	nopicmip
 	{
-		map textures/map_erbium/fightingzone.tga
+		map textures/map_erbium/fightingzone.jpg
 		rgbGen identity
 		blendFunc add
 	}
@@ -32,7 +32,7 @@ textures/map_erbium/fightingzone
 
 textures/map_erbium/large-turbine
 {
-	qer_editorimage textures/map_erbium/large-turbine.tga
+	qer_editorimage textures/map_erbium/large-turbine.jpg
 	
 	surfaceparm metalsteps
 	q3map_bounceScale  1.5
@@ -41,7 +41,7 @@ textures/map_erbium/large-turbine
 
 
 	{
-		map textures/map_erbium/large-turbine.tga
+		map textures/map_erbium/large-turbine.jpg
 		
 
 	}
@@ -55,7 +55,7 @@ textures/map_erbium/large-turbine
 
 textures/map_erbium/metalic
 {
-	qer_editorimage textures/map_erbium/metalic.tga
+	qer_editorimage textures/map_erbium/metalic.jpg
 	
 	surfaceparm metalsteps
 	q3map_bounceScale  1.5
@@ -64,7 +64,7 @@ textures/map_erbium/metalic
 
 
 	{
-		map textures/map_erbium/metalic.tga
+		map textures/map_erbium/metalic.jpg
 		
 
 	}
@@ -79,7 +79,7 @@ textures/map_erbium/metalic
 
 textures/map_erbium/pickup
 {
-	qer_editorimage textures/map_erbium/pickup.tga
+	qer_editorimage textures/map_erbium/pickup.jpg
 	
 	surfaceparm metalsteps
 	q3map_bounceScale  1.5
@@ -88,7 +88,7 @@ textures/map_erbium/pickup
 
 
 	{
-		map textures/map_erbium/pickup.tga
+		map textures/map_erbium/pickup.jpg
 		
 
 	}
@@ -102,7 +102,7 @@ textures/map_erbium/pickup
 
 textures/map_erbium/metal-tiles
 {
-	qer_editorimage textures/map_erbium/metal-tiles.tga
+	qer_editorimage textures/map_erbium/metal-tiles.jpg
 	
 	surfaceparm metalsteps
 	q3map_bounceScale  1.5
@@ -111,7 +111,7 @@ textures/map_erbium/metal-tiles
 
 
 	{
-		map textures/map_erbium/metal-tiles.tga
+		map textures/map_erbium/metal-tiles.jpg
 		
 
 	}
@@ -125,7 +125,7 @@ textures/map_erbium/metal-tiles
 
 textures/map_erbium/metal-rock-tiles
 {
-	qer_editorimage textures/map_erbium/metal-rock-tiles.tga
+	qer_editorimage textures/map_erbium/metal-rock-tiles.jpg
 	
 	surfaceparm metalsteps
 	q3map_bounceScale  1.5
@@ -134,7 +134,7 @@ textures/map_erbium/metal-rock-tiles
 
 
 	{
-		map textures/map_erbium/metal-rock-tiles.tga
+		map textures/map_erbium/metal-rock-tiles.jpg
 		
 
 	}
@@ -149,7 +149,7 @@ textures/map_erbium/metal-rock-tiles
 
 textures/map_erbium/engine
 {
-	qer_editorimage textures/map_erbium/engine.tga
+	qer_editorimage textures/map_erbium/engine.jpg
 	
 	surfaceparm metalsteps
 	q3map_bounceScale  1.5
@@ -158,7 +158,7 @@ textures/map_erbium/engine
 
 
 	{
-		map textures/map_erbium/engine.tga
+		map textures/map_erbium/engine.jpg
 		
 
 	}
@@ -193,12 +193,12 @@ textures/map_erbium/decal1
 
 textures/map_erbium/tree-bark
 {
-	qer_editorimage textures/map_erbium/tree-bark.tga
+	qer_editorimage textures/map_erbium/tree-bark.jpg
 	dpoffsetmapping none
 	dpglossintensitymod 3
 	dpglossexponentmod 4
 	{
-		map textures/map_erbium/tree-bark.tga
+		map textures/map_erbium/tree-bark.jpg
 	}
 	{
 		map $lightmap
@@ -210,12 +210,12 @@ textures/map_erbium/tree-bark
 
 textures/map_erbium/branches
 {
-	qer_editorimage textures/map_erbium/branches.tga
+	qer_editorimage textures/map_erbium/branches.jpg
 	dpoffsetmapping none
 	dpglossintensitymod 3
 	dpglossexponentmod 4
 	{
-		map textures/map_erbium/branches.tga
+		map textures/map_erbium/branches.jpg
 	}
 	{
 		map $lightmap
@@ -227,7 +227,7 @@ textures/map_erbium/branches
 
 textures/map_erbium/waterfall
 {
-	qer_editorimage textures/map_erbium/waterfall.tga
+	qer_editorimage textures/map_erbium/waterfall.jpg
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	surfaceparm nonsolid
@@ -235,7 +235,7 @@ textures/map_erbium/waterfall
 	surfaceparm water
 	nopicmip	
 	{
-		map textures/map_erbium/waterfall.tga
+		map textures/map_erbium/waterfall.jpg
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		tcMod scroll 0 -1
 	}
@@ -245,14 +245,14 @@ rocktomoss
 {
 	dpoffsetmapping - 2 match8 184
 	q3map_baseShader textures/map_erbium/rocktomoss
-	qer_editorimage textures/map_erbium/rocktomoss.tga
+	qer_editorimage textures/map_erbium/rocktomoss.jpg
 
 	{
-		map	textures/map_erbium/moss.tga
+		map	textures/map_erbium/moss.jpg
 
 	} 
 	{
-		map	textures/map_erbium/rock-grey.tga
+		map	textures/map_erbium/rock-grey.jpg
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
 		alphagen vertex
 	} 
@@ -374,7 +374,7 @@ textures/map_erbium/black-tiles
 
 textures/map_erbium/con-tiled
 {
-	qer_editorimage textures/map_erbium/con-tiled.tga
+	qer_editorimage textures/map_erbium/con-tiled.jpg
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 2 match8 233
@@ -383,7 +383,7 @@ textures/map_erbium/con-tiled
 
 
 	{
-		map textures/map_erbium/con-tiled.tga
+		map textures/map_erbium/con-tiled.jpg
 		
 
 	}
@@ -398,7 +398,7 @@ textures/map_erbium/con-tiled
 
 textures/map_erbium/rock-grey
 {
-	qer_editorimage textures/map_erbium/rock-grey.tga
+	qer_editorimage textures/map_erbium/rock-grey.jpg
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 2 match8 233
@@ -407,7 +407,7 @@ textures/map_erbium/rock-grey
 
 
 	{
-		map textures/map_erbium/rock-grey.tga
+		map textures/map_erbium/rock-grey.jpg
 		
 
 	}
