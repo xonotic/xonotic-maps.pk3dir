@@ -1,38 +1,38 @@
-textures/map_evolution/spawn_01
+textures/map_erbium/spawn_01
 
 {
-	qer_editorimage textures/map_evolution/spawn_01.tga
+	qer_editorimage textures/map_erbium/spawn_01.tga
 	surfaceparm	nomarks   
    	surfaceparm	trans
 	surfaceparm	nonsolid
  	surfaceparm 	pointlight
 	nopicmip
 	{
-		map textures/map_evolution/spawn_01.tga
+		map textures/map_erbium/spawn_01.tga
 		rgbGen identity
 		blendFunc add
 	}
 	
 }
 
-textures/map_evolution/fightingzone
+textures/map_erbium/fightingzone
 {
-	qer_editorimage textures/map_evolution/fightingzone.tga
+	qer_editorimage textures/map_erbium/fightingzone.tga
 	surfaceparm	nomarks   
     	surfaceparm	trans
 	surfaceparm	nonsolid
    	surfaceparm 	pointlight
 	nopicmip
 	{
-		map textures/map_evolution/fightingzone.tga
+		map textures/map_erbium/fightingzone.tga
 		rgbGen identity
 		blendFunc add
 	}
 	
 
-textures/map_evolution/large-turbine
+textures/map_erbium/large-turbine
 {
-	qer_editorimage textures/map_evolution/large-turbine.tga
+	qer_editorimage textures/map_erbium/large-turbine.tga
 	
 	surfaceparm metalsteps
 	q3map_bounceScale  1.5
@@ -41,7 +41,7 @@ textures/map_evolution/large-turbine
 
 
 	{
-		map textures/map_evolution/large-turbine.tga
+		map textures/map_erbium/large-turbine.tga
 		
 
 	}
@@ -53,9 +53,9 @@ textures/map_evolution/large-turbine
 	}
 }
 
-textures/map_evolution/metalic
+textures/map_erbium/metalic
 {
-	qer_editorimage textures/map_evolution/metalic.tga
+	qer_editorimage textures/map_erbium/metalic.tga
 	
 	surfaceparm metalsteps
 	q3map_bounceScale  1.5
@@ -64,77 +64,7 @@ textures/map_evolution/metalic
 
 
 	{
-		map textures/map_evolution/metalic.tga
-		
-
-	}
-	{
-		map $lightmap
-		rgbGen identity
-		tcGen lightmap
-		blendfunc filter
-	}
-}
-
-
-textures/map_evolution/pickup
-{
-	qer_editorimage textures/map_evolution/pickup.tga
-	
-	surfaceparm metalsteps
-	q3map_bounceScale  1.5
-	dpglossintensitymod  3
-	dpglossexponentmod  4
-
-
-	{
-		map textures/map_evolution/pickup.tga
-		
-
-	}
-	{
-		map $lightmap
-		rgbGen identity
-		tcGen lightmap
-		blendfunc filter
-	}
-}
-
-textures/map_evolution/metal-tiles
-{
-	qer_editorimage textures/map_evolution/metal-tiles.tga
-	
-	surfaceparm metalsteps
-	q3map_bounceScale  1.5
-	dpglossintensitymod  3
-	dpglossexponentmod  4
-
-
-	{
-		map textures/map_evolution/metal-tiles.tga
-		
-
-	}
-	{
-		map $lightmap
-		rgbGen identity
-		tcGen lightmap
-		blendfunc filter
-	}
-}
-
-textures/map_evolution/metal-rock-tiles
-{
-	qer_editorimage textures/map_evolution/metal-rock-tiles.tga
-	
-	surfaceparm metalsteps
-	q3map_bounceScale  1.5
-	dpglossintensitymod  3
-	dpglossexponentmod  4
-
-
-	{
-		map textures/map_evolution/metal-rock-tiles.tga
+		map textures/map_erbium/metalic.tga
 		
 
 	}
@@ -147,9 +77,9 @@ textures/map_evolution/metal-rock-tiles
 }
 
 
-textures/map_evolution/engine
+textures/map_erbium/pickup
 {
-	qer_editorimage textures/map_evolution/engine.tga
+	qer_editorimage textures/map_erbium/pickup.tga
 	
 	surfaceparm metalsteps
 	q3map_bounceScale  1.5
@@ -158,7 +88,7 @@ textures/map_evolution/engine
 
 
 	{
-		map textures/map_evolution/engine.tga
+		map textures/map_erbium/pickup.tga
 		
 
 	}
@@ -170,9 +100,79 @@ textures/map_evolution/engine
 	}
 }
 
-textures/map_evolution/decal1
+textures/map_erbium/metal-tiles
 {
-	qer_editorimage textures/map_evolution/decal1
+	qer_editorimage textures/map_erbium/metal-tiles.tga
+	
+	surfaceparm metalsteps
+	q3map_bounceScale  1.5
+	dpglossintensitymod  3
+	dpglossexponentmod  4
+
+
+	{
+		map textures/map_erbium/metal-tiles.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+
+textures/map_erbium/metal-rock-tiles
+{
+	qer_editorimage textures/map_erbium/metal-rock-tiles.tga
+	
+	surfaceparm metalsteps
+	q3map_bounceScale  1.5
+	dpglossintensitymod  3
+	dpglossexponentmod  4
+
+
+	{
+		map textures/map_erbium/metal-rock-tiles.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+
+
+textures/map_erbium/engine
+{
+	qer_editorimage textures/map_erbium/engine.tga
+	
+	surfaceparm metalsteps
+	q3map_bounceScale  1.5
+	dpglossintensitymod  3
+	dpglossexponentmod  4
+
+
+	{
+		map textures/map_erbium/engine.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+
+textures/map_erbium/decal1
+{
+	qer_editorimage textures/map_erbium/decal1
 
 	surfaceparm trans
 	surfaceparm nonsolid
@@ -184,21 +184,21 @@ textures/map_evolution/decal1
 	cull none
 
 	{
-		map textures/map_evolution/decal1
+		map textures/map_erbium/decal1
 		blendFunc filter
 		rgbgen identity
 	}
 }
 
 
-textures/map_evolution/tree-bark
+textures/map_erbium/tree-bark
 {
-	qer_editorimage textures/map_evolution/tree-bark.tga
+	qer_editorimage textures/map_erbium/tree-bark.tga
 	dpoffsetmapping none
 	dpglossintensitymod 3
 	dpglossexponentmod 4
 	{
-		map textures/map_evolution/tree-bark.tga
+		map textures/map_erbium/tree-bark.tga
 	}
 	{
 		map $lightmap
@@ -208,14 +208,14 @@ textures/map_evolution/tree-bark
 	}
 }
 
-textures/map_evolution/branches
+textures/map_erbium/branches
 {
-	qer_editorimage textures/map_evolution/branches.tga
+	qer_editorimage textures/map_erbium/branches.tga
 	dpoffsetmapping none
 	dpglossintensitymod 3
 	dpglossexponentmod 4
 	{
-		map textures/map_evolution/branches.tga
+		map textures/map_erbium/branches.tga
 	}
 	{
 		map $lightmap
@@ -225,9 +225,9 @@ textures/map_evolution/branches
 	}
 }
 
-textures/map_evolution/waterfall
+textures/map_erbium/waterfall
 {
-	qer_editorimage textures/map_evolution/waterfall.tga
+	qer_editorimage textures/map_erbium/waterfall.tga
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	surfaceparm nonsolid
@@ -235,7 +235,7 @@ textures/map_evolution/waterfall
 	surfaceparm water
 	nopicmip	
 	{
-		map textures/map_evolution/waterfall.tga
+		map textures/map_erbium/waterfall.tga
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		tcMod scroll 0 -1
 	}
@@ -244,15 +244,15 @@ textures/map_evolution/waterfall
 rocktomoss
 {
 	dpoffsetmapping - 2 match8 184
-	q3map_baseShader textures/map_evolution/rocktomoss
-	qer_editorimage textures/map_evolution/rocktomoss.tga
+	q3map_baseShader textures/map_erbium/rocktomoss
+	qer_editorimage textures/map_erbium/rocktomoss.tga
 
 	{
-		map	textures/map_evolution/moss.tga
+		map	textures/map_erbium/moss.tga
 
 	} 
 	{
-		map	textures/map_evolution/rock-grey.tga
+		map	textures/map_erbium/rock-grey.tga
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA 
 		alphagen vertex
 	} 
@@ -264,9 +264,9 @@ rocktomoss
 	} 
 }
 
-textures/map_evolution/fern
+textures/map_erbium/fern
 {
-	qer_editorimage textures/map_evolution/fern
+	qer_editorimage textures/map_erbium/fern
 
 	dpglossintensitymod  3
 	dpglossexponentmod  4
@@ -279,13 +279,13 @@ textures/map_evolution/fern
 	nopicmip
 	{
 		map $lightmap
-		map textures/map_evolution/fern
+		map textures/map_erbium/fern
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbgen identity
 	}
 }
 
-textures/map_evolution/ivy
+textures/map_erbium/ivy
 {
 	dpglossintensitymod  3
 	dpglossexponentmod  4
@@ -298,14 +298,14 @@ textures/map_evolution/ivy
 	nopicmip
 	{
 		map $lightmap
-		map textures/map_evolution/ivy
+		map textures/map_erbium/ivy
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbgen identity
 	}
 }
-textures/map_evolution/leaves
+textures/map_erbium/leaves
 {
-	qer_editorimage textures/map_evolution/leaves
+	qer_editorimage textures/map_erbium/leaves
 
 	surfaceparm trans
 	surfaceparm nonsolid
@@ -314,15 +314,15 @@ textures/map_evolution/leaves
 	nopicmip
 	{
 		map $lightmap
-		map textures/map_evolution/leaves
+		map textures/map_erbium/leaves
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbgen identity
 	}
 }
 
-textures/map_evolution/leaves2
+textures/map_erbium/leaves2
 {
-    qer_editorimage textures/map_evolution/leaves2
+    qer_editorimage textures/map_erbium/leaves2
 
 	surfaceparm trans
 	surfaceparm nonsolid
@@ -331,13 +331,13 @@ textures/map_evolution/leaves2
 	nopicmip
     {
         map $lightmap
-        map textures/map_evolution/leaves2
+        map textures/map_erbium/leaves2
         blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
         rgbgen identity
     }
 }
 
-textures/map_evolution/singular-leaf
+textures/map_erbium/singular-leaf
 {
 
 	surfaceparm trans
@@ -346,21 +346,21 @@ textures/map_evolution/singular-leaf
 	nopicmip
 	{
 		map $lightmap
-		map textures/map_evolution/singular-leaf
+		map textures/map_erbium/singular-leaf
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		rgbgen identity
 	}
 }
 
-textures/map_evolution/black-tiles
+textures/map_erbium/black-tiles
 {
-	qer_editorimage textures/map_evolution/black-tiles
+	qer_editorimage textures/map_erbium/black-tiles
 	dpoffsetmapping - .09346482113770383774 match8 106.75988500000000000000
 	dpglossintensitymod 1
 	q3map_bouncescale 1.25
 
 	{
-		map textures/map_evolution/black-tiles
+		map textures/map_erbium/black-tiles
 				
 	}
 
@@ -372,9 +372,9 @@ textures/map_evolution/black-tiles
 	}
 }
 
-textures/map_evolution/con-tiled
+textures/map_erbium/con-tiled
 {
-	qer_editorimage textures/map_evolution/con-tiled.tga
+	qer_editorimage textures/map_erbium/con-tiled.tga
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 2 match8 233
@@ -383,7 +383,7 @@ textures/map_evolution/con-tiled
 
 
 	{
-		map textures/map_evolution/con-tiled.tga
+		map textures/map_erbium/con-tiled.tga
 		
 
 	}
@@ -396,9 +396,9 @@ textures/map_evolution/con-tiled
 }
 
 
-textures/map_evolution/rock-grey
+textures/map_erbium/rock-grey
 {
-	qer_editorimage textures/map_evolution/rock-grey.tga
+	qer_editorimage textures/map_erbium/rock-grey.tga
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 2 match8 233
@@ -407,7 +407,7 @@ textures/map_evolution/rock-grey
 
 
 	{
-		map textures/map_evolution/rock-grey.tga
+		map textures/map_erbium/rock-grey.tga
 		
 
 	}
@@ -419,14 +419,14 @@ textures/map_evolution/rock-grey
 	}
 }
 
-textures/textures/map_evolution/moss
+textures/textures/map_erbium/moss
 {
-	qer_editorimage textures/map_evolution/moss
+	qer_editorimage textures/map_erbium/moss
 	dpoffsetmapping - .09346482113770383774 match8 106.75988500000000000000
 	q3map_bouncescale 1.25
 
 	{
-		map textures/map_evolution/moss
+		map textures/map_erbium/moss
 				
 	}
 
