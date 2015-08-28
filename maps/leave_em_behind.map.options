@@ -2,5 +2,5 @@
 -light + -bounce 8
 -vis +
 -minimap +
--nosRGB
+-sRGB
 Version: 6
