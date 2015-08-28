@@ -9836,7 +9836,7 @@ trak5x/base-pipe1d
 "origin" "-400.000092 -1152.000000 -0.000046"
 "model" "models/lights/xonlight01.md3"
 "angles" "-0.000000 -90.000000 -90.000000"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
@@ -10125,7 +10125,7 @@ trak5x/base-pipe1d
 "origin" "-880.000000 -1264.000000 0.000000"
 "model" "models/lights/xonlight01.md3"
 "angles" "-0.000000 0.000000 90.000000"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
@@ -10142,7 +10142,7 @@ trak5x/base-pipe1d
 "origin" "-1024.000000 -1120.000000 -0.000015"
 "model" "models/lights/xonlight01.md3"
 "angles" "0.000010 -90.000000 90.000008"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
@@ -10174,7 +10174,7 @@ trak5x/base-pipe1d
 "origin" "-192.000000 -960.000061 -0.000061"
 "model" "models/lights/xonlight01.md3"
 "angles" "0.000003 0.000010 -90.000000"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
@@ -10191,7 +10191,7 @@ trak5x/base-pipe1d
 "origin" "0.000000 -512.000061 -64.000061"
 "model" "models/lights/xonlight01.md3"
 "angles" "0.000003 0.000010 -90.000000"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
@@ -10241,7 +10241,7 @@ trak5x/base-pipe1d
 "origin" "-1024.000000 -928.000000 -0.000015"
 "model" "models/lights/xonlight01.md3"
 "angles" "0.000010 -90.000000 90.000008"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
@@ -10253,7 +10253,7 @@ trak5x/base-pipe1d
 "origin" "-880.000000 -784.000061 -0.000061"
 "model" "models/lights/xonlight01.md3"
 "angles" "0.000003 0.000010 -90.000000"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
@@ -10265,14 +10265,14 @@ trak5x/base-pipe1d
 "origin" "-192.000000 -1088.000000 0.000000"
 "model" "models/lights/xonlight01.md3"
 "angles" "-0.000000 0.000000 90.000000"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "misc_model"
 "origin" "0.000061 -752.000000 32.000000"
 "model" "models/lights/xonlight01.md3"
 "angles" "0.000010 -90.000000 90.000008"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
@@ -10389,7 +10389,7 @@ trak5x/base-pipe1d
 "model" "models/lights/xonlight02.md3"
 "angle" "-179.999985"
 "modelscale" "0.600000"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
@@ -10402,21 +10402,21 @@ trak5x/base-pipe1d
 "model" "models/lights/xonlight02.md3"
 "angle" "-90.000000"
 "modelscale" "0.600000"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "misc_model"
 "origin" "-1184.000000 320.000000 95.999985"
 "model" "models/lights/xonlight01.md3"
 "angles" "0.000010 -90.000000 90.000008"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "misc_model"
 "origin" "-384.000000 559.999939 255.999939"
 "model" "models/lights/xonlight01.md3"
 "angles" "0.000003 0.000010 -90.000000"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
@@ -10443,14 +10443,14 @@ trak5x/base-pipe1d
 "origin" "128.000000 559.999939 255.999939"
 "model" "models/lights/xonlight01.md3"
 "angles" "0.000003 0.000010 -90.000000"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "misc_model"
 "origin" "-704.000122 64.000000 95.999954"
 "model" "models/lights/xonlight01.md3"
 "angles" "-0.000000 -90.000000 -90.000000"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
@@ -10467,14 +10467,14 @@ trak5x/base-pipe1d
 "origin" "192.000000 -864.000000 288.000000"
 "model" "models/lights/xonlight01.md3"
 "angles" "-0.000000 0.000000 90.000000"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "misc_model"
 "origin" "383.999908 -704.000000 287.999939"
 "model" "models/lights/xonlight01.md3"
 "angles" "-0.000000 -90.000000 -90.000000"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "misc_model"
@@ -10568,7 +10568,7 @@ trak5x/base-pipe1d
 "origin" "271.999908 416.000000 255.999954"
 "model" "models/lights/xonlight01.md3"
 "angles" "-0.000000 -90.000000 -90.000000"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
@@ -10585,7 +10585,7 @@ trak5x/base-pipe1d
 "origin" "-527.999939 416.000000 255.999985"
 "model" "models/lights/xonlight01.md3"
 "angles" "0.000010 -90.000000 90.000008"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
@@ -10602,7 +10602,7 @@ trak5x/base-pipe1d
 "origin" "-1184.000000 64.000000 95.999985"
 "model" "models/lights/xonlight01.md3"
 "angles" "0.000010 -90.000000 90.000008"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
@@ -10693,7 +10693,7 @@ trak5x/base-pipe1d
 "origin" "-400.000092 -896.000000 -0.000046"
 "model" "models/lights/xonlight01.md3"
 "angles" "-0.000000 -90.000000 -90.000000"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
@@ -10711,6 +10711,7 @@ trak5x/base-pipe1d
 "origin" "-576.000122 -864.000000 -96.000046"
 "model" "models/lights/xonlight01.md3"
 "angles" "-0.000000 -90.000000 -90.000000"
+"_castshadows" "1"
 }
 {
 "classname" "light"
@@ -11026,7 +11027,7 @@ trak5x/base-pipe1d
 "origin" "271.999908 32.000000 255.999954"
 "model" "models/lights/xonlight01.md3"
 "angles" "-0.000000 -90.000000 -90.000000"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
@@ -11043,7 +11044,7 @@ trak5x/base-pipe1d
 "origin" "-0.000092 -176.000000 287.999939"
 "model" "models/lights/xonlight01.md3"
 "angles" "-0.000000 -90.000000 -90.000000"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
@@ -11055,7 +11056,7 @@ trak5x/base-pipe1d
 "origin" "-527.999939 128.000000 255.999985"
 "model" "models/lights/xonlight01.md3"
 "angles" "0.000010 -90.000000 90.000008"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
@@ -11072,7 +11073,7 @@ trak5x/base-pipe1d
 "origin" "-127.999939 -480.000000 288.000000"
 "model" "models/lights/xonlight01.md3"
 "angles" "0.000010 -90.000000 90.000008"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
@@ -11094,7 +11095,7 @@ trak5x/base-pipe1d
 "origin" "31.999908 -368.000000 287.999939"
 "model" "models/lights/xonlight01.md3"
 "angles" "-0.000000 -90.000000 -90.000000"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
@@ -11111,7 +11112,7 @@ trak5x/base-pipe1d
 "origin" "-384.000000 -16.000000 256.000000"
 "model" "models/lights/xonlight01.md3"
 "angles" "-0.000000 0.000000 90.000000"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
@@ -11123,7 +11124,7 @@ trak5x/base-pipe1d
 "origin" "-128.000000 559.999939 255.999939"
 "model" "models/lights/xonlight01.md3"
 "angles" "0.000003 0.000010 -90.000000"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
@@ -11153,7 +11154,7 @@ trak5x/base-pipe1d
 "origin" "0.000061 -752.000000 288.000000"
 "model" "models/lights/xonlight01.md3"
 "angles" "0.000010 -90.000000 90.000008"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
@@ -11170,7 +11171,7 @@ trak5x/base-pipe1d
 "origin" "224.000000 -512.000061 287.999939"
 "model" "models/lights/xonlight01.md3"
 "angles" "0.000003 0.000010 -90.000000"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
@@ -11466,7 +11467,7 @@ trak5x/base-pipe1d
 "origin" "-544.000000 -1264.000000 0.000000"
 "model" "models/lights/xonlight01.md3"
 "angles" "-0.000000 0.000000 90.000000"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
@@ -11493,21 +11494,21 @@ trak5x/base-pipe1d
 "origin" "-544.000000 -784.000061 -0.000061"
 "model" "models/lights/xonlight01.md3"
 "angles" "0.000003 0.000010 -90.000000"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "misc_model"
 "origin" "-336.000000 -960.000061 -0.000061"
 "model" "models/lights/xonlight01.md3"
 "angles" "0.000003 0.000010 -90.000000"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "misc_model"
 "origin" "-336.000000 -1088.000000 0.000000"
 "model" "models/lights/xonlight01.md3"
 "angles" "-0.000000 0.000000 90.000000"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
