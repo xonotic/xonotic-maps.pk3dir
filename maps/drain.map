@@ -9841,12 +9841,12 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "363.000000 -688.000000 288.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "light"
 "origin" "363.000000 -720.000000 288.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "func_group"
@@ -10118,7 +10118,7 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "208.000000 -843.000000 288.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "misc_model"
@@ -10130,12 +10130,12 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "176.000000 -843.000000 288.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "light"
 "origin" "21.000000 -768.000000 32.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "misc_model"
@@ -10147,27 +10147,27 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-864.000000 -1243.000000 0.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "light"
 "origin" "-896.000000 -1243.000000 0.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "light"
 "origin" "-421.000000 -1136.000000 0.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "light"
 "origin" "-421.000000 -1168.000000 0.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "light"
 "origin" "112.000000 539.000000 256.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "misc_model"
@@ -10179,12 +10179,12 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "144.000000 539.000000 256.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "light"
 "origin" "-16.000000 -533.000000 -64.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "misc_model"
@@ -10196,17 +10196,17 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "16.000000 -533.000000 -64.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "light"
 "origin" "-725.000000 80.000000 96.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "light"
 "origin" "-725.000000 48.000000 96.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "item_health_medium"
@@ -10229,12 +10229,12 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-1163.000000 304.000000 96.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "light"
 "origin" "-400.000000 539.000000 256.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "misc_model"
@@ -10246,7 +10246,7 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-1163.000000 336.000000 96.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "misc_model"
@@ -10258,7 +10258,7 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-368.000000 539.000000 256.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "misc_model"
@@ -10277,22 +10277,22 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-1003.000000 -1136.000000 0.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "light"
 "origin" "-1003.000000 -1104.000000 0.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "light"
 "origin" "-176.000000 -981.000000 0.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "light"
 "origin" "-208.000000 -981.000000 0.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "trigger_teleport"
@@ -10350,7 +10350,7 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-865.119568 -469.652771 -45.867760"
-"light" "70"
+"light" "25"
 }
 {
 "classname" "misc_model"
@@ -10371,17 +10371,17 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-383.000000 -234.555740 254.778931"
-"light" "70"
+"light" "25"
 }
 {
 "classname" "light"
 "origin" "-416.000000 -1024.000000 -129.000000"
-"light" "70"
+"light" "25"
 }
 {
 "classname" "light"
 "origin" "-320.000000 -120.000000 129.000000"
-"light" "70"
+"light" "25"
 }
 {
 "classname" "misc_model"
@@ -10394,7 +10394,7 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-320.000000 -120.000000 65.000000"
-"light" "40"
+"light" "30"
 }
 {
 "classname" "misc_model"
@@ -10421,22 +10421,22 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-1003.000000 -944.000000 0.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "light"
 "origin" "-1003.000000 -912.000000 0.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "light"
 "origin" "-896.000000 -805.000000 0.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "light"
 "origin" "-864.000000 -805.000000 0.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "misc_model"
@@ -10455,12 +10455,12 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-528.000000 -805.000000 0.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "light"
 "origin" "-560.000000 -805.000000 0.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "misc_model"
@@ -10487,12 +10487,12 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-127.000000 -570.555725 -65.221077"
-"light" "70"
+"light" "25"
 }
 {
 "classname" "light"
 "origin" "-880.000000 -240.000000 -1.000000"
-"light" "70"
+"light" "25"
 }
 {
 "classname" "misc_model"
@@ -10504,7 +10504,7 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-880.000000 64.000000 159.000000"
-"light" "70"
+"light" "25"
 }
 {
 "classname" "misc_model"
@@ -10517,7 +10517,7 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-1088.000000 320.000000 159.000000"
-"light" "70"
+"light" "25"
 }
 {
 "classname" "misc_model"
@@ -10530,7 +10530,7 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-672.000000 320.000000 159.000000"
-"light" "70"
+"light" "25"
 }
 {
 "classname" "misc_model"
@@ -10543,7 +10543,7 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-880.000000 320.000000 159.000000"
-"light" "70"
+"light" "25"
 }
 {
 "classname" "misc_model"
@@ -10556,12 +10556,12 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "251.000000 432.000000 256.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "light"
 "origin" "251.000000 400.000000 256.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "misc_model"
@@ -10573,12 +10573,12 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-507.000000 400.000000 256.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "light"
 "origin" "-507.000000 432.000000 256.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "misc_model"
@@ -10590,12 +10590,12 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-1163.000000 48.000000 96.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "light"
 "origin" "-1163.000000 80.000000 96.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "misc_model"
@@ -10607,7 +10607,7 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-1088.000000 64.000000 159.000000"
-"light" "70"
+"light" "25"
 }
 {
 "classname" "misc_model"
@@ -10620,7 +10620,7 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-448.000000 64.000000 -129.000000"
-"light" "70"
+"light" "25"
 }
 {
 "classname" "misc_model"
@@ -10633,7 +10633,7 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-224.000000 64.000000 -129.000000"
-"light" "70"
+"light" "25"
 }
 {
 "classname" "misc_model"
@@ -10646,7 +10646,7 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-224.000000 -128.000000 -129.000000"
-"light" "70"
+"light" "25"
 }
 {
 "classname" "misc_model"
@@ -10659,7 +10659,7 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-224.000000 -320.000000 -129.000000"
-"light" "70"
+"light" "25"
 }
 {
 "classname" "misc_model"
@@ -10678,7 +10678,7 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-416.000000 -832.000000 -129.000000"
-"light" "70"
+"light" "25"
 }
 {
 "classname" "misc_model"
@@ -10698,7 +10698,7 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-421.000000 -912.000000 0.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "light"
@@ -10715,108 +10715,108 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-597.000000 -880.000000 -96.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "light"
 "origin" "-597.000000 -848.000000 -96.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "light"
 "origin" "-384.000000 -544.000000 -193.000000"
-"light" "50"
+"light" "30"
 }
 {
 "classname" "light"
 "origin" "-416.000000 -832.000000 -193.000000"
-"light" "50"
+"light" "30"
 }
 {
 "classname" "light"
 "origin" "-416.000000 -1024.000000 -193.000000"
-"light" "50"
+"light" "30"
 }
 {
 "classname" "light"
 "origin" "-224.000000 -320.000000 -193.000000"
-"light" "50"
+"light" "30"
 }
 {
 "classname" "light"
 "origin" "-224.000000 -128.000000 -193.000000"
-"light" "50"
+"light" "30"
 }
 {
 "classname" "light"
 "origin" "-224.000000 64.000000 -193.000000"
-"light" "50"
+"light" "30"
 }
 {
 "classname" "light"
 "origin" "-448.000000 64.000000 -193.000000"
-"light" "50"
+"light" "30"
 }
 {
 "classname" "light"
 "origin" "-880.000000 64.000000 63.000000"
-"light" "50"
+"light" "30"
 }
 {
 "classname" "light"
 "origin" "-1088.000000 64.000000 63.000000"
-"light" "50"
+"light" "30"
 }
 {
 "classname" "light"
 "origin" "-1088.000000 320.000000 63.000000"
-"light" "50"
+"light" "30"
 }
 {
 "classname" "light"
 "origin" "-880.000000 320.000000 63.000000"
-"light" "50"
+"light" "30"
 }
 {
 "classname" "light"
 "origin" "-672.000000 320.000000 63.000000"
-"light" "50"
+"light" "30"
 }
 {
 "classname" "light"
 "origin" "-336.000000 320.000000 239.000000"
-"light" "150"
+"light" "70"
 "_color" "0.495964 0.825025 0.774411"
 }
 {
 "classname" "light"
 "origin" "21.000000 -736.000000 32.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "light"
 "origin" "-544.000000 -240.000000 129.000000"
-"light" "70"
+"light" "25"
 }
 {
 "classname" "light"
 "origin" "-648.000000 -240.000000 9.000000"
-"light" "40"
+"light" "30"
 }
 {
 "classname" "light"
 "origin" "-880.000000 -240.000000 -63.000000"
-"light" "40"
+"light" "30"
 }
 {
 "classname" "light"
 "origin" "-864.000000 -448.000000 -111.000000"
-"light" "40"
+"light" "30"
 }
 {
 "classname" "light"
 "origin" "-384.000000 -544.000000 -129.000000"
-"light" "70"
+"light" "25"
 }
 {
 "classname" "misc_model"
@@ -10829,12 +10829,12 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-544.000000 -240.000000 65.000000"
-"light" "40"
+"light" "30"
 }
 {
 "classname" "light"
 "origin" "-112.000000 -192.000000 127.000000"
-"light" "70"
+"light" "25"
 }
 {
 "classname" "misc_model"
@@ -10847,12 +10847,12 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-112.000000 -192.000000 65.000000"
-"light" "40"
+"light" "30"
 }
 {
 "classname" "light"
 "origin" "-48.000000 -384.000000 127.000000"
-"light" "70"
+"light" "25"
 }
 {
 "classname" "misc_model"
@@ -10865,12 +10865,12 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-48.000000 -384.000000 65.000000"
-"light" "40"
+"light" "30"
 }
 {
 "classname" "light"
 "origin" "160.000000 -432.000000 127.000000"
-"light" "70"
+"light" "25"
 }
 {
 "classname" "misc_model"
@@ -10883,12 +10883,12 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "160.000000 -432.000000 65.000000"
-"light" "40"
+"light" "30"
 }
 {
 "classname" "light"
 "origin" "320.000000 -432.000000 127.000000"
-"light" "70"
+"light" "25"
 }
 {
 "classname" "misc_model"
@@ -10901,12 +10901,12 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "320.000000 -432.000000 65.000000"
-"light" "40"
+"light" "30"
 }
 {
 "classname" "light"
 "origin" "480.000000 -432.000000 127.000000"
-"light" "70"
+"light" "25"
 }
 {
 "classname" "misc_model"
@@ -10919,12 +10919,12 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "480.000000 -432.000000 65.000000"
-"light" "40"
+"light" "30"
 }
 {
 "classname" "light"
 "origin" "464.000000 -608.000000 127.000000"
-"light" "70"
+"light" "25"
 }
 {
 "classname" "misc_model"
@@ -10937,12 +10937,12 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "464.000000 -608.000000 65.000000"
-"light" "40"
+"light" "30"
 }
 {
 "classname" "light"
 "origin" "464.000000 -768.000000 127.000000"
-"light" "70"
+"light" "25"
 }
 {
 "classname" "misc_model"
@@ -10955,12 +10955,12 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "464.000000 -768.000000 65.000000"
-"light" "40"
+"light" "30"
 }
 {
 "classname" "light"
 "origin" "464.000000 -928.000000 127.000000"
-"light" "70"
+"light" "25"
 }
 {
 "classname" "misc_model"
@@ -10973,12 +10973,12 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "464.000000 -928.000000 65.000000"
-"light" "40"
+"light" "30"
 }
 {
 "classname" "light"
 "origin" "320.000000 -944.000000 127.000000"
-"light" "70"
+"light" "25"
 }
 {
 "classname" "misc_model"
@@ -10991,12 +10991,12 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "320.000000 -944.000000 65.000000"
-"light" "40"
+"light" "30"
 }
 {
 "classname" "light"
 "origin" "160.000000 -944.000000 127.000000"
-"light" "70"
+"light" "25"
 }
 {
 "classname" "misc_model"
@@ -11009,17 +11009,17 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "160.000000 -944.000000 65.000000"
-"light" "40"
+"light" "30"
 }
 {
 "classname" "light"
 "origin" "251.000000 48.000000 256.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "light"
 "origin" "251.000000 16.000000 256.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "misc_model"
@@ -11031,12 +11031,12 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-21.000000 -160.000000 288.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "light"
 "origin" "-21.000000 -192.000000 288.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "misc_model"
@@ -11048,7 +11048,7 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-507.000000 112.000000 256.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "misc_model"
@@ -11060,12 +11060,12 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-507.000000 144.000000 256.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "light"
 "origin" "-107.000000 -496.000000 288.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "misc_model"
@@ -11077,17 +11077,17 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-107.000000 -464.000000 288.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "light"
 "origin" "11.000000 -352.000000 288.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "light"
 "origin" "11.000000 -384.000000 288.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "misc_model"
@@ -11099,12 +11099,12 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-368.000000 5.000000 256.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "light"
 "origin" "-400.000000 5.000000 256.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "misc_model"
@@ -11116,7 +11116,7 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-144.000000 539.000000 256.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "misc_model"
@@ -11128,7 +11128,7 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-112.000000 539.000000 256.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "misc_model"
@@ -11141,12 +11141,12 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-735.000000 -234.555740 46.778923"
-"light" "70"
+"light" "25"
 }
 {
 "classname" "light"
 "origin" "21.000000 -768.000000 288.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "misc_model"
@@ -11158,12 +11158,12 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "21.000000 -736.000000 288.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "light"
 "origin" "208.000000 -533.000000 288.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "misc_model"
@@ -11175,24 +11175,24 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "240.000000 -533.000000 288.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "light"
 "origin" "-768.000000 -1024.000000 -24.000000"
-"light" "130"
+"light" "45"
 "_color" "0.495964 0.825025 0.774411"
 }
 {
 "classname" "light"
 "origin" "192.000000 -704.000000 80.000000"
-"light" "130"
+"light" "45"
 "_color" "0.495964 0.825025 0.774411"
 }
 {
 "classname" "light"
 "origin" "-864.000000 -680.000000 -127.000000"
-"light" "70"
+"light" "25"
 }
 {
 "classname" "misc_model"
@@ -11205,7 +11205,7 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-864.000000 -680.000000 -191.000000"
-"light" "40"
+"light" "30"
 }
 {
 "classname" "func_rain"
@@ -11410,12 +11410,12 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-421.000000 -880.000000 0.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "light"
 "origin" "192.000000 16.000000 80.000000"
-"light" "50"
+"light" "30"
 "_color" "1 0.128145 0.147494"
 }
 {
@@ -11471,22 +11471,22 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-528.000000 -1243.000000 0.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "light"
 "origin" "-560.000000 -1243.000000 0.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "light"
 "origin" "-176.000000 -1067.000000 0.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "light"
 "origin" "-208.000000 -1067.000000 0.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "misc_model"
@@ -11512,22 +11512,22 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-320.000000 -981.000000 0.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "light"
 "origin" "-352.000000 -981.000000 0.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "light"
 "origin" "-320.000000 -1067.000000 0.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "light"
 "origin" "-352.000000 -1067.000000 0.000000"
-"light" "25"
+"light" "7"
 }
 {
 "classname" "target_speaker"
