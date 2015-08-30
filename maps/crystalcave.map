@@ -18500,7 +18500,7 @@ brushDef
 {
 "classname" "misc_model"
 "origin" "1108.936646 -274.056030 572.000000"
-"model" "models/cavestair2.ase"
+"model" "models/map_crystalcave/cavestair2.ase"
 "spawnflags" "4"
 "_castshadows" "1"
 "_receiveshadows" "1"
@@ -18510,7 +18510,7 @@ brushDef
 {
 "classname" "misc_model"
 "origin" "1154.375000 -290.057190 592.000000"
-"model" "models/cavestair2.ase"
+"model" "models/map_crystalcave/cavestair2.ase"
 "spawnflags" "4"
 "_castshadows" "1"
 "_receiveshadows" "1"
@@ -18520,7 +18520,7 @@ brushDef
 {
 "classname" "misc_model"
 "origin" "1194.088013 -312.481628 611.999939"
-"model" "models/cavestair2.ase"
+"model" "models/map_crystalcave/cavestair2.ase"
 "spawnflags" "4"
 "_castshadows" "1"
 "_receiveshadows" "1"
@@ -18530,7 +18530,7 @@ brushDef
 {
 "classname" "misc_model"
 "origin" "1234.526855 -342.583435 632.000061"
-"model" "models/cavestair2.ase"
+"model" "models/map_crystalcave/cavestair2.ase"
 "spawnflags" "4"
 "_castshadows" "1"
 "_receiveshadows" "1"
@@ -18540,7 +18540,7 @@ brushDef
 {
 "classname" "misc_model"
 "origin" "1266.186523 -370.433777 652.000122"
-"model" "models/cavestair2.ase"
+"model" "models/map_crystalcave/cavestair2.ase"
 "spawnflags" "4"
 "_castshadows" "1"
 "_receiveshadows" "1"
@@ -19412,26 +19412,6 @@ brushDef
 "origin" "-152.000000 -644.000000 1000.000000"
 "light" "40"
 "_color" "0.39 0.58 0.93"
-}
-{
-"classname" "misc_model"
-"origin" "-80.000008 -264.000061 1280.000122"
-"model" "models/ivy_albert.ase"
-"angle" "-138.679321"
-"modelscale_vec" "1.000000 0.800000 0.800000"
-}
-{
-"classname" "misc_model"
-"origin" "372.377930 -450.575470 1063.765137"
-"model" "models/ivy_albert.ase"
-"angles" "23.856440 -90.508553 0.000000"
-"modelscale_vec" "1.000000 1.000000 0.800000"
-}
-{
-"classname" "misc_model"
-"origin" "592.000000 104.000046 976.000000"
-"model" "models/ivy_albert.ase"
-"angle" "45.910637"
 }
 {
 "classname" "misc_model"
