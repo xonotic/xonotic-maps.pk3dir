@@ -19917,7 +19917,7 @@ exx/base-metal03
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "0.000000 -472.000000 -184.000000"
-"light" "200"
+"light" "40"
 }
 {
 "classname" "info_player_deathmatch"
@@ -20245,7 +20245,7 @@ exx/base-metal03
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "-1120 992 136"
-"light" "100"
+"light" "20"
 }
 {
 "classname" "func_group"
@@ -21037,7 +21037,7 @@ exx/base-metal03
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "464.000000 -704.000000 -184.000000"
-"light" "200"
+"light" "40"
 }
 {
 "classname" "func_group"
@@ -21442,13 +21442,13 @@ exx/base-metal03
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "880.000000 784.000000 136.000000"
-"light" "200"
+"light" "40"
 }
 {
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "720.000000 784.000000 136.000000"
-"light" "200"
+"light" "40"
 }
 {
 "classname" "func_group"
@@ -21796,13 +21796,13 @@ exx/base-metal03
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "464.000000 -352.000000 -24.000000"
-"light" "200"
+"light" "40"
 }
 {
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "736.000000 -96.000000 -24.000000"
-"light" "200"
+"light" "40"
 }
 {
 "classname" "func_group"
@@ -21946,7 +21946,7 @@ exx/base-metal03
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "624.000000 -704.000000 -184.000000"
-"light" "200"
+"light" "40"
 }
 {
 "classname" "func_group"
@@ -22193,13 +22193,13 @@ exx/base-metal03
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "-720.000000 -752.000000 -24.000000"
-"light" "200"
+"light" "40"
 }
 {
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "-720.000000 -912.000000 -24.000000"
-"light" "200"
+"light" "40"
 }
 {
 "classname" "func_group"
@@ -22387,13 +22387,13 @@ exx/base-metal03
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "-1104.000000 16.000000 72.000000"
-"light" "200"
+"light" "40"
 }
 {
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "-992.000000 -832.000000 72.000000"
-"light" "100"
+"light" "20"
 }
 {
 "classname" "func_group"
@@ -22681,13 +22681,13 @@ exx/base-metal03
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "1264.000000 -208.000000 -152.000000"
-"light" "200"
+"light" "40"
 }
 {
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "1104.000000 -208.000000 -152.000000"
-"light" "200"
+"light" "40"
 }
 {
 "classname" "func_group"
@@ -23169,19 +23169,19 @@ exx/base-metal03
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "1104.000000 -496.000000 -24.000000"
-"light" "200"
+"light" "40"
 }
 {
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "1264.000000 -496.000000 -24.000000"
-"light" "200"
+"light" "40"
 }
 {
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "-1104.000000 448.000000 -24.000000"
-"light" "200"
+"light" "40"
 }
 {
 "classname" "func_group"
@@ -23281,13 +23281,13 @@ exx/base-metal03
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "-1264.000000 448.000000 -24.000000"
-"light" "200"
+"light" "40"
 }
 {
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "-1264.000000 16.000000 72.000000"
-"light" "200"
+"light" "40"
 }
 {
 "classname" "func_group"
@@ -23387,109 +23387,109 @@ exx/base-metal03
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "-944.000000 -912.000000 72.000000"
-"light" "200"
+"light" "40"
 }
 {
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "720.000000 432.000000 -24.000000"
-"light" "200"
+"light" "40"
 }
 {
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "-752.000000 -400.000000 -24.000000"
-"light" "200"
+"light" "40"
 }
 {
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "-592.000000 -400.000000 -24.000000"
-"light" "200"
+"light" "40"
 }
 {
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "-752.000000 -176.000000 72.000000"
-"light" "200"
+"light" "40"
 }
 {
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "-592.000000 16.000000 72.000000"
-"light" "200"
+"light" "40"
 }
 {
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "-944.000000 -752.000000 72.000000"
-"light" "200"
+"light" "40"
 }
 {
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "1360.000000 80.000000 -152.000000"
-"light" "200"
+"light" "40"
 }
 {
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "1520.000000 80.000000 -152.000000"
-"light" "200"
+"light" "40"
 }
 {
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "-224.000000 -688.000000 88.000000"
-"light" "50"
+"light" "10"
 }
 {
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "1360.000000 368.000000 -24.000000"
-"light" "200"
+"light" "40"
 }
 {
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "880.000000 432.000000 -24.000000"
-"light" "200"
+"light" "40"
 }
 {
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "576.000000 1408.000000 168.000000"
-"light" "100"
+"light" "20"
 }
 {
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "32.000000 32.000000 -184.000000"
-"light" "200"
+"light" "40"
 }
 {
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "-752.000000 976.000000 136.000000"
-"light" "200"
+"light" "40"
 }
 {
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "112.000000 848.000000 136.000000"
-"light" "200"
+"light" "40"
 }
 {
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "-592.000000 624.000000 -24.000000"
-"light" "200"
+"light" "40"
 }
 {
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "-752.000000 624.000000 -24.000000"
-"light" "200"
+"light" "40"
 }
 {
 "classname" "func_group"
@@ -25713,7 +25713,7 @@ exx/base-metal03
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "592.000000 768.000000 168.000000"
-"light" "100"
+"light" "20"
 }
 {
 "classname" "func_group"
@@ -26699,71 +26699,71 @@ exx/base-metal03
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "1520.000000 368.000000 -24.000000"
-"light" "200"
+"light" "40"
 }
 {
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "1568.000000 32.000000 248.000000"
-"light" "50"
+"light" "10"
 }
 {
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "1696.000000 32.000000 248.000000"
-"light" "50"
+"light" "10"
 }
 {
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "1184.000000 -640.000000 120.000000"
-"light" "150"
+"light" "30"
 }
 {
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "32.000000 384.000000 -24.000000"
-"light" "200"
+"light" "40"
 }
 {
 "classname" "light"
 "origin" "-1152.000000 1584.000000 32.000000"
-"light" "200"
+"light" "40"
 }
 {
 "classname" "light"
 "origin" "-480.000000 -848.000000 -160.000000"
-"light" "200"
+"light" "40"
 }
 {
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "1696.000000 -96.000000 248.000000"
-"light" "50"
+"light" "10"
 }
 {
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "1440.000000 -864.000000 120.000000"
-"light" "150"
+"light" "30"
 }
 {
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "1248.000000 -808.000000 120.000000"
-"light" "150"
+"light" "30"
 }
 {
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "1632.000000 -808.000000 120.000000"
-"light" "150"
+"light" "30"
 }
 {
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "1696.000000 -640.000000 120.000000"
-"light" "150"
+"light" "30"
 }
 {
 "classname" "func_group"
@@ -26843,7 +26843,7 @@ exx/base-metal03
 {
 "classname" "light"
 "origin" "32.000000 704.000000 0.000000"
-"light" "200"
+"light" "40"
 }
 {
 "classname" "item_health_medium"
@@ -28525,7 +28525,7 @@ exx/base-metal03
 {
 "classname" "light"
 "origin" "-468.000000 -1984.000000 112.000000"
-"light" "400"
+"light" "80"
 }
 {
 "classname" "func_group"
@@ -28603,7 +28603,7 @@ exx/base-metal03
 {
 "classname" "light"
 "origin" "976.000000 1312.000000 0.000000"
-"light" "200"
+"light" "40"
 }
 {
 "classname" "misc_model"
@@ -28719,163 +28719,163 @@ exx/base-metal03
 {
 "classname" "light"
 "origin" "-280.000000 832.000000 56.000000"
-"light" "20"
+"light" "4"
 "_color" "0.61268 0.859144 1"
 }
 {
 "classname" "light"
 "origin" "-896.000000 1624.000000 88.000000"
-"light" "20"
+"light" "4"
 "_color" "0.61268 0.859144 1"
 }
 {
 "classname" "light"
 "origin" "-768.000000 1624.000000 88.000000"
-"light" "20"
+"light" "4"
 "_color" "0.61268 0.859144 1"
 }
 {
 "classname" "light"
 "origin" "-656.000000 1584.000000 56.000000"
-"light" "20"
+"light" "4"
 "_color" "0.61268 0.859144 1"
 }
 {
 "classname" "light"
 "origin" "-616.000000 1344.000000 88.000000"
-"light" "20"
+"light" "4"
 "_color" "0.61268 0.859144 1"
 }
 {
 "classname" "light"
 "origin" "-704.000000 1256.000000 88.000000"
-"light" "20"
+"light" "4"
 "_color" "0.61268 0.859144 1"
 }
 {
 "classname" "light"
 "origin" "-416.000000 1000.000000 56.000000"
-"light" "20"
+"light" "4"
 "_color" "0.61268 0.859144 1"
 }
 {
 "classname" "light"
 "origin" "-544.000000 1000.000000 56.000000"
-"light" "20"
+"light" "4"
 "_color" "0.61268 0.859144 1"
 }
 {
 "classname" "light"
 "origin" "-672.000000 1000.000000 56.000000"
-"light" "20"
+"light" "4"
 "_color" "0.61268 0.859144 1"
 }
 {
 "classname" "light"
 "origin" "-168.000000 1088.000000 56.000000"
-"light" "20"
+"light" "4"
 "_color" "0.61268 0.859144 1"
 }
 {
 "classname" "light"
 "origin" "-168.000000 960.000000 56.000000"
-"light" "20"
+"light" "4"
 "_color" "0.61268 0.859144 1"
 }
 {
 "classname" "light"
 "origin" "-24.000000 -32.000000 88.000000"
-"light" "20"
+"light" "4"
 "_color" "0.61268 0.859144 1"
 }
 {
 "classname" "light"
 "origin" "-512.000000 1176.000000 56.000000"
-"light" "20"
+"light" "4"
 "_color" "0.61268 0.859144 1"
 }
 {
 "classname" "light"
 "origin" "-408.000000 1312.000000 56.000000"
-"light" "20"
+"light" "4"
 "_color" "0.61268 0.859144 1"
 }
 {
 "classname" "light"
 "origin" "-352.000000 1368.000000 56.000000"
-"light" "20"
+"light" "4"
 "_color" "0.61268 0.859144 1"
 }
 {
 "classname" "light"
 "origin" "-224.000000 1368.000000 56.000000"
-"light" "20"
+"light" "4"
 "_color" "0.61268 0.859144 1"
 }
 {
 "classname" "light"
 "origin" "-168.000000 832.000000 56.000000"
-"light" "20"
+"light" "4"
 "_color" "0.61268 0.859144 1"
 }
 {
 "classname" "light"
 "origin" "-168.000000 64.000000 -104.000000"
-"light" "20"
+"light" "4"
 "_color" "0.61268 0.859144 1"
 }
 {
 "classname" "light"
 "origin" "-224.000000 -392.000000 -72.000000"
-"light" "20"
+"light" "4"
 "_color" "0.61268 0.859144 1"
 }
 {
 "classname" "light"
 "origin" "-280.000000 -576.000000 -72.000000"
-"light" "20"
+"light" "4"
 "_color" "0.61268 0.859144 1"
 }
 {
 "classname" "light"
 "origin" "-280.000000 -704.000000 -72.000000"
-"light" "20"
+"light" "4"
 "_color" "0.61268 0.859144 1"
 }
 {
 "classname" "light"
 "origin" "-224.000000 -888.000000 -72.000000"
-"light" "20"
+"light" "4"
 "_color" "0.61268 0.859144 1"
 }
 {
 "classname" "light"
 "origin" "-168.000000 -656.000000 -72.000000"
-"light" "20"
+"light" "4"
 "_color" "0.61268 0.859144 1"
 }
 {
 "classname" "light"
 "origin" "-224.000000 -168.000000 -104.000000"
-"light" "20"
+"light" "4"
 "_color" "0.61268 0.859144 1"
 }
 {
 "classname" "light"
 "origin" "88.000000 -192.000000 -104.000000"
-"light" "20"
+"light" "4"
 "_color" "0.61268 0.859144 1"
 }
 {
 "classname" "light"
 "origin" "88.000000 -32.000000 88.000000"
-"light" "20"
+"light" "4"
 "_color" "0.61268 0.859144 1"
 }
 {
 "classname" "light"
 "origin" "-280.000000 -448.000000 -72.000000"
-"light" "20"
+"light" "4"
 "_color" "0.61268 0.859144 1"
 }
 {
@@ -28902,19 +28902,19 @@ exx/base-metal03
 {
 "classname" "light"
 "origin" "-280.000000 -192.000000 -104.000000"
-"light" "20"
+"light" "4"
 "_color" "0.61268 0.859144 1"
 }
 {
 "classname" "light"
 "origin" "-168.000000 -64.000000 -104.000000"
-"light" "20"
+"light" "4"
 "_color" "0.61268 0.859144 1"
 }
 {
 "classname" "light"
 "origin" "-280.000000 -320.000000 -104.000000"
-"light" "20"
+"light" "4"
 "_color" "0.61268 0.859144 1"
 }
 {
@@ -28927,97 +28927,97 @@ exx/base-metal03
 {
 "classname" "light"
 "origin" "-280.000000 64.000000 -104.000000"
-"light" "20"
+"light" "4"
 "_color" "0.61268 0.859144 1"
 }
 {
 "classname" "light"
 "origin" "-280.000000 -64.000000 -104.000000"
-"light" "20"
+"light" "4"
 "_color" "0.61268 0.859144 1"
 }
 {
 "classname" "light"
 "origin" "-280.000000 320.000000 -104.000000"
-"light" "20"
+"light" "4"
 "_color" "0.61268 0.859144 1"
 }
 {
 "classname" "light"
 "origin" "-280.000000 192.000000 -104.000000"
-"light" "20"
+"light" "4"
 "_color" "0.61268 0.859144 1"
 }
 {
 "classname" "light"
 "origin" "-280.000000 448.000000 -104.000000"
-"light" "20"
+"light" "4"
 "_color" "0.61268 0.859144 1"
 }
 {
 "classname" "light"
 "origin" "-168.000000 576.000000 -104.000000"
-"light" "20"
+"light" "4"
 "_color" "0.61268 0.859144 1"
 }
 {
 "classname" "light"
 "origin" "-168.000000 448.000000 -104.000000"
-"light" "20"
+"light" "4"
 "_color" "0.61268 0.859144 1"
 }
 {
 "classname" "light"
 "origin" "-168.000000 320.000000 -104.000000"
-"light" "20"
+"light" "4"
 "_color" "0.61268 0.859144 1"
 }
 {
 "classname" "light"
 "origin" "-168.000000 192.000000 -104.000000"
-"light" "20"
+"light" "4"
 "_color" "0.61268 0.859144 1"
 }
 {
 "classname" "light"
 "origin" "-280.000000 576.000000 -104.000000"
-"light" "20"
+"light" "4"
 "_color" "0.61268 0.859144 1"
 }
 {
 "classname" "light"
 "origin" "-280.000000 704.000000 -104.000000"
-"light" "20"
+"light" "4"
 "_color" "0.61268 0.859144 1"
 }
 {
 "classname" "light"
 "origin" "-280.000000 832.000000 -104.000000"
-"light" "20"
+"light" "4"
 "_color" "0.61268 0.859144 1"
 }
 {
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "-592.000000 -176.000000 72.000000"
-"light" "200"
+"light" "40"
 }
 {
 "classname" "light"
 "origin" "-168.000000 -784.000000 -72.000000"
-"light" "20"
+"light" "4"
 "_color" "0.61268 0.859144 1"
 }
 {
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "-592.000000 976.000000 136.000000"
-"light" "200"
+"light" "40"
 }
 {
 "classname" "light"
 "origin" "-32.000000 -280.000000 -104.000000"
-"light" "20"
+"light" "4"
 "_color" "0.61268 0.859144 1"
 }
 {
@@ -29037,25 +29037,25 @@ exx/base-metal03
 {
 "classname" "light"
 "origin" "1280.000000 -1104.000000 104.000000"
-"light" "200"
+"light" "40"
 "target" "info_null2"
 }
 {
 "classname" "light"
 "origin" "1440.000000 -1104.000000 104.000000"
-"light" "200"
+"light" "40"
 "target" "info_null3"
 }
 {
 "classname" "light"
 "origin" "1600.000000 -1104.000000 104.000000"
-"light" "200"
+"light" "40"
 "target" "info_null4"
 }
 {
 "classname" "light"
 "origin" "1432.000000 -1240.000000 112.000000"
-"light" "200"
+"light" "40"
 }
 {
 "classname" "info_null"
@@ -29361,7 +29361,7 @@ exx/trim-psimple04
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "288.000000 -256.000000 -184.000000"
-"light" "200"
+"light" "40"
 }
 {
 "classname" "func_wall"
@@ -29538,26 +29538,26 @@ exx/trim-psimple04
 {
 "classname" "light"
 "origin" "-24.000000 -64.000000 -104.000000"
-"light" "20"
+"light" "4"
 "_color" "0.61268 0.859144 1"
 }
 {
 "classname" "light"
 "origin" "88.000000 -64.000000 -104.000000"
-"light" "20"
+"light" "4"
 "_color" "0.61268 0.859144 1"
 }
 {
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "-48.000000 848.000000 136.000000"
-"light" "200"
+"light" "40"
 }
 {
 "classname" "light"
 "_color" "0.987121 0.658381 0.407675"
 "origin" "96.000000 864.000000 64.000000"
-"light" "500"
+"light" "100"
 "target" "target_position1"
 }
 {
@@ -29570,45 +29570,45 @@ exx/trim-psimple04
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "1696.000000 -256.000000 248.000000"
-"light" "50"
+"light" "10"
 }
 {
 "classname" "light"
 "_color" "0.987121 0.658381 0.407675"
 "origin" "32.000000 864.000000 64.000000"
-"light" "500"
+"light" "100"
 "target" "target_position1"
 }
 {
 "classname" "light"
 "_color" "0.987121 0.658381 0.407675"
 "origin" "-32.000000 864.000000 64.000000"
-"light" "500"
+"light" "100"
 "target" "target_position1"
 }
 {
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "-224.000000 -536.000000 88.000000"
-"light" "50"
+"light" "10"
 }
 {
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "56.000000 -920.000000 88.000000"
-"light" "50"
+"light" "10"
 }
 {
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "0.000000 -688.000000 88.000000"
-"light" "50"
+"light" "10"
 }
 {
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "-224.000000 -384.000000 88.000000"
-"light" "50"
+"light" "10"
 }
 {
 "classname" "func_wall"
@@ -29697,7 +29697,7 @@ exx/trim-psimple04
 {
 "classname" "light"
 "origin" "-616.000000 1472.000000 88.000000"
-"light" "20"
+"light" "4"
 "_color" "0.61268 0.859144 1"
 }
 {
@@ -29722,13 +29722,13 @@ exx/trim-psimple04
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "32.000000 -32.000000 -24.000000"
-"light" "100"
+"light" "20"
 }
 {
 "classname" "light"
 "_color" "0.612675 0.859144 1.000000"
 "origin" "624.000000 -352.000000 -24.000000"
-"light" "200"
+"light" "40"
 }
 {
 "classname" "trigger_race_checkpoint"
@@ -29759,7 +29759,7 @@ exx/trim-psimple04
 {
 "classname" "light"
 "origin" "-448.000000 -1260.000000 112.000000"
-"light" "400"
+"light" "80"
 }
 {
 "classname" "func_wall"
