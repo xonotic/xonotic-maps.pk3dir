@@ -1,0 +1,16 @@
+title Crystal Cave
+description Caves and plants
+author Justin
+cdtrack 16
+has weapons
+gametype dm
+gametype ca
+gametype ons
+gametype ctf
+gametype ft
+gametype kh
+gametype lms
+gametype tdm
+gametype ka
+
+clientsettemp_for_type all r_water 1

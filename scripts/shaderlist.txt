@@ -20,6 +20,7 @@ liquids_slime
 liquids_water
 logos
 map_catharsis
+map_crystalcave
 map_courtfun
 map_darkzone
 map_g-23
