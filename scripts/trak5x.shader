@@ -1097,7 +1097,8 @@ textures/trak5x/light-light1c-surfacelight_sRGB
 		rgbGen identity
 		tcGen lightmap
 		blendfunc filter
-
+	}
+}
 textures/trak5x/light-light2a
 {
 	qer_editorimage textures/trak5x/light/light_light2a.tga
