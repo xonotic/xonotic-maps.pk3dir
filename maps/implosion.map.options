@@ -1,5 +1,5 @@
--bsp +
--vis -fast +
--light -fast -deluxe -patchshadows -samples 3 -lightmapsize 512 -bounce 1 -fastbounce -bouncegrid -dirty -dirtscale 2
+-bsp + -samplesize 6
+-light + -fast -deluxe -patchshadows -samples 3  -bounce 8  -bouncegrid -dirty -dirtscale 2
+-vis + 
 -minimap +
 Version: 2
