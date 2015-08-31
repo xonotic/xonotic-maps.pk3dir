@@ -922,6 +922,31 @@ textures/exx/light-panel01-surfacelight
 		blendfunc filter
 	}
 }
+textures/exx/light-panel01-surfacelight_sRGB
+{
+	qer_editorimage textures/exx/light/light_panel01.tga
+	
+	q3map_bounceScale  0.75
+	dpoffsetmapping - 2 match8 79
+	dpglossintensitymod  3
+	dpglossexponentmod  4
+
+	q3map_surfacelight 625
+	q3map_lightSubdivide 64
+
+	{
+		map textures/exx/light/light_panel01.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+
 textures/exx/light-u201
 {
 	qer_editorimage textures/exx/light/light_u201.tga
@@ -953,6 +978,30 @@ textures/exx/light-u201-surfacelight
 	dpglossexponentmod  4
 
 	q3map_surfacelight 2500
+	q3map_lightSubdivide 64
+
+	{
+		map textures/exx/light/light_u201.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/exx/light-u201-surfacelight_sRGB
+{
+	qer_editorimage textures/exx/light/light_u201.tga
+	
+	q3map_bounceScale  0.75
+	dpoffsetmapping - 2 match8 76
+	dpglossintensitymod  3
+	dpglossexponentmod  4
+
+	q3map_surfacelight 625
 	q3map_lightSubdivide 64
 
 	{
