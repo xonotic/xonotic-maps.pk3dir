@@ -206,6 +206,8 @@ BIDIR_IN_DOWN will the door prevent from reopening while closing if it is trigge
 <flag key="DOOR_DONT_LINK" name="DOOR_DONT_LINK" bit="2">the door won't link with another door it touches</flag>
 <flag key="TOGGLE" name="TOGGLE" bit="5">causes the door to wait in both the start and end states for a trigger event.</flag>
 <flag key="NOSPLASH" name="NOSPLASH" bit="8">if set, splash damage cannot activate the door, only direct damage can (requires health to be set)</flag>
+<flag key="X_AXIS" name="X_AXIS" bit="6">rotate around the X axis</flag>
+<flag key="Y_AXIS" name="Y_AXIS" bit="7">rotate around the Y axis</flag>
 </group>
 
 <group name="func_door_secret" color="0 .5 .8">
