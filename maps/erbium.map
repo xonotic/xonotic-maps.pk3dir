@@ -24224,7 +24224,7 @@ brushDef
 }
 {
 "classname" "misc_model"
-"origin" "-639.990906 -1408.000244 485.742950"
+"origin" "-647.990906 -1376.000244 485.742950"
 "model" "models/map_erbium/waterfall-room-rock-small.ase"
 "spawnflags" "38"
 "angles" "-89.698685 179.998093 -179.998123"
