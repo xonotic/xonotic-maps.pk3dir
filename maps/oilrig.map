@@ -24063,7 +24063,7 @@ exx/wall-bigrib02
 }
 {
 "classname" "misc_model"
-"origin" "640.099915 -88.000015 95.750000"
+"origin" "640.099915 -88.000015 95.625000"
 "model" "models/lights/xonlight02.md3"
 "angle" "89.999992"
 "modelscale" "0.700000"
