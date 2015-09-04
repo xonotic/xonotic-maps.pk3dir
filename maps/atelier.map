@@ -4,6 +4,7 @@
 "gridsize" "64 64 64"
 "author" "ShadoW, Mirio, Debugger"
 "message" "Atelier"
+"_description" "Large map, well suited for team games"
 {
 ( -704 -624 160 ) ( -704 -624 0 ) ( -704 -608 160 ) common/caulk 128 96 0 -0.25 0.25 0 0 0
 ( -600 -608 0 ) ( -696 -608 0 ) ( -600 -624 0 ) common/caulk 0 128 180 0.25 0.25 0 0 0

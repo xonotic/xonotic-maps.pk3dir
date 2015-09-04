@@ -2,6 +2,8 @@
 "classname" "worldspawn"
 "gridsize" "64.000000 64.000000 128.000000"
 "message" "Running Man"
+"_description" "Medium-sized, fast enclosed map"
+"author" "FruitieX, Cortez, Strahlemann, Debugger"
 {
 ( -1152 -160 512 ) ( -1184 -160 576 ) ( -1184 -256 576 ) common/caulk 128 0 0 -0.25 0.25 0 0 0
 ( -1184 -256 576 ) ( -1104 -256 576 ) ( -1104 -256 512 ) common/caulk 0 0 0 0.25 0.25 0 0 0

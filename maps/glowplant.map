@@ -2,6 +2,9 @@
 "classname" "worldspawn"
 "_floodlight" "255 225 120 3750 50"
 "_blocksize" "512 512 512"
+"message" "Glow Plant"
+"_description" "A nuclear power plant with a LOT of blue glowy stuff..."
+"author" "tZork, Cuinnton, Debugger, Mirio"
 {
 ( -1408 -896 1024 ) ( -1408 -816 1024 ) ( -1040 -816 1024 ) trak5x/base-base1b 0 0 0 0.25 0.25 134217728 0 0
 ( -1408 -816 960 ) ( -1408 -896 960 ) ( -1040 -896 960 ) trak5x/base-base1b 0 0 0 0.25 0.25 134217728 0 0

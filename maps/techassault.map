@@ -1,8 +1,9 @@
 {
 "classname" "worldspawn"
-"message" "techassault"
-"author" "SavageX and Cortez666"
+"message" "Techassault"
+"author" "SavageX, Cortez"
 "license" "GPL"
+"_description" "A medium-sized assault map"
 {
 ( -1344 -128 0 ) ( -768 -64 0 ) ( -832 -128 0 ) exx/floor-metal02 0 0 0 0.25 0.25 0 0 0
 ( -832 -128 0 ) ( -768 -64 0 ) ( -768 -64 -16 ) common/caulk 32 0 0 0.25 0.25 0 0 0

@@ -1,5 +1,8 @@
 {
 "classname" "worldspawn"
+"author" "FruitieX, Cuinnton, SavageX, Strahlemann, W. Libert, tZork, Mirio"
+"_description" "Medium sized indoor map, well suited for team games"
+"message" "Stormkeep"
 {
 ( -240 640 32 ) ( -304 640 32 ) ( -304 640 -160 ) common/caulk 192 0 0 0.25 0.25 0 4 0
 ( -112 0 96 ) ( -112 128 96 ) ( -112 128 -96 ) map_stormkeep/largebrick1a 0 0 0 0.25 0.25 0 0 0

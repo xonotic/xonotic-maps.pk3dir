@@ -6,6 +6,7 @@
 "gridsize" "128 128 128"
 "fog" "1 0 0 0.05 1 800 5000 -805"
 "author" "Tronyn, Debugger, SavageX, Dustin Geeraert, Garth Hendy"
+"_description" "A very large open map designed after an offshore oil rig"
 {
 ( 360 -408 8 ) ( 360 -472 8 ) ( 360 -472 -8 ) exx/base-metal05rust 0 0 0 0.25 0.25 134217728 0 0
 ( 424 -408 16 ) ( 368 -408 16 ) ( 368 -408 0 ) exx/base-metal05rust 0 0 0 0.25 0.25 134217728 0 0

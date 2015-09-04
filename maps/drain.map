@@ -2,6 +2,7 @@
 "classname" "worldspawn"
 "message" "Drain"
 "author" "FruitieX, kuniu the frogg"
+"_description" "Small Duel/DM map"
 {
 ( -240 -32 0 ) ( 16 -32 0 ) ( -240 224 0 ) common/caulk 64 0 0 0.25 0.25 0 0 0
 ( -240 -64 0 ) ( -240 -64 192 ) ( 16 -64 192 ) common/caulk 64 0 0 0.25 0.25 0 0 0
