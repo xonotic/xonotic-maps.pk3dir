@@ -2,5 +2,5 @@
 -light + -bounce 8 -dirtscale 2 -bouncescale 1.15 -exposure 225 -areascale 1.25 -pointscale 1.5
 -vis +
 -minimap +
--nosRGB
-Version: 5a
+-sRGB
+Version: 5b

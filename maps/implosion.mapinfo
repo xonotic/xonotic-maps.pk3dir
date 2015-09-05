@@ -11,3 +11,4 @@ gametype ca
 gametype tdm
 gametype lms
 gametype dom
+gametype dm

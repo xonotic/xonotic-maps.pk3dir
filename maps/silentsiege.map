@@ -1,7 +1,8 @@
 {
 "classname" "worldspawn"
 "author" "Justin"
-"message" "SilentSiege"
+"message" "Silent Siege"
+"_description" "Medium size Duel/TDM map"
 {
 brushDef
 {

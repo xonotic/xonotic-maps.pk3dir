@@ -2,4 +2,5 @@
 -light + -fast -deluxe -patchshadows -samples 3  -bounce 8  -bouncegrid -dirty -dirtscale 2
 -vis + 
 -minimap +
-Version: 2
+-sRGB
+Version: 2a
