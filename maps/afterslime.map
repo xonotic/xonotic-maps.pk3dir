@@ -1,5 +1,8 @@
 {
 "classname" "worldspawn"
+"author" "kuniu the frogg"
+"message" "Afterslime"
+"_description" "Medium sized indoor deathmatch map"
 {
 ( 0 48 256 ) ( 0 -8 256 ) ( -80 48 256 ) common/caulk 0 0 0 0.25 0.25 134217728 0 0
 ( -8 128 64 ) ( -88 128 64 ) ( -8 128 -64 ) trak5x/trim-basictrim1b 64 409.6000061035 0 0.5 0.625 134217728 0 0
@@ -48945,12 +48948,12 @@ exx/base-metal03
 {
 "classname" "light"
 "origin" "704.000000 -224.000000 64.000000"
-"light" "400"
+"light" "100"
 }
 {
 "classname" "light"
 "origin" "704.000000 -480.000000 64.000000"
-"light" "400"
+"light" "100"
 }
 {
 "classname" "target_speaker"
@@ -48983,58 +48986,58 @@ exx/base-metal03
 {
 "classname" "light"
 "origin" "1152.000000 -8.000000 480.000000"
-"light" "300"
+"light" "75"
 }
 {
 "classname" "light"
 "origin" "896.000000 136.000000 496.000000"
-"light" "300"
+"light" "75"
 }
 {
 "classname" "light"
 "origin" "640.000000 136.000000 496.000000"
-"light" "300"
+"light" "75"
 }
 {
 "classname" "light"
 "origin" "384.000000 136.000000 496.000000"
-"light" "300"
+"light" "75"
 }
 {
 "classname" "light"
 "origin" "128.000000 136.000000 496.000000"
-"light" "300"
+"light" "75"
 }
 {
 "classname" "light"
 "origin" "-128.000000 136.000000 496.000000"
-"light" "300"
+"light" "75"
 }
 {
 "classname" "light"
 "origin" "-384.000000 136.000000 496.000000"
-"light" "300"
+"light" "75"
 }
 {
 "classname" "light"
 "origin" "1296.000000 -352.000000 608.000000"
-"light" "150"
+"light" "37"
 }
 {
 "classname" "light"
 "origin" "1416.000000 -352.000000 608.000000"
-"light" "150"
+"light" "37"
 }
 {
 "classname" "light"
 "origin" "448.000000 -440.000000 -168.000000"
-"light" "250"
+"light" "62"
 "target" "target_position15"
 }
 {
 "classname" "light"
 "origin" "-192.000000 -440.000000 -168.000000"
-"light" "250"
+"light" "62"
 "target" "target_position16"
 }
 {
@@ -49054,17 +49057,17 @@ exx/base-metal03
 {
 "classname" "light"
 "origin" "1664.000000 -640.000000 640.000000"
-"light" "200"
+"light" "12"
 }
 {
 "classname" "light"
 "origin" "1664.000000 -64.000000 640.000000"
-"light" "200"
+"light" "12"
 }
 {
 "classname" "light"
 "origin" "2048.000000 -64.000000 640.000000"
-"light" "200"
+"light" "12"
 }
 {
 "classname" "weapon_uzi"
@@ -49073,18 +49076,18 @@ exx/base-metal03
 {
 "classname" "light"
 "origin" "1920.000000 -352.000000 704.000000"
-"light" "300"
+"light" "75"
 "target" "target_position17"
 }
 {
 "classname" "light"
 "origin" "2360.000000 -352.000000 608.000000"
-"light" "100"
+"light" "25"
 }
 {
 "classname" "light"
 "origin" "2048.000000 -864.000000 704.000000"
-"light" "300"
+"light" "75"
 }
 {
 "classname" "misc_model"
@@ -49197,12 +49200,12 @@ exx/base-metal03
 {
 "classname" "light"
 "origin" "-640.000000 136.000000 496.000000"
-"light" "300"
+"light" "75"
 }
 {
 "classname" "light"
 "origin" "-896.000000 136.000000 496.000000"
-"light" "300"
+"light" "75"
 }
 {
 "classname" "info_player_deathmatch"
@@ -49250,102 +49253,102 @@ exx/base-metal03
 {
 "classname" "light"
 "origin" "-768.000000 -352.000000 448.000000"
-"light" "400"
-}
-{
-"classname" "light"
-"origin" "-1024.000000 -1640.000000 512.000000"
-"light" "300"
-}
-{
-"classname" "light"
-"origin" "-872.000000 -1992.000000 448.000000"
-"light" "400"
-}
-{
-"classname" "light"
-"origin" "-448.000000 -1984.000000 448.000000"
-"light" "400"
-}
-{
-"classname" "light"
-"origin" "768.000000 -1984.000000 448.000000"
-"light" "400"
-}
-{
-"classname" "light"
-"origin" "384.000000 -1984.000000 448.000000"
-"light" "200"
-}
-{
-"classname" "light"
-"origin" "1200.000000 -1976.000000 448.000000"
-"light" "400"
-}
-{
-"classname" "light"
-"origin" "1344.000000 -1664.000000 512.000000"
-"light" "300"
-}
-{
-"classname" "light"
-"origin" "640.000000 -1632.000000 344.000000"
-"light" "300"
-}
-{
-"classname" "light"
-"origin" "-320.000000 -1632.000000 344.000000"
-"light" "300"
-}
-{
-"classname" "light"
-"origin" "352.000000 -1568.000000 -32.000000"
-"light" "300"
-}
-{
-"classname" "light"
-"origin" "2112.000000 -1544.000000 648.000000"
-"light" "400"
-}
-{
-"classname" "light"
-"origin" "1600.000000 -1600.000000 584.000000"
-"light" "300"
-}
-{
-"classname" "light"
-"origin" "2048.000000 -1088.000000 648.000000"
-"light" "400"
-}
-{
-"classname" "light"
-"origin" "1152.000000 -992.000000 648.000000"
-"light" "300"
-}
-{
-"classname" "light"
-"origin" "-1024.000000 -24.000000 472.000000"
 "light" "100"
 }
 {
 "classname" "light"
+"origin" "-1024.000000 -1640.000000 512.000000"
+"light" "75"
+}
+{
+"classname" "light"
+"origin" "-872.000000 -1992.000000 448.000000"
+"light" "100"
+}
+{
+"classname" "light"
+"origin" "-448.000000 -1984.000000 448.000000"
+"light" "100"
+}
+{
+"classname" "light"
+"origin" "768.000000 -1984.000000 448.000000"
+"light" "100"
+}
+{
+"classname" "light"
+"origin" "384.000000 -1984.000000 448.000000"
+"light" "12"
+}
+{
+"classname" "light"
+"origin" "1200.000000 -1976.000000 448.000000"
+"light" "100"
+}
+{
+"classname" "light"
+"origin" "1344.000000 -1664.000000 512.000000"
+"light" "75"
+}
+{
+"classname" "light"
+"origin" "640.000000 -1632.000000 344.000000"
+"light" "75"
+}
+{
+"classname" "light"
+"origin" "-320.000000 -1632.000000 344.000000"
+"light" "75"
+}
+{
+"classname" "light"
+"origin" "352.000000 -1568.000000 -32.000000"
+"light" "75"
+}
+{
+"classname" "light"
+"origin" "2112.000000 -1544.000000 648.000000"
+"light" "100"
+}
+{
+"classname" "light"
+"origin" "1600.000000 -1600.000000 584.000000"
+"light" "75"
+}
+{
+"classname" "light"
+"origin" "2048.000000 -1088.000000 648.000000"
+"light" "100"
+}
+{
+"classname" "light"
+"origin" "1152.000000 -992.000000 648.000000"
+"light" "75"
+}
+{
+"classname" "light"
+"origin" "-1024.000000 -24.000000 472.000000"
+"light" "25"
+}
+{
+"classname" "light"
 "origin" "-928.000000 -576.000000 64.000000"
-"light" "300"
+"light" "75"
 }
 {
 "classname" "light"
 "origin" "1152.000000 -480.000000 648.000000"
-"light" "300"
+"light" "75"
 }
 {
 "classname" "light"
 "origin" "1152.000000 -736.000000 648.000000"
-"light" "300"
+"light" "75"
 }
 {
 "classname" "light"
 "origin" "1152.000000 -224.000000 648.000000"
-"light" "300"
+"light" "75"
 }
 {
 "classname" "func_rotating"
@@ -49882,22 +49885,22 @@ trak5x/base-pipe1a
 {
 "classname" "light"
 "origin" "-416.000000 -256.000000 384.000000"
-"light" "400"
+"light" "100"
 }
 {
 "classname" "light"
 "origin" "-320.000000 -864.000000 384.000000"
-"light" "400"
+"light" "100"
 }
 {
 "classname" "light"
 "origin" "672.000000 -1088.000000 384.000000"
-"light" "400"
+"light" "100"
 }
 {
 "classname" "light"
 "origin" "1272.000000 -768.000000 -64.000000"
-"light" "400"
+"light" "100"
 }
 {
 "classname" "target_speaker"
@@ -49914,7 +49917,7 @@ trak5x/base-pipe1a
 {
 "classname" "light"
 "origin" "-96.000000 264.000000 -16.000000"
-"light" "250"
+"light" "62"
 "target" "target_position2"
 }
 {
@@ -49925,7 +49928,7 @@ trak5x/base-pipe1a
 {
 "classname" "light"
 "origin" "-224.000000 264.000000 -16.000000"
-"light" "250"
+"light" "62"
 "target" "target_position3"
 }
 {
@@ -49936,7 +49939,7 @@ trak5x/base-pipe1a
 {
 "classname" "light"
 "origin" "-320.000000 160.000000 -16.000000"
-"light" "250"
+"light" "62"
 "target" "target_position4"
 }
 {
@@ -49947,7 +49950,7 @@ trak5x/base-pipe1a
 {
 "classname" "light"
 "origin" "-320.000000 32.000000 -16.000000"
-"light" "250"
+"light" "62"
 "target" "target_position5"
 }
 {
@@ -49958,7 +49961,7 @@ trak5x/base-pipe1a
 {
 "classname" "light"
 "origin" "-416.000000 -56.000000 -16.000000"
-"light" "250"
+"light" "62"
 "target" "target_position6"
 }
 {
@@ -49969,7 +49972,7 @@ trak5x/base-pipe1a
 {
 "classname" "light"
 "origin" "-496.000000 -160.000000 -16.000000"
-"light" "250"
+"light" "62"
 "target" "target_position7"
 }
 {
@@ -49980,7 +49983,7 @@ trak5x/base-pipe1a
 {
 "classname" "light"
 "origin" "-496.000000 -288.000000 -16.000000"
-"light" "250"
+"light" "62"
 "target" "target_position8"
 }
 {
@@ -49991,7 +49994,7 @@ trak5x/base-pipe1a
 {
 "classname" "light"
 "origin" "-496.000000 -416.000000 -16.000000"
-"light" "250"
+"light" "62"
 "target" "target_position9"
 }
 {
@@ -50002,7 +50005,7 @@ trak5x/base-pipe1a
 {
 "classname" "light"
 "origin" "-496.000000 -736.000000 -16.000000"
-"light" "250"
+"light" "62"
 "target" "target_position11"
 }
 {
@@ -50013,7 +50016,7 @@ trak5x/base-pipe1a
 {
 "classname" "light"
 "origin" "736.000000 -1256.000000 -16.000000"
-"light" "250"
+"light" "62"
 "target" "target_position12"
 }
 {
@@ -50024,7 +50027,7 @@ trak5x/base-pipe1a
 {
 "classname" "light"
 "origin" "864.000000 -1256.000000 -16.000000"
-"light" "250"
+"light" "62"
 "target" "target_position13"
 }
 {
@@ -50035,7 +50038,7 @@ trak5x/base-pipe1a
 {
 "classname" "light"
 "origin" "1120.000000 -1264.000000 -16.000000"
-"light" "250"
+"light" "62"
 "target" "target_position14"
 }
 {
@@ -50046,7 +50049,7 @@ trak5x/base-pipe1a
 {
 "classname" "light"
 "origin" "1248.000000 -1264.000000 -16.000000"
-"light" "250"
+"light" "62"
 "target" "target_position20"
 }
 {
@@ -50057,7 +50060,7 @@ trak5x/base-pipe1a
 {
 "classname" "light"
 "origin" "1376.000000 -1264.000000 -16.000000"
-"light" "250"
+"light" "62"
 "target" "target_position21"
 }
 {
@@ -50068,7 +50071,7 @@ trak5x/base-pipe1a
 {
 "classname" "light"
 "origin" "1456.000000 -1120.000000 -16.000000"
-"light" "250"
+"light" "62"
 "target" "target_position22"
 }
 {
@@ -50079,7 +50082,7 @@ trak5x/base-pipe1a
 {
 "classname" "light"
 "origin" "1448.000000 -800.000000 -16.000000"
-"light" "250"
+"light" "62"
 "target" "target_position23"
 }
 {
@@ -50090,7 +50093,7 @@ trak5x/base-pipe1a
 {
 "classname" "light"
 "origin" "480.000000 264.000000 -16.000000"
-"light" "250"
+"light" "62"
 "target" "target_position24"
 }
 {
@@ -50101,7 +50104,7 @@ trak5x/base-pipe1a
 {
 "classname" "light"
 "origin" "352.000000 264.000000 -16.000000"
-"light" "250"
+"light" "62"
 "target" "target_position25"
 }
 {
@@ -50112,7 +50115,7 @@ trak5x/base-pipe1a
 {
 "classname" "light"
 "origin" "584.000000 32.000000 -16.000000"
-"light" "250"
+"light" "62"
 "target" "target_position26"
 }
 {
@@ -50124,7 +50127,7 @@ trak5x/base-pipe1a
 {
 "classname" "light"
 "origin" "584.000000 160.000000 -16.000000"
-"light" "250"
+"light" "62"
 "target" "target_position27"
 }
 {
@@ -50136,12 +50139,12 @@ trak5x/base-pipe1a
 {
 "classname" "light"
 "origin" "-256.000000 -1024.000000 24.000000"
-"light" "400"
+"light" "100"
 }
 {
 "classname" "light"
 "origin" "1088.000000 -448.000000 0.000000"
-"light" "200"
+"light" "12"
 }
 {
 "classname" "item_cells"
@@ -50251,32 +50254,32 @@ trak5x/base-pipe1a
 {
 "classname" "light"
 "origin" "992.000000 -1776.000000 112.000000"
-"light" "300"
+"light" "75"
 }
 {
 "classname" "light"
 "origin" "-672.000000 -1776.000000 112.000000"
-"light" "300"
+"light" "75"
 }
 {
 "classname" "light"
 "origin" "768.000000 -1984.000000 128.000000"
-"light" "500"
+"light" "125"
 }
 {
 "classname" "light"
 "origin" "160.000000 -1984.000000 128.000000"
-"light" "400"
+"light" "100"
 }
 {
 "classname" "light"
 "origin" "-448.000000 -1984.000000 128.000000"
-"light" "500"
+"light" "125"
 }
 {
 "classname" "light"
 "origin" "-224.000000 -1392.000000 16.000000"
-"light" "200"
+"light" "12"
 "target" "target_position28"
 }
 {
@@ -50287,7 +50290,7 @@ trak5x/base-pipe1a
 {
 "classname" "light"
 "origin" "-32.000000 -1392.000000 16.000000"
-"light" "200"
+"light" "12"
 "target" "target_position29"
 }
 {
@@ -50298,7 +50301,7 @@ trak5x/base-pipe1a
 {
 "classname" "light"
 "origin" "160.000000 -1392.000000 16.000000"
-"light" "200"
+"light" "12"
 "target" "target_position30"
 }
 {
@@ -50309,7 +50312,7 @@ trak5x/base-pipe1a
 {
 "classname" "light"
 "origin" "352.000000 -1392.000000 16.000000"
-"light" "200"
+"light" "12"
 "target" "target_position31"
 }
 {
@@ -50320,7 +50323,7 @@ trak5x/base-pipe1a
 {
 "classname" "light"
 "origin" "544.000000 -1392.000000 16.000000"
-"light" "200"
+"light" "12"
 "target" "target_position32"
 }
 {
@@ -50339,12 +50342,12 @@ trak5x/base-pipe1a
 {
 "classname" "light"
 "origin" "160.000000 -1568.000000 -32.000000"
-"light" "300"
+"light" "75"
 }
 {
 "classname" "light"
 "origin" "-32.000000 -1568.000000 -32.000000"
-"light" "300"
+"light" "75"
 }
 {
 "classname" "trigger_hurt"
@@ -50363,7 +50366,7 @@ trak5x/base-pipe1a
 {
 "classname" "light"
 "origin" "1152.000000 -568.000000 528.000000"
-"light" "250"
+"light" "62"
 "target" "target_position33"
 }
 {
@@ -50375,77 +50378,77 @@ trak5x/base-pipe1a
 {
 "classname" "light"
 "origin" "-1168.000000 -896.000000 592.000000"
-"light" "100"
+"light" "25"
 }
 {
 "classname" "light"
 "origin" "-880.000000 -896.000000 592.000000"
-"light" "100"
+"light" "25"
 }
 {
 "classname" "light"
 "origin" "-640.000000 -720.000000 464.000000"
-"light" "100"
+"light" "25"
 }
 {
 "classname" "light"
 "origin" "-640.000000 -432.000000 464.000000"
-"light" "100"
+"light" "25"
 }
 {
 "classname" "light"
 "origin" "-880.000000 -256.000000 528.000000"
-"light" "100"
+"light" "25"
 }
 {
 "classname" "light"
 "origin" "-1168.000000 -256.000000 528.000000"
-"light" "100"
+"light" "25"
 }
 {
 "classname" "light"
 "origin" "8.000000 -768.000000 24.000000"
-"light" "400"
+"light" "100"
 }
 {
 "classname" "light"
 "origin" "504.000000 -768.000000 24.000000"
-"light" "400"
+"light" "100"
 }
 {
 "classname" "light"
 "origin" "248.000000 -464.000000 24.000000"
-"light" "500"
+"light" "125"
 }
 {
 "classname" "light"
 "origin" "128.000000 64.000000 24.000000"
-"light" "300"
+"light" "75"
 }
 {
 "classname" "light"
 "origin" "448.000000 64.000000 24.000000"
-"light" "300"
+"light" "75"
 }
 {
 "classname" "light"
 "origin" "-192.000000 64.000000 24.000000"
-"light" "300"
+"light" "75"
 }
 {
 "classname" "light"
 "origin" "-1280.000000 -352.000000 384.000000"
-"light" "400"
+"light" "100"
 }
 {
 "classname" "light"
 "origin" "-656.000000 -576.000000 -32.000000"
-"light" "300"
+"light" "75"
 }
 {
 "classname" "light"
 "origin" "-1344.000000 -448.000000 128.000000"
-"light" "300"
+"light" "75"
 }
 {
 "classname" "misc_model"
@@ -50464,172 +50467,172 @@ trak5x/base-pipe1a
 {
 "classname" "light"
 "origin" "-64.000000 -1984.000000 448.000000"
-"light" "200"
+"light" "12"
 }
 {
 "classname" "light"
 "origin" "-672.000000 -1120.000000 -88.000000"
-"light" "300"
+"light" "75"
 }
 {
 "classname" "light"
 "origin" "-352.000000 -1088.000000 384.000000"
-"light" "400"
+"light" "100"
 }
 {
 "classname" "light"
 "origin" "672.000000 -768.000000 384.000000"
-"light" "400"
+"light" "100"
 }
 {
 "classname" "light"
 "origin" "664.000000 -320.000000 384.000000"
-"light" "400"
+"light" "100"
 }
 {
 "classname" "light"
 "origin" "128.000000 -256.000000 432.000000"
-"light" "400"
+"light" "100"
 }
 {
 "classname" "light"
 "origin" "-32.000000 -1216.000000 40.000000"
-"light" "100"
+"light" "25"
 }
 {
 "classname" "light"
 "origin" "168.000000 -1216.000000 40.000000"
-"light" "100"
+"light" "25"
 }
 {
 "classname" "light"
 "origin" "344.000000 -1216.000000 40.000000"
-"light" "100"
+"light" "25"
 }
 {
 "classname" "light"
 "origin" "536.000000 -1216.000000 40.000000"
-"light" "100"
+"light" "25"
 }
 {
 "classname" "light"
 "origin" "-216.000000 -1216.000000 40.000000"
-"light" "300"
+"light" "75"
 }
 {
 "classname" "light"
 "origin" "-224.000000 -2344.000000 448.000000"
-"light" "400"
+"light" "100"
 }
 {
 "classname" "light"
 "origin" "536.000000 -2344.000000 448.000000"
-"light" "400"
+"light" "100"
 }
 {
 "classname" "light"
 "origin" "880.000000 -2200.000000 448.000000"
-"light" "400"
+"light" "100"
 }
 {
 "classname" "light"
 "origin" "-624.000000 -2208.000000 448.000000"
-"light" "400"
+"light" "100"
 }
 {
 "classname" "light"
 "origin" "944.000000 -1632.000000 456.000000"
-"light" "300"
+"light" "75"
 }
 {
 "classname" "light"
 "origin" "-664.000000 -1632.000000 456.000000"
-"light" "300"
+"light" "75"
 }
 {
 "classname" "light"
 "origin" "-352.000000 -1632.000000 -32.000000"
-"light" "300"
+"light" "75"
 }
 {
 "classname" "light"
 "origin" "672.000000 -1632.000000 -32.000000"
-"light" "100"
+"light" "25"
 }
 {
 "classname" "light"
 "origin" "-352.000000 -1632.000000 176.000000"
-"light" "300"
+"light" "75"
 }
 {
 "classname" "light"
 "origin" "672.000000 -1632.000000 176.000000"
-"light" "300"
+"light" "75"
 }
 {
 "classname" "light"
 "origin" "1280.000000 -1152.000000 -64.000000"
-"light" "400"
+"light" "100"
 }
 {
 "classname" "light"
 "origin" "992.000000 -1344.000000 -40.000000"
-"light" "300"
+"light" "75"
 }
 {
 "classname" "light"
 "origin" "2416.000000 -352.000000 808.000000"
-"light" "200"
+"light" "12"
 }
 {
 "classname" "light"
 "origin" "-416.000000 -96.000000 400.000000"
-"light" "100"
+"light" "25"
 }
 {
 "classname" "light"
 "origin" "-480.000000 -864.000000 400.000000"
-"light" "100"
+"light" "25"
 }
 {
 "classname" "light"
 "origin" "-352.000000 -1248.000000 400.000000"
-"light" "100"
+"light" "25"
 }
 {
 "classname" "light"
 "origin" "672.000000 -1248.000000 400.000000"
-"light" "100"
+"light" "25"
 }
 {
 "classname" "light"
 "origin" "800.000000 -480.000000 216.000000"
-"light" "100"
+"light" "25"
 }
 {
 "classname" "light"
 "origin" "800.000000 -224.000000 216.000000"
-"light" "100"
+"light" "25"
 }
 {
 "classname" "light"
 "origin" "672.000000 -1888.000000 544.000000"
-"light" "100"
+"light" "25"
 }
 {
 "classname" "light"
 "origin" "1056.000000 -1888.000000 544.000000"
-"light" "100"
+"light" "25"
 }
 {
 "classname" "light"
 "origin" "-336.000000 -1888.000000 544.000000"
-"light" "100"
+"light" "25"
 }
 {
 "classname" "light"
 "origin" "-736.000000 -1888.000000 544.000000"
-"light" "100"
+"light" "25"
 }
 {
 "classname" "item_armor_small"
@@ -51125,7 +51128,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "1744.000000 -1296.000000 688.000000"
-"light" "400"
+"light" "100"
 }
 {
 "classname" "func_rotating"
@@ -52066,27 +52069,27 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "-1344.000000 -720.000000 128.000000"
-"light" "300"
+"light" "75"
 }
 {
 "classname" "light"
 "origin" "-1280.000000 -800.000000 384.000000"
-"light" "400"
+"light" "100"
 }
 {
 "classname" "light"
 "origin" "-768.000000 -800.000000 448.000000"
-"light" "400"
+"light" "100"
 }
 {
 "classname" "light"
 "origin" "-576.000000 -192.000000 480.000000"
-"light" "50"
+"light" "12"
 }
 {
 "classname" "light"
 "origin" "1536.000000 256.000000 704.000000"
-"light" "250"
+"light" "62"
 "target" "target_position34"
 }
 {
@@ -52098,7 +52101,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "1728.000000 256.000000 704.000000"
-"light" "250"
+"light" "62"
 "target" "target_position35"
 }
 {
@@ -52110,7 +52113,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "1920.000000 256.000000 704.000000"
-"light" "250"
+"light" "62"
 "target" "target_position36"
 }
 {
@@ -52122,7 +52125,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "2112.000000 256.000000 704.000000"
-"light" "250"
+"light" "62"
 "target" "target_position37"
 }
 {
@@ -52134,7 +52137,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "2336.000000 96.000000 704.000000"
-"light" "250"
+"light" "62"
 "target" "target_position38"
 }
 {
@@ -52146,7 +52149,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "2336.000000 -96.000000 704.000000"
-"light" "250"
+"light" "62"
 "target" "target_position39"
 }
 {
@@ -52158,7 +52161,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "2336.000000 -352.000000 704.000000"
-"light" "250"
+"light" "62"
 "target" "target_position40"
 }
 {
@@ -52170,7 +52173,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "2336.000000 -608.000000 704.000000"
-"light" "250"
+"light" "62"
 "target" "target_position41"
 }
 {
@@ -52182,7 +52185,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "2176.000000 -816.000000 704.000000"
-"light" "250"
+"light" "62"
 "target" "target_position42"
 }
 {
@@ -52194,7 +52197,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "1920.000000 -816.000000 704.000000"
-"light" "250"
+"light" "62"
 "target" "target_position43"
 }
 {
@@ -52206,7 +52209,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "1728.000000 -816.000000 704.000000"
-"light" "250"
+"light" "62"
 "target" "target_position44"
 }
 {
@@ -52218,7 +52221,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "1536.000000 -816.000000 704.000000"
-"light" "250"
+"light" "62"
 "target" "target_position45"
 }
 {
@@ -52230,7 +52233,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "1424.000000 -672.000000 704.000000"
-"light" "250"
+"light" "62"
 "target" "target_position46"
 }
 {
@@ -52242,7 +52245,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "1424.000000 -480.000000 704.000000"
-"light" "250"
+"light" "62"
 "target" "target_position48"
 }
 {
@@ -52254,7 +52257,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "1424.000000 -224.000000 704.000000"
-"light" "250"
+"light" "62"
 "target" "target_position49"
 }
 {
@@ -52266,7 +52269,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "1424.000000 -32.000000 704.000000"
-"light" "250"
+"light" "62"
 "target" "target_position50"
 }
 {
@@ -52278,7 +52281,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "1424.000000 160.000000 704.000000"
-"light" "250"
+"light" "62"
 "target" "target_position51"
 }
 {
@@ -52296,12 +52299,12 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "-1488.000000 -576.000000 480.000000"
-"light" "400"
+"light" "100"
 }
 {
 "classname" "light"
 "origin" "-736.000000 -1872.000000 336.000000"
-"light" "250"
+"light" "62"
 "target" "target_position47"
 }
 {
@@ -52313,7 +52316,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "-544.000000 -1872.000000 336.000000"
-"light" "250"
+"light" "62"
 "target" "target_position52"
 }
 {
@@ -52325,7 +52328,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "-352.000000 -1872.000000 336.000000"
-"light" "250"
+"light" "62"
 "target" "target_position53"
 }
 {
@@ -52337,7 +52340,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "672.000000 -1872.000000 336.000000"
-"light" "250"
+"light" "62"
 "target" "target_position54"
 }
 {
@@ -52349,7 +52352,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "864.000000 -1872.000000 336.000000"
-"light" "250"
+"light" "62"
 "target" "target_position55"
 }
 {
@@ -52361,7 +52364,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "1056.000000 -1872.000000 336.000000"
-"light" "250"
+"light" "62"
 "target" "target_position56"
 }
 {
@@ -52373,7 +52376,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "560.000000 -1824.000000 336.000000"
-"light" "250"
+"light" "62"
 "target" "target_position57"
 }
 {
@@ -52385,7 +52388,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "-240.000000 -1824.000000 336.000000"
-"light" "250"
+"light" "62"
 "target" "target_position58"
 }
 {
@@ -52397,7 +52400,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "-1440.000000 -208.000000 512.000000"
-"light" "250"
+"light" "62"
 "target" "target_position59"
 }
 {
@@ -52409,7 +52412,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "-1248.000000 -208.000000 512.000000"
-"light" "250"
+"light" "62"
 "target" "target_position60"
 }
 {
@@ -52421,7 +52424,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "-800.000000 -208.000000 512.000000"
-"light" "250"
+"light" "62"
 "target" "target_position61"
 }
 {
@@ -52433,7 +52436,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "-592.000000 -288.000000 512.000000"
-"light" "250"
+"light" "62"
 "target" "target_position62"
 }
 {
@@ -52445,7 +52448,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "-592.000000 -480.000000 512.000000"
-"light" "250"
+"light" "62"
 "target" "target_position63"
 }
 {
@@ -52457,7 +52460,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "-592.000000 -672.000000 512.000000"
-"light" "250"
+"light" "62"
 "target" "target_position64"
 }
 {
@@ -52469,7 +52472,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "-592.000000 -864.000000 512.000000"
-"light" "250"
+"light" "62"
 "target" "target_position65"
 }
 {
@@ -52481,7 +52484,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "-800.000000 -944.000000 512.000000"
-"light" "250"
+"light" "62"
 "target" "target_position66"
 }
 {
@@ -52493,7 +52496,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "-1248.000000 -944.000000 512.000000"
-"light" "250"
+"light" "62"
 "target" "target_position67"
 }
 {
@@ -52505,7 +52508,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "-1440.000000 -944.000000 512.000000"
-"light" "250"
+"light" "62"
 "target" "target_position68"
 }
 {
@@ -52517,7 +52520,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "-1520.000000 -800.000000 512.000000"
-"light" "250"
+"light" "62"
 "target" "target_position69"
 }
 {
@@ -52529,7 +52532,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "-1520.000000 -352.000000 512.000000"
-"light" "250"
+"light" "62"
 "target" "target_position70"
 }
 {
@@ -52541,22 +52544,22 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "-992.000000 -1440.000000 512.000000"
-"light" "200"
+"light" "12"
 }
 {
 "classname" "light"
 "origin" "-1056.000000 -1248.000000 512.000000"
-"light" "200"
+"light" "12"
 }
 {
 "classname" "light"
 "origin" "-992.000000 -1056.000000 512.000000"
-"light" "200"
+"light" "12"
 }
 {
 "classname" "light"
 "origin" "640.000000 -2240.000000 176.000000"
-"light" "250"
+"light" "62"
 "target" "target_position71"
 }
 {
@@ -52568,7 +52571,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "448.000000 -2240.000000 176.000000"
-"light" "250"
+"light" "62"
 "target" "target_position72"
 }
 {
@@ -52580,7 +52583,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "256.000000 -2240.000000 176.000000"
-"light" "250"
+"light" "62"
 "target" "target_position73"
 }
 {
@@ -52592,7 +52595,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "64.000000 -2240.000000 176.000000"
-"light" "250"
+"light" "62"
 "target" "target_position74"
 }
 {
@@ -52604,7 +52607,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "-128.000000 -2240.000000 176.000000"
-"light" "250"
+"light" "62"
 "target" "target_position75"
 }
 {
@@ -52616,7 +52619,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "-320.000000 -2240.000000 176.000000"
-"light" "250"
+"light" "62"
 "target" "target_position76"
 }
 {
@@ -52659,7 +52662,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "1512.000000 -1600.000000 416.000000"
-"light" "250"
+"light" "62"
 "target" "target_position77"
 }
 {
@@ -52671,7 +52674,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "2288.000000 -992.000000 704.000000"
-"light" "250"
+"light" "62"
 "target" "target_position78"
 }
 {
@@ -52683,7 +52686,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "2288.000000 -1312.000000 704.000000"
-"light" "250"
+"light" "62"
 "target" "target_position79"
 }
 {
@@ -52695,7 +52698,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "2288.000000 -1568.000000 704.000000"
-"light" "250"
+"light" "62"
 "target" "target_position80"
 }
 {
@@ -52707,7 +52710,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "2144.000000 -1712.000000 704.000000"
-"light" "250"
+"light" "62"
 "target" "target_position81"
 }
 {
@@ -52719,7 +52722,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "1952.000000 -1712.000000 704.000000"
-"light" "250"
+"light" "62"
 "target" "target_position82"
 }
 {
@@ -52731,7 +52734,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "1760.000000 -1712.000000 704.000000"
-"light" "250"
+"light" "62"
 "target" "target_position83"
 }
 {
@@ -52743,7 +52746,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "1568.000000 -1712.000000 704.000000"
-"light" "250"
+"light" "62"
 "target" "target_position84"
 }
 {
@@ -52755,7 +52758,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "1488.000000 -1376.000000 704.000000"
-"light" "250"
+"light" "62"
 "target" "target_position85"
 }
 {
@@ -52767,7 +52770,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "1488.000000 -1184.000000 704.000000"
-"light" "250"
+"light" "62"
 "target" "target_position86"
 }
 {
@@ -52779,7 +52782,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "1488.000000 -1568.000000 704.000000"
-"light" "250"
+"light" "62"
 "target" "target_position87"
 }
 {
@@ -52791,7 +52794,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "1568.000000 -912.000000 704.000000"
-"light" "250"
+"light" "62"
 "target" "target_position88"
 }
 {
@@ -52803,7 +52806,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "1952.000000 -912.000000 704.000000"
-"light" "250"
+"light" "62"
 "target" "target_position90"
 }
 {
@@ -52815,7 +52818,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "2144.000000 -912.000000 704.000000"
-"light" "250"
+"light" "62"
 "target" "target_position91"
 }
 {
@@ -52850,7 +52853,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "1464.000000 -992.000000 648.000000"
-"light" "300"
+"light" "75"
 }
 {
 "classname" "item_armor_small"
@@ -52859,7 +52862,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "2384.000000 -1152.000000 816.000000"
-"light" "100"
+"light" "25"
 }
 {
 "classname" "item_cells"
@@ -52895,7 +52898,7 @@ exx/trim-metalsupp01
 {
 "classname" "light"
 "origin" "1312.000000 -888.000000 696.000000"
-"light" "50"
+"light" "12"
 "target" "target_position1"
 }
 {

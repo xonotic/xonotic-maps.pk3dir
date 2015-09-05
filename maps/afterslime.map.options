@@ -2,5 +2,5 @@
 -light + -bounce 8 -dirtscale 2
 -vis +
 -minimap +
--nosRGB
-Version: 12
+-sRGB
+Version: 12a
