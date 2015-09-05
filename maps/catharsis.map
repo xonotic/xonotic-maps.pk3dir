@@ -1,5 +1,8 @@
 {
 "classname" "worldspawn"
+"author" "Justin"
+"message" "Catharsis"
+"_description" "Medium-sized CTF level with crystals"
 {
 brushDef
 {

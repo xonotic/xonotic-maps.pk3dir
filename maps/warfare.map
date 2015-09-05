@@ -2,6 +2,9 @@
 "classname" "worldspawn"
 "_floodlight" "178 209 255 1024 16"
 "fog" "1 0 0.5 0.8 0.1"
+"_description" "Medium sized map with a central area. Well suited and optimized for duel matches"
+"message" "Warfare"
+"author" "Maddin, Tymo"
 {
 ( -192 -968 56 ) ( -192 -1144 64 ) ( -192 -968 64 ) common/caulk 0 192 0 0.25 0.25 0 0 0
 ( -192 -1144 64 ) ( -208 -1144 56 ) ( -208 -1144 64 ) common/caulk 192 192 0 0.25 0.25 0 0 0
