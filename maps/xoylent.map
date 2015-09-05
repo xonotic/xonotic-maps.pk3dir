@@ -1,8 +1,10 @@
 {
 "classname" "worldspawn"
 "_blocksize" "0 0 0"
-"author" "Severin Meyer, Paul Evers"
+"author" "sev, Strahlemann"
 "license" "GNU GPL version 2 or any later version"
+"_description" "A remake of Soylent"
+"message" "Xoylent"
 {
 ( -432 -560 448 ) ( -392 -560 448 ) ( -432 -656 448 ) exx/floor-clang01b 0 0 0 0.1875 0.1875 134217728 0 0
 ( -688 -552 448 ) ( -688 -648 448 ) ( -688 -552 360 ) common/caulk 0 0 0 0.125 0.125 134217728 0 0

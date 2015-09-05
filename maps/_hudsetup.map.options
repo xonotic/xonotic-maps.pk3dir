@@ -2,4 +2,5 @@
 -vis +
 -light + -bounce 8
 -minimap +
-Version: 5
+-sRGB
+Version: 5a

@@ -2,4 +2,5 @@
 -light + -bounce 8 -dirtscale 2
 -vis +
 -minimap +
-Version: 1b
+-sRGB
+Version: 1d

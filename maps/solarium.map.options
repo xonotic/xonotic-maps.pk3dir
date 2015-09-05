@@ -1,5 +1,6 @@
--bsp + -samplesize 6
+-bsp + 
 -vis +
--light + -bounce 1 -dirty -dirtscale 1 -bouncescale 1 -areascale 0.10
+-light + -bounce 8 -dirty -dirtscale 1 -bouncescale 1 -areascale 0.10
 -minimap +
-Version: 5a
+-sRGB
+Version: 5b
