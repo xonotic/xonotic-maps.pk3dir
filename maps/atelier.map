@@ -31675,13 +31675,13 @@ map_atelier/9techwall06
 "_color" "0.979568 0.871595 0.654459"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "-896.000000 -896.000000 463.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "-90.000000"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "-927.000000 -386.000000 479.000000"
 "model" "models/lights/xonlight02.md3"
 "angle" "-90.000000"
@@ -32209,13 +32209,13 @@ exx/base-metal01
 "_color" "0.52546 0.934157 1"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "-127.000000 -386.000000 479.000000"
 "model" "models/lights/xonlight02.md3"
 "angle" "-90.000000"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "-1248.000000 -64.000000 127.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "-179.999985"
@@ -32228,7 +32228,7 @@ exx/base-metal01
 "_color" "1 0.900877 0.745953"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "-1488.000000 -16.000000 127.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "135.000000"
@@ -32265,7 +32265,7 @@ exx/base-metal01
 "_color" "0.52546 0.934157 1"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "-1536.000000 384.000000 303.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "179.999985"
@@ -33087,7 +33087,7 @@ exx/floor-tile03
 "_color" "0.745953 1 0.989456"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "-1856.000000 416.000000 575.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "179.999985"
@@ -33099,7 +33099,7 @@ exx/floor-tile03
 "_color" "1 0.900877 0.745953"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "-1856.000000 736.000000 575.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "179.999985"
@@ -33111,7 +33111,7 @@ exx/floor-tile03
 "_color" "1 0.900877 0.745953"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "-1711.999878 1392.000000 575.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "134.999985"
@@ -33123,7 +33123,7 @@ exx/floor-tile03
 "_color" "1 0.900877 0.745953"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "-1847.999878 1104.000000 575.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "162.159729"
@@ -33135,7 +33135,7 @@ exx/floor-tile03
 "_color" "1 0.900877 0.745953"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "-1408.000000 1527.999878 575.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "101.168465"
@@ -33147,7 +33147,7 @@ exx/floor-tile03
 "_color" "1 0.900877 0.745953"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "-944.000000 1440.000000 255.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "90.000008"
@@ -33160,7 +33160,7 @@ exx/floor-tile03
 "_color" "1 0.900877 0.745953"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "-512.000000 1440.000000 255.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "90.000008"
@@ -33173,7 +33173,7 @@ exx/floor-tile03
 "_color" "1 0.900877 0.745953"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "-712.000000 1440.000000 255.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "90.000008"
@@ -33186,7 +33186,7 @@ exx/floor-tile03
 "_color" "1 0.900877 0.745953"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "-1087.000000 1346.000000 255.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "135.000015"
@@ -33466,7 +33466,7 @@ exx/base-metal01
 "_color" "0.52546 0.934157 1"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "-800.000000 1464.000000 575.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "179.999985"
@@ -33478,7 +33478,7 @@ exx/base-metal01
 "_color" "1 0.900877 0.745953"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "-831.999878 1152.000000 575.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "134.999985"
@@ -33490,7 +33490,7 @@ exx/base-metal01
 "_color" "1 0.900877 0.745953"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "-223.999969 1119.999878 575.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "44.999985"
@@ -33502,7 +33502,7 @@ exx/base-metal01
 "_color" "1 0.900877 0.745953"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "-1026.000000 735.000000 319.000000"
 "model" "models/lights/xonlight02.md3"
 "angle" "-179.999985"
@@ -33514,7 +33514,7 @@ exx/base-metal01
 "_color" "1 0.900877 0.745953"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "-1088.000000 488.000000 319.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "179.999985"
@@ -33526,7 +33526,7 @@ exx/base-metal01
 "_color" "1 0.900877 0.745953"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "-1088.000000 984.000000 319.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "179.999985"
@@ -33538,7 +33538,7 @@ exx/base-metal01
 "_color" "1 0.900877 0.745953"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "-6.000000 737.000000 319.000000"
 "model" "models/lights/xonlight02.md3"
 "angle" "0.000016"
@@ -33550,7 +33550,7 @@ exx/base-metal01
 "_color" "1 0.900877 0.745953"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "56.000122 984.000000 319.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "0.000010"
@@ -33562,7 +33562,7 @@ exx/base-metal01
 "_color" "1 0.900877 0.745953"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "56.000061 488.000000 319.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "0.000010"
@@ -35210,7 +35210,7 @@ trak5x/floor-tile4e
 "angle" "-179.999985"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "-32.000000 1472.000000 575.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "179.999985"
@@ -35222,7 +35222,7 @@ trak5x/floor-tile4e
 "_color" "1 0.900877 0.745953"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "-264.000000 1472.000000 575.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "179.999985"
@@ -35270,7 +35270,7 @@ trak5x/floor-tile4e
 "_color" "0.52546 0.934157 1"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "-511.000000 -386.000000 767.000000"
 "model" "models/lights/xonlight02.md3"
 "angle" "-90.000000"
@@ -35282,7 +35282,7 @@ trak5x/floor-tile4e
 "_color" "1 0.900877 0.745953"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "-127.000000 -386.000000 767.000000"
 "model" "models/lights/xonlight02.md3"
 "angle" "-90.000000"
@@ -35345,7 +35345,7 @@ trak5x/floor-tile4e
 "angle" "-179.999985"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "-639.999939 -1152.000000 463.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "-179.999985"
@@ -35357,7 +35357,7 @@ trak5x/floor-tile4e
 "_color" "1 0.900877 0.745953"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "320.000061 -1440.000000 479.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "-179.999985"
@@ -35369,7 +35369,7 @@ trak5x/floor-tile4e
 "_color" "1 0.900877 0.745953"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "640.000000 -960.000122 479.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "90.000008"
@@ -35381,7 +35381,7 @@ trak5x/floor-tile4e
 "_color" "1 0.900877 0.745953"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "912.000000 -960.000122 479.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "90.000008"
@@ -35393,7 +35393,7 @@ trak5x/floor-tile4e
 "_color" "1 0.900877 0.745953"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "640.000000 -1280.000122 479.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "90.000008"
@@ -36524,7 +36524,7 @@ trak5x/light-light2a-surfacelight
 "angle" "-179.999985"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "296.000000 -384.000000 799.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "179.999985"
@@ -36536,7 +36536,7 @@ trak5x/light-light2a-surfacelight
 "_color" "1 0.900877 0.745953"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "600.000000 -384.000000 799.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "179.999985"
@@ -36548,7 +36548,7 @@ trak5x/light-light2a-surfacelight
 "_color" "1 0.900877 0.745953"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "1201.000000 -179.000000 767.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "-135.000015"
@@ -37026,7 +37026,7 @@ exx/base-metal01
 "origin" "768.000000 -288.000000 224.000000"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "800.000000 -160.000000 399.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "45.000000"
@@ -37213,7 +37213,7 @@ exx/trim-psimple04
 "_color" "0.745953 1 0.989456"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "-511.000000 -386.000000 479.000000"
 "model" "models/lights/xonlight02.md3"
 "angle" "-90.000000"
@@ -38251,7 +38251,7 @@ exx/floor-tile03
 "_color" "0.820188 0.975052 1"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "800.000000 1248.000000 319.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "179.999985"
@@ -38263,7 +38263,7 @@ exx/floor-tile03
 "_color" "1 0.900877 0.745953"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "800.000000 1056.000000 319.000000"
 "model" "models/lights/xonlight01.md3"
 "angle" "179.999985"
