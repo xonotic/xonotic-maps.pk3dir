@@ -19,6 +19,7 @@ liquids_lava
 liquids_slime
 liquids_water
 logos
+map_atelier
 map_catharsis
 map_courtfun
 map_darkzone
@@ -38,7 +39,6 @@ metaltechx
 model_bigfan01
 model_crate02
 model_desertfactory
-model_lightspeed
 model_teleporters
 model_trak
 model_tree
