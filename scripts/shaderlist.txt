@@ -34,7 +34,7 @@ map_solarium
 map_space-elevator
 map_stormkeep
 map_techassault
-map_unsealedtrial3
+map_unsealed
 map_warfare
 map_xoylent
 metaltechx
