@@ -1,7 +1,8 @@
 {
 "classname" "worldspawn"
 "author" "Ferdinand 'cityy' List"
-"message" "FUSE"
+"message" "Fuse"
+"_description" "Duel Mapping Contest Winner of 2012"
 {
 brushDef
 {

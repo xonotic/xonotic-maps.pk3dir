@@ -1,5 +1,6 @@
 -bsp + -samplesize 4 -minsamplesize 2
--light +
+-light + -bounce 8
 -vis +
 -minimap +
-Version: 4e
+-sRGB
+Version: 4f

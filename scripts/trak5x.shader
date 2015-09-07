@@ -951,6 +951,28 @@ textures/trak5x/light-light1a-surfacelight
 		blendfunc filter
 	}
 }
+textures/trak5x/light-light1a-surfacelight_sRGB
+{
+	qer_editorimage textures/trak5x/light/light_light1a.tga
+	dpoffsetmapping - 4 match8 67
+	
+	q3map_bounceScale 1.25
+
+	q3map_surfacelight 625
+	q3map_lightSubdivide 64
+
+	{
+		map textures/trak5x/light/light_light1a.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
 textures/trak5x/light-light1b
 {
 	qer_editorimage textures/trak5x/light/light_light1b.tga
@@ -978,6 +1000,28 @@ textures/trak5x/light-light1b-surfacelight
 	q3map_bounceScale 1.25
 
 	q3map_surfacelight 2500
+	q3map_lightSubdivide 64
+
+	{
+		map textures/trak5x/light/light_light1b.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/trak5x/light-light1b-surfacelight_sRGB
+{
+	qer_editorimage textures/trak5x/light/light_light1b.tga
+	dpoffsetmapping - 4 match8 67
+	
+	q3map_bounceScale 1.25
+
+	q3map_surfacelight 625
 	q3map_lightSubdivide 64
 
 	{
@@ -1033,6 +1077,28 @@ textures/trak5x/light-light1c-surfacelight
 		blendfunc filter
 	}
 }
+textures/trak5x/light-light1c-surfacelight_sRGB
+{
+	qer_editorimage textures/trak5x/light/light_light1c.tga
+	dpoffsetmapping - 4 match8 67
+	
+	q3map_bounceScale 1.25
+
+	q3map_surfacelight 625
+	q3map_lightSubdivide 64
+
+	{
+		map textures/trak5x/light/light_light1c.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
 textures/trak5x/light-light2a
 {
 	qer_editorimage textures/trak5x/light/light_light2a.tga
@@ -1060,6 +1126,28 @@ textures/trak5x/light-light2a-surfacelight
 	q3map_bounceScale 1.25
 
 	q3map_surfacelight 2500
+	q3map_lightSubdivide 64
+
+	{
+		map textures/trak5x/light/light_light2a.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/trak5x/light-light2a-surfacelight_sRGB
+{
+	qer_editorimage textures/trak5x/light/light_light2a.tga
+	dpoffsetmapping - 4 match8 85
+	
+	q3map_bounceScale 1.25
+
+	q3map_surfacelight 625
 	q3map_lightSubdivide 64
 
 	{
@@ -1115,6 +1203,28 @@ textures/trak5x/light-light2b-surfacelight
 		blendfunc filter
 	}
 }
+textures/trak5x/light-light2b-surfacelight_sRGB
+{
+	qer_editorimage textures/trak5x/light/light_light2b.tga
+	dpoffsetmapping - 4 match8 85
+	
+	q3map_bounceScale 1.25
+
+	q3map_surfacelight 625
+	q3map_lightSubdivide 64
+
+	{
+		map textures/trak5x/light/light_light2b.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
 textures/trak5x/light-light2c
 {
 	qer_editorimage textures/trak5x/light/light_light2c.tga
@@ -1142,6 +1252,28 @@ textures/trak5x/light-light2c-surfacelight
 	q3map_bounceScale 1.25
 
 	q3map_surfacelight 2500
+	q3map_lightSubdivide 64
+
+	{
+		map textures/trak5x/light/light_light2c.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/trak5x/light-light2c-surfacelight_sRGB
+{
+	qer_editorimage textures/trak5x/light/light_light2c.tga
+	dpoffsetmapping - 4 match8 85
+	
+	q3map_bounceScale 1.25
+
+	q3map_surfacelight 625
 	q3map_lightSubdivide 64
 
 	{
@@ -1238,6 +1370,28 @@ textures/trak5x/light-light3a-surfacelight
 		blendfunc filter
 	}
 }
+textures/trak5x/light-light3a-surfacelight_sRGB
+{
+	qer_editorimage textures/trak5x/light/light_light3a.tga
+	dpoffsetmapping - 4 match8 73
+	
+	q3map_bounceScale 1.25
+
+	q3map_surfacelight 625
+	q3map_lightSubdivide 32
+
+	{
+		map textures/trak5x/light/light_light3a.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
 textures/trak5x/light-light3b
 {
 	qer_editorimage textures/trak5x/light/light_light3b.tga
@@ -1265,6 +1419,28 @@ textures/trak5x/light-light3b-surfacelight
 	q3map_bounceScale 1.25
 
 	q3map_surfacelight 2500
+	q3map_lightSubdivide 32
+
+	{
+		map textures/trak5x/light/light_light3b.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/trak5x/light-light3b-surfacelight_sRGB
+{
+	qer_editorimage textures/trak5x/light/light_light3b.tga
+	dpoffsetmapping - 4 match8 73
+	
+	q3map_bounceScale 1.25
+
+	q3map_surfacelight 625
 	q3map_lightSubdivide 32
 
 	{

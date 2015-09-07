@@ -6,6 +6,7 @@
 "spawnflags" "1"
 "_floodlight" "240 240 255 1024 12"
 "fog" "0.075 .7 .4. .3 1 1000 2000"
+"_description" "A classic large scale CTF map supporting other gamemodes as well"
 {
 ( 1728 0 0 ) ( 1728 -256 0 ) ( 1408 0 0 ) trak4x/base-concrete1a 0 -0 0 0.25 0.25 0 0 0
 ( 1408 -256 -64 ) ( 1728 -256 -64 ) ( 1408 0 -64 ) common/caulk -0 0 0 0.5 0.5 0 0 0

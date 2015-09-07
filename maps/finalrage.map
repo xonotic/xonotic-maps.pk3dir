@@ -4,6 +4,7 @@
 "_blocksize" "128"
 "_gridsize" "64 64 128"
 "author" "Munyul Verminard, tZork, L0, proraide"
+"_description" "Small map with brutal fast vertical action"
 {
 ( 64 -80 192 ) ( 64 -104 192 ) ( 64 -104 184 ) exx/base-metal03 0 0 0 0.25 0.25 0 0 0
 ( 80 -64 192 ) ( 64 -64 192 ) ( 64 -64 184 ) common/caulk 0 0 0 0.25 0.25 0 4 0

@@ -1,6 +1,6 @@
 -bsp + -samplesize 6 -np 60
--light + -bounce 8 -dirtscale 2 -bouncescale 1.15 -exposure 150
+-light + -bounce 8 -dirtscale 2 -bouncescale 1.15 
 -vis +
 -minimap +
--nosRGB
-Version: 1a
+-sRGB
+Version: 1b

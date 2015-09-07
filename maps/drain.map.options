@@ -1,7 +1,7 @@
 -scale 1:1.3
 -bsp + -samplesize 6
--light + -dirtscale 2 -bounce 8 -bouncescale 1.2 -exposure 170 -areascale 1.25 -pointscale 1.3 -randomsamples -samples 128
+-light + -dirtscale 2 -bounce 8  -areascale 1.25 -pointscale 1.3 -randomsamples -samples 128
 -vis +
 -minimap +
--nosRGB
-Version: 13d
+-sRGB
+Version: 13f
