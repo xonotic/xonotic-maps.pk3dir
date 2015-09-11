@@ -1,8 +1,10 @@
 {
 "classname" "worldspawn"
-"message" "Loading Dock G-23 by Moo"
+"message" "G-23"
 "_floodlight" "1 0.93 0.7 1024 64"
 "gridsize" "48 48 96"
+"_description" "A small DM map with tight corridors"
+"author" "MooKow"
 {
 ( 704 1344 256 ) ( 704 704 256 ) ( 640 768 256 ) common/caulk 0 0 0 0.25 0.25 0 0 0
 ( 640 1280 192 ) ( 640 768 256 ) ( 640 768 192 ) exx/panel-metal04 0 0 0 0.25 0.25 0 0 0
