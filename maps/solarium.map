@@ -5,6 +5,9 @@
 "atten" "1.5"
 "velocity" "0 0 1"
 "_color" "0 0 0"
+"_description" "Medium sized open map, good for 3 to 6 players"
+"message" "Solarium"
+"author" "theShadow"
 {
 ( 72 -376 0 ) ( 72 -384 0 ) ( -64 -376 0 ) phillipk2x/base-pk02_generic01a 0 0 0 0.25 0.25 0 0 0
 ( 80 -256 8 ) ( -56 -256 8 ) ( 80 -256 -24 ) phillipk2x/base-pk02_generic01a 0 0 0 0.25 0.25 0 0 0

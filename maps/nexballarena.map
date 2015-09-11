@@ -1,5 +1,8 @@
 {
 "classname" "worldspawn"
+"_description" "Small, simple, enclosed arena for finding out who's the true nexball champion! No obstacles in the way..."
+"message" "Nexball Arena"
+"author" "Revenant, Cortez, tZork, CuBe0wL, FruitieX"
 {
 patchDef2
 {

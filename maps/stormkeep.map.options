@@ -1,6 +1,6 @@
--bsp +
+-bsp + 
 -light + -bounce 8 -dirtscale 2
 -vis +
 -minimap +
--nosRGB
-Version: 10a
+-sRGB
+Version: 10b
