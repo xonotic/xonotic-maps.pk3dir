@@ -1,6 +1,6 @@
--bsp +
--light +
+-bsp + -samplesize 8
 -vis +
+-light + -bounce 8
 -minimap +
 -sRGB
 Version: 0.99
