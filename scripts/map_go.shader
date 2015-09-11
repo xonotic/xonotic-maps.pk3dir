@@ -76,16 +76,21 @@ textures/map_go/pipe1_red
 	}
 }
 
-textures/map_go/extragalactic_nebulae_reduced
+textures/map_go/skies_polluted_go
 {
-	qer_editorimage textures/map_go/extragalactic_nebulae_reduced.jpg
+	qer_editorimage textures/skies/polluted_earth.jpg
 	surfaceparm sky
-	surfaceparm nolightmap
-	surfaceparm nodlight
 	surfaceparm noimpact
+	surfaceparm nolightmap
 	surfaceparm nomarks
+	q3map_globaltexture
+	q3map_surfacelight 0
+	surfaceparm sky
 
-	skyparms env/extragalactic_reduced/nebulae - - //farbox cloudheight nearbox
-    q3map_skyLight 40 4 //amount iterations
-	q3map_sunExt 1 0.9 0.8 150 66 36 3 16 //rgb intensity degrees elevation deviance samples
+        nopicmip
+        nomipmaps
+
+	q3map_sunExt 1 0.9 0.9 0 320 30
+	q3map_skylight 0 4
+	skyparms env/polluted_earth/polluted_earth - -
 }

@@ -1,4 +1,4 @@
--bsp + -samplesize 8
+-bsp +
 -vis +
 -light + -bounce 8
 -minimap +
