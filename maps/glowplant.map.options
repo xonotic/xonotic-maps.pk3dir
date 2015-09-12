@@ -1,4 +1,4 @@
--bsp + -samplesize 32 -minsamplesize 2 -np 20
+-bsp + -samplesize 4 -np 20
 -light + -bounce 6 -bouncegrid -dirtscale 1.5
 -vis +
 -minimap +
