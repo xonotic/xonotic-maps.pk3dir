@@ -1,6 +1,6 @@
 textures/map_geoplanetary/wiz1_4_mesh
 {
-	
+
 nopicmip
 	qer_editorimage textures/map_geoplanetary/wiz1_4_mesh.jpg
 	q3map_lightimage textures/map_geoplanetary/wiz1_4_mesh.jpg
@@ -51,6 +51,18 @@ textures/map_geoplanetary/screen
 	
 	animmap .2 textures/map_geoplanetary/xonoticlogo.jpg textures/map_geoplanetary/geoplanetary.jpg 
 }
+}
 
 
+textures/map_geoplanetary/wiz1_4
+{
+
+nopicmip
+	qer_editorimage textures/map_geoplanetary/wiz1_4.jpg
+	q3map_lightimage textures/map_geoplanetary/wiz1_4.jpg
+	
+{	
+map textures/map_geoplanetary/wiz1_4.jpg	
+			
+} 
 }
