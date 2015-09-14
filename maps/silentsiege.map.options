@@ -1,7 +1,7 @@
 -scale 0.9
--bsp +
--light + -dirtscale 2 -bounce 8
+-bsp + -samplesize 4
 -vis +
+-light + -dirtscale 2 -bounce 8
 -minimap +
 -sRGB
 Version: 14f

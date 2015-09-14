@@ -1,6 +1,6 @@
--bsp +
--light + -dirtscale 2 -bounce 8
+-bsp + -samplesize 4
 -vis +
+-light + -dirtscale 2 -bounce 8 -lightmapsize 2048
 -minimap +
 -sRGB
 Version: 11d

@@ -1,6 +1,6 @@
--bsp + -samplesize 6
--light + -fast -deluxe -patchshadows -samples 3  -bounce 8  -bouncegrid -dirty -dirtscale 2
+-bsp + -samplesize 4
 -vis + 
+-light + -deluxe -patchshadows -samples 3  -bounce 8  -bouncegrid -dirty -dirtscale 2 -lightmapsize 2048
 -minimap +
 -sRGB
 Version: 2b
