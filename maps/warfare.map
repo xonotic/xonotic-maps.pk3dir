@@ -1,8 +1,8 @@
 {
 "classname" "worldspawn"
 "_floodlight" "178 209 255 1024 16"
-"fog" "1 0 0.5 0.8 0.1"
-"_description" "Medium sized map with a central area. Well suited and optimized for duel matches"
+"fog" "1 0 0.5 0.8 0.12"
+"_description" "Medium sized map with a central area. Well suited and optimized for duel matches."
 "message" "Warfare"
 "author" "Maddin, Tymo"
 {
@@ -32362,38 +32362,10 @@ exx/base-metal05rust
 }
 {
 "classname" "misc_gamemodel"
-"origin" "45.117275 203.765335 -15.592969"
-"model" "models/map_warfare/cactus.obj"
-"modelscale" "1.700000"
-"angles" "-6.765636 118.298286 13.803299"
-}
-{
-"classname" "misc_gamemodel"
 "origin" "435.049530 749.831360 122.260620"
 "model" "models/map_warfare/cactus.obj"
 "modelscale" "1.700000"
 "angles" "11.806162 119.315575 10.049067"
-}
-{
-"classname" "misc_gamemodel"
-"origin" "-715.604431 -540.102966 477.999847"
-"model" "models/map_warfare/cactus.obj"
-"modelscale" "1.700000"
-"angles" "5.093612 -21.180624 1.177875"
-}
-{
-"classname" "misc_gamemodel"
-"origin" "-797.990234 -165.049042 476.308502"
-"model" "models/map_warfare/cactus.obj"
-"modelscale" "1.700000"
-"angles" "-0.589641 14.992217 9.155036"
-}
-{
-"classname" "misc_gamemodel"
-"origin" "-781.094238 13.795942 475.191956"
-"model" "models/map_warfare/cactus.obj"
-"modelscale" "1.500000"
-"angles" "-6.289028 137.856934 1.316799"
 }
 {
 "classname" "misc_gamemodel"
@@ -32429,4 +32401,36 @@ exx/base-metal05rust
 {
 "classname" "item_shells"
 "origin" "792.000000 632.000000 352.000000"
+}
+{
+"classname" "misc_model"
+"origin" "45.117275 203.765335 -15.592969"
+"model" "models/map_warfare/cactus.obj"
+"modelscale" "1.700000"
+"angles" "-6.765636 118.298286 13.803299"
+"spawnflags" "4"
+}
+{
+"classname" "misc_model"
+"origin" "-715.604431 -540.102966 477.999847"
+"model" "models/map_warfare/cactus.obj"
+"modelscale" "1.700000"
+"angles" "5.093612 -21.180624 1.177875"
+"spawnflags" "4"
+}
+{
+"classname" "misc_model"
+"origin" "-797.990234 -165.049042 476.308502"
+"model" "models/map_warfare/cactus.obj"
+"modelscale" "1.700000"
+"angles" "-0.589641 14.992217 9.155036"
+"spawnflags" "4"
+}
+{
+"classname" "misc_model"
+"origin" "-781.094238 13.795942 475.191956"
+"model" "models/map_warfare/cactus.obj"
+"modelscale" "1.500000"
+"angles" "-6.289028 137.856934 1.316799"
+"spawnflags" "4"
 }

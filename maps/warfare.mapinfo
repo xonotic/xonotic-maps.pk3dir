@@ -1,5 +1,5 @@
 title Warfare
-description Medium sized map with a central area. Well suited and optimized for duel matches
+description Medium sized map with a central area. Well suited and optimized for duel matches.
 author Maddin, Tymo
 cdtrack 15
 has weapons
@@ -10,4 +10,3 @@ gametype ca
 gametype ka
 gametype kh
 gametype ft
-clientsettemp_for_type all r_water 0
