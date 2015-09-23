@@ -1,10 +1,9 @@
 title Huq
-description Medium sized map with good balance for small Team games or duels
+description Description goes here
 author Maddin
 cdtrack 5
 has weapons
 gametype dm
-gametype tdm
 gametype lms
 gametype arena
 gametype ka

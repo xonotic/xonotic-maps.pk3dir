@@ -1,5 +1,5 @@
 -bsp + -samplesize 4
--light + -bounce 8 -dirtscale 2 -lightmapsize 2048 -samplesize 4
+-light + -bounce 3 -bouncescale 4 -dirtscale 2 -samplesize 4
 -vis +
 -minimap + -samples 4
-Version: 1
+Version: 1a
