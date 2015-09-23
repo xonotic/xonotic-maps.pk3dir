@@ -32383,6 +32383,7 @@ exx/base-metal05rust
 "modelscale" "1.700000"
 "angles" "-6.765636 118.298286 13.803299"
 "spawnflags" "4"
+"_receiveshadows" "0"
 }
 {
 "classname" "misc_model"
@@ -32391,6 +32392,7 @@ exx/base-metal05rust
 "modelscale" "1.700000"
 "angles" "5.093612 -21.180624 1.177875"
 "spawnflags" "4"
+"_receiveshadows" "0"
 }
 {
 "classname" "misc_model"
@@ -32399,6 +32401,7 @@ exx/base-metal05rust
 "modelscale" "1.700000"
 "angles" "-0.589641 14.992217 9.155036"
 "spawnflags" "4"
+"_receiveshadows" "0"
 }
 {
 "classname" "misc_model"
@@ -32407,6 +32410,7 @@ exx/base-metal05rust
 "modelscale" "1.500000"
 "angles" "-6.289028 137.856934 1.316799"
 "spawnflags" "4"
+"_receiveshadows" "0"
 }
 {
 "classname" "misc_model"
@@ -32415,6 +32419,7 @@ exx/base-metal05rust
 "modelscale" "1.800000"
 "angles" "-19.621141 -165.325974 -31.031652"
 "spawnflags" "4"
+"_receiveshadows" "0"
 }
 {
 "classname" "misc_model"
@@ -32423,6 +32428,7 @@ exx/base-metal05rust
 "modelscale" "1.800000"
 "angles" "5.276835 47.410706 15.626326"
 "spawnflags" "4"
+"_receiveshadows" "0"
 }
 {
 "classname" "misc_model"
@@ -32431,6 +32437,7 @@ exx/base-metal05rust
 "modelscale" "1.700000"
 "angles" "11.806162 119.315575 10.049067"
 "spawnflags" "4"
+"_receiveshadows" "0"
 }
 {
 "classname" "misc_model"
@@ -32439,6 +32446,7 @@ exx/base-metal05rust
 "modelscale" "1.700000"
 "angles" "4.660039 50.702106 2.371722"
 "spawnflags" "4"
+"_receiveshadows" "0"
 }
 {
 "classname" "misc_model"
@@ -32447,6 +32455,7 @@ exx/base-metal05rust
 "spawnflags" "4"
 "angles" "12.074849 5.873147 -9.703994"
 "modelscale_vec" "1.000000 1.000000 1.300000"
+"_receiveshadows" "0"
 }
 {
 "classname" "misc_model"
@@ -32454,6 +32463,7 @@ exx/base-metal05rust
 "model" "models/map_warfare/cactus.obj"
 "spawnflags" "4"
 "angles" "2.804623 95.043098 -9.026549"
+"_receiveshadows" "0"
 }
 {
 "classname" "misc_model"
