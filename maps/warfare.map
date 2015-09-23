@@ -32368,11 +32368,6 @@ exx/base-metal05rust
 "angles" "4.22424316 45.2526855 0"
 }
 {
-"classname" "info_autoscreenshot"
-"origin" "561.64978 153.942505 247.010666"
-"angles" "13.9910889 -157.664795 0"
-}
-{
 "classname" "item_shells"
 "origin" "792.000000 632.000000 352.000000"
 }
