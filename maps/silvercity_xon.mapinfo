@@ -1,0 +1,16 @@
+title Silver City
+description A very large very open map
+author Forest Hale, Garth Hendy
+_diameter 6067.411133
+_spawnpoints 34
+has weapons
+cdtrack beast-of-insanity
+gametype dm
+gametype tdm
+gametype dom
+gametype lms
+gametype kh
+gametype ka
+gametype ca
+gametype ft
+gametype inf
