@@ -32060,7 +32060,7 @@ exx/base-metal05rust
 {
 "classname" "info_autoscreenshot"
 "origin" "-352.795746 436.263397 546.231445"
-"angles" "13.5955811 -42.791748 0"
+"angles" "14 -43 0"
 }
 {
 "classname" "info_location"
@@ -32365,7 +32365,7 @@ exx/base-metal05rust
 {
 "classname" "info_autoscreenshot"
 "origin" "76.4626083 -1187.55554 541.621399"
-"angles" "4.22424316 45.2526855 0"
+"angles" "4 45 0"
 }
 {
 "classname" "item_shells"
@@ -32480,4 +32480,9 @@ exx/base-metal05rust
 "model" "models/map_warfare/small_rocks.md3"
 "modelscale" "7.000000"
 "spawnflags" "4"
+}
+{
+"classname" "info_autoscreenshot"
+"origin" "616.000000 168.000000 256.000000"
+"angles" "5 205 0"
 }
