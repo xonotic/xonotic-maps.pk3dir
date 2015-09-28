@@ -1135,10 +1135,15 @@ textures/phillipk2x/lights-pk02_light03-surfacelight
 textures/phillipk2x/natural-pk02_rock01
 {
     qer_editorimage textures/phillipk2x/natural/pk02_rock01
+
     dpoffsetmapping - 9.49394606329197426280 match8 168.79024100000000000000
     dpglossintensitymod 3
     dpglossexponentmod 4
+
     q3map_bouncescale 1.25
+    q3map_lightmapsampleoffset 8
+    q3map_nonplanar
+    q3map_shadeangle 90
     {
         map textures/phillipk2x/natural/pk02_rock01
     }
@@ -1153,12 +1158,46 @@ textures/phillipk2x/natural-pk02_rock01
 textures/phillipk2x/natural-pk02_sand01
 {
     qer_editorimage textures/phillipk2x/natural/pk02_sand01
+
     dpoffsetmapping - 5.65502095014472805438 match8 165.28059600000000000000
     dpglossintensitymod 3
     dpglossexponentmod 4
+
     q3map_bouncescale 1.25
+    q3map_lightmapsampleoffset 8
+    q3map_nonplanar
+    q3map_shadeangle 90
     {
         map textures/phillipk2x/natural/pk02_sand01
+    }
+    {
+        map $lightmap
+        rgbgen identity
+        tcgen lightmap
+        blendfunc filter
+    }
+}
+
+textures/phillipk2x/natural-pk02_rock01-sand01-dotproduct
+{
+    qer_editorimage textures/phillipk2x/natural/pk02_rock01-sand01-dotproduct
+
+    dpoffsetmapping - 7 match8 167
+    dpglossintensitymod 3
+    dpglossexponentmod 4
+
+    q3map_bouncescale 1.25
+    q3map_lightmapsampleoffset 8
+    q3map_nonplanar
+    q3map_shadeangle 90
+    q3map_alphamod dotproduct2 ( 0 0 1 )
+    {
+        map textures/phillipk2x/natural/pk02_rock01
+    }
+    {
+        map textures/phillipk2x/natural/pk02_sand01
+        blendfunc blend
+        alphagen vertex
     }
     {
         map $lightmap
