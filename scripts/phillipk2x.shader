@@ -12,6 +12,8 @@ textures/phillipk2x/base-pk02_generic01a
     }
     {
         map $lightmap
+        rgbgen identity
+        tcgen lightmap
         blendfunc filter
     }
 }
@@ -199,6 +201,8 @@ textures/phillipk2x/decals-pk02_dec_num00
     }
     {
         map $lightmap
+        rgbgen identity
+        tcgen lightmap
         blendfunc filter
     }
 }
