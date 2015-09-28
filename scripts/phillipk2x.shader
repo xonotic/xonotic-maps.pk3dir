@@ -222,6 +222,8 @@ textures/phillipk2x/decals-pk02_dec_num01
     }
     {
         map $lightmap
+        rgbgen identity
+        tcgen lightmap
         blendfunc filter
     }
 }
@@ -241,6 +243,8 @@ textures/phillipk2x/decals-pk02_dec_num02
     }
     {
         map $lightmap
+        rgbgen identity
+        tcgen lightmap
         blendfunc filter
     }
 }
@@ -259,6 +263,8 @@ textures/phillipk2x/decals-pk02_dec_num03
     }
     {
         map $lightmap
+        rgbgen identity
+        tcgen lightmap
         blendfunc filter
     }
 }
@@ -278,6 +284,8 @@ textures/phillipk2x/decals-pk02_dec_num04
     }
     {
         map $lightmap
+        rgbgen identity
+        tcgen lightmap
         blendfunc filter
     }
 }
@@ -297,6 +305,8 @@ textures/phillipk2x/decals-pk02_dec_num05
     }
     {
         map $lightmap
+        rgbgen identity
+        tcgen lightmap
         blendfunc filter
     }
 }
@@ -316,6 +326,8 @@ textures/phillipk2x/decals-pk02_dec_num06
     }
     {
         map $lightmap
+        rgbgen identity
+        tcgen lightmap
         blendfunc filter
     }
 }
@@ -335,6 +347,8 @@ textures/phillipk2x/decals-pk02_dec_num07
     }
     {
         map $lightmap
+        rgbgen identity
+        tcgen lightmap
         blendfunc filter
     }
 }
@@ -354,6 +368,8 @@ textures/phillipk2x/decals-pk02_dec_num08
     }
     {
         map $lightmap
+        rgbgen identity
+        tcgen lightmap
         blendfunc filter
     }
 }
@@ -373,6 +389,8 @@ textures/phillipk2x/decals-pk02_dec_num09
     }
     {
         map $lightmap
+        rgbgen identity
+        tcgen lightmap
         blendfunc filter
     }
 }
@@ -392,6 +410,8 @@ textures/phillipk2x/decals-pk02_dec_numa
     }
     {
         map $lightmap
+        rgbgen identity
+        tcgen lightmap
         blendfunc filter
     }
 }
@@ -411,6 +431,8 @@ textures/phillipk2x/decals-pk02_dec_numb
     }
     {
         map $lightmap
+        rgbgen identity
+        tcgen lightmap
         blendfunc filter
     }
 }
@@ -430,6 +452,8 @@ textures/phillipk2x/decals-pk02_dec_numc
     }
     {
         map $lightmap
+        rgbgen identity
+        tcgen lightmap
         blendfunc filter
     }
 }
@@ -439,9 +463,11 @@ textures/phillipk2x/decals-pk02_dec_numc
 textures/phillipk2x/floor-pk02_floor01
 {
     qer_editorimage textures/phillipk2x/floor/pk02_floor01
+
     dpoffsetmapping - .92972729810015567152 match8 159.45891600000000000000
     dpglossintensitymod 3
     dpglossexponentmod 4
+
     q3map_bouncescale 1.25
     {
         map textures/phillipk2x/floor/pk02_floor01
@@ -457,9 +483,11 @@ textures/phillipk2x/floor-pk02_floor01
 textures/phillipk2x/floor-pk02_floor02
 {
     qer_editorimage textures/phillipk2x/floor/pk02_floor02
+
     dpoffsetmapping - 1.24589583156603252831 match8 185.21921500000000000000
     dpglossintensitymod 3
     dpglossexponentmod 4
+
     q3map_bouncescale 1.25
     {
         map textures/phillipk2x/floor/pk02_floor02
@@ -475,9 +503,11 @@ textures/phillipk2x/floor-pk02_floor02
 textures/phillipk2x/floor-pk02_floor03
 {
     qer_editorimage textures/phillipk2x/floor/pk02_floor03
+
     dpoffsetmapping - 1.41485842273839656904 match8 169.98378700000000000000
     dpglossintensitymod 3
     dpglossexponentmod 4
+
     q3map_bouncescale 1.25
     {
         map textures/phillipk2x/floor/pk02_floor03
@@ -493,9 +523,11 @@ textures/phillipk2x/floor-pk02_floor03
 textures/phillipk2x/floor-pk02_floor04
 {
     qer_editorimage textures/phillipk2x/floor/pk02_floor04
+
     dpoffsetmapping - .29796735446294515387 match8 86.57768000000000000000
     dpglossintensitymod 3
     dpglossexponentmod 4
+
     q3map_bouncescale 1.25
     {
         map textures/phillipk2x/floor/pk02_floor04
@@ -511,9 +543,11 @@ textures/phillipk2x/floor-pk02_floor04
 textures/phillipk2x/floor-pk02_floor05
 {
     qer_editorimage textures/phillipk2x/floor/pk02_floor05
+
     dpoffsetmapping - 1.11191599059862519249 match8 93.30956900000000000000
     dpglossintensitymod 3
     dpglossexponentmod 4
+
     q3map_bouncescale 1.25
     {
         map textures/phillipk2x/floor/pk02_floor05
@@ -529,9 +563,11 @@ textures/phillipk2x/floor-pk02_floor05
 textures/phillipk2x/floor-pk02_floor06a
 {
     qer_editorimage textures/phillipk2x/floor/pk02_floor06a
+
     dpoffsetmapping - .34071217533949755594 match8 154.87002000000000000000
     dpglossintensitymod 3
     dpglossexponentmod 4
+
     q3map_bouncescale 1.25
     {
         map textures/phillipk2x/floor/pk02_floor06a
@@ -547,9 +583,11 @@ textures/phillipk2x/floor-pk02_floor06a
 textures/phillipk2x/floor-pk02_floor06b
 {
     qer_editorimage textures/phillipk2x/floor/pk02_floor06b
+
     dpoffsetmapping - .34071217533949755594 match8 154.87002000000000000000
     dpglossintensitymod 3
     dpglossexponentmod 4
+
     q3map_bouncescale 1.25
     {
         map textures/phillipk2x/floor/pk02_floor06b
@@ -565,13 +603,20 @@ textures/phillipk2x/floor-pk02_floor06b
 textures/phillipk2x/floor-pk02_floor07
 {
     qer_editorimage textures/phillipk2x/floor/pk02_floor07
+
     dpoffsetmapping - .99514102977859022244 match8 36.22433900000000000000
     dpglossintensitymod 3
     dpglossexponentmod 4
+
     q3map_bouncescale 1.25
+
     surfaceparm alphashadow
+    surfaceparm trans
+
+    cull none
     {
         map textures/phillipk2x/floor/pk02_floor07
+        alphafunc GT0
     }
     {
         map $lightmap
@@ -584,9 +629,11 @@ textures/phillipk2x/floor-pk02_floor07
 textures/phillipk2x/floor-pk02_floor08a
 {
     qer_editorimage textures/phillipk2x/floor/pk02_floor08a
+
     dpoffsetmapping - 1.61170762745565895176 match8 137.41819300000000000000
     dpglossintensitymod 3
     dpglossexponentmod 4
+
     q3map_bouncescale 1.25
     {
         map textures/phillipk2x/floor/pk02_floor08a
@@ -602,9 +649,11 @@ textures/phillipk2x/floor-pk02_floor08a
 textures/phillipk2x/floor-pk02_floor08b
 {
     qer_editorimage textures/phillipk2x/floor/pk02_floor08b
+
     dpoffsetmapping - 1.31644171780416482041 match8 163.33152700000000000000
     dpglossintensitymod 3
     dpglossexponentmod 4
+
     q3map_bouncescale 1.25
     {
         map textures/phillipk2x/floor/pk02_floor08b
@@ -620,6 +669,7 @@ textures/phillipk2x/floor-pk02_floor08b
 textures/phillipk2x/floor-pk02_floor09a
 {
     qer_editorimage textures/phillipk2x/floor/pk02_floor09a
+
     dpoffsetmapping - .79500322426692573793 match8 105.44708600000000000000
     dpglossintensitymod 3
     dpglossexponentmod 4
@@ -637,6 +687,7 @@ textures/phillipk2x/floor-pk02_floor09a
 textures/phillipk2x/floor-pk02_floor09b
 {
     qer_editorimage textures/phillipk2x/floor/pk02_floor09b
+
     dpoffsetmapping - .79500322426692573793 match8 105.44708600000000000000
     dpglossintensitymod 3
     dpglossexponentmod 4
@@ -654,13 +705,20 @@ textures/phillipk2x/floor-pk02_floor09b
 textures/phillipk2x/floor-pk02_floor10
 {
     qer_editorimage textures/phillipk2x/floor/pk02_floor10
+
     dpoffsetmapping - .44457637879522200035 match8 119.10009400000000000000
     dpglossintensitymod 3
     dpglossexponentmod 4
+
     q3map_bouncescale 1.25
+
     sufraceparm alphashadow
+    surfaceparm trans
+
+    cull none
     {
         map textures/phillipk2x/floor/pk02_floor10
+        alphafunc GT0
     }
     {
         map $lightmap
@@ -673,9 +731,11 @@ textures/phillipk2x/floor-pk02_floor10
 textures/phillipk2x/floor-pk02_floor11
 {
     qer_editorimage textures/phillipk2x/floor/pk02_floor11
+
     dpoffsetmapping - .05513355111310939459 match8 148.97646300000000000000
     dpglossintensitymod 3
     dpglossexponentmod 4
+
     q3map_bouncescale 1.25
     {
         map textures/phillipk2x/floor/pk02_floor11
@@ -691,9 +751,11 @@ textures/phillipk2x/floor-pk02_floor11
 textures/phillipk2x/floor-pk02_floor12a
 {
     qer_editorimage textures/phillipk2x/floor/pk02_floor12a
+
     dpoffsetmapping - .15509745955749549773 match8 89.50909400000000000000
     dpglossintensitymod 3
     dpglossexponentmod 4
+
     q3map_bouncescale 1.25
     {
         map textures/phillipk2x/floor/pk02_floor12a
@@ -709,9 +771,11 @@ textures/phillipk2x/floor-pk02_floor12a
 textures/phillipk2x/floor-pk02_floor12b
 {
     qer_editorimage textures/phillipk2x/floor/pk02_floor12b
+
     dpoffsetmapping - .15509745955749549773 match8 89.50909400000000000000
     dpglossintensitymod 3
     dpglossexponentmod 4
+
     q3map_bouncescale 1.25
     {
         map textures/phillipk2x/floor/pk02_floor12b
@@ -727,13 +791,18 @@ textures/phillipk2x/floor-pk02_floor12b
 textures/phillipk2x/floor-pk02_floor13a
 {
     qer_editorimage textures/phillipk2x/floor/pk02_floor13a
+
     dpoffsetmapping - .40990944512922714868 match8 201.53338100000000000000
     dpglossintensitymod 3
     dpglossexponentmod 4
+
     q3map_bouncescale 1.25
+
     surfaceparm alphashadow
+    surfaceparm trans
     {
         map textures/phillipk2x/floor/pk02_floor13a
+        alphafunc GT0
     }
     {
         map $lightmap
@@ -746,13 +815,18 @@ textures/phillipk2x/floor-pk02_floor13a
 textures/phillipk2x/floor-pk02_floor13b
 {
     qer_editorimage textures/phillipk2x/floor/pk02_floor13b
+
     dpoffsetmapping - .40990944512922714868 match8 201.53338100000000000000
     dpglossintensitymod 3
     dpglossexponentmod 4
+
     q3map_bouncescale 1.25
+
     surfaceparm alphashadow
+    surfaceparm trans
     {
         map textures/phillipk2x/floor/pk02_floor13b
+        alphafunc GT0
     }
     {
         map $lightmap
@@ -765,9 +839,11 @@ textures/phillipk2x/floor-pk02_floor13b
 textures/phillipk2x/floor-pk02_floor_cyl01
 {
     qer_editorimage textures/phillipk2x/floor/pk02_floor_cyl01
+
     dpoffsetmapping - 1.61443858349723811826 match8 73.27379500000000000000
     dpglossintensitymod 3
     dpglossexponentmod 4
+
     q3map_bouncescale 1.25
     {
         map textures/phillipk2x/floor/pk02_floor_cyl01
@@ -783,9 +859,11 @@ textures/phillipk2x/floor-pk02_floor_cyl01
 textures/phillipk2x/floor-pk02_floor_cyl02
 {
     qer_editorimage textures/phillipk2x/floor/pk02_floor_cyl02
+
     dpoffsetmapping - 1.35992158089783171704 match8 223.84258200000000000000
     dpglossintensitymod 3
     dpglossexponentmod 4
+
     q3map_bouncescale 1.25
     {
         map textures/phillipk2x/floor/pk02_floor_cyl02
