@@ -1,11 +1,11 @@
 textures/map_warfare/rocktosoil
 {
     qer_editorimage textures/map_warfare/rocktosoil
-    
+
     dpoffsetmapping - 2 match8 168
-    dpglossintensitymod 2
+    dpglossintensitymod 3
     dpglossexponentmod 4
-    
+
     q3map_lightmapsampleoffset 8
     q3map_nonplanar
     q3map_shadeangle 90
@@ -20,6 +20,8 @@ textures/map_warfare/rocktosoil
     }
     {
         map $lightmap
+        rgbgen identity
+        tcgen lightmap
         blendfunc filter
     }
 }
@@ -28,10 +30,8 @@ textures/map_warfare/env
 {
     qer_editorimage textures/map_warfare/env
     qer_trans 0.5
- 
-    surfaceparm trans
 
-    cull none
+    surfaceparm trans
     {
         map textures/map_warfare/env
         blendfunc add
@@ -51,7 +51,7 @@ textures/map_warfare/floor_panel
     surfaceparm metalsteps
     surfaceparm trans
     surfaceparm nonsolid
- 
+
     q3map_bouncescale 0.75
 
     polygonoffset
@@ -61,6 +61,8 @@ textures/map_warfare/floor_panel
     }
     {
         map $lightmap
+        rgbgen identity
+        tcgen lightmap
         blendfunc filter
     }
 }
@@ -68,7 +70,7 @@ textures/map_warfare/floor_panel
 textures/map_warfare/sky
 {
     qer_editorimage textures/skies/exosystem
-    
+
     surfaceparm noimpact
     surfaceparm nolightmap
     surfaceparm nodlight
@@ -86,15 +88,15 @@ textures/map_warfare/cactus
 {
     qer_editorimage textures/map_warfare/cactus
     qer_alphafunc qequal 0.5
-    
+
     dpoffsetmapping - 2 match8 68
-    dpglossintensitymod 2
+    dpglossintensitymod 3
     dpglossexponentmod 4
-    
+
     surfaceparm trans
     surfaceparm alphashadow
     surfaceparm nonsolid
-    
+
     cull none
     {
         map textures/map_warfare/cactus
@@ -102,6 +104,8 @@ textures/map_warfare/cactus
     }
     {
         map $lightmap
+        rgbgen identity
+        tcgen lightmap
         blendfunc filter
     }
 }
