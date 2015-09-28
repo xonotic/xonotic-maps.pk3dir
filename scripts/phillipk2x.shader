@@ -195,6 +195,9 @@ textures/phillipk2x/decals-pk02_dec_num00
     dpglossexponentmod 4
 
     surfaceparm trans
+
+    polygonoffset
+    sort banner
     {
         map textures/phillipk2x/decals/pk02_dec_num00
         alphafunc GT0
@@ -216,6 +219,9 @@ textures/phillipk2x/decals-pk02_dec_num01
     dpglossexponentmod 4
 
     surfaceparm trans
+
+    polygonoffset
+    sort banner
     {
         map textures/phillipk2x/decals/pk02_dec_num01
         alphafunc GT0
@@ -237,6 +243,9 @@ textures/phillipk2x/decals-pk02_dec_num02
     dpglossexponentmod 4
 
     surfaceparm trans
+
+    polygonoffset
+    sort banner
     {
         map textures/phillipk2x/decals/pk02_dec_num02
         alphafunc GT0
@@ -258,6 +267,9 @@ textures/phillipk2x/decals-pk02_dec_num03
     dpglossexponentmod 4
 
     surfaceparm trans
+
+    polygonoffset
+    sort banner
     {
         map textures/phillipk2x/decals/pk02_dec_num03
     }
@@ -278,6 +290,9 @@ textures/phillipk2x/decals-pk02_dec_num04
     dpglossexponentmod 4
 
     surfaceparm trans
+
+    polygonoffset
+    sort banner
     {
         map textures/phillipk2x/decals/pk02_dec_num04
         alphafunc GT0
@@ -299,6 +314,9 @@ textures/phillipk2x/decals-pk02_dec_num05
     dpglossexponentmod 4
 
     surfaceparm trans
+
+    polygonoffset
+    sort banner
     {
         map textures/phillipk2x/decals/pk02_dec_num05
         alphafunc GT0
@@ -320,6 +338,9 @@ textures/phillipk2x/decals-pk02_dec_num06
     dpglossexponentmod 4
 
     surfaceparm trans
+
+    polygonoffset
+    sort banner
     {
         map textures/phillipk2x/decals/pk02_dec_num06
         alphafunc GT0
@@ -341,6 +362,9 @@ textures/phillipk2x/decals-pk02_dec_num07
     dpglossexponentmod 4
 
     surfaceparm trans
+
+    polygonoffset
+    sort banner
     {
         map textures/phillipk2x/decals/pk02_dec_num07
         alphafunc GT0
@@ -362,6 +386,9 @@ textures/phillipk2x/decals-pk02_dec_num08
     dpglossexponentmod 4
 
     surfaceparm trans
+
+    polygonoffset
+    sort banner
     {
         map textures/phillipk2x/decals/pk02_dec_num08
         alphafunc GT0
@@ -383,6 +410,9 @@ textures/phillipk2x/decals-pk02_dec_num09
     dpglossexponentmod 4
 
     surfaceparm trans
+
+    polygonoffset
+    sort banner
     {
         map textures/phillipk2x/decals/pk02_dec_num09
         alphafunc GT0
@@ -404,6 +434,9 @@ textures/phillipk2x/decals-pk02_dec_numa
     dpglossexponentmod 4
 
     surfaceparm trans
+
+    polygonoffset
+    sort banner
     {
         map textures/phillipk2x/decals/pk02_dec_numa
         alphafunc GT0
@@ -425,6 +458,9 @@ textures/phillipk2x/decals-pk02_dec_numb
     dpglossexponentmod 4
 
     surfaceparm trans
+
+    polygonoffset
+    sort banner
     {
         map textures/phillipk2x/decals/pk02_dec_numb
         alphafunc GT0
@@ -446,6 +482,9 @@ textures/phillipk2x/decals-pk02_dec_numc
     dpglossexponentmod 4
 
     surfaceparm trans
+
+    polygonoffset
+    sort banner
     {
         map textures/phillipk2x/decals/pk02_dec_numc
         alphafunc GT0
