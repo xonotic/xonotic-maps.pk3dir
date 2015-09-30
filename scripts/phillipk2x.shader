@@ -3,9 +3,11 @@
 textures/phillipk2x/base-pk02_generic01a
 {
     qer_editorimage textures/phillipk2x/base/pk02_generic01a
+
     dpoffsetmapping - .09346482113770383774 match8 106.75988500000000000000
     dpglossintensitymod 3
     dpglossexponentmod 4
+
     q3map_bouncescale 1.25
     {
         map textures/phillipk2x/base/pk02_generic01a
@@ -21,9 +23,11 @@ textures/phillipk2x/base-pk02_generic01a
 textures/phillipk2x/base-pk02_generic01b
 {
     qer_editorimage textures/phillipk2x/base/pk02_generic01b
+
     dpoffsetmapping - .09346482113770383774 match8 106.75988500000000000000
     dpglossintensitymod 3
     dpglossexponentmod 4
+
     q3map_bouncescale 1.25
     {
         map textures/phillipk2x/base/pk02_generic01b
@@ -41,9 +45,11 @@ textures/phillipk2x/base-pk02_generic01b
 textures/phillipk2x/ceiling-pk02_ceiling02
 {
     qer_editorimage textures/phillipk2x/ceiling/pk02_ceiling02
+
     dpoffsetmapping - 2.43683954962048605068 match8 145.65134900000000000000
     dpglossintensitymod 3
     dpglossexponentmod 4
+
     q3map_bouncescale 1.25
     {
         map textures/phillipk2x/ceiling/pk02_ceiling02
@@ -59,9 +65,11 @@ textures/phillipk2x/ceiling-pk02_ceiling02
 textures/phillipk2x/ceiling-pk02_ceiling03
 {
     qer_editorimage textures/phillipk2x/ceiling/pk02_ceiling03
+
     dpoffsetmapping - 2.28561453043269128410 match8 217.90076000000000000000
     dpglossintensitymod 3
     dpglossexponentmod 4
+
     q3map_bouncescale 1.25
     {
         map textures/phillipk2x/ceiling/pk02_ceiling03
@@ -79,9 +87,11 @@ textures/phillipk2x/ceiling-pk02_ceiling03
 textures/phillipk2x/computer-pk02_computer01a
 {
     qer_editorimage textures/phillipk2x/computer/pk02_computer01a
+
     dpoffsetmapping - 2.44544444818460746726 match8 146.75764600000000000000
     dpglossintensitymod 3
     dpglossexponentmod 4
+
     q3map_bouncescale 1.25
     {
         map textures/phillipk2x/computer/pk02_computer01a
@@ -97,9 +107,11 @@ textures/phillipk2x/computer-pk02_computer01a
 textures/phillipk2x/computer-pk02_computer01b
 {
     qer_editorimage textures/phillipk2x/computer/pk02_computer01b
+
     dpoffsetmapping - 2.15797648768326187223 match8 172.59897100000000000000
     dpglossintensitymod 3
     dpglossexponentmod 4
+
     q3map_bouncescale 1.25
     {
         map textures/phillipk2x/computer/pk02_computer01b
@@ -115,9 +127,11 @@ textures/phillipk2x/computer-pk02_computer01b
 textures/phillipk2x/computer-pk02_computer01c
 {
     qer_editorimage textures/phillipk2x/computer/pk02_computer01c
+
     dpoffsetmapping - 2.25462705904951047120 match8 184.64593700000000000000
     dpglossintensitymod 3
     dpglossexponentmod 4
+
     q3map_bouncescale 1.25
     {
         map textures/phillipk2x/computer/pk02_computer01c
@@ -133,9 +147,11 @@ textures/phillipk2x/computer-pk02_computer01c
 textures/phillipk2x/computer-pk02_switches01a
 {
     qer_editorimage textures/phillipk2x/computer/pk02_switches01a
+
     dpoffsetmapping - .91496159798169513312 match8 179.71922600000000000000
     dpglossintensitymod 3
     dpglossexponentmod 4
+
     q3map_bouncescale 1.25
     {
         map textures/phillipk2x/computer/pk02_switches01a
@@ -151,9 +167,11 @@ textures/phillipk2x/computer-pk02_switches01a
 textures/phillipk2x/computer-pk02_switches01b
 {
     qer_editorimage textures/phillipk2x/computer/pk02_switches01b
+
     dpoffsetmapping - .85278027354821032070 match8 102.70414000000000000000
     dpglossintensitymod 3
     dpglossexponentmod 4
+
     q3map_bouncescale 1.25
     {
         map textures/phillipk2x/computer/pk02_switches01b
@@ -169,9 +187,11 @@ textures/phillipk2x/computer-pk02_switches01b
 textures/phillipk2x/computer-pk02_switches01c
 {
     qer_editorimage textures/phillipk2x/computer/pk02_switches01c
+
     dpoffsetmapping - .68120712951256245813 match8 89.89403100000000000000
     dpglossintensitymod 3
     dpglossexponentmod 4
+
     q3map_bouncescale 1.25
     {
         map textures/phillipk2x/computer/pk02_switches01c
