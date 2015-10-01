@@ -1,8 +1,8 @@
 {
 "classname" "worldspawn"
 "_floodlight" "178 209 255 1024 16"
-"fog" "1 0 0.5 0.8 0.1"
-"_description" "Medium sized map with a central area. Well suited and optimized for duel matches"
+"fog" "1 0 0.5 0.8 0.12"
+"_description" "Medium sized map with a central area. Well suited and optimized for duel matches."
 "message" "Warfare"
 "author" "Maddin, Tymo"
 {
@@ -9353,21 +9353,21 @@ trak5x/base-pipe1b
 }
 {
 ( -376 -1128 200 ) ( -376 -1128 88 ) ( -364 -1140 88 ) exx/base-metal01 0 0 0 0.25 0.25 134217728 0 0
-( -376 -1128 200 ) ( -400 -1152 200 ) ( -388 -1164 168 ) exx/trim-psimple04 39.3872070313 169.7788085938 -20 0.1787843555 0.1780000031 134217728 0 0
+( -376 -1128 200 ) ( -400 -1152 200 ) ( -388 -1164 168 ) exx/trim-psimple04 39.3872070312 169.7788085938 -20 0.1787843555 0.1780000031 134217728 0 0
 ( -400 -1152 200 ) ( -376 -1128 200 ) ( -388 -1164 200 ) common/caulk 0 0 0 0.25 0.25 134217728 0 0
 ( -400 -1152 88 ) ( -400 -1152 200 ) ( -388 -1164 88 ) common/caulk 0 0 0 0.25 0.25 134217728 0 0
 ( -388 -1164 352 ) ( -364 -1140 352 ) ( -388 -1164 224 ) common/caulk 0 0 0 0.25 0.25 134217728 0 0
 }
 {
 ( -364 -1140 200 ) ( -376 -1128 200 ) ( -376 -1128 88 ) exx/base-metal01 0 0 0 0.25 0.25 134217728 0 0
-( -388 -1164 120 ) ( -400 -1152 88 ) ( -376 -1128 88 ) exx/trim-psimple04 0.4609375 27.5434570313 20 0.1787835211 0.1787800044 134217728 0 0
+( -388 -1164 120 ) ( -400 -1152 88 ) ( -376 -1128 88 ) exx/trim-psimple04 0.4609375 27.5434570312 20 0.1787835211 0.1787800044 134217728 0 0
 ( -388 -1164 88 ) ( -376 -1128 88 ) ( -400 -1152 88 ) common/caulk 0 0 0 0.25 0.25 134217728 0 0
 ( -388 -1164 200 ) ( -400 -1152 88 ) ( -400 -1152 200 ) common/caulk 0 0 0 0.25 0.25 134217728 0 0
 ( -388 -1164 64 ) ( -364 -1140 -64 ) ( -388 -1164 -64 ) common/caulk 0 0 0 0.25 0.25 134217728 0 0
 }
 {
 ( -500 -1004 88 ) ( -488 -1016 88 ) ( -488 -1016 200 ) exx/base-metal01 0 0 0 0.25 0.25 134217728 0 0
-( -524 -1028 168 ) ( -512 -1040 200 ) ( -488 -1016 200 ) exx/trim-psimple04 91.650390625 423.3559570313 19.9999980927 0.1787841767 0.1780000031 134217728 0 0
+( -524 -1028 168 ) ( -512 -1040 200 ) ( -488 -1016 200 ) exx/trim-psimple04 91.650390625 423.3559570312 19.9999980927 0.1787841767 0.1780000031 134217728 0 0
 ( -524 -1028 200 ) ( -488 -1016 200 ) ( -512 -1040 200 ) common/caulk 0 0 0 0.25 0.25 134217728 0 0
 ( -524 -1028 88 ) ( -512 -1040 200 ) ( -512 -1040 88 ) common/caulk 0 0 0 0.25 0.25 134217728 0 0
 ( -524 -1028 224 ) ( -500 -1004 352 ) ( -524 -1028 352 ) common/caulk 0 0 0 0.25 0.25 134217728 0 0
@@ -20232,7 +20232,7 @@ exx/base-metal04
 ( -680 200 360 ) ( -728 200 360 ) ( -680 200 408 ) common/caulk 32 128 -90 0.25 0.25 0 0 0
 ( -680 204 408 ) ( -680 204 360 ) ( -680 192 360 ) common/caulk 32 256 -90 0.25 -0.25 0 0 0
 ( -680 200 360 ) ( -680 216 360 ) ( -728 200 360 ) common/caulk 128 0 -0 0.25 -0.25 0 0 0
-( -680 204 360 ) ( -680 204 408 ) ( -728 204 408 ) trak5x/light-light2a 64 105.6665039063 -90 0.375 0.375 0 0 0
+( -680 204 360 ) ( -680 204 408 ) ( -728 204 408 ) trak5x/light-light2a 64 105.6665039062 -90 0.375 0.375 0 0 0
 ( -728 204 360 ) ( -728 204 408 ) ( -728 192 408 ) common/caulk 32 256 -90 0.25 -0.25 0 0 0
 ( -728 216 408 ) ( -680 216 408 ) ( -728 200 408 ) common/caulk 128 0 -0 0.25 -0.25 0 0 0
 }
@@ -20296,7 +20296,7 @@ exx/base-metal04
 ( -680 200 520 ) ( -728 200 520 ) ( -680 200 568 ) common/caulk 160 128 -90 0.25 0.25 0 0 0
 ( -680 204 568 ) ( -680 204 520 ) ( -680 192 520 ) common/caulk 160 0 -90 0.25 -0.25 0 0 0
 ( -680 200 520 ) ( -680 216 520 ) ( -728 200 520 ) common/caulk 128 0 0 0.25 -0.25 0 0 0
-( -680 204 520 ) ( -680 204 568 ) ( -728 204 568 ) trak5x/light-light2a 106.6666870117 105.6665039063 -90 0.375 0.375 0 0 0
+( -680 204 520 ) ( -680 204 568 ) ( -728 204 568 ) trak5x/light-light2a 106.6666870117 105.6665039062 -90 0.375 0.375 0 0 0
 ( -728 204 520 ) ( -728 204 568 ) ( -728 192 568 ) common/caulk 160 0 -90 0.25 -0.25 0 0 0
 ( -728 216 568 ) ( -680 216 568 ) ( -728 200 568 ) common/caulk 128 0 0 0.25 -0.25 0 0 0
 }
@@ -30147,20 +30147,20 @@ exx/base-metal07rust
 ( -152 -16 64 ) ( -144 -16 -64 ) ( -152 -16 -64 ) common/caulk 0 0 0 0.25 0.25 134217728 0 0
 }
 {
-( -64 183.9999847412 -32 ) ( 8 183.9999847412 -32 ) ( -64 256 -32 ) common/donotenter 0 0 0 0.5 0.5 0 0 0
-( -64 160 56 ) ( -64 160 -32 ) ( -64 256 -32 ) common/donotenter 0 0 0 0.5 0.5 0 0 0
-( 32 256 -32 ) ( 32 256 104 ) ( -64 256 80 ) common/donotenter 0 0 0 0.5 0.5 0 0 0
-( -64 184 56 ) ( -64 256 80 ) ( 8 256 104 ) common/donotenter 0 0 0 0.5 0.5 0 0 0
-( -64 160 -32 ) ( -64 160 56 ) ( 32 256 112 ) common/donotenter 0 0 0 0.5 0.5 0 0 0
+( -64 183.9999847412 -32 ) ( 8 183.9999847412 -32 ) ( -64 256 -32 ) common/botclip 0 0 0 0.5 0.5 0 0 0
+( -64 160 56 ) ( -64 160 -32 ) ( -64 256 -32 ) common/botclip 0 0 0 0.5 0.5 0 0 0
+( 32 256 -32 ) ( 32 256 104 ) ( -64 256 80 ) common/botclip 0 0 0 0.5 0.5 0 0 0
+( -64 184 56 ) ( -64 256 80 ) ( 8 256 104 ) common/botclip 0 0 0 0.5 0.5 0 0 0
+( -64 160 -32 ) ( -64 160 56 ) ( 32 256 112 ) common/botclip 0 0 0 0.5 0.5 0 0 0
 }
 {
-( -216 448 160 ) ( -216 408 160 ) ( -256 448 160 ) common/donotenter 0 0 0 0.25 0.25 0 0 0
-( -216 448 160 ) ( -256 448 160 ) ( -216 448 80 ) common/donotenter 0 0 0 0.25 0.25 0 0 0
-( -192 448 160 ) ( -192 448 80 ) ( -192 408 160 ) common/donotenter 0 0 0 0.25 0.25 0 0 0
-( -256 408 80 ) ( -216 408 80 ) ( -256 448 80 ) common/donotenter 0 0 0 0.25 0.25 0 0 0
-( -256 384 80 ) ( -256 384 160 ) ( -216 384 80 ) common/donotenter 0 0 0 0.25 0.25 0 0 0
-( -256 408 80 ) ( -256 448 80 ) ( -256 408 160 ) common/donotenter 0 0 0 0.25 0.25 0 0 0
-( -192 440 -64 ) ( -200 432 -64 ) ( -192 440 64 ) common/donotenter 0 0 0 0.25 0.25 0 0 0
+( -216 448 160 ) ( -216 408 160 ) ( -256 448 160 ) common/botclip 0 0 0 0.25 0.25 0 0 0
+( -216 448 160 ) ( -256 448 160 ) ( -216 448 80 ) common/botclip 0 0 0 0.25 0.25 0 0 0
+( -192 448 160 ) ( -192 448 80 ) ( -192 408 160 ) common/botclip 0 0 0 0.25 0.25 0 0 0
+( -256 408 80 ) ( -216 408 80 ) ( -256 448 80 ) common/botclip 0 0 0 0.25 0.25 0 0 0
+( -256 384 80 ) ( -256 384 160 ) ( -216 384 80 ) common/botclip 0 0 0 0.25 0.25 0 0 0
+( -256 408 80 ) ( -256 448 80 ) ( -256 408 160 ) common/botclip 0 0 0 0.25 0.25 0 0 0
+( -192 440 -64 ) ( -200 432 -64 ) ( -192 440 64 ) common/botclip 0 0 0 0.25 0.25 0 0 0
 }
 {
 ( -272 128 320 ) ( -272 224 320 ) ( -240 224 320 ) exx/base-metal01 0 0 0 0.25 0.25 0 0 0
@@ -32060,7 +32060,7 @@ exx/base-metal05rust
 {
 "classname" "info_autoscreenshot"
 "origin" "-352.795746 436.263397 546.231445"
-"angles" "13.5955811 -42.791748 0"
+"angles" "14 -43 0"
 }
 {
 "classname" "info_location"
@@ -32186,9 +32186,11 @@ exx/base-metal05rust
 }
 {
 "classname" "misc_model"
-"origin" "-26.000000 133.000000 -20.000000"
+"origin" "-507.999939 -1143.000000 57.999908"
 "model" "models/map_warfare/boulder_1.md3"
 "modelscale" "0.700000"
+"spawnflags" "4"
+"angles" "-5.922283 -8.308860 17.080246"
 }
 {
 "classname" "misc_model"
@@ -32246,10 +32248,11 @@ exx/base-metal05rust
 }
 {
 "classname" "misc_model"
-"origin" "-157.000000 -215.000000 -12.000000"
+"origin" "-315.000000 -1219.000122 76.000015"
 "model" "models/map_warfare/small_rocks.md3"
 "modelscale" "7.000000"
 "spawnflags" "4"
+"angles" "4.682997 0.236063 2.888983"
 }
 {
 "classname" "misc_model"
@@ -32360,72 +32363,126 @@ exx/base-metal05rust
 "spawnflags" "4"
 }
 {
-"classname" "misc_gamemodel"
-"origin" "45.117275 203.765335 -15.592969"
-"model" "models/map_warfare/cactus.obj"
-"modelscale" "1.700000"
-"angles" "-6.765636 118.298286 13.803299"
-}
-{
-"classname" "misc_gamemodel"
-"origin" "435.049530 749.831360 122.260620"
-"model" "models/map_warfare/cactus.obj"
-"modelscale" "1.700000"
-"angles" "11.806162 119.315575 10.049067"
-}
-{
-"classname" "misc_gamemodel"
-"origin" "-715.604431 -540.102966 477.999847"
-"model" "models/map_warfare/cactus.obj"
-"modelscale" "1.700000"
-"angles" "5.093612 -21.180624 1.177875"
-}
-{
-"classname" "misc_gamemodel"
-"origin" "-797.990234 -165.049042 476.308502"
-"model" "models/map_warfare/cactus.obj"
-"modelscale" "1.700000"
-"angles" "-0.589641 14.992217 9.155036"
-}
-{
-"classname" "misc_gamemodel"
-"origin" "-781.094238 13.795942 475.191956"
-"model" "models/map_warfare/cactus.obj"
-"modelscale" "1.500000"
-"angles" "-6.289028 137.856934 1.316799"
-}
-{
-"classname" "misc_gamemodel"
-"origin" "420.221466 -821.656311 472.003845"
-"model" "models/map_warfare/cactus.obj"
-"modelscale" "1.700000"
-"angles" "4.660039 50.702106 2.371722"
-}
-{
-"classname" "misc_gamemodel"
-"origin" "649.648193 -1338.152832 352.140930"
-"model" "models/map_warfare/cactus.obj"
-"modelscale" "1.800000"
-"angles" "-19.621141 -165.325974 -31.031652"
-}
-{
-"classname" "misc_gamemodel"
-"origin" "1180.248657 -817.675537 292.009247"
-"model" "models/map_warfare/cactus.obj"
-"modelscale" "1.800000"
-"angles" "5.276835 47.410706 15.626326"
-}
-{
 "classname" "info_autoscreenshot"
 "origin" "76.4626083 -1187.55554 541.621399"
-"angles" "4.22424316 45.2526855 0"
-}
-{
-"classname" "info_autoscreenshot"
-"origin" "561.64978 153.942505 247.010666"
-"angles" "13.9910889 -157.664795 0"
+"angles" "4 45 0"
 }
 {
 "classname" "item_shells"
 "origin" "792.000000 632.000000 352.000000"
+}
+{
+"classname" "misc_model"
+"origin" "45.117275 203.765335 -15.592969"
+"model" "models/map_warfare/cactus.obj"
+"modelscale" "1.700000"
+"angles" "-6.765636 118.298286 13.803299"
+"spawnflags" "4"
+"_receiveshadows" "0"
+}
+{
+"classname" "misc_model"
+"origin" "-715.604431 -540.102966 477.999847"
+"model" "models/map_warfare/cactus.obj"
+"modelscale" "1.700000"
+"angles" "5.093612 -21.180624 1.177875"
+"spawnflags" "4"
+"_receiveshadows" "0"
+}
+{
+"classname" "misc_model"
+"origin" "-797.990234 -165.049042 476.308502"
+"model" "models/map_warfare/cactus.obj"
+"modelscale" "1.700000"
+"angles" "-0.589641 14.992217 9.155036"
+"spawnflags" "4"
+"_receiveshadows" "0"
+}
+{
+"classname" "misc_model"
+"origin" "-781.094238 13.795942 475.191956"
+"model" "models/map_warfare/cactus.obj"
+"modelscale" "1.500000"
+"angles" "-6.289028 137.856934 1.316799"
+"spawnflags" "4"
+"_receiveshadows" "0"
+}
+{
+"classname" "misc_model"
+"origin" "649.648193 -1338.152832 352.140930"
+"model" "models/map_warfare/cactus.obj"
+"modelscale" "1.800000"
+"angles" "-19.621141 -165.325974 -31.031652"
+"spawnflags" "4"
+"_receiveshadows" "0"
+}
+{
+"classname" "misc_model"
+"origin" "1180.248657 -817.675537 292.009247"
+"model" "models/map_warfare/cactus.obj"
+"modelscale" "1.800000"
+"angles" "5.276835 47.410706 15.626326"
+"spawnflags" "4"
+"_receiveshadows" "0"
+}
+{
+"classname" "misc_model"
+"origin" "435.049530 749.831360 122.260620"
+"model" "models/map_warfare/cactus.obj"
+"modelscale" "1.700000"
+"angles" "11.806162 119.315575 10.049067"
+"spawnflags" "4"
+"_receiveshadows" "0"
+}
+{
+"classname" "misc_model"
+"origin" "420.221466 -821.656311 472.003845"
+"model" "models/map_warfare/cactus.obj"
+"modelscale" "1.700000"
+"angles" "4.660039 50.702106 2.371722"
+"spawnflags" "4"
+"_receiveshadows" "0"
+}
+{
+"classname" "misc_model"
+"origin" "1423.000000 591.000061 130.000092"
+"model" "models/map_warfare/cactus.obj"
+"spawnflags" "4"
+"angles" "12.074849 5.873147 -9.703994"
+"modelscale_vec" "1.000000 1.000000 1.300000"
+"_receiveshadows" "0"
+}
+{
+"classname" "misc_model"
+"origin" "-432.000000 -1180.000122 75.000008"
+"model" "models/map_warfare/cactus.obj"
+"spawnflags" "4"
+"angles" "2.804623 95.043098 -9.026549"
+"_receiveshadows" "0"
+}
+{
+"classname" "misc_model"
+"origin" "-26.000000 133.000000 -20.000000"
+"model" "models/map_warfare/boulder_1.md3"
+"modelscale" "0.700000"
+"spawnflags" "4"
+}
+{
+"classname" "misc_model"
+"origin" "-585.000000 -950.000000 69.000000"
+"model" "models/map_warfare/boulder_1.md3"
+"modelscale" "0.700000"
+"spawnflags" "4"
+}
+{
+"classname" "misc_model"
+"origin" "-157.000000 -215.000000 -12.000000"
+"model" "models/map_warfare/small_rocks.md3"
+"modelscale" "7.000000"
+"spawnflags" "4"
+}
+{
+"classname" "info_autoscreenshot"
+"origin" "616.000000 168.000000 256.000000"
+"angles" "5 205 0"
 }
