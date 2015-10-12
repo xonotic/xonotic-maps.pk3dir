@@ -1,0 +1,6 @@
+-bsp +
+-light + -dirtscale 2 -bounce 8
+-vis +
+-minimap +
+-sRGB
+Version: 8d

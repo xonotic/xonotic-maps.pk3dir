@@ -53,6 +53,7 @@ textures/ex2x/base-chainlink
 
 	surfaceparm trans
 	cull none
+	surfaceparm alphashadow
 
 	{
 		map textures/ex2x/base/base_chainlink.tga
@@ -451,6 +452,28 @@ textures/ex2x/light-beam_red
 
 	{
 		map textures/ex2x/light/light_beam_red.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/ex2x/light-beam_green
+{
+	qer_editorimage textures/ex2x/light/light_beam_green.tga
+	
+	q3map_bounceScale  0.75
+	dpoffsetmapping - 0.5 match8 99
+	dpglossintensitymod  3
+	dpglossexponentmod  4
+
+
+	{
+		map textures/ex2x/light/light_beam_green.tga
 		
 
 	}

@@ -216,6 +216,46 @@ textures/facility114invx/misc-lift02inv
 		blendfunc filter
 	}
 }
+textures/facility114invx/misc-lift02invred
+{
+	qer_editorimage textures/facility114invx/misc/lift02invred.tga
+	dpoffsetmapping - 1 match8 98
+	
+	q3map_bounceScale 1.25
+
+
+	{
+		map textures/facility114invx/misc/lift02invred.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/facility114invx/misc-lift02invgreen
+{
+	qer_editorimage textures/facility114invx/misc/lift02invgreen.tga
+	dpoffsetmapping - 1 match8 98
+	
+	q3map_bounceScale 1.25
+
+
+	{
+		map textures/facility114invx/misc/lift02invgreen.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
 textures/facility114invx/trim-trim00inv
 {
 	qer_editorimage textures/facility114invx/trim/trim00inv.tga
@@ -286,6 +326,26 @@ textures/facility114invx/trim-trim02inv
 
 	{
 		map textures/facility114invx/trim/trim02inv.tga
+		
+
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
+	}
+}
+textures/facility114invx/trim-trim01invg
+{
+	qer_editorimage textures/facility114invx/trim/trim01invg.tga
+	dpoffsetmapping - 1 match8 69
+	
+	q3map_bounceScale 1.25
+
+
+	{
+		map textures/facility114invx/trim/trim01invg.tga
 		
 
 	}
