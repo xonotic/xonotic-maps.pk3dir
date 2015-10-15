@@ -1,17 +1,9 @@
 title Running Man
-description Medium-sized, fast enclosed map supporting multiple gamemodes.
-author Paul Evers, FruitieX
+description Medium-sized, fast enclosed map
+author FruitieX, Cortez, Strahlemann, Debugger
 cdtrack 6
 has weapons
 gametype dm
 gametype lms
-gametype rune
-gametype ctf
-gametype ca
-gametype kh
-gametype ons
-gametype dom
-gametype arena
-gametype ft
 gametype ka
 clientsettemp_for_type all r_water 1
