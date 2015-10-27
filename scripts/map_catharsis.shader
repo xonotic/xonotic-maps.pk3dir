@@ -1,74 +1,74 @@
-textures/map_sacred/spawn_decal
+textures/map_catharsis/spawn_decal
 {
-	qer_editorimage textures/map_sacred/spawn_decal.tga
+	qer_editorimage textures/map_catharsis/spawn_decal.tga
 	surfaceparm	nomarks   
     surfaceparm	trans
 	surfaceparm	nonsolid
     surfaceparm pointlight
 	nopicmip
 	{
-		map textures/map_sacred/spawn_decal.tga
+		map textures/map_catharsis/spawn_decal.tga
 		rgbGen identity
 		blendFunc add
 		tcmod rotate 10
 	}
 	
 }
-textures/map_sacred/spawn_decal_01
+textures/map_catharsis/spawn_decal_01
 {
-	qer_editorimage textures/map_sacred/spawn_decal_01.tga
+	qer_editorimage textures/map_catharsis/spawn_decal_01.tga
 	surfaceparm	nomarks   
     surfaceparm	trans
 	surfaceparm	nonsolid
     surfaceparm pointlight
 	nopicmip
 	{
-		map textures/map_sacred/spawn_decal_01.tga
+		map textures/map_catharsis/spawn_decal_01.tga
 		rgbGen identity
 		blendFunc add		
 	}
 	
 }
-textures/map_sacred/catharsis_decal
+textures/map_catharsis/catharsis_decal
 {
-	qer_editorimage textures/map_sacred/catharsis_decal.tga
+	qer_editorimage textures/map_catharsis/catharsis_decal.tga
 	surfaceparm	nomarks   
     surfaceparm	trans
 	surfaceparm	nonsolid
     surfaceparm pointlight
 	nopicmip
 	{
-		map textures/map_sacred/catharsis_decal.tga
+		map textures/map_catharsis/catharsis_decal.tga
 		rgbGen identity
 		blendFunc add		
 	}
 	
 }
-textures/map_sacred/by_justin
+textures/map_catharsis/by_justin
 {
-	qer_editorimage textures/map_sacred/by_justin.tga
+	qer_editorimage textures/map_catharsis/by_justin.tga
 	surfaceparm	nomarks   
     surfaceparm	trans
 	surfaceparm	nonsolid
     surfaceparm pointlight
 	nopicmip
 	{
-		map textures/map_sacred/by_justin.tga
+		map textures/map_catharsis/by_justin.tga
 		rgbGen identity
 		blendFunc add		
 	}
 	
 }
-textures/map_sacred/samual_easter
+textures/map_catharsis/samual_easter
 {
-	qer_editorimage textures/map_sacred/samual_easter.tga
+	qer_editorimage textures/map_catharsis/samual_easter.tga
 	surfaceparm	nomarks   
     surfaceparm	trans
 	surfaceparm	nonsolid
     surfaceparm pointlight
 	nopicmip
 	{
-		map textures/map_sacred/samual_easter.tga
+		map textures/map_catharsis/samual_easter.tga
 		rgbGen identity
 		blendFunc add		
 	}
@@ -76,9 +76,9 @@ textures/map_sacred/samual_easter
 }
 
 
-textures/map_sacred/chain
+textures/map_catharsis/chain
 {
-	qer_editorimage textures/map_sacred/chain.tga
+	qer_editorimage textures/map_catharsis/chain.tga
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 0.5 match8 204
@@ -88,7 +88,7 @@ textures/map_sacred/chain
 	surfaceparm trans
 	
 	{
-		map textures/map_sacred/chain.tga
+		map textures/map_catharsis/chain.tga
 		tcMod scale 2 2
 		alphafunc GE128
 	}
@@ -100,71 +100,71 @@ textures/map_sacred/chain
 	}
 }
 
-textures/map_sacred/crylink
+textures/map_catharsis/crylink
 {
-	qer_editorimage textures/map_sacred/crylink.tga
+	qer_editorimage textures/map_catharsis/crylink.tga
 	surfaceparm	nomarks   
     surfaceparm	trans
 	surfaceparm	nonsolid
     surfaceparm pointlight
 	nopicmip
 	{
-		map textures/map_sacred/crylink.tga
+		map textures/map_catharsis/crylink.tga
 		rgbGen identity
 		blendFunc add		
 	}
 	
 }
 
-textures/map_sacred/base_decal
+textures/map_catharsis/base_decal
 {
-	qer_editorimage textures/map_sacred/base_decal.tga
+	qer_editorimage textures/map_catharsis/base_decal.tga
 	surfaceparm	nomarks   
     surfaceparm	trans
 	surfaceparm	nonsolid
     surfaceparm pointlight
 	nopicmip
 	{
-		map textures/map_sacred/base_decal.tga
+		map textures/map_catharsis/base_decal.tga
 		rgbGen identity
 		blendFunc add
 		
 	}
 }
-textures/map_sacred/base2_decal
+textures/map_catharsis/base2_decal
 {
-	qer_editorimage textures/map_sacred/base2_decal.tga
+	qer_editorimage textures/map_catharsis/base2_decal.tga
 	surfaceparm	nomarks   
     surfaceparm	trans
 	surfaceparm	nonsolid
     surfaceparm pointlight
 	nopicmip
 	{
-		map textures/map_sacred/base2_decal.tga
+		map textures/map_catharsis/base2_decal.tga
 		rgbGen identity
 		blendFunc add
 		
 	}
 }
 
-textures/map_sacred/50_armor
+textures/map_catharsis/50_armor
 {
-	qer_editorimage textures/map_sacred/50_armor.tga
+	qer_editorimage textures/map_catharsis/50_armor.tga
 	surfaceparm	nomarks   
     surfaceparm	trans
 	surfaceparm	nonsolid
     surfaceparm pointlight
 	nopicmip
 	{
-		map textures/map_sacred/50_armor.tga
+		map textures/map_catharsis/50_armor.tga
 		rgbGen identity
 		blendFunc add		
 	}
 	
 }
-textures/map_sacred/dirt1
+textures/map_catharsis/dirt1
 {
-	qer_editorimage textures/map_sacred/dirt1.tga
+	qer_editorimage textures/map_catharsis/dirt1.tga
 
 	surfaceparm trans
 	surfaceparm nonsolid
@@ -177,14 +177,14 @@ textures/map_sacred/dirt1
 
 
 	{
-		map textures/map_sacred/dirt1.tga
+		map textures/map_catharsis/dirt1.tga
 		blendFunc filter
 		rgbgen identity
 	}
 }
-textures/map_sacred/dirt2
+textures/map_catharsis/dirt2
 {
-	qer_editorimage textures/map_sacred/dirt2
+	qer_editorimage textures/map_catharsis/dirt2
 
 	surfaceparm trans
 	surfaceparm nonsolid
@@ -197,20 +197,20 @@ textures/map_sacred/dirt2
 
 
 	{
-		map textures/map_sacred/dirt2
+		map textures/map_catharsis/dirt2
 		blendFunc filter
 		rgbgen identity
 	}
 }
-textures/map_sacred/red
+textures/map_catharsis/red
 {
-	qer_editorimage textures/map_sacred/red.tga
+	qer_editorimage textures/map_catharsis/red.tga
 	dpoffsetmapping - 1 match8 19
 	
 	q3map_bounceScale 1.25
 
 	{
-		map textures/map_sacred/red.tga
+		map textures/map_catharsis/red.tga
 		
 
 	}
@@ -221,9 +221,9 @@ textures/map_sacred/red
 		blendfunc filter
 	}
 }
-textures/map_sacred/red-surfacelight
+textures/map_catharsis/red-surfacelight
 {
-	qer_editorimage textures/map_sacred/red.tga
+	qer_editorimage textures/map_catharsis/red.tga
 	dpoffsetmapping - 1 match8 19
 	
 	q3map_bounceScale 1.25
@@ -232,7 +232,7 @@ textures/map_sacred/red-surfacelight
 	q3map_lightSubdivide 64
 
 	{
-		map textures/map_sacred/red.tga
+		map textures/map_catharsis/red.tga
 		
 
 	}
@@ -250,13 +250,13 @@ justinterrain
                   q3map_lightmapSampleOffset 3
                   q3map_lightmapSampleSize 64
                   q3map_globalTexture
-     qer_editorimage textures/map_sacred/rock.tga
+     qer_editorimage textures/map_catharsis/rock.tga
                   dpnoshadow
   {
-    map textures/map_sacred/rock.tga
+    map textures/map_catharsis/rock.tga
   }
       {
-         map textures/map_sacred/sand.tga
+         map textures/map_catharsis/sand.tga
                           blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
                           alphagen vertex
       }
