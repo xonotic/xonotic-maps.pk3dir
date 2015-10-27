@@ -1,6 +1,6 @@
 -bsp +
--light + -dirtscale 2 -bounce 8
+-light + -dirtscale 2 -bounce 3 -bouncescale 4
 -vis +
 -minimap +
 -sRGB
-Version: 6b
+Version: 7
