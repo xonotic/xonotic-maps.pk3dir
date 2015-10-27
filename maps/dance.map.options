@@ -1,6 +1,6 @@
--bsp + -samplesize 6
--light + -bounce 8 -dirtscale 2
+-bsp + -samplesize 4
 -vis +
+-light + -bounce 8 -dirtscale 2 -gamma 0.7
 -minimap +
 -sRGB
-Version: 5c
+Version: 5d
