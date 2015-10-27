@@ -2,4 +2,4 @@
 -vis +
 -light + -bounce 8
 -minimap +
-Version: 1b
+Version: 1c
