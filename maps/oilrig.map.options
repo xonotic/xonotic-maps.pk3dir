@@ -1,6 +1,6 @@
 -bsp + -metaadequatescore 99999 -metamaxbboxdistance 16 -np 0.1
--light + -bounce 8 -dirtscale 2 -bouncescale 1.15 -exposure 150 -areascale 1.25 -pointscale 1.4
+-light + -bounce 8 -dirtscale 2 -bouncescale 1.15  -areascale 1.25 -pointscale 1.4
 -vis +
 -minimap +
--nosRGB
-Version: 6c
+-sRGB
+Version: 6e

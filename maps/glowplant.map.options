@@ -1,6 +1,6 @@
--bsp + -samplesize 6 -minsamplesize 2 -np 20
+-bsp + -samplesize 32 -minsamplesize 2 -np 20
 -light + -bounce 6 -bouncegrid -dirtscale 1.5
 -vis +
 -minimap +
--nosRGB
-Version: 14
+-sRGB
+Version: 14a

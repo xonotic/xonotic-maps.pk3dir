@@ -19,6 +19,7 @@ liquids_lava
 liquids_slime
 liquids_water
 logos
+map_atelier
 map_catharsis
 map_courtfun
 map_darkzone
@@ -33,6 +34,7 @@ map_solarium
 map_space-elevator
 map_stormkeep
 map_techassault
+map_warfare
 map_xoylent
 metaltechx
 model_bigfan01
