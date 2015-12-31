@@ -15375,6 +15375,7 @@ map_stormkeep/rock
 "angle" "-179.999985"
 "noise" "sound/map_finalrage/electrified.wav"
 "targetname" "warped_02"
+"volume" "0.4"
 }
 {
 "classname" "misc_model"
