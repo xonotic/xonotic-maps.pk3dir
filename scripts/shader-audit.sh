@@ -342,12 +342,16 @@ parse_shaderstage_post()
 			mainalphagen=$ss_alphagen
 		elif [ x"$ss_alphagen" = x"vertex" ] && ! $textureblending; then
 			case "$mainblendfunc:$mainalphafunc:$ss_blendfunc:$ss_alphafunc" in
-				# TODO check against dp
+				# none, blend
+				none:none:blend:none) textureblending=true ;;
 				none:none:"gl_src_alpha gl_one_minus_src_alpha":none) textureblending=true ;;
-				none:none:filter:none) textureblending=true ;;
+				"gl_one gl_zero":none:blend:none) textureblending=true ;;
+				"gl_one zl_zero":none:"gl_src_alpha gl_one_minus_src_alpha":none) textureblending=true ;;
+				# none, alphafunc
 				none:none:none:g*) textureblending=true ;;
-				"gl_one gl_zero":none:filter:none) textureblending=true ;;
+				none:none:"gl_one gl_zero":g*) textureblending=true ;;
 				"gl_one gl_zero":none:none:g*) textureblending=true ;;
+				"gl_one gl_zero":none:"gl_one gl_zero":g*) textureblending=true ;;
 				*)
 					err "$parsing_shader uses texture blending, but that requires first stage to have no blendfunc/alphatest, and requires second stage to be blendfunc filter"
 					;;
