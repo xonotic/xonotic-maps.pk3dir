@@ -342,17 +342,18 @@ parse_shaderstage_post()
 			mainalphagen=$ss_alphagen
 		elif [ x"$ss_alphagen" = x"vertex" ] && ! $textureblending; then
 			case "$mainblendfunc:$mainalphafunc:$ss_blendfunc:$ss_alphafunc" in
+				# TODO check against dp
 				none:none:"gl_src_alpha gl_one_minus_src_alpha":none) textureblending=true ;;
 				none:none:filter:none) textureblending=true ;;
 				none:none:none:g*) textureblending=true ;;
 				"gl_one gl_zero":none:filter:none) textureblending=true ;;
 				"gl_one gl_zero":none:none:g*) textureblending=true ;;
 				*)
-					err "texture blending requires first stage to have no blendfunc/alphatest, and requires second stage to be blendfunc filter"
+					err "$parsing_shader uses texture blending, but that requires first stage to have no blendfunc/alphatest, and requires second stage to be blendfunc filter"
 					;;
 			esac
 		else
-			err "multistage shader without alphagen vertex, or using more than 2 stages, is not supported by DarkPlaces"
+			err "$parsing_shader, a multistage shader without alphagen vertex, or using more than 2 stages, is not supported by DarkPlaces"
 		fi
 	fi
 }
