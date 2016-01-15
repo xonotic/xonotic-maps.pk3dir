@@ -233,8 +233,8 @@ use_texture()
 					;;
 			esac
 			;;
-		## RULE: textures/FOO/* must use textures/FOO/*, for FOO in decals, liquids_water, liquids_slime, liquids_lava, alphamod
-		textures/decals/*|textures/liquids_*/*|textures/effects_*/*|textures/screens/*|textures/logos/*|textures/alphamod/*)
+		## RULE: textures/FOO/* must use textures/FOO/*, for FOO in decals, liquids_water, liquids_slime, liquids_lava, alphamod, solarpanel
+		textures/decals/*|textures/liquids_*/*|textures/effects_*/*|textures/screens/*|textures/logos/*|textures/alphamod/*|textures/solarpanel/*)
 			pre=`echo "$1" | cut -d / -f 1-2`
 			case "$2" in
 				"$pre"/*)
@@ -342,17 +342,22 @@ parse_shaderstage_post()
 			mainalphagen=$ss_alphagen
 		elif [ x"$ss_alphagen" = x"vertex" ] && ! $textureblending; then
 			case "$mainblendfunc:$mainalphafunc:$ss_blendfunc:$ss_alphafunc" in
+				# none, blend
+				none:none:blend:none) textureblending=true ;;
 				none:none:"gl_src_alpha gl_one_minus_src_alpha":none) textureblending=true ;;
-				none:none:filter:none) textureblending=true ;;
+				"gl_one gl_zero":none:blend:none) textureblending=true ;;
+				"gl_one zl_zero":none:"gl_src_alpha gl_one_minus_src_alpha":none) textureblending=true ;;
+				# none, alphafunc
 				none:none:none:g*) textureblending=true ;;
-				"gl_one gl_zero":none:filter:none) textureblending=true ;;
+				none:none:"gl_one gl_zero":g*) textureblending=true ;;
 				"gl_one gl_zero":none:none:g*) textureblending=true ;;
+				"gl_one gl_zero":none:"gl_one gl_zero":g*) textureblending=true ;;
 				*)
-					err "texture blending requires first stage to have no blendfunc/alphatest, and requires second stage to be blendfunc filter"
+					err "$parsing_shader uses texture blending, but that requires first stage to have no blendfunc/alphatest, and requires second stage to be blendfunc filter"
 					;;
 			esac
 		else
-			err "multistage shader without alphagen vertex, or using more than 2 stages, is not supported by DarkPlaces"
+			err "$parsing_shader, a multistage shader without alphagen vertex, or using more than 2 stages, is not supported by DarkPlaces"
 		fi
 	fi
 }
