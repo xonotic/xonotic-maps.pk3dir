@@ -233,8 +233,8 @@ use_texture()
 					;;
 			esac
 			;;
-		## RULE: textures/FOO/* must use textures/FOO/*, for FOO in decals, liquids_water, liquids_slime, liquids_lava, alphamod
-		textures/decals/*|textures/liquids_*/*|textures/effects_*/*|textures/screens/*|textures/logos/*|textures/alphamod/*)
+		## RULE: textures/FOO/* must use textures/FOO/*, for FOO in decals, liquids_water, liquids_slime, liquids_lava, alphamod, solarpanel
+		textures/decals/*|textures/liquids_*/*|textures/effects_*/*|textures/screens/*|textures/logos/*|textures/alphamod/*|textures/solarpanel/*)
 			pre=`echo "$1" | cut -d / -f 1-2`
 			case "$2" in
 				"$pre"/*)
