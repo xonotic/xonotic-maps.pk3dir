@@ -1,0 +1,9 @@
+title Trident
+description Fight in abandoned building!
+author proraide
+cdtrack 2
+has weapons
+gametype dm
+gametype tdm
+gametype ca
+gametype ft
