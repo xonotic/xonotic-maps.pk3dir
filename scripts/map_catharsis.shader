@@ -162,46 +162,6 @@ textures/map_catharsis/50_armor
 	}
 	
 }
-textures/map_catharsis/dirt1
-{
-	qer_editorimage textures/map_catharsis/dirt1.tga
-
-	surfaceparm trans
-	surfaceparm nonsolid
-	surfaceparm nodlight
-	surfaceparm nolightmap
-
-	polygonOffset
-	sort 6
-	cull none
-
-
-	{
-		map textures/map_catharsis/dirt1.tga
-		blendFunc filter
-		rgbgen identity
-	}
-}
-textures/map_catharsis/dirt2
-{
-	qer_editorimage textures/map_catharsis/dirt2
-
-	surfaceparm trans
-	surfaceparm nonsolid
-	surfaceparm nodlight
-	surfaceparm nolightmap
-
-	polygonOffset
-	sort 6
-	cull none
-
-
-	{
-		map textures/map_catharsis/dirt2
-		blendFunc filter
-		rgbgen identity
-	}
-}
 textures/map_catharsis/red
 {
 	qer_editorimage textures/map_catharsis/red.tga
@@ -242,28 +202,4 @@ textures/map_catharsis/red-surfacelight
 		tcGen lightmap
 		blendfunc filter
 	}
-}
-justinterrain
-          {
-                  q3map_nonplanar
-                  q3map_shadeangle 65
-                  q3map_lightmapSampleOffset 3
-                  q3map_lightmapSampleSize 64
-                  q3map_globalTexture
-     qer_editorimage textures/map_catharsis/rock.tga
-                  dpnoshadow
-  {
-    map textures/map_catharsis/rock.tga
-  }
-      {
-         map textures/map_catharsis/sand.tga
-                          blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
-                          alphagen vertex
-      }
-           
-                  {
-                          map $lightmap
-                          blendfunc GL_DST_COLOR GL_ZERO
-                          rgbGen identity
-                  }
 }
