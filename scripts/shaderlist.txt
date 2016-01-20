@@ -1,6 +1,5 @@
 alphamod
 common
-crystals
 decals
 effects_beam
 effects_forcefield
@@ -39,6 +38,7 @@ map_xoylent
 metaltechx
 model_bigfan01
 model_crate02
+model_crystals
 model_desertfactory
 model_teleporters
 model_trak
