@@ -36,6 +36,7 @@ map_solarium
 map_space-elevator
 map_stormkeep
 map_techassault
+map_trident
 map_warfare
 map_xoylent
 metaltechx
