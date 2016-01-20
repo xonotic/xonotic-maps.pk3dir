@@ -820,6 +820,8 @@ Generic placeholder for inserting MD3 models in game. Requires compilation of ma
 </point>
 
 <point name="misc_gamemodel" color="0 .5 .8" box="-8 -8 -8 8 8 8">
+NOTE: usually misc_clientmodel will predict better and have more fps!
+Use this only if you need to.
 A way to load models from a map by the engine (e.g. self-animated zym models).
 Is non-solid by default.
 The keys below actually apply to most engine-loaded model entities as they are engine features; however, they are described here as they aren't overridden by game code in misc_gamemodel. Its q3map2 keys below will work on any brush entity!
