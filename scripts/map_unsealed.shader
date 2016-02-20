@@ -1,5 +1,6 @@
 unsealdtrialterrain
 	{
+		q3map_forcemeta
 		q3map_nonplanar
 		q3map_shadeangle 65
 		q3map_lightmapSampleOffset 8
@@ -25,6 +26,7 @@ unsealdtrialterrain
 
 models/unsealed/gora
 {
+	q3map_forcemeta
 	dpnoshadow
 	dpglossintensitymod 1
 	dpglossexponentmod 1
@@ -45,6 +47,7 @@ models/unsealed/gora
 
 models/unsealed/jaskinia2
 {
+	q3map_forcemeta
 	dpnoshadow
 	dpglossintensitymod 1
 	dpglossexponentmod 1
@@ -66,6 +69,7 @@ models/unsealed/jaskinia2
 
 models/unsealed/whiterock
 {
+	q3map_forcemeta
 	dpnoshadow
 	dpglossintensitymod 1
 	dpglossexponentmod 1
@@ -87,6 +91,7 @@ models/unsealed/whiterock
 
 models/unsealed/boczna2
 {
+	q3map_forcemeta
 	dpnoshadow
 	dpglossintensitymod 1
 	dpglossexponentmod 1
@@ -108,6 +113,7 @@ models/unsealed/boczna2
 
 models/unsealed/mala
 {
+	q3map_forcemeta
 	dpnoshadow
 	dpglossintensitymod 1
 	dpglossexponentmod 1
@@ -129,6 +135,7 @@ models/unsealed/mala
 
 models/volcanic_mountain/boulder
 {
+	q3map_forcemeta
 	q3map_nonplanar
 	q3map_shadeangle 165
 	q3map_lightmapSampleOffset 8
@@ -149,6 +156,7 @@ models/volcanic_mountain/boulder
 
 models/volcanic_mountain/boulder02
 {
+	q3map_forcemeta
 	q3map_nonplanar
 	q3map_shadeangle 165
 	q3map_lightmapSampleOffset 8
@@ -169,6 +177,7 @@ models/volcanic_mountain/boulder02
 
 models/volcanic_mountain/arc
 	{
+		q3map_forcemeta
 		q3map_nonplanar
 		q3map_shadeangle 165
 		q3map_lightmapSampleOffset 8
@@ -189,6 +198,7 @@ models/volcanic_mountain/arc
 
 models/volcanic_mountain/simplemoutain
 {
+	q3map_forcemeta
 	q3map_nonplanar
 	q3map_shadeangle 165
 	q3map_shadeangle 165
@@ -209,6 +219,7 @@ models/volcanic_mountain/simplemoutain
 
 models/unsealed/bark
 {
+	q3map_forcemeta
 	dpmeshcollisions
 	dpglossintensitymod 1
 	dpglossexponentmod 1
@@ -225,6 +236,7 @@ models/unsealed/bark
 
 models/unsealed/branch
 {
+	q3map_forcemeta
 	qer_trans 0.5
 	surfaceparm trans
 	surfaceparm alphashadow
