@@ -8119,31 +8119,31 @@ brushDef
 }
 {
 "classname" "item_health_small"
-"origin" "272.000000 -640.000000 0.000000"
+"origin" "256.000000 -624.000000 0.000000"
 }
 {
 "classname" "item_health_small"
-"origin" "448.000000 -640.000000 0.000000"
+"origin" "432.000000 -624.000000 0.000000"
 }
 {
 "classname" "item_armor_small"
-"origin" "360.000000 -640.000000 0.000000"
+"origin" "344.000000 -624.000000 0.000000"
 }
 {
 "classname" "item_armor_small"
-"origin" "536.000000 -640.000000 0.000000"
+"origin" "520.000000 -608.000000 0.000000"
 }
 {
 "classname" "item_health_small"
-"origin" "624.000000 -640.000000 0.000000"
+"origin" "608.000000 -592.000000 0.000000"
 }
 {
 "classname" "item_armor_small"
-"origin" "624.000000 -552.000000 0.000000"
+"origin" "624.000000 -504.000000 0.000000"
 }
 {
 "classname" "item_health_small"
-"origin" "624.000000 -464.000000 0.000000"
+"origin" "640.000000 -416.000000 0.000000"
 }
 {
 "classname" "info_autoscreenshot"
