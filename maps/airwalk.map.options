@@ -1,0 +1,6 @@
+-bsp +
+-light + -dirtscale 2
+-vis +
+-minimap +
+-sRGB
+Version: 1
