@@ -1676,6 +1676,26 @@ textures/phillipk2x/trims-pk02_trim_set01b
     }
 }
 
+textures/phillipk2x/trims-pk02_trim_set01c
+{
+    qer_editorimage textures/phillipk2x/trims/pk02_trim_set01c
+
+    dpoffsetmapping - .62306208341793607402 match8 239.27232000000000000000
+    dpglossintensitymod 3
+    dpglossexponentmod 4
+
+    q3map_bouncescale 1.25
+    {
+        map textures/phillipk2x/trims/pk02_trim_set01c
+    }
+    {
+        map $lightmap
+        rgbgen identity
+        tcgen lightmap
+        blendfunc filter
+    }
+}
+
 textures/phillipk2x/trims-pk02_trim_set02a
 {
     qer_editorimage textures/phillipk2x/trims/pk02_trim_set02a
@@ -1707,6 +1727,26 @@ textures/phillipk2x/trims-pk02_trim_set02b
     q3map_bouncescale 1.25
     {
         map textures/phillipk2x/trims/pk02_trim_set02b
+    }
+    {
+        map $lightmap
+        rgbgen identity
+        tcgen lightmap
+        blendfunc filter
+    }
+}
+
+textures/phillipk2x/trims-pk02_trim_set02c
+{
+    qer_editorimage textures/phillipk2x/trims/pk02_trim_set02c
+
+    dpoffsetmapping - .40069274127619293491 match8 236.11586200000000000000
+    dpglossintensitymod 3
+    dpglossexponentmod 4
+
+    q3map_bouncescale 1.25
+    {
+        map textures/phillipk2x/trims/pk02_trim_set02c
     }
     {
         map $lightmap
