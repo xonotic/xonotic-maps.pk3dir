@@ -6160,3 +6160,16 @@ common/base1
 "light" "10"
 "_color" "1 0.1 0"
 }
+{
+"classname" "func_pointparticles"
+"impulse" "50"
+"mdl" "airwalk_jumppad"
+{
+( 416 960 88 ) ( 416 832 88 ) ( 288 960 88 ) common/trigger 0 0 0 0.25 0.25 0 0 0
+( 424 952 88 ) ( 296 952 88 ) ( 424 952 80 ) common/trigger 0 0 0 0.25 0.25 0 0 0
+( 408 968 88 ) ( 408 968 80 ) ( 408 840 88 ) common/trigger 0 0 0 0.25 0.25 0 0 0
+( 288 832 80 ) ( 416 832 80 ) ( 288 960 80 ) common/trigger 0 0 0 0.25 0.25 0 0 0
+( 280 840 80 ) ( 280 840 88 ) ( 408 840 80 ) common/trigger 0 0 0 0.25 0.25 0 0 0
+( 296 824 80 ) ( 296 952 80 ) ( 296 824 88 ) common/trigger 0 0 0 0.25 0.25 0 0 0
+}
+}
