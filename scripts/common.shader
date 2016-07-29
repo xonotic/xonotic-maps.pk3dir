@@ -196,7 +196,6 @@ textures/common/weapclip
     surfaceparm nodraw
     surfaceparm nolightmap
     surfaceparm trans
-    surfaceparm nomarks
 }
 
 //
