@@ -668,6 +668,26 @@ textures/phillipk2x/floor-pk02_floor07
     dpglossexponentmod 4
 
     q3map_bouncescale 1.25
+    {
+        map textures/phillipk2x/floor/pk02_floor07
+    }
+    {
+        map $lightmap
+        rgbgen identity
+        tcgen lightmap
+        blendfunc filter
+    }
+}
+
+textures/phillipk2x/floor-pk02_floor07-trans
+{
+    qer_editorimage textures/phillipk2x/floor/pk02_floor07
+
+    dpoffsetmapping - .99514102977859022244 match8 36.22433900000000000000
+    dpglossintensitymod 3
+    dpglossexponentmod 4
+
+    q3map_bouncescale 1.25
 
     surfaceparm alphashadow
     surfaceparm trans
@@ -770,6 +790,26 @@ textures/phillipk2x/floor-pk02_floor10
     dpglossexponentmod 4
 
     q3map_bouncescale 1.25
+    {
+        map textures/phillipk2x/floor/pk02_floor10
+    }
+    {
+        map $lightmap
+        rgbgen identity
+        tcgen lightmap
+        blendfunc filter
+    }
+}
+
+textures/phillipk2x/floor-pk02_floor10-trans
+{
+    qer_editorimage textures/phillipk2x/floor/pk02_floor10
+
+    dpoffsetmapping - .44457637879522200035 match8 119.10009400000000000000
+    dpglossintensitymod 3
+    dpglossexponentmod 4
+
+    q3map_bouncescale 1.25
 
     sufraceparm alphashadow
     surfaceparm trans
@@ -856,9 +896,31 @@ textures/phillipk2x/floor-pk02_floor13a
     dpglossexponentmod 4
 
     q3map_bouncescale 1.25
+    {
+        map textures/phillipk2x/floor/pk02_floor13a
+    }
+    {
+        map $lightmap
+        rgbgen identity
+        tcgen lightmap
+        blendfunc filter
+    }
+}
+
+textures/phillipk2x/floor-pk02_floor13a-trans
+{
+    qer_editorimage textures/phillipk2x/floor/pk02_floor13a
+
+    dpoffsetmapping - .40990944512922714868 match8 201.53338100000000000000
+    dpglossintensitymod 3
+    dpglossexponentmod 4
+
+    q3map_bouncescale 1.25
 
     surfaceparm alphashadow
     surfaceparm trans
+
+    cull none
     {
         map textures/phillipk2x/floor/pk02_floor13a
         alphafunc GT0
@@ -880,9 +942,31 @@ textures/phillipk2x/floor-pk02_floor13b
     dpglossexponentmod 4
 
     q3map_bouncescale 1.25
+    {
+        map textures/phillipk2x/floor/pk02_floor13b
+    }
+    {
+        map $lightmap
+        rgbgen identity
+        tcgen lightmap
+        blendfunc filter
+    }
+}
+
+textures/phillipk2x/floor-pk02_floor13b-trans
+{
+    qer_editorimage textures/phillipk2x/floor/pk02_floor13b
+
+    dpoffsetmapping - .40990944512922714868 match8 201.53338100000000000000
+    dpglossintensitymod 3
+    dpglossexponentmod 4
+
+    q3map_bouncescale 1.25
 
     surfaceparm alphashadow
     surfaceparm trans
+
+    cull none
     {
         map textures/phillipk2x/floor/pk02_floor13b
         alphafunc GT0
