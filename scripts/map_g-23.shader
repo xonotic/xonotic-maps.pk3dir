@@ -1,6 +1,6 @@
 textures/map_g-23/conveyor_belt
 {
-	qer_editorimage textures/map_g-23/conveyorbelt/conveyorbelt.tga
+	qer_editorimage textures/exx/trim/trim_psimple05.tga
 	surfaceparm metalsteps
 	surfaceparm nomarks // decals on tcmod = stupid
 	q3map_bounceScale  1.5
@@ -9,7 +9,7 @@ textures/map_g-23/conveyor_belt
 	dpglossexponentmod  4
 	
 	{
-		map textures/map_g-23/conveyorbelt/conveyorbelt.tga
+		map textures/exx/trim/trim_psimple05.tga
 		tcMod scroll 0 0.25
 	}
 }

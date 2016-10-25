@@ -1,11 +1,14 @@
-title Leave'em behind
-description A very small race map.
-author C.Brutail, Cortez
-cdtrack 10
-settemp_for_type all g_start_weapon_shotgun 0
-//settemp_for_type all g_start_weapon_laser 0
+title Leave'em Behind
+description A very small race map
+author CuBe0wL, Cortez
+cdtrack 11
+settemp_for_type all g_balance_shotgun_weaponstart 0
+settemp_for_type all g_balance_shotgun_weaponstartoverride 1
+//settemp_for_type all g_balance_blaster_weaponstart 0
+//settemp_for_type all g_balance_blaster_weaponstartoverride 1
 // uncomment this if you added weapon pickups: has weapons
 gametype rc timelimit=10 qualifying_timelimit=5
+gametype cts
 // optional: fog density red green blue alpha mindist maxdist
 // optional: settemp_for_type (all|gametypename) cvarname value
 // optional: clientsettemp_for_type (all|gametypename) cvarname value

@@ -1,6 +1,0 @@
--bsp +
--light + -bounce 8
--vis +
--minimap +
--nosRGB
-Version: 2
