@@ -4,10 +4,8 @@ author FruitieX, dublpaws, Debugger
 cdtrack 10
 has weapons
 gametype ctf
-gametype lms
 gametype kh
 gametype ft
 gametype ca
-gametype ka
 
 clientsettemp_for_type all r_shadow_realtime_world 0 // Workaround to fix problem with Realtime world lighting
