@@ -4,8 +4,8 @@ author CuBe0wL, Cortez
 cdtrack 11
 settemp_for_type all g_balance_shotgun_weaponstart 0
 settemp_for_type all g_balance_shotgun_weaponstartoverride 1
-//settemp_for_type all g_balance_blaster_wepaonstart 0
-//settemp_for_type all g_balance_blaster_wepaonstartoverride 1
+//settemp_for_type all g_balance_blaster_weaponstart 0
+//settemp_for_type all g_balance_blaster_weaponstartoverride 1
 // uncomment this if you added weapon pickups: has weapons
 gametype rc timelimit=10 qualifying_timelimit=5
 gametype cts
