@@ -39966,49 +39966,49 @@ common/clip
 {
 "classname" "target_speaker"
 "origin" "1032.000000 672.000000 656.000000"
-"noise" "sound/machines/Flourescent-Loop(Stereo).wav"
+"noise" "sound/machines/fluorescent_stereo_looped.wav"
 "spawnflags" "1"
 }
 {
 "classname" "target_speaker"
 "origin" "-624.000000 832.000000 488.000000"
-"noise" "sound/machines/Flourescent-Loop(Stereo).wav"
+"noise" "sound/machines/fluorescent_stereo_looped.wav"
 "spawnflags" "1"
 }
 {
 "classname" "target_speaker"
 "origin" "-400.000000 832.000000 488.000000"
-"noise" "sound/machines/Flourescent-Loop(Stereo).wav"
+"noise" "sound/machines/fluorescent_stereo_looped.wav"
 "spawnflags" "1"
 }
 {
 "classname" "target_speaker"
 "origin" "-1544.000000 920.000000 488.000000"
-"noise" "sound/machines/Flourescent-Loop(Stereo).wav"
+"noise" "sound/machines/fluorescent_stereo_looped.wav"
 "spawnflags" "1"
 }
 {
 "classname" "target_speaker"
 "origin" "-1544.000000 608.000000 488.000000"
-"noise" "sound/machines/Flourescent-Loop(Stereo).wav"
+"noise" "sound/machines/fluorescent_stereo_looped.wav"
 "spawnflags" "1"
 }
 {
 "classname" "target_speaker"
 "origin" "-152.000000 -1000.000000 584.000000"
-"noise" "sound/machines/Flourescent-Loop(Stereo).wav"
+"noise" "sound/machines/fluorescent_stereo_looped.wav"
 "spawnflags" "1"
 }
 {
 "classname" "target_speaker"
 "origin" "-144.000000 -1296.000000 584.000000"
-"noise" "sound/machines/Flourescent-Loop(Stereo).wav"
+"noise" "sound/machines/fluorescent_stereo_looped.wav"
 "spawnflags" "1"
 }
 {
 "classname" "target_speaker"
 "origin" "400.000000 -1000.000000 584.000000"
-"noise" "sound/machines/Flourescent-Loop(Stereo).wav"
+"noise" "sound/machines/fluorescent_stereo_looped.wav"
 "spawnflags" "1"
 }
 {

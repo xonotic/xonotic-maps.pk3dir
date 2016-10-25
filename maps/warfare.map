@@ -31385,13 +31385,13 @@ exx/base-metal05rust
 {
 "classname" "target_speaker"
 "origin" "648.000000 -544.000000 216.000000"
-"noise" "sound/ambient/machine3.ogg"
+"noise" "sound/ambient/machine3.wav"
 "spawnflags" "1"
 }
 {
 "classname" "target_speaker"
 "origin" "1144.000000 672.000000 216.000000"
-"noise" "sound/ambient/machine3.ogg"
+"noise" "sound/ambient/machine3.wav"
 "spawnflags" "1"
 }
 {
@@ -31606,8 +31606,8 @@ exx/base-metal05rust
 "lip" "2"
 "wait" "3"
 "targetname" "elevator"
-"noise1" "sound/map_warfare/elevator_stop.ogg"
-"noise2" "sound/map_warfare/elevator_move.ogg"
+"noise1" "sound/map_warfare/elevator_stop.wav"
+"noise2" "sound/map_warfare/elevator_move.wav"
 {
 ( -624 432 144 ) ( -808 432 144 ) ( -808 264 144 ) exx/base-metal04 0 0 0 0.25 0.25 0 0 0
 ( -792 264 160 ) ( -792 432 160 ) ( -608 432 160 ) exx/base-metal04 0 0 0 0.25 0.25 0 0 0
