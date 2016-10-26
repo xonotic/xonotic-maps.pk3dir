@@ -95,7 +95,7 @@
 			}
 		}
 		*SUBMATERIAL 2 {
-			*MATERIAL_NAME "textures/phillipk2x/lights-pk02_light02d-surfacelight"
+			*MATERIAL_NAME "textures/phillipk2x/lights-pk02_light02c-surfacelight"
 			*MATERIAL_CLASS "Standard"
 			*MATERIAL_AMBIENT 0.5880	0.5880	0.5880
 			*MATERIAL_DIFFUSE 0.5880	0.5880	0.5880
@@ -114,7 +114,7 @@
 				*MAP_CLASS "Bitmap"
 				*MAP_SUBNO 1
 				*MAP_AMOUNT 1.0000
-				*BITMAP "textures/phillipk2x/lights-pk02_light02d-surfacelight"
+				*BITMAP "textures/phillipk2x/lights-pk02_light02c-surfacelight"
 				*MAP_TYPE Screen
 				*UVW_U_OFFSET 0.0000
 				*UVW_V_OFFSET 0.0000
@@ -323,7 +323,7 @@
 			}
 		}
 		*SUBMATERIAL 3 {
-			*MATERIAL_NAME "textures/phillipk2x/lights-pk02_light02d-surfacelight"
+			*MATERIAL_NAME "textures/phillipk2x/lights-pk02_light02c-surfacelight"
 			*MATERIAL_CLASS "Standard"
 			*MATERIAL_AMBIENT 0.5880	0.5880	0.5880
 			*MATERIAL_DIFFUSE 0.5880	0.5880	0.5880
@@ -342,7 +342,7 @@
 				*MAP_CLASS "Bitmap"
 				*MAP_SUBNO 1
 				*MAP_AMOUNT 1.0000
-				*BITMAP "textures/phillipk2x/lights-pk02_light02d-surfacelight"
+				*BITMAP "textures/phillipk2x/lights-pk02_light02c-surfacelight"
 				*MAP_TYPE Screen
 				*UVW_U_OFFSET 0.0000
 				*UVW_V_OFFSET 0.0000
