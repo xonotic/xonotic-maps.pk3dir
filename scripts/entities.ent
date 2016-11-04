@@ -431,13 +431,13 @@ Pink team's player spawning location, but there is no game mode to use this yet.
 <real key="restriction" name="restriction">when 1, only bots can spawn here; when 2, only humans can spawn here (be careful with these, or the game will crash because someone cannot spawn)</real>
 </point>
 
-<point name="item_armor_large" color=".4 .8 .4" box="-30 -30 0 30 30 32">
+<point name="item_armor_mega" color=".4 .8 .4" box="-30 -30 0 30 30 32">
 Large Armor (default 100 armor points)
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 30)</real>
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
-<real key="armorvalue" name="armorvalue">amount of armor it gives (default: 100 (g_pickup_armorlarge))</real>
-<real key="max_armorvalue" name="max_armorvalue">max of armor it increases to (default: 999 (g_pickup_armorlarge_max))</real>
+<real key="armorvalue" name="armorvalue">amount of armor it gives (default: 100 (g_pickup_armormega))</real>
+<real key="max_armorvalue" name="max_armorvalue">max of armor it increases to (default: 999 (g_pickup_armormega_max))</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
@@ -451,8 +451,8 @@ Big Armor (default 50 armor points)
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 20)</real>
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
-<real key="armorvalue" name="armorvalue">amount of armor it gives (default: 50 (g_pickup_armorlarge))</real>
-<real key="max_armorvalue" name="max_armorvalue">max of armor it increases to (default: 999 (g_pickup_armorlarge_max))</real>
+<real key="armorvalue" name="armorvalue">amount of armor it gives (default: 50 (g_pickup_armorbig))</real>
+<real key="max_armorvalue" name="max_armorvalue">max of armor it increases to (default: 999 (g_pickup_armorbig_max))</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
