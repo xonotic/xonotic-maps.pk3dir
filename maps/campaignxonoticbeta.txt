@@ -5,7 +5,7 @@
 "ctf","dance","9","3","3",,,"Capture the Flag: Dance","In CTF you have to take the other teams flag and bring it to your base. Also your own flag has to be in your base for a successful capture!\n3 captures to win. "
 "dm","g-23","6","3","15",,,"Deathmatch: Docking Station G-23","Again a DM match, but the bots are slightly better now."
 "dom","atelier","11","4","50",,,"Domination: Atelier","Defend the control points and kill intruders to win."
-"kh","runningmanctf","4","5","500",,,"Key Hunt: Running Man","Every team holds a key. You have to collect them (kill key holders and pick them up) and meet with the other key holder in your team."
+"kh","runningmanctf","5","5","500",,,"Key Hunt: Running Man","Every team holds a key. You have to collect them (kill key holders and pick them up) and meet with the other key holder in your team."
 "ctf","catharsis","13","5","5",,,"Capture the Flag: Catharsis","Another crowded CTF experience before you jump into the Multiplayer."
 "dm","solarium","8","5","15",,"g_nix 1","[Special] Deathmatch: Solarium","NIX: In this mutator everyone will spawn with the same weapon, but the weapon will change randomly after some time."
 "ka","runningman","6","6","15",,,"Keepaway: Running Man","Pick up the ball and frag everything that moves!\nHint: You can shoot through warpzones!"
