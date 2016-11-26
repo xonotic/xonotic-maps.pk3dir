@@ -1,7 +1,7 @@
--scale 0.8
+-scale 0.9
 -bsp +
 -light + -bounce 8 -dirtscale 2
 -vis +
 -minimap +
 -sRGB
-Version: 4
+Version: 5
