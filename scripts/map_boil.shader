@@ -25,3 +25,17 @@ textures/map_boil/brush
 		rgbgen identity
 	}
 }
+
+textures/map_boil/frogg
+{
+	qer_editorimage textures/map_boil/frogg
+	surfaceparm trans
+	surfaceparm nonsolid
+	polygonOffset
+	cull none
+	{
+		map textures/map_boil/frogg
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		rgbgen identity
+	}
+}
