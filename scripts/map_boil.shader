@@ -5,6 +5,7 @@ textures/map_boil/credit
 	surfaceparm nonsolid
 	polygonOffset
 	cull none
+	nopicmip
 	{
 		map textures/map_boil/credit
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
@@ -19,6 +20,7 @@ textures/map_boil/brush
 	surfaceparm nonsolid
 	polygonOffset
 	cull none
+	nopicmip
 	{
 		map textures/map_boil/brush
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
@@ -33,6 +35,7 @@ textures/map_boil/frogg
 	surfaceparm nonsolid
 	polygonOffset
 	cull none
+	nopicmip
 	{
 		map textures/map_boil/frogg
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
