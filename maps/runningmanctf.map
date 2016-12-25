@@ -36367,7 +36367,7 @@ effects_healpod/healpod1_d
 }
 {
 "classname" "onslaught_generator"
-"origin" "784.000000 1104.000000 296.000000"
+"origin" "784.000000 968.000000 296.000000"
 "team" "14"
 "targetname" "redgen1"
 "angle" "-90.000000"
@@ -36376,7 +36376,7 @@ effects_healpod/healpod1_d
 "classname" "onslaught_controlpoint"
 "origin" "-80.000000 -208.000000 0.000000"
 "targetname" "redcp1"
-"message" "Big Red room"
+"message" "Big Blue room"
 "angle" "-90.000000"
 }
 {
@@ -36402,10 +36402,10 @@ effects_healpod/healpod1_d
 }
 {
 "classname" "onslaught_generator"
-"origin" "-560.000000 2448.000000 296.000000"
+"origin" "-696.000000 2448.000000 296.000000"
 "team" "5"
 "targetname" "redgen2"
-"angle" "0.000003"
+"angle" "-179.999985"
 }
 {
 "classname" "onslaught_controlpoint"
