@@ -19803,7 +19803,7 @@ exx/base-metal03
 "origin" "-640.000000 1600.000000 -32.000000"
 }
 {
-"classname" "item_armor_large"
+"classname" "item_armor_mega"
 "origin" "-910.000000 -160.000000 72.000000"
 }
 {
@@ -26905,7 +26905,7 @@ exx/base-metal03
 "origin" "-992.000000 1056.000000 -32.000000"
 }
 {
-"classname" "item_health_large"
+"classname" "item_health_big"
 "origin" "-448.000000 -448.000000 -32.000000"
 }
 {

@@ -41746,7 +41746,7 @@ brushDef
 "light" "300"
 }
 {
-"classname" "item_armor_large"
+"classname" "item_armor_mega"
 "origin" "-52.000000 3572.000000 -52.000000"
 }
 {
@@ -41933,7 +41933,7 @@ brushDef
 "origin" "704.000000 5796.000000 -80.000000"
 }
 {
-"classname" "item_health_large"
+"classname" "item_health_big"
 "origin" "-736.000000 6848.000000 -240.000000"
 }
 {
@@ -42159,7 +42159,7 @@ brushDef
 "origin" "-800.000000 1308.000000 -80.000000"
 }
 {
-"classname" "item_health_large"
+"classname" "item_health_big"
 "origin" "640.000000 256.000000 -240.000000"
 }
 {

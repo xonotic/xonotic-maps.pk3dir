@@ -31037,7 +31037,7 @@ brushDef
 }
 }
 {
-"classname" "item_health_large"
+"classname" "item_health_big"
 "origin" "-96.000000 -480.000000 -376.000000"
 }
 {
