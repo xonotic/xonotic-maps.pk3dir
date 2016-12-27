@@ -1,4 +1,4 @@
--scale 0.9
+-scale 0.8
 -bsp +
 -light + -bounce 8 -dirtscale 2
 -vis +
