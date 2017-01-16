@@ -25115,7 +25115,7 @@ trak5x/base-base1a
 "_color" ".3 .7 1"
 }
 {
-"classname" "item_armor_large"
+"classname" "item_armor_mega"
 "origin" "672.000000 -2528.000000 184.000000"
 }
 {
@@ -25952,7 +25952,7 @@ trak5x/base-base1a
 "_color" "1 0 0"
 }
 {
-"classname" "item_armor_large"
+"classname" "item_armor_mega"
 "origin" "-808.000000 -184.000000 152.000000"
 "angle" "-90.000000"
 }

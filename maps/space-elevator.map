@@ -28039,7 +28039,7 @@ effects_jumppad/jumppadfx1_a
 "angle" "90.000000"
 }
 {
-"classname" "item_health_large"
+"classname" "item_health_big"
 "origin" "704.000000 0.000000 -208.000000"
 "spawnflags" "1"
 }
@@ -28104,7 +28104,7 @@ effects_jumppad/jumppadfx1_a
 "angle" "90.000000"
 }
 {
-"classname" "item_health_large"
+"classname" "item_health_big"
 "origin" "0.000000 -3264.000000 544.000000"
 "angle" "90.000000"
 }
@@ -28123,7 +28123,7 @@ effects_jumppad/jumppadfx1_a
 "origin" "0.000000 -320.000000 160.000000"
 }
 {
-"classname" "item_armor_large"
+"classname" "item_armor_mega"
 "origin" "0.000000 0.000000 -104.000000"
 "spawnflags" "1"
 }
@@ -28141,7 +28141,7 @@ effects_jumppad/jumppadfx1_a
 "spawnflags" "1"
 }
 {
-"classname" "item_health_large"
+"classname" "item_health_big"
 "origin" "-704.000000 0.000000 -208.000000"
 "spawnflags" "1"
 }
@@ -29135,7 +29135,7 @@ effects_jumppad/jumppadfx1_a
 "angle" "-90.000000"
 }
 {
-"classname" "item_health_large"
+"classname" "item_health_big"
 "origin" "0.000000 3264.000000 544.000000"
 "angle" "-90.000000"
 }

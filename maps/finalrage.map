@@ -15060,7 +15060,7 @@ map_stormkeep/rock
 "netname" "Mega Health room"
 }
 {
-"classname" "item_armor_large"
+"classname" "item_armor_mega"
 "origin" "432.000000 1444.000000 312.000000"
 }
 {

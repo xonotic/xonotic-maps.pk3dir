@@ -43444,7 +43444,7 @@ trak5x/base-pipe1a
 "angle" "-135.000000"
 }
 {
-"classname" "item_armor_large"
+"classname" "item_armor_mega"
 "origin" "-384 0 -192"
 }
 {
@@ -43541,7 +43541,7 @@ trak5x/base-pipe1a
 "origin" "-64 816 296"
 }
 {
-"classname" "item_health_large"
+"classname" "item_health_big"
 "origin" "-1472 128 632"
 }
 {
