@@ -13,7 +13,7 @@
 "rc","leave_em_behind","0","0","2400",,,"Race: Leave'em behind","It's a race, so run as fast as you can! You can try to boost yourself with the Blaster (weapon 1) if you shoot at the wall or under your feet. Also hold your Jump key to gain speed ('Bunnyhopping').\nTo proceed you need to get a time under 24 seconds."
 "dm","drain","6","6","15",,"g_instagib 1","[Special] Deathmatch: Drain","InstaGib! Everyone has got one weapon - the Vaporizer.\nYour opponent will be dead if you hit him with it (unless he picked up a powerup like 'Extra Life')."
 "ft","warfare","5","6","5",,,"Freeze Tag: Warfare","If you get fragged you will be frozen. You revive teammates by standing close to them for a few seconds. A round is over if an entire team is frozen."
-"lms","glowplant","6","6","9",,,"Last Man Standing: Glow Plant","You will have 9 lives in this gamemode and the goal is not to run out of lives before the others do!\n= The last man standing"
+"lms","glowplant","6","6","5",,,"Last Man Standing: Glow Plant","You will have 9 lives in this gamemode and the goal is not to run out of lives before the others do!\n= The last man standing"
 "tdm","afterslime","5","7","20",,"sv_gravity 200"," [Special] Team Deathmatch: Afterslime","Another TDM match.\nThough, we lowered the gravity a little bit."
 "nexball","nexballarena","5","7","5",,,"Nexball: Nexball Arena","This is similar to football now. You move the ball if you hit it, so try to push it into the enemies goal. First team who can score 5 goals wins!"
 "kh","silentsiege","7","8","600",,,"Key Hunt: Silent Siege","Key Hunt one more time! Get 600 points to win."
