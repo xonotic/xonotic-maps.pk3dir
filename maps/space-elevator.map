@@ -30513,12 +30513,6 @@ effects_jumppad/jumppadfx1_a
 "origin" "-704.000000 -3616.000000 -96.000000"
 }
 {
-"classname" "misc_teleporter_dest"
-"origin" "0.000000 0.000000 408.000000"
-"angles" "0.000001 0.000005 0.000000"
-"targetname" "misc_teleporter_dest1"
-}
-{
 "classname" "item_health_mega"
 "origin" "0.000000 2208.000000 -400.000000"
 }
