@@ -326,9 +326,9 @@
 {
 ( 192 -736 -128 ) ( -192 -736 -128 ) ( -192 -256 -128 ) trak5x/trim-trim1b 0 0 90 0.25 0.25 0 0 0
 ( -192 -736 -192 ) ( 192 -736 -192 ) ( -192 -256 -192 ) trak5x/wall-wall5a 0 0 0 0.25 0.25 0 0 0
-( 192 -736 -192 ) ( 192 -736 -128 ) ( 192 -256 -128 ) common/caulk 0 0 0 0.25 0.25 0 0 0
+( 256 -736 -192 ) ( 256 -736 -128 ) ( 256 -256 -128 ) common/caulk 0 0 0 0.25 0.25 0 0 0
 ( 192 -256 64 ) ( 64 -256 -64 ) ( 192 -256 -64 ) common/caulk 0 0 0 0.25 0.25 0 0 0
-( -192 -256 -128 ) ( -192 -736 -128 ) ( -192 -736 -192 ) common/caulk 0 0 0 0.25 0.25 0 0 0
+( -256 -256 -128 ) ( -256 -736 -128 ) ( -256 -736 -192 ) common/caulk 0 0 0 0.25 0.25 0 0 0
 ( 64 -352 -64 ) ( -64 -352 -64 ) ( 64 -352 64 ) common/caulk 0 0 0 0.25 0.25 0 0 0
 }
 {
@@ -13391,9 +13391,9 @@ proceduralx/wall-fruitconcrete
 {
 ( -192 736 -128 ) ( 192 736 -128 ) ( 192 256 -128 ) trak5x/trim-trim1b 0 0 -90 0.25 0.25 0 0 0
 ( 192 736 -192 ) ( -192 736 -192 ) ( 192 256 -192 ) trak5x/wall-wall5a 512 -0 180 0.25 0.25 0 0 0
-( -192 736 -192 ) ( -192 736 -128 ) ( -192 256 -128 ) common/caulk 0 0 0 -0.25 0.25 0 0 0
+( -256 736 -192 ) ( -256 736 -128 ) ( -256 256 -128 ) common/caulk 0 0 0 -0.25 0.25 0 0 0
 ( -192 256 64 ) ( -64 256 -64 ) ( -192 256 -64 ) common/caulk 0 0 0 -0.25 0.25 0 0 0
-( 192 256 -128 ) ( 192 736 -128 ) ( 192 736 -192 ) common/caulk 0 0 0 -0.25 0.25 0 0 0
+( 256 256 -128 ) ( 256 736 -128 ) ( 256 736 -192 ) common/caulk 0 0 0 -0.25 0.25 0 0 0
 ( -64 352 -64 ) ( 64 352 -64 ) ( -64 352 64 ) common/caulk 0 0 0 -0.25 0.25 0 0 0
 }
 {
@@ -27150,18 +27150,18 @@ effects_jumppad/jumppadfx1_a
 }
 {
 ( 176 192 -544 ) ( 176 -96 -544 ) ( 48 192 -544 ) proceduralx/wall-fruitconcrete_purple 576 192 0 0.25 0.25 0 0 0
-( 176 208 -544 ) ( 48 208 -544 ) ( 176 208 -552 ) proceduralx/wall-fruitconcrete_purple 576 0 0 0.25 0.25 0 0 0
+( 56 136 -552 ) ( 64 136 -552 ) ( 64 144 -544 ) proceduralx/wall-fruitconcrete_purple 576 0 0 0.25 0.25 0 0 0
 ( 64 200 -544 ) ( 64 200 -552 ) ( 64 -88 -544 ) proceduralx/wall-fruitconcrete_purple 800 0 0 0.25 0.25 0 0 0
-( 48 -152 -552 ) ( 176 -152 -552 ) ( 48 136 -552 ) proceduralx/wall-fruitconcrete_purple 576 992 0 0.25 0.25 0 0 0
-( 48 -208 -552 ) ( 48 -208 -544 ) ( 176 -208 -552 ) proceduralx/wall-fruitconcrete_purple 576 0 0 0.25 0.25 0 0 0
+( 64 136 -552 ) ( 56 136 -552 ) ( 56 -136 -552 ) proceduralx/wall-fruitconcrete_purple 576 992 0 0.25 0.25 0 0 0
+( 64 -136 -552 ) ( 56 -136 -552 ) ( 56 -144 -544 ) proceduralx/wall-fruitconcrete_purple 576 0 0 0.25 0.25 0 0 0
 ( 56 -168 -552 ) ( 56 120 -552 ) ( 56 -168 -544 ) proceduralx/wall-fruitconcrete_purple 96 0 0 0.25 0.25 0 0 0
 }
 {
 ( 56 88 -544 ) ( 56 -200 -544 ) ( -72 88 -544 ) proceduralx/wall-fruitconcrete_purple 32 800 0 0.25 0.25 0 0 0
-( 56 144 -544 ) ( -72 144 -544 ) ( 56 144 -552 ) proceduralx/wall-fruitconcrete_purple 32 0 0 0.25 0.25 0 0 0
+( -64 136 -552 ) ( -56 136 -552 ) ( -56 144 -544 ) proceduralx/wall-fruitconcrete_purple 32 0 0 0.25 0.25 0 0 0
 ( -56 128 -544 ) ( -56 128 -552 ) ( -56 -160 -544 ) proceduralx/wall-fruitconcrete_purple 64 0 0 0.25 0.25 0 0 0
-( -72 -144 -552 ) ( 56 -144 -552 ) ( -72 144 -552 ) proceduralx/wall-fruitconcrete_purple 32 0 0 0.25 0.25 0 0 0
-( -72 -208 -552 ) ( -72 -208 -544 ) ( 56 -208 -552 ) proceduralx/wall-fruitconcrete_purple 32 0 0 0.25 0.25 0 0 0
+( -56 136 -552 ) ( -64 136 -552 ) ( -64 -136 -552 ) proceduralx/wall-fruitconcrete_purple 32 0 0 0.25 0.25 0 0 0
+( -56 -136 -552 ) ( -64 -136 -552 ) ( -64 -144 -544 ) proceduralx/wall-fruitconcrete_purple 32 0 0 0.25 0.25 0 0 0
 ( -64 -144 -552 ) ( -64 144 -552 ) ( -64 -144 -544 ) proceduralx/wall-fruitconcrete_purple 0 0 0 0.25 0.25 0 0 0
 }
 {
@@ -27761,6 +27761,30 @@ effects_jumppad/jumppadfx1_a
 ( -32 -2304 -64 ) ( -32 -2272 -64 ) ( -32 -2304 64 ) exx/base-metal03 0 0 0 0.25 0.25 0 0 0
 ( 32 -2304 64 ) ( 32 -2272 -64 ) ( 32 -2304 -64 ) exx/base-metal03 0 0 0 0.25 0.25 0 0 0
 ( -16 -64 -464 ) ( 16 64 -464 ) ( -16 64 -464 ) exx/base-metal03 0 0 0 0.25 0.25 0 0 0
+}
+{
+( 176 208 -544 ) ( 176 -80 -544 ) ( 48 208 -544 ) proceduralx/wall-fruitconcrete_purple 576 256 0 0.25 0.25 0 0 0
+( 176 208 -544 ) ( 48 208 -544 ) ( 176 208 -552 ) proceduralx/wall-fruitconcrete_purple 576 0 0 0.25 0.25 0 0 0
+( 64 216 -544 ) ( 64 216 -552 ) ( 64 -72 -544 ) proceduralx/wall-fruitconcrete_purple 736 0 0 0.25 0.25 0 0 0
+( 48 -80 -576 ) ( 176 -80 -576 ) ( 48 208 -576 ) proceduralx/wall-fruitconcrete_purple 576 256 0 0.25 0.25 0 0 0
+( 48 144 -552 ) ( 48 144 -544 ) ( 176 144 -552 ) proceduralx/wall-fruitconcrete_purple 576 0 0 0.25 0.25 0 0 0
+( 56 -80 -552 ) ( 56 208 -552 ) ( 56 -80 -544 ) proceduralx/wall-fruitconcrete_purple 768 0 0 0.25 0.25 0 0 0
+}
+{
+( 56 -144 -544 ) ( 56 -432 -544 ) ( -72 -144 -544 ) proceduralx/wall-fruitconcrete_purple 32 896 0 0.25 0.25 0 0 0
+( 56 -144 -544 ) ( -72 -144 -544 ) ( 56 -144 -552 ) proceduralx/wall-fruitconcrete_purple 32 0 0 0.25 0.25 0 0 0
+( -56 -136 -544 ) ( -56 -136 -552 ) ( -56 -424 -544 ) proceduralx/wall-fruitconcrete_purple 96 0 0 0.25 0.25 0 0 0
+( -72 -432 -576 ) ( 56 -432 -576 ) ( -72 -144 -576 ) proceduralx/wall-fruitconcrete_purple 32 896 0 0.25 0.25 0 0 0
+( -72 -208 -552 ) ( -72 -208 -544 ) ( 56 -208 -552 ) proceduralx/wall-fruitconcrete_purple 32 0 0 0.25 0.25 0 0 0
+( -64 -432 -552 ) ( -64 -144 -552 ) ( -64 -432 -544 ) proceduralx/wall-fruitconcrete_purple 128 0 0 0.25 0.25 0 0 0
+}
+{
+( 176 -144 -544 ) ( 176 -432 -544 ) ( 48 -144 -544 ) proceduralx/wall-fruitconcrete_purple 576 896 0 0.25 0.25 0 0 0
+( 176 -144 -544 ) ( 48 -144 -544 ) ( 176 -144 -552 ) proceduralx/wall-fruitconcrete_purple 576 0 0 0.25 0.25 0 0 0
+( 64 -136 -544 ) ( 64 -136 -552 ) ( 64 -424 -544 ) proceduralx/wall-fruitconcrete_purple 96 0 0 0.25 0.25 0 0 0
+( 48 -432 -576 ) ( 176 -432 -576 ) ( 48 -144 -576 ) proceduralx/wall-fruitconcrete_purple 576 896 0 0.25 0.25 0 0 0
+( 48 -208 -552 ) ( 48 -208 -544 ) ( 176 -208 -552 ) proceduralx/wall-fruitconcrete_purple 576 0 0 0.25 0.25 0 0 0
+( 56 -432 -552 ) ( 56 -144 -552 ) ( 56 -432 -544 ) proceduralx/wall-fruitconcrete_purple 128 0 0 0.25 0.25 0 0 0
 }
 }
 {
