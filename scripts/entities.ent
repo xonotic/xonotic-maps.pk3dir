@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <classes>
 <point name="_skybox" color="0.77 0.88 1.0" box="-4 -4 -4 4 4 4">
-Compiler-only entity that specifies a the origin of a sky box (a wholly contained, separate area of the map), similar to some games' portal skies. When compiled with Q3Map2, the sky box surfaces will be visible from any place where sky is normally visible. It will cast shadows on the normal parts of the map, and can be used with cloud layers and other effects. As it is compiler-only, it can't &quot;scale up&quot; entities in its box.
-To use this, carve a small box in some larger structure on your map, place this entity inside that box hole, and make a small version on what should be seen in the sky there.
+Compiler-only entity that specifies the origin of a sky box (a wholly contained, separate area of the map), similar to some games' portal skies. When compiled with Q3Map2, the sky box surfaces will be visible from any place where sky is normally visible. It will cast shadows on the normal parts of the map, and can be used with cloud layers and other effects. As it is compiler-only, it can't &quot;scale up&quot; entities in its box.
+To use this, carve a small box in some larger structure on your map, place this entity inside that box hole, and make a small version of what should be seen in the sky there.
 -------- KEYS --------
 <direction key="angle" name="angle">rotation angle of the sky surfaces.</direction>
 <angles key="angles" name="angles">Individual control of PITCH, YAW, and ROLL (default 0 0 0).</angles>
@@ -21,7 +21,7 @@ The projection is a linear projection, and originates from the center of this en
 </group>
 
 <point name="dom_controlpoint" color=".3 .3 1" box="-16 -16 -16 16 16 16">
-Domination  control point
+Domination control point
 In order to get Domination working well in your map, you need to place dom_team and dom_controlpoint entities.  You *must* have at least 3 dom_team entities - 2 minimum teams and one blank one (empty netname and no team).  You can have up to 4 teams (5 dom_team entities).
 -------- KEYS --------
 <string key="message" name="message">message to be displayed to all players when this point is captured, preceded by the team's name.  This defaults to &quot; has captured a control point&quot;.  You can specify different names for each point, for example &quot; has captured the Lava Room&quot;.</string>
@@ -93,7 +93,7 @@ Solid entity that oscillates back and forth in a linear motion. By default, it w
 <real key="phase" name="phase">sets the start offset of the oscillation cycle. Values must be 0 &lt; phase &lt; 1. Any integer phase value is the same as no offset (default 0).</real>
 <sound key="noise" name="noise">path/name of .wav or .ogg file to play. Use looping sounds only (e.g. sound/world/drone6.wav - See Notes).</sound>
 <real key="dmg" name="dmg">damage a player who gets crushed by it receives</real>
-<real key="dmgtime" name="dmgtime">interval to apply dmg to a player who is s in the way</real>
+<real key="dmgtime" name="dmgtime">interval to apply dmg to a player who is in the way</real>
 <string key="message" name="message">death message when a player gets crushed</string>
 <string key="message2" name="message2">death message when someone gets pushed into this (default: &quot;was thrown into a world of hurt by&quot;). The # character is replaced by the attacker name if present (and it instead does not get appended to the end)</string>
 -------- SPAWNFLAGS --------
@@ -109,7 +109,7 @@ Solid entity that swings back and forth in an angular motion. Entity swings on t
 <real key="phase" name="phase">sets the start offset of the oscillation cycle. Values must be 0 &lt; phase &lt; 1. Any integer phase value is the same as no offset (default 0).</real>
 <sound key="noise" name="noise">path/name of .wav or .ogg file to play. Use looping sounds only (e.g. sound/world/drone6.wav - See Notes).</sound>
 <real key="dmg" name="dmg">damage a player who gets crushed by it receives</real>
-<real key="dmgtime" name="dmgtime">interval to apply dmg to a player who is s in the way</real>
+<real key="dmgtime" name="dmgtime">interval to apply dmg to a player who is in the way</real>
 <string key="message" name="message">death message when a player gets crushed</string>
 <string key="message2" name="message2">death message when someone gets pushed into this (default: &quot;was thrown into a world of hurt by&quot;). The # character is replaced by the attacker name if present (and it instead does not get appended to the end)</string>
 </group>
@@ -311,7 +311,7 @@ Point entity with EF_STARDUST applied. This will spawn a particle cloud with mos
 Trains are moving solids that follow a cycle of path_corner entities. Origin brushes are NOT supported; they use the &quot;mins&quot; corner as reference (that is, lowest x, y, and z coordinates).
 At each node, the train's mins corner hits exactly the path_corner.
 Trains always start on in the game.
-Trains do not damage the played when blocked.
+Trains do not damage the player when blocked.
 Trains cannot emit sound.
 Trains are not trigger-able or toggle-able.
 Trains cannot be block-stopped just by getting in their way, the player must be wedged between the train and another obstacle to block it.
@@ -321,7 +321,7 @@ Trains cannot be block-stopped just by getting in their way, the player must be 
 <target key="target" name="target">targetname of first path_corner to move to at the default speed; ideally, this path_corner shall be exactly where the train starts</target>
 <sound key="noise" name="noise">path/name of .wav or .ogg file to play while moving. Use looping sounds only (e.g. sound/world/drone6.wav - See Notes).</sound>
 <real key="dmg" name="dmg">damage a player who gets crushed by it receives</real>
-<real key="dmgtime" name="dmgtime">interval to apply dmg to a player who is s in the way</real>
+<real key="dmgtime" name="dmgtime">interval to apply dmg to a player who is in the way</real>
 <string key="message" name="message">death message when a player gets crushed</string>
 <string key="message2" name="message2">death message when someone gets pushed into this (default: &quot;was thrown into a world of hurt by&quot;). The # character is replaced by the attacker name if present (and it instead does not get appended to the end)</string>
 </group>
@@ -431,13 +431,13 @@ Pink team's player spawning location, but there is no game mode to use this yet.
 <real key="restriction" name="restriction">when 1, only bots can spawn here; when 2, only humans can spawn here (be careful with these, or the game will crash because someone cannot spawn)</real>
 </point>
 
-<point name="item_armor_large" color=".4 .8 .4" box="-30 -30 0 30 30 32">
+<point name="item_armor_mega" color=".4 .8 .4" box="-30 -30 0 30 30 32">
 Large Armor (default 100 armor points)
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 30)</real>
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
-<real key="armorvalue" name="armorvalue">amount of armor it gives (default: 100 (g_pickup_armorlarge))</real>
-<real key="max_armorvalue" name="max_armorvalue">max of armor it increases to (default: 999 (g_pickup_armorlarge_max))</real>
+<real key="armorvalue" name="armorvalue">amount of armor it gives (default: 100 (g_pickup_armormega))</real>
+<real key="max_armorvalue" name="max_armorvalue">max of armor it increases to (default: 999 (g_pickup_armormega_max))</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
@@ -451,8 +451,8 @@ Big Armor (default 50 armor points)
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 20)</real>
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
-<real key="armorvalue" name="armorvalue">amount of armor it gives (default: 50 (g_pickup_armorlarge))</real>
-<real key="max_armorvalue" name="max_armorvalue">max of armor it increases to (default: 999 (g_pickup_armorlarge_max))</real>
+<real key="armorvalue" name="armorvalue">amount of armor it gives (default: 50 (g_pickup_armorbig))</real>
+<real key="max_armorvalue" name="max_armorvalue">max of armor it increases to (default: 999 (g_pickup_armorbig_max))</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
@@ -545,13 +545,13 @@ CTF flag for team two (Blue). Use more than one if you really insist.
 zbqry=&quot;zbqryf/pgs/enqvnag/synt_oyhr_enqvnag.zq3&quot;
 </point>
 
-<point name="item_health_large" color=".9 .3 .3" box="-30 -30 0 30 30 48">
-Large Health (default 50 health points)
+<point name="item_health_big" color=".9 .3 .3" box="-30 -30 0 30 30 48">
+Big Health (default 50 health points)
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 20)</real>
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
-<real key="health" name="health">amount of health it gives (default: 50 (g_pickup_healthlarge))</real>
-<real key="max_health" name="max_health">max of health it increases to (default: 999 (g_pickup_healthlarge_max))</real>
+<real key="health" name="health">amount of health it gives (default: 50 (g_pickup_healthbig))</real>
+<real key="max_health" name="max_health">max of health it increases to (default: 999 (g_pickup_healthbig_max))</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
@@ -623,7 +623,7 @@ modeldisabled=&quot;models/items/g_invincible.md3&quot;
 <point name="item_key" color="0 .5 .8" box="-16 -16 -24 16 16 32">
 A key entity.
 The itemkeys should contain one of the following key IDs:
-1 - GOLD key - 
+1 - GOLD key -
 2 - SILVER key
 4 - BRONZE key
 8 - RED keycard
@@ -1446,7 +1446,7 @@ modeldisabled=&quot;models/weapons/g_uzi.md3&quot;
 <group name="worldspawn" color="0 0 0">
 The world.
 If you see this, the currently selected brush is not of an entity.
--------- KEYS --------		
+-------- KEYS --------
 <string key="fog" name="fog">fog parameters of the map (density red green blue alpha mindist maxdist maxheight fade-height); works just like the &quot;fog&quot; console command</string>
 <string key="author" name="author">name of the author of the map, if not specified in &quot;message&quot;. Will get copied to the &quot;author&quot; entry of the mapinfo file when none is present.</string>
 <string key="message" name="message">text to print at user logon. Used for name of level. Ideally: &quot;NAMEOFLEVEL by AUTHOR&quot;. Will get copied to the &quot;title&quot; and &quot;author&quot; entries of the mapinfo file when none is present.</string>
@@ -1864,7 +1864,7 @@ Solid entity that oscillates according to a sum of sine waves.
 <real key="phase" name="phase">sets the start offset of the oscillation cycle. Values must be 0 &lt; phase &lt; 1. Any integer phase value is the same as no offset (default 0).</real>
 <sound key="noise" name="noise">path/name of .wav or .ogg file to play. Use looping sounds only (e.g. sound/world/drone6.wav - See Notes).</sound>
 <real key="dmg" name="dmg">damage a player who gets crushed by it receives</real>
-<real key="dmgtime" name="dmgtime">interval to apply dmg to a player who is s in the way</real>
+<real key="dmgtime" name="dmgtime">interval to apply dmg to a player who is in the way</real>
 <string key="message" name="message">death message when a player gets crushed</string>
 <string key="message2" name="message2">death message when someone gets pushed into this (default: &quot;was thrown into a world of hurt by&quot;). The # character is replaced by the attacker name if present (and it instead does not get appended to the end)</string>
 <string key="netname" name="netname">list of &lt;frequencymultiplier&gt; &lt;phase&gt; &lt;x&gt; &lt;y&gt; &lt;z&gt; quadruples, separated by spaces; note that phase 0 represents a sine wave, and phase 0.25 a cosine wave (by default, it uses 1 0 0 0 1, to match func_bobbing's defaults</string>
@@ -1887,7 +1887,7 @@ Solid entity that moves according to the movement of multiple given entities (ma
 <real3 key="target4normal" name="target4normal">if set, the fourth reference entity's location is first projected onto a plane with that normal</real3>
 <sound key="noise" name="noise">path/name of .wav or .ogg file to play. Use looping sounds only (e.g. sound/world/drone6.wav - See Notes).</sound>
 <real key="dmg" name="dmg">damage a player who gets crushed by it receives</real>
-<real key="dmgtime" name="dmgtime">interval to apply dmg to a player who is s in the way</real>
+<real key="dmgtime" name="dmgtime">interval to apply dmg to a player who is in the way</real>
 <string key="message" name="message">death message when a player gets crushed</string>
 <string key="message2" name="message2">death message when someone gets pushed into this (default: &quot;was thrown into a world of hurt by&quot;). The # character is replaced by the attacker name if present (and it instead does not get appended to the end)</string>
 -------- SPAWNFLAGS --------
@@ -2272,7 +2272,7 @@ This acts as a modifier over the normal gravity (sv_gravity). eg: 0.5 is half th
 </group>
 
 <point name="relay_activate" color="0 1 0" box="-8 -8 -8 8 8 8">
-Activates all .target's
+Activates all targets
 List of currently supported target ents:
 trigger_hurt
 trigger_heal
@@ -2290,7 +2290,7 @@ func_vectormamamam
 </point>
 
 <point name="relay_deactivate" color="1 0 0" box="-8 -8 -8 8 8 8">
-Deactivates all .target's
+Deactivates all targets
 List of currently supported target ents:
 trigger_hurt
 trigger_heal
@@ -2308,7 +2308,7 @@ func_vectormamamam
 </point>
 
 <point name="relay_activatetoggle" color="0 1 1" box="-8 -8 -8 8 8 8">
-Toggles all .target's de/active
+Toggles all targets de/active
 List of currently supported target ents:
 trigger_hurt
 trigger_heal
@@ -2420,7 +2420,7 @@ model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/mlrs.md3&quot;
 </point>
 
 <point name="turret_hellion" color="1 0 0" box="-32 -32 0 32 32 50">
-2 guided moderate damage accelerating rockets 
+2 guided moderate damage accelerating rockets
 -------- KEYS --------
 <real key="turret_scale_damage" name="turret_scale_damage">2 = double damage, 0.5 = half</real>
 <real key="turret_scale_range" name="turret_scale_range">2 = double range, 0.5 = half</real>
@@ -2523,7 +2523,7 @@ Used to feed turrets capable of it with remote target info. currently only turre
 -----------SPAWNFLAGS-----------
 ---------NOTES----------
 
-A nasty mechanical critter that will engage longrange target with missiles, midrange with its minigun and meele things up close and personal.
+A nasty mechanical critter that will engage longrange target with missiles, midrange with its minigun and melee things up close and personal.
 
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/walker.md3&quot;
@@ -2551,7 +2551,7 @@ model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/ewheel.md3&quot;
 
 <point name="turret_checkpoint" color="1 0 1" box="-32 -32 -32 32 32 32">
 -----------KEYS------------
-<target key="target" name="target">.targetname of next wapoint in chain.</target>
+<target key="target" name="target">targetname of next wapoint in chain.</target>
 <real key="wait" name="wait">Pause at this point # seconds.</real>
 -----------SPAWNFLAGS-----------
 
@@ -2560,7 +2560,7 @@ If a loop is of targets are formed, any unit entering this loop will patrol it i
 If the checkpoint chain in not looped, the unit will go &quot;Roaming&quot; when the last point is reached.
 </point>
 <point name="vehicle_racer" color="0 0 1" box="-48 -48 0 48 48 32">
-Fast moving hover type vehicle, with low shiled &amp; health.
+Fast moving hover type vehicle, with low shield &amp; health.
 Primary weapon is a rapid fire energy cannon, secondary lockable rockets.
 -------- KEYS --------
 <integer key="team" name="team">5=red, 14=blue</integer>
@@ -2569,7 +2569,7 @@ model=&quot;models/vehicles-static/wakazachi.md3&quot;
 </point>
 
 <point name="vehicle_spiderbot" color="0 0 1" box="-48 -48 0 48 48 32">
-A slow moving 6 legged mech type vehile that has plenty of health and shiled.
+A slow moving 6 legged mech type vehicle that has plenty of health and shield.
 Primary weapon is twin miniguns, secondary eight rockets that can be guided by the pilot.
 -------- KEYS --------
 <integer key="team" name="team">5=red, 14=blue</integer>
@@ -2578,9 +2578,9 @@ model=&quot;models/vehicles-static/spiderbot.md3&quot;
 </point>
 
 <point name="vehicle_raptor" color="0 0 1" box="-48 -48 0 48 48 32">
-The raptor is primaerly a air to ground frighter, its quite lightly armoured or shilded.
+The raptor is primarily an air to ground fighter, it's quite lightly armored or shielded.
 Its main weapon is four rapid fire energy cannons, wich can be locked to track a target by aming at it for some time.
-Secondary is a pair of vert powerfull clusterbombs.
+Secondary is a pair of very powerful clusterbombs.
 -------- KEYS --------
 <integer key="team" name="team">5=red, 14=blue</integer>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------

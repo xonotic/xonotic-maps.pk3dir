@@ -14761,12 +14761,12 @@ effects_healpod/healpod1_d
 "origin" "560.000000 -8.000000 -232.000000"
 }
 {
-"classname" "item_armor_large"
+"classname" "item_armor_mega"
 "origin" "-896.000000 -208.000000 320.000000"
 "angle" "-90.000000"
 }
 {
-"classname" "item_armor_large"
+"classname" "item_armor_mega"
 "origin" "368.000000 384.000000 -256.000000"
 "angle" "-90.000000"
 }
