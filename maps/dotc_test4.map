@@ -36119,141 +36119,62 @@ exx/base-metal05rust
 "classname" "dotc_spawnitems"
 "origin" "-448 4992 256"
 "cnt" "1"
-"target" "t136"
+"netname" "give 10 armor"
 }
 {
 "classname" "dotc_spawnitems"
 "origin" "-448 4864 256"
 "cnt" "2"
-"target" "t124"
+"netname" "give machinegun"
 }
 {
 "classname" "dotc_spawnitems"
 "origin" "-448 4736 256"
 "cnt" "3"
-"target" "t125"
+"netname" "give crylink 25 armor"
 }
 {
 "classname" "dotc_spawnitems"
 "origin" "-448 4608 256"
 "cnt" "4"
-"target" "t126"
+"netname" "give hagar 25 armor"
 }
 {
 "classname" "dotc_spawnitems"
 "origin" "-448 4480 256"
 "cnt" "5"
-"target" "t127"
+"netname" "give electro"
 }
 {
 "classname" "dotc_spawnitems"
 "origin" "-448 4352 256"
 "cnt" "6"
-"target" "t128"
+"netname" "give jetpack"
 }
 {
 "classname" "dotc_spawnitems"
 "origin" "-448 4224 256"
 "cnt" "7"
-"target" "t129"
+"netname" "give vortex 50 health"
 }
 {
 "classname" "dotc_spawnitems"
 "origin" "-448 4096 256"
 "cnt" "8"
 "target" "t130"
+"netname" "give porto 100 armor"
 }
 {
 "classname" "dotc_spawnitems"
 "origin" "-448 3968 256"
 "cnt" "9"
-"target" "t131"
+"netname" "give devastator mortar"
 }
 {
 "classname" "dotc_spawnitems"
 "origin" "-448 3840 256"
 "cnt" "10"
-"target" "t132"
-}
-{
-"classname" "weapon_uzi"
-"origin" "-320 4864 256"
-"targetname" "t124"
-}
-{
-"classname" "weapon_crylink"
-"origin" "-320 4736 256"
-"targetname" "t125"
-}
-{
-"classname" "item_armor_small"
-"origin" "-224 4736 256"
-"targetname" "t125"
-}
-{
-"classname" "item_armor_small"
-"origin" "-128 4736 256"
-"targetname" "t125"
-}
-{
-"classname" "weapon_hagar"
-"origin" "-320 4608 256"
-"targetname" "t126"
-}
-{
-"classname" "item_armor_medium"
-"origin" "-224 4608 256"
-"targetname" "t126"
-}
-{
-"classname" "weapon_hlac"
-"origin" "-320 4480 256"
-"targetname" "t127"
-}
-{
-"classname" "item_jetpack"
-"origin" "-320 4352 256"
-"targetname" "t128"
-}
-{
-"classname" "weapon_nex"
-"origin" "-320 4224 256"
-"targetname" "t129"
-}
-{
-"classname" "item_health_large"
-"origin" "-224 4224 256"
-"targetname" "t129"
-}
-{
-"classname" "item_armor_large"
-"origin" "-320 4096 256"
-"targetname" "t130"
-}
-{
-"classname" "weapon_porto"
-"origin" "-224 4096 256"
-"targetname" "t130"
-}
-{
-"classname" "weapon_rocketlauncher"
-"origin" "-320 3968 256"
-"targetname" "t131"
-}
-{
-"classname" "weapon_fireball"
-"origin" "-320 3840 256"
-"targetname" "t132"
-}
-{
-"classname" "weapon_seeker"
-"origin" "-224 3968 256"
-"targetname" "t131"
-}
-{
-"classname" "item_health_mega"
-"origin" "-224 3840 256"
-"targetname" "t132"
+"netname" "give fireball 100 health"
 }
 {
 "classname" "trigger_teleport"
@@ -36266,11 +36187,6 @@ exx/base-metal05rust
 ( -736 12016 192 ) ( -896 12016 192 ) ( -896 12016 0 ) common/trigger 0 0 0 0.25 0.25 0 7 0
 ( -960 11920 0 ) ( -960 12016 0 ) ( -896 12016 192 ) common/trigger 0 0 0 0.25 0.25 0 7 0
 }
-}
-{
-"classname" "item_armor_small"
-"origin" "-320 4992 256"
-"targetname" "t136"
 }
 {
 "classname" "func_group"
@@ -37044,7 +36960,7 @@ exx/base-metal05rust
 ( 3368 5504 -192 ) ( 3368 5732 -178 ) ( 3596 5504 -192 ) terrain01x/blends-mars-rock01-ground01 0 0 0 1 1 134217728 0 0
 }
 {
-( 5256 7496 -416 ) ( 5448 7496 -416 ) ( 5256 7496 -110 ) common/caulk 248 0 0 1 1 134217728 0 0
+( 5256 7496 -416 ) ( 5448 7496 -416 ) ( 5256 7496 -110 ) terrain01x/blends-mars-rock01-ground01 0 0 0 1 1 134217728 0 0
 ( 3368 7556 -110 ) ( 3368 7556 -416 ) ( 3140 7328 -416 ) common/caulk 0 0 0 1 1 134217728 0 0
 ( 3140 7328 -130 ) ( 3140 7328 -416 ) ( 3140 7556 -416 ) common/caulk 0 0 0 1 1 134217728 0 0
 ( 3140 7556 -416 ) ( 3140 7328 -416 ) ( 3368 7556 -416 ) common/caulk 0 0 0 1 1 134217728 0 0
@@ -37052,7 +36968,7 @@ exx/base-metal05rust
 }
 {
 ( 5256 7544 -416 ) ( 5448 7544 -416 ) ( 5256 7544 -68 ) common/caulk 248 0 0 1 1 134217728 0 0
-( 3140 7328 -130 ) ( 3140 7328 -416 ) ( 3368 7556 -416 ) common/caulk 0 0 0 1 1 134217728 0 0
+( 3140 7328 -130 ) ( 3140 7328 -416 ) ( 3368 7556 -416 ) terrain01x/blends-mars-rock01-ground01 0 0 0 1 1 134217728 0 0
 ( 3368 7556 -110 ) ( 3368 7556 -416 ) ( 3368 7328 -416 ) common/caulk 0 0 0 1 1 134217728 0 0
 ( 3368 7328 -68 ) ( 3368 7328 -416 ) ( 3140 7328 -416 ) common/caulk 0 0 0 1 1 134217728 0 0
 ( 3140 7328 -416 ) ( 3368 7328 -416 ) ( 3368 7556 -416 ) common/caulk 0 0 0 1 1 134217728 0 0
@@ -43062,4 +42978,26 @@ exx/base-metal05rust
 "classname" "dotc_core_blue"
 "angle" "-179.999985"
 "origin" "10496.000000 4416.000000 -24.000000"
+}
+{
+"classname" "dotc_guardian"
+"origin" "-4320.000000 32.000000 16.000000"
+}
+{
+"classname" "dotc_itemsupply_red"
+"origin" "-288.000000 15808.000000 16.000000"
+}
+{
+"classname" "dotc_itemsupply_red"
+"origin" "296.000000 15808.000000 16.000000"
+}
+{
+"classname" "dotc_itemsupply_blue"
+"origin" "11328.000000 4640.000000 16.000000"
+"angle" "-90.000000"
+}
+{
+"classname" "dotc_itemsupply_blue"
+"origin" "11328.000000 4056.000000 16.000000"
+"angle" "-90.000000"
 }
