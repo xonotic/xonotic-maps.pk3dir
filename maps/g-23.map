@@ -1,8 +1,10 @@
 {
 "classname" "worldspawn"
-"message" "Loading Dock G-23 by Moo"
+"message" "G-23"
 "_floodlight" "1 0.93 0.7 1024 64"
 "gridsize" "48 48 96"
+"_description" "A small DM map with tight corridors"
+"author" "MooKow"
 {
 ( 704 1344 256 ) ( 704 704 256 ) ( 640 768 256 ) common/caulk 0 0 0 0.25 0.25 0 0 0
 ( 640 1280 192 ) ( 640 768 256 ) ( 640 768 192 ) exx/panel-metal04 0 0 0 0.25 0.25 0 0 0
@@ -13391,7 +13393,7 @@ map_g-23/conveyor_belt
 "origin" "-672.000000 320.000000 -448.000000"
 }
 {
-"classname" "item_health_large"
+"classname" "item_health_big"
 "origin" "-1312.000000 -1040.000000 -256.000000"
 }
 {
@@ -13704,7 +13706,7 @@ map_g-23/conveyor_belt
 "origin" "160.000000 -512.000000 -312.000000"
 }
 {
-"classname" "item_armor_large"
+"classname" "item_armor_mega"
 "origin" "960.000000 -1024.000000 80.000000"
 "spawnflags" "1"
 }

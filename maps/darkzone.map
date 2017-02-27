@@ -1,8 +1,8 @@
 {
 "classname" "worldspawn"
 "gridsize" "64.000000 64.000000 128.000000"
-"author" "Cortez, C.Brutail, SavageX"
-"_description" "Xonotic remake of a classic map from Quake1: Q1DM6. Recommended for cut-throat duels."
+"author" "Cortez, CuBe0wL, SavageX"
+"_description" "Xonotic remake of a classic map from Quake1: Q1DM6. Recommended for cut-throat duels"
 "message" "Darkzone"
 {
 ( -448 -640 192 ) ( -432 -624 32 ) ( -432 -624 192 ) exx/base-metal04 0 0 -180 0.5 -0.5 0 0 0
@@ -23701,7 +23701,7 @@ trak5x/trim-trim1a
 "targetname" "t340"
 }
 {
-"classname" "item_armor_large"
+"classname" "item_armor_mega"
 "origin" "1120.000000 1024.000000 256.000000"
 }
 {
@@ -28550,7 +28550,7 @@ exx/base-metal04
 "origin" "-152.000000 96.000000 64.000000"
 }
 {
-"classname" "item_health_large"
+"classname" "item_health_big"
 "origin" "1248.000000 64.000000 256.000000"
 }
 {

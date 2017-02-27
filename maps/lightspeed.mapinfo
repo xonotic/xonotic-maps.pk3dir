@@ -1,8 +1,0 @@
-title Lightspeed
-description Very small, 1on1 CTF map. Key to survive: move as fast, as the speed of light!
-author CuBe0wL
-cdtrack 10
-has weapons
-gametype ctf
-settemp_for_type all g_start_ammo_shells 20 
-hidden
