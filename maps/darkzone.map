@@ -25496,7 +25496,7 @@ trak5x/trim-trim1a
 "targetname" "t340"
 }
 {
-"classname" "item_armor_large"
+"classname" "item_armor_mega"
 "origin" "1120.000000 1024.000000 256.000000"
 }
 {
@@ -30151,7 +30151,7 @@ exx/base-metal04
 "_color" "1 0.879118 0.632197"
 }
 {
-"classname" "item_health_large"
+"classname" "item_health_big"
 "origin" "1248.000000 64.000000 256.000000"
 }
 {
