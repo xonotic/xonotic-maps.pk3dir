@@ -10,4 +10,3 @@ gametype ca
 gametype ft
 gametype kh
 gametype ka
-clientsettemp_for_type all r_glsl_deluxmapping 0 // Temporary fix for a problem with shadows
