@@ -25496,7 +25496,7 @@ trak5x/trim-trim1a
 "targetname" "t340"
 }
 {
-"classname" "item_armor_large"
+"classname" "item_armor_mega"
 "origin" "1120.000000 1024.000000 256.000000"
 }
 {
@@ -30396,6 +30396,9 @@ trak5x/misc-glass
 ( ( 432 184 184 1.5 0 ) ( 432 184 152 1.5 -0.5 ) ( 432 184 120 1.5 -1 ) )
 )
 }
+{
+"classname" "item_health_big"
+"origin" "1248.000000 64.000000 256.000000"
 }
 {
 patchDef2

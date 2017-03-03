@@ -29573,7 +29573,7 @@ exx/base-metal03
 "angle" "-90.000000"
 }
 {
-"classname" "item_armor_large"
+"classname" "item_armor_mega"
 "origin" "-160.000000 -208.000000 16.000000"
 "angle" "-90.000000"
 }
@@ -32383,7 +32383,7 @@ exx/base-metal03
 }
 }
 {
-"classname" "item_armor_large"
+"classname" "item_armor_mega"
 "origin" "368.000000 192.000000 -416.000000"
 "angle" "-90.000000"
 }
@@ -35734,7 +35734,7 @@ exx/base-metal03
 }
 }
 {
-"classname" "item_armor_large"
+"classname" "item_armor_mega"
 "origin" "-1472.000000 2032.000000 -416.000000"
 "angle" "0.000003"
 }
@@ -36286,7 +36286,7 @@ effects_healpod/healpod1_d
 "origin" "784.000000 64.000000 -160.000000"
 }
 {
-"classname" "item_armor_large"
+"classname" "item_armor_mega"
 "origin" "-2200.000000 -536.000000 128.000000"
 }
 {
@@ -36376,7 +36376,7 @@ effects_healpod/healpod1_d
 "classname" "onslaught_controlpoint"
 "origin" "-80.000000 -208.000000 0.000000"
 "targetname" "redcp1"
-"message" "Big Red room"
+"message" "Big Blue room"
 "angle" "-90.000000"
 }
 {
@@ -36587,7 +36587,7 @@ effects_healpod/healpod1_d
 "message" " has captured the ^2Red base ^3control point"
 }
 {
-"classname" "item_armor_large"
+"classname" "item_armor_mega"
 "origin" "-1872.000000 1504.000000 16.000000"
 "angle" "179.999985"
 }

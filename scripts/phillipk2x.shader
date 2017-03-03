@@ -220,7 +220,6 @@ textures/phillipk2x/decals-pk02_dec_num00
     sort banner
     {
         map textures/phillipk2x/decals/pk02_dec_num00
-        alphafunc GT0
     }
     {
         map $lightmap
@@ -244,7 +243,6 @@ textures/phillipk2x/decals-pk02_dec_num01
     sort banner
     {
         map textures/phillipk2x/decals/pk02_dec_num01
-        alphafunc GT0
     }
     {
         map $lightmap
@@ -268,7 +266,6 @@ textures/phillipk2x/decals-pk02_dec_num02
     sort banner
     {
         map textures/phillipk2x/decals/pk02_dec_num02
-        alphafunc GT0
     }
     {
         map $lightmap
@@ -315,7 +312,6 @@ textures/phillipk2x/decals-pk02_dec_num04
     sort banner
     {
         map textures/phillipk2x/decals/pk02_dec_num04
-        alphafunc GT0
     }
     {
         map $lightmap
@@ -339,7 +335,6 @@ textures/phillipk2x/decals-pk02_dec_num05
     sort banner
     {
         map textures/phillipk2x/decals/pk02_dec_num05
-        alphafunc GT0
     }
     {
         map $lightmap
@@ -363,7 +358,6 @@ textures/phillipk2x/decals-pk02_dec_num06
     sort banner
     {
         map textures/phillipk2x/decals/pk02_dec_num06
-        alphafunc GT0
     }
     {
         map $lightmap
@@ -387,7 +381,6 @@ textures/phillipk2x/decals-pk02_dec_num07
     sort banner
     {
         map textures/phillipk2x/decals/pk02_dec_num07
-        alphafunc GT0
     }
     {
         map $lightmap
@@ -411,7 +404,6 @@ textures/phillipk2x/decals-pk02_dec_num08
     sort banner
     {
         map textures/phillipk2x/decals/pk02_dec_num08
-        alphafunc GT0
     }
     {
         map $lightmap
@@ -435,7 +427,6 @@ textures/phillipk2x/decals-pk02_dec_num09
     sort banner
     {
         map textures/phillipk2x/decals/pk02_dec_num09
-        alphafunc GT0
     }
     {
         map $lightmap
@@ -459,7 +450,6 @@ textures/phillipk2x/decals-pk02_dec_numa
     sort banner
     {
         map textures/phillipk2x/decals/pk02_dec_numa
-        alphafunc GT0
     }
     {
         map $lightmap
@@ -483,7 +473,6 @@ textures/phillipk2x/decals-pk02_dec_numb
     sort banner
     {
         map textures/phillipk2x/decals/pk02_dec_numb
-        alphafunc GT0
     }
     {
         map $lightmap
@@ -507,7 +496,6 @@ textures/phillipk2x/decals-pk02_dec_numc
     sort banner
     {
         map textures/phillipk2x/decals/pk02_dec_numc
-        alphafunc GT0
     }
     {
         map $lightmap
