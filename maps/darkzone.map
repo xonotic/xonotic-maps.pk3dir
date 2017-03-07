@@ -1,7 +1,7 @@
 {
 "classname" "worldspawn"
 "gridsize" "64.000000 64.000000 128.000000"
-"author" "Cortez, CuBe0wL, SavageX"
+"author" "Cortez, CuBe0wL, SavageX, Mossepo"
 "_description" "Xonotic remake of a classic map from Quake1: Q1DM6. Recommended for cut-throat duels"
 "message" "Darkzone"
 {
