@@ -24,7 +24,6 @@ map_catharsis
 map_courtfun
 map_darkzone
 map_erbium
-map_g-23
 map_glowplant
 map_implosion
 map_leave_em_behind
