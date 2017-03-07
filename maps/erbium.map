@@ -18768,7 +18768,7 @@ brushDef
 ( 2060 392 704 ) ( 2076 644 704 ) ( 2060 644 704 ) ( ( 0.0078125 0 -0 ) ( -0 0.0078125 0 ) ) exx/base/base_metal06rust 0 0 0
 ( 2068 444 -64 ) ( 2064 444 -64 ) ( 2068 444 64 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/caulk 0 0 0
 ( 2064 632 -64 ) ( 2072 632 -64 ) ( 2064 632 64 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/caulk 0 0 0
-( 2368 444 -64 ) ( 2368 444.25 -64 ) ( 2368 444 64 ) ( ( 0.0625 0 -0 ) ( -0 0.0625 0 ) ) NULL 0 0 0
+( 2368 444 -64 ) ( 2368 444.25 -64 ) ( 2368 444 64 ) ( ( 0.0625 0 -0 ) ( -0 0.0625 0 ) ) common/caulk 0 0 0
 }
 }
 {
@@ -20933,7 +20933,7 @@ brushDef
 ( 2060 392 704 ) ( 2076 644 704 ) ( 2060 644 704 ) ( ( 0.0078125 0 -0 ) ( -0 0.0078125 0 ) ) exx/base/base_metal06rust 0 0 0
 ( 2068 444 -64 ) ( 2064 444 -64 ) ( 2068 444 64 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/caulk 0 0 0
 ( 2064 632 -64 ) ( 2072 632 -64 ) ( 2064 632 64 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/caulk 0 0 0
-( 2368 444 64 ) ( 2368 444.25 -64 ) ( 2368 444 -64 ) ( ( 0.0625 0 -0 ) ( -0 0.0625 0 ) ) NULL 0 0 0
+( 2368 444 64 ) ( 2368 444.25 -64 ) ( 2368 444 -64 ) ( ( 0.0625 0 -0 ) ( -0 0.0625 0 ) ) common/caulk 0 0 0
 }
 }
 {
@@ -21311,7 +21311,7 @@ brushDef
 "classname" "misc_model"
 "origin" "-258.290527 195.291046 304.000000"
 "model" "models/map_erbium/cavestair2.ase"
-"spawnflags" "6"
+"spawnflags" "4"
 "_castshadows" "1"
 "_receiveshadows" "1"
 "angle" "-46.721489"
@@ -21321,7 +21321,7 @@ brushDef
 "classname" "misc_model"
 "origin" "-308.253479 245.445038 263.999908"
 "model" "models/map_erbium/cavestair2.ase"
-"spawnflags" "6"
+"spawnflags" "4"
 "_castshadows" "1"
 "_receiveshadows" "1"
 "angle" "-51.449459"
@@ -21337,7 +21337,7 @@ brushDef
 "classname" "misc_model"
 "origin" "-288.003143 222.591385 284.039948"
 "model" "models/map_erbium/cavestair2.ase"
-"spawnflags" "6"
+"spawnflags" "4"
 "_castshadows" "1"
 "_receiveshadows" "1"
 "angle" "-47.765930"
