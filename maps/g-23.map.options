@@ -1,6 +1,0 @@
--bsp + -samplesize 4
--light + -bounce 8 -dirtscale 2 -sphericalscale 0.5 -spotscale 1.5 -areascale 0.5 -skyscale 1.5
--vis +
--minimap +
--sRGB
-Version: 9a

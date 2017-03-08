@@ -432,7 +432,7 @@ facility114x/misc-tube
 {
 "classname" "misc_model"
 "origin" "-192.000000 0.000000 32.000000"
-"model" "xonotic-maps.pk3dir/models/lights/xonlight07.md3"
+"model" "models/lights/xonlight07.md3"
 "angle" "-90.000000"
 "_castshadows" "1"
 "_receiveshadows" "1"
