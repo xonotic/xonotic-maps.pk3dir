@@ -1,16 +1,10 @@
 title Geoplanetary
 description Geomonetary in space
 author MintOX, Debugger, Mirio
-cdtrack 18
+cdtrack 17
 has weapons
 gametype ctf
 gametype dom
 
 clientsettemp_for_type all r_water 1
 clientsettemp_for_type all r_water_resolutionmultiplier 1
-
-//For my daughter Alysa. Thanks for all your help. I love you boo! 
-//Thanks to Dokujisan and ohters on HOCFT that helped!
-
-//Released 5/17/2010
-//mintox.nex@gmail.com
