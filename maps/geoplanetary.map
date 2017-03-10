@@ -42839,8 +42839,8 @@ map_geoplanetary/wiz1_4_mesh
 }
 {
 "classname" "info_autoscreenshot"
-"origin" "116.961021 3492.76465 676.945801"
-"angles" "9.23950195 -64.2810059 0"
+"origin" "-1335.07239 1433.6825 692.169495"
+"angles" "10.6896973 40.8691406 0"
 }
 {
 "classname" "info_autoscreenshot"
