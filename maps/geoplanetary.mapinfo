@@ -1,0 +1,10 @@
+title Geoplanetary
+description Geomonetary in space
+author MintOX, Debugger, Mirio
+cdtrack 17
+has weapons
+gametype ctf
+gametype dom
+
+clientsettemp_for_type all r_water 1
+clientsettemp_for_type all r_water_resolutionmultiplier 1
