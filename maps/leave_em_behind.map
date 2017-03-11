@@ -1889,7 +1889,7 @@ trak5x/base-pipe1d
 ( 992 -1407.7989501953 439.7990112305 ) ( 992 -1388 448 ) ( 1000 -1388 448 ) exx/panel-q201c 53.6203460693 256 90 0.0386698246 -0.03125 134217728 0 0
 ( 992 -1388 448 ) ( 992 -1368.2010498047 439.7990112305 ) ( 1000 -1368.2010498047 439.7990112305 ) exx/panel-q201c 53.6203460693 256 90 0.0386698246 -0.03125 134217728 0 0
 ( 992 -1368.2010498047 439.7990112305 ) ( 992 -1360 420 ) ( 1000 -1360 420 ) exx/panel-q201c 109.1483154297 256 -90 0.0386699438 0.03125 134217728 0 0
-( 992 -1388 392 ) ( 992 -1368.2010498047 400.2009887695 ) ( 992 -1360 420 ) NULL 16 16 -90 0.5 0.5 134217728 0 0
+( 992 -1388 392 ) ( 992 -1368.2010498047 400.2009887695 ) ( 992 -1360 420 ) common/caulk 16 16 -90 0.5 0.5 134217728 0 0
 ( 1000 -1360 420 ) ( 1000 -1368.2010498047 400.2009887695 ) ( 1000 -1388 392 ) exx/panel-q201 0.0001831055 365.7141418457 -90 0.1093749925 0.1093749925 134217728 0 0
 }
 {
@@ -1901,7 +1901,7 @@ trak5x/base-pipe1d
 ( 992 -1407.7989501953 511.7990112305 ) ( 992 -1388 520 ) ( 1000 -1388 520 ) exx/panel-q201c 53.6203460693 256 90 0.0386698246 -0.03125 134217728 0 0
 ( 992 -1388 520 ) ( 992 -1368.2010498047 511.7990112305 ) ( 1000 -1368.2010498047 511.7990112305 ) exx/panel-q201c 53.6203460693 256 90 0.0386698246 -0.03125 134217728 0 0
 ( 992 -1368.2010498047 511.7990112305 ) ( 992 -1360 492 ) ( 1000 -1360 492 ) exx/panel-q201c 179.0593566895 256 -90 0.0386699438 0.03125 134217728 0 0
-( 992 -1388 464 ) ( 992 -1368.2010498047 472.2009887695 ) ( 992 -1360 492 ) NULL 32 16 -90 0.5 0.5 134217728 0 0
+( 992 -1388 464 ) ( 992 -1368.2010498047 472.2009887695 ) ( 992 -1360 492 ) common/caulk 32 16 -90 0.5 0.5 134217728 0 0
 ( 1000 -1360 492 ) ( 1000 -1368.2010498047 472.2009887695 ) ( 1000 -1388 464 ) exx/panel-q201 146.285949707 365.7141418457 -90 0.1093749925 0.1093749925 134217728 0 0
 }
 {
@@ -16206,7 +16206,7 @@ exx/panel-q201
 {
 "classname" "target_speaker"
 "origin" "0.000000 416.000000 320.000000"
-"noise" "sound/map_leave_em_behind/lighthum.ogg"
+"noise" "sound/machines/lighthum_looped.ogg"
 }
 {
 "classname" "target_speaker"
@@ -16696,32 +16696,32 @@ exx/panel-q201
 {
 "classname" "target_speaker"
 "origin" "-1184.000000 -704.000000 64.000000"
-"noise" "sound/map_leave_em_behind/lighthum.ogg"
+"noise" "sound/machines/lighthum_looped.ogg"
 }
 {
 "classname" "target_speaker"
 "origin" "-1184.000000 1344.000000 416.000000"
-"noise" "sound/map_leave_em_behind/lighthum.ogg"
+"noise" "sound/machines/lighthum_looped.ogg"
 }
 {
 "classname" "target_speaker"
 "origin" "160.000000 1184.000000 416.000000"
-"noise" "sound/map_leave_em_behind/lighthum.ogg"
+"noise" "sound/machines/lighthum_looped.ogg"
 }
 {
 "classname" "target_speaker"
 "origin" "1344.000000 -1184.000000 416.000000"
-"noise" "sound/map_leave_em_behind/lighthum.ogg"
+"noise" "sound/machines/lighthum_looped.ogg"
 }
 {
 "classname" "target_speaker"
 "origin" "0.000000 -1344.000000 416.000000"
-"noise" "sound/map_leave_em_behind/lighthum.ogg"
+"noise" "sound/machines/lighthum_looped.ogg"
 }
 {
 "classname" "target_speaker"
 "origin" "0.000000 -608.000000 320.000000"
-"noise" "sound/map_leave_em_behind/lighthum.ogg"
+"noise" "sound/machines/lighthum_looped.ogg"
 }
 {
 "classname" "light"

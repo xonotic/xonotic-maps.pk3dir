@@ -12124,14 +12124,6 @@ trak5x/base-pipe1C
 }
 }
 {
-( -116 -536 520 ) ( -108 -528 520 ) ( -108 -536 520 ) common/caulk 224 160 90 0.25 -0.25 134217728 0 0
-( -116 -528 528 ) ( -116 -536 480 ) ( -116 -528 480 ) exx/trim-vert01 0 128 0 0.25 0.25 134217728 0 0
-( -116 -528 528 ) ( -108 -528 480 ) ( -108 -528 528 ) exx/trim-vert01 16 128 0 0.25 0.25 134217728 0 0
-( -116 -528 464 ) ( -108 -536 464 ) ( -108 -528 464 ) exx/trim-vert01 16 416 0 0.25 -0.25 134217728 0 0
-( -108 -536 528 ) ( -108 -528 480 ) ( -108 -536 480 ) exx/trim-vert01 0 128 0 0.25 0.25 134217728 0 0
-( -116 -536 480 ) ( -108 -536 528 ) ( -108 -536 480 ) exx/trim-vert01 16 128 0 0.25 0.25 134217728 0 0
-}
-{
 patchDef2
 {
 trak5x/base-pipe1C
@@ -25082,14 +25074,6 @@ trak5x/base-pipe1b
 }
 }
 {
-( -2200 1556 520 ) ( -2192 1556 520 ) ( -2200 1548 520 ) common/caulk 224 160 0 0.25 0.25 134217728 0 0
-( -2192 1548 480 ) ( -2200 1548 480 ) ( -2192 1548 528 ) exx/trim-vert01 0 128 0 0.25 0.25 134217728 0 0
-( -2192 1556 528 ) ( -2192 1556 480 ) ( -2192 1548 528 ) exx/trim-vert01 16 128 0 0.25 0.25 134217728 0 0
-( -2192 1556 464 ) ( -2200 1556 464 ) ( -2192 1548 464 ) exx/trim-vert01 16 416 90 0.25 0.25 134217728 0 0
-( -2200 1556 480 ) ( -2192 1556 480 ) ( -2200 1556 528 ) exx/trim-vert01 0 128 0 0.25 0.25 134217728 0 0
-( -2200 1556 480 ) ( -2200 1556 528 ) ( -2200 1548 480 ) exx/trim-vert01 16 128 0 0.25 0.25 134217728 0 0
-}
-{
 patchDef2
 {
 trak5x/base-pipe1b
@@ -29425,14 +29409,12 @@ exx/base-metal03
 "origin" "-288.000000 -208.000000 112.000000"
 "targetname" "t6"
 "angle" "-90.000000"
-"gametypefilter" "-dm,arena"
 }
 {
 "classname" "target_position"
 "origin" "-288.000000 -176.000000 112.000000"
 "targetname" "t7"
 "angle" "-90.000000"
-"gametypefilter" "-dm,arena"
 }
 {
 "classname" "trigger_push"
@@ -29451,7 +29433,6 @@ exx/base-metal03
 "origin" "-288.000000 -240.000000 112.000000"
 "targetname" "t8"
 "angle" "-90.000000"
-"gametypefilter" "-dm,arena"
 }
 {
 "classname" "trigger_push"
@@ -29592,10 +29573,9 @@ exx/base-metal03
 "angle" "-90.000000"
 }
 {
-"classname" "item_armor_large"
+"classname" "item_armor_mega"
 "origin" "-160.000000 -208.000000 16.000000"
 "angle" "-90.000000"
-"gametypefilter" "+dm,arena"
 }
 {
 "classname" "item_health_small"
@@ -32403,7 +32383,7 @@ exx/base-metal03
 }
 }
 {
-"classname" "item_armor_large"
+"classname" "item_armor_mega"
 "origin" "368.000000 192.000000 -416.000000"
 "angle" "-90.000000"
 }
@@ -32864,14 +32844,12 @@ exx/base-metal03
 "origin" "-1872.000000 1376.000000 112.000000"
 "targetname" "t47"
 "angle" "0.000003"
-"gametypefilter" "-dm,arena"
 }
 {
 "classname" "target_position"
 "origin" "-1840.000000 1376.000000 112.000000"
 "targetname" "t50"
 "angle" "0.000003"
-"gametypefilter" "-dm,arena"
 }
 {
 "classname" "trigger_push"
@@ -32890,7 +32868,6 @@ exx/base-metal03
 "origin" "-1904.000000 1376.000000 112.000000"
 "targetname" "t51"
 "angle" "0.000003"
-"gametypefilter" "-dm,arena"
 }
 {
 "classname" "trigger_push"
@@ -34650,7 +34627,6 @@ exx/base-metal03
 "classname" "info_player_deathmatch"
 "angle" "-180.000000"
 "origin" "-1104.000000 2064.000000 24.000000"
-"gametypefilter" "-dm,arena"
 }
 {
 "classname" "info_player_deathmatch"
@@ -35758,7 +35734,7 @@ exx/base-metal03
 }
 }
 {
-"classname" "item_armor_large"
+"classname" "item_armor_mega"
 "origin" "-1472.000000 2032.000000 -416.000000"
 "angle" "0.000003"
 }
@@ -36193,7 +36169,6 @@ exx/base-metal03
 "classname" "info_player_team1"
 "angle" "-180.000000"
 "origin" "-1112.000000 2048.000000 40.000000"
-"gametypefilter" "-dm,arena"
 }
 {
 "classname" "info_player_team1"
@@ -36311,7 +36286,7 @@ effects_healpod/healpod1_d
 "origin" "784.000000 64.000000 -160.000000"
 }
 {
-"classname" "item_armor_large"
+"classname" "item_armor_mega"
 "origin" "-2200.000000 -536.000000 128.000000"
 }
 {
@@ -36392,7 +36367,7 @@ effects_healpod/healpod1_d
 }
 {
 "classname" "onslaught_generator"
-"origin" "784.000000 1104.000000 296.000000"
+"origin" "784.000000 968.000000 296.000000"
 "team" "14"
 "targetname" "redgen1"
 "angle" "-90.000000"
@@ -36401,7 +36376,7 @@ effects_healpod/healpod1_d
 "classname" "onslaught_controlpoint"
 "origin" "-80.000000 -208.000000 0.000000"
 "targetname" "redcp1"
-"message" "Big Red room"
+"message" "Big Blue room"
 "angle" "-90.000000"
 }
 {
@@ -36427,10 +36402,10 @@ effects_healpod/healpod1_d
 }
 {
 "classname" "onslaught_generator"
-"origin" "-560.000000 2448.000000 296.000000"
+"origin" "-696.000000 2448.000000 296.000000"
 "team" "5"
 "targetname" "redgen2"
-"angle" "0.000003"
+"angle" "-179.999985"
 }
 {
 "classname" "onslaught_controlpoint"
@@ -36479,41 +36454,35 @@ effects_healpod/healpod1_d
 "origin" "-864.000000 800.000000 -296.000000"
 "targetname" "middlelowcpspawns"
 "angle" "180.000000"
-"gametypefilter" "-dm"
 }
 {
 "classname" "info_player_deathmatch"
 "origin" "-1936.000000 -272.000000 80.000000"
 "targetname" "middlehighcpspawns"
-"gametypefilter" "-dm"
 }
 {
 "classname" "info_player_deathmatch"
 "origin" "-352.000000 1056.000000 -232.000000"
 "targetname" "middlelowcpspawns"
 "angle" "90.000000"
-"gametypefilter" "-dm"
 }
 {
 "classname" "info_player_deathmatch"
 "origin" "-2080.000000 -672.000000 136.000000"
 "targetname" "middlehighcpspawns"
 "angle" "-90.000000"
-"gametypefilter" "-dm"
 }
 {
 "classname" "info_player_deathmatch"
 "origin" "-608.000000 1312.000000 -232.000000"
 "targetname" "middlelowcpspawns"
 "angle" "-179.999985"
-"gametypefilter" "-dm"
 }
 {
 "classname" "info_player_deathmatch"
 "origin" "-2336.000000 -416.000000 136.000000"
 "targetname" "middlehighcpspawns"
 "angle" "0.000003"
-"gametypefilter" "-dm"
 }
 {
 "classname" "misc_breakablemodel"
@@ -36527,9 +36496,9 @@ effects_healpod/healpod1_d
 "debrissolid" "0"
 "debristime" "5"
 "debristimejitter" "2"
-"dmg" "25"
-"dmg_edge" "25"
-"dmg_force" "600"
+"dmg" "40"
+"dmg_edge" "30"
+"dmg_force" "200"
 "dmg_radius" "190"
 "health" "25"
 "mdl" "TE_TEI_BIGEXPLOSION"
@@ -36551,9 +36520,9 @@ effects_healpod/healpod1_d
 "debrissolid" "0"
 "debristime" "5"
 "debristimejitter" "2"
-"dmg" "25"
-"dmg_edge" "25"
-"dmg_force" "600"
+"dmg" "40"
+"dmg_edge" "30"
+"dmg_force" "200"
 "dmg_radius" "190"
 "health" "25"
 "mdl" "TE_TEI_BIGEXPLOSION"
@@ -36575,9 +36544,9 @@ effects_healpod/healpod1_d
 "debrissolid" "0"
 "debristime" "5"
 "debristimejitter" "2"
-"dmg" "25"
-"dmg_edge" "25"
-"dmg_force" "600"
+"dmg" "40"
+"dmg_edge" "30"
+"dmg_force" "200"
 "dmg_radius" "190"
 "health" "25"
 "mdl" "TE_TEI_BIGEXPLOSION"
@@ -36599,9 +36568,9 @@ effects_healpod/healpod1_d
 "debrissolid" "0"
 "debristime" "5"
 "debristimejitter" "2"
-"dmg" "25"
-"dmg_edge" "25"
-"dmg_force" "600"
+"dmg" "40"
+"dmg_edge" "30"
+"dmg_force" "200"
 "dmg_radius" "190"
 "health" "25"
 "mdl" "TE_TEI_BIGEXPLOSION"
@@ -36616,4 +36585,9 @@ effects_healpod/healpod1_d
 "origin" "-712.000000 2448.000000 296.000000"
 "angle" "-179.999985"
 "message" " has captured the ^2Red base ^3control point"
+}
+{
+"classname" "item_armor_mega"
+"origin" "-1872.000000 1504.000000 16.000000"
+"angle" "179.999985"
 }

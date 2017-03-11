@@ -20581,7 +20581,7 @@ trak5x/base-base1a
 {
 ( 1014 -1728 16 ) ( 76 -1728 16 ) ( 1014 -1728 -144 ) common/waternodraw 76 0 0 0.25 0.25 0 0 0
 ( -29 -2816 -144 ) ( 909 -2816 -144 ) ( -29 -1707 -144 ) common/waternodraw 240 0 0 0.25 0.25 0 0 0
-( -576 -1728 2 ) ( -576 -1920 2 ) ( -576 -1728 -144 ) common/waternodraw 504 0 0 0.25 0.25 0 0 0
+( -608 -1728 2 ) ( -608 -1920 2 ) ( -608 -1728 -144 ) common/waternodraw 504 0 0 0.25 0.25 0 0 0
 ( -166 -1920 64 ) ( -150 -1920 -64 ) ( -166 -1920 -64 ) common/waternodraw 0 0 0 0.25 0.25 0 0 0
 ( -192 -1730 -60 ) ( -192 -1754 -60 ) ( -192 -1730 68 ) common/waternodraw 0 16 0 0.25 0.25 0 0 0
 ( -184 64 0 ) ( -180 64 0 ) ( -184 -64 0 ) map_solarium/water4 0 0 0 0.25 0.25 0 0 0
@@ -23587,6 +23587,14 @@ trak5x/base-base1a
 ( -1320 -800 -144 ) ( -1320 -800 112 ) ( -1320 -696 -144 ) common/full_clip 0 0 0 0.25 0.25 0 0 0
 ( -1320 -968 -160 ) ( -1336 -968 -160 ) ( -1320 -968 96 ) common/full_clip 64 0 0 -0.25 0.25 0 0 0
 }
+{
+( -2436 -824 -84 ) ( -2436 -1424 -84 ) ( -2508 -824 -84 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( -2436 -824 -84 ) ( -2508 -824 -84 ) ( -2436 -824 -160 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( -2436 -824 -84 ) ( -2436 -824 -160 ) ( -2436 -1424 -84 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( -2508 -1424 -160 ) ( -2436 -1424 -160 ) ( -2508 -824 -160 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( -2508 -1424 -160 ) ( -2508 -1424 -84 ) ( -2436 -1424 -160 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( -2508 -1424 -160 ) ( -2508 -824 -160 ) ( -2508 -1424 -84 ) common/clip 0 0 0 0.25 0.25 0 0 0
+}
 }
 {
 "classname" "info_player_deathmatch"
@@ -25115,7 +25123,7 @@ trak5x/base-base1a
 "_color" ".3 .7 1"
 }
 {
-"classname" "item_armor_large"
+"classname" "item_armor_mega"
 "origin" "672.000000 -2528.000000 184.000000"
 }
 {
@@ -25952,7 +25960,7 @@ trak5x/base-base1a
 "_color" "1 0 0"
 }
 {
-"classname" "item_armor_large"
+"classname" "item_armor_mega"
 "origin" "-808.000000 -184.000000 152.000000"
 "angle" "-90.000000"
 }
@@ -26033,9 +26041,9 @@ trak5x/base-base1a
 "debrissolid" "0"
 "debristime" "5"
 "debristimejitter" "2"
-"dmg" "25"
-"dmg_edge" "25"
-"dmg_force" "600"
+"dmg" "40"
+"dmg_edge" "30"
+"dmg_force" "200"
 "dmg_radius" "190"
 "health" "25"
 "mdl" "TE_TEI_BIGEXPLOSION"
@@ -26057,9 +26065,9 @@ trak5x/base-base1a
 "debrissolid" "0"
 "debristime" "5"
 "debristimejitter" "2"
-"dmg" "25"
-"dmg_edge" "25"
-"dmg_force" "600"
+"dmg" "40"
+"dmg_edge" "30"
+"dmg_force" "200"
 "dmg_radius" "190"
 "health" "25"
 "mdl" "TE_TEI_BIGEXPLOSION"
@@ -26081,9 +26089,9 @@ trak5x/base-base1a
 "debrissolid" "0"
 "debristime" "5"
 "debristimejitter" "2"
-"dmg" "25"
-"dmg_edge" "25"
-"dmg_force" "600"
+"dmg" "40"
+"dmg_edge" "30"
+"dmg_force" "200"
 "dmg_radius" "190"
 "health" "25"
 "mdl" "TE_TEI_BIGEXPLOSION"
@@ -26105,9 +26113,9 @@ trak5x/base-base1a
 "debrissolid" "0"
 "debristime" "5"
 "debristimejitter" "2"
-"dmg" "25"
-"dmg_edge" "25"
-"dmg_force" "600"
+"dmg" "40"
+"dmg_edge" "30"
+"dmg_force" "200"
 "dmg_radius" "190"
 "health" "25"
 "mdl" "TE_TEI_BIGEXPLOSION"
@@ -26129,9 +26137,9 @@ trak5x/base-base1a
 "debrissolid" "0"
 "debristime" "5"
 "debristimejitter" "2"
-"dmg" "25"
-"dmg_edge" "25"
-"dmg_force" "600"
+"dmg" "40"
+"dmg_edge" "30"
+"dmg_force" "200"
 "dmg_radius" "190"
 "health" "25"
 "mdl" "TE_TEI_BIGEXPLOSION"
@@ -26153,9 +26161,9 @@ trak5x/base-base1a
 "debrissolid" "0"
 "debristime" "5"
 "debristimejitter" "2"
-"dmg" "25"
-"dmg_edge" "25"
-"dmg_force" "600"
+"dmg" "40"
+"dmg_edge" "30"
+"dmg_force" "200"
 "dmg_radius" "190"
 "health" "25"
 "mdl" "TE_TEI_BIGEXPLOSION"
@@ -26177,9 +26185,9 @@ trak5x/base-base1a
 "debrissolid" "0"
 "debristime" "5"
 "debristimejitter" "2"
-"dmg" "25"
-"dmg_edge" "25"
-"dmg_force" "600"
+"dmg" "40"
+"dmg_edge" "30"
+"dmg_force" "200"
 "dmg_radius" "190"
 "health" "25"
 "mdl" "TE_TEI_BIGEXPLOSION"
@@ -26201,9 +26209,9 @@ trak5x/base-base1a
 "debrissolid" "0"
 "debristime" "5"
 "debristimejitter" "2"
-"dmg" "25"
-"dmg_edge" "25"
-"dmg_force" "600"
+"dmg" "40"
+"dmg_edge" "30"
+"dmg_force" "200"
 "dmg_radius" "190"
 "health" "25"
 "mdl" "TE_TEI_BIGEXPLOSION"
@@ -26225,9 +26233,9 @@ trak5x/base-base1a
 "debrissolid" "0"
 "debristime" "5"
 "debristimejitter" "2"
-"dmg" "25"
-"dmg_edge" "25"
-"dmg_force" "600"
+"dmg" "40"
+"dmg_edge" "30"
+"dmg_force" "200"
 "dmg_radius" "190"
 "health" "25"
 "mdl" "TE_TEI_BIGEXPLOSION"
@@ -26249,9 +26257,9 @@ trak5x/base-base1a
 "debrissolid" "0"
 "debristime" "5"
 "debristimejitter" "2"
-"dmg" "25"
-"dmg_edge" "25"
-"dmg_force" "600"
+"dmg" "40"
+"dmg_edge" "30"
+"dmg_force" "200"
 "dmg_radius" "190"
 "health" "25"
 "mdl" "TE_TEI_BIGEXPLOSION"
