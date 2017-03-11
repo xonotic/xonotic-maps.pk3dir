@@ -21970,7 +21970,7 @@ brushDef
 {
 "classname" "target_speaker"
 "origin" "-164.000000 476.000000 520.000000"
-"noise" "sound/map_erbium/waterfall.ogg"
+"noise" "map_erbium/waterfall.wav"
 "atten" "1.3"
 "volume" "8"
 }
@@ -21978,7 +21978,7 @@ brushDef
 "classname" "target_speaker"
 "origin" "-264.000000 752.000000 576.000000"
 "atten" "2"
-"noise" "sound/machines/Electrical_Machine.ogg"
+"noise" "machines/Electrical_Machine.wav"
 "spawnflags" "1"
 }
 {
@@ -21993,7 +21993,7 @@ brushDef
 "classname" "target_speaker"
 "origin" "176.000000 -1392.000000 184.000000"
 "atten" "2"
-"noise" "sound/machines/Electrical_Machine.ogg"
+"noise" "machines/Electrical_Machine.wav"
 "angle" "-90.000000"
 }
 {
@@ -22133,8 +22133,8 @@ brushDef
 "speed" "260"
 "lip" "2"
 "wait" "3"
-"noise1" "sound/map_warfare/elevator_stop.ogg"
-"noise2" "sound/map_warfare/elevator_move.ogg"
+"noise1" "map_warfare/elevator_stop.wav"
+"noise2" "map_warfare/elevator_move.wav"
 "targetname" "elevator1"
 {
 patchDef2
@@ -22988,13 +22988,13 @@ brushDef
 {
 "classname" "target_speaker"
 "origin" "1580.000000 -660.000000 1008.000000"
-"noise" "sound/map_erbium/turbulance.ogg"
+"noise" "map_erbium/turbulance.wav"
 "atten" "1"
 }
 {
 "classname" "target_speaker"
 "origin" "-144.000000 472.000000 200.000000"
-"noise" "sound/map_erbium/waterfall.ogg"
+"noise" "map_erbium/waterfall.wav"
 "atten" "1.2"
 "volume" "10"
 }
@@ -23002,13 +23002,13 @@ brushDef
 "classname" "target_speaker"
 "origin" "1680.000000 484.000000 1040.000000"
 "atten" "1.5"
-"noise" "sound/map_erbium/wind.ogg"
+"noise" "map_erbium/wind.wav"
 }
 {
 "classname" "target_speaker"
 "origin" "184.000000 -1420.000000 812.000000"
 "atten" "1.3"
-"noise" "sound/map_erbium/wind.ogg"
+"noise" "map_erbium/wind.wav"
 }
 {
 "classname" "item_health_small"
@@ -23210,7 +23210,7 @@ brushDef
 {
 "classname" "target_speaker"
 "origin" "576.000000 -472.000000 132.000000"
-"noise" "sound/map_erbium/gears.ogg"
+"noise" "map_erbium/gears.wav"
 "atten" "1.5"
 }
 {
@@ -23295,7 +23295,7 @@ brushDef
 "classname" "target_speaker"
 "origin" "2040.000000 -568.000000 608.000000"
 "atten" "2"
-"noise" "sound/machines/Electrical_Machine.ogg"
+"noise" "machines/Electrical_Machine.wav"
 }
 {
 "classname" "func_rotating"
@@ -23919,7 +23919,7 @@ brushDef
 "classname" "target_speaker"
 "origin" "-264.000000 -732.000000 136.000000"
 "atten" "2"
-"noise" "sound/machines/Electrical_Machine.ogg"
+"noise" "machines/Electrical_Machine.wav"
 "spawnflags" "1"
 }
 {
@@ -23954,19 +23954,19 @@ brushDef
 "classname" "target_speaker"
 "origin" "-352.000000 -780.000000 664.000000"
 "atten" "1.3"
-"noise" "sound/map_erbium/wind.ogg"
+"noise" "map_erbium/wind.wav"
 }
 {
 "classname" "target_speaker"
 "origin" "-488.000000 -1316.000000 456.000000"
 "atten" "1.3"
-"noise" "sound/map_erbium/wind.ogg"
+"noise" "map_erbium/wind.wav"
 }
 {
 "classname" "target_speaker"
 "origin" "1744.000000 140.000000 320.000000"
 "atten" "2"
-"noise" "sound/machines/Electrical_Machine.ogg"
+"noise" "machines/Electrical_Machine.wav"
 }
 {
 "classname" "light"
@@ -23978,7 +23978,7 @@ brushDef
 "classname" "target_speaker"
 "origin" "1856.000000 700.000000 320.000000"
 "atten" "2"
-"noise" "sound/map_erbium/gears.ogg"
+"noise" "map_erbium/gears.wav"
 }
 {
 "classname" "light"
@@ -24265,7 +24265,7 @@ brushDef
 {
 "classname" "target_speaker"
 "origin" "1580.000000 -660.000000 744.000000"
-"noise" "sound/map_erbium/turbulance.ogg"
+"noise" "map_erbium/turbulance.wav"
 "atten" "1"
 }
 {
