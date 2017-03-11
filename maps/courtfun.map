@@ -27492,11 +27492,11 @@ exx/base-metal01
 "origin" "2208.000000 -1024.000000 360.000000"
 }
 {
-"classname" "item_armor_large"
+"classname" "item_armor_mega"
 "origin" "96.000000 2080.000000 32.000000"
 }
 {
-"classname" "item_health_large"
+"classname" "item_health_big"
 "origin" "-2400.000000 192.000000 168.000000"
 }
 {
@@ -27732,7 +27732,7 @@ exx/base-metal01
 "angle" "-49.052025"
 }
 {
-"classname" "item_health_large"
+"classname" "item_health_big"
 "origin" "-288.000000 1608.000000 88.000000"
 }
 {
@@ -30443,7 +30443,7 @@ exx/base-metal01
 "origin" "512.000000 -3520.000000 256.000000"
 }
 {
-"classname" "item_health_large"
+"classname" "item_health_big"
 "origin" "512.000000 -3648.000000 256.000000"
 }
 {
@@ -30907,12 +30907,12 @@ exx/base-metal01
 "angle" "-179.999985"
 }
 {
-"classname" "item_armor_large"
+"classname" "item_armor_mega"
 "origin" "-4192.000000 1888.000000 32.000000"
 "angle" "-179.999985"
 }
 {
-"classname" "item_health_large"
+"classname" "item_health_big"
 "origin" "-1696.000000 3776.000000 168.000000"
 "angle" "-179.999985"
 }
@@ -31100,7 +31100,7 @@ exx/base-metal01
 "angle" "130.947983"
 }
 {
-"classname" "item_health_large"
+"classname" "item_health_big"
 "origin" "-3808.000000 2360.000000 88.000000"
 "angle" "-179.999985"
 }
@@ -33864,7 +33864,7 @@ exx/base-metal01
 "angle" "-179.999985"
 }
 {
-"classname" "item_health_large"
+"classname" "item_health_big"
 "origin" "-4608.000000 7616.000000 256.000000"
 "angle" "-179.999985"
 }
@@ -35752,9 +35752,9 @@ map_courtfun/screen_obey
 "debrissolid" "0"
 "debristime" "5"
 "debristimejitter" "2"
-"dmg" "25"
-"dmg_edge" "25"
-"dmg_force" "600"
+"dmg" "40"
+"dmg_edge" "30"
+"dmg_force" "200"
 "dmg_radius" "190"
 "health" "25"
 "mdl" "TE_TEI_BIGEXPLOSION"
@@ -35776,9 +35776,9 @@ map_courtfun/screen_obey
 "debrissolid" "0"
 "debristime" "5"
 "debristimejitter" "2"
-"dmg" "25"
-"dmg_edge" "25"
-"dmg_force" "600"
+"dmg" "40"
+"dmg_edge" "30"
+"dmg_force" "200"
 "dmg_radius" "190"
 "health" "25"
 "mdl" "TE_TEI_BIGEXPLOSION"
@@ -35800,9 +35800,9 @@ map_courtfun/screen_obey
 "debrissolid" "0"
 "debristime" "5"
 "debristimejitter" "2"
-"dmg" "25"
-"dmg_edge" "25"
-"dmg_force" "600"
+"dmg" "40"
+"dmg_edge" "30"
+"dmg_force" "200"
 "dmg_radius" "190"
 "health" "25"
 "mdl" "TE_TEI_BIGEXPLOSION"
@@ -35824,9 +35824,9 @@ map_courtfun/screen_obey
 "debrissolid" "0"
 "debristime" "5"
 "debristimejitter" "2"
-"dmg" "25"
-"dmg_edge" "25"
-"dmg_force" "600"
+"dmg" "40"
+"dmg_edge" "30"
+"dmg_force" "200"
 "dmg_radius" "190"
 "health" "25"
 "mdl" "TE_TEI_BIGEXPLOSION"
@@ -35848,9 +35848,9 @@ map_courtfun/screen_obey
 "debrissolid" "0"
 "debristime" "5"
 "debristimejitter" "2"
-"dmg" "25"
-"dmg_edge" "25"
-"dmg_force" "600"
+"dmg" "40"
+"dmg_edge" "30"
+"dmg_force" "200"
 "dmg_radius" "190"
 "health" "25"
 "mdl" "TE_TEI_BIGEXPLOSION"
@@ -35872,9 +35872,9 @@ map_courtfun/screen_obey
 "debrissolid" "0"
 "debristime" "5"
 "debristimejitter" "2"
-"dmg" "25"
-"dmg_edge" "25"
-"dmg_force" "600"
+"dmg" "40"
+"dmg_edge" "30"
+"dmg_force" "200"
 "dmg_radius" "190"
 "health" "25"
 "mdl" "TE_TEI_BIGEXPLOSION"
@@ -35896,9 +35896,9 @@ map_courtfun/screen_obey
 "debrissolid" "0"
 "debristime" "5"
 "debristimejitter" "2"
-"dmg" "25"
-"dmg_edge" "25"
-"dmg_force" "600"
+"dmg" "40"
+"dmg_edge" "30"
+"dmg_force" "200"
 "dmg_radius" "190"
 "health" "25"
 "mdl" "TE_TEI_BIGEXPLOSION"
@@ -35920,9 +35920,9 @@ map_courtfun/screen_obey
 "debrissolid" "0"
 "debristime" "5"
 "debristimejitter" "2"
-"dmg" "25"
-"dmg_edge" "25"
-"dmg_force" "600"
+"dmg" "40"
+"dmg_edge" "30"
+"dmg_force" "200"
 "dmg_radius" "190"
 "health" "25"
 "mdl" "TE_TEI_BIGEXPLOSION"

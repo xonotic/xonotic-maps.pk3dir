@@ -1,0 +1,5 @@
+-bsp +
+-light + -bounce 8 -dirtscale 2
+-vis +
+-minimap +
+Version: 6f
