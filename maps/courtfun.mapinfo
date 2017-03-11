@@ -19,18 +19,22 @@ settemp_for_type rc g_pickup_rockets 8
 settemp_for_type rc g_pickup_rockets_weapon 8
 
 settemp_for_type cts g_use_ammunition 0
-settemp_for_type cts g_weaponreplace_electro 0
-settemp_for_type cts g_weaponreplace_grenadelauncher 0
-settemp_for_type cts g_weaponreplace_hagar 0
-settemp_for_type cts g_weaponreplace_nex 0
-settemp_for_type cts g_weaponreplace_rocketlauncher 0
-settemp_for_type cts g_weaponreplace_uzi 0
-settemp_for_type cts g_powerup_shield 0
-settemp_for_type cts g_start_weapon_shotgun 0
-settemp_for_type cts g_start_weapon_laser 1
+settemp_for_type cts g_balance_electro_weaponreplace ""
+settemp_for_type cts g_balance_mortar_weaponreplace ""
+settemp_for_type cts g_balance_hagar_weaponreplace ""
+settemp_for_type cts g_balance_vortex_weaponreplace ""
+settemp_for_type cts g_balance_devastator_weaponreplace ""
+settemp_for_type cts g_balance_machinegun_weaponreplace ""
+settemp_for_type cts g_powerups 0
+settemp_for_type cts g_balance_shotgun_weaponstart 0
+settemp_for_type cts g_balance_shotgun_weaponstartoverride 1
+settemp_for_type cts g_balance_blaster_weaponstart 1
+settemp_for_type cts g_balance_blaster_weaponstartoverride 1
 settemp_for_type cts g_cts_finish_kill_delay 0
 
 settemp_for_type ons g_powerups 0
 
 clientsettemp_for_type all r_water 1
 clientsettemp_for_type all r_water_resolutionmultiplier 1
+
+clientsettemp_for_type all r_shadow_realtime_world 0 // Workaround to fix problem with Realtime world lighting
