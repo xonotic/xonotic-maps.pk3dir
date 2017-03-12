@@ -31324,14 +31324,14 @@ exx/base-metal03
 }
 {
 "classname" "misc_model"
-"origin" "-79.999756 -1023.999878 -104.000000"
+"origin" "-95.749756 -1023.999878 -104.000000"
 "model" "models/effects_warpzone/blueedge.md3"
 "modelscale" "5.000000"
 "angle" "-179.999985"
 }
 {
 "classname" "misc_model"
-"origin" "-991.999756 -688.000488 248.000000"
+"origin" "-991.999756 -703.750488 248.000000"
 "model" "models/effects_warpzone/blueedge.md3"
 "modelscale" "5.000000"
 "angle" "90.000000"
@@ -34692,7 +34692,7 @@ exx/base-metal03
 }
 {
 "classname" "misc_model"
-"origin" "-2352.000244 672.000366 248.000000"
+"origin" "-2367.750244 672.000366 248.000000"
 "model" "models/effects_warpzone/rededge.md3"
 "modelscale" "5.000000"
 "angle" "-179.999985"
@@ -36281,7 +36281,7 @@ exx/base-metal03
 }
 {
 "classname" "misc_model"
-"origin" "-2687.999512 1584.000366 -108.000000"
+"origin" "-2687.999512 1568.250366 -108.000000"
 "model" "models/effects_warpzone/rededge.md3"
 "modelscale" "5.000000"
 "angle" "90.000008"
