@@ -15288,6 +15288,7 @@ map_stormkeep/rock
 "model" "models/lights/xonlight05.md3"
 "modelscale" "0.500000"
 "angles" "-0.000000 0.000000 -90.000000"
+"spawnflags" "2"
 }
 {
 "classname" "light"
@@ -15595,6 +15596,7 @@ map_stormkeep/rock
 "model" "models/lights/xonlight05.md3"
 "modelscale" "0.500000"
 "angles" "0.000000 -45.000000 -90.000000"
+"spawnflags" "2"
 }
 {
 "classname" "light"
