@@ -1,6 +1,5 @@
 {
 "classname" "worldspawn"
-"_floodlight" "255 225 120 3750 50"
 "_blocksize" "512 512 512"
 "message" "Glow Plant"
 "_description" "A nuclear power plant with a LOT of blue glowy stuff..."
