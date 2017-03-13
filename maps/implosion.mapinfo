@@ -12,3 +12,4 @@ gametype tdm
 gametype lms
 gametype dom
 gametype dm
+gametype surv

@@ -10,6 +10,7 @@ gametype tdm
 gametype ca
 gametype kh
 gametype ft
+gametype surv
 
 // optional: fog density red green blue alpha mindist maxdist
 // optional: settemp_for_type (all|gametypename) cvarname value
