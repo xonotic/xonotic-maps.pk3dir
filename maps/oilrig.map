@@ -24068,7 +24068,6 @@ exx/wall-bigrib02
 "model" "models/lights/xonlight02.md3"
 "angle" "89.999992"
 "modelscale" "0.700000"
-"spawnflags" "2"
 }
 {
 "classname" "misc_model"
