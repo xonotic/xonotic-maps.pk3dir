@@ -1,6 +1,5 @@
 {
 "classname" "worldspawn"
-"_floodlight" "255 190 150 128 128"
 "gridsize" "64 64 64"
 "author" "ShadoW, Mirio, Debugger"
 "message" "Atelier"
