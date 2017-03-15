@@ -40674,3 +40674,15 @@ common/weapclip
 "origin" "-512.000000 576.000000 400.000000"
 "message" " has captured the ^2Center Room ^3control point"
 }
+{
+"classname" "misc_model"
+"origin" "-512.000000 832.000000 351.000000"
+"model" "models/lights/xonlight01.md3"
+"angle" "90.000000"
+}
+{
+"classname" "light"
+"origin" "-512.000000 832.000000 288.000000"
+"light" "180"
+"_color" "1 0.900877 0.745953"
+}
