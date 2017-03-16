@@ -2290,8 +2290,12 @@ Fast firing moderate damage bullet (hitscan) turret.
 <real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
 <target key="target" name="target">Defend the position of this entity</target>
 <integer key="team" name="team">5=red, 14=blue</integer>
+
 -------- SPAWNFLAGS --------
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
+<flag key="SUSPENDED" name="TSF_SUSPENDED" bit="0">Prevents the turret from being dropped to the floor.</flag>
+<flag key="NO_AMMO_REGEN" name="TSF_NO_AMMO_REGEN" bit="2">Disable builtin ammo regeneration.</flag>
+<flag key="NO_RESPAWN" name="TSL_NO_RESPAWN" bit="4">Don't re-spawn.</flag>
 </point>
 
 <point name="turret_plasma" color="1 0 0" box="-32 -32 0 32 32 50" model="models/turrets/radiant/plasma.md3">
@@ -2306,6 +2310,9 @@ Fast firing moderate damage bullet (hitscan) turret.
 <integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
+<flag key="SUSPENDED" name="TSF_SUSPENDED" bit="0">Prevents the turret from being dropped to the floor.</flag>
+<flag key="NO_AMMO_REGEN" name="TSF_NO_AMMO_REGEN" bit="2">Disable builtin ammo regeneration.</flag>
+<flag key="NO_RESPAWN" name="TSL_NO_RESPAWN" bit="4">Don't re-spawn.</flag>
 ---------NOTES----------
 Basic energy cannon
 </point>
@@ -2323,6 +2330,9 @@ basic energy cannon * 2
 <integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
+<flag key="SUSPENDED" name="TSF_SUSPENDED" bit="0">Prevents the turret from being dropped to the floor.</flag>
+<flag key="NO_AMMO_REGEN" name="TSF_NO_AMMO_REGEN" bit="2">Disable builtin ammo regeneration.</flag>
+<flag key="NO_RESPAWN" name="TSL_NO_RESPAWN" bit="4">Don't re-spawn.</flag>
 </point>
 
 <point name="turret_flac" color="1 0 0" box="-32 -32 0 32 32 50" model="models/turrets/radiant/flac.md3">
@@ -2338,6 +2348,9 @@ Only kills missiles, rockets, grenadelauncher &amp; electro secondaries to be pr
 <integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
+<flag key="SUSPENDED" name="TSF_SUSPENDED" bit="0">Prevents the turret from being dropped to the floor.</flag>
+<flag key="NO_AMMO_REGEN" name="TSF_NO_AMMO_REGEN" bit="2">Disable builtin ammo regeneration.</flag>
+<flag key="NO_RESPAWN" name="TSL_NO_RESPAWN" bit="4">Don't re-spawn.</flag>
 </point>
 
 <point name="turret_mlrs" color="1 0 0" box="-32 -32 0 32 32 50" model="models/turrets/radiant/mlrs.md3">
@@ -2353,6 +2366,9 @@ Only kills missiles, rockets, grenadelauncher &amp; electro secondaries to be pr
 <integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
+<flag key="SUSPENDED" name="TSF_SUSPENDED" bit="0">Prevents the turret from being dropped to the floor.</flag>
+<flag key="NO_AMMO_REGEN" name="TSF_NO_AMMO_REGEN" bit="2">Disable builtin ammo regeneration.</flag>
+<flag key="NO_RESPAWN" name="TSL_NO_RESPAWN" bit="4">Don't re-spawn.</flag>
 </point>
 
 <point name="turret_hellion" color="1 0 0" box="-32 -32 0 32 32 50" model="models/turrets/radiant/hellion.md3">
@@ -2368,6 +2384,9 @@ Only kills missiles, rockets, grenadelauncher &amp; electro secondaries to be pr
 <integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
+<flag key="SUSPENDED" name="TSF_SUSPENDED" bit="0">Prevents the turret from being dropped to the floor.</flag>
+<flag key="NO_AMMO_REGEN" name="TSF_NO_AMMO_REGEN" bit="2">Disable builtin ammo regeneration.</flag>
+<flag key="NO_RESPAWN" name="TSL_NO_RESPAWN" bit="4">Don't re-spawn.</flag>
 </point>
 
 
@@ -2384,6 +2403,9 @@ Single powerful rocket with the ability to evade obstacles to find its target. V
 <integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
+<flag key="SUSPENDED" name="TSF_SUSPENDED" bit="0">Prevents the turret from being dropped to the floor.</flag>
+<flag key="NO_AMMO_REGEN" name="TSF_NO_AMMO_REGEN" bit="2">Disable builtin ammo regeneration.</flag>
+<flag key="NO_RESPAWN" name="TSL_NO_RESPAWN" bit="4">Don't re-spawn.</flag>
 </point>
 
 <point name="turret_tesla" color="1 0 0" box="-32 -32 0 32 32 50" model="models/turrets/radiant/tesla.md3">
@@ -2399,6 +2421,9 @@ Fires a lightning bolt that will jump to up to 10 targets if they are close enou
 <integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
+<flag key="SUSPENDED" name="TSF_SUSPENDED" bit="0">Prevents the turret from being dropped to the floor.</flag>
+<flag key="NO_AMMO_REGEN" name="TSF_NO_AMMO_REGEN" bit="2">Disable builtin ammo regeneration.</flag>
+<flag key="NO_RESPAWN" name="TSL_NO_RESPAWN" bit="4">Don't re-spawn.</flag>
 </point>
 
 <point name="turret_phaser" color="1 0 0" box="-32 -32 0 32 32 50" model="models/turrets/radiant/phaser.md3">
@@ -2414,6 +2439,9 @@ Constant beam weapon that will considerably slow its target down while dealing l
 <integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
+<flag key="SUSPENDED" name="TSF_SUSPENDED" bit="0">Prevents the turret from being dropped to the floor.</flag>
+<flag key="NO_AMMO_REGEN" name="TSF_NO_AMMO_REGEN" bit="2">Disable builtin ammo regeneration.</flag>
+<flag key="NO_RESPAWN" name="TSL_NO_RESPAWN" bit="4">Don't re-spawn.</flag>
 </point>
 
 
@@ -2428,6 +2456,9 @@ Constant beam weapon that will considerably slow its target down while dealing l
 <integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
+<flag key="SUSPENDED" name="TSF_SUSPENDED" bit="0">Prevents the turret from being dropped to the floor.</flag>
+<flag key="NO_AMMO_REGEN" name="TSF_NO_AMMO_REGEN" bit="2">Disable builtin ammo regeneration.</flag>
+<flag key="NO_RESPAWN" name="TSL_NO_RESPAWN" bit="4">Don't re-spawn.</flag>
 ---------NOTES----------
 Supplies neerby energy based turrets with more power so they can fire more often.
 </point>
@@ -2447,6 +2478,11 @@ Used to feed turrets capable of it with remote target info. currently only turre
 <real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
 <integer key="team" name="team">5=red, 14=blue</integer>
 -----------SPAWNFLAGS-----------
+<flag key="SUSPENDED" name="TSF_SUSPENDED" bit="0">Prevents the turret from being dropped to the floor.</flag>
+<flag key="NO_AMMO_REGEN" name="TSF_NO_AMMO_REGEN" bit="2">Disable builtin ammo regeneration.</flag>
+<flag key="NO_PATHBREAK" name="TSF_NO_PATHBREAK" bit="3">Don't break path to chase enemies, will still fire at them if possible.</flag>
+<flag key="NO_RESPAWN" name="TSL_NO_RESPAWN" bit="4">Don't re-spawn.</flag>
+<flag key="TSL_ROAM" name="ROAM" bit="5">Roam while idle.</flag>
 ---------NOTES----------
 
 A nasty mechanical critter that will engage longrange target with missiles, midrange with its minigun and melee things up close and personal.
@@ -2464,6 +2500,9 @@ A nasty mechanical critter that will engage longrange target with missiles, midr
 <real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
 <integer key="team" name="team">5=red, 14=blue</integer>
 -----------SPAWNFLAGS-----------
+<flag key="SUSPENDED" name="TSF_SUSPENDED" bit="0">Prevents the turret from being dropped to the floor.</flag>
+<flag key="NO_AMMO_REGEN" name="TSF_NO_AMMO_REGEN" bit="2">Disable builtin ammo regeneration.</flag>
+<flag key="NO_RESPAWN" name="TSL_NO_RESPAWN" bit="4">Don't re-spawn.</flag>
 ---------NOTES----------
 
 Small, agile and moveing turret.
