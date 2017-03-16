@@ -20,16 +20,13 @@ The targeted entity is preferably an info_null.
 The projection is a linear projection, and originates from the center of this entity (the start of the arrow line in Radiant) to the origin of the targeted entity (the end of the arrow line in Radiant).
 </group>
 
-<point name="dom_controlpoint" color=".3 .3 1" box="-16 -16 -16 16 16 16">
+<point name="dom_controlpoint" color=".3 .3 1" box="-16 -16 -16 16 16 16" model="models/domination/dom_unclaimed.md3">
 Domination control point
 In order to get Domination working well in your map, you need to place dom_team and dom_controlpoint entities.  You *must* have at least 3 dom_team entities - 2 minimum teams and one blank one (empty netname and no team).  You can have up to 4 teams (5 dom_team entities).
 -------- KEYS --------
 <string key="message" name="message">message to be displayed to all players when this point is captured, preceded by the team's name.  This defaults to &quot; has captured a control point&quot;.  You can specify different names for each point, for example &quot; has captured the Lava Room&quot;.</string>
 <real key="wait" name="wait">How often this point gives its controlling team frags.</real>
 <real key="frags" name="frags">How many frags this point gives each wait cycle.</real>
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-zbqry=&quot;zbqryf/qbzvangvba/qbz_hapynvzrq.zq3&quot;
-
 </point>
 
 <point name="dom_team" color=".3 .3 1" box="-16 -16 -16 16 16 16">
@@ -431,8 +428,8 @@ Pink team's player spawning location, but there is no game mode to use this yet.
 <real key="restriction" name="restriction">when 1, only bots can spawn here; when 2, only humans can spawn here (be careful with these, or the game will crash because someone cannot spawn)</real>
 </point>
 
-<point name="item_armor_mega" color=".4 .8 .4" box="-30 -30 0 30 30 32">
-Large Armor (default 100 armor points)
+<point name="item_armor_mega" color=".4 .8 .4" box="-30 -30 0 30 30 32" model="models/items/item_armor_large.md3">
+Large Armor (default 100 armor points) foobar
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 30)</real>
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
@@ -442,11 +439,9 @@ Large Armor (default 100 armor points)
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-modeldisabled=&quot;models/items/g_a25.md3&quot;
 </point>
 
-<point name="item_armor_big" color=".4 .8 .4" box="-30 -30 0 30 30 32">
+<point name="item_armor_big" color=".4 .8 .4" box="-30 -30 0 30 30 32" model="models/items/item_armor_big.md3">
 Big Armor (default 50 armor points)
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 20)</real>
@@ -457,11 +452,9 @@ Big Armor (default 50 armor points)
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-modeldisabled=&quot;models/items/g_a50.md3&quot;
 </point>
 
-<point name="item_armor_medium" color=".4 .8 .4" box="-30 -30 0 30 30 32">
+<point name="item_armor_medium" color=".4 .8 .4" box="-30 -30 0 30 30 32" model="models/items/item_armor_medium.md3">
 Medium Armor (default 25 armor points)
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 20)</real>
@@ -472,11 +465,9 @@ Medium Armor (default 25 armor points)
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-modeldisabled=&quot;models/items/g_armormedium.md3&quot;
 </point>
 
-<point name="item_armor_small" color=".4 .8 .4" box="-30 -30 0 30 30 32">
+<point name="item_armor_small" color=".4 .8 .4" box="-30 -30 0 30 30 32" model="models/items/item_armor_small.md3">
 Small Armor (default 5 armor points)
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
@@ -487,11 +478,9 @@ Small Armor (default 5 armor points)
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-modeldisabled=&quot;models/items/g_a1.md3&quot;
 </point>
 
-<point name="item_bullets" color=".3 .3 1" box="-30 -30 0 30 30 32">
+<point name="item_bullets" color=".3 .3 1" box="-30 -30 0 30 30 32" model="models/items/a_bullets.md3">
 Machine Gun ammo
 -------- KEYS --------
 <real key="ammo_nails" name="ammo_nails">bullets gained by this item (if unset, g_pickup_nails is used)</real>
@@ -501,11 +490,9 @@ Machine Gun ammo
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-modeldisabled=&quot;models/items/a_bullets.md3&quot;
 </point>
 
-<point name="item_cells" color=".3 .3 1" box="-30 -30 0 30 30 32">
+<point name="item_cells" color=".3 .3 1" box="-30 -30 0 30 30 32" model="models/items/a_cells.md3">
 Nex, Electro and Crylink ammo
 -------- KEYS --------
 <real key="ammo_cells" name="ammo_cells">cells gained by this item (if unset, g_pickup_cells is used)</real>
@@ -515,11 +502,9 @@ Nex, Electro and Crylink ammo
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-modeldisabled=&quot;models/items/a_cells.md3&quot;
 </point>
 
-<point name="item_flag_team1" color="1 0 0" box="-32 -32 0 32 32 74">
+<point name="item_flag_team1" color="1 0 0" box="-32 -32 0 32 32 74" model="models/ctf/radiant/flag_red_radiant.md3">
 CTF flag for team one (Red). Use more than one if you really insist.
 -------- KEYS --------
 <model key="model" name="model">model to use</model>
@@ -528,11 +513,9 @@ CTF flag for team one (Red). Use more than one if you really insist.
 <sound key="noise1" name="noise1">sound played when flag is returned</sound>
 <sound key="noise2" name="noise2">sound played when flag is captured</sound>
 <sound key="noise3" name="noise3">sound played when flag is lost in the field and respawns itself</sound>
--------- ZBQRY SBE ENQVNAG BAYL - QB ABG FRG GUVF NF N XRL --------
-zbqry=&quot;zbqryf/pgs/enqvnag/synt_erq_enqvnag.zq3&quot;
 </point>
 
-<point name="item_flag_team2" color="0 0 1" box="-32 -32 0 32 32 74">
+<point name="item_flag_team2" color="0 0 1" box="-32 -32 0 32 32 74" model="models/ctf/radiant/flag_blue_radiant.md3">
 CTF flag for team two (Blue). Use more than one if you really insist.
 -------- KEYS --------
 <model key="model" name="model">model to use</model>
@@ -541,11 +524,9 @@ CTF flag for team two (Blue). Use more than one if you really insist.
 <sound key="noise1" name="noise1">sound played when flag is returned</sound>
 <sound key="noise2" name="noise2">sound played when flag is captured</sound>
 <sound key="noise3" name="noise3">sound played when flag is lost in the field and respawns itself</sound>
--------- ZBQRY SBE ENQVNAG BAYL - QB ABG FRG GUVF NF N XRL --------
-zbqry=&quot;zbqryf/pgs/enqvnag/synt_oyhr_enqvnag.zq3&quot;
 </point>
 
-<point name="item_health_big" color=".9 .3 .3" box="-30 -30 0 30 30 48">
+<point name="item_health_big" color=".9 .3 .3" box="-30 -30 0 30 30 48" model="models/items/g_h50.md3">
 Big Health (default 50 health points)
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 20)</real>
@@ -556,11 +537,9 @@ Big Health (default 50 health points)
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-modeldisabled=&quot;models/items/g_h50.md3&quot;
 </point>
 
-<point name="item_health_medium" color=".9 .3 .3" box="-30 -30 0 30 30 48">
+<point name="item_health_medium" color=".9 .3 .3" box="-30 -30 0 30 30 48" model="models/items/g_h25.md3">
 Medium Health (default 25 health points)
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
@@ -571,11 +550,9 @@ Medium Health (default 25 health points)
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-modeldisabled=&quot;models/items/g_h25.md3&quot;
 </point>
 
-<point name="item_health_mega" color=".9 .3 .3" box="-30 -30 0 30 30 48">
+<point name="item_health_mega" color=".9 .3 .3" box="-30 -30 0 30 30 48" model="models/items/g_h100.md3">
 Mega Health (default 100 health points)
 In Instagib, this randomly turns into either an invisibility, an extra lives or a speed power-up with a default respawn time of 120.
 -------- KEYS --------
@@ -587,11 +564,9 @@ In Instagib, this randomly turns into either an invisibility, an extra lives or 
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-modeldisabled=&quot;models/items/g_h100.md3&quot;
 </point>
 
-<point name="item_health_small" color=".9 .3 .3" box="-30 -30 0 30 30 48">
+<point name="item_health_small" color=".9 .3 .3" box="-30 -30 0 30 30 48" model="models/items/g_h1.md3">
 Small Health (default 5 health points)
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
@@ -602,11 +577,9 @@ Small Health (default 5 health points)
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-modeldisabled=&quot;models/items/g_h1.md3&quot;
 </point>
 
-<point name="item_invincible" color=".3 .3 1" box="-30 -30 0 30 30 48">
+<point name="item_invincible" color=".3 .3 1" box="-30 -30 0 30 30 48" model="models/items/g_invincible.md3">
 Strong Shield
 In Instagib, this randomly turns into either an invisibility, an extra lives or a speed power-up with a default respawn time of 120.
 -------- KEYS --------
@@ -616,11 +589,9 @@ In Instagib, this randomly turns into either an invisibility, an extra lives or 
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-modeldisabled=&quot;models/items/g_invincible.md3&quot;
 </point>
 
-<point name="item_key" color="0 .5 .8" box="-16 -16 -24 16 16 32">
+<point name="item_key" color="0 .5 .8" box="-16 -16 -24 16 16 32" model="models/keys/key.md3">
 A key entity.
 The itemkeys should contain one of the following key IDs:
 1 - GOLD key -
@@ -673,7 +644,7 @@ GOLD key.
 Don't use this entity on new maps! Use item_key instead.
 </point>
 
-<point name="item_minst_cells" color=".3 .3 1" box="-30 -30 0 30 30 32">
+<point name="item_minst_cells" color=".3 .3 1" box="-30 -30 0 30 30 32" model="models/items/a_cells.md3">
 Instagib ammo.
 Always contains 5 (g_instagib_ammo_drop) shots.
 It only appears when playing Instagib and prevents auto-replacement of weapon_nex &amp; weapon_rocketlauncher when used.
@@ -684,11 +655,9 @@ It only appears when playing Instagib and prevents auto-replacement of weapon_ne
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-modeldisabled=&quot;models/items/a_cells.md3&quot;
 </point>
 
-<point name="item_rockets" color=".3 .3 1" box="-30 -30 0 30 30 32">
+<point name="item_rockets" color=".3 .3 1" box="-30 -30 0 30 30 32" model="models/items/a_rockets.md3">
 Rocket Launcher, Hagar and Mortar ammo
 -------- KEYS --------
 <real key="ammo_rockets" name="ammo_rockets">rockets gained by this item (if unset, g_pickup_rockets is used)</real>
@@ -698,11 +667,9 @@ Rocket Launcher, Hagar and Mortar ammo
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-modeldisabled=&quot;models/items/a_rockets.md3&quot;
 </point>
 
-<point name="item_shells" color=".3 .3 1" box="-30 -30 0 30 30 32">
+<point name="item_shells" color=".3 .3 1" box="-30 -30 0 30 30 32" model="models/items/a_shells.md3">
 Shotgun ammo
 -------- KEYS --------
 <real key="ammo_shells" name="ammo_shells">shells gained by this item (if unset, g_pickup_shells is used)</real>
@@ -712,11 +679,9 @@ Shotgun ammo
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-modeldisabled=&quot;models/items/a_shells.md3&quot;
 </point>
 
-<point name="item_strength" color=".3 .3 1" box="-30 -30 0 30 30 48">
+<point name="item_strength" color=".3 .3 1" box="-30 -30 0 30 30 48" model="models/items/g_strength.md3">
 Strength aka Quad damage
 In Instagib, this randomly turns into either an invisibility, an extra lives or a speed power-up with a default respawn time of 120.
 -------- KEYS --------
@@ -726,8 +691,6 @@ In Instagib, this randomly turns into either an invisibility, an extra lives or 
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-modeldisabled=&quot;models/items/g_strength.md3&quot;
 </point>
 
 <point name="light" color=".65 .65 1" box="-8 -8 -8 8 8 8">
@@ -1312,7 +1275,7 @@ Note that in Xonotic, teleporters preserve momentum of the player using them.
 <flag key="INVERT_TEAM" name="INVERT_TEAM" bit="2">the team that owns the teleporter will NOT teleport when touching this</flag>
 </group>
 
-<point name="weapon_crylink" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_crylink" color="1 0 .5" box="-30 -30 0 30 30 32" model="models/weapons/g_crylink.md3">
 the Crylink
 -------- KEYS --------
 <real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, g_pickup_cells is used)</real>
@@ -1322,11 +1285,9 @@ the Crylink
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-modeldisabled=&quot;models/weapons/g_crylink.md3&quot;
 </point>
 
-<point name="weapon_electro" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_electro" color="1 0 .5" box="-30 -30 0 30 30 32" model="models/weapons/g_electro.md3">
 the Electro
 -------- KEYS --------
 <real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, g_pickup_cells is used)</real>
@@ -1336,11 +1297,9 @@ the Electro
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-modeldisabled=&quot;models/weapons/g_electro.md3&quot;
 </point>
 
-<point name="weapon_grenadelauncher" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_grenadelauncher" color="1 0 .5" box="-30 -30 0 30 30 32" model="models/weapons/g_gl.md3">
 the Mortar
 -------- KEYS --------
 <real key="ammo_rockets" name="ammo_rockets">initial rockets of the weapon (if unset, g_pickup_rockets is used)</real>
@@ -1350,11 +1309,9 @@ the Mortar
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-modeldisabled=&quot;models/weapons/g_gl.md3&quot;
 </point>
 
-<point name="weapon_hagar" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_hagar" color="1 0 .5" box="-30 -30 0 30 30 32" model="models/weapons/g_hagar.md3">
 the Hagar
 -------- KEYS --------
 <real key="ammo_rockets" name="ammo_rockets">initial rockets of the weapon (if unset, g_pickup_rockets is used)</real>
@@ -1364,11 +1321,9 @@ the Hagar
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-modeldisabled=&quot;models/weapons/g_hagar.md3&quot;
 </point>
 
-<point name="weapon_laser" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_laser" color="1 0 .5" box="-30 -30 0 30 30 32" model="models/weapons/g_laser.md3">
 the Laser. Note that unless you use
   settemp_for_type all g_start_weapon_laser 0
 in your mapinfo file, everyone will already spawn with one, making this pickup useless.
@@ -1379,11 +1334,9 @@ in your mapinfo file, everyone will already spawn with one, making this pickup u
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-modeldisabled=&quot;models/weapons/g_laser.md3&quot;
 </point>
 
-<point name="weapon_nex" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_nex" color="1 0 .5" box="-30 -30 0 30 30 32" model="models/weapons/g_nex.md3">
 the Nex
 In Instagib, this turns into an item_minst_cells if no explicit item_minst_cells have been placed.
 -------- KEYS --------
@@ -1394,11 +1347,9 @@ In Instagib, this turns into an item_minst_cells if no explicit item_minst_cells
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-modeldisabled=&quot;models/weapons/g_nex.md3&quot;
 </point>
 
-<point name="weapon_rocketlauncher" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_rocketlauncher" color="1 0 .5" box="-30 -30 0 30 30 32" model="models/weapons/g_rl.md3">
 the Rocket Launcher
 In Instagib, this turns into an item_minst_cells if no explicit item_minst_cells have been placed.
 -------- KEYS --------
@@ -1409,11 +1360,9 @@ In Instagib, this turns into an item_minst_cells if no explicit item_minst_cells
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-modeldisabled=&quot;models/weapons/g_rl.md3&quot;
 </point>
 
-<point name="weapon_shotgun" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_shotgun" color="1 0 .5" box="-30 -30 0 30 30 32" model="models/weapons/g_shotgun.md3">
 the Shotgun. Note that unless you use
   settemp_for_type all g_start_weapon_shotgun 0
 in your mapinfo file, everyone will already spawn with one, making this pickup useless.
@@ -1425,11 +1374,9 @@ in your mapinfo file, everyone will already spawn with one, making this pickup u
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-modeldisabled=&quot;models/weapons/g_shotgun.md3&quot;
 </point>
 
-<point name="weapon_uzi" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_uzi" color="1 0 .5" box="-30 -30 0 30 30 32" model="models/weapons/g_uzi.md3">
 the Machine Gun
 -------- KEYS --------
 <real key="ammo_nails" name="ammo_nails">initial bullets of the weapon (if unset, g_pickup_nails is used)</real>
@@ -1439,8 +1386,6 @@ the Machine Gun
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-modeldisabled=&quot;models/weapons/g_uzi.md3&quot;
 </point>
 
 <group name="worldspawn" color="0 0 0">
@@ -1595,7 +1540,7 @@ Makes one entity follow another. Will not work with all entities.
 <flag key="LOCAL" name="LOCAL" bit="1">do not untransform the coordinates (that is, the map specifies local coordinates, not global ones). Mostly useful with ATTACH.</flag>
 </point>
 
-<point name="weapon_minstanex" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_minstanex" color="1 0 .5" box="-30 -30 0 30 30 32" model="models/weapons/g_minstanex.md3">
 Placing this entity on a map kills your cat, voids the warranty on your toaster, and makes your map an unenjoyable campers' paradise.
 the InstaGib Nex. Always kills with one shot.
 -------- KEYS --------
@@ -1606,11 +1551,9 @@ the InstaGib Nex. Always kills with one shot.
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-modeldisabled=&quot;models/weapons/g_minstanex.md3&quot;
 </point>
 
-<point name="weapon_porto" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_porto" color="1 0 .5" box="-30 -30 0 30 30 32" model="models/weapons/g_porto.md3">
 the Port-O-Launch. Only can be shot once.
 Portals cannot be made on noimpact surfaces, and the portal missile will bounce on slick surfaces.
 -------- KEYS --------
@@ -1620,8 +1563,6 @@ Portals cannot be made on noimpact surfaces, and the portal missile will bounce 
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-modeldisabled=&quot;models/weapons/g_porto.md3&quot;
 </point>
 
 <point name="target_items" color="0 0 1" box="-8 -8 -8 8 8 8">
@@ -1777,7 +1718,7 @@ Relays the trigger event if a cvar is set to a specified value.
 <flag key="NEGATE" name="NEGATE" bit="0">trigger if the cvar does NOT match the value.</flag>
 </point>
 
-<point name="weapon_hlac" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_hlac" color="1 0 .5" box="-30 -30 0 30 30 32" model="models/weapons/g_hlac.md3">
 the Heavy Laser Assault Cannon.
 -------- KEYS --------
 <real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, g_pickup_cells is used)</real>
@@ -1787,11 +1728,9 @@ the Heavy Laser Assault Cannon.
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-modeldisabled=&quot;models/weapons/g_hlac.md3&quot;
 </point>
 
-<point name="weapon_minelayer" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_minelayer" color="1 0 .5" box="-30 -30 0 30 30 32" model="models/weapons/g_minelayer.md3">
 the Mine Layer.
 -------- KEYS --------
 <real key="ammo_rockets" name="ammo_rockets">initial rockets of the weapon (if unset, g_pickup_rockets is used)</real>
@@ -1801,11 +1740,9 @@ the Mine Layer.
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-modeldisabled=&quot;models/weapons/g_minelayer.md3&quot;
 </point>
 
-<point name="weapon_seeker" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_seeker" color="1 0 .5" box="-30 -30 0 30 30 32" model="models/weapons/g_seeker.md3">
 Placing this entity on a map kills your dog, voids the warranty on your car, and makes your map an unenjoyable noobs' paradise.
 the T.A.G. Seeker.
 -------- KEYS --------
@@ -1816,11 +1753,9 @@ the T.A.G. Seeker.
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-modeldisabled=&quot;models/weapons/g_seeker.md3&quot;
 </point>
 
-<point name="weapon_hook" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_hook" color="1 0 .5" box="-30 -30 0 30 30 32" model="models/weapons/g_hookgun.md3">
 the on-hand Grappling Hook.
 -------- KEYS --------
 <real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, g_pickup_cells is used)</real>
@@ -1830,8 +1765,6 @@ the on-hand Grappling Hook.
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-modeldisabled=&quot;models/weapons/g_hookgun.md3&quot;
 </point>
 
 <group name="trigger_heal" color=".5 .5 .5">
@@ -1842,7 +1775,7 @@ Any object touching this will be healed.
 <sound key="noise" name="noise">sound file to play (use misc/null.wav to make it silent), default = item_health_medium sound</sound>
 </group>
 
-<point name="weapon_rifle" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_rifle" color="1 0 .5" box="-30 -30 0 30 30 32" model="models/weapons/g_campingrifle.md3">
 the Sniper Rifle.
 -------- KEYS --------
 <real key="ammo_nails" name="ammo_nails">initial bullets of the weapon (if unset, g_pickup_nails is used)</real>
@@ -1852,8 +1785,6 @@ the Sniper Rifle.
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-modeldisabled=&quot;models/weapons/g_campingrifle.md3&quot;
 </point>
 
 <group name="func_fourier" color="0 .5 .8">
@@ -1923,7 +1854,7 @@ Disables a trigger_relay temporarily (until triggered again)
 </point>
 
 
-<point name="monster_mage" color="1 0 0" box="-36 -36 -24 36 36 50">
+<point name="monster_mage" color="1 0 0" box="-36 -36 -24 36 36 50" model="models/monsters/wizard.mdl">
 Mage. Master of dark magic
 -------- KEYS --------
 <integer key="health" name="health">monster health amount</integer>
@@ -1945,7 +1876,7 @@ Mage. Master of dark magic
 <flag key="MONSTERSKILL_NOTHARD" name="NOTHARD" bit="10">Don't spawn this monster when skill is 3</flag>
 </point>
 
-<point name="monster_shambler" color="1 0 0" box="-41 -41 -31 41 41 65">
+<point name="monster_shambler" color="1 0 0" box="-41 -41 -31 41 41 65" model="models/monsters/shambler.mdl">
 Shambler. Summons lightning bolts with its large meat cleaving claws
 -------- KEYS --------
 <integer key="health" name="health">monster health amount</integer>
@@ -2102,7 +2033,7 @@ The basket ball type Nexball.
 <sound key="noise2" name="noise2">played when the ball is stolen from the enemy</sound>
 </point>
 
-<point name="item_fuel" color=".3 .3 1" box="-30 -30 0 30 30 32">
+<point name="item_fuel" color=".3 .3 1" box="-30 -30 0 30 30 32" model="models/items/g_fuel.md3">
 Jetpack fuel
 -------- KEYS --------
 <real key="ammo_fuel" name="ammo_fuel">fuel units gained by this item (if unset, g_pickup_fuel is used)</real>
@@ -2112,11 +2043,9 @@ Jetpack fuel
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-modeldisabled=&quot;models/items/g_fuel.md3&quot;
 </point>
 
-<point name="item_fuel_regen" color="1 .3 1" box="-30 -30 0 30 30 48">
+<point name="item_fuel_regen" color="1 .3 1" box="-30 -30 0 30 30 48" model="models/items/g_fuelregen.md3">
 Fuel regenerator
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 120)</real>
@@ -2125,11 +2054,9 @@ Fuel regenerator
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-modeldisabled=&quot;models/items/g_fuelregen.md3&quot;
 </point>
 
-<point name="item_jetpack" color=".3 .3 1" box="-30 -30 0 30 30 48">
+<point name="item_jetpack" color=".3 .3 1" box="-30 -30 0 30 30 48" model="models/items/g_jetpack.md3">
 Jetpack
 -------- KEYS --------
 <real key="ammo_fuel" name="ammo_fuel">fuel units gained by this item (if unset, g_pickup_fuel_jetpack is used)</real>
@@ -2139,8 +2066,6 @@ Jetpack
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-modeldisabled=&quot;models/items/g_jetpack.md3&quot;
 </point>
 
 <point name="trigger_magicear" color="0 0 1" box="-8 -8 -8 8 8 8">
@@ -2168,7 +2093,7 @@ Triggers targets when a given magic word has been said
 <flag key="TUBA_EXACTPITCH" name="TUBA_EXACTPITCH" bit="9">the note pitch must be accurate and cannot be transposed</flag>
 </point>
 
-<point name="weapon_fireball" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_fireball" color="1 0 .5" box="-30 -30 0 30 30 32" model="models/weapons/g_fireball.md3">
 the Fireball
 -------- KEYS --------
 <real key="ammo_rockets" name="ammo_rockets">initial rockets of the weapon (if unset, g_pickup_rockets is used)</real>
@@ -2178,8 +2103,6 @@ the Fireball
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-modeldisabled=&quot;models/weapons/g_fireball.md3&quot;
 </point>
 
 <group name="trigger_warpzone" color="1 .5 1">
@@ -2333,7 +2256,7 @@ When no chmap key is set, the entity just ends the match when triggered. The pla
 <string key="chmap" name="chmap">Map file to switch to, leave empty to make this entity just end the match</string>
 <string key="gametype" name="gametype">Switch to this gametype. If empty, the same gametype stays</string>
 </point>
-<point name="turret_machinegun" color="1 0 0" box="-32 -32 0 32 32 50">
+<point name="turret_machinegun" color="1 0 0" box="-32 -32 0 32 32 50" model="models/turrets/radiant/mg.md3">
 Fast firing moderate damage bullet (hitscan) turret.
 -------- KEYS --------
 <real key="turret_scale_damage" name="turret_scale_damage">2 = double damage, 0.5 = half</real>
@@ -2346,11 +2269,9 @@ Fast firing moderate damage bullet (hitscan) turret.
 <integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/mg.md3&quot;
 </point>
 
-<point name="turret_plasma" color="1 0 0" box="-32 -32 0 32 32 50">
+<point name="turret_plasma" color="1 0 0" box="-32 -32 0 32 32 50" model="models/turrets/radiant/plasma.md3">
 -------- KEYS --------
 <real key="turret_scale_damage" name="turret_scale_damage">2 = double damage, 0.5 = half</real>
 <real key="turret_scale_range" name="turret_scale_range">2 = double range, 0.5 = half</real>
@@ -2364,11 +2285,9 @@ model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/mg.md3&quot;
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
 ---------NOTES----------
 Basic energy cannon
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/plasma.md3&quot;
 </point>
 
-<point name="turret_plasma_dual" color="1 0 0" box="-32 -32 0 32 32 50">
+<point name="turret_plasma_dual" color="1 0 0" box="-32 -32 0 32 32 50" model="models/turrets/radiant/plasma2.md3">
 basic energy cannon * 2
 -------- KEYS --------
 <real key="turret_scale_damage" name="turret_scale_damage">2 = double damage, 0.5 = half</real>
@@ -2381,11 +2300,9 @@ basic energy cannon * 2
 <integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/plasma2.md3&quot;
 </point>
 
-<point name="turret_flac" color="1 0 0" box="-32 -32 0 32 32 50">
+<point name="turret_flac" color="1 0 0" box="-32 -32 0 32 32 50" model="models/turrets/radiant/flac.md3">
 Only kills missiles, rockets, grenadelauncher &amp; electro secondaries to be precise.
 -------- KEYS --------
 <real key="turret_scale_damage" name="turret_scale_damage">2 = double damage, 0.5 = half</real>
@@ -2398,11 +2315,9 @@ Only kills missiles, rockets, grenadelauncher &amp; electro secondaries to be pr
 <integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/flac.md3&quot;
 </point>
 
-<point name="turret_mlrs" color="1 0 0" box="-32 -32 0 32 32 50">
+<point name="turret_mlrs" color="1 0 0" box="-32 -32 0 32 32 50" model="models/turrets/radiant/mlrs.md3">
 6 unguided rockers fired in a rapid burst.
 -------- KEYS --------
 <real key="turret_scale_damage" name="turret_scale_damage">2 = double damage, 0.5 = half</real>
@@ -2415,11 +2330,9 @@ model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/flac.md3&quot;
 <integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/mlrs.md3&quot;
 </point>
 
-<point name="turret_hellion" color="1 0 0" box="-32 -32 0 32 32 50">
+<point name="turret_hellion" color="1 0 0" box="-32 -32 0 32 32 50" model="models/turrets/radiant/hellion.md3">
 2 guided moderate damage accelerating rockets
 -------- KEYS --------
 <real key="turret_scale_damage" name="turret_scale_damage">2 = double damage, 0.5 = half</real>
@@ -2432,12 +2345,10 @@ model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/mlrs.md3&quot;
 <integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/hellion.md3&quot;
 </point>
 
 
-<point name="turret_hk" color="1 0 0" box="-32 -32 0 32 32 50">
+<point name="turret_hk" color="1 0 0" box="-32 -32 0 32 32 50" model="models/turrets/radiant/hk.md3">
 Single powerful rocket with the ability to evade obstacles to find its target. Varied speed.
 -------- KEYS --------
 <real key="turret_scale_damage" name="turret_scale_damage">2 = double damage, 0.5 = half</real>
@@ -2450,11 +2361,9 @@ Single powerful rocket with the ability to evade obstacles to find its target. V
 <integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/hk.md3&quot;
 </point>
 
-<point name="turret_tesla" color="1 0 0" box="-32 -32 0 32 32 50">
+<point name="turret_tesla" color="1 0 0" box="-32 -32 0 32 32 50" model="models/turrets/radiant/tesla.md3">
 Fires a lightning bolt that will jump to up to 10 targets if they are close enough to each other. Missiles included.
 -------- KEYS --------
 <real key="turret_scale_damage" name="turret_scale_damage">2 = double damage, 0.5 = half</real>
@@ -2467,11 +2376,9 @@ Fires a lightning bolt that will jump to up to 10 targets if they are close enou
 <integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/tesla.md3&quot;
 </point>
 
-<point name="turret_phaser" color="1 0 0" box="-32 -32 0 32 32 50">
+<point name="turret_phaser" color="1 0 0" box="-32 -32 0 32 32 50" model="models/turrets/radiant/phaser.md3">
 Constant beam weapon that will considerably slow its target down while dealing low but constant damage.
 -------- KEYS --------
 <real key="turret_scale_damage" name="turret_scale_damage">2 = double damage, 0.5 = half</real>
@@ -2484,12 +2391,10 @@ Constant beam weapon that will considerably slow its target down while dealing l
 <integer key="team" name="team">5=red, 14=blue</integer>
 -------- SPAWNFLAGS --------
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/phaser.md3&quot;
 </point>
 
 
-<point name="turret_fusionreactor" color="1 0 0" box="-32 -32 0 32 32 50">
+<point name="turret_fusionreactor" color="1 0 0" box="-32 -32 0 32 32 50" model="models/turrets/radiant/reactor.md3">
 -------- KEYS --------
 <real key="turret_scale_damage" name="turret_scale_damage">2 = double damage, 0.5 = half</real>
 <real key="turret_scale_range" name="turret_scale_range">2 = double range, 0.5 = half</real>
@@ -2502,8 +2407,6 @@ model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/phaser.md3&quot;
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
 ---------NOTES----------
 Supplies neerby energy based turrets with more power so they can fire more often.
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/reactor.md3&quot;
 </point>
 
 <group name="turret_targettrigger" color=".5 .5 .5">
@@ -2511,7 +2414,7 @@ Used to feed turrets capable of it with remote target info. currently only turre
 </group>
 
 
-<point name="turret_walker" color="1 0 0" box="-32 -32 0 32 32 50">
+<point name="turret_walker" color="1 0 0" box="-32 -32 0 32 32 50" model="models/turrets/radiant/walker.md3">
 -----------KEYS------------
 <real key="turret_scale_damage" name="turret_scale_damage">2 = double damage, 0.5 = half</real>
 <real key="turret_scale_range" name="turret_scale_range">2 = double range, 0.5 = half</real>
@@ -2525,12 +2428,10 @@ Used to feed turrets capable of it with remote target info. currently only turre
 
 A nasty mechanical critter that will engage longrange target with missiles, midrange with its minigun and melee things up close and personal.
 
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/walker.md3&quot;
 </point>
 
 
-<point name="turret_ewheel" color="1 0 0" box="-32 -32 0 32 32 50">
+<point name="turret_ewheel" color="1 0 0" box="-32 -32 0 32 32 50" model="models/turrets/radiant/ewheel.md3">
 -----------KEYS------------
 <real key="turret_scale_damage" name="turret_scale_damage">2 = double damage, 0.5 = half</real>
 <real key="turret_scale_range" name="turret_scale_range">2 = double range, 0.5 = half</real>
@@ -2544,8 +2445,6 @@ model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/walker.md3&quot;
 
 Small, agile and moveing turret.
 
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/ewheel.md3&quot;
 </point>
 
 
@@ -2564,8 +2463,6 @@ Fast moving hover type vehicle, with low shield &amp; health.
 Primary weapon is a rapid fire energy cannon, secondary lockable rockets.
 -------- KEYS --------
 <integer key="team" name="team">5=red, 14=blue</integer>
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model=&quot;models/vehicles-static/wakazachi.md3&quot;
 </point>
 
 <point name="vehicle_spiderbot" color="0 0 1" box="-48 -48 0 48 48 32">
@@ -2573,8 +2470,6 @@ A slow moving 6 legged mech type vehicle that has plenty of health and shield.
 Primary weapon is twin miniguns, secondary eight rockets that can be guided by the pilot.
 -------- KEYS --------
 <integer key="team" name="team">5=red, 14=blue</integer>
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model=&quot;models/vehicles-static/spiderbot.md3&quot;
 </point>
 
 <point name="vehicle_raptor" color="0 0 1" box="-48 -48 0 48 48 32">
@@ -2583,7 +2478,5 @@ Its main weapon is four rapid fire energy cannons, wich can be locked to track a
 Secondary is a pair of very powerful clusterbombs.
 -------- KEYS --------
 <integer key="team" name="team">5=red, 14=blue</integer>
--------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-model=&quot;models/vehicles-static/raptor.md3&quot;
 </point>
 </classes>
