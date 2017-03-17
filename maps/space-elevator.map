@@ -28865,11 +28865,10 @@ effects_jumppad/jumppadfx1_a
 {
 "classname" "trigger_hurt"
 "message" "was lost in space"
-"dmg" "1000"
 {
 ( -2944 -5376 -1136 ) ( 2944 5376 -1136 ) ( 2944 -5376 -1136 ) common/trigger 0 0 0 0.25 0.25 134217728 0 0
 ( -2944 -5376 -1136 ) ( -2944 -5376 -3696 ) ( -2944 5376 -3696 ) common/trigger 0 64 0 0.25 0.25 134217728 0 0
-( 2944 -5376 -1272 ) ( 2944 5376 -1272 ) ( -2944 5376 -1272 ) common/trigger 0 0 0 0.25 0.25 134217728 0 0
+( 2944 -5376 -1352 ) ( 2944 5376 -1352 ) ( -2944 5376 -1352 ) common/trigger 0 0 0 0.25 0.25 134217728 0 0
 ( 2944 -5376 -1136 ) ( 2944 5376 -3696 ) ( 2944 -5376 -3696 ) common/trigger 0 64 0 0.25 0.25 134217728 0 0
 ( -2944 -5376 -1136 ) ( 2944 -5376 -3696 ) ( -2944 -5376 -3696 ) common/trigger 0 64 0 0.25 0.25 134217728 0 0
 ( 2944 5376 -1136 ) ( -2944 5376 -3696 ) ( 2944 5376 -3696 ) common/trigger 0 64 0 -0.25 0.25 134217728 0 0
@@ -30450,31 +30449,31 @@ effects_jumppad/jumppadfx1_a
 }
 {
 "classname" "misc_model"
-"origin" "0.000000 -3778.000000 576.000000"
+"origin" "0.000000 -3791.750000 576.000000"
 "model" "models/effects_warpzone/rededge.md3"
 "angle" "89.999992"
 "modelscale_vec" "1.000000 3.000000 4.000000"
 }
 {
 "classname" "misc_model"
-"origin" "0.000000 -3678.000000 -64.000000"
+"origin" "0.000000 -3664.250000 -64.000000"
 "model" "models/effects_warpzone/rededge.md3"
 "angle" "-90.000000"
 "modelscale_vec" "1.000000 3.000000 4.000000"
 }
 {
 "classname" "misc_model"
-"origin" "0.000000 3778.000000 576.000000"
+"origin" "0.000000 3791.750000 576.000000"
 "model" "models/effects_warpzone/blueedge.md3"
 "angle" "89.999992"
 "modelscale_vec" "1.000000 3.000000 4.000000"
 }
 {
 "classname" "misc_model"
-"origin" "0.000000 3678.000000 -64.000000"
+"origin" "0.000000 3664.250000 -64.000000"
 "model" "models/effects_warpzone/blueedge.md3"
 "angle" "-90.000000"
-"modelscale_vec" "1 3 4"
+"modelscale_vec" "1.000000 3.000000 4.000000"
 }
 {
 "classname" "weapon_rocketlauncher"
