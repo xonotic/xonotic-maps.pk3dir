@@ -1,0 +1,14 @@
+// jumppad to electro
+'-252.6 614.2 -581.8'*'-345.9 614.5 -296.0'
+// jumppad to strength
+'1237.4  74.0 -328.0'*'1345.1 576.8 -80.0'
+// jumppad to big health
+'1237.4  74.0 -328.0'*'1263.9 486.9 -304.0'
+// shortcut from megahealth to strength
+'1275.0 126.1 344.0'*'1345.1 576.8 -80.0'
+// another shortcut to strength
+'1576.3 651.4 152.0'*'1345.1 576.8 -80.0'
+// another shortcut near mega health
+'1468.9 -245.2 328.0'*'1677.3 -36.4 152.0'
+// high vertical jumppad
+'229.6 -37.9 -616.0'*'267.2 -222.9 152.0'
