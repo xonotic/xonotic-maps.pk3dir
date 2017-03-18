@@ -8,6 +8,7 @@ gametype rc
 gametype cts
 gametype ons
 gametype nb
+gametype surv
 
 settemp_for_type rc g_start_ammo_shells 3
 settemp_for_type rc g_pickup_shells 3

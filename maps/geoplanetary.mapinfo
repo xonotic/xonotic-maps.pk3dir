@@ -5,6 +5,7 @@ cdtrack 18
 has weapons
 gametype ctf
 gametype dom
+gametype surv
 
 clientsettemp_for_type all r_water 1
 clientsettemp_for_type all r_water_resolutionmultiplier 1
