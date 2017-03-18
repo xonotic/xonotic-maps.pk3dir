@@ -428,6 +428,28 @@ Pink team's player spawning location, but there is no game mode to use this yet.
 <real key="restriction" name="restriction">when 1, only bots can spawn here; when 2, only humans can spawn here (be careful with these, or the game will crash because someone cannot spawn)</real>
 </point>
 
+<point name="info_player_singleplayer" color=".7 .7 .7" box="-16 -16 -24 16 16 45">
+    Player spawn point for single player mode.
+<real key="cnt" name="cnt">weight of spawn point for random selection. Set to a lower value if you have many spawn points close together. Default value is 1.</real>
+<target key="target2" name="target2">trigger all entities with this targetname when someone spawns</target>
+<target key="target3" name="target3">trigger all entities with this targetname when someone spawns</target>
+<target key="target4" name="target4">trigger all entities with this targetname when someone spawns</target>
+</point>
+
+<point name="info_player_singleplayer_enemy" color=".2 .2 .2" box="-16 -16 -24 16 16 45">
+    Bot spawn point for single player mode.
+<real key="cnt" name="cnt">weight of spawn point for random selection. Set to a lower value if you have many spawn points close together. Default value is 1.</real>
+<target key="target2" name="target2">trigger all entities with this targetname when someone spawns</target>
+<target key="target3" name="target3">trigger all entities with this targetname when someone spawns</target>
+<target key="target4" name="target4">trigger all entities with this targetname when someone spawns</target>
+
+<real key="can_drop_weapon" name="can_drop_weapon">Whether it can drop the weapon on death</real>
+<real key="health" name="health">Amount of the bot starts with</real>
+<real key="armorvalue" name="armorvalue">Amount of the bot starts with (0 = default)</real>
+<real key="netname" name="netname">Name of the bot spawned here</real>
+<string key="weapon_name" name="weapon_name">Name of the starting weapon</string>
+</point>
+
 <point name="item_armor_mega" color=".4 .8 .4" box="-30 -30 0 30 30 32" model="models/items/item_armor_large.md3">
 Large Armor (default 100 armor points) foobar
 -------- KEYS --------
