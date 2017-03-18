@@ -1325,7 +1325,7 @@ the Hagar
 
 <point name="weapon_laser" color="1 0 .5" box="-30 -30 0 30 30 32" model="models/weapons/g_laser.md3">
 the Laser. Note that unless you use
-  settemp_for_type all g_start_weapon_laser 0
+  settemp_for_type all g_balance_blaster_weaponstart 0
 in your mapinfo file, everyone will already spawn with one, making this pickup useless.
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
@@ -1364,7 +1364,7 @@ In Instagib, this turns into an item_minst_cells if no explicit item_minst_cells
 
 <point name="weapon_shotgun" color="1 0 .5" box="-30 -30 0 30 30 32" model="models/weapons/g_shotgun.md3">
 the Shotgun. Note that unless you use
-  settemp_for_type all g_start_weapon_shotgun 0
+  settemp_for_type all g_balance_shotgun_weaponstart 0
 in your mapinfo file, everyone will already spawn with one, making this pickup useless.
 -------- KEYS --------
 <real key="ammo_shells" name="ammo_shells">initial shells of the weapon (if unset, g_pickup_shells is used)</real>
@@ -1594,7 +1594,7 @@ For the number fields, not specifying a value means not changing it. To clear ar
 You may want to target this by a race checkpoint, a teleporter, or a trigger_multiple with ALLENTS set (so it removes weapons thrown through the field to avoid getting a weapon through it).
 -------- KEYS --------
 <targetname key="targetname" name="targetname">used to trigger this</targetname>
-<string key="netname" name="netname">space separated list of items (either weapon short names (like in g_start_weapon_* cvars), or item short names &quot;unlimited_ammo&quot;, &quot;unlimited_weapon_ammo&quot;, &quot;unlimited_superweapons&quot;, &quot;invincible&quot;, &quot;strength&quot;, &quot;jetpack&quot; and &quot;fuel_regen&quot;)</string>
+<string key="netname" name="netname">space separated list of items (either weapon short names (like in g_balance_*_weaponstart cvars), or item short names &quot;unlimited_ammo&quot;, &quot;unlimited_weapon_ammo&quot;, &quot;unlimited_superweapons&quot;, &quot;invincible&quot;, &quot;strength&quot;, &quot;jetpack&quot; and &quot;fuel_regen&quot;)</string>
 <string key="message" name="message">message to print</string>
 <real key="ammo_shells" name="ammo_shells">amount of shells</real>
 <real key="ammo_nails" name="ammo_nails">amount of bullets</real>
