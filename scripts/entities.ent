@@ -2290,7 +2290,7 @@ Fast firing moderate damage bullet (hitscan) turret.
 <real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
 <target key="target" name="target">Defend the position of this entity</target>
 <integer key="team" name="team">5=red, 14=blue</integer>
-
+<target key="target_death" name="target_death">Entity triggered on death</target>
 -------- SPAWNFLAGS --------
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
 <flag key="SUSPENDED" name="TSF_SUSPENDED" bit="0">Prevents the turret from being dropped to the floor.</flag>
@@ -2308,6 +2308,7 @@ Fast firing moderate damage bullet (hitscan) turret.
 <real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
 <target key="target" name="target">Defend the position of this entity</target>
 <integer key="team" name="team">5=red, 14=blue</integer>
+<target key="target_death" name="target_death">Entity triggered on death</target>
 -------- SPAWNFLAGS --------
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
 <flag key="SUSPENDED" name="TSF_SUSPENDED" bit="0">Prevents the turret from being dropped to the floor.</flag>
@@ -2328,6 +2329,7 @@ basic energy cannon * 2
 <real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
 <target key="target" name="target">Defend the position of this entity</target>
 <integer key="team" name="team">5=red, 14=blue</integer>
+<target key="target_death" name="target_death">Entity triggered on death</target>
 -------- SPAWNFLAGS --------
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
 <flag key="SUSPENDED" name="TSF_SUSPENDED" bit="0">Prevents the turret from being dropped to the floor.</flag>
@@ -2346,6 +2348,7 @@ Only kills missiles, rockets, grenadelauncher &amp; electro secondaries to be pr
 <real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
 <target key="target" name="target">Defend the position of this entity</target>
 <integer key="team" name="team">5=red, 14=blue</integer>
+<target key="target_death" name="target_death">Entity triggered on death</target>
 -------- SPAWNFLAGS --------
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
 <flag key="SUSPENDED" name="TSF_SUSPENDED" bit="0">Prevents the turret from being dropped to the floor.</flag>
@@ -2364,6 +2367,7 @@ Only kills missiles, rockets, grenadelauncher &amp; electro secondaries to be pr
 <real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
 <target key="target" name="target">Defend the position of this entity</target>
 <integer key="team" name="team">5=red, 14=blue</integer>
+<target key="target_death" name="target_death">Entity triggered on death</target>
 -------- SPAWNFLAGS --------
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
 <flag key="SUSPENDED" name="TSF_SUSPENDED" bit="0">Prevents the turret from being dropped to the floor.</flag>
@@ -2382,6 +2386,8 @@ Only kills missiles, rockets, grenadelauncher &amp; electro secondaries to be pr
 <real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
 <target key="target" name="target">Defend the position of this entity</target>
 <integer key="team" name="team">5=red, 14=blue</integer>
+<target key="target" name="target">Defend the position of this entity</target>
+<target key="target_death" name="target_death">Entity triggered on death</target>
 -------- SPAWNFLAGS --------
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
 <flag key="SUSPENDED" name="TSF_SUSPENDED" bit="0">Prevents the turret from being dropped to the floor.</flag>
@@ -2401,6 +2407,7 @@ Single powerful rocket with the ability to evade obstacles to find its target. V
 <real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
 <target key="target" name="target">Defend the position of this entity</target>
 <integer key="team" name="team">5=red, 14=blue</integer>
+<target key="target_death" name="target_death">Entity triggered on death</target>
 -------- SPAWNFLAGS --------
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
 <flag key="SUSPENDED" name="TSF_SUSPENDED" bit="0">Prevents the turret from being dropped to the floor.</flag>
@@ -2419,6 +2426,7 @@ Fires a lightning bolt that will jump to up to 10 targets if they are close enou
 <real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
 <target key="target" name="target">Defend the position of this entity</target>
 <integer key="team" name="team">5=red, 14=blue</integer>
+<target key="target_death" name="target_death">Entity triggered on death</target>
 -------- SPAWNFLAGS --------
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
 <flag key="SUSPENDED" name="TSF_SUSPENDED" bit="0">Prevents the turret from being dropped to the floor.</flag>
@@ -2437,6 +2445,7 @@ Constant beam weapon that will considerably slow its target down while dealing l
 <real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
 <target key="target" name="target">Defend the position of this entity</target>
 <integer key="team" name="team">5=red, 14=blue</integer>
+<target key="target_death" name="target_death">Entity triggered on death</target>
 -------- SPAWNFLAGS --------
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
 <flag key="SUSPENDED" name="TSF_SUSPENDED" bit="0">Prevents the turret from being dropped to the floor.</flag>
@@ -2454,6 +2463,7 @@ Constant beam weapon that will considerably slow its target down while dealing l
 <real key="turret_scale_aim" name="turret_scale_aim">2 = aim twice as fast, 0,5 = aim at half speed</real>
 <real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
 <integer key="team" name="team">5=red, 14=blue</integer>
+<target key="target_death" name="target_death">Entity triggered on death</target>
 -------- SPAWNFLAGS --------
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
 <flag key="SUSPENDED" name="TSF_SUSPENDED" bit="0">Prevents the turret from being dropped to the floor.</flag>
@@ -2477,6 +2487,7 @@ Used to feed turrets capable of it with remote target info. currently only turre
 <real key="turret_scale_aim" name="turret_scale_aim">2 = aim twice as fast, 0,5 = aim at half speed</real>
 <real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
 <integer key="team" name="team">5=red, 14=blue</integer>
+<target key="target_death" name="target_death">Entity triggered on death</target>
 -----------SPAWNFLAGS-----------
 <flag key="SUSPENDED" name="TSF_SUSPENDED" bit="0">Prevents the turret from being dropped to the floor.</flag>
 <flag key="NO_AMMO_REGEN" name="TSF_NO_AMMO_REGEN" bit="2">Disable builtin ammo regeneration.</flag>
@@ -2499,6 +2510,7 @@ A nasty mechanical critter that will engage longrange target with missiles, midr
 <real key="turret_scale_aim" name="turret_scale_aim">2 = aim twice as fast, 0,5 = aim at half speed</real>
 <real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
 <integer key="team" name="team">5=red, 14=blue</integer>
+<target key="target_death" name="target_death">Entity triggered on death</target>
 -----------SPAWNFLAGS-----------
 <flag key="SUSPENDED" name="TSF_SUSPENDED" bit="0">Prevents the turret from being dropped to the floor.</flag>
 <flag key="NO_AMMO_REGEN" name="TSF_NO_AMMO_REGEN" bit="2">Disable builtin ammo regeneration.</flag>
