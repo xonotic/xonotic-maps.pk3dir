@@ -444,8 +444,8 @@ Pink team's player spawning location, but there is no game mode to use this yet.
 <target key="target3" name="target3">trigger all entities with this targetname when someone spawns</target>
 <target key="target4" name="target4">trigger all entities with this targetname when someone spawns</target>
 <targetname key="targetname" name="targetname">If set, will spawn a bot when triggered instead of at game start</targetname>
-<real key="can_respawn" name="can_respawn">If 1, the bot will respawn after death</real>
-<real key="can_drop_weapon" name="can_drop_weapon">Whether it can drop the weapon on death</real>
+<boolean key="can_respawn" name="can_respawn">If 1, the bot will respawn after death</boolean>
+<boolean key="can_drop_weapon" name="can_drop_weapon">Whether it can drop the weapon on death</boolean>
 <real key="health" name="health">Amount of the bot starts with</real>
 <real key="armorvalue" name="armorvalue">Amount of the bot starts with (0 = default)</real>
 <real key="netname" name="netname">Name of the bot spawned here</real>
