@@ -2576,4 +2576,9 @@ Secondary is a pair of very powerful clusterbombs.
 -------- KEYS --------
 <integer key="team" name="team">5=red, 14=blue</integer>
 </point>
+
+<point name="waypoint" color="1 0 .5" box="-8 -8 -8 8 8 8">
+Waypoint for bot navigation
+</point>
+
 </classes>
