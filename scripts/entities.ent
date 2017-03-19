@@ -119,6 +119,7 @@ When a button is touched by a player, it moves in the direction set by the &quot
 <target key="target2" name="target2">all entities with a matching targetname will be triggered.</target>
 <target key="target3" name="target3">all entities with a matching targetname will be triggered.</target>
 <target key="target4" name="target4">all entities with a matching targetname will be triggered.</target>
+<target key="killtarget" name="killtarget">remove all entities with this targetname when triggered</target>
 <boolean key="target_random" name="target_random">instead of triggering ALL matched entities, trigger ONE of them by random</boolean>
 <real key="speed" name="speed">speed of button's displacement (default 40).</real>
 <real key="platmovetype" name="platmovetype">movement type (1 = linear, 2 = cosine [default])</real>
