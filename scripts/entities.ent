@@ -545,6 +545,32 @@ CTF flag for team two (Blue). Use more than one if you really insist.
 zbqry=&quot;zbqryf/pgs/enqvnag/synt_oyhr_enqvnag.zq3&quot;
 </point>
 
+<point name="item_flag_team3" color="1 1 0" box="-32 -32 0 32 32 74">
+CTF flag for team three (Yellow). Use more than one if you really insist.
+-------- KEYS --------
+<model key="model" name="model">model to use</model>
+<real key="scale" name="scale">scaling factor (DO set this when using your own model!)</real>
+<sound key="noise" name="noise">sound played when flag is picked up</sound>
+<sound key="noise1" name="noise1">sound played when flag is returned</sound>
+<sound key="noise2" name="noise2">sound played when flag is captured</sound>
+<sound key="noise3" name="noise3">sound played when flag is lost in the field and respawns itself</sound>
+-------- ZBQRY SBE ENQVNAG BAYL - QB ABG FRG GUVF NF N XRL --------
+zbqry=&quot;zbqryf/pgs/enqvnag/synt_erq_enqvnag.zq3&quot;
+</point>
+
+<point name="item_flag_team4" color="1 0 1" box="-32 -32 0 32 32 74">
+CTF flag for team four (Pink). Use more than one if you really insist.
+-------- KEYS --------
+<model key="model" name="model">model to use</model>
+<real key="scale" name="scale">scaling factor (DO set this when using your own model!)</real>
+<sound key="noise" name="noise">sound played when flag is picked up</sound>
+<sound key="noise1" name="noise1">sound played when flag is returned</sound>
+<sound key="noise2" name="noise2">sound played when flag is captured</sound>
+<sound key="noise3" name="noise3">sound played when flag is lost in the field and respawns itself</sound>
+-------- ZBQRY SBE ENQVNAG BAYL - QB ABG FRG GUVF NF N XRL --------
+zbqry=&quot;zbqryf/pgs/enqvnag/synt_oyhr_enqvnag.zq3&quot;
+</point>
+
 <point name="item_health_big" color=".9 .3 .3" box="-30 -30 0 30 30 48">
 Big Health (default 50 health points)
 -------- KEYS --------
@@ -1055,11 +1081,6 @@ All path_corner entities of a train have to connect in a circular manner, while 
 <targetname key="targetname" name="targetname">the train following the path or the previous path_corner in the path points to this.</targetname>
 <real key="speed" name="speed">speed of func_train while moving to this path corner. If unset, the value from the func_train will be used.</real>
 <real key="wait" name="wait">number of seconds func_train will pause on this path corner before moving to next path corner (default: 0.1; to not wait, set this to -1</real>
-</point>
-
-<point name="runematch_spawn_point" color=".3 .3 1" box="-16 -16 -16 16 16 16">
-Spawn point for runes in a runematch.
-Runematch can work without runes also, it then spawn runes at random safe locations.
 </point>
 
 <point name="target_assault_roundend" color="1 0 0" box="-8 -8 -8 8 8 8">
@@ -1933,7 +1954,7 @@ Mage. Master of dark magic
 <target key="target" name="target">disable/enable all relays with this targetname when killed</target>
 <target key="target2" name="target2">follow this target</target>
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
-<integer key="team" name="team">5=red, 14=blue</integer>
+<integer key="team" name="team">5=red, 14=blue, 13=yellow, 10=pink</integer>
 -------- SPAWNFLAGS --------
 <flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="6">Spawn as mini-boss (slightly more powerful)</flag>
 <flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="1">Spawn when triggered</flag>
@@ -1955,7 +1976,7 @@ Shambler. Summons lightning bolts with its large meat cleaving claws
 <target key="target" name="target">disable/enable all relays with this targetname when killed</target>
 <target key="target2" name="target2">follow this target</target>
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
-<integer key="team" name="team">5=red, 14=blue</integer>
+<integer key="team" name="team">5=red, 14=blue, 13=yellow, 10=pink</integer>
 -------- SPAWNFLAGS --------
 <flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="6">Spawn as mini-boss (slightly more powerful)</flag>
 <flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="1">Spawn when triggered</flag>
@@ -1978,7 +1999,7 @@ Spider. Freezing ice or burning fire web, both lead to an 8-legged grave
 <target key="target" name="target">disable/enable all relays with this targetname when killed</target>
 <target key="target2" name="target2">follow this target</target>
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
-<integer key="team" name="team">5=red, 14=blue</integer>
+<integer key="team" name="team">5=red, 14=blue, 13=yellow, 10=pink</integer>
 -------- SPAWNFLAGS --------
 <flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="6">Spawn as mini-boss (slightly more powerful)</flag>
 <flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="1">Spawn when triggered</flag>
@@ -2000,7 +2021,7 @@ Wyvern. Flies around shooting fireballs
 <target key="target" name="target">disable/enable all relays with this targetname when killed</target>
 <target key="target2" name="target2">follow this target</target>
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
-<integer key="team" name="team">5=red, 14=blue</integer>
+<integer key="team" name="team">5=red, 14=blue, 13=yellow, 10=pink</integer>
 -------- SPAWNFLAGS --------
 <flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="6">Spawn as mini-boss (slightly more powerful)</flag>
 <flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="1">Spawn when triggered</flag>
@@ -2022,7 +2043,7 @@ Braaaiins!
 <target key="target" name="target">disable/enable all relays with this targetname when killed</target>
 <target key="target2" name="target2">follow this target</target>
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
-<integer key="team" name="team">5=red, 14=blue</integer>
+<integer key="team" name="team">5=red, 14=blue, 13=yellow, 10=pink</integer>
 -------- SPAWNFLAGS --------
 <flag key="MONSTERFLAG_MINIBOSS" name="MINIBOSS" bit="6">Spawn as mini-boss (slightly more powerful)</flag>
 <flag key="MONSTERFLAG_APPEAR" name="APPEAR" bit="1">Spawn when triggered</flag>
@@ -2343,7 +2364,7 @@ Fast firing moderate damage bullet (hitscan) turret.
 <real key="turret_scale_aim" name="turret_scale_aim">2 = aim twice as fast, 0,5 = aim at half speed</real>
 <real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
 <target key="target" name="target">Defend the position of this entity</target>
-<integer key="team" name="team">5=red, 14=blue</integer>
+<integer key="team" name="team">5=red, 14=blue, 13=yellow, 10=pink</integer>
 -------- SPAWNFLAGS --------
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
@@ -2359,7 +2380,7 @@ model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/mg.md3&quot;
 <real key="turret_scale_aim" name="turret_scale_aim">2 = aim twice as fast, 0,5 = aim at half speed</real>
 <real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
 <target key="target" name="target">Defend the position of this entity</target>
-<integer key="team" name="team">5=red, 14=blue</integer>
+<integer key="team" name="team">5=red, 14=blue, 13=yellow, 10=pink</integer>
 -------- SPAWNFLAGS --------
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
 ---------NOTES----------
@@ -2378,7 +2399,7 @@ basic energy cannon * 2
 <real key="turret_scale_aim" name="turret_scale_aim">2 = aim twice as fast, 0,5 = aim at half speed</real>
 <real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
 <target key="target" name="target">Defend the position of this entity</target>
-<integer key="team" name="team">5=red, 14=blue</integer>
+<integer key="team" name="team">5=red, 14=blue, 13=yellow, 10=pink</integer>
 -------- SPAWNFLAGS --------
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
@@ -2395,7 +2416,7 @@ Only kills missiles, rockets, grenadelauncher &amp; electro secondaries to be pr
 <real key="turret_scale_aim" name="turret_scale_aim">2 = aim twice as fast, 0,5 = aim at half speed</real>
 <real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
 <target key="target" name="target">Defend the position of this entity</target>
-<integer key="team" name="team">5=red, 14=blue</integer>
+<integer key="team" name="team">5=red, 14=blue, 13=yellow, 10=pink</integer>
 -------- SPAWNFLAGS --------
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
@@ -2412,7 +2433,7 @@ model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/flac.md3&quot;
 <real key="turret_scale_aim" name="turret_scale_aim">2 = aim twice as fast, 0,5 = aim at half speed</real>
 <real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
 <target key="target" name="target">Defend the position of this entity</target>
-<integer key="team" name="team">5=red, 14=blue</integer>
+<integer key="team" name="team">5=red, 14=blue, 13=yellow, 10=pink</integer>
 -------- SPAWNFLAGS --------
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
@@ -2429,7 +2450,7 @@ model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/mlrs.md3&quot;
 <real key="turret_scale_aim" name="turret_scale_aim">2 = aim twice as fast, 0,5 = aim at half speed</real>
 <real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
 <target key="target" name="target">Defend the position of this entity</target>
-<integer key="team" name="team">5=red, 14=blue</integer>
+<integer key="team" name="team">5=red, 14=blue, 13=yellow, 10=pink</integer>
 -------- SPAWNFLAGS --------
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
@@ -2447,7 +2468,7 @@ Single powerful rocket with the ability to evade obstacles to find its target. V
 <real key="turret_scale_aim" name="turret_scale_aim">2 = aim twice as fast, 0,5 = aim at half speed</real>
 <real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
 <target key="target" name="target">Defend the position of this entity</target>
-<integer key="team" name="team">5=red, 14=blue</integer>
+<integer key="team" name="team">5=red, 14=blue, 13=yellow, 10=pink</integer>
 -------- SPAWNFLAGS --------
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
@@ -2464,7 +2485,7 @@ Fires a lightning bolt that will jump to up to 10 targets if they are close enou
 <real key="turret_scale_aim" name="turret_scale_aim">2 = aim twice as fast, 0,5 = aim at half speed</real>
 <real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
 <target key="target" name="target">Defend the position of this entity</target>
-<integer key="team" name="team">5=red, 14=blue</integer>
+<integer key="team" name="team">5=red, 14=blue, 13=yellow, 10=pink</integer>
 -------- SPAWNFLAGS --------
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
@@ -2481,7 +2502,7 @@ Constant beam weapon that will considerably slow its target down while dealing l
 <real key="turret_scale_aim" name="turret_scale_aim">2 = aim twice as fast, 0,5 = aim at half speed</real>
 <real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
 <target key="target" name="target">Defend the position of this entity</target>
-<integer key="team" name="team">5=red, 14=blue</integer>
+<integer key="team" name="team">5=red, 14=blue, 13=yellow, 10=pink</integer>
 -------- SPAWNFLAGS --------
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
@@ -2497,7 +2518,7 @@ model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/phaser.md3&quot;
 <real key="turret_scale_ammo" name="turret_scale_ammo">2 = double ammo carry &amp; regen, 0.5 = half ammo carry &amp; regen</real>
 <real key="turret_scale_aim" name="turret_scale_aim">2 = aim twice as fast, 0,5 = aim at half speed</real>
 <real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
-<integer key="team" name="team">5=red, 14=blue</integer>
+<integer key="team" name="team">5=red, 14=blue, 13=yellow, 10=pink</integer>
 -------- SPAWNFLAGS --------
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
 ---------NOTES----------
@@ -2519,7 +2540,7 @@ Used to feed turrets capable of it with remote target info. currently only turre
 <real key="turret_scale_ammo" name="turret_scale_ammo">2 = doubble ammo carry &amp; regen, 0.5 = half ammo carry &amp; regen</real>
 <real key="turret_scale_aim" name="turret_scale_aim">2 = aim twice as fast, 0,5 = aim at half speed</real>
 <real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
-<integer key="team" name="team">5=red, 14=blue</integer>
+<integer key="team" name="team">5=red, 14=blue, 13=yellow, 10=pink</integer>
 -----------SPAWNFLAGS-----------
 ---------NOTES----------
 
@@ -2538,7 +2559,7 @@ model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/walker.md3&quot;
 <real key="turret_scale_ammo" name="turret_scale_ammo">2 = doubble ammo carry &amp; regen, 0.5 = half ammo carry &amp; regen</real>
 <real key="turret_scale_aim" name="turret_scale_aim">2 = aim twice as fast, 0,5 = aim at half speed</real>
 <real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
-<integer key="team" name="team">5=red, 14=blue</integer>
+<integer key="team" name="team">5=red, 14=blue, 13=yellow, 10=pink</integer>
 -----------SPAWNFLAGS-----------
 ---------NOTES----------
 
@@ -2563,7 +2584,7 @@ If the checkpoint chain in not looped, the unit will go &quot;Roaming&quot; when
 Fast moving hover type vehicle, with low shield &amp; health.
 Primary weapon is a rapid fire energy cannon, secondary lockable rockets.
 -------- KEYS --------
-<integer key="team" name="team">5=red, 14=blue</integer>
+<integer key="team" name="team">5=red, 14=blue, 13=yellow, 10=pink</integer>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 model=&quot;models/vehicles-static/wakazachi.md3&quot;
 </point>
@@ -2572,7 +2593,7 @@ model=&quot;models/vehicles-static/wakazachi.md3&quot;
 A slow moving 6 legged mech type vehicle that has plenty of health and shield.
 Primary weapon is twin miniguns, secondary eight rockets that can be guided by the pilot.
 -------- KEYS --------
-<integer key="team" name="team">5=red, 14=blue</integer>
+<integer key="team" name="team">5=red, 14=blue, 13=yellow, 10=pink</integer>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 model=&quot;models/vehicles-static/spiderbot.md3&quot;
 </point>
@@ -2582,8 +2603,16 @@ The raptor is primarily an air to ground fighter, it's quite lightly armored or 
 Its main weapon is four rapid fire energy cannons, wich can be locked to track a target by aming at it for some time.
 Secondary is a pair of very powerful clusterbombs.
 -------- KEYS --------
-<integer key="team" name="team">5=red, 14=blue</integer>
+<integer key="team" name="team">5=red, 14=blue, 13=yellow, 10=pink</integer>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 model=&quot;models/vehicles-static/raptor.md3&quot;
+</point>
+
+<point name="vehicle_bumblebee" color="0 0 1" box="-48 -48 0 48 48 32">
+The bumblebee is a slow flying healer with 2 gunner slots.
+Its main weapon is a healing ray that can heal teammates and their vehicles.
+Secondary matches primary, but the vehicle can hold 2 extra players who act as gunners with the side cannons.
+-------- KEYS --------
+<integer key="team" name="team">5=red, 14=blue, 13=yellow, 10=pink</integer>
 </point>
 </classes>
