@@ -4,4 +4,6 @@ author FruitieX, Mirio, Cuinnton
 has weapons
 gametype ctf
 cdtrack 4
+
 clientsettemp_for_type all r_water 1
+clientsettemp_for_type all r_water_resolutionmultiplier 1
