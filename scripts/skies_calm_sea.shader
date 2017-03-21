@@ -8,12 +8,10 @@ textures/skies/calm_sea
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	q3map_globaltexture
-	q3map_skylight 150 4
 	surfaceparm sky
 
         nopicmip
         nomipmaps
 
-	q3map_sunExt 0.8 0.8 0.9 150 10 45
 	skyparms env/calm_sea/calm_sea - -
 }

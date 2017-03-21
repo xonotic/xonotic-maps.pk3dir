@@ -122,13 +122,11 @@ textures/map_implosion/sky
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	q3map_globaltexture
-	q3map_surfacelight 50
 	surfaceparm sky
 
 		nopicmip
 		nomipmaps
 
-	q3map_sunExt 1 0.9 0.9 250 320 30
-	q3map_skylight 75 4
+
 	skyparms env/polluted_earth/polluted_earth - -
 }

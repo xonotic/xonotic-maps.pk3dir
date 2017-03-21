@@ -77,9 +77,7 @@ textures/map_warfare/sky
     surfaceparm nomarks
     surfaceparm sky
 
-    q3map_sunext 1 1 1 350 60 42 3 16
     q3map_lightmapfilterradius 0 8
-    q3map_skylight 400 4
 
     skyparms env/exosystem/exosystem - -
 }
