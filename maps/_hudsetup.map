@@ -1,6 +1,5 @@
 {
 "classname" "worldspawn"
-"_lightmapscale" "0.1"
 "author" "FruitieX"
 "message" "HUD Setup"
 "_description" "Small map for the HUD setup"
