@@ -211,6 +211,7 @@ BIDIR_IN_DOWN will the door prevent from reopening while closing if it is trigge
 <group name="func_door_secret" color="0 .5 .8">
 Basic secret door. Slides back, then to the side. Angle determines direction. Opens when targeted or when shot; does not create its own trigger field like func_door does.
 -------- KEYS --------
+<direction key="angle" name="angle">determines the opening direction</direction>
 <real key="platmovetype" name="platmovetype">movement type (1 = linear, 2 = cosine [default])</real>
 <real key="wait" name="wait"># of seconds before coming back</real>
 <string key="key1" name="key1">first entity key with one-line description</string>
