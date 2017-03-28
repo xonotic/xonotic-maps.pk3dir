@@ -41177,8 +41177,8 @@ map_geoplanetary/wiz1_4_mesh
 {
 "classname" "trigger_warpzone"
 "targetname" "warpzone1"
-"warpzone_fadeend" "800"
-"warpzone_fadestart" "700"
+"warpzone_fadeend" "2200"
+"warpzone_fadestart" "2100"
 {
 ( -1032 -768 640 ) ( -1032 -800 640 ) ( -1224 -768 640 ) common/trigger 8 8 0 0.25 0.25 0 0 0
 ( -1040 -788 544 ) ( -1232 -788 544 ) ( -1040 -788 384 ) common/warpzone 0 0 0 0.25 0.25 0 0 0
@@ -41192,8 +41192,8 @@ map_geoplanetary/wiz1_4_mesh
 "classname" "trigger_warpzone"
 "targetname" "warpzone2"
 "target" "warpzone1"
-"warpzone_fadeend" "800"
-"warpzone_fadestart" "700"
+"warpzone_fadeend" "2600"
+"warpzone_fadestart" "2500"
 {
 ( -1112 -1120 320 ) ( -1144 -1120 320 ) ( -1112 -928 320 ) common/trigger 8 0 0 0.25 0.25 0 0 0
 ( -1168 -1112 192 ) ( -1168 -920 192 ) ( -1168 -1112 32 ) common/warpzone 0 0 0 0.25 0.25 0 0 0
@@ -42129,8 +42129,8 @@ map_geoplanetary/wiz1_4_mesh
 {
 "classname" "trigger_warpzone"
 "targetname" "warpzone3"
-"warpzone_fadeend" "800"
-"warpzone_fadestart" "700"
+"warpzone_fadeend" "2200"
+"warpzone_fadestart" "2100"
 {
 ( 1544 4352 640 ) ( 1544 4384 640 ) ( 1736 4352 640 ) common/trigger 0 0 0 0.25 0.25 0 0 0
 ( 1552 4372 544 ) ( 1744 4372 544 ) ( 1552 4372 384 ) common/warpzone 0 0 0 0.25 0.25 0 0 0
@@ -42144,8 +42144,8 @@ map_geoplanetary/wiz1_4_mesh
 "classname" "trigger_warpzone"
 "targetname" "warpzone4"
 "target" "warpzone3"
-"warpzone_fadeend" "800"
-"warpzone_fadestart" "700"
+"warpzone_fadeend" "2600"
+"warpzone_fadestart" "2500"
 {
 ( 1624 4704 320 ) ( 1656 4704 320 ) ( 1624 4512 320 ) common/trigger -8 8 0 0.25 0.25 0 0 0
 ( 1680 4696 192 ) ( 1680 4504 192 ) ( 1680 4696 32 ) common/warpzone 0 0 0 0.25 0.25 0 0 0
