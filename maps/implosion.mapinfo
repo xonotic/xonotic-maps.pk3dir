@@ -1,7 +1,7 @@
-title implosion
+title Implosion
 description Space Style CTF Level
-author MintOX, Mirio, Mario
-cdtrack 20
+author MintOX, Mirio, Mario, packer
+cdtrack 18
 has weapons
 gametype ctf
 gametype ft

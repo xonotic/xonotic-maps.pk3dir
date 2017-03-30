@@ -26219,11 +26219,11 @@ exx/base-crete03
 "origin" "-2720.000000 48.000000 -96.000000"
 }
 {
-"classname" "item_health_large"
+"classname" "item_health_big"
 "origin" "-2392.000000 784.000000 -96.000000"
 }
 {
-"classname" "item_health_large"
+"classname" "item_health_big"
 "origin" "-3104.000000 -688.000000 -96.000000"
 }
 {
@@ -26744,7 +26744,7 @@ exx/base-crete03
 "origin" "1984.000000 -48.000000 352.000000"
 }
 {
-"classname" "item_health_large"
+"classname" "item_health_big"
 "origin" "1984.000000 96.000000 352.000000"
 }
 {
@@ -27728,11 +27728,11 @@ exx/trim-baseboard
 "dmg" "51"
 }
 {
-"classname" "item_health_large"
+"classname" "item_health_big"
 "origin" "1984.000000 -960.000000 40.000000"
 }
 {
-"classname" "item_health_large"
+"classname" "item_health_big"
 "origin" "1984.000000 960.000000 40.000000"
 }
 {
@@ -27862,12 +27862,12 @@ exx/trim-baseboard
 "respawntime" "5"
 }
 {
-"classname" "item_armor_large"
+"classname" "item_armor_mega"
 "origin" "-2176.000000 352.000000 80.000000"
 "respawntime" "5"
 }
 {
-"classname" "item_health_large"
+"classname" "item_health_big"
 "origin" "-1920.000000 0.000000 80.000000"
 "respawntime" "5"
 }
@@ -28346,7 +28346,7 @@ exx/trim-baseboard
 }
 }
 {
-"classname" "item_armor_large"
+"classname" "item_armor_mega"
 "origin" "-2176.000000 -352.000000 80.000000"
 "respawntime" "5"
 }

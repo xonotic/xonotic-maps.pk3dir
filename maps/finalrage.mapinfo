@@ -1,7 +1,7 @@
 title Final Rage
 description Small map with brutal fast vertical action
 author Munyul Verminard, tZork, L0, proraide
-cdtrack 20
+cdtrack 17
 has weapons
 gametype dm
 gametype tdm
@@ -11,7 +11,6 @@ gametype ca
 gametype ft
 gametype kh
 gametype ka
-
 
 clientsettemp_for_type all r_water 1
 clientsettemp_for_type all r_water_resolutionmultiplier 1
