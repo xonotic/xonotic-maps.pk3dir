@@ -1,6 +1,6 @@
 title Dance
 description Very open, small sized CTF map floating above an ocean
-author FruitieX, dublpaws, Debugger
+author FruitieX, dublpaws, Debugger, packer
 cdtrack 10
 has weapons
 gametype ctf
@@ -8,5 +8,3 @@ gametype kh
 gametype ft
 gametype ca
 gametype surv
-
-clientsettemp_for_type all r_shadow_realtime_world 0 // Workaround to fix problem with Realtime world lighting

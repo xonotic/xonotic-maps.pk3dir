@@ -11,6 +11,6 @@ gametype dom
 gametype ft
 gametype kh
 gametype surv
-clientsettemp_for_type all r_water 1
 
-clientsettemp_for_type all r_shadow_realtime_world 0 // Workaround to fix problem with Realtime world lighting
+clientsettemp_for_type all r_water 1
+clientsettemp_for_type all r_water_resolutionmultiplier 1
