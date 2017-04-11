@@ -241,7 +241,7 @@ textures/map_erbium/waterfall
 	}
 }
 
-rocktomoss
+textures/map_erbium/rocktomoss
 {
 	dpoffsetmapping - 2 match8 184
 	q3map_baseShader textures/map_erbium/rocktomoss
@@ -419,7 +419,7 @@ textures/map_erbium/rock-grey
 	}
 }
 
-textures/textures/map_erbium/moss
+textures/map_erbium/moss
 {
 	qer_editorimage textures/map_erbium/moss
 	dpoffsetmapping - .09346482113770383774 match8 106.75988500000000000000
@@ -437,9 +437,3 @@ textures/textures/map_erbium/moss
 		blendfunc filter
 	}
 }
-
-
-
-
-
-
