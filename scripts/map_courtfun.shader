@@ -37,7 +37,7 @@ textures/map_courtfun/screen_obey
     }
 }
 
-textures/map_courtfun/screen_xon
+textures/map_courtfun/screenanim_xon
 {
     qer_editorimage textures/map_courtfun/screen_xon.tga
     surfaceparm trans
@@ -45,7 +45,7 @@ textures/map_courtfun/screen_xon
     surfaceparm nolightmap
     cull none
     {
-        map textures/map_courtfun/screen_xon.tga
+        animMap 1 textures/map_courtfun/screen_obey.tga textures/map_courtfun/screen_xon.tga textures/map_courtfun/screen_black.tga textures/map_courtfun/screen_black.tga textures/map_courtfun/screen_black.tga
         blendFunc filter
     }
 }

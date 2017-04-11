@@ -1,0 +1,12 @@
+title Warfare
+description Medium sized map with a central area. Well suited and optimized for duel matches.
+author Maddin, Tymo
+cdtrack 15
+has weapons
+gametype dm
+gametype tdm
+gametype lms
+gametype ca
+gametype ka
+gametype kh
+gametype ft

@@ -154,7 +154,7 @@ textures/map_glowplant/sky
 	surfaceparm sky
 	
 	q3map_sunext 1 .40625 .17578125 1000 -55.452 17.379 3 16
-	q3map_skylight 150 3
+	q3map_skylight 80 3
 	skyparms env/exosystem2/exosystem2 - -
 }
 

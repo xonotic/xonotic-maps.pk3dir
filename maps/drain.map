@@ -1,5 +1,8 @@
 {
 "classname" "worldspawn"
+"message" "Drain"
+"author" "FruitieX, kuniu the frogg"
+"_description" "Small Duel/DM map"
 {
 ( -240 -32 0 ) ( 16 -32 0 ) ( -240 224 0 ) common/caulk 64 0 0 0.25 0.25 0 0 0
 ( -240 -64 0 ) ( -240 -64 192 ) ( 16 -64 192 ) common/caulk 64 0 0 0.25 0.25 0 0 0
@@ -8055,12 +8058,12 @@
 ( -424 112 -312 ) ( -424 144 -312 ) ( -424 112 -248 ) phillipk1x/floors-pk01_gra_floor02 128 32 0 0.25 0.25 134217728 0 0
 }
 {
-( -264 -968 352 ) ( -264 -1088 352 ) ( -280 -968 352 ) common/clip 0 0 0 0.25 0.25 0 0 0
-( -264 -960 120 ) ( -280 -960 120 ) ( -264 -960 112 ) common/clip 0 0 0 0.25 0.25 0 0 0
-( -264 -968 120 ) ( -264 -968 112 ) ( -264 -1088 120 ) common/clip 0 0 0 0.25 0.25 0 0 0
-( -280 -1088 112 ) ( -264 -1088 112 ) ( -280 -968 112 ) common/clip 0 0 0 0.25 0.25 0 0 0
-( -280 -1088 112 ) ( -280 -1088 120 ) ( -264 -1088 112 ) common/clip 0 0 0 0.25 0.25 0 0 0
-( -280 -1088 112 ) ( -280 -968 112 ) ( -280 -1088 120 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( -168 -968 352 ) ( -168 -1088 352 ) ( -184 -968 352 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( -168 -960 120 ) ( -184 -960 120 ) ( -168 -960 112 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( -168 -968 120 ) ( -168 -968 112 ) ( -168 -1088 120 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( -184 -1088 112 ) ( -168 -1088 112 ) ( -184 -968 112 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( -184 -1088 112 ) ( -184 -1088 120 ) ( -168 -1088 112 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( -184 -1088 112 ) ( -184 -968 112 ) ( -184 -1088 120 ) common/clip 0 0 0 0.25 0.25 0 0 0
 }
 {
 ( -592 -1088 352 ) ( -592 -1104 352 ) ( -656 -1088 352 ) common/clip 0 0 0 0.25 0.25 0 0 0
@@ -8671,20 +8674,52 @@ trak5x/base-pipe1d
 ( 236 -70 16 ) ( 234 -68 24 ) ( 234 -68 16 ) trak5x/base-base1a 352 352 0 -0.125 0.125 134217728 0 0
 }
 {
-( 272 -56 200 ) ( 272 -96 200 ) ( 128 -56 200 ) common/clip 0 224 0 0.25 0.25 0 0 0
-( 272 -56 224 ) ( 128 -56 224 ) ( 272 -56 64 ) common/clip 0 0 0 0.25 0.25 0 0 0
-( 280 -48 224 ) ( 280 -48 64 ) ( 280 -88 224 ) common/clip 0 0 0 0.25 0.25 0 0 0
-( 128 -96 0 ) ( 272 -96 0 ) ( 128 -56 0 ) common/clip 0 224 0 0.25 0.25 0 0 0
-( 128 -88 64 ) ( 128 -88 224 ) ( 272 -88 64 ) common/clip 0 0 0 0.25 0.25 0 0 0
-( 64 -88 64 ) ( 64 -48 64 ) ( 64 -88 224 ) common/clip 0 0 0 0.25 0.25 0 0 0
-}
-{
 ( 128 160 8 ) ( 64 160 8 ) ( 128 160 -8 ) common/donotenter 0 0 0 0.25 0.25 0 0 0
 ( 128 160 8 ) ( 128 160 -8 ) ( 128 -96 8 ) common/donotenter 0 0 0 0.25 0.25 0 0 0
 ( 64 -96 -8 ) ( 128 -96 -8 ) ( 64 160 -8 ) common/donotenter 0 0 0 0.25 0.25 0 0 0
 ( 64 -96 -8 ) ( 64 -96 8 ) ( 128 -96 -8 ) common/donotenter 0 0 0 0.25 0.25 0 0 0
 ( 64 -96 -8 ) ( 64 160 -8 ) ( 64 -96 8 ) common/donotenter 0 0 0 0.25 0.25 0 0 0
 ( 64 64 192 ) ( 128 64 64 ) ( 64 -64 192 ) common/donotenter 0 0 0 0.25 0.25 0 0 0
+}
+{
+( 72 -96 288 ) ( 72 -160 288 ) ( 64 -96 288 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( 72 -32 40 ) ( 64 -32 40 ) ( 72 -32 0 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( 66 -32 40 ) ( 66 -32 0 ) ( 66 -96 40 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( 64 -160 0 ) ( 72 -160 0 ) ( 64 -96 0 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( 64 -160 0 ) ( 64 -160 40 ) ( 72 -160 0 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( 64 -160 0 ) ( 64 -96 0 ) ( 64 -160 40 ) common/clip 0 0 0 0.25 0.25 0 0 0
+}
+{
+( 82 -110 288 ) ( 82 -112 288 ) ( 64 -110 288 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( 176 -110 288 ) ( 158 -110 288 ) ( 176 -110 224 ) common/clip 136 0 0 0.25 0.25 0 0 0
+( 288 -112 288 ) ( 288 -112 224 ) ( 288 -114 288 ) common/clip 8 0 0 0.25 0.25 0 0 0
+( 60 -112 4 ) ( 78 -112 4 ) ( 60 -110 4 ) common/clip 16 0 0 0.25 0.25 0 0 0
+( 64 -112 224 ) ( 64 -112 288 ) ( 82 -112 224 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( 64 -112 224 ) ( 64 -110 224 ) ( 64 -112 288 ) common/clip 0 0 0 0.25 0.25 0 0 0
+}
+{
+( 272 -74 288 ) ( 272 -110 288 ) ( 270 -74 288 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( 262 576 288 ) ( 260 576 288 ) ( 262 576 4 ) common/clip 40 0 0 0.25 0.25 0 0 0
+( 272 -74 288 ) ( 272 -74 4 ) ( 272 -110 288 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( 270 -110 4 ) ( 272 -110 4 ) ( 270 -74 4 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( 270 -110 4 ) ( 270 -110 288 ) ( 272 -110 4 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( 270 442 4 ) ( 270 478 4 ) ( 270 442 288 ) common/clip 96 0 0 0.25 0.25 0 0 0
+}
+{
+( 338 -808 -62 ) ( 338 -848 -62 ) ( 296 -808 -62 ) phillipk1x/floors-pk01_pan_floor02a 243.8094482422 186.1826171875 0 0.1640625 0.1718750298 0 0 0
+( 338 -804 -62 ) ( 296 -804 -62 ) ( 338 -804 -64 ) phillipk1x/floors-pk01_gra_floor02 0 248 0 0.25 0.25 0 0 0
+( 338 -808 -62 ) ( 338 -808 -64 ) ( 338 -848 -62 ) phillipk1x/floors-pk01_gra_floor02 0 248 0 0.25 0.25 0 0 0
+( 296 -848 -64 ) ( 338 -848 -64 ) ( 296 -808 -64 ) phillipk1x/floors-pk01_pan_floor02a 243.8094482422 186.1826171875 0 0.1640625 0.1718750298 0 0 0
+( 296 -848 -64 ) ( 296 -848 -62 ) ( 338 -848 -64 ) phillipk1x/floors-pk01_gra_floor02 0 248 0 0.25 0.25 0 0 0
+( 296 -848 -64 ) ( 296 -808 -64 ) ( 296 -848 -62 ) phillipk1x/floors-pk01_gra_floor02 0 248 0 0.25 0.25 0 0 0
+}
+{
+( -448 -416 -128 ) ( -448 -512 -128 ) ( -576 -416 -128 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( -480 -416 -128 ) ( -480 -416 -256 ) ( -480 -512 -128 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( -576 -512 -256 ) ( -448 -512 -256 ) ( -576 -416 -256 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( -512 -512 -256 ) ( -512 -416 -256 ) ( -512 -512 -128 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( -576 -448 -64 ) ( -512 -448 -64 ) ( -576 -448 64 ) common/clip 128 0 0 0.25 0.25 0 0 0
+( -544 -952 64 ) ( -480 -952 -64 ) ( -544 -952 -64 ) common/clip 128 0 0 0.25 0.25 0 0 0
 }
 }
 {
@@ -9784,12 +9819,12 @@ trak5x/base-pipe1d
 "classname" "trigger_push"
 "target" "target_position1"
 {
-( 228 348 176 ) ( 228 296 176 ) ( 180 348 176 ) common/trigger 240 0 0 0.25 0.25 0 0 0
-( 248 376 132 ) ( 200 376 132 ) ( 248 376 128 ) common/trigger 160 0 0 0.25 0.25 0 0 0
-( 244 380 132 ) ( 244 380 128 ) ( 244 328 132 ) common/trigger 128 0 0 0.25 0.25 0 0 0
-( 176 296 128 ) ( 224 296 128 ) ( 176 348 128 ) common/trigger 0 0 0 0.25 0.25 0 0 0
-( 164 292 128 ) ( 164 292 132 ) ( 212 292 128 ) common/trigger 48 0 0 0.25 0.25 0 0 0
-( 168 288 128 ) ( 168 340 128 ) ( 168 288 132 ) common/trigger 32 0 0 0.25 0.25 0 0 0
+( 249.1302947998 342.8143920898 160 ) ( 212.6830291748 305.725402832 160 ) ( 214.8942871094 376.4580078125 160 ) common/trigger 122.3580856323 28.5217342377 -44.5000076294 0.2499998659 0.2499998659 0 0 0
+( 283.1425170898 347.8944396973 132 ) ( 248.9064941406 381.5380859375 132 ) ( 283.1425170898 347.8944396973 128 ) common/trigger 137.2804107666 245.80418396 90 8731.0458984375 0.250005424 0 0 0
+( 283.2213745117 354.6738586426 132 ) ( 283.2213745117 354.6738586426 128 ) ( 246.7741241455 317.5848388672 132 ) common/trigger 43.7611083984 0 0 0.2659956217 0.25 0 0 0
+( 176.0940246582 342.172668457 128 ) ( 210.3300323486 308.5290222168 128 ) ( 212.5412902832 379.2616577148 128 ) common/trigger 136.9316101074 29.9235534668 -44.5000076294 0.2499998659 0.2499998659 0 0 0
+( 136.3563842773 316.2305603027 128 ) ( 136.3563842773 316.2305603027 132 ) ( 170.5923919678 282.5869140625 128 ) common/trigger 23.8868045807 103.8016891479 90 8731.0458984375 0.250005424 0 0 0
+( 159.78074646 345.4489135742 128 ) ( 196.228012085 382.5379333496 128 ) ( 159.78074646 345.4489135742 132 ) common/trigger 192.0127716064 0 0 0.2659956217 0.25 0 0 0
 }
 }
 {
@@ -9810,17 +9845,17 @@ trak5x/base-pipe1d
 "origin" "-400.000092 -1152.000000 -0.000046"
 "model" "models/lights/xonlight01.md3"
 "angles" "-0.000000 -90.000000 -90.000000"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
 "origin" "363.000000 -688.000000 288.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "light"
 "origin" "363.000000 -720.000000 288.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "func_group"
@@ -10092,95 +10127,95 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "208.000000 -843.000000 288.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "misc_model"
 "origin" "-880.000000 -1264.000000 0.000000"
 "model" "models/lights/xonlight01.md3"
 "angles" "-0.000000 0.000000 90.000000"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
 "origin" "176.000000 -843.000000 288.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "light"
 "origin" "21.000000 -768.000000 32.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "misc_model"
 "origin" "-1024.000000 -1120.000000 -0.000015"
 "model" "models/lights/xonlight01.md3"
 "angles" "0.000010 -90.000000 90.000008"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
 "origin" "-864.000000 -1243.000000 0.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "light"
 "origin" "-896.000000 -1243.000000 0.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "light"
 "origin" "-421.000000 -1136.000000 0.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "light"
 "origin" "-421.000000 -1168.000000 0.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "light"
 "origin" "112.000000 539.000000 256.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "misc_model"
 "origin" "-192.000000 -960.000061 -0.000061"
 "model" "models/lights/xonlight01.md3"
 "angles" "0.000003 0.000010 -90.000000"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
 "origin" "144.000000 539.000000 256.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "light"
 "origin" "-16.000000 -533.000000 -64.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "misc_model"
 "origin" "0.000000 -512.000061 -64.000061"
 "model" "models/lights/xonlight01.md3"
 "angles" "0.000003 0.000010 -90.000000"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
 "origin" "16.000000 -533.000000 -64.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "light"
 "origin" "-725.000000 80.000000 96.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "light"
 "origin" "-725.000000 48.000000 96.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "item_health_medium"
@@ -10203,70 +10238,70 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-1163.000000 304.000000 96.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "light"
 "origin" "-400.000000 539.000000 256.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "misc_model"
 "origin" "-1024.000000 -928.000000 -0.000015"
 "model" "models/lights/xonlight01.md3"
 "angles" "0.000010 -90.000000 90.000008"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
 "origin" "-1163.000000 336.000000 96.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "misc_model"
 "origin" "-880.000000 -784.000061 -0.000061"
 "model" "models/lights/xonlight01.md3"
 "angles" "0.000003 0.000010 -90.000000"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
 "origin" "-368.000000 539.000000 256.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "misc_model"
 "origin" "-192.000000 -1088.000000 0.000000"
 "model" "models/lights/xonlight01.md3"
 "angles" "-0.000000 0.000000 90.000000"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "misc_model"
 "origin" "0.000061 -752.000000 32.000000"
 "model" "models/lights/xonlight01.md3"
 "angles" "0.000010 -90.000000 90.000008"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
 "origin" "-1003.000000 -1136.000000 0.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "light"
 "origin" "-1003.000000 -1104.000000 0.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "light"
 "origin" "-176.000000 -981.000000 0.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "light"
 "origin" "-208.000000 -981.000000 0.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "trigger_teleport"
@@ -10324,7 +10359,7 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-865.119568 -469.652771 -45.867760"
-"light" "70"
+"light" "17"
 }
 {
 "classname" "misc_model"
@@ -10345,17 +10380,17 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-383.000000 -234.555740 254.778931"
-"light" "70"
+"light" "17"
 }
 {
 "classname" "light"
 "origin" "-416.000000 -1024.000000 -129.000000"
-"light" "70"
+"light" "17"
 }
 {
 "classname" "light"
 "origin" "-320.000000 -120.000000 129.000000"
-"light" "70"
+"light" "17"
 }
 {
 "classname" "misc_model"
@@ -10363,12 +10398,12 @@ trak5x/base-pipe1d
 "model" "models/lights/xonlight02.md3"
 "angle" "-179.999985"
 "modelscale" "0.600000"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
 "origin" "-320.000000 -120.000000 65.000000"
-"light" "40"
+"light" "20"
 }
 {
 "classname" "misc_model"
@@ -10376,79 +10411,79 @@ trak5x/base-pipe1d
 "model" "models/lights/xonlight02.md3"
 "angle" "-90.000000"
 "modelscale" "0.600000"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "misc_model"
 "origin" "-1184.000000 320.000000 95.999985"
 "model" "models/lights/xonlight01.md3"
 "angles" "0.000010 -90.000000 90.000008"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "misc_model"
 "origin" "-384.000000 559.999939 255.999939"
 "model" "models/lights/xonlight01.md3"
 "angles" "0.000003 0.000010 -90.000000"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
 "origin" "-1003.000000 -944.000000 0.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "light"
 "origin" "-1003.000000 -912.000000 0.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "light"
 "origin" "-896.000000 -805.000000 0.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "light"
 "origin" "-864.000000 -805.000000 0.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "misc_model"
 "origin" "128.000000 559.999939 255.999939"
 "model" "models/lights/xonlight01.md3"
 "angles" "0.000003 0.000010 -90.000000"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "misc_model"
 "origin" "-704.000122 64.000000 95.999954"
 "model" "models/lights/xonlight01.md3"
 "angles" "-0.000000 -90.000000 -90.000000"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
 "origin" "-528.000000 -805.000000 0.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "light"
 "origin" "-560.000000 -805.000000 0.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "misc_model"
 "origin" "192.000000 -864.000000 288.000000"
 "model" "models/lights/xonlight01.md3"
 "angles" "-0.000000 0.000000 90.000000"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "misc_model"
 "origin" "383.999908 -704.000000 287.999939"
 "model" "models/lights/xonlight01.md3"
 "angles" "-0.000000 -90.000000 -90.000000"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "misc_model"
@@ -10461,12 +10496,12 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-127.000000 -570.555725 -65.221077"
-"light" "70"
+"light" "17"
 }
 {
 "classname" "light"
 "origin" "-880.000000 -240.000000 -1.000000"
-"light" "70"
+"light" "17"
 }
 {
 "classname" "misc_model"
@@ -10478,7 +10513,7 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-880.000000 64.000000 159.000000"
-"light" "70"
+"light" "17"
 }
 {
 "classname" "misc_model"
@@ -10491,7 +10526,7 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-1088.000000 320.000000 159.000000"
-"light" "70"
+"light" "17"
 }
 {
 "classname" "misc_model"
@@ -10504,7 +10539,7 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-672.000000 320.000000 159.000000"
-"light" "70"
+"light" "17"
 }
 {
 "classname" "misc_model"
@@ -10517,7 +10552,7 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-880.000000 320.000000 159.000000"
-"light" "70"
+"light" "17"
 }
 {
 "classname" "misc_model"
@@ -10530,58 +10565,58 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "251.000000 432.000000 256.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "light"
 "origin" "251.000000 400.000000 256.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "misc_model"
 "origin" "271.999908 416.000000 255.999954"
 "model" "models/lights/xonlight01.md3"
 "angles" "-0.000000 -90.000000 -90.000000"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
 "origin" "-507.000000 400.000000 256.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "light"
 "origin" "-507.000000 432.000000 256.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "misc_model"
 "origin" "-527.999939 416.000000 255.999985"
 "model" "models/lights/xonlight01.md3"
 "angles" "0.000010 -90.000000 90.000008"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
 "origin" "-1163.000000 48.000000 96.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "light"
 "origin" "-1163.000000 80.000000 96.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "misc_model"
 "origin" "-1184.000000 64.000000 95.999985"
 "model" "models/lights/xonlight01.md3"
 "angles" "0.000010 -90.000000 90.000008"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
 "origin" "-1088.000000 64.000000 159.000000"
-"light" "70"
+"light" "17"
 }
 {
 "classname" "misc_model"
@@ -10594,7 +10629,7 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-448.000000 64.000000 -129.000000"
-"light" "70"
+"light" "17"
 }
 {
 "classname" "misc_model"
@@ -10607,7 +10642,7 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-224.000000 64.000000 -129.000000"
-"light" "70"
+"light" "17"
 }
 {
 "classname" "misc_model"
@@ -10620,7 +10655,7 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-224.000000 -128.000000 -129.000000"
-"light" "70"
+"light" "17"
 }
 {
 "classname" "misc_model"
@@ -10633,7 +10668,7 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-224.000000 -320.000000 -129.000000"
-"light" "70"
+"light" "17"
 }
 {
 "classname" "misc_model"
@@ -10646,13 +10681,13 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "96.000000 320.000000 247.000000"
-"light" "100"
+"light" "66"
 "_color" "0.495964 0.825025 0.774411"
 }
 {
 "classname" "light"
 "origin" "-416.000000 -832.000000 -129.000000"
-"light" "70"
+"light" "17"
 }
 {
 "classname" "misc_model"
@@ -10667,17 +10702,17 @@ trak5x/base-pipe1d
 "origin" "-400.000092 -896.000000 -0.000046"
 "model" "models/lights/xonlight01.md3"
 "angles" "-0.000000 -90.000000 -90.000000"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
 "origin" "-421.000000 -912.000000 0.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "light"
 "origin" "-200.000000 -1024.000000 0.000000"
-"light" "80"
+"light" "52"
 "_color" "1 0.128145 0.147494"
 }
 {
@@ -10685,112 +10720,113 @@ trak5x/base-pipe1d
 "origin" "-576.000122 -864.000000 -96.000046"
 "model" "models/lights/xonlight01.md3"
 "angles" "-0.000000 -90.000000 -90.000000"
+"_castshadows" "1"
 }
 {
 "classname" "light"
 "origin" "-597.000000 -880.000000 -96.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "light"
 "origin" "-597.000000 -848.000000 -96.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "light"
 "origin" "-384.000000 -544.000000 -193.000000"
-"light" "50"
+"light" "20"
 }
 {
 "classname" "light"
 "origin" "-416.000000 -832.000000 -193.000000"
-"light" "50"
+"light" "20"
 }
 {
 "classname" "light"
 "origin" "-416.000000 -1024.000000 -193.000000"
-"light" "50"
+"light" "20"
 }
 {
 "classname" "light"
 "origin" "-224.000000 -320.000000 -193.000000"
-"light" "50"
+"light" "20"
 }
 {
 "classname" "light"
 "origin" "-224.000000 -128.000000 -193.000000"
-"light" "50"
+"light" "20"
 }
 {
 "classname" "light"
 "origin" "-224.000000 64.000000 -193.000000"
-"light" "50"
+"light" "20"
 }
 {
 "classname" "light"
 "origin" "-448.000000 64.000000 -193.000000"
-"light" "50"
+"light" "20"
 }
 {
 "classname" "light"
 "origin" "-880.000000 64.000000 63.000000"
-"light" "50"
+"light" "20"
 }
 {
 "classname" "light"
 "origin" "-1088.000000 64.000000 63.000000"
-"light" "50"
+"light" "20"
 }
 {
 "classname" "light"
 "origin" "-1088.000000 320.000000 63.000000"
-"light" "50"
+"light" "20"
 }
 {
 "classname" "light"
 "origin" "-880.000000 320.000000 63.000000"
-"light" "50"
+"light" "20"
 }
 {
 "classname" "light"
 "origin" "-672.000000 320.000000 63.000000"
-"light" "50"
+"light" "20"
 }
 {
 "classname" "light"
 "origin" "-336.000000 320.000000 239.000000"
-"light" "150"
+"light" "46"
 "_color" "0.495964 0.825025 0.774411"
 }
 {
 "classname" "light"
 "origin" "21.000000 -736.000000 32.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "light"
 "origin" "-544.000000 -240.000000 129.000000"
-"light" "70"
+"light" "17"
 }
 {
 "classname" "light"
 "origin" "-648.000000 -240.000000 9.000000"
-"light" "40"
+"light" "20"
 }
 {
 "classname" "light"
 "origin" "-880.000000 -240.000000 -63.000000"
-"light" "40"
+"light" "20"
 }
 {
 "classname" "light"
 "origin" "-864.000000 -448.000000 -111.000000"
-"light" "40"
+"light" "20"
 }
 {
 "classname" "light"
 "origin" "-384.000000 -544.000000 -129.000000"
-"light" "70"
+"light" "17"
 }
 {
 "classname" "misc_model"
@@ -10803,12 +10839,12 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-544.000000 -240.000000 65.000000"
-"light" "40"
+"light" "20"
 }
 {
 "classname" "light"
 "origin" "-112.000000 -192.000000 127.000000"
-"light" "70"
+"light" "17"
 }
 {
 "classname" "misc_model"
@@ -10821,12 +10857,12 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-112.000000 -192.000000 65.000000"
-"light" "40"
+"light" "20"
 }
 {
 "classname" "light"
 "origin" "-48.000000 -384.000000 127.000000"
-"light" "70"
+"light" "17"
 }
 {
 "classname" "misc_model"
@@ -10839,12 +10875,12 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-48.000000 -384.000000 65.000000"
-"light" "40"
+"light" "20"
 }
 {
 "classname" "light"
 "origin" "160.000000 -432.000000 127.000000"
-"light" "70"
+"light" "17"
 }
 {
 "classname" "misc_model"
@@ -10857,12 +10893,12 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "160.000000 -432.000000 65.000000"
-"light" "40"
+"light" "20"
 }
 {
 "classname" "light"
 "origin" "320.000000 -432.000000 127.000000"
-"light" "70"
+"light" "17"
 }
 {
 "classname" "misc_model"
@@ -10875,12 +10911,12 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "320.000000 -432.000000 65.000000"
-"light" "40"
+"light" "20"
 }
 {
 "classname" "light"
 "origin" "480.000000 -432.000000 127.000000"
-"light" "70"
+"light" "17"
 }
 {
 "classname" "misc_model"
@@ -10893,12 +10929,12 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "480.000000 -432.000000 65.000000"
-"light" "40"
+"light" "20"
 }
 {
 "classname" "light"
 "origin" "464.000000 -608.000000 127.000000"
-"light" "70"
+"light" "17"
 }
 {
 "classname" "misc_model"
@@ -10911,12 +10947,12 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "464.000000 -608.000000 65.000000"
-"light" "40"
+"light" "20"
 }
 {
 "classname" "light"
 "origin" "464.000000 -768.000000 127.000000"
-"light" "70"
+"light" "17"
 }
 {
 "classname" "misc_model"
@@ -10929,12 +10965,12 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "464.000000 -768.000000 65.000000"
-"light" "40"
+"light" "20"
 }
 {
 "classname" "light"
 "origin" "464.000000 -928.000000 127.000000"
-"light" "70"
+"light" "17"
 }
 {
 "classname" "misc_model"
@@ -10947,12 +10983,12 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "464.000000 -928.000000 65.000000"
-"light" "40"
+"light" "20"
 }
 {
 "classname" "light"
 "origin" "320.000000 -944.000000 127.000000"
-"light" "70"
+"light" "17"
 }
 {
 "classname" "misc_model"
@@ -10965,12 +11001,12 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "320.000000 -944.000000 65.000000"
-"light" "40"
+"light" "20"
 }
 {
 "classname" "light"
 "origin" "160.000000 -944.000000 127.000000"
-"light" "70"
+"light" "17"
 }
 {
 "classname" "misc_model"
@@ -10983,126 +11019,126 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "160.000000 -944.000000 65.000000"
-"light" "40"
+"light" "20"
 }
 {
 "classname" "light"
 "origin" "251.000000 48.000000 256.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "light"
 "origin" "251.000000 16.000000 256.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "misc_model"
 "origin" "271.999908 32.000000 255.999954"
 "model" "models/lights/xonlight01.md3"
 "angles" "-0.000000 -90.000000 -90.000000"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
 "origin" "-21.000000 -160.000000 288.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "light"
 "origin" "-21.000000 -192.000000 288.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "misc_model"
 "origin" "-0.000092 -176.000000 287.999939"
 "model" "models/lights/xonlight01.md3"
 "angles" "-0.000000 -90.000000 -90.000000"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
 "origin" "-507.000000 112.000000 256.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "misc_model"
 "origin" "-527.999939 128.000000 255.999985"
 "model" "models/lights/xonlight01.md3"
 "angles" "0.000010 -90.000000 90.000008"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
 "origin" "-507.000000 144.000000 256.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "light"
 "origin" "-107.000000 -496.000000 288.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "misc_model"
 "origin" "-127.999939 -480.000000 288.000000"
 "model" "models/lights/xonlight01.md3"
 "angles" "0.000010 -90.000000 90.000008"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
 "origin" "-107.000000 -464.000000 288.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "light"
 "origin" "11.000000 -352.000000 288.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "light"
 "origin" "11.000000 -384.000000 288.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "misc_model"
 "origin" "31.999908 -368.000000 287.999939"
 "model" "models/lights/xonlight01.md3"
 "angles" "-0.000000 -90.000000 -90.000000"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
 "origin" "-368.000000 5.000000 256.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "light"
 "origin" "-400.000000 5.000000 256.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "misc_model"
 "origin" "-384.000000 -16.000000 256.000000"
 "model" "models/lights/xonlight01.md3"
 "angles" "-0.000000 0.000000 90.000000"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
 "origin" "-144.000000 539.000000 256.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "misc_model"
 "origin" "-128.000000 559.999939 255.999939"
 "model" "models/lights/xonlight01.md3"
 "angles" "0.000003 0.000010 -90.000000"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
 "origin" "-112.000000 539.000000 256.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "misc_model"
@@ -11115,58 +11151,58 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-735.000000 -234.555740 46.778923"
-"light" "70"
+"light" "17"
 }
 {
 "classname" "light"
 "origin" "21.000000 -768.000000 288.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "misc_model"
 "origin" "0.000061 -752.000000 288.000000"
 "model" "models/lights/xonlight01.md3"
 "angles" "0.000010 -90.000000 90.000008"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
 "origin" "21.000000 -736.000000 288.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "light"
 "origin" "208.000000 -533.000000 288.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "misc_model"
 "origin" "224.000000 -512.000061 287.999939"
 "model" "models/lights/xonlight01.md3"
 "angles" "0.000003 0.000010 -90.000000"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
 "origin" "240.000000 -533.000000 288.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "light"
 "origin" "-768.000000 -1024.000000 -24.000000"
-"light" "130"
+"light" "30"
 "_color" "0.495964 0.825025 0.774411"
 }
 {
 "classname" "light"
 "origin" "192.000000 -704.000000 80.000000"
-"light" "130"
+"light" "30"
 "_color" "0.495964 0.825025 0.774411"
 }
 {
 "classname" "light"
 "origin" "-864.000000 -680.000000 -127.000000"
-"light" "70"
+"light" "17"
 }
 {
 "classname" "misc_model"
@@ -11179,7 +11215,7 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-864.000000 -680.000000 -191.000000"
-"light" "40"
+"light" "20"
 }
 {
 "classname" "func_rain"
@@ -11384,12 +11420,12 @@ trak5x/base-pipe1d
 {
 "classname" "light"
 "origin" "-421.000000 -880.000000 0.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "light"
 "origin" "192.000000 16.000000 80.000000"
-"light" "50"
+"light" "20"
 "_color" "1 0.128145 0.147494"
 }
 {
@@ -11440,68 +11476,68 @@ trak5x/base-pipe1d
 "origin" "-544.000000 -1264.000000 0.000000"
 "model" "models/lights/xonlight01.md3"
 "angles" "-0.000000 0.000000 90.000000"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
 "origin" "-528.000000 -1243.000000 0.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "light"
 "origin" "-560.000000 -1243.000000 0.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "light"
 "origin" "-176.000000 -1067.000000 0.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "light"
 "origin" "-208.000000 -1067.000000 0.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "misc_model"
 "origin" "-544.000000 -784.000061 -0.000061"
 "model" "models/lights/xonlight01.md3"
 "angles" "0.000003 0.000010 -90.000000"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "misc_model"
 "origin" "-336.000000 -960.000061 -0.000061"
 "model" "models/lights/xonlight01.md3"
 "angles" "0.000003 0.000010 -90.000000"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "misc_model"
 "origin" "-336.000000 -1088.000000 0.000000"
 "model" "models/lights/xonlight01.md3"
 "angles" "-0.000000 0.000000 90.000000"
-"_castshadows" "0"
+"_castshadows" "1"
 }
 {
 "classname" "light"
 "origin" "-320.000000 -981.000000 0.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "light"
 "origin" "-352.000000 -981.000000 0.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "light"
 "origin" "-320.000000 -1067.000000 0.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "light"
 "origin" "-352.000000 -1067.000000 0.000000"
-"light" "25"
+"light" "5"
 }
 {
 "classname" "target_speaker"
@@ -11611,9 +11647,9 @@ trak5x/base-pipe1d
 "debrissolid" "0"
 "debristime" "5"
 "debristimejitter" "2"
-"dmg" "25"
-"dmg_edge" "25"
-"dmg_force" "600"
+"dmg" "40"
+"dmg_edge" "30"
+"dmg_force" "200"
 "dmg_radius" "190"
 "health" "25"
 "mdl" "TE_TEI_BIGEXPLOSION"
@@ -11635,9 +11671,9 @@ trak5x/base-pipe1d
 "debrissolid" "0"
 "debristime" "5"
 "debristimejitter" "2"
-"dmg" "25"
-"dmg_edge" "25"
-"dmg_force" "600"
+"dmg" "40"
+"dmg_edge" "30"
+"dmg_force" "200"
 "dmg_radius" "190"
 "health" "25"
 "mdl" "TE_TEI_BIGEXPLOSION"
@@ -11659,9 +11695,9 @@ trak5x/base-pipe1d
 "debrissolid" "0"
 "debristime" "5"
 "debristimejitter" "2"
-"dmg" "25"
-"dmg_edge" "25"
-"dmg_force" "600"
+"dmg" "40"
+"dmg_edge" "30"
+"dmg_force" "200"
 "dmg_radius" "190"
 "health" "25"
 "mdl" "TE_TEI_BIGEXPLOSION"
@@ -11683,9 +11719,9 @@ trak5x/base-pipe1d
 "debrissolid" "0"
 "debristime" "5"
 "debristimejitter" "2"
-"dmg" "25"
-"dmg_edge" "25"
-"dmg_force" "600"
+"dmg" "40"
+"dmg_edge" "30"
+"dmg_force" "200"
 "dmg_radius" "190"
 "health" "25"
 "mdl" "TE_TEI_BIGEXPLOSION"
@@ -11697,7 +11733,7 @@ trak5x/base-pipe1d
 }
 {
 "classname" "misc_breakablemodel"
-"origin" "-73.953918 -188.056213 -255.521118"
+"origin" "-84.000000 -156.000183 -256.000000"
 "model" "models/containers/barrel01.md3"
 "modelscale" "1.200000"
 "count" "1"
@@ -11707,34 +11743,9 @@ trak5x/base-pipe1d
 "debrissolid" "0"
 "debristime" "5"
 "debristimejitter" "2"
-"dmg" "25"
-"dmg_edge" "25"
-"dmg_force" "600"
-"dmg_radius" "190"
-"health" "25"
-"mdl" "TE_TEI_BIGEXPLOSION"
-"message" "was killed by an explosive barrel"
-"message2" "was killed with an explosive barrel by"
-"noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "35"
-"respawntimejitter" "10"
-"angles" "4.870223 136.066513 -11.980032"
-}
-{
-"classname" "misc_breakablemodel"
-"origin" "-116.000000 -228.000183 -256.000000"
-"model" "models/containers/barrel01.md3"
-"modelscale" "1.200000"
-"count" "1"
-"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
-"debrisdamageforcescale" "1"
-"debrisfadetime" "1"
-"debrissolid" "0"
-"debristime" "5"
-"debristimejitter" "2"
-"dmg" "25"
-"dmg_edge" "25"
-"dmg_force" "600"
+"dmg" "40"
+"dmg_edge" "30"
+"dmg_force" "200"
 "dmg_radius" "190"
 "health" "25"
 "mdl" "TE_TEI_BIGEXPLOSION"
@@ -11746,7 +11757,7 @@ trak5x/base-pipe1d
 }
 {
 "classname" "misc_breakablemodel"
-"origin" "-93.158936 -267.833984 -261.061523"
+"origin" "-592.000000 -1240.000000 -256.000000"
 "model" "models/containers/barrel01.md3"
 "modelscale" "1.200000"
 "count" "1"
@@ -11756,59 +11767,9 @@ trak5x/base-pipe1d
 "debrissolid" "0"
 "debristime" "5"
 "debristimejitter" "2"
-"dmg" "25"
-"dmg_edge" "25"
-"dmg_force" "600"
-"dmg_radius" "190"
-"health" "25"
-"mdl" "TE_TEI_BIGEXPLOSION"
-"message" "was killed by an explosive barrel"
-"message2" "was killed with an explosive barrel by"
-"noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "35"
-"respawntimejitter" "10"
-"angles" "-2.919404 101.826599 3.361983"
-}
-{
-"classname" "misc_breakablemodel"
-"origin" "-75.648743 -211.866943 -190.721786"
-"model" "models/containers/barrel01.md3"
-"modelscale" "1.200000"
-"count" "1"
-"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
-"debrisdamageforcescale" "1"
-"debrisfadetime" "1"
-"debrissolid" "0"
-"debristime" "5"
-"debristimejitter" "2"
-"dmg" "25"
-"dmg_edge" "25"
-"dmg_force" "600"
-"dmg_radius" "190"
-"health" "25"
-"mdl" "TE_TEI_BIGEXPLOSION"
-"message" "was killed by an explosive barrel"
-"message2" "was killed with an explosive barrel by"
-"noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "35"
-"respawntimejitter" "10"
-"angles" "80.273994 -81.205994 29.943542"
-}
-{
-"classname" "misc_breakablemodel"
-"origin" "-592.000000 -1240.000000 -248.000000"
-"model" "models/containers/barrel01.md3"
-"modelscale" "1.200000"
-"count" "1"
-"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
-"debrisdamageforcescale" "1"
-"debrisfadetime" "1"
-"debrissolid" "0"
-"debristime" "5"
-"debristimejitter" "2"
-"dmg" "25"
-"dmg_edge" "25"
-"dmg_force" "600"
+"dmg" "40"
+"dmg_edge" "30"
+"dmg_force" "200"
 "dmg_radius" "190"
 "health" "25"
 "mdl" "TE_TEI_BIGEXPLOSION"
@@ -11820,7 +11781,7 @@ trak5x/base-pipe1d
 }
 {
 "classname" "misc_breakablemodel"
-"origin" "-632.000000 -1240.000000 -248.000000"
+"origin" "-632.000000 -1240.000000 -256.000000"
 "model" "models/containers/barrel01.md3"
 "modelscale" "1.200000"
 "count" "1"
@@ -11830,9 +11791,9 @@ trak5x/base-pipe1d
 "debrissolid" "0"
 "debristime" "5"
 "debristimejitter" "2"
-"dmg" "25"
-"dmg_edge" "25"
-"dmg_force" "600"
+"dmg" "40"
+"dmg_edge" "30"
+"dmg_force" "200"
 "dmg_radius" "190"
 "health" "25"
 "mdl" "TE_TEI_BIGEXPLOSION"
@@ -11854,9 +11815,41 @@ trak5x/base-pipe1d
 "debrissolid" "0"
 "debristime" "5"
 "debristimejitter" "2"
-"dmg" "25"
-"dmg_edge" "25"
-"dmg_force" "600"
+"dmg" "40"
+"dmg_edge" "30"
+"dmg_force" "200"
+"dmg_radius" "190"
+"health" "25"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"message" "was killed by an explosive barrel"
+"message2" "was killed with an explosive barrel by"
+"noise" "sound/weapons/rocket_impact.ogg"
+"respawntime" "35"
+"respawntimejitter" "10"
+}
+{
+"classname" "item_shells"
+"origin" "-436.000000 -824.000000 -64.000000"
+}
+{
+"classname" "item_strength"
+"origin" "318.000000 -826.000000 -62.000000"
+}
+{
+"classname" "misc_breakablemodel"
+"origin" "-68.000000 -212.000183 -256.000000"
+"model" "models/containers/barrel01.md3"
+"modelscale" "1.200000"
+"count" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debrissolid" "0"
+"debristime" "5"
+"debristimejitter" "2"
+"dmg" "40"
+"dmg_edge" "30"
+"dmg_force" "200"
 "dmg_radius" "190"
 "health" "25"
 "mdl" "TE_TEI_BIGEXPLOSION"
