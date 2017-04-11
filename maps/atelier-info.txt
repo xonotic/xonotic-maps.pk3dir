@@ -1,0 +1,43 @@
+================================================================
+Title                 : Atelier
+BSP name              : atelier.bsp
+Autor                 : Pawel 'ShadoW' Chrapka
+Contact               : chrapka.pawel@gmail.com
+Homepage	      : www.shadowsdomain.wordpress.com
+================================================================
+* info *
+
+Modes: dm, lms, rune, tdm, ca, freeztag, keepaway, kh, dom
+================================================================
+* Construction *
+Programs              :	NetRadiant, Q3map2
+Based on              : nothing
+Brushes               : ~2000
+Entities              : ~500
+new textures          : yes (2 textures made by evilliar - http://www.evillair.net/v2/)
+new sounds            : no
+new models            : no
+                       
+================================================================              
+
+* How to run it *
+
+Unpack archive to your xonotic/data directory.
+Run the map via console: map atelier
+================================================================
+* My other work *
+
+To check my other custom levels and other work go visit:
+www.shadowsdomain.wordpress.com
+================================================================
+
+
+Atelier is large tdm map. Well suited for any team based gameplay modes, as well as for ffa.
+
+Source map file included, for further informations about it, see atelier.license.txt.
+                         		
+ShadoW
+
+
+
+
