@@ -19,10 +19,12 @@ liquids_slime
 liquids_water
 logos
 map_atelier
+map_boil
 map_catharsis
 map_courtfun
 map_darkzone
-map_g-23
+map_erbium
+map_geoplanetary
 map_glowplant
 map_implosion
 map_leave_em_behind
