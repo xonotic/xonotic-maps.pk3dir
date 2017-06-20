@@ -28,6 +28,7 @@ map_geoplanetary
 map_glowplant
 map_implosion
 map_leave_em_behind
+map_mirio-slalom
 map_oilrig
 map_silentsiege
 map_solarium
