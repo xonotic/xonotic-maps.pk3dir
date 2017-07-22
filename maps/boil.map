@@ -12487,8 +12487,7 @@ brushDef
 }
 {
 "classname" "info_player_deathmatch"
-"origin" "-64.000000 672.000000 32.000000"
-"angle" "135.000000"
+"origin" "-464.000000 384.000000 32.000000"
 }
 {
 "classname" "item_bullets"
