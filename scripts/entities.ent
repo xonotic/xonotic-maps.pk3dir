@@ -439,7 +439,7 @@ Large Armor (default 100 armor points)
 <real key="respawntime" name="respawntime">time till it respawns (default: 30)</real>
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <real key="armorvalue" name="armorvalue">amount of armor it gives (default: 100 (g_pickup_armormega))</real>
-<real key="max_armorvalue" name="max_armorvalue">max of armor it increases to (default: 999 (g_pickup_armormega_max))</real>
+<real key="max_armorvalue" name="max_armorvalue">max of armor it increases to (default: 200 (g_pickup_armormega_max))</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
@@ -454,7 +454,7 @@ Big Armor (default 50 armor points)
 <real key="respawntime" name="respawntime">time till it respawns (default: 20)</real>
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <real key="armorvalue" name="armorvalue">amount of armor it gives (default: 50 (g_pickup_armorbig))</real>
-<real key="max_armorvalue" name="max_armorvalue">max of armor it increases to (default: 999 (g_pickup_armorbig_max))</real>
+<real key="max_armorvalue" name="max_armorvalue">max of armor it increases to (default: 200 (g_pickup_armorbig_max))</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
@@ -469,7 +469,7 @@ Medium Armor (default 25 armor points)
 <real key="respawntime" name="respawntime">time till it respawns (default: 20)</real>
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <real key="armorvalue" name="armorvalue">amount of armor it gives (default: 25 (g_pickup_armormedium))</real>
-<real key="max_armorvalue" name="max_armorvalue">max of armor it increases to (default: 999 (g_pickup_armormedium_max))</real>
+<real key="max_armorvalue" name="max_armorvalue">max of armor it increases to (default: 200 (g_pickup_armormedium_max))</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
@@ -484,7 +484,7 @@ Small Armor (default 5 armor points)
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <real key="armorvalue" name="armorvalue">amount of armor it gives (default: 5 (g_pickup_armorsmall))</real>
-<real key="max_armorvalue" name="max_armorvalue">max of armor it increases to (default: 999 (g_pickup_armorsmall_max))</real>
+<real key="max_armorvalue" name="max_armorvalue">max of armor it increases to (default: 200 (g_pickup_armorsmall_max))</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
@@ -579,7 +579,7 @@ Big Health (default 50 health points)
 <real key="respawntime" name="respawntime">time till it respawns (default: 20)</real>
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <real key="health" name="health">amount of health it gives (default: 50 (g_pickup_healthbig))</real>
-<real key="max_health" name="max_health">max of health it increases to (default: 999 (g_pickup_healthbig_max))</real>
+<real key="max_health" name="max_health">max of health it increases to (default: 200 (g_pickup_healthbig_max))</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
@@ -594,7 +594,7 @@ Medium Health (default 25 health points)
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <real key="health" name="health">amount of health it gives (default: 25 (g_pickup_healthmedium))</real>
-<real key="max_health" name="max_health">max of health it increases to (default: 999 (g_pickup_healthmedium_max))</real>
+<real key="max_health" name="max_health">max of health it increases to (default: 200 (g_pickup_healthmedium_max))</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
@@ -610,7 +610,7 @@ In Instagib, this randomly turns into either an invisibility, an extra lives or 
 <real key="respawntime" name="respawntime">time till it respawns (default: 30)</real>
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <real key="health" name="health">amount of health it gives (default: 100 (g_pickup_healthmega))</real>
-<real key="max_health" name="max_health">max of health it increases to (default: 999 (g_pickup_healthmega_max))</real>
+<real key="max_health" name="max_health">max of health it increases to (default: 200 (g_pickup_healthmega_max))</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 -------- SPAWNFLAGS --------
@@ -1075,7 +1075,7 @@ This entity targets two different onslaught_controlpoint or onslaught_generator 
 Path corner entity that func_train will follow.
 All path_corner entities of a train have to connect in a circular manner, while the func_train shall point to one of the path_corners (ideally the one at the train's starting point)
 -------- KEYS --------
-<target key="target" name="target">point to next path_corner in the path.</target>
+<target key="target" name="target">point to next path_corner in the path. If more than one path_corner entity with this targetname exists, a random one is chosen</target>
 <target key="target2" name="target2">triggered when a func_train stops at this target</target>
 <target key="target3" name="target3">triggered when a func_train stops at this target</target>
 <target key="target4" name="target4">triggered when a func_train stops at this target</target>
@@ -1148,9 +1148,12 @@ The sound name may also be of the form *soundname, and in that case the respecti
 </point>
 
 <point name="invasion_spawnpoint" color="1 0.5 0" box="-16 -16 -24 16 16 45">
-Monster spawnpoint in Invasion
+Monster spawnpoint for Invasion
 -------- KEYS --------
--------- SPAWNFLAGS --------
+<string key="spawnmob" name="spawnmob">name of the monster to be spawned</string>
+<target key="target2" name="target2">spawned monster will follow this target</target>
+<integer key="target_range" name="target_range">maximum targeting range for the spawned monster</integer>
+<integer key="team" name="team">team that the monster will join if teamplay (5 = red, 14 = blue, etc)</integer>
 </point>
 
 <group name="trigger_counter" color=".5 .5 .5">
@@ -2374,6 +2377,7 @@ model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/mg.md3&quot;
 </point>
 
 <point name="turret_plasma" color="1 0 0" box="-32 -32 0 32 32 50">
+Basic energy cannon
 -------- KEYS --------
 <real key="turret_scale_damage" name="turret_scale_damage">2 = double damage, 0.5 = half</real>
 <real key="turret_scale_range" name="turret_scale_range">2 = double range, 0.5 = half</real>
@@ -2385,8 +2389,6 @@ model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/mg.md3&quot;
 <integer key="team" name="team">5=red, 14=blue, 13=yellow, 10=pink</integer>
 -------- SPAWNFLAGS --------
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
----------NOTES----------
-Basic energy cannon
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/plasma.md3&quot;
 </point>
@@ -2513,6 +2515,7 @@ model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/phaser.md3&quot;
 
 
 <point name="turret_fusionreactor" color="1 0 0" box="-32 -32 0 32 32 50">
+Supplies nearby energy based turrets with more power so they can fire more often.
 -------- KEYS --------
 <real key="turret_scale_damage" name="turret_scale_damage">2 = double damage, 0.5 = half</real>
 <real key="turret_scale_range" name="turret_scale_range">2 = double range, 0.5 = half</real>
@@ -2523,8 +2526,6 @@ model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/phaser.md3&quot;
 <integer key="team" name="team">5=red, 14=blue, 13=yellow, 10=pink</integer>
 -------- SPAWNFLAGS --------
 <flag key="PILLAR" name="PILLAR" bit="1">Adds a supporting pillar under this turret, for turrets on terrain/uneven surfaces. (only for visuals)</flag>
----------NOTES----------
-Supplies neerby energy based turrets with more power so they can fire more often.
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/reactor.md3&quot;
 </point>
@@ -2535,6 +2536,7 @@ Used to feed turrets capable of it with remote target info. currently only turre
 
 
 <point name="turret_walker" color="1 0 0" box="-32 -32 0 32 32 50">
+A nasty mechanical critter that will engage longrange targets with missiles, midrange with its minigun and melee things up close and personal.
 -----------KEYS------------
 <real key="turret_scale_damage" name="turret_scale_damage">2 = double damage, 0.5 = half</real>
 <real key="turret_scale_range" name="turret_scale_range">2 = double range, 0.5 = half</real>
@@ -2543,17 +2545,13 @@ Used to feed turrets capable of it with remote target info. currently only turre
 <real key="turret_scale_aim" name="turret_scale_aim">2 = aim twice as fast, 0,5 = aim at half speed</real>
 <real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
 <integer key="team" name="team">5=red, 14=blue, 13=yellow, 10=pink</integer>
------------SPAWNFLAGS-----------
----------NOTES----------
-
-A nasty mechanical critter that will engage longrange target with missiles, midrange with its minigun and melee things up close and personal.
-
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/walker.md3&quot;
 </point>
 
 
 <point name="turret_ewheel" color="1 0 0" box="-32 -32 0 32 32 50">
+Small, agile and moveing turret.
 -----------KEYS------------
 <real key="turret_scale_damage" name="turret_scale_damage">2 = double damage, 0.5 = half</real>
 <real key="turret_scale_range" name="turret_scale_range">2 = double range, 0.5 = half</real>
@@ -2562,26 +2560,21 @@ model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/walker.md3&quot;
 <real key="turret_scale_aim" name="turret_scale_aim">2 = aim twice as fast, 0,5 = aim at half speed</real>
 <real key="turret_scale_health" name="turret_scale_health">2 = double health, 0.5 = half</real>
 <integer key="team" name="team">5=red, 14=blue, 13=yellow, 10=pink</integer>
------------SPAWNFLAGS-----------
----------NOTES----------
-
-Small, agile and moveing turret.
-
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/ewheel.md3&quot;
 </point>
 
 
 <point name="turret_checkpoint" color="1 0 1" box="-32 -32 -32 32 32 32">
+Checkpoint that units can patrol to
 -----------KEYS------------
 <target key="target" name="target">targetname of next wapoint in chain.</target>
 <real key="wait" name="wait">Pause at this point # seconds.</real>
------------SPAWNFLAGS-----------
-
 ---------NOTES----------
-If a loop is of targets are formed, any unit entering this loop will patrol it indefinitly.
-If the checkpoint chain in not looped, the unit will go &quot;Roaming&quot; when the last point is reached.
+If a loop of targets is formed, any unit entering this loop will patrol it indefinitly.
+If the checkpoint chain is not looped, the unit will go &quot;Roaming&quot; when the last point is reached.
 </point>
+
 <point name="vehicle_racer" color="0 0 1" box="-48 -48 0 48 48 32">
 Fast moving hover type vehicle, with low shield &amp; health.
 Primary weapon is a rapid fire energy cannon, secondary lockable rockets.
