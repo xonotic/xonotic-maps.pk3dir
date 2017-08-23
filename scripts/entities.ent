@@ -2551,7 +2551,7 @@ model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/walker.md3&quot;
 
 
 <point name="turret_ewheel" color="1 0 0" box="-32 -32 0 32 32 50">
-Small, agile and moveing turret.
+Small, agile and moving turret.
 -----------KEYS------------
 <real key="turret_scale_damage" name="turret_scale_damage">2 = double damage, 0.5 = half</real>
 <real key="turret_scale_range" name="turret_scale_range">2 = double range, 0.5 = half</real>
