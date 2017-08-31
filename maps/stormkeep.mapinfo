@@ -12,6 +12,7 @@ gametype kh
 gametype ca
 gametype ft
 gametype ka
+gametype gg
 
 clientsettemp_for_type all r_water 1
 clientsettemp_for_type all r_water_resolutionmultiplier 1
