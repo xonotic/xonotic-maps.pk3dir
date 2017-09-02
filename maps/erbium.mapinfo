@@ -11,6 +11,7 @@ gametype ft
 gametype ka
 gametype kh
 gametype dom
+gametype gg
 gametype surv
 
 clientsettemp_for_type all r_water 1
