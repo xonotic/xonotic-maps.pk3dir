@@ -130,6 +130,7 @@ When a button is touched by a player, it moves in the direction set by the &quot
 <real key="health" name="health">(default 0) if set to any non-zero value, the button must take damage (any amount) to activate.</real>
 -------- SPAWNFLAGS --------
 <flag key="NOSPLASH" name="NOSPLASH" bit="8">if set, splash damage cannot activate the door, only direct damage can (requires health to be set)</flag>
+<flag key="DONTACCUMULATEDMG" name="DONTACCUMULATEDMG" bit="7">if set, all the damage needs to be done in one hit (requires health to be set)</flag>
 </group>
 
 <group name="func_conveyor" color="0 .5 .8">
