@@ -29958,7 +29958,6 @@ exx/trim-psimple04
 "count" "6"
 "impulse" "4"
 "mdl" "sparks"
-"noise" "sound/map_drain/spark.ogg"
 "spawnflags" "4"
 "velocity" "50 -100 30"
 {
