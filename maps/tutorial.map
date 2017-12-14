@@ -21198,26 +21198,6 @@ brushDef
 }
 }
 {
-"classname" "monster_mage"
-"origin" "-1408.000000 -6752.000000 24.000000"
-"angle" "90.000000"
-}
-{
-"classname" "monster_mage"
-"origin" "-1280.000000 -6784.000000 24.000000"
-"angle" "90.000000"
-}
-{
-"classname" "monster_shambler"
-"origin" "-1152.000000 -6784.000000 31.000000"
-"angle" "90.000000"
-}
-{
-"classname" "monster_spider"
-"origin" "-992.000000 -6752.000000 25.000000"
-"angle" "90.000000"
-}
-{
 "classname" "monster_zombie"
 "origin" "-732.000000 -6688.000000 25.000000"
 "angle" "90.000000"
@@ -35515,4 +35495,24 @@ brushDef
 "origin" "4288.000000 -640.000000 512.000000"
 "light" "160"
 "_color" "1 0.501961 0.501961"
+}
+{
+"classname" "monster_zombie"
+"origin" "-992.000000 -6752.000000 25.000000"
+"angle" "90.000000"
+}
+{
+"classname" "monster_zombie"
+"origin" "-1152.000000 -6784.000000 31.000000"
+"angle" "90.000000"
+}
+{
+"classname" "monster_zombie"
+"origin" "-1280.000000 -6784.000000 24.000000"
+"angle" "90.000000"
+}
+{
+"classname" "monster_zombie"
+"origin" "-1408.000000 -6752.000000 24.000000"
+"angle" "90.000000"
 }
