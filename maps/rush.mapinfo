@@ -1,0 +1,15 @@
+title Rush
+description Rush to the powerups to ensure victory
+author Debugger, Mirio
+cdtrack 15
+has weapons
+gametype dm
+gametype tdm
+gametype lms
+gametype kh
+gametype ca
+gametype ft
+gametype ka
+
+clientsettemp_for_type all r_water 1
+clientsettemp_for_type all r_water_resolutionmultiplier 1
