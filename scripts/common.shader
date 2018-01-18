@@ -100,6 +100,18 @@ textures/common/invisible // solid, transparent polygons, casts shadows
     }
 }
 
+textures/common/monsterclip
+{
+    qer_trans 0.40
+    surfaceparm nodraw
+    surfaceparm nolightmap
+    surfaceparm nonsolid
+    surfaceparm trans
+    surfaceparm nomarks
+    surfaceparm noimpact
+    surfaceparm monsterclip
+}
+
 textures/common/nodraw
 {
     surfaceparm nodraw
