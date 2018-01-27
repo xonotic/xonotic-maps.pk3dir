@@ -1610,6 +1610,29 @@ Triggers once when the game starts, then no longer does anything.
 <real key="wait" name="wait">wait so many seconds before triggering</real>
 </point>
 
+<point name="trigger_viewlocation" color=".5 .5 .5" box="-8 -8 -8 8 8 8">
+A brush that when entered changes the player's view to a position between target and target2, useful for side-scrolling stages
+-------- KEYS --------
+<target key="target" name="target">should point to a target_viewlocation_start entity</target>
+<target key="target2" name="target">should point to a target_viewlocation_end entity</target>
+-------- SPAWNFLAGS --------
+<flag key="NOSIDESCROLL" name="NOSIDESCROLL" bit="0">allow regular aiming and movement while forcing the camera between the viewlocation points</flag>
+<flag key="FREEAIM" name="FREEAIM" bit="1">show a crosshair on screen and allow 2d aiming instead of only forward</flag>
+<flag key="FREEMOVE" name="FREEMOVE" bit="2">allow moving up and down as well in side-scrolling mode, useful for brawlers</flag>
+</point>
+
+<point name="target_viewlocation_start" color="0 .5 0" box="-8 -8 -8 8 8 8">
+Starting position for the area of viewing in a view location area, viewing position is bounded between this and a target_viewlocation_end
+-------- KEYS --------
+<targetname key="targetname" name="targetname">the trigger_viewlocation should point its target to this.</targetname>
+</point>
+
+<point name="target_viewlocation_end" color="0 .5 0" box="-8 -8 -8 8 8 8">
+Ending position for the view location area, should be higher up but on the same plane as the target_viewlocation_start           
+-------- KEYS --------
+<targetname key="targetname" name="targetname">the trigger_viewlocation should point its target2 to this.</targetname>
+</point>
+
 <point name="misc_follow" color=".5 .5 .5" box="-8 -8 -8 8 8 8">
 Makes one entity follow another. Will not work with all entities.
 -------- KEYS --------
