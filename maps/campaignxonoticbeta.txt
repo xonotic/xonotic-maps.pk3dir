@@ -18,7 +18,7 @@
 "nexball","nexballarena","5","7","5",,,"Nexball: Nexball Arena","This is similar to football now. You move the ball if you hit it, so try to push it into the enemies goal. First team who can score 5 goals wins!"
 "kh","silentsiege","8","8","600",,,"Key Hunt: Silent Siege","Key Hunt one more time! Get 600 points to win."
 "ctf","implosion","7","8","5",,"g_jetpack 1","[Special] Capture the Flag: Implosion","Jetpack: Press Jump (default key 'space') while already in the air to use the Jetpack and enjoy flying around!"
-//"as","techassault","7","8","30",,"g_campaign_forceteam 1","Assault: Techassault","You are in the attacking team and you have to destroy all objects. There will be new rooms/ways if you destroy an object."
+"as","techassault","7","8","30",,"g_campaign_forceteam 1","Assault: Techassault","You are in the attacking team and you have to destroy all objects. There will be new rooms/ways if you destroy an object."
 "dm","oilrig","6","8","15",,,"Deathmatch: Oilrig","In this DM game you are going to face 8 'Assassin' bots!"
 //"cts","courtfun","0","0","6000",,,"Race CTS: Courtfun","Race CTS (Complete the Stage) is similar to the Race mode, just that you only need to reach the finish in CTS. You have to beat it within 1 minute though."
 "dm","xoylent","4","6","10",,"g_weaponarena blaster","[Special] Deathmatch: Xoylent","Blaster only: This time you get only the Blaster, so try to push the enemies off the map! But don't let them push you, because you need only 10 frags to win.\nWatch your step!"
@@ -30,4 +30,3 @@
 "dm","stormkeep","9","11",15",,"g_weaponarena devastator","[Bonus] Deathmatch: Stormkeep","SURPRISE!\nWelcome to the ROCKET HELL!\nOnly the Devastator will be available here - don't blow up yourself! Have fun!"
 
 // rc & cts disabled, since we hide these modes
-// as disabled, because bots can't play it
