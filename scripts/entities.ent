@@ -154,7 +154,7 @@ A conveyor. Nonsolid trigger version.
 </group>
 
 <group name="func_door" color="0 .5 .8">
-Normal sliding door entity. By default, the door will activate when player walks close to it or when damage is inflicted to it.
+Normal sliding door entity. By default, the door will activate when player walks close to it or when damage is inflicted to it. Can be locked with keys.
 If DOOR_DONT_LINK is not set, the door will be linked with all doors it touches. Note however that for linked doors to work properly, it is necessary that ALL linked doors have SOME volume of common area (that is, there must be a point that is part of ALL doors).
 -------- KEYS --------
 <string key="message" name="message">is printed when the door is touched if it is a trigger door and it hasn't been fired yet, or death message if dmg is set</string>
@@ -168,16 +168,17 @@ If DOOR_DONT_LINK is not set, the door will be linked with all doors it touches.
 <real key="lip" name="lip">lip remaining at end of move (8 default)</real>
 <real key="dmg" name="dmg">damage to inflict when blocked (when triggered and someone is in the way)</real>
 <real key="sounds" name="sounds">when 1, use default door sounds</real>
-<sound key="noise1" name="noise1">sound when the door opens</sound>
-<sound key="noise2" name="noise2">sound when the door closes</sound>
-<real key="itemkeys" name="itemkeys">keys required to open this door.</real>
+<sound key="noise" name="noise">sound when the door is unlocked</sound>
+<sound key="noise1" name="noise1">sound when the door stops moving</sound>
+<sound key="noise2" name="noise2">sound when the door is moving</sound>
+<sound key="noise3" name="noise3">sound when the door can't be unlocked</sound>
+<real key="itemkeys" name="itemkeys">keys required to open this door (1 for gold key, 2 for silver key, 3 for both)</real>
 -------- SPAWNFLAGS --------
 <flag key="START_OPEN" name="START_OPEN" bit="0">causes the door to move to its destination when spawned, and operate in reverse.  It is used to temporarily or permanently close off an area when triggered (not useful for touch or damage triggered doors).</flag>
 <flag key="DOOR_DONT_LINK" name="DOOR_DONT_LINK" bit="2">the door won't link with another door it touches</flag>
-<flag key="GOLD_KEY" name="GOLD_KEY" bit="3">causes the door to open only if the activator holds a gold key (Q1 compatibility).</flag>
-<flag key="SILVER_KEY" name="SILVER_KEY" bit="4">causes the door to open only if the activator holds a silver key (Q1 compatibility).</flag>
 <flag key="TOGGLE" name="TOGGLE" bit="5">causes the door to wait in both the start and end states for a trigger event.</flag>
 <flag key="NOSPLASH" name="NOSPLASH" bit="8">if set, splash damage cannot activate the door, only direct damage can (requires health to be set)</flag>
+<flag key="CRUSH" name="CRUSH" bit="11">crush players hit by the door instantly</flag>
 -------- NOTES --------
 More information about keys can be found in item_key description.
 </group>
@@ -189,7 +190,7 @@ If DOOR_DONT_LINK is not set, the door will be linked with all doors it touches.
 BIDIR makes the door work bidirectional, so that the opening direction is always away from the requestor.
 The usage of bidirectional doors requires two manually instantiated triggers (trigger_multiple), the one to open it in the other direction
 must have set trigger_reverse to 1.
-BIDIR_IN_DOWN will the door prevent from reopening while closing if it is triggered from the other side.
+BIDIR_IN_DOWN will prevent the door from reopening while closing if it is triggered from the other side.
 -------- KEYS --------
 <string key="message" name="message">is printed when the door is touched if it is a trigger door and it hasn't been fired yet, or death message if dmg is set</string>
 <string key="message2" name="message2">death message when someone gets pushed into this (default: &quot;was thrown into a world of hurt by&quot;). The # character is replaced by the attacker name if present (and it instead does not get appended to the end)</string>
@@ -200,8 +201,11 @@ BIDIR_IN_DOWN will the door prevent from reopening while closing if it is trigge
 <real key="wait" name="wait">wait before returning (3 default, -1 = never return)</real>
 <real key="dmg" name="dmg">damage to inflict when blocked (when triggered and someone is in the way)</real>
 <real key="sounds" name="sounds">when 1, use default door sounds</real>
-<sound key="noise1" name="noise1">sound when the door opens</sound>
-<sound key="noise2" name="noise2">sound when the door closes</sound>
+<sound key="noise" name="noise">sound when the door is unlocked</sound>
+<sound key="noise1" name="noise1">sound when the door stops moving</sound>
+<sound key="noise2" name="noise2">sound when the door is moving</sound>
+<sound key="noise3" name="noise3">sound when the door can't be unlocked</sound>
+<real key="itemkeys" name="itemkeys">keys required to open this door (1 for gold key, 2 for silver key, 3 for both)</real>
 -------- SPAWNFLAGS --------
 <flag key="START_OPEN" name="START_OPEN" bit="0">causes the door to move to its destination when spawned, and operate in reverse.  It is used to temporarily or permanently close off an area when triggered (not useful for touch or damage triggered doors).</flag>
 <flag key="DOOR_DONT_LINK" name="DOOR_DONT_LINK" bit="2">the door won't link with another door it touches</flag>
@@ -209,13 +213,18 @@ BIDIR_IN_DOWN will the door prevent from reopening while closing if it is trigge
 <flag key="NOSPLASH" name="NOSPLASH" bit="8">if set, splash damage cannot activate the door, only direct damage can (requires health to be set)</flag>
 <flag key="X_AXIS" name="X_AXIS" bit="6">rotate around the X axis</flag>
 <flag key="Y_AXIS" name="Y_AXIS" bit="7">rotate around the Y axis</flag>
+<flag key="BIDIR" name="BIDIR" bit="1">door can open in both directions</flag>
+<flag key="BIDIR_IN_DOWN" name="BIDIR_IN_DOWN" bit="3">don't reopen the door while closing if it's triggered from the wrong side</flag>
+<flag key="CRUSH" name="CRUSH" bit="11">crush players hit by the door instantly</flag>
+-------- NOTES --------
+This entity is similar to func_door.
 </group>
 
 <group name="func_door_secret" color="0 .5 .8">
 Basic secret door. Slides back, then to the side. Angle determines direction. Opens when targeted or when shot; does not create its own trigger field like func_door does.
 -------- KEYS --------
 <real key="platmovetype" name="platmovetype">movement type (1 = linear, 2 = cosine [default])</real>
-<real key="wait" name="wait"># of seconds before coming back</real>
+<real key="wait" name="wait">time in seconds before coming back, -1 keeps the door open forever</real>
 <string key="key1" name="key1">first entity key with one-line description</string>
 <string key="key2" name="key2">second entity key with one-line description</string>
 <real key="t_width" name="t_width">override WIDTH to move back (or height if going down)</real>
@@ -223,11 +232,11 @@ Basic secret door. Slides back, then to the side. Angle determines direction. Op
 <real key="dmg" name="dmg">damage to inflict when blocked (2 default)</real>
 <string key="message" name="message">text to display when activating the door, or death message if dmg is set</string>
 <string key="message2" name="message2">death message when someone gets pushed into this (default: &quot;was thrown into a world of hurt by&quot;). The # character is replaced by the attacker name if present (and it instead does not get appended to the end)</string>
+<real key="sounds" name="sounds">when 1, use default door sounds</real>
 <sound key="noise1" name="noise1">sound when opening backwards or closing</sound>
 <sound key="noise2" name="noise2">sound when opening sideways</sound>
 <sound key="noise3" name="noise3">sound when stopping</sound>
 -------- SPAWNFLAGS --------
-<flag key="OPEN_ONCE" name="OPEN_ONCE" bit="0">only work once, then stay open</flag>
 <flag key="1ST_LEFT" name="1ST_LEFT" bit="1">1st move is left of arrow</flag>
 <flag key="1ST_DOWN" name="1ST_DOWN" bit="2">1st move is down from arrow</flag>
 <flag key="NO_SHOOT" name="NO_SHOOT" bit="3">never respond to shots</flag>
