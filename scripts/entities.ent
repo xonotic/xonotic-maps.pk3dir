@@ -128,13 +128,14 @@ When a button is touched by a player, it moves in the direction set by the &quot
 <real key="wait" name="wait">number of seconds button stays pressed (default 1, -1 = return immediately).</real>
 <real key="lip" name="lip">lip remaining at end of move (default 4 units).</real>
 <real key="health" name="health">(default 0) if set to any non-zero value, the button must take damage (any amount) to activate.</real>
+<sound key="noise" name="noise">Noise that is played when the button is activated</sound>
 -------- SPAWNFLAGS --------
 <flag key="NOSPLASH" name="NOSPLASH" bit="8">if set, splash damage cannot activate the door, only direct damage can (requires health to be set)</flag>
 <flag key="DONTACCUMULATEDMG" name="DONTACCUMULATEDMG" bit="7">if set, all the damage needs to be done in one hit (requires health to be set)</flag>
 </group>
 
 <group name="func_conveyor" color="0 .5 .8">
-A conveyor. Solid brush version.
+A conveyor. Solid brush version. Will run forever if it's not targeted.
 -------- KEYS --------
 <targetname key="targetname" name="targetname">if set, it can be turned on/off</targetname>
 <direction key="angle" name="angle">determines the opening direction</direction>
@@ -151,6 +152,8 @@ A conveyor. Nonsolid trigger version.
 <real key="speed" name="speed">movement speed (200 default)</real>
 -------- SPAWNFLAGS --------
 <flag key="START_ON" name="START_ON" bit="0">the conveyor is turned on if not triggered</flag>
+-------- NOTES --------
+Almost the same as func_conveyor.
 </group>
 
 <group name="func_door" color="0 .5 .8">
@@ -1827,7 +1830,8 @@ When triggered, it resets to full health, and unbreaks.
 -------- SPAWNFLAGS --------
 <flag key="DISABLED" name="DISABLED" bit="0">do not allow damaging this until it is first activated</flag>
 <flag key="INDICATE" name="INDICATE" bit="1">indicate amount of damage already taken by coloring</flag>
-<flag key="NOSPLASH" name="NOSPLASH" bit="8">if set, splash damage cannot activate the door, only direct damage can (requires health to be set)</flag>
+<flag key="NODAMAGE" name="NODAMAGE" bit="2">don't take damage (needs to be triggered to 'explode', then triggered again to restore)</flag>
+<flag key="NOSPLASH" name="NOSPLASH" bit="8">if set, only direct hits do damage (requires health to be set)</flag>
 </group>
 
 <point name="trigger_relay_if" color="0 1 0" box="-8 -8 -8 8 8 8">
