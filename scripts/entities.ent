@@ -135,7 +135,7 @@ When a button is touched by a player, it moves in the direction set by the &quot
 </group>
 
 <group name="func_conveyor" color="0 .5 .8">
-A conveyor. Solid brush version. Will run forever if it's not targeted.
+A conveyor. Solid brush version. Will run forever if it's not targeted. Use relay_activate, relay_deactivate or relay_activatetoggle to activate/deactivate it.
 -------- KEYS --------
 <targetname key="targetname" name="targetname">if set, it can be turned on/off</targetname>
 <direction key="angle" name="angle">determines the opening direction</direction>
@@ -145,7 +145,7 @@ A conveyor. Solid brush version. Will run forever if it's not targeted.
 </group>
 
 <group name="trigger_conveyor" color="0 .5 .8">
-A conveyor. Nonsolid trigger version.
+A conveyor. Nonsolid trigger version. Use relay_activate, relay_deactivate or relay_activatetoggle to activate/deactivate it.
 -------- KEYS --------
 <targetname key="targetname" name="targetname">if set, it can be turned on/off</targetname>
 <direction key="angle" name="angle">determines the opening direction</direction>
@@ -2343,6 +2343,7 @@ This acts as a modifier over the normal gravity (sv_gravity). e.g.: 0.5 is half 
 <point name="relay_activate" color="0 1 0" box="-8 -8 -8 8 8 8">
 Activates all targets
 List of currently supported target ents:
+trigger_conveyor
 trigger_hurt
 trigger_heal
 trigger_impulse
@@ -2351,6 +2352,7 @@ trigger_teleport
 func_rotating
 func_bobbing
 func_button
+func_conveyor
 func_fourier
 func_vectormamamam
 -------- KEYS --------
@@ -2361,6 +2363,7 @@ func_vectormamamam
 <point name="relay_deactivate" color="1 0 0" box="-8 -8 -8 8 8 8">
 Deactivates all targets
 List of currently supported target ents:
+trigger_conveyor
 trigger_hurt
 trigger_heal
 trigger_impulse
@@ -2369,6 +2372,7 @@ trigger_teleport
 func_rotating
 func_bobbing
 func_button
+func_conveyor
 func_fourier
 func_vectormamamam
 -------- KEYS --------
@@ -2379,6 +2383,7 @@ func_vectormamamam
 <point name="relay_activatetoggle" color="0 1 1" box="-8 -8 -8 8 8 8">
 Toggles all targets de/active
 List of currently supported target ents:
+trigger_conveyor
 trigger_hurt
 trigger_heal
 trigger_impulse
@@ -2387,6 +2392,7 @@ trigger_teleport
 func_rotating
 func_bobbing
 func_button
+func_conveyor
 func_fourier
 func_vectormamamam
 -------- KEYS --------
