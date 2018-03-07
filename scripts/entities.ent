@@ -276,9 +276,9 @@ Rising platform the player can ride to reach higher places. Plats must always be
 <real key="height" name="height">if set, this will determine the total amount of vertical travel of the plat.</real>
 <real key="dmg" name="dmg">damage to inflict on player when he blocks operation of plat. Plat will reverse direction when blocked.</real>
 <targetname key="targetname" name="targetname">if set, the trigger that points to this will lower the plat each time it fires. The plat lowers and lifts someone up later.</targetname>
-<real key="sounds" name="sounds">2 for alternate sound set, -1 for silence, or use the fields below</real>
-<string key="sound1" name="sound1">platform starts moving sound</string>
-<string key="sound2" name="sound2">platform stop sound</string>
+<real key="sounds" name="sounds">2 for alternate sound set, 0 for silence, or use the fields below</real>
+<string key="noise" name="noise">platform starts moving sound</string>
+<string key="noise1" name="noise1">platform stop sound</string>
 <string key="message" name="message">kill message, when someone gets killed by this plat</string>
 <string key="message2" name="message2">death message when someone gets pushed into this (default: &quot;was thrown into a world of hurt by&quot;). The # character is replaced by the attacker name if present (and it instead does not get appended to the end)</string>
 -------- SPAWNFLAGS --------
