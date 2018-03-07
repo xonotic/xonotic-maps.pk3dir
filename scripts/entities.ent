@@ -1555,7 +1555,7 @@ NOTE for race_place: when the race starts after the qualifying, the player with 
 </point>
 
 <group name="func_pointparticles" color=".5 .5 .5">
-A brush that emits particles.
+A brush that emits particles. Can be (de)activated with relays.
 -------- KEYS --------
 <string key="mdl" name="mdl">particle effect name from effectinfo.txt</string>
 <real key="impulse" name="impulse">when positive, number of particles to emit per second; when negative; number of particles to emit per second and 64^3 block</real>
@@ -1566,7 +1566,7 @@ A brush that emits particles.
 <sound key="noise" name="noise">sound to play when the particle is emitted</sound>
 <real key="atten" name="atten">distance attenuation of the sound (a value from 0.1 to 3.9), default is 0.5; set to -1 for no attenuation (global sound)</real>
 <real key="volume" name="volume">volume of the sound</real>
-<targetname key="targetname" name="targetname">name to target this (then its state is toggled)</targetname>
+<targetname key="targetname" name="targetname">name to target this (use relays)</targetname>
 <string key="bgmscript" name="bgmscript">emitter class from the BGM script</string>
 <real key="bgmscriptattack" name="bgmscriptattack">attack time of the effect strength (0 to 3.9)</real>
 <real key="bgmscriptdecay" name="bgmscriptdecay">decay time of the effect strength (0 to 3.9)</real>
@@ -1577,7 +1577,7 @@ A brush that emits particles.
 <flag key="IMPULSE" name="IMPULSE" bit="1">only send the full amount of impulse particles when the entity is triggered</flag>
 <flag key="VISCULLING" name="VISCULLING" bit="2">only emit particles if the emitter brush is in the current PVS</flag>
 -------- NOTES --------
-Use trigger_monoflop if you want the particles to turn off for a while, then turn back on.
+Use trigger_monoflop and relay_activatetoggle if you want the particles to turn off for a while, then turn back on.
 A BGM script is a .bgs file named like the map, in the maps directory. Its format is lines of the form
   &lt;emitter class&gt; &lt;time since start of background music&gt; &lt;0 if the emitters are to be switched off, &gt;0 and &lt;=1 if they are to be switched on&gt;
 e.g.
@@ -2354,6 +2354,7 @@ func_bobbing
 func_button
 func_conveyor
 func_fourier
+func_pointparticles
 func_vectormamamam
 -------- KEYS --------
 <target key="target" name="target">trigger all entities with this targetname when triggered</target>
@@ -2374,6 +2375,7 @@ func_bobbing
 func_button
 func_conveyor
 func_fourier
+func_pointparticles
 func_vectormamamam
 -------- KEYS --------
 <target key="target" name="target">trigger all entities with this targetname when triggered</target>
@@ -2394,6 +2396,7 @@ func_bobbing
 func_button
 func_conveyor
 func_fourier
+func_pointparticles
 func_vectormamamam
 -------- KEYS --------
 <target key="target" name="target">trigger all entities with this targetname when triggered</target>
