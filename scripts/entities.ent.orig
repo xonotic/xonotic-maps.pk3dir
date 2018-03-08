@@ -135,7 +135,11 @@ When a button is touched by a player, it moves in the direction set by the &quot
 </group>
 
 <group name="func_conveyor" color="0 .5 .8">
-A conveyor. Solid brush version. Will run forever if it's not targeted. Use relay_activate, relay_deactivate or relay_activatetoggle to activate/deactivate it.
+<<<<<<< HEAD
+A conveyor. Solid brush version. Will run forever if it's not targeted.
+=======
+A conveyor. Solid brush version. Use relay_activate, relay_deactivate or relay_activatetoggle to activate/deactivate it.
+>>>>>>> f663d34e... Conveyors now use relays for (de)activation
 -------- KEYS --------
 <targetname key="targetname" name="targetname">if set, it can be turned on/off</targetname>
 <direction key="angle" name="angle">determines the opening direction</direction>
@@ -276,9 +280,9 @@ Rising platform the player can ride to reach higher places. Plats must always be
 <real key="height" name="height">if set, this will determine the total amount of vertical travel of the plat.</real>
 <real key="dmg" name="dmg">damage to inflict on player when he blocks operation of plat. Plat will reverse direction when blocked.</real>
 <targetname key="targetname" name="targetname">if set, the trigger that points to this will lower the plat each time it fires. The plat lowers and lifts someone up later.</targetname>
-<real key="sounds" name="sounds">2 for alternate sound set, 0 for silence, or use the fields below</real>
-<string key="noise" name="noise">platform starts moving sound</string>
-<string key="noise1" name="noise1">platform stop sound</string>
+<real key="sounds" name="sounds">2 for alternate sound set, -1 for silence, or use the fields below</real>
+<string key="sound1" name="sound1">platform starts moving sound</string>
+<string key="sound2" name="sound2">platform stop sound</string>
 <string key="message" name="message">kill message, when someone gets killed by this plat</string>
 <string key="message2" name="message2">death message when someone gets pushed into this (default: &quot;was thrown into a world of hurt by&quot;). The # character is replaced by the attacker name if present (and it instead does not get appended to the end)</string>
 -------- SPAWNFLAGS --------
@@ -1555,7 +1559,7 @@ NOTE for race_place: when the race starts after the qualifying, the player with 
 </point>
 
 <group name="func_pointparticles" color=".5 .5 .5">
-A brush that emits particles. Can be (de)activated with relays.
+A brush that emits particles.
 -------- KEYS --------
 <string key="mdl" name="mdl">particle effect name from effectinfo.txt</string>
 <real key="impulse" name="impulse">when positive, number of particles to emit per second; when negative; number of particles to emit per second and 64^3 block</real>
@@ -1566,7 +1570,7 @@ A brush that emits particles. Can be (de)activated with relays.
 <sound key="noise" name="noise">sound to play when the particle is emitted</sound>
 <real key="atten" name="atten">distance attenuation of the sound (a value from 0.1 to 3.9), default is 0.5; set to -1 for no attenuation (global sound)</real>
 <real key="volume" name="volume">volume of the sound</real>
-<targetname key="targetname" name="targetname">name to target this (use relays)</targetname>
+<targetname key="targetname" name="targetname">name to target this (then its state is toggled)</targetname>
 <string key="bgmscript" name="bgmscript">emitter class from the BGM script</string>
 <real key="bgmscriptattack" name="bgmscriptattack">attack time of the effect strength (0 to 3.9)</real>
 <real key="bgmscriptdecay" name="bgmscriptdecay">decay time of the effect strength (0 to 3.9)</real>
@@ -1574,40 +1578,16 @@ A brush that emits particles. Can be (de)activated with relays.
 <real key="bgmscriptrelease" name="bgmscriptrelease">release time of the effect strength (0 to 3.9)</real>
 -------- SPAWNFLAGS --------
 <flag key="START_ON" name="START_ON" bit="0">when targeted, the particle emitter will start switched on</flag>
-<flag key="IMPULSE" name="IMPULSE" bit="1">only send the full amount of impulse particles when the entity is toggled on/off</flag>
+<flag key="IMPULSE" name="IMPULSE" bit="1">only send the full amount of impulse particles when the entity is triggered</flag>
 <flag key="VISCULLING" name="VISCULLING" bit="2">only emit particles if the emitter brush is in the current PVS</flag>
 -------- NOTES --------
-Use trigger_monoflop and relay_activatetoggle if you want the particles to turn off for a while, then turn back on.
+Use trigger_monoflop if you want the particles to turn off for a while, then turn back on.
 A BGM script is a .bgs file named like the map, in the maps directory. Its format is lines of the form
   &lt;emitter class&gt; &lt;time since start of background music&gt; &lt;0 if the emitters are to be switched off, &gt;0 and &lt;=1 if they are to be switched on&gt;
 e.g.
   smokers 4.7 1
   smokers 4.9 0
 The lines MUST be sorted by emitter class as primary key, and by the time since start of the BGM as secondary key.
-</group>
-
-<group name="func_sparks" color=".5 .5 .5">
-A brush that emits sparks. Can be (de)activated with relays.
--------- KEYS --------
-<real key="waterlevel" name="waterlevel">extra velocity jitter amount</real>
-<real key="impulse" name="impulse">number of particles to emit per second (min 0.5, default 2.5)</real>
-<real key="count" name="count">particle count multiplier (per spawned particle)</real>
-<real3 key="movedir" name="movedir">when set, trace direction (particles will then be emitted from the surface the trace hits); the length of the vector is used as strength of taking the normal of the trace into account</real3>
-<sound key="noise" name="noise">sound to play when the particle is emitted</sound>
-<real key="atten" name="atten">distance attenuation of the sound (a value from 0.1 to 3.9), default is 0.5; set to -1 for no attenuation (global sound)</real>
-<real key="volume" name="volume">volume of the sound</real>
-<targetname key="targetname" name="targetname">name to target this (use relays)</targetname>
-<string key="bgmscript" name="bgmscript">emitter class from the BGM script</string>
-<real key="bgmscriptattack" name="bgmscriptattack">attack time of the effect strength (0 to 3.9)</real>
-<real key="bgmscriptdecay" name="bgmscriptdecay">decay time of the effect strength (0 to 3.9)</real>
-<real key="bgmscriptsustain" name="bgmscriptsustain">sustain level of the effect strength (0.1 to 1, set to -1 to disable sustain)</real>
-<real key="bgmscriptrelease" name="bgmscriptrelease">release time of the effect strength (0 to 3.9)</real>
--------- SPAWNFLAGS --------
-<flag key="START_ON" name="START_ON" bit="0">when targeted, the particle emitter will start switched on</flag>
-<flag key="IMPULSE" name="IMPULSE" bit="1">only send the full amount of impulse particles when the entity is toggled on/off</flag>
-<flag key="VISCULLING" name="VISCULLING" bit="2">only emit particles if the emitter brush is in the current PVS</flag>
--------- NOTES --------
-Specialised version of func_pointparticles
 </group>
 
 <point name="trigger_flipflop" color=".5 .5 .5" box="-8 -8 -8 8 8 8">
@@ -2378,7 +2358,6 @@ func_bobbing
 func_button
 func_conveyor
 func_fourier
-func_pointparticles
 func_vectormamamam
 -------- KEYS --------
 <target key="target" name="target">trigger all entities with this targetname when triggered</target>
@@ -2399,7 +2378,6 @@ func_bobbing
 func_button
 func_conveyor
 func_fourier
-func_pointparticles
 func_vectormamamam
 -------- KEYS --------
 <target key="target" name="target">trigger all entities with this targetname when triggered</target>
@@ -2420,7 +2398,6 @@ func_bobbing
 func_button
 func_conveyor
 func_fourier
-func_pointparticles
 func_vectormamamam
 -------- KEYS --------
 <target key="target" name="target">trigger all entities with this targetname when triggered</target>
