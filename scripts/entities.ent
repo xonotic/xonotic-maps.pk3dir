@@ -325,10 +325,9 @@ Point entity with EF_STARDUST applied. This will spawn a particle cloud with mos
 <group name="func_train" color="0 .5 .8">
 Trains are moving solids that follow a cycle of path_corner entities. Origin brushes are NOT supported; they use the &quot;mins&quot; corner as reference (that is, lowest x, y, and z coordinates).
 At each node, the train's mins corner hits exactly the path_corner.
-Trains always start on in the game.
+Trains always start on mapstart unless NEEDACTIVATION is set.
 Trains do not damage the player when blocked.
 Trains cannot emit sound.
-Trains are not trigger-able or toggle-able.
 Trains cannot be block-stopped just by getting in their way, the player must be wedged between the train and another obstacle to block it.
 -------- KEYS --------
 <real key="speed" name="speed">default/initial speed of train (default 100 or overridden by speed value of targeted path_corner)</real>
@@ -339,6 +338,10 @@ Trains cannot be block-stopped just by getting in their way, the player must be 
 <real key="dmgtime" name="dmgtime">interval to apply dmg to a player who is in the way</real>
 <string key="message" name="message">death message when a player gets crushed</string>
 <string key="message2" name="message2">death message when someone gets pushed into this (default: &quot;was thrown into a world of hurt by&quot;). The # character is replaced by the attacker name if present (and it instead does not get appended to the end)</string>
+-------- SPAWNFLAGS --------
+<flag key="CURVE" name="CURVE" bit="0">don't use the direct path to the next target, instead create a curved path using the current path_corner's curvetarget</flag>
+<flag key="TURN" name="TURN" bit="1">turn the train when it reaches a path_corner</flag>
+<flag key="NEEDACTIVATION" name="NEEDACTIVATION" bit="2">train needs to be triggered to start</flag>
 </group>
 
 <point name="info_autoscreenshot" color="0 0 0.2" box="-8 -8 -8 8 8 8">
@@ -1098,10 +1101,12 @@ All path_corner entities of a train have to connect in a circular manner, while 
 <target key="target2" name="target2">triggered when a func_train stops at this target</target>
 <target key="target3" name="target3">triggered when a func_train stops at this target</target>
 <target key="target4" name="target4">triggered when a func_train stops at this target</target>
-<boolean key="target_random" name="target_random">instead of triggering ALL matched entities, trigger ONE of them by random</boolean>
+<boolean key="target_random" name="target_random">choose a random next corner from the list of all path_corners with targetname specified in &quot;target&quot;</boolean>
 <targetname key="targetname" name="targetname">the train following the path or the previous path_corner in the path points to this.</targetname>
 <real key="speed" name="speed">speed of func_train while moving to this path corner. If unset, the value from the func_train will be used.</real>
 <real key="wait" name="wait">number of seconds func_train will pause on this path corner before moving to next path corner (default: 0.1; to not wait, set this to -1</real>
+-------- SPAWNFLAGS --------
+<flag key="NEEDACTIVATION" name="NEEDACTIVATION" bit="2">train needs to be triggered to move to this corner</flag>
 </point>
 
 <point name="target_assault_roundend" color="1 0 0" box="-8 -8 -8 8 8 8">
