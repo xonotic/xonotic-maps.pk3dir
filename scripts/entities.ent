@@ -291,8 +291,8 @@ By default, the total amount of vertical travel of a platform is implicitly dete
 This is an invisible area like a trigger, which rain falls inside of.
 -------- KEYS --------
 <real3 key="velocity" name="velocity">falling direction (should be something like '0 0 -700', use the X and Y velocity for wind)</real3>
-<real key="cnt" name="cnt">sets color of rain in the Quake palette (default 12 - white)</real>
-<real key="count" name="count">adjusts density, this many particles fall every second for a 1024x1024 area, default is 2000</real>
+<real key="colormap" name="colormap">sets color of rain in the Quake palette (default 12 - white)</real>
+<real key="count" name="count">adjusts density, this many particles fall every second for a 1024x1024 area (on average), default is 2000</real>
 </group>
 
 <group name="func_rotating" color="0 .5 .8">
@@ -314,8 +314,8 @@ To rotate around another axis, make a func_wall with an explicit avelocity given
 This is an invisible area like a trigger, which snow falls inside of.
 -------- KEYS --------
 <real3 key="velocity" name="velocity">falling direction (should be something like '0 0 -300', use the X and Y velocity for wind)</real3>
-<real key="cnt" name="cnt">sets color of snow in the Quake palette (default 12 - white)</real>
-<real key="count" name="count">adjusts density, this many particles fall every second for a 1024x1024 area, default is 2000</real>
+<real key="colormap" name="colormap">sets color of snow in the Quake palette (default 12 - white)</real>
+<real key="count" name="count">adjusts density, this many particles fall every second for a 1024x1024 area (on average), default is 2000</real>
 </group>
 
 <point name="func_stardust" color=".5 .5 .5" box="-8 -8 -8 8 8 8">
