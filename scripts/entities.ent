@@ -697,32 +697,6 @@ This is the only correct way to put keys on the map!
 itemkeys MUST always have exactly one bit set.
 </point>
 
-<point name="item_key1" color="0 .5 .8" box="-16 -16 -24 16 16 32">
-SILVER key.
------------KEYS------------
-<color key="colormod" name="colormod">color of the key (default: '.9 .9 .9').</color>
-<string key="message" name="message">message to print when player picks up this key.</string>
-<model key="model" name="model">custom model to use.</model>
-<sound key="noise" name="noise">custom sound to play when player picks up the key.</sound>
--------- SPAWNFLAGS --------
-<flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
----------NOTES----------
-Don't use this entity on new maps! Use item_key instead.
-</point>
-
-<point name="item_key2" color="0 .5 .8" box="-16 -16 -24 16 16 32">
-GOLD key.
------------KEYS------------
-<color key="colormod" name="colormod">color of the key (default: '1 .9 0').</color>
-<string key="message" name="message">message to print when player picks up this key.</string>
-<model key="model" name="model">custom model to use.</model>
-<sound key="noise" name="noise">custom sound to play when player picks up the key.</sound>
--------- SPAWNFLAGS --------
-<flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
----------NOTES----------
-Don't use this entity on new maps! Use item_key instead.
-</point>
-
 <point name="item_minst_cells" color=".3 .3 1" box="-30 -30 0 30 30 32">
 Instagib ammo.
 Always contains 5 (g_instagib_ammo_drop) shots.
