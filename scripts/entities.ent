@@ -1155,7 +1155,7 @@ Monster spawnpoint for Invasion
 
 <group name="trigger_counter" color=".5 .5 .5">
 Acts as an intermediary for an action that takes multiple inputs.
-After the counter has been triggered &quot;count&quot; times, it will fire all of its targets and remove itself.
+After the counter has been triggered &quot;count&quot; times, it will fire all of its targets.
 -------- KEYS --------
 <real key="count" name="count">how many times this needs to be triggered to activate its targets</real>
 <target key="target" name="target">trigger all entities with this targetname when triggered</target>
@@ -1165,6 +1165,7 @@ After the counter has been triggered &quot;count&quot; times, it will fire all o
 <target key="killtarget" name="killtarget">remove all entities with this targetname when triggered</target>
 -------- SPAWNFLAGS --------
 <flag key="NOMESSAGE" name="NOMESSAGE" bit="0">don't print a &quot;2 more to go...&quot;-like message when triggered</flag>
+<flag key="FIRE_AT_COUNT" name="FIRE_AT_COUNT" bit="2">fire at every count (behaves like trigger_multiple with limited shots)</flag>
 </group>
 
 <point name="trigger_delay" color=".5 .5 .5" box="-8 -8 -8 8 8 8">
