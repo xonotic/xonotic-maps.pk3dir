@@ -1718,6 +1718,20 @@ You may want to target this by a race checkpoint, a teleporter, or a trigger_mul
 <flag key="ANDNOT" name="ANDNOT" bit="2">the items listed will get removed from the player</flag>
 </point>
 
+<point name="target_kill" color="1 0 0" box="-8 -8 -8 8 8 8">
+Kills whoever activates this target
+-------- KEYS --------
+<targetname key="targetname" name="targetname">used to trigger this</targetname>
+<string key="message" name="message">message to print</string>
+</point>
+
+<point name="target_levelwarp" color="1 1 0.5" box="-8 -8 -8 8 8 8">
+CAMPAIGN ONLY!!!! Warp to another campaign level
+-------- KEYS --------
+<targetname key="targetname" name="targetname">used to trigger this</targetname>
+<real key="message" name="message">index of the campaign level to warp to (starting from 1), 0 for next level</real>
+</point>
+
 <point name="target_spawn" color="1 0 1" box="-8 -8 -8 8 8 8">
 Spawns or modifies an entity when triggered.
 The entity field list is a single string of the form:
