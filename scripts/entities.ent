@@ -2416,7 +2416,11 @@ When no chmap key is set, the entity just ends the match when triggered. The pla
 <targetname key="targetname" name="targetname">The name other entities can use to target this entity</targetname>
 <string key="chmap" name="chmap">Map file to switch to, leave empty to make this entity just end the match</string>
 <string key="gametype" name="gametype">Switch to this gametype. If empty, the same gametype stays</string>
+<real key="count" name="count">fraction of players (excludes bots) that need to trigger this entity to change the level when MULTIPLAYER is set (default: 0.7)</real>
+-------- SPAWNFLAGS --------
+<flag key="MULTIPLAYER" name="MULTIPLAYER" bit="1">makes this entity only change level when a fraction of the players triggered it</flag>
 </point>
+
 <point name="turret_machinegun" color="1 0 0" box="-32 -32 0 32 32 50">
 Fast firing moderate damage bullet (hitscan) turret.
 -------- KEYS --------
