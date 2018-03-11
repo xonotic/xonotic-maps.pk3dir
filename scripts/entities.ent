@@ -1141,7 +1141,6 @@ The sound name may also be of the form *soundname, and in that case the respecti
 -------- SPAWNFLAGS --------
 <flag key="LOOPED_ON" name="LOOPED_ON" bit="0">the sound is looped and initially plays (the sound file MUST have the LOOP_START vorbis comment then!). It can be toggled by a trigger.</flag>
 <flag key="LOOPED_OFF" name="LOOPED_OFF" bit="1">the sound is looped and initially does not play (the sound file MUST have the LOOP_START vorbis comment then!). It can be toggled by a trigger.</flag>
-<flag key="GLOBAL" name="GLOBAL" bit="2">the sound plays with no attenuation (same as setting atten to -1)</flag>
 <flag key="ACTIVATOR" name="ACTIVATOR" bit="3">the sound is played to the activator only when triggered (cannot be combined with LOOPED_ON and LOOPED_OFF)</flag>
 </point>
 
