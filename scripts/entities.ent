@@ -805,7 +805,7 @@ Laser beam emitter. Note that for the laser to be deadly, it has to start OUTSID
 <color key="beam_color" name="beam_color">color of the laser beam (default: red, that is, 1 0 0)</color>
 <real key="dmg" name="dmg">damage inflicted by the beam per second, or -1 for an instant-death ray</real>
 <targetname key="targetname" name="targetname">name to target this (then its state is toggled)</targetname>
-<real key="alpha" name="alpha">when set, makes a dark laser of the given strength; may be combined with colormod</real>
+<real key="alpha" name="alpha">when set, makes a dark laser of the given strength; may be combined with beam_color</real>
 <real key="scale" name="scale">scales the beam thickness (default 1)</real>
 <real key="modelscale" name="modelscale">scales the dynamic light radius at the endpoint (default 1, -1 to turn off)</real>
 <integer key="team" name="team">team that gets hurt (5 = red, 14 = blue, etc) (when set, only this team can get hurt)</integer>
