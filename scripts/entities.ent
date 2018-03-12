@@ -1923,10 +1923,24 @@ modeldisabled=&quot;models/weapons/g_hookgun.md3&quot;
 <group name="trigger_heal" color=".5 .5 .5">
 Any object touching this will be healed.
 -------- KEYS --------
-<real key="health" name="health">health to give per second (default 10)</real>
+<real key="health" name="health">health to give per heal (default 10)</real>
 <real key="max_health" name="max_health">max health this trigger will give (default 200)</real>
+<real key="delay" name="delay">delay between the heals in seconds (default 1)</real>
 <sound key="noise" name="noise">sound file to play (use misc/null.wav to make it silent), default = item_health_medium sound</sound>
+-------- SPAWNFLAGS --------
+<flag key="SOUND_ALWAYS" name="SOUND_ALWAYS" bit="2">play the sound even if the player is fully healed</flag>
 </group>
+
+<point name="target_heal" color=".5 .5 .5">
+Target version of trigger_heal. Heals the activator.
+-------- KEYS --------
+<real key="health" name="health">health to give per heal (default 10)</real>
+<real key="max_health" name="max_health">max health this target will give (default 200)</real>
+<real key="delay" name="delay">delay between the heals in seconds (default 1)</real>
+<sound key="noise" name="noise">sound file to play (use misc/null.wav to make it silent), default = item_health_medium sound</sound>
+-------- SPAWNFLAGS --------
+<flag key="SOUND_ALWAYS" name="SOUND_ALWAYS" bit="2">play the sound even if the player is fully healed</flag>
+</point>
 
 <point name="weapon_rifle" color="1 0 .5" box="-30 -30 0 30 30 32">
 the Sniper Rifle.
@@ -2367,6 +2381,8 @@ trigger_heal
 trigger_impulse
 trigger_push
 trigger_teleport
+target_heal
+target_kill
 func_rotating
 func_bobbing
 func_button
@@ -2390,6 +2406,8 @@ trigger_heal
 trigger_impulse
 trigger_push
 trigger_teleport
+target_heal
+target_kill
 func_rotating
 func_bobbing
 func_button
@@ -2413,6 +2431,8 @@ trigger_heal
 trigger_impulse
 trigger_push
 trigger_teleport
+target_heal
+target_kill
 func_rotating
 func_bobbing
 func_button
