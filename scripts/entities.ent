@@ -2349,18 +2349,19 @@ When triggered, its effect is turned off until triggered again.
 An area where gravity differs from the rest of the map.
 This acts as a modifier over the normal gravity (sv_gravity). e.g.: 0.5 is half the normal gravity, 2 is twice the normal gravity.
 -------- KEYS --------
-<real key="gravity" name="gravity">gravity offset in this area, defaults to 0 if not set</real>
+<real key="gravity" name="gravity">gravity multiplier in this area, defaults to 0 if not set</real>
 <sound key="noise" name="noise">sound to play when an entity enters the gravity zone, leave empty to disable</sound>
-<targetname key="targetname" name="targetname">you can use this to target the gravity zone with a trigger, which will toggle it when activated</targetname>
+<targetname key="targetname" name="targetname">you can use this to target the gravity zone with a relay to (de)activate the gravity multiplier</targetname>
 -------- SPAWNFLAGS --------
 <flag key="STICKY" name="STICKY" bit="0">entities keep their gravity after leaving the gravity zone</flag>
-<flag key="START_OFF" name="START_OFF" bit="1">when targeted, the gravity zone starts off and is enabled upon triggering</flag>
+<flag key="START_OFF" name="START_OFF" bit="1">when targeted, the gravity zone starts disabled</flag>
 </group>
 
 <point name="relay_activate" color="0 1 0" box="-8 -8 -8 8 8 8">
 Activates all targets
 List of currently supported target ents:
 trigger_conveyor
+trigger_gravity
 trigger_hurt
 trigger_heal
 trigger_impulse
@@ -2383,6 +2384,7 @@ misc_laser
 Deactivates all targets
 List of currently supported target ents:
 trigger_conveyor
+trigger_gravity
 trigger_hurt
 trigger_heal
 trigger_impulse
@@ -2405,6 +2407,7 @@ misc_laser
 Toggles all targets de/active
 List of currently supported target ents:
 trigger_conveyor
+trigger_gravity
 trigger_hurt
 trigger_heal
 trigger_impulse
