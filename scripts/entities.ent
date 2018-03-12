@@ -1202,6 +1202,8 @@ Can be used in two ways:
 <target key="target" name="target">&quot;wind field&quot;: points to the target_position to which the player will get pushed.</target>
 <real key="strength" name="strength">&quot;wind field&quot;, &quot;gravity field&quot;: amount of force per second to apply. &quot;dampener/accelerator field&quot;: slowdown/speedup factor.</real>
 <real key="falloff" name="falloff">&quot;gravity field&quot;: 0 means no falloff, 1 means linear falloff (zero at the outside), 2 means inverted linear falloff (zero at the inside)</real>
+-------- SPAWNFLAGS --------
+<flag key="DIRECTIONAL_SPEEDTARGET" name="DIRECTIONAL_SPEEDTARGET" bit="6">treat strength as a target value for speed in the desired direction (directional mode only)</flag>
 </group>
 
 <group name="trigger_keylock" color=".0 .5 .8">
