@@ -1276,7 +1276,7 @@ Quake &quot;movedir/speed&quot; way: player will get velocity movedir * speed * 
 -------- KEYS --------
 <target key="target" name="target">point the player will fly to when using the jump pad (use a target_position here)</target>
 <real key="height" name="height">if height is 0, the (player's origin at the) apex of the jump will be at the target; otherwise, the apex will be abs(height) above the higher point of player's origin and the target; if positive, the apex will be reached in the jump from initial origin to target</real>
-<real3 key="movedir" name="movedir">when target is not set, direction vector to push to</real3>
+<real3 key="movedir" name="movedir">when target is not set, direction vector to push to, this * speed * 10 is the velocity to be reached.</real3>
 <real key="speed" name="speed">speed of jump pad (default: 1000)</real>
 <sound key="noise" name="noise">sound to play when jump pad is used; default is misc/jumppad.wav; you can set it to &quot;&quot; to make the pad silent</sound>
 <integer key="team" name="team">team that owns this jump pad (5 = red, 14 = blue, etc) (when set, only this team can teleport)</integer>
