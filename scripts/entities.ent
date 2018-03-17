@@ -1933,7 +1933,7 @@ Any object touching this will be healed.
 <flag key="SOUND_ALWAYS" name="SOUND_ALWAYS" bit="2">play the sound even if the player is fully healed</flag>
 </group>
 
-<point name="target_heal" color=".5 .5 .5">
+<point name="target_heal" color=".5 .5 .5" box="-8 -8 -8 8 8 8">
 Target version of trigger_heal. Heals the activator.
 -------- KEYS --------
 <real key="health" name="health">health to give per heal (default 10)</real>
@@ -2344,13 +2344,11 @@ When targetname is not set, this is the default track of the map.
 <real key="fade_time" name="fade_time">fade-in time</real>
 <real key="fade_rate" name="fade_rate">fade-out time</real>
 <real key="lifetime" name="lifetime">when set, the music created by this target is switched back to the default one when this time expires</real>
--------- SPAWNFLAGS --------
-<flag key="START_OFF" name="START_OFF" bit="0">the trigger is off initially</flag>
 </point>
 
 <group name="trigger_music" color="1 0 0">
 Background music trigger (when this is used, the cdtrack line in mapinfo must not be used, and there MUST be a default target_music).
-When triggered, its effect is turned off until triggered again.
+Can be controlled with relay_activate, relay_deactivate and relay_activatetoggle.
 -------- KEYS --------
 <targetname key="targetname" name="targetname">The name other entities can use to target this entity</targetname>
 <sound key="noise" name="noise">the music to play (as full sound file name)</sound>
@@ -2381,6 +2379,7 @@ trigger_gravity
 trigger_hurt
 trigger_heal
 trigger_impulse
+trigger_music
 trigger_push
 trigger_teleport
 target_heal
@@ -2406,6 +2405,7 @@ trigger_gravity
 trigger_hurt
 trigger_heal
 trigger_impulse
+trigger_music
 trigger_push
 trigger_teleport
 target_heal
@@ -2431,6 +2431,7 @@ trigger_gravity
 trigger_hurt
 trigger_heal
 trigger_impulse
+trigger_music
 trigger_push
 trigger_teleport
 target_heal
