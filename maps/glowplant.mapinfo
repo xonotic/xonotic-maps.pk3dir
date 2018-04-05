@@ -1,14 +1,12 @@
 title Glow Plant
 description A nuclear power plant with a LOT of blue glowy stuff...
-author tZork, Cuinnton, Debugger
-cdtrack 4
+author tZork, Cuinnton, Debugger, Mirio
+cdtrack 14
 has weapons
 gametype dm
 gametype tdm
 gametype dom
-gametype rune
 gametype lms
-gametype arena
 gametype ca
 gametype kh
 gametype ft

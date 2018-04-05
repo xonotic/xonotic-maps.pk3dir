@@ -1,11 +1,11 @@
 {
 "classname" "worldspawn"
-"author" "SavageX & Calinou"
+"author" "SavageX, Calinou, Debugger"
 "message" "Courtfun"
-"license" "GPL"
 "spawnflags" "1"
 "_floodlight" "240 240 255 1024 12"
 "fog" "0.075 .7 .4. .3 1 1000 2000"
+"_description" "A classic large scale CTF map supporting other gamemodes as well"
 {
 ( 1728 0 0 ) ( 1728 -256 0 ) ( 1408 0 0 ) trak4x/base-concrete1a 0 -0 0 0.25 0.25 0 0 0
 ( 1408 -256 -64 ) ( 1728 -256 -64 ) ( 1408 0 -64 ) common/caulk -0 0 0 0.5 0.5 0 0 0
@@ -7378,7 +7378,7 @@ trak4x/base-concrete1a
 ( 1792 512 1280 ) ( 1792 -896 1280 ) ( 1680 512 1280 ) common/clip 0 0 0 0.25 0.25 0 0 0
 ( 1792 512 1280 ) ( 1680 512 1280 ) ( 1792 512 960 ) common/clip 0 0 0 0.25 0.25 0 0 0
 ( 1792 512 1280 ) ( 1792 512 960 ) ( 1792 -896 1280 ) common/clip 0 0 0 0.25 0.25 0 0 0
-( 1680 -896 960 ) ( 1792 -896 960 ) ( 1680 512 960 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( 1680 -896 896 ) ( 1792 -896 896 ) ( 1680 512 896 ) common/clip 0 0 0 0.25 0.25 0 0 0
 ( 1680 -896 960 ) ( 1680 -896 1280 ) ( 1792 -896 960 ) common/clip 0 0 0 0.25 0.25 0 0 0
 ( -384 -896 968 ) ( -384 512 968 ) ( -384 -896 1288 ) common/clip 0 0 0 0.25 0.25 0 0 0
 }
@@ -20791,7 +20791,7 @@ trak4x/base-concrete1a
 ( -5888 3456 1280 ) ( -5888 4864 1280 ) ( -5776 3456 1280 ) common/clip 0 0 180 0.25 0.25 0 0 0
 ( -5888 3456 1280 ) ( -5776 3456 1280 ) ( -5888 3456 960 ) common/clip 0 0 0 -0.25 0.25 0 0 0
 ( -5888 3456 1280 ) ( -5888 3456 960 ) ( -5888 4864 1280 ) common/clip -0 0 0 -0.25 0.25 0 0 0
-( -5776 4864 960 ) ( -5888 4864 960 ) ( -5776 3456 960 ) common/clip 0 0 180 0.25 0.25 0 0 0
+( -5776 4856 896 ) ( -5888 4856 896 ) ( -5776 3448 896 ) common/clip 0 32 180 0.25 0.25 0 0 0
 ( -5776 4864 960 ) ( -5776 4864 1280 ) ( -5888 4864 960 ) common/clip 0 0 0 -0.25 0.25 0 0 0
 ( -3712 4864 968 ) ( -3712 3456 968 ) ( -3712 4864 1288 ) common/clip -0 0 0 -0.25 0.25 0 0 0
 }
@@ -27145,100 +27145,28 @@ exx/base-metal01
 ( -4400 6392 576 ) ( -4400 6416 576 ) ( -4400 6392 568 ) exx/base-metal01 0 48 0 0.5 -0.5 134217728 0 0
 }
 {
-( -536 744 365 ) ( -536 712 365 ) ( -568 744 365 ) common/weapclip 224 160 0 0.25 0.25 134217728 0 0
-( -536 744 322 ) ( -568 744 322 ) ( -536 744 320 ) common/weapclip 224 0 0 0.25 0.25 134217728 0 0
-( -536 744 322 ) ( -536 744 320 ) ( -536 712 322 ) common/weapclip 96 0 0 0.25 0.25 134217728 0 0
-( -568 712 320 ) ( -536 712 320 ) ( -568 744 320 ) common/weapclip 224 160 0 0.25 0.25 134217728 0 0
-( -568 712 320 ) ( -568 712 322 ) ( -536 712 320 ) common/weapclip 224 0 0 0.25 0.25 134217728 0 0
-( -568 712 320 ) ( -568 744 320 ) ( -568 712 322 ) common/weapclip 96 0 0 0.25 0.25 134217728 0 0
-( -568 734 192 ) ( -558 744 192 ) ( -568 734 320 ) common/weapclip 96 0 0 0.25 0.25 134217728 0 0
-( -546 744 192 ) ( -536 734 192 ) ( -546 744 320 ) common/weapclip 96 0 0 0.25 0.25 134217728 0 0
-( -536 722 192 ) ( -546 712 192 ) ( -536 722 320 ) common/weapclip 96 0 0 0.25 0.25 134217728 0 0
-( -558 712 192 ) ( -568 722 192 ) ( -558 712 320 ) common/weapclip 96 0 0 0.25 0.25 134217728 0 0
+patchDef2
+{
+map_courtfun/screenanim_xon
+( 3 3 0 0 0 )
+(
+( ( -746.6686401367 2458.4338378906 532 0 1 ) ( -730.7482910156 2440.474609375 580 0 0.5 ) ( -722.7879638672 2431.4948730469 636 0 0 ) )
+( ( -675.7520751953 2521.298828125 532 0.5 1 ) ( -659.8317260742 2503.3395996094 580 0.5 0.5 ) ( -651.8713378906 2494.3598632813 636 0.5 0 ) )
+( ( -614.9663085938 2575.1833496094 532 1 1 ) ( -599.0457763672 2557.2241210938 580 1 0.5 ) ( -591.0856323242 2548.244140625 636 1 0 ) )
+)
+}
 }
 {
-( -544 696 365 ) ( -544 664 365 ) ( -576 696 365 ) common/weapclip 0 224 0 0.25 0.25 134217728 0 0
-( -544 696 322 ) ( -576 696 322 ) ( -544 696 320 ) common/weapclip 0 0 0 0.25 0.25 134217728 0 0
-( -544 696 322 ) ( -544 696 320 ) ( -544 664 322 ) common/weapclip 32 0 0 0.25 0.25 134217728 0 0
-( -576 664 320 ) ( -544 664 320 ) ( -576 696 320 ) common/weapclip 0 224 0 0.25 0.25 134217728 0 0
-( -576 664 320 ) ( -576 664 322 ) ( -544 664 320 ) common/weapclip 0 0 0 0.25 0.25 134217728 0 0
-( -576 664 320 ) ( -576 696 320 ) ( -576 664 322 ) common/weapclip 32 0 0 0.25 0.25 134217728 0 0
-( -576 686 192 ) ( -566 696 192 ) ( -576 686 320 ) common/weapclip 32 0 0 0.25 0.25 134217728 0 0
-( -554 696 192 ) ( -544 686 192 ) ( -554 696 320 ) common/weapclip 32 0 0 0.25 0.25 134217728 0 0
-( -544 674 192 ) ( -554 664 192 ) ( -544 674 320 ) common/weapclip 32 0 0 0.25 0.25 134217728 0 0
-( -566 664 192 ) ( -576 674 192 ) ( -566 664 320 ) common/weapclip 32 0 0 0.25 0.25 134217728 0 0
-}
+patchDef2
 {
-( -600 728 365 ) ( -600 696 365 ) ( -632 728 365 ) common/weapclip 224 96 0 0.25 0.25 134217728 0 0
-( -600 728 322 ) ( -632 728 322 ) ( -600 728 320 ) common/weapclip 224 0 0 0.25 0.25 134217728 0 0
-( -600 728 322 ) ( -600 728 320 ) ( -600 696 322 ) common/weapclip 160 0 0 0.25 0.25 134217728 0 0
-( -632 696 320 ) ( -600 696 320 ) ( -632 728 320 ) common/weapclip 224 96 0 0.25 0.25 134217728 0 0
-( -632 696 320 ) ( -632 696 322 ) ( -600 696 320 ) common/weapclip 224 0 0 0.25 0.25 134217728 0 0
-( -632 696 320 ) ( -632 728 320 ) ( -632 696 322 ) common/weapclip 160 0 0 0.25 0.25 134217728 0 0
-( -632 718 192 ) ( -622 728 192 ) ( -632 718 320 ) common/weapclip 160 0 0 0.25 0.25 134217728 0 0
-( -610 728 192 ) ( -600 718 192 ) ( -610 728 320 ) common/weapclip 160 0 0 0.25 0.25 134217728 0 0
-( -600 706 192 ) ( -610 696 192 ) ( -600 706 320 ) common/weapclip 160 0 0 0.25 0.25 134217728 0 0
-( -622 696 192 ) ( -632 706 192 ) ( -622 696 320 ) common/weapclip 160 0 0 0.25 0.25 134217728 0 0
+map_courtfun/screenanim_xon
+( 3 3 0 0 0 )
+(
+( ( -3350.1381835938 1510.8624267578 532 0 1 ) ( -3366.369140625 1528.5413818359 580 0 0.5 ) ( -3374.4851074219 1537.380859375 636 0 0 ) )
+( ( -3419.9465332031 1446.7691650391 532 0.5 1 ) ( -3436.1782226563 1464.4478759766 580 0.5 0.5 ) ( -3444.2939453125 1473.2874755859 636 0.5 0 ) )
+( ( -3479.7829589844 1391.83203125 532 1 1 ) ( -3496.0141601563 1409.5107421875 580 1 0.5 ) ( -3504.1296386719 1418.3498535156 636 1 0 ) )
+)
 }
-{
-( 656 1632 109 ) ( 656 1600 109 ) ( 624 1632 109 ) common/weapclip 64 128 0 0.25 0.25 134217728 0 0
-( 656 1632 66 ) ( 624 1632 66 ) ( 656 1632 64 ) common/weapclip 64 0 0 0.25 0.25 134217728 0 0
-( 656 1632 66 ) ( 656 1632 64 ) ( 656 1600 66 ) common/weapclip 128 0 0 0.25 0.25 134217728 0 0
-( 624 1600 64 ) ( 656 1600 64 ) ( 624 1632 64 ) common/weapclip 64 128 0 0.25 0.25 134217728 0 0
-( 624 1600 64 ) ( 624 1600 66 ) ( 656 1600 64 ) common/weapclip 64 0 0 0.25 0.25 134217728 0 0
-( 624 1600 64 ) ( 624 1632 64 ) ( 624 1600 66 ) common/weapclip 128 0 0 0.25 0.25 134217728 0 0
-( 624 1622 -64 ) ( 634 1632 -64 ) ( 624 1622 64 ) common/weapclip 128 0 0 0.25 0.25 134217728 0 0
-( 646 1632 -64 ) ( 656 1622 -64 ) ( 646 1632 64 ) common/weapclip 128 0 0 0.25 0.25 134217728 0 0
-( 656 1610 -64 ) ( 646 1600 -64 ) ( 656 1610 64 ) common/weapclip 128 0 0 0.25 0.25 134217728 0 0
-( 634 1600 -64 ) ( 624 1610 -64 ) ( 634 1600 64 ) common/weapclip 128 0 0 0.25 0.25 134217728 0 0
-}
-{
-( -3560 3224 365 ) ( -3560 3256 365 ) ( -3528 3224 365 ) common/weapclip 224 160 180 0.25 0.25 134217728 0 0
-( -3560 3224 322 ) ( -3528 3224 322 ) ( -3560 3224 320 ) common/weapclip 224 0 0 -0.25 0.25 134217728 0 0
-( -3560 3224 322 ) ( -3560 3224 320 ) ( -3560 3256 322 ) common/weapclip 96 0 0 -0.25 0.25 134217728 0 0
-( -3528 3256 320 ) ( -3560 3256 320 ) ( -3528 3224 320 ) common/weapclip 224 160 180 0.25 0.25 134217728 0 0
-( -3528 3256 320 ) ( -3528 3256 322 ) ( -3560 3256 320 ) common/weapclip 224 0 0 -0.25 0.25 134217728 0 0
-( -3528 3256 320 ) ( -3528 3224 320 ) ( -3528 3256 322 ) common/weapclip 96 0 0 -0.25 0.25 134217728 0 0
-( -3528 3234 192 ) ( -3538 3224 192 ) ( -3528 3234 320 ) common/weapclip 96 0 0 -0.25 0.25 134217728 0 0
-( -3550 3224 192 ) ( -3560 3234 192 ) ( -3550 3224 320 ) common/weapclip 96 0 0 -0.25 0.25 134217728 0 0
-( -3560 3246 192 ) ( -3550 3256 192 ) ( -3560 3246 320 ) common/weapclip 96 0 0 -0.25 0.25 134217728 0 0
-( -3538 3256 192 ) ( -3528 3246 192 ) ( -3538 3256 320 ) common/weapclip 96 0 0 -0.25 0.25 134217728 0 0
-}
-{
-( -3536 3264 365 ) ( -3536 3296 365 ) ( -3504 3264 365 ) common/weapclip 64 0 180 0.25 0.25 134217728 0 0
-( -3536 3264 322 ) ( -3504 3264 322 ) ( -3536 3264 320 ) common/weapclip 64 0 0 -0.25 0.25 134217728 0 0
-( -3536 3264 322 ) ( -3536 3264 320 ) ( -3536 3296 322 ) common/weapclip 0 0 0 -0.25 0.25 134217728 0 0
-( -3504 3296 320 ) ( -3536 3296 320 ) ( -3504 3264 320 ) common/weapclip 64 0 180 0.25 0.25 134217728 0 0
-( -3504 3296 320 ) ( -3504 3296 322 ) ( -3536 3296 320 ) common/weapclip 64 0 0 -0.25 0.25 134217728 0 0
-( -3504 3296 320 ) ( -3504 3264 320 ) ( -3504 3296 322 ) common/weapclip 0 0 0 -0.25 0.25 134217728 0 0
-( -3504 3274 192 ) ( -3514 3264 192 ) ( -3504 3274 320 ) common/weapclip 0 0 0 -0.25 0.25 134217728 0 0
-( -3526 3264 192 ) ( -3536 3274 192 ) ( -3526 3264 320 ) common/weapclip 0 0 0 -0.25 0.25 134217728 0 0
-( -3536 3286 192 ) ( -3526 3296 192 ) ( -3536 3286 320 ) common/weapclip 0 0 0 -0.25 0.25 134217728 0 0
-( -3514 3296 192 ) ( -3504 3286 192 ) ( -3514 3296 320 ) common/weapclip 0 0 0 -0.25 0.25 134217728 0 0
-}
-{
-( -3496 3224 365 ) ( -3496 3256 365 ) ( -3464 3224 365 ) common/weapclip 224 160 180 0.25 0.25 134217728 0 0
-( -3496 3224 322 ) ( -3464 3224 322 ) ( -3496 3224 320 ) common/weapclip 224 0 0 -0.25 0.25 134217728 0 0
-( -3496 3224 322 ) ( -3496 3224 320 ) ( -3496 3256 322 ) common/weapclip 96 0 0 -0.25 0.25 134217728 0 0
-( -3464 3256 320 ) ( -3496 3256 320 ) ( -3464 3224 320 ) common/weapclip 224 160 180 0.25 0.25 134217728 0 0
-( -3464 3256 320 ) ( -3464 3256 322 ) ( -3496 3256 320 ) common/weapclip 224 0 0 -0.25 0.25 134217728 0 0
-( -3464 3256 320 ) ( -3464 3224 320 ) ( -3464 3256 322 ) common/weapclip 96 0 0 -0.25 0.25 134217728 0 0
-( -3464 3234 192 ) ( -3474 3224 192 ) ( -3464 3234 320 ) common/weapclip 96 0 0 -0.25 0.25 134217728 0 0
-( -3486 3224 192 ) ( -3496 3234 192 ) ( -3486 3224 320 ) common/weapclip 96 0 0 -0.25 0.25 134217728 0 0
-( -3496 3246 192 ) ( -3486 3256 192 ) ( -3496 3246 320 ) common/weapclip 96 0 0 -0.25 0.25 134217728 0 0
-( -3474 3256 192 ) ( -3464 3246 192 ) ( -3474 3256 320 ) common/weapclip 96 0 0 -0.25 0.25 134217728 0 0
-}
-{
-( -4752 2320 109 ) ( -4752 2352 109 ) ( -4720 2320 109 ) common/weapclip 64 192 180 0.25 0.25 134217728 0 0
-( -4752 2320 66 ) ( -4720 2320 66 ) ( -4752 2320 64 ) common/weapclip 64 -0 0 -0.25 0.25 134217728 0 0
-( -4752 2320 66 ) ( -4752 2320 64 ) ( -4752 2352 66 ) common/weapclip 64 -0 0 -0.25 0.25 134217728 0 0
-( -4720 2352 64 ) ( -4752 2352 64 ) ( -4720 2320 64 ) common/weapclip 64 192 180 0.25 0.25 134217728 0 0
-( -4720 2352 64 ) ( -4720 2352 66 ) ( -4752 2352 64 ) common/weapclip 64 -0 0 -0.25 0.25 134217728 0 0
-( -4720 2352 64 ) ( -4720 2320 64 ) ( -4720 2352 66 ) common/weapclip 64 -0 0 -0.25 0.25 134217728 0 0
-( -4720 2330 -64 ) ( -4730 2320 -64 ) ( -4720 2330 64 ) common/weapclip 64 -0 0 -0.25 0.25 134217728 0 0
-( -4742 2320 -64 ) ( -4752 2330 -64 ) ( -4742 2320 64 ) common/weapclip 64 -0 0 -0.25 0.25 134217728 0 0
-( -4752 2342 -64 ) ( -4742 2352 -64 ) ( -4752 2342 64 ) common/weapclip 64 -0 0 -0.25 0.25 134217728 0 0
-( -4730 2352 -64 ) ( -4720 2342 -64 ) ( -4730 2352 64 ) common/weapclip 64 -0 0 -0.25 0.25 134217728 0 0
 }
 }
 {
@@ -27587,11 +27515,11 @@ exx/base-metal01
 "origin" "2208.000000 -1024.000000 360.000000"
 }
 {
-"classname" "item_armor_large"
+"classname" "item_armor_mega"
 "origin" "96.000000 2080.000000 32.000000"
 }
 {
-"classname" "item_health_large"
+"classname" "item_health_big"
 "origin" "-2400.000000 192.000000 168.000000"
 }
 {
@@ -27827,7 +27755,7 @@ exx/base-metal01
 "angle" "-49.052025"
 }
 {
-"classname" "item_health_large"
+"classname" "item_health_big"
 "origin" "-288.000000 1608.000000 88.000000"
 }
 {
@@ -30538,7 +30466,7 @@ exx/base-metal01
 "origin" "512.000000 -3520.000000 256.000000"
 }
 {
-"classname" "item_health_large"
+"classname" "item_health_big"
 "origin" "512.000000 -3648.000000 256.000000"
 }
 {
@@ -31002,12 +30930,12 @@ exx/base-metal01
 "angle" "-179.999985"
 }
 {
-"classname" "item_armor_large"
+"classname" "item_armor_mega"
 "origin" "-4192.000000 1888.000000 32.000000"
 "angle" "-179.999985"
 }
 {
-"classname" "item_health_large"
+"classname" "item_health_big"
 "origin" "-1696.000000 3776.000000 168.000000"
 "angle" "-179.999985"
 }
@@ -31195,7 +31123,7 @@ exx/base-metal01
 "angle" "130.947983"
 }
 {
-"classname" "item_health_large"
+"classname" "item_health_big"
 "origin" "-3808.000000 2360.000000 88.000000"
 "angle" "-179.999985"
 }
@@ -33959,7 +33887,7 @@ exx/base-metal01
 "angle" "-179.999985"
 }
 {
-"classname" "item_health_large"
+"classname" "item_health_big"
 "origin" "-4608.000000 7616.000000 256.000000"
 "angle" "-179.999985"
 }
@@ -34406,90 +34334,6 @@ exx/base-metal01
 ( -658 2508 638 ) ( -626 2508 638 ) ( -658 2540 638 ) common/trigger 56 64 0 0.25 0.25 134217728 0 0
 ( -658 2496 594 ) ( -658 2496 626 ) ( -626 2496 594 ) common/trigger 56 40 0 0.25 0.25 134217728 0 0
 ( -688 2509 570 ) ( -688 2541 570 ) ( -688 2509 602 ) common/trigger 248 40 0 0.25 0.25 134217728 0 0
-}
-}
-{
-"classname" "func_clientillusionary"
-"bgmscript" "a"
-"bgmscriptattack" "0"
-"bgmscriptdecay" "0"
-"bgmscriptsustain" "1"
-"bgmscriptrelease" "0"
-"lip" "1"
-{
-patchDef2
-{
-map_courtfun/screen_obey
-( 3 3 0 0 0 )
-(
-( ( -746.3752441406 2454.1088867188 532 0 1 ) ( -729.8171386719 2436.7355957031 580 0 0.5 ) ( -721.5376586914 2428.0490722656 636 0 0 ) )
-( ( -677.7736206055 2519.4924316406 532 0.5 1 ) ( -661.2155151367 2502.1193847656 580 0.5 0.5 ) ( -652.936340332 2493.4328613281 636 0.5 0 ) )
-( ( -618.9724121094 2575.5358886719 532 1 1 ) ( -602.4140625 2558.1625976563 580 1 0.5 ) ( -594.1351318359 2549.4760742188 636 1 0 ) )
-)
-}
-}
-}
-{
-"classname" "func_clientillusionary"
-"bgmscript" "b"
-"bgmscriptattack" "0"
-"bgmscriptdecay" "0"
-"bgmscriptsustain" "1"
-"bgmscriptrelease" "0"
-"lip" "1"
-{
-patchDef2
-{
-map_courtfun/screen_xon
-( 3 3 0 0 0 )
-(
-( ( -746.3752441406 2454.1088867188 532 0 1 ) ( -729.8171386719 2436.7355957031 580 0 0.5 ) ( -721.5376586914 2428.0490722656 636 0 0 ) )
-( ( -677.7736206055 2519.4924316406 532 0.5 1 ) ( -661.2155151367 2502.1193847656 580 0.5 0.5 ) ( -652.936340332 2493.4328613281 636 0.5 0 ) )
-( ( -618.9724121094 2575.5358886719 532 1 1 ) ( -602.4140625 2558.1625976563 580 1 0.5 ) ( -594.1351318359 2549.4760742188 636 1 0 ) )
-)
-}
-}
-}
-{
-"classname" "func_clientillusionary"
-"bgmscriptattack" "0"
-"bgmscriptdecay" "0"
-"bgmscriptrelease" "0"
-"bgmscriptsustain" "1"
-"lip" "1"
-"bgmscript" "b"
-{
-patchDef2
-{
-map_courtfun/screen_xon
-( 3 3 0 0 0 )
-(
-( ( -3350.6247558594 1513.8911132813 532 0 1 ) ( -3367.1828613281 1531.2644042969 580 0 0.5 ) ( -3375.4624023438 1539.9509277344 636 0 0 ) )
-( ( -3419.2263183594 1448.5075683594 532 0.5 1 ) ( -3435.7844238281 1465.8806152344 580 0.5 0.5 ) ( -3444.0637207031 1474.5671386719 636 0.5 0 ) )
-( ( -3478.0275878906 1392.4641113281 532 1 1 ) ( -3494.5859375 1409.8374023438 580 1 0.5 ) ( -3502.8647460938 1418.5239257813 636 1 0 ) )
-)
-}
-}
-}
-{
-"classname" "func_clientillusionary"
-"bgmscriptattack" "0"
-"bgmscriptdecay" "0"
-"bgmscriptrelease" "0"
-"bgmscriptsustain" "1"
-"lip" "1"
-"bgmscript" "a"
-{
-patchDef2
-{
-map_courtfun/screen_obey
-( 3 3 0 0 0 )
-(
-( ( -3350.6247558594 1513.8911132813 532 0 1 ) ( -3367.1828613281 1531.2644042969 580 0 0.5 ) ( -3375.4624023438 1539.9509277344 636 0 0 ) )
-( ( -3419.2263183594 1448.5075683594 532 0.5 1 ) ( -3435.7844238281 1465.8806152344 580 0.5 0.5 ) ( -3444.0637207031 1474.5671386719 636 0.5 0 ) )
-( ( -3478.0275878906 1392.4641113281 532 1 1 ) ( -3494.5859375 1409.8374023438 580 1 0.5 ) ( -3502.8647460938 1418.5239257813 636 1 0 ) )
-)
-}
 }
 }
 {
@@ -35300,12 +35144,12 @@ map_courtfun/screen_obey
 "height" "64"
 "gametypefilter" "+rc,cts"
 {
-( -1536 2656 352 ) ( -1536 2560 352 ) ( -1776 2656 352 ) common/trigger 0 0 0 0.25 0.25 0 0 0
-( -1536 2656 336 ) ( -1776 2656 336 ) ( -1536 2656 320 ) common/trigger 0 0 0 0.25 0.25 0 0 0
-( -1600 2656 336 ) ( -1600 2656 320 ) ( -1600 2560 336 ) common/trigger 0 0 0 0.25 0.25 0 0 0
-( -1776 2560 320 ) ( -1536 2560 320 ) ( -1776 2656 320 ) common/trigger 0 0 0 0.25 0.25 0 0 0
-( -1776 2576 320 ) ( -1776 2576 336 ) ( -1536 2576 320 ) common/trigger 0 0 0 0.25 0.25 0 0 0
-( -1728 2560 320 ) ( -1728 2656 320 ) ( -1728 2560 336 ) common/trigger 0 0 0 0.25 0.25 0 0 0
+( -1533.1952362061 2623.405960083 362.625 ) ( -1578.2645111084 2538.6429901123 362.625 ) ( -1745.1026611328 2736.0791320801 362.625 ) common/trigger 101.3819351196 114.1533508301 -28.0000019073 0.25 0.25 0 0 0
+( -1530.47605896 2627.2758331299 336 ) ( -1742.3834838867 2739.9490203857 336 ) ( -1530.47605896 2627.2758331299 320 ) common/trigger 184.6893310547 0 0 0.2588757277 0.25 0 0 0
+( -1595.0788879395 2655.2021331787 336 ) ( -1595.0788879395 2655.2021331787 320 ) ( -1640.148147583 2570.439163208 336 ) common/trigger 93.0182189941 0 0 0.2588757277 0.25 0 0 0
+( -1789.6719360352 2651.3161621094 320 ) ( -1577.7645111084 2538.6429901123 320 ) ( -1744.6026611328 2736.0791320801 320 ) common/trigger 99.6160430908 115.0922927856 -28.0000019073 0.25 0.25 0 0 0
+( -1812.2853851318 2587.5683288574 320 ) ( -1812.2853851318 2587.5683288574 336 ) ( -1600.3779602051 2474.8951416016 320 ) common/trigger 52.7878227234 0 0 0.2588757277 0.25 0 0 0
+( -1735.6654510498 2623.0315246582 320 ) ( -1690.5961761475 2707.7944946289 320 ) ( -1735.6654510498 2623.0315246582 336 ) common/trigger 121.9896469116 0 0 0.2588757277 0.25 0 0 0
 }
 }
 {
@@ -35831,203 +35675,199 @@ map_courtfun/screen_obey
 "angles" "20.0665283 130.297852 0"
 }
 {
+"classname" "info_autoscreenshot"
+"origin" "-5960.000000 3344.000000 656.000000"
+"angle" "45.000000"
+}
+{
 "classname" "misc_breakablemodel"
-"origin" "-552.000000 728.000000 320.000000"
+"origin" "-616.000000 712.000000 320.000000"
 "model" "models/containers/barrel01.md3"
-"_castShadows" "1"
+"modelscale" "1.200000"
 "count" "1"
 "debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
 "debrisdamageforcescale" "1"
 "debrisfadetime" "1"
 "debrissolid" "0"
-"debristime" "6"
+"debristime" "5"
 "debristimejitter" "2"
-"dmg" "50"
-"dmg_edge" "25"
-"dmg_force" "600"
-"dmg_radius" "150"
+"dmg" "40"
+"dmg_edge" "30"
+"dmg_force" "200"
+"dmg_radius" "190"
 "health" "25"
 "mdl" "TE_TEI_BIGEXPLOSION"
 "message" "was killed by an explosive barrel"
 "message2" "was killed with an explosive barrel by"
 "noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "40"
+"respawntime" "35"
+"respawntimejitter" "10"
+}
+{
+"classname" "misc_breakablemodel"
+"origin" "-552.000000 728.000000 320.000000"
+"model" "models/containers/barrel01.md3"
+"modelscale" "1.200000"
+"count" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debrissolid" "0"
+"debristime" "5"
+"debristimejitter" "2"
+"dmg" "40"
+"dmg_edge" "30"
+"dmg_force" "200"
+"dmg_radius" "190"
+"health" "25"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"message" "was killed by an explosive barrel"
+"message2" "was killed with an explosive barrel by"
+"noise" "sound/weapons/rocket_impact.ogg"
+"respawntime" "35"
 "respawntimejitter" "10"
 }
 {
 "classname" "misc_breakablemodel"
 "origin" "-560.000000 680.000000 320.000000"
 "model" "models/containers/barrel01.md3"
-"_castShadows" "1"
+"modelscale" "1.200000"
 "count" "1"
 "debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
 "debrisdamageforcescale" "1"
 "debrisfadetime" "1"
 "debrissolid" "0"
-"debristime" "6"
+"debristime" "5"
 "debristimejitter" "2"
-"dmg" "50"
-"dmg_edge" "25"
-"dmg_force" "600"
-"dmg_radius" "150"
+"dmg" "40"
+"dmg_edge" "30"
+"dmg_force" "200"
+"dmg_radius" "190"
 "health" "25"
 "mdl" "TE_TEI_BIGEXPLOSION"
 "message" "was killed by an explosive barrel"
 "message2" "was killed with an explosive barrel by"
 "noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "40"
-"respawntimejitter" "10"
-}
-{
-"classname" "misc_breakablemodel"
-"origin" "-616.000000 712.000000 320.000000"
-"model" "models/containers/barrel01.md3"
-"_castShadows" "1"
-"count" "1"
-"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
-"debrisdamageforcescale" "1"
-"debrisfadetime" "1"
-"debrissolid" "0"
-"debristime" "6"
-"debristimejitter" "2"
-"dmg" "50"
-"dmg_edge" "25"
-"dmg_force" "600"
-"dmg_radius" "150"
-"health" "25"
-"mdl" "TE_TEI_BIGEXPLOSION"
-"message" "was killed by an explosive barrel"
-"message2" "was killed with an explosive barrel by"
-"noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "40"
+"respawntime" "35"
 "respawntimejitter" "10"
 }
 {
 "classname" "misc_breakablemodel"
 "origin" "640.000000 1616.000000 64.000000"
 "model" "models/containers/barrel01.md3"
-"_castShadows" "1"
+"modelscale" "1.200000"
 "count" "1"
 "debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
 "debrisdamageforcescale" "1"
 "debrisfadetime" "1"
 "debrissolid" "0"
-"debristime" "6"
+"debristime" "5"
 "debristimejitter" "2"
-"dmg" "75"
-"dmg_edge" "25"
-"dmg_force" "600"
-"dmg_radius" "150"
+"dmg" "40"
+"dmg_edge" "30"
+"dmg_force" "200"
+"dmg_radius" "190"
 "health" "25"
 "mdl" "TE_TEI_BIGEXPLOSION"
 "message" "was killed by an explosive barrel"
 "message2" "was killed with an explosive barrel by"
 "noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "40"
+"respawntime" "35"
+"respawntimejitter" "10"
+}
+{
+"classname" "misc_breakablemodel"
+"origin" "-4736.000000 2336.000000 64.000000"
+"model" "models/containers/barrel01.md3"
+"modelscale" "1.200000"
+"count" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debrissolid" "0"
+"debristime" "5"
+"debristimejitter" "2"
+"dmg" "40"
+"dmg_edge" "30"
+"dmg_force" "200"
+"dmg_radius" "190"
+"health" "25"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"message" "was killed by an explosive barrel"
+"message2" "was killed with an explosive barrel by"
+"noise" "sound/weapons/rocket_impact.ogg"
+"respawntime" "35"
+"respawntimejitter" "10"
+}
+{
+"classname" "misc_breakablemodel"
+"origin" "-3480.000000 3239.999756 320.000000"
+"model" "models/containers/barrel01.md3"
+"modelscale" "1.200000"
+"count" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debrissolid" "0"
+"debristime" "5"
+"debristimejitter" "2"
+"dmg" "40"
+"dmg_edge" "30"
+"dmg_force" "200"
+"dmg_radius" "190"
+"health" "25"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"message" "was killed by an explosive barrel"
+"message2" "was killed with an explosive barrel by"
+"noise" "sound/weapons/rocket_impact.ogg"
+"respawntime" "35"
+"respawntimejitter" "10"
+}
+{
+"classname" "misc_breakablemodel"
+"origin" "-3519.999756 3280.000000 320.000000"
+"model" "models/containers/barrel01.md3"
+"modelscale" "1.200000"
+"count" "1"
+"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
+"debrisdamageforcescale" "1"
+"debrisfadetime" "1"
+"debrissolid" "0"
+"debristime" "5"
+"debristimejitter" "2"
+"dmg" "40"
+"dmg_edge" "30"
+"dmg_force" "200"
+"dmg_radius" "190"
+"health" "25"
+"mdl" "TE_TEI_BIGEXPLOSION"
+"message" "was killed by an explosive barrel"
+"message2" "was killed with an explosive barrel by"
+"noise" "sound/weapons/rocket_impact.ogg"
+"respawntime" "35"
 "respawntimejitter" "10"
 }
 {
 "classname" "misc_breakablemodel"
 "origin" "-3543.999756 3240.000000 320.000000"
 "model" "models/containers/barrel01.md3"
-"_castShadows" "1"
+"modelscale" "1.200000"
 "count" "1"
 "debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
 "debrisdamageforcescale" "1"
 "debrisfadetime" "1"
 "debrissolid" "0"
-"debristime" "6"
+"debristime" "5"
 "debristimejitter" "2"
-"dmg" "50"
-"dmg_edge" "25"
-"dmg_force" "600"
-"dmg_radius" "150"
+"dmg" "40"
+"dmg_edge" "30"
+"dmg_force" "200"
+"dmg_radius" "190"
 "health" "25"
 "mdl" "TE_TEI_BIGEXPLOSION"
 "message" "was killed by an explosive barrel"
 "message2" "was killed with an explosive barrel by"
 "noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "40"
+"respawntime" "35"
 "respawntimejitter" "10"
-"angle" "-179.999985"
-}
-{
-"classname" "misc_breakablemodel"
-"origin" "-3519.999756 3280.000000 320.000000"
-"model" "models/containers/barrel01.md3"
-"_castShadows" "1"
-"count" "1"
-"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
-"debrisdamageforcescale" "1"
-"debrisfadetime" "1"
-"debrissolid" "0"
-"debristime" "6"
-"debristimejitter" "2"
-"dmg" "50"
-"dmg_edge" "25"
-"dmg_force" "600"
-"dmg_radius" "150"
-"health" "25"
-"mdl" "TE_TEI_BIGEXPLOSION"
-"message" "was killed by an explosive barrel"
-"message2" "was killed with an explosive barrel by"
-"noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "40"
-"respawntimejitter" "10"
-"angle" "-179.999985"
-}
-{
-"classname" "misc_breakablemodel"
-"origin" "-3480.000000 3239.999756 320.000000"
-"model" "models/containers/barrel01.md3"
-"_castShadows" "1"
-"count" "1"
-"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
-"debrisdamageforcescale" "1"
-"debrisfadetime" "1"
-"debrissolid" "0"
-"debristime" "6"
-"debristimejitter" "2"
-"dmg" "50"
-"dmg_edge" "25"
-"dmg_force" "600"
-"dmg_radius" "150"
-"health" "25"
-"mdl" "TE_TEI_BIGEXPLOSION"
-"message" "was killed by an explosive barrel"
-"message2" "was killed with an explosive barrel by"
-"noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "40"
-"respawntimejitter" "10"
-"angle" "-179.999985"
-}
-{
-"classname" "misc_breakablemodel"
-"origin" "-4736.000000 2336.000000 64.000000"
-"model" "models/containers/barrel01.md3"
-"_castShadows" "1"
-"count" "1"
-"debris" "models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3 models/onslaught/gen_gib1.md3 models/onslaught/gen_gib2.md3 models/onslaught/gen_gib3.md3"
-"debrisdamageforcescale" "1"
-"debrisfadetime" "1"
-"debrissolid" "0"
-"debristime" "6"
-"debristimejitter" "2"
-"dmg" "50"
-"dmg_edge" "25"
-"dmg_force" "600"
-"dmg_radius" "150"
-"health" "25"
-"mdl" "TE_TEI_BIGEXPLOSION"
-"message" "was killed by an explosive barrel"
-"message2" "was killed with an explosive barrel by"
-"noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "40"
-"respawntimejitter" "10"
-"angle" "-179.999985"
-}
-{
-"classname" "info_autoscreenshot"
-"origin" "-5960.000000 3344.000000 656.000000"
-"angle" "45.000000"
 }

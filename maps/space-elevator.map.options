@@ -1,6 +1,6 @@
 -bsp +
--light +
 -vis +
+-light + -bounce 8
 -minimap +
--nosRGB
-Version: 5
+-sRGB
+Version: 7c

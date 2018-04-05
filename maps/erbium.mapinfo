@@ -1,0 +1,16 @@
+title Erbium
+description Industrial, nature... Duel!
+author Justin, Mirio
+cdtrack 21
+has weapons
+gametype dm
+gametype lms
+gametype tdm
+gametype ca
+gametype ft
+gametype ka
+gametype kh
+gametype dom
+
+clientsettemp_for_type all r_water 1
+clientsettemp_for_type all r_water_resolutionmultiplier 1
