@@ -1,0 +1,12 @@
+title Fuse
+description Duel Mapping Contest Winner of 2012
+author Ferdinand 'cityy' List
+cdtrack 4
+has weapons
+gametype dm
+gametype lms
+gametype ka
+gametype kh
+gametype ft
+gametype ca
+gametype tdm

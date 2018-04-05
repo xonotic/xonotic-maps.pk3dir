@@ -4,7 +4,7 @@
 
 shader_normalize()
 {
-	echo "$1" | sed 's/\.\(tga\|jpg\|png\)$//'
+	echo "$1" | sed 's/^"//; s/"$//; s/\.\(tga\|jpg\|png\)$//'
 }
 
 parse_shaderstage_pre()

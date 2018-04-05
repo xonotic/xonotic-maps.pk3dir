@@ -1,7 +1,9 @@
 title Space Elevator
 description Medium sized CTF space floater
-author FruitieX, Cuinnton
+author FruitieX, Mirio, Cuinnton
 has weapons
 gametype ctf
-cdtrack 8
+cdtrack 4
+
 clientsettemp_for_type all r_water 1
+clientsettemp_for_type all r_water_resolutionmultiplier 1
