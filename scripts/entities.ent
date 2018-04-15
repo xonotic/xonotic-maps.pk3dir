@@ -1543,7 +1543,7 @@ A brush that emits particles. Can be (de)activated with relays.
 <real3 key="velocity" name="velocity">particle direction and speed</real3>
 <real key="waterlevel" name="waterlevel">extra velocity jitter amount</real>
 <real key="count" name="count">particle count multiplier (per spawned particle)</real>
-<real3 key="movedir" name="movedir">when set, trace direction (particles will then be emitted from the surface the trace hits); the length of the vector is used as strength of taking the normal of the trace into account</real3>
+<real3 key="movedir" name="movedir">when set, particles will not be emitted from the brush, but instead from the nearest surface in this direction; the length of this vector will determine, how much impact the surface's normal has on the particle velocity</real3>
 <sound key="noise" name="noise">sound to play when the particle is emitted</sound>
 <real key="atten" name="atten">distance attenuation of the sound (a value from 0.1 to 3.9), default is 0.5; set to -1 for no attenuation (global sound)</real>
 <real key="volume" name="volume">volume of the sound</real>
@@ -1573,7 +1573,7 @@ A brush that emits sparks. Can be (de)activated with relays.
 <real key="waterlevel" name="waterlevel">extra velocity jitter amount</real>
 <real key="impulse" name="impulse">number of particles to emit per second (min 0.5, default 2.5)</real>
 <real key="count" name="count">particle count multiplier (per spawned particle)</real>
-<real3 key="movedir" name="movedir">when set, trace direction (particles will then be emitted from the surface the trace hits); the length of the vector is used as strength of taking the normal of the trace into account</real3>
+<real3 key="movedir" name="movedir">when set, particles will not be emitted from the brush, but instead from the nearest surface in this direction; the length of this vector will determine, how much impact the surface's normal has on the particle velocity</real3>
 <sound key="noise" name="noise">sound to play when the particle is emitted</sound>
 <real key="atten" name="atten">distance attenuation of the sound (a value from 0.1 to 3.9), default is 0.5; set to -1 for no attenuation (global sound)</real>
 <real key="volume" name="volume">volume of the sound</real>
