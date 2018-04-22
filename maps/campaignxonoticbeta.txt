@@ -30,3 +30,6 @@
 "dm","stormkeep","9","11",15",,"g_weaponarena devastator","[Bonus] Deathmatch: Stormkeep","SURPRISE!\nWelcome to the ROCKET HELL!\nOnly the Devastator will be available here - don't blow up yourself! Have fun!"
 
 // rc & cts disabled, since we hide these modes
+
+// note that currently any cvars changed in mutator-sets must be accessed in code using the cvar() function (or autocvar aliases to that), otherwise they will not work
+// see https://gitlab.com/xonotic/xonotic-data.pk3dir/issues/1976 for details
