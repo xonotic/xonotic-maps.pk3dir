@@ -530,7 +530,7 @@ modeldisabled=&quot;models/items/a_bullets.md3&quot;
 </point>
 
 <point name="item_cells" color=".3 .3 1" box="-30 -30 0 30 30 32">
-Nex, Electro and Crylink ammo
+Vortex, Electro and Crylink ammo
 -------- KEYS --------
 <real key="ammo_cells" name="ammo_cells">cells gained by this item (if unset, g_pickup_cells is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
@@ -656,7 +656,7 @@ Small Health (default 5 health points)
 modeldisabled=&quot;models/items/g_h1.md3&quot;
 </point>
 
-<point name="item_invincible" color=".3 .3 1" box="-30 -30 0 30 30 48">
+<point name="item_shield" color=".3 .3 1" box="-30 -30 0 30 30 48">
 Strong Shield
 In Instagib, this randomly turns into either an invisibility, an extra lives or a speed power-up with a default respawn time of 120.
 -------- KEYS --------
@@ -697,10 +697,10 @@ This is the only correct way to put keys on the map!
 itemkeys MUST always have exactly one bit set.
 </point>
 
-<point name="item_minst_cells" color=".3 .3 1" box="-30 -30 0 30 30 32">
+<point name="item_vaporizer_cells" color=".3 .3 1" box="-30 -30 0 30 30 32">
 Instagib ammo.
 Always contains 5 (g_instagib_ammo_drop) shots.
-It only appears when playing Instagib and prevents auto-replacement of weapon_nex &amp; weapon_rocketlauncher when used.
+It only appears when playing Instagib and prevents auto-replacement of weapon_vortex &amp; weapon_devastator when used.
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 45)</real>
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
@@ -1366,7 +1366,7 @@ the Electro
 modeldisabled=&quot;models/weapons/g_electro.md3&quot;
 </point>
 
-<point name="weapon_grenadelauncher" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_mortar" color="1 0 .5" box="-30 -30 0 30 30 32">
 the Mortar
 -------- KEYS --------
 <real key="ammo_rockets" name="ammo_rockets">initial rockets of the weapon (if unset, g_pickup_rockets is used)</real>
@@ -1409,9 +1409,9 @@ in your mapinfo file, everyone will already spawn with one, making this pickup u
 modeldisabled=&quot;models/weapons/g_laser.md3&quot;
 </point>
 
-<point name="weapon_nex" color="1 0 .5" box="-30 -30 0 30 30 32">
-the Nex
-In Instagib, this turns into an item_minst_cells if no explicit item_minst_cells have been placed.
+<point name="weapon_vortex" color="1 0 .5" box="-30 -30 0 30 30 32">
+the Vortex
+In Instagib, this turns into an item_vaporizer_cells if no explicit item_vaporizer_cells have been placed.
 -------- KEYS --------
 <real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, g_pickup_cells is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15 * g_balance_nex_respawntime_modifier)</real>
@@ -1424,7 +1424,7 @@ In Instagib, this turns into an item_minst_cells if no explicit item_minst_cells
 modeldisabled=&quot;models/weapons/g_nex.md3&quot;
 </point>
 
-<point name="weapon_rocketlauncher" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_devastator" color="1 0 .5" box="-30 -30 0 30 30 32">
 the Rocket Launcher
 In Instagib, this turns into an item_minst_cells if no explicit item_minst_cells have been placed.
 -------- KEYS --------
