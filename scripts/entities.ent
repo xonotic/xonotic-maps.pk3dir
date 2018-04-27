@@ -1201,6 +1201,7 @@ After the counter has been triggered &quot;count&quot; times, it will fire all o
 Trigger that delays triggering by a given amount of time. Only one action can be waited for; if triggered again before the &quot;wait&quot; time expires, the timer will restart (as opposed to trigger_relay).
 -------- KEYS --------
 <real key="wait" name="wait">delay the triggering by the given time</real>
+<real key="trigger_reverse" name="trigger_reverse">open &quot;func_door_rotating&quot; with &quot;BIDIR&quot; in reverse direction</real>
 <target key="target" name="target">trigger all entities with this targetname when triggered</target>
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
 <string key="message" name="message">print this message to the player who activated the trigger</string>
@@ -1262,6 +1263,7 @@ Variable sized repeatable trigger.  Must be targeted at one or more entities.  I
 <real key="wait" name="wait">prevent triggering again for this amount of time (default: 0.2, set to -1 to wait indefinitely, or -2 to not wait at all)</real>
 <real key="sounds" name="sounds">1 to play misc/secret.wav, 2 to play misc/talk.wav, 3 to play misc/trigger1.wav</real>
 <sound key="noise" name="noise">path to sound file, if you want to play something else</sound>
+<real key="trigger_reverse" name="trigger_reverse">open &quot;func_door_rotating&quot; with &quot;BIDIR&quot; in reverse direction</real>
 <target key="target" name="target">trigger all entities with this targetname when triggered</target>
 <target key="target2" name="target2">trigger all entities with this targetname when triggered</target>
 <target key="target3" name="target3">trigger all entities with this targetname when triggered</target>
@@ -1286,6 +1288,7 @@ Basically, it's a use-once trigger_multiple.
 <real key="health" name="health">amount of damage that has to be dealt to the trigger to activate (it then won't respond to merely touching it)</real>
 <real key="sounds" name="sounds">1 to play misc/secret.wav, 2 to play misc/talk.wav, 3 to play misc/trigger1.wav</real>
 <sound key="noise" name="noise">path to sound file, if you want to play something else</sound>
+<real key="trigger_reverse" name="trigger_reverse">open &quot;func_door_rotating&quot; with &quot;BIDIR&quot; in reverse direction</real>
 <target key="target" name="target">trigger all entities with this targetname when triggered</target>
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
 <real key="delay" name="delay">delay the triggering by the given time</real>
@@ -1625,6 +1628,7 @@ Specialised version of func_pointparticles
 -------- KEYS --------
 <target key="target" name="target">trigger all entities with this targetname when triggered</target>
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
+<real key="trigger_reverse" name="trigger_reverse">open &quot;func_door_rotating&quot; with &quot;BIDIR&quot; in reverse direction</real>
 -------- SPAWNFLAGS --------
 <flag key="START_ON" name="START_ON" bit="0">assume it is already turned on (so the first event is NOT passed through)</flag>
 </point>
@@ -1890,6 +1894,7 @@ Relays the trigger event if a cvar is set to a specified value.
 <string key="netname" name="netname">The name of the cvar to check</string>
 <string key="message" name="message">The value of the cvar to check</string>
 <real key="count" name="count">The count of entities that must be found</real>
+<real key="trigger_reverse" name="trigger_reverse">open &quot;func_door_rotating&quot; with &quot;BIDIR&quot; in reverse direction</real>
 -------- SPAWNFLAGS --------
 <flag key="NEGATE" name="NEGATE" bit="0">trigger if the cvar does NOT match the value.</flag>
 </point>
@@ -2041,6 +2046,7 @@ Works similar to trigger_relay, but only relays trigger events if the team of th
 <string key="message" name="message">print this message to the player who activated the trigger</string>
 <target key="killtarget" name="killtarget">remove all entities with this targetname when triggered</target>
 <integer key="team" name="team">5 for red, 14 for blue, 13 for yellow, 10 for pink team</integer>
+<real key="trigger_reverse" name="trigger_reverse">open &quot;func_door_rotating&quot; with &quot;BIDIR&quot; in reverse direction</real>
 -------- SPAWNFLAGS --------
 <flag key="NOTEAM_TOO" name="NOTEAM_TOO" bit="0">also relay events if the activator has no team set</flag>
 <flag key="INVERT" name="INVERT" bit="1">only relay the event if this entity has the matching team</flag>
@@ -2286,6 +2292,7 @@ Triggers targets when a given magic word has been said
 <target key="target4" name="target4">all entities with a matching targetname will be triggered.</target>
 <boolean key="target_random" name="target_random">instead of triggering ALL matched entities, trigger ONE of them by random</boolean>
 <real3 key="movedir" name="movedir">if TUBA is set, this is a string of &quot;instrument+1 mintempo maxtempo&quot;. Components can be set to 0 to not match.</real3>
+<real key="trigger_reverse" name="trigger_reverse">open &quot;func_door_rotating&quot; with &quot;BIDIR&quot; in reverse direction</real>
 -------- SPAWNFLAGS --------
 <flag key="IGNORE_SAY" name="IGNORE_SAY" bit="0">do not respond to &quot;say&quot; messages</flag>
 <flag key="IGNORE_TEAMSAY" name="IGNORE_TEAMSAY" bit="1">do not respond to &quot;say_team&quot; messages</flag>
