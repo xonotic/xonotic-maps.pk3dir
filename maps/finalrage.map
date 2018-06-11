@@ -14807,7 +14807,7 @@ map_stormkeep/rock
 "origin" "1104.000000 368.000000 304.000000"
 }
 {
-"classname" "weapon_nex"
+"classname" "weapon_vortex"
 "origin" "-224 288 304"
 }
 {
@@ -15195,11 +15195,11 @@ map_stormkeep/rock
 "origin" "-384.000000 448.000000 -24.000000"
 }
 {
-"classname" "weapon_grenadelauncher"
+"classname" "weapon_mortar"
 "origin" "640.000000 424.000000 -28.000000"
 }
 {
-"classname" "weapon_rocketlauncher"
+"classname" "weapon_devastator"
 "origin" "860.000000 424.000000 304.000000"
 }
 {
@@ -15272,6 +15272,7 @@ map_stormkeep/rock
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "angles" "-7.000005 0.000000 0.000000"
 "spawnflags" "2"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "misc_model"
@@ -15279,6 +15280,7 @@ map_stormkeep/rock
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "angles" "-10.500007 0.000000 0.000000"
 "spawnflags" "2"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "misc_model"
@@ -15286,6 +15288,7 @@ map_stormkeep/rock
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "angles" "-4.980919 0.436879 -5.018977"
 "spawnflags" "2"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "trigger_warpzone"

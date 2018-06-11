@@ -18696,7 +18696,7 @@ exx/floor-crete01
 "origin" "-1120 1240 216"
 }
 {
-"classname" "weapon_grenadelauncher"
+"classname" "weapon_mortar"
 "origin" "288 -256 -152"
 }
 {
@@ -18742,7 +18742,7 @@ exx/floor-crete01
 "origin" "-240 -256 -176"
 }
 {
-"classname" "weapon_nex"
+"classname" "weapon_vortex"
 "origin" "32 -32 -24"
 }
 {
@@ -19912,7 +19912,7 @@ exx/base-metal03
 "origin" "-816 -240 -24"
 }
 {
-"classname" "weapon_rocketlauncher"
+"classname" "weapon_devastator"
 "origin" "576 1408 168"
 }
 {
@@ -28647,6 +28647,7 @@ exx/base-metal03
 "angles" "-0.000000 0.000000 14.075265"
 "_castshadows" "1"
 "_receiveshadows" "1"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "misc_model"
@@ -28655,6 +28656,7 @@ exx/base-metal03
 "_receiveshadows" "1"
 "_castshadows" "1"
 "angle" "90.000000"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "misc_model"
@@ -28662,6 +28664,7 @@ exx/base-metal03
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "_receiveshadows" "1"
 "_castshadows" "1"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "misc_model"
@@ -28670,6 +28673,7 @@ exx/base-metal03
 "_receiveshadows" "1"
 "_castshadows" "1"
 "angle" "90.000000"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "item_armor_medium"

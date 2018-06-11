@@ -27429,7 +27429,7 @@ map_courtfun/screenanim_xon
 "origin" "864.000000 800.000000 352.000000"
 }
 {
-"classname" "weapon_grenadelauncher"
+"classname" "weapon_mortar"
 "origin" "1872.000000 -192.000000 24.000000"
 }
 {
@@ -27528,7 +27528,7 @@ map_courtfun/screenanim_xon
 "angle" "-138.446487"
 }
 {
-"classname" "weapon_rocketlauncher"
+"classname" "weapon_devastator"
 "origin" "132.000000 2752.000000 344.000000"
 }
 {
@@ -27655,7 +27655,7 @@ map_courtfun/screenanim_xon
 "origin" "-1408.000000 2368.000000 32.000000"
 }
 {
-"classname" "weapon_uzi"
+"classname" "weapon_machinegun"
 "origin" "-2116.000000 1472.000000 48.000000"
 }
 {
@@ -27913,11 +27913,11 @@ map_courtfun/screenanim_xon
 "origin" "-1768.000000 384.000000 104.000000"
 }
 {
-"classname" "weapon_nex"
+"classname" "weapon_vortex"
 "origin" "-1600.000000 -632.000000 128.000000"
 }
 {
-"classname" "weapon_uzi"
+"classname" "weapon_machinegun"
 "origin" "-640.000000 64.000000 352.000000"
 }
 {
@@ -27935,6 +27935,7 @@ map_courtfun/screenanim_xon
 "skin" "0"
 "_castshadows" "1"
 "solid" "4"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "misc_gamemodel"
@@ -27943,6 +27944,7 @@ map_courtfun/screenanim_xon
 "skin" "0"
 "_castshadows" "1"
 "solid" "4"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "misc_gamemodel"
@@ -27951,6 +27953,7 @@ map_courtfun/screenanim_xon
 "skin" "0"
 "_castshadows" "1"
 "solid" "4"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "misc_gamemodel"
@@ -27959,6 +27962,7 @@ map_courtfun/screenanim_xon
 "skin" "0"
 "_castshadows" "1"
 "solid" "4"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "misc_gamemodel"
@@ -27967,6 +27971,7 @@ map_courtfun/screenanim_xon
 "skin" "0"
 "_castshadows" "1"
 "solid" "4"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "misc_gamemodel"
@@ -30462,7 +30467,7 @@ map_courtfun/screenanim_xon
 "angle" "-36.258213"
 }
 {
-"classname" "item_invincible"
+"classname" "item_shield"
 "origin" "512.000000 -3520.000000 256.000000"
 }
 {
@@ -30849,7 +30854,7 @@ map_courtfun/screenanim_xon
 "angle" "-179.999985"
 }
 {
-"classname" "weapon_grenadelauncher"
+"classname" "weapon_mortar"
 "origin" "-5968.000000 4160.000000 24.000000"
 "angle" "-179.999985"
 }
@@ -30945,7 +30950,7 @@ map_courtfun/screenanim_xon
 "angle" "41.553516"
 }
 {
-"classname" "weapon_rocketlauncher"
+"classname" "weapon_devastator"
 "origin" "-4228.000000 1216.000000 344.000000"
 "angle" "-179.999985"
 }
@@ -31019,7 +31024,7 @@ map_courtfun/screenanim_xon
 "angle" "-179.999985"
 }
 {
-"classname" "weapon_uzi"
+"classname" "weapon_machinegun"
 "origin" "-1980.000000 2496.000000 48.000000"
 "angle" "-179.999985"
 }
@@ -31297,12 +31302,12 @@ map_courtfun/screenanim_xon
 "angle" "-179.999985"
 }
 {
-"classname" "weapon_nex"
+"classname" "weapon_vortex"
 "origin" "-2496.000000 4600.000000 128.000000"
 "angle" "-179.999985"
 }
 {
-"classname" "weapon_uzi"
+"classname" "weapon_machinegun"
 "origin" "-3456.000000 3904.000000 352.000000"
 "angle" "-179.999985"
 }
@@ -31324,6 +31329,7 @@ map_courtfun/screenanim_xon
 "_castshadows" "1"
 "solid" "4"
 "angle" "-179.999985"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "misc_gamemodel"
@@ -31333,6 +31339,7 @@ map_courtfun/screenanim_xon
 "_castshadows" "1"
 "solid" "4"
 "angle" "-179.999985"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "misc_gamemodel"
@@ -31342,6 +31349,7 @@ map_courtfun/screenanim_xon
 "_castshadows" "1"
 "solid" "4"
 "angle" "-179.999985"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "misc_gamemodel"
@@ -31351,6 +31359,7 @@ map_courtfun/screenanim_xon
 "_castshadows" "1"
 "solid" "4"
 "angle" "-179.999985"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "misc_gamemodel"
@@ -31360,6 +31369,7 @@ map_courtfun/screenanim_xon
 "_castshadows" "1"
 "solid" "4"
 "angle" "-179.999985"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "misc_gamemodel"
@@ -33882,7 +33892,7 @@ map_courtfun/screenanim_xon
 "angle" "143.741776"
 }
 {
-"classname" "item_invincible"
+"classname" "item_shield"
 "origin" "-4608.000000 7488.000000 256.000000"
 "angle" "-179.999985"
 }
@@ -35161,6 +35171,7 @@ map_courtfun/screenanim_xon
 "gametypefilter" "+rc,cts"
 "_castshadows" "-2"
 "_receiveshadows" "2"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_launchpad01_lod1.md3"
 }
 {
 "classname" "onslaught_generator"

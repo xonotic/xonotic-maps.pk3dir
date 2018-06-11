@@ -28298,7 +28298,7 @@ effects_jumppad/jumppadfx1_a
 "origin" "32.000000 -3472.000000 -96.000000"
 }
 {
-"classname" "weapon_uzi"
+"classname" "weapon_machinegun"
 "origin" "0.000000 0.000000 -256.000000"
 "spawnflags" "1"
 }
@@ -28834,7 +28834,7 @@ effects_jumppad/jumppadfx1_a
 "origin" "448.000000 0.000000 160.000000"
 }
 {
-"classname" "weapon_grenadelauncher"
+"classname" "weapon_mortar"
 "origin" "0.000000 -4128.000000 152.000000"
 "angle" "90.000000"
 }
@@ -28894,6 +28894,7 @@ effects_jumppad/jumppadfx1_a
 "frame" "2"
 "angle" "-179.999985"
 "skin" "0"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_launchpad01_lod1.md3"
 }
 {
 "classname" "misc_gamemodel"
@@ -28902,12 +28903,14 @@ effects_jumppad/jumppadfx1_a
 "frame" "2"
 "angle" "-179.999985"
 "skin" "0"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_launchpad01_lod1.md3"
 }
 {
 "classname" "misc_gamemodel"
 "origin" "144.000000 -3520.000000 320.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "skin" "0"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "target_position"
@@ -28931,6 +28934,7 @@ effects_jumppad/jumppadfx1_a
 "origin" "-144.000000 -3520.000000 320.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "skin" "0"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "target_position"
@@ -28945,6 +28949,7 @@ effects_jumppad/jumppadfx1_a
 "frame" "2"
 "angle" "0.000016"
 "skin" "0"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_launchpad01_lod1.md3"
 }
 {
 "classname" "misc_gamemodel"
@@ -28953,6 +28958,7 @@ effects_jumppad/jumppadfx1_a
 "frame" "2"
 "angle" "0.000016"
 "skin" "0"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_launchpad01_lod1.md3"
 }
 {
 "classname" "target_position"
@@ -28991,6 +28997,7 @@ effects_jumppad/jumppadfx1_a
 "frame" "2"
 "angle" "0.000016"
 "skin" "0"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_launchpad01_lod1.md3"
 }
 {
 "classname" "misc_gamemodel"
@@ -28999,6 +29006,7 @@ effects_jumppad/jumppadfx1_a
 "frame" "2"
 "angle" "0.000016"
 "skin" "0"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_launchpad01_lod1.md3"
 }
 {
 "classname" "trigger_hurt"
@@ -29802,7 +29810,7 @@ effects_jumppad/jumppadfx1_a
 "light" "80"
 }
 {
-"classname" "weapon_grenadelauncher"
+"classname" "weapon_mortar"
 "origin" "0.000000 4128.000000 152.000000"
 "angle" "-90.000000"
 }
@@ -29842,6 +29850,7 @@ effects_jumppad/jumppadfx1_a
 "frame" "2"
 "angle" "0.000016"
 "skin" "1"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_launchpad01_lod1.md3"
 }
 {
 "classname" "misc_gamemodel"
@@ -29850,6 +29859,7 @@ effects_jumppad/jumppadfx1_a
 "frame" "2"
 "angle" "0.000016"
 "skin" "1"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_launchpad01_lod1.md3"
 }
 {
 "classname" "misc_gamemodel"
@@ -29857,6 +29867,7 @@ effects_jumppad/jumppadfx1_a
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "skin" "1"
 "angle" "-179.999985"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "target_position"
@@ -29882,6 +29893,7 @@ effects_jumppad/jumppadfx1_a
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "skin" "1"
 "angle" "-179.999985"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "target_position"
@@ -29896,6 +29908,7 @@ effects_jumppad/jumppadfx1_a
 "frame" "2"
 "angle" "-179.999985"
 "skin" "1"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_launchpad01_lod1.md3"
 }
 {
 "classname" "misc_gamemodel"
@@ -29904,6 +29917,7 @@ effects_jumppad/jumppadfx1_a
 "frame" "2"
 "angle" "-179.999985"
 "skin" "1"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_launchpad01_lod1.md3"
 }
 {
 "classname" "target_position"
@@ -29942,6 +29956,7 @@ effects_jumppad/jumppadfx1_a
 "frame" "2"
 "angle" "-179.999985"
 "skin" "1"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_launchpad01_lod1.md3"
 }
 {
 "classname" "misc_gamemodel"
@@ -29950,6 +29965,7 @@ effects_jumppad/jumppadfx1_a
 "frame" "2"
 "angle" "-179.999985"
 "skin" "1"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_launchpad01_lod1.md3"
 }
 {
 "classname" "info_player_team2"
@@ -30455,6 +30471,7 @@ effects_jumppad/jumppadfx1_a
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "skin" "0"
 "angle" "90.000000"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "trigger_push"
@@ -30474,6 +30491,7 @@ effects_jumppad/jumppadfx1_a
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "skin" "0"
 "angle" "90.000000"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "trigger_push"
@@ -30493,6 +30511,7 @@ effects_jumppad/jumppadfx1_a
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "skin" "0"
 "angle" "90.000000"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "target_position"
@@ -30530,6 +30549,7 @@ effects_jumppad/jumppadfx1_a
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "skin" "1"
 "angle" "-90.000000"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "trigger_push"
@@ -30549,6 +30569,7 @@ effects_jumppad/jumppadfx1_a
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "skin" "1"
 "angle" "-90.000000"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "trigger_push"
@@ -30568,6 +30589,7 @@ effects_jumppad/jumppadfx1_a
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "skin" "1"
 "angle" "-90.000000"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "item_armor_small"
@@ -30614,11 +30636,11 @@ effects_jumppad/jumppadfx1_a
 "modelscale_vec" "1.000000 3.000000 4.000000"
 }
 {
-"classname" "weapon_rocketlauncher"
+"classname" "weapon_devastator"
 "origin" "0.000000 0.000000 -512.000000"
 }
 {
-"classname" "weapon_nex"
+"classname" "weapon_vortex"
 "origin" "0.000000 0.000000 736.000000"
 }
 {

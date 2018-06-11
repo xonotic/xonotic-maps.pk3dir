@@ -49130,6 +49130,7 @@ brushDef
 "classname" "misc_model"
 "origin" "-1416.000000 -272.000000 320.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "trigger_push"
@@ -49175,7 +49176,7 @@ brushDef
 "_color" "1 0.579751 0.199634"
 }
 {
-"classname" "weapon_nex"
+"classname" "weapon_vortex"
 "origin" "1128.000000 -1384.000000 344.000000"
 }
 {
@@ -49200,7 +49201,7 @@ brushDef
 "origin" "-1348.000000 0.000000 60.000000"
 }
 {
-"classname" "weapon_grenadelauncher"
+"classname" "weapon_mortar"
 "origin" "-288.000000 -400.000000 652.000000"
 }
 {
@@ -49218,7 +49219,7 @@ brushDef
 "_color" "0.950973 0.72636 0.25362"
 }
 {
-"classname" "weapon_uzi"
+"classname" "weapon_machinegun"
 "origin" "200.000000 786.000000 335.000000"
 }
 {
@@ -55754,7 +55755,7 @@ brushDef
 }
 }
 {
-"classname" "weapon_rocketlauncher"
+"classname" "weapon_devastator"
 "origin" "-192.000000 576.000000 80.000000"
 }
 {
@@ -57312,6 +57313,7 @@ exx/base-metal04
 "classname" "misc_model"
 "origin" "-320.000000 64.000000 320.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "light"

@@ -21329,7 +21329,7 @@ effects_jumppad/jumppadfx1_a
 }
 }
 {
-"classname" "weapon_rocketlauncher"
+"classname" "weapon_devastator"
 "origin" "512.000000 -1984.000000 97.000000"
 "angle" "-179.999985"
 }
@@ -21374,7 +21374,7 @@ effects_jumppad/jumppadfx1_a
 "angle" "180.000000"
 }
 {
-"classname" "weapon_grenadelauncher"
+"classname" "weapon_mortar"
 "origin" "768.000000 -2560.000000 -352.000000"
 "angle" "180.000000"
 }
@@ -21644,7 +21644,7 @@ effects_jumppad/jumppadfx1_a
 "light" "142"
 }
 {
-"classname" "item_invincible"
+"classname" "item_shield"
 "origin" "1792.000000 1088.000000 -256.000000"
 }
 {
@@ -21660,7 +21660,7 @@ effects_jumppad/jumppadfx1_a
 "lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
-"classname" "weapon_uzi"
+"classname" "weapon_machinegun"
 "origin" "1024.000000 -640.000000 -172.000000"
 }
 {
@@ -21752,7 +21752,7 @@ effects_jumppad/jumppadfx1_a
 }
 }
 {
-"classname" "weapon_rocketlauncher"
+"classname" "weapon_devastator"
 "origin" "-512.000000 1984.000000 97.000000"
 "angle" "0.000003"
 }
@@ -21797,7 +21797,7 @@ effects_jumppad/jumppadfx1_a
 "angle" "0.000003"
 }
 {
-"classname" "weapon_grenadelauncher"
+"classname" "weapon_mortar"
 "origin" "-768.000000 2560.000000 -352.000000"
 "angle" "0.000003"
 }
@@ -22029,7 +22029,7 @@ effects_jumppad/jumppadfx1_a
 "lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
-"classname" "weapon_uzi"
+"classname" "weapon_machinegun"
 "origin" "-1024.000000 640.000000 -172.000000"
 "angle" "-179.999985"
 }
@@ -22176,7 +22176,7 @@ effects_jumppad/jumppadfx1_a
 "angles" "22.0440674 -39.9957275 0"
 }
 {
-"classname" "weapon_nex"
+"classname" "weapon_vortex"
 "origin" "0.000000 0.000000 -176.000000"
 }
 {

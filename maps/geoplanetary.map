@@ -42823,11 +42823,11 @@ effects_warpzone/rededge
 "origin" "-1152.000000 1152.000000 408.000000"
 }
 {
-"classname" "weapon_nex"
+"classname" "weapon_vortex"
 "origin" "256.000000 1792.000000 392.000000"
 }
 {
-"classname" "weapon_grenadelauncher"
+"classname" "weapon_mortar"
 "origin" "416.000000 224.000000 392.000000"
 }
 {
@@ -42848,7 +42848,7 @@ effects_warpzone/rededge
 "origin" "-1152.000000 896.000000 384.000000"
 }
 {
-"classname" "weapon_rocketlauncher"
+"classname" "weapon_devastator"
 "origin" "568.000000 -1920.000000 64.000000"
 "angle" "180.000000"
 }
@@ -43108,7 +43108,7 @@ effects_warpzone/rededge
 }
 }
 {
-"classname" "weapon_uzi"
+"classname" "weapon_machinegun"
 "origin" "360.000000 -352.000000 648.000000"
 "angle" "180.000000"
 }
@@ -43895,7 +43895,7 @@ effects_warpzone/rededge
 }
 }
 {
-"classname" "weapon_grenadelauncher"
+"classname" "weapon_mortar"
 "origin" "96.000000 3360.000000 392.000000"
 "angle" "180.000000"
 }
@@ -43920,7 +43920,7 @@ effects_warpzone/rededge
 "angle" "180.000000"
 }
 {
-"classname" "weapon_rocketlauncher"
+"classname" "weapon_devastator"
 "origin" "-56.000000 5504.000000 64.000000"
 }
 {
@@ -44159,7 +44159,7 @@ effects_warpzone/rededge
 }
 }
 {
-"classname" "weapon_uzi"
+"classname" "weapon_machinegun"
 "origin" "152.000000 3936.000000 648.000000"
 }
 {
@@ -44808,6 +44808,7 @@ effects_warpzone/rededge
 "origin" "0.000000 -1920.000000 104.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "skin" "1"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "misc_model"
@@ -44815,6 +44816,7 @@ effects_warpzone/rededge
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "skin" "0"
 "angle" "-179.999985"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "misc_model"
@@ -44822,30 +44824,35 @@ effects_warpzone/rededge
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "skin" "0"
 "angle" "-179.999985"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "misc_model"
 "origin" "-832.000000 -640.000000 384.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "skin" "1"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "misc_model"
 "origin" "384.000000 -512.000000 -320.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "skin" "1"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "misc_model"
 "origin" "384.000000 1664.000000 -320.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "skin" "1"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "misc_model"
 "origin" "1472.000000 1024.000000 -88.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "skin" "1"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "misc_model"
@@ -44853,6 +44860,7 @@ effects_warpzone/rededge
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "skin" "0"
 "angle" "-179.999985"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "misc_model"
@@ -44860,6 +44868,7 @@ effects_warpzone/rededge
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "skin" "0"
 "angle" "-179.999985"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "misc_model"
@@ -44867,6 +44876,7 @@ effects_warpzone/rededge
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "skin" "0"
 "angle" "-179.999985"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "item_health_large"

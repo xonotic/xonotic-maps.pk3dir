@@ -37471,7 +37471,7 @@ exx/trim-psimple04
 "origin" "288 -392 32"
 }
 {
-"classname" "weapon_rocketlauncher"
+"classname" "weapon_devastator"
 "origin" "-1824 128 344"
 "targetname" "t234"
 }
@@ -44571,7 +44571,7 @@ trak5x/base-pipe1a
 "angle" "45.000000"
 }
 {
-"classname" "weapon_nex"
+"classname" "weapon_vortex"
 "origin" "-784 0 512"
 }
 {
@@ -44579,11 +44579,11 @@ trak5x/base-pipe1a
 "origin" "0 1040 76"
 }
 {
-"classname" "weapon_uzi"
+"classname" "weapon_machinegun"
 "origin" "0 752 296"
 }
 {
-"classname" "weapon_grenadelauncher"
+"classname" "weapon_mortar"
 "origin" "448.000000 640.000000 256.000000"
 "angle" "-90.000000"
 }

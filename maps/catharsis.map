@@ -38935,6 +38935,7 @@ brushDef
 "angle" "-90.000000"
 "_castshadows" "1"
 "modelscale" "1.200000"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "trigger_push"
@@ -39019,7 +39020,7 @@ brushDef
 "origin" "-432.000000 5744.000000 -80.000000"
 }
 {
-"classname" "weapon_rocketlauncher"
+"classname" "weapon_devastator"
 "origin" "-24.000000 6192.000000 -80.000000"
 }
 {
@@ -39031,7 +39032,7 @@ brushDef
 "origin" "-96.000000 6200.000000 -80.000000"
 }
 {
-"classname" "weapon_uzi"
+"classname" "weapon_machinegun"
 "origin" "-168.000000 7248.000000 -280.000000"
 }
 {
@@ -39067,11 +39068,11 @@ brushDef
 "origin" "-8.000000 5912.000000 -88.000000"
 }
 {
-"classname" "weapon_nex"
+"classname" "weapon_vortex"
 "origin" "-1300.000000 5196.000000 -144.000000"
 }
 {
-"classname" "weapon_grenadelauncher"
+"classname" "weapon_mortar"
 "origin" "704.000000 5796.000000 -80.000000"
 }
 {
@@ -39089,6 +39090,7 @@ brushDef
 "angle" "-90.000000"
 "_castshadows" "1"
 "modelscale" "1.200000"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "item_armor_small"
@@ -39216,7 +39218,7 @@ brushDef
 "origin" "336.000000 1360.000000 -80.000000"
 }
 {
-"classname" "weapon_rocketlauncher"
+"classname" "weapon_devastator"
 "origin" "-72.000000 912.000000 -80.000000"
 }
 {
@@ -39243,6 +39245,7 @@ brushDef
 "_castshadows" "1"
 "modelscale" "1.200000"
 "_skin" "1"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "item_rockets"
@@ -39294,11 +39297,11 @@ brushDef
 "origin" "-88.000000 1192.000000 -88.000000"
 }
 {
-"classname" "weapon_nex"
+"classname" "weapon_vortex"
 "origin" "1204.000000 1908.000000 -144.000000"
 }
 {
-"classname" "weapon_grenadelauncher"
+"classname" "weapon_mortar"
 "origin" "-800.000000 1308.000000 -80.000000"
 }
 {
@@ -40283,6 +40286,7 @@ brushDef
 "_castshadows" "1"
 "modelscale" "1.200000"
 "_skin" "1"
+"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "misc_model"
@@ -41303,7 +41307,7 @@ brushDef
 "origin" "208.000000 2560.000000 -288.000000"
 }
 {
-"classname" "weapon_uzi"
+"classname" "weapon_machinegun"
 "origin" "72.000000 -144.000000 -272.000000"
 }
 {

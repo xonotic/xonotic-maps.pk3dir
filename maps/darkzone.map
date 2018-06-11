@@ -25427,7 +25427,7 @@ trak5x/trim-trim1a
 }
 }
 {
-"classname" "weapon_rocketlauncher"
+"classname" "weapon_devastator"
 "noalign" "1"
 "origin" "720.000000 828.000000 27.000000"
 }
@@ -26414,7 +26414,7 @@ exx/trim-01
 "origin" "288.000000 800.000000 104.000000"
 }
 {
-"classname" "weapon_uzi"
+"classname" "weapon_machinegun"
 "origin" "672.000000 560.000000 64.000000"
 }
 {
@@ -32866,7 +32866,7 @@ exx/wall-metalrib01
 "targetname" "teletarget2"
 }
 {
-"classname" "weapon_rocketlauncher"
+"classname" "weapon_devastator"
 "origin" "-1000.000000 -240.000000 128.000000"
 }
 {
@@ -33007,7 +33007,7 @@ exx/wall-metalrib01
 "origin" "360.000000 -64.000000 272.000000"
 }
 {
-"classname" "weapon_grenadelauncher"
+"classname" "weapon_mortar"
 "origin" "431.000000 -72.000000 315.000000"
 }
 {

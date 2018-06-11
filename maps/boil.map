@@ -12350,11 +12350,11 @@ brushDef
 "angle" "-45.000008"
 }
 {
-"classname" "weapon_uzi"
+"classname" "weapon_machinegun"
 "origin" "352.000000 928.000000 -104.000000"
 }
 {
-"classname" "weapon_nex"
+"classname" "weapon_vortex"
 "origin" "1488.000000 976.000000 16.000000"
 }
 {
@@ -12384,7 +12384,7 @@ brushDef
 "targetname" "target_position3"
 }
 {
-"classname" "weapon_grenadelauncher"
+"classname" "weapon_mortar"
 "origin" "1280.000000 -640.000000 -472.000000"
 }
 {
@@ -12402,7 +12402,7 @@ brushDef
 "origin" "0.000000 -192.000000 -696.000000"
 }
 {
-"classname" "weapon_rocketlauncher"
+"classname" "weapon_devastator"
 "origin" "352.000000 928.000000 -568.000000"
 }
 {
