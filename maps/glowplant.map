@@ -44619,7 +44619,7 @@ trak5x/base-pipe1a
 "message" "was killed by an explosive barrel"
 "message2" "was killed with an explosive barrel by"
 "noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "40"
+"respawntime" "35"
 "respawntimejitter" "10"
 }
 {
@@ -44644,7 +44644,7 @@ trak5x/base-pipe1a
 "message" "was killed by an explosive barrel"
 "message2" "was killed with an explosive barrel by"
 "noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "40"
+"respawntime" "35"
 "respawntimejitter" "10"
 }
 {
@@ -44669,7 +44669,7 @@ trak5x/base-pipe1a
 "message" "was killed by an explosive barrel"
 "message2" "was killed with an explosive barrel by"
 "noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "40"
+"respawntime" "35"
 "respawntimejitter" "10"
 }
 {
@@ -44694,7 +44694,7 @@ trak5x/base-pipe1a
 "message" "was killed by an explosive barrel"
 "message2" "was killed with an explosive barrel by"
 "noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "40"
+"respawntime" "35"
 "respawntimejitter" "10"
 }
 {
@@ -44719,7 +44719,7 @@ trak5x/base-pipe1a
 "message" "was killed by an explosive barrel"
 "message2" "was killed with an explosive barrel by"
 "noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "40"
+"respawntime" "35"
 "respawntimejitter" "10"
 }
 {
@@ -44744,7 +44744,7 @@ trak5x/base-pipe1a
 "message" "was killed by an explosive barrel"
 "message2" "was killed with an explosive barrel by"
 "noise" "sound/weapons/rocket_impact.ogg"
-"respawntime" "40"
+"respawntime" "35"
 "respawntimejitter" "10"
 }
 {

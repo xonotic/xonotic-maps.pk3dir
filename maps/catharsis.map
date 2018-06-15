@@ -41785,6 +41785,8 @@ brushDef
 "message" "was killed by an explosive barrel"
 "message2" "was killed with an explosive barrel by"
 "noise" "sound/weapons/rocket_impact.ogg"
+"respawntime" "35"
+"respawntimejitter" "10"
 }
 {
 "classname" "misc_breakablemodel"
@@ -41809,6 +41811,8 @@ brushDef
 "message" "was killed by an explosive barrel"
 "message2" "was killed with an explosive barrel by"
 "noise" "sound/weapons/rocket_impact.ogg"
+"respawntime" "35"
+"respawntimejitter" "10"
 }
 {
 "classname" "misc_breakablemodel"
@@ -41833,6 +41837,8 @@ brushDef
 "message" "was killed by an explosive barrel"
 "message2" "was killed with an explosive barrel by"
 "noise" "sound/weapons/rocket_impact.ogg"
+"respawntime" "35"
+"respawntimejitter" "10"
 }
 {
 "classname" "misc_breakablemodel"
@@ -41858,6 +41864,8 @@ brushDef
 "message" "was killed by an explosive barrel"
 "message2" "was killed with an explosive barrel by"
 "noise" "sound/weapons/rocket_impact.ogg"
+"respawntime" "35"
+"respawntimejitter" "10"
 }
 {
 "classname" "misc_breakablemodel"
@@ -41883,6 +41891,8 @@ brushDef
 "message" "was killed by an explosive barrel"
 "message2" "was killed with an explosive barrel by"
 "noise" "sound/weapons/rocket_impact.ogg"
+"respawntime" "35"
+"respawntimejitter" "10"
 }
 {
 "classname" "misc_breakablemodel"
@@ -41908,6 +41918,8 @@ brushDef
 "message" "was killed by an explosive barrel"
 "message2" "was killed with an explosive barrel by"
 "noise" "sound/weapons/rocket_impact.ogg"
+"respawntime" "35"
+"respawntimejitter" "10"
 }
 {
 "classname" "misc_model"
