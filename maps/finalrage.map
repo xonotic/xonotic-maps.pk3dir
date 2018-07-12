@@ -15815,13 +15815,13 @@ map_stormkeep/rock
 }
 {
 "classname" "light"
-"target" "t7"
+"target" "t71"
 "light" "75"
 "origin" "280.000000 -192.000000 396.000000"
 }
 {
 "classname" "info_null"
-"targetname" "t6"
+"targetname" "t71"
 "origin" "332.000000 -192.000000 420.000000"
 }
 {
