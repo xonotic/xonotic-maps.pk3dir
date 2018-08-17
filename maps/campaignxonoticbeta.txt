@@ -13,7 +13,7 @@
 "dm","solarium","8","6","15",,"g_nix 1","[Special] Deathmatch: Solarium","NIX: In this mutator everyone will spawn with the same weapon, but the weapon will change randomly after some time."
 "ft","warfare","5","6","5",,,"Freeze Tag: Warfare","If you get fragged you will be frozen. You revive teammates by standing close to them for a few seconds. A round is over if an entire team is frozen."
 "lms","drain","6","6","5",,,"Last Man Standing: Drain","You will have 5 lives in this gamemode and the goal is not to run out of lives before the others do!\n= The last man standing"
-"tdm","afterslime","5","7","20",,"sv_gravity 200"," [Special] Team Deathmatch: Afterslime","Another TDM match.\nThough, we lowered the gravity a little bit."
+"tdm","afterslime","5","7","20",,"sv_gravity 200","[Special] Team Deathmatch: Afterslime","Another TDM match.\nThough, we lowered the gravity a little bit."
 "ka","runningman","6","7","15",,,"Keepaway: Running Man","Pick up the ball and frag everything that moves!\nHint: You can shoot through warpzones!"
 "nexball","nexballarena","5","7","5",,,"Nexball: Nexball Arena","This is similar to football now. You move the ball if you hit it, so try to push it into the enemies goal. First team who can score 5 goals wins!"
 "kh","silentsiege","8","8","600",,,"Key Hunt: Silent Siege","Key Hunt one more time! Get 600 points to win."
