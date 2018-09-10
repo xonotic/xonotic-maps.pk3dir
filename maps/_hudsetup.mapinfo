@@ -5,3 +5,7 @@ cdtrack 1
 noautomaplist
 forbidden
 gametype dm
+
+settemp bot_number 0
+settemp minplayers 0
+settemp timelimit 0
