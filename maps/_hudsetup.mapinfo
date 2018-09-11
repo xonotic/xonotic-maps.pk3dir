@@ -6,6 +6,6 @@ noautomaplist
 forbidden
 gametype dm
 
-settemp bot_number 0
-settemp minplayers 0
-settemp timelimit 0
+settemp_for_type all bot_number 0
+settemp_for_type all minplayers 0
+settemp_for_type all timelimit 0
