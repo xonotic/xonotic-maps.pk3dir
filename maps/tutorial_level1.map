@@ -7069,28 +7069,11 @@ brushDef
 }
 // entity 59
 {
-"classname" "trigger_once"
-"message" "use the blaster to get to the higher position"
-// brush 0
-{
-brushDef
-{
-( 96 -1600 192 ) ( 96 -1856 192 ) ( 32 -1600 192 ) ( ( 0.015625 0 41 ) ( 0 0.015625 232 ) ) common/trigger 0 0 0
-( 96 -1600 192 ) ( 32 -1600 192 ) ( 96 -1600 0 ) ( ( 0.015625 0 24 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
-( 96 -1600 192 ) ( 96 -1600 0 ) ( 96 -1856 192 ) ( ( 0.015625 0 41 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
-( 32 -1856 0 ) ( 96 -1856 0 ) ( 32 -1600 0 ) ( ( 0.015625 0 41 ) ( 0 0.015625 24 ) ) common/trigger 0 0 0
-( 32 -1856 0 ) ( 32 -1856 192 ) ( 96 -1856 0 ) ( ( 0.015625 0 232 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
-( 32 -1856 0 ) ( 32 -1600 0 ) ( 32 -1856 192 ) ( ( 0.015625 0 215 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
-}
-}
-}
-// entity 60
-{
 "classname" "light"
 "origin" "640.000000 -1728.000000 400.000000"
 "light" "30"
 }
-// entity 61
+// entity 60
 {
 "classname" "light"
 "origin" "640.000000 -1728.000000 416.000000"
@@ -7098,25 +7081,25 @@ brushDef
 "target" "l70"
 "radius" "128"
 }
-// entity 62
+// entity 61
 {
 "classname" "target_position"
 "origin" "640.000000 -1728.000000 320.000000"
 "targetname" "l70"
 }
-// entity 63
+// entity 62
 {
 "classname" "misc_model"
 "origin" "640.000000 -1728.000000 448.000000"
 "model" "models/lights/xonlight02.md3"
 }
-// entity 64
+// entity 63
 {
 "classname" "light"
 "origin" "192.000000 -1728.000000 400.000000"
 "light" "30"
 }
-// entity 65
+// entity 64
 {
 "classname" "light"
 "origin" "192.000000 -1728.000000 416.000000"
@@ -7124,19 +7107,19 @@ brushDef
 "target" "l71"
 "radius" "128"
 }
-// entity 66
+// entity 65
 {
 "classname" "target_position"
 "origin" "192.000000 -1728.000000 320.000000"
 "targetname" "l71"
 }
-// entity 67
+// entity 66
 {
 "classname" "misc_model"
 "origin" "192.000000 -1728.000000 448.000000"
 "model" "models/lights/xonlight02.md3"
 }
-// entity 68
+// entity 67
 {
 "classname" "func_group"
 // brush 0
@@ -7368,7 +7351,7 @@ brushDef
 }
 }
 }
-// entity 69
+// entity 68
 {
 "classname" "func_group"
 // brush 0
@@ -7768,7 +7751,7 @@ brushDef
 }
 }
 }
-// entity 70
+// entity 69
 {
 "classname" "func_group"
 // brush 0
@@ -8168,7 +8151,7 @@ brushDef
 }
 }
 }
-// entity 71
+// entity 70
 {
 "classname" "func_group"
 // brush 0
@@ -8568,7 +8551,7 @@ brushDef
 }
 }
 }
-// entity 72
+// entity 71
 {
 "classname" "func_group"
 // brush 0
@@ -8968,26 +8951,26 @@ brushDef
 }
 }
 }
-// entity 73
+// entity 72
 {
 "classname" "item_health_medium"
 "origin" "352.000000 -1648.000000 16.000000"
 "angle" "-179.999985"
 }
-// entity 74
+// entity 73
 {
 "classname" "item_health_medium"
 "origin" "352.000000 -1808.000000 16.000000"
 "angle" "-179.999985"
 }
-// entity 75
+// entity 74
 {
 "classname" "misc_teleporter_dest"
 "origin" "16.000000 -8320.000000 24.000000"
 "targetname" "teleexit_shooting_range"
 "speed" "-1"
 }
-// entity 76
+// entity 75
 {
 "classname" "trigger_teleport"
 "target" "teleexit_exit_room"
@@ -9005,52 +8988,35 @@ brushDef
 }
 }
 }
-// entity 77
+// entity 76
 {
 "classname" "monster_zombie"
 "origin" "804.000000 -8736.000000 25.000000"
 "angle" "90.000000"
 }
-// entity 78
+// entity 77
 {
 "classname" "weapon_hagar"
 "origin" "256.000000 -8320.000000 5.000000"
 }
-// entity 79
+// entity 78
 {
 "classname" "weapon_shotgun"
 "origin" "512.000000 -8320.000000 4.000000"
 }
-// entity 80
-{
-"classname" "trigger_once"
-"message" "Shooting range: test out some weapons"
-// brush 0
-{
-brushDef
-{
-( 96 -8192 192 ) ( 96 -8448 192 ) ( 32 -8192 192 ) ( ( 0.015625 0 144 ) ( 0 0.015625 232 ) ) common/trigger 0 0 0
-( 96 -8192 192 ) ( 32 -8192 192 ) ( 96 -8192 0 ) ( ( 0.015625 0 24 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
-( 96 -8192 192 ) ( 96 -8192 0 ) ( 96 -8448 192 ) ( ( 0.015625 0 144 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
-( 32 -8448 0 ) ( 96 -8448 0 ) ( 32 -8192 0 ) ( ( 0.015625 0 144 ) ( 0 0.015625 24 ) ) common/trigger 0 0 0
-( 32 -8448 0 ) ( 32 -8448 192 ) ( 96 -8448 0 ) ( ( 0.015625 0 232 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
-( 32 -8448 0 ) ( 32 -8192 0 ) ( 32 -8448 192 ) ( ( 0.015625 0 112 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
-}
-}
-}
-// entity 81
+// entity 79
 {
 "classname" "misc_model"
 "origin" "256.000000 -8320.000000 192.000000"
 "model" "models/lights/xonlight01.md3"
 }
-// entity 82
+// entity 80
 {
 "classname" "light"
 "origin" "256.000000 -8320.000000 160.000000"
 "light" "30"
 }
-// entity 83
+// entity 81
 {
 "classname" "light"
 "origin" "256.000000 -8320.000000 176.000000"
@@ -9058,25 +9024,25 @@ brushDef
 "target" "l73"
 "radius" "128"
 }
-// entity 84
+// entity 82
 {
 "classname" "target_position"
 "origin" "256.000000 -8320.000000 96.000000"
 "targetname" "l73"
 }
-// entity 85
+// entity 83
 {
 "classname" "misc_model"
 "origin" "640.000000 -8320.000000 192.000000"
 "model" "models/lights/xonlight01.md3"
 }
-// entity 86
+// entity 84
 {
 "classname" "light"
 "origin" "640.000000 -8320.000000 160.000000"
 "light" "30"
 }
-// entity 87
+// entity 85
 {
 "classname" "light"
 "origin" "640.000000 -8320.000000 176.000000"
@@ -9084,129 +9050,129 @@ brushDef
 "target" "l74"
 "radius" "128"
 }
-// entity 88
+// entity 86
 {
 "classname" "target_position"
 "origin" "640.000000 -8320.000000 96.000000"
 "targetname" "l74"
 }
-// entity 89
+// entity 87
 {
 "classname" "light"
 "origin" "224.000000 -8560.000000 96.000000"
 "light" "60"
 "_color" "1 0.501961 0.501961"
 }
-// entity 90
+// entity 88
 {
 "classname" "light"
 "origin" "672.000000 -8560.000000 96.000000"
 "light" "60"
 "_color" "1 0.501961 0.501961"
 }
-// entity 91
+// entity 89
 {
 "classname" "light"
 "origin" "448.000000 -8560.000000 96.000000"
 "light" "60"
 "_color" "1 0.501961 0.501961"
 }
-// entity 92
+// entity 90
 {
 "classname" "light"
 "origin" "240.000000 -8816.000000 96.000000"
 "light" "60"
 "_color" "1 0.501961 0.501961"
 }
-// entity 93
+// entity 91
 {
 "classname" "light"
 "origin" "688.000000 -8816.000000 96.000000"
 "light" "60"
 "_color" "1 0.501961 0.501961"
 }
-// entity 94
+// entity 92
 {
 "classname" "light"
 "origin" "464.000000 -8816.000000 96.000000"
 "light" "60"
 "_color" "1 0.501961 0.501961"
 }
-// entity 95
+// entity 93
 {
 "classname" "light"
 "origin" "80.000000 -8608.000000 96.000000"
 "light" "60"
 "_color" "1 0.501961 0.501961"
 }
-// entity 96
+// entity 94
 {
 "classname" "light"
 "origin" "80.000000 -8768.000000 96.000000"
 "light" "60"
 "_color" "1 0.501961 0.501961"
 }
-// entity 97
+// entity 95
 {
 "classname" "light"
 "origin" "816.000000 -8608.000000 96.000000"
 "light" "60"
 "_color" "1 0.501961 0.501961"
 }
-// entity 98
+// entity 96
 {
 "classname" "light"
 "origin" "816.000000 -8768.000000 96.000000"
 "light" "60"
 "_color" "1 0.501961 0.501961"
 }
-// entity 99
+// entity 97
 {
 "classname" "monster_zombie"
 "origin" "544.000000 -8800.000000 25.000000"
 "angle" "90.000000"
 }
-// entity 100
+// entity 98
 {
 "classname" "monster_zombie"
 "origin" "384.000000 -8832.000000 25.000000"
 "angle" "90.000000"
 }
-// entity 101
+// entity 99
 {
 "classname" "monster_zombie"
 "origin" "256.000000 -8832.000000 25.000000"
 "angle" "90.000000"
 }
-// entity 102
+// entity 100
 {
 "classname" "monster_zombie"
 "origin" "128.000000 -8800.000000 25.000000"
 "angle" "90.000000"
 }
-// entity 103
+// entity 101
 {
 "classname" "weapon_vortex"
 "origin" "384.000000 -8320.000000 4.000000"
 }
-// entity 104
+// entity 102
 {
 "classname" "weapon_mortar"
 "origin" "128.000000 -8320.000000 4.000000"
 }
-// entity 105
+// entity 103
 {
 "classname" "weapon_machinegun"
 "origin" "640.000000 -8320.000000 4.000000"
 }
-// entity 106
+// entity 104
 {
 "classname" "misc_teleporter_dest"
 "origin" "16.000000 -2256.000000 24.000000"
 "targetname" "teleexit_exit_room"
 "speed" "-1"
 }
-// entity 107
+// entity 105
 {
 "classname" "trigger_hurt"
 "dmg" "125"
@@ -9223,23 +9189,24 @@ brushDef
 }
 }
 }
-// entity 108
+// entity 106
 {
 "classname" "item_health_mega"
 "origin" "224.000000 -2624.000000 4.000000"
 "respawntime" "10"
 }
-// entity 109
+// entity 107
 {
 "classname" "item_armor_mega"
 "origin" "96.000000 -2624.000000 4.000000"
 "respawntime" "10"
 }
-// entity 110
+// entity 108
 {
 "classname" "trigger_multiple"
 "message" "Congratulations, you almost finished this tutorial!\nBefore you leave this level, make sure to use the health and armors pickups to survive the deadly lasers!"
 "wait" "5"
+"target" "checkpoint_exit_room"
 // brush 0
 {
 brushDef
@@ -9253,19 +9220,19 @@ brushDef
 }
 }
 }
-// entity 111
+// entity 109
 {
 "classname" "misc_model"
 "origin" "160.000000 -2240.000000 192.000000"
 "model" "models/lights/xonlight01.md3"
 }
-// entity 112
+// entity 110
 {
 "classname" "light"
 "origin" "160.000000 -2240.000000 160.000000"
 "light" "30"
 }
-// entity 113
+// entity 111
 {
 "classname" "light"
 "origin" "160.000000 -2240.000000 176.000000"
@@ -9273,25 +9240,25 @@ brushDef
 "target" "l61"
 "radius" "128"
 }
-// entity 114
+// entity 112
 {
 "classname" "target_position"
 "origin" "160.000000 -2240.000000 96.000000"
 "targetname" "l61"
 }
-// entity 115
+// entity 113
 {
 "classname" "misc_model"
 "origin" "736.000000 -2240.000000 192.000000"
 "model" "models/lights/xonlight01.md3"
 }
-// entity 116
+// entity 114
 {
 "classname" "light"
 "origin" "736.000000 -2240.000000 160.000000"
 "light" "30"
 }
-// entity 117
+// entity 115
 {
 "classname" "light"
 "origin" "736.000000 -2240.000000 176.000000"
@@ -9299,25 +9266,25 @@ brushDef
 "target" "l66"
 "radius" "128"
 }
-// entity 118
+// entity 116
 {
 "classname" "target_position"
 "origin" "736.000000 -2240.000000 96.000000"
 "targetname" "l66"
 }
-// entity 119
+// entity 117
 {
 "classname" "misc_model"
 "origin" "384.000000 -2240.000000 192.000000"
 "model" "models/lights/xonlight01.md3"
 }
-// entity 120
+// entity 118
 {
 "classname" "light"
 "origin" "384.000000 -2240.000000 160.000000"
 "light" "30"
 }
-// entity 121
+// entity 119
 {
 "classname" "light"
 "origin" "384.000000 -2240.000000 176.000000"
@@ -9325,25 +9292,25 @@ brushDef
 "target" "l67"
 "radius" "128"
 }
-// entity 122
+// entity 120
 {
 "classname" "target_position"
 "origin" "384.000000 -2240.000000 96.000000"
 "targetname" "l67"
 }
-// entity 123
+// entity 121
 {
 "classname" "misc_model"
 "origin" "160.000000 -2560.000000 192.000000"
 "model" "models/lights/xonlight01.md3"
 }
-// entity 124
+// entity 122
 {
 "classname" "light"
 "origin" "160.000000 -2560.000000 160.000000"
 "light" "30"
 }
-// entity 125
+// entity 123
 {
 "classname" "light"
 "origin" "160.000000 -2560.000000 176.000000"
@@ -9351,13 +9318,13 @@ brushDef
 "target" "l72"
 "radius" "128"
 }
-// entity 126
+// entity 124
 {
 "classname" "target_position"
 "origin" "160.000000 -2560.000000 96.000000"
 "targetname" "l72"
 }
-// entity 127
+// entity 125
 {
 "classname" "misc_laser"
 "origin" "552.000000 -2312.000000 32.000000"
@@ -9367,7 +9334,7 @@ brushDef
 "mdl" "laser_deadly"
 "modelscale" "-1"
 }
-// entity 128
+// entity 126
 {
 "classname" "misc_laser"
 "origin" "552.000000 -2312.000000 64.000000"
@@ -9377,7 +9344,7 @@ brushDef
 "mdl" "laser_deadly"
 "modelscale" "-1"
 }
-// entity 129
+// entity 127
 {
 "classname" "misc_laser"
 "origin" "552.000000 -2312.000000 96.000000"
@@ -9387,28 +9354,28 @@ brushDef
 "mdl" "laser_deadly"
 "modelscale" "-1"
 }
-// entity 130
+// entity 128
 {
 "classname" "target_position"
 "origin" "552.000000 -2184.000000 96.000000"
 "angle" "-90.000000"
 "targetname" "target_laser1"
 }
-// entity 131
+// entity 129
 {
 "classname" "target_position"
 "origin" "552.000000 -2184.000000 64.000000"
 "angle" "-90.000000"
 "targetname" "target_laser2"
 }
-// entity 132
+// entity 130
 {
 "classname" "target_position"
 "origin" "552.000000 -2184.000000 32.000000"
 "angle" "-90.000000"
 "targetname" "target_laser3"
 }
-// entity 133
+// entity 131
 {
 "classname" "trigger_once"
 "target" "target_end_level"
@@ -9425,40 +9392,73 @@ brushDef
 }
 }
 }
-// entity 134
+// entity 132
 {
 "classname" "target_changelevel"
 "origin" "800.000000 -2240.000000 96.000000"
 "targetname" "target_end_level"
 }
-// entity 135
-{
-"classname" "trigger_multiple"
-"target" "spawn_exit_room"
-// brush 0
-{
-brushDef
-{
-( 528 -2080 192 ) ( 528 -2336 192 ) ( 496 -2080 192 ) ( ( 0.015625 0 8.5 ) ( 0 0.015625 255.75 ) ) common/trigger 0 0 0
-( 528 -2112 32 ) ( 496 -2112 32 ) ( 528 -2112 0 ) ( ( 0.015625 0 0.25 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
-( 528 -2112 32 ) ( 528 -2112 0 ) ( 528 -2368 32 ) ( ( 0.015625 0 9 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
-( 496 -2368 0 ) ( 528 -2368 0 ) ( 496 -2112 0 ) ( ( 0.015625 0 9 ) ( 0 0.015625 0.25 ) ) common/trigger 0 0 0
-( 496 -2368 0 ) ( 496 -2368 32 ) ( 528 -2368 0 ) ( ( 0.015625 0 255.75 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
-( 496 -2368 0 ) ( 496 -2112 0 ) ( 496 -2368 32 ) ( ( 0.015625 0 247 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
-}
-}
-}
-// entity 136
+// entity 133
 {
 "classname" "target_spawnpoint"
 "origin" "16.000000 -2224.000000 24.000000"
-"targetname" "spawn_exit_room"
+"targetname" "checkpoint_exit_room"
 }
-// entity 137
+// entity 134
 {
 "classname" "target_items"
 "origin" "288.000000 -288.000000 96.000000"
 "targetname" "target_remove_all_items"
 "spawnflags" "1"
 "angle" "-179.999985"
+}
+// entity 135
+{
+"classname" "trigger_multiple"
+"message" "use the blaster to get to the higher position"
+"target" "checkpoint_blaster_jump"
+"wait" "5"
+// brush 0
+{
+brushDef
+{
+( 96 -1600 192 ) ( 96 -1856 192 ) ( 32 -1600 192 ) ( ( 0.015625 0 41 ) ( 0 0.015625 232 ) ) common/trigger 0 0 0
+( 96 -1600 192 ) ( 32 -1600 192 ) ( 96 -1600 0 ) ( ( 0.015625 0 24 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+( 96 -1600 192 ) ( 96 -1600 0 ) ( 96 -1856 192 ) ( ( 0.015625 0 41 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+( 32 -1856 0 ) ( 96 -1856 0 ) ( 32 -1600 0 ) ( ( 0.015625 0 41 ) ( 0 0.015625 24 ) ) common/trigger 0 0 0
+( 32 -1856 0 ) ( 32 -1856 192 ) ( 96 -1856 0 ) ( ( 0.015625 0 232 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+( 32 -1856 0 ) ( 32 -1600 0 ) ( 32 -1856 192 ) ( ( 0.015625 0 215 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+}
+}
+}
+// entity 136
+{
+"classname" "trigger_multiple"
+"message" "Shooting range: test out some weapons"
+"wait" "5"
+"target" "checkpoint_shooting_range"
+// brush 0
+{
+brushDef
+{
+( 96 -8192 192 ) ( 96 -8448 192 ) ( 32 -8192 192 ) ( ( 0.015625 0 144 ) ( 0 0.015625 232 ) ) common/trigger 0 0 0
+( 96 -8192 192 ) ( 32 -8192 192 ) ( 96 -8192 0 ) ( ( 0.015625 0 24 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+( 96 -8192 192 ) ( 96 -8192 0 ) ( 96 -8448 192 ) ( ( 0.015625 0 144 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+( 32 -8448 0 ) ( 96 -8448 0 ) ( 32 -8192 0 ) ( ( 0.015625 0 144 ) ( 0 0.015625 24 ) ) common/trigger 0 0 0
+( 32 -8448 0 ) ( 32 -8448 192 ) ( 96 -8448 0 ) ( ( 0.015625 0 232 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+( 32 -8448 0 ) ( 32 -8192 0 ) ( 32 -8448 192 ) ( ( 0.015625 0 112 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+}
+}
+}
+// entity 137
+{
+"classname" "target_spawnpoint"
+"origin" "16.000000 -1696.000000 24.000000"
+"targetname" "checkpoint_blaster_jump"
+}
+// entity 138
+{
+"classname" "target_spawnpoint"
+"origin" "16.000000 -8288.000000 24.000000"
+"targetname" "checkpoint_shooting_range"
 }
