@@ -8991,7 +8991,7 @@ brushDef
 {
 "classname" "trigger_teleport"
 "target" "teleexit_exit_room"
-"target2" "target_remove_all_items1"
+"target2" "target_remove_all_items"
 // brush 0
 {
 brushDef
