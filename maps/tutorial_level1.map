@@ -9013,7 +9013,7 @@ brushDef
 }
 {
 "classname" "trigger_multiple"
-"message" "Use the blaster to get to the higher position."
+"message" "Shoot at your feet with the blaster to jump high."
 "target" "checkpoint_blaster_jump"
 "wait" "5"
 {
