@@ -18462,7 +18462,6 @@ brushDef
 "targetname" "door_weapon_electro"
 "angle" "-1"
 "speed" "500"
-"spawnflags" "32"
 {
 brushDef
 {
@@ -18941,7 +18940,6 @@ brushDef
 "targetname" "door_weapon_devastator"
 "angle" "-1"
 "speed" "500"
-"spawnflags" "32"
 {
 brushDef
 {
@@ -19353,7 +19351,6 @@ brushDef
 "targetname" "door_splashdamage"
 "angle" "-1"
 "speed" "500"
-"spawnflags" "32"
 {
 brushDef
 {
