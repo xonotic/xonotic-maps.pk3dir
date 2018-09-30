@@ -1,0 +1,3 @@
+//campaign:Tutorial by Freddy & SpiKe
+//"game","mapname","bots","skill","fraglimit","timelimit","mutator-sets","description","long description"
+"dm","tutorial_level1","0","1","0","0",,"Basic tutorial","Welcome to the Xonotic tutorial!"
