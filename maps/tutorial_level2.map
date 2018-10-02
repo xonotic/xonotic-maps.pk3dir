@@ -17863,7 +17863,7 @@ brushDef
 }
 {
 "classname" "misc_teleporter_dest"
-"origin" "16.000000 -2432.000000 24.000000"
+"origin" "16.000000 -2448.000000 24.000000"
 "targetname" "teleexit_wall_blastering"
 "speed" "-1"
 }
@@ -18058,18 +18058,19 @@ brushDef
 }
 {
 "classname" "item_health_medium"
-"origin" "224.000000 -2336.000000 16.000000"
+"origin" "224.000000 -2336.000000 0.000000"
 "angle" "-179.999985"
 }
 {
 "classname" "item_health_medium"
-"origin" "224.000000 -2528.000000 16.000000"
+"origin" "224.000000 -2528.000000 0.000000"
 "angle" "-179.999985"
 }
 {
 "classname" "trigger_multiple"
 "message" "Use the blaster to accelerate through the corridor."
 "wait" "5"
+"target" "checkpoint_wall_blastering"
 {
 brushDef
 {
@@ -18134,7 +18135,7 @@ brushDef
 }
 {
 "classname" "misc_teleporter_dest"
-"origin" "16.000000 -2944.000000 24.000000"
+"origin" "16.000000 -2960.000000 24.000000"
 "targetname" "teleexit_crylink_boost"
 "speed" "-1"
 }
@@ -18373,18 +18374,19 @@ brushDef
 }
 {
 "classname" "item_health_medium"
-"origin" "224.000000 -2848.000000 16.000000"
+"origin" "224.000000 -2848.000000 0.000000"
 "angle" "-179.999985"
 }
 {
 "classname" "item_health_medium"
-"origin" "224.000000 -3040.000000 16.000000"
+"origin" "224.000000 -3040.000000 0.000000"
 "angle" "-179.999985"
 }
 {
 "classname" "trigger_multiple"
 "message" "Use crylink secondary fire to accelerate really fast."
 "wait" "5"
+"target" "checkpoint_crylink_boost"
 {
 brushDef
 {
@@ -18399,7 +18401,7 @@ brushDef
 }
 {
 "classname" "misc_teleporter_dest"
-"origin" "16.000000 -3456.000000 24.000000"
+"origin" "16.000000 -3472.000000 24.000000"
 "targetname" "teleexit_weapon_electro"
 "speed" "-1"
 }
@@ -18593,6 +18595,7 @@ brushDef
 "classname" "trigger_multiple"
 "message" "Shoot the button with an electro combo."
 "wait" "5"
+"target" "checkpoint_weapon_electro"
 {
 brushDef
 {
@@ -18607,7 +18610,7 @@ brushDef
 }
 {
 "classname" "misc_teleporter_dest"
-"origin" "16.000000 -4416.000000 24.000000"
+"origin" "16.000000 -4432.000000 24.000000"
 "targetname" "teleexit_weapon_mortar"
 "speed" "-1"
 }
@@ -18898,7 +18901,7 @@ brushDef
 }
 {
 "classname" "misc_teleporter_dest"
-"origin" "16.000000 -5376.000000 24.000000"
+"origin" "16.000000 -5392.000000 24.000000"
 "targetname" "teleexit_weapon_devastator"
 "speed" "-1"
 }
@@ -19253,6 +19256,7 @@ brushDef
 "classname" "trigger_multiple"
 "message" "Hit the targets with the rockets, curve them if necessary."
 "wait" "5"
+"target" "checkpoint_weapon_devastator"
 {
 brushDef
 {
@@ -19273,6 +19277,7 @@ brushDef
 "classname" "trigger_multiple"
 "message" "Shoot all the targets."
 "wait" "5"
+"target" "checkpoint_weapon_mortar"
 {
 brushDef
 {
@@ -19287,7 +19292,7 @@ brushDef
 }
 {
 "classname" "misc_teleporter_dest"
-"origin" "16.000000 -6784.000000 24.000000"
+"origin" "16.000000 -6800.000000 24.000000"
 "targetname" "teleexit_splashdamage"
 "speed" "-1"
 }
@@ -19346,14 +19351,15 @@ brushDef
 "classname" "trigger_multiple"
 "message" "Splash damage travels through walls."
 "wait" "5"
+"target" "checkpoint_splashdamage"
 {
 brushDef
 {
 ( 64 -6656 192 ) ( 64 -6912 192 ) ( 0 -6656 192 ) ( ( 0.015625 0 120 ) ( 0 0.015625 232.5 ) ) common/trigger 0 0 0
-( 64 -6752 192 ) ( 0 -6752 192 ) ( 64 -6752 0 ) ( ( 0.015625 0 23.5 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+( 64 -6656 192 ) ( 0 -6656 192 ) ( 64 -6656 0 ) ( ( 0.015625 0 23.5 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
 ( 64 -6656 192 ) ( 64 -6656 0 ) ( 64 -6912 192 ) ( ( 0.015625 0 120 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
 ( 0 -6912 0 ) ( 64 -6912 0 ) ( 0 -6656 0 ) ( ( 0.015625 0 120 ) ( 0 0.015625 23.5 ) ) common/trigger 0 0 0
-( 0 -6816 0 ) ( 0 -6816 192 ) ( 64 -6816 0 ) ( ( 0.015625 0 232.5 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+( 0 -6912 0 ) ( 0 -6912 192 ) ( 64 -6912 0 ) ( ( 0.015625 0 232.5 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
 ( 0 -6912 0 ) ( 0 -6656 0 ) ( 0 -6912 192 ) ( ( 0.015625 0 136 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
 }
 }
@@ -19491,4 +19497,34 @@ brushDef
 "origin" "32.000000 -32.000000 128.000000"
 "targetname" "target_remove_all_items"
 "spawnflags" "1"
+}
+{
+"classname" "target_spawnpoint"
+"origin" "16.000000 -2416.000000 24.000000"
+"targetname" "checkpoint_wall_blastering"
+}
+{
+"classname" "target_spawnpoint"
+"origin" "16.000000 -2928.000000 24.000000"
+"targetname" "checkpoint_crylink_boost"
+}
+{
+"classname" "target_spawnpoint"
+"origin" "16.000000 -3440.000000 24.000000"
+"targetname" "checkpoint_weapon_electro"
+}
+{
+"classname" "target_spawnpoint"
+"origin" "16.000000 -4400.000000 24.000000"
+"targetname" "checkpoint_weapon_mortar"
+}
+{
+"classname" "target_spawnpoint"
+"origin" "16.000000 -5360.000000 24.000000"
+"targetname" "checkpoint_weapon_devastator"
+}
+{
+"classname" "target_spawnpoint"
+"origin" "16.000000 -6768.000000 24.000000"
+"targetname" "checkpoint_splashdamage"
 }
