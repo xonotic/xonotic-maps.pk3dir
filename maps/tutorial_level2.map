@@ -19452,3 +19452,43 @@ brushDef
 "origin" "16.000000 -6768.000000 24.000000"
 "targetname" "checkpoint_splashdamage"
 }
+{
+"classname" "item_health_medium"
+"origin" "384.000000 -3552.000000 0.000000"
+"angle" "90.000000"
+}
+{
+"classname" "item_health_medium"
+"origin" "480.000000 -3552.000000 0.000000"
+"angle" "90.000000"
+}
+{
+"classname" "item_health_medium"
+"origin" "384.000000 -4512.000000 0.000000"
+"angle" "90.000000"
+}
+{
+"classname" "item_health_medium"
+"origin" "480.000000 -4512.000000 0.000000"
+"angle" "90.000000"
+}
+{
+"classname" "item_health_medium"
+"origin" "384.000000 -5472.000000 0.000000"
+"angle" "90.000000"
+}
+{
+"classname" "item_health_medium"
+"origin" "480.000000 -5472.000000 0.000000"
+"angle" "90.000000"
+}
+{
+"classname" "item_health_medium"
+"origin" "384.000000 -6880.000000 0.000000"
+"angle" "90.000000"
+}
+{
+"classname" "item_health_medium"
+"origin" "480.000000 -6880.000000 0.000000"
+"angle" "90.000000"
+}
