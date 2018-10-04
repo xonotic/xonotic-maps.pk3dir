@@ -10252,7 +10252,7 @@ brushDef
 ( 320 -7152 320 ) ( 0 -7152 320 ) ( 320 -7152 0 ) ( ( 0.015625 0 192 ) ( 0 0.015625 0 ) ) trak5x/misc-glass 134217728 0 0
 ( 304 -7152 320 ) ( 304 -7152 0 ) ( 304 -7168 320 ) ( ( 0.015625 0 80 ) ( 0 0.015625 0 ) ) common/caulk 134217728 0 0
 ( 0 -7168 8 ) ( 320 -7168 8 ) ( 0 -7152 8 ) ( ( 0.015625 0 80 ) ( 0 0.015625 192 ) ) common/caulk 134217728 0 0
-( 0 -7168 0 ) ( 0 -7168 320 ) ( 320 -7168 0 ) ( ( 0.015625 0 64 ) ( 0 0.015625 0 ) ) trak5x/misc-glass 134217728 0 0
+( 0 -7168 0 ) ( 0 -7168 320 ) ( 320 -7168 0 ) ( ( 0.015625 0 64 ) ( 0 0.015625 0 ) ) common/caulk 134217728 0 0
 ( 16 -7168 64 ) ( 16 -7200 -64 ) ( 16 -7168 -64 ) ( ( 0.015625 0 176 ) ( 0 0.015625 0 ) ) common/caulk 134217728 0 0
 ( 1488 -7184 184 ) ( 1488 -7120 184 ) ( 1616 -7184 184 ) ( ( 0.015625 0 80 ) ( 0 0.015625 64 ) ) common/caulk 134217728 0 0
 }
@@ -17761,12 +17761,12 @@ brushDef
 {
 brushDef
 {
-( 608 -1792 -8 ) ( 608 -2048 -8 ) ( 288 -1792 -8 ) ( ( 0.015625 0 52 ) ( 0 0.015625 237.5 ) ) common/trigger 134217728 0 0
-( 272 -2032 -16 ) ( 592 -2032 -16 ) ( 272 -1776 -16 ) ( ( 0.015625 0 52 ) ( 0 0.015625 18.5 ) ) common/trigger 134217728 0 0
-( 704 -1536 -24 ) ( 720 -1536 -24 ) ( 704 -1536 104 ) ( ( 0.015625 0 24.5 ) ( 0 0.015625 0.75 ) ) common/trigger 134217728 0 0
-( 712 -2048 104 ) ( 720 -2048 -24 ) ( 712 -2048 -24 ) ( ( 0.015625 0 231.5 ) ( 0 0.015625 0.75 ) ) common/trigger 134217728 0 0
-( 384 -1688 104 ) ( 384 -1696 -24 ) ( 384 -1688 -24 ) ( ( 0.015625 0 206 ) ( 0 0.015625 0.75 ) ) common/trigger 134217728 0 0
-( 2560 -1656 -24 ) ( 2560 -1664 -24 ) ( 2560 -1656 104 ) ( ( 0.015625 0 49.5 ) ( 0 0.015625 0.75 ) ) common/trigger 134217728 0 0
+( 608 -1792 -8 ) ( 608 -2048 -8 ) ( 288 -1792 -8 ) ( ( 0.015625 0 52 ) ( 0 0.015625 237.5 ) ) common/trigger 0 0 0
+( 272 -2032 -16 ) ( 592 -2032 -16 ) ( 272 -1776 -16 ) ( ( 0.015625 0 52 ) ( 0 0.015625 18.5 ) ) common/trigger 0 0 0
+( 704 -1536 -24 ) ( 720 -1536 -24 ) ( 704 -1536 104 ) ( ( 0.015625 0 24.5 ) ( 0 0.015625 0.75 ) ) common/trigger 0 0 0
+( 712 -2048 104 ) ( 720 -2048 -24 ) ( 712 -2048 -24 ) ( ( 0.015625 0 231.5 ) ( 0 0.015625 0.75 ) ) common/trigger 0 0 0
+( 384 -1688 104 ) ( 384 -1696 -24 ) ( 384 -1688 -24 ) ( ( 0.015625 0 206 ) ( 0 0.015625 0.75 ) ) common/trigger 0 0 0
+( 2560 -1656 -24 ) ( 2560 -1664 -24 ) ( 2560 -1656 104 ) ( ( 0.015625 0 49.5 ) ( 0 0.015625 0.75 ) ) common/trigger 0 0 0
 }
 }
 }
@@ -18431,6 +18431,7 @@ brushDef
 "targetname" "door_weapon_electro"
 "angle" "-1"
 "speed" "500"
+"wait" "-1"
 {
 brushDef
 {
@@ -18462,12 +18463,6 @@ brushDef
 {
 "classname" "weapon_electro"
 "origin" "128.000000 -3456.000000 4.000000"
-}
-{
-"classname" "relay_activate"
-"origin" "232.000000 -4000.000000 8.000000"
-"targetname" "relay_activate_electro"
-"target" "button_weapon_electro"
 }
 {
 "classname" "relay_deactivate"
@@ -18640,6 +18635,7 @@ brushDef
 "targetname" "door_weapon_mortar"
 "angle" "-1"
 "speed" "500"
+"wait" "-1"
 {
 brushDef
 {
@@ -18728,24 +18724,6 @@ brushDef
 }
 }
 {
-"classname" "relay_activate"
-"origin" "232.000000 -4736.000000 8.000000"
-"targetname" "relay_activate_mortar_3"
-"target" "button_weapon_mortar_3"
-}
-{
-"classname" "relay_activate"
-"origin" "72.000000 -4744.000000 8.000000"
-"targetname" "relay_activate_mortar_1"
-"target" "button_weapon_mortar_1"
-}
-{
-"classname" "relay_activate"
-"origin" "192.000000 -4968.000000 8.000000"
-"targetname" "relay_activate_mortar_2"
-"target" "button_weapon_mortar_2"
-}
-{
 "classname" "relay_deactivate"
 "origin" "240.000000 -4712.000000 8.000000"
 "targetname" "relay_deactivate_mortar_3"
@@ -18762,22 +18740,6 @@ brushDef
 "origin" "192.000000 -4952.000000 8.000000"
 "targetname" "relay_deactivate_mortar_2"
 "target" "button_weapon_mortar_2"
-}
-{
-"classname" "trigger_relay"
-"origin" "160.000000 -4616.000000 8.000000"
-"target2" "relay_activate_mortar_2"
-"target" "relay_activate_mortar_1"
-"target3" "relay_activate_mortar_3"
-"targetname" "reset_buttons_mortar0"
-"target4" "reset_counter_mortar0"
-}
-{
-"classname" "target_spawn"
-"origin" "200.000000 -4608.000000 72.000000"
-"targetname" "reset_counter_mortar0"
-"target" "counter_weapon_mortar0"
-"message" "count 3"
 }
 {
 "classname" "misc_model"
@@ -18910,6 +18872,7 @@ brushDef
 "targetname" "door_weapon_devastator"
 "angle" "-1"
 "speed" "500"
+"wait" "-1"
 {
 brushDef
 {
@@ -19019,24 +18982,6 @@ brushDef
 }
 }
 {
-"classname" "relay_activate"
-"origin" "600.000000 -6344.000000 8.000000"
-"targetname" "relay_activate_devastator_3"
-"target" "button_weapon_devastator_3"
-}
-{
-"classname" "relay_activate"
-"origin" "24.000000 -5840.000000 8.000000"
-"targetname" "relay_activate_devastator_1"
-"target" "button_weapon_devastator_1"
-}
-{
-"classname" "relay_activate"
-"origin" "168.000000 -6056.000000 8.000000"
-"targetname" "relay_activate_devastator_2"
-"target" "button_weapon_devastator_2"
-}
-{
 "classname" "relay_deactivate"
 "origin" "608.000000 -6320.000000 8.000000"
 "targetname" "relay_deactivate_devastator_3"
@@ -19053,22 +18998,6 @@ brushDef
 "origin" "144.000000 -6040.000000 8.000000"
 "targetname" "relay_deactivate_devastator_2"
 "target" "button_weapon_devastator_2"
-}
-{
-"classname" "trigger_relay"
-"origin" "136.000000 -5576.000000 8.000000"
-"target2" "relay_activate_devastator_2"
-"target" "relay_activate_devastator_1"
-"target3" "relay_activate_devastator_3"
-"targetname" "reset_buttons_devastator0"
-"target4" "reset_counter_devastator0"
-}
-{
-"classname" "target_spawn"
-"origin" "176.000000 -5568.000000 72.000000"
-"targetname" "reset_counter_devastator0"
-"target" "counter_weapon_devastator0"
-"message" "count 3"
 }
 {
 "classname" "misc_model"
@@ -19323,6 +19252,7 @@ brushDef
 "targetname" "door_splashdamage"
 "angle" "-1"
 "speed" "500"
+"wait" "-1"
 {
 brushDef
 {
@@ -19334,12 +19264,6 @@ brushDef
 ( 548 -6848 0 ) ( 548 -6720 0 ) ( 548 -6848 8 ) ( ( 0.0078125 0 459.5 ) ( 0 0.0078125 1 ) ) phillipk2x/walls-pk02_wall02a 134217728 0 0
 }
 }
-}
-{
-"classname" "relay_activate"
-"origin" "64.000000 -7232.000000 64.000000"
-"targetname" "relay_activate_wallbanging"
-"target" "button_wallbanging"
 }
 {
 "classname" "relay_deactivate"
