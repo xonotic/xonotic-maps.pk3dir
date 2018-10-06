@@ -6500,7 +6500,7 @@ brushDef
 {
 "classname" "trigger_multiple"
 "wait" "5"
-"message" "Welcome to Xonotic!\nThis tutorial will guide you through basic movement techniques.\nWalk to the teleporter to begin!"
+"message" "Welcome to Xonotic!\nThis tutorial will guide you through basic techniques.\nWalk to the teleporter to begin!"
 {
 brushDef
 {
@@ -8740,7 +8740,7 @@ brushDef
 }
 {
 "classname" "trigger_multiple"
-"message" "Reach the door before the turret kills you, pick up health & armor items on the route!"
+"message" "Reach the door before the turret kills you, pick up health & armor items on the way!"
 "wait" "5"
 "target" "checkpoint_exit_room"
 {
@@ -9302,15 +9302,6 @@ brushDef
 {
 "classname" "item_armor_medium"
 "origin" "1632.000000 -3136.000000 0.000000"
-}
-{
-"classname" "func_button"
-"spawnflags" "128"
-"angle" "-2"
-"health" "40"
-}
-{
-"classname" "func_plat"
 }
 {
 "classname" "func_door"
