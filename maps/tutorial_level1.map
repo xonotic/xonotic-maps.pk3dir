@@ -8238,7 +8238,6 @@ brushDef
 "classname" "trigger_teleport"
 "target" "teleexit_exit_room"
 "target2" "target_remove_all_items"
-"target3" "target_set_health"
 {
 brushDef
 {
@@ -8469,6 +8468,7 @@ brushDef
 "targetname" "target_remove_all_items"
 "spawnflags" "1"
 "angle" "-179.999985"
+"health" "100"
 }
 {
 "classname" "trigger_multiple"
@@ -8939,10 +8939,4 @@ brushDef
 "origin" "1024.000000 -2176.000000 96.000000"
 "targetname" "relay_deactivate_shotgun_3"
 "target" "button_weapon_shotgun_3"
-}
-{
-"classname" "target_items"
-"origin" "832.000000 -8224.000000 96.000000"
-"targetname" "target_set_health"
-"health" "100"
 }
