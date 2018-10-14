@@ -8950,8 +8950,9 @@ brushDef
 "target" "relay_deactivate_shotgun_3"
 "health" "40"
 "targetname" "button_weapon_shotgun_3"
-"speed" "150"
+"speed" "90"
 "lip" "0"
+"noise" "sound/machines/Elevator_Up.wav"
 {
 brushDef
 {
