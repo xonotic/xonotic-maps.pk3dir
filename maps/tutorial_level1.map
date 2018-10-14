@@ -8940,3 +8940,8 @@ brushDef
 "targetname" "relay_deactivate_shotgun_3"
 "target" "button_weapon_shotgun_3"
 }
+{
+"classname" "monster_zombie"
+"origin" "672.000000 -8800.000000 25.000000"
+"angle" "90.000000"
+}
