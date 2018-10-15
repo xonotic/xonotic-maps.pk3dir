@@ -7095,6 +7095,7 @@ brushDef
 "classname" "trigger_teleport"
 "target" "teleexit_shotgun_practice"
 "target2" "target_remove_all_items"
+"target3" "target_reset_health"
 {
 brushDef
 {
@@ -9568,9 +9569,10 @@ brushDef
 }
 {
 "classname" "target_items"
-"origin" "832.000000 -8224.000000 96.000000"
+"origin" "288.000000 -256.000000 96.000000"
 "targetname" "target_reset_health"
 "health" "100"
+"angle" "-180.000000"
 }
 {
 "classname" "light"
