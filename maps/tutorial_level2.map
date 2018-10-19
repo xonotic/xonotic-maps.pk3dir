@@ -17849,6 +17849,7 @@ brushDef
 "classname" "trigger_teleport"
 "target" "teleexit_crylink_boost"
 "target2" "target_remove_all_items"
+"target3" "target_reset_health"
 {
 brushDef
 {
@@ -18121,6 +18122,7 @@ brushDef
 "classname" "trigger_teleport"
 "target" "teleexit_weapon_electro"
 "target2" "target_remove_all_items"
+"target3" "target_reset_health"
 {
 brushDef
 {
@@ -18448,6 +18450,7 @@ brushDef
 "classname" "trigger_teleport"
 "target" "teleexit_weapon_mortar"
 "target2" "target_remove_all_items"
+"target3" "target_reset_health"
 {
 brushDef
 {
@@ -18711,6 +18714,7 @@ brushDef
 "classname" "trigger_teleport"
 "target" "teleexit_weapon_devastator"
 "target2" "target_remove_all_items"
+"target3" "target_reset_health"
 {
 brushDef
 {
@@ -18948,6 +18952,7 @@ brushDef
 "classname" "trigger_teleport"
 "target" "teleexit_splashdamage"
 "target2" "target_remove_all_items"
+"target3" "target_reset_health"
 {
 brushDef
 {
@@ -19491,4 +19496,10 @@ brushDef
 "classname" "item_health_medium"
 "origin" "480.000000 -6880.000000 0.000000"
 "angle" "90.000000"
+}
+{
+"classname" "target_items"
+"origin" "32.000000 -64.000000 128.000000"
+"targetname" "target_reset_health"
+"health" "100"
 }
