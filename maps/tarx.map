@@ -28432,7 +28432,7 @@ exx/floor-simplines
 ( -1434 2984 208 ) ( -1434 2952 208 ) ( -1594 2984 208 ) common/caulk 128 0.0013427734 0 0.125 0.09375 134217728 0 0
 ( -1432 2984 184 ) ( -1592 2984 184 ) ( -1432 2984 152 ) exx/base-metal04 256 0 0 0.03125 0.046875 134217728 0 0
 ( -1464 2952 152 ) ( -1464 2984 152 ) ( -1464 2952 184 ) exx/base-metal04 256 256 0 0.03125 0.0625 134217728 0 0
-( -1592 2952 152 ) ( -1432 2952 152 ) ( -1592 2984 152 ) trak5x/panel-grate1a 256 384 0 0.03125 0.0625 134217728 0 0
+( -1592 2952 152 ) ( -1432 2952 152 ) ( -1592 2984 152 ) trak5x/panel-grate1a 256 128 0 0.03125 0.0625 134217728 0 0
 ( -1592 2952 152 ) ( -1592 2952 184 ) ( -1432 2952 152 ) exx/base-metal04 256 0 0 0.03125 0.046875 134217728 0 0
 }
 {
@@ -37670,7 +37670,7 @@ exx/floor-rnd01
 {
 "classname" "func_pointparticles"
 "impulse" "12"
-"targetname" "particle_1"
+"targetname" "particle_2"
 "mdl" "map_tarx_pipe_smoke"
 "velocity" "-5 0 -3"
 "spawnflags" "4"
@@ -37684,17 +37684,10 @@ exx/floor-rnd01
 }
 }
 {
-"classname" "trigger_multivibrator"
-"origin" "-1108.000000 6240.000000 752.000000"
-"target" "particle_1"
-"wait" "47"
-"angle" "-179.999985"
-}
-{
 "classname" "target_speaker"
 "origin" "-1140.000000 6240.000000 752.000000"
 "noise" "sound/machines/steam_fade.ogg"
-"targetname" "particle_1"
+"targetname" "particle_2"
 "atten" "3"
 "angle" "-179.999985"
 }
@@ -37715,50 +37708,12 @@ exx/floor-rnd01
 }
 }
 {
-"classname" "trigger_multivibrator"
-"origin" "-536.000000 5088.000000 -48.000000"
-"target" "particle_3"
-"wait" "53"
-"angle" "0.000009"
-}
-{
 "classname" "target_speaker"
 "origin" "-504.000000 5088.000000 -48.000000"
 "noise" "sound/machines/steam_fade.ogg"
 "targetname" "particle_3"
 "atten" "3"
 "angle" "0.000009"
-}
-{
-"classname" "func_pointparticles"
-"impulse" "9"
-"targetname" "particle_2"
-"mdl" "map_tarx_pipe_smoke"
-"velocity" "-1 0 -3"
-"spawnflags" "4"
-{
-( 1966 4694 132 ) ( 1966 4726 132 ) ( 1966 4694 164 ) common/trigger -0 0 0 0.5 0.5 0 0 0
-( 1920 4704 132 ) ( 1920 4704 164 ) ( 1984 4704 132 ) common/trigger -0 0 0 0.5 0.5 0 0 0
-( 1920 4694 136 ) ( 1984 4694 136 ) ( 1920 4726 136 ) common/trigger -0 0 0 0.5 0.5 0 0 0
-( 1970 4726 164 ) ( 1970 4726 132 ) ( 1970 4694 164 ) common/trigger -0 0 0 0.5 0.5 0 0 0
-( 1984 4720 164 ) ( 1920 4720 164 ) ( 1984 4720 132 ) common/trigger -0 0 0 0.5 0.5 0 0 0
-( 1984 4726 152 ) ( 1984 4694 152 ) ( 1920 4726 152 ) common/trigger -0 0 0 0.5 0.5 0 0 0
-}
-}
-{
-"classname" "trigger_multivibrator"
-"origin" "1968.000000 4712.000000 120.000000"
-"target" "particle_2"
-"wait" "59"
-"angles" "-90.000000 0.000000 179.999985"
-}
-{
-"classname" "target_speaker"
-"origin" "1968.000000 4712.000000 88.000000"
-"noise" "sound/machines/steam_fade.ogg"
-"targetname" "particle_2"
-"atten" "3"
-"angles" "-90.000000 0.000000 179.999985"
 }
 {
 "classname" "func_pointparticles"
@@ -37775,13 +37730,6 @@ exx/floor-rnd01
 ( -584 5720 -64 ) ( -584 5720 0 ) ( -552 5720 -64 ) common/trigger -0 0 0 0.5 0.5 0 0 0
 ( -560 5714 -64 ) ( -560 5746 -64 ) ( -560 5714 0 ) common/trigger -0 0 0 0.5 0.5 0 0 0
 }
-}
-{
-"classname" "trigger_multivibrator"
-"origin" "-536.000000 5728.000000 -48.000000"
-"target" "particle_4"
-"wait" "71"
-"angle" "0.000009"
 }
 {
 "classname" "target_speaker"
@@ -37806,13 +37754,6 @@ exx/floor-rnd01
 ( 64 5536 200 ) ( 0 5536 200 ) ( 64 5536 168 ) common/trigger -0 0 0 0.5 0.5 0 0 0
 ( 64 5542 176 ) ( 64 5510 176 ) ( 0 5542 176 ) common/trigger -0 0 0 0.5 0.5 0 0 0
 }
-}
-{
-"classname" "trigger_multivibrator"
-"origin" "48.000000 5528.000000 152.000000"
-"target" "particle_5"
-"wait" "31"
-"angles" "-90.000000 0.000000 179.999985"
 }
 {
 "classname" "target_speaker"
@@ -38105,13 +38046,6 @@ exx/floor-rnd01
 }
 }
 {
-"classname" "trigger_multivibrator"
-"origin" "1620.000000 1440.000000 752.000000"
-"target" "particle_7"
-"wait" "47"
-"angle" "0.000016"
-}
-{
 "classname" "target_speaker"
 "origin" "1652.000000 1440.000000 752.000000"
 "noise" "sound/machines/steam_fade.ogg"
@@ -38134,13 +38068,6 @@ exx/floor-rnd01
 ( 1096 2600 -64 ) ( 1096 2600 0 ) ( 1064 2600 -64 ) common/trigger -0 0 0 0.5 0.5 0 0 0
 ( 1072 2606 -64 ) ( 1072 2574 -64 ) ( 1072 2606 0 ) common/trigger -0 0 0 0.5 0.5 0 0 0
 }
-}
-{
-"classname" "trigger_multivibrator"
-"origin" "1048.000000 2592.000000 -48.000000"
-"target" "particle_9"
-"wait" "53"
-"angle" "179.999985"
 }
 {
 "classname" "target_speaker"
@@ -38167,13 +38094,6 @@ exx/floor-rnd01
 }
 }
 {
-"classname" "trigger_multivibrator"
-"origin" "-1456.000000 2968.000000 120.000000"
-"target" "particle_8"
-"wait" "59"
-"angles" "90.000000 0.000000 0.000004"
-}
-{
 "classname" "target_speaker"
 "origin" "-1456.000000 2968.000000 88.000000"
 "noise" "sound/machines/steam_fade.ogg"
@@ -38198,13 +38118,6 @@ exx/floor-rnd01
 }
 }
 {
-"classname" "trigger_multivibrator"
-"origin" "1048.000000 1952.000000 -48.000000"
-"target" "particle_10"
-"wait" "71"
-"angle" "179.999985"
-}
-{
 "classname" "target_speaker"
 "origin" "1016.000000 1952.000000 -48.000000"
 "noise" "sound/machines/steam_fade.ogg"
@@ -38227,13 +38140,6 @@ exx/floor-rnd01
 ( 448 2144 200 ) ( 512 2144 200 ) ( 448 2144 168 ) common/trigger -0 0 0 0.5 0.5 0 0 0
 ( 448 2138 176 ) ( 448 2170 176 ) ( 512 2138 176 ) common/trigger -0 0 0 0.5 0.5 0 0 0
 }
-}
-{
-"classname" "trigger_multivibrator"
-"origin" "464.000000 2152.000000 152.000000"
-"target" "particle_11"
-"wait" "31"
-"angles" "90.000000 0.000000 0.000004"
 }
 {
 "classname" "target_speaker"
@@ -40209,13 +40115,6 @@ exx/floor-rnd01
 }
 }
 {
-"classname" "trigger_multivibrator"
-"origin" "984.000000 4740.000000 348.000000"
-"target" "particle_6"
-"wait" "43"
-"angle" "0.000009"
-}
-{
 "classname" "target_speaker"
 "origin" "1000.000000 4740.000000 348.000000"
 "noise" "sound/machines/steam_fade.ogg"
@@ -40286,13 +40185,6 @@ exx/floor-rnd01
 ( -452 2948 332 ) ( -452 2948 396 ) ( -484 2948 332 ) common/trigger -0 0 0 0.5 0.5 0 0 0
 ( -444 2954 332 ) ( -444 2922 332 ) ( -444 2954 396 ) common/trigger -0 0 0 0.5 0.5 0 0 0
 }
-}
-{
-"classname" "trigger_multivibrator"
-"origin" "-472.000000 2940.000000 348.000000"
-"target" "particle_12"
-"wait" "43"
-"angle" "179.999985"
 }
 {
 "classname" "target_speaker"
@@ -40472,4 +40364,346 @@ exx/floor-rnd01
 "classname" "weapon_hagar"
 "origin" "64.000000 4416.000000 704.000000"
 "angle" "0.000003"
+}
+{
+"classname" "func_pointparticles"
+"impulse" "9"
+"targetname" "particle_1"
+"mdl" "map_tarx_pipe_smoke"
+"velocity" "1 0 -3"
+"spawnflags" "4"
+{
+( 1966 4694 132 ) ( 1966 4726 132 ) ( 1966 4694 164 ) common/trigger -0 0 0 0.5 0.5 0 0 0
+( 1920 4704 132 ) ( 1920 4704 164 ) ( 1984 4704 132 ) common/trigger -0 0 0 0.5 0.5 0 0 0
+( 1920 4694 136 ) ( 1984 4694 136 ) ( 1920 4726 136 ) common/trigger -0 0 0 0.5 0.5 0 0 0
+( 1970 4726 164 ) ( 1970 4726 132 ) ( 1970 4694 164 ) common/trigger -0 0 0 0.5 0.5 0 0 0
+( 1984 4720 164 ) ( 1920 4720 164 ) ( 1984 4720 132 ) common/trigger -0 0 0 0.5 0.5 0 0 0
+( 1984 4726 152 ) ( 1984 4694 152 ) ( 1920 4726 152 ) common/trigger -0 0 0 0.5 0.5 0 0 0
+}
+}
+{
+"classname" "target_speaker"
+"origin" "1968.000000 4712.000000 88.000000"
+"noise" "sound/machines/steam_fade.ogg"
+"targetname" "particle_1"
+"atten" "3"
+"angles" "-90.000000 0.000000 -179.999985"
+}
+{
+"classname" "trigger_multivibrator"
+"origin" "256.000000 3840.000000 1728.000000"
+"target" "delay"
+"wait" "72"
+}
+{
+"classname" "trigger_delay"
+"origin" "64.000000 3840.000000 1632.000000"
+"targetname" "delay"
+"target" "activate_1"
+"wait" "6"
+}
+{
+"classname" "relay_activate"
+"origin" "64.000000 3840.000000 1568.000000"
+"targetname" "activate_1"
+"target" "particle_2"
+}
+{
+"classname" "relay_deactivate"
+"origin" "64.000000 3888.000000 1568.000000"
+"targetname" "relay_deactivate1"
+"target" "particle_2"
+}
+{
+"classname" "trigger_delay"
+"origin" "64.000000 3888.000000 1600.000000"
+"targetname" "activate_1"
+"target" "relay_deactivate1"
+"wait" "6"
+}
+{
+"classname" "trigger_delay"
+"origin" "96.000000 3840.000000 1632.000000"
+"targetname" "delay"
+"target" "activate_2"
+"wait" "12"
+}
+{
+"classname" "relay_activate"
+"origin" "96.000000 3840.000000 1568.000000"
+"targetname" "activate_2"
+"target" "particle_8"
+}
+{
+"classname" "relay_deactivate"
+"origin" "96.000000 3888.000000 1568.000000"
+"targetname" "relay_deactivate2"
+"target" "particle_8"
+}
+{
+"classname" "trigger_delay"
+"origin" "96.000000 3888.000000 1600.000000"
+"targetname" "activate_2"
+"target" "relay_deactivate2"
+"wait" "6"
+}
+{
+"classname" "trigger_delay"
+"origin" "128.000000 3840.000000 1632.000000"
+"targetname" "delay"
+"target" "activate_3"
+"wait" "18"
+}
+{
+"classname" "relay_activate"
+"origin" "128.000000 3840.000000 1568.000000"
+"targetname" "activate_3"
+"target" "particle_6"
+}
+{
+"classname" "relay_deactivate"
+"origin" "128.000000 3888.000000 1568.000000"
+"targetname" "relay_deactivate3"
+"target" "particle_6"
+}
+{
+"classname" "trigger_delay"
+"origin" "128.000000 3888.000000 1600.000000"
+"targetname" "activate_3"
+"target" "relay_deactivate3"
+"wait" "6"
+}
+{
+"classname" "trigger_delay"
+"origin" "160.000000 3840.000000 1632.000000"
+"targetname" "delay"
+"target" "activate_4"
+"wait" "24"
+}
+{
+"classname" "relay_activate"
+"origin" "160.000000 3840.000000 1568.000000"
+"targetname" "activate_4"
+"target" "particle_5"
+}
+{
+"classname" "relay_deactivate"
+"origin" "160.000000 3888.000000 1568.000000"
+"targetname" "relay_deactivate4"
+"target" "particle_5"
+}
+{
+"classname" "trigger_delay"
+"origin" "160.000000 3888.000000 1600.000000"
+"targetname" "activate_4"
+"target" "relay_deactivate4"
+"wait" "6"
+}
+{
+"classname" "trigger_delay"
+"origin" "192.000000 3840.000000 1632.000000"
+"targetname" "delay"
+"target" "activate_5"
+"wait" "30"
+}
+{
+"classname" "relay_activate"
+"origin" "192.000000 3840.000000 1568.000000"
+"targetname" "activate_5"
+"target" "particle_4"
+}
+{
+"classname" "relay_deactivate"
+"origin" "192.000000 3888.000000 1568.000000"
+"targetname" "relay_deactivate5"
+"target" "particle_4"
+}
+{
+"classname" "trigger_delay"
+"origin" "192.000000 3888.000000 1600.000000"
+"targetname" "activate_5"
+"target" "relay_deactivate5"
+"wait" "6"
+}
+{
+"classname" "trigger_delay"
+"origin" "224.000000 3840.000000 1632.000000"
+"targetname" "delay"
+"target" "activate_6"
+"wait" "36"
+}
+{
+"classname" "relay_activate"
+"origin" "224.000000 3840.000000 1568.000000"
+"targetname" "activate_6"
+"target" "particle_3"
+}
+{
+"classname" "relay_deactivate"
+"origin" "224.000000 3888.000000 1568.000000"
+"targetname" "relay_deactivate6"
+"target" "particle_3"
+}
+{
+"classname" "trigger_delay"
+"origin" "224.000000 3888.000000 1600.000000"
+"targetname" "activate_6"
+"target" "relay_deactivate6"
+"wait" "6"
+}
+{
+"classname" "trigger_delay"
+"origin" "256.000000 3840.000000 1632.000000"
+"targetname" "delay"
+"target" "activate_7"
+"wait" "42"
+}
+{
+"classname" "relay_activate"
+"origin" "256.000000 3840.000000 1568.000000"
+"targetname" "activate_7"
+"target" "particle_9"
+}
+{
+"classname" "relay_deactivate"
+"origin" "256.000000 3888.000000 1568.000000"
+"targetname" "relay_deactivate7"
+"target" "particle_9"
+}
+{
+"classname" "trigger_delay"
+"origin" "256.000000 3888.000000 1600.000000"
+"targetname" "activate_7"
+"target" "relay_deactivate7"
+"wait" "6"
+}
+{
+"classname" "trigger_delay"
+"origin" "288.000000 3840.000000 1632.000000"
+"targetname" "delay"
+"target" "activate_8"
+"wait" "48"
+}
+{
+"classname" "relay_activate"
+"origin" "288.000000 3840.000000 1568.000000"
+"targetname" "activate_8"
+"target" "particle_10"
+}
+{
+"classname" "relay_deactivate"
+"origin" "288.000000 3888.000000 1568.000000"
+"targetname" "relay_deactivate8"
+"target" "particle_10"
+}
+{
+"classname" "trigger_delay"
+"origin" "288.000000 3888.000000 1600.000000"
+"targetname" "activate_8"
+"target" "relay_deactivate8"
+"wait" "6"
+}
+{
+"classname" "trigger_delay"
+"origin" "320.000000 3840.000000 1632.000000"
+"targetname" "delay"
+"target" "activate_9"
+"wait" "54"
+}
+{
+"classname" "relay_activate"
+"origin" "320.000000 3840.000000 1568.000000"
+"targetname" "activate_9"
+"target" "particle_11"
+}
+{
+"classname" "relay_deactivate"
+"origin" "320.000000 3888.000000 1568.000000"
+"targetname" "relay_deactivate9"
+"target" "particle_11"
+}
+{
+"classname" "trigger_delay"
+"origin" "320.000000 3888.000000 1600.000000"
+"targetname" "activate_9"
+"target" "relay_deactivate9"
+"wait" "6"
+}
+{
+"classname" "trigger_delay"
+"origin" "352.000000 3840.000000 1632.000000"
+"targetname" "delay"
+"target" "activate_10"
+"wait" "60"
+}
+{
+"classname" "relay_activate"
+"origin" "352.000000 3840.000000 1568.000000"
+"targetname" "activate_10"
+"target" "particle_12"
+}
+{
+"classname" "relay_deactivate"
+"origin" "352.000000 3888.000000 1568.000000"
+"targetname" "relay_deactivate10"
+"target" "particle_12"
+}
+{
+"classname" "trigger_delay"
+"origin" "352.000000 3888.000000 1600.000000"
+"targetname" "activate_10"
+"target" "relay_deactivate10"
+"wait" "6"
+}
+{
+"classname" "trigger_delay"
+"origin" "384.000000 3840.000000 1632.000000"
+"targetname" "delay"
+"target" "activate_11"
+"wait" "66"
+}
+{
+"classname" "relay_activate"
+"origin" "384.000000 3840.000000 1568.000000"
+"targetname" "activate_11"
+"target" "particle_1"
+}
+{
+"classname" "relay_deactivate"
+"origin" "384.000000 3888.000000 1568.000000"
+"targetname" "relay_deactivate11"
+"target" "particle_1"
+}
+{
+"classname" "trigger_delay"
+"origin" "384.000000 3888.000000 1600.000000"
+"targetname" "activate_11"
+"target" "relay_deactivate11"
+"wait" "6"
+}
+{
+"classname" "trigger_delay"
+"origin" "416.000000 3840.000000 1632.000000"
+"targetname" "delay"
+"target" "activate_12"
+"wait" "0"
+}
+{
+"classname" "relay_activate"
+"origin" "416.000000 3840.000000 1568.000000"
+"targetname" "activate_12"
+"target" "particle_7"
+}
+{
+"classname" "relay_deactivate"
+"origin" "416.000000 3888.000000 1568.000000"
+"targetname" "relay_deactivate12"
+"target" "particle_7"
+}
+{
+"classname" "trigger_delay"
+"origin" "416.000000 3888.000000 1600.000000"
+"targetname" "activate_12"
+"target" "relay_deactivate12"
+"wait" "6"
 }
