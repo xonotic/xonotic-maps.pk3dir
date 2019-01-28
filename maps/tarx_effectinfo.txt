@@ -1,10 +1,10 @@
 effect map_tarx_pipe_smoke
-count 15
+count 5
 type alphastatic
 tex 0 8
 color 0x6f4d06 0xe7b447
 size 5 10
-sizeincrease 35
+sizeincrease 20
 alpha 16 32 16
 gravity -0.015
 originjitter 0 0 0
