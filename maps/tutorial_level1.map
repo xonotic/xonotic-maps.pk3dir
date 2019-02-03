@@ -9736,7 +9736,7 @@ brushDef
 }
 {
 "classname" "turret_machinegun"
-"origin" "384.000000 -3136.000000 0.000000"
+"origin" "384.000000 -3104.000000 0.000000"
 "angle" "0.000003"
 "turret_scale_aim" "1"
 }
