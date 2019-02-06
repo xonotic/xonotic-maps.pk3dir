@@ -35298,7 +35298,7 @@ brushDef
 "model" "models/crates/computercrate2.ase"
 }
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "262.000000 -1144.000000 -345.000000"
 "model" "models/jumppads/jumppad01.ase"
 "angles" "-35.600903 0.000000 0.000000"

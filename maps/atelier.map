@@ -14216,7 +14216,7 @@ trak5x/light-light2a-surfacelight
 "light" "200"
 }
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "-1588.000000 1076.000000 0.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "_receiveshadows" "1"
@@ -18051,7 +18051,7 @@ exx/wall-metal01b
 "light" "200"
 }
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "-511.000000 380.000000 128.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "_receiveshadows" "1"
@@ -27039,7 +27039,7 @@ trak5x/base-pipe1d
 "light" "200"
 }
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "320.000000 -1676.000000 192.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "_receiveshadows" "1"

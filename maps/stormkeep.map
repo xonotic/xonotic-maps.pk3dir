@@ -28641,7 +28641,7 @@ exx/base-metal03
 "light" "40"
 }
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "-1143.999878 1592.000000 -15.999968"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "angles" "-0.000000 0.000000 14.075265"
@@ -28650,7 +28650,7 @@ exx/base-metal03
 "lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "32.000000 704.000000 -32.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "_receiveshadows" "1"
@@ -28659,7 +28659,7 @@ exx/base-metal03
 "lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "-480.000000 -848.000000 -192.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "_receiveshadows" "1"
@@ -28667,7 +28667,7 @@ exx/base-metal03
 "lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "976.000000 1312.000000 -32.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "_receiveshadows" "1"

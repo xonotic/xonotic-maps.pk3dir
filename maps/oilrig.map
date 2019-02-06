@@ -23539,7 +23539,7 @@ exx/wall-bigrib02
 "origin" "-320.000000 864.000000 -600.000000"
 }
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "-256.000000 576.000000 -640.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
@@ -23582,7 +23582,7 @@ exx/wall-bigrib02
 "origin" "1776.000000 944.000000 144.000000"
 }
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "1776.000000 -128.000000 128.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
@@ -23600,7 +23600,7 @@ exx/wall-bigrib02
 "origin" "1440.000000 -440.000000 320.000000"
 }
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "1776.000000 400.000000 528.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
@@ -23647,7 +23647,7 @@ exx/wall-bigrib02
 "targetname" "target_position3"
 }
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "1248.000000 119.999962 -352.000000"
 "model" "models/xonotic_jumppad01/xonotic_launchpad01.md3"
 "angle" "165.309097"
@@ -23842,7 +23842,7 @@ exx/wall-bigrib02
 "angle" "0.000003"
 }
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "224.000000 -96.000000 -640.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
@@ -23926,14 +23926,14 @@ exx/wall-bigrib02
 "light" "21"
 }
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "2432.000000 384.000000 -871.999939"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "angles" "-30.000000 0.000000 0.000000"
 "lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "920.000000 704.000000 -672.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
@@ -24051,7 +24051,7 @@ exx/wall-bigrib02
 "origin" "840.000000 -208.000000 344.000000"
 }
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "728.000000 -248.000000 -912.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
@@ -24078,7 +24078,7 @@ exx/wall-bigrib02
 "modelscale" "0.700000"
 }
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "639.999878 -447.999939 -319.999969"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "angles" "-0.000000 0.000000 -26.500002"
@@ -24119,19 +24119,19 @@ exx/wall-bigrib02
 "spawnflags" "2"
 }
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "728.000000 1208.000000 -909.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "1784.000000 -848.000000 -909.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "-264.000000 -552.000000 -912.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"

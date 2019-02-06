@@ -37500,7 +37500,7 @@ exx/trim-psimple04
 "targetname" "t235"
 }
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "-624.000000 0.000000 -8.000000"
 "model" "models/jumppads/jumppad01.ase"
 "angle" "-90.000000"
@@ -37509,14 +37509,14 @@ exx/trim-psimple04
 "_receiveshadows" "1"
 }
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "840.000122 0.000056 240.000000"
 "model" "models/jumppads/jumppad01.ase"
 "modelscale" "1.500000"
 "angle" "-90.000000"
 }
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "640 -200 0"
 "model" "models/jumppads/jumppad01.ase"
 }

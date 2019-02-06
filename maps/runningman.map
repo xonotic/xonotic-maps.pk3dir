@@ -14896,7 +14896,7 @@ effects_healpod/healpod1_d
 }
 }
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "784.000244 63.999878 -384.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "_castshadows" "1"
@@ -16367,7 +16367,7 @@ effects_healpod/healpod1_d
 }
 }
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "-512.150635 -352.299103 -216.000076"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "angles" "0.000002 -76.533272 -26.603931"
@@ -16375,7 +16375,7 @@ effects_healpod/healpod1_d
 "lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "-511.813232 -208.300385 -224.000046"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "angles" "0.000002 -90.134254 -26.603931"
@@ -16383,7 +16383,7 @@ effects_healpod/healpod1_d
 "lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "-511.475708 -64.300613 -216.000061"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "angles" "0.000002 -104.088577 -26.603931"
