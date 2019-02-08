@@ -32487,26 +32487,6 @@ exx/base-metal05rust
 "angles" "14 -43 0"
 }
 {
-"classname" "info_location"
-"origin" "528.000000 320.000000 560.000000"
-"netname" "Mega Health"
-}
-{
-"classname" "info_location"
-"origin" "128.000000 0.000000 192.000000"
-"netname" "Center Room"
-}
-{
-"classname" "info_location"
-"origin" "864.000000 -1120.000000 472.000000"
-"netname" "Balcony"
-}
-{
-"classname" "info_location"
-"origin" "1232.000000 536.000000 288.000000"
-"netname" "Panorama Room"
-}
-{
 "classname" "misc_gamemodel"
 "origin" "-128.000000 8.000000 504.000000"
 "model" "models/containers/crate01.md3"
@@ -32743,26 +32723,6 @@ exx/base-metal05rust
 "model" "models/map_warfare/boulder_2.md3"
 "modelscale" "0.800000"
 "spawnflags" "4"
-}
-{
-"classname" "info_location"
-"origin" "-704.000000 320.000000 384.000000"
-"netname" "Elevator"
-}
-{
-"classname" "info_location"
-"origin" "-384.000000 -1024.000000 152.000000"
-"netname" "Mega Armor"
-}
-{
-"classname" "info_location"
-"origin" "-704.000000 -192.000000 640.000000"
-"netname" "Garden"
-}
-{
-"classname" "info_location"
-"origin" "688.000000 64.000000 256.000000"
-"netname" "Teleporters"
 }
 {
 "classname" "misc_model"
