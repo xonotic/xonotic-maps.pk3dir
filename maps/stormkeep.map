@@ -29290,9 +29290,6 @@ exx/trim-psimple04
 "modelscale_vec" "1.000000 1.000000 1.100000"
 }
 {
-"classname" "func_assault_wall"
-}
-{
 "classname" "func_wall"
 "gametypefilter" "+rc"
 "_castshadows" "0"
