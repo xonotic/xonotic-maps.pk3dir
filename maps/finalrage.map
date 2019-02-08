@@ -15152,41 +15152,6 @@ map_stormkeep/rock
 "message" " has captured the ^2Catwalk ^3control point"
 }
 {
-"classname" "info_location"
-"origin" "832 1216 144"
-"netname" "Armor room"
-}
-{
-"classname" "info_location"
-"origin" "824 424 304"
-"netname" "Devastator room"
-}
-{
-"classname" "info_location"
-"origin" "-296 440 312"
-"netname" "Vortex platform"
-}
-{
-"classname" "info_location"
-"origin" "-512 512 464"
-"netname" "Lava room top"
-}
-{
-"classname" "info_location"
-"origin" "-448 -256 -104"
-"netname" "Teleporter pit"
-}
-{
-"classname" "info_location"
-"origin" "64 192 -48"
-"netname" "Lava room"
-}
-{
-"classname" "info_location"
-"origin" "576 -592 144"
-"netname" "Mega Health room"
-}
-{
 "classname" "item_armor_mega"
 "origin" "432.000000 1444.000000 312.000000"
 }
@@ -15851,16 +15816,6 @@ map_stormkeep/rock
 "classname" "light"
 "origin" "1088.000000 736.000000 544.000000"
 "light" "75"
-}
-{
-"classname" "info_location"
-"origin" "-512.000000 -416.000000 352.000000"
-"netname" "Teleporter exit"
-}
-{
-"classname" "info_location"
-"origin" "-320.000000 384.000000 -32.000000"
-"netname" "50 Armor platform"
 }
 {
 "classname" "info_autoscreenshot"
