@@ -27699,9 +27699,6 @@ map_courtfun/screenanim_xon
 "targetname" "info_notnull5"
 }
 {
-"classname" "trigger_impulse"
-}
-{
 "classname" "trigger_push"
 "target" "info_notnull5"
 {
@@ -28705,9 +28702,6 @@ map_courtfun/screenanim_xon
 }
 {
 "classname" "func_group"
-}
-{
-"classname" "func_group"
 {
 ( -1235.1911621094 -385.184387207 208 ) ( -1259.4422607422 -406.0622558594 208 ) ( -1240.4106445313 -379.1216430664 208 ) common/weapclip 0 0 0 0.25 0.25 0 0 0
 ( -1235.1911621094 -385.184387207 208 ) ( -1240.4106445313 -379.1216430664 208 ) ( -1235.1911621094 -385.184387207 64 ) common/weapclip 0 0 0 0.25 0.25 0 0 0
@@ -29233,33 +29227,6 @@ map_courtfun/screenanim_xon
 "classname" "target_speaker"
 "origin" "-1248.000000 416.000000 208.000000"
 "noise" "ambient/machine2.ogg"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
 }
 {
 "classname" "func_group"
@@ -31072,9 +31039,6 @@ map_courtfun/screenanim_xon
 "angle" "-179.999985"
 }
 {
-"classname" "trigger_impulse"
-}
-{
 "classname" "trigger_push"
 "target" "info_notnull10"
 {
@@ -32121,9 +32085,6 @@ map_courtfun/screenanim_xon
 }
 {
 "classname" "func_group"
-}
-{
-"classname" "func_group"
 {
 ( -2860.8088378906 4353.1845703125 208 ) ( -2836.5576171875 4374.0625 208 ) ( -2855.5893554688 4347.1215820313 208 ) common/weapclip 0 0 180 0.25 0.25 0 0 0
 ( -2860.8088378906 4353.1845703125 208 ) ( -2855.5893554688 4347.1215820313 208 ) ( -2860.8088378906 4353.1845703125 64 ) common/weapclip -0 0 0 -0.25 0.25 0 0 0
@@ -32653,33 +32614,6 @@ map_courtfun/screenanim_xon
 "origin" "-2848.000000 3552.000000 208.000000"
 "noise" "ambient/machine2.ogg"
 "angle" "-179.999985"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
 }
 {
 "classname" "func_group"
