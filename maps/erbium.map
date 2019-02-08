@@ -23796,10 +23796,6 @@ brushDef
 "origin" "912.000000 403.000000 280.000000"
 }
 {
-"classname" "func_group"
-"_lightmapscale" "0.2"
-}
-{
 "classname" "misc_model"
 "origin" "888.799011 -72.768448 130.391052"
 "model" "models/map_erbium/circle.ase"
