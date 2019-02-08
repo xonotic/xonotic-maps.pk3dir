@@ -4,4 +4,4 @@
 -light + -gamma 0.75 -dirtscale 2 -bounce 8  -areascale 1.25 -pointscale 1.3 -randomsamples -samples 128
 -minimap +
 -sRGB
-Version: 15
+Version: 15a
