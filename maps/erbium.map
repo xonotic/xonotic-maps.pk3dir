@@ -21739,7 +21739,7 @@ brushDef
 "modelscale_vec" "1.200000 1.200000 1.576289"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "-230.274979 -1316.270996 97.011978"
 "model" "models/jumppads/jumppad01.ase"
 "angles" "-0.000000 -45.424000 -43.202187"
