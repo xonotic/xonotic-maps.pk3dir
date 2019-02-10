@@ -178,6 +178,14 @@ textures/common/skip
     surfaceparm trans
 }
 
+textures/common/slick
+{
+	surfaceparm nomarks
+	surfaceparm trans
+	surfaceparm nolightmap
+	surfaceparm slick
+}
+
 textures/common/terrain
 {
     q3map_terrain
