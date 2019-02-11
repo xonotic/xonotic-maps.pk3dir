@@ -180,10 +180,11 @@ textures/common/skip
 
 textures/common/slick
 {
-	surfaceparm nomarks
-	surfaceparm trans
-	surfaceparm nolightmap
-	surfaceparm slick
+    surfaceparm nodraw
+    surfaceparm nomarks
+    surfaceparm trans
+    surfaceparm nolightmap
+    surfaceparm slick
 }
 
 textures/common/terrain
