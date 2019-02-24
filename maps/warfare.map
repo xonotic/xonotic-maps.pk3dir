@@ -31758,11 +31758,9 @@ exx/base-metal05rust
 "spawnflags" "6"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "1144.000000 672.000000 190.000000"
 "model" "models/map_warfare/jumppad.md3"
-"lodmodel1" "models/map_warfare/jumppad_lod.md3"
-"loddistance1" "400"
 }
 {
 "classname" "trigger_push"
@@ -31782,12 +31780,10 @@ exx/base-metal05rust
 "targetname" "jump1"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "648.000000 -544.000000 190.000000"
 "model" "models/map_warfare/jumppad.md3"
 "angle" "-180.000000"
-"lodmodel1" "models/map_warfare/jumppad_lod.md3"
-"loddistance1" "500"
 }
 {
 "classname" "trigger_push"

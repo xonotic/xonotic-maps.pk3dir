@@ -31472,38 +31472,34 @@ exx/base-metal03
 }
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "784.000244 63.999878 -384.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "_castshadows" "1"
 "_receiveshadows" "1"
 "angle" "-90.000000"
 "skin" "1"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "-1731.701172 1152.211182 -216.000061"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "angles" "0.000002 13.628347 -26.603931"
 "skin" "0"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "-1875.699951 1152.142700 -224.000061"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "angles" "0.000002 0.027364 -26.603931"
 "skin" "0"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "-2019.699707 1152.073730 -216.000031"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "angles" "0.000002 -13.926964 -26.603931"
 "skin" "0"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "info_player_team2"
@@ -34907,14 +34903,13 @@ exx/base-metal03
 }
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "-1600.000244 2448.000000 -384.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "_castshadows" "1"
 "_receiveshadows" "1"
 "angle" "0.000003"
 "skin" "0"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "target_speaker"
@@ -36541,28 +36536,25 @@ exx/base-metal03
 "angle" "88.396439"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "-512.150635 -352.299103 -216.000076"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "angles" "0.000002 -76.533272 -26.603931"
 "skin" "1"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "-511.813232 -208.300385 -224.000046"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "angles" "0.000002 -90.134254 -26.603931"
 "skin" "1"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "-511.475708 -64.300613 -216.000061"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "angles" "0.000002 -104.088577 -26.603931"
 "skin" "1"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "info_player_team1"

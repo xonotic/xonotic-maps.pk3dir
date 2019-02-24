@@ -15232,28 +15232,25 @@ map_stormkeep/rock
 "origin" "-608.000000 -544.000000 336.000000"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "767.999939 -447.999969 -103.999992"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "angles" "-7.000005 0.000000 0.000000"
 "spawnflags" "2"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "1200.557617 543.999756 -139.976593"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "angles" "-10.500007 0.000000 0.000000"
 "spawnflags" "2"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "871.999817 1399.999878 118.000046"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "angles" "-4.980919 0.436879 -5.018977"
 "spawnflags" "2"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "trigger_warpzone"

@@ -49138,10 +49138,9 @@ brushDef
 "light" "80"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "-1416.000000 -272.000000 320.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "trigger_push"
@@ -57315,10 +57314,9 @@ exx/base-metal04
 "_color" "0.970672 0.401389 0.0448463"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "-320.000000 64.000000 320.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "light"

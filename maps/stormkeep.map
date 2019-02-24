@@ -28641,39 +28641,35 @@ exx/base-metal03
 "light" "40"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "-1143.999878 1592.000000 -15.999968"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "angles" "-0.000000 0.000000 14.075265"
 "_castshadows" "1"
 "_receiveshadows" "1"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "32.000000 704.000000 -32.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "_receiveshadows" "1"
 "_castshadows" "1"
 "angle" "90.000000"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "-480.000000 -848.000000 -192.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "_receiveshadows" "1"
 "_castshadows" "1"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "976.000000 1312.000000 -32.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "_receiveshadows" "1"
 "_castshadows" "1"
 "angle" "90.000000"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "item_armor_medium"

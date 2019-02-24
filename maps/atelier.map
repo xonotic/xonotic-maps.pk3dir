@@ -14141,13 +14141,12 @@ trak5x/light-light2a-surfacelight
 "light" "200"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "-1588.000000 1076.000000 0.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "_receiveshadows" "1"
 "_castshadows" "1"
 "angle" "90.000000"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "light"
@@ -17838,13 +17837,12 @@ exx/wall-metal01b
 "light" "200"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "-511.000000 380.000000 128.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "_receiveshadows" "1"
 "_castshadows" "1"
 "angle" "90.000000"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "light"
@@ -26757,13 +26755,12 @@ trak5x/base-pipe1d
 "light" "200"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "320.000000 -1676.000000 192.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "_receiveshadows" "1"
 "_castshadows" "1"
 "angle" "90.000000"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "func_group"
@@ -28128,13 +28125,12 @@ exx/wall-metal01
 }
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "1452.000000 428.000000 320.000000"
 "model" "models/xonotic_jumppad01/xonotic_launchpad01.md3"
 "angle" "-45.000008"
 "frame" "2"
 "skin" "2"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_launchpad01_lod1.md3"
 }
 {
 "classname" "func_group"

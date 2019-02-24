@@ -27926,49 +27926,44 @@ map_courtfun/screenanim_xon
 "origin" "-672.000000 152.000000 352.000000"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "1632.000000 352.000000 0.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "skin" "0"
 "_castshadows" "1"
 "solid" "4"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "96.000000 2360.000000 0.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "skin" "0"
 "_castshadows" "1"
 "solid" "4"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "-224.000000 -736.000000 0.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "skin" "0"
 "_castshadows" "1"
 "solid" "4"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "1632.000000 -736.000000 0.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "skin" "0"
 "_castshadows" "1"
 "solid" "4"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "-224.000000 352.000000 0.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "skin" "0"
 "_castshadows" "1"
 "solid" "4"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "misc_gamemodel"
@@ -31286,54 +31281,49 @@ map_courtfun/screenanim_xon
 "angle" "-179.999985"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "-5728.000000 3616.000244 0.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "skin" "1"
 "_castshadows" "1"
 "solid" "4"
 "angle" "-179.999985"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "-4192.000000 1608.000244 0.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "skin" "1"
 "_castshadows" "1"
 "solid" "4"
 "angle" "-179.999985"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "-3872.000000 4704.000000 0.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "skin" "1"
 "_castshadows" "1"
 "solid" "4"
 "angle" "-179.999985"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "-5728.000000 4704.000000 0.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "skin" "1"
 "_castshadows" "1"
 "solid" "4"
 "angle" "-179.999985"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "-3872.000000 3616.000000 0.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "skin" "1"
 "_castshadows" "1"
 "solid" "4"
 "angle" "-179.999985"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "misc_gamemodel"
@@ -35097,7 +35087,7 @@ map_courtfun/screenanim_xon
 }
 }
 {
-"classname" "misc_gamemodel"
+"classname" "misc_model"
 "origin" "-1664.000000 2640.000000 320.000000"
 "model" "models/xonotic_jumppad01/xonotic_launchpad01.md3"
 "modelscale" "2.000000"
@@ -35105,7 +35095,6 @@ map_courtfun/screenanim_xon
 "gametypefilter" "+rc,cts"
 "_castshadows" "-2"
 "_receiveshadows" "2"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_launchpad01_lod1.md3"
 }
 {
 "classname" "onslaught_generator"
