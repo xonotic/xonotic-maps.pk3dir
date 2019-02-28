@@ -9808,7 +9808,7 @@ trak5x/base-pipe1d
 "_castshadows" "0"
 }
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "223.999985 351.999939 128.000000"
 "model" "models/xonotic_jumppad01/xonotic_launchpad01.md3"
 "angle" "-44.606369"
@@ -10326,7 +10326,7 @@ trak5x/base-pipe1d
 "origin" "-752.000000 -1232.000000 -96.000000"
 }
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "-940.000000 -1180.000000 -240.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "skin" "2"

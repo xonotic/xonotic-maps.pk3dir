@@ -10186,7 +10186,7 @@ exx/trim-simple01
 "target" "trigger_race_checkpoint1"
 }
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "-1424.000000 -528.000000 64.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "skin" "3"
@@ -10196,7 +10196,7 @@ exx/trim-simple01
 "_cs" "1"
 }
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "-1184.000000 560.000000 64.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "modelscale" "1.750000"
@@ -10205,7 +10205,7 @@ exx/trim-simple01
 "_cs" "1"
 }
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "1424.000000 528.000000 64.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "skin" "3"

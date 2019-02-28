@@ -21688,7 +21688,7 @@ effects_jumppad/jumppadfx1_a
 "origin" "-1792.000000 -1088.000000 -256.000000"
 }
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "32.000000 -1504.000000 -324.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "_castshadows" "1"
@@ -22055,7 +22055,7 @@ effects_jumppad/jumppadfx1_a
 "light" "142"
 }
 {
-"classname" "misc_model"
+"classname" "misc_gamemodel"
 "origin" "-32.000000 1504.000000 -324.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "_castshadows" "1"
