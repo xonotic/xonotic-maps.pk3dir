@@ -28647,7 +28647,6 @@ exx/base-metal03
 "angles" "-0.000000 0.000000 14.075265"
 "_castshadows" "1"
 "_receiveshadows" "1"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "misc_model"
@@ -28656,7 +28655,6 @@ exx/base-metal03
 "_receiveshadows" "1"
 "_castshadows" "1"
 "angle" "90.000000"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "misc_model"
@@ -28664,7 +28662,6 @@ exx/base-metal03
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "_receiveshadows" "1"
 "_castshadows" "1"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "misc_model"
@@ -28673,7 +28670,6 @@ exx/base-metal03
 "_receiveshadows" "1"
 "_castshadows" "1"
 "angle" "90.000000"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "item_armor_medium"
@@ -29288,9 +29284,6 @@ exx/trim-psimple04
 "angle" "-43.173836"
 "_cs" "1"
 "modelscale_vec" "1.000000 1.000000 1.100000"
-}
-{
-"classname" "func_assault_wall"
 }
 {
 "classname" "func_wall"

@@ -14903,7 +14903,6 @@ effects_healpod/healpod1_d
 "_receiveshadows" "1"
 "angle" "-90.000000"
 "skin" "1"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "target_speaker"
@@ -16372,7 +16371,6 @@ effects_healpod/healpod1_d
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "angles" "0.000002 -76.533272 -26.603931"
 "skin" "1"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "misc_model"
@@ -16380,7 +16378,6 @@ effects_healpod/healpod1_d
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "angles" "0.000002 -90.134254 -26.603931"
 "skin" "1"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "misc_model"
@@ -16388,7 +16385,6 @@ effects_healpod/healpod1_d
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "angles" "0.000002 -104.088577 -26.603931"
 "skin" "1"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "light"

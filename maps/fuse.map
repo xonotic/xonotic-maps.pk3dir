@@ -29865,9 +29865,6 @@ brushDef
 }
 {
 "classname" "func_group"
-}
-{
-"classname" "func_group"
 {
 patchDef2
 {
@@ -30650,9 +30647,6 @@ exx/trim-vert01
 }
 {
 "classname" "func_group"
-}
-{
-"classname" "func_group"
 {
 brushDef
 {
@@ -30777,15 +30771,6 @@ brushDef
 ( -147.2083587646 60 -317.9784698486 ) ( -151.1431274414 -60 -317.2590332031 ) ( -147.2083587646 -60 -317.9784698486 ) ( ( 0 0.015625 5.4939975739 ) ( -0.015625 0 253 ) ) common/nodrawnonsolid 134217728 0 0
 }
 }
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
 }
 {
 "classname" "func_group"
@@ -31024,9 +31009,6 @@ brushDef
 {
 "classname" "item_health_big"
 "origin" "-96.000000 -480.000000 -376.000000"
-}
-{
-"classname" "func_group"
 }
 {
 "classname" "func_group"
@@ -31525,18 +31507,6 @@ brushDef
 "classname" "light"
 "origin" "-40.000000 -248.000000 -272.000000"
 "light" "20"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
 }
 {
 "classname" "func_group"
@@ -32575,9 +32545,6 @@ brushDef
 }
 {
 "classname" "func_group"
-}
-{
-"classname" "func_group"
 {
 brushDef
 {
@@ -32844,12 +32811,6 @@ brushDef
 {
 "classname" "item_armor_medium"
 "origin" "-304.000000 -1536.000000 -96.000000"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
 }
 {
 "classname" "func_group"
@@ -33675,9 +33636,6 @@ brushDef
 ( -642 -1088 -172 ) ( -642 -1116 -144 ) ( -642 -1120 -152 ) ( ( 0.0883883461 0.0883883461 11.5075788498 ) ( -0.0055242716 0.0055242716 6.2755723 ) ) exx/trim-vert01 134217728 0 0
 }
 }
-}
-{
-"classname" "func_group"
 }
 {
 "classname" "func_group"
@@ -34845,9 +34803,6 @@ brushDef
 }
 {
 "classname" "func_group"
-}
-{
-"classname" "func_group"
 {
 brushDef
 {
@@ -35217,9 +35172,6 @@ brushDef
 }
 {
 "classname" "func_group"
-}
-{
-"classname" "func_group"
 {
 brushDef
 {
@@ -35315,9 +35267,6 @@ brushDef
 }
 {
 "classname" "func_group"
-}
-{
-"classname" "func_group"
 {
 brushDef
 {
@@ -35384,9 +35333,6 @@ brushDef
 ( -440.2010040283 -319.7157287598 636 ) ( -438.7867889404 -321.1299438477 636 ) ( -440.2010040283 -319.7157287598 640 ) ( ( 0.0078125009 0 6.5062823296 ) ( 0 0.0078125 2.5 ) ) exx/base-metal01 134217728 0 0
 }
 }
-}
-{
-"classname" "func_group"
 }
 {
 "classname" "func_group"
@@ -35760,18 +35706,6 @@ brushDef
 {
 "classname" "weapon_mortar"
 "origin" "-208.000000 -1536.000000 -96.000000"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
 }
 {
 "classname" "func_group"

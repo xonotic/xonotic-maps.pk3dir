@@ -38935,7 +38935,6 @@ brushDef
 "angle" "-90.000000"
 "_castshadows" "1"
 "modelscale" "1.200000"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "trigger_push"
@@ -39090,7 +39089,6 @@ brushDef
 "angle" "-90.000000"
 "_castshadows" "1"
 "modelscale" "1.200000"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "item_armor_small"
@@ -39245,7 +39243,6 @@ brushDef
 "_castshadows" "1"
 "modelscale" "1.200000"
 "_skin" "1"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "item_rockets"
@@ -40286,7 +40283,6 @@ brushDef
 "_castshadows" "1"
 "modelscale" "1.200000"
 "_skin" "1"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "misc_model"
