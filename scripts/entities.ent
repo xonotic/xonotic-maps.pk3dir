@@ -248,7 +248,7 @@ Basic secret door. Slides back, then to the side. Angle determines direction. Op
 
 <group name="func_group" color="0 .5 .8">
 This is not an entity as such. It is strictly an editor utility to group world brushes and patches together for convenience (selecting, moving, copying, etc). You cannot group entities with this.
-To select the func_group, either select it from the Entity List window, or select a bruch belonging to the func_group then use the menu option Edit -> Expand Selection To Primitives.
+To select the func_group, either select it from the Entity List window, or select a brush belonging to the func_group then use the menu option Edit -> Expand Selection To Primitives.
 -------- Q3MAP2 KEYS --------
 <real key="_lightmapscale" name="_lightmapscale">light map resolution factor</real>
 <boolean key="_castshadows" name="_castshadows">Allows per-entity control over shadow casting. Defaults to 0 on entities, 1 on world. 0 = no shadow casting. 1 = cast shadows on world. &gt; 1 = cast shadows on entities with _rs (or _receiveshadows) with the corresponding value, AND world. Negative values imply same, but DO NOT cast shadows on world.</boolean>
