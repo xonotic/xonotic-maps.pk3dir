@@ -7537,10 +7537,6 @@ brushDef
 }
 }
 {
-"classname" "weapon_laser"
-"origin" "192.000000 -1664.000000 4.000000"
-}
-{
 "classname" "light"
 "origin" "640.000000 -1664.000000 400.000000"
 "light" "30"
@@ -9845,4 +9841,8 @@ brushDef
 "classname" "light"
 "origin" "1088.000000 -2176.000000 128.000000"
 "light" "120"
+}
+{
+"classname" "weapon_blaster"
+"origin" "192.000000 -1664.000000 4.000000"
 }
