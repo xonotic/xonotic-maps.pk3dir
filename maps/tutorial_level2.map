@@ -17885,10 +17885,6 @@ brushDef
 }
 }
 {
-"classname" "weapon_laser"
-"origin" "128.000000 -2432.000000 4.000000"
-}
-{
 "classname" "trigger_multiple"
 "target" "door_blaster"
 {
@@ -18086,7 +18082,7 @@ brushDef
 }
 {
 "classname" "trigger_multiple"
-"message" "turn in the air to reach the blue teleporter"
+"message" "Turn in the air to reach the teleporter."
 "wait" "5"
 {
 brushDef
@@ -19502,4 +19498,8 @@ brushDef
 "origin" "32.000000 -64.000000 128.000000"
 "targetname" "target_reset_health"
 "health" "100"
+}
+{
+"classname" "weapon_blaster"
+"origin" "128.000000 -2432.000000 4.000000"
 }
