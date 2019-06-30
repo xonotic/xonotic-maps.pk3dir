@@ -1,4 +1,13 @@
+// HARDWIRED LINKS
 // shortcut to mega health
 '230.1 -877.8 536.0'*'127.7 -1151.8 440.0'
 // shortcut to vortex
 '953.7 284.8 536.0'*'888.8 642.7 408.0'
+// shortcut from big armor level to jumppad near Machine Gun
+'-332.1 -122.0 536.0'*'-511.0 376.0 125.5'
+// shortcut from big armor level to near jumppad near Machine Gun
+'-332.1 -122.0 536.0'*'-392.5 429.8 152.0'
+
+// SPECIAL LINKS (saved in the waypoint editor, comments not allowed)
+*'1111.5 176.6 536.0'*'1542.6 674.9 344.0'
+*'-1000.6 170.3 218.9'*'-984.9 -377.5 216.0'
