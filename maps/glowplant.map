@@ -44808,7 +44808,7 @@ trak5x/base-pipe1a
 {
 "classname" "dom_controlpoint"
 "origin" "-1408.000000 -32.000000 48.000000"
-"message" " has captured the ^2Rocket Launcher ^3control point"
+"message" " has captured the ^2Devastator ^3control point"
 }
 {
 "classname" "dom_controlpoint"
