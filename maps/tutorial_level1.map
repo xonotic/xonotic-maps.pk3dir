@@ -7183,7 +7183,7 @@ brushDef
 }
 {
 "classname" "trigger_multiple"
-"message" "Crouch to walk below the obstacle."
+"message" "^7Press ^2Crouch ^7to get past the obstacle."
 "wait" "5"
 {
 brushDef
@@ -7200,7 +7200,7 @@ brushDef
 {
 "classname" "trigger_multiple"
 "wait" "5"
-"message" "Welcome to Xonotic!\nThis tutorial will guide you through basic techniques.\nWalk to the teleporter to begin!"
+"message" "^7Welcome to ^2Xonotic^7!\nThis tutorial will guide you through basic techniques.\nWalk to the teleporter to begin!"
 {
 brushDef
 {
@@ -7215,7 +7215,7 @@ brushDef
 }
 {
 "classname" "trigger_multiple"
-"message" "Jump above the gap."
+"message" "^2Jump ^7across the gap."
 "wait" "5"
 {
 brushDef
@@ -7320,7 +7320,7 @@ brushDef
 {
 "classname" "func_door"
 "targetname" "door_basic_sprint"
-"message" "too slow"
+"message" "^7Too ^1slow^7!"
 "angle" "-1"
 "speed" "500"
 {
@@ -7353,7 +7353,7 @@ brushDef
 {
 "classname" "trigger_once"
 "sounds" "2"
-"message" "well done"
+"message" "^2Well done^7!"
 {
 brushDef
 {
@@ -7499,7 +7499,7 @@ brushDef
 }
 {
 "classname" "trigger_multiple"
-"message" "Bunnyhop to reach the door before it closes."
+"message" "^7Keep holding ^2Jump ^7('^1Bunny hopping^7') to reach the door before it closes."
 "wait" "5"
 {
 brushDef
@@ -9438,7 +9438,7 @@ brushDef
 }
 {
 "classname" "trigger_multiple"
-"message" "Reach the exit before the turret kills you, pick up health & armor items on the way!"
+"message" "^7Reach the exit before the ^1turret^7 kills you, pick up ^1health ^7& ^2armor ^7items on the way!"
 "wait" "5"
 "target" "checkpoint_exit_room"
 {
@@ -9478,7 +9478,7 @@ brushDef
 {
 "classname" "trigger_once"
 "target" "target_end_level"
-"message" "Congratulations! You completed this level!"
+"message" "^2Congratulations^7! You have completed this level!"
 {
 brushDef
 {
@@ -9510,7 +9510,7 @@ brushDef
 }
 {
 "classname" "trigger_multiple"
-"message" "Shoot at your feet with the blaster to jump high."
+"message" "^2Shoot ^7at your feet with the ^2Blaster^7 to jump high."
 "target" "checkpoint_blaster_jump"
 "wait" "5"
 {
@@ -9527,7 +9527,7 @@ brushDef
 }
 {
 "classname" "trigger_multiple"
-"message" "Shooting range: test out some weapons."
+"message" "^7Shooting range: test out some ^2weapon^7."
 "wait" "5"
 "target" "checkpoint_shooting_range"
 {
@@ -9571,7 +9571,7 @@ brushDef
 {
 "classname" "trigger_once"
 "sounds" "2"
-"message" "well done"
+"message" "^2Well done^7!"
 {
 brushDef
 {
@@ -9587,7 +9587,7 @@ brushDef
 {
 "classname" "trigger_once"
 "sounds" "2"
-"message" "well done"
+"message" "^2Well done^7!"
 {
 brushDef
 {
@@ -9701,7 +9701,7 @@ brushDef
 "target" "door_shotgun_practice"
 "targetname" "counter_weapon_shotgun"
 "count" "2"
-"message" "well done"
+"message" "^2Well done^7!"
 {
 brushDef
 {
@@ -9716,7 +9716,7 @@ brushDef
 }
 {
 "classname" "trigger_multiple"
-"message" "Shoot the buttons with the shotgun"
+"message" "^2Shoot^7 the buttons with the ^2Shotgun^7!"
 "wait" "5"
 {
 brushDef
@@ -9743,7 +9743,7 @@ brushDef
 }
 {
 "classname" "trigger_multiple"
-"message" "Slap the red structure with the shotgun secondary to clear the way."
+"message" "^2Slap ^7the red structure with the ^2Shotgun secondary ^7to clear the way."
 "wait" "5"
 {
 brushDef
