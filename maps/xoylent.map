@@ -26432,9 +26432,6 @@ map_xoylent/base_pipes
 "targetname" "pushtarget"
 }
 {
-"classname" "func_group"
-}
-{
 "classname" "misc_model"
 "origin" "288.000000 -704.000000 352.000000"
 "model" "models/map_xoylent/lamp.obj"
@@ -27984,11 +27981,11 @@ exx/trim-baseboard
 "origin" "1040.000000 -464.000000 400.000000"
 }
 {
-"classname" "weapon_rocketlauncher"
+"classname" "weapon_devastator"
 "origin" "608.000000 -480.000000 160.000000"
 }
 {
-"classname" "weapon_grenadelauncher"
+"classname" "weapon_mortar"
 "origin" "170.000000 -496.000000 400.000000"
 }
 {
@@ -28004,7 +28001,7 @@ exx/trim-baseboard
 "origin" "-512.000000 -32.000000 672.000000"
 }
 {
-"classname" "weapon_uzi"
+"classname" "weapon_machinegun"
 "origin" "-544.000000 -864.000000 480.000000"
 }
 {
@@ -28113,7 +28110,7 @@ exx/trim-baseboard
 "origin" "992.000000 -1224.000000 416.000000"
 }
 {
-"classname" "weapon_nex"
+"classname" "weapon_vortex"
 "origin" "32.000000 -976.000000 688.000000"
 }
 {

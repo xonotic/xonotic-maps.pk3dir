@@ -28,7 +28,7 @@ textures/map_erbium/fightingzone
 		rgbGen identity
 		blendFunc add
 	}
-	
+}
 
 textures/map_erbium/large-turbine
 {

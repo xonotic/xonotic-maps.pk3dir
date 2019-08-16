@@ -7378,7 +7378,7 @@ trak4x/base-concrete1a
 ( 1792 512 1280 ) ( 1792 -896 1280 ) ( 1680 512 1280 ) common/clip 0 0 0 0.25 0.25 0 0 0
 ( 1792 512 1280 ) ( 1680 512 1280 ) ( 1792 512 960 ) common/clip 0 0 0 0.25 0.25 0 0 0
 ( 1792 512 1280 ) ( 1792 512 960 ) ( 1792 -896 1280 ) common/clip 0 0 0 0.25 0.25 0 0 0
-( 1680 -896 960 ) ( 1792 -896 960 ) ( 1680 512 960 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( 1680 -896 896 ) ( 1792 -896 896 ) ( 1680 512 896 ) common/clip 0 0 0 0.25 0.25 0 0 0
 ( 1680 -896 960 ) ( 1680 -896 1280 ) ( 1792 -896 960 ) common/clip 0 0 0 0.25 0.25 0 0 0
 ( -384 -896 968 ) ( -384 512 968 ) ( -384 -896 1288 ) common/clip 0 0 0 0.25 0.25 0 0 0
 }
@@ -20791,7 +20791,7 @@ trak4x/base-concrete1a
 ( -5888 3456 1280 ) ( -5888 4864 1280 ) ( -5776 3456 1280 ) common/clip 0 0 180 0.25 0.25 0 0 0
 ( -5888 3456 1280 ) ( -5776 3456 1280 ) ( -5888 3456 960 ) common/clip 0 0 0 -0.25 0.25 0 0 0
 ( -5888 3456 1280 ) ( -5888 3456 960 ) ( -5888 4864 1280 ) common/clip -0 0 0 -0.25 0.25 0 0 0
-( -5776 4864 960 ) ( -5888 4864 960 ) ( -5776 3456 960 ) common/clip 0 0 180 0.25 0.25 0 0 0
+( -5776 4856 896 ) ( -5888 4856 896 ) ( -5776 3448 896 ) common/clip 0 32 180 0.25 0.25 0 0 0
 ( -5776 4864 960 ) ( -5776 4864 1280 ) ( -5888 4864 960 ) common/clip 0 0 0 -0.25 0.25 0 0 0
 ( -3712 4864 968 ) ( -3712 3456 968 ) ( -3712 4864 1288 ) common/clip -0 0 0 -0.25 0.25 0 0 0
 }
@@ -27429,7 +27429,7 @@ map_courtfun/screenanim_xon
 "origin" "864.000000 800.000000 352.000000"
 }
 {
-"classname" "weapon_grenadelauncher"
+"classname" "weapon_mortar"
 "origin" "1872.000000 -192.000000 24.000000"
 }
 {
@@ -27528,7 +27528,7 @@ map_courtfun/screenanim_xon
 "angle" "-138.446487"
 }
 {
-"classname" "weapon_rocketlauncher"
+"classname" "weapon_devastator"
 "origin" "132.000000 2752.000000 344.000000"
 }
 {
@@ -27655,7 +27655,7 @@ map_courtfun/screenanim_xon
 "origin" "-1408.000000 2368.000000 32.000000"
 }
 {
-"classname" "weapon_uzi"
+"classname" "weapon_machinegun"
 "origin" "-2116.000000 1472.000000 48.000000"
 }
 {
@@ -27697,9 +27697,6 @@ map_courtfun/screenanim_xon
 "classname" "info_notnull"
 "origin" "96.000000 2456.000000 448.000000"
 "targetname" "info_notnull5"
-}
-{
-"classname" "trigger_impulse"
 }
 {
 "classname" "trigger_push"
@@ -27913,11 +27910,11 @@ map_courtfun/screenanim_xon
 "origin" "-1768.000000 384.000000 104.000000"
 }
 {
-"classname" "weapon_nex"
+"classname" "weapon_vortex"
 "origin" "-1600.000000 -632.000000 128.000000"
 }
 {
-"classname" "weapon_uzi"
+"classname" "weapon_machinegun"
 "origin" "-640.000000 64.000000 352.000000"
 }
 {
@@ -28700,9 +28697,6 @@ map_courtfun/screenanim_xon
 }
 {
 "classname" "func_group"
-}
-{
-"classname" "func_group"
 {
 ( -1235.1911621094 -385.184387207 208 ) ( -1259.4422607422 -406.0622558594 208 ) ( -1240.4106445313 -379.1216430664 208 ) common/weapclip 0 0 0 0.25 0.25 0 0 0
 ( -1235.1911621094 -385.184387207 208 ) ( -1240.4106445313 -379.1216430664 208 ) ( -1235.1911621094 -385.184387207 64 ) common/weapclip 0 0 0 0.25 0.25 0 0 0
@@ -29228,33 +29222,6 @@ map_courtfun/screenanim_xon
 "classname" "target_speaker"
 "origin" "-1248.000000 416.000000 208.000000"
 "noise" "ambient/machine2.ogg"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
 }
 {
 "classname" "func_group"
@@ -30462,7 +30429,7 @@ map_courtfun/screenanim_xon
 "angle" "-36.258213"
 }
 {
-"classname" "item_invincible"
+"classname" "item_shield"
 "origin" "512.000000 -3520.000000 256.000000"
 }
 {
@@ -30849,7 +30816,7 @@ map_courtfun/screenanim_xon
 "angle" "-179.999985"
 }
 {
-"classname" "weapon_grenadelauncher"
+"classname" "weapon_mortar"
 "origin" "-5968.000000 4160.000000 24.000000"
 "angle" "-179.999985"
 }
@@ -30945,7 +30912,7 @@ map_courtfun/screenanim_xon
 "angle" "41.553516"
 }
 {
-"classname" "weapon_rocketlauncher"
+"classname" "weapon_devastator"
 "origin" "-4228.000000 1216.000000 344.000000"
 "angle" "-179.999985"
 }
@@ -31019,7 +30986,7 @@ map_courtfun/screenanim_xon
 "angle" "-179.999985"
 }
 {
-"classname" "weapon_uzi"
+"classname" "weapon_machinegun"
 "origin" "-1980.000000 2496.000000 48.000000"
 "angle" "-179.999985"
 }
@@ -31065,9 +31032,6 @@ map_courtfun/screenanim_xon
 "origin" "-4192.000000 1512.000000 448.000000"
 "targetname" "info_notnull10"
 "angle" "-179.999985"
-}
-{
-"classname" "trigger_impulse"
 }
 {
 "classname" "trigger_push"
@@ -31297,12 +31261,12 @@ map_courtfun/screenanim_xon
 "angle" "-179.999985"
 }
 {
-"classname" "weapon_nex"
+"classname" "weapon_vortex"
 "origin" "-2496.000000 4600.000000 128.000000"
 "angle" "-179.999985"
 }
 {
-"classname" "weapon_uzi"
+"classname" "weapon_machinegun"
 "origin" "-3456.000000 3904.000000 352.000000"
 "angle" "-179.999985"
 }
@@ -32111,9 +32075,6 @@ map_courtfun/screenanim_xon
 }
 {
 "classname" "func_group"
-}
-{
-"classname" "func_group"
 {
 ( -2860.8088378906 4353.1845703125 208 ) ( -2836.5576171875 4374.0625 208 ) ( -2855.5893554688 4347.1215820313 208 ) common/weapclip 0 0 180 0.25 0.25 0 0 0
 ( -2860.8088378906 4353.1845703125 208 ) ( -2855.5893554688 4347.1215820313 208 ) ( -2860.8088378906 4353.1845703125 64 ) common/weapclip -0 0 0 -0.25 0.25 0 0 0
@@ -32643,33 +32604,6 @@ map_courtfun/screenanim_xon
 "origin" "-2848.000000 3552.000000 208.000000"
 "noise" "ambient/machine2.ogg"
 "angle" "-179.999985"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
-}
-{
-"classname" "func_group"
 }
 {
 "classname" "func_group"
@@ -33882,7 +33816,7 @@ map_courtfun/screenanim_xon
 "angle" "143.741776"
 }
 {
-"classname" "item_invincible"
+"classname" "item_shield"
 "origin" "-4608.000000 7488.000000 256.000000"
 "angle" "-179.999985"
 }
