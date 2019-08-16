@@ -12,5 +12,6 @@ gametype ft
 gametype ka
 gametype gg
 gametype surv
+hidden
 
 clientsettemp_for_type all r_shadow_realtime_world 0 // Disabled, because the performance drops significantly
