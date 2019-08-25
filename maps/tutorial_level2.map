@@ -17693,7 +17693,7 @@ brushDef
 {
 "classname" "trigger_multiple"
 "message" "Welcome to the ^2second level ^7of the tutorial!"
-"wait" "5"
+"wait" "7"
 {
 brushDef
 {
@@ -17709,7 +17709,7 @@ brushDef
 {
 "classname" "trigger_multiple"
 "message" "^7A bit harder now."
-"wait" "5"
+"wait" "7"
 {
 brushDef
 {
@@ -17725,7 +17725,7 @@ brushDef
 {
 "classname" "trigger_multiple"
 "message" "^7Use the ^2ramp ^7to get to the higher position."
-"wait" "5"
+"wait" "7"
 {
 brushDef
 {
@@ -17760,7 +17760,7 @@ brushDef
 {
 "classname" "trigger_multiple"
 "message" "^7Use the ^2ramp ^7to jump across the pit."
-"wait" "5"
+"wait" "7"
 {
 brushDef
 {
@@ -18099,7 +18099,7 @@ brushDef
 {
 "classname" "trigger_multiple"
 "message" "^7Use the ^2Blaster ^7to accelerate through the corridor."
-"wait" "5"
+"wait" "7"
 "target" "checkpoint_wall_blastering"
 {
 brushDef
@@ -18116,7 +18116,7 @@ brushDef
 {
 "classname" "trigger_multiple"
 "message" "^7Turn in the air to reach the teleporter."
-"wait" "5"
+"wait" "7"
 {
 brushDef
 {
@@ -18416,7 +18416,7 @@ brushDef
 {
 "classname" "trigger_multiple"
 "message" "Use ^2Crylink secondary fire ^7to accelerate really fast."
-"wait" "5"
+"wait" "7"
 "target" "checkpoint_crylink_boost"
 {
 brushDef
@@ -18621,7 +18621,7 @@ brushDef
 {
 "classname" "trigger_multiple"
 "message" "^7Shoot the button with an ^2Electro combo^7."
-"wait" "5"
+"wait" "7"
 "target" "checkpoint_weapon_electro"
 {
 brushDef
@@ -19218,7 +19218,7 @@ brushDef
 {
 "classname" "trigger_multiple"
 "message" "^7Hit the targets with the ^2Devastator^7, curve the rockets if necessary."
-"wait" "5"
+"wait" "7"
 "target" "checkpoint_weapon_devastator"
 {
 brushDef
@@ -19239,7 +19239,7 @@ brushDef
 {
 "classname" "trigger_multiple"
 "message" "^2Shoot ^7all the targets."
-"wait" "5"
+"wait" "7"
 "target" "checkpoint_weapon_mortar"
 {
 brushDef
@@ -19308,7 +19308,7 @@ brushDef
 {
 "classname" "trigger_multiple"
 "message" "^2Splash damage ^7travels through walls."
-"wait" "5"
+"wait" "7"
 "target" "checkpoint_splashdamage"
 {
 brushDef

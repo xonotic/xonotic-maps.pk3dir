@@ -7184,7 +7184,7 @@ brushDef
 {
 "classname" "trigger_multiple"
 "message" "^7Press ^2Crouch ^7to get past the obstacle."
-"wait" "5"
+"wait" "7"
 {
 brushDef
 {
@@ -7199,7 +7199,7 @@ brushDef
 }
 {
 "classname" "trigger_multiple"
-"wait" "5"
+"wait" "7"
 "message" "^7Welcome to ^2Xonotic^7!\nThis tutorial will guide you through basic techniques.\nWalk to the teleporter to begin!"
 {
 brushDef
@@ -7216,7 +7216,7 @@ brushDef
 {
 "classname" "trigger_multiple"
 "message" "^2Jump ^7across the gap."
-"wait" "5"
+"wait" "7"
 {
 brushDef
 {
@@ -7500,7 +7500,7 @@ brushDef
 {
 "classname" "trigger_multiple"
 "message" "^7Keep holding ^2Jump ^7('^1Bunny hopping^7') to reach the door before it closes."
-"wait" "5"
+"wait" "7"
 {
 brushDef
 {
@@ -9439,7 +9439,7 @@ brushDef
 {
 "classname" "trigger_multiple"
 "message" "^7Reach the exit before the ^1turret^7 kills you, pick up ^1health ^7& ^2armor ^7items on the way!"
-"wait" "5"
+"wait" "7"
 "target" "checkpoint_exit_room"
 {
 brushDef
@@ -9512,7 +9512,7 @@ brushDef
 "classname" "trigger_multiple"
 "message" "^2Shoot ^7at your feet with the ^2Blaster^7 to jump high."
 "target" "checkpoint_blaster_jump"
-"wait" "5"
+"wait" "7"
 {
 brushDef
 {
@@ -9528,7 +9528,7 @@ brushDef
 {
 "classname" "trigger_multiple"
 "message" "^7Shooting range: test out some ^2weapon^7."
-"wait" "5"
+"wait" "7"
 "target" "checkpoint_shooting_range"
 {
 brushDef
@@ -9717,7 +9717,7 @@ brushDef
 {
 "classname" "trigger_multiple"
 "message" "^2Shoot^7 the buttons with the ^2Shotgun^7!"
-"wait" "5"
+"wait" "7"
 {
 brushDef
 {
@@ -9744,7 +9744,7 @@ brushDef
 {
 "classname" "trigger_multiple"
 "message" "^2Slap ^7the red structure with the ^2Shotgun secondary ^7to clear the way."
-"wait" "5"
+"wait" "7"
 {
 brushDef
 {
