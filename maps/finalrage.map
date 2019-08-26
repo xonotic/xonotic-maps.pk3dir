@@ -14700,6 +14700,42 @@ map_stormkeep/rock
 ( -440 126 -62 ) ( -456 126 -62 ) ( -456 126 -64 ) exx/base-metal03 0 0 0 0.25 0.25 134217728 0 0
 ( -456 120 -54 ) ( -456 128 -62 ) ( -440 120 -54 ) exx/base-metal03 0 0 0 0.25 0.25 134217728 0 0
 }
+{
+( 256 576 -96 ) ( 232 576 -96 ) ( 232 560 -96 ) common/clip 0 0 0 0.25 0.25 0 4 0
+( 232 560 128 ) ( 232 576 128 ) ( 256 576 128 ) common/clip 0 0 0 0.25 0.25 0 4 0
+( 0 560 96 ) ( 24 560 96 ) ( 24 560 -96 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( -528 576 128 ) ( -528 576 -96 ) ( 256 576 -96 ) common/clip 0 0 0 0.25 0.25 0 4 0
+( -128 576 -64 ) ( -256 560 -64 ) ( -128 576 64 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( -272 560 -64 ) ( -448 576 -64 ) ( -272 560 64 ) common/clip 0 0 0 0.25 0.25 0 0 0
+}
+{
+( -272 576 88 ) ( -272 560 88 ) ( -272 576 96 ) common/clip 0 0 0 0.25 0.25 0 4 0
+( -512 576 96 ) ( -512 576 88 ) ( -144 576 88 ) common/clip 0 0 0 0.25 0.25 0 4 0
+( -272 384 88 ) ( -320 336 88 ) ( -272 384 96 ) common/clip 0 0 0 0.25 0.25 0 4 0
+( -432 336 88 ) ( -464 336 88 ) ( -464 336 96 ) common/clip 0 0 0 0.25 0.25 0 4 0
+( -256 320 88 ) ( -512 320 88 ) ( -512 208 88 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( -512 208 96 ) ( -512 320 96 ) ( -256 320 96 ) common/clip 0 0 0 0.25 0.25 0 4 0
+( -512 576 88 ) ( -512 576 96 ) ( -512 208 96 ) common/clip 0 0 0 0.25 0.25 0 4 0
+}
+{
+( -256 384 88 ) ( -272 384 96 ) ( -272 384 88 ) common/clip 0 0 0 0.25 0.25 0 4 0
+( -272 384 96 ) ( -320 336 88 ) ( -272 384 88 ) common/clip 0 0 0 0.25 0.25 0 4 0
+( -272 384 88 ) ( -292 324 88 ) ( -256 384 88 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( -272 336 96 ) ( -320 336 96 ) ( -260 356 96 ) common/clip 0 0 0 0.25 0.25 0 4 0
+( -320 336 96 ) ( -320 320 88 ) ( -320 336 88 ) common/clip 0 0 0 0.25 0.25 0 4 0
+( -260 356 96 ) ( -256 384 88 ) ( -260 356 88 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( -272 336 88 ) ( -260 356 96 ) ( -260 356 88 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( -292 324 88 ) ( -272 336 96 ) ( -272 336 88 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( -320 320 96 ) ( -292 324 88 ) ( -320 320 88 ) common/clip 0 0 0 0.25 0.25 0 0 0
+}
+{
+( -504 576 -96 ) ( -528 576 -96 ) ( -528 528 -96 ) common/clip 0 0 0 0.25 0.25 0 4 0
+( -528 528 96 ) ( -528 576 96 ) ( -504 576 96 ) common/clip 0 0 0 0.25 0.25 0 4 0
+( -496 528 128 ) ( -496 576 128 ) ( -496 576 -96 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( -512 592 -96 ) ( -512 592 128 ) ( -512 368 128 ) common/clip 0 0 0 0.25 0.25 0 4 0
+( -496 336 64 ) ( -512 512 -64 ) ( -496 336 -64 ) common/clip 0 0 0 0.25 0.25 0 0 0
+( -512 128 64 ) ( -496 320 -64 ) ( -512 128 -64 ) common/clip 0 0 0 0.25 0.25 0 0 0
+}
 }
 {
 "classname" "misc_teleporter_dest"
@@ -15372,22 +15408,22 @@ map_stormkeep/rock
 "classname" "misc_model"
 "origin" "1088.000000 992.000000 416.000000"
 "model" "models/lights/xonlight07.md3"
-"spawnflags" "2"
 "angle" "90.000000"
+"spawnflags" "2"
 }
 {
 "classname" "misc_model"
 "origin" "1088.000000 1440.000000 416.000000"
 "model" "models/lights/xonlight07.md3"
-"spawnflags" "2"
 "angle" "90.000000"
+"spawnflags" "2"
 }
 {
 "classname" "misc_model"
 "origin" "863.750000 -448.000000 32.000000"
 "model" "models/lights/xonlight04.md3"
-"spawnflags" "2"
 "angle" "90.000000"
+"spawnflags" "2"
 }
 {
 "classname" "light"
@@ -15427,15 +15463,15 @@ map_stormkeep/rock
 {
 "classname" "misc_model"
 "origin" "576.000000 -672.000000 320.000000"
-"spawnflags" "2"
 "model" "models/lights/xonlight01.md3"
+"spawnflags" "2"
 }
 {
 "classname" "misc_model"
 "origin" "863.750000 -448.000000 32.000000"
 "model" "models/lights/xonlight04.md3"
-"spawnflags" "2"
 "angle" "90.000000"
+"spawnflags" "2"
 }
 {
 "classname" "light"
@@ -15479,6 +15515,7 @@ map_stormkeep/rock
 "model" "models/effects_warpzone/blueedge.md3"
 "modelscale" "4.000000"
 "angle" "-180.000000"
+"spawnflags" "2"
 }
 {
 "classname" "misc_model"
@@ -15486,6 +15523,7 @@ map_stormkeep/rock
 "model" "models/effects_warpzone/blueedge.md3"
 "modelscale" "4.000000"
 "angle" "0.000009"
+"spawnflags" "2"
 }
 {
 "classname" "func_illusionary"
@@ -15501,8 +15539,8 @@ map_stormkeep/rock
 {
 "classname" "misc_model"
 "origin" "192.000000 -40.000000 96.000000"
-"spawnflags" "2"
 "model" "models/lights/xonlight01.md3"
+"spawnflags" "2"
 }
 {
 "classname" "light"
@@ -15517,8 +15555,8 @@ map_stormkeep/rock
 {
 "classname" "misc_model"
 "origin" "368.000000 -40.000000 96.000000"
-"spawnflags" "2"
 "model" "models/lights/xonlight01.md3"
+"spawnflags" "2"
 }
 {
 "classname" "light"
@@ -15533,8 +15571,8 @@ map_stormkeep/rock
 {
 "classname" "misc_model"
 "origin" "544.000000 -40.000000 96.000000"
-"spawnflags" "2"
 "model" "models/lights/xonlight01.md3"
+"spawnflags" "2"
 }
 {
 "classname" "light"
@@ -15549,8 +15587,8 @@ map_stormkeep/rock
 {
 "classname" "misc_model"
 "origin" "-352.000000 -424.000000 96.000000"
-"spawnflags" "2"
 "model" "models/lights/xonlight01.md3"
+"spawnflags" "2"
 }
 {
 "classname" "light"
@@ -15565,8 +15603,8 @@ map_stormkeep/rock
 {
 "classname" "misc_model"
 "origin" "-176.000000 -424.000000 96.000000"
-"spawnflags" "2"
 "model" "models/lights/xonlight01.md3"
+"spawnflags" "2"
 }
 {
 "classname" "light"
@@ -15581,8 +15619,8 @@ map_stormkeep/rock
 {
 "classname" "misc_model"
 "origin" "0.000000 -424.000000 96.000000"
-"spawnflags" "2"
 "model" "models/lights/xonlight01.md3"
+"spawnflags" "2"
 }
 {
 "classname" "light"
@@ -15597,9 +15635,9 @@ map_stormkeep/rock
 {
 "classname" "misc_model"
 "origin" "104.000000 -128.000000 96.000000"
-"spawnflags" "2"
 "model" "models/lights/xonlight01.md3"
 "angle" "-90.000000"
+"spawnflags" "2"
 }
 {
 "classname" "light"
@@ -15614,9 +15652,9 @@ map_stormkeep/rock
 {
 "classname" "misc_model"
 "origin" "104.000000 -320.000000 96.000000"
-"spawnflags" "2"
 "model" "models/lights/xonlight01.md3"
 "angle" "-90.000000"
+"spawnflags" "2"
 }
 {
 "classname" "light"
@@ -15659,9 +15697,9 @@ map_stormkeep/rock
 {
 "classname" "misc_model"
 "origin" "1184.000000 544.000000 256.000000"
-"spawnflags" "2"
 "model" "models/lights/xonlight01.md3"
 "angle" "-90.000000"
+"spawnflags" "2"
 }
 {
 "classname" "light"
@@ -15677,8 +15715,8 @@ map_stormkeep/rock
 "classname" "misc_model"
 "origin" "592.000000 512.250000 176.000000"
 "model" "models/lights/xonlight04.md3"
-"spawnflags" "2"
 "angle" "0.000016"
+"spawnflags" "2"
 }
 {
 "classname" "light"
@@ -15718,9 +15756,9 @@ map_stormkeep/rock
 {
 "classname" "misc_model"
 "origin" "95.999985 984.000122 288.000000"
-"spawnflags" "2"
 "model" "models/lights/xonlight01.md3"
 "angle" "45.000008"
+"spawnflags" "2"
 }
 {
 "classname" "light"
@@ -15735,9 +15773,9 @@ map_stormkeep/rock
 {
 "classname" "misc_model"
 "origin" "-248.000000 832.000122 448.000000"
-"spawnflags" "2"
 "model" "models/lights/xonlight01.md3"
 "angle" "45.000008"
+"spawnflags" "2"
 }
 {
 "classname" "light"

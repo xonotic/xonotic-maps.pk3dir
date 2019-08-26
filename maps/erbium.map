@@ -24568,7 +24568,7 @@ brushDef
 {
 "classname" "dom_controlpoint"
 "origin" "176.000000 -504.000000 544.000000"
-"message" " has captured the ^2Waterfall ^3control point"
+"message" " has captured the ^2Mega Health ^3control point"
 }
 {
 "classname" "dom_controlpoint"
