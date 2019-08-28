@@ -6807,9 +6807,8 @@ brushDef
 {
 "classname" "trigger_teleport"
 "target" "teleexit_circlejump"
-"target2" "target_items_health"
-"target3" "door_weapon_blaster"
-"target4" "reset_buttons_blaster"
+"target2" "target_remove_all_items"
+"target3" "target_reset_health"
 {
 brushDef
 {
@@ -6821,24 +6820,6 @@ brushDef
 ( 864 -976 112 ) ( 864 -816 112 ) ( 864 -976 144 ) ( ( 0.015625 0 228.25 ) ( 0 0.015625 0.25 ) ) common/trigger 0 0 0
 }
 }
-}
-{
-"classname" "relay_activate"
-"origin" "264.000000 -1248.000000 328.000000"
-"targetname" "relay_activate_blaster_3"
-"target" "button_weapon_blaster_3"
-}
-{
-"classname" "relay_activate"
-"origin" "56.000000 -1288.000000 8.000000"
-"targetname" "relay_activate_blaster_1"
-"target" "button_weapon_blaster_1"
-}
-{
-"classname" "relay_activate"
-"origin" "192.000000 -1448.000000 8.000000"
-"targetname" "relay_activate_blaster_2"
-"target" "button_weapon_blaster_2"
 }
 {
 "classname" "relay_deactivate"
@@ -6857,22 +6838,6 @@ brushDef
 "origin" "192.000000 -1432.000000 8.000000"
 "targetname" "relay_deactivate_blaster_2"
 "target" "button_weapon_blaster_2"
-}
-{
-"classname" "trigger_relay"
-"origin" "160.000000 -1096.000000 8.000000"
-"target2" "relay_activate_blaster_2"
-"target" "relay_activate_blaster_1"
-"target3" "relay_activate_blaster_3"
-"targetname" "reset_buttons_blaster"
-"target4" "reset_counter_blaster"
-}
-{
-"classname" "target_spawn"
-"origin" "200.000000 -1088.000000 72.000000"
-"targetname" "reset_counter_blaster"
-"target" "counter_weapon_blaster"
-"message" "count 3"
 }
 {
 "classname" "misc_model"
@@ -11720,12 +11685,4 @@ brushDef
 "targetname" "target_reset_health"
 "health" "100"
 "angle" "-180.000000"
-}
-{
-"classname" "trigger_relay"
-"origin" "864.000000 -800.000000 64.000000"
-"angle" "-179.999985"
-"targetname" "target_items_health"
-"target" "target_remove_all_items"
-"target2" "target_reset_health"
 }
