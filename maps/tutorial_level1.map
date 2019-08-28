@@ -9527,7 +9527,7 @@ brushDef
 }
 {
 "classname" "trigger_multiple"
-"message" "^7Shooting range: test out some ^2weapon^7."
+"message" "^7Shooting range: test out some ^2weapons^7."
 "wait" "7"
 "target" "checkpoint_shooting_range"
 {
