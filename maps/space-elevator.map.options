@@ -1,6 +1,6 @@
 -bsp +
 -vis +
--light + -bounce 8
+-light + -nobouncestore -bounce 8
 -minimap +
 -sRGB
 Version: 8d

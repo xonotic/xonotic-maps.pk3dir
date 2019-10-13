@@ -1,5 +1,5 @@
 -bsp + -samplesize 4 -minsamplesize 2
--light + -bounce 8
+-light + -nobouncestore -bounce 8
 -vis +
 -minimap +
 -sRGB
