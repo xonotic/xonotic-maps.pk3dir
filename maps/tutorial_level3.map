@@ -6727,7 +6727,7 @@ brushDef
 "target" "door_weapon_blaster"
 "targetname" "counter_weapon_blaster"
 "count" "3"
-"message" "Door open"
+"message" "^7Door open"
 {
 brushDef
 {
@@ -6991,7 +6991,7 @@ brushDef
 {
 "classname" "trigger_once"
 "sounds" "2"
-"message" "well done"
+"message" "^2Well done^7!"
 {
 brushDef
 {
@@ -10721,12 +10721,12 @@ brushDef
 {
 brushDef
 {
-( 288 -2048 192 ) ( 288 -2304 192 ) ( 224 -2048 192 ) ( ( 0.015625 0 48 ) ( 0 0.015625 229 ) ) common/trigger 0 0 0
-( 288 -2048 192 ) ( 224 -2048 192 ) ( 288 -2048 0 ) ( ( 0.015625 0 27 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
-( 288 -2048 192 ) ( 288 -2048 0 ) ( 288 -2304 192 ) ( ( 0.015625 0 48 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
-( 224 -2304 0 ) ( 288 -2304 0 ) ( 224 -2048 0 ) ( ( 0.015625 0 48 ) ( 0 0.015625 27 ) ) common/trigger 0 0 0
-( 224 -2304 0 ) ( 224 -2304 192 ) ( 288 -2304 0 ) ( ( 0.015625 0 229 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
-( 224 -2304 0 ) ( 224 -2048 0 ) ( 224 -2304 192 ) ( ( 0.015625 0 208 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+( 96 -2048 192 ) ( 96 -2304 192 ) ( 32 -2048 192 ) ( ( 0.015625 0 48 ) ( 0 0.015625 232 ) ) common/trigger 0 0 0
+( 96 -2048 192 ) ( 32 -2048 192 ) ( 96 -2048 0 ) ( ( 0.015625 0 24 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+( 96 -2048 192 ) ( 96 -2048 0 ) ( 96 -2304 192 ) ( ( 0.015625 0 48 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+( 32 -2304 0 ) ( 96 -2304 0 ) ( 32 -2048 0 ) ( ( 0.015625 0 48 ) ( 0 0.015625 24 ) ) common/trigger 0 0 0
+( 32 -2304 0 ) ( 32 -2304 192 ) ( 96 -2304 0 ) ( ( 0.015625 0 232 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
+( 32 -2304 0 ) ( 32 -2048 0 ) ( 32 -2304 192 ) ( ( 0.015625 0 208 ) ( 0 0.015625 0 ) ) common/trigger 0 0 0
 }
 }
 }
@@ -10909,9 +10909,6 @@ brushDef
 "targetname" "target_reset_health"
 "health" "100"
 "angle" "-180.000000"
-}
-{
-"classname" "func_group"
 }
 {
 "classname" "func_group"
