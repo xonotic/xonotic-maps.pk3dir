@@ -51,7 +51,7 @@ models/desertfactory/textures/shaders/grates01
 	surfaceparm nomarks
 	{
 		map models/desertfactory/textures/metal/grates01.tga
-		alphaFunc GT0
+		alphaFunc GE128
 		rgbGen vertex
 	}
 }
@@ -65,7 +65,7 @@ models/desertfactory/textures/shaders/grass01
 	cull none
 	{
 		map models/desertfactory/textures/misc/grass01.tga
-		alphaFunc GT0
+		alphaFunc GE128
 		rgbGen vertex
 	}
 }
@@ -79,7 +79,7 @@ models/desertfactory/textures/shaders/grass02
 	cull none
 	{
 		map models/desertfactory/textures/misc/grass02.tga
-		alphaFunc GT0
+		alphaFunc GE128
 		rgbGen vertex
 	}
 }
@@ -93,7 +93,7 @@ models/desertfactory/textures/shaders/vines01
 	cull none
 	{
 		map models/desertfactory/textures/misc/vines01.tga
-		alphaFunc GT0
+		alphaFunc GE128
 		rgbGen vertex
 	}
 }
@@ -107,7 +107,7 @@ models/desertfactory/textures/shaders/sign_ladder_dirty
 	qer_editorimage models/desertfactory/textures/shaders/sign_ladder_dirty.tga
 	{
 		map models/desertfactory/textures/signs/ladder_dirty.tga
-		alphaFunc GT0
+		alphaFunc GE128
 		rgbGen vertex
 	}
 }

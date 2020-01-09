@@ -57,7 +57,7 @@ textures/map_warfare/floor_panel
     polygonoffset
     {
         map textures/map_warfare/floor_panel
-        alphafunc GT0
+        alphaFunc GE128
     }
     {
         map $lightmap
@@ -100,7 +100,7 @@ textures/map_warfare/cactus
     cull none
     {
         map textures/map_warfare/cactus
-        alphafunc GT0
+        alphaFunc GE128
     }
     {
         map $lightmap
