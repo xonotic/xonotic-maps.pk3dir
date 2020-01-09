@@ -420,7 +420,7 @@ textures/exx/floor-grate01
 
 	{
 		map textures/exx/floor/floor_grate01.tga
-            alphaFunc GT0
+            alphaFunc GE128
 	}
 	{
 		map $lightmap
@@ -444,7 +444,7 @@ textures/exx/floor-grate01-cull
 
 	{
 		map textures/exx/floor/floor_grate01.tga
-            alphaFunc GT0
+            alphaFunc GE128
 	}
 	{
 		map $lightmap
@@ -469,7 +469,7 @@ textures/exx/floor-grate02
 
 	{
 		map textures/exx/floor/floor_grate02.tga
-            alphaFunc GT0
+            alphaFunc GE128
 	}
 	{
 		map $lightmap
@@ -493,7 +493,7 @@ textures/exx/floor-grate02-cull
 
 	{
 		map textures/exx/floor/floor_grate02.tga
-            alphaFunc GT0
+            alphaFunc GE128
 	}
 	{
 		map $lightmap
@@ -518,7 +518,7 @@ textures/exx/floor-grate03
 
 	{
 		map textures/exx/floor/floor_grate03.tga
-            alphaFunc GT0
+            alphaFunc GE128
 	}
 	{
 		map $lightmap
@@ -542,7 +542,7 @@ textures/exx/floor-grate03-cull
 
 	{
 		map textures/exx/floor/floor_grate03.tga
-            alphaFunc GT0
+            alphaFunc GE128
 	}
 	{
 		map $lightmap
@@ -567,7 +567,7 @@ textures/exx/floor-grate04
 
 	{
 		map textures/exx/floor/floor_grate04.tga
-            alphaFunc GT0
+            alphaFunc GE128
 	}
 	{
 		map $lightmap
@@ -592,7 +592,7 @@ textures/exx/floor-grate04-cull
 
 	{
 		map textures/exx/floor/floor_grate04.tga
-            alphaFunc GT0
+            alphaFunc GE128
 	}
 	{
 		map $lightmap
@@ -1035,7 +1035,7 @@ textures/exx/panel-grate01
 	nomipmaps
 	{
 		map textures/exx/panel/panel_grate01.tga
-		alphaFunc GT0
+		alphaFunc GE128
 		rgbgen vertex
 	}
 	{
@@ -1063,7 +1063,7 @@ textures/exx/panel-grate01-cull
 	nomipmaps
 	{
 		map textures/exx/panel/panel_grate01.tga
-		alphaFunc GT0
+		alphaFunc GE128
 		rgbgen vertex
 	}
 	{
