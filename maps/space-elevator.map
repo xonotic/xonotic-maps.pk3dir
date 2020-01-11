@@ -30662,7 +30662,7 @@ trak5x/base-pipe1c
 "origin" "0.000000 0.000000 -512.000000"
 }
 {
-"classname" "weapon_vortex"
+"classname" "weapon_devastator"
 "origin" "0.000000 0.000000 736.000000"
 }
 {
