@@ -271,10 +271,15 @@ textures/map_erbium/fern
 	nopicmip
 
 	{
-		map $lightmap
 		map textures/map_erbium/fern
 		blendFunc blend
 		rgbgen identity
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
 	}
 }
 
@@ -293,10 +298,15 @@ textures/map_erbium/ivy
 	nopicmip
 
 	{
-		map $lightmap
 		map textures/map_erbium/ivy
 		blendFunc blend
 		rgbgen identity
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
 	}
 }
 
@@ -311,10 +321,15 @@ textures/map_erbium/leaves
 	nopicmip
 
 	{
-		map $lightmap
 		map textures/map_erbium/leaves
 		blendFunc blend
 		rgbgen identity
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
 	}
 }
 
@@ -329,10 +344,15 @@ textures/map_erbium/leaves2
 	nopicmip
 
 	{
-		map $lightmap
 		map textures/map_erbium/leaves2
 		blendFunc blend
 		rgbgen identity
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
 	}
 }
 
@@ -346,10 +366,15 @@ textures/map_erbium/singular-leaf
 	nopicmip
 
 	{
-		map $lightmap
 		map textures/map_erbium/singular-leaf
 		blendFunc blend
 		rgbgen identity
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		tcGen lightmap
+		blendfunc filter
 	}
 }
 
