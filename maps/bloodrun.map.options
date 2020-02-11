@@ -1,0 +1,6 @@
+-bsp +
+-light + -bounce 8 -dirtscale 2
+-vis +
+-minimap +
+-sRGB
+Version: 01a
