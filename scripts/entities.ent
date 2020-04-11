@@ -1311,10 +1311,10 @@ Quake &quot;movedir/speed&quot; way: player will get velocity movedir * speed * 
 <real3 key="movedir" name="movedir">when target is not set, direction vector to push to, this * speed * 10 is the velocity to be reached.</real3>
 <real key="speed" name="speed">speed of jump pad (default: 1000)</real>
 <sound key="noise" name="noise">sound to play when jump pad is used; default is misc/jumppad.wav; you can set it to &quot;&quot; to make the pad silent</sound>
-<integer key="team" name="team">team that owns this jump pad (5 = red, 14 = blue, etc) (when set, only this team can teleport)</integer>
-<targetname key="targetname" name="targetname">when targeted by a func_button, pressing the button will reassign the teleporter to the team of the activator.</targetname>
+<integer key="team" name="team">team that owns this jump pad (5 = red, 14 = blue, etc) (when set, only this team can jump)</integer>
+<targetname key="targetname" name="targetname">when targeted by a func_button, pressing the button will reassign the jump pad to the team of the activator.</targetname>
 -------- SPAWNFLAGS --------
-<flag key="INVERT_TEAM" name="INVERT_TEAM" bit="2">the team that owns the teleporter will NOT jump when touching this</flag>
+<flag key="INVERT_TEAM" name="INVERT_TEAM" bit="2">the team that owns the jump pad will NOT jump when touching this</flag>
 </group>
 
 <point name="trigger_relay" color=".5 .5 .5" box="-8 -8 -8 8 8 8">
