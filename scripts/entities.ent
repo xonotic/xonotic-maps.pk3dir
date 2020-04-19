@@ -1218,7 +1218,7 @@ Has the useful effect of automatically returning flags, keys and runes when they
 <integer key="team" name="team">team that gets hurt (5 = red, 14 = blue, etc) (when set, only this team can get hurt)</integer>
 <targetname key="targetname" name="targetname">if triggered using this target name, the activator will be the one who gets the frag awarded for hurting someone using this trigger (hint: The Frag Pipe)</targetname>
 -------- SPAWNFLAGS --------
-<flag key="INVERT_TEAM" name="INVERT_TEAM" bit="2">the team that owns this will NOT jump when touching this</flag>
+<flag key="INVERT_TEAM" name="INVERT_TEAM" bit="2">the team that owns this will NOT get hurt when touching this</flag>
 </group>
 
 <group name="trigger_impulse" color=".5 .5 .5">
