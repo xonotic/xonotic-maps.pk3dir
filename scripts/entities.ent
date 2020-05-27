@@ -1675,6 +1675,11 @@ A brush that when entered changes the player's view to a position between target
 <flag key="NOSIDESCROLL" name="NOSIDESCROLL" bit="0">allow regular aiming and movement while forcing the camera between the viewlocation points</flag>
 <flag key="FREEAIM" name="FREEAIM" bit="1">show a crosshair on screen and allow 2d aiming instead of only forward</flag>
 <flag key="FREEMOVE" name="FREEMOVE" bit="2">allow moving up and down as well in side-scrolling mode, useful for brawlers</flag>
+<flag key="CAM_TRACK" name="CAM_TRACK" bit="3">follow the player when they leave the trigger's start and end boundaries</flag>
+<flag key="CAM_NOANGLE" name="CAM_NOANGLE" bit="4">don't use the camera's angles for the view</flag>
+<flag key="CAM_SNAP_HARD" name="CAM_SNAP_HARD" bit="5">hard snap changes the angle as soon as it crosses over the nearest 90 degree mark</flag>
+<flag key="CAM_SNAP_UNLOCK" name="CAM_SNAP_UNLOCK" bit="6">unlock the camera's view to allow up and down angles (useful for top-down view camera)</flag>
+<flag key="CAM_SNAP_CLOSE" name="CAM_SNAP_CLOSE" bit="7">avoid snapping the view angles unless absolutely necessary</flag>
 </group>
 
 <point name="target_viewlocation_start" color="0 .5 0" box="-8 -8 -8 8 8 8">
