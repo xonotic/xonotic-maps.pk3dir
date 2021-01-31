@@ -28,6 +28,16 @@ textures/common/caulk
     surfaceparm nomarks
 }
 
+textures/common/cushion
+{
+	qer_nocarve
+	qer_trans 0.50
+	surfaceparm nodraw
+	surfaceparm nomarks
+	surfaceparm nodamage
+	surfaceparm trans
+}
+
 textures/common/forcecaulk
 {
     surfaceparm nodraw
