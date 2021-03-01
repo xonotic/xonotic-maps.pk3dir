@@ -1,3 +1,7 @@
+gfx/*_mini.tga
 maps/*.bsp
+maps/*.prt
+maps/*.srf
+maps/*.lin
 maps/*/lm_*.tga
 .DS_Store
