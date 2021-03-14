@@ -335,7 +335,7 @@ textures/exomorphx/grate-metal_grate02
 
 	{
 		map textures/exomorphx/grate/metal_grate02
-		blendfunc blend
+		alphafunc GE128
 	}
 
 	{
@@ -361,7 +361,7 @@ textures/exomorphx/grate-metal_grate04
 
 	{
 		map textures/exomorphx/grate/metal_grate04
-		blendfunc blend
+		alphafunc GE128
 	}
 
 	{
@@ -387,7 +387,7 @@ textures/exomorphx/grate-metal_grate03
 
 	{
 		map textures/exomorphx/grate/metal_grate03
-		blendfunc blend
+		alphafunc GE128
 	}
 
 	{
@@ -413,7 +413,7 @@ textures/exomorphx/grate-metal_grate06
 
 	{
 		map textures/exomorphx/grate/metal_grate06
-		blendfunc blend		
+		alphafunc GE128		
 	}
 
 	{
@@ -439,7 +439,7 @@ textures/exomorphx/grate-metal_grate01
 
 	{
 		map textures/exomorphx/grate/metal_grate01
-		blendfunc blend
+		alphafunc GE128
 	}
 
 	{
@@ -465,7 +465,7 @@ textures/exomorphx/grate-metal_grate05
 
 	{
 		map textures/exomorphx/grate/metal_grate05
-		blendfunc blend
+		alphafunc GE128
 	}
 
 	{
