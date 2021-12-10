@@ -4,6 +4,7 @@ author AriosJentu
 cdtrack 7
 has weapons
 gametype dm
+gametype duel
 gametype tdm
 gametype ca
 gametype ft
