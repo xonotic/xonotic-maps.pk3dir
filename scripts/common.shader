@@ -28,6 +28,16 @@ textures/common/caulk
     surfaceparm nomarks
 }
 
+textures/common/cushion
+{
+	qer_nocarve
+	qer_trans 0.50
+	surfaceparm nodraw
+	surfaceparm nomarks
+	surfaceparm nodamage
+	surfaceparm trans
+}
+
 textures/common/forcecaulk
 {
     surfaceparm nodraw
@@ -100,6 +110,18 @@ textures/common/invisible // solid, transparent polygons, casts shadows
     }
 }
 
+textures/common/monsterclip
+{
+    qer_trans 0.40
+    surfaceparm nodraw
+    surfaceparm nolightmap
+    surfaceparm nonsolid
+    surfaceparm trans
+    surfaceparm nomarks
+    surfaceparm noimpact
+    surfaceparm monsterclip
+}
+
 textures/common/nodraw
 {
     surfaceparm nodraw
@@ -164,6 +186,15 @@ textures/common/skip
     surfaceparm skip
     surfaceparm structural
     surfaceparm trans
+}
+
+textures/common/slick
+{
+    surfaceparm nodraw
+    surfaceparm nomarks
+    surfaceparm trans
+    surfaceparm nolightmap
+    surfaceparm slick
 }
 
 textures/common/terrain

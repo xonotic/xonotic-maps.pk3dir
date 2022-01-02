@@ -11,6 +11,4 @@ gametype ft
 gametype ka
 gametype kh
 gametype dom
-
-clientsettemp_for_type all r_water 1
-clientsettemp_for_type all r_water_resolutionmultiplier 1
+gametype duel

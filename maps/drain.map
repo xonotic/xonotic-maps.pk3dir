@@ -2053,7 +2053,7 @@
 ( -128 -1200 192 ) ( -128 -1200 320 ) ( 0 -1200 192 ) common/caulk 0 0 0 0.25 0.25 0 0 0
 ( -128 -768 192 ) ( -128 -640 192 ) ( -128 -768 320 ) phillipk1x/walls-pk01_pan_wall02a1 0 368 0 0.25 0.25 0 0 0
 ( 64 -896 192 ) ( -64 -832 192 ) ( -64 -896 192 ) common/caulk 0 0 0 0.25 0.25 0 0 0
-( -896 64 224 ) ( -768 64 224 ) ( -896 -64 224 ) common/caulk 0 0 0 0.25 0.25 0 0 0
+( -896 64 224 ) ( -768 64 224 ) ( -896 -64 224 ) phillipk1x/vent-pk01_vent_wall03 0 64 0 0.25 0.25 0 0 0
 ( -96 -1088 -64 ) ( -48 -1088 -64 ) ( -96 -1088 64 ) common/caulk 0 0 0 0.25 0.25 0 0 0
 }
 {
@@ -11219,36 +11219,6 @@ trak5x/base-pipe1d
 }
 {
 "classname" "func_rain"
-"count" "1000"
-"velocity" "10 -20 -650"
-}
-{
-"classname" "func_rain"
-"count" "1000"
-"velocity" "10 -20 -650"
-}
-{
-"classname" "func_rain"
-"count" "1000"
-"velocity" "10 -20 -650"
-}
-{
-"classname" "func_rain"
-"count" "1000"
-"velocity" "10 -20 -650"
-}
-{
-"classname" "func_rain"
-"count" "1000"
-"velocity" "10 -20 -650"
-}
-{
-"classname" "func_rain"
-"count" "1000"
-"velocity" "10 -20 -650"
-}
-{
-"classname" "func_rain"
 "velocity" "10 -20 -650"
 "count" "600"
 {
@@ -11442,12 +11412,12 @@ trak5x/base-pipe1d
 "origin" "-1120.000000 192.000000 -96.000000"
 }
 {
-"classname" "weapon_grenadelauncher"
+"classname" "weapon_mortar"
 "origin" "432.000000 -432.000000 0.000000"
 "angle" "-90.000000"
 }
 {
-"classname" "weapon_rocketlauncher"
+"classname" "weapon_devastator"
 "origin" "-480.000000 -1024.000000 -64.000000"
 }
 {
@@ -11581,11 +11551,11 @@ trak5x/base-pipe1d
 "angles" "9.239502 -41.110847 0.000000"
 }
 {
-"classname" "weapon_nex"
+"classname" "weapon_vortex"
 "origin" "-1088.000000 320.000000 -128.000000"
 }
 {
-"classname" "weapon_uzi"
+"classname" "weapon_machinegun"
 "origin" "-192.000000 -176.000000 192.000000"
 "angle" "-179.999985"
 }

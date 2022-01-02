@@ -7723,9 +7723,6 @@ ex2x/base-metalmaterial1
 }
 {
 "classname" "func_group"
-}
-{
-"classname" "func_group"
 {
 ( 384 816 224 ) ( 368 848 224 ) ( 368 816 224 ) common/caulk 65 33 -180 0.5 0.5 0 0 0
 ( 384 816 224 ) ( 384 848 256 ) ( 384 848 224 ) common/caulk -95 -95 -180 0.5 0.5 0 0 0
@@ -7907,9 +7904,6 @@ ex2x/base-metalmaterial1
 ( 16 912 256 ) ( -16 912 224 ) ( -16 912 256 ) trak5x/trim-trim5e 0 0 -90 0.25 0.25 0 0 0
 ( 16 928 256 ) ( 16 912 224 ) ( 16 912 256 ) common/caulk -255 -95 -180 0.5 0.5 0 0 0
 }
-}
-{
-"classname" "func_group"
 }
 {
 "classname" "func_group"
@@ -8353,9 +8347,6 @@ ex2x/base-metalmaterial1
 "origin" "288 712 248"
 "light" "100"
 "_color" "1 0.984314 0.733333"
-}
-{
-"classname" "func_group"
 }
 {
 "classname" "func_group"

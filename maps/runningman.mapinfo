@@ -6,6 +6,4 @@ has weapons
 gametype dm
 gametype lms
 gametype ka
-
-clientsettemp_for_type all r_water 1
-clientsettemp_for_type all r_water_resolutionmultiplier 1
+gametype duel

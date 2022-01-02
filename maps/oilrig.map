@@ -19850,7 +19850,7 @@ terrain01x/blends-mars-rock02-ground01
 "light" "10"
 }
 {
-"classname" "weapon_nex"
+"classname" "weapon_vortex"
 "origin" "736.000000 -616.000000 944.000000"
 }
 {
@@ -23577,7 +23577,7 @@ exx/wall-bigrib02
 "light" "10"
 }
 {
-"classname" "weapon_uzi"
+"classname" "weapon_machinegun"
 "origin" "1776.000000 944.000000 144.000000"
 }
 {
@@ -23687,7 +23687,7 @@ exx/wall-bigrib02
 "targetname" "target_position4"
 }
 {
-"classname" "weapon_grenadelauncher"
+"classname" "weapon_mortar"
 "origin" "960.000000 960.000000 -352.000000"
 }
 {
@@ -23843,7 +23843,7 @@ exx/wall-bigrib02
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 }
 {
-"classname" "item_invincible"
+"classname" "item_shield"
 "origin" "856.000000 -432.000000 400.000000"
 }
 {
@@ -23861,7 +23861,7 @@ exx/wall-bigrib02
 "light" "5"
 }
 {
-"classname" "weapon_rocketlauncher"
+"classname" "weapon_devastator"
 "origin" "1776.000000 392.000000 -656.000000"
 }
 {
