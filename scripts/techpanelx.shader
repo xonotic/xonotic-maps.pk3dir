@@ -4,7 +4,7 @@ textures/techpanelx/base-diamondplate
 	
 	q3map_bounceScale 0.5
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 	{
@@ -25,7 +25,7 @@ textures/techpanelx/floor-panel1
 	
 	q3map_bounceScale 0.5
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -47,7 +47,7 @@ textures/techpanelx/floor-panel2
 	
 	q3map_bounceScale 0.5
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 	{
@@ -68,7 +68,7 @@ textures/techpanelx/panel-techcrate
 	
 	q3map_bounceScale 0.5
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 	{
@@ -89,7 +89,7 @@ textures/techpanelx/panel-tech1b
 	
 	q3map_bounceScale 0.5
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 	{
@@ -110,7 +110,7 @@ textures/techpanelx/panel-tech1r
 	
 	q3map_bounceScale 0.5
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 	{
@@ -131,7 +131,7 @@ textures/techpanelx/panel-tech1g
 	
 	q3map_bounceScale 0.5
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 	{
@@ -152,7 +152,7 @@ textures/techpanelx/panel-tech1y
 	
 	q3map_bounceScale 0.5
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 	{
@@ -173,7 +173,7 @@ textures/techpanelx/panel-tech2r
 	
 	q3map_bounceScale 0.5
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 	{
@@ -194,7 +194,7 @@ textures/techpanelx/panel-tech2b
 	
 	q3map_bounceScale 0.5
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 	{
@@ -215,7 +215,7 @@ textures/techpanelx/panel-tech2g
 	
 	q3map_bounceScale 0.5
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 	{
@@ -236,7 +236,7 @@ textures/techpanelx/panel-tech2y
 	
 	q3map_bounceScale 0.5
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 	{
@@ -257,7 +257,7 @@ textures/techpanelx/panel_tech3
 	
 	q3map_bounceScale 0.5
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 	{
@@ -278,7 +278,7 @@ textures/techpanelx/panel-tech4
 	
 	q3map_bounceScale 0.5
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 	{
@@ -299,7 +299,7 @@ textures/techpanelx/trim-section1b
 	
 	q3map_bounceScale 0.5
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 	{
@@ -320,7 +320,7 @@ textures/techpanelx/trim-section1r
 	
 	q3map_bounceScale 0.5
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 	{
@@ -341,7 +341,7 @@ textures/techpanelx/trim-section1g
 	
 	q3map_bounceScale 0.5
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 	{
@@ -362,7 +362,7 @@ textures/techpanelx/trim-section1y
 	
 	q3map_bounceScale 0.5
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 	{
@@ -383,7 +383,7 @@ textures/techpanelx/wall-section2r
 	
 	q3map_bounceScale 0.5
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -405,7 +405,7 @@ textures/techpanelx/wall-section3
 	
 	q3map_bounceScale 0.5
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
