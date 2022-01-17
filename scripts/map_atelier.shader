@@ -5,7 +5,7 @@ textures/map_atelier/9techwall03b
 	surfaceparm metalsteps
 	q3map_bounceScale  1.75
 	dpoffsetmapping - 2 match8 109
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 	{
@@ -26,7 +26,7 @@ textures/map_atelier/9techwall06
 	surfaceparm metalsteps
 	q3map_bounceScale  1.75
 	dpoffsetmapping - 2 match8 109
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 	{
