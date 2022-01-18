@@ -11,4 +11,3 @@ gametype ka
 gametype ft
 gametype kh
 gametype duel
-clientsettemp_for_type all r_water 0
