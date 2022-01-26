@@ -57,7 +57,7 @@ textures/ex2x/base-chainlink
 
 	{
 		map textures/ex2x/base/base_chainlink.tga
-		alphafunc GE128
+		alphaFunc GE128
 	}
 	{
 		map $lightmap

@@ -683,7 +683,7 @@ textures/phillipk2x/floor-pk02_floor07-trans
     cull none
     {
         map textures/phillipk2x/floor/pk02_floor07
-        alphafunc GT0
+        alphaFunc GE128
     }
     {
         map $lightmap
@@ -805,7 +805,7 @@ textures/phillipk2x/floor-pk02_floor10-trans
     cull none
     {
         map textures/phillipk2x/floor/pk02_floor10
-        alphafunc GT0
+        alphaFunc GE128
     }
     {
         map $lightmap
@@ -911,7 +911,7 @@ textures/phillipk2x/floor-pk02_floor13a-trans
     cull none
     {
         map textures/phillipk2x/floor/pk02_floor13a
-        alphafunc GT0
+        alphaFunc GE128
     }
     {
         map $lightmap
@@ -957,7 +957,7 @@ textures/phillipk2x/floor-pk02_floor13b-trans
     cull none
     {
         map textures/phillipk2x/floor/pk02_floor13b
-        alphafunc GT0
+        alphaFunc GE128
     }
     {
         map $lightmap

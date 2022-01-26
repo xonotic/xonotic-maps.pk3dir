@@ -12,5 +12,3 @@ gametype kh
 gametype ft
 gametype ka
 
-clientsettemp_for_type all r_water 1
-clientsettemp_for_type all r_water_resolutionmultiplier 1

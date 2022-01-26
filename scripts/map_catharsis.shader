@@ -90,7 +90,7 @@ textures/map_catharsis/chain
 	{
 		map textures/map_catharsis/chain.tga
 		tcMod scale 2 2
-		alphafunc GE128
+		alphaFunc GE128
 	}
 	{
 		map $lightmap
