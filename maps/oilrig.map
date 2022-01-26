@@ -23542,7 +23542,6 @@ exx/wall-bigrib02
 "classname" "misc_model"
 "origin" "-256.000000 576.000000 -640.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "target_position"
@@ -23585,7 +23584,6 @@ exx/wall-bigrib02
 "classname" "misc_model"
 "origin" "1776.000000 -128.000000 128.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "item_armor_small"
@@ -23603,7 +23601,6 @@ exx/wall-bigrib02
 "classname" "misc_model"
 "origin" "1776.000000 400.000000 528.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "light"
@@ -23651,7 +23648,6 @@ exx/wall-bigrib02
 "origin" "1248.000000 119.999962 -352.000000"
 "model" "models/xonotic_jumppad01/xonotic_launchpad01.md3"
 "angle" "165.309097"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_launchpad01_lod1.md3"
 }
 {
 "classname" "item_armor_small"
@@ -23845,7 +23841,6 @@ exx/wall-bigrib02
 "classname" "misc_model"
 "origin" "224.000000 -96.000000 -640.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "item_shield"
@@ -23930,13 +23925,11 @@ exx/wall-bigrib02
 "origin" "2432.000000 384.000000 -871.999939"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "angles" "-30.000000 0.000000 0.000000"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "misc_model"
 "origin" "920.000000 704.000000 -672.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "light"
@@ -24054,7 +24047,6 @@ exx/wall-bigrib02
 "classname" "misc_model"
 "origin" "728.000000 -248.000000 -912.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "light"
@@ -24082,7 +24074,6 @@ exx/wall-bigrib02
 "origin" "639.999878 -447.999939 -319.999969"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
 "angles" "-0.000000 0.000000 -26.500002"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "light"
@@ -24122,19 +24113,16 @@ exx/wall-bigrib02
 "classname" "misc_model"
 "origin" "728.000000 1208.000000 -909.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "misc_model"
 "origin" "1784.000000 -848.000000 -909.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "misc_model"
 "origin" "-264.000000 -552.000000 -912.000000"
 "model" "models/xonotic_jumppad01/xonotic_jumppad01.md3"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "light"

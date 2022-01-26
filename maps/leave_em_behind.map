@@ -10194,7 +10194,6 @@ exx/trim-simple01
 "modelscale" "1.75"
 "_rs" "1"
 "_cs" "1"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "misc_gamemodel"
@@ -10204,7 +10203,6 @@ exx/trim-simple01
 "skin" "3"
 "_rs" "1"
 "_cs" "1"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "misc_gamemodel"
@@ -10214,7 +10212,6 @@ exx/trim-simple01
 "modelscale" "1.75"
 "_rs" "1"
 "_cs" "1"
-"lodmodel1" "models/xonotic_jumppad01/xonotic_jumppad01_lod1.md3"
 }
 {
 "classname" "func_group"

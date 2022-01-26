@@ -13,7 +13,7 @@ textures/logos/logo01_black
 
 	{
 		map textures/logos/logo01/logo01_black.tga
-		alphaFunc GT0
+		alphaFunc GE128
 		rgbgen identity
 	}
 }
@@ -34,7 +34,7 @@ textures/logos/logo01_blue
 	{
 		map textures/logos/logo01/logo01_blue.tga
 		blendFunc filter
-		alphaFunc GT0
+		alphaFunc GE128
 		rgbgen identity
 	}
 }
@@ -55,7 +55,7 @@ textures/logos/logo01_blue_glowy
 	{
 		map textures/logos/logo01/logo01_blueg.tga
 		blendFunc GL_SRC_ALPHA GL_ONE
-		alphaFunc GT0
+		alphaFunc GE128
 		rgbgen identity
 	}
 }
@@ -76,7 +76,7 @@ textures/logos/logo01_cyan
 	{
 		map textures/logos/logo01/logo01_cyan.tga
 		blendFunc filter
-		alphaFunc GT0
+		alphaFunc GE128
 		rgbgen identity
 	}
 }
@@ -97,7 +97,7 @@ textures/logos/logo01_cyan_glowy
 	{
 		map textures/logos/logo01/logo01_cyang.tga
 		blendFunc GL_SRC_ALPHA GL_ONE
-		alphaFunc GT0
+		alphaFunc GE128
 		rgbgen identity
 	}
 }
@@ -118,7 +118,7 @@ textures/logos/logo01_red
 	{
 		map textures/logos/logo01/logo01_red.tga
 		blendFunc filter
-		alphaFunc GT0
+		alphaFunc GE128
 		rgbgen identity
 	}
 }
@@ -139,7 +139,7 @@ textures/logos/logo01_red_glowy
 	{
 		map textures/logos/logo01/logo01_redg.tga
 		blendFunc GL_SRC_ALPHA GL_ONE
-		alphaFunc GT0
+		alphaFunc GE128
 		rgbgen identity
 	}
 }
@@ -160,7 +160,7 @@ textures/logos/logo01_green
 	{
 		map textures/logos/logo01/logo01_green.tga
 		blendFunc filter
-		alphaFunc GT0
+		alphaFunc GE128
 		rgbgen identity
 	}
 }
@@ -181,7 +181,7 @@ textures/logos/logo01_green_glowy
 	{
 		map textures/logos/logo01/logo01_greeng.tga
 		blendFunc GL_SRC_ALPHA GL_ONE
-		alphaFunc GT0
+		alphaFunc GE128
 		rgbgen identity
 	}
 }
@@ -202,7 +202,7 @@ textures/logos/logo01_purple
 	{
 		map textures/logos/logo01/logo01_purple.tga
 		blendFunc filter
-		alphaFunc GT0
+		alphaFunc GE128
 		rgbgen identity
 	}
 }
@@ -223,7 +223,7 @@ textures/logos/logo01_purple_glowy
 	{
 		map textures/logos/logo01/logo01_purpleg.tga
 		blendFunc GL_SRC_ALPHA GL_ONE
-		alphaFunc GT0
+		alphaFunc GE128
 		rgbgen identity
 	}
 }
@@ -243,7 +243,7 @@ textures/logos/logo01_white
 
 	{
 		map textures/logos/logo01/logo01_white.tga
-		alphaFunc GT0
+		alphaFunc GE128
 		rgbgen identity
 	}
 }
@@ -264,7 +264,7 @@ textures/logos/logo01_yellow
 	{
 		map textures/logos/logo01/logo01_yellow.tga
 		blendFunc filter
-		alphaFunc GT0
+		alphaFunc GE128
 		rgbgen identity
 	}
 }
@@ -285,7 +285,7 @@ textures/logos/logo01_yellow_glowy
 	{
 		map textures/logos/logo01/logo01_yellowg.tga
 		blendFunc GL_SRC_ALPHA GL_ONE
-		alphaFunc GT0
+		alphaFunc GE128
 		rgbgen identity
 	}
 }
@@ -306,7 +306,7 @@ textures/logos/logo02_red
 	{
 		map textures/logos/logo02/logo02_red.tga
 		blendFunc filter
-		alphaFunc GT0
+		alphaFunc GE128
 		rgbgen identity
 	}
 }
@@ -327,7 +327,7 @@ textures/logos/logo02_red_glowy
 	{
 		map textures/logos/logo02/logo02_redg.tga
 		blendFunc GL_SRC_ALPHA GL_ONE
-		alphaFunc GT0
+		alphaFunc GE128
 		rgbgen identity
 	}
 }
@@ -347,7 +347,7 @@ textures/logos/logo02_black
 
 	{
 		map textures/logos/logo02/logo02_black.tga
-		alphaFunc GT0
+		alphaFunc GE128
 		rgbgen identity
 	}
 }
@@ -368,7 +368,7 @@ textures/logos/logo02_blue
 	{
 		map textures/logos/logo02/logo02_blue.tga
 		blendFunc filter
-		alphaFunc GT0
+		alphaFunc GE128
 		rgbgen identity
 	}
 }
@@ -389,7 +389,7 @@ textures/logos/logo02_blue_glowy
 	{
 		map textures/logos/logo02/logo02_blueg.tga
 		blendFunc GL_SRC_ALPHA GL_ONE
-		alphaFunc GT0
+		alphaFunc GE128
 		rgbgen identity
 	}
 }
@@ -410,7 +410,7 @@ textures/logos/logo02_cyan
 	{
 		map textures/logos/logo02/logo02_cyan.tga
 		blendFunc filter
-		alphaFunc GT0
+		alphaFunc GE128
 		rgbgen identity
 	}
 }
@@ -431,7 +431,7 @@ textures/logos/logo02_cyan_glowy
 	{
 		map textures/logos/logo02/logo02_cyang.tga
 		blendFunc GL_SRC_ALPHA GL_ONE
-		alphaFunc GT0
+		alphaFunc GE128
 		rgbgen identity
 	}
 }
@@ -452,7 +452,7 @@ textures/logos/logo02_green
 	{
 		map textures/logos/logo02/logo02_green.tga
 		blendFunc filter
-		alphaFunc GT0
+		alphaFunc GE128
 		rgbgen identity
 	}
 }
@@ -473,7 +473,7 @@ textures/logos/logo02_green_glowy
 	{
 		map textures/logos/logo02/logo02_greeng.tga
 		blendFunc GL_SRC_ALPHA GL_ONE
-		alphaFunc GT0
+		alphaFunc GE128
 		rgbgen identity
 	}
 }
@@ -494,7 +494,7 @@ textures/logos/logo02_purple
 	{
 		map textures/logos/logo02/logo02_purple.tga
 		blendFunc filter
-		alphaFunc GT0
+		alphaFunc GE128
 		rgbgen identity
 	}
 }
@@ -515,7 +515,7 @@ textures/logos/logo02_purple_glowy
 	{
 		map textures/logos/logo02/logo02_purpleg.tga
 		blendFunc GL_SRC_ALPHA GL_ONE
-		alphaFunc GT0
+		alphaFunc GE128
 		rgbgen identity
 	}
 }
@@ -535,7 +535,7 @@ textures/logos/logo02_white
 
 	{
 		map textures/logos/logo02/logo02_white.tga
-		alphaFunc GT0
+		alphaFunc GE128
 		rgbgen identity
 	}
 }
@@ -556,7 +556,7 @@ textures/logos/logo02_yellow
 	{
 		map textures/logos/logo02/logo02_yellow.tga
 		blendFunc filter
-		alphaFunc GT0
+		alphaFunc GE128
 		rgbgen identity
 	}
 }
@@ -577,7 +577,7 @@ textures/logos/logo02_yellow_glowy
 	{
 		map textures/logos/logo02/logo02_yellowg.tga
 		blendFunc GL_SRC_ALPHA GL_ONE
-		alphaFunc GT0
+		alphaFunc GE128
 		rgbgen identity
 	}
 }
@@ -597,7 +597,7 @@ textures/logos/logo03_black
 
 	{
 		map textures/logos/logo03/logo03_black.tga
-		alphaFunc GT0
+		alphaFunc GE128
 		rgbgen identity
 	}
 }
@@ -618,7 +618,7 @@ textures/logos/logo03_blue
 	{
 		map textures/logos/logo03/logo03_blue.tga
 		blendFunc filter
-		alphaFunc GT0
+		alphaFunc GE128
 		rgbgen identity
 	}
 }
@@ -639,7 +639,7 @@ textures/logos/logo03_blue_glowy
 	{
 		map textures/logos/logo03/logo03_blueg.tga
 		blendFunc GL_SRC_ALPHA GL_ONE
-		alphaFunc GT0
+		alphaFunc GE128
 		rgbgen identity
 	}
 }
@@ -660,7 +660,7 @@ textures/logos/logo03_cyan
 	{
 		map textures/logos/logo03/logo03_cyan.tga
 		blendFunc filter
-		alphaFunc GT0
+		alphaFunc GE128
 		rgbgen identity
 	}
 }
@@ -681,7 +681,7 @@ textures/logos/logo03_cyan_glowy
 	{
 		map textures/logos/logo03/logo03_cyang.tga
 		blendFunc GL_SRC_ALPHA GL_ONE
-		alphaFunc GT0
+		alphaFunc GE128
 		rgbgen identity
 	}
 }
@@ -702,7 +702,7 @@ textures/logos/logo03_green
 	{
 		map textures/logos/logo03/logo03_green.tga
 		blendFunc filter
-		alphaFunc GT0
+		alphaFunc GE128
 		rgbgen identity
 	}
 }
@@ -723,7 +723,7 @@ textures/logos/logo03_green_glowy
 	{
 		map textures/logos/logo03/logo03_greeng.tga
 		blendFunc GL_SRC_ALPHA GL_ONE
-		alphaFunc GT0
+		alphaFunc GE128
 		rgbgen identity
 	}
 }
@@ -744,7 +744,7 @@ textures/logos/logo03_purple
 	{
 		map textures/logos/logo03/logo03_purple.tga
 		blendFunc filter
-		alphaFunc GT0
+		alphaFunc GE128
 		rgbgen identity
 	}
 }
@@ -765,7 +765,7 @@ textures/logos/logo03_purple_glowy
 	{
 		map textures/logos/logo03/logo03_purpleg.tga
 		blendFunc GL_SRC_ALPHA GL_ONE
-		alphaFunc GT0
+		alphaFunc GE128
 		rgbgen identity
 	}
 }
@@ -786,7 +786,7 @@ textures/logos/logo03_red
 	{
 		map textures/logos/logo03/logo03_red.tga
 		blendFunc filter
-		alphaFunc GT0
+		alphaFunc GE128
 		rgbgen identity
 	}
 }
@@ -807,7 +807,7 @@ textures/logos/logo03_red_glowy
 	{
 		map textures/logos/logo03/logo03_redg.tga
 		blendFunc GL_SRC_ALPHA GL_ONE
-		alphaFunc GT0
+		alphaFunc GE128
 		rgbgen identity
 	}
 }
@@ -827,7 +827,7 @@ textures/logos/logo03_white
 
 	{
 		map textures/logos/logo03/logo03_white.tga
-		alphaFunc GT0
+		alphaFunc GE128
 		rgbgen identity
 	}
 }
@@ -848,7 +848,7 @@ textures/logos/logo03_yellow
 	{
 		map textures/logos/logo03/logo03_yellow.tga
 		blendFunc filter
-		alphaFunc GT0
+		alphaFunc GE128
 		rgbgen identity
 	}
 }
@@ -869,7 +869,7 @@ textures/logos/logo03_yellow_glowy
 	{
 		map textures/logos/logo03/logo03_yellowg.tga
 		blendFunc GL_SRC_ALPHA GL_ONE
-		alphaFunc GT0
+		alphaFunc GE128
 		rgbgen identity
 	}
 }

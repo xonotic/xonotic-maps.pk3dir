@@ -1,5 +1,6 @@
-// initial lava pit jump
+// HARDWIRED LINKS
 '1696.0 -256.0  -7.9'*'1696.0 232.0  -8.0'
-// shortcut from/to vortex
 ' 32.0 -32.0  -7.9'*'-136.5  74.5  -8.0'
 '-136.5  74.5  -8.0'*' 32.0 -32.0  -7.9'
+
+// SPECIAL LINKS

@@ -26432,9 +26432,6 @@ map_xoylent/base_pipes
 "targetname" "pushtarget"
 }
 {
-"classname" "func_group"
-}
-{
 "classname" "misc_model"
 "origin" "288.000000 -704.000000 352.000000"
 "model" "models/map_xoylent/lamp.obj"
