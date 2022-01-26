@@ -293,7 +293,7 @@ textures/terrain01x/ground-goopit
 	
 	q3map_bounceScale  0.75
 	dpoffsetmapping - 2 match8 72
-	dpglossintensitymod  2
+	dpglossintensitymod 1
 	dpglossexponentmod  2
 
 	q3map_lightmapSampleOffset 4
@@ -343,7 +343,7 @@ textures/terrain01x/ground-ice01
 	
 	q3map_bounceScale  0.75
 	dpoffsetmapping - 2 match8 254
-	dpglossintensitymod  2
+	dpglossintensitymod 1
 	dpglossexponentmod  2
 
 	q3map_lightmapSampleOffset 4
