@@ -1,6 +1,6 @@
 models/crystals/crystal1
 {
-	dpglossintensitymod 5
+	dpglossintensitymod 2.5
 	dpglossexponentmod 2
 	dpreflectcube cubemaps/default/sky
 	{

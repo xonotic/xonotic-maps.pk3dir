@@ -4,7 +4,7 @@ textures/map_darkzone/bluelight
 	
 	q3map_bounceScale  0.75
 	dpoffsetmapping - 0.5 match8 99
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
