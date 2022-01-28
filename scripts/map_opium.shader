@@ -58,7 +58,7 @@ textures/map_opium/floor-simplines
 	qer_editorimage textures/exx/floor/floor_simplines.tga
 	q3map_bounceScale  0.75
 	dpoffsetmapping - 1 match8 244
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 	surfaceparm nonsolid
 	{
