@@ -1,0 +1,6 @@
+-bsp +
+-light + -dirtscale 2 -bounce 8
+-vis +
+-minimap + -scale 0.9
+-sRGB
+Version: 5e

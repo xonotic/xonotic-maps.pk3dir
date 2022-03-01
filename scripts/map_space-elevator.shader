@@ -1,6 +1,6 @@
 textures/map_space-elevator/hangwires
 {
-	surfaceparm nolightmap
+	surfaceparm alphashadow
 	surfaceparm nomarks
 	surfaceparm trans
 	cull disable
@@ -86,4 +86,22 @@ textures/map_space-elevator/solarmetal
 		tcGen lightmap
 		blendfunc filter
 	}
+}
+
+textures/map_space-elevator/polluted_earth
+{
+	qer_editorimage textures/skies/polluted_earth.jpg
+	surfaceparm sky
+	surfaceparm noimpact
+	surfaceparm nolightmap
+	surfaceparm nomarks
+	q3map_globaltexture
+	q3map_surfacelight 5
+	surfaceparm sky
+
+        nopicmip
+        nomipmaps
+	q3map_sunExt 1 0.9 0.9 120 320 30
+	q3map_skylight 100 4
+	skyparms env/polluted_earth/polluted_earth - -
 }

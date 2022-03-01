@@ -4,7 +4,7 @@ textures/ex2x/base-yellowpaint
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 0.5 match8 204
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -26,7 +26,7 @@ textures/ex2x/base-bluepaint
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 0.5 match8 204
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -48,15 +48,16 @@ textures/ex2x/base-chainlink
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 0.5 match8 204
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 	surfaceparm trans
 	cull none
+	surfaceparm alphashadow
 
 	{
 		map textures/ex2x/base/base_chainlink.tga
-		alphafunc GE128
+		alphaFunc GE128
 	}
 	{
 		map $lightmap
@@ -71,7 +72,7 @@ textures/ex2x/base-metal1
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 0.5 match8 220
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -93,7 +94,7 @@ textures/ex2x/base-metal2
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 0.5 match8 196
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -115,7 +116,7 @@ textures/ex2x/base-metal3
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 0.5 match8 203
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -137,7 +138,7 @@ textures/ex2x/base-metal4
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 0.5 match8 201
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -159,7 +160,7 @@ textures/ex2x/base-metalmaterial1
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 0.5 match8 204
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -181,7 +182,7 @@ textures/ex2x/base-stone_metal
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 0.5 match8 201
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -203,7 +204,7 @@ textures/ex2x/floor-1
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 0.5 match8 204
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -225,7 +226,7 @@ textures/ex2x/floor-h1
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 0.5 match8 201
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -247,7 +248,7 @@ textures/ex2x/floor-h2
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 0.5 match8 201
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -269,7 +270,7 @@ textures/ex2x/floor-h3
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 0.5 match8 201
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -291,7 +292,7 @@ textures/ex2x/floor-h4
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 0.5 match8 201
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -313,7 +314,7 @@ textures/ex2x/floor-metal3
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 0.5 match8 193
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -335,7 +336,7 @@ textures/ex2x/floor-plate1
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 0.5 match8 197
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -357,7 +358,7 @@ textures/ex2x/floor-plate2
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 0.5 match8 212
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -379,7 +380,7 @@ textures/ex2x/floor-r1
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 0.5 match8 205
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -401,7 +402,7 @@ textures/ex2x/light-1
 	
 	q3map_bounceScale  0.75
 	dpoffsetmapping - 0.5 match8 247
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -423,7 +424,7 @@ textures/ex2x/light-beam_blue
 	
 	q3map_bounceScale  0.75
 	dpoffsetmapping - 0.5 match8 99
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -445,7 +446,7 @@ textures/ex2x/light-beam_red
 	
 	q3map_bounceScale  0.75
 	dpoffsetmapping - 0.5 match8 99
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -467,7 +468,7 @@ textures/ex2x/light-beam_green
 	
 	q3map_bounceScale  0.75
 	dpoffsetmapping - 0.5 match8 99
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -490,7 +491,7 @@ textures/ex2x/trim-green2
 	surfaceparm metalsteps
 	q3map_bounceScale  1.5
 	dpoffsetmapping - 0.5 match8 202
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -513,7 +514,7 @@ textures/ex2x/trim-warn1
 	surfaceparm metalsteps
 	q3map_bounceScale  1.5
 	dpoffsetmapping - 0.5 match8 202
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -535,7 +536,7 @@ textures/ex2x/wall-purple1
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 0.5 match8 234
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 

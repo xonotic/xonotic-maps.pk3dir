@@ -1,0 +1,8 @@
+title Geoplanetary
+description Geomonetary in space
+author MintOX, Debugger, Mirio
+cdtrack 18
+has weapons
+gametype ctf
+gametype dom
+

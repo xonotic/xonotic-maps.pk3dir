@@ -8,9 +8,9 @@ textures/map_xoylent/sky
 	surfaceparm nomarks
 
 	skyparms env/extragalactic/asteroids - - //farbox cloudheight nearbox
-	q3map_sunExt 1 0.6875 0.375 340 25 47 0 16 //rgb intensity degrees elevation deviance samples
+	q3map_sunExt 1 0.8 0.6 260 25 47 0 16 //rgb intensity degrees elevation deviance samples
 	q3map_lightmapFilterRadius 0 8 //self other
-	q3map_skylight 110 3 //amount iterations
+	q3map_skylight 20 3 //amount iterations
 }
 
 textures/map_xoylent/light-panel01-surfacelight
@@ -19,7 +19,7 @@ textures/map_xoylent/light-panel01-surfacelight
 	
 	q3map_bounceScale  0.75
 	dpoffsetmapping - 2 match8 79
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 	q3map_surfacelight 4000			//Changed
@@ -43,7 +43,7 @@ textures/map_xoylent/light-u201-surfacelight
 	
 	q3map_bounceScale  0.75
 	dpoffsetmapping - 2 match8 76
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 	q3map_surfacelight 1500			//Changed
@@ -65,7 +65,7 @@ textures/map_xoylent/base_cutmetal
 {
 	qer_editorimage textures/map_xoylent/base_cutmetal.tga
 	dpoffsetmapping none
-	dpglossintensitymod 3
+	dpglossintensitymod 1.5
 	dpglossexponentmod 4
 	{
 		map textures/map_xoylent/base_cutmetal.tga
@@ -82,7 +82,7 @@ textures/map_xoylent/base_pipes
 {
 	qer_editorimage textures/map_xoylent/base_pipes.tga
 	dpoffsetmapping none
-	dpglossintensitymod 4
+	dpglossintensitymod 2
 	dpglossexponentmod 4
 	{
 		map textures/map_xoylent/base_pipes.tga
@@ -99,7 +99,7 @@ textures/map_xoylent/base_pipes_nolight
 {
 	qer_editorimage textures/map_xoylent/base_pipes_nolight.tga
 	dpoffsetmapping none
-	dpglossintensitymod 4
+	dpglossintensitymod 2
 	dpglossexponentmod 4
 	{
 		map textures/map_xoylent/base_pipes_nolight.tga
@@ -180,7 +180,7 @@ textures/map_xoylent/panels_horizontal
 {
 	qer_editorimage textures/map_xoylent/panels_horizontal.tga
 	dpoffsetmapping - 2 match8 193
-	dpglossintensitymod 3
+	dpglossintensitymod 1.5
 	dpglossexponentmod 4
 	{
 		map textures/map_xoylent/panels_horizontal.tga
@@ -197,7 +197,7 @@ textures/map_xoylent/panels_trim
 {
 	qer_editorimage textures/map_xoylent/panels_trim.tga
 	dpoffsetmapping - 2 match8 171
-	dpglossintensitymod 3
+	dpglossintensitymod 1.5
 	dpglossexponentmod 4
 	{
 		map textures/map_xoylent/panels_trim.tga
@@ -214,7 +214,7 @@ textures/map_xoylent/panels_vertical
 {
 	qer_editorimage textures/map_xoylent/panels_vertical.tga
 	dpoffsetmapping - 2 match8 176
-	dpglossintensitymod 3
+	dpglossintensitymod 1.5
 	dpglossexponentmod 4
 	{
 		map textures/map_xoylent/panels_vertical.tga
@@ -246,7 +246,7 @@ textures/map_xoylent/panels_warning
 {
 	qer_editorimage textures/map_xoylent/panels_warning.tga
 	dpoffsetmapping - 2 match8 189
-	dpglossintensitymod 3
+	dpglossintensitymod 1.5
 	dpglossexponentmod 4
 	{
 		map textures/map_xoylent/panels_warning.tga
@@ -263,7 +263,7 @@ textures/map_xoylent/trak6_trim4_edit
 {
 	qer_editorimage textures/map_xoylent/trak6_trim4_edit.tga
 	dpoffsetmapping - 1 match8 53
-	dpglossintensitymod 3
+	dpglossintensitymod 1.5
 	dpglossexponentmod 4
 	{
 		map textures/map_xoylent/trak6_trim4_edit.tga
@@ -333,7 +333,7 @@ models/map_xoylent/lamp_small_light
 models/map_xoylent/pathway
 {
 	qer_editorimage models/map_xoylent/pathway.tga
-	dpglossintensitymod 3
+	dpglossintensitymod 1.5
 	dpglossexponentmod 4
 	{
 		map models/map_xoylent/pathway.tga
@@ -358,7 +358,7 @@ models/map_xoylent/spawnpoint_light
 models/map_xoylent/spine
 {
 	qer_editorimage models/map_xoylent/spine.tga
-	dpglossintensitymod 3
+	dpglossintensitymod 1.5
 	dpglossexponentmod 4
 	{
 		map models/map_xoylent/spine.tga

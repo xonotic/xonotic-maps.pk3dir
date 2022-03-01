@@ -154,7 +154,7 @@ textures/map_glowplant/sky
 	surfaceparm sky
 	
 	q3map_sunext 1 .40625 .17578125 1000 -55.452 17.379 3 16
-	q3map_skylight 150 3
+	q3map_skylight 80 3
 	skyparms env/exosystem2/exosystem2 - -
 }
 
@@ -178,13 +178,13 @@ textures/map_glowplant/distort_glass
 
 textures/map_glowplant/gradient_light
 {
-	qer_editorimage textures/map_glowplant/gradient_light.tga
+	qer_editorimage textures/effects_lightning/gradient_white.tga
 	surfaceparm noimpact
 	surfaceparm nonsolid
 	surfaceparm trans
 	cull none
 	{
-		map textures/map_glowplant/gradient_light.tga
+		map textures/effects_lightning/gradient_white.tga
 		blendfunc blend
 	}
 }
