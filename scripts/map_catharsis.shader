@@ -82,7 +82,7 @@ textures/map_catharsis/chain
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 0.5 match8 204
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 	surfaceparm trans
@@ -90,7 +90,7 @@ textures/map_catharsis/chain
 	{
 		map textures/map_catharsis/chain.tga
 		tcMod scale 2 2
-		alphafunc GE128
+		alphaFunc GE128
 	}
 	{
 		map $lightmap

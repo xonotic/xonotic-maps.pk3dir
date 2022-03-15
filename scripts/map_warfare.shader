@@ -3,7 +3,7 @@ textures/map_warfare/rocktosoil
     qer_editorimage textures/map_warfare/rocktosoil
 
     dpoffsetmapping - 2 match8 168
-    dpglossintensitymod 3
+    dpglossintensitymod 1.5
     dpglossexponentmod 4
 
     q3map_lightmapsampleoffset 8
@@ -45,7 +45,7 @@ textures/map_warfare/floor_panel
     qer_alphafunc qequal 0.5
 
     dpoffsetmapping - 2 match8 172
-    dpglossintensitymod 3
+    dpglossintensitymod 1.5
     dpglossexponentmod 4
 
     surfaceparm metalsteps
@@ -57,7 +57,7 @@ textures/map_warfare/floor_panel
     polygonoffset
     {
         map textures/map_warfare/floor_panel
-        alphafunc GT0
+        alphaFunc GE128
     }
     {
         map $lightmap
@@ -90,7 +90,7 @@ textures/map_warfare/cactus
     qer_alphafunc qequal 0.5
 
     dpoffsetmapping - 2 match8 68
-    dpglossintensitymod 3
+    dpglossintensitymod 1.5
     dpglossexponentmod 4
 
     surfaceparm trans
@@ -100,7 +100,7 @@ textures/map_warfare/cactus
     cull none
     {
         map textures/map_warfare/cactus
-        alphafunc GT0
+        alphaFunc GE128
     }
     {
         map $lightmap

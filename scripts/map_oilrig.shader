@@ -20,7 +20,7 @@ textures/map_oilrig/panels-pk02_panels01a_dark
 {
 	qer_editorimage textures/map_oilrig/pk02_panels01a_dark
 	dpoffsetmapping - 1.01492062877264589238 match8 217.50071000000000000000
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 	q3map_bouncescale 1.25
 
@@ -40,7 +40,7 @@ textures/map_oilrig/panels-pk02_panels01b_dark
 {
 	qer_editorimage textures/map_oilrig/pk02_panels01b_dark
 	dpoffsetmapping - 1.01822981089064517345 match8 226.33825900000000000000
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 	q3map_bouncescale 1.25
 
@@ -60,7 +60,7 @@ textures/map_oilrig/panels-pk02_panels01c_dark
 {
 	qer_editorimage textures/map_oilrig/pk02_panels01c_dark
 	dpoffsetmapping - 1.05568319734946414670 match8 215.00833500000000000000
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 	q3map_bouncescale 1.25
 
@@ -82,7 +82,7 @@ textures/map_oilrig/base-crete03_dirt
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 2 match8 65
-	dpglossintensitymod  1
+	dpglossintensitymod 0.5
 	dpglossexponentmod  1
 
 
@@ -103,7 +103,7 @@ textures/map_oilrig/wall-crete03_dirt
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 2 match8 233
-	dpglossintensitymod  1
+	dpglossintensitymod 0.5
 	dpglossexponentmod  1
 
 
