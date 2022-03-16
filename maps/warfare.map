@@ -31761,8 +31761,6 @@ exx/base-metal05rust
 "classname" "misc_gamemodel"
 "origin" "1144.000000 672.000000 190.000000"
 "model" "models/map_warfare/jumppad.md3"
-"lodmodel1" "models/map_warfare/jumppad_lod.md3"
-"loddistance1" "400"
 }
 {
 "classname" "trigger_push"
@@ -31786,8 +31784,6 @@ exx/base-metal05rust
 "origin" "648.000000 -544.000000 190.000000"
 "model" "models/map_warfare/jumppad.md3"
 "angle" "-180.000000"
-"lodmodel1" "models/map_warfare/jumppad_lod.md3"
-"loddistance1" "500"
 }
 {
 "classname" "trigger_push"
@@ -32353,7 +32349,7 @@ exx/base-metal05rust
 "origin" "864.000000 456.000000 192.000000"
 }
 {
-"classname" "weapon_uzi"
+"classname" "weapon_machinegun"
 "origin" "96.000000 -560.000000 192.000000"
 }
 {
@@ -32423,7 +32419,7 @@ exx/base-metal05rust
 "origin" "-608.000000 -96.000000 512.000000"
 }
 {
-"classname" "weapon_rocketlauncher"
+"classname" "weapon_devastator"
 "origin" "-488.000000 256.000000 512.000000"
 }
 {
@@ -32443,7 +32439,7 @@ exx/base-metal05rust
 "origin" "-384.000000 -1024.000000 104.000000"
 }
 {
-"classname" "weapon_grenadelauncher"
+"classname" "weapon_mortar"
 "origin" "336.000000 -320.000000 24.000000"
 }
 {
@@ -32485,26 +32481,6 @@ exx/base-metal05rust
 "classname" "info_autoscreenshot"
 "origin" "-352.795746 436.263397 546.231445"
 "angles" "14 -43 0"
-}
-{
-"classname" "info_location"
-"origin" "528.000000 320.000000 560.000000"
-"netname" "Mega Health"
-}
-{
-"classname" "info_location"
-"origin" "128.000000 0.000000 192.000000"
-"netname" "Center Room"
-}
-{
-"classname" "info_location"
-"origin" "864.000000 -1120.000000 472.000000"
-"netname" "Balcony"
-}
-{
-"classname" "info_location"
-"origin" "1232.000000 536.000000 288.000000"
-"netname" "Panorama Room"
 }
 {
 "classname" "misc_gamemodel"
@@ -32743,26 +32719,6 @@ exx/base-metal05rust
 "model" "models/map_warfare/boulder_2.md3"
 "modelscale" "0.800000"
 "spawnflags" "4"
-}
-{
-"classname" "info_location"
-"origin" "-704.000000 320.000000 384.000000"
-"netname" "Elevator"
-}
-{
-"classname" "info_location"
-"origin" "-384.000000 -1024.000000 152.000000"
-"netname" "Mega Armor"
-}
-{
-"classname" "info_location"
-"origin" "-704.000000 -192.000000 640.000000"
-"netname" "Garden"
-}
-{
-"classname" "info_location"
-"origin" "688.000000 64.000000 256.000000"
-"netname" "Teleporters"
 }
 {
 "classname" "misc_model"

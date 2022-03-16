@@ -24061,7 +24061,7 @@ exx/base-crete03
 "respawntime" "5"
 }
 {
-"classname" "weapon_nex"
+"classname" "weapon_vortex"
 "origin" "-1120.000000 -320.000000 352.000000"
 "respawntime" "1"
 }
@@ -24091,7 +24091,7 @@ exx/base-crete03
 "respawntime" "5"
 }
 {
-"classname" "weapon_nex"
+"classname" "weapon_vortex"
 "origin" "4896.000000 2168.000000 352.000000"
 "respawntime" "1"
 }
@@ -24106,7 +24106,7 @@ exx/base-crete03
 "respawntime" "5"
 }
 {
-"classname" "weapon_grenadelauncher"
+"classname" "weapon_mortar"
 "origin" "4512.000000 2160.000000 352.000000"
 "respawntime" "1"
 }
@@ -24403,12 +24403,12 @@ exx/base-crete03
 "respawntime" "5"
 }
 {
-"classname" "weapon_uzi"
+"classname" "weapon_machinegun"
 "origin" "-4480.000000 -64.000000 -32.000000"
 "respawntime" "1"
 }
 {
-"classname" "weapon_nex"
+"classname" "weapon_vortex"
 "origin" "-4160.000000 704.000000 -32.000000"
 "respawntime" "1"
 }
@@ -24423,7 +24423,7 @@ exx/base-crete03
 "respawntime" "5"
 }
 {
-"classname" "weapon_rocketlauncher"
+"classname" "weapon_devastator"
 "origin" "-4160.000000 -704.000000 -32.000000"
 "respawntime" "1"
 }
@@ -24438,7 +24438,7 @@ exx/base-crete03
 "respawntime" "5"
 }
 {
-"classname" "weapon_grenadelauncher"
+"classname" "weapon_mortar"
 "origin" "-3904.000000 0.000000 -32.000000"
 "respawntime" "1"
 }
@@ -26394,7 +26394,7 @@ exx/base-crete03
 "light" "31.25"
 }
 {
-"classname" "weapon_uzi"
+"classname" "weapon_machinegun"
 "origin" "-24.000000 512.000000 352.000000"
 "respawntime" "1"
 }
@@ -26409,7 +26409,7 @@ exx/base-crete03
 "respawntime" "5"
 }
 {
-"classname" "weapon_rocketlauncher"
+"classname" "weapon_devastator"
 "origin" "-24.000000 -512.000000 352.000000"
 "respawntime" "1"
 }
@@ -26426,7 +26426,7 @@ exx/base-crete03
 "angle" "159.843292"
 }
 {
-"classname" "weapon_grenadelauncher"
+"classname" "weapon_mortar"
 "origin" "-32.000000 192.000000 352.000000"
 "respawntime" "1"
 }
@@ -26605,7 +26605,7 @@ exx/base-crete03
 "light" "31.25"
 }
 {
-"classname" "weapon_uzi"
+"classname" "weapon_machinegun"
 "origin" "5280.000000 1584.000000 352.000000"
 "respawntime" "1"
 }
@@ -26723,7 +26723,7 @@ exx/base-crete03
 "respawntime" "5"
 }
 {
-"classname" "weapon_rocketlauncher"
+"classname" "weapon_devastator"
 "origin" "4704.000000 1608.000000 352.000000"
 "respawntime" "1"
 }
@@ -28738,9 +28738,6 @@ exx/trim-baseboard
 "angle" "90.000000"
 }
 {
-"classname" "trigger_push"
-}
-{
 "classname" "light"
 "origin" "1472.000000 2864.000000 24.000000"
 "light" "81.25"
@@ -28991,9 +28988,6 @@ exx/trim-baseboard
 "angles" "-0.000000 0.000000 -2.721137"
 }
 {
-"classname" "func_group"
-}
-{
 "classname" "func_assault_destructible"
 "targetname" "destructible_reactordoor"
 "target" "decrease_reactordoor"
@@ -29071,10 +29065,6 @@ exx/trim-baseboard
 "target" "objective_reactordoor"
 }
 {
-"classname" "func_wall"
-"_cs" "1"
-}
-{
 "classname" "func_pointparticles"
 "mdl" "TE_EXPLOSION"
 "spawnflags" "2"
@@ -29088,14 +29078,6 @@ exx/trim-baseboard
 ( 5120 -128 408 ) ( 5120 -128 456 ) ( 5128 -128 408 ) common/trigger 0 0 0 0.25 0.25 0 0 0
 ( 5120 -56 408 ) ( 5120 128 408 ) ( 5120 -56 456 ) common/trigger 0 0 0 0.25 0.25 0 0 0
 }
-}
-{
-"classname" "func_wall"
-"_cs" "1"
-}
-{
-"classname" "func_wall"
-"_cs" "1"
 }
 {
 "classname" "func_wall"

@@ -28,7 +28,7 @@ textures/map_erbium/fightingzone
 		rgbGen identity
 		blendFunc add
 	}
-	
+}
 
 textures/map_erbium/large-turbine
 {
@@ -36,7 +36,7 @@ textures/map_erbium/large-turbine
 	
 	surfaceparm metalsteps
 	q3map_bounceScale  1.5
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -59,7 +59,7 @@ textures/map_erbium/metalic
 	
 	surfaceparm metalsteps
 	q3map_bounceScale  1.5
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -83,7 +83,7 @@ textures/map_erbium/pickup
 	
 	surfaceparm metalsteps
 	q3map_bounceScale  1.5
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -106,7 +106,7 @@ textures/map_erbium/metal-tiles
 	
 	surfaceparm metalsteps
 	q3map_bounceScale  1.5
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -129,7 +129,7 @@ textures/map_erbium/metal-rock-tiles
 	
 	surfaceparm metalsteps
 	q3map_bounceScale  1.5
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -153,7 +153,7 @@ textures/map_erbium/engine
 	
 	surfaceparm metalsteps
 	q3map_bounceScale  1.5
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -195,7 +195,7 @@ textures/map_erbium/tree-bark
 {
 	qer_editorimage textures/map_erbium/tree-bark.jpg
 	dpoffsetmapping none
-	dpglossintensitymod 3
+	dpglossintensitymod 1.5
 	dpglossexponentmod 4
 	{
 		map textures/map_erbium/tree-bark.jpg
@@ -212,7 +212,7 @@ textures/map_erbium/branches
 {
 	qer_editorimage textures/map_erbium/branches.jpg
 	dpoffsetmapping none
-	dpglossintensitymod 3
+	dpglossintensitymod 1.5
 	dpglossexponentmod 4
 	{
 		map textures/map_erbium/branches.jpg
@@ -268,7 +268,7 @@ textures/map_erbium/fern
 {
 	qer_editorimage textures/map_erbium/fern
 
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 	q3map_bouncescale 1.25
 
@@ -287,7 +287,7 @@ textures/map_erbium/fern
 
 textures/map_erbium/ivy
 {
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 	q3map_bouncescale 1.25
 
@@ -356,7 +356,7 @@ textures/map_erbium/black-tiles
 {
 	qer_editorimage textures/map_erbium/black-tiles
 	dpoffsetmapping - .09346482113770383774 match8 106.75988500000000000000
-	dpglossintensitymod 1
+	dpglossintensitymod 0.5
 	q3map_bouncescale 1.25
 
 	{
@@ -378,7 +378,7 @@ textures/map_erbium/con-tiled
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 2 match8 233
-	dpglossintensitymod  1
+	dpglossintensitymod 0.5
 	dpglossexponentmod  1
 
 
@@ -402,7 +402,7 @@ textures/map_erbium/rock-grey
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 2 match8 233
-	dpglossintensitymod  1
+	dpglossintensitymod 0.5
 	dpglossexponentmod  1
 
 

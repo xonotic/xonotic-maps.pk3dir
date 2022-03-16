@@ -2,4 +2,5 @@
 -light + -bounce 8 -dirtscale 2
 -vis +
 -minimap +
-Version: 3b
+-sRGB
+Version: 5g

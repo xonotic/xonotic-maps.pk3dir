@@ -8,6 +8,6 @@ for X in */*_norm.tga; do
 	echo "change 1"
 	../../../../misc/tools/fft-normalmap-to-heightmap-soft.sh "$X" "$X" none 0.149 0
 	echo "."
-	convert "$X" -alpha extract "out/`echo "$X" | tr / -`"
+	convert "$X" -auto-orient -alpha extract "out/`echo "$X" | tr / -`"
 done
 echo "wq"

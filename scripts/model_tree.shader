@@ -11,7 +11,7 @@ models/grass02
 	deformVertexes wave 128 sin 0 1 0 0.1 
 	{
 		map models/grass02.tga
-		alphaFunc GT0
+		alphaFunc GE128
 		rgbGen vertex
 	}
 }
