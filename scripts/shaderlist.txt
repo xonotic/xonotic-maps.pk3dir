@@ -30,6 +30,7 @@ map_glowplant
 map_implosion
 map_leave_em_behind
 map_oilrig
+map_opium
 map_silentsiege
 map_solarium
 map_space-elevator
