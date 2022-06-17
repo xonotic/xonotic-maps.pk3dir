@@ -21,6 +21,7 @@ logos
 map_atelier
 map_boil
 map_catharsis
+map_bromine
 map_courtfun
 map_darkzone
 map_erbium

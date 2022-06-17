@@ -1,0 +1,14 @@
+// pipe smoke emiter
+effect map_bromine_pipe_smoke
+count 15
+type alphastatic
+tex 0 8
+color 0x55320a 0x8f5f14
+size 5 10
+sizeincrease 35
+alpha 16 32 16
+gravity -0.015
+originjitter 0 0 0
+velocityjitter 0 0 5
+velocitymultiplier 15
+airfriction -1
