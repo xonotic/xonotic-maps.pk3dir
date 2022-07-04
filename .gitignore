@@ -1,3 +1,11 @@
+gfx/*_mini.tga
+maps/*.autosave.map
+maps/*.bak
 maps/*.bsp
+maps/*.lin
 maps/*/lm_*.tga
+maps/*.prt
+maps/*.srf
+scripts/default_project.proj
+scripts/q3map2_*.shader
 .DS_Store

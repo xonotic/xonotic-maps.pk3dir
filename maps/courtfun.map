@@ -35107,38 +35107,45 @@ map_courtfun/screenanim_xon
 "classname" "onslaught_controlpoint"
 "origin" "2144.000000 -1248.000000 328.000000"
 "targetname" "redcp1"
+"message" "Red Chimneys"
 }
 {
 "classname" "onslaught_controlpoint"
 "origin" "-72.000000 1608.000000 64.000000"
 "targetname" "redside1"
 "target" "turret_plasma1"
+"message" "Red Turret"
 }
 {
 "classname" "onslaught_controlpoint"
 "origin" "-1824.000000 -352.000000 64.000000"
 "targetname" "redside2"
+"message" "Red Kettle"
 }
 {
 "classname" "onslaught_controlpoint"
 "origin" "-3960.000000 2360.000000 64.000000"
 "targetname" "blueside1"
 "target" "turret_plasma2"
+"message" "Blue Turret"
 }
 {
 "classname" "onslaught_controlpoint"
 "origin" "-2048.000000 1984.000000 0.000000"
 "targetname" "middle"
+"message" "Middle"
 }
 {
 "classname" "onslaught_controlpoint"
 "origin" "-2240.000000 4320.000000 64.000000"
 "targetname" "blueside2"
+"message" "Blue Kettle"
 }
 {
 "classname" "onslaught_controlpoint"
 "origin" "-6240.000000 5216.000000 328.000000"
 "targetname" "bluecp1"
+"message" "Blue Chimneys"
 }
 {
 "classname" "onslaught_generator"

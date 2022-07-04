@@ -3,6 +3,7 @@ for x in `seq 0 100`; do
 	a=$(($x * 20 / 9))
 	b=$((33 + $x * 20 / 9))
 	convert \
+		-auto-orient \
 		-size 128x128 \
 		xc:"rgb($a,$a,$a)" \
 		-fill "rgb($b,$b,$b)" \
