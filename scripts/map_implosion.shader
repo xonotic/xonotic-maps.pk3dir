@@ -132,3 +132,43 @@ textures/map_implosion/sky
 	q3map_skylight 75 4
 	skyparms env/polluted_earth/polluted_earth - -
 }
+
+textures/map_implosion/flare_red
+{
+	qer_editorImage textures/map_implosion/flare_red.jpg
+	q3map_surfacelight 2000
+
+	noPicMip
+	noMipMaps
+	deformVertexes autosprite
+
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nolightmap
+
+	{
+		clampMap textures/map_implosion/flare_red.jpg
+		rgbGen identity
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
+	}
+}
+
+textures/map_implosion/flare_blue
+{
+	qer_editorImage textures/map_implosion/flare_blue.jpg
+	q3map_surfacelight 2000
+
+	noPicMip
+	noMipMaps
+	deformVertexes autosprite
+
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nolightmap
+
+	{
+		clampMap textures/map_implosion/flare_blue.jpg
+		rgbGen identity
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
+	}
+}
