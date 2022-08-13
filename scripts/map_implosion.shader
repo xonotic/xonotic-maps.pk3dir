@@ -136,7 +136,7 @@ textures/map_implosion/sky
 textures/map_implosion/flare_red
 {
 	qer_editorImage textures/map_implosion/flare_red.jpg
-	q3map_surfacelight 2000
+	q3map_surfacelight 3000
 
 	noPicMip
 	noMipMaps
@@ -156,7 +156,7 @@ textures/map_implosion/flare_red
 textures/map_implosion/flare_blue
 {
 	qer_editorImage textures/map_implosion/flare_blue.jpg
-	q3map_surfacelight 2000
+	q3map_surfacelight 3000
 
 	noPicMip
 	noMipMaps
