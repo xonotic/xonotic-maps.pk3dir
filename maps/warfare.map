@@ -32487,7 +32487,7 @@ exx/base-metal05rust
 "origin" "-128.000000 8.000000 504.000000"
 "model" "models/containers/crate01.md3"
 "angle" "-90.000000"
-"lodmodel1" "models/containers/crate01_lod.md3"
+"lodmodel1" "models/containers/crate01_lod1.md3"
 "loddistance1" "400"
 "_cs" "1"
 }
@@ -32497,13 +32497,13 @@ exx/base-metal05rust
 "model" "models/containers/crate01.md3"
 "_cs" "1"
 "loddistance1" "400"
-"lodmodel1" "models/containers/crate01_lod.md3"
+"lodmodel1" "models/containers/crate01_lod1.md3"
 "angles" "4.695865 132.744934 13.630057"
 }
 {
 "classname" "misc_model"
 "origin" "-672.000122 -424.000000 464.000031"
-"model" "models/containers/crate01_lod.md3"
+"model" "models/containers/crate01_lod1.md3"
 "_remap" "*;textures/common/weapclip"
 "spawnflags" "2"
 "angles" "4.695865 132.744934 13.630057"
@@ -32551,12 +32551,12 @@ exx/base-metal05rust
 "angles" "-17.800528 -2.055932 16.123812"
 "_cs" "1"
 "loddistance1" "400"
-"lodmodel1" "models/containers/crate01_lod.md3"
+"lodmodel1" "models/containers/crate01_lod1.md3"
 }
 {
 "classname" "misc_model"
 "origin" "327.777191 214.466644 -22.575617"
-"model" "models/containers/crate01_lod.md3"
+"model" "models/containers/crate01_lod1.md3"
 "angles" "-17.800528 -2.055932 16.123812"
 "_remap" "*;textures/common/weapclip"
 "spawnflags" "2"
@@ -32567,13 +32567,13 @@ exx/base-metal05rust
 "model" "models/containers/crate01.md3"
 "_cs" "1"
 "loddistance1" "400"
-"lodmodel1" "models/containers/crate01_lod.md3"
+"lodmodel1" "models/containers/crate01_lod1.md3"
 "angles" "4.695865 15.238509 13.630059"
 }
 {
 "classname" "misc_model"
 "origin" "-736.000061 -336.000000 464.000031"
-"model" "models/containers/crate01_lod.md3"
+"model" "models/containers/crate01_lod1.md3"
 "_remap" "*;textures/common/weapclip"
 "spawnflags" "2"
 "angles" "4.695865 15.238509 13.630059"
