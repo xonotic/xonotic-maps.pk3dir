@@ -16078,7 +16078,7 @@ effects_healpod/healpod1_d
 "origin" "-688.060364 -383.026123 0.000000"
 "model" "models/containers/crate01.md3"
 "_castShadows" "1"
-"lodmodel1" "models/containers/crate01_lod.md3"
+"lodmodel1" "models/containers/crate01_lod1.md3"
 "loddistance1" "450"
 "angle" "89.994438"
 }
@@ -16087,7 +16087,7 @@ effects_healpod/healpod1_d
 "origin" "200.000977 160.000244 0.000000"
 "model" "models/containers/crate01.md3"
 "_castShadows" "1"
-"lodmodel1" "models/containers/crate01_lod.md3"
+"lodmodel1" "models/containers/crate01_lod1.md3"
 "loddistance1" "450"
 "angle" "-97.000618"
 }
@@ -16096,7 +16096,7 @@ effects_healpod/healpod1_d
 "origin" "-607.247925 -479.963654 0.000000"
 "model" "models/containers/crate01.md3"
 "_castShadows" "1"
-"lodmodel1" "models/containers/crate01_lod.md3"
+"lodmodel1" "models/containers/crate01_lod1.md3"
 "loddistance1" "450"
 "angle" "-1.603582"
 }
@@ -16350,7 +16350,7 @@ effects_healpod/healpod1_d
 "origin" "847.752075 336.036346 -384.000000"
 "model" "models/containers/crate01.md3"
 "_castShadows" "1"
-"lodmodel1" "models/containers/crate01_lod.md3"
+"lodmodel1" "models/containers/crate01_lod1.md3"
 "loddistance1" "450"
 "angle" "-1.603582"
 }

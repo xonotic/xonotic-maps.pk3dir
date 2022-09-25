@@ -26401,7 +26401,7 @@ exx/trim-01
 "origin" "427.999817 616.000000 32.000000"
 "model" "models/containers/crate01.md3"
 "_castShadows" "1"
-"lodmodel1" "models/containers/crate01_lod.md3"
+"lodmodel1" "models/containers/crate01_lod1.md3"
 "loddistance1" "450"
 "angle" "-2.000607"
 }
@@ -26410,7 +26410,7 @@ exx/trim-01
 "origin" "507.999817 576.000000 32.000000"
 "model" "models/containers/crate01.md3"
 "_castShadows" "1"
-"lodmodel1" "models/containers/crate01_lod.md3"
+"lodmodel1" "models/containers/crate01_lod1.md3"
 "loddistance1" "450"
 "angle" "-2.000607"
 }
@@ -26419,7 +26419,7 @@ exx/trim-01
 "origin" "459.999817 568.000000 102.000000"
 "model" "models/containers/crate01.md3"
 "_castShadows" "1"
-"lodmodel1" "models/containers/crate01_lod.md3"
+"lodmodel1" "models/containers/crate01_lod1.md3"
 "loddistance1" "450"
 "angle" "-2.000607"
 }
@@ -26428,7 +26428,7 @@ exx/trim-01
 "origin" "507.999817 488.000000 32.000000"
 "model" "models/containers/crate01.md3"
 "_castShadows" "1"
-"lodmodel1" "models/containers/crate01_lod.md3"
+"lodmodel1" "models/containers/crate01_lod1.md3"
 "loddistance1" "450"
 "angle" "-2.000607"
 }

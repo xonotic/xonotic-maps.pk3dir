@@ -32803,7 +32803,7 @@ exx/base-metal03
 "origin" "-688.060364 -383.026123 0.000000"
 "model" "models/containers/crate01.md3"
 "_castShadows" "1"
-"lodmodel1" "models/containers/crate01_lod.md3"
+"lodmodel1" "models/containers/crate01_lod1.md3"
 "loddistance1" "450"
 "angle" "89.994438"
 }
@@ -32812,7 +32812,7 @@ exx/base-metal03
 "origin" "200.000977 160.000244 0.000000"
 "model" "models/containers/crate01.md3"
 "_castShadows" "1"
-"lodmodel1" "models/containers/crate01_lod.md3"
+"lodmodel1" "models/containers/crate01_lod1.md3"
 "loddistance1" "450"
 "angle" "-97.000618"
 }
@@ -32821,7 +32821,7 @@ exx/base-metal03
 "origin" "-607.247925 -479.963654 0.000000"
 "model" "models/containers/crate01.md3"
 "_castShadows" "1"
-"lodmodel1" "models/containers/crate01_lod.md3"
+"lodmodel1" "models/containers/crate01_lod1.md3"
 "loddistance1" "450"
 "angle" "-1.603582"
 }
@@ -33180,7 +33180,7 @@ exx/base-metal03
 "origin" "847.752075 336.036346 -384.000000"
 "model" "models/containers/crate01.md3"
 "_castShadows" "1"
-"lodmodel1" "models/containers/crate01_lod.md3"
+"lodmodel1" "models/containers/crate01_lod1.md3"
 "loddistance1" "450"
 "angle" "-1.603582"
 }
@@ -36154,7 +36154,7 @@ exx/base-metal03
 "origin" "-2047.026123 975.939575 0.000000"
 "model" "models/containers/crate01.md3"
 "_castShadows" "1"
-"lodmodel1" "models/containers/crate01_lod.md3"
+"lodmodel1" "models/containers/crate01_lod1.md3"
 "loddistance1" "450"
 "angle" "179.994461"
 }
@@ -36163,7 +36163,7 @@ exx/base-metal03
 "origin" "-1503.999512 1864.000854 0.000031"
 "model" "models/containers/crate01.md3"
 "_castShadows" "1"
-"lodmodel1" "models/containers/crate01_lod.md3"
+"lodmodel1" "models/containers/crate01_lod1.md3"
 "loddistance1" "450"
 "angle" "-7.000606"
 }
@@ -36172,7 +36172,7 @@ exx/base-metal03
 "origin" "-2143.963867 1056.751953 -0.000061"
 "model" "models/containers/crate01.md3"
 "_castShadows" "1"
-"lodmodel1" "models/containers/crate01_lod.md3"
+"lodmodel1" "models/containers/crate01_lod1.md3"
 "loddistance1" "450"
 "angle" "88.396439"
 }
@@ -36531,7 +36531,7 @@ exx/base-metal03
 "origin" "-1327.963379 2511.752441 -384.000214"
 "model" "models/containers/crate01.md3"
 "_castShadows" "1"
-"lodmodel1" "models/containers/crate01_lod.md3"
+"lodmodel1" "models/containers/crate01_lod1.md3"
 "loddistance1" "450"
 "angle" "88.396439"
 }
