@@ -18098,7 +18098,7 @@ brushDef
 }
 {
 "classname" "trigger_multiple"
-"message" "^7Use the ^2Blaster ^7to accelerate through the corridor."
+"message" "^1Bunny hop^5 backwards^7, perfectly timing ^2Blaster ^7 shots very slightly downward to accelerate faster."
 "wait" "7"
 "target" "checkpoint_wall_blastering"
 {
@@ -18415,7 +18415,7 @@ brushDef
 }
 {
 "classname" "trigger_multiple"
-"message" "Use ^2Crylink secondary fire ^7to accelerate really fast."
+"message" "^1Bunny hop^5 forwards^7 perfectly timing ^2Crylink secondary fire^7 shots almost straight down to accelerate really fast."
 "wait" "7"
 "target" "checkpoint_crylink_boost"
 {
@@ -18620,7 +18620,7 @@ brushDef
 }
 {
 "classname" "trigger_multiple"
-"message" "^7Shoot the button with an ^2Electro combo^7."
+"message" "^7Use the ^2Electro secondary fire^7 and ^2shoot^7 the resulting cluster of lightning to do an ^2Electro combo^7."
 "wait" "7"
 "target" "checkpoint_weapon_electro"
 {
@@ -19217,7 +19217,7 @@ brushDef
 }
 {
 "classname" "trigger_multiple"
-"message" "^7Hit the targets with the ^2Devastator^7, curve the rockets if necessary."
+"message" "^7Hit the targets with the ^2Devastator^7, hold the ^2primary fire button^7 to curve the rockets if necessary."
 "wait" "7"
 "target" "checkpoint_weapon_devastator"
 {
@@ -19238,7 +19238,7 @@ brushDef
 }
 {
 "classname" "trigger_multiple"
-"message" "^2Shoot ^7all the targets."
+"message" "^2Shoot ^7all the targets, use the ^2Mortar secondary fire^7 to fire bouncy projectiles."
 "wait" "7"
 "target" "checkpoint_weapon_mortar"
 {
