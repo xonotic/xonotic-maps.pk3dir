@@ -18098,7 +18098,7 @@ brushDef
 }
 {
 "classname" "trigger_multiple"
-"message" "^1Bunny hop^5 backwards^7, perfectly timing ^2Blaster ^7 shots very slightly downward to accelerate faster."
+"message" "^1Bunny hop^5 backwards^7, perfectly timing ^2Blaster^7 shots very slightly downward to accelerate faster."
 "wait" "7"
 "target" "checkpoint_wall_blastering"
 {
