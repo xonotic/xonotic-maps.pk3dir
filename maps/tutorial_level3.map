@@ -10732,7 +10732,7 @@ brushDef
 }
 {
 "classname" "trigger_multiple"
-"message" "Turn 45 degrees to your left, hold ^2Forward^7 and ^2Jump^7 while ^5turning^7 and ^2Strafing^7 to your right (similar to a ^2Circlejump^7), then reverse and do it to your left to ^2Straferun^7."
+"message" "Turn 45 degrees to your left, hold ^2Forward^7 and ^2Jump^7 while ^5turning^7 and ^2Strafing^7 to your right (similar to a ^2Circlejump^7), then reverse and do it to your left etc. to ^2Straferun^7."
 "wait" "7"
 {
 brushDef
