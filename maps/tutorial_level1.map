@@ -7499,7 +7499,7 @@ brushDef
 }
 {
 "classname" "trigger_multiple"
-"message" "^7Keep holding ^2Jump ^7('^1Bunny hopping^7') to reach the door before it closes."
+"message" "^7Move forward while holding ^2Jump ^7('^1Bunny hopping^7') to reach the door before it closes."
 "wait" "7"
 {
 brushDef
@@ -9527,7 +9527,7 @@ brushDef
 }
 {
 "classname" "trigger_multiple"
-"message" "^7Shooting range: test out some ^2weapons^7."
+"message" "^7Shooting range: test out some ^2weapons^7 and their ^2secondary functions^7."
 "wait" "7"
 "target" "checkpoint_shooting_range"
 {
