@@ -1,5 +1,0 @@
-//campaign:Tutorial by Freddy & SpiKe
-//"game","mapname","bots","skill","fraglimit","timelimit","mutator-sets","description","long description"
-"dm","tutorial_level1","0","1","0","0",,"Basic tutorial","Learn the very basics"
-"dm","tutorial_level2","0","1","0","0",,"Intermediate tutorial","Movement and weapons tricks that you should know about"
-"dm","tutorial_level3","0","1","0","0",,"Advanced (bonus) tutorial","Learn how to move like a pro"
