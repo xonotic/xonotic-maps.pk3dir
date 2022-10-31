@@ -2,6 +2,9 @@
 //"game","mapname","bots","skill","fraglimit","timelimit","mutator-sets","description","long description"
 //fraglimit: Score limit + lead limit, use "default" to leave the implicit value in effect, leave unset for no limit. eg: 50, 30+5, +10, 0+default
 //timelimit: Match duration in minutes, use "default" to leave the implicit value in effect, leave unset for no limit.
+"dm","tutorial_level1","0","1","0","0",,"Basic tutorial","Learn the very basics"
+"dm","tutorial_level2","0","1","0","0",,"Intermediate tutorial","Movement and weapons tricks that you should know about"
+"dm","tutorial_level3","0","1","0","0",,"Advanced (bonus) tutorial","Learn how to move like a pro"
 "dm","boil","5","2","10",,,"Deathmatch: Boil","Welcome to Xonotic!\nWe'll start off easy with Deathmatch against 5 bots on Boil.\nXonotic is mainly a multiplayer game, but before jumping into online games it might be a good idea to practice a bit versus bots."
 "tdm","stormkeep","5","2",,"5",,"Team Deathmatch: Stormkeep","Next we'll try some 3v3 Team Deathmatch on Stormkeep.\nYou'll have to do your best for five minutes, because the team with the highest score is going to be the winning team!"
 "ctf","dance","9","3","3",,,"Capture the Flag: Dance","In CTF you have to take the other team's flag and bring it to your base. Your own flag has to be in your base for a successful capture!\n3 captures to win. "
