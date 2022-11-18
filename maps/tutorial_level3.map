@@ -10716,7 +10716,7 @@ brushDef
 }
 {
 "classname" "trigger_multiple"
-"message" "^2Circlejump ^7over the pit."
+"message" "Hold ^2Strafe^7 and ^2Forward^7 and turn ^5quickly^7 in the strafe direction then press ^2Jump^7 to ^2Circlejump^7 over the pit."
 "wait" "7"
 {
 brushDef
@@ -10732,7 +10732,7 @@ brushDef
 }
 {
 "classname" "trigger_multiple"
-"message" "^2Strafe ^7to reach the door before it closes."
+"message" "Turn 45 degrees to your left, hold ^2Forward^7 and ^2Jump^7 while ^5turning^7 and ^2Strafing^7 to your right (similar to a ^2Circlejump^7), then reverse and do it to your left etc. to ^2Straferun^7."
 "wait" "7"
 {
 brushDef
@@ -10748,7 +10748,7 @@ brushDef
 }
 {
 "classname" "trigger_multiple"
-"message" "^2Strafe ^7in the air to jump over the pit."
+"message" "^2Circlejump^7 off the ramp to jump over the pit."
 "wait" "7"
 {
 brushDef
@@ -10764,7 +10764,7 @@ brushDef
 }
 {
 "classname" "trigger_multiple"
-"message" "Chain two ^2Rampjumps ^2to reach the platform above you."
+"message" "Chain two ^2Rampjumps^7 to reach the platform above you."
 "wait" "7"
 {
 brushDef
