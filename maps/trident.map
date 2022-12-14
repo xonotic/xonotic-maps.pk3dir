@@ -1,6 +1,7 @@
 {
 "classname" "worldspawn"
 "author" "proraide"
+"license" "GNU GPL 3 or any later version, see trident.LICENSE"
 "_description" "Fight in an abandoned building!"
 "message" "Trident"
 {
