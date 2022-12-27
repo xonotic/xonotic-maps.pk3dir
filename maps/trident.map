@@ -7683,10 +7683,6 @@ brushDef
 "origin" "896.000000 896.000000 256.000000"
 }
 {
-"classname" "item_armor_large"
-"origin" "-128.000000 -464.000000 384.000000"
-}
-{
 "classname" "trigger_teleport"
 "target" "teleporter_1"
 {
@@ -7765,18 +7761,6 @@ brushDef
 {
 "classname" "weapon_hagar"
 "origin" "384.000000 -448.000000 256.000000"
-}
-{
-"classname" "weapon_uzi"
-"origin" "128.000000 832.000000 256.000000"
-}
-{
-"classname" "weapon_grenadelauncher"
-"origin" "-992.000000 -128.000000 512.000000"
-}
-{
-"classname" "weapon_rocketlauncher"
-"origin" "160.000000 -288.000000 0.000000"
 }
 {
 "classname" "weapon_crylink"
@@ -7948,10 +7932,6 @@ brushDef
 "classname" "light"
 "origin" "648.000000 -176.000000 176.000000"
 "light" "500"
-}
-{
-"classname" "item_health_large"
-"origin" "928.000000 64.000000 0.000000"
 }
 {
 "classname" "item_health_small"
@@ -9409,4 +9389,24 @@ brushDef
 ( 232 300 188 ) ( 232 308 188 ) ( 232 300 196 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/caulk 0 0 0
 }
 }
+}
+{
+"classname" "weapon_devastator"
+"origin" "160.000000 -288.000000 0.000000"
+}
+{
+"classname" "weapon_machinegun"
+"origin" "128.000000 832.000000 256.000000"
+}
+{
+"classname" "item_armor_mega"
+"origin" "-128.000000 -464.000000 384.000000"
+}
+{
+"classname" "weapon_mortar"
+"origin" "-992.000000 -128.000000 512.000000"
+}
+{
+"classname" "item_health_big"
+"origin" "928.000000 64.000000 0.000000"
 }
