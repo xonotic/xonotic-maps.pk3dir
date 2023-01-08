@@ -2,6 +2,7 @@ title Implosion
 description Space Style CTF Level
 author MintOX, Mirio, Mario, packer, SpiKe
 cdtrack 18
+size -960 -5888 -576 5376 0 1408 // Bounds of the lightgrid brush, if not set here the minimap won't be scaled properly
 has weapons
 gametype ctf
 gametype ft
