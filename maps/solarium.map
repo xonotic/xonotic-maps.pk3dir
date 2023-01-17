@@ -23017,7 +23017,7 @@ trak5x/base-base1a
 }
 {
 "classname" "misc_model"
-"origin" "-910.687622 -1974.644165 97.000000"
+"origin" "-926.687622 -1982.644165 97.000000"
 "model" "models/desertfactory/objects_plants/grass01.ase"
 "_castshadows" "0"
 "angle" "-79.696228"
@@ -23154,7 +23154,7 @@ trak5x/base-base1a
 }
 {
 "classname" "misc_model"
-"origin" "114.000000 -73.000000 23.000000"
+"origin" "130.000000 -49.000000 15.000000"
 "model" "models/desertfactory/objects_plants/grass01.ase"
 "modelscale" "0.800000"
 "_castshadows" "0"
