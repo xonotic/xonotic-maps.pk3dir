@@ -28070,10 +28070,6 @@ brushDef
 "angle" "134.999985"
 }
 {
-"classname" "weapon_nex"
-"origin" "-96.000000 288.000000 -768.000000"
-}
-{
 "classname" "item_health_medium"
 "origin" "728.000000 128.000000 -248.000000"
 }
@@ -28211,20 +28207,12 @@ brushDef
 "angle" "134.999985"
 }
 {
-"classname" "weapon_rocketlauncher"
-"origin" "992.000000 32.000000 -416.000000"
-}
-{
 "classname" "item_rockets"
 "origin" "444.000000 -252.000000 -112.000000"
 }
 {
 "classname" "weapon_electro"
 "origin" "256.000000 -576.000000 -56.000000"
-}
-{
-"classname" "weapon_grenadelauncher"
-"origin" "-172.000000 -1448.000000 -376.000000"
 }
 {
 "classname" "weapon_crylink"
@@ -28425,20 +28413,8 @@ brushDef
 "origin" "-160.000000 32.000000 -64.000000"
 }
 {
-"classname" "item_armor_large"
-"origin" "704.000000 -1056.000000 -128.000000"
-}
-{
 "classname" "item_cells"
 "origin" "-96.000000 -960.000000 -416.000000"
-}
-{
-"classname" "item_health_large"
-"origin" "256.000000 -576.000000 -376.000000"
-}
-{
-"classname" "item_health_large"
-"origin" "1568.000000 -576.000000 -64.000000"
 }
 {
 "classname" "item_health_small"
@@ -31688,4 +31664,28 @@ brushDef
 ( 1192 -1153 216 ) ( 1192 -1152 216 ) ( 1196 -1152 220 ) ( ( 0.015625 0 252.25 ) ( 0 0.015624986 12.551150322 ) ) common/caulk 134217728 0 0
 }
 }
+}
+{
+"classname" "weapon_devastator"
+"origin" "992.000000 32.000000 -416.000000"
+}
+{
+"classname" "item_health_big"
+"origin" "256.000000 -576.000000 -376.000000"
+}
+{
+"classname" "item_health_big"
+"origin" "1568.000000 -576.000000 -64.000000"
+}
+{
+"classname" "item_armor_mega"
+"origin" "704.000000 -1056.000000 -128.000000"
+}
+{
+"classname" "weapon_mortar"
+"origin" "-172.000000 -1448.000000 -376.000000"
+}
+{
+"classname" "weapon_vortex"
+"origin" "-96.000000 288.000000 -768.000000"
 }
