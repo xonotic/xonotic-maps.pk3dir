@@ -27917,9 +27917,6 @@ brushDef
 }
 {
 "classname" "func_group"
-}
-{
-"classname" "func_group"
 {
 brushDef
 {
@@ -28790,9 +28787,6 @@ brushDef
 }
 }
 {
-"classname" "func_group"
-}
-{
 "classname" "light"
 "origin" "744.000000 -1632.000000 -168.000000"
 "light" "10"
@@ -29430,15 +29424,6 @@ exx/trim-vert01
 {
 "classname" "item_health_small"
 "origin" "-184.000000 -1280.000000 -64.000000"
-}
-{
-"classname" "func_rotating"
-"speed" "500"
-}
-{
-"classname" "func_bobbing"
-"height" "12"
-"speed" "4"
 }
 {
 "classname" "func_bobbing"
@@ -30384,9 +30369,6 @@ brushDef
 ( 64 -1150 202 ) ( 80 -1150 202 ) ( 64 -1150 282 ) ( ( 0.015625 0 254 ) ( 0 0.015625 1.84375 ) ) common/origin 0 0 0
 }
 }
-}
-{
-"classname" "func_rotating"
 }
 {
 "classname" "misc_model"
