@@ -2425,9 +2425,11 @@ trigger_heal
 trigger_impulse
 trigger_music
 trigger_push
+trigger_push_velocity
 trigger_teleport
 target_heal
 target_kill
+target_speed
 func_rotating
 func_bobbing
 func_button
@@ -2451,9 +2453,11 @@ trigger_heal
 trigger_impulse
 trigger_music
 trigger_push
+trigger_push_velocity
 trigger_teleport
 target_heal
 target_kill
+target_speed
 func_rotating
 func_bobbing
 func_button
@@ -2477,9 +2481,11 @@ trigger_heal
 trigger_impulse
 trigger_music
 trigger_push
+trigger_push_velocity
 trigger_teleport
 target_heal
 target_kill
+target_speed
 func_rotating
 func_bobbing
 func_button
@@ -2763,6 +2769,9 @@ This is used to create jump pads and launch ramps. It MUST point to a target_pos
 <target key="target" name="target">this points to the target_position to which the player will jump.</target>
 <real key="speed" name="speed">XY speed for player-directional velocity pads - either sets or adds to the player's horizontal velocity.</real>
 <real key="count" name="count">Z speed for player-directional velocity pads - either sets or adds to the player's vertical velocity.</real>
+<sound key="noise" name="noise">sound to play when jump pad is used; default is misc/jumppad.wav; you can set it to &quot;&quot; to make the pad silent</sound>
+<integer key="team" name="team">team that owns this jump pad (5 = red, 14 = blue, etc) (when set, only this team can jump)</integer>
+<targetname key="targetname" name="targetname">when targeted by a func_button, pressing the button will reassign the jump pad to the team of the activator.</targetname>
 -------- SPAWNFLAGS --------
 <flag key="PLAYERDIR_XY" name="Playerdir_xy" bit="0">if set, trigger will apply the horizontal speed in the player's horizontal direction of travel, otherwise it uses the target XY component.</flag>
 <flag key="ADD_XY" name="Add_xy" bit="1">if set, trigger will add to the player's horizontal velocity, otherwise it sets the player's horizontal velocity.</flag>
