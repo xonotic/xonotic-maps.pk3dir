@@ -1446,7 +1446,7 @@ the Vortex
 In Instagib, this turns into an item_vaporizer_cells if no explicit item_vaporizer_cells have been placed.
 -------- KEYS --------
 <real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, g_pickup_cells is used)</real>
-<real key="respawntime" name="respawntime">time till it respawns (default: 15 * g_balance_vortex_respawntime_modifier)</real>
+<real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
@@ -1499,6 +1499,20 @@ the Machine Gun
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 modeldisabled=&quot;models/weapons/g_uzi.md3&quot;
+</point>
+
+<point name="weapon_arc" color="1 0 .5" box="-30 -30 0 30 30 32">
+the Arc
+-------- KEYS --------
+<real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, g_pickup_cells is used)</real>
+<real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
+<real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
+<integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
+<real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
+-------- SPAWNFLAGS --------
+<flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+modeldisabled=&quot;models/weapons/g_arc.md3&quot;
 </point>
 
 <group name="worldspawn" color="0 0 0">
