@@ -1502,7 +1502,7 @@ modeldisabled=&quot;models/weapons/g_uzi.md3&quot;
 </point>
 
 <point name="weapon_arc" color="1 0 .5" box="-30 -30 0 30 30 32">
-the Arc
+the Arc (experimental weapon)
 -------- KEYS --------
 <real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, g_pickup_cells is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
