@@ -1368,8 +1368,8 @@ Note that in Xonotic, teleporters preserve momentum of the player using them.
 <integer key="team" name="team">team that owns this teleporter (5 = red, 14 = blue, etc) (when set, only this team can teleport)</integer>
 <targetname key="targetname" name="targetname">when targeted by a func_button, pressing the button will reassign the teleporter to the team of the activator.</targetname>
 -------- SPAWNFLAGS --------
-<flag key="SPECTATOR" name="SPECTATOR" bit="0">If spectator is set, only spectators can use this teleport. Spectator teleporters are not normally placed in the editor, but are created automatically near doors to allow spectators to move through them.</flag>
-<flag key="KEEP_SPEED" name="KEEP_SPEED" bit="1">Stores the speed at entering the teleporter and restore it at the destination.</flag>
+<flag key="SPECTATOR" name="SPECTATOR" bit="0">if set, only spectators can use this teleport</flag>
+<flag key="KEEP_SPEED" name="KEEP_SPEED" bit="1">if set, ignores g_teleport_maxspeed</flag>
 <flag key="INVERT_TEAM" name="INVERT_TEAM" bit="2">the team that owns the teleporter will NOT teleport when touching this</flag>
 </group>
 
