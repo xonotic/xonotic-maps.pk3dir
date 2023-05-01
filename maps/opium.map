@@ -32473,3 +32473,33 @@ exx/trim-vert01
 "light" "40"
 "_color" "0.83537 0.916869 0.929274"
 }
+{
+"classname" "dom_controlpoint"
+"origin" "200.000000 -8.000000 -232.000000"
+"message" " has captured the ^2Mega Health ^3control point"
+}
+{
+"classname" "dom_controlpoint"
+"origin" "256.000000 -1208.000000 -560.000000"
+"message" " has captured the ^2Mega Armor ^3control point"
+}
+{
+"classname" "dom_controlpoint"
+"origin" "1504.000000 -224.000000 -560.000000"
+"message" " has captured the ^2Strength ^3control point"
+}
+{
+"classname" "info_autoscreenshot"
+"origin" "380.779785 567.810425 60.7526131"
+"angles" "14.430542 -130.506592 0"
+}
+{
+"classname" "info_autoscreenshot"
+"origin" "704.435608 -1562.99597 -206.964813"
+"angles" "13.727417 134.285889 0"
+}
+{
+"classname" "info_autoscreenshot"
+"origin" "1655.73914 128.074539 -261.469299"
+"angles" "5.71838379 -129.885864 0"
+}
