@@ -1396,7 +1396,7 @@ Note that in Xonotic, teleporters preserve momentum of the player using them.
 <flag key="INVERT_TEAM" name="INVERT_TEAM" bit="2">the team that owns the teleporter will NOT teleport when touching this</flag>
 </group>
 
-<point name="weapon_crylink" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_crylink" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Crylink
 -------- KEYS --------
 <real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, g_pickup_cells is used)</real>
@@ -1410,7 +1410,7 @@ the Crylink
 modeldisabled=&quot;models/weapons/g_crylink.md3&quot;
 </point>
 
-<point name="weapon_electro" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_electro" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Electro
 -------- KEYS --------
 <real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, g_pickup_cells is used)</real>
@@ -1424,7 +1424,7 @@ the Electro
 modeldisabled=&quot;models/weapons/g_electro.md3&quot;
 </point>
 
-<point name="weapon_mortar" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_mortar" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Mortar
 -------- KEYS --------
 <real key="ammo_rockets" name="ammo_rockets">initial rockets of the weapon (if unset, g_pickup_rockets is used)</real>
@@ -1438,7 +1438,7 @@ the Mortar
 modeldisabled=&quot;models/weapons/g_gl.md3&quot;
 </point>
 
-<point name="weapon_hagar" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_hagar" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Hagar
 -------- KEYS --------
 <real key="ammo_rockets" name="ammo_rockets">initial rockets of the weapon (if unset, g_pickup_rockets is used)</real>
@@ -1452,7 +1452,7 @@ the Hagar
 modeldisabled=&quot;models/weapons/g_hagar.md3&quot;
 </point>
 
-<point name="weapon_blaster" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_blaster" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Blaster. Note that unless you use
   settemp_for_type all g_balance_blaster_weaponstart 0
 in your mapinfo file, everyone will already spawn with one, making this pickup useless.
@@ -1467,7 +1467,7 @@ in your mapinfo file, everyone will already spawn with one, making this pickup u
 modeldisabled=&quot;models/weapons/g_laser.md3&quot;
 </point>
 
-<point name="weapon_vortex" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_vortex" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Vortex
 In Instagib, this turns into an item_vaporizer_cells if no explicit item_vaporizer_cells have been placed.
 -------- KEYS --------
@@ -1482,7 +1482,7 @@ In Instagib, this turns into an item_vaporizer_cells if no explicit item_vaporiz
 modeldisabled=&quot;models/weapons/g_nex.md3&quot;
 </point>
 
-<point name="weapon_devastator" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_devastator" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Devastator
 In Instagib, this turns into an item_vaporizer_cells if no explicit item_vaporizer_cells have been placed.
 -------- KEYS --------
@@ -1497,7 +1497,7 @@ In Instagib, this turns into an item_vaporizer_cells if no explicit item_vaporiz
 modeldisabled=&quot;models/weapons/g_rl.md3&quot;
 </point>
 
-<point name="weapon_shotgun" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_shotgun" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Shotgun. Note that unless you use
   settemp_for_type all g_balance_shotgun_weaponstart 0
 in your mapinfo file, everyone will already spawn with one, making this pickup useless.
@@ -1513,7 +1513,7 @@ in your mapinfo file, everyone will already spawn with one, making this pickup u
 modeldisabled=&quot;models/weapons/g_shotgun.md3&quot;
 </point>
 
-<point name="weapon_machinegun" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_machinegun" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Machine Gun
 -------- KEYS --------
 <real key="ammo_nails" name="ammo_nails">initial bullets of the weapon (if unset, g_pickup_nails is used)</real>
@@ -1527,7 +1527,7 @@ the Machine Gun
 modeldisabled=&quot;models/weapons/g_uzi.md3&quot;
 </point>
 
-<point name="weapon_arc" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_arc" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Arc (experimental weapon)
 -------- KEYS --------
 <real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, g_pickup_cells is used)</real>
@@ -1746,7 +1746,7 @@ Makes one entity follow another. Will not work with all entities.
 <flag key="LOCAL" name="LOCAL" bit="1">do not untransform the coordinates (that is, the map specifies local coordinates, not global ones). Mostly useful with ATTACH.</flag>
 </point>
 
-<point name="weapon_vaporizer" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_vaporizer" color="1 0 .5" box="-30 -30 0 30 30 48">
 Placing this entity on a map kills your cat, voids the warranty on your toaster, and makes your map an unenjoyable campers' paradise.
 the InstaGib Vortex. Always kills with one shot.
 -------- KEYS --------
@@ -1761,7 +1761,7 @@ the InstaGib Vortex. Always kills with one shot.
 modeldisabled=&quot;models/weapons/g_minstanex.md3&quot;
 </point>
 
-<point name="weapon_porto" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_porto" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Port-O-Launch. Only can be shot once.
 Portals cannot be made on noimpact surfaces, and the portal missile will bounce on slick surfaces.
 -------- KEYS --------
@@ -1944,7 +1944,7 @@ Relays the trigger event if a cvar is set to a specified value.
 <flag key="NEGATE" name="NEGATE" bit="0">trigger if the cvar does NOT match the value.</flag>
 </point>
 
-<point name="weapon_hlac" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_hlac" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Heavy Laser Assault Cannon.
 -------- KEYS --------
 <real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, g_pickup_cells is used)</real>
@@ -1958,7 +1958,7 @@ the Heavy Laser Assault Cannon.
 modeldisabled=&quot;models/weapons/g_hlac.md3&quot;
 </point>
 
-<point name="weapon_minelayer" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_minelayer" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Mine Layer.
 -------- KEYS --------
 <real key="ammo_rockets" name="ammo_rockets">initial rockets of the weapon (if unset, g_pickup_rockets is used)</real>
@@ -1972,7 +1972,7 @@ the Mine Layer.
 modeldisabled=&quot;models/weapons/g_minelayer.md3&quot;
 </point>
 
-<point name="weapon_seeker" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_seeker" color="1 0 .5" box="-30 -30 0 30 30 48">
 Placing this entity on a map kills your dog, voids the warranty on your car, and makes your map an unenjoyable noobs' paradise.
 the T.A.G. Seeker.
 -------- KEYS --------
@@ -1987,7 +1987,7 @@ the T.A.G. Seeker.
 modeldisabled=&quot;models/weapons/g_seeker.md3&quot;
 </point>
 
-<point name="weapon_hook" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_hook" color="1 0 .5" box="-30 -30 0 30 30 48">
 the on-hand Grappling Hook.
 -------- KEYS --------
 <real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, g_pickup_cells is used)</real>
@@ -2023,7 +2023,7 @@ Target version of trigger_heal. Heals the activator.
 <flag key="SOUND_ALWAYS" name="SOUND_ALWAYS" bit="2">play the sound even if the player is fully healed</flag>
 </point>
 
-<point name="weapon_rifle" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_rifle" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Sniper Rifle.
 -------- KEYS --------
 <real key="ammo_nails" name="ammo_nails">initial bullets of the weapon (if unset, g_pickup_nails is used)</real>
@@ -2351,7 +2351,7 @@ Triggers targets when a given magic word has been said
 <flag key="TUBA_EXACTPITCH" name="TUBA_EXACTPITCH" bit="9">the note pitch must be accurate and cannot be transposed</flag>
 </point>
 
-<point name="weapon_fireball" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_fireball" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Fireball
 -------- KEYS --------
 <real key="ammo_rockets" name="ammo_rockets">initial rockets of the weapon (if unset, g_pickup_rockets is used)</real>
