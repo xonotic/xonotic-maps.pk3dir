@@ -515,7 +515,7 @@ Small Armor (default 5 armor points)
 modeldisabled=&quot;models/items/g_a1.md3&quot;
 </point>
 
-<point name="item_bullets" color=".3 .3 1" box="-30 -30 0 30 30 32">
+<point name="item_bullets" color=".3 .3 1" box="-30 -30 0 30 30 48">
 Machine Gun ammo
 -------- KEYS --------
 <real key="ammo_nails" name="ammo_nails">bullets gained by this item (if unset, g_pickup_nails is used)</real>
@@ -529,7 +529,7 @@ Machine Gun ammo
 modeldisabled=&quot;models/items/a_bullets.md3&quot;
 </point>
 
-<point name="item_cells" color=".3 .3 1" box="-30 -30 0 30 30 32">
+<point name="item_cells" color=".3 .3 1" box="-30 -30 0 30 30 48">
 Vortex, Electro and Crylink ammo
 -------- KEYS --------
 <real key="ammo_cells" name="ammo_cells">cells gained by this item (if unset, g_pickup_cells is used)</real>
@@ -726,7 +726,7 @@ Don't use this entity on new maps! Use item_key instead.
 
 
 
-<point name="item_vaporizer_cells" color=".3 .3 1" box="-30 -30 0 30 30 32">
+<point name="item_vaporizer_cells" color=".3 .3 1" box="-30 -30 0 30 30 48">
 Instagib ammo.
 Always contains 5 (g_instagib_ammo_drop) shots.
 It only appears when playing Instagib and prevents auto-replacement of weapon_vortex &amp; weapon_devastator when used.
@@ -741,7 +741,7 @@ It only appears when playing Instagib and prevents auto-replacement of weapon_vo
 modeldisabled=&quot;models/items/a_cells.md3&quot;
 </point>
 
-<point name="item_rockets" color=".3 .3 1" box="-30 -30 0 30 30 32">
+<point name="item_rockets" color=".3 .3 1" box="-30 -30 0 30 30 48">
 Devastator, Hagar and Mortar ammo
 -------- KEYS --------
 <real key="ammo_rockets" name="ammo_rockets">rockets gained by this item (if unset, g_pickup_rockets is used)</real>
@@ -755,7 +755,7 @@ Devastator, Hagar and Mortar ammo
 modeldisabled=&quot;models/items/a_rockets.md3&quot;
 </point>
 
-<point name="item_shells" color=".3 .3 1" box="-30 -30 0 30 30 32">
+<point name="item_shells" color=".3 .3 1" box="-30 -30 0 30 30 48">
 Shotgun ammo
 -------- KEYS --------
 <real key="ammo_shells" name="ammo_shells">shells gained by this item (if unset, g_pickup_shells is used)</real>
