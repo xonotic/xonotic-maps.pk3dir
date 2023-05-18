@@ -656,7 +656,7 @@ Small Health (default 5 health points)
 modeldisabled=&quot;models/items/g_h1.md3&quot;
 </point>
 
-<point name="item_shield" color=".3 .3 1" box="-30 -30 0 30 30 48">
+<point name="item_shield" color=".3 .3 1" box="-30 -30 0 30 30 70">
 Strong Shield
 In Instagib, this randomly turns into either an invisibility, an extra lives or a speed power-up with a default respawn time of 120.
 -------- KEYS --------
@@ -769,7 +769,7 @@ Shotgun ammo
 modeldisabled=&quot;models/items/a_shells.md3&quot;
 </point>
 
-<point name="item_strength" color=".3 .3 1" box="-30 -30 0 30 30 48">
+<point name="item_strength" color=".3 .3 1" box="-30 -30 0 30 30 70">
 Strength aka Quad damage
 In Instagib, this randomly turns into either an invisibility, an extra lives or a speed power-up with a default respawn time of 120.
 -------- KEYS --------
