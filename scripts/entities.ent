@@ -670,6 +670,32 @@ In Instagib, this randomly turns into either an invisibility, an extra lives or 
 modeldisabled=&quot;models/items/g_invincible.md3&quot;
 </point>
 
+<point name="item_speed" color="0.1 1 0.84" box="-30 -30 0 30 30 70">
+Faster movement and shooting
+-------- KEYS --------
+<real key="respawntime" name="respawntime">time till it respawns (default: 120)</real>
+<real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
+<integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
+<real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
+-------- SPAWNFLAGS --------
+<flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+modeldisabled=&quot;models/items/g_invincible.md3&quot;
+</point>
+
+<point name="item_invisibility" color="0.5 0.5 1" box="-30 -30 0 30 30 70">
+Low visibility
+-------- KEYS --------
+<real key="respawntime" name="respawntime">time till it respawns (default: 120)</real>
+<real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
+<integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
+<real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
+-------- SPAWNFLAGS --------
+<flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+modeldisabled=&quot;models/items/g_invincible.md3&quot;
+</point>
+
 <point name="item_key" color="0 .5 .8" box="-16 -16 -24 16 16 32">
 A key entity.
 The itemkeys should contain one of the following key IDs:
