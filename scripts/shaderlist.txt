@@ -27,6 +27,7 @@ map_darkzone
 map_erbium
 map_geoplanetary
 map_glowplant
+map_go
 map_implosion
 map_leave_em_behind
 map_opium
@@ -59,6 +60,7 @@ skies_exosystem
 skies_extragalactic
 skies_heaven
 skies_polluted_earth
+skies_purple_nebulae
 stein1x
 techpanelx
 terrain01x
