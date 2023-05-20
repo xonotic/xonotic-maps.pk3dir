@@ -1,0 +1,6 @@
+-bsp +
+-vis +
+-light + -bounce 8
+-minimap +
+-sRGB
+Version: 1e
