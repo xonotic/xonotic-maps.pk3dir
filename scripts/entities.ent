@@ -1409,7 +1409,7 @@ the Mortar
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-modeldisabled=&quot;models/weapons/g_gl.md3&quot;
+modeldisabled=&quot;models/weapons/g_mortar.md3&quot;
 </point>
 
 <point name="weapon_hagar" color="1 0 .5" box="-30 -30 0 30 30 32">
@@ -1438,7 +1438,7 @@ in your mapinfo file, everyone will already spawn with one, making this pickup u
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-modeldisabled=&quot;models/weapons/g_laser.md3&quot;
+modeldisabled=&quot;models/weapons/g_blaster.md3&quot;
 </point>
 
 <point name="weapon_vortex" color="1 0 .5" box="-30 -30 0 30 30 32">
@@ -1453,7 +1453,7 @@ In Instagib, this turns into an item_vaporizer_cells if no explicit item_vaporiz
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-modeldisabled=&quot;models/weapons/g_nex.md3&quot;
+modeldisabled=&quot;models/weapons/g_vortex.md3&quot;
 </point>
 
 <point name="weapon_devastator" color="1 0 .5" box="-30 -30 0 30 30 32">
@@ -1468,7 +1468,7 @@ In Instagib, this turns into an item_vaporizer_cells if no explicit item_vaporiz
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-modeldisabled=&quot;models/weapons/g_rl.md3&quot;
+modeldisabled=&quot;models/weapons/g_devastator.md3&quot;
 </point>
 
 <point name="weapon_shotgun" color="1 0 .5" box="-30 -30 0 30 30 32">
@@ -1498,7 +1498,7 @@ the Machine Gun
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-modeldisabled=&quot;models/weapons/g_uzi.md3&quot;
+modeldisabled=&quot;models/weapons/g_machinegun.md3&quot;
 </point>
 
 <point name="weapon_arc" color="1 0 .5" box="-30 -30 0 30 30 32">
@@ -1732,7 +1732,7 @@ the InstaGib Vortex. Always kills with one shot.
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-modeldisabled=&quot;models/weapons/g_minstanex.md3&quot;
+modeldisabled=&quot;models/weapons/g_vaporizer.md3&quot;
 </point>
 
 <point name="weapon_porto" color="1 0 .5" box="-30 -30 0 30 30 32">
@@ -1803,7 +1803,7 @@ Example is a Mario-style question mark block which could throw a new weapon_vort
 &quot;classname&quot; &quot;func_button&quot;
 &quot;angle&quot; &quot;-1&quot;
 &quot;wait&quot; &quot;5&quot;
-&quot;target&quot; &quot;makenex&quot;
+&quot;target&quot; &quot;makevortex&quot;
 &quot;speed&quot; &quot;1000&quot;
 &quot;lip&quot; &quot;64&quot;
 ...
@@ -1811,7 +1811,7 @@ Example is a Mario-style question mark block which could throw a new weapon_vort
 {
 &quot;classname&quot; &quot;target_spawn&quot;
 &quot;origin&quot; &quot;0 0 448&quot;
-&quot;targetname&quot; &quot;makenex&quot;
+&quot;targetname&quot; &quot;makevortex&quot;
 &quot;message&quot; &quot;origin $self.origin owner $activator flags 65536 colormap $activator.colormap classname droppedweapon $ spawnfunc_weapon_vortex think thrown_wep_think nextthink $time+0.5 velocity $activator.velocity velocity_z 512 movetype 3&quot;
 }
 -------- KEYS --------
@@ -1972,7 +1972,7 @@ the on-hand Grappling Hook.
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-modeldisabled=&quot;models/weapons/g_hookgun.md3&quot;
+modeldisabled=&quot;models/weapons/g_hook.md3&quot;
 </point>
 
 <group name="trigger_heal" color=".5 .5 .5">
@@ -2008,7 +2008,7 @@ the Sniper Rifle.
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-modeldisabled=&quot;models/weapons/g_campingrifle.md3&quot;
+modeldisabled=&quot;models/weapons/g_rifle.md3&quot;
 </point>
 
 <group name="func_fourier" color="0 .5 .8">
