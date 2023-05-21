@@ -20,7 +20,7 @@ The targeted entity is preferably an info_null.
 The projection is a linear projection, and originates from the center of this entity (the start of the arrow line in Radiant) to the origin of the targeted entity (the end of the arrow line in Radiant).
 </group>
 
-<point name="dom_controlpoint" color=".3 .3 1" box="-16 -16 -16 16 16 16">
+<point name="dom_controlpoint" color=".3 .3 1" box="-48 -48 -32 48 48 32">
 Domination control point
 In order to get Domination working well in your map, you need to place dom_team and dom_controlpoint entities.  You *must* have at least 3 dom_team entities - 2 minimum teams and one blank one (empty netname and no team).  You can have up to 4 teams (5 dom_team entities).
 -------- KEYS --------
@@ -455,7 +455,7 @@ Acts as a checkpoint to re-spawn at
 <targetname key="targetname" name="targetname">when targeted, this will set the activator's spawn point temporarily to this entity. It is reset upon re-spawn.</targetname>
 </point>
 
-<point name="item_armor_mega" color=".4 .8 .4" box="-30 -30 0 30 30 32">
+<point name="item_armor_mega" color=".4 .8 .4" box="-30 -30 0 30 30 70">
 Large Armor (default 100 armor points)
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 30)</real>
@@ -470,7 +470,7 @@ Large Armor (default 100 armor points)
 modeldisabled=&quot;models/items/g_a25.md3&quot;
 </point>
 
-<point name="item_armor_big" color=".4 .8 .4" box="-30 -30 0 30 30 32">
+<point name="item_armor_big" color=".4 .8 .4" box="-30 -30 0 30 30 48">
 Big Armor (default 50 armor points)
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 20)</real>
@@ -485,7 +485,7 @@ Big Armor (default 50 armor points)
 modeldisabled=&quot;models/items/g_a50.md3&quot;
 </point>
 
-<point name="item_armor_medium" color=".4 .8 .4" box="-30 -30 0 30 30 32">
+<point name="item_armor_medium" color=".4 .8 .4" box="-16 -16 0 16 16 48">
 Medium Armor (default 25 armor points)
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 20)</real>
@@ -500,7 +500,7 @@ Medium Armor (default 25 armor points)
 modeldisabled=&quot;models/items/g_armormedium.md3&quot;
 </point>
 
-<point name="item_armor_small" color=".4 .8 .4" box="-30 -30 0 30 30 32">
+<point name="item_armor_small" color=".4 .8 .4" box="-16 -16 0 16 16 48">
 Small Armor (default 5 armor points)
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
@@ -515,7 +515,7 @@ Small Armor (default 5 armor points)
 modeldisabled=&quot;models/items/g_a1.md3&quot;
 </point>
 
-<point name="item_bullets" color=".3 .3 1" box="-30 -30 0 30 30 32">
+<point name="item_bullets" color=".3 .3 1" box="-30 -30 0 30 30 48">
 Machine Gun ammo
 -------- KEYS --------
 <real key="ammo_nails" name="ammo_nails">bullets gained by this item (if unset, g_pickup_nails is used)</real>
@@ -529,7 +529,7 @@ Machine Gun ammo
 modeldisabled=&quot;models/items/a_bullets.md3&quot;
 </point>
 
-<point name="item_cells" color=".3 .3 1" box="-30 -30 0 30 30 32">
+<point name="item_cells" color=".3 .3 1" box="-30 -30 0 30 30 48">
 Vortex, Electro and Crylink ammo
 -------- KEYS --------
 <real key="ammo_cells" name="ammo_cells">cells gained by this item (if unset, g_pickup_cells is used)</real>
@@ -610,7 +610,7 @@ Big Health (default 50 health points)
 modeldisabled=&quot;models/items/g_h50.md3&quot;
 </point>
 
-<point name="item_health_medium" color=".9 .3 .3" box="-30 -30 0 30 30 48">
+<point name="item_health_medium" color=".9 .3 .3" box="-16 -16 0 16 16 48">
 Medium Health (default 25 health points)
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
@@ -625,7 +625,7 @@ Medium Health (default 25 health points)
 modeldisabled=&quot;models/items/g_h25.md3&quot;
 </point>
 
-<point name="item_health_mega" color=".9 .3 .3" box="-30 -30 0 30 30 48">
+<point name="item_health_mega" color=".9 .3 .3" box="-30 -30 0 30 30 70">
 Mega Health (default 100 health points)
 In Instagib, this randomly turns into either an invisibility, an extra lives or a speed power-up with a default respawn time of 120.
 -------- KEYS --------
@@ -641,7 +641,7 @@ In Instagib, this randomly turns into either an invisibility, an extra lives or 
 modeldisabled=&quot;models/items/g_h100.md3&quot;
 </point>
 
-<point name="item_health_small" color=".9 .3 .3" box="-30 -30 0 30 30 48">
+<point name="item_health_small" color=".9 .3 .3" box="-16 -16 0 16 16 48">
 Small Health (default 5 health points)
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
@@ -656,9 +656,35 @@ Small Health (default 5 health points)
 modeldisabled=&quot;models/items/g_h1.md3&quot;
 </point>
 
-<point name="item_shield" color=".3 .3 1" box="-30 -30 0 30 30 48">
+<point name="item_shield" color=".3 .3 1" box="-30 -30 0 30 30 70">
 Strong Shield
 In Instagib, this randomly turns into either an invisibility, an extra lives or a speed power-up with a default respawn time of 120.
+-------- KEYS --------
+<real key="respawntime" name="respawntime">time till it respawns (default: 120)</real>
+<real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
+<integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
+<real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
+-------- SPAWNFLAGS --------
+<flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+modeldisabled=&quot;models/items/g_invincible.md3&quot;
+</point>
+
+<point name="item_speed" color="0.1 1 0.84" box="-30 -30 0 30 30 70">
+Faster movement and shooting
+-------- KEYS --------
+<real key="respawntime" name="respawntime">time till it respawns (default: 120)</real>
+<real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
+<integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
+<real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
+-------- SPAWNFLAGS --------
+<flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+modeldisabled=&quot;models/items/g_invincible.md3&quot;
+</point>
+
+<point name="item_invisibility" color="0.5 0.5 1" box="-30 -30 0 30 30 70">
+Low visibility
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 120)</real>
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
@@ -726,7 +752,7 @@ Don't use this entity on new maps! Use item_key instead.
 
 
 
-<point name="item_vaporizer_cells" color=".3 .3 1" box="-30 -30 0 30 30 32">
+<point name="item_vaporizer_cells" color=".3 .3 1" box="-30 -30 0 30 30 48">
 Instagib ammo.
 Always contains 5 (g_instagib_ammo_drop) shots.
 It only appears when playing Instagib and prevents auto-replacement of weapon_vortex &amp; weapon_devastator when used.
@@ -741,7 +767,7 @@ It only appears when playing Instagib and prevents auto-replacement of weapon_vo
 modeldisabled=&quot;models/items/a_cells.md3&quot;
 </point>
 
-<point name="item_rockets" color=".3 .3 1" box="-30 -30 0 30 30 32">
+<point name="item_rockets" color=".3 .3 1" box="-30 -30 0 30 30 48">
 Devastator, Hagar and Mortar ammo
 -------- KEYS --------
 <real key="ammo_rockets" name="ammo_rockets">rockets gained by this item (if unset, g_pickup_rockets is used)</real>
@@ -755,7 +781,7 @@ Devastator, Hagar and Mortar ammo
 modeldisabled=&quot;models/items/a_rockets.md3&quot;
 </point>
 
-<point name="item_shells" color=".3 .3 1" box="-30 -30 0 30 30 32">
+<point name="item_shells" color=".3 .3 1" box="-30 -30 0 30 30 48">
 Shotgun ammo
 -------- KEYS --------
 <real key="ammo_shells" name="ammo_shells">shells gained by this item (if unset, g_pickup_shells is used)</real>
@@ -769,7 +795,7 @@ Shotgun ammo
 modeldisabled=&quot;models/items/a_shells.md3&quot;
 </point>
 
-<point name="item_strength" color=".3 .3 1" box="-30 -30 0 30 30 48">
+<point name="item_strength" color=".3 .3 1" box="-30 -30 0 30 30 70">
 Strength aka Quad damage
 In Instagib, this randomly turns into either an invisibility, an extra lives or a speed power-up with a default respawn time of 120.
 -------- KEYS --------
@@ -1370,7 +1396,7 @@ Note that in Xonotic, teleporters preserve momentum of the player using them.
 <flag key="INVERT_TEAM" name="INVERT_TEAM" bit="2">the team that owns the teleporter will NOT teleport when touching this</flag>
 </group>
 
-<point name="weapon_crylink" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_crylink" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Crylink
 -------- KEYS --------
 <real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, g_pickup_cells is used)</real>
@@ -1384,7 +1410,7 @@ the Crylink
 modeldisabled=&quot;models/weapons/g_crylink.md3&quot;
 </point>
 
-<point name="weapon_electro" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_electro" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Electro
 -------- KEYS --------
 <real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, g_pickup_cells is used)</real>
@@ -1398,7 +1424,7 @@ the Electro
 modeldisabled=&quot;models/weapons/g_electro.md3&quot;
 </point>
 
-<point name="weapon_mortar" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_mortar" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Mortar
 -------- KEYS --------
 <real key="ammo_rockets" name="ammo_rockets">initial rockets of the weapon (if unset, g_pickup_rockets is used)</real>
@@ -1412,7 +1438,7 @@ the Mortar
 modeldisabled=&quot;models/weapons/g_gl.md3&quot;
 </point>
 
-<point name="weapon_hagar" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_hagar" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Hagar
 -------- KEYS --------
 <real key="ammo_rockets" name="ammo_rockets">initial rockets of the weapon (if unset, g_pickup_rockets is used)</real>
@@ -1426,7 +1452,7 @@ the Hagar
 modeldisabled=&quot;models/weapons/g_hagar.md3&quot;
 </point>
 
-<point name="weapon_blaster" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_blaster" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Blaster. Note that unless you use
   settemp_for_type all g_balance_blaster_weaponstart 0
 in your mapinfo file, everyone will already spawn with one, making this pickup useless.
@@ -1441,7 +1467,7 @@ in your mapinfo file, everyone will already spawn with one, making this pickup u
 modeldisabled=&quot;models/weapons/g_laser.md3&quot;
 </point>
 
-<point name="weapon_vortex" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_vortex" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Vortex
 In Instagib, this turns into an item_vaporizer_cells if no explicit item_vaporizer_cells have been placed.
 -------- KEYS --------
@@ -1456,7 +1482,7 @@ In Instagib, this turns into an item_vaporizer_cells if no explicit item_vaporiz
 modeldisabled=&quot;models/weapons/g_nex.md3&quot;
 </point>
 
-<point name="weapon_devastator" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_devastator" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Devastator
 In Instagib, this turns into an item_vaporizer_cells if no explicit item_vaporizer_cells have been placed.
 -------- KEYS --------
@@ -1471,7 +1497,7 @@ In Instagib, this turns into an item_vaporizer_cells if no explicit item_vaporiz
 modeldisabled=&quot;models/weapons/g_rl.md3&quot;
 </point>
 
-<point name="weapon_shotgun" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_shotgun" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Shotgun. Note that unless you use
   settemp_for_type all g_balance_shotgun_weaponstart 0
 in your mapinfo file, everyone will already spawn with one, making this pickup useless.
@@ -1487,7 +1513,7 @@ in your mapinfo file, everyone will already spawn with one, making this pickup u
 modeldisabled=&quot;models/weapons/g_shotgun.md3&quot;
 </point>
 
-<point name="weapon_machinegun" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_machinegun" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Machine Gun
 -------- KEYS --------
 <real key="ammo_nails" name="ammo_nails">initial bullets of the weapon (if unset, g_pickup_nails is used)</real>
@@ -1501,7 +1527,7 @@ the Machine Gun
 modeldisabled=&quot;models/weapons/g_uzi.md3&quot;
 </point>
 
-<point name="weapon_arc" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_arc" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Arc (experimental weapon)
 -------- KEYS --------
 <real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, g_pickup_cells is used)</real>
@@ -1720,7 +1746,7 @@ Makes one entity follow another. Will not work with all entities.
 <flag key="LOCAL" name="LOCAL" bit="1">do not untransform the coordinates (that is, the map specifies local coordinates, not global ones). Mostly useful with ATTACH.</flag>
 </point>
 
-<point name="weapon_vaporizer" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_vaporizer" color="1 0 .5" box="-30 -30 0 30 30 48">
 Placing this entity on a map kills your cat, voids the warranty on your toaster, and makes your map an unenjoyable campers' paradise.
 the InstaGib Vortex. Always kills with one shot.
 -------- KEYS --------
@@ -1735,7 +1761,7 @@ the InstaGib Vortex. Always kills with one shot.
 modeldisabled=&quot;models/weapons/g_minstanex.md3&quot;
 </point>
 
-<point name="weapon_porto" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_porto" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Port-O-Launch. Only can be shot once.
 Portals cannot be made on noimpact surfaces, and the portal missile will bounce on slick surfaces.
 -------- KEYS --------
@@ -1918,7 +1944,7 @@ Relays the trigger event if a cvar is set to a specified value.
 <flag key="NEGATE" name="NEGATE" bit="0">trigger if the cvar does NOT match the value.</flag>
 </point>
 
-<point name="weapon_hlac" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_hlac" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Heavy Laser Assault Cannon.
 -------- KEYS --------
 <real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, g_pickup_cells is used)</real>
@@ -1932,7 +1958,7 @@ the Heavy Laser Assault Cannon.
 modeldisabled=&quot;models/weapons/g_hlac.md3&quot;
 </point>
 
-<point name="weapon_minelayer" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_minelayer" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Mine Layer.
 -------- KEYS --------
 <real key="ammo_rockets" name="ammo_rockets">initial rockets of the weapon (if unset, g_pickup_rockets is used)</real>
@@ -1946,7 +1972,7 @@ the Mine Layer.
 modeldisabled=&quot;models/weapons/g_minelayer.md3&quot;
 </point>
 
-<point name="weapon_seeker" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_seeker" color="1 0 .5" box="-30 -30 0 30 30 48">
 Placing this entity on a map kills your dog, voids the warranty on your car, and makes your map an unenjoyable noobs' paradise.
 the T.A.G. Seeker.
 -------- KEYS --------
@@ -1961,7 +1987,7 @@ the T.A.G. Seeker.
 modeldisabled=&quot;models/weapons/g_seeker.md3&quot;
 </point>
 
-<point name="weapon_hook" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_hook" color="1 0 .5" box="-30 -30 0 30 30 48">
 the on-hand Grappling Hook.
 -------- KEYS --------
 <real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, g_pickup_cells is used)</real>
@@ -1997,7 +2023,7 @@ Target version of trigger_heal. Heals the activator.
 <flag key="SOUND_ALWAYS" name="SOUND_ALWAYS" bit="2">play the sound even if the player is fully healed</flag>
 </point>
 
-<point name="weapon_rifle" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_rifle" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Sniper Rifle.
 -------- KEYS --------
 <real key="ammo_nails" name="ammo_nails">initial bullets of the weapon (if unset, g_pickup_nails is used)</real>
@@ -2325,7 +2351,7 @@ Triggers targets when a given magic word has been said
 <flag key="TUBA_EXACTPITCH" name="TUBA_EXACTPITCH" bit="9">the note pitch must be accurate and cannot be transposed</flag>
 </point>
 
-<point name="weapon_fireball" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_fireball" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Fireball
 -------- KEYS --------
 <real key="ammo_rockets" name="ammo_rockets">initial rockets of the weapon (if unset, g_pickup_rockets is used)</real>
