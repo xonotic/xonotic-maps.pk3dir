@@ -456,7 +456,7 @@ Acts as a checkpoint to re-spawn at
 </point>
 
 <point name="item_armor_mega" color=".4 .8 .4" box="-30 -30 0 30 30 70">
-Large Armor (default 100 armor points)
+Mega Armor (default 100 armor points)
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 30)</real>
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
