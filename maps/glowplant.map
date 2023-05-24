@@ -44768,7 +44768,7 @@ trak5x/base-pipe1a
 "mdl" "sparks"
 "impulse" "4"
 "count" "6"
-"noise" "sound/map_glowplant/spark.ogg"
+"noise" "sound/machines/spark.ogg"
 "velocity" "50 -100 30"
 "spawnflags" "4"
 {
