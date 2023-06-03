@@ -20828,18 +20828,21 @@ brushDef
 "origin" "1444.433960 -752.892517 44.000000"
 "model" "models/desertfactory/objects_plants/grass02.ase"
 "angle" "51.858738"
+"_castshadows" "0"
 }
 {
 "classname" "misc_model"
 "origin" "1411.643066 -788.173584 44.000000"
 "model" "models/desertfactory/objects_plants/grass03.ase"
 "angle" "51.858738"
+"_castshadows" "0"
 }
 {
 "classname" "misc_model"
 "origin" "1350.538452 -801.221130 44.000000"
 "model" "models/desertfactory/objects_plants/grass01.ase"
 "angle" "51.858738"
+"_castshadows" "0"
 }
 {
 "classname" "light"
@@ -22289,6 +22292,7 @@ brushDef
 "classname" "misc_model"
 "origin" "252.000000 -1096.000000 48.000000"
 "model" "models/desertfactory/objects_plants/grass01.ase"
+"_castshadows" "0"
 }
 {
 "classname" "misc_model"
@@ -23584,16 +23588,19 @@ brushDef
 "classname" "misc_model"
 "origin" "432.000000 -588.000000 -16.000000"
 "model" "models/desertfactory/objects_plants/grass01.ase"
+"_castshadows" "0"
 }
 {
 "classname" "misc_model"
 "origin" "164.000000 -752.000000 48.000000"
 "model" "models/desertfactory/objects_plants/grass01.ase"
+"_castshadows" "0"
 }
 {
 "classname" "misc_model"
 "origin" "456.000000 -784.000000 352.000000"
 "model" "models/desertfactory/objects_plants/grass01.ase"
+"_castshadows" "0"
 }
 {
 "classname" "light"
@@ -23644,6 +23651,7 @@ brushDef
 "classname" "misc_model"
 "origin" "100.000000 -920.000000 48.000000"
 "model" "models/desertfactory/objects_plants/grass01.ase"
+"_castshadows" "0"
 }
 {
 "classname" "light"
