@@ -1,6 +1,6 @@
 -scale 0.9
 -bsp +
--light + -dirtscale 2 -bounce 8
+-light +
 -vis +
 -minimap +
 -sRGB
