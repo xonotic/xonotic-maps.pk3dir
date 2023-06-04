@@ -1,5 +1,5 @@
 -bsp + -minsamplesize 2 -np 20
--light + -bounce 6 -bouncegrid -dirtscale 1.5
+-light +
 -vis +
 -minimap +
 -sRGB
