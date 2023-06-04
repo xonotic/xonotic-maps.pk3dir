@@ -1,5 +1,5 @@
 -bsp +
--light + -dirtscale 2 -bounce 3 -bouncescale 4
+-light + -bouncescale 4
 -vis +
 -minimap +
 -sRGB
