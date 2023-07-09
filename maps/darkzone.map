@@ -32831,22 +32831,15 @@ exx/wall-metalrib01
 "classname" "light"
 "_color" "1 0.750668 0.747723"
 "light" "50"
-"origin" "-528.000000 -64.000000 184.000000"
-"target" "t35"
-}
-{
-"classname" "light"
-"_color" "1 0.750668 0.747723"
-"light" "50"
-"origin" "-400.000000 -64.000000 184.000000"
-"target" "t34"
+"origin" "-400.000000 -64.000000 168.000000"
+"target" "t8"
 }
 {
 "classname" "light"
 "_color" "1 0.750668 0.747723"
 "light" "50"
 "origin" "-677.132935 -64.000000 215.468552"
-"target" "t36"
+"target" "t10"
 }
 {
 "classname" "light"
