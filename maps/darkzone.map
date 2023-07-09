@@ -26555,49 +26555,42 @@ exx/trim-01
 "classname" "misc_model"
 "origin" "895.999878 1216.000122 95.999817"
 "model" "models/lights/xonlight01.md3"
-"spawnflags" "2"
 "angles" "90.000000 0.000000 -90.000000"
 }
 {
 "classname" "misc_model"
 "origin" "1216.000000 864.000000 95.999847"
 "model" "models/lights/xonlight01.md3"
-"spawnflags" "2"
 "angles" "90.000000 0.000000 0.000003"
 }
 {
 "classname" "misc_model"
 "origin" "1216.000000 672.000122 95.999840"
 "model" "models/lights/xonlight01.md3"
-"spawnflags" "2"
 "angles" "90.000000 0.000000 0.000003"
 }
 {
 "classname" "misc_model"
 "origin" "1216.000000 352.000000 95.999847"
 "model" "models/lights/xonlight01.md3"
-"spawnflags" "2"
 "angles" "90.000000 0.000000 0.000003"
 }
 {
 "classname" "misc_model"
 "origin" "1216.000000 160.000122 95.999840"
 "model" "models/lights/xonlight01.md3"
-"spawnflags" "2"
 "angles" "90.000000 0.000000 0.000003"
 }
 {
 "classname" "misc_model"
 "origin" "608.000000 -191.999969 96.000191"
 "model" "models/lights/xonlight01.md3"
-"spawnflags" "2"
 "angles" "-90.000000 0.000000 90.000015"
 }
 {
 "classname" "misc_model"
 "origin" "799.999878 -192.000031 96.000206"
 "model" "models/lights/xonlight01.md3"
-"spawnflags" "2"
 "angles" "-90.000000 0.000000 90.000015"
 }
 {
@@ -31702,7 +31695,6 @@ exx/wall-metalrib01
 "classname" "misc_model"
 "origin" "703.999878 1216.000122 95.999817"
 "model" "models/lights/xonlight01.md3"
-"spawnflags" "2"
 "angles" "90.000000 0.000000 -90.000000"
 }
 {
