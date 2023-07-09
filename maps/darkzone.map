@@ -31530,9 +31530,6 @@ exx/base-metal06rust
 }
 }
 {
-"classname" "_decal"
-}
-{
 "classname" "func_group"
 {
 patchDef2
