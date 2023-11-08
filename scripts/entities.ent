@@ -1853,8 +1853,8 @@ Example is a Mario-style question mark block which could throw a new weapon_vort
 <flag key="ONLOAD" name="ONLOAD" bit="1">create a first entity on map load</flag>
 </point>
 
-<group name="misc_breakablemodel" color="1 0 0">
-This is a model which can be damaged.
+<point name="misc_breakablemodel" color="1 0 0" box="-8 -8 -8 8 8 8">
+This is a model which can be damaged (the model is used for collisions in-game, not the bbox).
 Once all health is consumed it'll disappear and trigger the targeted entity/entities.
 When triggered, it resets to full health, and unbreaks.
 -------- KEYS --------
@@ -1889,8 +1889,8 @@ When triggered, it resets to full health, and unbreaks.
 -------- SPAWNFLAGS --------
 <flag key="DISABLED" name="DISABLED" bit="0">do not allow damaging this until it is first activated</flag>
 <flag key="INDICATE" name="INDICATE" bit="1">indicate amount of damage already taken by coloring</flag>
-<flag key="NOSPLASH" name="NOSPLASH" bit="8">if set, splash damage cannot activate the door, only direct damage can (requires health to be set)</flag>
-</group>
+<flag key="NOSPLASH" name="NOSPLASH" bit="8">if set, splash damage has no effect, only direct damage has (requires health to be set)</flag>
+</point>
 
 <group name="func_breakable" color="1 0 0">
 This is a brush model which can be damaged.
