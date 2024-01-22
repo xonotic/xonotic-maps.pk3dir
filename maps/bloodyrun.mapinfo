@@ -1,0 +1,12 @@
+title Bloody Run
+description A remake of ZTN's Blood Run
+author AriosJentu
+cdtrack 7
+has weapons
+gametype dm
+gametype duel
+gametype tdm
+gametype ca
+gametype ft
+gametype ka
+gametype lms
