@@ -485,7 +485,7 @@ Big Armor (default 50 armor points)
 modeldisabled=&quot;models/items/g_a50.md3&quot;
 </point>
 
-<point name="item_armor_medium" color=".4 .8 .4" box="-30 -30 0 30 30 48">
+<point name="item_armor_medium" color=".4 .8 .4" box="-24 -24 0 24 24 48">
 Medium Armor (default 25 armor points)
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 20)</real>
@@ -500,7 +500,7 @@ Medium Armor (default 25 armor points)
 modeldisabled=&quot;models/items/g_armormedium.md3&quot;
 </point>
 
-<point name="item_armor_small" color=".4 .8 .4" box="-30 -30 0 30 30 48">
+<point name="item_armor_small" color=".4 .8 .4" box="-24 -24 0 24 24 48">
 Small Armor (default 5 armor points)
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
@@ -610,7 +610,7 @@ Big Health (default 50 health points)
 modeldisabled=&quot;models/items/g_h50.md3&quot;
 </point>
 
-<point name="item_health_medium" color=".9 .3 .3" box="-30 -30 0 30 30 48">
+<point name="item_health_medium" color=".9 .3 .3" box="-24 -24 0 24 24 48">
 Medium Health (default 25 health points)
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
@@ -641,7 +641,7 @@ In Instagib, this randomly turns into either an invisibility, an extra lives or 
 modeldisabled=&quot;models/items/g_h100.md3&quot;
 </point>
 
-<point name="item_health_small" color=".9 .3 .3" box="-30 -30 0 30 30 48">
+<point name="item_health_small" color=".9 .3 .3" box="-24 -24 0 24 24 48">
 Small Health (default 5 health points)
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
