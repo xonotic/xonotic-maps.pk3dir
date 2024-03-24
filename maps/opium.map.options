@@ -1,6 +1,6 @@
 -bsp +
--light +
+-light + -backsplash 1 23
 -vis +
 -minimap +
 -sRGB
-Version: 0m
+Version: 1
