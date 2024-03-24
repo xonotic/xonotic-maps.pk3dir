@@ -1208,7 +1208,7 @@ Monster spawnpoint for Invasion
 <integer key="team" name="team">team that the monster will join if teamplay (5 = red, 14 = blue, etc)</integer>
 </point>
 
-<group name="trigger_counter" color=".5 .5 .5">
+<point name="trigger_counter" color=".5 .5 .5" box="-8 -8 -8 8 8 8">
 Acts as an intermediary for an action that takes multiple inputs.
 After the counter has been triggered &quot;count&quot; times, it will fire all of its targets.
 -------- KEYS --------
@@ -1221,7 +1221,7 @@ After the counter has been triggered &quot;count&quot; times, it will fire all o
 -------- SPAWNFLAGS --------
 <flag key="NOMESSAGE" name="NOMESSAGE" bit="0">don't print a &quot;2 more to go...&quot;-like message when triggered</flag>
 <flag key="FIRE_AT_COUNT" name="FIRE_AT_COUNT" bit="2">fire at every count (behaves like trigger_multiple with limited shots)</flag>
-</group>
+</point>
 
 <point name="trigger_delay" color=".5 .5 .5" box="-8 -8 -8 8 8 8">
 Trigger that delays triggering by a given amount of time. Only one action can be waited for; if triggered again before the &quot;wait&quot; time expires, the timer will restart (as opposed to trigger_relay).
