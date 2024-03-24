@@ -1341,6 +1341,7 @@ Quake &quot;movedir/speed&quot; way: player will get velocity movedir * speed * 
 <targetname key="targetname" name="targetname">when targeted by a func_button, pressing the button will reassign the jump pad to the team of the activator.</targetname>
 -------- SPAWNFLAGS --------
 <flag key="INVERT_TEAM" name="INVERT_TEAM" bit="2">the team that owns the jump pad will NOT jump when touching this</flag>
+<flag key="STATIC" name="STATIC" bit="12">push force stays the same no matter where the trigger is hit, the center of the trigger is used as a starting point for trajectory calculation instead of the player position, matches Quake 3 behavior</flag>
 </group>
 
 <point name="trigger_relay" color=".5 .5 .5" box="-8 -8 -8 8 8 8">
@@ -1393,6 +1394,8 @@ Note that in Xonotic, teleporters preserve momentum of the player using them.
 <integer key="team" name="team">team that owns this teleporter (5 = red, 14 = blue, etc) (when set, only this team can teleport)</integer>
 <targetname key="targetname" name="targetname">when targeted by a func_button, pressing the button will reassign the teleporter to the team of the activator.</targetname>
 -------- SPAWNFLAGS --------
+<flag key="OBSERVERS_ONLY" name="OBSERVERS_ONLY" bit="0">if set, only observers can use this teleporter</flag>
+<flag key="KEEP_SPEED" name="KEEP_SPEED" bit="1">if set, ignores g_teleport_maxspeed</flag>
 <flag key="INVERT_TEAM" name="INVERT_TEAM" bit="2">the team that owns the teleporter will NOT teleport when touching this</flag>
 </group>
 
@@ -2462,9 +2465,11 @@ trigger_heal
 trigger_impulse
 trigger_music
 trigger_push
+trigger_push_velocity
 trigger_teleport
 target_heal
 target_kill
+target_speed
 func_rotating
 func_bobbing
 func_button
@@ -2488,9 +2493,11 @@ trigger_heal
 trigger_impulse
 trigger_music
 trigger_push
+trigger_push_velocity
 trigger_teleport
 target_heal
 target_kill
+target_speed
 func_rotating
 func_bobbing
 func_button
@@ -2514,9 +2521,11 @@ trigger_heal
 trigger_impulse
 trigger_music
 trigger_push
+trigger_push_velocity
 trigger_teleport
 target_heal
 target_kill
+target_speed
 func_rotating
 func_bobbing
 func_button
@@ -2792,5 +2801,53 @@ Its main weapon is a healing ray that can heal teammates and their vehicles.
 Secondary matches primary, but the vehicle can hold 2 extra players who act as gunners with the side cannons.
 -------- KEYS --------
 <integer key="team" name="team">5=red, 14=blue, 13=yellow, 10=pink</integer>
+</point>
+
+<group name="trigger_push_velocity" color=".5 .5 .5" box="-8 -8 -8 8 8 8">
+This is used to create jump pads and launch ramps. It MUST point to a target_position or info_notnull entity to work.  This is similar to a jumppad, however, it may be configured to add to the player's velocity, as opposed to just setting it.
+-------- KEYS --------
+<target key="target" name="target">this points to the target_position to which the player will jump.</target>
+<real key="speed" name="speed">XY speed for player-directional velocity pads - either sets or adds to the player's horizontal velocity.</real>
+<real key="count" name="count">Z speed for player-directional velocity pads - either sets or adds to the player's vertical velocity.</real>
+<sound key="noise" name="noise">sound to play when jump pad is used; default is misc/jumppad.wav; you can set it to &quot;&quot; to make the pad silent</sound>
+<integer key="team" name="team">team that owns this jump pad (5 = red, 14 = blue, etc) (when set, only this team can jump)</integer>
+<targetname key="targetname" name="targetname">when targeted by a func_button, pressing the button will reassign the jump pad to the team of the activator.</targetname>
+-------- SPAWNFLAGS --------
+<flag key="PLAYERDIR_XY" name="Playerdir_xy" bit="0">if set, trigger will apply the horizontal speed in the player's horizontal direction of travel, otherwise it uses the target XY component.</flag>
+<flag key="ADD_XY" name="Add_xy" bit="1">if set, trigger will add to the player's horizontal velocity, otherwise it sets the player's horizontal velocity.</flag>
+<flag key="PLAYERDIR_Z" name="Playerdir_z" bit="2">if set, trigger will apply the vertical speed in the player's vertical direction of travel, otherwise it uses the target Z component.</flag>
+<flag key="ADD_Z" name="Add_z" bit="3">if set, trigger will add to the player's vertical velocity, otherwise it sets the player's vertical velocity.</flag>
+<flag key="BIDIRECTIONAL_XY" name="Bidirectional_xy" bit="4">if set, non-playerdir velocity pads will function in 2 directions based on the target specified. The chosen direction is based on the current direction of travel. Applies to horizontal direction.</flag>
+<flag key="BIDIRECTIONAL_Z" name="Bidirectional_z" bit="5">if set, non-playerdir velocity pads will function in 2 directions based on the target specified. The chosen direction is based on the current direction of travel. Applies to vertical direction.</flag>
+<flag key="CLAMP_NEGATIVE_ADDS" name="Clamp_negative_adds" bit="6">if set, then a velocity pad that adds negative velocity will be clamped to 0, if the resultant velocity would bounce the player in the opposite direction.</flag>
+<flag key="STATIC" name="STATIC" bit="12">push force stays the same no matter where the trigger is hit, the center of the trigger is used as a starting point for trajectory calculation instead of the player position, matches Quake 3 behavior</flag>
+-------- NOTES --------
+To make a jump pad or launch ramp, place the target_position/info_notnull entity at the highest point of the jump and target it with this entity.
+</group>
+
+<point name="target_speed" color="1 1 0" box="-8 -8 -8 8 8 8">
+Sets the speed of the player.
+If ADD is speficied, negative values will reduce the speed.
+-------- KEYS --------
+<targetname key="targetname" name="targetname">Activating trigger points to this.</targetname>
+<real key="speed" name="speed">Speed value to set (default: 100). A value of 0 will be interpreted as such and not as the default value.</real>
+-------- SPAWNFLAGS --------
+<flag key="PERCENTAGE" name="Percentage" bit="0">value is treated as percentage of current speed</flag>
+<flag key="ADD" name="Add" bit="1">adds the speed instead of setting it</flag>
+<flag key="+X" name="+x" bit="2">takes positive X-direction into account</flag>
+<flag key="-X" name="-x" bit="3">takes negative X-direction into account</flag>
+<flag key="+Y" name="+y" bit="4">takes positive Y-direction into account</flag>
+<flag key="-Y" name="-y" bit="5">takes negative Y-direction into account</flag>
+<flag key="+Z" name="+z" bit="6">takes positive Z-direction (up) into account</flag>
+<flag key="-Z" name="-z" bit="7">takes negative Z-direction (down) into account</flag>
+<flag key="LAUNCHER" name="Launcher" bit="8">will accelerate the player into the given direction (spawnflags)</flag>
+-------- NOTES --------
+If LAUNCHER isn't specified the player will only be accelerated if he is moving
+while the target_speed is triggered, as the player needs a moving direction and this is
+only given when he moves. LAUNCHER will split the given speed value to the given
+directions. Note that only one of the spawnflags for each coordinate must be set. For
+example if +X and -X is active the x-direction will be ignored. The same is the case
+if whether +X nor -X is active. So if you want to accelerate the player up with 900u
+you have to set the speed value to 900 and activate the spawnflags +Z and LAUNCHER.
 </point>
 </classes>
