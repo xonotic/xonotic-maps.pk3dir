@@ -2790,7 +2790,7 @@ Sets the speed of the player.
 If ADD is speficied, negative values will reduce the speed.
 -------- KEYS --------
 <targetname key="targetname" name="targetname">Activating trigger points to this.</targetname>
-<real key="speed" name="speed">Speed value to set (default: 100).</real>
+<real key="speed" name="speed">Speed value to set (default: 100). A value of 0 will be interpreted as such and not as the default value.</real>
 -------- SPAWNFLAGS --------
 <flag key="PERCENTAGE" name="Percentage" bit="0">value is treated as percentage of current speed</flag>
 <flag key="ADD" name="Add" bit="1">adds the speed instead of setting it</flag>
