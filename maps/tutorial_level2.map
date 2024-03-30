@@ -18685,7 +18685,7 @@ brushDef
 "target" "door_weapon_mortar"
 "targetname" "counter_weapon_mortar"
 "count" "3"
-"origin" "384.000000 -4608.000000 32.000000"
+"origin" "160.000000 -4800.000000 32.000000"
 }
 {
 "classname" "func_button"
@@ -18913,7 +18913,7 @@ brushDef
 "target" "door_weapon_devastator"
 "targetname" "counter_weapon_devastator"
 "count" "3"
-"origin" "384.000000 -5552.000000 32.000000"
+"origin" "320.000000 -5792.000000 32.000000"
 }
 {
 "classname" "func_button"

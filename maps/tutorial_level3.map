@@ -6728,7 +6728,7 @@ brushDef
 "targetname" "counter_weapon_blaster"
 "count" "3"
 "message" "^7Door open"
-"origin" "384.000000 -1088.000000 32.000000"
+"origin" "160.000000 -1152.000000 32.000000"
 }
 {
 "classname" "func_button"
