@@ -1,6 +1,6 @@
 -bsp +
 -vis +
--light + -dirtscale 0.5 -bounce 6
+-light +
 -minimap +
 -sRGB
-Version: 2m
+Version: 2n

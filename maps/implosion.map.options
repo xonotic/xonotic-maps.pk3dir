@@ -1,6 +1,6 @@
 -bsp + -samplesize 6
--light + -fast -deluxe -patchshadows -samples 3  -bounce 8  -bouncegrid -dirty -dirtscale 2
--vis + 
+-light +
+-vis +
 -minimap +
 -sRGB
-Version: 4g
+Version: 4i

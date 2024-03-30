@@ -22,7 +22,6 @@ textures/skies/extragalactic_nebulae
 	surfaceparm nomarks
 
 	skyparms env/extragalactic/nebulae - - //farbox cloudheight nearbox
-    q3map_skyLight 50 4 //amount iterations
 	q3map_sunExt 1 0.9 0.8 300 66 36 3 16 //rgb intensity degrees elevation deviance samples
 	q3map_skylight 50 4
 }

@@ -1,6 +1,6 @@
 -bsp + 
--light + -bounce 8 -dirtscale 2
+-light +
 -vis +
 -minimap +
 -sRGB
-Version: 12e
+Version: 12g

@@ -1,6 +1,6 @@
 -bsp +
--light + -bounce 8 -dirtscale 2
+-light +
 -vis +
 -minimap +
 -sRGB
-Version: 15d
+Version: 15f
