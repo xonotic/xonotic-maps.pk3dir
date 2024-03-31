@@ -30430,7 +30430,7 @@ map_courtfun/screenanim_xon
 }
 {
 "classname" "item_shield"
-"origin" "512.000000 -3520.000000 256.000000"
+"origin" "512.000000 -3520.000000 264.000000"
 }
 {
 "classname" "item_health_big"
@@ -33817,7 +33817,7 @@ map_courtfun/screenanim_xon
 }
 {
 "classname" "item_shield"
-"origin" "-4608.000000 7488.000000 256.000000"
+"origin" "-4608.000000 7488.000000 264.000000"
 "angle" "-179.999985"
 }
 {
