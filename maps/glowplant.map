@@ -44363,7 +44363,7 @@ trak5x/base-pipe1a
 }
 {
 "classname" "item_cells"
-"origin" "-1144.000000 -810.000000 384.000000"
+"origin" "-1164.000000 -802.000000 384.000000"
 }
 {
 "classname" "item_armor_small"
@@ -44418,7 +44418,7 @@ trak5x/base-pipe1a
 }
 {
 "classname" "item_health_big"
-"origin" "-1472.000000 128.000000 632.000000"
+"origin" "-1472.000000 128.000000 633.000000"
 }
 {
 "classname" "info_player_deathmatch"
@@ -44526,11 +44526,11 @@ trak5x/base-pipe1a
 }
 {
 "classname" "item_health_medium"
-"origin" "-328.000000 288.000000 256.000000"
+"origin" "-312.000000 288.000000 256.000000"
 }
 {
 "classname" "item_health_medium"
-"origin" "-328.000000 -288.000000 264.000000"
+"origin" "-312.000000 -288.000000 256.000000"
 }
 {
 "classname" "item_armor_small"
