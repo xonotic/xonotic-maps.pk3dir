@@ -35137,7 +35137,7 @@ map_courtfun/screenanim_xon
 }
 {
 "classname" "onslaught_controlpoint"
-"origin" "-2240.000000 4320.000000 64.000000"
+"origin" "-2272.000000 4320.000000 64.000000"
 "targetname" "blueside2"
 "message" "Blue Kettle"
 }
