@@ -61,6 +61,7 @@ skies_extragalactic
 skies_heaven
 skies_polluted_earth
 skies_purple_nebulae
+solarpanel
 stein1x
 techpanelx
 terrain01x
