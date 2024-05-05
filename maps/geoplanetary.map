@@ -45282,7 +45282,7 @@ effects_warpzone/rededge
 }
 {
 "classname" "dom_controlpoint"
-"origin" "-1344.000000 -2176.000000 464.000000"
+"origin" "-1344.000000 -2176.000000 496.000000"
 "message" " has captured the ^2Blue Flag ^3control point"
 }
 {
@@ -45292,7 +45292,7 @@ effects_warpzone/rededge
 }
 {
 "classname" "dom_controlpoint"
-"origin" "384.000000 576.000000 -320.000000"
+"origin" "384.000000 576.000000 -288.000000"
 "message" " has captured the ^2Blue tunnel ^3control point"
 }
 {
@@ -45302,12 +45302,12 @@ effects_warpzone/rededge
 }
 {
 "classname" "dom_controlpoint"
-"origin" "128.000000 3008.000000 -320.000000"
+"origin" "128.000000 3008.000000 -288.000000"
 "message" " has captured the ^2Red tunnel ^3control point"
 }
 {
 "classname" "dom_controlpoint"
-"origin" "1856.000000 5760.000000 464.000000"
+"origin" "1856.000000 5760.000000 496.000000"
 "message" " has captured the ^2Red Flag ^3control point"
 }
 {
