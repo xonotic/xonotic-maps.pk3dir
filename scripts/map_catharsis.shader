@@ -86,6 +86,7 @@ textures/map_catharsis/chain
 	dpglossexponentmod  4
 
 	surfaceparm trans
+	surfaceparm nomarks
 	
 	{
 		map textures/map_catharsis/chain.tga
