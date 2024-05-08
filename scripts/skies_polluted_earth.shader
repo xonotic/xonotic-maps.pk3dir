@@ -9,7 +9,6 @@ textures/skies/polluted_earth
 	surfaceparm nomarks
 	q3map_globaltexture
 	q3map_surfacelight 120
-	surfaceparm sky
 
         nopicmip
         nomipmaps
