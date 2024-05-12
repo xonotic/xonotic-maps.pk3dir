@@ -411,7 +411,6 @@ textures/exx/floor-grate01
 	surfaceparm metalsteps
 	q3map_bounceScale  0.75
 	surfaceparm alphashadow
-	surfaceparm nomarks
 	Cull None
 	dpoffsetmapping - 2 match8 126
 	dpglossintensitymod 1.5
@@ -436,7 +435,6 @@ textures/exx/floor-grate01-cull
 	surfaceparm metalsteps
 	q3map_bounceScale  0.75
 	surfaceparm alphashadow
-	surfaceparm nomarks
 	dpoffsetmapping - 2 match8 126
 	dpglossintensitymod 1.5
 	dpglossexponentmod  4
@@ -460,7 +458,6 @@ textures/exx/floor-grate02
 	surfaceparm metalsteps
 	q3map_bounceScale  0.75
 	surfaceparm alphashadow
-	surfaceparm nomarks
 	Cull None
 	dpoffsetmapping - 2 match8 224
 	dpglossintensitymod 1.5
@@ -485,7 +482,6 @@ textures/exx/floor-grate02-cull
 	surfaceparm metalsteps
 	q3map_bounceScale  0.75
 	surfaceparm alphashadow
-	surfaceparm nomarks
 	dpoffsetmapping - 2 match8 224
 	dpglossintensitymod 1.5
 	dpglossexponentmod  4
@@ -509,7 +505,6 @@ textures/exx/floor-grate03
 	surfaceparm metalsteps
 	q3map_bounceScale  0.75
 	surfaceparm alphashadow
-	surfaceparm nomarks
 	Cull None
 	dpoffsetmapping - 2 match8 223
 	dpglossintensitymod 1.5
@@ -534,7 +529,6 @@ textures/exx/floor-grate03-cull
 	surfaceparm metalsteps
 	q3map_bounceScale  0.75
 	surfaceparm alphashadow
-	surfaceparm nomarks
 	dpoffsetmapping - 2 match8 223
 	dpglossintensitymod 1.5
 	dpglossexponentmod  4
@@ -558,7 +552,6 @@ textures/exx/floor-grate04
 	surfaceparm metalsteps
 	q3map_bounceScale  0.75
 	surfaceparm alphashadow
-	surfaceparm nomarks
 	Cull None
 	dpoffsetmapping - 2 match8 248
 	dpglossintensitymod 1.5
@@ -584,7 +577,6 @@ textures/exx/floor-grate04-cull
 	surfaceparm metalsteps
 	q3map_bounceScale  0.75
 	surfaceparm alphashadow
-	surfaceparm nomarks
 	dpoffsetmapping - 2 match8 248
 	dpglossintensitymod 1.5
 	dpglossexponentmod  4
@@ -1026,7 +1018,6 @@ textures/exx/panel-grate01
 	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
-	surfaceparm nomarks
 	surfaceparm trans
 	surfaceparm alphashadow
 
@@ -1055,7 +1046,6 @@ textures/exx/panel-grate01-cull
 	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
-	surfaceparm nomarks
 	surfaceparm trans
 	surfaceparm alphashadow
 

@@ -331,6 +331,7 @@ textures/exomorphx/grate-metal_grate02
 	surfaceparm metalsteps
 	surfaceparm trans
 	surfaceparm alphashadow
+	surfaceparm nomarks
 	q3map_bouncescale 1.75
 
 	{
@@ -383,6 +384,7 @@ textures/exomorphx/grate-metal_grate03
 	surfaceparm metalsteps
 	surfaceparm trans
 	surfaceparm alphashadow
+	surfaceparm nomarks
 	q3map_bouncescale 1.75
 
 	{
