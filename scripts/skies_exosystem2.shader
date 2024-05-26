@@ -8,7 +8,7 @@ textures/skies/exosystem2
 	surfaceparm sky
 	
 	//q3map_sun <red> <green> <blue> <intensity> <degrees> <elevation>
-	q3map_sun 1 .40625 .17578125 150 -55.452 17.379
+	q3map_sun 1 .40625 .17578125 150 -55.452 22
 	q3map_skylight 200 4
 	skyparms env/exosystem2/exosystem2 - -
 }
