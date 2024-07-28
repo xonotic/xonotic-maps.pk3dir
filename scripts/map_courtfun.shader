@@ -24,6 +24,19 @@ textures/map_courtfun/screen_backdrop
     }
 }
 
+textures/map_courtfun/screen_black
+{
+    qer_editorimage textures/map_courtfun/screen_black.tga
+    surfaceparm trans
+    surfaceparm nomarks
+    surfaceparm nolightmap
+    cull none
+    {
+        map textures/map_courtfun/screen_black.tga
+        blendFunc filter
+    }
+}
+
 textures/map_courtfun/screen_obey
 {
     qer_editorimage textures/map_courtfun/screen_obey.tga
@@ -33,6 +46,45 @@ textures/map_courtfun/screen_obey
     cull none
     {
         map textures/map_courtfun/screen_obey.tga
+        blendFunc filter
+    }
+}
+
+textures/map_courtfun/screen_sleep
+{
+    qer_editorimage textures/map_courtfun/screen_sleep.tga
+    surfaceparm trans
+    surfaceparm nomarks
+    surfaceparm nolightmap
+    cull none
+    {
+        map textures/map_courtfun/screen_sleep.tga
+        blendFunc filter
+    }
+}
+
+textures/map_courtfun/screen_work
+{
+    qer_editorimage textures/map_courtfun/screen_work.tga
+    surfaceparm trans
+    surfaceparm nomarks
+    surfaceparm nolightmap
+    cull none
+    {
+        map textures/map_courtfun/screen_work.tga
+        blendFunc filter
+    }
+}
+
+textures/map_courtfun/screen_xon
+{
+    qer_editorimage textures/map_courtfun/screen_xon.tga
+    surfaceparm trans
+    surfaceparm nomarks
+    surfaceparm nolightmap
+    cull none
+    {
+        map textures/map_courtfun/screen_xon.tga
         blendFunc filter
     }
 }
