@@ -20986,7 +20986,7 @@ brushDef
 }
 {
 "classname" "item_armor_small"
-"origin" "1776.000000 700.000000 280.000000"
+"origin" "1776.000000 700.000000 284.000000"
 }
 {
 "classname" "item_cells"
@@ -21343,11 +21343,11 @@ brushDef
 }
 {
 "classname" "item_armor_small"
-"origin" "1648.000000 700.000000 280.000000"
+"origin" "1648.000000 700.000000 284.000000"
 }
 {
 "classname" "item_armor_small"
-"origin" "1712.000000 700.000000 280.000000"
+"origin" "1712.000000 700.000000 284.000000"
 }
 {
 "classname" "info_player_deathmatch"

@@ -122,7 +122,6 @@ textures/map_implosion/sky
 	surfaceparm nomarks
 	q3map_globaltexture
 	q3map_surfacelight 50
-	surfaceparm sky
 
 		nopicmip
 		nomipmaps
