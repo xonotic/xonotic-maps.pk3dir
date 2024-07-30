@@ -54,6 +54,7 @@ textures/ex2x/base-chainlink
 	surfaceparm trans
 	cull none
 	surfaceparm alphashadow
+	surfaceparm nomarks
 
 	{
 		map textures/ex2x/base/base_chainlink.tga

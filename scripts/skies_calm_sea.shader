@@ -9,7 +9,6 @@ textures/skies/calm_sea
 	surfaceparm nomarks
 	q3map_globaltexture
 	q3map_skylight 150 4
-	surfaceparm sky
 
         nopicmip
         nomipmaps
