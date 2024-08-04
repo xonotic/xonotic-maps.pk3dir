@@ -27,6 +27,7 @@ In order to get Domination working well in your map, you need to place dom_team 
 <string key="message" name="message">message to be displayed to all players when this point is captured, preceded by the team's name.  This defaults to &quot; has captured a control point&quot;.  You can specify different names for each point, for example &quot; has captured the Lava Room&quot;.</string>
 <real key="wait" name="wait">How often this point gives its controlling team frags.</real>
 <real key="frags" name="frags">How many frags this point gives each wait cycle.</real>
+<real key="scale" name="scale">scaling factor of the model, defaults to 0.6</real>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 zbqry=&quot;zbqryf/qbzvangvba/qbz_hapynvzrq.zq3&quot;
 
@@ -95,7 +96,7 @@ Solid entity that oscillates back and forth in a linear motion. By default, it w
 <real key="dmg" name="dmg">damage a player who gets crushed by it receives</real>
 <real key="dmgtime" name="dmgtime">interval to apply dmg to a player who is in the way</real>
 <string key="message" name="message">death message when a player gets crushed</string>
-<string key="message2" name="message2">death message when someone gets pushed into this (default: &quot;was thrown into a world of hurt by&quot;). The # character is replaced by the attacker name if present (and it instead does not get appended to the end)</string>
+<string key="message2" name="message2">death message when someone gets pushed into this (default: &quot;was squished by&quot;). The # character is replaced by the attacker name if present (and it instead does not get appended to the end)</string>
 -------- SPAWNFLAGS --------
 <flag key="X_AXIS" name="X_AXIS" bit="0">entity will bob along the X axis.</flag>
 <flag key="Y_AXIS" name="Y_AXIS" bit="1">entity will bob along the Y axis.</flag>
@@ -111,7 +112,7 @@ Solid entity that swings back and forth in an angular motion. Entity swings on t
 <real key="dmg" name="dmg">damage a player who gets crushed by it receives</real>
 <real key="dmgtime" name="dmgtime">interval to apply dmg to a player who is in the way</real>
 <string key="message" name="message">death message when a player gets crushed</string>
-<string key="message2" name="message2">death message when someone gets pushed into this (default: &quot;was thrown into a world of hurt by&quot;). The # character is replaced by the attacker name if present (and it instead does not get appended to the end)</string>
+<string key="message2" name="message2">death message when someone gets pushed into this (default: &quot;was squished by&quot;). The # character is replaced by the attacker name if present (and it instead does not get appended to the end)</string>
 </group>
 
 <group name="func_button" color="0 .5 .8">
@@ -125,7 +126,7 @@ When a button is touched by a player, it moves in the direction set by the &quot
 <boolean key="target_random" name="target_random">instead of triggering ALL matched entities, trigger ONE of them by random</boolean>
 <real key="speed" name="speed">speed of button's displacement (default 40).</real>
 <real key="platmovetype" name="platmovetype">movement type (1 = linear, 2 = cosine [default])</real>
-<real key="wait" name="wait">number of seconds button stays pressed (default 1, -1 = return immediately).</real>
+<real key="wait" name="wait">number of seconds button stays pressed (default 1, -1 = never return).</real>
 <real key="lip" name="lip">lip remaining at end of move (default 4 units).</real>
 <real key="health" name="health">(default 0) if set to any non-zero value, the button must take damage (any amount) to activate.</real>
 <sound key="noise" name="noise">Noise that is played when the button is activated</sound>
@@ -161,7 +162,7 @@ Normal sliding door entity. By default, the door will activate when player walks
 If DOOR_DONT_LINK is not set, the door will be linked with all doors it touches. Note however that for linked doors to work properly, it is necessary that ALL linked doors have SOME volume of common area (that is, there must be a point that is part of ALL doors).
 -------- KEYS --------
 <string key="message" name="message">is printed when the door is touched if it is a trigger door and it hasn't been fired yet, or death message if dmg is set</string>
-<string key="message2" name="message2">death message when someone gets pushed into this (default: &quot;was thrown into a world of hurt by&quot;). The # character is replaced by the attacker name if present (and it instead does not get appended to the end)</string>
+<string key="message2" name="message2">death message when someone gets pushed into this (default: &quot;was squished by&quot;). The # character is replaced by the attacker name if present (and it instead does not get appended to the end)</string>
 <direction key="angle" name="angle">determines the opening direction</direction>
 <targetname key="targetname" name="targetname">if set, no touch field will be spawned and a remote button or trigger field activates the door.</targetname>
 <real key="health" name="health">if set, door must be shot open</real>
@@ -181,6 +182,7 @@ If DOOR_DONT_LINK is not set, the door will be linked with all doors it touches.
 <flag key="DOOR_DONT_LINK" name="DOOR_DONT_LINK" bit="2">the door won't link with another door it touches</flag>
 <flag key="TOGGLE" name="TOGGLE" bit="5">causes the door to wait in both the start and end states for a trigger event.</flag>
 <flag key="NOSPLASH" name="NOSPLASH" bit="8">if set, splash damage cannot activate the door, only direct damage can (requires health to be set)</flag>
+<flag key="NONSOLID" name="NONSOLID" bit="10">door has no collision</flag>
 <flag key="CRUSH" name="CRUSH" bit="11">crush players hit by the door instantly</flag>
 -------- NOTES --------
 More information about keys can be found in item_key description.
@@ -196,7 +198,7 @@ must have set trigger_reverse to 1.
 BIDIR_IN_DOWN will prevent the door from reopening while closing if it is triggered from the other side.
 -------- KEYS --------
 <string key="message" name="message">is printed when the door is touched if it is a trigger door and it hasn't been fired yet, or death message if dmg is set</string>
-<string key="message2" name="message2">death message when someone gets pushed into this (default: &quot;was thrown into a world of hurt by&quot;). The # character is replaced by the attacker name if present (and it instead does not get appended to the end)</string>
+<string key="message2" name="message2">death message when someone gets pushed into this (default: &quot;was squished by&quot;). The # character is replaced by the attacker name if present (and it instead does not get appended to the end)</string>
 <direction key="angle" name="angle">determines the destination angle for opening. negative values reverse the direction (90 default)</direction>
 <targetname key="targetname" name="targetname">if set, no touch field will be spawned and a remote button or trigger field activates the door.</targetname>
 <real key="health" name="health">if set, door must be shot open</real>
@@ -276,11 +278,11 @@ Rising platform the player can ride to reach higher places. Plats must always be
 <real key="height" name="height">if set, this will determine the total amount of vertical travel of the plat.</real>
 <real key="dmg" name="dmg">damage to inflict on player when he blocks operation of plat. Plat will reverse direction when blocked.</real>
 <targetname key="targetname" name="targetname">if set, the trigger that points to this will lower the plat each time it fires. The plat lowers and lifts someone up later.</targetname>
-<real key="sounds" name="sounds">2 for alternate sound set, 0 for silence, or use the fields below</real>
+<real key="sounds" name="sounds">2 for alternate sound set, 1 for regular sound set, 0 for silence, or use the fields below</real>
 <string key="noise" name="noise">platform starts moving sound</string>
 <string key="noise1" name="noise1">platform stop sound</string>
 <string key="message" name="message">kill message, when someone gets killed by this plat</string>
-<string key="message2" name="message2">death message when someone gets pushed into this (default: &quot;was thrown into a world of hurt by&quot;). The # character is replaced by the attacker name if present (and it instead does not get appended to the end)</string>
+<string key="message2" name="message2">death message when someone gets pushed into this (default: &quot;was squished by&quot;). The # character is replaced by the attacker name if present (and it instead does not get appended to the end)</string>
 -------- SPAWNFLAGS --------
 <flag key="CRUSH" name="CRUSH" bit="2">crush players hit by the platform instantly</flag>
 -------- NOTES --------
@@ -304,10 +306,11 @@ To rotate around another axis, make a func_wall with an explicit avelocity given
 <real key="dmg" name="dmg">Do this much dmg every .dmgtime interval when blocked</real>
 <real key="dmgtime" name="dmgtime">See above. (0.25s default)</real>
 <string key="message" name="message">kill message when crushed by this</string>
-<string key="message2" name="message2">death message when someone gets pushed into this (default: &quot;was thrown into a world of hurt by&quot;). The # character is replaced by the attacker name if present (and it instead does not get appended to the end)</string>
+<string key="message2" name="message2">death message when someone gets pushed into this (default: &quot;was squished by&quot;). The # character is replaced by the attacker name if present (and it instead does not get appended to the end)</string>
 -------- SPAWNFLAGS --------
 <flag key="X_AXIS" name="X_AXIS" bit="2">rotate around the X axis</flag>
 <flag key="Y_AXIS" name="Y_AXIS" bit="3">rotate around the Y axis</flag>
+<flag key="START_OFF" name="START_OFF" bit="4">must be triggered to start rotating</flag>
 </group>
 
 <group name="func_snow" color="0 .5 .8">
@@ -320,6 +323,8 @@ This is an invisible area like a trigger, which snow falls inside of.
 
 <point name="func_stardust" color=".5 .5 .5" box="-8 -8 -8 8 8 8">
 Point entity with EF_STARDUST applied. This will spawn a particle cloud with mostly golden particles. Used as eye-candy.
+-------- KEYS --------
+<string key="model" name="model">optional model to use</string>
 </point>
 
 <group name="func_train" color="0 .5 .8">
@@ -333,11 +338,12 @@ Trains cannot be block-stopped just by getting in their way, the player must be 
 <real key="speed" name="speed">default/initial speed of train (default 100 or overridden by speed value of targeted path_corner)</real>
 <real key="platmovetype" name="platmovetype">movement type (1 = linear, 2 = cosine [default])</real>
 <target key="target" name="target">targetname of first path_corner to move to at the default speed; ideally, this path_corner shall be exactly where the train starts</target>
+<boolean key="target_random" name="target_random">choose any path_corner with a targetname matching target at random instead of the first one found</boolean>
 <sound key="noise" name="noise">path/name of .wav or .ogg file to play while moving. Use looping sounds only (e.g. sound/world/drone6.wav - See Notes).</sound>
 <real key="dmg" name="dmg">damage a player who gets crushed by it receives</real>
 <real key="dmgtime" name="dmgtime">interval to apply dmg to a player who is in the way</real>
 <string key="message" name="message">death message when a player gets crushed</string>
-<string key="message2" name="message2">death message when someone gets pushed into this (default: &quot;was thrown into a world of hurt by&quot;). The # character is replaced by the attacker name if present (and it instead does not get appended to the end)</string>
+<string key="message2" name="message2">death message when someone gets pushed into this (default: &quot;was squished by&quot;). The # character is replaced by the attacker name if present (and it instead does not get appended to the end)</string>
 -------- SPAWNFLAGS --------
 <flag key="CURVE" name="CURVE" bit="0">don't use the direct path to the next target, instead create a curved path using the current path_corner's curvetarget</flag>
 <flag key="TURN" name="TURN" bit="1">turn the train when it reaches a path_corner</flag>
@@ -371,7 +377,7 @@ Aiming target for q3map2-internal entities like _decal or light. Removes itself 
 </point>
 
 <point name="info_player_attacker" color="1 0.5 0" box="-16 -16 -24 16 16 45">
-Attacking team's player spawning location in Assault. Should touch the floor, but not the walls, and should point where the player should look when he spawns there.
+Attacking team's player spawning location in Assault. Should touch the floor, but not the walls, and should point where the player should look when spawning there.
 -------- KEYS --------
 <target key="target" name="target">this should point to a target_objective to decide when this spawning point is active.</target>
 <target key="target2" name="target2">trigger all entities with this targetname when someone spawns</target>
@@ -383,7 +389,7 @@ Attacking team's player spawning location in Assault. Should touch the floor, bu
 </point>
 
 <point name="info_player_deathmatch" color="0 1 0" box="-16 -16 -24 16 16 45">
-Normal player spawning location in game types without team spawns. Should touch the floor, but not the walls, and should point where the player should look when he spawns there.
+Normal player spawning location in game types without team spawns. Should touch the floor, but not the walls, and should point where the player should look when spawning there.
 -------- KEYS --------
 <real key="cnt" name="cnt">weight of spawn point for random selection. Set to a lower value if you have many spawn points close together. Default value is 1.</real>
 <target key="target2" name="target2">trigger all entities with this targetname when someone spawns</target>
@@ -394,7 +400,7 @@ Normal player spawning location in game types without team spawns. Should touch 
 </point>
 
 <point name="info_player_defender" color=".5 .5 .5" box="-16 -16 -24 16 16 45">
-Defending team's player spawning location in Assault. Should touch the floor, but not the walls, and should point where the player should look when he spawns there.
+Defending team's player spawning location in Assault. Should touch the floor, but not the walls, and should point where the player should look when spawning there.
 -------- KEYS --------
 <target key="target" name="target">this should point to a target_objective to decide when this spawning point is active.</target>
 <target key="target2" name="target2">trigger all entities with this targetname when someone spawns</target>
@@ -406,7 +412,7 @@ Defending team's player spawning location in Assault. Should touch the floor, bu
 </point>
 
 <point name="info_player_team1" color="1 0 0" box="-16 -16 -24 16 16 45">
-Red team's player spawning location in e.g. CTF and Onslaught. Should touch the floor, but not the walls, and should point where the player should look when he spawns there.
+Red team's player spawning location in e.g. CTF and Onslaught. Should touch the floor, but not the walls, and should point where the player should look when spawning there.
 -------- KEYS --------
 <real key="cnt" name="cnt">weight of spawn point for random selection. Set to a lower value if you have many spawn points close together. Default value is 1.</real>
 <target key="target2" name="target2">trigger all entities with this targetname when someone spawns</target>
@@ -417,7 +423,7 @@ Red team's player spawning location in e.g. CTF and Onslaught. Should touch the 
 </point>
 
 <point name="info_player_team2" color="0 0 1" box="-16 -16 -24 16 16 45">
-Blue team's player spawning location in e.g. CTF and Onslaught. Should touch the floor, but not the walls, and should point where the player should look when he spawns there.
+Blue team's player spawning location in e.g. CTF and Onslaught. Should touch the floor, but not the walls, and should point where the player should look when spawning there.
 -------- KEYS --------
 <real key="cnt" name="cnt">weight of spawn point for random selection. Set to a lower value if you have many spawn points close together. Default value is 1.</real>
 <target key="target2" name="target2">trigger all entities with this targetname when someone spawns</target>
@@ -428,7 +434,7 @@ Blue team's player spawning location in e.g. CTF and Onslaught. Should touch the
 </point>
 
 <point name="info_player_team3" color="1 1 0" box="-16 -16 -24 16 16 45">
-Yellow team's player spawning location, but there is no game mode to use this yet. Anyway, should touch the floor, but not the walls, and should point where the player should look when he spawns there.
+Yellow team's player spawning location, but there is no game mode to use this yet. Anyway, should touch the floor, but not the walls, and should point where the player should look when spawning there.
 -------- KEYS --------
 <real key="cnt" name="cnt">weight of spawn point for random selection. Set to a lower value if you have many spawn points close together. Default value is 1.</real>
 <target key="target2" name="target2">trigger all entities with this targetname when someone spawns</target>
@@ -439,7 +445,7 @@ Yellow team's player spawning location, but there is no game mode to use this ye
 </point>
 
 <point name="info_player_team4" color="1 0 1" box="-16 -16 -24 16 16 45">
-Pink team's player spawning location, but there is no game mode to use this yet. Anyway, should touch the floor, but not the walls, and should point where the player should look when he spawns there.
+Pink team's player spawning location, but there is no game mode to use this yet. Anyway, should touch the floor, but not the walls, and should point where the player should look when spawning there.
 -------- KEYS --------
 <real key="cnt" name="cnt">weight of spawn point for random selection. Set to a lower value if you have many spawn points close together. Default value is 1.</real>
 <target key="target2" name="target2">trigger all entities with this targetname when someone spawns</target>
@@ -464,8 +470,14 @@ Mega Armor (default 100 armor points)
 <real key="max_armorvalue" name="max_armorvalue">max of armor it increases to (default: 200 (g_pickup_armormega_max))</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
+<string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
+<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<real key="skin" name="skin">number of skin to load</real>
+<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+<flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
+<flag key="NOANIMATE" name="NOANIMATE" bit="10">item will not spin</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 modeldisabled=&quot;models/items/g_a25.md3&quot;
 </point>
@@ -479,8 +491,14 @@ Big Armor (default 50 armor points)
 <real key="max_armorvalue" name="max_armorvalue">max of armor it increases to (default: 200 (g_pickup_armorbig_max))</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
+<string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
+<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<real key="skin" name="skin">number of skin to load</real>
+<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+<flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
+<flag key="NOANIMATE" name="NOANIMATE" bit="10">item will not spin</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 modeldisabled=&quot;models/items/g_a50.md3&quot;
 </point>
@@ -494,8 +512,14 @@ Medium Armor (default 25 armor points)
 <real key="max_armorvalue" name="max_armorvalue">max of armor it increases to (default: 200 (g_pickup_armormedium_max))</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
+<string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
+<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<real key="skin" name="skin">number of skin to load</real>
+<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+<flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
+<flag key="NOANIMATE" name="NOANIMATE" bit="10">item will not spin</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 modeldisabled=&quot;models/items/g_armormedium.md3&quot;
 </point>
@@ -509,8 +533,14 @@ Small Armor (default 5 armor points)
 <real key="max_armorvalue" name="max_armorvalue">max of armor it increases to (default: 200 (g_pickup_armorsmall_max))</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
+<string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
+<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<real key="skin" name="skin">number of skin to load</real>
+<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+<flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
+<flag key="NOANIMATE" name="NOANIMATE" bit="10">item will not spin</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 modeldisabled=&quot;models/items/g_a1.md3&quot;
 </point>
@@ -523,8 +553,13 @@ Machine Gun ammo
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
+<string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
+<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<real key="skin" name="skin">number of skin to load</real>
+<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+<flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 modeldisabled=&quot;models/items/a_bullets.md3&quot;
 </point>
@@ -537,8 +572,13 @@ Vortex, Electro and Crylink ammo
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
+<string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
+<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<real key="skin" name="skin">number of skin to load</real>
+<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+<flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 modeldisabled=&quot;models/items/a_cells.md3&quot;
 </point>
@@ -604,8 +644,14 @@ Big Health (default 50 health points)
 <real key="max_health" name="max_health">max of health it increases to (default: 200 (g_pickup_healthbig_max))</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
+<string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
+<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<real key="skin" name="skin">number of skin to load</real>
+<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+<flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
+<flag key="NOANIMATE" name="NOANIMATE" bit="10">item will not spin</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 modeldisabled=&quot;models/items/g_h50.md3&quot;
 </point>
@@ -619,8 +665,14 @@ Medium Health (default 25 health points)
 <real key="max_health" name="max_health">max of health it increases to (default: 200 (g_pickup_healthmedium_max))</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
+<string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
+<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<real key="skin" name="skin">number of skin to load</real>
+<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+<flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
+<flag key="NOANIMATE" name="NOANIMATE" bit="10">item will not spin</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 modeldisabled=&quot;models/items/g_h25.md3&quot;
 </point>
@@ -635,8 +687,14 @@ In Instagib, this randomly turns into either an invisibility, an extra lives or 
 <real key="max_health" name="max_health">max of health it increases to (default: 200 (g_pickup_healthmega_max))</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
+<string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
+<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<real key="skin" name="skin">number of skin to load</real>
+<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+<flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
+<flag key="NOANIMATE" name="NOANIMATE" bit="10">item will not spin</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 modeldisabled=&quot;models/items/g_h100.md3&quot;
 </point>
@@ -650,8 +708,14 @@ Small Health (default 5 health points)
 <real key="max_health" name="max_health">max of health it increases to (default: 5 (g_pickup_healthsmall_max))</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
+<string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
+<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<real key="skin" name="skin">number of skin to load</real>
+<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+<flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
+<flag key="NOANIMATE" name="NOANIMATE" bit="10">item will not spin</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 modeldisabled=&quot;models/items/g_h1.md3&quot;
 </point>
@@ -664,8 +728,14 @@ In Instagib, this randomly turns into either an invisibility, an extra lives or 
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
+<string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
+<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<real key="skin" name="skin">number of skin to load</real>
+<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+<flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
+<flag key="NOANIMATE" name="NOANIMATE" bit="10">item will not spin</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 modeldisabled=&quot;models/items/g_invincible.md3&quot;
 </point>
@@ -677,8 +747,14 @@ Faster movement and shooting
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
+<string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
+<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<real key="skin" name="skin">number of skin to load</real>
+<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+<flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
+<flag key="NOANIMATE" name="NOANIMATE" bit="10">item will not spin</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 modeldisabled=&quot;models/items/g_invincible.md3&quot;
 </point>
@@ -690,8 +766,14 @@ Low visibility
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
+<string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
+<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<real key="skin" name="skin">number of skin to load</real>
+<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+<flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
+<flag key="NOANIMATE" name="NOANIMATE" bit="10">item will not spin</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 modeldisabled=&quot;models/items/g_invincible.md3&quot;
 </point>
@@ -761,8 +843,13 @@ It only appears when playing Instagib and prevents auto-replacement of weapon_vo
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
+<string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
+<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<real key="skin" name="skin">number of skin to load</real>
+<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+<flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 modeldisabled=&quot;models/items/a_cells.md3&quot;
 </point>
@@ -775,8 +862,13 @@ Devastator, Hagar and Mortar ammo
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
+<string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
+<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<real key="skin" name="skin">number of skin to load</real>
+<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+<flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 modeldisabled=&quot;models/items/a_rockets.md3&quot;
 </point>
@@ -789,8 +881,13 @@ Shotgun ammo
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
+<string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
+<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<real key="skin" name="skin">number of skin to load</real>
+<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+<flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 modeldisabled=&quot;models/items/a_shells.md3&quot;
 </point>
@@ -803,8 +900,14 @@ In Instagib, this randomly turns into either an invisibility, an extra lives or 
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
+<string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
+<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<real key="skin" name="skin">number of skin to load</real>
+<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+<flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
+<flag key="NOANIMATE" name="NOANIMATE" bit="10">item will not spin</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 modeldisabled=&quot;models/items/g_strength.md3&quot;
 </point>
@@ -859,6 +962,8 @@ Laser beam emitter. Note that for the laser to be deadly, it has to start OUTSID
 <string key="mdl" name="mdl">name of particle effect for the beam end point (see effectinfo.txt; default is laser_deadly if dmg is set, and none if not)</string>
 <color key="beam_color" name="beam_color">color of the laser beam (default: red, that is, 1 0 0)</color>
 <real key="dmg" name="dmg">damage inflicted by the beam per second, or -1 for an instant-death ray</real>
+<string key="message" name="message">kill message when someone gets killed by this (default: &quot;saw the light&quot;)</string>
+<string key="message2" name="message2">kill message when someone gets pushed into this (default: &quot;was pushed into a laser by&quot;). The # character is replaced by the attacker name if present (and it instead does not get appended to the end)</string>
 <targetname key="targetname" name="targetname">name to target this (then its state is toggled)</targetname>
 <real key="alpha" name="alpha">when set, makes a dark laser of the given strength; may be combined with beam_color</real>
 <real key="scale" name="scale">scales the beam thickness (default 1)</real>
@@ -1102,6 +1207,8 @@ This should link to an onslaught_controlpoint entity or onslaught_generator enti
 <targetname key="targetname" name="targetname">name that onslaught_link entities will use to target this.</targetname>
 <target key="target" name="target">target any entities that are tied to this control point, such as vehicles and buildable structure entities.</target>
 <string key="message" name="message">name of this control point (should reflect the location in the map, such as &quot;center bridge&quot;, &quot;north tower&quot;, etc)</string>
+-------- SPAWNFLAGS --------
+<flag key="FLOATING" name="FLOATING" bit="0">the control point will float in air, instead of aligning to the floor by falling</flag>
 </point>
 
 <point name="onslaught_generator" color="0 .5 .8" box="-52 -52 -14 52 52 75">
@@ -1214,13 +1321,19 @@ After the counter has been triggered &quot;count&quot; times, it will fire all o
 -------- KEYS --------
 <real key="count" name="count">how many times this needs to be triggered to activate its targets</real>
 <target key="target" name="target">trigger all entities with this targetname when triggered</target>
+<target key="target2" name="target2">all entities with a matching targetname will be triggered.</target>
+<target key="target3" name="target3">all entities with a matching targetname will be triggered.</target>
+<target key="target4" name="target4">all entities with a matching targetname will be triggered.</target>
+<boolean key="target_random" name="target_random">instead of triggering ALL matched entities, trigger ONE of them by random</boolean>
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
 <real key="delay" name="delay">delay the triggering by the given time</real>
 <string key="message" name="message">print this message to the player who activated the trigger</string>
 <target key="killtarget" name="killtarget">remove all entities with this targetname when triggered</target>
+<real key="respawntime" name="respawntime">counter will re-enable itself after this amount of time once the sequence has been completed, leave unset to never re-enable the counter</real>
 -------- SPAWNFLAGS --------
 <flag key="NOMESSAGE" name="NOMESSAGE" bit="0">don't print a &quot;2 more to go...&quot;-like message when triggered</flag>
 <flag key="FIRE_AT_COUNT" name="FIRE_AT_COUNT" bit="2">fire at every count (behaves like trigger_multiple with limited shots)</flag>
+<flag key="PER_PLAYER" name="PER_PLAYER" bit="3">keeps track of separate counts for each player, if the player dies their count is reset</flag>
 </point>
 
 <point name="trigger_delay" color=".5 .5 .5" box="-8 -8 -8 8 8 8">
@@ -1229,6 +1342,9 @@ Trigger that delays triggering by a given amount of time. Only one action can be
 <real key="wait" name="wait">delay the triggering by the given time</real>
 <real key="trigger_reverse" name="trigger_reverse">open &quot;func_door_rotating&quot; with &quot;BIDIR&quot; in reverse direction</real>
 <target key="target" name="target">trigger all entities with this targetname when triggered</target>
+<target key="target2" name="target2">trigger all entities with this targetname when triggered</target>
+<target key="target3" name="target3">trigger all entities with this targetname when triggered</target>
+<target key="target4" name="target4">trigger all entities with this targetname when triggered</target>
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
 <string key="message" name="message">print this message to the player who activated the trigger</string>
 <target key="killtarget" name="killtarget">remove all entities with this targetname when triggered</target>
@@ -1407,8 +1523,14 @@ the Crylink
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
+<string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
+<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<real key="skin" name="skin">number of skin to load</real>
+<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+<flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
+<flag key="NOANIMATE" name="NOANIMATE" bit="10">item will not spin</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 modeldisabled=&quot;models/weapons/g_crylink.md3&quot;
 </point>
@@ -1421,8 +1543,14 @@ the Electro
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
+<string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
+<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<real key="skin" name="skin">number of skin to load</real>
+<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+<flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
+<flag key="NOANIMATE" name="NOANIMATE" bit="10">item will not spin</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 modeldisabled=&quot;models/weapons/g_electro.md3&quot;
 </point>
@@ -1435,8 +1563,14 @@ the Mortar
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
+<string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
+<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<real key="skin" name="skin">number of skin to load</real>
+<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+<flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
+<flag key="NOANIMATE" name="NOANIMATE" bit="10">item will not spin</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 modeldisabled=&quot;models/weapons/g_gl.md3&quot;
 </point>
@@ -1449,8 +1583,14 @@ the Hagar
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
+<string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
+<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<real key="skin" name="skin">number of skin to load</real>
+<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+<flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
+<flag key="NOANIMATE" name="NOANIMATE" bit="10">item will not spin</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 modeldisabled=&quot;models/weapons/g_hagar.md3&quot;
 </point>
@@ -1464,8 +1604,14 @@ in your mapinfo file, everyone will already spawn with one, making this pickup u
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
+<string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
+<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<real key="skin" name="skin">number of skin to load</real>
+<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+<flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
+<flag key="NOANIMATE" name="NOANIMATE" bit="10">item will not spin</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 modeldisabled=&quot;models/weapons/g_laser.md3&quot;
 </point>
@@ -1479,8 +1625,14 @@ In Instagib, this turns into an item_vaporizer_cells if no explicit item_vaporiz
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
+<string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
+<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<real key="skin" name="skin">number of skin to load</real>
+<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+<flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
+<flag key="NOANIMATE" name="NOANIMATE" bit="10">item will not spin</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 modeldisabled=&quot;models/weapons/g_nex.md3&quot;
 </point>
@@ -1494,8 +1646,14 @@ In Instagib, this turns into an item_vaporizer_cells if no explicit item_vaporiz
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
+<string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
+<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<real key="skin" name="skin">number of skin to load</real>
+<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+<flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
+<flag key="NOANIMATE" name="NOANIMATE" bit="10">item will not spin</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 modeldisabled=&quot;models/weapons/g_rl.md3&quot;
 </point>
@@ -1510,8 +1668,14 @@ in your mapinfo file, everyone will already spawn with one, making this pickup u
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
+<string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
+<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<real key="skin" name="skin">number of skin to load</real>
+<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+<flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
+<flag key="NOANIMATE" name="NOANIMATE" bit="10">item will not spin</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 modeldisabled=&quot;models/weapons/g_shotgun.md3&quot;
 </point>
@@ -1524,8 +1688,14 @@ the Machine Gun
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
+<string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
+<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<real key="skin" name="skin">number of skin to load</real>
+<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+<flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
+<flag key="NOANIMATE" name="NOANIMATE" bit="10">item will not spin</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 modeldisabled=&quot;models/weapons/g_uzi.md3&quot;
 </point>
@@ -1538,8 +1708,14 @@ the Arc (experimental weapon)
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
+<string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
+<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<real key="skin" name="skin">number of skin to load</real>
+<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+<flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
+<flag key="NOANIMATE" name="NOANIMATE" bit="10">item will not spin</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 modeldisabled=&quot;models/weapons/g_arc.md3&quot;
 </point>
@@ -1575,7 +1751,7 @@ A checkpoint, for the race game mode. Be sure to make them quite long, so they a
 -------- KEYS --------
 <real key="cnt" name="cnt">Number of the checkpoint. 0 for start/finish line, and at least two other checkpoints have to exist. They MUST be touched in sequential order!</real>
 <string key="message" name="message">Death message, when touching checkpoints in the wrong order.</string>
-<string key="message2" name="message2">Death message when someone gets pushed into this (default: &quot;was thrown into a world of hurt by&quot;). The # character is replaced by the attacker name if present (and it instead does not get appended to the end)</string>
+<string key="message2" name="message2">Death message when someone gets pushed into this (default: &quot;was pushed backwards by&quot;). The # character is replaced by the attacker name if present (and it instead does not get appended to the end)</string>
 <targetname key="targetname" name="targetname">Name of the checkpoint. info_player_race can target this to assign a spawn to a checkpoint. Also used for triggering a checkpoint by an event.</targetname>
 <target key="target" name="target">when the checkpoint is passed, these entities are triggered. Useful for forcing items in certain areas using trigger_items</target>
 <real key="race_penalty" name="race_penalty">when set, this penalty time is given if passing this checkpoint, and the checkpoint does not show up with a sprite. Useful for invisible checkpoints to detect driving around the intended checkpoint</real>
@@ -1670,6 +1846,10 @@ Specialised version of func_pointparticles
 &quot;Flip-flop&quot; trigger gate... let's only every second trigger event through
 -------- KEYS --------
 <target key="target" name="target">trigger all entities with this targetname when triggered</target>
+<target key="target2" name="target2">trigger all entities with this targetname when triggered</target>
+<target key="target3" name="target3">trigger all entities with this targetname when triggered</target>
+<target key="target4" name="target4">trigger all entities with this targetname when triggered</target>
+<targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
 <real key="trigger_reverse" name="trigger_reverse">open &quot;func_door_rotating&quot; with &quot;BIDIR&quot; in reverse direction</real>
 -------- SPAWNFLAGS --------
@@ -1680,6 +1860,10 @@ Specialised version of func_pointparticles
 &quot;Mono-flop&quot; trigger gate... turns trigger events into pairs of events
 -------- KEYS --------
 <target key="target" name="target">trigger all entities with this targetname when triggered</target>
+<target key="target2" name="target2">trigger all entities with this targetname when triggered</target>
+<target key="target3" name="target3">trigger all entities with this targetname when triggered</target>
+<target key="target4" name="target4">trigger all entities with this targetname when triggered</target>
+<targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
 <real key="wait" name="wait">time to wait until the &quot;off&quot; event is fired</real>
 -------- SPAWNFLAGS --------
@@ -1690,6 +1874,10 @@ Specialised version of func_pointparticles
 &quot;Multivibrator&quot; trigger gate... repeatedly sends trigger events. When triggered, turns on or off.
 -------- KEYS --------
 <target key="target" name="target">trigger all entities with this targetname when it goes off</target>
+<target key="target2" name="target2">trigger all entities with this targetname when triggered</target>
+<target key="target3" name="target3">trigger all entities with this targetname when triggered</target>
+<target key="target4" name="target4">trigger all entities with this targetname when triggered</target>
+<targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
 <real key="phase" name="phase">phase of the multivibrator (it is added to the time)</real>
 <real key="wait" name="wait">&quot;on&quot; cycle time (default: 1)</real>
@@ -1758,8 +1946,14 @@ the InstaGib Vortex. Always kills with one shot.
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
+<string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
+<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<real key="skin" name="skin">number of skin to load</real>
+<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+<flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
+<flag key="NOANIMATE" name="NOANIMATE" bit="10">item will not spin</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 modeldisabled=&quot;models/weapons/g_minstanex.md3&quot;
 </point>
@@ -1772,8 +1966,14 @@ Portals cannot be made on noimpact surfaces, and the portal missile will bounce 
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
+<string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
+<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<real key="skin" name="skin">number of skin to load</real>
+<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+<flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
+<flag key="NOANIMATE" name="NOANIMATE" bit="10">item will not spin</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 modeldisabled=&quot;models/weapons/g_porto.md3&quot;
 </point>
@@ -1938,6 +2138,10 @@ When triggered, it resets to full health, and unbreaks.
 Relays the trigger event if a cvar is set to a specified value.
 -------- KEYS --------
 <target key="target" name="target">The entity/entities to relay the trigger events to</target>
+<target key="target2" name="target2">trigger all entities with this targetname when triggered</target>
+<target key="target3" name="target3">trigger all entities with this targetname when triggered</target>
+<target key="target4" name="target4">trigger all entities with this targetname when triggered</target>
+<boolean key="target_random" name="target_random">instead of triggering ALL matched entities, trigger ONE of them by random</boolean>
 <targetname key="targetname" name="targetname">The name other entities can use to target this entity</targetname>
 <string key="netname" name="netname">The name of the cvar to check</string>
 <string key="message" name="message">The value of the cvar to check</string>
@@ -1955,8 +2159,14 @@ the Heavy Laser Assault Cannon.
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
+<string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
+<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<real key="skin" name="skin">number of skin to load</real>
+<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+<flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
+<flag key="NOANIMATE" name="NOANIMATE" bit="10">item will not spin</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 modeldisabled=&quot;models/weapons/g_hlac.md3&quot;
 </point>
@@ -1969,8 +2179,14 @@ the Mine Layer.
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
+<string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
+<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<real key="skin" name="skin">number of skin to load</real>
+<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+<flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
+<flag key="NOANIMATE" name="NOANIMATE" bit="10">item will not spin</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 modeldisabled=&quot;models/weapons/g_minelayer.md3&quot;
 </point>
@@ -1984,8 +2200,14 @@ the T.A.G. Seeker.
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
+<string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
+<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<real key="skin" name="skin">number of skin to load</real>
+<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+<flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
+<flag key="NOANIMATE" name="NOANIMATE" bit="10">item will not spin</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 modeldisabled=&quot;models/weapons/g_seeker.md3&quot;
 </point>
@@ -1998,8 +2220,14 @@ the on-hand Grappling Hook.
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
+<string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
+<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<real key="skin" name="skin">number of skin to load</real>
+<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+<flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
+<flag key="NOANIMATE" name="NOANIMATE" bit="10">item will not spin</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 modeldisabled=&quot;models/weapons/g_hookgun.md3&quot;
 </point>
@@ -2034,8 +2262,14 @@ the Sniper Rifle.
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
+<string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
+<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<real key="skin" name="skin">number of skin to load</real>
+<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+<flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
+<flag key="NOANIMATE" name="NOANIMATE" bit="10">item will not spin</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 modeldisabled=&quot;models/weapons/g_campingrifle.md3&quot;
 </point>
@@ -2322,8 +2556,14 @@ Jetpack
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
+<string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
+<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<real key="skin" name="skin">number of skin to load</real>
+<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+<flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
+<flag key="NOANIMATE" name="NOANIMATE" bit="10">item will not spin</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 modeldisabled=&quot;models/items/g_jetpack.md3&quot;
 </point>
@@ -2362,8 +2602,14 @@ the Fireball
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
+<string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
+<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<real key="skin" name="skin">number of skin to load</real>
+<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+<flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
+<flag key="NOANIMATE" name="NOANIMATE" bit="10">item will not spin</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 modeldisabled=&quot;models/weapons/g_fireball.md3&quot;
 </point>
@@ -2457,27 +2703,6 @@ This acts as a modifier over the normal gravity (sv_gravity). e.g.: 0.5 is half 
 
 <point name="relay_activate" color="0 1 0" box="-8 -8 -8 8 8 8">
 Activates all targets
-List of currently supported target ents:
-trigger_conveyor
-trigger_gravity
-trigger_hurt
-trigger_heal
-trigger_impulse
-trigger_music
-trigger_push
-trigger_push_velocity
-trigger_teleport
-target_heal
-target_kill
-target_speed
-func_rotating
-func_bobbing
-func_button
-func_conveyor
-func_fourier
-func_pointparticles
-func_vectormamamam
-misc_laser
 -------- KEYS --------
 <target key="target" name="target">trigger all entities with this targetname when triggered</target>
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
@@ -2485,55 +2710,13 @@ misc_laser
 
 <point name="relay_deactivate" color="1 0 0" box="-8 -8 -8 8 8 8">
 Deactivates all targets
-List of currently supported target ents:
-trigger_conveyor
-trigger_gravity
-trigger_hurt
-trigger_heal
-trigger_impulse
-trigger_music
-trigger_push
-trigger_push_velocity
-trigger_teleport
-target_heal
-target_kill
-target_speed
-func_rotating
-func_bobbing
-func_button
-func_conveyor
-func_fourier
-func_pointparticles
-func_vectormamamam
-misc_laser
 -------- KEYS --------
 <target key="target" name="target">trigger all entities with this targetname when triggered</target>
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
 </point>
 
 <point name="relay_activatetoggle" color="0 1 1" box="-8 -8 -8 8 8 8">
-Toggles all targets de/active
-List of currently supported target ents:
-trigger_conveyor
-trigger_gravity
-trigger_hurt
-trigger_heal
-trigger_impulse
-trigger_music
-trigger_push
-trigger_push_velocity
-trigger_teleport
-target_heal
-target_kill
-target_speed
-func_rotating
-func_bobbing
-func_button
-func_conveyor
-func_fourier
-func_pointparticles
-func_vectormamamam
-misc_laser
+Toggles the active state of all targets
 -------- KEYS --------
 <target key="target" name="target">trigger all entities with this targetname when triggered</target>
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
