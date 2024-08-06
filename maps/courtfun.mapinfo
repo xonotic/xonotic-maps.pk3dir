@@ -34,5 +34,3 @@ settemp_for_type cts g_cts_finish_kill_delay 0
 
 settemp_for_type ons g_powerups 0
 
-clientsettemp_for_type all r_water 1
-clientsettemp_for_type all r_water_resolutionmultiplier 1

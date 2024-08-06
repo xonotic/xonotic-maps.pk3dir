@@ -1,7 +1,7 @@
 -scale 0.9
 -bsp +
--light + -dirtscale 2 -bounce 8
+-light +
 -vis +
 -minimap +
 -sRGB
-Version: 16d
+Version: 17b

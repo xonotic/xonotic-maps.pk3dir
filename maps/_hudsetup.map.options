@@ -1,6 +1,6 @@
 -bsp + -samplesize 4
 -vis +
--light + -bounce 8
+-light +
 -minimap +
 -sRGB
 Version: 7

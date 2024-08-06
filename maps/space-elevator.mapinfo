@@ -4,6 +4,4 @@ author FruitieX, Mirio, Cuinnton
 has weapons
 gametype ctf
 cdtrack 4
-
-clientsettemp_for_type all r_water 1
-clientsettemp_for_type all r_water_resolutionmultiplier 1
+size -1024 -4672 -1216 1088 4672 1024 // Bounds of the lightgrid brush, if not set here the minimap won't be scaled properly

@@ -97,7 +97,6 @@ textures/map_space-elevator/polluted_earth
 	surfaceparm nomarks
 	q3map_globaltexture
 	q3map_surfacelight 5
-	surfaceparm sky
 
         nopicmip
         nomipmaps

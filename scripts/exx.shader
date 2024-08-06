@@ -4,7 +4,7 @@ textures/exx/base-crete01
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 2 match8 65
-	dpglossintensitymod  1
+	dpglossintensitymod 0.5
 	dpglossexponentmod  1
 
 
@@ -26,7 +26,7 @@ textures/exx/base-crete01blue
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 2
-	dpglossintensitymod  1
+	dpglossintensitymod 0.5
 	dpglossexponentmod  1
 
 
@@ -48,7 +48,7 @@ textures/exx/base-crete01red
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 2
-	dpglossintensitymod  1
+	dpglossintensitymod 0.5
 	dpglossexponentmod  1
 
 
@@ -70,7 +70,7 @@ textures/exx/base-crete02
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 2 match8 65
-	dpglossintensitymod  1
+	dpglossintensitymod 0.5
 	dpglossexponentmod  1
 
 
@@ -92,7 +92,7 @@ textures/exx/base-crete03
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 2 match8 65
-	dpglossintensitymod  1
+	dpglossintensitymod 0.5
 	dpglossexponentmod  1
 
 
@@ -115,7 +115,7 @@ textures/exx/base-metal01
 	surfaceparm metalsteps
 	q3map_bounceScale  2
 	dpoffsetmapping - 2 match8 106
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -138,7 +138,7 @@ textures/exx/base-metal02
 	surfaceparm metalsteps
 	q3map_bounceScale  2
 	dpoffsetmapping - 2 match8 106
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -161,7 +161,7 @@ textures/exx/base-metal03
 	surfaceparm metalsteps
 	q3map_bounceScale  2
 	dpoffsetmapping - 2 match8 106
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -184,7 +184,7 @@ textures/exx/base-metal04
 	surfaceparm metalsteps
 	q3map_bounceScale  2
 	dpoffsetmapping - 2 match8 106
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -207,7 +207,7 @@ textures/exx/base-metal05rust
 	surfaceparm metalsteps
 	q3map_bounceScale  2
 	dpoffsetmapping - 2 match8 70
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -230,7 +230,7 @@ textures/exx/base-metal06rust
 	surfaceparm metalsteps
 	q3map_bounceScale  2
 	dpoffsetmapping - 2 match8 70
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -253,7 +253,7 @@ textures/exx/base-metal07rust
 	surfaceparm metalsteps
 	q3map_bounceScale  2
 	dpoffsetmapping - 2 match8 70
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -275,7 +275,7 @@ textures/exx/floor-clang01
 	
 	q3map_bounceScale  0.75
 	dpoffsetmapping - 2 match8 37
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 	surfaceparm metalsteps
 
@@ -299,7 +299,7 @@ textures/exx/floor-clang01b
 	
 	q3map_bounceScale  0.75
 	dpoffsetmapping - 2 match8 37
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 	surfaceparm metalsteps
 	
@@ -322,7 +322,7 @@ textures/exx/floor-crete01
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 2 match8 148
-	dpglossintensitymod  1
+	dpglossintensitymod 0.5
 	dpglossexponentmod  1
 
 
@@ -344,7 +344,7 @@ textures/exx/floor-crete01-phoenix
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 2 match8 148
-	dpglossintensitymod  1
+	dpglossintensitymod 0.5
 	dpglossexponentmod  1
 
 
@@ -366,7 +366,7 @@ textures/exx/floor-crete01-phoenixb
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 2 match8 148
-	dpglossintensitymod  1
+	dpglossintensitymod 0.5
 	dpglossexponentmod  1
 
 
@@ -388,7 +388,7 @@ textures/exx/floor-crete01b
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 2 match8 48
-	dpglossintensitymod  1
+	dpglossintensitymod 0.5
 	dpglossexponentmod  1
 
 
@@ -414,7 +414,7 @@ textures/exx/floor-grate01
 	surfaceparm nomarks
 	Cull None
 	dpoffsetmapping - 2 match8 126
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -438,7 +438,7 @@ textures/exx/floor-grate01-cull
 	surfaceparm alphashadow
 	surfaceparm nomarks
 	dpoffsetmapping - 2 match8 126
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -460,10 +460,9 @@ textures/exx/floor-grate02
 	surfaceparm metalsteps
 	q3map_bounceScale  0.75
 	surfaceparm alphashadow
-	surfaceparm nomarks
 	Cull None
 	dpoffsetmapping - 2 match8 224
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -485,9 +484,8 @@ textures/exx/floor-grate02-cull
 	surfaceparm metalsteps
 	q3map_bounceScale  0.75
 	surfaceparm alphashadow
-	surfaceparm nomarks
 	dpoffsetmapping - 2 match8 224
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -509,10 +507,9 @@ textures/exx/floor-grate03
 	surfaceparm metalsteps
 	q3map_bounceScale  0.75
 	surfaceparm alphashadow
-	surfaceparm nomarks
 	Cull None
 	dpoffsetmapping - 2 match8 223
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -534,9 +531,8 @@ textures/exx/floor-grate03-cull
 	surfaceparm metalsteps
 	q3map_bounceScale  0.75
 	surfaceparm alphashadow
-	surfaceparm nomarks
 	dpoffsetmapping - 2 match8 223
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -558,10 +554,9 @@ textures/exx/floor-grate04
 	surfaceparm metalsteps
 	q3map_bounceScale  0.75
 	surfaceparm alphashadow
-	surfaceparm nomarks
 	Cull None
 	dpoffsetmapping - 2 match8 248
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -584,9 +579,8 @@ textures/exx/floor-grate04-cull
 	surfaceparm metalsteps
 	q3map_bounceScale  0.75
 	surfaceparm alphashadow
-	surfaceparm nomarks
 	dpoffsetmapping - 2 match8 248
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -610,7 +604,7 @@ textures/exx/floor-metal02
 	surfaceparm metalsteps
 	q3map_bounceScale  2
 	dpoffsetmapping - 2 match8 241
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -632,7 +626,7 @@ textures/exx/floor-panel01
 	surfaceparm metalsteps
 	q3map_bounceScale  0.75
 	dpoffsetmapping - 2 match8 172
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -655,7 +649,7 @@ textures/exx/floor-rnd01
 	
 	q3map_bounceScale  0.75
 	dpoffsetmapping - 2 match8 128
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -678,7 +672,7 @@ textures/exx/floor-rnd02
 	
 	q3map_bounceScale  0.75
 	dpoffsetmapping - 2 match8 110
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -701,7 +695,7 @@ textures/exx/floor-simple05
 	
 	q3map_bounceScale  0.75
 	dpoffsetmapping - 4 match8 32
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -723,7 +717,7 @@ textures/exx/floor-simplines
 	
 	q3map_bounceScale  0.75
 	dpoffsetmapping - 1 match8 244
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -746,7 +740,7 @@ textures/exx/floor-tile03
 	
 	q3map_bounceScale  0.75
 	dpoffsetmapping - 2 match8 218
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -769,7 +763,7 @@ textures/exx/floor-tread01
 	
 	q3map_bounceScale  0.75
 	dpoffsetmapping - 1 match8 221
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -791,7 +785,7 @@ textures/exx/floor-wrn01
 	
 	q3map_bounceScale  0.75
 	dpoffsetmapping - 2 match8 46
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -814,7 +808,7 @@ textures/exx/floor-wrn01-blue
 	
 	q3map_bounceScale  0.75
 	dpoffsetmapping - 2 match8 46
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -837,7 +831,7 @@ textures/exx/floor-wrn01-red
 	
 	q3map_bounceScale  0.75
 	dpoffsetmapping - 2 match8 46
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -860,7 +854,7 @@ textures/exx/floor-wrn01-purple
 	
 	q3map_bounceScale  0.75
 	dpoffsetmapping - 2 match8 46
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -883,7 +877,7 @@ textures/exx/light-panel01
 	
 	q3map_bounceScale  0.75
 	dpoffsetmapping - 2 match8 79
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 	{
@@ -904,7 +898,7 @@ textures/exx/light-panel01-surfacelight
 	
 	q3map_bounceScale  0.75
 	dpoffsetmapping - 2 match8 79
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 	q3map_surfacelight 2500
@@ -928,7 +922,7 @@ textures/exx/light-panel01-surfacelight_sRGB
 	
 	q3map_bounceScale  0.75
 	dpoffsetmapping - 2 match8 79
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 	q3map_surfacelight 625
@@ -953,7 +947,7 @@ textures/exx/light-u201
 	
 	q3map_bounceScale  0.75
 	dpoffsetmapping - 2 match8 76
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 	{
@@ -974,7 +968,7 @@ textures/exx/light-u201-surfacelight
 	
 	q3map_bounceScale  0.75
 	dpoffsetmapping - 2 match8 76
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 	q3map_surfacelight 2500
@@ -998,7 +992,7 @@ textures/exx/light-u201-surfacelight_sRGB
 	
 	q3map_bounceScale  0.75
 	dpoffsetmapping - 2 match8 76
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 	q3map_surfacelight 625
@@ -1023,10 +1017,9 @@ textures/exx/panel-grate01
 	surfaceparm metalsteps
 	q3map_bounceScale  2
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
-	surfaceparm nomarks
 	surfaceparm trans
 	surfaceparm alphashadow
 
@@ -1052,10 +1045,9 @@ textures/exx/panel-grate01-cull
 	surfaceparm metalsteps
 	q3map_bounceScale  2
 	dpoffsetmapping - 2
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
-	surfaceparm nomarks
 	surfaceparm trans
 	surfaceparm alphashadow
 
@@ -1080,7 +1072,7 @@ textures/exx/panel-metal01
 	surfaceparm metalsteps
 	q3map_bounceScale  2
 	dpoffsetmapping - 2 match8 101
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -1103,7 +1095,7 @@ textures/exx/panel-metal01b
 	surfaceparm metalsteps
 	q3map_bounceScale  2
 	dpoffsetmapping - 2 match8 101
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -1126,7 +1118,7 @@ textures/exx/panel-metal01c
 	surfaceparm metalsteps
 	q3map_bounceScale  2
 	dpoffsetmapping - 2 match8 116
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -1149,7 +1141,7 @@ textures/exx/panel-metal02
 	surfaceparm metalsteps
 	q3map_bounceScale  2
 	dpoffsetmapping - 2 match8 216
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -1172,7 +1164,7 @@ textures/exx/panel-metal03
 	surfaceparm metalsteps
 	q3map_bounceScale  2
 	dpoffsetmapping - 2 match8 241
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -1195,7 +1187,7 @@ textures/exx/panel-metal04
 	surfaceparm metalsteps
 	q3map_bounceScale  2
 	dpoffsetmapping - 2 match8 229
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -1218,7 +1210,7 @@ textures/exx/panel-metal05
 	surfaceparm metalsteps
 	q3map_bounceScale  2
 	dpoffsetmapping - 2 match8 238
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -1241,7 +1233,7 @@ textures/exx/panel-metalbig04
 	surfaceparm metalsteps
 	q3map_bounceScale  2
 	dpoffsetmapping - 2 match8 165
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -1264,7 +1256,7 @@ textures/exx/panel-metalbig04b
 	surfaceparm metalsteps
 	q3map_bounceScale  2
 	dpoffsetmapping - 2 match8 177
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -1287,7 +1279,7 @@ textures/exx/panel-q201
 	
 	q3map_bounceScale  0.75
 	dpoffsetmapping - 2 match8 138
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -1310,7 +1302,7 @@ textures/exx/panel-q201b
 	surfaceparm metalsteps
 	q3map_bounceScale  0.75
 	dpoffsetmapping - 2 match8 81
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -1333,7 +1325,7 @@ textures/exx/panel-q201c
 	surfaceparm metalsteps
 	q3map_bounceScale  0.75
 	dpoffsetmapping - 2 match8 98
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -1356,7 +1348,7 @@ textures/exx/panel-q201d
 	surfaceparm metalsteps
 	q3map_bounceScale  0.75
 	dpoffsetmapping - 2 match8 189
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -1379,7 +1371,7 @@ textures/exx/panel-q201e
 	surfaceparm metalsteps
 	q3map_bounceScale  0.75
 	dpoffsetmapping - 2 match8 132
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -1402,7 +1394,7 @@ textures/exx/panel-rs01
 	surfaceparm metalsteps
 	q3map_bounceScale  0.75
 	dpoffsetmapping - 2 match8 178
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -1425,7 +1417,7 @@ textures/exx/trim-01
 	surfaceparm metalsteps
 	q3map_bounceScale  1.5
 	dpoffsetmapping - 2 match8 169
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -1448,7 +1440,7 @@ textures/exx/trim-baseboard
 	surfaceparm metalsteps
 	q3map_bounceScale  1.5
 	dpoffsetmapping - 2 match8 181
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -1470,7 +1462,7 @@ textures/exx/trim-baseboard02
 	surfaceparm metalsteps
 	q3map_bounceScale  1.5
 	dpoffsetmapping - 2 match8 162
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -1493,7 +1485,7 @@ textures/exx/trim-baseboard03
 	surfaceparm metalsteps
 	q3map_bounceScale  1.5
 	dpoffsetmapping - 2 match8 110
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -1516,7 +1508,7 @@ textures/exx/trim-metalsupp01
 	surfaceparm metalsteps
 	q3map_bounceScale  2
 	dpoffsetmapping - 8 match8 243
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -1539,7 +1531,7 @@ textures/exx/trim-psimple04
 	surfaceparm metalsteps
 	q3map_bounceScale  1.5
 	dpoffsetmapping - 2 match8 44
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -1562,7 +1554,7 @@ textures/exx/trim-psimple05
 	surfaceparm metalsteps
 	q3map_bounceScale  1.5
 	dpoffsetmapping - 2 match8 230
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -1585,7 +1577,7 @@ textures/exx/trim-simple01
 	surfaceparm metalsteps
 	q3map_bounceScale  1.75
 	dpoffsetmapping - 2 match8 213
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -1608,7 +1600,7 @@ textures/exx/trim-simple03
 	surfaceparm metalsteps
 	q3map_bounceScale  0.75
 	dpoffsetmapping - 2 match8 142
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -1631,7 +1623,7 @@ textures/exx/trim-steptop01
 	surfaceparm metalsteps
 	q3map_bounceScale  0.75
 	dpoffsetmapping - 2 match8 140
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -1654,7 +1646,7 @@ textures/exx/trim-support03
 	surfaceparm metalsteps
 	q3map_bounceScale  1.5
 	dpoffsetmapping - 2 match8 111
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -1677,7 +1669,7 @@ textures/exx/trim-vert01
 	surfaceparm metalsteps
 	q3map_bounceScale  1.5
 	dpoffsetmapping - 2 match8 231
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -1700,7 +1692,7 @@ textures/exx/trim-horz01
 	surfaceparm metalsteps
 	q3map_bounceScale  1.5
 	dpoffsetmapping - 2 match8 231
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -1724,7 +1716,7 @@ textures/exx/wall-bigrib02
 	surfaceparm metalsteps
 	q3map_bounceScale  1.75
 	dpoffsetmapping - 2 match8 250
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -1747,7 +1739,7 @@ textures/exx/wall-bplate06
 	surfaceparm metalsteps
 	q3map_bounceScale  1.75
 	dpoffsetmapping - 8 match8 114
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -1769,7 +1761,7 @@ textures/exx/wall-crete01
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 2 match8 44
-	dpglossintensitymod  1
+	dpglossintensitymod 0.5
 	dpglossexponentmod  1
 
 
@@ -1791,7 +1783,7 @@ textures/exx/wall-crete02
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 2 match8 242
-	dpglossintensitymod  1
+	dpglossintensitymod 0.5
 	dpglossexponentmod  1
 
 
@@ -1813,7 +1805,7 @@ textures/exx/wall-crete03
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 2 match8 233
-	dpglossintensitymod  1
+	dpglossintensitymod 0.5
 	dpglossexponentmod  1
 
 
@@ -1835,7 +1827,7 @@ textures/exx/wall-crete03b
 	
 	q3map_bounceScale  0.5
 	dpoffsetmapping - 2 match8 38
-	dpglossintensitymod  1
+	dpglossintensitymod 0.5
 	dpglossexponentmod  1
 
 
@@ -1858,7 +1850,7 @@ textures/exx/wall-des01
 	surfaceparm metalsteps	
 	q3map_bounceScale  1.75
 	dpoffsetmapping - 2 match8 55
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -1881,7 +1873,7 @@ textures/exx/wall-metal01
 	surfaceparm metalsteps
 	q3map_bounceScale  2
 	dpoffsetmapping - 2 match8 225
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -1904,7 +1896,7 @@ textures/exx/wall-metal01b
 	surfaceparm metalsteps
 	q3map_bounceScale  2
 	dpoffsetmapping - 2 match8 225
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -1927,7 +1919,7 @@ textures/exx/wall-metal01c
 	surfaceparm metalsteps
 	q3map_bounceScale  2
 	dpoffsetmapping - 2 match8 225
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -1950,7 +1942,7 @@ textures/exx/wall-metal02
 	surfaceparm metalsteps
 	q3map_bounceScale  2
 	dpoffsetmapping - 2 match8 177
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -1973,7 +1965,7 @@ textures/exx/wall-metalb01
 	surfaceparm metalsteps
 	q3map_bounceScale  2
 	dpoffsetmapping - 1 match8 37
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -1996,7 +1988,7 @@ textures/exx/wall-metalrib01
 	surfaceparm metalsteps
 	q3map_bounceScale  2
 	dpoffsetmapping - 2 match8 216
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -2019,7 +2011,7 @@ textures/exx/wall-panel05
 	surfaceparm metalsteps
 	q3map_bounceScale  1.75
 	dpoffsetmapping - 2 match8 66
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -2042,7 +2034,7 @@ textures/exx/wall-panels08
 	surfaceparm metalsteps
 	q3map_bounceScale  1.75
 	dpoffsetmapping - 2 match8 195
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -2065,7 +2057,7 @@ textures/exx/wall-panels08b
 	surfaceparm metalsteps
 	q3map_bounceScale  1.75
 	dpoffsetmapping - 2 match8 195
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -2088,7 +2080,7 @@ textures/exx/wall-pipe
 	surfaceparm metalsteps
 	q3map_bounceScale  1.25
 	dpoffsetmapping - 2 match8 157
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 
@@ -2111,7 +2103,7 @@ textures/exx/wall-u207
 	surfaceparm metalsteps
 	q3map_bounceScale  1.75
 	dpoffsetmapping - 2 match8 109
-	dpglossintensitymod  3
+	dpglossintensitymod 1.5
 	dpglossexponentmod  4
 
 

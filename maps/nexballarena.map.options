@@ -1,6 +1,6 @@
 -bsp + -samplesize 6 -np 60
--light + -bounce 8 -dirtscale 2 -bouncescale 1.15 
+-light + -bouncescale 1.15
 -vis +
 -minimap +
 -sRGB
-Version: 3a
+Version: 3b

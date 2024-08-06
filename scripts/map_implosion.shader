@@ -73,7 +73,6 @@ textures/map_implosion/screen
 	}
 }
 
-
 textures/map_implosion/code
 {
 	nopicmip
@@ -123,7 +122,6 @@ textures/map_implosion/sky
 	surfaceparm nomarks
 	q3map_globaltexture
 	q3map_surfacelight 50
-	surfaceparm sky
 
 		nopicmip
 		nomipmaps
@@ -131,4 +129,44 @@ textures/map_implosion/sky
 	q3map_sunExt 1 0.9 0.9 250 320 30
 	q3map_skylight 75 4
 	skyparms env/polluted_earth/polluted_earth - -
+}
+
+textures/map_implosion/flare_red
+{
+	qer_editorImage textures/map_implosion/flare_red.jpg
+	q3map_surfacelight 4000
+
+	noPicMip
+	noMipMaps
+	deformVertexes autosprite
+
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nolightmap
+
+	{
+		clampMap textures/map_implosion/flare_red.jpg
+		rgbGen identity
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
+	}
+}
+
+textures/map_implosion/flare_blue
+{
+	qer_editorImage textures/map_implosion/flare_blue.jpg
+	q3map_surfacelight 4000
+
+	noPicMip
+	noMipMaps
+	deformVertexes autosprite
+
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nolightmap
+
+	{
+		clampMap textures/map_implosion/flare_blue.jpg
+		rgbGen identity
+		blendFunc GL_ONE GL_ONE_MINUS_SRC_COLOR
+	}
 }

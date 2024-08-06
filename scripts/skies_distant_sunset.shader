@@ -8,7 +8,6 @@ textures/skies/distant_sunset
 	surfaceparm nomarks
 	q3map_globaltexture
 	q3map_skylight 50 4
-	surfaceparm sky
 
         nopicmip
         nomipmaps

@@ -1,0 +1,6 @@
+-bsp + -samplesize 4
+-vis +
+-light + -backsplash 1 23
+-minimap +
+-sRGB
+Version: 1f

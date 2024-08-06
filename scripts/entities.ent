@@ -20,7 +20,7 @@ The targeted entity is preferably an info_null.
 The projection is a linear projection, and originates from the center of this entity (the start of the arrow line in Radiant) to the origin of the targeted entity (the end of the arrow line in Radiant).
 </group>
 
-<point name="dom_controlpoint" color=".3 .3 1" box="-16 -16 -16 16 16 16">
+<point name="dom_controlpoint" color=".3 .3 1" box="-48 -48 -32 48 48 32">
 Domination control point
 In order to get Domination working well in your map, you need to place dom_team and dom_controlpoint entities.  You *must* have at least 3 dom_team entities - 2 minimum teams and one blank one (empty netname and no team).  You can have up to 4 teams (5 dom_team entities).
 -------- KEYS --------
@@ -248,7 +248,7 @@ Basic secret door. Slides back, then to the side. Angle determines direction. Op
 
 <group name="func_group" color="0 .5 .8">
 This is not an entity as such. It is strictly an editor utility to group world brushes and patches together for convenience (selecting, moving, copying, etc). You cannot group entities with this.
-To select the func_group, either select it from the Entity List window, or select a brush belonging to the func_group then use the menu option Edit -> Expand Selection To Primitives.
+To select the func_group, either select it from the Entity List window, or select a brush belonging to the func_group then use the menu option Edit -> Expand Selection To Whole Entities.
 -------- Q3MAP2 KEYS --------
 <real key="_lightmapscale" name="_lightmapscale">light map resolution factor</real>
 <boolean key="_castshadows" name="_castshadows">Allows per-entity control over shadow casting. Defaults to 0 on entities, 1 on world. 0 = no shadow casting. 1 = cast shadows on world. &gt; 1 = cast shadows on entities with _rs (or _receiveshadows) with the corresponding value, AND world. Negative values imply same, but DO NOT cast shadows on world.</boolean>
@@ -455,8 +455,8 @@ Acts as a checkpoint to re-spawn at
 <targetname key="targetname" name="targetname">when targeted, this will set the activator's spawn point temporarily to this entity. It is reset upon re-spawn.</targetname>
 </point>
 
-<point name="item_armor_mega" color=".4 .8 .4" box="-30 -30 0 30 30 32">
-Large Armor (default 100 armor points)
+<point name="item_armor_mega" color=".4 .8 .4" box="-30 -30 0 30 30 70">
+Mega Armor (default 100 armor points)
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 30)</real>
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
@@ -470,7 +470,7 @@ Large Armor (default 100 armor points)
 modeldisabled=&quot;models/items/g_a25.md3&quot;
 </point>
 
-<point name="item_armor_big" color=".4 .8 .4" box="-30 -30 0 30 30 32">
+<point name="item_armor_big" color=".4 .8 .4" box="-30 -30 0 30 30 48">
 Big Armor (default 50 armor points)
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 20)</real>
@@ -485,7 +485,7 @@ Big Armor (default 50 armor points)
 modeldisabled=&quot;models/items/g_a50.md3&quot;
 </point>
 
-<point name="item_armor_medium" color=".4 .8 .4" box="-30 -30 0 30 30 32">
+<point name="item_armor_medium" color=".4 .8 .4" box="-24 -24 0 24 24 48">
 Medium Armor (default 25 armor points)
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 20)</real>
@@ -500,7 +500,7 @@ Medium Armor (default 25 armor points)
 modeldisabled=&quot;models/items/g_armormedium.md3&quot;
 </point>
 
-<point name="item_armor_small" color=".4 .8 .4" box="-30 -30 0 30 30 32">
+<point name="item_armor_small" color=".4 .8 .4" box="-24 -24 0 24 24 48">
 Small Armor (default 5 armor points)
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
@@ -515,7 +515,7 @@ Small Armor (default 5 armor points)
 modeldisabled=&quot;models/items/g_a1.md3&quot;
 </point>
 
-<point name="item_bullets" color=".3 .3 1" box="-30 -30 0 30 30 32">
+<point name="item_bullets" color=".3 .3 1" box="-30 -30 0 30 30 48">
 Machine Gun ammo
 -------- KEYS --------
 <real key="ammo_nails" name="ammo_nails">bullets gained by this item (if unset, g_pickup_nails is used)</real>
@@ -529,7 +529,7 @@ Machine Gun ammo
 modeldisabled=&quot;models/items/a_bullets.md3&quot;
 </point>
 
-<point name="item_cells" color=".3 .3 1" box="-30 -30 0 30 30 32">
+<point name="item_cells" color=".3 .3 1" box="-30 -30 0 30 30 48">
 Vortex, Electro and Crylink ammo
 -------- KEYS --------
 <real key="ammo_cells" name="ammo_cells">cells gained by this item (if unset, g_pickup_cells is used)</real>
@@ -610,7 +610,7 @@ Big Health (default 50 health points)
 modeldisabled=&quot;models/items/g_h50.md3&quot;
 </point>
 
-<point name="item_health_medium" color=".9 .3 .3" box="-30 -30 0 30 30 48">
+<point name="item_health_medium" color=".9 .3 .3" box="-24 -24 0 24 24 48">
 Medium Health (default 25 health points)
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
@@ -625,7 +625,7 @@ Medium Health (default 25 health points)
 modeldisabled=&quot;models/items/g_h25.md3&quot;
 </point>
 
-<point name="item_health_mega" color=".9 .3 .3" box="-30 -30 0 30 30 48">
+<point name="item_health_mega" color=".9 .3 .3" box="-30 -30 0 30 30 70">
 Mega Health (default 100 health points)
 In Instagib, this randomly turns into either an invisibility, an extra lives or a speed power-up with a default respawn time of 120.
 -------- KEYS --------
@@ -641,7 +641,7 @@ In Instagib, this randomly turns into either an invisibility, an extra lives or 
 modeldisabled=&quot;models/items/g_h100.md3&quot;
 </point>
 
-<point name="item_health_small" color=".9 .3 .3" box="-30 -30 0 30 30 48">
+<point name="item_health_small" color=".9 .3 .3" box="-24 -24 0 24 24 48">
 Small Health (default 5 health points)
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
@@ -656,9 +656,35 @@ Small Health (default 5 health points)
 modeldisabled=&quot;models/items/g_h1.md3&quot;
 </point>
 
-<point name="item_shield" color=".3 .3 1" box="-30 -30 0 30 30 48">
+<point name="item_shield" color=".3 .3 1" box="-30 -30 0 30 30 70">
 Strong Shield
 In Instagib, this randomly turns into either an invisibility, an extra lives or a speed power-up with a default respawn time of 120.
+-------- KEYS --------
+<real key="respawntime" name="respawntime">time till it respawns (default: 120)</real>
+<real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
+<integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
+<real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
+-------- SPAWNFLAGS --------
+<flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+modeldisabled=&quot;models/items/g_invincible.md3&quot;
+</point>
+
+<point name="item_speed" color="0.1 1 0.84" box="-30 -30 0 30 30 70">
+Faster movement and shooting
+-------- KEYS --------
+<real key="respawntime" name="respawntime">time till it respawns (default: 120)</real>
+<real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
+<integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
+<real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
+-------- SPAWNFLAGS --------
+<flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+modeldisabled=&quot;models/items/g_invincible.md3&quot;
+</point>
+
+<point name="item_invisibility" color="0.5 0.5 1" box="-30 -30 0 30 30 70">
+Low visibility
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 120)</real>
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
@@ -726,7 +752,7 @@ Don't use this entity on new maps! Use item_key instead.
 
 
 
-<point name="item_vaporizer_cells" color=".3 .3 1" box="-30 -30 0 30 30 32">
+<point name="item_vaporizer_cells" color=".3 .3 1" box="-30 -30 0 30 30 48">
 Instagib ammo.
 Always contains 5 (g_instagib_ammo_drop) shots.
 It only appears when playing Instagib and prevents auto-replacement of weapon_vortex &amp; weapon_devastator when used.
@@ -741,7 +767,7 @@ It only appears when playing Instagib and prevents auto-replacement of weapon_vo
 modeldisabled=&quot;models/items/a_cells.md3&quot;
 </point>
 
-<point name="item_rockets" color=".3 .3 1" box="-30 -30 0 30 30 32">
+<point name="item_rockets" color=".3 .3 1" box="-30 -30 0 30 30 48">
 Devastator, Hagar and Mortar ammo
 -------- KEYS --------
 <real key="ammo_rockets" name="ammo_rockets">rockets gained by this item (if unset, g_pickup_rockets is used)</real>
@@ -755,7 +781,7 @@ Devastator, Hagar and Mortar ammo
 modeldisabled=&quot;models/items/a_rockets.md3&quot;
 </point>
 
-<point name="item_shells" color=".3 .3 1" box="-30 -30 0 30 30 32">
+<point name="item_shells" color=".3 .3 1" box="-30 -30 0 30 30 48">
 Shotgun ammo
 -------- KEYS --------
 <real key="ammo_shells" name="ammo_shells">shells gained by this item (if unset, g_pickup_shells is used)</real>
@@ -769,7 +795,7 @@ Shotgun ammo
 modeldisabled=&quot;models/items/a_shells.md3&quot;
 </point>
 
-<point name="item_strength" color=".3 .3 1" box="-30 -30 0 30 30 48">
+<point name="item_strength" color=".3 .3 1" box="-30 -30 0 30 30 70">
 Strength aka Quad damage
 In Instagib, this randomly turns into either an invisibility, an extra lives or a speed power-up with a default respawn time of 120.
 -------- KEYS --------
@@ -1182,7 +1208,7 @@ Monster spawnpoint for Invasion
 <integer key="team" name="team">team that the monster will join if teamplay (5 = red, 14 = blue, etc)</integer>
 </point>
 
-<group name="trigger_counter" color=".5 .5 .5">
+<point name="trigger_counter" color=".5 .5 .5" box="-8 -8 -8 8 8 8">
 Acts as an intermediary for an action that takes multiple inputs.
 After the counter has been triggered &quot;count&quot; times, it will fire all of its targets.
 -------- KEYS --------
@@ -1195,7 +1221,7 @@ After the counter has been triggered &quot;count&quot; times, it will fire all o
 -------- SPAWNFLAGS --------
 <flag key="NOMESSAGE" name="NOMESSAGE" bit="0">don't print a &quot;2 more to go...&quot;-like message when triggered</flag>
 <flag key="FIRE_AT_COUNT" name="FIRE_AT_COUNT" bit="2">fire at every count (behaves like trigger_multiple with limited shots)</flag>
-</group>
+</point>
 
 <point name="trigger_delay" color=".5 .5 .5" box="-8 -8 -8 8 8 8">
 Trigger that delays triggering by a given amount of time. Only one action can be waited for; if triggered again before the &quot;wait&quot; time expires, the timer will restart (as opposed to trigger_relay).
@@ -1218,7 +1244,7 @@ Has the useful effect of automatically returning flags, keys and runes when they
 <integer key="team" name="team">team that gets hurt (5 = red, 14 = blue, etc) (when set, only this team can get hurt)</integer>
 <targetname key="targetname" name="targetname">if triggered using this target name, the activator will be the one who gets the frag awarded for hurting someone using this trigger (hint: The Frag Pipe)</targetname>
 -------- SPAWNFLAGS --------
-<flag key="INVERT_TEAM" name="INVERT_TEAM" bit="2">the team that owns this will NOT jump when touching this</flag>
+<flag key="INVERT_TEAM" name="INVERT_TEAM" bit="2">the team that owns this will NOT get hurt when touching this</flag>
 </group>
 
 <group name="trigger_impulse" color=".5 .5 .5">
@@ -1311,10 +1337,11 @@ Quake &quot;movedir/speed&quot; way: player will get velocity movedir * speed * 
 <real3 key="movedir" name="movedir">when target is not set, direction vector to push to, this * speed * 10 is the velocity to be reached.</real3>
 <real key="speed" name="speed">speed of jump pad (default: 1000)</real>
 <sound key="noise" name="noise">sound to play when jump pad is used; default is misc/jumppad.wav; you can set it to &quot;&quot; to make the pad silent</sound>
-<integer key="team" name="team">team that owns this jump pad (5 = red, 14 = blue, etc) (when set, only this team can teleport)</integer>
-<targetname key="targetname" name="targetname">when targeted by a func_button, pressing the button will reassign the teleporter to the team of the activator.</targetname>
+<integer key="team" name="team">team that owns this jump pad (5 = red, 14 = blue, etc) (when set, only this team can jump)</integer>
+<targetname key="targetname" name="targetname">when targeted by a func_button, pressing the button will reassign the jump pad to the team of the activator.</targetname>
 -------- SPAWNFLAGS --------
-<flag key="INVERT_TEAM" name="INVERT_TEAM" bit="2">the team that owns the teleporter will NOT jump when touching this</flag>
+<flag key="INVERT_TEAM" name="INVERT_TEAM" bit="2">the team that owns the jump pad will NOT jump when touching this</flag>
+<flag key="STATIC" name="STATIC" bit="12">push force stays the same no matter where the trigger is hit, the center of the trigger is used as a starting point for trajectory calculation instead of the player position, matches Quake 3 behavior</flag>
 </group>
 
 <point name="trigger_relay" color=".5 .5 .5" box="-8 -8 -8 8 8 8">
@@ -1367,10 +1394,12 @@ Note that in Xonotic, teleporters preserve momentum of the player using them.
 <integer key="team" name="team">team that owns this teleporter (5 = red, 14 = blue, etc) (when set, only this team can teleport)</integer>
 <targetname key="targetname" name="targetname">when targeted by a func_button, pressing the button will reassign the teleporter to the team of the activator.</targetname>
 -------- SPAWNFLAGS --------
+<flag key="OBSERVERS_ONLY" name="OBSERVERS_ONLY" bit="0">if set, only observers can use this teleporter</flag>
+<flag key="KEEP_SPEED" name="KEEP_SPEED" bit="1">if set, ignores g_teleport_maxspeed</flag>
 <flag key="INVERT_TEAM" name="INVERT_TEAM" bit="2">the team that owns the teleporter will NOT teleport when touching this</flag>
 </group>
 
-<point name="weapon_crylink" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_crylink" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Crylink
 -------- KEYS --------
 <real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, g_pickup_cells is used)</real>
@@ -1384,7 +1413,7 @@ the Crylink
 modeldisabled=&quot;models/weapons/g_crylink.md3&quot;
 </point>
 
-<point name="weapon_electro" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_electro" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Electro
 -------- KEYS --------
 <real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, g_pickup_cells is used)</real>
@@ -1398,7 +1427,7 @@ the Electro
 modeldisabled=&quot;models/weapons/g_electro.md3&quot;
 </point>
 
-<point name="weapon_mortar" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_mortar" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Mortar
 -------- KEYS --------
 <real key="ammo_rockets" name="ammo_rockets">initial rockets of the weapon (if unset, g_pickup_rockets is used)</real>
@@ -1412,7 +1441,7 @@ the Mortar
 modeldisabled=&quot;models/weapons/g_gl.md3&quot;
 </point>
 
-<point name="weapon_hagar" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_hagar" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Hagar
 -------- KEYS --------
 <real key="ammo_rockets" name="ammo_rockets">initial rockets of the weapon (if unset, g_pickup_rockets is used)</real>
@@ -1426,7 +1455,7 @@ the Hagar
 modeldisabled=&quot;models/weapons/g_hagar.md3&quot;
 </point>
 
-<point name="weapon_blaster" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_blaster" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Blaster. Note that unless you use
   settemp_for_type all g_balance_blaster_weaponstart 0
 in your mapinfo file, everyone will already spawn with one, making this pickup useless.
@@ -1441,12 +1470,12 @@ in your mapinfo file, everyone will already spawn with one, making this pickup u
 modeldisabled=&quot;models/weapons/g_laser.md3&quot;
 </point>
 
-<point name="weapon_vortex" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_vortex" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Vortex
 In Instagib, this turns into an item_vaporizer_cells if no explicit item_vaporizer_cells have been placed.
 -------- KEYS --------
 <real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, g_pickup_cells is used)</real>
-<real key="respawntime" name="respawntime">time till it respawns (default: 15 * g_balance_vortex_respawntime_modifier)</real>
+<real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
@@ -1456,7 +1485,7 @@ In Instagib, this turns into an item_vaporizer_cells if no explicit item_vaporiz
 modeldisabled=&quot;models/weapons/g_nex.md3&quot;
 </point>
 
-<point name="weapon_devastator" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_devastator" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Devastator
 In Instagib, this turns into an item_vaporizer_cells if no explicit item_vaporizer_cells have been placed.
 -------- KEYS --------
@@ -1471,7 +1500,7 @@ In Instagib, this turns into an item_vaporizer_cells if no explicit item_vaporiz
 modeldisabled=&quot;models/weapons/g_rl.md3&quot;
 </point>
 
-<point name="weapon_shotgun" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_shotgun" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Shotgun. Note that unless you use
   settemp_for_type all g_balance_shotgun_weaponstart 0
 in your mapinfo file, everyone will already spawn with one, making this pickup useless.
@@ -1487,7 +1516,7 @@ in your mapinfo file, everyone will already spawn with one, making this pickup u
 modeldisabled=&quot;models/weapons/g_shotgun.md3&quot;
 </point>
 
-<point name="weapon_machinegun" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_machinegun" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Machine Gun
 -------- KEYS --------
 <real key="ammo_nails" name="ammo_nails">initial bullets of the weapon (if unset, g_pickup_nails is used)</real>
@@ -1499,6 +1528,20 @@ the Machine Gun
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
 modeldisabled=&quot;models/weapons/g_uzi.md3&quot;
+</point>
+
+<point name="weapon_arc" color="1 0 .5" box="-30 -30 0 30 30 48">
+the Arc (experimental weapon)
+-------- KEYS --------
+<real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, g_pickup_cells is used)</real>
+<real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
+<real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
+<integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
+<real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
+-------- SPAWNFLAGS --------
+<flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+modeldisabled=&quot;models/weapons/g_arc.md3&quot;
 </point>
 
 <group name="worldspawn" color="0 0 0">
@@ -1675,6 +1718,11 @@ A brush that when entered changes the player's view to a position between target
 <flag key="NOSIDESCROLL" name="NOSIDESCROLL" bit="0">allow regular aiming and movement while forcing the camera between the viewlocation points</flag>
 <flag key="FREEAIM" name="FREEAIM" bit="1">show a crosshair on screen and allow 2d aiming instead of only forward</flag>
 <flag key="FREEMOVE" name="FREEMOVE" bit="2">allow moving up and down as well in side-scrolling mode, useful for brawlers</flag>
+<flag key="CAM_TRACK" name="CAM_TRACK" bit="3">follow the player when they leave the trigger's start and end boundaries</flag>
+<flag key="CAM_NOANGLE" name="CAM_NOANGLE" bit="4">don't use the camera's angles for the view</flag>
+<flag key="CAM_SNAP_HARD" name="CAM_SNAP_HARD" bit="5">hard snap changes the angle as soon as it crosses over the nearest 90 degree mark</flag>
+<flag key="CAM_SNAP_UNLOCK" name="CAM_SNAP_UNLOCK" bit="6">unlock the camera's view to allow up and down angles (useful for top-down view camera)</flag>
+<flag key="CAM_SNAP_CLOSE" name="CAM_SNAP_CLOSE" bit="7">avoid snapping the view angles unless absolutely necessary</flag>
 </group>
 
 <point name="target_viewlocation_start" color="0 .5 0" box="-8 -8 -8 8 8 8">
@@ -1701,7 +1749,7 @@ Makes one entity follow another. Will not work with all entities.
 <flag key="LOCAL" name="LOCAL" bit="1">do not untransform the coordinates (that is, the map specifies local coordinates, not global ones). Mostly useful with ATTACH.</flag>
 </point>
 
-<point name="weapon_vaporizer" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_vaporizer" color="1 0 .5" box="-30 -30 0 30 30 48">
 Placing this entity on a map kills your cat, voids the warranty on your toaster, and makes your map an unenjoyable campers' paradise.
 the InstaGib Vortex. Always kills with one shot.
 -------- KEYS --------
@@ -1716,7 +1764,7 @@ the InstaGib Vortex. Always kills with one shot.
 modeldisabled=&quot;models/weapons/g_minstanex.md3&quot;
 </point>
 
-<point name="weapon_porto" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_porto" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Port-O-Launch. Only can be shot once.
 Portals cannot be made on noimpact surfaces, and the portal missile will bounce on slick surfaces.
 -------- KEYS --------
@@ -1808,8 +1856,8 @@ Example is a Mario-style question mark block which could throw a new weapon_vort
 <flag key="ONLOAD" name="ONLOAD" bit="1">create a first entity on map load</flag>
 </point>
 
-<group name="misc_breakablemodel" color="1 0 0">
-This is a model which can be damaged.
+<point name="misc_breakablemodel" color="1 0 0" box="-8 -8 -8 8 8 8">
+This is a model which can be damaged (the model is used for collisions in-game, not the bbox).
 Once all health is consumed it'll disappear and trigger the targeted entity/entities.
 When triggered, it resets to full health, and unbreaks.
 -------- KEYS --------
@@ -1844,8 +1892,8 @@ When triggered, it resets to full health, and unbreaks.
 -------- SPAWNFLAGS --------
 <flag key="DISABLED" name="DISABLED" bit="0">do not allow damaging this until it is first activated</flag>
 <flag key="INDICATE" name="INDICATE" bit="1">indicate amount of damage already taken by coloring</flag>
-<flag key="NOSPLASH" name="NOSPLASH" bit="8">if set, splash damage cannot activate the door, only direct damage can (requires health to be set)</flag>
-</group>
+<flag key="NOSPLASH" name="NOSPLASH" bit="8">if set, splash damage has no effect, only direct damage has (requires health to be set)</flag>
+</point>
 
 <group name="func_breakable" color="1 0 0">
 This is a brush model which can be damaged.
@@ -1899,7 +1947,7 @@ Relays the trigger event if a cvar is set to a specified value.
 <flag key="NEGATE" name="NEGATE" bit="0">trigger if the cvar does NOT match the value.</flag>
 </point>
 
-<point name="weapon_hlac" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_hlac" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Heavy Laser Assault Cannon.
 -------- KEYS --------
 <real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, g_pickup_cells is used)</real>
@@ -1913,7 +1961,7 @@ the Heavy Laser Assault Cannon.
 modeldisabled=&quot;models/weapons/g_hlac.md3&quot;
 </point>
 
-<point name="weapon_minelayer" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_minelayer" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Mine Layer.
 -------- KEYS --------
 <real key="ammo_rockets" name="ammo_rockets">initial rockets of the weapon (if unset, g_pickup_rockets is used)</real>
@@ -1927,7 +1975,7 @@ the Mine Layer.
 modeldisabled=&quot;models/weapons/g_minelayer.md3&quot;
 </point>
 
-<point name="weapon_seeker" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_seeker" color="1 0 .5" box="-30 -30 0 30 30 48">
 Placing this entity on a map kills your dog, voids the warranty on your car, and makes your map an unenjoyable noobs' paradise.
 the T.A.G. Seeker.
 -------- KEYS --------
@@ -1942,7 +1990,7 @@ the T.A.G. Seeker.
 modeldisabled=&quot;models/weapons/g_seeker.md3&quot;
 </point>
 
-<point name="weapon_hook" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_hook" color="1 0 .5" box="-30 -30 0 30 30 48">
 the on-hand Grappling Hook.
 -------- KEYS --------
 <real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, g_pickup_cells is used)</real>
@@ -1978,7 +2026,7 @@ Target version of trigger_heal. Heals the activator.
 <flag key="SOUND_ALWAYS" name="SOUND_ALWAYS" bit="2">play the sound even if the player is fully healed</flag>
 </point>
 
-<point name="weapon_rifle" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_rifle" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Sniper Rifle.
 -------- KEYS --------
 <real key="ammo_nails" name="ammo_nails">initial bullets of the weapon (if unset, g_pickup_nails is used)</real>
@@ -2306,7 +2354,7 @@ Triggers targets when a given magic word has been said
 <flag key="TUBA_EXACTPITCH" name="TUBA_EXACTPITCH" bit="9">the note pitch must be accurate and cannot be transposed</flag>
 </point>
 
-<point name="weapon_fireball" color="1 0 .5" box="-30 -30 0 30 30 32">
+<point name="weapon_fireball" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Fireball
 -------- KEYS --------
 <real key="ammo_rockets" name="ammo_rockets">initial rockets of the weapon (if unset, g_pickup_rockets is used)</real>
@@ -2417,9 +2465,11 @@ trigger_heal
 trigger_impulse
 trigger_music
 trigger_push
+trigger_push_velocity
 trigger_teleport
 target_heal
 target_kill
+target_speed
 func_rotating
 func_bobbing
 func_button
@@ -2443,9 +2493,11 @@ trigger_heal
 trigger_impulse
 trigger_music
 trigger_push
+trigger_push_velocity
 trigger_teleport
 target_heal
 target_kill
+target_speed
 func_rotating
 func_bobbing
 func_button
@@ -2469,9 +2521,11 @@ trigger_heal
 trigger_impulse
 trigger_music
 trigger_push
+trigger_push_velocity
 trigger_teleport
 target_heal
 target_kill
+target_speed
 func_rotating
 func_bobbing
 func_button
@@ -2747,5 +2801,53 @@ Its main weapon is a healing ray that can heal teammates and their vehicles.
 Secondary matches primary, but the vehicle can hold 2 extra players who act as gunners with the side cannons.
 -------- KEYS --------
 <integer key="team" name="team">5=red, 14=blue, 13=yellow, 10=pink</integer>
+</point>
+
+<group name="trigger_push_velocity" color=".5 .5 .5" box="-8 -8 -8 8 8 8">
+This is used to create jump pads and launch ramps. It MUST point to a target_position or info_notnull entity to work.  This is similar to a jumppad, however, it may be configured to add to the player's velocity, as opposed to just setting it.
+-------- KEYS --------
+<target key="target" name="target">this points to the target_position to which the player will jump.</target>
+<real key="speed" name="speed">XY speed for player-directional velocity pads - either sets or adds to the player's horizontal velocity.</real>
+<real key="count" name="count">Z speed for player-directional velocity pads - either sets or adds to the player's vertical velocity.</real>
+<sound key="noise" name="noise">sound to play when jump pad is used; default is misc/jumppad.wav; you can set it to &quot;&quot; to make the pad silent</sound>
+<integer key="team" name="team">team that owns this jump pad (5 = red, 14 = blue, etc) (when set, only this team can jump)</integer>
+<targetname key="targetname" name="targetname">when targeted by a func_button, pressing the button will reassign the jump pad to the team of the activator.</targetname>
+-------- SPAWNFLAGS --------
+<flag key="PLAYERDIR_XY" name="Playerdir_xy" bit="0">if set, trigger will apply the horizontal speed in the player's horizontal direction of travel, otherwise it uses the target XY component.</flag>
+<flag key="ADD_XY" name="Add_xy" bit="1">if set, trigger will add to the player's horizontal velocity, otherwise it sets the player's horizontal velocity.</flag>
+<flag key="PLAYERDIR_Z" name="Playerdir_z" bit="2">if set, trigger will apply the vertical speed in the player's vertical direction of travel, otherwise it uses the target Z component.</flag>
+<flag key="ADD_Z" name="Add_z" bit="3">if set, trigger will add to the player's vertical velocity, otherwise it sets the player's vertical velocity.</flag>
+<flag key="BIDIRECTIONAL_XY" name="Bidirectional_xy" bit="4">if set, non-playerdir velocity pads will function in 2 directions based on the target specified. The chosen direction is based on the current direction of travel. Applies to horizontal direction.</flag>
+<flag key="BIDIRECTIONAL_Z" name="Bidirectional_z" bit="5">if set, non-playerdir velocity pads will function in 2 directions based on the target specified. The chosen direction is based on the current direction of travel. Applies to vertical direction.</flag>
+<flag key="CLAMP_NEGATIVE_ADDS" name="Clamp_negative_adds" bit="6">if set, then a velocity pad that adds negative velocity will be clamped to 0, if the resultant velocity would bounce the player in the opposite direction.</flag>
+<flag key="STATIC" name="STATIC" bit="12">push force stays the same no matter where the trigger is hit, the center of the trigger is used as a starting point for trajectory calculation instead of the player position, matches Quake 3 behavior</flag>
+-------- NOTES --------
+To make a jump pad or launch ramp, place the target_position/info_notnull entity at the highest point of the jump and target it with this entity.
+</group>
+
+<point name="target_speed" color="1 1 0" box="-8 -8 -8 8 8 8">
+Sets the speed of the player.
+If ADD is speficied, negative values will reduce the speed.
+-------- KEYS --------
+<targetname key="targetname" name="targetname">Activating trigger points to this.</targetname>
+<real key="speed" name="speed">Speed value to set (default: 100). A value of 0 will be interpreted as such and not as the default value.</real>
+-------- SPAWNFLAGS --------
+<flag key="PERCENTAGE" name="Percentage" bit="0">value is treated as percentage of current speed</flag>
+<flag key="ADD" name="Add" bit="1">adds the speed instead of setting it</flag>
+<flag key="+X" name="+x" bit="2">takes positive X-direction into account</flag>
+<flag key="-X" name="-x" bit="3">takes negative X-direction into account</flag>
+<flag key="+Y" name="+y" bit="4">takes positive Y-direction into account</flag>
+<flag key="-Y" name="-y" bit="5">takes negative Y-direction into account</flag>
+<flag key="+Z" name="+z" bit="6">takes positive Z-direction (up) into account</flag>
+<flag key="-Z" name="-z" bit="7">takes negative Z-direction (down) into account</flag>
+<flag key="LAUNCHER" name="Launcher" bit="8">will accelerate the player into the given direction (spawnflags)</flag>
+-------- NOTES --------
+If LAUNCHER isn't specified the player will only be accelerated if he is moving
+while the target_speed is triggered, as the player needs a moving direction and this is
+only given when he moves. LAUNCHER will split the given speed value to the given
+directions. Note that only one of the spawnflags for each coordinate must be set. For
+example if +X and -X is active the x-direction will be ignored. The same is the case
+if whether +X nor -X is active. So if you want to accelerate the player up with 900u
+you have to set the speed value to 900 and activate the spawnflags +Z and LAUNCHER.
 </point>
 </classes>

@@ -21,14 +21,16 @@ logos
 map_atelier
 map_boil
 map_catharsis
+map_bromine
 map_courtfun
 map_darkzone
 map_erbium
 map_geoplanetary
 map_glowplant
+map_go
 map_implosion
 map_leave_em_behind
-map_oilrig
+map_opium
 map_silentsiege
 map_solarium
 map_space-elevator
@@ -58,6 +60,8 @@ skies_exosystem
 skies_extragalactic
 skies_heaven
 skies_polluted_earth
+skies_purple_nebulae
+solarpanel
 stein1x
 techpanelx
 terrain01x
