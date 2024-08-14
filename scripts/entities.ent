@@ -43,7 +43,7 @@ model should be set to models/domination/dom_&lt;team&gt;.md3, where &lt;team&gt
 -------- KEYS --------
 <string key="netname" name="netname">name of team (Red Team).  Set to &quot;&quot; or don't define for the required blank team.</string>
 <real key="cnt" name="cnt">color of the team.  See the &quot;Helpful Extras&quot; section in Docs/mapping.txt for info.</real>
-<model key="model" name="model">When this team captures control points, the points turn to this model.  If this is the neutral team, points start out as this model.</model>
+<string key="model" name="model">When this team captures control points, the points turn to this model.  If this is the neutral team, points start out as this model.</string>
 <sound key="noise" name="noise">Sound to be played on the control point when it's captured.  Only players nearby will hear it.</sound>
 <sound key="noise1" name="noise1">Sound to be played to all players when the control point is captured.  Also good for an announcer voice (&quot;Red Team has captured a control point&quot;)</sound>
 </point>
@@ -471,7 +471,7 @@ Mega Armor (default 100 armor points)
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
-<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
 <targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
@@ -492,7 +492,7 @@ Big Armor (default 50 armor points)
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
-<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
 <targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
@@ -513,7 +513,7 @@ Medium Armor (default 25 armor points)
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
-<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
 <targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
@@ -534,7 +534,7 @@ Small Armor (default 5 armor points)
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
-<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
 <targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
@@ -554,7 +554,7 @@ Machine Gun ammo
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
-<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
 <targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
@@ -573,7 +573,7 @@ Vortex, Electro and Crylink ammo
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
-<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
 <targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
@@ -586,7 +586,7 @@ modeldisabled=&quot;models/items/a_cells.md3&quot;
 <point name="item_flag_team1" color="1 0 0" box="-32 -32 0 32 32 74">
 CTF flag for team one (Red). Use more than one if you really insist.
 -------- KEYS --------
-<model key="model" name="model">model to use</model>
+<string key="model" name="model">model to use</string>
 <real key="scale" name="scale">scaling factor (DO set this when using your own model!)</real>
 <sound key="noise" name="noise">sound played when flag is picked up</sound>
 <sound key="noise1" name="noise1">sound played when flag is returned</sound>
@@ -599,7 +599,7 @@ zbqry=&quot;zbqryf/pgs/enqvnag/synt_erq_enqvnag.zq3&quot;
 <point name="item_flag_team2" color="0 0 1" box="-32 -32 0 32 32 74">
 CTF flag for team two (Blue). Use more than one if you really insist.
 -------- KEYS --------
-<model key="model" name="model">model to use</model>
+<string key="model" name="model">model to use</string>
 <real key="scale" name="scale">scaling factor (DO set this when using your own model!)</real>
 <sound key="noise" name="noise">sound played when flag is picked up</sound>
 <sound key="noise1" name="noise1">sound played when flag is returned</sound>
@@ -612,7 +612,7 @@ zbqry=&quot;zbqryf/pgs/enqvnag/synt_oyhr_enqvnag.zq3&quot;
 <point name="item_flag_team3" color="1 1 0" box="-32 -32 0 32 32 74">
 CTF flag for team three (Yellow). Use more than one if you really insist.
 -------- KEYS --------
-<model key="model" name="model">model to use</model>
+<string key="model" name="model">model to use</string>
 <real key="scale" name="scale">scaling factor (DO set this when using your own model!)</real>
 <sound key="noise" name="noise">sound played when flag is picked up</sound>
 <sound key="noise1" name="noise1">sound played when flag is returned</sound>
@@ -625,7 +625,7 @@ zbqry=&quot;zbqryf/pgs/enqvnag/synt_erq_enqvnag.zq3&quot;
 <point name="item_flag_team4" color="1 0 1" box="-32 -32 0 32 32 74">
 CTF flag for team four (Pink). Use more than one if you really insist.
 -------- KEYS --------
-<model key="model" name="model">model to use</model>
+<string key="model" name="model">model to use</string>
 <real key="scale" name="scale">scaling factor (DO set this when using your own model!)</real>
 <sound key="noise" name="noise">sound played when flag is picked up</sound>
 <sound key="noise1" name="noise1">sound played when flag is returned</sound>
@@ -645,7 +645,7 @@ Big Health (default 50 health points)
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
-<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
 <targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
@@ -666,7 +666,7 @@ Medium Health (default 25 health points)
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
-<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
 <targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
@@ -688,7 +688,7 @@ In Instagib, this randomly turns into either an invisibility, an extra lives or 
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
-<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
 <targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
@@ -709,7 +709,7 @@ Small Health (default 5 health points)
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
-<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
 <targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
@@ -729,7 +729,7 @@ In Instagib, this randomly turns into either an invisibility, an extra lives or 
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
-<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
 <targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
@@ -748,7 +748,7 @@ Faster movement and shooting
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
-<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
 <targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
@@ -767,7 +767,7 @@ Low visibility
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
-<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
 <targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
@@ -794,7 +794,7 @@ Keys with bigger Id than 32 don't have a default netname and model, if you use o
 <color key="colormod" name="colormod">color of the key (default: '.9 .9 .9').</color>
 <real key="itemkeys" name="itemkeys">a key Id.</real>
 <string key="message" name="message">message to print when player picks up this key.</string>
-<model key="model" name="model">custom key model to use.</model>
+<string key="model" name="model">custom key model to use.</string>
 <string key="netname" name="netname">the display name of the key.</string>
 <sound key="noise" name="noise">custom sound to play when player picks up the key.</sound>
 -------- SPAWNFLAGS --------
@@ -811,7 +811,7 @@ SILVER key.
 -----------KEYS------------
 <color key="colormod" name="colormod">color of the key (default: '.9 .9 .9').</color>
 <string key="message" name="message">message to print when player picks up this key.</string>
-<model key="model" name="model">custom model to use.</model>
+<string key="model" name="model">custom model to use.</string>
 <sound key="noise" name="noise">custom sound to play when player picks up the key.</sound>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
@@ -824,7 +824,7 @@ GOLD key.
 -----------KEYS------------
 <color key="colormod" name="colormod">color of the key (default: '1 .9 0').</color>
 <string key="message" name="message">message to print when player picks up this key.</string>
-<model key="model" name="model">custom model to use.</model>
+<string key="model" name="model">custom model to use.</string>
 <sound key="noise" name="noise">custom sound to play when player picks up the key.</sound>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
@@ -844,7 +844,7 @@ It only appears when playing Instagib and prevents auto-replacement of weapon_vo
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
-<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
 <targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
@@ -863,7 +863,7 @@ Devastator, Hagar and Mortar ammo
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
-<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
 <targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
@@ -882,7 +882,7 @@ Shotgun ammo
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
-<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
 <targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
@@ -901,7 +901,7 @@ In Instagib, this randomly turns into either an invisibility, an extra lives or 
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
-<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
 <targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
@@ -1524,7 +1524,7 @@ the Crylink
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
-<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
 <targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
@@ -1544,7 +1544,7 @@ the Electro
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
-<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
 <targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
@@ -1564,7 +1564,7 @@ the Mortar
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
-<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
 <targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
@@ -1584,7 +1584,7 @@ the Hagar
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
-<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
 <targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
@@ -1605,7 +1605,7 @@ in your mapinfo file, everyone will already spawn with one, making this pickup u
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
-<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
 <targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
@@ -1626,7 +1626,7 @@ In Instagib, this turns into an item_vaporizer_cells if no explicit item_vaporiz
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
-<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
 <targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
@@ -1647,7 +1647,7 @@ In Instagib, this turns into an item_vaporizer_cells if no explicit item_vaporiz
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
-<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
 <targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
@@ -1669,7 +1669,7 @@ in your mapinfo file, everyone will already spawn with one, making this pickup u
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
-<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
 <targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
@@ -1689,7 +1689,7 @@ the Machine Gun
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
-<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
 <targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
@@ -1709,7 +1709,7 @@ the Arc (experimental weapon)
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
-<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
 <targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
@@ -1947,7 +1947,7 @@ the InstaGib Vortex. Always kills with one shot.
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
-<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
 <targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
@@ -1967,7 +1967,7 @@ Portals cannot be made on noimpact surfaces, and the portal missile will bounce 
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
-<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
 <targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
@@ -2160,7 +2160,7 @@ the Heavy Laser Assault Cannon.
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
-<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
 <targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
@@ -2180,7 +2180,7 @@ the Mine Layer.
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
-<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
 <targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
@@ -2201,7 +2201,7 @@ the T.A.G. Seeker.
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
-<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
 <targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
@@ -2221,7 +2221,7 @@ the on-hand Grappling Hook.
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
-<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
 <targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
@@ -2263,7 +2263,7 @@ the Sniper Rifle.
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
-<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
 <targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
@@ -2505,7 +2505,7 @@ When the ball touches this, it is returned.
 <point name="nexball_football" color=".9 .9 .9" box="-16 -16 -16 16 16 16">
 The soccer type Nexball.
 -------- KEYS --------
-<model key="model" name="model">set this if you want to use your own model</model>
+<string key="model" name="model">set this if you want to use your own model</string>
 <real key="scale" name="scale">if you're using your own model, change this to scale it to 32*32*32</real>
 <sound key="noise" name="noise">played when the ball bounces</sound>
 <sound key="noise1" name="noise1">played when the ball is dropped on the map</sound>
@@ -2514,7 +2514,7 @@ The soccer type Nexball.
 <point name="nexball_basketball" color=".5 .2 0" box="-16 -16 -16 16 16 16">
 The basketball type Nexball.
 -------- KEYS --------
-<model key="model" name="model">set this if you want to use your own model</model>
+<string key="model" name="model">set this if you want to use your own model</string>
 <real key="scale" name="scale">if you're using your own model, change this to scale it to 32*32*32</real>
 <sound key="noise" name="noise">played when the ball bounces</sound>
 <sound key="noise1" name="noise1">played when the ball is dropped on the map</sound>
@@ -2557,7 +2557,7 @@ Jetpack
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
-<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
 <targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
@@ -2603,7 +2603,7 @@ the Fireball
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
-<model key="model" name="model">model to use, leave blank to use the item's regular model</model>
+<string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
 <targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
 -------- SPAWNFLAGS --------
