@@ -1849,7 +1849,7 @@ Specialised version of func_pointparticles
 <target key="target2" name="target2">trigger all entities with this targetname when triggered</target>
 <target key="target3" name="target3">trigger all entities with this targetname when triggered</target>
 <target key="target4" name="target4">trigger all entities with this targetname when triggered</target>
-<targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
+<boolean key="target_random" name="target_random">instead of triggering ALL matched entities, trigger ONE of them by random</boolean>
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
 <real key="trigger_reverse" name="trigger_reverse">open &quot;func_door_rotating&quot; with &quot;BIDIR&quot; in reverse direction</real>
 -------- SPAWNFLAGS --------
@@ -1863,7 +1863,7 @@ Specialised version of func_pointparticles
 <target key="target2" name="target2">trigger all entities with this targetname when triggered</target>
 <target key="target3" name="target3">trigger all entities with this targetname when triggered</target>
 <target key="target4" name="target4">trigger all entities with this targetname when triggered</target>
-<targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
+<boolean key="target_random" name="target_random">instead of triggering ALL matched entities, trigger ONE of them by random</boolean>
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
 <real key="wait" name="wait">time to wait until the &quot;off&quot; event is fired</real>
 -------- SPAWNFLAGS --------
@@ -1877,7 +1877,7 @@ Specialised version of func_pointparticles
 <target key="target2" name="target2">trigger all entities with this targetname when triggered</target>
 <target key="target3" name="target3">trigger all entities with this targetname when triggered</target>
 <target key="target4" name="target4">trigger all entities with this targetname when triggered</target>
-<targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
+<boolean key="target_random" name="target_random">instead of triggering ALL matched entities, trigger ONE of them by random</boolean>
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
 <real key="phase" name="phase">phase of the multivibrator (it is added to the time)</real>
 <real key="wait" name="wait">&quot;on&quot; cycle time (default: 1)</real>
