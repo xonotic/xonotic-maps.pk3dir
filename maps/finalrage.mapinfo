@@ -5,10 +5,13 @@ cdtrack 17
 has weapons
 gametype dm
 gametype tdm
-gametype dom
 gametype lms
 gametype ca
 gametype ft
-gametype kh
 gametype ka
+gametype tka
+gametype dom
 gametype duel
+gametype mayhem
+gametype tmayhem
+gametype surv
