@@ -9,5 +9,9 @@ gametype lms
 gametype ca
 gametype ft
 gametype ka
+gametype tka
 gametype kh
 gametype dom
+gametype mayhem
+gametype tmayhem
+gametype surv

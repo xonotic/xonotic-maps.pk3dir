@@ -4,10 +4,14 @@ author Cortez, CuBe0wL, SavageX, Mossepo
 cdtrack 15
 has weapons
 gametype dm
-gametype lms
-gametype ka
 gametype tdm
+gametype lms
 gametype ca
-gametype kh
 gametype ft
+gametype ka
+gametype tka
+gametype kh
 gametype duel
+gametype mayhem
+gametype tmayhem
+gametype surv
