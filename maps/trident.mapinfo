@@ -5,8 +5,12 @@ cdtrack 2
 has weapons
 gametype dm
 gametype tdm
+gametype lms
 gametype ca
 gametype ft
 gametype ka
+gametype tka
 gametype kh
-gametype lms
+gametype mayhem
+gametype tmayhem
+gametype surv

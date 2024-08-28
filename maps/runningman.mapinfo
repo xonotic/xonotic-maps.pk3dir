@@ -4,6 +4,14 @@ author FruitieX, Cortez, Strahlemann, Debugger
 cdtrack 6
 has weapons
 gametype dm
+gametype tdm
 gametype lms
+gametype ca
+gametype ft
 gametype ka
+gametype tka
+gametype kh
 gametype duel
+gametype mayhem
+gametype tmayhem
+gametype surv

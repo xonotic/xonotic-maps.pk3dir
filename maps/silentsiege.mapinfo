@@ -4,11 +4,15 @@ author Justin, kuniu the frogg
 cdtrack 2
 has weapons
 gametype dm
-gametype lms
 gametype tdm
+gametype lms
 gametype ca
 gametype ft
 gametype ka
+gametype tka
 gametype kh
 gametype dom
 gametype duel
+gametype mayhem
+gametype tmayhem
+gametype surv

@@ -7,7 +7,10 @@ gametype dm
 gametype tdm
 gametype lms
 gametype ca
-gametype ka
-gametype kh
 gametype ft
+gametype ka
+gametype tka
 gametype duel
+gametype mayhem
+gametype tmayhem
+gametype surv

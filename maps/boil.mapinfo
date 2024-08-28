@@ -8,6 +8,10 @@ gametype tdm
 gametype lms
 gametype ca
 gametype ft
-gametype kh
 gametype ka
+gametype tka
+gametype kh
 gametype duel
+gametype mayhem
+gametype tmayhem
+gametype surv

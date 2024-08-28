@@ -5,7 +5,7 @@
 "dm","boil","5","2","10",,,"Deathmatch: Boil","Welcome to Xonotic!\nWe'll start off easy with Deathmatch against 5 bots on Boil.\nXonotic is mainly a multiplayer game, but before jumping into online games it might be a good idea to practice a bit versus bots."
 "tdm","stormkeep","5","2",,"5",,"Team Deathmatch: Stormkeep","Next we'll try some 3v3 Team Deathmatch on Stormkeep.\nYou'll have to do your best for five minutes, because the team with the highest score is going to be the winning team!"
 "mayhem","warfare","5","2",,"5",,"Mayhem: Warfare","Free For All Mayhem for five minutes!\nIn this game mode, you spawn with all weapons and a full health and armor stack. Self-damage is off, the player who deals the most damage and gets the most frags wins the game!"
-"ctf","dance","9","3","3",,,"Capture the Flag: Dance","In CTF you have to take the other team's flag and bring it to your base. Your own flag has to be in your base for a successful capture!\n3 captures to win. "
+"ctf","dance","9","3","3",,,"Capture the Flag: Dance","In CTF you have to take the other team's flag and bring it back to your base, over your own flag. 3 captures to win."
 "dm","finalrage","6","3","15",,,"Deathmatch: Final Rage","Again a DM match, but the bots are slightly better now."
 "dom","atelier","11","4","50",,,"Domination: Atelier","Defend the control points and kill intruders to win."
 "kh","runningmanctf","5","5","500",,,"Key Hunt: Running Man","Every team holds a key. You have to collect them (kill their carriers and pick them up) and meet with the other key carriers in your team."

@@ -4,10 +4,14 @@ author ShadoW, Mirio, Debugger
 cdtrack 19
 has weapons
 gametype dm
-gametype lms
 gametype tdm
+gametype lms
 gametype ca
 gametype ft
 gametype ka
+gametype tka
 gametype kh
 gametype dom
+gametype mayhem
+gametype tmayhem
+gametype surv
