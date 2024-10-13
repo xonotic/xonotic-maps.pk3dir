@@ -1,0 +1,17 @@
+title Monstrosity
+description A large-sized map suited for CA and TDM
+author Mossepo
+cdtrack 21
+has weapons
+gametype dm
+gametype tdm
+gametype lms
+gametype ca
+gametype ft
+gametype ka
+gametype tka
+gametype kh
+gametype mayhem
+gametype tmayhem
+gametype surv
+clientsettemp_for_type all r_water 0
