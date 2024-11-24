@@ -24046,21 +24046,6 @@ exx/base-crete03
 "light" "31.25"
 }
 {
-"classname" "weapon_campingrifle"
-"origin" "-1120.000000 320.000000 352.000000"
-"respawntime" "1"
-}
-{
-"classname" "item_bullets"
-"origin" "-1048.000000 320.000000 352.000000"
-"respawntime" "5"
-}
-{
-"classname" "item_bullets"
-"origin" "-1184.000000 320.000000 352.000000"
-"respawntime" "5"
-}
-{
 "classname" "weapon_vortex"
 "origin" "-1120.000000 -320.000000 352.000000"
 "respawntime" "1"
@@ -24383,23 +24368,8 @@ exx/base-crete03
 "target" "target_objective_relais"
 }
 {
-"classname" "weapon_campingrifle"
-"origin" "-4480.000000 72.000000 -32.000000"
-"respawntime" "1"
-}
-{
-"classname" "item_bullets"
-"origin" "-4480.000000 128.000000 -32.000000"
-"respawntime" "5"
-}
-{
 "classname" "item_bullets"
 "origin" "-4480.000000 -128.000000 -32.000000"
-"respawntime" "5"
-}
-{
-"classname" "item_bullets"
-"origin" "-4480.000000 8.000000 -32.000000"
 "respawntime" "5"
 }
 {
@@ -28359,13 +28329,8 @@ exx/trim-baseboard
 "origin" "104.000000 -2688.000000 48.000000"
 }
 {
-"classname" "weapon_minelayer"
-"origin" "-800.000000 -584.000000 352.000000"
-"respawntime" "1"
-}
-{
 "classname" "item_rockets"
-"origin" "-800.000000 -640.000000 352.000000"
+"origin" "-800.000000 -656.000000 352.000000"
 }
 {
 "classname" "item_rockets"
@@ -29278,4 +29243,39 @@ exx/trim-baseboard
 "classname" "info_autoscreenshot"
 "origin" "5292.1416 698.883057 490.090668"
 "angles" "2.64221191 -45.9338379 0"
+}
+{
+"classname" "weapon_hagar"
+"origin" "-800.000000 -584.000000 352.000000"
+"respawntime" "1"
+}
+{
+"classname" "weapon_vortex"
+"origin" "-1120.000000 320.000000 352.000000"
+"respawntime" "1"
+}
+{
+"classname" "item_cells"
+"origin" "-1048.000000 320.000000 352.000000"
+"respawntime" "5"
+}
+{
+"classname" "item_cells"
+"origin" "-1184.000000 320.000000 352.000000"
+"respawntime" "5"
+}
+{
+"classname" "weapon_vortex"
+"origin" "-4480.000000 72.000000 -32.000000"
+"respawntime" "1"
+}
+{
+"classname" "item_cells"
+"origin" "-4480.000000 136.000000 -32.000000"
+"respawntime" "5"
+}
+{
+"classname" "item_bullets"
+"origin" "-4480.000000 8.000000 -32.000000"
+"respawntime" "5"
 }
