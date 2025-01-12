@@ -1701,7 +1701,8 @@ modeldisabled=&quot;models/weapons/g_uzi.md3&quot;
 </point>
 
 <point name="weapon_arc" color="1 0 .5" box="-30 -30 0 30 30 48">
-the Arc (experimental weapon)
+the Arc
+NOTE: this weapon is part of the "New Toys" and may be removed from a future version of the game. Use at your own risk.
 -------- KEYS --------
 <real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, g_pickup_cells is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
@@ -2153,6 +2154,7 @@ Relays the trigger event if a cvar is set to a specified value.
 
 <point name="weapon_hlac" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Heavy Laser Assault Cannon.
+NOTE: this weapon is part of the "New Toys" and may be removed from a future version of the game. Use at your own risk.
 -------- KEYS --------
 <real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, g_pickup_cells is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 30)</real>
@@ -2173,6 +2175,7 @@ modeldisabled=&quot;models/weapons/g_hlac.md3&quot;
 
 <point name="weapon_minelayer" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Mine Layer.
+NOTE: this weapon is part of the "New Toys" and may be removed from a future version of the game. Use at your own risk.
 -------- KEYS --------
 <real key="ammo_rockets" name="ammo_rockets">initial rockets of the weapon (if unset, g_pickup_rockets is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 30)</real>
@@ -2194,6 +2197,7 @@ modeldisabled=&quot;models/weapons/g_minelayer.md3&quot;
 <point name="weapon_seeker" color="1 0 .5" box="-30 -30 0 30 30 48">
 Placing this entity on a map kills your dog, voids the warranty on your car, and makes your map an unenjoyable noobs' paradise.
 the T.A.G. Seeker.
+NOTE: this weapon is part of the "New Toys" and may be removed from a future version of the game. Use at your own risk.
 -------- KEYS --------
 <real key="ammo_rockets" name="ammo_rockets">initial rockets of the weapon (if unset, g_pickup_rockets is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 30)</real>
@@ -2256,6 +2260,7 @@ Target version of trigger_heal. Heals the activator.
 
 <point name="weapon_rifle" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Sniper Rifle.
+NOTE: this weapon is part of the "New Toys" and may be removed from a future version of the game. Use at your own risk.
 -------- KEYS --------
 <real key="ammo_nails" name="ammo_nails">initial bullets of the weapon (if unset, g_pickup_nails is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 30)</real>
