@@ -37119,16 +37119,6 @@ brushDef
 }
 {
 "classname" "light"
-"origin" "2024.000000 -768.000000 312.000000"
-"light" "50"
-}
-{
-"classname" "light"
-"origin" "2024.000000 -768.000000 432.000000"
-"light" "50"
-}
-{
-"classname" "light"
 "origin" "1904.000000 -352.000000 560.000000"
 "light" "50"
 }
@@ -37160,31 +37150,6 @@ brushDef
 {
 "classname" "light"
 "origin" "1904.000000 -96.000000 688.000000"
-"light" "50"
-}
-{
-"classname" "light"
-"origin" "2032.000000 -328.000000 176.000000"
-"light" "50"
-}
-{
-"classname" "light"
-"origin" "2032.000000 -328.000000 312.000000"
-"light" "50"
-}
-{
-"classname" "light"
-"origin" "2032.000000 -328.000000 432.000000"
-"light" "50"
-}
-{
-"classname" "light"
-"origin" "2032.000000 -328.000000 560.000000"
-"light" "50"
-}
-{
-"classname" "light"
-"origin" "2032.000000 -328.000000 688.000000"
 "light" "50"
 }
 {
