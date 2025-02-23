@@ -77,7 +77,7 @@ This is a brush model which can be damaged. Once triggered it's active and will 
 <real key="debrisdamageforcescale" name="debrisdamageforcescale">how much debris is affected by damage force (e.g. explosions)</real>
 <real key="debrisskin" name="debrisskin">skin number of debris</real>
 -------- SPAWNFLAGS --------
-<flag key="NOSPLASH" name="NOSPLASH" bit="8">if set, splash damage cannot activate the door, only direct damage can (requires health to be set)</flag>
+<flag key="NOSPLASH" name="NOSPLASH" bit="8">if set, splash damage has no effect, only direct damage has (requires health to be set)</flag>
 </group>
 
 <group name="func_assault_wall" color=".5 0 .5">
@@ -131,7 +131,7 @@ When a button is touched by a player, it moves in the direction set by the &quot
 <real key="health" name="health">(default 0) if set to any non-zero value, the button must take damage (any amount) to activate.</real>
 <sound key="noise" name="noise">Noise that is played when the button is activated</sound>
 -------- SPAWNFLAGS --------
-<flag key="NOSPLASH" name="NOSPLASH" bit="8">if set, splash damage cannot activate the door, only direct damage can (requires health to be set)</flag>
+<flag key="NOSPLASH" name="NOSPLASH" bit="8">if set, splash damage cannot activate the button, only direct damage can (requires health to be set)</flag>
 <flag key="DONTACCUMULATEDMG" name="DONTACCUMULATEDMG" bit="7">if set, all the damage needs to be done in one hit (requires health to be set)</flag>
 </group>
 
@@ -1420,7 +1420,7 @@ Variable sized repeatable trigger.  Must be targeted at one or more entities.  I
 <flag key="NOTOUCH" name="NOTOUCH" bit="0">the trigger can only be triggered by other entities, not by touching or firing (you should probably use trigger_relay or trigger_delay instead)</flag>
 <flag key="ALLENTS" name="ALLENTS" bit="1">the trigger responds to all entities, not just players (useful for targeting trigger_items)</flag>
 <flag key="INVERT_TEAM" name="INVERT_TEAM" bit="2">the team that owns the trigger will NOT trigger when touching this</flag>
-<flag key="NOSPLASH" name="NOSPLASH" bit="8">if set, splash damage cannot activate the door, only direct damage can (requires health to be set)</flag>
+<flag key="NOSPLASH" name="NOSPLASH" bit="8">if set, splash damage cannot activate the trigger, only direct damage can (requires health to be set)</flag>
 </group>
 
 <group name="trigger_once" color=".5 .5 .5">
@@ -1438,7 +1438,7 @@ Basically, it's a use-once trigger_multiple.
 <target key="killtarget" name="killtarget">remove all entities with this targetname when triggered</target>
 -------- SPAWNFLAGS --------
 <flag key="NOTOUCH" name="NOTOUCH" bit="0">the trigger can only be triggered by other entities, not by touching or firing (you should probably use trigger_relay or trigger_delay instead)</flag>
-<flag key="NOSPLASH" name="NOSPLASH" bit="8">if set, splash damage cannot activate the door, only direct damage can (requires health to be set)</flag>
+<flag key="NOSPLASH" name="NOSPLASH" bit="8">if set, splash damage cannot activate the trigger, only direct damage can (requires health to be set)</flag>
 </group>
 
 <group name="trigger_push" color="1 .5 0">
