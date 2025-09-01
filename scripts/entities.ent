@@ -434,7 +434,7 @@ Blue team's player spawning location in e.g. CTF and Onslaught. Should touch the
 </point>
 
 <point name="info_player_team3" color="1 1 0" box="-16 -16 -24 16 16 45">
-Yellow team's player spawning location, but there is no game mode to use this yet. Anyway, should touch the floor, but not the walls, and should point where the player should look when spawning there.
+Yellow team's player spawning location, in e.g. 3-team CTF. Should touch the floor, but not the walls, and should point where the player should look when spawning there.
 -------- KEYS --------
 <real key="cnt" name="cnt">weight of spawn point for random selection. Set to a lower value if you have many spawn points close together. Default value is 1.</real>
 <target key="target2" name="target2">trigger all entities with this targetname when someone spawns</target>
@@ -445,7 +445,7 @@ Yellow team's player spawning location, but there is no game mode to use this ye
 </point>
 
 <point name="info_player_team4" color="1 0 1" box="-16 -16 -24 16 16 45">
-Pink team's player spawning location, but there is no game mode to use this yet. Anyway, should touch the floor, but not the walls, and should point where the player should look when spawning there.
+Pink team's player spawning location, in e.g. 4-team CTF. Should touch the floor, but not the walls, and should point where the player should look when spawning there.
 -------- KEYS --------
 <real key="cnt" name="cnt">weight of spawn point for random selection. Set to a lower value if you have many spawn points close together. Default value is 1.</real>
 <target key="target2" name="target2">trigger all entities with this targetname when someone spawns</target>
