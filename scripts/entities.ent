@@ -29,7 +29,7 @@ In order to get Domination working well in your map, you need to place dom_team 
 <real key="frags" name="frags">How many frags this point gives each wait cycle.</real>
 <real key="scale" name="scale">scaling factor of the model, defaults to 0.6</real>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-zbqry=&quot;zbqryf/qbzvangvba/qbz_hapynvzrq.zq3&quot;
+modeldisabled=&quot;models/domination/dom_unclaimed.md3&quot;
 
 </point>
 
@@ -583,7 +583,7 @@ Vortex, Electro and Crylink ammo
 modeldisabled=&quot;models/items/a_cells.md3&quot;
 </point>
 
-<point name="item_flag_team1" color="1 0 0" box="-32 -32 0 32 32 74">
+<point name="item_flag_team1" color="1 0 0" box="-30 -30 -32 30 30 38">
 CTF flag for team one (Red). Use more than one if you really insist.
 -------- KEYS --------
 <string key="model" name="model">model to use</string>
@@ -592,11 +592,11 @@ CTF flag for team one (Red). Use more than one if you really insist.
 <sound key="noise1" name="noise1">sound played when flag is returned</sound>
 <sound key="noise2" name="noise2">sound played when flag is captured</sound>
 <sound key="noise3" name="noise3">sound played when flag is lost in the field and respawns itself</sound>
--------- ZBQRY SBE ENQVNAG BAYL - QB ABG FRG GUVF NF N XRL --------
-zbqry=&quot;zbqryf/pgs/enqvnag/synt_erq_enqvnag.zq3&quot;
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+modeldisabled=&quot;models/ctf/radiant/flag_red_radiant.md3&quot;
 </point>
 
-<point name="item_flag_team2" color="0 0 1" box="-32 -32 0 32 32 74">
+<point name="item_flag_team2" color="0 0 1" box="-30 -30 -32 30 30 38">
 CTF flag for team two (Blue). Use more than one if you really insist.
 -------- KEYS --------
 <string key="model" name="model">model to use</string>
@@ -605,11 +605,11 @@ CTF flag for team two (Blue). Use more than one if you really insist.
 <sound key="noise1" name="noise1">sound played when flag is returned</sound>
 <sound key="noise2" name="noise2">sound played when flag is captured</sound>
 <sound key="noise3" name="noise3">sound played when flag is lost in the field and respawns itself</sound>
--------- ZBQRY SBE ENQVNAG BAYL - QB ABG FRG GUVF NF N XRL --------
-zbqry=&quot;zbqryf/pgs/enqvnag/synt_oyhr_enqvnag.zq3&quot;
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+modeldisabled=&quot;models/ctf/radiant/flag_blue_radiant.md3&quot;
 </point>
 
-<point name="item_flag_team3" color="1 1 0" box="-32 -32 0 32 32 74">
+<point name="item_flag_team3" color="1 1 0" box="-30 -30 -32 30 30 38">
 CTF flag for team three (Yellow). Use more than one if you really insist.
 -------- KEYS --------
 <string key="model" name="model">model to use</string>
@@ -618,11 +618,11 @@ CTF flag for team three (Yellow). Use more than one if you really insist.
 <sound key="noise1" name="noise1">sound played when flag is returned</sound>
 <sound key="noise2" name="noise2">sound played when flag is captured</sound>
 <sound key="noise3" name="noise3">sound played when flag is lost in the field and respawns itself</sound>
--------- ZBQRY SBE ENQVNAG BAYL - QB ABG FRG GUVF NF N XRL --------
-zbqry=&quot;zbqryf/pgs/enqvnag/synt_erq_enqvnag.zq3&quot;
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+modeldisabled=&quot;models/ctf/radiant/flag_red_radiant.md3&quot;
 </point>
 
-<point name="item_flag_team4" color="1 0 1" box="-32 -32 0 32 32 74">
+<point name="item_flag_team4" color="1 0 1" box="-30 -30 -32 30 30 38">
 CTF flag for team four (Pink). Use more than one if you really insist.
 -------- KEYS --------
 <string key="model" name="model">model to use</string>
@@ -631,8 +631,8 @@ CTF flag for team four (Pink). Use more than one if you really insist.
 <sound key="noise1" name="noise1">sound played when flag is returned</sound>
 <sound key="noise2" name="noise2">sound played when flag is captured</sound>
 <sound key="noise3" name="noise3">sound played when flag is lost in the field and respawns itself</sound>
--------- ZBQRY SBE ENQVNAG BAYL - QB ABG FRG GUVF NF N XRL --------
-zbqry=&quot;zbqryf/pgs/enqvnag/synt_oyhr_enqvnag.zq3&quot;
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+modeldisabled=&quot;models/ctf/radiant/flag_blue_radiant.md3&quot;
 </point>
 
 <point name="item_health_big" color=".9 .3 .3" box="-30 -30 0 30 30 48">
