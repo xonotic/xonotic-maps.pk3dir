@@ -2000,6 +2000,8 @@ You may want to target this by a race checkpoint, a teleporter, or a trigger_mul
 <flag key="AND" name="AND" bit="0">any items not listed will get removed, and none will get added</flag>
 <flag key="OR" name="OR" bit="1">the player may keep items not listed</flag>
 <flag key="ANDNOT" name="ANDNOT" bit="2">the items listed will get removed from the player</flag>
+-------- NOTES --------
+See also: target_give
 </point>
 
 <point name="target_kill" color="1 0 0" box="-8 -8 -8 8 8 8">
@@ -3038,4 +3040,18 @@ example if +X and -X is active the x-direction will be ignored. The same is the 
 if whether +X nor -X is active. So if you want to accelerate the player up with 900u
 you have to set the speed value to 900 and activate the spawnflags +Z and LAUNCHER.
 </point>
+
+<point name="target_give" color="0 .5 0" box="-8 -8 -8 8 8 8">
+This is used to give ammo, weapons, health or items to the player who activates it.
+-------- KEYS --------
+<target key="target" name="Target">This points to the item(s) to give when activated.</target>
+<targetname key="targetname" name="Target Name">Activating trigger or spawn entity points to this.</targetname>
+-------- NOTES --------
+There are 2 ways to use this entity.
+a) Automatically give items to players when they spawn in the game: Make a spawn location entity like info_player_deathmatch or CTF respawn points target this entity, then make it target the item(s) to give to the player upon respawn.
+b) Give items to players during the game: Make a trigger_multiple target this entity, then make it target the item(s) to give to the player when the trigger is touched.
+
+See also: target_items
+</point>
+
 </classes>
