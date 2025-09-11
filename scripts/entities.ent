@@ -29,7 +29,7 @@ In order to get Domination working well in your map, you need to place dom_team 
 <real key="frags" name="frags">How many frags this point gives each wait cycle.</real>
 <real key="scale" name="scale">scaling factor of the model, defaults to 0.6</real>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
-zbqry=&quot;zbqryf/qbzvangvba/qbz_hapynvzrq.zq3&quot;
+modeldisabled=&quot;models/domination/dom_unclaimed.md3&quot;
 
 </point>
 
@@ -434,7 +434,7 @@ Blue team's player spawning location in e.g. CTF and Onslaught. Should touch the
 </point>
 
 <point name="info_player_team3" color="1 1 0" box="-16 -16 -24 16 16 45">
-Yellow team's player spawning location, but there is no game mode to use this yet. Anyway, should touch the floor, but not the walls, and should point where the player should look when spawning there.
+Yellow team's player spawning location, in e.g. 3-team CTF. Should touch the floor, but not the walls, and should point where the player should look when spawning there.
 -------- KEYS --------
 <real key="cnt" name="cnt">weight of spawn point for random selection. Set to a lower value if you have many spawn points close together. Default value is 1.</real>
 <target key="target2" name="target2">trigger all entities with this targetname when someone spawns</target>
@@ -445,7 +445,7 @@ Yellow team's player spawning location, but there is no game mode to use this ye
 </point>
 
 <point name="info_player_team4" color="1 0 1" box="-16 -16 -24 16 16 45">
-Pink team's player spawning location, but there is no game mode to use this yet. Anyway, should touch the floor, but not the walls, and should point where the player should look when spawning there.
+Pink team's player spawning location, in e.g. 4-team CTF. Should touch the floor, but not the walls, and should point where the player should look when spawning there.
 -------- KEYS --------
 <real key="cnt" name="cnt">weight of spawn point for random selection. Set to a lower value if you have many spawn points close together. Default value is 1.</real>
 <target key="target2" name="target2">trigger all entities with this targetname when someone spawns</target>
@@ -583,7 +583,7 @@ Vortex, Electro and Crylink ammo
 modeldisabled=&quot;models/items/a_cells.md3&quot;
 </point>
 
-<point name="item_flag_team1" color="1 0 0" box="-32 -32 0 32 32 74">
+<point name="item_flag_team1" color="1 0 0" box="-30 -30 -32 30 30 38">
 CTF flag for team one (Red). Use more than one if you really insist.
 -------- KEYS --------
 <string key="model" name="model">model to use</string>
@@ -592,11 +592,11 @@ CTF flag for team one (Red). Use more than one if you really insist.
 <sound key="noise1" name="noise1">sound played when flag is returned</sound>
 <sound key="noise2" name="noise2">sound played when flag is captured</sound>
 <sound key="noise3" name="noise3">sound played when flag is lost in the field and respawns itself</sound>
--------- ZBQRY SBE ENQVNAG BAYL - QB ABG FRG GUVF NF N XRL --------
-zbqry=&quot;zbqryf/pgs/enqvnag/synt_erq_enqvnag.zq3&quot;
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+modeldisabled=&quot;models/ctf/radiant/flag_red_radiant.md3&quot;
 </point>
 
-<point name="item_flag_team2" color="0 0 1" box="-32 -32 0 32 32 74">
+<point name="item_flag_team2" color="0 0 1" box="-30 -30 -32 30 30 38">
 CTF flag for team two (Blue). Use more than one if you really insist.
 -------- KEYS --------
 <string key="model" name="model">model to use</string>
@@ -605,11 +605,11 @@ CTF flag for team two (Blue). Use more than one if you really insist.
 <sound key="noise1" name="noise1">sound played when flag is returned</sound>
 <sound key="noise2" name="noise2">sound played when flag is captured</sound>
 <sound key="noise3" name="noise3">sound played when flag is lost in the field and respawns itself</sound>
--------- ZBQRY SBE ENQVNAG BAYL - QB ABG FRG GUVF NF N XRL --------
-zbqry=&quot;zbqryf/pgs/enqvnag/synt_oyhr_enqvnag.zq3&quot;
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+modeldisabled=&quot;models/ctf/radiant/flag_blue_radiant.md3&quot;
 </point>
 
-<point name="item_flag_team3" color="1 1 0" box="-32 -32 0 32 32 74">
+<point name="item_flag_team3" color="1 1 0" box="-30 -30 -32 30 30 38">
 CTF flag for team three (Yellow). Use more than one if you really insist.
 -------- KEYS --------
 <string key="model" name="model">model to use</string>
@@ -618,11 +618,11 @@ CTF flag for team three (Yellow). Use more than one if you really insist.
 <sound key="noise1" name="noise1">sound played when flag is returned</sound>
 <sound key="noise2" name="noise2">sound played when flag is captured</sound>
 <sound key="noise3" name="noise3">sound played when flag is lost in the field and respawns itself</sound>
--------- ZBQRY SBE ENQVNAG BAYL - QB ABG FRG GUVF NF N XRL --------
-zbqry=&quot;zbqryf/pgs/enqvnag/synt_erq_enqvnag.zq3&quot;
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+modeldisabled=&quot;models/ctf/radiant/flag_red_radiant.md3&quot;
 </point>
 
-<point name="item_flag_team4" color="1 0 1" box="-32 -32 0 32 32 74">
+<point name="item_flag_team4" color="1 0 1" box="-30 -30 -32 30 30 38">
 CTF flag for team four (Pink). Use more than one if you really insist.
 -------- KEYS --------
 <string key="model" name="model">model to use</string>
@@ -631,8 +631,8 @@ CTF flag for team four (Pink). Use more than one if you really insist.
 <sound key="noise1" name="noise1">sound played when flag is returned</sound>
 <sound key="noise2" name="noise2">sound played when flag is captured</sound>
 <sound key="noise3" name="noise3">sound played when flag is lost in the field and respawns itself</sound>
--------- ZBQRY SBE ENQVNAG BAYL - QB ABG FRG GUVF NF N XRL --------
-zbqry=&quot;zbqryf/pgs/enqvnag/synt_oyhr_enqvnag.zq3&quot;
+-------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
+modeldisabled=&quot;models/ctf/radiant/flag_blue_radiant.md3&quot;
 </point>
 
 <point name="item_health_big" color=".9 .3 .3" box="-30 -30 0 30 30 48">
@@ -1898,7 +1898,7 @@ Triggers once when the game starts, then no longer does anything.
 <real key="wait" name="wait">wait so many seconds before triggering</real>
 </point>
 
-<group name="trigger_viewlocation" color=".5 .5 .5" box="-8 -8 -8 8 8 8">
+<group name="trigger_viewlocation" color=".5 .5 .5">
 A brush that when entered changes the player's view to a position between target and target2, useful for side-scrolling stages
 -------- KEYS --------
 <target key="target" name="target">should point to a target_viewlocation_start entity</target>
@@ -2000,6 +2000,8 @@ You may want to target this by a race checkpoint, a teleporter, or a trigger_mul
 <flag key="AND" name="AND" bit="0">any items not listed will get removed, and none will get added</flag>
 <flag key="OR" name="OR" bit="1">the player may keep items not listed</flag>
 <flag key="ANDNOT" name="ANDNOT" bit="2">the items listed will get removed from the player</flag>
+-------- NOTES --------
+See also: target_give
 </point>
 
 <point name="target_kill" color="1 0 0" box="-8 -8 -8 8 8 8">
@@ -2991,7 +2993,7 @@ Secondary matches primary, but the vehicle can hold 2 extra players who act as g
 <integer key="team" name="team">5=red, 14=blue, 13=yellow, 10=pink</integer>
 </point>
 
-<group name="trigger_push_velocity" color=".5 .5 .5" box="-8 -8 -8 8 8 8">
+<group name="trigger_push_velocity" color=".5 .5 .5">
 This is used to create jump pads and launch ramps. It MUST point to a target_position or info_notnull entity to work.  This is similar to a jumppad, however, it may be configured to add to the player's velocity, as opposed to just setting it.
 -------- KEYS --------
 <target key="target" name="target">this points to the target_position to which the player will jump.</target>
@@ -3038,4 +3040,18 @@ example if +X and -X is active the x-direction will be ignored. The same is the 
 if whether +X nor -X is active. So if you want to accelerate the player up with 900u
 you have to set the speed value to 900 and activate the spawnflags +Z and LAUNCHER.
 </point>
+
+<point name="target_give" color="0 .5 0" box="-8 -8 -8 8 8 8">
+This is used to give ammo, weapons, health or items to the player who activates it.
+-------- KEYS --------
+<target key="target" name="Target">This points to the item(s) to give when activated.</target>
+<targetname key="targetname" name="Target Name">Activating trigger or spawn entity points to this.</targetname>
+-------- NOTES --------
+There are 2 ways to use this entity.
+a) Automatically give items to players when they spawn in the game: Make a spawn location entity like info_player_deathmatch or CTF respawn points target this entity, then make it target the item(s) to give to the player upon respawn.
+b) Give items to players during the game: Make a trigger_multiple target this entity, then make it target the item(s) to give to the player when the trigger is touched.
+
+See also: target_items
+</point>
+
 </classes>
