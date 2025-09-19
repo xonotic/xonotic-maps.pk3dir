@@ -27971,7 +27971,7 @@ trak5x/base-pipe1c
 "origin" "-320.000000 -192.000000 416.000000"
 }
 {
-"classname" "item_strength"
+"classname" "weapon_devastator"
 "origin" "0.000000 0.000000 144.000000"
 "spawnflags" "1"
 }
@@ -28287,8 +28287,11 @@ trak5x/base-pipe1c
 }
 {
 "classname" "weapon_machinegun"
-"origin" "0.000000 0.000000 -256.000000"
-"spawnflags" "1"
+"origin" "0.000000 4128.000000 -50.000000"
+}
+{
+"classname" "weapon_machinegun"
+"origin" "0.000000 -4128.000000 -50.000000"
 }
 {
 "classname" "item_health_big"
@@ -30602,11 +30605,11 @@ trak5x/base-pipe1c
 "modelscale_vec" "1.000000 3.000000 4.000000"
 }
 {
-"classname" "weapon_devastator"
+"classname" "weapon_vortex"
 "origin" "0.000000 0.000000 -512.000000"
 }
 {
-"classname" "weapon_vortex"
+"classname" "item_strength"
 "origin" "0.000000 0.000000 736.000000"
 }
 {
@@ -30707,4 +30710,20 @@ trak5x/base-pipe1c
 ( -480.125 726.25 -127.875 ) ( -480.125 726.25 -79.875 ) ( -418 726.25 -127.875 ) common/trigger 0.5 0.5 0 0.25 0.25 0 0 0
 ( -475.5 724.75 -128 ) ( -475.5 811.75 -128 ) ( -475.5 724.75 -80 ) common/trigger 32.5 0 0 0.25 0.25 0 0 0
 }
+}
+{
+"classname" "item_bullets"
+"origin" "126 -3006 -96"
+}
+{
+"classname" "item_bullets"
+"origin" "-126 -3006 -96"
+}
+{
+"classname" "item_bullets"
+"origin" "-126 3006 -96"
+}
+{
+"classname" "item_bullets"
+"origin" "126 3006 -96"
 }
