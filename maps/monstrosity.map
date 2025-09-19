@@ -37380,21 +37380,25 @@ brushDef
 "classname" "misc_model"
 "origin" "792.000000 1360.000000 24.000000"
 "model" "models/desertfactory/objects_plants/grass03.ase"
+"_castshadows" "0"
 }
 {
 "classname" "misc_model"
 "origin" "1112.000000 1504.000000 32.000000"
 "model" "models/desertfactory/objects_plants/grass03.ase"
+"_castshadows" "0"
 }
 {
 "classname" "misc_model"
 "origin" "968.000000 1184.000000 16.000000"
 "model" "models/desertfactory/objects_plants/grass01.ase"
+"_castshadows" "0"
 }
 {
 "classname" "misc_model"
 "origin" "272.000000 1792.000000 24.000000"
 "model" "models/desertfactory/objects_plants/grass02.ase"
+"_castshadows" "0"
 }
 {
 "classname" "misc_model"
@@ -37405,11 +37409,13 @@ brushDef
 "classname" "misc_model"
 "origin" "568.000000 1768.000000 24.000000"
 "model" "models/desertfactory/objects_plants/grass01.ase"
+"_castshadows" "0"
 }
 {
 "classname" "misc_model"
 "origin" "1072.000000 1704.000000 24.000000"
 "model" "models/desertfactory/objects_plants/grass02.ase"
+"_castshadows" "0"
 }
 {
 "classname" "misc_model"
@@ -37524,11 +37530,13 @@ brushDef
 "classname" "misc_model"
 "origin" "1420.000000 1332.000000 32.000000"
 "model" "models/desertfactory/objects_plants/grass02.ase"
+"_castshadows" "0"
 }
 {
 "classname" "misc_model"
 "origin" "1368.000000 864.000000 32.000000"
 "model" "models/desertfactory/objects_plants/grass03.ase"
+"_castshadows" "0"
 }
 {
 "classname" "item_armor_big"
@@ -37543,6 +37551,7 @@ brushDef
 "classname" "misc_model"
 "origin" "1052.000000 120.000000 32.000000"
 "model" "models/desertfactory/objects_plants/grass01.ase"
+"_castshadows" "0"
 }
 {
 "classname" "misc_model"
@@ -37560,41 +37569,49 @@ brushDef
 "classname" "misc_model"
 "origin" "1792.000000 1288.000000 28.000000"
 "model" "models/desertfactory/objects_plants/grass02.ase"
+"_castshadows" "0"
 }
 {
 "classname" "misc_model"
 "origin" "1988.000000 796.000000 24.000000"
 "model" "models/desertfactory/objects_plants/grass02.ase"
+"_castshadows" "0"
 }
 {
 "classname" "misc_model"
 "origin" "1976.000000 1252.000000 56.000000"
 "model" "models/desertfactory/objects_plants/grass03.ase"
+"_castshadows" "0"
 }
 {
 "classname" "misc_model"
 "origin" "1720.000000 764.000000 20.000000"
 "model" "models/desertfactory/objects_plants/grass03.ase"
+"_castshadows" "0"
 }
 {
 "classname" "misc_model"
 "origin" "1792.000000 1288.000000 28.000000"
 "model" "models/desertfactory/objects_plants/grass02.ase"
+"_castshadows" "0"
 }
 {
 "classname" "misc_model"
 "origin" "1988.000000 796.000000 24.000000"
 "model" "models/desertfactory/objects_plants/grass02.ase"
+"_castshadows" "0"
 }
 {
 "classname" "misc_model"
 "origin" "1976.000000 1252.000000 56.000000"
 "model" "models/desertfactory/objects_plants/grass03.ase"
+"_castshadows" "0"
 }
 {
 "classname" "misc_model"
 "origin" "1720.000000 764.000000 20.000000"
 "model" "models/desertfactory/objects_plants/grass03.ase"
+"_castshadows" "0"
 }
 {
 "classname" "misc_model"
@@ -37677,71 +37694,85 @@ brushDef
 "classname" "misc_model"
 "origin" "200.000000 816.000000 32.000000"
 "model" "models/desertfactory/objects_plants/grass01.ase"
+"_castshadows" "0"
 }
 {
 "classname" "misc_model"
 "origin" "720.000000 488.000000 32.000000"
 "model" "models/desertfactory/objects_plants/grass01.ase"
+"_castshadows" "0"
 }
 {
 "classname" "misc_model"
 "origin" "496.000000 768.000000 16.000000"
 "model" "models/desertfactory/objects_plants/grass02.ase"
+"_castshadows" "0"
 }
 {
 "classname" "misc_model"
 "origin" "384.000000 656.000000 24.000000"
 "model" "models/desertfactory/objects_plants/grass03.ase"
+"_castshadows" "0"
 }
 {
 "classname" "misc_model"
 "origin" "144.000000 200.000000 32.000000"
 "model" "models/desertfactory/objects_plants/grass02.ase"
+"_castshadows" "0"
 }
 {
 "classname" "misc_model"
 "origin" "408.000000 48.000000 32.000000"
 "model" "models/desertfactory/objects_plants/grass03.ase"
+"_castshadows" "0"
 }
 {
 "classname" "misc_model"
 "origin" "208.000000 -8.000000 32.000000"
 "model" "models/desertfactory/objects_plants/grass03.ase"
+"_castshadows" "0"
 }
 {
 "classname" "misc_model"
 "origin" "1240.000000 -896.000000 32.000000"
 "model" "models/desertfactory/objects_plants/grass01.ase"
+"_castshadows" "0"
 }
 {
 "classname" "misc_model"
 "origin" "-1184.000000 -904.000000 32.000000"
 "model" "models/desertfactory/objects_plants/grass01.ase"
+"_castshadows" "0"
 }
 {
 "classname" "misc_model"
 "origin" "-1128.000000 -448.000000 32.000000"
 "model" "models/desertfactory/objects_plants/grass03.ase"
+"_castshadows" "0"
 }
 {
 "classname" "misc_model"
 "origin" "-144.000000 864.000000 344.000000"
 "model" "models/desertfactory/objects_plants/grass02.ase"
+"_castshadows" "0"
 }
 {
 "classname" "misc_model"
 "origin" "408.000000 848.000000 344.000000"
 "model" "models/desertfactory/objects_plants/grass03.ase"
+"_castshadows" "0"
 }
 {
 "classname" "misc_model"
 "origin" "80.000000 864.000000 344.000000"
 "model" "models/desertfactory/objects_plants/grass03.ase"
+"_castshadows" "0"
 }
 {
 "classname" "misc_model"
 "origin" "-496.000000 864.000000 344.000000"
 "model" "models/desertfactory/objects_plants/grass03.ase"
+"_castshadows" "0"
 }
 {
 "classname" "misc_model"
