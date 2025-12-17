@@ -473,7 +473,8 @@ Mega Armor (default 100 armor points)
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
 <string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
-<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
+<target key="target" name="Target">Picking up the item will trigger the entity this points to.</target>
+<targetname key="targetname" name="targetname">when targeted and with the TARGETED spawnflag set this item will be given to the activator; when this field is set and the TARGETED spawnflag isn't set this item won't appear unless it's activated and a target_give entity can give it to players without activating it, like in Q3</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
 <flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
@@ -494,7 +495,8 @@ Big Armor (default 50 armor points)
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
 <string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
-<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
+<target key="target" name="Target">Picking up the item will trigger the entity this points to.</target>
+<targetname key="targetname" name="targetname">when targeted and with the TARGETED spawnflag set this item will be given to the activator; when this field is set and the TARGETED spawnflag isn't set this item won't appear unless it's activated and a target_give entity can give it to players without activating it, like in Q3</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
 <flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
@@ -515,7 +517,8 @@ Medium Armor (default 25 armor points)
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
 <string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
-<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
+<target key="target" name="Target">Picking up the item will trigger the entity this points to.</target>
+<targetname key="targetname" name="targetname">when targeted and with the TARGETED spawnflag set this item will be given to the activator; when this field is set and the TARGETED spawnflag isn't set this item won't appear unless it's activated and a target_give entity can give it to players without activating it, like in Q3</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
 <flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
@@ -536,7 +539,8 @@ Small Armor (default 5 armor points)
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
 <string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
-<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
+<target key="target" name="Target">Picking up the item will trigger the entity this points to.</target>
+<targetname key="targetname" name="targetname">when targeted and with the TARGETED spawnflag set this item will be given to the activator; when this field is set and the TARGETED spawnflag isn't set this item won't appear unless it's activated and a target_give entity can give it to players without activating it, like in Q3</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
 <flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
@@ -556,7 +560,8 @@ Machine Gun ammo
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
 <string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
-<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
+<target key="target" name="Target">Picking up the item will trigger the entity this points to.</target>
+<targetname key="targetname" name="targetname">when targeted and with the TARGETED spawnflag set this item will be given to the activator; when this field is set and the TARGETED spawnflag isn't set this item won't appear unless it's activated and a target_give entity can give it to players without activating it, like in Q3</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
 <flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
@@ -575,7 +580,8 @@ Vortex, Electro and Crylink ammo
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
 <string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
-<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
+<target key="target" name="Target">Picking up the item will trigger the entity this points to.</target>
+<targetname key="targetname" name="targetname">when targeted and with the TARGETED spawnflag set this item will be given to the activator; when this field is set and the TARGETED spawnflag isn't set this item won't appear unless it's activated and a target_give entity can give it to players without activating it, like in Q3</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
 <flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
@@ -647,7 +653,8 @@ Big Health (default 50 health points)
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
 <string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
-<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
+<target key="target" name="Target">Picking up the item will trigger the entity this points to.</target>
+<targetname key="targetname" name="targetname">when targeted and with the TARGETED spawnflag set this item will be given to the activator; when this field is set and the TARGETED spawnflag isn't set this item won't appear unless it's activated and a target_give entity can give it to players without activating it, like in Q3</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
 <flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
@@ -668,7 +675,8 @@ Medium Health (default 25 health points)
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
 <string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
-<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
+<target key="target" name="Target">Picking up the item will trigger the entity this points to.</target>
+<targetname key="targetname" name="targetname">when targeted and with the TARGETED spawnflag set this item will be given to the activator; when this field is set and the TARGETED spawnflag isn't set this item won't appear unless it's activated and a target_give entity can give it to players without activating it, like in Q3</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
 <flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
@@ -690,7 +698,8 @@ In Instagib, this randomly turns into either an invisibility, an extra lives or 
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
 <string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
-<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
+<target key="target" name="Target">Picking up the item will trigger the entity this points to.</target>
+<targetname key="targetname" name="targetname">when targeted and with the TARGETED spawnflag set this item will be given to the activator; when this field is set and the TARGETED spawnflag isn't set this item won't appear unless it's activated and a target_give entity can give it to players without activating it, like in Q3</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
 <flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
@@ -711,7 +720,8 @@ Small Health (default 5 health points)
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
 <string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
-<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
+<target key="target" name="Target">Picking up the item will trigger the entity this points to.</target>
+<targetname key="targetname" name="targetname">when targeted and with the TARGETED spawnflag set this item will be given to the activator; when this field is set and the TARGETED spawnflag isn't set this item won't appear unless it's activated and a target_give entity can give it to players without activating it, like in Q3</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
 <flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
@@ -731,7 +741,8 @@ In Instagib, this randomly turns into either an invisibility, an extra lives or 
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
 <string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
-<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
+<target key="target" name="Target">Picking up the item will trigger the entity this points to.</target>
+<targetname key="targetname" name="targetname">when targeted and with the TARGETED spawnflag set this item will be given to the activator; when this field is set and the TARGETED spawnflag isn't set this item won't appear unless it's activated and a target_give entity can give it to players without activating it, like in Q3</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
 <flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
@@ -750,7 +761,8 @@ Faster movement and shooting
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
 <string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
-<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
+<target key="target" name="Target">Picking up the item will trigger the entity this points to.</target>
+<targetname key="targetname" name="targetname">when targeted and with the TARGETED spawnflag set this item will be given to the activator; when this field is set and the TARGETED spawnflag isn't set this item won't appear unless it's activated and a target_give entity can give it to players without activating it, like in Q3</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
 <flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
@@ -769,7 +781,8 @@ Low visibility
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
 <string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
-<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
+<target key="target" name="Target">Picking up the item will trigger the entity this points to.</target>
+<targetname key="targetname" name="targetname">when targeted and with the TARGETED spawnflag set this item will be given to the activator; when this field is set and the TARGETED spawnflag isn't set this item won't appear unless it's activated and a target_give entity can give it to players without activating it, like in Q3</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
 <flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
@@ -846,7 +859,8 @@ It only appears when playing Instagib and prevents auto-replacement of weapon_vo
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
 <string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
-<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
+<target key="target" name="Target">Picking up the item will trigger the entity this points to.</target>
+<targetname key="targetname" name="targetname">when targeted and with the TARGETED spawnflag set this item will be given to the activator; when this field is set and the TARGETED spawnflag isn't set this item won't appear unless it's activated and a target_give entity can give it to players without activating it, like in Q3</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
 <flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
@@ -865,7 +879,8 @@ Devastator, Hagar and Mortar ammo
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
 <string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
-<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
+<target key="target" name="Target">Picking up the item will trigger the entity this points to.</target>
+<targetname key="targetname" name="targetname">when targeted and with the TARGETED spawnflag set this item will be given to the activator; when this field is set and the TARGETED spawnflag isn't set this item won't appear unless it's activated and a target_give entity can give it to players without activating it, like in Q3</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
 <flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
@@ -884,7 +899,8 @@ Shotgun ammo
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
 <string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
-<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
+<target key="target" name="Target">Picking up the item will trigger the entity this points to.</target>
+<targetname key="targetname" name="targetname">when targeted and with the TARGETED spawnflag set this item will be given to the activator; when this field is set and the TARGETED spawnflag isn't set this item won't appear unless it's activated and a target_give entity can give it to players without activating it, like in Q3</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
 <flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
@@ -903,7 +919,8 @@ In Instagib, this randomly turns into either an invisibility, an extra lives or 
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
 <string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
-<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
+<target key="target" name="Target">Picking up the item will trigger the entity this points to.</target>
+<targetname key="targetname" name="targetname">when targeted and with the TARGETED spawnflag set this item will be given to the activator; when this field is set and the TARGETED spawnflag isn't set this item won't appear unless it's activated and a target_give entity can give it to players without activating it, like in Q3</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
 <flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
@@ -1518,7 +1535,8 @@ Note that in Xonotic, teleporters preserve momentum of the player using them.
 <point name="weapon_crylink" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Crylink
 -------- KEYS --------
-<real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, g_pickup_cells is used)</real>
+<real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, .count or g_balance_crylink_pickup_ammo is used)</real>
+<integer key="count" name="Ammo Given">number of primary shots worth of ammo given to the player when this item is picked up</integer>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
@@ -1526,7 +1544,8 @@ the Crylink
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
 <string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
-<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
+<target key="target" name="Target">Picking up the item will trigger the entity this points to.</target>
+<targetname key="targetname" name="targetname">when targeted and with the TARGETED spawnflag set this item will be given to the activator; when this field is set and the TARGETED spawnflag isn't set this item won't appear unless it's activated and a target_give entity can give it to players without activating it, like in Q3</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
 <flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
@@ -1538,7 +1557,8 @@ modeldisabled=&quot;models/weapons/g_crylink.md3&quot;
 <point name="weapon_electro" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Electro
 -------- KEYS --------
-<real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, g_pickup_cells is used)</real>
+<real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, .count or g_balance_electro_pickup_ammo is used)</real>
+<integer key="count" name="Ammo Given">number of primary shots worth of ammo given to the player when this item is picked up</integer>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
@@ -1546,7 +1566,8 @@ the Electro
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
 <string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
-<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
+<target key="target" name="Target">Picking up the item will trigger the entity this points to.</target>
+<targetname key="targetname" name="targetname">when targeted and with the TARGETED spawnflag set this item will be given to the activator; when this field is set and the TARGETED spawnflag isn't set this item won't appear unless it's activated and a target_give entity can give it to players without activating it, like in Q3</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
 <flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
@@ -1558,7 +1579,8 @@ modeldisabled=&quot;models/weapons/g_electro.md3&quot;
 <point name="weapon_mortar" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Mortar
 -------- KEYS --------
-<real key="ammo_rockets" name="ammo_rockets">initial rockets of the weapon (if unset, g_pickup_rockets is used)</real>
+<real key="ammo_rockets" name="ammo_rockets">initial rockets of the weapon (if unset, .count or g_balance_mortar_pickup_ammo is used)</real>
+<integer key="count" name="Ammo Given">number of primary shots worth of ammo given to the player when this item is picked up</integer>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
@@ -1566,7 +1588,8 @@ the Mortar
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
 <string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
-<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
+<target key="target" name="Target">Picking up the item will trigger the entity this points to.</target>
+<targetname key="targetname" name="targetname">when targeted and with the TARGETED spawnflag set this item will be given to the activator; when this field is set and the TARGETED spawnflag isn't set this item won't appear unless it's activated and a target_give entity can give it to players without activating it, like in Q3</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
 <flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
@@ -1578,7 +1601,8 @@ modeldisabled=&quot;models/weapons/g_gl.md3&quot;
 <point name="weapon_hagar" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Hagar
 -------- KEYS --------
-<real key="ammo_rockets" name="ammo_rockets">initial rockets of the weapon (if unset, g_pickup_rockets is used)</real>
+<real key="ammo_rockets" name="ammo_rockets">initial rockets of the weapon (if unset, .count or g_balance_hagar_pickup_ammo is used)</real>
+<integer key="count" name="Ammo Given">number of primary shots worth of ammo given to the player when this item is picked up</integer>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
@@ -1586,7 +1610,8 @@ the Hagar
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
 <string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
-<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
+<target key="target" name="Target">Picking up the item will trigger the entity this points to.</target>
+<targetname key="targetname" name="targetname">when targeted and with the TARGETED spawnflag set this item will be given to the activator; when this field is set and the TARGETED spawnflag isn't set this item won't appear unless it's activated and a target_give entity can give it to players without activating it, like in Q3</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
 <flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
@@ -1607,7 +1632,8 @@ in your mapinfo file, everyone will already spawn with one, making this pickup u
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
 <string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
-<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
+<target key="target" name="Target">Picking up the item will trigger the entity this points to.</target>
+<targetname key="targetname" name="targetname">when targeted and with the TARGETED spawnflag set this item will be given to the activator; when this field is set and the TARGETED spawnflag isn't set this item won't appear unless it's activated and a target_give entity can give it to players without activating it, like in Q3</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
 <flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
@@ -1620,7 +1646,8 @@ modeldisabled=&quot;models/weapons/g_laser.md3&quot;
 the Vortex
 In Instagib, this turns into an item_vaporizer_cells if no explicit item_vaporizer_cells have been placed.
 -------- KEYS --------
-<real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, g_pickup_cells is used)</real>
+<real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, .count or g_balance_vortex_pickup_ammo is used)</real>
+<integer key="count" name="Ammo Given">number of primary shots worth of ammo given to the player when this item is picked up</integer>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
@@ -1628,7 +1655,8 @@ In Instagib, this turns into an item_vaporizer_cells if no explicit item_vaporiz
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
 <string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
-<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
+<target key="target" name="Target">Picking up the item will trigger the entity this points to.</target>
+<targetname key="targetname" name="targetname">when targeted and with the TARGETED spawnflag set this item will be given to the activator; when this field is set and the TARGETED spawnflag isn't set this item won't appear unless it's activated and a target_give entity can give it to players without activating it, like in Q3</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
 <flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
@@ -1641,7 +1669,8 @@ modeldisabled=&quot;models/weapons/g_nex.md3&quot;
 the Devastator
 In Instagib, this turns into an item_vaporizer_cells if no explicit item_vaporizer_cells have been placed.
 -------- KEYS --------
-<real key="ammo_rockets" name="ammo_rockets">initial rockets of the weapon (if unset, g_pickup_rockets is used)</real>
+<real key="ammo_rockets" name="ammo_rockets">initial rockets of the weapon (if unset, .count or g_balance_devastator_pickup_ammo is used)</real>
+<integer key="count" name="Ammo Given">number of primary shots worth of ammo given to the player when this item is picked up</integer>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
@@ -1649,7 +1678,8 @@ In Instagib, this turns into an item_vaporizer_cells if no explicit item_vaporiz
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
 <string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
-<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
+<target key="target" name="Target">Picking up the item will trigger the entity this points to.</target>
+<targetname key="targetname" name="targetname">when targeted and with the TARGETED spawnflag set this item will be given to the activator; when this field is set and the TARGETED spawnflag isn't set this item won't appear unless it's activated and a target_give entity can give it to players without activating it, like in Q3</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
 <flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
@@ -1663,7 +1693,8 @@ the Shotgun. Note that unless you use
   settemp_for_type all g_balance_shotgun_weaponstart 0
 in your mapinfo file, everyone will already spawn with one, making this pickup useless.
 -------- KEYS --------
-<real key="ammo_shells" name="ammo_shells">initial shells of the weapon (if unset, g_pickup_shells is used)</real>
+<real key="ammo_shells" name="ammo_shells">initial shells of the weapon (if unset, .count or g_balance_shotgun_pickup_ammo is used)</real>
+<integer key="count" name="Ammo Given">number of primary shots worth of ammo given to the player when this item is picked up</integer>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
@@ -1671,7 +1702,8 @@ in your mapinfo file, everyone will already spawn with one, making this pickup u
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
 <string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
-<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
+<target key="target" name="Target">Picking up the item will trigger the entity this points to.</target>
+<targetname key="targetname" name="targetname">when targeted and with the TARGETED spawnflag set this item will be given to the activator; when this field is set and the TARGETED spawnflag isn't set this item won't appear unless it's activated and a target_give entity can give it to players without activating it, like in Q3</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
 <flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
@@ -1683,7 +1715,8 @@ modeldisabled=&quot;models/weapons/g_shotgun.md3&quot;
 <point name="weapon_machinegun" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Machine Gun
 -------- KEYS --------
-<real key="ammo_nails" name="ammo_nails">initial bullets of the weapon (if unset, g_pickup_nails is used)</real>
+<real key="ammo_nails" name="ammo_nails">initial bullets of the weapon (if unset, .count or g_balance_machinegun_pickup_ammo is used)</real>
+<integer key="count" name="Ammo Given">number of primary shots worth of ammo given to the player when this item is picked up</integer>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
@@ -1691,7 +1724,8 @@ the Machine Gun
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
 <string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
-<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
+<target key="target" name="Target">Picking up the item will trigger the entity this points to.</target>
+<targetname key="targetname" name="targetname">when targeted and with the TARGETED spawnflag set this item will be given to the activator; when this field is set and the TARGETED spawnflag isn't set this item won't appear unless it's activated and a target_give entity can give it to players without activating it, like in Q3</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
 <flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
@@ -1704,7 +1738,8 @@ modeldisabled=&quot;models/weapons/g_uzi.md3&quot;
 the Arc
 NOTE: this weapon is part of the "New Toys" and may be removed from a future version of the game. Use at your own risk.
 -------- KEYS --------
-<real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, g_pickup_cells is used)</real>
+<real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, .count or g_balance_arc_pickup_ammo is used)</real>
+<integer key="count" name="Ammo Given">number of primary shots worth of ammo given to the player when this item is picked up</integer>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
@@ -1712,7 +1747,8 @@ NOTE: this weapon is part of the "New Toys" and may be removed from a future ver
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
 <string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
-<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
+<target key="target" name="Target">Picking up the item will trigger the entity this points to.</target>
+<targetname key="targetname" name="targetname">when targeted and with the TARGETED spawnflag set this item will be given to the activator; when this field is set and the TARGETED spawnflag isn't set this item won't appear unless it's activated and a target_give entity can give it to players without activating it, like in Q3</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
 <flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
@@ -1942,7 +1978,8 @@ Makes one entity follow another. Will not work with all entities.
 Placing this entity on a map kills your cat, voids the warranty on your toaster, and makes your map an unenjoyable campers' paradise.
 the InstaGib Vortex. Always kills with one shot.
 -------- KEYS --------
-<real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, g_pickup_cells is used)</real>
+<real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, .count or g_balance_vaporizer_pickup_ammo is used)</real>
+<integer key="count" name="Ammo Given">number of primary shots worth of ammo given to the player when this item is picked up</integer>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
@@ -1950,7 +1987,8 @@ the InstaGib Vortex. Always kills with one shot.
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
 <string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
-<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
+<target key="target" name="Target">Picking up the item will trigger the entity this points to.</target>
+<targetname key="targetname" name="targetname">when targeted and with the TARGETED spawnflag set this item will be given to the activator; when this field is set and the TARGETED spawnflag isn't set this item won't appear unless it's activated and a target_give entity can give it to players without activating it, like in Q3</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
 <flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
@@ -1970,7 +2008,8 @@ Portals cannot be made on noimpact surfaces, and the portal missile will bounce 
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
 <string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
-<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
+<target key="target" name="Target">Picking up the item will trigger the entity this points to.</target>
+<targetname key="targetname" name="targetname">when targeted and with the TARGETED spawnflag set this item will be given to the activator; when this field is set and the TARGETED spawnflag isn't set this item won't appear unless it's activated and a target_give entity can give it to players without activating it, like in Q3</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
 <flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
@@ -2158,7 +2197,8 @@ Relays the trigger event if a cvar is set to a specified value.
 the Heavy Laser Assault Cannon.
 NOTE: this weapon is part of the "New Toys" and may be removed from a future version of the game. Use at your own risk.
 -------- KEYS --------
-<real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, g_pickup_cells is used)</real>
+<real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, .count or g_balance_hlac_pickup_ammo is used)</real>
+<integer key="count" name="Ammo Given">number of primary shots worth of ammo given to the player when this item is picked up</integer>
 <real key="respawntime" name="respawntime">time till it respawns (default: 30)</real>
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
@@ -2166,7 +2206,8 @@ NOTE: this weapon is part of the "New Toys" and may be removed from a future ver
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
 <string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
-<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
+<target key="target" name="Target">Picking up the item will trigger the entity this points to.</target>
+<targetname key="targetname" name="targetname">when targeted and with the TARGETED spawnflag set this item will be given to the activator; when this field is set and the TARGETED spawnflag isn't set this item won't appear unless it's activated and a target_give entity can give it to players without activating it, like in Q3</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
 <flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
@@ -2179,7 +2220,8 @@ modeldisabled=&quot;models/weapons/g_hlac.md3&quot;
 the Mine Layer.
 NOTE: this weapon is part of the "New Toys" and may be removed from a future version of the game. Use at your own risk.
 -------- KEYS --------
-<real key="ammo_rockets" name="ammo_rockets">initial rockets of the weapon (if unset, g_pickup_rockets is used)</real>
+<real key="ammo_rockets" name="ammo_rockets">initial rockets of the weapon (if unset, .count or g_balance_minelayer_pickup_ammo is used)</real>
+<integer key="count" name="Ammo Given">number of primary shots worth of ammo given to the player when this item is picked up</integer>
 <real key="respawntime" name="respawntime">time till it respawns (default: 30)</real>
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
@@ -2187,7 +2229,8 @@ NOTE: this weapon is part of the "New Toys" and may be removed from a future ver
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
 <string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
-<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
+<target key="target" name="Target">Picking up the item will trigger the entity this points to.</target>
+<targetname key="targetname" name="targetname">when targeted and with the TARGETED spawnflag set this item will be given to the activator; when this field is set and the TARGETED spawnflag isn't set this item won't appear unless it's activated and a target_give entity can give it to players without activating it, like in Q3</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
 <flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
@@ -2201,7 +2244,8 @@ Placing this entity on a map kills your dog, voids the warranty on your car, and
 the T.A.G. Seeker.
 NOTE: this weapon is part of the "New Toys" and may be removed from a future version of the game. Use at your own risk.
 -------- KEYS --------
-<real key="ammo_rockets" name="ammo_rockets">initial rockets of the weapon (if unset, g_pickup_rockets is used)</real>
+<real key="ammo_rockets" name="ammo_rockets">initial rockets of the weapon (if unset, .count or g_balance_seeker_pickup_ammo is used)</real>
+<integer key="count" name="Ammo Given">number of primary shots worth of ammo given to the player when this item is picked up</integer>
 <real key="respawntime" name="respawntime">time till it respawns (default: 30)</real>
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
@@ -2209,7 +2253,8 @@ NOTE: this weapon is part of the "New Toys" and may be removed from a future ver
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
 <string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
-<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
+<target key="target" name="Target">Picking up the item will trigger the entity this points to.</target>
+<targetname key="targetname" name="targetname">when targeted and with the TARGETED spawnflag set this item will be given to the activator; when this field is set and the TARGETED spawnflag isn't set this item won't appear unless it's activated and a target_give entity can give it to players without activating it, like in Q3</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
 <flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
@@ -2221,7 +2266,8 @@ modeldisabled=&quot;models/weapons/g_seeker.md3&quot;
 <point name="weapon_hook" color="1 0 .5" box="-30 -30 0 30 30 48">
 the on-hand Grappling Hook.
 -------- KEYS --------
-<real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, g_pickup_cells is used)</real>
+<real key="ammo_cells" name="ammo_cells">initial cells of the weapon (if unset, .count or g_balance_hook_pickup_ammo is used)</real>
+<integer key="count" name="Ammo Given">number of primary shots worth of ammo given to the player when this item is picked up</integer>
 <real key="respawntime" name="respawntime">time till it respawns (default: 30)</real>
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
@@ -2229,7 +2275,8 @@ the on-hand Grappling Hook.
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
 <string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
-<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
+<target key="target" name="Target">Picking up the item will trigger the entity this points to.</target>
+<targetname key="targetname" name="targetname">when targeted and with the TARGETED spawnflag set this item will be given to the activator; when this field is set and the TARGETED spawnflag isn't set this item won't appear unless it's activated and a target_give entity can give it to players without activating it, like in Q3</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
 <flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
@@ -2264,7 +2311,8 @@ Target version of trigger_heal. Heals the activator.
 the Sniper Rifle.
 NOTE: this weapon is part of the "New Toys" and may be removed from a future version of the game. Use at your own risk.
 -------- KEYS --------
-<real key="ammo_nails" name="ammo_nails">initial bullets of the weapon (if unset, g_pickup_nails is used)</real>
+<real key="ammo_nails" name="ammo_nails">initial bullets of the weapon (if unset, .count or g_balance_rifle_pickup_ammo is used)</real>
+<integer key="count" name="Ammo Given">number of primary shots worth of ammo given to the player when this item is picked up</integer>
 <real key="respawntime" name="respawntime">time till it respawns (default: 30)</real>
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
@@ -2272,7 +2320,8 @@ NOTE: this weapon is part of the "New Toys" and may be removed from a future ver
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
 <string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
-<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
+<target key="target" name="Target">Picking up the item will trigger the entity this points to.</target>
+<targetname key="targetname" name="targetname">when targeted and with the TARGETED spawnflag set this item will be given to the activator; when this field is set and the TARGETED spawnflag isn't set this item won't appear unless it's activated and a target_give entity can give it to players without activating it, like in Q3</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
 <flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
@@ -2536,6 +2585,8 @@ Jetpack fuel
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
+<target key="target" name="Target">Picking up the item will trigger the entity this points to.</target>
+<targetname key="targetname" name="targetname">when targeted and with the TARGETED spawnflag set this item will be given to the activator; when this field is set and the TARGETED spawnflag isn't set this item won't appear unless it's activated and a target_give entity can give it to players without activating it, like in Q3</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
@@ -2549,6 +2600,8 @@ Fuel regenerator
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
 <real key="cnt" name="cnt">weight of this item for random selection using &quot;team&quot;. Set to a lower value for items you want to see less likely.</real>
+<target key="target" name="Target">Picking up the item will trigger the entity this points to.</target>
+<targetname key="targetname" name="targetname">when targeted and with the TARGETED spawnflag set this item will be given to the activator; when this field is set and the TARGETED spawnflag isn't set this item won't appear unless it's activated and a target_give entity can give it to players without activating it, like in Q3</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
 -------- MODEL FOR RADIANT ONLY - DO NOT SET THIS AS A KEY --------
@@ -2558,7 +2611,8 @@ modeldisabled=&quot;models/items/g_fuelregen.md3&quot;
 <point name="item_jetpack" color=".3 .3 1" box="-30 -30 0 30 30 48">
 Jetpack
 -------- KEYS --------
-<real key="ammo_fuel" name="ammo_fuel">fuel units gained by this item (if unset, g_pickup_fuel_jetpack is used)</real>
+<real key="ammo_fuel" name="ammo_fuel">fuel units gained by this item (if unset, .count or g_pickup_fuel_jetpack is used)</real>
+<integer key="count" name="Fuel Given">seconds worth of fuel given to the player when this item is picked up</integer>
 <real key="respawntime" name="respawntime">time till it respawns (default: 120)</real>
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
@@ -2566,7 +2620,8 @@ Jetpack
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
 <string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
-<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
+<target key="target" name="Target">Picking up the item will trigger the entity this points to.</target>
+<targetname key="targetname" name="targetname">when targeted and with the TARGETED spawnflag set this item will be given to the activator; when this field is set and the TARGETED spawnflag isn't set this item won't appear unless it's activated and a target_give entity can give it to players without activating it, like in Q3</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
 <flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
@@ -2604,7 +2659,6 @@ Triggers targets when a given magic word has been said
 <point name="weapon_fireball" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Fireball
 -------- KEYS --------
-<real key="ammo_rockets" name="ammo_rockets">initial rockets of the weapon (if unset, g_pickup_rockets is used)</real>
 <real key="respawntime" name="respawntime">time till it respawns (default: 15)</real>
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
 <integer key="team" name="team">out of items with the same value here, only one (random one) will spawn. Useful to put multiple items on one spot.</integer>
@@ -2612,7 +2666,8 @@ the Fireball
 <string key="item_pickupsound" name="item_pickupsound">sound played when the item is collected, leave blank to use the item's regular sound</string>
 <string key="model" name="model">model to use, leave blank to use the item's regular model</string>
 <real key="skin" name="skin">number of skin to load</real>
-<targetname key="targetname" name="targetname">when targeted and with TARGETED spawnflag set item will be given to the activator</targetname>
+<target key="target" name="Target">Picking up the item will trigger the entity this points to.</target>
+<targetname key="targetname" name="targetname">when targeted and with the TARGETED spawnflag set this item will be given to the activator; when this field is set and the TARGETED spawnflag isn't set this item won't appear unless it's activated and a target_give entity can give it to players without activating it, like in Q3</targetname>
 -------- SPAWNFLAGS --------
 <flag key="FLOATING" name="FLOATING" bit="0">the item will float in air, instead of aligning to the floor by falling</flag>
 <flag key="TARGETED" name="TARGETED" bit="4">with this spawnflag set, the item will be collected when triggered</flag>
@@ -3051,7 +3106,7 @@ There are 2 ways to use this entity.
 a) Automatically give items to players when they spawn in the game: Make a spawn location entity like info_player_deathmatch or CTF respawn points target this entity, then make it target the item(s) to give to the player upon respawn.
 b) Give items to players during the game: Make a trigger_multiple target this entity, then make it target the item(s) to give to the player when the trigger is touched.
 
-See also: target_items
+Compared to target_items this allows more robust weapon ammo control by setting the .count field on targeted weapon(s): if the ammo per shot cvar is changed players are still given .count shots, and in case the weapon's ammo type is changed they'll be given the new type. It's also more efficient on CPU time than target_items.
 </point>
 
 </classes>
