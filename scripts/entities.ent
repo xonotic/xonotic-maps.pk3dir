@@ -272,6 +272,7 @@ grab a trigger brush and put it in front of the part that you want the player to
 <group name="func_plat" color="0 .5 .8">
 Rising platform the player can ride to reach higher places. Plats must always be drawn in the raised position, so they will operate and be lighted correctly but they spawn in the lowered position. The plat will stay in the raised position until the player steps off.
 -------- KEYS --------
+<real key="wait" name="raised time">Negative values prevent the plat being held up forever by a player on top, instead the plat always goes down after that many (absolute) seconds at the top, this behaviour is from CPMA. Positive values change how long it stays up without a player on top, default 1.</real>
 <real key="speed" name="speed">determines how fast the plat moves (default 150).</real>
 <real key="platmovetype" name="platmovetype">movement type (1 = linear, 2 = cosine [default])</real>
 <real key="lip" name="lip">lip remaining at end of move (default 16). Has no effect if &quot;height&quot; is set.</real>
