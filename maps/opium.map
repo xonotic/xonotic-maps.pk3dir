@@ -31455,12 +31455,6 @@ brushDef
 "angle" "-99.672287"
 }
 {
-"classname" "light"
-"origin" "608.000000 -512.000000 -128.000000"
-"light" "60"
-"_color" "0.83537 0.916869 0.929274"
-}
-{
 "classname" "func_rotating"
 "speed" "600"
 {
@@ -33754,12 +33748,6 @@ brushDef
 "classname" "light"
 "origin" "1024.000000 -408.000000 -368.000000"
 "light" "20"
-}
-{
-"classname" "light"
-"origin" "1024.000000 -768.000000 -240.000000"
-"light" "40"
-"_color" "0.83537 0.916869 0.929274"
 }
 {
 "classname" "dom_controlpoint"
