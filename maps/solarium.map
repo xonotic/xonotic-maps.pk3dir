@@ -22455,11 +22455,6 @@ trak5x/base-base1a
 }
 {
 "classname" "misc_model"
-"origin" "-444.000000 -2418.000000 32.000000"
-"model" "models/desertfactory/objects_plants/grass01.ase"
-}
-{
-"classname" "misc_model"
 "origin" "-147.199997 -2832.799805 76.000000"
 "model" "models/desertfactory/objects_plants/grass01.ase"
 "modelscale" "0.800000"
