@@ -32852,11 +32852,6 @@ exx/wall-metalrib01
 }
 {
 "classname" "light"
-"light" "25"
-"origin" "-1184.000000 128.000000 184.000000"
-}
-{
-"classname" "light"
 "light" "15"
 "origin" "56.000000 -528.000000 328.000000"
 }
