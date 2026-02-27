@@ -44888,3 +44888,15 @@ trak5x/base-pipe1a
 "angles" "90 -90 0"
 "target" "t250"
 }
+{
+"classname" "light"
+"origin" "896 -960 156"
+"light" "75"
+"target" "t1"
+}
+{
+"classname" "light"
+"origin" "192 -384 540"
+"light" "75"
+"target" "t3"
+}
