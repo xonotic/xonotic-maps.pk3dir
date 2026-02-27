@@ -31595,18 +31595,6 @@ exx/base-metal05rust
 }
 {
 "classname" "light"
-"origin" "128.000000 -984.000000 624.000000"
-"light" "150"
-"_color" "1 0.8 0.5"
-"target" "l_33"
-}
-{
-"classname" "target_position"
-"origin" "128.000000 -984.000000 576.000000"
-"targetname" "l_33"
-}
-{
-"classname" "light"
 "origin" "64.000000 -528.000000 640.000000"
 "light" "150"
 "_color" "1 0.8 0.5"
