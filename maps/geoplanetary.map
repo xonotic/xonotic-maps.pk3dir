@@ -43135,10 +43135,6 @@ effects_warpzone/rededge
 }
 {
 "classname" "item_health_small"
-"origin" "832.000000 -192.000000 64.000000"
-}
-{
-"classname" "item_health_small"
 "origin" "832.000000 -128.000000 64.000000"
 }
 {
@@ -44161,11 +44157,6 @@ effects_warpzone/rededge
 {
 "classname" "item_health_small"
 "origin" "-320.000000 3840.000000 64.000000"
-"angle" "180.000000"
-}
-{
-"classname" "item_health_small"
-"origin" "-320.000000 3776.000000 64.000000"
 "angle" "180.000000"
 }
 {
