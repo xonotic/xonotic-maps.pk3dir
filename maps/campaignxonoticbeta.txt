@@ -23,7 +23,7 @@
 "kh","silentsiege","8","8","600",,,"Key Hunt: Silent Siege","Key Hunt one more time! Get 600 points to win."
 "ca","bromine","5","8","5",,,"Clan Arena: Bromine","This is a round-based game mode. Self-damage is off but if you die, you have to wait for the next round. The last team with players still alive wins the round!"
 "ctf","implosion","7","8","5",,"g_jetpack 1","[Special] Capture the Flag: Implosion","Jetpack: Press Jump (default key 'space') while already in the air to use the Jetpack and enjoy flying around!"
-"as","techassault","7","8","30",,"g_campaign_forceteam 1","Assault: Techassault","You are in the attacking team and you have to destroy all objects. There will be new rooms/ways if you destroy an object."
+"as","techassault","7","8",,,"g_campaign_forceteam 1","Assault: Techassault","You are in the attacking team and you have to destroy all objects. There will be new rooms/ways if you destroy an object."
 "tmayhem","trident","7","8",,"5",,"Team Mayhem: Trident","In this game mode, you spawn with all weapons and a full health and armor stack. Self-damage is off, the team who deals the most damage and gets the most frags wins the game!"
 //"cts","courtfun","0","0","6000",,,"Race CTS: Courtfun","Race CTS (Complete the Stage) is similar to the Race mode, just that you only need to reach the finish in CTS. You have to beat it within 1 minute though."
 "ft","xoylent","5","8","5",,,"Freeze Tag: Xoylent","If you get fragged you will be frozen. You revive teammates by standing close to them for a few seconds. A round is over if an entire team is frozen."
