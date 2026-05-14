@@ -35271,10 +35271,6 @@ map_courtfun/screenanim_xon
 }
 {
 "classname" "info_player_deathmatch"
-"origin" "-4064.000000 2232.000000 136.000000"
-}
-{
-"classname" "info_player_deathmatch"
 "origin" "-4672.000000 1960.000000 136.000000"
 "target" "blueside1"
 }

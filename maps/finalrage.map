@@ -15345,13 +15345,6 @@ decals/splatter01
 "spawnflags" "2"
 }
 {
-"classname" "misc_model"
-"origin" "863.750000 -448.000000 32.000000"
-"model" "models/lights/xonlight04.md3"
-"angle" "90.000000"
-"spawnflags" "2"
-}
-{
 "classname" "light"
 "origin" "560.000000 -672.000000 304.000000"
 "light" "75"
@@ -15636,16 +15629,6 @@ decals/splatter01
 "origin" "-96.000000 -224.000000 -80.000000"
 "light" "75"
 "_color" "0 0 1.0"
-}
-{
-"classname" "light"
-"light" "35"
-"origin" "340 -64 428"
-}
-{
-"classname" "info_null"
-"targetname" "t5"
-"origin" "332 -64 420"
 }
 {
 "classname" "light"

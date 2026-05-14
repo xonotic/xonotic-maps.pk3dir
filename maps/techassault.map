@@ -8394,30 +8394,6 @@ exx/wall-bigrib02
 ( -512 320 16 ) ( -512 256 0 ) ( -512 320 0 ) exx/trim-baseboard02 0 0 -90 0.25 -0.25 0 0 0
 }
 {
-( 1344 -288 224 ) ( 1344 -608 224 ) ( 1280 -608 224 ) common/caulk -0 0 0 0.25 -0.25 0 0 0
-( 1344 -576 192 ) ( 1280 -608 224 ) ( 1344 -608 224 ) common/caulk -0 0 0 0.25 -0.25 0 0 0
-( 1344 -320 200 ) ( 1344 -576 192 ) ( 1344 -576 200 ) exx/trim-baseboard02 -0 0 0 -0.25 0.25 0 0 0
-( 1280 -576 192 ) ( 1344 -320 192 ) ( 1280 -320 192 ) exx/trim-psimple05 -0 0 0 0.25 -0.25 0 0 0
-( 1344 -320 192 ) ( 1344 -288 224 ) ( 1280 -288 224 ) common/caulk -0 0 0 0.25 -0.25 0 0 0
-( 1280 -320 200 ) ( 1280 -576 192 ) ( 1280 -320 192 ) exx/trim-baseboard02 -0 0 0 -0.25 0.25 0 0 0
-}
-{
-( 1280 -320 192 ) ( 1280 -288 224 ) ( 1344 -288 224 ) common/caulk -0 -0 0 0.25 0.25 0 0 0
-( 1344 -288 0 ) ( 1344 -288 224 ) ( 1280 -288 224 ) common/caulk -0 64 0 0.25 0.25 0 0 0
-( 1344 -256 16 ) ( 1344 -256 0 ) ( 1344 -320 16 ) exx/trim-baseboard02 0 -0 -90 0.25 0.25 0 0 0
-( 1280 -320 0 ) ( 1344 -320 0 ) ( 1280 -256 0 ) common/caulk -0 -0 0 0.25 0.25 0 0 0
-( 1280 -320 0 ) ( 1280 -320 16 ) ( 1344 -320 0 ) exx/trim-psimple05 -0 64 0 0.25 0.25 0 0 0
-( 1280 -320 0 ) ( 1280 -256 0 ) ( 1280 -320 16 ) exx/trim-baseboard02 0 -0 -90 0.25 0.25 0 0 0
-}
-{
-( 1344 -576 192 ) ( 1344 -608 224 ) ( 1280 -608 224 ) common/caulk -0 0 0 0.25 -0.25 0 0 0
-( 1344 -608 0 ) ( 1280 -608 224 ) ( 1344 -608 224 ) common/caulk -0 64 0 0.25 0.25 0 0 0
-( 1344 -576 16 ) ( 1344 -640 0 ) ( 1344 -640 16 ) exx/trim-baseboard02 0 0 -90 0.25 -0.25 0 0 0
-( 1280 -640 0 ) ( 1344 -576 0 ) ( 1280 -576 0 ) common/caulk -0 0 0 0.25 -0.25 0 0 0
-( 1344 -576 0 ) ( 1280 -576 16 ) ( 1280 -576 0 ) exx/trim-psimple05 -0 64 0 0.25 0.25 0 0 0
-( 1280 -576 16 ) ( 1280 -640 0 ) ( 1280 -576 0 ) exx/trim-baseboard02 0 0 -90 0.25 -0.25 0 0 0
-}
-{
 ( -512 -288 224 ) ( -448 -288 224 ) ( -448 -608 224 ) common/caulk -0 0 0 0.25 0.25 0 0 0
 ( -448 -288 224 ) ( -512 -288 224 ) ( -448 -320 192 ) common/caulk -0 0 0 0.25 0.25 0 0 0
 ( -448 -320 200 ) ( -448 -320 192 ) ( -448 -576 200 ) exx/trim-baseboard02 0 0 0 0.25 0.25 0 0 0
@@ -19662,30 +19638,6 @@ trak5x/base-pipe1b
 ( 832 320 192 ) ( 832 576 192 ) ( 832 320 200 ) exx/trim-baseboard02 -0 0 0 0.25 0.25 0 0 0
 }
 {
-( 1344 608 224 ) ( 1344 288 224 ) ( 1280 288 224 ) common/caulk 0 -0 0 0.25 -0.25 0 0 0
-( 1344 320 192 ) ( 1280 288 224 ) ( 1344 288 224 ) common/caulk 0 -0 0 0.25 -0.25 0 0 0
-( 1344 576 200 ) ( 1344 320 192 ) ( 1344 320 200 ) exx/trim-baseboard02 0 0 0 -0.25 0.25 0 0 0
-( 1280 320 192 ) ( 1344 576 192 ) ( 1280 576 192 ) exx/trim-psimple05 0 -0 0 0.25 -0.25 0 0 0
-( 1344 576 192 ) ( 1344 608 224 ) ( 1280 608 224 ) common/caulk 0 -0 0 0.25 -0.25 0 0 0
-( 1280 576 200 ) ( 1280 320 192 ) ( 1280 576 192 ) exx/trim-baseboard02 0 0 0 -0.25 0.25 0 0 0
-}
-{
-( 1280 576 192 ) ( 1280 608 224 ) ( 1344 608 224 ) common/caulk 0 0 0 0.25 0.25 0 0 0
-( 1344 608 0 ) ( 1344 608 224 ) ( 1280 608 224 ) common/caulk 0 64 0 0.25 0.25 0 0 0
-( 1344 640 16 ) ( 1344 640 0 ) ( 1344 576 16 ) exx/trim-baseboard02 512 0 -90 0.25 0.25 0 0 0
-( 1280 576 0 ) ( 1344 576 0 ) ( 1280 640 0 ) common/caulk 0 0 0 0.25 0.25 0 0 0
-( 1280 576 0 ) ( 1280 576 16 ) ( 1344 576 0 ) exx/trim-psimple05 0 64 0 0.25 0.25 0 0 0
-( 1280 576 0 ) ( 1280 640 0 ) ( 1280 576 16 ) exx/trim-baseboard02 512 0 -90 0.25 0.25 0 0 0
-}
-{
-( 1344 320 192 ) ( 1344 288 224 ) ( 1280 288 224 ) common/caulk 0 -0 0 0.25 -0.25 0 0 0
-( 1344 288 0 ) ( 1280 288 224 ) ( 1344 288 224 ) common/caulk 0 64 0 0.25 0.25 0 0 0
-( 1344 320 16 ) ( 1344 256 0 ) ( 1344 256 16 ) exx/trim-baseboard02 512 -0 -90 0.25 -0.25 0 0 0
-( 1280 256 0 ) ( 1344 320 0 ) ( 1280 320 0 ) common/caulk 0 -0 0 0.25 -0.25 0 0 0
-( 1344 320 0 ) ( 1280 320 16 ) ( 1280 320 0 ) exx/trim-psimple05 0 64 0 0.25 0.25 0 0 0
-( 1280 320 16 ) ( 1280 256 0 ) ( 1280 320 0 ) exx/trim-baseboard02 512 -0 -90 0.25 -0.25 0 0 0
-}
-{
 ( 576 192 0 ) ( 704 -384 0 ) ( 576 -384 0 ) exx/floor-panel01 248 -0 0 -0.25 0.25 0 0 0
 ( 576 192 -16 ) ( 576 -384 -16 ) ( 704 -384 -16 ) common/caulk 224 -0 -90 0.25 0.25 0 0 0
 ( 512 256 -128 ) ( 768 256 -128 ) ( 512 256 0 ) common/caulk 0 0 0 0.25 0.25 0 0 0
@@ -23018,7 +22970,6 @@ exx/base-crete03
 "classname" "info_null"
 "origin" "2400.000000 1104.000000 352.000000"
 "targetname" "infonulllight23"
-"target" "light1"
 }
 {
 "classname" "light"
@@ -23035,7 +22986,6 @@ exx/base-crete03
 "classname" "info_null"
 "origin" "2944.000000 1104.000000 352.000000"
 "targetname" "infonulllight2"
-"target" "light3"
 }
 {
 "classname" "light"
@@ -23745,7 +23695,6 @@ exx/base-crete03
 "classname" "info_null"
 "origin" "2400.000000 -1104.000000 352.000000"
 "targetname" "infonulllight27"
-"target" "light16"
 "angle" "-179.999985"
 }
 {
@@ -23763,7 +23712,6 @@ exx/base-crete03
 "classname" "info_null"
 "origin" "2944.000000 -1104.000000 352.000000"
 "targetname" "infonulllight28"
-"target" "light17"
 "angle" "-179.999985"
 }
 {
@@ -23781,7 +23729,6 @@ exx/base-crete03
 "classname" "info_null"
 "origin" "1840.000000 -736.000000 352.000000"
 "targetname" "infonulllight30"
-"target" "light18"
 "angle" "90.000015"
 }
 {
@@ -23799,7 +23746,6 @@ exx/base-crete03
 "classname" "info_null"
 "origin" "1840.000000 -160.000000 352.000000"
 "targetname" "infonulllight31"
-"target" "light19"
 "angle" "90.000015"
 }
 {
@@ -23817,7 +23763,6 @@ exx/base-crete03
 "classname" "info_null"
 "origin" "1840.000000 160.000000 352.000000"
 "targetname" "infonulllight32"
-"target" "light20"
 "angle" "90.000015"
 }
 {
@@ -23835,7 +23780,6 @@ exx/base-crete03
 "classname" "info_null"
 "origin" "1840.000000 736.000000 352.000000"
 "targetname" "infonulllight33"
-"target" "light21"
 "angle" "90.000015"
 }
 {
@@ -23853,7 +23797,6 @@ exx/base-crete03
 "classname" "info_null"
 "origin" "3728.000000 736.000000 352.000000"
 "targetname" "infonulllight34"
-"target" "light22"
 "angle" "-90.000000"
 }
 {
@@ -23871,7 +23814,6 @@ exx/base-crete03
 "classname" "info_null"
 "origin" "3728.000000 160.000000 352.000000"
 "targetname" "infonulllight35"
-"target" "light23"
 "angle" "-90.000000"
 }
 {
@@ -23889,7 +23831,6 @@ exx/base-crete03
 "classname" "info_null"
 "origin" "3728.000000 -160.000000 352.000000"
 "targetname" "infonulllight36"
-"target" "light24"
 "angle" "-90.000000"
 }
 {
@@ -23907,7 +23848,6 @@ exx/base-crete03
 "classname" "info_null"
 "origin" "3728.000000 -736.000000 352.000000"
 "targetname" "infonulllight37"
-"target" "light25"
 "angle" "-90.000000"
 }
 {
@@ -23925,7 +23865,6 @@ exx/base-crete03
 "classname" "info_null"
 "origin" "4192.000000 2200.000000 352.000000"
 "targetname" "infonulllight38"
-"target" "light26"
 }
 {
 "classname" "light"
@@ -23942,7 +23881,6 @@ exx/base-crete03
 "classname" "info_null"
 "origin" "4512.000000 2200.000000 352.000000"
 "targetname" "infonulllight39"
-"target" "light27"
 }
 {
 "classname" "light"
@@ -23959,7 +23897,6 @@ exx/base-crete03
 "classname" "info_null"
 "origin" "4896.000000 2200.000000 352.000000"
 "targetname" "infonulllight40"
-"target" "light28"
 }
 {
 "classname" "light"
@@ -23976,7 +23913,6 @@ exx/base-crete03
 "classname" "info_null"
 "origin" "5216.000000 2200.000000 352.000000"
 "targetname" "infonulllight41"
-"target" "light29"
 }
 {
 "classname" "light"
@@ -24019,7 +23955,6 @@ exx/base-crete03
 "classname" "info_null"
 "origin" "-1120.000000 -368.000000 352.000000"
 "targetname" "infonulllight4"
-"target" "light5"
 "angle" "-179.999985"
 }
 {
@@ -24037,7 +23972,6 @@ exx/base-crete03
 "classname" "info_null"
 "origin" "-1120.000000 368.000000 352.000000"
 "targetname" "infonulllight5"
-"target" "light6"
 "angle" "0.000016"
 }
 {
@@ -26256,7 +26190,6 @@ exx/base-crete03
 "classname" "info_null"
 "origin" "-848.000000 -576.000000 352.000000"
 "targetname" "infonulllight3"
-"target" "light4"
 "angle" "90.000000"
 }
 {
@@ -26274,7 +26207,6 @@ exx/base-crete03
 "classname" "info_null"
 "origin" "-848.000000 576.000000 352.000000"
 "targetname" "infonulllight54"
-"target" "light42"
 "angle" "90.000000"
 }
 {
@@ -26301,7 +26233,6 @@ exx/base-crete03
 "classname" "info_null"
 "origin" "-8.000000 -512.000000 352.000000"
 "targetname" "infonulllight50"
-"target" "light38"
 "angle" "-90.000000"
 }
 {
@@ -26319,7 +26250,6 @@ exx/base-crete03
 "classname" "info_null"
 "origin" "-8.000000 -192.000000 352.000000"
 "targetname" "infonulllight51"
-"target" "light39"
 "angle" "-90.000000"
 }
 {
@@ -26337,7 +26267,6 @@ exx/base-crete03
 "classname" "info_null"
 "origin" "-8.000000 192.000000 352.000000"
 "targetname" "infonulllight52"
-"target" "light40"
 "angle" "-90.000000"
 }
 {
@@ -26355,7 +26284,6 @@ exx/base-crete03
 "classname" "info_null"
 "origin" "-8.000000 512.000000 352.000000"
 "targetname" "infonulllight53"
-"target" "light41"
 "angle" "-90.000000"
 }
 {
@@ -26437,7 +26365,6 @@ exx/base-crete03
 "classname" "info_null"
 "origin" "200.000000 512.000000 352.000000"
 "targetname" "infonulllight46"
-"target" "light34"
 "angle" "90.000015"
 }
 {
@@ -26450,7 +26377,6 @@ exx/base-crete03
 "classname" "info_null"
 "origin" "200.000000 192.000000 352.000000"
 "targetname" "infonulllight47"
-"target" "light35"
 "angle" "90.000015"
 }
 {
@@ -26463,7 +26389,6 @@ exx/base-crete03
 "classname" "info_null"
 "origin" "200.000000 -192.000000 352.000000"
 "targetname" "infonulllight48"
-"target" "light36"
 "angle" "90.000015"
 }
 {
@@ -26476,7 +26401,6 @@ exx/base-crete03
 "classname" "info_null"
 "origin" "200.000000 -512.000000 352.000000"
 "targetname" "infonulllight49"
-"target" "light37"
 "angle" "90.000015"
 }
 {
@@ -26598,7 +26522,6 @@ exx/base-crete03
 "classname" "info_null"
 "origin" "4128.000000 1336.000000 352.000000"
 "targetname" "infonulllight43"
-"target" "light31"
 "angle" "0.000016"
 }
 {
@@ -26622,7 +26545,6 @@ exx/base-crete03
 "classname" "info_null"
 "origin" "4128.000000 1544.000000 352.000000"
 "targetname" "infonulllight44"
-"target" "light32"
 "angle" "-179.999985"
 }
 {
@@ -26640,7 +26562,6 @@ exx/base-crete03
 "classname" "info_null"
 "origin" "5280.000000 1336.000000 352.000000"
 "targetname" "infonulllight56"
-"target" "light32"
 "angle" "0.000016"
 }
 {
@@ -26652,7 +26573,6 @@ exx/base-crete03
 "classname" "info_null"
 "origin" "5280.000000 1544.000000 352.000000"
 "targetname" "infonulllight55"
-"target" "light31"
 "angle" "-179.999985"
 }
 {
@@ -26671,7 +26591,6 @@ exx/base-crete03
 "classname" "info_null"
 "origin" "4704.000000 1336.000000 352.000000"
 "targetname" "infonulllight45"
-"target" "light33"
 "angle" "0.000016"
 }
 {
@@ -26683,7 +26602,6 @@ exx/base-crete03
 "classname" "info_null"
 "origin" "4704.000000 1568.000000 352.000000"
 "targetname" "infonulllight42"
-"target" "light30"
 "angle" "-179.999985"
 }
 {
