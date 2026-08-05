@@ -1311,18 +1311,24 @@ Aiming target for entities like light and trigger_push.
 
 <point name="target_speaker" color="0 .7 .7" box="-8 -8 -8 8 8 8">
 Sound generating entity that plays sound files.
-If targeted, it plays the sound file every time when triggered.
-If not targeted, it loops the sound file as an ambient noise.
+If targeted, it plays the sound file every time when triggered, or toggles looping.
+If not targeted and not using the "wait" and "random" keys, it loops the sound file as an ambient noise.
 The sound name may also be of the form *soundname, and in that case the respective player sound is played
 -------- KEYS --------
 <sound key="noise" name="noise">path/name of .wav/.ogg file to play</sound>
+<real key="wait" name="wait">delay in seconds between each time the sound is played ("random" key must be set - see notes)</real>
+<real key="random" name="random">random time variance in seconds added or subtracted from "wait" delay ("wait" key must be set - see notes)</real>
 <targetname key="targetname" name="targetname">the activating button or trigger points to this.</targetname>
-<real key="atten" name="atten">distance attenuation of the sound (a value from 0.1 to 3.9), default is 0.5 if targeted, 3 otherwise; set to -1 for no attenuation (global sound)</real>
+<real key="atten" name="atten">distance attenuation of the sound (a value from 0.1 to 3.9), default is 0.5 if targeted, 2 otherwise; set to -1 for no attenuation (global sound)</real>
 <real key="volume" name="volume">volume of the sound</real>
 -------- SPAWNFLAGS --------
 <flag key="LOOPED_ON" name="LOOPED_ON" bit="0">the sound is looped and initially plays (the sound file MUST have the LOOP_START vorbis comment then!). It can be toggled by a trigger.</flag>
 <flag key="LOOPED_OFF" name="LOOPED_OFF" bit="1">the sound is looped and initially does not play (the sound file MUST have the LOOP_START vorbis comment then!). It can be toggled by a trigger.</flag>
-<flag key="ACTIVATOR" name="ACTIVATOR" bit="3">the sound is played to the activator only when triggered (cannot be combined with LOOPED_ON and LOOPED_OFF)</flag>
+<flag key="ACTIVATOR" name="ACTIVATOR" bit="3">the sound is played on the player who activated this target (cannot be combined with LOOPED_ON and LOOPED_OFF)</flag>
+-------- NOTES --------
+The path portion value of the "noise" key can be replaced by the implicit folder character "*" for triggered sounds that belong to a particular player model. For example, if you want to create a "bottomless pit" in which the player screams before dying when he falls in, you would place a trigger_multiple over the floor of the pit and target a target_speaker with it. Then, you would set the "noise" key to "*falling" (Xonotic registered sound) or "*falling1.wav" (Q3 compat filename). The * character means the current player model's sound. This cool feature provides an excellent way to create "player-specific" triggered sounds in your levels.
+
+The combination of the "wait" and "random" keys can be used to play non-looping sounds without requiring an activating trigger but both keys must be used together. The value of the "random" key is used to calculate a minimum and a maximum delay. The final time delay will be a random value anywhere between the minimum and maximum values: (min delay = wait - random) (max delay = wait + random).
 </point>
 
 <point name="invasion_spawnpoint" color="1 0.5 0" box="-16 -16 -24 16 16 45">
@@ -1332,6 +1338,12 @@ Monster spawnpoint for Invasion
 <target key="target2" name="target2">spawned monster will follow this target</target>
 <integer key="target_range" name="target_range">maximum targeting range for the spawned monster</integer>
 <integer key="team" name="team">team that the monster will join if teamplay (5 = red, 14 = blue, etc)</integer>
+</point>
+
+<point name="trigger_always" color=".5 .5 .5" box="-8 -8 -8 8 8 8">
+Automatic trigger. It will fire the entities it targets as soon as it spawns in the game.
+-------- KEYS --------
+<target key="target" name="Target">This points to the entity to activate.</target>
 </point>
 
 <point name="trigger_counter" color=".5 .5 .5" box="-8 -8 -8 8 8 8">
@@ -1357,8 +1369,10 @@ After the counter has been triggered &quot;count&quot; times, it will fire all o
 
 <point name="trigger_delay" color=".5 .5 .5" box="-8 -8 -8 8 8 8">
 Trigger that delays triggering by a given amount of time. Only one action can be waited for; if triggered again before the &quot;wait&quot; time expires, the timer will restart (as opposed to trigger_relay).
+In Q3 this is called target_delay.
 -------- KEYS --------
 <real key="wait" name="wait">delay the triggering by the given time</real>
+<real key="random" name="random">random time variance in seconds added or subtracted from "wait" delay (default 0 - see notes)</real>
 <real key="trigger_reverse" name="trigger_reverse">open &quot;func_door_rotating&quot; with &quot;BIDIR&quot; in reverse direction</real>
 <target key="target" name="target">trigger all entities with this targetname when triggered</target>
 <target key="target2" name="target2">trigger all entities with this targetname when triggered</target>
@@ -1367,6 +1381,8 @@ Trigger that delays triggering by a given amount of time. Only one action can be
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
 <string key="message" name="message">print this message to the player who activated the trigger</string>
 <target key="killtarget" name="killtarget">remove all entities with this targetname when triggered</target>
+-------- NOTES --------
+When the random key is set, its value is used to calculate a minimum and a maximum delay. The final time delay will be a random value anywhere between the minimum and maximum values: (min delay = wait - random) (max delay = wait + random).
 </point>
 
 <group name="trigger_hurt" color=".5 .5 .5">
@@ -1379,6 +1395,8 @@ Has the useful effect of automatically returning flags, keys and runes when they
 <integer key="team" name="team">team that gets hurt (5 = red, 14 = blue, etc) (when set, only this team can get hurt)</integer>
 <targetname key="targetname" name="targetname">if triggered using this target name, the activator will be the one who gets the frag awarded for hurting someone using this trigger (hint: The Frag Pipe)</targetname>
 -------- SPAWNFLAGS --------
+<flag key="START_OFF" name="Start Disabled" bit="0">Needs to be triggered (toggle) for damage</flag>
+<flag key="TOGGLE" name="Toggle" bit="1">Allows trigger_hurt to be toggled on/off.</flag>
 <flag key="INVERT_TEAM" name="INVERT_TEAM" bit="2">the team that owns this will NOT get hurt when touching this</flag>
 </group>
 
@@ -1422,6 +1440,7 @@ Variable sized repeatable trigger.  Must be targeted at one or more entities.  I
 -------- KEYS --------
 <real key="health" name="health">amount of damage that has to be dealt to the trigger to activate (it then won't respond to merely touching it)</real>
 <real key="wait" name="wait">prevent triggering again for this amount of time (default: 0.2, set to -1 to wait indefinitely, or -2 to not wait at all)</real>
+<real key="random" name="random">random time variance in seconds added or subtracted from "wait" delay (default 0 - see notes)</real>
 <real key="sounds" name="sounds">1 to play misc/secret.wav, 2 to play misc/talk.wav, 3 to play misc/trigger1.wav</real>
 <sound key="noise" name="noise">path to sound file, if you want to play something else</sound>
 <real key="trigger_reverse" name="trigger_reverse">open &quot;func_door_rotating&quot; with &quot;BIDIR&quot; in reverse direction</real>
@@ -1440,6 +1459,8 @@ Variable sized repeatable trigger.  Must be targeted at one or more entities.  I
 <flag key="ALLENTS" name="ALLENTS" bit="1">the trigger responds to all entities, not just players (useful for targeting trigger_items)</flag>
 <flag key="INVERT_TEAM" name="INVERT_TEAM" bit="2">the team that owns the trigger will NOT trigger when touching this</flag>
 <flag key="NOSPLASH" name="NOSPLASH" bit="8">if set, splash damage cannot activate the trigger, only direct damage can (requires health to be set)</flag>
+-------- NOTES --------
+When the random key is set, its value is used to calculate a minimum and a maximum delay. The final time delay will be a random value anywhere between the minimum and maximum values: (min delay = wait - random) (max delay = wait + random).
 </group>
 
 <group name="trigger_once" color=".5 .5 .5">
@@ -1482,7 +1503,7 @@ Quake &quot;movedir/speed&quot; way: player will get velocity movedir * speed * 
 <point name="trigger_relay" color=".5 .5 .5" box="-8 -8 -8 8 8 8">
 This fixed size trigger cannot be touched, it can only be fired by other events. It can, like any other trigger, contain killtargets, targets, delays, and messages.
 One possible use is to trigger entities with more than one targetname on an action, e.g. a button. For this, set target of your button to foobar. Create two trigger_relay with targetname=foobar. Give one of the trigger_relay entities target=ent1, and give the other target=ent2.
-More than one &quot;trigger event&quot; can be delayed at once, as opposed to trigger_delay.
+In Q3 this is called target_relay.
 -------- KEYS --------
 <target key="target" name="target">trigger all entities with this targetname when triggered</target>
 <target key="target2" name="target2">trigger all entities with this targetname when triggered</target>
@@ -1490,7 +1511,7 @@ More than one &quot;trigger event&quot; can be delayed at once, as opposed to tr
 <target key="target4" name="target4">trigger all entities with this targetname when triggered</target>
 <boolean key="target_random" name="target_random">instead of triggering ALL matched entities, trigger ONE of them by random</boolean>
 <targetname key="targetname" name="targetname">name that identifies this entity so it can be triggered</targetname>
-<real key="delay" name="delay">delay the triggering by the given time</real>
+<real key="delay" name="delay">delay the triggering by the given time; more than one &quot;trigger event&quot; can be delayed at once, if that's not needed then trigger_delay is more straightforward and efficient</real>
 <string key="message" name="message">print this message to the player who activated the trigger</string>
 <target key="killtarget" name="killtarget">remove all entities with this targetname when triggered</target>
 </point>
@@ -1533,6 +1554,20 @@ Note that in Xonotic, teleporters preserve momentum of the player using them.
 <flag key="KEEP_SPEED" name="KEEP_SPEED" bit="1">if set, ignores g_teleport_maxspeed</flag>
 <flag key="INVERT_TEAM" name="INVERT_TEAM" bit="2">the team that owns the teleporter will NOT teleport when touching this</flag>
 </group>
+
+<point name="trigger_timer" color="0 .5 .8" box="-8 -8 -8 8 8 8">
+Time delay trigger that will continuously fire its targets after a preset time delay. The time delay can also be randomized. When triggered, the timer will toggle on/off.
+In Q3 this is called func_timer.
+-------- KEYS --------
+<real key="wait" name="wait">delay in seconds between each triggering of its targets (default 1)</real>
+<real key="random" name="random">random time variance in seconds added or subtracted from "wait" delay (default 0 - see notes)</real>
+<target key="target" name="target">this points to the entities to trigger.</target>
+<targetname key="targetname" name="targetname">a func_button or trigger that points to this will toggle the timer on/off when activated</targetname>
+-------- SPAWNFLAGS --------
+<flag key="START_ON" name="Start On" bit="0">timer will start on in the game and continuously fire its targets</flag>
+-------- NOTES --------
+When the random key is set, its value is used to calculate a minimum and a maximum delay. The final time delay will be a random value anywhere between the minimum and maximum values: (min delay = wait - random) (max delay = wait + random).
+</point>
 
 <point name="weapon_crylink" color="1 0 .5" box="-30 -30 0 30 30 48">
 the Crylink
