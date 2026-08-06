@@ -13,6 +13,6 @@ textures/skies/calm_sea
         nopicmip
         nomipmaps
 
-	q3map_sunExt 0.8 0.8 0.9 150 10 45
+	q3map_sunExt 0.8 0.8 0.9 150 60 35
 	skyparms env/calm_sea/calm_sea - -
 }
