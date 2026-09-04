@@ -689,7 +689,7 @@ modeldisabled=&quot;models/items/g_h25.md3&quot;
 
 <point name="item_health_mega" color=".9 .3 .3" box="-30 -30 0 30 30 70">
 Mega Health (default 100 health points)
-In Instagib, this randomly turns into either an invisibility, an extra lives or a speed power-up with a default respawn time of 120.
+In Instagib, this randomly turns into either an invisibility, an extra life or a speed powerup with a default respawn time of 120.
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 30)</real>
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
@@ -734,7 +734,7 @@ modeldisabled=&quot;models/items/g_h1.md3&quot;
 
 <point name="item_shield" color=".3 .3 1" box="-30 -30 0 30 30 70">
 Strong Shield
-In Instagib, this randomly turns into either an invisibility, an extra lives or a speed power-up with a default respawn time of 120.
+In Instagib, this randomly turns into either an invisibility, an extra life or a speed powerup with a default respawn time of 120.
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 120)</real>
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
@@ -804,7 +804,7 @@ The itemkeys should contain one of the following key IDs:
 32 - GREEN keycard
 Custom keys:
 ... - last key is 1&lt;&lt;23
-Keys with bigger Id than 32 don't have a default netname and model, if you use one of them, you MUST provide those.
+Keys with a bigger Id than 32 don't have a default netname and model, if you use one of them, you MUST provide those.
 -----------KEYS------------
 <color key="colormod" name="colormod">color of the key (default: '.9 .9 .9').</color>
 <real key="itemkeys" name="itemkeys">a key Id.</real>
@@ -912,7 +912,7 @@ modeldisabled=&quot;models/items/a_shells.md3&quot;
 
 <point name="item_strength" color=".3 .3 1" box="-30 -30 0 30 30 70">
 Strength aka Quad damage
-In Instagib, this randomly turns into either an invisibility, an extra lives or a speed power-up with a default respawn time of 120.
+In Instagib, this randomly turns into either an invisibility, an extra life or a speed powerup with a default respawn time of 120.
 -------- KEYS --------
 <real key="respawntime" name="respawntime">time till it respawns (default: 120)</real>
 <real key="respawntimejitter" name="respawntimejitter">respawn time randomization +/- seconds (default: 0)</real>
@@ -934,7 +934,7 @@ modeldisabled=&quot;models/items/g_strength.md3&quot;
 <point name="light" color=".65 .65 1" box="-8 -8 -8 8 8 8">
 Non-displayed point light source. The -pointscale and -scale arguments to Q3Map2 affect the brightness of these lights. The -skyscale argument affects brightness of entity sun lights.
 Maximum intensity (in a radius 16 sphere around the light): regular lights have light/256, linear lights have light/8000-16*fade.
-Falloff radius to a negligible light amount: regular lights have light have 16*sqrt(light), linear lights have light/(fade*8000).
+Falloff radius to a negligible light amount: regular lights have 16*sqrt(light), linear lights have light/(fade*8000).
 By this you see that you HAVE to specify fade for a linear light... use values below 0.01 there.
 -------- KEYS --------
 <real key="light" name="light">intensity factor (default: 300). A linear</real>
@@ -956,7 +956,7 @@ By this you see that you HAVE to specify fade for a linear light... use values b
 <point name="lightJunior" color=".65 .65 1" box="-8 -8 -8 8 8 8">
 Non-displayed point light source that JUST APPLIES TO THE LIGHT GRID. No idea what this is good for. The -pointscale and -scale arguments to Q3Map2 affect the brightness of these lights. The -skyscale argument affects brightness of entity sun lights.
 Maximum intensity (in a radius 16 sphere around the light): regular lights have light/256, linear lights have light/8000-16*fade.
-Falloff radius to a negligible light amount: regular lights have light have 16*sqrt(light), linear lights have light/(fade*8000).
+Falloff radius to a negligible light amount: regular lights have 16*sqrt(light), linear lights have light/(fade*8000).
 By this you see that you HAVE to specify fade for a linear light... use values below 0.01 there.
 -------- KEYS --------
 <real key="light" name="light">intensity factor (default: 300). A linear</real>
@@ -999,7 +999,7 @@ When the laser's target has itself target set, its targets are triggered when so
 </point>
 
 <point name="misc_model" color="1 .5 .25" box="-16 -16 -16 16 16 16">
-Generic placeholder for inserting MD3 models in game. Requires compilation of map geometry to be added to level. If the map is compiled with Q3Map2, then ASE, 3DS, OBJ and other model formats are supported.
+Generic placeholder for inserting MD3 models in game. Requires compilation of map geometry to be added to the level. If the map is compiled with Q3Map2, then ASE, 3DS, OBJ and other model formats are supported.
 -------- Q3MAP2 KEYS --------
 <model key="model" name="model">file name of model to include</model>
 <integer key="_frame" name="_frame">frame of model to include</integer>
@@ -1506,7 +1506,7 @@ Basically, it's a trigger_once that additionally updates the number of secrets f
 <target key="killtarget" name="killtarget">remove all entities with this targetname when triggered</target>
 -------- NOTES --------
 You should create a common/trigger textured brush covering the entrance to a secret room/area.
-Trigger secret can only be trigger by a player's touch and can not be a target itself.
+Trigger secret can only be triggered by a player's touch and can not be a target itself.
 </group>
 
 <group name="trigger_swamp" color=".5 .5 .5">
@@ -2867,7 +2867,7 @@ model=&quot;../xonotic-data.pk3dir/models/turrets/radiant/flac.md3&quot;
 </point>
 
 <point name="turret_mlrs" color="1 0 0" box="-32 -32 0 32 32 50">
-6 unguided rockers fired in a rapid burst.
+6 unguided rockets fired in a rapid burst.
 -------- KEYS --------
 <real key="turret_scale_damage" name="turret_scale_damage">2 = double damage, 0.5 = half</real>
 <real key="turret_scale_range" name="turret_scale_range">2 = double range, 0.5 = half</real>
@@ -3074,7 +3074,7 @@ To make a jump pad or launch ramp, place the target_position/info_notnull entity
 
 <point name="target_speed" color="1 1 0" box="-8 -8 -8 8 8 8">
 Sets the speed of the player.
-If ADD is speficied, negative values will reduce the speed.
+If ADD is specified, negative values will reduce the speed.
 -------- KEYS --------
 <targetname key="targetname" name="targetname">Activating trigger points to this.</targetname>
 <real key="speed" name="speed">Speed value to set (default: 100). A value of 0 will be interpreted as such and not as the default value.</real>
@@ -3093,8 +3093,8 @@ If LAUNCHER isn't specified the player will only be accelerated if he is moving
 while the target_speed is triggered, as the player needs a moving direction and this is
 only given when he moves. LAUNCHER will split the given speed value to the given
 directions. Note that only one of the spawnflags for each coordinate must be set. For
-example if +X and -X is active the x-direction will be ignored. The same is the case
-if whether +X nor -X is active. So if you want to accelerate the player up with 900u
+example if +X and -X are active the x-direction will be ignored. The same is the case
+if neither +X nor -X are active. So if you want to accelerate the player up with 900u
 you have to set the speed value to 900 and activate the spawnflags +Z and LAUNCHER.
 </point>
 
