@@ -1,73 +1,30 @@
-//PIPE LIQUID
+//TELEPORTER 
 
-textures/map_opium/lava0_blue_flow_pipe
+textures/map_opium/opium_teleporter_beam
 {
-	qer_editorimage textures/liquids_lava/lava0_blue.tga
-	surfaceparm lava
-	surfaceparm noimpact
-	surfaceparm trans
-	cull disable
-	//deformVertexes wave 2 sin 1 2 0.25 0.1
-	q3map_surfacelight 400
-	q3map_lightSubdivide 64
-	{
-		map textures/liquids_lava/lava0_blue.tga
-		blendfunc GL_SRC_ALPHA GL_ONE
-		tcMod scroll 0 -0.25
-	}
-}
-
-textures/map_opium/lava0_blue_flow_pipe_100
-{
-	qer_editorimage textures/liquids_lava/lava0_blue.tga
-	surfaceparm lava
-	surfaceparm noimpact
-	surfaceparm trans
-	cull disable
-	//deformVertexes wave 2 sin 1 2 0.25 0.1
-	q3map_surfacelight 100
-	q3map_lightSubdivide 64
-	{
-		map textures/liquids_lava/lava0_blue.tga
-		blendfunc GL_SRC_ALPHA GL_ONE
-		tcMod scroll 0 -0.25
-	}
-}
-
-textures/map_opium/lava0_flow_pipe_100
-{
-	qer_editorimage textures/liquids_lava/lava0.tga
-	surfaceparm lava
-	surfaceparm noimpact
-	surfaceparm trans
-	cull disable
-	//deformVertexes wave 2 sin 1 2 0.25 0.1
-	q3map_surfacelight 100
-	q3map_lightSubdivide 64
-	{
-		map textures/liquids_lava/lava0.tga
-		blendfunc GL_SRC_ALPHA GL_ONE
-		tcMod scroll 0 -0.25
-	}
-}
-
-//WIRES NONSOLID
-
-textures/map_opium/floor-simplines
-{
-	qer_editorimage textures/exx/floor/floor_simplines.tga
-	q3map_bounceScale  0.75
-	dpoffsetmapping - 1 match8 244
-	dpglossintensitymod 1.5
-	dpglossexponentmod  4
 	surfaceparm nonsolid
+	surfaceparm nomarks
+	cull none
+	q3map_surfacelight 500
 	{
-		map textures/exx/floor/floor_simplines.tga
+		map textures/map_opium/opium_teleporter_beam.jpg
+		blendfunc GL_SRC_ALPHA GL_ONE
 	}
-	{
-		map $lightmap
-		rgbGen identity
-		tcGen lightmap
-		blendfunc filter
-	}
+}
+
+//SKY 
+
+textures/map_opium/opium_heaven
+{
+	qer_editorimage textures/map_opium/opium_heaven.jpg
+	
+	surfaceparm noimpact
+	surfaceparm nolightmap
+	surfaceparm nomarks
+	surfaceparm sky
+	
+	//q3map_sun <red> <green> <blue> <intensity> <degrees> <elevation>
+	q3map_sun .3803921568627451 .7176470588235294 .9607843137254902 250 90 10
+	q3map_skylight 200 4
+	skyparms textures/map_opium/env/opium_heaven - -
 }
