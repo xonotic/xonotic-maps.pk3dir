@@ -1124,6 +1124,8 @@ The keys below actually apply to most brush entities as they are engine features
 A way to load models from a map by the engine (e.g. self-animated zym models) on client side.
 Is non-solid by default.
 -------- KEYS --------
+<model key="model" name="model">file name of model to load</model>
+<real key="skin" name="skin">number of skin to load</real>
 <real key="scale" name="scale">scale factor of the model (range: 0.0625 to 15.9375)</real>
 <real key="colormap" name="colormap">1024 + 16 * pantscolor + shirtcolor</real>
 <angles key="angles" name="angles">initial looking direction</angles>
