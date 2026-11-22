@@ -1,0 +1,11 @@
+title Basic tutorial
+description Tutorial Level 1
+author Freddy, SpiKe
+cdtrack 4
+has turrets
+gametype dm
+hidden
+settemp_for_type dm timelimit 0
+settemp_for_type dm g_balance_blaster_weaponstart 0
+settemp_for_type dm g_balance_shotgun_weaponstart 0
+clientsettemp_for_type dm hud_panel_centerprint_time 7 
